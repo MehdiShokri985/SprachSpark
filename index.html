@@ -157,26 +157,39 @@
             margin-top: 10px;
         }
 
-        .item-bottom button.play-btn {
-            background-color: #c9a204;
+        /* هماهنگی دکمه‌های Play و Delete برای تراز بهتر */
+        .item-bottom button.play-btn,
+        .item-bottom button.delete-btn {
+            background-color: #c9a204; /* رنگ دکمه Play */
             color: #2c3e50;
             border: none;
-            padding: 5px 10px;
-            border-radius: 5px;
+            padding: 8px 12px;
+            border-radius: 8px; /* گوشه‌های گردتر برای هماهنگی */
             cursor: pointer;
-            margin-top: 20px;
-            font-size: 0.90em;
+            font-size: 0.9em;
+            height: 40px; /* ارتفاع یکسان با دکمه‌های مثبت و منفی */
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* سایه مشابه */
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
         .item-bottom button.delete-btn {
-            background-color: #cc594e;
+            background-color: #cc594e; /* رنگ دکمه Delete */
             color: #ecf0f1;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px;
-            font-size: 0.90em;
+        }
+
+        .item-bottom button.play-btn:hover {
+            background-color: #f39c12;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .item-bottom button.delete-btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         .item-bottom .control-buttons {
@@ -184,22 +197,35 @@
             bottom: 10px;
             right: 10px;
             display: flex;
-            gap: 5px;
+            gap: 8px; /* فاصله بین دکمه‌ها */
+            align-items: center; /* تراز عمودی */
         }
 
         .item-bottom button.reveal-btn,
         .item-bottom button.hide-btn {
-            background-color: #00ff88;
+            background: linear-gradient(135deg, #00ff88, #00cc6e); /* گرادیان رنگی */
             color: #1a252f;
             border: none;
-            padding: 5px 10px;
-            border-radius: 5px;
+            padding: 8px; /* پدینگ بیشتر برای اندازه مشابه با دکمه‌های دیگر */
+            border-radius: 8px; /* گوشه‌های گردتر */
             cursor: pointer;
-            font-size: 0.8em;
-            width: 30px;
-            text-align: center;
+            font-size: 1em; /* اندازه فونت مشابه دکمه‌های دیگر */
+            width: 40px; /* عرض ثابت برای هماهنگی */
+            height: 40px; /* ارتفاع ثابت برای هماهنگی */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* سایه ملایم */
+            transition: transform 0.2s ease, box-shadow 0.2s ease; /* انیمیشن نرم */
         }
 
+        .item-bottom button.reveal-btn:hover,
+        .item-bottom button.hide-btn:hover {
+            background: linear-gradient(135deg, #00cc6e, #00ff88); /* تغییر گرادیان در hover */
+            transform: translateY(-2px); /* حرکت به سمت بالا در hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* سایه قوی‌تر */
+        }
+        
         .item-bottom .input-text {
             margin-top: 10px;
             padding: 5px;
@@ -232,6 +258,8 @@
             opacity: 0.6;
         }
 
+
+
         @media (max-width: 600px) {
             .accordion-header .toggle-textbox-btn {
                 font-size: 0.7em;
@@ -260,6 +288,29 @@
                 width: 25px;
                 font-size: 0.7em;
                 padding: 3px;
+            }
+        }
+
+                        /* استایل برای نسخه موبایل */
+        @media (max-width: 600px) {
+            .item-bottom .control-buttons {
+                gap: 5px; /* فاصله کمتر در موبایل */
+            }
+        
+            .item-bottom button.reveal-btn,
+            .item-bottom button.hide-btn {
+                width: 35px; /* اندازه کمی کوچکتر برای موبایل */
+                height: 35px;
+                font-size: 0.9em;
+                padding: 6px;
+                border-radius: 6px;
+            }
+        
+            .item-bottom button.play-btn,
+            .item-bottom button.delete-btn {
+                height: 35px; /* ارتفاع هماهنگ در موبایل */
+                font-size: 0.8em;
+                padding: 6px 10px;
             }
         }
     </style>

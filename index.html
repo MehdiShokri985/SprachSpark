@@ -120,12 +120,10 @@
             text-align: left;
             direction: ltr;
         }
-       .item-bottom .sound {
+        .item-bottom .sound {
             font-size: 1.2em;
             color: #9bff94;
-            filter: blur(5px); /* افزودن افکت محو */
-            transition: filter 0.3s ease; /* انیمیشن برای تغییر نرم */
-            cursor: pointer; /* تغییر نشانگر ماوس به حالت کلیک‌پذیر */
+            cursor: pointer;
         }
         .item-bottom .sound.revealed {
             filter: none; /* حذف افکت محو هنگام نمایش */
@@ -221,6 +219,52 @@
                 margin: 10px 0;
             }
         }
+
+        .item-bottom .sound span {
+            filter: blur(5px);
+            transition: filter 0.3s ease;
+        }
+        
+        .item-bottom .sound span.revealed {
+            filter: none;
+        }
+        
+        .item-bottom .control-buttons {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex;
+            gap: 5px;
+        }
+        
+        .item-bottom button.reveal-btn,
+        .item-bottom button.hide-btn {
+            background-color: #00ff88;
+            color: #1a252f;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.8em;
+            width: 30px;
+            text-align: center;
+        }
+        
+        @media (hover: hover) and (pointer: fine) {
+            .item-bottom button.reveal-btn:hover,
+            .item-bottom button.hide-btn:hover {
+                background-color: #00cc6e;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .item-bottom button.reveal-btn,
+            .item-bottom button.hide-btn {
+                width: 25px;
+                font-size: 0.7em;
+                padding: 3px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -236,19 +280,38 @@
             const isSentence = /[.!?]$/.test(item.Sound_de);
             const itemDiv = document.createElement('div');
             itemDiv.classList.add('item');
+
+            // Split text into characters (for words) or words (for sentences)
+            let soundContent = '';
+            if (isSentence) {
+                const words = item.Sound_de.split(' ');
+                soundContent = words.map(word => `<span>${word}</span>`).join(' ');
+            } else {
+                const chars = item.Sound_de.split('');
+                soundContent = chars.map(char => `<span>${char}</span>`).join('');
+            }
+
             itemDiv.innerHTML = `
                 <div class="item-top">
                     <div class="filename">${item.Filename}</div>
                     <div class="translate">${item.translate_fa}</div>
                 </div>
                 <div class="item-bottom">
-                    <div class="sound ${isSentence ? 'sentence' : ''}">${item.Sound_de}</div>
+                    <div class="sound ${isSentence ? 'sentence' : ''}">${soundContent}</div>
                     <input type="text" class="input-text" placeholder="Testen Sie Ihr Schreiben.">
                     <audio src="audio/${item.file}" preload="none"></audio>
                     <button class="play-btn">Play Sound</button>
                     <button class="delete-btn">Delete</button>
+                    <div class="control-buttons">
+                        <button class="reveal-btn">+</button>
+                        <button class="hide-btn">-</button>
+                    </div>
                 </div>
             `;
+
+            // Initialize reveal/hide indices
+            itemDiv.dataset.revealIndex = '0';
+            itemDiv.dataset.hideIndex = '0';
 
             // Add event listener for play button
             const playButton = itemDiv.querySelector('.play-btn');
@@ -263,10 +326,41 @@
                 itemDiv.remove();
             });
 
-            // Add event listener for revealing sound text
+            // Add event listener for revealing/hiding sound text on click
             const soundText = itemDiv.querySelector('.sound');
             soundText.addEventListener('click', () => {
-                soundText.classList.toggle('revealed');
+                const spans = soundText.querySelectorAll('span');
+                const allRevealed = Array.from(spans).every(span => span.classList.contains('revealed'));
+                spans.forEach(span => {
+                    span.classList.toggle('revealed', !allRevealed);
+                });
+                itemDiv.dataset.revealIndex = allRevealed ? '0' : spans.length;
+                itemDiv.dataset.hideIndex = allRevealed ? '0' : spans.length;
+            });
+
+            // Add event listeners for reveal/hide buttons
+            const revealButton = itemDiv.querySelector('.reveal-btn');
+            const hideButton = itemDiv.querySelector('.hide-btn');
+            const spans = soundText.querySelectorAll('span');
+
+            revealButton.addEventListener('click', () => {
+                let revealIndex = parseInt(itemDiv.dataset.revealIndex);
+                if (revealIndex < spans.length) {
+                    spans[revealIndex].classList.add('revealed');
+                    revealIndex++;
+                    itemDiv.dataset.revealIndex = revealIndex;
+                    itemDiv.dataset.hideIndex = revealIndex;
+                }
+            });
+
+            hideButton.addEventListener('click', () => {
+                let hideIndex = parseInt(itemDiv.dataset.hideIndex);
+                if (hideIndex > 0) {
+                    hideIndex--;
+                    spans[hideIndex].classList.remove('revealed');
+                    itemDiv.dataset.revealIndex = hideIndex;
+                    itemDiv.dataset.hideIndex = hideIndex;
+                }
             });
 
             // Add event listener for input text

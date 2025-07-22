@@ -9,26 +9,29 @@
         body {
             background-color: #1a252f;
             color: #f1c40f;
-            font-family: 'Vazir', Arial, sans-serif; /* تغییر فونت */
+            font-family: 'Vazir', Arial, sans-serif;
             margin: 0;
             padding: 20px;
             direction: rtl;
         }
 
-         h1 {
+        h1 {
             text-align: center;
             color: #5b87b8;
             font-size: 2em;
             margin-bottom: 30px;
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
-            position: relative; /* نگه داشتن برای sticky headers */
+            position: relative;
         }
+
         .accordion {
             margin-bottom: 20px;
         }
+
         .accordion-header {
             background-color: #2c3e50;
             border-radius: 10px;
@@ -44,7 +47,7 @@
             top: 0;
             z-index: 10;
         }
-       /* غیرفعال کردن hover در موبایل */
+
         @media (hover: hover) and (pointer: fine) {
             .accordion-header:hover {
                 background-color: #34495e;
@@ -55,41 +58,45 @@
             .item-bottom button.delete-btn:hover {
                 background-color: #c0392b;
             }
-
+            .item-bottom button.reveal-btn:hover,
+            .item-bottom button.hide-btn:hover {
+                background-color: #00cc6e;
+            }
         }
+
         .accordion-content {
             display: none;
             padding: 10px;
             background-color: #2c3e50;
             border-radius: 6px 6px 10px 10px;
-            max-height: calc(100vh - 150px); /* تنظیم ارتفاع برای محتوا */
-            overflow-y: auto; /* فعال کردن اسکرول عمودی */
-            /* استایل‌دهی به اسکرول‌بار */
-            scrollbar-width: thin; /* عرض اسکرول‌بار در فایرفاکس */
-            scrollbar-color: #00ff88 #34495e; /* رنگ اسکرول‌بار */
+            max-height: calc(100vh - 150px);
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: #00ff88 #34495e;
         }
-        
-        /* استایل‌دهی به اسکرول‌بار در مرورگرهای مبتنی بر Webkit (کروم، سافاری) */
+
         .accordion-content::-webkit-scrollbar {
             width: 8px;
         }
-        
+
         .accordion-content::-webkit-scrollbar-track {
             background: #34495e;
             border-radius: 10px;
         }
-        
+
         .accordion-content::-webkit-scrollbar-thumb {
             background: #00ff88;
             border-radius: 10px;
         }
-        
+
         .accordion-content::-webkit-scrollbar-thumb:hover {
             background: #00cc6e;
         }
+
         .accordion-content.active {
             display: block;
         }
+
         .item {
             background-color: #34495e;
             border-radius: 10px;
@@ -99,42 +106,57 @@
             flex-direction: column;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
+
         .item-top {
             justify-content: flex-end;
             align-items: center;
             gap: 20px;
             text-align: right;
         }
+
         .item-top .filename {
             font-size: 1.1em;
             font-weight: bold;
             color: #03152f;
             margin-bottom: 10px;
         }
+
         .item-top .translate {
             font-size: 1.2em;
             color: #ecf0f1;
         }
+
         .item-bottom {
             margin-top: 20px;
             text-align: left;
             direction: ltr;
+            position: relative;
         }
+
         .item-bottom .sound {
             font-size: 1.2em;
             color: #9bff94;
             cursor: pointer;
         }
-        .item-bottom .sound.revealed {
-            filter: none; /* حذف افکت محو هنگام نمایش */
+
+        .item-bottom .sound span {
+            filter: blur(5px);
+            transition: filter 0.3s ease;
         }
+
+        .item-bottom .sound span.revealed {
+            filter: none;
+        }
+
         .item-bottom .sentence {
             font-style: italic;
             color: #3498db;
         }
+
         .item-bottom audio {
             margin-top: 10px;
         }
+
         .item-bottom button.play-btn {
             background-color: #c9a204;
             color: #2c3e50;
@@ -157,78 +179,6 @@
             font-size: 0.90em;
         }
 
-
-        .item-bottom .input-text {
-            margin-top: 10px;
-            padding: 5px;
-            font-size: 1em;
-            width: 98%;
-            border-radius: 5px;
-            border: none;
-            display: none;
-            background-color: #aed2f5;
-        }
-        .item-bottom .input-text.correct {
-            background-color: #2ecc71;
-            color: #fff;
-        }
-
-        .accordion-header .toggle-textbox-btn {
-            background-color: #00ff88; /* سبز نئونی */
-            color: #1a252f; /* رنگ متن تیره برای کنتراست */
-            border: none;
-            padding: 5px 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.9em;
-        }
-
-          .accordion-header .toggle-textbox-btn:disabled {
-            background-color: #cccccc;
-            cursor: not-allowed;
-            opacity: 0.6;
-        }
-        
-        @media (hover: hover) and (pointer: fine) {
-            .accordion-header .toggle-textbox-btn:hover:not(:disabled) {
-                background-color: #00cc6e;
-            }
-        }
-        
-       
-        @media (max-width: 600px) {
-            .accordion-header .toggle-textbox-btn {
-                font-size: 0.7em; /* کاهش اندازه فونت برای موبایل */
-                padding: 3px 6px; /* کاهش پدینگ برای دکمه کوچکتر */
-                min-width: 50px; /* عرض حداقل برای جای دادن "Text ein" و "Text aus" */
-                text-align: center; /* مرکز کردن متن */
-            }
-        }
-                
-        @media (max-width: 600px) {
-            .item-top {
-                flex-direction: column;
-                align-items: flex-end;
-            }
-            .item-bottom {
-                width: 100%;
-                text-align: left;
-                direction: ltr;
-            }
-            .item-bottom button {
-                margin: 10px 0;
-            }
-        }
-
-        .item-bottom .sound span {
-            filter: blur(5px);
-            transition: filter 0.3s ease;
-        }
-        
-        .item-bottom .sound span.revealed {
-            filter: none;
-        }
-        
         .item-bottom .control-buttons {
             position: absolute;
             bottom: 10px;
@@ -236,7 +186,7 @@
             display: flex;
             gap: 5px;
         }
-        
+
         .item-bottom button.reveal-btn,
         .item-bottom button.hide-btn {
             background-color: #00ff88;
@@ -249,15 +199,62 @@
             width: 30px;
             text-align: center;
         }
-        
-        @media (hover: hover) and (pointer: fine) {
-            .item-bottom button.reveal-btn:hover,
-            .item-bottom button.hide-btn:hover {
-                background-color: #00cc6e;
-            }
+
+        .item-bottom .input-text {
+            margin-top: 10px;
+            padding: 5px;
+            font-size: 1em;
+            width: 98%;
+            border-radius: 5px;
+            border: none;
+            display: none;
+            background-color: #aed2f5;
         }
-        
+
+        .item-bottom .input-text.correct {
+            background-color: #2ecc71;
+            color: #fff;
+        }
+
+        .accordion-header .toggle-textbox-btn {
+            background-color: #00ff88;
+            color: #1a252f;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .accordion-header .toggle-textbox-btn:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
         @media (max-width: 600px) {
+            .accordion-header .toggle-textbox-btn {
+                font-size: 0.7em;
+                padding: 3px 6px;
+                min-width: 50px;
+                text-align: center;
+            }
+
+            .item-top {
+                flex-direction: column;
+                align-items: flex-end;
+            }
+
+            .item-bottom {
+                width: 100%;
+                text-align: left;
+                direction: ltr;
+            }
+
+            .item-bottom button {
+                margin: 10px 0;
+            }
+
             .item-bottom button.reveal-btn,
             .item-bottom button.hide-btn {
                 width: 25px;

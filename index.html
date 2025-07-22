@@ -24,9 +24,7 @@
         .container {
             max-width: 800px;
             margin: 0 auto;
-            max-height: calc(100vh - 100px); /* اضافه کردن ارتفاع حداکثر */
-            overflow-y: auto; /* فعال کردن اسکرول عمودی */
-            position: relative; /* تنظیم موقعیت نسبی */
+            position: relative; /* نگه داشتن برای sticky headers */
         }
         .accordion {
             margin-bottom: 20px;
@@ -41,10 +39,10 @@
             justify-content: space-between;
             align-items: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            margin-bottom : 7px;
-            position: sticky; /* اضافه کردن موقعیت ثابت */
-            top: 0; /* چسبیدن به بالای کانتینر */
-            z-index: 10; /* اطمینان از قرار گرفتن هدر بالای محتوا */
+            margin-bottom: 7px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
        /* غیرفعال کردن hover در موبایل */
         @media (hover: hover) and (pointer: fine) {
@@ -63,7 +61,31 @@
             display: none;
             padding: 10px;
             background-color: #2c3e50;
-            border-radius:6px 6px 10px 10px;
+            border-radius: 6px 6px 10px 10px;
+            max-height: calc(100vh - 150px); /* تنظیم ارتفاع برای محتوا */
+            overflow-y: auto; /* فعال کردن اسکرول عمودی */
+            /* استایل‌دهی به اسکرول‌بار */
+            scrollbar-width: thin; /* عرض اسکرول‌بار در فایرفاکس */
+            scrollbar-color: #00ff88 #34495e; /* رنگ اسکرول‌بار */
+        }
+        
+        /* استایل‌دهی به اسکرول‌بار در مرورگرهای مبتنی بر Webkit (کروم، سافاری) */
+        .accordion-content::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        .accordion-content::-webkit-scrollbar-track {
+            background: #34495e;
+            border-radius: 10px;
+        }
+        
+        .accordion-content::-webkit-scrollbar-thumb {
+            background: #00ff88;
+            border-radius: 10px;
+        }
+        
+        .accordion-content::-webkit-scrollbar-thumb:hover {
+            background: #00cc6e;
         }
         .accordion-content.active {
             display: block;

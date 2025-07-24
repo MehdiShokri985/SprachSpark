@@ -201,9 +201,9 @@
         }
 
 
- /* range ------------------------- */
+        /* range ------------------------- */
 
-        .item-bottom input[type="range"] {
+         .item-bottom input[type="range"] {
             width: 120px; /* عرض مناسب */
             height: 8px; /* ضخامت مسیر */
             background: linear-gradient(to right, #00ff88 0%, #00ff88 0%, #34495e 0%, #34495e 100%); /* پس‌زمینه دو رنگ */
@@ -264,8 +264,9 @@
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
         }
 
- /* range ------------------------- */
 
+        /* range -------------------- */
+        
 
         .item-bottom .input-text {
             margin-top: 10px;
@@ -333,6 +334,8 @@
             .item-bottom button {
                 margin: 10px 0;
             }
+
+           
 
             .item-bottom input[type="range"] {
                 width: 120px;

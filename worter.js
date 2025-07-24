@@ -5,15 +5,6 @@ function createItem(item) {
   const itemDiv = document.createElement("div");
   itemDiv.classList.add("item");
 
-  // Split text into characters (for words) or words (for sentences)
-//   let soundContent = "";
-//   if (isSentence) {
-//     const words = item.Sound_de.split(" ");
-//     soundContent = words.map((word) => `<span>${word}</span>`).join(" ");
-//   } else {
-//     const chars = item.Sound_de.split("");
-//     soundContent = chars.map((char) => `<span>${char}</span>`).join("");
-//   }
 
    let soundContent = '';
     let maxSliderValue;
@@ -66,18 +57,6 @@ function createItem(item) {
 
   // Add event listener for revealing/hiding sound text on click
   const soundText = itemDiv.querySelector(".sound");
-//   soundText.addEventListener("click", () => {
-//     const spans = soundText.querySelectorAll("span");
-//     const allRevealed = Array.from(spans).every((span) =>
-//       span.classList.contains("revealed")
-//     );
-//     spans.forEach((span) => {
-//       span.classList.toggle("revealed", !allRevealed);
-//     });
-//     itemDiv.dataset.revealIndex = allRevealed ? "0" : spans.length;
-//     // itemDiv.dataset.hideIndex = allRevealed ? "0" : spans.length;
-//   });
-
 soundText.addEventListener('click', () => {
                 const spans = soundText.querySelectorAll('span');
                 const allRevealed = Array.from(spans).every(span => span.classList.contains('revealed'));
@@ -98,30 +77,7 @@ soundText.addEventListener('click', () => {
                 });
                 itemDiv.dataset.revealIndex = revealIndex;
             });
-  // Add event listeners for reveal/hide buttons
-//   const revealButton = itemDiv.querySelector(".reveal-btn");
-//   const hideButton = itemDiv.querySelector(".hide-btn");
-//   const spans = soundText.querySelectorAll("span");
 
-//   revealButton.addEventListener("click", () => {
-//     let revealIndex = parseInt(itemDiv.dataset.revealIndex);
-//     if (revealIndex < spans.length) {
-//       spans[revealIndex].classList.add("revealed");
-//       revealIndex++;
-//       itemDiv.dataset.revealIndex = revealIndex;
-//       itemDiv.dataset.hideIndex = revealIndex;
-//     }
-//   });
-
-//   hideButton.addEventListener("click", () => {
-//     let hideIndex = parseInt(itemDiv.dataset.hideIndex);
-//     if (hideIndex > 0) {
-//       hideIndex--;
-//       spans[hideIndex].classList.remove("revealed");
-//       itemDiv.dataset.revealIndex = hideIndex;
-//       itemDiv.dataset.hideIndex = hideIndex;
-//     }
-//   });
 
   // Add event listener for input text
   const inputText = itemDiv.querySelector(".input-text");

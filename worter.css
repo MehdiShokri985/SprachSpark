@@ -59,10 +59,15 @@
             .item-bottom button.delete-btn:hover {
                 background-color: #c0392b;
             }
-            .item-bottom button.reveal-btn:hover,
+
+            .item-bottom input[type="range"]:hover {
+                 background: #71cfe7;
+            }
+
+            /* .item-bottom button.reveal-btn:hover,
             .item-bottom button.hide-btn:hover {
                 background-color: #71cfe7;
-            }
+            } */
         }
 
         .accordion-content {
@@ -203,30 +208,61 @@
             align-items: center; /* تراز عمودی */
         }
 
-        .item-bottom button.reveal-btn,
+        /* .item-bottom button.reveal-btn,
         .item-bottom button.hide-btn {
             background-color: #4c89bb;
             color: #1a252f;
             border: none;
-            padding: 8px; /* پدینگ بیشتر برای اندازه مشابه با دکمه‌های دیگر */
-            border-radius: 5px; /* گوشه‌های گردتر */
+            padding: 8px; 
+            border-radius: 5px;
             cursor: pointer;
-            font-size: 1em; /* اندازه فونت مشابه دکمه‌های دیگر */
-            width: 40px; /* عرض ثابت برای هماهنگی */
-            height: 20px; /* ارتفاع ثابت برای هماهنگی */
+            font-size: 1em;
+            width: 40px;
+            height: 20px; 
             display: flex;
             justify-content: center;
             align-items: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* سایه ملایم */
-            transition: transform 0.2s ease, box-shadow 0.2s ease; /* انیمیشن نرم */
-        }
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+            transition: transform 0.2s ease, box-shadow 0.2s ease; 
+        } */
 
-        .item-bottom button.reveal-btn:hover,
+        /* .item-bottom button.reveal-btn:hover,
         .item-bottom button.hide-btn:hover {
             background-color:#71cfe7;
-            transform: translateY(-2px); /* حرکت به سمت بالا در hover */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* سایه قوی‌تر */
+            transform: translateY(-2px); 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+        } */
+
+        .item-bottom input[type="range"] {
+            width: 100px;
+            height: 30px;
+            cursor: pointer;
+            background: #4c89bb;
+            border-radius: 5px;
+            -webkit-appearance: none;
+            appearance: none;
+            outline: none;
+            transition: background 0.2s ease;
         }
+
+        .item-bottom input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #00ff88;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .item-bottom input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: #00ff88;
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+}
         
         .item-bottom .input-text {
             margin-top: 10px;
@@ -295,11 +331,26 @@
                 margin: 10px 0;
             }
 
-            .item-bottom button.reveal-btn,
+            /* .item-bottom button.reveal-btn,
             .item-bottom button.hide-btn {
                 width: 25px;
                 font-size: 0.7em;
                 padding: 3px;
+            } */
+
+            .item-bottom input[type="range"] {
+                width: 80px;
+                height: 25px;
+            }
+
+            .item-bottom input[type="range"]::-webkit-slider-thumb {
+                width: 15px;
+                height: 15px;
+            }
+
+            .item-bottom input[type="range"]::-moz-range-thumb {
+                width: 15px;
+                height: 15px;
             }
         }
 
@@ -309,14 +360,14 @@
                 gap: 5px; /* فاصله کمتر در موبایل */
             }
         
-            .item-bottom button.reveal-btn,
+            /* .item-bottom button.reveal-btn,
             .item-bottom button.hide-btn {
-                width: 35px; /* اندازه کمی کوچکتر برای موبایل */
+                width: 35px; 
                 height: 20px;
                 font-size: 0.9em;
                 padding: 6px;
                 border-radius: 5px;
-            }
+            } */
         
             .item-bottom button.play-btn,
             .item-bottom button.delete-btn {

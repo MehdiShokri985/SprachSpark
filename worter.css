@@ -328,7 +328,7 @@
             }
 
             .item-bottom input[type="range"] {
-                width: 110px; /* عرض کوچکتر برای موبایل */
+                width: 120px; /* عرض کوچکتر برای موبایل */
                 height: 6px; /* مسیر نازک‌تر برای موبایل */
                 margin-bottom: 20px;
             }

@@ -1,4 +1,3 @@
-
         body {
             background-color: #1a252f;
             color: #f1c40f;
@@ -11,8 +10,8 @@
         h1 {
             text-align: center;
             color: #5b87b8;
-            font-size: 1.2em;
-            margin-bottom: 20px;
+            font-size: 2em;
+            margin-bottom: 30px;
         }
 
         .container {

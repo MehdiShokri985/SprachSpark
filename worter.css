@@ -7,11 +7,23 @@
             direction: rtl;
         }
 
+      
         h1 {
             text-align: center;
-            color: #5b87b8;
+            color: #f1c40f; /* رنگ زرد */
             font-size: 1.2em;
             margin-bottom: 20px;
+            background: linear-gradient(135deg, #1a252f 0%, #2c3e50 100%); /* گرادیان سورمه‌ای */
+            padding: 15px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(241, 196, 15, 0.3), 0 0 15px rgba(241, 196, 15, 0.2); /* سایه زرد */
+            display: inline-block;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* انیمیشن نرم */
+        }
+
+        h1:hover {
+            transform: translateY(-5px); /* جابجایی عمودی هنگام هاور */
+            box-shadow: 0 8px 16px rgba(241, 196, 15, 0.4), 0 0 20px rgba(241, 196, 15, 0.3); /* سایه قوی‌تر */
         }
 
         .container {

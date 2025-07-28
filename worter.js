@@ -9,7 +9,7 @@ function groupItems(items) {
   let lastWord = null;
 
   items.forEach((item, index) => {
-    // بررسی وجود Sound_de و رشته بودن آن
+    // Check if item.Sound_de exists and is a string
     const soundDe = item.Sound_de && typeof item.Sound_de === 'string' ? item.Sound_de.trim() : '';
     const isSentence = /[.!?]$/.test(soundDe);
 
@@ -38,7 +38,6 @@ function groupItems(items) {
 
   return grouped;
 }
-
 
 function createItem(group) {
   const mainItem = group[0];
@@ -182,7 +181,6 @@ function createItem(group) {
   return itemDiv;
 }
 
-//----------------------------------------
 function renderItems(items) {
   container.innerHTML = "";
   const groupedItems = groupItems(items);
@@ -317,7 +315,6 @@ rootModal.addEventListener("click", (e) => {
   }
 });
 
-
 fetch("json-worter.json")
   .then((response) => {
     if (!response.ok) {
@@ -326,7 +323,6 @@ fetch("json-worter.json")
     return response.json();
   })
   .then((data) => {
-    console.log("JSON Data:", data); // لاگ داده‌ها برای بررسی
     renderItems(data);
   })
   .catch((error) => {

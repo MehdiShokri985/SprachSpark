@@ -3,6 +3,43 @@ const rootModal = document.getElementById("rootModal");
 const modalRootContent = document.getElementById("modalRootContent");
 const closeButton = document.querySelector(".close-button");
 
+function groupItems(items) {
+  const grouped = [];
+  let currentGroup = [];
+  let lastWord = null;
+
+  items.forEach((item, index) => {
+    // بررسی وجود Sound_de و رشته بودن آن
+    const soundDe = item.Sound_de && typeof item.Sound_de === 'string' ? item.Sound_de.trim() : '';
+    const isSentence = /[.!?]$/.test(soundDe);
+
+    if (!isSentence) {
+      if (currentGroup.length > 0) {
+        grouped.push(currentGroup);
+        currentGroup = [];
+      }
+      currentGroup.push(item);
+      lastWord = item;
+    } else if (lastWord && index === parseInt(lastWord.Filename) + 1) {
+      currentGroup.push(item);
+    } else {
+      if (currentGroup.length > 0) {
+        grouped.push(currentGroup);
+        currentGroup = [];
+      }
+      currentGroup.push(item);
+      lastWord = null;
+    }
+  });
+
+  if (currentGroup.length > 0) {
+    grouped.push(currentGroup);
+  }
+
+  return grouped;
+}
+
+
 function createItem(group) {
   const mainItem = group[0];
   const relatedItems = group.slice(1);

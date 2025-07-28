@@ -3,48 +3,17 @@ const rootModal = document.getElementById("rootModal");
 const modalRootContent = document.getElementById("modalRootContent");
 const closeButton = document.querySelector(".close-button");
 
-function groupItems(items) {
-  const grouped = [];
-  let currentGroup = [];
-  let lastWord = null;
-
-  items.forEach((item, index) => {
-    const isSentence = /[.!?]$/.test(item.Sound_de.trim());
-    if (!isSentence) {
-      if (currentGroup.length > 0) {
-        grouped.push(currentGroup);
-        currentGroup = [];
-      }
-      currentGroup.push(item);
-      lastWord = item;
-    } else if (lastWord && index === parseInt(lastWord.Filename) + 1) {
-      currentGroup.push(item);
-    } else {
-      if (currentGroup.length > 0) {
-        grouped.push(currentGroup);
-        currentGroup = [];
-      }
-      currentGroup.push(item);
-      lastWord = null;
-    }
-  });
-
-  if (currentGroup.length > 0) {
-    grouped.push(currentGroup);
-  }
-
-  return grouped;
-}
-
 function createItem(group) {
   const mainItem = group[0];
   const relatedItems = group.slice(1);
-  console.log(mainItem.Filename);
-  const isMainSentence = /[.!?]$/.test(mainItem.Sound_de.trim());
+
+  // بررسی وجود mainItem.Sound_de و رشته بودن آن
+  const mainSoundDe = mainItem.Sound_de && typeof mainItem.Sound_de === 'string' ? mainItem.Sound_de.trim() : '';
+  const isMainSentence = /[.!?]$/.test(mainSoundDe);
 
   let colorClass = "";
   if (!isMainSentence) {
-    const lowerCaseSoundDe = mainItem.Sound_de.toLowerCase().trim();
+    const lowerCaseSoundDe = mainSoundDe.toLowerCase();
     if (lowerCaseSoundDe.startsWith("die ")) {
       colorClass = "pink-text";
     } else if (lowerCaseSoundDe.startsWith("der ")) {
@@ -55,7 +24,7 @@ function createItem(group) {
   }
 
   let rootIconHtml = "";
-  if (mainItem.root && mainItem.root.trim() !== "") {
+  if (mainItem.root && typeof mainItem.root === 'string' && mainItem.root.trim() !== "") {
     rootIconHtml = `<div class="root-icon" data-root-content="${mainItem.root}">i</div>`;
   }
 
@@ -64,8 +33,8 @@ function createItem(group) {
 
   itemDiv.innerHTML = `
         <div class="item-top">
-            <div class="filename">${mainItem.Filename}</div>
-            <div class="translate">${mainItem.translate_fa}</div>
+            <div class="filename">${mainItem.Filename || ''}</div>
+            <div class="translate">${mainItem.translate_fa || ''}</div>
         </div>
         ${rootIconHtml}
     `;
@@ -74,44 +43,32 @@ function createItem(group) {
     let soundContent = "";
     let maxSliderValue;
     let segments;
+    // بررسی وجود item.Sound_de و رشته بودن آن
+    const soundDe = item.Sound_de && typeof item.Sound_de === 'string' ? item.Sound_de.trim() : '';
     if (isSentence) {
-      segments = item.Sound_de.split(" ");
+      segments = soundDe.split(" ");
       soundContent = segments.map((word) => `<span>${word}</span>`).join(" ");
       maxSliderValue = segments.length;
     } else {
-      segments = item.Sound_de.split("");
+      segments = soundDe.split("");
       soundContent = segments.map((char) => `<span>${char}</span>`).join("");
       maxSliderValue = segments.length;
     }
 
     const itemBottom = document.createElement("div");
     itemBottom.classList.add("item-bottom");
-    // itemBottom.innerHTML = `
-    //         <div class="sound ${isSentence ? "sentence" : ""} ${
-    //   isSentence ? "" : colorClass
-    // }">${soundContent}</div>
-    //         <input type="text" class="input-text" placeholder="Testen Sie Ihr Schreiben.">
-    //         <audio src="audio/${item.file}" preload="none"></audio>
-    //         <div class="control-buttons">
-    //             <button class="delete-btn">Delete</button>
-    //             <button class="play-btn">Play Sound</button>
-    //             <input type="range" min="0" max="${maxSliderValue}" value="0" step="1" class="reveal-slider">
-    //         </div>
-    //     `;
-
     itemBottom.innerHTML = `
-    <div class="sound ${isSentence ? "sentence" : ""} ${
-      isSentence ? "" : colorClass
-    }">${soundContent}</div>
-    <input type="text" class="input-text" placeholder="Testen Sie Ihr Schreiben.">
-    <audio src="audio/${item.file}" preload="none"></audio>
-    <div class="control-buttons">
-        <button class="delete-btn">Delete</button>
-        <button class="play-btn">Play Sound</button>
-       
-    </div>
-    <input type="range" min="0" max="${maxSliderValue}" value="0" step="1" class="reveal-slider">
-`;
+        <div class="sound ${isSentence ? "sentence" : ""} ${
+          isSentence ? "" : colorClass
+        }">${soundContent}</div>
+        <input type="text" class="input-text" placeholder="Testen Sie Ihr Schreiben.">
+        <audio src="audio/${item.file || ''}" preload="none"></audio>
+        <div class="control-buttons">
+            <button class="delete-btn">Delete</button>
+            <button class="play-btn">Play Sound</button>
+        </div>
+        <input type="range" min="0" max="${maxSliderValue || 0}" value="0" step="1" class="reveal-slider">
+    `;
 
     itemBottom.dataset.revealIndex = "0";
 
@@ -156,7 +113,7 @@ function createItem(group) {
 
     const inputText = itemBottom.querySelector(".input-text");
     inputText.addEventListener("input", () => {
-      if (inputText.value.trim() === item.Sound_de) {
+      if (inputText.value.trim() === soundDe) {
         inputText.classList.add("correct");
       } else {
         inputText.classList.remove("correct");
@@ -170,7 +127,7 @@ function createItem(group) {
   itemDiv.appendChild(mainItemBottom);
 
   relatedItems.forEach((relatedItem) => {
-    const isRelatedSentence = /[.!?]$/.test(relatedItem.Sound_de.trim());
+    const isRelatedSentence = /[.!?]$/.test(relatedItem.Sound_de && typeof relatedItem.Sound_de === 'string' ? relatedItem.Sound_de.trim() : '');
     const relatedItemBottom = createItemBottom(relatedItem, isRelatedSentence);
     relatedItemBottom.querySelector(".sound").classList.add("sentence");
     relatedItemBottom.querySelector(".translate")?.remove();
@@ -188,6 +145,7 @@ function createItem(group) {
   return itemDiv;
 }
 
+//----------------------------------------
 function renderItems(items) {
   container.innerHTML = "";
   const groupedItems = groupItems(items);
@@ -331,9 +289,9 @@ fetch("json-worter.json")
     return response.json();
   })
   .then((data) => {
+    console.log("JSON Data:", data); // لاگ داده‌ها برای بررسی
     renderItems(data);
   })
   .catch((error) => {
     container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${error.message}</div>`;
   });
-

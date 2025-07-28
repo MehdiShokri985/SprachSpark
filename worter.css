@@ -139,7 +139,7 @@
 
         
         .item-bottom {
-            margin-top: 20px;
+            margin-top: 15px;
             text-align: left;
             direction: ltr;
             position: relative;
@@ -149,7 +149,7 @@
             font-size: 1.2em;
             color: #93d2ff; /* Default green for Sound_de */
             cursor: pointer;
-            margin-bottom: 10px;
+            margin-bottom: 25px;
         }
 
         /* New color classes for Sound_de */
@@ -219,7 +219,7 @@
 
         .item-bottom .control-buttons {
             position: absolute;
-            bottom: 0px;
+            bottom: 5px;
             right: 5px;
             display: flex;
             gap: 8px; /* فاصله بین دکمه‌ها */
@@ -311,14 +311,14 @@
             color: #fff;
         }
 
-        .accordion-header .toggle-textbox-btn {
+        .accordion-header .toggle-textbox-btn , .accordion-header .test-btn  {
             background-color: #00ff88;
             color: #1a252f;
             border: none;
             padding: 5px 10px;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 0.9em;
+            font-size: 0.8em;
             align-items: center;
             height: 20px;
             display: inline-flex;
@@ -328,6 +328,15 @@
             background-color: #cccccc;
             cursor: not-allowed;
             opacity: 0.6;
+        }
+
+        .accordion-header .test-btn {
+            background-color: #00bcd4d9;
+            margin-left: 10px;
+        }
+
+        .accordion-header .test-btn:hover {
+            background-color: #4ee0f3d9;
         }
 
         /* Root Icon (i) Styles */
@@ -439,6 +448,7 @@
             text-decoration: none;
         }
 
+ 
 
         @media (max-width: 600px) {
             .accordion-header .toggle-textbox-btn {
@@ -448,8 +458,12 @@
                 text-align: center;
             }
 
+            .item-top .filename {
+              margin-right: 10px;
+            }
+
             .item {
-                padding: 0px 20px 5px 20px;
+                padding: 0px 5px 5px 15px;
                 margin-bottom: 10px;
             }
 
@@ -471,7 +485,7 @@
             .item-bottom input[type="range"] {
                 width: 120px;
                 height: 6px;
-                margin-bottom: 20px;
+                margin-bottom: 12px;
             }
 
             .item-bottom input[type="range"]::-webkit-slider-thumb {
@@ -510,6 +524,7 @@
         @media (max-width: 600px) {
             .item-bottom .control-buttons {
                 gap: 5px; /* فاصله کمتر در موبایل */
+                 bottom:-5px;
             }
 
             .item-bottom button.play-btn,

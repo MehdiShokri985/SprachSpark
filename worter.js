@@ -322,6 +322,7 @@ rootModal.addEventListener("click", (e) => {
   }
 });
 
+
 fetch("json-worter.json")
   .then((response) => {
     if (!response.ok) {
@@ -335,3 +336,4 @@ fetch("json-worter.json")
   .catch((error) => {
     container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${error.message}</div>`;
   });
+

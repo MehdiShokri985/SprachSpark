@@ -39,7 +39,7 @@ function groupItems(items) {
 function createItem(group) {
   const mainItem = group[0];
   const relatedItems = group.slice(1);
-
+  console.log(mainItem.Filename);
   const isMainSentence = /[.!?]$/.test(mainItem.Sound_de.trim());
 
   let colorClass = "";

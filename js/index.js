@@ -526,35 +526,6 @@ backButton.addEventListener("click", () => {
   container.innerHTML = "";
 });
 
-// levelButtons.forEach((button) => {
-//   button.addEventListener("click", () => {
-//     const level = button.dataset.level;
-//     const jsonFile =
-//       level === "A1" ? "json-worterA1.json" : "json-worterA2.json";
-//     const audioPath = level === "A1" ? "audio_A1" : "audio_A2";
-//     document.querySelector(
-//       "h1"
-//     ).textContent = `GOETHE-ZERTIFIKAT ${level} - WORTLISTE`;
-//     container.dataset.audioPath = audioPath;
-
-//     fetch(jsonFile)
-//       .then((response) => {
-//         if (!response.ok) {
-//           throw new Error("Failed to load JSON file");
-//         }
-//         return response.json();
-//       })
-//       .then((data) => {
-//         renderItems(data);
-//         backButton.style.display = "block";
-//       })
-//       .catch((error) => {
-//         container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${error.message}</div>`;
-//       });
-
-//     document.querySelector(".level-selection").style.display = "none";
-//   });
-// });
 
 levelButtons.forEach((button) => {
   button.addEventListener("click", () => {

@@ -461,10 +461,15 @@ function renderItems(items) {
             parseInt(item.Filename) <= groupEnd
         )
       );
-
       const groupData = currentGroupItems.flat();
       localStorage.setItem("testGroupData", JSON.stringify(groupData));
-      window.location.href = `worttest.html?groupIndex=${groupIndex + 1}`;
+      const level =
+        document.querySelector(".content").dataset.audioPath === "audio_A1"
+          ? "A1"
+          : "A2";
+      window.location.href = `worttest.html?groupIndex=${
+        groupIndex + 1
+      }&level=${level}`;
     });
   }
 }
@@ -480,7 +485,8 @@ rootModal.addEventListener("click", (e) => {
 });
 
 backButton.addEventListener("click", () => {
-  document.querySelector("h1").textContent = "GOETHE-ZERTIFIKAT A1 - A2 WORTLISTE";
+  document.querySelector("h1").textContent =
+    "GOETHE-ZERTIFIKAT A1 - A2 WORTLISTE";
   document.querySelector(".level-selection").style.display = "flex";
   backButton.style.display = "none";
   container.innerHTML = "";

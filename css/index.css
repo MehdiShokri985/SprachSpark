@@ -647,6 +647,6 @@ h1 {
     /* transform: translateY(-2px); */
 }
 
-.back-btn:active {
-    /* transform: translateY(0); */
-}
+/* .back-btn:active {
+    transform: translateY(0);
+} */

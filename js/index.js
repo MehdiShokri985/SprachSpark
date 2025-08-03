@@ -3,6 +3,7 @@ const rootModal = document.getElementById("rootModal");
 const modalRootContent = document.getElementById("modalRootContent");
 const closeButton = document.querySelector(".close-button");
 const levelButtons = document.querySelectorAll(".level-btn");
+const backButton = document.querySelector(".back-btn");
 
 function groupItems(items) {
   const grouped = [];
@@ -478,6 +479,13 @@ rootModal.addEventListener("click", (e) => {
   }
 });
 
+backButton.addEventListener("click", () => {
+  document.querySelector("h1").textContent = "GOETHE-ZERTIFIKAT A1 - A2 WORTLISTE";
+  document.querySelector(".level-selection").style.display = "flex";
+  backButton.style.display = "none";
+  container.innerHTML = "";
+});
+
 levelButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const level = button.dataset.level;
@@ -498,6 +506,7 @@ levelButtons.forEach((button) => {
       })
       .then((data) => {
         renderItems(data);
+        backButton.style.display = "block";
       })
       .catch((error) => {
         container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${error.message}</div>`;

@@ -622,3 +622,29 @@ h1 {
 .level-btn:active {
     transform: translateY(0);
 }
+
+.back-btn {
+    background-color: #2a3955;
+    color: #00ff88;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 20px auto;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+}
+
+.back-btn:hover {
+    background-color: #3a4e73;
+    transform: translateY(-2px);
+}
+
+.back-btn:active {
+    transform: translateY(0);
+}

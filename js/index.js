@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
   if (level && ["A1", "A2"].includes(level)) {
     const jsonFile =
       level === "A1" ? "json-worterA1.json" : "json-worterA2.json";
-    const audioPath = level === "A1" ? "audio_A1" : "audio_A2";
+    const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
     document.querySelector(
       "h1"
     ).textContent = `GOETHE-ZERTIFIKAT ${level} - WORTLISTE`;
@@ -531,7 +531,7 @@ function renderItems(items) {
       const groupData = currentGroupItems.flat();
       localStorage.setItem("testGroupData", JSON.stringify(groupData));
       const level =
-        document.querySelector(".content").dataset.audioPath === "audio_A1"
+        document.querySelector(".content").dataset.audioPath === "audio-A1"
           ? "A1"
           : "A2";
       window.location.href = `worttest.html?groupIndex=${
@@ -594,7 +594,7 @@ levelButtons.forEach((button) => {
     const level = button.dataset.level;
     const jsonFile =
       level === "A1" ? "json-worterA1.json" : "json-worterA2.json";
-    const audioPath = level === "A1" ? "audio_A1" : "audio_A2";
+    const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
     document.querySelector(
       "h1"
     ).textContent = `GOETHE-ZERTIFIKAT ${level} - WORTLISTE`;

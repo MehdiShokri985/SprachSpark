@@ -7,7 +7,7 @@ body {
   direction: rtl;
 }
 
-/* h1 {
+h1 {
   text-align: center;
   color: #f1c40f; 
   font-size: 1.2em;
@@ -20,9 +20,9 @@ body {
   display: block;
   max-width: 800px;
   font-weight: 100;
-} */
+}
 
-h1 {
+/* h1 {
     text-align: center;
     color: #f1c40f;
     font-size: 1.5em;
@@ -34,7 +34,7 @@ h1 {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
     max-width: 800px;
     font-weight: 300;
-}
+} */
 
 .container {
   max-width: 800px;

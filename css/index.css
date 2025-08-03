@@ -7,19 +7,33 @@ body {
   direction: rtl;
 }
 
-h1 {
+/* h1 {
   text-align: center;
-  color: #f1c40f; /* رنگ زرد */
+  color: #f1c40f; 
   font-size: 1.2em;
-  background: #182236; /* پس‌زمینه سورمه‌ای */
+  background: #182236; 
   padding: 15px 0;
   width: 100%;
   margin: 0 auto 20px auto;
-  border-bottom: 3px solid #f1c40f; /* خط زیرین زرد */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* سایه ملایم */
+  border-bottom: 3px solid #f1c40f; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   display: block;
   max-width: 800px;
   font-weight: 100;
+} */
+
+h1 {
+    text-align: center;
+    color: #f1c40f;
+    font-size: 1.5em;
+    background: #182236;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    border-bottom: 4px solid #f1c40f;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    max-width: 800px;
+    font-weight: 300;
 }
 
 .container {
@@ -578,4 +592,33 @@ h1 {
   text-transform: none;
   color: #79fffd;
   /* margin-right: 10px; فاصله از filename */
+}
+
+.level-selection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.level-btn {
+    background-color: #2a3955;
+    color: #00ff88;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.level-btn:hover {
+    background-color: #3a4e73;
+    transform: translateY(-2px);
+}
+
+.level-btn:active {
+    transform: translateY(0);
 }

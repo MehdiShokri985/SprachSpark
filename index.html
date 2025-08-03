@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css"
+    />
     <title>A2 - WORTLISTE</title>
 
-    <link rel="stylesheet" href="./css/index.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
     <h1>GOETHE-ZERTIFIKAT A2 - WORTLISTE</h1>
     <div class="container">
-        <!-- Accordion groups will be dynamically added here -->
+      <div class="level-selection">
+        <button class="level-btn" data-level="A1">A1 WORTLISTE</button>
+        <button class="level-btn" data-level="A2">A2 WORTLISTE</button>
+      </div>
+      <div class="content"></div>
     </div>
-    
+
     <div id="rootModal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <p id="modalRootContent"></p>
-        </div>
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <p id="modalRootContent"></p>
+      </div>
     </div>
 
     <script src="./js/index.js"></script>
-
-</body>
+  </body>
 </html>

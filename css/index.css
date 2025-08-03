@@ -599,6 +599,7 @@ h1 {
     justify-content: center;
     gap: 20px;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .level-btn {
@@ -612,6 +613,7 @@ h1 {
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 50%;
 }
 
 .level-btn:hover {
@@ -624,14 +626,14 @@ h1 {
 }
 
 .back-btn {
-    background-color: #2a3955;
+    background-color: #232c4e;
     color: #00ff88;
     border: none;
     padding: 5px 20px;
     border-radius: 1px 1px 10px 10px;
     cursor: pointer;
     font-size: 1em;
-    font-weight: bold;
+    /* font-weight: bold; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin: 0px auto 10px auto;

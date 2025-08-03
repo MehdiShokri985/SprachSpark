@@ -153,6 +153,13 @@ function startTimer() {
   }, 1000);
 }
 
+function goBackToLevel() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const groupIndex = parseInt(urlParams.get("groupIndex")) || 1;
+  const level = localStorage.getItem("selectedLevel") || "A2"; // مقدار پیش‌فرض A2
+  window.location.href = `index.html?level=${level}&groupIndex=${groupIndex}`;
+}
+
 // شروع تایمر و بارگذاری آیتم‌ها هنگام لود صفحه
 startTimer();
 loadPageItems();

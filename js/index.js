@@ -10,7 +10,10 @@ function groupItems(items) {
 
   items.forEach((item, index) => {
     // Check if item.Sound_de exists and is a string
-    const soundDe = item.Sound_de && typeof item.Sound_de === 'string' ? item.Sound_de.trim() : '';
+    const soundDe =
+      item.Sound_de && typeof item.Sound_de === "string"
+        ? item.Sound_de.trim()
+        : "";
     const isSentence = /[.!?]$/.test(soundDe);
 
     if (!isSentence) {
@@ -44,7 +47,10 @@ function createItem(group) {
   const relatedItems = group.slice(1);
 
   // بررسی وجود mainItem.Sound_de و رشته بودن آن
-  const mainSoundDe = mainItem.Sound_de && typeof mainItem.Sound_de === 'string' ? mainItem.Sound_de.trim() : '';
+  const mainSoundDe =
+    mainItem.Sound_de && typeof mainItem.Sound_de === "string"
+      ? mainItem.Sound_de.trim()
+      : "";
   const isMainSentence = /[.!?]$/.test(mainSoundDe);
 
   let colorClass = "";
@@ -60,8 +66,21 @@ function createItem(group) {
   }
 
   let rootIconHtml = "";
-  if (mainItem.root && typeof mainItem.root === 'string' && mainItem.root.trim() !== "") {
+  if (
+    mainItem.root &&
+    typeof mainItem.root === "string" &&
+    mainItem.root.trim() !== ""
+  ) {
     rootIconHtml = `<div class="root-icon" data-root-content="${mainItem.root}">i</div>`;
+  }
+
+  let typeHtml = "";
+  if (
+    mainItem.type &&
+    typeof mainItem.type === "string" &&
+    mainItem.type.trim() !== ""
+  ) {
+    typeHtml = `<div class="type">${(mainItem.type === "فعل (غیرجداشدنی)") ? "فعل" : mainItem.type}</div>`;
   }
 
   const itemDiv = document.createElement("div");
@@ -69,21 +88,157 @@ function createItem(group) {
 
   itemDiv.innerHTML = `
         <div class="item-top">
-            <div class="filename">${mainItem.Filename || ''}</div>
-            <div class="translate">${mainItem.translate_fa || ''}</div>
+            <div class="filename">${mainItem.Filename || ""}</div>
+            ${typeHtml}
+            <div class="translate">${mainItem.translate_fa || ""}</div>
         </div>
         ${rootIconHtml}
+        
     `;
 
-  const createItemBottom = (item, isSentence) => {
+  function createItemBottom(item, isSentence) {
     let soundContent = "";
     let maxSliderValue;
     let segments;
-    // بررسی وجود item.Sound_de و رشته بودن آن
-    const soundDe = item.Sound_de && typeof item.Sound_de === 'string' ? item.Sound_de.trim() : '';
+
+    const soundDe =
+      item.Sound_de && typeof item.Sound_de === "string"
+        ? item.Sound_de.trim()
+        : "";
+
     if (isSentence) {
       segments = soundDe.split(" ");
-      soundContent = segments.map((word) => `<span>${word}</span>`).join(" ");
+      let currentIndex = 0; // برای ردیابی موقعیت در جمله
+      soundContent = segments
+        .map((word, index) => {
+          // اگر currentIndex از index فعلی جلوتر است، این کلمه قبلاً پردازش شده است
+          if (index < currentIndex) {
+            return "";
+          }
+
+          let className = "";
+          const cleanWord = word.replace(/[.,!?:]/g, "").toLowerCase();
+          const punctuation = word.match(/[.,!?:]/g)
+            ? word.match(/[.,!?:]/g).join("")
+            : "";
+
+          // تابع برای بررسی عبارات چندکلمه‌ای
+          const checkMultiWord = (arr, index) => {
+            if (!arr) return { match: false, length: 1, phraseWords: [] };
+            for (let item of arr) {
+              if (!item || typeof item !== "string") continue;
+              const words = item.split(" ");
+              const phrase = segments
+                .slice(index, index + words.length)
+                .join(" ")
+                .replace(/[.,!?:]/g, "")
+                .toLowerCase();
+              if (phrase === item.toLowerCase()) {
+                return {
+                  match: true,
+                  length: words.length,
+                  phraseWords: segments.slice(index, index + words.length),
+                };
+              }
+            }
+            return { match: false, length: 1, phraseWords: [] };
+          };
+
+          // بررسی عبارات چندکلمه‌ای برای subject
+          let result = checkMultiWord(item.subject, index);
+          if (result.match) {
+            const phraseWords = result.phraseWords;
+            currentIndex = index + result.length;
+            return phraseWords
+              .map((w, i) => {
+                const punc = w.match(/[.,!?:]/g)
+                  ? w.match(/[.,!?:]/g).join("")
+                  : "";
+                return `<span class="subject">${w.replace(
+                  /[.,!?:]/g,
+                  ""
+                )}${punc}</span>`;
+              })
+              .join(" ");
+          }
+
+          // بررسی عبارات چندکلمه‌ای برای object
+          result = checkMultiWord(item.object, index);
+          if (result.match) {
+            const phraseWords = result.phraseWords;
+            currentIndex = index + result.length;
+            return phraseWords
+              .map((w, i) => {
+                const punc = w.match(/[.,!?:]/g)
+                  ? w.match(/[.,!?:]/g).join("")
+                  : "";
+                return `<span class="object">${w.replace(
+                  /[.,!?:]/g,
+                  ""
+                )}${punc}</span>`;
+              })
+              .join(" ");
+          }
+
+          // بررسی کلمات تکی با ترتیب اولویت
+          if (
+            item.auxiliary_verb &&
+            item.auxiliary_verb.some(
+              (a) => a && typeof a === "string" && a.toLowerCase() === cleanWord
+            )
+          ) {
+            className = "aux-verb";
+          } else if (
+            item.subject &&
+            item.subject.some(
+              (s) => s && typeof s === "string" && s.toLowerCase() === cleanWord
+            )
+          ) {
+            className = "subject";
+          } else if (
+            item.verb &&
+            item.verb.some(
+              (v) => v && typeof v === "string" && v.toLowerCase() === cleanWord
+            )
+          ) {
+            className = "verb";
+          } else if (
+            item.verb_part1 &&
+            item.verb_part1.some(
+              (vp1) =>
+                vp1 &&
+                typeof vp1 === "string" &&
+                vp1.toLowerCase() === cleanWord
+            )
+          ) {
+            className = "verb_part1";
+          } else if (
+            item.verb_part2 &&
+            item.verb_part2.some(
+              (vp2) =>
+                vp2 &&
+                typeof vp2 === "string" &&
+                vp2.toLowerCase() === cleanWord
+            )
+          ) {
+            className = "verb_part2";
+          } else if (
+            item.object &&
+            item.object.some(
+              (o) => o && typeof o === "string" && o.toLowerCase() === cleanWord
+            )
+          ) {
+            className = "object";
+          }
+
+          currentIndex = index + 1;
+          return `<span class="${className}">${word.replace(
+            /[.,!?:]/g,
+            ""
+          )}${punctuation}</span>`;
+        })
+        .filter((segment) => segment !== "") // حذف رشته‌های خالی
+        .join(" ");
       maxSliderValue = segments.length;
     } else {
       segments = soundDe.split("");
@@ -95,15 +250,17 @@ function createItem(group) {
     itemBottom.classList.add("item-bottom");
     itemBottom.innerHTML = `
         <div class="sound ${isSentence ? "sentence" : ""} ${
-          isSentence ? "" : colorClass
-        }">${soundContent}</div>
+      isSentence ? "" : colorClass
+    }">${soundContent}</div>
         <input type="text" class="input-text" placeholder="Testen Sie Ihr Schreiben.">
-        <audio src="audio/${item.file || ''}" preload="none"></audio>
+        <audio src="audio/${item.file || ""}" preload="none"></audio>
         <div class="control-buttons">
             <button class="delete-btn">Delete</button>
             <button class="play-btn">Play Sound</button>
         </div>
-        <input type="range" min="0" max="${maxSliderValue || 0}" value="0" step="1" class="reveal-slider">
+        <input type="range" min="0" max="${
+          maxSliderValue || 0
+        }" value="0" step="1" class="reveal-slider">
     `;
 
     itemBottom.dataset.revealIndex = "0";
@@ -116,7 +273,7 @@ function createItem(group) {
 
     const deleteButton = itemBottom.querySelector(".delete-btn");
     deleteButton.addEventListener("click", () => {
-      itemDiv.remove();
+      itemBottom.parentElement.remove();
     });
 
     const soundText = itemBottom.querySelector(".sound");
@@ -132,7 +289,7 @@ function createItem(group) {
       const slider = itemBottom.querySelector(".reveal-slider");
       slider.value = allRevealed ? 0 : spans.length;
       const percentage = (slider.value / maxSliderValue) * 100;
-      slider.style.background = `linear-gradient(to right, #00ff88 ${percentage}%, #34495e ${percentage}%)`;
+      slider.style.background = `linear-gradient(to right, #00ff88 ${percentage}%, #2f547fff ${percentage}%)`;
     });
 
     const slider = itemBottom.querySelector(".reveal-slider");
@@ -157,13 +314,17 @@ function createItem(group) {
     });
 
     return itemBottom;
-  };
+  }
 
   const mainItemBottom = createItemBottom(mainItem, isMainSentence);
   itemDiv.appendChild(mainItemBottom);
 
   relatedItems.forEach((relatedItem) => {
-    const isRelatedSentence = /[.!?]$/.test(relatedItem.Sound_de && typeof relatedItem.Sound_de === 'string' ? relatedItem.Sound_de.trim() : '');
+    const isRelatedSentence = /[.!?]$/.test(
+      relatedItem.Sound_de && typeof relatedItem.Sound_de === "string"
+        ? relatedItem.Sound_de.trim()
+        : ""
+    );
     const relatedItemBottom = createItemBottom(relatedItem, isRelatedSentence);
     relatedItemBottom.querySelector(".sound").classList.add("sentence");
     relatedItemBottom.querySelector(".translate")?.remove();
@@ -300,7 +461,7 @@ function renderItems(items) {
 
       const groupData = currentGroupItems.flat();
       localStorage.setItem("testGroupData", JSON.stringify(groupData));
-      window.location.href = "worttest.html";
+      window.location.href = `worttest.html?groupIndex=${groupIndex + 1}`;
     });
   }
 }

@@ -14,7 +14,7 @@ h1 {
   background: #182236; 
   padding: 15px 0;
   width: 100%;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 1px auto;
   border-bottom: 3px solid #f1c40f; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   display: block;
@@ -628,13 +628,13 @@ h1 {
     color: #00ff88;
     border: none;
     padding: 5px 20px;
-    border-radius: 10px;
+    border-radius: 1px 1px 10px 10px;
     cursor: pointer;
     font-size: 1em;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 10px auto;
+    margin: 0px auto 10px auto;
     display: block;
     width: 100%;
     text-align: center;

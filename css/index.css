@@ -644,9 +644,9 @@ h1 {
 
 .back-btn:hover {
     background-color: #131c43;
-    transform: translateY(-2px);
+    /* transform: translateY(-2px); */
 }
 
 .back-btn:active {
-    transform: translateY(0);
+    /* transform: translateY(0); */
 }

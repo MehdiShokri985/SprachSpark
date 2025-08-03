@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <button class="back-button" onclick="window.location.href='index.html'">Zurück zur Startseite</button>
+      <button onclick="goBackToLevel()">Zurück zur Startseite</button>
       <div class="score-group-container">
         <div class="score">Punktzahl: <span id="score">0</span></div>
         <div class="group-index">Gruppe: <span id="group-index">3</span></div>
@@ -25,7 +25,7 @@
       <p>مجموع امتیازات: <span id="total-score"></span></p>
       <p>امتیازات کسب‌شده: <span id="earned-score"></span></p>
       <button onclick="restartGame()">Neustart</button>
-      <button onclick="window.location.href='index.html'">Zurück zur Startseite</button>
+     <button class="back-button" onclick="goBackToLevel()">Zurück zur Startseite</button>
     </div>
 
     <script src="./js/worttest.js"></script>

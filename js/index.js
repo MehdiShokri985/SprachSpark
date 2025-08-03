@@ -6,15 +6,15 @@ const levelButtons = document.querySelectorAll(".level-btn");
 const backButton = document.querySelector(".back-btn");
 
 // بررسی پارامترهای URL هنگام بارگذاری صفحه
+// بررسی پارامترهای URL هنگام بارگذاری صفحه
 window.addEventListener("load", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const level = urlParams.get("level");
-  const groupIndex = parseInt(urlParams.get("groupIndex"));
 
   if (level && ["A1", "A2"].includes(level)) {
     const jsonFile =
       level === "A1" ? "json-worterA1.json" : "json-worterA2.json";
-    const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
+    const audioPath = level === "A1" ? "audio_A1" : "audio_A2";
     document.querySelector(
       "h1"
     ).textContent = `GOETHE-ZERTIFIKAT ${level} - WORTLISTE`;
@@ -32,39 +32,6 @@ window.addEventListener("load", () => {
         renderItems(data);
         backButton.style.display = "block";
         document.querySelector(".level-selection").style.display = "none";
-
-        // باز کردن گروه خاص اگر groupIndex وجود داشته باشد
-        if (groupIndex) {
-          const accordionContent = document.querySelector(
-            `.accordion-content[data-group-index="${groupIndex - 1}"]`
-          );
-          if (accordionContent) {
-            accordionContent.classList.add("active");
-            const toggleTextboxButton =
-              accordionContent.previousElementSibling.querySelector(
-                ".toggle-textbox-btn"
-              );
-            toggleTextboxButton.disabled = false;
-
-            const groupSize = 50;
-            const groupStart = (groupIndex - 1) * groupSize;
-            const groupEnd = Math.min(groupStart + groupSize, data.length);
-            const groupedItems = groupItems(data);
-            const currentGroupItems = groupedItems.filter((group) =>
-              group.some(
-                (item) =>
-                  parseInt(item.Filename) >= groupStart + 1 &&
-                  parseInt(item.Filename) <= groupEnd
-              )
-            );
-
-            accordionContent.innerHTML = "";
-            currentGroupItems.forEach((group) => {
-              const itemDiv = createItem(group);
-              accordionContent.appendChild(itemDiv);
-            });
-          }
-        }
       })
       .catch((error) => {
         container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${error.message}</div>`;

@@ -83,7 +83,7 @@ h1 {
   max-height: calc(100vh - 150px);
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #7799ed #253756;
+  scrollbar-color: #7799ed #223454;
 }
 
 .accordion-content::-webkit-scrollbar {

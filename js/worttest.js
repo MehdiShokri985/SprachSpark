@@ -110,6 +110,7 @@ function loadSentenceGame(audioPath) {
   sentenceCount.textContent = remainingSentences;
   completedSentence.style.display = "none";
   completedSentence.textContent = "";
+  wordBank.style.display = "flex";
 
   if (shuffledSentences.length === 0) {
     sentenceGame.innerHTML =

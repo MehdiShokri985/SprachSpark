@@ -32,7 +32,6 @@ const wordBank = document.getElementById("word-bank");
 const sentenceTranslation = document.getElementById("sentence-translation");
 const sentenceCount = document.getElementById("counter");
 const completedSentence = document.getElementById("completed-sentence");
-const spacer = document.getElementById("spacer");
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -111,7 +110,6 @@ function loadSentenceGame(audioPath) {
   sentenceCount.textContent = remainingSentences;
   completedSentence.style.display = "none";
   completedSentence.textContent = "";
-  spacer.style.display = "none";
 
   if (shuffledSentences.length === 0) {
     sentenceGame.innerHTML =
@@ -438,7 +436,7 @@ function handleDrop(e, box, sentence, audioPath, words) {
     wrongAttempts = 0;
     scoreDisplay.textContent = score;
     sentenceCount.textContent = remainingSentences;
-    spacer.style.display = "block";
+    wordBank.style.display = "none";
     completedSentence.style.display = "block";
     completedSentence.textContent = sentence.Sound_de.trim();
     const audio = new Audio(`${audioPath}/${sentence.Filename}_de.mp3`);

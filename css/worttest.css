@@ -11,15 +11,6 @@ body {
   box-sizing: border-box;
   touch-action: manipulation;
 }
-/* .container {
-  max-width: 800px;
-  width: 100%;
-  padding: 15px;
-  background-color: #1a2b44;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-} */
-
 .container {
   max-width: 800px;
   width: 100%;
@@ -27,8 +18,9 @@ body {
   background-color: #1a2b44;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  min-height: 600px; /* اضافه شده برای جلوگیری از کاهش ارتفاع */
 }
+
+
 
 .score-group-container {
   display: flex;
@@ -229,8 +221,8 @@ body {
 
 .word-item.dragging {
   opacity: 0.7; /* کاهش opacity برای بازخورد بصری */
-  border: 2px solid #f4d03f; /* حاشیه زرد برای وضوح */
-  box-shadow: 0 0 8px rgba(244, 208, 63, 0.8); /* سایه برای تأکید */
+  border: 2px silid #ffb300; /* حاشیه زرد برای وضوح */
+  box-shadow: 0 0 8px rgba(250, 208, 40, 0.8); /* سایه برای تأکید */
   transform: scale(1.1); /* حفظ بزرگ‌نمایی */
   will-change: transform, left, top; /* بهینه‌سازی رندر */
   z-index: 1000; /* اطمینان از نمایش بالای سایر عناصر */
@@ -265,7 +257,7 @@ body {
 }
 
 .completed-sentence {
-    color: #f4ed50;
+    color: #cca509;
     font-size: 1.1em;
     text-align: center;
     direction: ltr;

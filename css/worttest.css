@@ -11,6 +11,15 @@ body {
   box-sizing: border-box;
   touch-action: manipulation;
 }
+/* .container {
+  max-width: 800px;
+  width: 100%;
+  padding: 15px;
+  background-color: #1a2b44;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+} */
+
 .container {
   max-width: 800px;
   width: 100%;
@@ -18,7 +27,9 @@ body {
   background-color: #1a2b44;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  min-height: 600px; /* اضافه شده برای جلوگیری از کاهش ارتفاع */
 }
+
 .score-group-container {
   display: flex;
   justify-content: center;
@@ -253,14 +264,30 @@ body {
   background-color: #d4b32f;
 }
 
+.completed-sentence {
+    color: #f4ed50;
+    font-size: 1.1em;
+    text-align: center;
+    direction: ltr;
+    margin-top: 10px;
+    display: none;
+    background-color: #1c2e48;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 
 @media (max-width: 600px) {
   body {
     padding: 10px;
   }
+
   .container {
     padding: 10px;
+    min-height: 500px; /* اضافه شده برای صفحه‌نمایش‌های کوچک */
   }
+
+
   .back-button {
     width: 100%;
     padding: 8px;
@@ -337,5 +364,9 @@ body {
     transform: scale(1.05); /* کاهش مقیاس برای گوشی‌های کوچک */
     will-change: transform, left, top;
     z-index: 1000;
+  }
+
+  .completed-sentence {
+    font-size: 0.9em;
   }
 }

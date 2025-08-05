@@ -31,6 +31,7 @@ const sentenceBoxes = document.getElementById("sentence-boxes");
 const wordBank = document.getElementById("word-bank");
 const sentenceTranslation = document.getElementById("sentence-translation");
 const sentenceCount = document.getElementById("counter");
+const completedSentence = document.getElementById("completed-sentence");
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -107,6 +108,9 @@ function loadSentenceGame(audioPath) {
   wordBank.innerHTML = "";
   sentenceTranslation.textContent = "";
   sentenceCount.textContent = remainingSentences;
+  completedSentence.style.display = "none";
+  completedSentence.textContent = "";
+
   if (shuffledSentences.length === 0) {
     sentenceGame.innerHTML =
       '<div style="color: #f4d03f; text-align: center;">هیچ جمله‌ای برای آزمون یافت نشد.</div>';
@@ -432,6 +436,8 @@ function handleDrop(e, box, sentence, audioPath, words) {
     wrongAttempts = 0;
     scoreDisplay.textContent = score;
     sentenceCount.textContent = remainingSentences;
+    completedSentence.style.display = "block";
+    completedSentence.textContent = sentence.Sound_de.trim();
     const audio = new Audio(`${audioPath}/${sentence.Filename}_de.mp3`);
     audio.addEventListener("ended", () => {
       currentSentenceIndex++;

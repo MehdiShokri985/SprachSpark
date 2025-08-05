@@ -269,6 +269,10 @@ body {
     border-radius: 10px;
 }
 
+.spacer {
+  height: 60px; /* ارتفاع تقریبی word-bank */
+  width: 100%;
+}
 
 @media (max-width: 600px) {
   body {
@@ -361,5 +365,9 @@ body {
 
   .completed-sentence {
     font-size: 0.9em;
+  }
+
+  .spacer {
+    height: 50px; /* تنظیم برای صفحه‌نمایش‌های کوچک */
   }
 }

@@ -10,7 +10,8 @@ let currentMode = "words";
 let currentSentenceIndex = 0;
 let remainingSentences = 0;
 let shuffledSentences = [];
-let wrongAttempts = 0; // متغیر برای شمارش انتخاب‌های نادرست
+let wrongAttempts = 0;
+let draggedWord = null; // متغیر برای ذخیره کلمه در حال درگ
 const columns = document.getElementById("columns");
 const sentenceGame = document.getElementById("sentence-game");
 const germanColumn = document.createElement("div");
@@ -95,7 +96,7 @@ function loadPageItems() {
         ),
       ]);
       remainingSentences = shuffledSentences.length;
-      wrongAttempts = 0; // ریست تعداد اشتباهات
+      wrongAttempts = 0;
     }
     loadSentenceGame(audioPath);
   }
@@ -119,7 +120,7 @@ function loadSentenceGame(audioPath) {
   const currentSentence = shuffledSentences[currentSentenceIndex];
   sentenceTranslation.textContent = currentSentence.translate_fa;
   const words = currentSentence.Sound_de.trim().split(" ");
-  const uniqueWords = [...new Set(words)]; // حذف کلمات تکراری
+  const uniqueWords = [...new Set(words)];
   const shuffledWords = shuffle([...uniqueWords]);
   words.forEach((_, index) => {
     const box = document.createElement("div");
@@ -129,30 +130,31 @@ function loadSentenceGame(audioPath) {
     box.addEventListener("drop", (e) =>
       handleDrop(e, box, currentSentence, audioPath, words)
     );
-    box.addEventListener("touchstart", (e) => {
-      e.preventDefault();
-      const touch = e.touches[0];
-      const wordItem = touch.target.closest(".word-item");
-      if (wordItem) {
-        wordItem.classList.add("dragging");
-        wordItem.dataset.dragging = wordItem.textContent;
-      }
-    });
     box.addEventListener("touchend", (e) => {
       e.preventDefault();
-      const word = wordBank.querySelector(".word-item.dragging")?.dataset
-        .dragging;
-      if (word) {
-        handleDrop(
-          { preventDefault: () => {}, dataTransfer: { getData: () => word } },
-          box,
-          currentSentence,
-          audioPath,
-          words
-        );
-        wordBank
-          .querySelector(".word-item.dragging")
-          ?.classList.remove("dragging");
+      if (draggedWord) {
+        const touch = e.changedTouches[0];
+        const element = document.elementFromPoint(touch.clientX, touch.clientY);
+        if (element && element.classList.contains("sentence-box")) {
+          handleDrop(
+            {
+              preventDefault: () => {},
+              dataTransfer: { getData: () => draggedWord },
+            },
+            element,
+            currentSentence,
+            audioPath,
+            words
+          );
+        }
+        draggedWord = null;
+        const draggingItems = wordBank.querySelectorAll(".word-item.dragging");
+        draggingItems.forEach((item) => {
+          item.classList.remove("dragging");
+          item.style.position = "";
+          item.style.left = "";
+          item.style.top = "";
+        });
       }
     });
     sentenceBoxes.appendChild(box);
@@ -171,12 +173,41 @@ function loadSentenceGame(audioPath) {
     });
     wordItem.addEventListener("touchstart", (e) => {
       e.preventDefault();
+      draggedWord = word;
       wordItem.classList.add("dragging");
-      wordItem.dataset.dragging = word;
     });
-    wordItem.addEventListener("touchend", () => {
-      wordItem.classList.remove("dragging");
-      delete wordItem.dataset.dragging;
+    wordItem.addEventListener("touchmove", (e) => {
+      e.preventDefault();
+      const touch = e.touches[0];
+      wordItem.style.position = "absolute";
+      wordItem.style.zIndex = "1000"; // اطمینان از نمایش در بالای سایر عناصر
+      wordItem.style.left = `${touch.clientX - 50}px`;
+      wordItem.style.top = `${touch.clientY - 20}px`;
+    });
+    wordItem.addEventListener("touchend", (e) => {
+      e.preventDefault();
+      if (draggedWord) {
+        const touch = e.changedTouches[0];
+        const element = document.elementFromPoint(touch.clientX, touch.clientY);
+        if (element && element.classList.contains("sentence-box")) {
+          handleDrop(
+            {
+              preventDefault: () => {},
+              dataTransfer: { getData: () => draggedWord },
+            },
+            element,
+            currentSentence,
+            audioPath,
+            words
+          );
+        }
+        draggedWord = null;
+        wordItem.classList.remove("dragging");
+        wordItem.style.position = "";
+        wordItem.style.left = "";
+        wordItem.style.top = "";
+        wordItem.style.zIndex = "";
+      }
     });
     wordBank.appendChild(wordItem);
   });
@@ -184,7 +215,8 @@ function loadSentenceGame(audioPath) {
 
 function handleDrop(e, box, sentence, audioPath, words) {
   e.preventDefault();
-  const word = e.dataTransfer.getData("text/plain");
+  const word = e.dataTransfer.getData("text/plain") || draggedWord;
+  if (!word) return;
   const correctWord = sentence.Sound_de.trim().split(" ")[box.dataset.index];
   box.textContent = word;
   const wordItem = Array.from(wordBank.querySelectorAll(".word-item")).find(
@@ -200,7 +232,7 @@ function handleDrop(e, box, sentence, audioPath, words) {
     wrongAttempts++;
     if (wrongAttempts >= 3) {
       score--;
-      wrongAttempts = 0; // ریست تعداد اشتباهات
+      wrongAttempts = 0;
       scoreDisplay.textContent = score;
     }
     setTimeout(() => {
@@ -216,33 +248,37 @@ function handleDrop(e, box, sentence, audioPath, words) {
         newBox.addEventListener("drop", (e) =>
           handleDrop(e, newBox, sentence, audioPath, words)
         );
-        newBox.addEventListener("touchstart", (e) => {
-          e.preventDefault();
-          const touch = e.touches[0];
-          const wordItem = touch.target.closest(".word-item");
-          if (wordItem) {
-            wordItem.classList.add("dragging");
-            wordItem.dataset.dragging = wordItem.textContent;
-          }
-        });
         newBox.addEventListener("touchend", (e) => {
           e.preventDefault();
-          const word = wordBank.querySelector(".word-item.dragging")?.dataset
-            .dragging;
-          if (word) {
-            handleDrop(
-              {
-                preventDefault: () => {},
-                dataTransfer: { getData: () => word },
-              },
-              newBox,
-              sentence,
-              audioPath,
-              words
+          if (draggedWord) {
+            const touch = e.changedTouches[0];
+            const element = document.elementFromPoint(
+              touch.clientX,
+              touch.clientY
             );
-            wordBank
-              .querySelector(".word-item.dragging")
-              ?.classList.remove("dragging");
+            if (element && element.classList.contains("sentence-box")) {
+              handleDrop(
+                {
+                  preventDefault: () => {},
+                  dataTransfer: { getData: () => draggedWord },
+                },
+                element,
+                sentence,
+                audioPath,
+                words
+              );
+            }
+            draggedWord = null;
+            const draggingItems = wordBank.querySelectorAll(
+              ".word-item.dragging"
+            );
+            draggingItems.forEach((item) => {
+              item.classList.remove("dragging");
+              item.style.position = "";
+              item.style.left = "";
+              item.style.top = "";
+              item.style.zIndex = "";
+            });
           }
         });
         sentenceBoxes.appendChild(newBox);
@@ -261,12 +297,44 @@ function handleDrop(e, box, sentence, audioPath, words) {
         });
         wordItem.addEventListener("touchstart", (e) => {
           e.preventDefault();
-          wordItem.classList.add("dragging");
-          wordItem.dataset.dragging = word;
+          draggedWord = word;
+          wordItem.className = "word-item";
         });
-        wordItem.addEventListener("touchend", () => {
-          wordItem.classList.remove("dragging");
-          delete wordItem.dataset.dragging;
+        wordItem.addEventListener("touchmove", (e) => {
+          e.preventDefault();
+          const touch = e.touches[0];
+          wordItem.style.position = "absolute";
+          wordItem.style.zIndex = "1000";
+          wordItem.style.left = `${touch.clientX - 50}px`;
+          wordItem.style.top = `${touch.clientY - 20}px`;
+        });
+        wordItem.addEventListener("touchend", (e) => {
+          e.preventDefault();
+          if (draggedWord) {
+            const touch = e.changedTouches[0];
+            const element = document.elementFromPoint(
+              touch.clientX,
+              touch.clientY
+            );
+            if (element && element.classList.contains("sentence-box")) {
+              handleDrop(
+                {
+                  preventDefault: () => {},
+                  dataTransfer: { getData: () => draggedWord },
+                },
+                element,
+                currentSentence,
+                audioPath,
+                words
+              );
+            }
+            draggedWord = null;
+            wordItem.classList.remove("dragging");
+            wordItem.style.position = "";
+            wordItem.style.left = "";
+            wordItem.style.top = "";
+            wordItem.style.zIndex = "";
+          }
         });
         wordBank.appendChild(wordItem);
       });
@@ -282,7 +350,7 @@ function handleDrop(e, box, sentence, audioPath, words) {
   if (allCorrect && wordBank.children.length === 0) {
     score++;
     remainingSentences--;
-    wrongAttempts = 0; // ریست تعداد اشتباهات هنگام تکمیل جمله
+    wrongAttempts = 0;
     scoreDisplay.textContent = score;
     sentenceCount.textContent = `جملات باقی‌مانده: ${remainingSentences}`;
     const audio = new Audio(`${audioPath}/${sentence.Filename}_de.mp3`);
@@ -384,7 +452,7 @@ function restartGame() {
   matchedPairs = 0;
   currentSentenceIndex = 0;
   shuffledSentences = [];
-  wrongAttempts = 0; // ریست تعداد اشتباهات
+  wrongAttempts = 0;
   timeLeft = 840;
   scoreDisplay.textContent = score;
   timerDisplay.textContent = timeLeft;
@@ -417,7 +485,7 @@ document.querySelectorAll('input[name="mode"]').forEach((radio) => {
     matchedPairs = 0;
     currentSentenceIndex = 0;
     shuffledSentences = [];
-    wrongAttempts = 0; // ریست تعداد اشتباهات هنگام تغییر حالت
+    wrongAttempts = 0;
     scoreDisplay.textContent = score;
     popup.style.display = "none";
     loadPageItems();

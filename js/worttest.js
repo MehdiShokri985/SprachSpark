@@ -1,21 +1,35 @@
-// خواندن داده‌ها از localStorage
 const data = JSON.parse(localStorage.getItem("testGroupData")) || [];
-
 let score = 0;
 let selectedGerman = null;
 let selectedPersian = null;
 let matchedPairs = 0;
 let lockSelection = false;
-let timeLeft = 840; // 840 seconds timer
+let timeLeft = 840;
 let timerInterval = null;
-
-const germanColumn = document.getElementById("german-column");
-const persianColumn = document.getElementById("persian-column");
+let currentMode = "words";
+let currentSentenceIndex = 0;
+let remainingSentences = 0;
+let shuffledSentences = [];
+let wrongAttempts = 0; // متغیر برای شمارش انتخاب‌های نادرست
+const columns = document.getElementById("columns");
+const sentenceGame = document.getElementById("sentence-game");
+const germanColumn = document.createElement("div");
+germanColumn.id = "german-column";
+germanColumn.className = "column";
+const persianColumn = document.createElement("div");
+persianColumn.id = "persian-column";
+persianColumn.className = "column";
+columns.appendChild(germanColumn);
+columns.appendChild(persianColumn);
 const scoreDisplay = document.getElementById("score");
 const timerDisplay = document.getElementById("timer");
 const popup = document.getElementById("result-popup");
 const totalScoreDisplay = document.getElementById("total-score");
 const earnedScoreDisplay = document.getElementById("earned-score");
+const sentenceBoxes = document.getElementById("sentence-boxes");
+const wordBank = document.getElementById("word-bank");
+const sentenceTranslation = document.getElementById("sentence-translation");
+const sentenceCount = document.getElementById("sentence-count");
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -26,47 +40,262 @@ function shuffle(array) {
 }
 
 function loadPageItems() {
-  // دریافت groupIndex و level از URL
   const urlParams = new URLSearchParams(window.location.search);
   const groupIndex = parseInt(urlParams.get("groupIndex")) || 0;
-  const level = urlParams.get("level") || "A2"; // مقدار پیش‌فرض A2
+  const level = urlParams.get("level") || "A2";
   document.getElementById("group-index").textContent = groupIndex;
-
-  // تنظیم مسیر فایل صوتی بر اساس سطح
   const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
 
-  germanColumn.innerHTML = "";
-  persianColumn.innerHTML = "";
+  columns.style.display = currentMode === "words" ? "flex" : "none";
+  sentenceGame.style.display = currentMode === "sentences" ? "block" : "none";
 
-  // مرتب‌سازی داده‌های آلمانی بر اساس Sound_de
-  const sortedGerman = [...data].sort((a, b) =>
-    a.Sound_de.localeCompare(b.Sound_de)
+  if (currentMode === "words") {
+    germanColumn.innerHTML = "";
+    persianColumn.innerHTML = "";
+    const wordsOnly = data.filter(
+      (item) =>
+        item.Sound_de &&
+        typeof item.Sound_de === "string" &&
+        !/[.!?]$/.test(item.Sound_de.trim())
+    );
+    if (wordsOnly.length === 0) {
+      columns.innerHTML =
+        '<div style="color: #f4d03f; text-align: center;">هیچ کلمه‌ای برای آزمون یافت نشد.</div>';
+      if (timerInterval) clearInterval(timerInterval);
+      return;
+    }
+    const sortedGerman = [...wordsOnly].sort((a, b) =>
+      a.Sound_de.localeCompare(b.Sound_de)
+    );
+    const shuffledPersian = shuffle([...wordsOnly]);
+    sortedGerman.forEach((item) => {
+      const div = document.createElement("div");
+      div.className = "item german";
+      div.textContent = item.Sound_de;
+      div.dataset.filename = item.Filename;
+      div.addEventListener("click", () => selectItem(div, "german"));
+      germanColumn.appendChild(div);
+    });
+    shuffledPersian.forEach((item) => {
+      const div = document.createElement("div");
+      div.className = "item persian";
+      div.textContent = item.translate_fa;
+      div.dataset.filename = item.Filename;
+      div.addEventListener("click", () => selectItem(div, "persian"));
+      persianColumn.appendChild(div);
+    });
+  } else {
+    if (shuffledSentences.length === 0) {
+      shuffledSentences = shuffle([
+        ...data.filter(
+          (item) =>
+            item.Sound_de &&
+            typeof item.Sound_de === "string" &&
+            /[.!?]$/.test(item.Sound_de.trim())
+        ),
+      ]);
+      remainingSentences = shuffledSentences.length;
+      wrongAttempts = 0; // ریست تعداد اشتباهات
+    }
+    loadSentenceGame(audioPath);
+  }
+}
+
+function loadSentenceGame(audioPath) {
+  sentenceBoxes.innerHTML = "";
+  wordBank.innerHTML = "";
+  sentenceTranslation.textContent = "";
+  sentenceCount.textContent = `جملات باقی‌مانده: ${remainingSentences}`;
+  if (shuffledSentences.length === 0) {
+    sentenceGame.innerHTML =
+      '<div style="color: #f4d03f; text-align: center;">هیچ جمله‌ای برای آزمون یافت نشد.</div>';
+    if (timerInterval) clearInterval(timerInterval);
+    return;
+  }
+  if (currentSentenceIndex >= shuffledSentences.length) {
+    showResult();
+    return;
+  }
+  const currentSentence = shuffledSentences[currentSentenceIndex];
+  sentenceTranslation.textContent = currentSentence.translate_fa;
+  const words = currentSentence.Sound_de.trim().split(" ");
+  const uniqueWords = [...new Set(words)]; // حذف کلمات تکراری
+  const shuffledWords = shuffle([...uniqueWords]);
+  words.forEach((_, index) => {
+    const box = document.createElement("div");
+    box.className = "sentence-box";
+    box.dataset.index = index;
+    box.addEventListener("dragover", (e) => e.preventDefault());
+    box.addEventListener("drop", (e) =>
+      handleDrop(e, box, currentSentence, audioPath, words)
+    );
+    box.addEventListener("touchstart", (e) => {
+      e.preventDefault();
+      const touch = e.touches[0];
+      const wordItem = touch.target.closest(".word-item");
+      if (wordItem) {
+        wordItem.classList.add("dragging");
+        wordItem.dataset.dragging = wordItem.textContent;
+      }
+    });
+    box.addEventListener("touchend", (e) => {
+      e.preventDefault();
+      const word = wordBank.querySelector(".word-item.dragging")?.dataset
+        .dragging;
+      if (word) {
+        handleDrop(
+          { preventDefault: () => {}, dataTransfer: { getData: () => word } },
+          box,
+          currentSentence,
+          audioPath,
+          words
+        );
+        wordBank
+          .querySelector(".word-item.dragging")
+          ?.classList.remove("dragging");
+      }
+    });
+    sentenceBoxes.appendChild(box);
+  });
+  shuffledWords.forEach((word) => {
+    const wordItem = document.createElement("div");
+    wordItem.className = "word-item";
+    wordItem.textContent = word;
+    wordItem.draggable = true;
+    wordItem.addEventListener("dragstart", (e) => {
+      e.dataTransfer.setData("text/plain", word);
+      wordItem.classList.add("dragging");
+    });
+    wordItem.addEventListener("dragend", () => {
+      wordItem.classList.remove("dragging");
+    });
+    wordItem.addEventListener("touchstart", (e) => {
+      e.preventDefault();
+      wordItem.classList.add("dragging");
+      wordItem.dataset.dragging = word;
+    });
+    wordItem.addEventListener("touchend", () => {
+      wordItem.classList.remove("dragging");
+      delete wordItem.dataset.dragging;
+    });
+    wordBank.appendChild(wordItem);
+  });
+}
+
+function handleDrop(e, box, sentence, audioPath, words) {
+  e.preventDefault();
+  const word = e.dataTransfer.getData("text/plain");
+  const correctWord = sentence.Sound_de.trim().split(" ")[box.dataset.index];
+  box.textContent = word;
+  const wordItem = Array.from(wordBank.querySelectorAll(".word-item")).find(
+    (item) => item.textContent === word
   );
-  // داده‌های پارسی همچنان به‌صورت تصادفی
-  const shuffledPersian = shuffle([...data]);
-
-  sortedGerman.forEach((item) => {
-    const div = document.createElement("div");
-    div.className = "item german";
-    div.textContent = item.Sound_de;
-    div.dataset.filename = item.Filename;
-    div.addEventListener("click", () => selectItem(div, "german"));
-    germanColumn.appendChild(div);
-  });
-
-  shuffledPersian.forEach((item) => {
-    const div = document.createElement("div");
-    div.className = "item persian";
-    div.textContent = item.translate_fa;
-    div.dataset.filename = item.Filename;
-    div.addEventListener("click", () => selectItem(div, "persian"));
-    persianColumn.appendChild(div);
-  });
+  if (wordItem) wordItem.remove();
+  if (word === correctWord) {
+    box.classList.add("correct");
+    box.classList.remove("wrong");
+  } else {
+    box.classList.add("wrong");
+    box.classList.remove("correct");
+    wrongAttempts++;
+    if (wrongAttempts >= 3) {
+      score--;
+      wrongAttempts = 0; // ریست تعداد اشتباهات
+      scoreDisplay.textContent = score;
+    }
+    setTimeout(() => {
+      sentenceBoxes.innerHTML = "";
+      wordBank.innerHTML = "";
+      const uniqueWords = [...new Set(words)];
+      const shuffledWords = shuffle([...uniqueWords]);
+      words.forEach((_, index) => {
+        const newBox = document.createElement("div");
+        newBox.className = "sentence-box";
+        newBox.dataset.index = index;
+        newBox.addEventListener("dragover", (e) => e.preventDefault());
+        newBox.addEventListener("drop", (e) =>
+          handleDrop(e, newBox, sentence, audioPath, words)
+        );
+        newBox.addEventListener("touchstart", (e) => {
+          e.preventDefault();
+          const touch = e.touches[0];
+          const wordItem = touch.target.closest(".word-item");
+          if (wordItem) {
+            wordItem.classList.add("dragging");
+            wordItem.dataset.dragging = wordItem.textContent;
+          }
+        });
+        newBox.addEventListener("touchend", (e) => {
+          e.preventDefault();
+          const word = wordBank.querySelector(".word-item.dragging")?.dataset
+            .dragging;
+          if (word) {
+            handleDrop(
+              {
+                preventDefault: () => {},
+                dataTransfer: { getData: () => word },
+              },
+              newBox,
+              sentence,
+              audioPath,
+              words
+            );
+            wordBank
+              .querySelector(".word-item.dragging")
+              ?.classList.remove("dragging");
+          }
+        });
+        sentenceBoxes.appendChild(newBox);
+      });
+      shuffledWords.forEach((word) => {
+        const wordItem = document.createElement("div");
+        wordItem.className = "word-item";
+        wordItem.textContent = word;
+        wordItem.draggable = true;
+        wordItem.addEventListener("dragstart", (e) => {
+          e.dataTransfer.setData("text/plain", word);
+          wordItem.classList.add("dragging");
+        });
+        wordItem.addEventListener("dragend", () => {
+          wordItem.classList.remove("dragging");
+        });
+        wordItem.addEventListener("touchstart", (e) => {
+          e.preventDefault();
+          wordItem.classList.add("dragging");
+          wordItem.dataset.dragging = word;
+        });
+        wordItem.addEventListener("touchend", () => {
+          wordItem.classList.remove("dragging");
+          delete wordItem.dataset.dragging;
+        });
+        wordBank.appendChild(wordItem);
+      });
+    }, 1000);
+    scoreDisplay.textContent = score;
+    return;
+  }
+  scoreDisplay.textContent = score;
+  const allBoxes = sentenceBoxes.querySelectorAll(".sentence-box");
+  const allCorrect = Array.from(allBoxes).every((box) =>
+    box.classList.contains("correct")
+  );
+  if (allCorrect && wordBank.children.length === 0) {
+    score++;
+    remainingSentences--;
+    wrongAttempts = 0; // ریست تعداد اشتباهات هنگام تکمیل جمله
+    scoreDisplay.textContent = score;
+    sentenceCount.textContent = `جملات باقی‌مانده: ${remainingSentences}`;
+    const audio = new Audio(`${audioPath}/${sentence.Filename}_de.mp3`);
+    audio.addEventListener("ended", () => {
+      currentSentenceIndex++;
+      loadSentenceGame(audioPath);
+    });
+    audio.play();
+  }
 }
 
 function selectItem(element, type) {
   if (lockSelection || element.classList.contains("correct")) return;
-
   element.classList.add("selected");
   if (type === "german") {
     if (selectedGerman) selectedGerman.classList.remove("selected");
@@ -75,18 +304,15 @@ function selectItem(element, type) {
     if (selectedPersian) selectedPersian.classList.remove("selected");
     selectedPersian = element;
   }
-
   if (selectedGerman && selectedPersian) {
     checkMatch();
   }
 }
 
 function checkMatch() {
-  // دریافت level از URL
   const urlParams = new URLSearchParams(window.location.search);
   const level = urlParams.get("level") || "A2";
   const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
-
   lockSelection = true;
   if (selectedGerman.dataset.filename === selectedPersian.dataset.filename) {
     selectedGerman.classList.add("correct");
@@ -101,8 +327,16 @@ function checkMatch() {
     selectedGerman = null;
     selectedPersian = null;
     lockSelection = false;
-    if (matchedPairs === data.length) {
-      clearInterval(timerInterval);
+    if (
+      matchedPairs ===
+      data.filter(
+        (item) =>
+          item.Sound_de &&
+          typeof item.Sound_de === "string" &&
+          !/[.!?]$/.test(item.Sound_de.trim())
+      ).length
+    ) {
+      if (timerInterval) clearInterval(timerInterval);
       showResult();
     }
   } else {
@@ -125,15 +359,32 @@ function checkMatch() {
 }
 
 function showResult() {
-  totalScoreDisplay.textContent = data.length;
+  const sentences = data.filter(
+    (item) =>
+      item.Sound_de &&
+      typeof item.Sound_de === "string" &&
+      /[.!?]$/.test(item.Sound_de.trim())
+  );
+  totalScoreDisplay.textContent =
+    currentMode === "words"
+      ? data.filter(
+          (item) =>
+            item.Sound_de &&
+            typeof item.Sound_de === "string" &&
+            !/[.!?]$/.test(item.Sound_de.trim())
+        ).length
+      : sentences.length;
   earnedScoreDisplay.textContent = score;
   popup.style.display = "block";
-  clearInterval(timerInterval);
+  if (timerInterval) clearInterval(timerInterval);
 }
 
 function restartGame() {
   score = 0;
   matchedPairs = 0;
+  currentSentenceIndex = 0;
+  shuffledSentences = [];
+  wrongAttempts = 0; // ریست تعداد اشتباهات
   timeLeft = 840;
   scoreDisplay.textContent = score;
   timerDisplay.textContent = timeLeft;
@@ -143,6 +394,7 @@ function restartGame() {
 }
 
 function startTimer() {
+  if (timerInterval) clearInterval(timerInterval);
   timerInterval = setInterval(() => {
     timeLeft--;
     timerDisplay.textContent = timeLeft;
@@ -153,19 +405,25 @@ function startTimer() {
   }, 1000);
 }
 
-// function goBackToLevel() {
-//   const urlParams = new URLSearchParams(window.location.search);
-//   const groupIndex = parseInt(urlParams.get("groupIndex")) || 1;
-//   const level = localStorage.getItem("selectedLevel") || "A2"; // مقدار پیش‌فرض A2
-//   window.location.href = `index.html?level=${level}&groupIndex=${groupIndex}`;
-// }
-
 function goBackToLevel() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const level = localStorage.getItem("selectedLevel") || "A2"; // مقدار پیش‌فرض A2
+  const level = localStorage.getItem("selectedLevel") || "A2";
   window.location.href = `index.html?level=${level}`;
 }
 
-// شروع تایمر و بارگذاری آیتم‌ها هنگام لود صفحه
+document.querySelectorAll('input[name="mode"]').forEach((radio) => {
+  radio.addEventListener("change", (e) => {
+    currentMode = e.target.value;
+    score = 0;
+    matchedPairs = 0;
+    currentSentenceIndex = 0;
+    shuffledSentences = [];
+    wrongAttempts = 0; // ریست تعداد اشتباهات هنگام تغییر حالت
+    scoreDisplay.textContent = score;
+    popup.style.display = "none";
+    loadPageItems();
+    startTimer();
+  });
+});
+
 startTimer();
 loadPageItems();

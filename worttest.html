@@ -9,15 +9,22 @@
   </head>
   <body>
     <div class="container">
-      <button class="back-button"  onclick="goBackToLevel()">Zurück zur Startseite</button>
+      <button class="back-button" onclick="goBackToLevel()">Zurück zur Startseite</button>
+      <div class="mode-switch">
+        <label><input type="radio" name="mode" value="words" checked> کلمات</label>
+        <label><input type="radio" name="mode" value="sentences"> جملات</label>
+      </div>
       <div class="score-group-container">
         <div class="score">Punktzahl: <span id="score">0</span></div>
         <div class="group-index">Gruppe: <span id="group-index">3</span></div>
       </div>
       <div class="timer">Verbleibende Zeit: <span id="timer">840</span> Sekunden</div>
-      <div class="columns">
-        <div class="column" id="german-column"></div>
-        <div class="column" id="persian-column"></div>
+      <div class="columns" id="columns"></div>
+      <div class="sentence-game" id="sentence-game" style="display: none;">
+        <div class="sentence-translation" id="sentence-translation"></div>
+        <div class="sentence-count" id="sentence-count"></div>
+        <div class="sentence-boxes" id="sentence-boxes"></div>
+        <div class="word-bank" id="word-bank"></div>
       </div>
     </div>
     <div class="popup" id="result-popup">
@@ -25,10 +32,10 @@
       <p>مجموع امتیازات: <span id="total-score"></span></p>
       <p>امتیازات کسب‌شده: <span id="earned-score"></span></p>
       <button onclick="restartGame()">Neustart</button>
-     <button class="back-button" onclick="goBackToLevel()">Zurück zur Startseite</button>
+      <button class="back-button" onclick="goBackToLevel()">Zurück zur Startseite</button>
     </div>
 
     <script src="./js/worttest.js?v=1.0"></script>
 </body>
-  </body>
+
 </html>

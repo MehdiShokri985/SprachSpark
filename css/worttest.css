@@ -178,6 +178,21 @@ body {
   justify-content: center;
   direction: ltr;
 }
+/* .sentence-box {
+  width: 100px;
+  height: 40px;
+  border: 2px dashed #f4d03f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #34495e;
+  color: #fff;
+  font-size: 0.9em;
+  cursor: pointer;
+  touch-action: manipulation;
+} */
+
 .sentence-box {
   width: 100px;
   height: 40px;
@@ -190,7 +205,11 @@ body {
   color: #fff;
   font-size: 0.9em;
   cursor: pointer;
-  touch-action: manipulation; /* تغییر از none به manipulation */
+  touch-action: manipulation;
+  white-space: nowrap; /* جلوگیری از شکستن متن به خط بعدی */
+  overflow: hidden; /* مخفی کردن متن اضافی */
+  text-overflow: ellipsis; /* افزودن ... برای متن طولانی */
+  padding: 0 5px; /* افزودن فاصله داخلی برای زیبایی */
 }
 .sentence-box.correct {
   border-color: #27ae60;
@@ -334,10 +353,20 @@ body {
   .sentence-boxes {
     gap: 4px;
   }
+  /* .sentence-box {
+    width: 80px;
+    height: 35px;
+    font-size: 0.8em;
+  } */
+
   .sentence-box {
     width: 80px;
     height: 35px;
     font-size: 0.8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
   }
   .word-bank {
     gap: 6px;

@@ -97,7 +97,7 @@ body {
   overflow-y: auto;
 }
 .column::-webkit-scrollbar {
-  width: 4px;
+  width: 1px;
 }
 .column::-webkit-scrollbar-track {
   background: #1a2b44;
@@ -105,7 +105,7 @@ body {
 }
 .column::-webkit-scrollbar-thumb {
   background: #f4d03f;
-  border-radius: 2px;
+  border-radius: 1px;
 }
 .column::-webkit-scrollbar-thumb:hover {
   background: #d4b32f;
@@ -335,7 +335,7 @@ body {
     gap: 10px;
   }
   .column {
-    width: 100%;
+    width: auto;
     max-height: 35vh;
     padding: 8px;
   }

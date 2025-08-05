@@ -284,8 +284,8 @@ function createItem(group) {
             <input type="text" class="input-text" placeholder="Testen Sie Ihr Schreiben.">
             <audio src="${audioPath}/${item.file || ""}" preload="none"></audio>
             <div class="control-buttons">
-                <button class="delete-btn">löschen</button>
-                <button class="play-btn">aussprache</button>
+                <button class="delete-btn">Löschen</button>
+                <button class="play-btn">Aussprache</button>
             </div>
             <input type="range" min="0" max="${
               maxSliderValue || 0

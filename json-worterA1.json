@@ -9626,7 +9626,7 @@
     "root": "",
     "type": "جمله",
     "subject": ["die Hausfrau/der Hausmann"],
-    "verb": ["wäscht", "kocht", "kauft"],
+    "verb": ["wäscht", "kocht", "kauft ein"],
     "auxiliary_verb": [null, null, null],
     "object": [null, null, null],
     "verb_part1": [null, null, ["kauft"]],

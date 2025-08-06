@@ -151,7 +151,7 @@ function loadSentenceGame(audioPath) {
             targetBox = b;
           }
         });
-        console.log("Touchend (box):", draggedWord, targetBox, currentSentence); // دیباگ
+        // console.log("Touchend (box):", draggedWord, targetBox, currentSentence); // دیباگ
         if (targetBox) {
           handleDrop(
             {
@@ -186,18 +186,18 @@ function loadSentenceGame(audioPath) {
     wordItem.addEventListener("dragstart", (e) => {
       e.dataTransfer.setData("text/plain", word);
       wordItem.classList.add("dragging");
-      console.log("Dragstart:", word); // دیباگ
+      // console.log("Dragstart:", word); // دیباگ
     });
     wordItem.addEventListener("dragend", () => {
       wordItem.classList.remove("dragging");
-      console.log("Dragend:", word); // دیباگ
+      // console.log("Dragend:", word); // دیباگ
     });
     wordItem.addEventListener("touchstart", (e) => {
       e.preventDefault();
       draggedWord = word;
       wordItem.classList.add("dragging");
       wordItem.style.transform = "scale(1.1)"; // بازخورد بصری
-      console.log("Touchstart:", word, wordItem.style.transform); // دیباگ
+      // console.log("Touchstart:", word, wordItem.style.transform); // دیباگ
     });
     wordItem.addEventListener("touchmove", (e) => {
       e.preventDefault();
@@ -206,12 +206,12 @@ function loadSentenceGame(audioPath) {
       wordItem.style.left = `${touch.clientX - 40}px`; // تنظیم موقعیت
       wordItem.style.top = `${touch.clientY - 20}px`;
       wordItem.style.transform = "scale(1.1)"; // حفظ بزرگ‌نمایی
-      console.log(
-        "Touchmove:",
-        touch.clientX,
-        touch.clientY,
-        wordItem.style.transform
-      ); // دیباگ
+      // console.log(
+      //   "Touchmove:",
+      //   touch.clientX,
+      //   touch.clientY,
+      //   wordItem.style.transform
+      // ); // دیباگ
     });
     wordItem.addEventListener("touchend", (e) => {
       e.preventDefault();
@@ -231,12 +231,12 @@ function loadSentenceGame(audioPath) {
               targetBox = b;
             }
           });
-          console.log(
-            "Touchend (word):",
-            draggedWord,
-            targetBox,
-            currentSentence
-          ); // دیباگ
+          // console.log(
+          //   "Touchend (word):",
+          //   draggedWord,
+          //   targetBox,
+          //   currentSentence
+          // ); // دیباگ
           if (targetBox) {
             handleDrop(
               {
@@ -267,7 +267,7 @@ function handleDrop(e, box, sentence, audioPath, words) {
   e.preventDefault();
   const word = e.dataTransfer.getData("text/plain") || draggedWord;
   if (!word) return;
-  console.log("HandleDrop:", word, box, sentence); // دیباگ
+  // console.log("HandleDrop:", word, box, sentence); // دیباگ
   const correctWord = sentence.Sound_de.trim().split(" ")[box.dataset.index];
   box.textContent = word;
   const wordItem = Array.from(wordBank.querySelectorAll(".word-item")).find(
@@ -315,7 +315,7 @@ function handleDrop(e, box, sentence, audioPath, words) {
                 targetBox = b;
               }
             });
-            console.log("Touchend (newBox):", draggedWord, targetBox, sentence); // دیباگ
+            // console.log("Touchend (newBox):", draggedWord, targetBox, sentence); // دیباگ
             if (targetBox) {
               handleDrop(
                 {
@@ -352,18 +352,18 @@ function handleDrop(e, box, sentence, audioPath, words) {
         wordItem.addEventListener("dragstart", (e) => {
           e.dataTransfer.setData("text/plain", word);
           wordItem.classList.add("dragging");
-          console.log("Dragstart:", word); // دیباگ
+          // console.log("Dragstart:", word); // دیباگ
         });
         wordItem.addEventListener("dragend", () => {
           wordItem.classList.remove("dragging");
-          console.log("Dragend:", word); // دیباگ
+          // console.log("Dragend:", word); // دیباگ
         });
         wordItem.addEventListener("touchstart", (e) => {
           e.preventDefault();
           draggedWord = word;
           wordItem.classList.add("dragging");
           wordItem.style.transform = "scale(1.1)";
-          console.log("Touchstart:", word, wordItem.style.transform); // دیباگ
+          // console.log("Touchstart:", word, wordItem.style.transform); // دیباگ
         });
         wordItem.addEventListener("touchmove", (e) => {
           e.preventDefault();
@@ -372,12 +372,12 @@ function handleDrop(e, box, sentence, audioPath, words) {
           wordItem.style.left = `${touch.clientX - 40}px`;
           wordItem.style.top = `${touch.clientY - 20}px`;
           wordItem.style.transform = "scale(1.1)";
-          console.log(
-            "Touchmove:",
-            touch.clientX,
-            touch.clientY,
-            wordItem.style.transform
-          ); // دیباگ
+          // console.log(
+          //   "Touchmove:",
+          //   touch.clientX,
+          //   touch.clientY,
+          //   wordItem.style.transform
+          // ); // دیباگ
         });
         wordItem.addEventListener("touchend", (e) => {
           e.preventDefault();
@@ -397,7 +397,7 @@ function handleDrop(e, box, sentence, audioPath, words) {
                   targetBox = b;
                 }
               });
-              console.log("Touchend (new):", draggedWord, targetBox, sentence); // دیباگ
+              // console.log("Touchend (new):", draggedWord, targetBox, sentence); // دیباگ
               if (targetBox) {
                 handleDrop(
                   {

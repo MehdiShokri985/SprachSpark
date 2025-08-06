@@ -293,23 +293,6 @@ body {
   transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s; /* اضافه شده */
 }
 
-/* .sentence-box {
-  width: 100px;
-  height: 40px;
-  border: 2px dashed #9c7e07;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #334b6454;
-  color: #fff;
-  font-size: 0.9em;
-  cursor: pointer;
-  touch-action: manipulation;
-
-} */
-
-
 @media (max-width: 600px) {
   body {
     padding: 10px;

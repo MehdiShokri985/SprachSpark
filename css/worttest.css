@@ -48,7 +48,7 @@ body {
 }
 .back-button {
   background-color: #cca509;
-  color: #2c3e50;
+  color: #03203d;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
@@ -179,24 +179,7 @@ body {
 }
 
 
-.sentence-box {
-  width: 100px;
-  height: 40px;
-  border: 2px dashed #9c7e07;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #334b6454;
-  color: #fff;
-  font-size: 0.9em;
-  cursor: pointer;
-  touch-action: manipulation;
-  white-space: nowrap; /* جلوگیری از شکستن متن به خط بعدی */
-  overflow: hidden; /* مخفی کردن متن اضافی */
-  text-overflow: ellipsis; /* افزودن ... برای متن طولانی */
-  padding: 0 5px; /* افزودن فاصله داخلی برای زیبایی */
-}
+
 .sentence-box.correct {
   border-color: #27ae60;
   background-color: #27ae60;
@@ -293,12 +276,12 @@ body {
 .sentence-box {
   width: 100px;
   height: 40px;
-  border: 2px dashed #f4d03f;
+  border: 2px dashed #f4d03f40;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #34495e;
+  background-color: #34495e4f;
   color: #fff;
   font-size: 0.9em;
   cursor: pointer;
@@ -309,6 +292,22 @@ body {
   padding: 0 5px;
   transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s; /* اضافه شده */
 }
+
+/* .sentence-box {
+  width: 100px;
+  height: 40px;
+  border: 2px dashed #9c7e07;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #334b6454;
+  color: #fff;
+  font-size: 0.9em;
+  cursor: pointer;
+  touch-action: manipulation;
+
+} */
 
 
 @media (max-width: 600px) {

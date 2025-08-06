@@ -177,30 +177,17 @@ body {
   justify-content: center;
   direction: ltr;
 }
-/* .sentence-box {
-  width: 100px;
-  height: 40px;
-  border: 2px dashed #f4d03f;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #34495e;
-  color: #fff;
-  font-size: 0.9em;
-  cursor: pointer;
-  touch-action: manipulation;
-} */
+
 
 .sentence-box {
   width: 100px;
   height: 40px;
-  border: 2px dashed #f4d03f;
+  border: 2px dashed #9c7e07;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #34495e;
+  background-color: #334b6454;
   color: #fff;
   font-size: 0.9em;
   cursor: pointer;
@@ -228,16 +215,6 @@ body {
   height: auto;
 }
 
-/* .word-item {
-  padding: 8px;
-  background-color: #86a9ca;
-  border-radius: 5px;
-  cursor: move;
-  color: #000f2f;
-  font-size: 0.9em;
-  direction: ltr;
-  touch-action: manipulation;*/ /* تغییر از none به manipulation */
-/* }  */
 
 /* اصلاح استایل word-item برای حذف درگ و افزودن افکت کلیک */
 .word-item {
@@ -300,19 +277,16 @@ body {
 }
 
 .completed-sentence {
-    color: #cca509;
+    color: #ffe002;
     font-size: 1.1em;
     text-align: center;
     direction: ltr;
-    margin-top: 10px;
     display: none;
-    background-color: #1c2e48;
-    padding: 5px;
+    background-color: #1e314d;
     border-radius: 10px;
     margin-top: 30px;
-    /* margin-bottom: 15px; */
-    height: 20px;
-
+    height: auto;
+    padding:8px;
 }
 
 
@@ -381,21 +355,7 @@ body {
     background-color: #f4d03f;
     transform: scale(1.05); /* کاهش مقیاس برای موبایل */
   }
-  /* .sentence-box {
-    width: 80px;
-    height: 35px;
-    font-size: 0.8em;
-  } */
 
-  /* .sentence-box {
-    width: 80px;
-    height: 35px;
-    font-size: 0.8em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 0 5px;
-  } */
 
   /* اضافه کردن transition به sentence-box برای انیمیشن */
 .sentence-box {

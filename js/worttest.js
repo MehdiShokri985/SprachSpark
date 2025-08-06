@@ -217,6 +217,7 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
       wordBank.style.display = "none";
       completedSentence.style.display = "block";
       completedSentence.textContent = sentence.Sound_de.trim();
+
       const audio = new Audio(`${audioPath}/${sentence.Filename}_de.mp3`);
       audio.addEventListener("ended", () => {
         currentSentenceIndex++;

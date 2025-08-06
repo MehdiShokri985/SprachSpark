@@ -11,7 +11,6 @@ let currentSentenceIndex = 0;
 let remainingSentences = 0;
 let shuffledSentences = [];
 let wrongAttempts = 0;
-let draggedWord = null; // متغیر برای ذخیره کلمه در حال درگ
 const columns = document.getElementById("columns");
 const sentenceGame = document.getElementById("sentence-game");
 const germanColumn = document.createElement("div");
@@ -111,7 +110,6 @@ function loadSentenceGame(audioPath) {
   completedSentence.style.display = "none";
   completedSentence.textContent = "";
   wordBank.style.display = "flex";
-
   if (shuffledSentences.length === 0) {
     sentenceGame.innerHTML =
       '<div style="color: #f4d03f; text-align: center;">هیچ جمله‌ای برای آزمون یافت نشد.</div>';
@@ -125,328 +123,98 @@ function loadSentenceGame(audioPath) {
   const currentSentence = shuffledSentences[currentSentenceIndex];
   sentenceTranslation.textContent = currentSentence.translate_fa;
   const words = currentSentence.Sound_de.trim().split(" ");
-  const shuffledWords = shuffle([...words]); // پشتیبانی از کلمات تکراری
+  const shuffledWords = shuffle([...words]);
   words.forEach((_, index) => {
     const box = document.createElement("div");
     box.className = "sentence-box";
     box.dataset.index = index;
-    box.addEventListener("dragover", (e) => e.preventDefault());
-    box.addEventListener("drop", (e) =>
-      handleDrop(e, box, currentSentence, audioPath, words)
-    );
-    box.addEventListener("touchend", (e) => {
-      e.preventDefault();
-      if (draggedWord) {
-        const touch = e.changedTouches[0];
-        const boxes = document.querySelectorAll(".sentence-box");
-        let targetBox = null;
-        boxes.forEach((b) => {
-          const rect = b.getBoundingClientRect();
-          if (
-            touch.clientX >= rect.left &&
-            touch.clientX <= rect.right &&
-            touch.clientY >= rect.top &&
-            touch.clientY <= rect.bottom
-          ) {
-            targetBox = b;
-          }
-        });
-        // console.log("Touchend (box):", draggedWord, targetBox, currentSentence); // دیباگ
-        if (targetBox) {
-          handleDrop(
-            {
-              preventDefault: () => {},
-              dataTransfer: { getData: () => draggedWord },
-            },
-            targetBox,
-            currentSentence,
-            audioPath,
-            words
-          );
-        }
-        draggedWord = null;
-        const draggingItems = wordBank.querySelectorAll(".word-item.dragging");
-        draggingItems.forEach((item) => {
-          item.classList.remove("dragging");
-          item.style.position = "";
-          item.style.left = "";
-          item.style.top = "";
-          item.style.transform = "";
-          item.style.zIndex = "";
-        });
-      }
-    });
     sentenceBoxes.appendChild(box);
   });
   shuffledWords.forEach((word) => {
     const wordItem = document.createElement("div");
     wordItem.className = "word-item";
     wordItem.textContent = word;
-    wordItem.draggable = true;
-    wordItem.addEventListener("dragstart", (e) => {
-      e.dataTransfer.setData("text/plain", word);
-      wordItem.classList.add("dragging");
-      // console.log("Dragstart:", word); // دیباگ
-    });
-    wordItem.addEventListener("dragend", () => {
-      wordItem.classList.remove("dragging");
-      // console.log("Dragend:", word); // دیباگ
-    });
-    wordItem.addEventListener("touchstart", (e) => {
-      e.preventDefault();
-      draggedWord = word;
-      wordItem.classList.add("dragging");
-      wordItem.style.transform = "scale(1.1)"; // بازخورد بصری
-      // console.log("Touchstart:", word, wordItem.style.transform); // دیباگ
-    });
-    wordItem.addEventListener("touchmove", (e) => {
-      e.preventDefault();
-      const touch = e.touches[0];
-      wordItem.style.position = "absolute";
-      wordItem.style.left = `${touch.clientX - 40}px`; // تنظیم موقعیت
-      wordItem.style.top = `${touch.clientY - 20}px`;
-      wordItem.style.transform = "scale(1.1)"; // حفظ بزرگ‌نمایی
-      // console.log(
-      //   "Touchmove:",
-      //   touch.clientX,
-      //   touch.clientY,
-      //   wordItem.style.transform
-      // ); // دیباگ
-    });
-    wordItem.addEventListener("touchend", (e) => {
-      e.preventDefault();
-      if (draggedWord) {
-        setTimeout(() => {
-          const touch = e.changedTouches[0];
-          const boxes = document.querySelectorAll(".sentence-box");
-          let targetBox = null;
-          boxes.forEach((b) => {
-            const rect = b.getBoundingClientRect();
-            if (
-              touch.clientX >= rect.left &&
-              touch.clientX <= rect.right &&
-              touch.clientY >= rect.top &&
-              touch.clientY <= rect.bottom
-            ) {
-              targetBox = b;
-            }
-          });
-          // console.log(
-          //   "Touchend (word):",
-          //   draggedWord,
-          //   targetBox,
-          //   currentSentence
-          // ); // دیباگ
-          if (targetBox) {
-            handleDrop(
-              {
-                preventDefault: () => {},
-                dataTransfer: { getData: () => draggedWord },
-              },
-              targetBox,
-              currentSentence,
-              audioPath,
-              words
-            );
-          }
-          draggedWord = null;
-          wordItem.classList.remove("dragging");
-          wordItem.style.position = "";
-          wordItem.style.left = "";
-          wordItem.style.top = "";
-          wordItem.style.transform = "";
-          wordItem.style.zIndex = "";
-        }, 50); // تأخیر 50ms
-      }
-    });
+    wordItem.addEventListener("click", () =>
+      handleWordClick(wordItem, word, currentSentence, audioPath, words)
+    );
     wordBank.appendChild(wordItem);
   });
 }
 
-function handleDrop(e, box, sentence, audioPath, words) {
-  e.preventDefault();
-  const word = e.dataTransfer.getData("text/plain") || draggedWord;
-  if (!word) return;
-  // console.log("HandleDrop:", word, box, sentence); // دیباگ
-  const correctWord = sentence.Sound_de.trim().split(" ")[box.dataset.index];
-  box.textContent = word;
-  const wordItem = Array.from(wordBank.querySelectorAll(".word-item")).find(
-    (item) => item.textContent === word
-  );
-  if (wordItem) wordItem.remove();
-  if (word === correctWord) {
-    box.classList.add("correct");
-    box.classList.remove("wrong");
-  } else {
-    box.classList.add("wrong");
-    box.classList.remove("correct");
-    wrongAttempts++;
-    if (wrongAttempts >= 3) {
-      score--;
+function handleWordClick(wordItem, word, sentence, audioPath, words) {
+  const allBoxes = sentenceBoxes.querySelectorAll(".sentence-box");
+  const emptyBox = Array.from(allBoxes).find((box) => !box.textContent);
+  if (!emptyBox) return;
+
+  wordItem.classList.add("selected");
+  const wordRect = wordItem.getBoundingClientRect();
+  const boxRect = emptyBox.getBoundingClientRect();
+  const translateX = boxRect.left - wordRect.left;
+  const translateY = boxRect.top - wordRect.top;
+
+  wordItem.style.transition = "transform 0.3s ease";
+  wordItem.style.transform = `translate(${translateX}px, ${translateY}px)`;
+
+  setTimeout(() => {
+    emptyBox.textContent = word;
+    wordItem.remove();
+    const correctWord = sentence.Sound_de.trim().split(" ")[emptyBox.dataset.index];
+    if (word === correctWord) {
+      emptyBox.classList.add("correct");
+      emptyBox.classList.remove("wrong");
+    } else {
+      emptyBox.classList.add("wrong");
+      emptyBox.classList.remove("correct");
+      wrongAttempts++;
+      if (wrongAttempts >= 3) {
+        score--;
+        wrongAttempts = 0;
+        scoreDisplay.textContent = score;
+      }
+      setTimeout(() => {
+        sentenceBoxes.innerHTML = "";
+        wordBank.innerHTML = "";
+        const shuffledWords = shuffle([...words]);
+        words.forEach((_, index) => {
+          const newBox = document.createElement("div");
+          newBox.className = "sentence-box";
+          newBox.dataset.index = index;
+          sentenceBoxes.appendChild(newBox);
+        });
+        shuffledWords.forEach((word) => {
+          const wordItem = document.createElement("div");
+          wordItem.className = "word-item";
+          wordItem.textContent = word;
+          wordItem.addEventListener("click", () =>
+            handleWordClick(wordItem, word, sentence, audioPath, words)
+          );
+          wordBank.appendChild(wordItem);
+        });
+      }, 1000);
+      scoreDisplay.textContent = score;
+      return;
+    }
+    scoreDisplay.textContent = score;
+    const allCorrect = Array.from(allBoxes).every((box) =>
+      box.classList.contains("correct")
+    );
+    if (allCorrect && wordBank.children.length === 0) {
+      score++;
+      remainingSentences--;
       wrongAttempts = 0;
       scoreDisplay.textContent = score;
+      sentenceCount.textContent = remainingSentences;
+      wordBank.style.display = "none";
+      completedSentence.style.display = "block";
+      completedSentence.textContent = sentence.Sound_de.trim();
+      const audio = new Audio(`${audioPath}/${sentence.Filename}_de.mp3`);
+      audio.addEventListener("ended", () => {
+        currentSentenceIndex++;
+        loadSentenceGame(audioPath);
+      });
+      audio.play();
     }
-    setTimeout(() => {
-      sentenceBoxes.innerHTML = "";
-      wordBank.innerHTML = "";
-      const shuffledWords = shuffle([...words]); // پشتیبانی از کلمات تکراری
-      words.forEach((_, index) => {
-        const newBox = document.createElement("div");
-        newBox.className = "sentence-box";
-        newBox.dataset.index = index;
-        newBox.addEventListener("dragover", (e) => e.preventDefault());
-        newBox.addEventListener("drop", (e) =>
-          handleDrop(e, newBox, sentence, audioPath, words)
-        );
-        newBox.addEventListener("touchend", (e) => {
-          e.preventDefault();
-          if (draggedWord) {
-            const touch = e.changedTouches[0];
-            const boxes = document.querySelectorAll(".sentence-box");
-            let targetBox = null;
-            boxes.forEach((b) => {
-              const rect = b.getBoundingClientRect();
-              if (
-                touch.clientX >= rect.left &&
-                touch.clientX <= rect.right &&
-                touch.clientY >= rect.top &&
-                touch.clientY <= rect.bottom
-              ) {
-                targetBox = b;
-              }
-            });
-            // console.log("Touchend (newBox):", draggedWord, targetBox, sentence); // دیباگ
-            if (targetBox) {
-              handleDrop(
-                {
-                  preventDefault: () => {},
-                  dataTransfer: { getData: () => draggedWord },
-                },
-                targetBox,
-                sentence,
-                audioPath,
-                words
-              );
-            }
-            draggedWord = null;
-            const draggingItems = wordBank.querySelectorAll(
-              ".word-item.dragging"
-            );
-            draggingItems.forEach((item) => {
-              item.classList.remove("dragging");
-              item.style.position = "";
-              item.style.left = "";
-              item.style.top = "";
-              item.style.transform = "";
-              item.style.zIndex = "";
-            });
-          }
-        });
-        sentenceBoxes.appendChild(newBox);
-      });
-      shuffledWords.forEach((word) => {
-        const wordItem = document.createElement("div");
-        wordItem.className = "word-item";
-        wordItem.textContent = word;
-        wordItem.draggable = true;
-        wordItem.addEventListener("dragstart", (e) => {
-          e.dataTransfer.setData("text/plain", word);
-          wordItem.classList.add("dragging");
-          // console.log("Dragstart:", word); // دیباگ
-        });
-        wordItem.addEventListener("dragend", () => {
-          wordItem.classList.remove("dragging");
-          // console.log("Dragend:", word); // دیباگ
-        });
-        wordItem.addEventListener("touchstart", (e) => {
-          e.preventDefault();
-          draggedWord = word;
-          wordItem.classList.add("dragging");
-          wordItem.style.transform = "scale(1.1)";
-          // console.log("Touchstart:", word, wordItem.style.transform); // دیباگ
-        });
-        wordItem.addEventListener("touchmove", (e) => {
-          e.preventDefault();
-          const touch = e.touches[0];
-          wordItem.style.position = "absolute";
-          wordItem.style.left = `${touch.clientX - 40}px`;
-          wordItem.style.top = `${touch.clientY - 20}px`;
-          wordItem.style.transform = "scale(1.1)";
-          // console.log(
-          //   "Touchmove:",
-          //   touch.clientX,
-          //   touch.clientY,
-          //   wordItem.style.transform
-          // ); // دیباگ
-        });
-        wordItem.addEventListener("touchend", (e) => {
-          e.preventDefault();
-          if (draggedWord) {
-            setTimeout(() => {
-              const touch = e.changedTouches[0];
-              const boxes = document.querySelectorAll(".sentence-box");
-              let targetBox = null;
-              boxes.forEach((b) => {
-                const rect = b.getBoundingClientRect();
-                if (
-                  touch.clientX >= rect.left &&
-                  touch.clientX <= rect.right &&
-                  touch.clientY >= rect.top &&
-                  touch.clientY <= rect.bottom
-                ) {
-                  targetBox = b;
-                }
-              });
-              // console.log("Touchend (new):", draggedWord, targetBox, sentence); // دیباگ
-              if (targetBox) {
-                handleDrop(
-                  {
-                    preventDefault: () => {},
-                    dataTransfer: { getData: () => draggedWord },
-                  },
-                  targetBox,
-                  sentence,
-                  audioPath,
-                  words
-                );
-              }
-              draggedWord = null;
-              wordItem.classList.remove("dragging");
-              wordItem.style.position = "";
-              wordItem.style.left = "";
-              wordItem.style.top = "";
-              wordItem.style.transform = "";
-              wordItem.style.zIndex = "";
-            }, 50); // تأخیر 50ms
-          }
-        });
-        wordBank.appendChild(wordItem);
-      });
-    }, 1000);
-    scoreDisplay.textContent = score;
-    return;
-  }
-  scoreDisplay.textContent = score;
-  const allBoxes = sentenceBoxes.querySelectorAll(".sentence-box");
-  const allCorrect = Array.from(allBoxes).every((box) =>
-    box.classList.contains("correct")
-  );
-  if (allCorrect && wordBank.children.length === 0) {
-    score++;
-    remainingSentences--;
-    wrongAttempts = 0;
-    scoreDisplay.textContent = score;
-    sentenceCount.textContent = remainingSentences;
-    wordBank.style.display = "none";
-    completedSentence.style.display = "block";
-    completedSentence.textContent = sentence.Sound_de.trim();
-    const audio = new Audio(`${audioPath}/${sentence.Filename}_de.mp3`);
-    audio.addEventListener("ended", () => {
-      currentSentenceIndex++;
-      loadSentenceGame(audioPath);
-    });
-    audio.play();
-  }
+  }, 300);
 }
 
 function selectItem(element, type) {

@@ -31,6 +31,7 @@ const wordBank = document.getElementById("word-bank");
 const sentenceTranslation = document.getElementById("sentence-translation");
 const sentenceCount = document.getElementById("counter");
 const completedSentence = document.getElementById("completed-sentence");
+let lockClick = false; // اضافه کردن قفل برای کلیک‌ها
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -142,9 +143,15 @@ function loadSentenceGame(audioPath) {
 }
 
 function handleWordClick(wordItem, word, sentence, audioPath, words) {
+  if (lockClick) return; // اگر قفل فعال است، کلیک نادیده گرفته شود
+  lockClick = true; // فعال کردن قفل
+
   const allBoxes = sentenceBoxes.querySelectorAll(".sentence-box");
   const emptyBox = Array.from(allBoxes).find((box) => !box.textContent);
-  if (!emptyBox) return;
+  if (!emptyBox) {
+    lockClick = false; // اگر باکس خالی نیست، قفل را آزاد کن
+    return;
+  }
 
   wordItem.classList.add("selected");
   const wordRect = wordItem.getBoundingClientRect();
@@ -158,7 +165,8 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
   setTimeout(() => {
     emptyBox.textContent = word;
     wordItem.remove();
-    const correctWord = sentence.Sound_de.trim().split(" ")[emptyBox.dataset.index];
+    const correctWord =
+      sentence.Sound_de.trim().split(" ")[emptyBox.dataset.index];
     if (word === correctWord) {
       emptyBox.classList.add("correct");
       emptyBox.classList.remove("wrong");
@@ -190,8 +198,10 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
           );
           wordBank.appendChild(wordItem);
         });
+        lockClick = false; // آزاد کردن قفل پس از بازنشانی
       }, 1000);
       scoreDisplay.textContent = score;
+      lockClick = false; // آزاد کردن قفل پس از پردازش خطا
       return;
     }
     scoreDisplay.textContent = score;
@@ -214,6 +224,7 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
       });
       audio.play();
     }
+    lockClick = false; // آزاد کردن قفل پس از تکمیل پردازش
   }, 300);
 }
 
@@ -309,6 +320,7 @@ function restartGame() {
   shuffledSentences = [];
   wrongAttempts = 0;
   timeLeft = 840;
+  lockClick = false; // بازنشانی قفل
   scoreDisplay.textContent = score;
   timerDisplay.textContent = timeLeft;
   popup.style.display = "none";

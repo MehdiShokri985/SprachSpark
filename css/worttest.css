@@ -289,6 +289,26 @@ body {
     padding:8px;
 }
 
+  /* اضافه کردن transition به sentence-box برای انیمیشن */
+.sentence-box {
+  width: 100px;
+  height: 40px;
+  border: 2px dashed #f4d03f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #34495e;
+  color: #fff;
+  font-size: 0.9em;
+  cursor: pointer;
+  touch-action: manipulation;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+  transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s; /* اضافه شده */
+}
 
 
 @media (max-width: 600px) {
@@ -355,29 +375,6 @@ body {
     background-color: #f4d03f;
     transform: scale(1.05); /* کاهش مقیاس برای موبایل */
   }
-
-
-  /* اضافه کردن transition به sentence-box برای انیمیشن */
-.sentence-box {
-  width: 100px;
-  height: 40px;
-  border: 2px dashed #f4d03f;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #34495e;
-  color: #fff;
-  font-size: 0.9em;
-  cursor: pointer;
-  touch-action: manipulation;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0 5px;
-  transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s; /* اضافه شده */
-}
-
 
   .word-bank {
     gap: 6px;

@@ -276,27 +276,27 @@ body {
 }
 .sentence-box.subject {
       border-color: #96a53100;
-    background-color: #96a531b3;
+    background-color: #96a53152;
 }
 .sentence-box.verb {
    border-color: #3498db05;
-    background-color: #34acfd66;
+    background-color: #34acfd2e;
 }
 .sentence-box.auxiliary_verb {
     border-color: #9b59b600;
-    background-color: #9b59b68a;
+    background-color: #9b59b633;
 }
 .sentence-box.object {
   border-color: #e67e2200;
-  background-color: #e67e227d;
+  background-color: #e67e2233;
 }
 .sentence-box.verb_part1 {
        border-color: #06238e00;
-    background-color: #0040ff47;
+    background-color: #0040ff29;
 }
 .sentence-box.verb_part2 {
      border-color: #06238e00;
-    background-color: #0040ff47;
+    background-color: #0040ff29;
 }
 #legend {
   padding: 8px;

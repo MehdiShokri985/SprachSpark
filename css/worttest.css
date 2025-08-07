@@ -43,8 +43,8 @@ body {
   font-size: 1.2em;
 }
 .back-button {
-  background-color: #cca509;
-  color: #03203d;
+  background-color: #3b567ed1;
+  color: #92def2;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
@@ -55,7 +55,7 @@ body {
   transition: background-color 0.3s;
 }
 .back-button:hover {
-  background-color: #d4b32f;
+  background-color: #4c6d9ed1;
 }
 .mode-switch {
   display: flex;
@@ -174,7 +174,7 @@ body {
 }
 .sentence-box.correct {
        border-color: #097c3808;
-    background-color: #095d7c2e;
+    background-color: #095d7c12;
 }
 .sentence-box.wrong {
   border-color: #c0392b;

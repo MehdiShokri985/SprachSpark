@@ -173,8 +173,8 @@ body {
   direction: ltr;
 }
 .sentence-box.correct {
-     border-color: #097c3808;
-    background-color: #097c3887;
+       border-color: #097c3808;
+    background-color: #095d7c2e;
 }
 .sentence-box.wrong {
   border-color: #c0392b;

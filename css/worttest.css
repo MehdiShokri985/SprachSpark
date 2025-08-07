@@ -1,7 +1,7 @@
 body {
   background-color: #1a2c46;
   color: #86a9ca;
-  font-family: 'iranyekanwebregular', Arial, Helvetica, sans-serif;
+  font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,9 +19,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-
-
 .score-group-container {
   display: flex;
   justify-content: center;
@@ -33,7 +30,6 @@ body {
 .group-index {
   font-size: 1.2em;
   text-align: center;
-  /* color: #7995b0; */
 }
 .timer {
   font-size: 1.2em;
@@ -62,17 +58,16 @@ body {
   background-color: #d4b32f;
 }
 .mode-switch {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 10px auto 10px auto;
-    background-color: #1e3352;
-    border-radius: 10px;
-    width: 40%;
-    padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px auto 10px auto;
+  background-color: #1e3352;
+  border-radius: 10px;
+  width: 40%;
+  padding: 5px 0px;
 }
 .mode-switch label {
-  /* color: #7995b0; */
   font-size: 1em;
   cursor: pointer;
   display: flex;
@@ -148,6 +143,9 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  background-color: #1b2d46;
+  padding-bottom: 10px;
+  border-radius: 5px;
 }
 .sentence-translation {
   color: #00e7ff;
@@ -157,18 +155,15 @@ body {
   margin-bottom: 15px;
 }
 .sentence-count {
-  /* color: #f4d03f; */
   font-size: 1em;
   text-align: center;
   direction: rtl;
   margin-bottom: 10px;
-  border-top: solid 1px #2b3c4d;
   padding-top: 10px;
 }
-
-#counter{
-     font-weight: bold;
-    color: #06f274;
+#counter {
+  font-weight: bold;
+  color: #06f274;
 }
 .sentence-boxes {
   display: flex;
@@ -177,12 +172,9 @@ body {
   justify-content: center;
   direction: ltr;
 }
-
-
-
 .sentence-box.correct {
-  border-color: #097c38;
-  background-color: #097c38;
+     border-color: #097c3808;
+    background-color: #097c3887;
 }
 .sentence-box.wrong {
   border-color: #c0392b;
@@ -193,44 +185,37 @@ body {
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
- margin-top: 20px;
+  margin-top: 20px;
   margin-bottom: 10px;
   height: auto;
 }
-
-
-/* اصلاح استایل word-item برای حذف درگ و افزودن افکت کلیک */
 .word-item {
   padding: 8px;
   background-color: #86a9ca;
   border-radius: 5px;
-  cursor: pointer; /* تغییر از cursor: move به cursor: pointer */
+  cursor: pointer;
   color: #000f2f;
   font-size: 0.9em;
   direction: ltr;
   touch-action: manipulation;
-  transition: transform 0.3s ease, background-color 0.3s; /* اضافه شده */
+  transition: transform 0.3s ease, background-color 0.3s;
 }
-
 .word-item:hover {
   background-color: #f4d03f;
-  transform: scale(1.1); /* افکت بزرگ‌نمایی هنگام هاور */
+  transform: scale(1.1);
 }
-
 .word-item.selected {
-  transform: scale(1.1); /* افکت بصری هنگام کلیک */
+  transform: scale(1.1);
   background-color: #d4b32f;
 }
-
 .word-item.dragging {
-  opacity: 0.7; /* کاهش opacity برای بازخورد بصری */
-  border: 2px silid #ffb300; /* حاشیه زرد برای وضوح */
-  box-shadow: 0 0 8px rgba(250, 208, 40, 0.8); /* سایه برای تأکید */
-  transform: scale(1.1); /* حفظ بزرگ‌نمایی */
-  will-change: transform, left, top; /* بهینه‌سازی رندر */
-  z-index: 1000; /* اطمینان از نمایش بالای سایر عناصر */
+  opacity: 0.7;
+  border: 2px solid #ffb300;
+  box-shadow: 0 0 8px rgba(250, 208, 40, 0.8);
+  transform: scale(1.1);
+  will-change: transform, left, top;
+  z-index: 1000;
 }
-
 .popup {
   display: none;
   position: fixed;
@@ -258,52 +243,147 @@ body {
 .popup button:hover {
   background-color: #d4b32f;
 }
-
 .completed-sentence {
-    color: #ffe002;
-    font-size: 1.1em;
-    text-align: center;
-    direction: ltr;
-    display: none;
-    background-color: #1e314d;
-    border-radius: 10px;
-    margin-top: 30px;
-    height: auto;
-    padding:8px;
+  color: #ffe002;
+  font-size: 1.1em;
+  text-align: center;
+  direction: ltr;
+  display: none;
+  background-color: #1e314d;
+  border-radius: 10px;
+  margin-top: 30px;
+  height: auto;
+  padding: 8px;
+}
+.sentence-box {
+    width: 100px;
+    height: 40px;
+    border: 1px dashed #f4d03f91;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #34495e4f;
+    color: #fff;
+    font-size: 0.9em;
+    cursor: pointer;
+    touch-action: manipulation;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+    transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s;
+}
+.sentence-box.subject {
+      border-color: #96a53100;
+    background-color: #96a531b3;
+}
+.sentence-box.verb {
+   border-color: #3498db05;
+    background-color: #34acfd66;
+}
+.sentence-box.auxiliary_verb {
+    border-color: #9b59b600;
+    background-color: #9b59b68a;
+}
+.sentence-box.object {
+  border-color: #e67e2200;
+  background-color: #e67e227d;
+}
+.sentence-box.verb_part1 {
+       border-color: #06238e00;
+    background-color: #0040ff47;
+}
+.sentence-box.verb_part2 {
+     border-color: #06238e00;
+    background-color: #0040ff47;
+}
+#legend {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  color: #f7f0f6;
+  opacity: 0.9;
+  display: none;
+  text-align: center;
+  position: relative;
+  border-top: solid 1px #2b3c4d;
+  padding-top: 15px;
+}
+#legend div {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 5px;
+}
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  direction: rtl;
+}
+.navigation-button {
+  background-color: #f4d03f;
+  color: #34495e;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s, transform 0.3s;
+  display: flex; /* اضافه کردن flex */
+  justify-content: center; /* وسط‌چین افقی */
+  align-items: center; /* وسط‌چین عمودی */
+  width: 50%;
+  height: 25px;
+}
+.navigation-button:hover:not(:disabled) {
+  background-color: #d4b32f;
+}
+.navigation-button:disabled {
+  background-color: #223a5cb3;
+  cursor: not-allowed;
+  opacity: 0.6;
 }
 
-  /* اضافه کردن transition به sentence-box برای انیمیشن */
-.sentence-box {
-  width: 100px;
-  height: 40px;
-  border: 2px dashed #f4d03f40;
+#play-audio {
+  background-color: #25436e;
+  color: #34495e;
+  border: none;
+  padding: 8px 15px;
   border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #34495e4f;
-  color: #fff;
-  font-size: 0.9em;
   cursor: pointer;
-  touch-action: manipulation;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0 5px;
-  transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s; /* اضافه شده */
+  font-size: 0.9em;
+  transition: background-color 0.3s, transform 0.3s;
+  display: flex; /* اضافه کردن flex */
+  justify-content: center; /* وسط‌چین افقی */
+  align-items: center; /* وسط‌چین عمودی */
+  height: 25px;
+}
+
+#play-audio:hover:not(:disabled) {
+  background-color: #2d5288;
+}
+
+#play-audio:disabled {
+  background-color: #223a5cb3;
+  cursor: not-allowed;
+  opacity: 0.6;
 }
 
 @media (max-width: 600px) {
   body {
     padding: 10px;
   }
-
   .container {
     padding: 10px;
-   
   }
-
-
   .back-button {
     width: 100%;
     padding: 8px;
@@ -352,12 +432,10 @@ body {
   .sentence-boxes {
     gap: 4px;
   }
-
   .word-item:hover {
     background-color: #f4d03f;
-    transform: scale(1.05); /* کاهش مقیاس برای موبایل */
+    transform: scale(1.05);
   }
-
   .word-bank {
     gap: 6px;
   }
@@ -374,19 +452,23 @@ body {
     font-size: 0.9em;
     margin-left: 5px;
   }
-
   .word-item.dragging {
     opacity: 0.7;
     border: 2px solid #f4d03f;
     box-shadow: 0 0 6px rgba(244, 208, 63, 0.8);
-    transform: scale(1.05); /* کاهش مقیاس برای گوشی‌های کوچک */
+    transform: scale(1.05);
     will-change: transform, left, top;
     z-index: 1000;
   }
-
   .completed-sentence {
     font-size: 0.9em;
   }
-
-
+  #legend {
+    font-size: 0.7em;
+    padding: 6px;
+  }
+  .legend-color {
+    width: 10px;
+    height: 10px;
+  }
 }

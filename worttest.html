@@ -3,31 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <!-- <link rel="stylesheet" href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css"> -->
     <title>Worttest</title>
-     <link rel="stylesheet" href="./css/font.css" />
-    <link rel="stylesheet" href="./css/worttest.css?v=2">
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/worttest.css?v=2" />
   </head>
-  <body>
-    <div class="container">
-      <button class="back-button" onclick="goBackToLevel()">Zurück zur Startseite</button>
+<body>
+<div class="container">
+      <button class="back-button" onclick="goBackToLevel()">
+        Zurück zur Startseite
+      </button>
       <div class="mode-switch">
-        <label><input type="radio" name="mode" value="words" checked>Wörter</label>
-        <label><input type="radio" name="mode" value="sentences">Sätze</label>
+        <label
+          ><input type="radio" name="mode" value="words" checked />Wörter</label
+        >
+        <label><input type="radio" name="mode" value="sentences" />Sätze</label>
       </div>
       <div class="score-group-container">
         <div class="score">Punktzahl: <span id="score">0</span></div>
         <div class="group-index">Gruppe: <span id="group-index">3</span></div>
       </div>
-      <div class="timer">Verbleibende Zeit: <span id="timer">840</span> Sekunden</div>
+      <div class="timer">
+        Verbleibende Zeit: <span id="timer">840</span> Sekunden
+      </div>
       <div class="columns" id="columns"></div>
-      <div class="sentence-game" id="sentence-game" style="display: none;">
-        <div class="sentence-count" id="sentence-count">Verbleibende Sätze : <span id="counter">840</span></div>
+      <div class="sentence-game" id="sentence-game" style="display: none">
+        <div id="legend">
+          <div>
+            <span class="legend-color" style="background-color: #96a531b3"></span
+            >Subjekt
+          </div>
+          <div>
+            <span class="legend-color" style="background-color: #34acfd66"></span
+            >Verb
+          </div>
+          <div>
+            <span class="legend-color" style="background-color: #9b59b68a"></span
+            >Hilfsverb 
+          </div>
+          <div>
+            <span class="legend-color" style="background-color: #e67e227d"></span
+            >Objekt
+          </div>
+          <div>
+            <span class="legend-color" style="background-color: #0040ff47"></span
+            >trennbares Verb
+          </div>
+        </div>
+        <div class="sentence-count" id="sentence-count">
+          Verbleibende Sätze : <span id="counter">840</span>
+        </div>
         <div class="sentence-translation" id="sentence-translation"></div>
         <div class="sentence-boxes" id="sentence-boxes"></div>
         <div class="word-bank" id="word-bank"></div>
         <div class="completed-sentence" id="completed-sentence"></div>
-        
+        <div class="navigation-buttons" id="navigation-buttons">
+          <button class="navigation-button" id="next-sentence" disabled>Nächste</button>
+         <button id="play-audio">🔊</button>
+          <button class="navigation-button" id="prev-sentence" disabled>Vorherige</button>
+        </div>
       </div>
     </div>
     <div class="popup" id="result-popup">
@@ -35,10 +69,11 @@
       <p>مجموع امتیازات: <span id="total-score"></span></p>
       <p>امتیازات کسب‌شده: <span id="earned-score"></span></p>
       <button onclick="restartGame()">Neustart</button>
-      <button class="back-button" onclick="goBackToLevel()">Zurück zur Startseite</button>
+      <button class="back-button" onclick="goBackToLevel()">
+        Zurück zur Startseite
+      </button>
     </div>
 
     <script src="./js/worttest.js?v=1.13"></script>
-</body>
-
+  </body>
 </html>

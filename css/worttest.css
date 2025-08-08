@@ -144,15 +144,20 @@ body {
   align-items: center;
   gap: 15px;
   background-color: #1b2d46;
-  padding-bottom: 10px;
+  padding: 0px 10px 10px 10px;
   border-radius: 5px;
 }
 .sentence-translation {
-  color: #00e7ff;
-  font-size: 1.1em;
-  text-align: center;
-  direction: rtl;
-  margin-bottom: 15px;
+      color:#b8eaed;
+    font-size: 0.9em;
+    text-align: center;
+    direction: rtl;
+    background-color: #0b72e30a;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 .sentence-count {
   font-size: 1em;
@@ -174,11 +179,12 @@ body {
 }
 .sentence-box.correct {
        border-color: #097c3808;
-    background-color: #095d7c12;
+    background-color: #ff892e;
 }
 .sentence-box.wrong {
-  border-color: #c0392b;
-  background-color: #c0392b;
+  border-color: #c03a2b2a;
+  background-color: #cb5244;
+  color:#fff;
 }
 .word-bank {
   display: flex;
@@ -191,7 +197,7 @@ body {
 }
 .word-item {
   padding: 8px;
-  background-color: #86a9ca;
+  background-color: #80b4be;
   border-radius: 5px;
   cursor: pointer;
   color: #000f2f;
@@ -201,7 +207,7 @@ body {
   transition: transform 0.3s ease, background-color 0.3s;
 }
 .word-item:hover {
-  background-color: #f4d03f;
+  background-color: #ff892e;
   transform: scale(1.1);
 }
 .word-item.selected {
@@ -244,27 +250,27 @@ body {
   background-color: #d4b32f;
 }
 .completed-sentence {
-  color: #ffe002;
-  font-size: 1.1em;
+  color: #b8eaed;
+  font-size: 1em;
   text-align: center;
   direction: ltr;
   display: none;
-  background-color: #1e314d;
+  background-color: #0b72e30a;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 10px;
   height: auto;
-  padding: 8px;
+  padding: 5px;
 }
 .sentence-box {
     width: 100px;
     height: 40px;
-    border: 1px dashed #f4d03f91;
+    border: 1px dashed #adf2ff4d;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #34495e4f;
-    color: #fff;
+    background-color: #1d3a5b9e;
+    color: #1b2d46;
     font-size: 0.9em;
     cursor: pointer;
     touch-action: manipulation;
@@ -273,42 +279,44 @@ body {
     text-overflow: ellipsis;
     padding: 0 5px;
     transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s;
+    font-weight: bold;
 }
 .sentence-box.subject {
       border-color: #96a53100;
-    background-color: #96a53152;
+    background-color: #6cff01;
 }
 .sentence-box.verb {
    border-color: #3498db05;
-    background-color: #34acfd2e;
+    background-color: #00d5ff;
 }
 .sentence-box.auxiliary_verb {
     border-color: #9b59b600;
-    background-color: #9b59b633;
+    background-color: #cb6bf9;
 }
 .sentence-box.object {
   border-color: #e67e2200;
-  background-color: #e67e2233;
+  background-color: #fffc00;
 }
 .sentence-box.verb_part1 {
        border-color: #06238e00;
-    background-color: #0040ff29;
+    background-color: #00d5ff;
 }
 .sentence-box.verb_part2 {
      border-color: #06238e00;
-    background-color: #0040ff29;
+    background-color: #00d5ff;
 }
 #legend {
   padding: 8px;
   border-radius: 5px;
   font-size: 0.8em;
-  color: #f7f0f6;
+  color: #86a9ca;
   opacity: 0.9;
   display: none;
   text-align: center;
   position: relative;
   border-top: solid 1px #2b3c4d;
   padding-top: 15px;
+  direction: ltr;
 }
 #legend div {
   display: inline-flex;
@@ -354,7 +362,7 @@ body {
 }
 
 #play-audio {
-  background-color: #25436e;
+  background-color:#fbff000f;
   color: #34495e;
   border: none;
   padding: 8px 15px;

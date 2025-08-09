@@ -11186,7 +11186,7 @@
     "root": "",
     "type": "جمله",
     "subject": ["ich", "ich"],
-    "verb": ["kommen", "bin"],
+    "verb": ["kommen", "bin","liege"],
     "auxiliary_verb": ["kann", null],
     "object": ["zur Arbeit", null],
     "verb_part1": [null, null],

@@ -11343,8 +11343,8 @@
     "verb": ["kümmert"],
     "auxiliary_verb": [null],
     "object": ["ihre kleinen Kinder"],
-    "verb_part1": ["kümmert"],
-    "verb_part2": ["um"]
+    "verb_part1": [],
+    "verb_part2": []
   },
   {
     "Filename": "1069",

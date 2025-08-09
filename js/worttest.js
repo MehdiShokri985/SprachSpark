@@ -196,11 +196,18 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
   const boxRect = emptyBox.getBoundingClientRect();
   const translateX = boxRect.left - wordRect.left;
   const translateY = boxRect.top - wordRect.top;
+
   const getWordCategory = (word, sentence, index) => {
-    const sentenceWords = sentence.Sound_de.trim()
+    const cleanWord = (w) => {
+      if (!w || typeof w !== "string") return "";
+      return w.replace(/[.,!?;:]/g, "").toLowerCase();
+    };
+
+    const sentenceWords = cleanWord(sentence.Sound_de || "")
       .split(" ")
-      .map((w) => w.replace(/[.!?]$/, "").toLowerCase());
-    const wordLower = word.replace(/[.!?]$/, "").toLowerCase();
+      .map((w) => cleanWord(w));
+    const wordLower = cleanWord(word);
+
     const categories = [
       { key: "subject", value: sentence.subject || [] },
       { key: "verb", value: sentence.verb || [] },
@@ -209,14 +216,16 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
       { key: "verb_part1", value: sentence.verb_part1 || [] },
       { key: "verb_part2", value: sentence.verb_part2 || [] },
     ];
+
     for (const { key, value } of categories) {
       if (Array.isArray(value) && value.length > 0) {
         for (const phrase of value) {
-          if (phrase) {
+          if (phrase && typeof phrase === "string") {
             const phraseWords = phrase
               .trim()
               .split(" ")
-              .map((w) => w.toLowerCase());
+              .map((w) => cleanWord(w));
+
             if (phraseWords.length > 1) {
               const startIndex = sentenceWords.indexOf(phraseWords[0]);
               if (startIndex !== -1) {
@@ -228,7 +237,7 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
                   }
                 }
               }
-            } else if (value.some((v) => v && v.toLowerCase() === wordLower)) {
+            } else if (value.some((v) => cleanWord(v) === wordLower)) {
               return key;
             }
           }
@@ -237,6 +246,7 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
     }
     return "";
   };
+
   wordItem.style.transition = "transform 0.3s ease";
   wordItem.style.transform = `translate(${translateX}px, ${translateY}px)`;
   setTimeout(() => {

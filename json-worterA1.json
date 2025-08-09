@@ -11560,9 +11560,9 @@
     "root": "",
     "type": "جمله",
     "subject": ["ich", "ich"],
-    "verb": ["möchte", "möchte"],
-    "auxiliary_verb": [null, null],
-    "object": ["Auto fahren", "laufen"],
+    "verb": ["fahren", "laufen"],
+    "auxiliary_verb": ["möchte", "möchte"],
+    "object": [null],
     "verb_part1": [null, null],
     "verb_part2": [null, null]
   },

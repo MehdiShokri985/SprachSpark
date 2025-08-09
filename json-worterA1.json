@@ -10288,8 +10288,8 @@
     "root": "",
     "type": "جمله",
     "subject": ["Sie"],
-    "verb": ["gehen"],
-    "auxiliary_verb": ["haben"],
+    "verb": ["gehen","haben"],
+    "auxiliary_verb": [null],
     "object": ["zur Information"],
     "verb_part1": [null],
     "verb_part2": [null]

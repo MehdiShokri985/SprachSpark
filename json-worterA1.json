@@ -10616,8 +10616,8 @@
     "root": "",
     "type": "جمله",
     "subject": ["ich", "Sie"],
-    "verb": ["möchte", "bringen"],
-    "auxiliary_verb": [null, null],
+    "verb": ["esse","bringen"],
+    "auxiliary_verb": ["möchte", null],
     "object": ["etwas essen", "mir die Karte"],
     "verb_part1": [null, null],
     "verb_part2": [null, null]

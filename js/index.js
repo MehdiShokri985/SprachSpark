@@ -1,6 +1,7 @@
 const container = document.querySelector(".content");
 const rootModal = document.getElementById("rootModal");
 const modalRootContent = document.getElementById("modalRootContent");
+const modalRootHeader = document.getElementById("modalRootHeader");
 const closeButton = document.querySelector(".close-button");
 const levelButtons = document.querySelectorAll(".level-btn");
 const backButton = document.querySelector(".back-btn");
@@ -104,7 +105,18 @@ function createItem(group) {
     typeof mainItem.root === "string" &&
     mainItem.root.trim() !== ""
   ) {
-    rootIconHtml = `<div class="root-icon" data-root-content="${mainItem.root}">i</div>`;
+    // پاکسازی داده‌ها
+    const safeRoot = String(mainItem.root || "")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&apos;");
+    const safeSoundDe = String(mainItem.Sound_de || "")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&apos;");
+
+    rootIconHtml = `<div class="root-icon" data-root-content='${JSON.stringify({
+      root: safeRoot,
+      Sound_de: safeSoundDe,
+    })}'>i</div>`;
   }
 
   let typeHtml = "";
@@ -371,7 +383,19 @@ function createItem(group) {
   const rootIcon = itemDiv.querySelector(".root-icon");
   if (rootIcon) {
     rootIcon.addEventListener("click", () => {
-      modalRootContent.textContent = rootIcon.dataset.rootContent;
+      // استخراج مقدار data-root-content
+      const dataString = rootIcon.dataset.rootContent;
+
+      // تبدیل رشته JSON به شیء
+      const data = JSON.parse(dataString);
+      // دسترسی به root و Sound_de
+      const rootValue = data.root;
+      const soundDeValue = data.Sound_de;
+
+      // console.log("ll", rootIcon.rootValue);
+      modalRootHeader.textContent = soundDeValue;
+      modalRootContent.textContent = rootValue;
+
       rootModal.classList.add("show");
     });
   }

@@ -14097,8 +14097,8 @@
     "root": "نوع جمله: این جمله خبری است.\nDas Kind: فاعل جمله به معنی «بچه» است.\nkann: فعل کمکی (Modalverb) به معنی «توانستن» است که برای Das Kind صرف شده است.\nschon: قید به معنی «از قبل» است.\nRad fahren: فعل اصلی به معنی «دوچرخه‌سواری کردن» است. در اینجا Radfahren به صورت یک فعل مرکب در نظر گرفته می‌شود و به صورت مصدر (Infinitiv) در انتهای جمله آمده است.",
     "type": "جمله",
     "subject": ["Das Kind"],
-    "verb": ["kann"],
-    "auxiliary_verb": [null],
+    "verb": ["Rad fahren"],
+    "auxiliary_verb": ["kann"],
     "object": [null],
     "verb_part1": ["Rad"],
     "verb_part2": ["fahren"]

@@ -179,11 +179,11 @@ body {
 }
 .sentence-box.correct {
        border-color: #097c3808;
-    background-color: #ff892e;
+    background-color: #FFCC80;
 }
 .sentence-box.wrong {
   border-color: #c03a2b2a;
-  background-color: #cb5244;
+  background-color: #d05c4f;
   color:#fff;
 }
 .word-bank {
@@ -283,27 +283,27 @@ body {
 }
 .sentence-box.subject {
       border-color: #96a53100;
-    background-color: #6cff01;
+    background-color: #66BB6A;
 }
 .sentence-box.verb {
    border-color: #3498db05;
-    background-color: #00d5ff;
+    background-color: #58c4f7;
 }
 .sentence-box.auxiliary_verb {
     border-color: #9b59b600;
-    background-color: #cb6bf9;
+    background-color: #BA68C8;
 }
 .sentence-box.object {
   border-color: #e67e2200;
-  background-color: #fffc00;
+  background-color: #f4e55e;
 }
 .sentence-box.verb_part1 {
        border-color: #06238e00;
-    background-color: #00d5ff;
+    background-color: #58c4f7;
 }
 .sentence-box.verb_part2 {
      border-color: #06238e00;
-    background-color: #00d5ff;
+    background-color: #58c4f7;
 }
 #legend {
   padding: 8px;

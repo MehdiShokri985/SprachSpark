@@ -263,14 +263,14 @@ body {
 }
 .sentence-box {
     width: 100px;
-    height: 40px;
+    height: 30px;
     border: 1px dashed #adf2ff4d;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1d3a5b9e;
-    color: #1b2d46;
+    color: #001430;
     font-size: 0.9em;
     cursor: pointer;
     touch-action: manipulation;
@@ -337,7 +337,7 @@ body {
   direction: rtl;
 }
 .navigation-button {
-  background-color: #7E57C2 ;
+  background-color: #5e438d ;
   color: #FFFFFF;
   border: none;
   padding: 8px 15px;

@@ -207,7 +207,7 @@ body {
   transition: transform 0.3s ease, background-color 0.3s;
 }
 .word-item:hover {
-  background-color: #ff892e;
+  background-color: #FFCC80;
   transform: scale(1.1);
 }
 .word-item.selected {
@@ -337,8 +337,8 @@ body {
   direction: rtl;
 }
 .navigation-button {
-  background-color: #f4d03f;
-  color: #182d4b;
+  background-color: #7E57C2 ;
+  color: #FFFFFF;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
@@ -353,7 +353,7 @@ body {
   font-weight: bold;
 }
 .navigation-button:hover:not(:disabled) {
-  background-color: #d4b32f;
+  background-color: #9575CD ;
 }
 .navigation-button:disabled {
   background-color: #223a5cb3;

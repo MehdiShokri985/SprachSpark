@@ -14932,7 +14932,7 @@
   {
     "Filename": "1388",
     "Sound_de": "Ich gebe Ihnen noch den Zimmerschlüssel.",
-    "translate_fa": "من هنوز کلید اتاق را به شما می‌دهم.",
+    "translate_fa": "من همجنین کلید اتاق را به شما می‌دهم.",
     "file": "1388_de.mp3",
     "root": "نوع جمله: این جمله خبری است.\nIch: ضمیر فاعلی به معنی «من» است.\ngebe: فعل اصلی «دادن» است که برای ich صرف شده است.\nIhnen: ضمیر شخصی رسمی به معنی «به شما» است که در حالت داتیو (Dativ) قرار دارد.\nnoch: قید به معنی «هنوز» یا «همچنین» است.\nden Zimmerschlüssel: مفعول آکوزاتیو است. den حرف تعریف آکوزاتیو و Zimmerschlüssel اسم مرکب به معنی «کلید اتاق» است. Zimmerschlüssel از ترکیب Zimmer (اتاق) و Schlüssel (کلید) ساخته شده است.",
     "type": "جمله",

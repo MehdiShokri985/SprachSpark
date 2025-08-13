@@ -144,7 +144,7 @@ h1 {
 }
 
 .item-top .translate {
-  font-size: 1.2em;
+  font-size: 1em;
   color: #c5fff7;
   margin-top: 15px;
   display: block;
@@ -357,27 +357,27 @@ h1 {
 
 /* Root Icon (i) Styles */
 .root-icon {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  color: #fbff00; /* Yellow color for the icon */
-  font-size: 1.2em;
-  cursor: pointer;
-  z-index: 5;
-  padding: 5px;
-  border-radius: 50%; /* Make it round */
-  background-color: rgba(241, 196, 15, 0.1); /* Subtle background */
-  transition: background-color 0.2s ease;
-  width: 20px; /* Fixed width and height for a perfect circle */
-  height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
+     position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #00faff;
+    font-size: 1.2em;
+    cursor: pointer;
+    z-index: 5;
+    padding: 8px 5px 4px 5px;
+    border-radius: 50%;
+    background-color: rgb(15 239 241 / 10%);
+    transition: background-color 0.2s ease;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 .root-icon:hover {
-  background-color: rgba(241, 196, 15, 0.3); /* Darker background on hover */
+  background-color: rgba(15, 237, 241, 0.355); /* Darker background on hover */
 }
 
 /* Modal Styles */
@@ -422,7 +422,7 @@ h1 {
 }
 
 #modalRootHeader {
-  color: #fed42c;
+  color: #f078f8;
     text-align: left;
     direction: ltr;
     font-size: 1rem;

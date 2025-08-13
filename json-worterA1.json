@@ -15855,8 +15855,8 @@
     "root": "نوع جمله: این جمله از دو بخش خبری تشکیل شده است.\nEs: ضمیر غیرشخصی است.\nist: فعل «بودن» از ریشه sein است که برای es صرف شده است.\nschon: قید به معنی «از قبل» یا «دیگر» است.\nspät: قید زمان به معنی «دیر» است.\nich: ضمیر فاعلی جمله دوم به معنی «من» است.\nmuss: فعل کمکی (Modalverb) به معنی «باید» است که برای ich صرف شده است.\ngehen: فعل اصلی «رفتن» است که به صورت مصدر (Infinitiv) در انتهای جمله آمده است.",
     "type": "جمله",
     "subject": ["Es", "ich"],
-    "verb": ["ist", "muss"],
-    "auxiliary_verb": [null, null],
+    "verb": ["ist", "gehen"],
+    "auxiliary_verb": ["muss", null],
     "object": [null, null],
     "verb_part1": [null, null],
     "verb_part2": [null, null]

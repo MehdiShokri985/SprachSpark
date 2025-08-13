@@ -472,6 +472,7 @@ function renderItems(items) {
       if (isActive) {
         accordionContent.innerHTML = "";
         toggleTextboxButton.textContent = "Text ein";
+        document.body.style.overflow = "";
       } else {
         const groupIndex = parseInt(accordionContent.dataset.groupIndex);
         const groupStart = groupIndex * groupSize;
@@ -487,6 +488,18 @@ function renderItems(items) {
         currentGroupItems.forEach((group) => {
           const itemDiv = createItem(group);
           accordionContent.appendChild(itemDiv);
+        });
+
+        document.body.style.overflow = "hidden";
+        // ⬇️ اضافه‌شده: اسکرول خودکار پس از باز شدن
+        requestAnimationFrame(() => {
+          // کمی فاصله از بالا (اختیاری)
+          const yOffset = -8;
+          const y =
+            accordionHeader.getBoundingClientRect().top +
+            window.pageYOffset +
+            yOffset;
+          window.scrollTo({ top: y, behavior: "smooth" });
         });
       }
     });

@@ -475,6 +475,7 @@ function renderItems(items) {
         accordionContent.innerHTML = "";
         toggleTextboxButton.textContent = "Text ein";
         document.body.style.overflow = "";
+        document.body.style.padding = "20px";
       } else {
         const groupIndex = parseInt(accordionContent.dataset.groupIndex);
         const groupStart = groupIndex * groupSize;
@@ -492,8 +493,11 @@ function renderItems(items) {
           accordionContent.appendChild(itemDiv);
         });
 
-        document.body.style.overflow = "hidden";
-
+        // document.body.style.overflow = "hidden";
+        // document.body.style.padding = "0px";
+        // document.body.style.paddingBottom = "10px";
+        // const anyActive1 = document.querySelector(".accordion-content.active");
+        // anyActive1.style.padding = "10px";
         requestAnimationFrame(() => {
           const yOffset = -8;
           const y =
@@ -502,6 +506,10 @@ function renderItems(items) {
             yOffset;
           window.scrollTo({ top: y, behavior: "smooth" });
         });
+
+        document.body.style.overflow = "hidden";
+        document.body.style.padding = "0px";
+        document.body.style.paddingBottom = "10px";
       }
 
       // ⬇️ اضافه‌شده: مدیریت نمایش/مخفی‌سازی بقیه آکاردئون‌ها

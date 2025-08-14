@@ -435,6 +435,7 @@ function renderItems(items) {
     accordionDiv.appendChild(accordionContent);
     container.appendChild(accordionDiv);
 
+    //Open a gruops
     accordionHeader.addEventListener("click", (e) => {
       if (
         e.target.classList.contains("toggle-textbox-btn") ||
@@ -491,9 +492,8 @@ function renderItems(items) {
         });
 
         document.body.style.overflow = "hidden";
-        // ⬇️ اضافه‌شده: اسکرول خودکار پس از باز شدن
+
         requestAnimationFrame(() => {
-          // کمی فاصله از بالا (اختیاری)
           const yOffset = -8;
           const y =
             accordionHeader.getBoundingClientRect().top +
@@ -502,11 +502,30 @@ function renderItems(items) {
           window.scrollTo({ top: y, behavior: "smooth" });
         });
       }
+
+      // ⬇️ اضافه‌شده: مدیریت نمایش/مخفی‌سازی بقیه آکاردئون‌ها
+      const anyActive = document.querySelector(".accordion-content.active");
+      document
+        .querySelectorAll(".accordion-content, .accordion-header")
+        .forEach((el) => {
+          if (anyActive) {
+            // فقط اکتیو و هدرش را نگه می‌داریم
+            const isThisActive =
+              el.classList.contains("active") ||
+              el === anyActive.previousElementSibling;
+            el.style.display = isThisActive ? "" : "none";
+          } else {
+            // اگر هیچ اکتیوی نیست، همه را نمایش بده
+            el.style.display = "";
+          }
+        });
     });
 
     const toggleTextboxButton = accordionHeader.querySelector(
       ".toggle-textbox-btn"
     );
+
+    //Add textbox in items
     toggleTextboxButton.addEventListener("click", (e) => {
       e.stopPropagation();
       const textboxes = accordionContent.querySelectorAll(".input-text");
@@ -555,6 +574,7 @@ rootModal.addEventListener("click", (e) => {
   }
 });
 
+// back to A1 A2 card
 backButton.addEventListener("click", () => {
   document.querySelector("h1").textContent =
     "GOETHE-ZERTIFIKAT A1 - A2 WORTLISTE";
@@ -563,6 +583,7 @@ backButton.addEventListener("click", () => {
   container.innerHTML = "";
 });
 
+//Choose from A1 A2 card
 levelButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const level = button.dataset.level;

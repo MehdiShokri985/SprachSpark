@@ -177,7 +177,7 @@ h1 {
 }
 
 .item-bottom .sound span {
-  filter: blur(5px);
+  filter: blur(10px);
   transition: filter 0.3s ease;
 }
 
@@ -360,13 +360,13 @@ h1 {
   position: absolute;
   top: 10px;
   left: 10px;
-  color: #fbff00; /* Yellow color for the icon */
+  color: #6bb1e4; /* Yellow color for the icon */
   font-size: 1.2em;
   cursor: pointer;
   z-index: 5;
   padding: 5px;
   border-radius: 50%; /* Make it round */
-  background-color: rgba(241, 196, 15, 0.1); /* Subtle background */
+  background-color: rgb(0 234 255 / 10%); /* Subtle background */
   transition: background-color 0.2s ease;
   width: 20px; /* Fixed width and height for a perfect circle */
   height: 20px;
@@ -377,7 +377,7 @@ h1 {
 }
 
 .root-icon:hover {
-  background-color: rgba(241, 196, 15, 0.3); /* Darker background on hover */
+  background-color:  rgba(104, 159, 164, 0.1); /* Darker background on hover */
 }
 
 /* Modal Styles */
@@ -422,7 +422,7 @@ h1 {
 }
 
 #modalRootHeader {
-  color: #fed42c;
+  color: #da7bff;
     text-align: left;
     direction: ltr;
     font-size: 1rem;

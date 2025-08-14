@@ -5,6 +5,7 @@ const modalRootHeader = document.getElementById("modalRootHeader");
 const closeButton = document.querySelector(".close-button");
 const levelButtons = document.querySelectorAll(".level-btn");
 const backButton = document.querySelector(".back-btn");
+const header = document.querySelector(".header");
 
 // بررسی پارامترهای URL هنگام بارگذاری صفحه
 // بررسی پارامترهای URL هنگام بارگذاری صفحه
@@ -514,9 +515,13 @@ function renderItems(items) {
               el.classList.contains("active") ||
               el === anyActive.previousElementSibling;
             el.style.display = isThisActive ? "" : "none";
+            backButton.style.display = "none";
+            header.style.display = "none";
           } else {
             // اگر هیچ اکتیوی نیست، همه را نمایش بده
             el.style.display = "";
+            backButton.style.display = "";
+            header.style.display = "";
           }
         });
     });

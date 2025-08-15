@@ -18609,8 +18609,8 @@
     "root": "نوع جمله: این جمله خبری است. در زمان گذشته کامل (Perfekt) است.\nIch: ضمیر فاعلی به معنی «من» است.\nhabe: فعل کمکی haben است که برای ich صرف شده است.\nein Zimmer: مفعول آکوزاتیو به معنی «یک اتاق» است.\nbestellt: اسم مفعول (Partizip II) فعل bestellen به معنی «رزرو کردن» است.",
     "type": "جمله",
     "subject": ["ich"],
-    "verb": ["habe"],
-    "auxiliary_verb": [null],
+    "verb": ["bestellt"],
+    "auxiliary_verb": ["habe"],
     "object": ["ein Zimmer"],
     "verb_part1": ["be"],
     "verb_part2": ["stellt"]
@@ -18764,8 +18764,8 @@
     "verb": ["kommst"],
     "auxiliary_verb": [null],
     "object": [null],
-    "verb_part1": ["zu"],
-    "verb_part2": ["rück"]
+    "verb_part1": ["kommst"],
+    "verb_part2": ["zurück"]
   },
   {
     "Filename": "1726",
@@ -18783,9 +18783,9 @@
     "root": "نوع جمله: این یک سؤال بله/خیر است.\nSollen: فعل کمکی (Modalverb) به معنی «باید» است که برای پیشنهاد دادن به کار رفته است. برای wir صرف شده است.\nwir: ضمیر فاعلی به معنی «ما» است.\nzusammen: قید به معنی «با هم» است.\nessen: فعل «خوردن» است که به صورت مصدر در کنار فعل gehen می‌آید.\ngehen: فعل اصلی «رفتن» است که به صورت مصدر در انتهای جمله قرار گرفته است. ترکیب essen gehen به معنی «برای غذا خوردن رفتن» است.",
     "type": "جمله",
     "subject": ["wir"],
-    "verb": ["gehen"],
+    "verb": ["gehen","essen"],
     "auxiliary_verb": ["sollen"],
-    "object": ["essen"],
+    "object": [null],
     "verb_part1": [null],
     "verb_part2": [null]
   },

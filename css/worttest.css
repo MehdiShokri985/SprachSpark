@@ -190,7 +190,7 @@ body {
 .word-bank {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -215,14 +215,14 @@ body {
   transform: scale(1.1);
   background-color: #d0bcf4;
 }
-.word-item.dragging {
+/* .word-item.dragging {
   opacity: 0.7;
   border: 2px solid #ffb300;
   box-shadow: 0 0 8px rgba(250, 208, 40, 0.8);
   transform: scale(1.1);
   will-change: transform, left, top;
   z-index: 1000;
-}
+} */
 .popup {
   display: none;
   position: fixed;
@@ -449,7 +449,7 @@ body {
     gap: 6px;
   }
   .word-item {
-    padding: 6px;
+    padding: 5px 15px 5px 15px;
     font-size: 0.8em;
   }
   .popup {

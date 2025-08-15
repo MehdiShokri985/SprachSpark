@@ -155,7 +155,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  background-color: #1a122752;
+  background-color: #1c2b42;
   padding: 0px 10px 10px 10px;
   border-radius: 5px;
   max-height: 65vh; /* محدود کردن ارتفاع sentence-game */
@@ -182,7 +182,7 @@ body {
   font-size: 0.9em;
   text-align: center;
   direction: rtl;
-  background-color: #0b72e30a;
+  /* background-color: #0b72e30a; */
   border-radius: 10px;
   margin-top: 20px;
   height: auto;
@@ -288,7 +288,7 @@ body {
   text-align: center;
   direction: ltr;
   display: none;
-  background-color: #0b72e30a;
+  /* background-color: #0b72e30a; */
   border-radius: 10px;
   margin-top: 10px;
   height: auto;

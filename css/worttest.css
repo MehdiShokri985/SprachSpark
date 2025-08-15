@@ -23,11 +23,13 @@ body {
   display: flex;
   flex-direction: column;
   /* حذف height: 100vh و اضافه کردن max-height برای محدود کردن ارتفاع */
-  max-height: calc(100vh - 40px); /* کسر padding body (20px بالا + 20px پایین) */
+  max-height: calc(
+    100vh - 40px
+  ); /* کسر padding body (20px بالا + 20px پایین) */
   box-sizing: border-box;
 }
 .score-group-container {
-display: flex;
+  display: flex;
   justify-content: flex-end; /* قرار گرفتن در سمت راست */
   align-items: center;
   gap: 10px; /* کاهش فاصله بین score و group-index */
@@ -251,18 +253,21 @@ display: flex;
   z-index: 1000;
 }
 .popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #34495e;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  color: #f4d03f;
-  max-width: 90%;
+     display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #34495ee6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #f4d03f;
+    max-width: 90%;
+    width: 200px;
+    z-index: 1000;
+
 }
 .popup button {
   background-color: #f4d03f;
@@ -454,6 +459,22 @@ display: flex;
   /* margin-bottom: 10px; */
 }
 
+#close-button {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #f4d03f;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 5px;
+  line-height: 1;
+}
+#close-button:hover {
+  color: #d4b32f;
+}
+
 @media (max-width: 600px) {
   body {
     padding: 20px;
@@ -463,7 +484,6 @@ display: flex;
     gap: 10px;
   }
   .container {
-
     max-height: calc(100vh - 60px); /* افزایش فاصله در موبایل */
     padding: 10px;
   }
@@ -472,7 +492,7 @@ display: flex;
     padding: 8px;
     font-size: 0.9em;
   }
-.score-group-container {
+  .score-group-container {
     gap: 8px; /* کاهش فاصله در موبایل */
     font-size: 0.8em; /* فونت کوچکتر در موبایل */
   }
@@ -533,10 +553,12 @@ display: flex;
     padding: 6px;
     font-size: 0.8em;
   }
-  .popup {
-    padding: 15px;
+ .popup {
     max-width: 95%;
+    width: 90%; /* عرض مناسب برای صفحه‌های کوچک */
+    padding: 15px;
   }
+ 
   .popup button {
     padding: 8px 15px;
     font-size: 0.9em;
@@ -565,5 +587,11 @@ display: flex;
   .sentence-root {
     max-height: 10vh; /* کاهش ارتفاع برای صفحه‌های کوچک */
     font-size: 0.8em;
+  }
+
+  .close-button {
+    top: 5px;
+    right: 5px;
+    font-size: 1.2em;
   }
 }

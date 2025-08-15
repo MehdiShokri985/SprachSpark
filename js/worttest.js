@@ -338,6 +338,10 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
         playAudioButton.classList.add("active");
       });
       audio.play();
+      // Check if this is the last sentence
+      if (currentSentenceIndex === shuffledSentences.length - 1) {
+        showResult();
+      }
     }
     lockClick = false;
   }, 300);
@@ -491,6 +495,10 @@ function prevSentence() {
   } else {
     console.log("No previous sentence available");
   }
+}
+
+function closePopup() {
+  popup.style.display = "none";
 }
 
 function playAudio() {

@@ -38,6 +38,7 @@ const prevSentenceButton = document.getElementById("prev-sentence");
 const nextSentenceButton = document.getElementById("next-sentence");
 let completedSentencesStates = [];
 const playAudioButton = document.getElementById("play-audio");
+const sentenceRoot = document.getElementById("sentence-root");
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -120,12 +121,14 @@ function loadSentenceGame(audioPath) {
   wordBank.innerHTML = "";
   sentenceTranslation.textContent = "";
   sentenceCount.textContent = remainingSentences;
+  sentenceRoot.style.display = "none"; // مخفی کردن باکس در شروع
+  sentenceRoot.textContent = ""; // خالی کردن محتوای باکس
   completedSentence.style.display = "none";
   completedSentence.textContent = "";
   wordBank.style.display = "flex";
   legend.style.display = "block";
   // Set button states
-  nextSentenceButton.disabled = true; // غیرفعال در شروع جمله جدید
+  nextSentenceButton.disabled = true;
   prevSentenceButton.disabled = currentSentenceIndex === 0;
   playAudioButton.disabled = !completedSentencesStates[currentSentenceIndex];
   playAudioButton.classList.toggle(
@@ -152,7 +155,10 @@ function loadSentenceGame(audioPath) {
       completedSentencesStates[currentSentenceIndex].translation;
     completedSentence.textContent =
       completedSentencesStates[currentSentenceIndex].completedSentence;
+    sentenceRoot.textContent =
+      shuffledSentences[currentSentenceIndex].root || "بدون ریشه"; // نمایش root
     completedSentence.style.display = "block";
+    sentenceRoot.style.display = "block"; // نمایش باکس برای جمله تکمیل‌شده
     wordBank.style.display = "none";
     nextSentenceButton.disabled =
       currentSentenceIndex >= shuffledSentences.length - 1;
@@ -289,7 +295,7 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
           );
           wordBank.appendChild(wordItem);
         });
-        nextSentenceButton.disabled = true; // غیرفعال کردن دکمه بعدی پس از اشتباه
+        nextSentenceButton.disabled = true;
         lockClick = false;
       }, 1000);
       scoreDisplay.textContent = score;
@@ -309,11 +315,13 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
       wordBank.style.display = "none";
       completedSentence.style.display = "block";
       completedSentence.textContent = sentence.Sound_de.trim();
-      // Save the completed sentence state
+      sentenceRoot.style.display = "block"; // نمایش باکس root
+      sentenceRoot.textContent = sentence.root || "بدون ریشه"; // تنظیم مقدار root
       completedSentencesStates[currentSentenceIndex] = {
         sentenceBoxesHTML: sentenceBoxes.innerHTML,
         translation: sentenceTranslation.textContent,
         completedSentence: completedSentence.textContent,
+        root: sentenceRoot.textContent, // ذخیره root
       };
       console.log(
         "Sentence completed:",
@@ -334,7 +342,6 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
     lockClick = false;
   }, 300);
 }
-
 function selectItem(element, type) {
   if (lockSelection || element.classList.contains("correct")) return;
   element.classList.add("selected");

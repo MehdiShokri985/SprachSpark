@@ -5,11 +5,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100vh; /* حفظ min-height برای اطمینان از حداقل ارتفاع */
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
   touch-action: manipulation;
+  overflow: hidden; /* جلوگیری از اسکرول body */
 }
 .container {
   max-width: 800px;
@@ -18,41 +19,50 @@ body {
   background-color: #1d293b;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* جلوگیری از اسکرول اضافی در container */
+  display: flex;
+  flex-direction: column;
+  /* حذف height: 100vh و اضافه کردن max-height برای محدود کردن ارتفاع */
+  max-height: calc(100vh - 40px); /* کسر padding body (20px بالا + 20px پایین) */
+  box-sizing: border-box;
 }
 .score-group-container {
-  display: flex;
-  justify-content: center;
+display: flex;
+  justify-content: flex-end; /* قرار گرفتن در سمت راست */
   align-items: center;
-  gap: 20px;
+  gap: 10px; /* کاهش فاصله بین score و group-index */
   margin-bottom: 10px;
+  font-size: 0.9em; /* کاهش اندازه فونت برای کوچکتر شدن */
+  padding: 5px; /* کاهش padding */
 }
 .score,
 .group-index {
-  font-size: 1.2em;
+  font-size: 0.9em;
   text-align: center;
 }
 .timer {
-  font-size: 1.2em;
+  font-size: 0.9em;
   margin-bottom: 5px;
   text-align: center;
+  padding: 5px; /* کاهش padding */
 }
 #timer,
 #group-index,
 #score {
   color: #f7f0f6;
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 .back-button {
-     background-color: #402d60;
-    color: #feefff;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 8px;
-    font-size: 1em;
-    width: 100%;
-    transition: background-color 0.3s;
+  background-color: #402d60;
+  color: #feefff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-size: 1em;
+  width: 100%;
+  transition: background-color 0.3s;
 }
 .back-button:hover {
   background-color: #4d3871;
@@ -146,19 +156,36 @@ body {
   background-color: #1a122752;
   padding: 0px 10px 10px 10px;
   border-radius: 5px;
-
+  max-height: 65vh; /* محدود کردن ارتفاع sentence-game */
+  /* overflow-y: auto;  */
 }
+
+.sentence-game::-webkit-scrollbar {
+  width: 1px;
+}
+.sentence-game::-webkit-scrollbar-track {
+  background: #1a2b44;
+  border-radius: 2px;
+}
+.sentence-game::-webkit-scrollbar-thumb {
+  background: #f4d03f;
+  border-radius: 1px;
+}
+.sentence-game::-webkit-scrollbar-thumb:hover {
+  background: #d4b32f;
+}
+
 .sentence-translation {
-      color:#b8eaed;
-    font-size: 0.9em;
-    text-align: center;
-    direction: rtl;
-    background-color: #0b72e30a;
-    border-radius: 10px;
-    margin-top: 20px;
-    height: auto;
-    padding: 5px;
-    margin-bottom: 20px;
+  color: #b8eaed;
+  font-size: 0.9em;
+  text-align: center;
+  direction: rtl;
+  background-color: #0b72e30a;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: auto;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 .sentence-count {
   font-size: 1em;
@@ -179,18 +206,18 @@ body {
   direction: ltr;
 }
 .sentence-box.correct {
-       border-color: #097c3808;
-    background-color: #FFCC80;
+  border-color: #097c3808;
+  background-color: #ffcc80;
 }
 .sentence-box.wrong {
   border-color: #c03a2b2a;
   background-color: #d05c4f;
-  color:#fff;
+  color: #fff;
 }
 .word-bank {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -215,14 +242,14 @@ body {
   transform: scale(1.1);
   background-color: #d0bcf4;
 }
-/* .word-item.dragging {
+.word-item.dragging {
   opacity: 0.7;
   border: 2px solid #ffb300;
   box-shadow: 0 0 8px rgba(250, 208, 40, 0.8);
   transform: scale(1.1);
   will-change: transform, left, top;
   z-index: 1000;
-} */
+}
 .popup {
   display: none;
   position: fixed;
@@ -263,48 +290,48 @@ body {
   padding: 5px;
 }
 .sentence-box {
-    width: 100px;
-    height: 30px;
-    border: 1px dashed #adf2ff4d;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1d3a5b9e;
-    color: #001430;
-    font-size: 0.9em;
-    cursor: pointer;
-    touch-action: manipulation;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 0 5px;
-    transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s;
-    font-weight: bold;
+  width: 100px;
+  height: 30px;
+  border: 1px dashed #adf2ff4d;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d3a5b9e;
+  color: #001430;
+  font-size: 0.9em;
+  cursor: pointer;
+  touch-action: manipulation;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+  transition: transform 0.2s ease, background-color 0.3s, border-color 0.3s;
+  font-weight: bold;
 }
 .sentence-box.subject {
-      border-color: #96a53100;
-    background-color: #66BB6A;
+  border-color: #96a53100;
+  background-color: #66bb6a;
 }
 .sentence-box.verb {
-   border-color: #3498db05;
-    background-color: #58c4f7;
+  border-color: #3498db05;
+  background-color: #58c4f7;
 }
 .sentence-box.auxiliary_verb {
-    border-color: #9b59b600;
-    background-color: #BA68C8;
+  border-color: #9b59b600;
+  background-color: #ba68c8;
 }
 .sentence-box.object {
   border-color: #e67e2200;
   background-color: #f4e55e;
 }
 .sentence-box.verb_part1 {
-       border-color: #06238e00;
-    background-color: #58c4f7;
+  border-color: #06238e00;
+  background-color: #58c4f7;
 }
 .sentence-box.verb_part2 {
-     border-color: #06238e00;
-    background-color: #58c4f7;
+  border-color: #06238e00;
+  background-color: #58c4f7;
 }
 #legend {
   padding: 8px;
@@ -337,8 +364,8 @@ body {
   direction: rtl;
 }
 .navigation-button {
-  background-color: #5e438d ;
-  color: #FFFFFF;
+  background-color: #5e438d;
+  color: #ffffff;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
@@ -353,7 +380,7 @@ body {
   font-weight: bold;
 }
 .navigation-button:hover:not(:disabled) {
-  background-color: #9575CD ;
+  background-color: #9575cd;
 }
 .navigation-button:disabled {
   background-color: #223a5cb3;
@@ -362,7 +389,7 @@ body {
 }
 
 #play-audio {
-  background-color:#fbff000f;
+  background-color: #fbff000f;
   color: #34495e;
   border: none;
   padding: 8px 15px;
@@ -386,11 +413,58 @@ body {
   opacity: 0.6;
 }
 
+.sentence-root {
+  color: #b8eaed;
+  font-size: 0.9em;
+  text-align: right;
+  direction: rtl;
+  background-color: #0b72e30a;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  max-height: 20vh; /* محدود کردن ارتفاع برای جلوگیری از خروج از صفحه */
+  overflow-y: auto; /* اسکرول داخلی برای محتوای طولانی */
+  display: none; /* مخفی به صورت پیش‌فرض */
+  width: 100%;
+  box-sizing: border-box;
+  white-space: pre-line;
+  line-height: 1.5;
+}
+.sentence-root::-webkit-scrollbar {
+  width: 1px;
+}
+.sentence-root::-webkit-scrollbar-track {
+  background: #1a2b44;
+  border-radius: 2px;
+}
+.sentence-root::-webkit-scrollbar-thumb {
+  background: #f4d03f;
+  border-radius: 1px;
+}
+.sentence-root::-webkit-scrollbar-thumb:hover {
+  background: #d4b32f;
+}
+
+/* اضافه کردن یک container جدید برای چیدمان افقی timer و score-group-container */
+.container-header {
+  display: flex;
+  justify-content: space-evenly; /* timer در چپ و score-group-container در راست */
+  align-items: center;
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
 @media (max-width: 600px) {
   body {
     padding: 20px;
   }
+  .container-header {
+    flex-direction: row; /* حفظ چیدمان افقی در موبایل */
+    gap: 10px;
+  }
   .container {
+
+    max-height: calc(100vh - 60px); /* افزایش فاصله در موبایل */
     padding: 10px;
   }
   .back-button {
@@ -398,17 +472,23 @@ body {
     padding: 8px;
     font-size: 0.9em;
   }
-  .score-group-container {
-    flex-direction: row;
-    gap: 15px;
-    flex-wrap: wrap;
+.score-group-container {
+    gap: 8px; /* کاهش فاصله در موبایل */
+    font-size: 0.8em; /* فونت کوچکتر در موبایل */
   }
   .score,
   .group-index {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .timer {
-    font-size: 1em;
+    font-size: 0.8em;
+    padding: 4px;
+  }
+
+  #timer,
+  #group-index,
+  #score {
+    font-size: 0.8em;
   }
   .mode-switch {
     gap: 10px;
@@ -429,6 +509,7 @@ body {
   }
   .sentence-game {
     gap: 10px;
+    max-height: 60vh; /* تنظیم ارتفاع برای موبایل */
   }
   .sentence-translation {
     font-size: 0.9em;
@@ -449,7 +530,7 @@ body {
     gap: 6px;
   }
   .word-item {
-    padding: 5px 15px 5px 15px;
+    padding: 6px;
     font-size: 0.8em;
   }
   .popup {
@@ -479,5 +560,10 @@ body {
   .legend-color {
     width: 10px;
     height: 10px;
+  }
+
+  .sentence-root {
+    max-height: 10vh; /* کاهش ارتفاع برای صفحه‌های کوچک */
+    font-size: 0.8em;
   }
 }

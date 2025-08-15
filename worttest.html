@@ -21,18 +21,20 @@
         >
         <label><input type="radio" name="mode" value="sentences" />Sätze</label>
       </div>
-      <div class="score-group-container">
-        <div class="score">Punktzahl: <span id="score">0</span></div>
-        <div class="group-index">Gruppe: <span id="group-index">3</span></div>
-      </div>
-      <div class="timer">
-        Verbleibende Zeit: <span id="timer">840</span> Sekunden
+      <div class="container-header">
+        <div class="timer">
+          Verbleibende Zeit: <span id="timer">840</span> Sekunden
+        </div>
+        <div class="score-group-container">
+          <div class="score">Punktzahl: <span id="score">0</span></div>
+          <div class="group-index">Gruppe: <span id="group-index">3</span></div>
+        </div>
       </div>
       <div class="columns" id="columns"></div>
       <div class="sentence-game" id="sentence-game" style="display: none">
         <div id="legend">
           <div>
-            <span class="legend-color" style="background-color: #66BB6A"></span
+            <span class="legend-color" style="background-color: #66bb6a"></span
             >Subjekt
           </div>
           <div>
@@ -40,7 +42,7 @@
             >Verb
           </div>
           <div>
-            <span class="legend-color" style="background-color: #BA68C8"></span
+            <span class="legend-color" style="background-color: #ba68c8"></span
             >Hilfsverb
           </div>
           <div>
@@ -69,6 +71,7 @@
           </button>
         </div>
       </div>
+      <div class="sentence-root" id="sentence-root"></div>
     </div>
     <div class="popup" id="result-popup">
       <h2>Ergebnis</h2>

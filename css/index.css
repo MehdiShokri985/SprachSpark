@@ -87,7 +87,7 @@ h1 {
 }
 
 .accordion-content::-webkit-scrollbar {
-  width: 8px;
+  width: 4px;
 }
 
 .accordion-content::-webkit-scrollbar-track {
@@ -419,7 +419,30 @@ h1 {
   font-size: 0.9em;
   position: relative; /* For close button positioning */
   text-align: right; /* Align text to left for LTR */
+  max-height: 80vh;
+    overflow: auto;
+  /* scrollbar-color: #7799ed #223454;
+  scrollbar-width: thin; */
 }
+
+#modalRootContent::-webkit-scrollbar {
+  width: 2px;
+}
+
+#modalRootContent::-webkit-scrollbar-track {
+  background: #34495e;
+  border-radius: 10px;
+}
+
+#modalRootContent::-webkit-scrollbar-thumb {
+  background: #495f95;
+  border-radius: 10px;
+}
+
+#modalRootContent::-webkit-scrollbar-thumb:hover {
+  background: #7799ed;
+}
+
 
 #modalRootHeader {
   color: #da7bff;
@@ -431,6 +454,9 @@ h1 {
 #modalRootContent {
   white-space: pre-line;
   line-height: 1.5;
+  max-height: 60vh;
+    overflow: auto;
+    font-size: 0.9em;
 }
 
 @keyframes fadeInScale {

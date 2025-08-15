@@ -585,7 +585,7 @@ body {
   }
 
   .sentence-root {
-    max-height: 10vh; /* کاهش ارتفاع برای صفحه‌های کوچک */
+    max-height: 30vh; /* کاهش ارتفاع برای صفحه‌های کوچک */
     font-size: 0.8em;
   }
 

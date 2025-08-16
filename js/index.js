@@ -13,17 +13,26 @@ window.addEventListener("load", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const level = urlParams.get("level");
 
-  if (level && ["A1", "A2", "A1 VERBEN"].includes(level)) {
+  if (level && ["A1", "A2", "A1 VERBEN", "A2 VERBEN"].includes(level)) {
     const jsonFile =
       level === "A1"
         ? "json-worterA1.json"
         : level === "A2"
         ? "json-worterA2.json"
-        : "json-verb-A1.json";
+        : level === "A1 VERBEN"
+        ? "json-verb-A1.json"
+        : "json-verb-A2.json";
+
     const audioPath =
-      level === "A1" ? "audio-A1" : level === "A2" ? "audio-A2" : "audio-A1";
+      level === "A1" || level === "A1 VERBEN"
+        ? "audio-A1"
+        : level === "A2" || level === "A2 VERBEN"
+        ? "audio-A2"
+        : "";
+
     document.querySelector("h1").textContent =
       level === "A1" || level === "A2" ? `${level} - WORTLISTE ` : level;
+    console.log(audioPath);
     container.dataset.audioPath = audioPath;
     localStorage.setItem("selectedLevel", level); // ذخیره سطح در localStorage
 
@@ -870,6 +879,7 @@ function renderItems(items) {
 
     const testButton = accordionHeader.querySelector(".test-btn");
     testButton.addEventListener("click", (e) => {
+      console.log(e);
       e.stopPropagation();
       const groupIndex = parseInt(accordionContent.dataset.groupIndex);
       const groupData = groupedItems[groupIndex];
@@ -916,9 +926,18 @@ levelButtons.forEach((button) => {
         ? "json-worterA1.json"
         : level === "A2"
         ? "json-worterA2.json"
-        : "json-verb-A1.json";
+        : level === "A1 VERBEN"
+        ? "json-verb-A1.json"
+        : level === "A2 VERBEN"
+        ? "json-verb-A2.json"
+        : "";
+
     const audioPath =
-      level === "A1" ? "audio-A1" : level === "A2" ? "audio-A2" : "audio-A1";
+      level === "A1" || level === "A1 VERBEN"
+        ? "audio-A1"
+        : level === "A2" || level === "A2 VERBEN"
+        ? "audio-A2"
+        : "";
 
     document.querySelector("h1").textContent =
       level === "A1" || level === "A2" ? `${level} - WORTLISTE ` : level;

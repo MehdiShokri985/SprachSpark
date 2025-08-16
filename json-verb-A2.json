@@ -1,0 +1,716 @@
+[
+  {
+    "Filename": "17",
+    "Sound_de": "markieren",
+    "root": "حال (Präsens):\nich markiere (من علامت‌گذاری می‌کنم)\ndu markierst (تو علامت‌گذاری می‌کنی)\ner/sie/es markiert (او علامت‌گذاری می‌کند)\nwir markieren (ما علامت‌گذاری می‌کنیم)\nihr markiert (شما علامت‌گذاری می‌کنید)\nsie/Sie markieren (آن‌ها/شما (محترمانه) علامت‌گذاری می‌کنند)\n\nگذشته ساده (Präteritum):\nich markierte (من علامت‌گذاری کردم)\ndu markiertest (تو علامت‌گذاری کردی)\ner/sie/es markierte (او علامت‌گذاری کرد)\nwir markierten (ما علامت‌گذاری کردیم)\nihr markiertet (شما علامت‌گذاری کردید)\nsie/Sie markierten (آن‌ها/شما (محترمانه) علامت‌گذاری کردند)\n\nگذشته کامل (Perfekt):\nich habe markiert (من علامت‌گذاری کرده‌ام)\ndu hast markiert (تو علامت‌گذاری کرده‌ای)\ner/sie/es hat markiert (او علامت‌گذاری کرده است)\nwir haben markiert (ما علامت‌گذاری کرده‌ایم)\nihr habt markiert (شما علامت‌گذاری کرده‌اید)\nsie/Sie haben markiert (آن‌ها/شما (محترمانه) علامت‌گذاری کرده‌اند)\n\nحالت منفی (Präsens):\nich markiere nicht (من علامت‌گذاری نمی‌کنم)\ndu markierst nicht (تو علامت‌گذاری نمی‌کنی)\ner/sie/es markiert nicht (او علامت‌گذاری نمی‌کند)\nwir markieren nicht (ما علامت‌گذاری نمی‌کنیم)\nihr markiert nicht (شما علامت‌گذاری نمی‌کنید)\nsie/Sie markieren nicht (آن‌ها/شما (محترمانه) علامت‌گذاری نمی‌کنند)",
+    "translate_fa": "علامت‌گذاری کردن",
+    "file": "17_de.mp3"
+  },
+  {
+    "Filename": "47",
+    "Sound_de": "ledig",
+    "root": "صفت/وضعیت (Präsens):\nich bin ledig (من مجرد هستم)\ndu bist ledig (تو مجرد هستی)\ner/sie/es ist ledig (او مجرد است)\nwir sind ledig (ما مجرد هستیم)\nihr seid ledig (شما مجرد هستید)\nsie/Sie sind ledig (آن‌ها/شما (محترمانه) مجرد هستید)\n\nحالت منفی (Präsens):\nich bin nicht ledig (من مجرد نیستم)\ndu bist nicht ledig (تو مجرد نیستی)\ner/sie/es ist nicht ledig (او مجرد نیست)\nwir sind nicht ledig (ما مجرد نیستیم)\nihr seid nicht ledig (شما مجرد نیستید)\nsie/Sie sind nicht ledig (آن‌ها/شما (محترمانه) مجرد نیستند)",
+    "translate_fa": "مجرد",
+    "file": "47_de.mp3"
+  },
+  {
+    "Filename": "48",
+    "Sound_de": "verheiratet",
+    "root": "صفت/وضعیت (Präsens):\nich bin verheiratet (من متأهل هستم)\ndu bist verheiratet (تو متأهل هستی)\ner/sie/es ist verheiratet (او متأهل است)\nwir sind verheiratet (ما متأهل هستیم)\nihr seid verheiratet (شما متأهل هستید)\nsie/Sie sind verheiratet (آن‌ها/شما (محترمانه) متأهل هستید)\n\nحالت منفی (Präsens):\nich bin nicht verheiratet (من متأهل نیستم)\ndu bist nicht verheiratet (تو متأهل نیستی)\ner/sie/es ist nicht verheiratet (او متأهل نیست)\nwir sind nicht verheiratet (ما متأهل نیستیم)\nihr seid nicht verheiratet (شما متأهل نیستید)\nsie/Sie sind nicht verheiratet (آن‌ها/شما (محترمانه) متأهل نیستند)",
+    "translate_fa": "متأهل",
+    "file": "48_de.mp3"
+  },
+  {
+    "Filename": "49",
+    "Sound_de": "getrennt",
+    "root": "صفت/وضعیت (Präsens):\nich bin getrennt (من جدا شده هستم)\ndu bist getrennt (تو جدا شده هستی)\ner/sie/es ist getrennt (او جدا شده است)\nwir sind getrennt (ما جدا شده هستیم)\nihr seid getrennt (شما جدا شده هستید)\nsie/Sie sind getrennt (آن‌ها/شما (محترمانه) جدا شده هستید)\n\nحالت منفی (Präsens):\nich bin nicht getrennt (من جدا شده نیستم)\ndu bist nicht getrennt (تو جدا شده نیستی)\ner/sie/es ist nicht getrennt (او جدا شده نیست)\nwir sind nicht getrennt (ما جدا شده نیستیم)\nihr seid nicht getrennt (شما جدا شده نیستید)\nsie/Sie sind nicht getrennt (آن‌ها/شما (محترمانه) جدا شده نیستند)",
+    "translate_fa": "جدا شده",
+    "file": "49_de.mp3"
+  },
+  {
+    "Filename": "50",
+    "Sound_de": "geschieden",
+    "root": "صفت/وضعیت (Präsens):\nich bin geschieden (من طلاق گرفته هستم)\ndu bist geschieden (تو طلاق گرفته هستی)\ner/sie/es ist geschieden (او طلاق گرفته است)\nwir sind geschieden (ما طلاق گرفته هستیم)\nihr seid geschieden (شما طلاق گرفته هستید)\nsie/Sie sind geschieden (آن‌ها/شما (محترمانه) طلاق گرفته هستید)\n\nحالت منفی (Präsens):\nich bin nicht geschieden (من طلاق گرفته نیستم)\ndu bist nicht geschieden (تو طلاق گرفته نیستی)\ner/sie/es ist nicht geschieden (او طلاق گرفته نیست)\nwir sind nicht geschieden (ما طلاق گرفته نیستیم)\nihr seid nicht geschieden (شما طلاق گرفته نیستید)\nsie/Sie sind nicht geschieden (آن‌ها/شما (محترمانه) طلاق گرفته نیستند)",
+    "translate_fa": "طلاق گرفته",
+    "file": "50_de.mp3"
+  },
+  {
+    "Filename": "307",
+    "Sound_de": "abgeben - gibt ab - hat abgegeben",
+    "root": "حال (Präsens):\nich gebe ab (من تحویل می‌دهم)\ndu gibst ab (تو تحویل می‌دهی)\ner/sie/es gibt ab (او تحویل می‌دهد)\nwir geben ab (ما تحویل می‌دهیم)\nihr gebt ab (شما تحویل می‌دهید)\nsie/Sie geben ab (آن‌ها/شما (محترمانه) تحویل می‌دهند)\n\nگذشته ساده (Präteritum):\nich gab ab (من تحویل دادم)\ndu gabst ab (تو تحویل دادی)\ner/sie/es gab ab (او تحویل داد)\nwir gaben ab (ما تحویل دادیم)\nihr gabt ab (شما تحویل دادید)\nsie/Sie gaben ab (آن‌ها/شما (محترمانه) تحویل دادند)\n\nگذشته کامل (Perfekt):\nich habe abgegeben (من تحویل داده‌ام)\ndu hast abgegeben (تو تحویل داده‌ای)\ner/sie/es hat abgegeben (او تحویل داده است)\nwir haben abgegeben (ما تحویل داده‌ایم)\nihr habt abgegeben (شما تحویل داده‌اید)\nsie/Sie haben abgegeben (آن‌ها/شما (محترمانه) تحویل داده‌اند)\n\nحالت منفی (Präsens):\nich gebe nicht ab (من تحویل نمی‌دهم)\ndu gibst nicht ab (تو تحویل نمی‌دهی)\ner/sie/es gibt nicht ab (او تحویل نمی‌دهد)\nwir geben nicht ab (ما تحویل نمی‌دهیم)\nihr gebt nicht ab (شما تحویل نمی‌دهید)\nsie/Sie geben nicht ab (آن‌ها/شما (محترمانه) تحویل نمی‌دهند)",
+    "translate_fa": "تحویل دادن",
+    "file": "307_de.mp3"
+  },
+  {
+    "Filename": "309",
+    "Sound_de": "gibt ab",
+    "root": "حال (Präsens):\nich gebe ab (من تحویل می‌دهم)\ndu gibst ab (تو تحویل می‌دهی)\ner/sie/es gibt ab (او تحویل می‌دهد)\nwir geben ab (ما تحویل می‌دهیم)\nihr gebt ab (شما تحویل می‌دهید)\nsie/Sie geben ab (آن‌ها/شما (محترمانه) تحویل می‌دهند)\n\nگذشته ساده (Präteritum):\nich gab ab (من تحویل دادم)\ndu gabst ab (تو تحویل دادی)\ner/sie/es gab ab (او تحویل داد)\nwir gaben ab (ما تحویل دادیم)\nihr gabt ab (شما تحویل دادید)\nsie/Sie gaben ab (آن‌ها/شما (محترمانه) تحویل دادند)\n\nگذشته کامل (Perfekt):\nich habe abgegeben (من تحویل داده‌ام)\ndu hast abgegeben (تو تحویل داده‌ای)\ner/sie/es hat abgegeben (او تحویل داده است)\nwir haben abgegeben (ما تحویل داده‌ایم)\nihr habt abgegeben (شما تحویل داده‌اید)\nsie/Sie haben abgegeben (آن‌ها/شما (محترمانه) تحویل داده‌اند)\n\nحالت منفی (Präsens):\nich gebe nicht ab (من تحویل نمی‌دهم)\ndu gibst nicht ab (تو تحویل نمی‌دهی)\ner/sie/es gibt nicht ab (او تحویل نمی‌دهد)\nwir geben nicht ab (ما تحویل نمی‌دهیم)\nihr gebt nicht ab (شما تحویل نمی‌دهید)\nsie/Sie geben nicht ab (آن‌ها/شما (محترمانه) تحویل نمی‌دهند)",
+    "translate_fa": "تحویل می‌دهد",
+    "file": "309_de.mp3"
+  },
+  {
+    "Filename": "310",
+    "Sound_de": "hat abgegeben",
+    "root": "حال (Präsens):\nich gebe ab (من تحویل می‌دهم)\ndu gibst ab (تو تحویل می‌دهی)\ner/sie/es gibt ab (او تحویل می‌دهد)\nwir geben ab (ما تحویل می‌دهیم)\nihr gebt ab (شما تحویل می‌دهید)\nsie/Sie geben ab (آن‌ها/شما (محترمانه) تحویل می‌دهند)\n\nگذشته ساده (Präteritum):\nich gab ab (من تحویل دادم)\ndu gabst ab (تو تحویل دادی)\ner/sie/es gab ab (او تحویل داد)\nwir gaben ab (ما تحویل دادیم)\nihr gabt ab (شما تحویل دادید)\nsie/Sie gaben ab (آن‌ها/شما (محترمانه) تحویل دادند)\n\nگذشته کامل (Perfekt):\nich habe abgegeben (من تحویل داده‌ام)\ndu hast abgegeben (تو تحویل داده‌ای)\ner/sie/es hat abgegeben (او تحویل داده است)\nwir haben abgegeben (ما تحویل داده‌ایم)\nihr habt abgegeben (شما تحویل داده‌اید)\nsie/Sie haben abgegeben (آن‌ها/شما (محترمانه) تحویل داده‌اند)\n\nحالت منفی (Präsens):\nich gebe nicht ab (من تحویل نمی‌دهم)\ndu gibst nicht ab (تو تحویل نمی‌دهی)\ner/sie/es gibt nicht ab (او تحویل نمی‌دهد)\nwir geben nicht ab (ما تحویل نمی‌دهیم)\nihr gebt nicht ab (شما تحویل نمی‌دهید)\nsie/Sie geben nicht ab (آن‌ها/شما (محترمانه) تحویل نمی‌دهند)",
+    "translate_fa": "تحویل داده است",
+    "file": "310_de.mp3"
+  },
+  {
+    "Filename": "311",
+    "Sound_de": "abholen - holt ab - hat abgeholt",
+    "root": "حال (Präsens):\nich hole ab (من برمی‌دارم/تحویل می‌گیرم)\ndu holst ab (تو برمی‌داری/تحویل می‌گیری)\ner/sie/es holt ab (او برمی‌دارد/تحویل می‌گیرد)\nwir holen ab (ما برمی‌داریم/تحویل می‌گیریم)\nihr holt ab (شما برمی‌دارید/تحویل می‌گیرید)\nsie/Sie holen ab (آن‌ها/شما (محترمانه) برمی‌دارند/تحویل می‌گیرند)\n\nگذشته ساده (Präteritum):\nich holte ab (من برداشتم/تحویل گرفتم)\ndu holtest ab (تو برداشتی/تحویل گرفتی)\ner/sie/es holte ab (او برداشت/تحویل گرفت)\nwir holten ab (ما برداشتیم/تحویل گرفتیم)\nihr holtet ab (شما برداشتید/تحویل گرفتید)\nsie/Sie holten ab (آن‌ها/شما (محترمانه) برداشتند/تحویل گرفتند)\n\nگذشته کامل (Perfekt):\nich habe abgeholt (من برداشته‌ام/تحویل گرفته‌ام)\ndu hast abgeholt (تو برداشته‌ای/تحویل گرفته‌ای)\ner/sie/es hat abgeholt (او برداشته است/تحویل گرفته است)\nwir haben abgeholt (ما برداشته‌ایم/تحویل گرفته‌ایم)\nihr habt abgeholt (شما برداشته‌اید/تحویل گرفته‌اید)\nsie/Sie haben abgeholt (آن‌ها/شما (محترمانه) برداشته‌اند/تحویل گرفته‌اند)\n\nحالت منفی (Präsens):\nich hole nicht ab (من برنمی‌دارم/تحویل نمی‌گیرم)\ndu holst nicht ab (تو برنمی‌داری/تحویل نمی‌گیری)\ner/sie/es holt nicht ab (او برنمی‌دارد/تحویل نمی‌گیرد)\nwir holen nicht ab (ما برنمی‌داریم/تحویل نمی‌گیریم)\nihr holt nicht ab (شما برنمی‌دارید/تحویل نمی‌گیرید)\nsie/Sie holen nicht ab (آن‌ها/شما (محترمانه) برنمی‌دارند/تحویل نمی‌گیرند)",
+    "translate_fa": "برداشتن/گرفتن - برمی‌دارد - برداشته است",
+    "file": "311_de.mp3"
+  },
+  {
+    "Filename": "314",
+    "Sound_de": "abschließen - schließt ab - hat abgeschlossen",
+    "root": "حال (Präsens):\nich schließe ab (من تمام می‌کنم/قفل می‌کنم)\ndu schließt ab (تو تمام می‌کنی/قفل می‌کنی)\ner/sie/es schließt ab (او تمام می‌کند/قفل می‌کند)\nwir schließen ab (ما تمام می‌کنیم/قفل می‌کنیم)\nihr schließt ab (شما تمام می‌کنید/قفل می‌کنید)\nsie/Sie schließen ab (آن‌ها/شما (محترمانه) تمام می‌کنند/قفل می‌کنند)\n\nگذشته ساده (Präteritum):\nich schloss ab (من تمام کردم/قفل کردم)\ndu schlossest ab (تو تمام کردی/قفل کردی)\ner/sie/es schloss ab (او تمام کرد/قفل کرد)\nwir schlossen ab (ما تمام کردیم/قفل کردیم)\nihr schlosst ab (شما تمام کردید/قفل کردید)\nsie/Sie schlossen ab (آن‌ها/شما (محترمانه) تمام کردند/قفل کردند)\n\nگذشته کامل (Perfekt):\nich habe abgeschlossen (من تمام کرده‌ام/قفل کرده‌ام)\ndu hast abgeschlossen (تو تمام کرده‌ای/قفل کرده‌ای)\ner/sie/es hat abgeschlossen (او تمام کرده است/قفل کرده است)\nwir haben abgeschlossen (ما تمام کرده‌ایم/قفل کرده‌ایم)\nihr habt abgeschlossen (شما تمام کرده‌اید/قفل کرده‌اید)\nsie/Sie haben abgeschlossen (آن‌ها/شما (محترمانه) تمام کرده‌اند/قفل کرده‌اند)\n\nحالت منفی (Präsens):\nich schließe nicht ab (من تمام نمی‌کنم/قفل نمی‌کنم)\ndu schließt nicht ab (تو تمام نمی‌کنی/قفل نمی‌کنی)\ner/sie/es schließt nicht ab (او تمام نمی‌کند/قفل نمی‌کند)\nwir schließen nicht ab (ما تمام نمی‌کنیم/قفل نمی‌کنیم)\nihr schließt nicht ab (شما تمام نمی‌کنید/قفل نمی‌کنید)\nsie/Sie schließen nicht ab (آن‌ها/شما (محترمانه) تمام نمی‌کنند/قفل نمی‌کنند)",
+    "translate_fa": "قفل کردن - قفل می‌کند - قفل کرده است",
+    "file": "314_de.mp3"
+  },
+  {
+    "Filename": "359",
+    "Sound_de": "anbieten - bietet an - hat angeboten",
+    "root": "حال (Präsens):\nich biete an (من پیشنهاد می‌دهم)\ndu bietest an (تو پیشنهاد می‌دهی)\ner/sie/es bietet an (او پیشنهاد می‌دهد)\nwir bieten an (ما پیشنهاد می‌دهیم)\nihr bietet an (شما پیشنهاد می‌دهید)\nsie/Sie bieten an (آن‌ها/شما (محترمانه) پیشنهاد می‌دهند)\n\nگذشته ساده (Präteritum):\nich bot an (من پیشنهاد دادم)\ndu botest an (تو پیشنهاد دادی)\ner/sie/es bot an (او پیشنهاد داد)\nwir boten an (ما پیشنهاد دادیم)\nihr botet an (شما پیشنهاد دادید)\nsie/Sie boten an (آن‌ها/شما (محترمانه) پیشنهاد دادند)\n\nگذشته کامل (Perfekt):\nich habe angeboten (من پیشنهاد داده‌ام)\ndu hast angeboten (تو پیشنهاد داده‌ای)\ner/sie/es hat angeboten (او پیشنهاد داده است)\nwir haben angeboten (ما پیشنهاد داده‌ایم)\nihr habt angeboten (شما پیشنهاد داده‌اید)\nsie/Sie haben angeboten (آن‌ها/شما (محترمانه) پیشنهاد داده‌اند)\n\nحالت منفی (Präsens):\nich biete nicht an (من پیشنهاد نمی‌دهم)\ndu bietest nicht an (تو پیشنهاد نمی‌دهی)\ner/sie/es bietet nicht an (او پیشنهاد نمی‌دهد)\nwir bieten nicht an (ما پیشنهاد نمی‌دهیم)\nihr bietet nicht an (شما پیشنهاد نمی‌دهید)\nsie/Sie bieten nicht an (آن‌ها/شما (محترمانه) پیشنهاد نمی‌دهند)",
+    "translate_fa": "پیشنهاد دادن - پیشنهاد می‌دهد - پیشنهاد داده است",
+    "file": "359_de.mp3"
+  },
+  {
+    "Filename": "361",
+    "Sound_de": "hat angeboten",
+    "root": "حال (Präsens):\nich biete an (من پیشنهاد می‌دهم)\ndu bietest an (تو پیشنهاد می‌دهی)\ner/sie/es bietet an (او پیشنهاد می‌دهد)\nwir bieten an (ما پیشنهاد می‌دهیم)\nihr bietet an (شما پیشنهاد می‌دهید)\nsie/Sie bieten an (آن‌ها/شما (محترمانه) پیشنهاد می‌دهند)\n\nگذشته ساده (Präteritum):\nich bot an (من پیشنهاد دادم)\ndu botest an (تو پیشنهاد دادی)\ner/sie/es bot an (او پیشنهاد داد)\nwir boten an (ما پیشنهاد دادیم)\nihr botet an (شما پیشنهاد دادید)\nsie/Sie boten an (آن‌ها/شما (محترمانه) پیشنهاد دادند)\n\nگذشته کامل (Perfekt):\nich habe angeboten (من پیشنهاد داده‌ام)\ndu hast angeboten (تو پیشنهاد داده‌ای)\ner/sie/es hat angeboten (او پیشنهاد داده است)\nwir haben angeboten (ما پیشنهاد داده‌ایم)\nihr habt angeboten (شما پیشنهاد داده‌اید)\nsie/Sie haben angeboten (آن‌ها/شما (محترمانه) پیشنهاد داده‌اند)\n\nحالت منفی (Präsens):\nich biete nicht an (من پیشنهاد نمی‌دهم)\ndu bietest nicht an (تو پیشنهاد نمی‌دهی)\ner/sie/es bietet nicht an (او پیشنهاد نمی‌دهد)\nwir bieten nicht an (ما پیشنهاد نمی‌دهیم)\nihr bietet nicht an (شما پیشنهاد نمی‌دهید)\nsie/Sie bieten nicht an (آن‌ها/شما (محترمانه) پیشنهاد نمی‌دهند)",
+    "translate_fa": "پیشنهاد داده است",
+    "file": "361_de.mp3"
+  },
+  {
+    "Filename": "370",
+    "Sound_de": "ändern - ändert - hat geändert",
+    "root": "حال (Präsens):\nich ändere (من تغییر می‌دهم)\ndu änderst (تو تغییر می‌دهی)\ner/sie/es ändert (او تغییر می‌دهد)\nwir ändern (ما تغییر می‌دهیم)\nihr ändert (شما تغییر می‌دهید)\nsie/Sie ändern (آن‌ها/شما (محترمانه) تغییر می‌دهند)\n\nگذشته ساده (Präteritum):\nich änderte (من تغییر دادم)\ndu ändertest (تو تغییر دادی)\ner/sie/es änderte (او تغییر داد)\nwir änderten (ما تغییر دادیم)\nihr ändertet (شما تغییر دادید)\nsie/Sie änderten (آن‌ها/شما (محترمانه) تغییر دادند)\n\nگذشته کامل (Perfekt):\nich habe geändert (من تغییر داده‌ام)\ndu hast geändert (تو تغییر داده‌ای)\ner/sie/es hat geändert (او تغییر داده است)\nwir haben geändert (ما تغییر داده‌ایم)\nihr habt geändert (شما تغییر داده‌اید)\nsie/Sie haben geändert (آن‌ها/شما (محترمانه) تغییر داده‌اند)\n\nحالت منفی (Präsens):\nich ändere nicht (من تغییر نمی‌دهم)\ndu änderst nicht (تو تغییر نمی‌دهی)\ner/sie/es ändert nicht (او تغییر نمی‌دهد)\nwir ändern nicht (ما تغییر نمی‌دهیم)\nihr ändert nicht (شما تغییر نمی‌دهید)\nsie/Sie ändern nicht (آن‌ها/شما (محترمانه) تغییر نمی‌دهند)",
+    "translate_fa": "تغییر دادن - تغییر می‌دهد - تغییر داده است",
+    "file": "370_de.mp3"
+  },
+  {
+    "Filename": "376",
+    "Sound_de": "anfangen - fängt an - hat angefangen",
+    "root": "حال (Präsens):\nich fange an (من شروع می‌کنم)\ndu fängst an (تو شروع می‌کنی)\ner/sie/es fängt an (او شروع می‌کند)\nwir fangen an (ما شروع می‌کنیم)\nihr fangt an (شما شروع می‌کنید)\nsie/Sie fangen an (آن‌ها/شما (محترمانه) شروع می‌کنند)\n\nگذشته ساده (Präteritum):\nich fing an (من شروع کردم)\ndu fingst an (تو شروع کردی)\ner/sie/es fing an (او شروع کرد)\nwir fingen an (ما شروع کردیم)\nihr fingt an (شما شروع کردید)\nsie/Sie fingen an (آن‌ها/شما (محترمانه) شروع کردند)\n\nگذشته کامل (Perfekt):\nich habe angefangen (من شروع کرده‌ام)\ndu hast angefangen (تو شروع کرده‌ای)\ner/sie/es hat angefangen (او شروع کرده است)\nwir haben angefangen (ما شروع کرده‌ایم)\nihr habt angefangen (شما شروع کرده‌اید)\nsie/Sie haben angefangen (آن‌ها/شما (محترمانه) شروع کرده‌اند)\n\nحالت منفی (Präsens):\nich fange nicht an (من شروع نمی‌کنم)\ndu fängst nicht an (تو شروع نمی‌کنی)\ner/sie/es fängt nicht an (او شروع نمی‌کند)\nwir fangen nicht an (ما شروع نمی‌کنیم)\nihr fangt nicht an (شما شروع نمی‌کنید)\nsie/Sie fangen nicht an (آن‌ها/شما (محترمانه) شروع نمی‌کنند)",
+    "translate_fa": "شروع کردن - شروع می‌کند - شروع کرده است",
+    "file": "376_de.mp3"
+  },
+  {
+    "Filename": "387",
+    "Sound_de": "ankommen - kommt an - ist angekommen",
+    "root": "حال (Präsens):\nich komme an (من می‌رسم)\ndu kommst an (تو می‌رسی)\ner/sie/es kommt an (او می‌رسد)\nwir kommen an (ما می‌رسیم)\nihr kommt an (شما می‌رسید)\nsie/Sie kommen an (آن‌ها/شما (محترمانه) می‌رسند)\n\nگذشته ساده (Präteritum):\nich kam an (من رسیدم)\ndu kamst an (تو رسیدی)\ner/sie/es kam an (او رسید)\nwir kamen an (ما رسیدیم)\nihr kamt an (شما رسیدید)\nsie/Sie kamen an (آن‌ها/شما (محترمانه) رسیدند)\n\nگذشته کامل (Perfekt):\nich bin angekommen (من رسیده‌ام)\ndu bist angekommen (تو رسیده‌ای)\ner/sie/es ist angekommen (او رسیده است)\nwir sind angekommen (ما رسیده‌ایم)\nihr seid angekommen (شما رسیده‌اید)\nsie/Sie sind angekommen (آن‌ها/شما (محترمانه) رسیده‌اند)\n\nحالت منفی (Präsens):\nich komme nicht an (من نمی‌رسم)\ndu kommst nicht an (تو نمی‌رسی)\ner/sie/es kommt nicht an (او نمی‌رسد)\nwir kommen nicht an (ما نمی‌رسیم)\nihr kommt nicht an (شما نمی‌رسید)\nsie/Sie kommen nicht an (آن‌ها/شما (محترمانه) نمی‌رسند)",
+    "translate_fa": "رسیدن - می‌رسد - رسیده است",
+    "file": "387_de.mp3"
+  },
+  {
+    "Filename": "391",
+    "Sound_de": "anmachen - macht an - hat angemacht",
+    "root": "حال (Präsens):\nich mache an (من روشن می‌کنم)\ndu machst an (تو روشن می‌کنی)\ner/sie/es macht an (او روشن می‌کند)\nwir machen an (ما روشن می‌کنیم)\nihr macht an (شما روشن می‌کنید)\nsie/Sie machen an (آن‌ها/شما (محترمانه) روشن می‌کنند)\n\nگذشته ساده (Präteritum):\nich machte an (من روشن کردم)\ndu machtest an (تو روشن کردی)\ner/sie/es machte an (او روشن کرد)\nwir machten an (ما روشن کردیم)\nihr machtet an (شما روشن کردید)\nsie/Sie machten an (آن‌ها/شما (محترمانه) روشن کردند)\n\nگذشته کامل (Perfekt):\nich habe angemacht (من روشن کرده‌ام)\ndu hast angemacht (تو روشن کرده‌ای)\ner/sie/es hat angemacht (او روشن کرده است)\nwir haben angemacht (ما روشن کرده‌ایم)\nihr habt angemacht (شما روشن کرده‌اید)\nsie/Sie haben angemacht (آن‌ها/شما (محترمانه) روشن کرده‌اند)\n\nحالت منفی (Präsens):\nich mache nicht an (من روشن نمی‌کنم)\ndu machst nicht an (تو روشن نمی‌کنی)\ner/sie/es macht nicht an (او روشن نمی‌کند)\nwir machen nicht an (ما روشن نمی‌کنیم)\nihr macht nicht an (شما روشن نمی‌کنید)\nsie/Sie machen nicht an (آن‌ها/شما (محترمانه) روشن نمی‌کنند)",
+    "translate_fa": "روشن کردن - روشن می‌کند - روشن کرده است",
+    "file": "391_de.mp3"
+  },
+  {
+    "Filename": "393",
+    "Sound_de": "anmelden (sich) - meldet an - hat angemeldet",
+    "root": "حال (Präsens):\nich melde mich an (من ثبت‌نام می‌کنم)\ndu meldest dich an (تو ثبت‌نام می‌کنی)\ner/sie/es meldet sich an (او ثبت‌نام می‌کند)\nwir melden uns an (ما ثبت‌نام می‌کنیم)\nihr meldet euch an (شما ثبت‌نام می‌کنید)\nsie/Sie melden sich an (آن‌ها/شما (محترمانه) ثبت‌نام می‌کنند)\n\nگذشته ساده (Präteritum):\nich meldete mich an (من ثبت‌نام کردم)\ndu meldetest dich an (تو ثبت‌نام کردی)\ner/sie/es meldete sich an (او ثبت‌نام کرد)\nwir meldeten uns an (ما ثبت‌نام کردیم)\nihr meldetet euch an (شما ثبت‌نام کردید)\nsie/Sie meldeten sich an (آن‌ها/شما (محترمانه) ثبت‌نام کردند)\n\nگذشته کامل (Perfekt):\nich habe mich angemeldet (من ثبت‌نام کرده‌ام)\ndu hast dich angemeldet (تو ثبت‌نام کرده‌ای)\ner/sie/es hat sich angemeldet (او ثبت‌نام کرده است)\nwir haben uns angemeldet (ما ثبت‌نام کرده‌ایم)\nihr habt euch angemeldet (شما ثبت‌نام کرده‌اید)\nsie/Sie haben sich angemeldet (آن‌ها/شما (محترمانه) ثبت‌نام کرده‌اند)\n\nحالت منفی (Präsens):\nich melde mich nicht an (من ثبت‌نام نمی‌کنم)\ndu meldest dich nicht an (تو ثبت‌نام نمی‌کنی)\ner/sie/es meldet sich nicht an (او ثبت‌نام نمی‌کند)\nwir melden uns nicht an (ما ثبت‌نام نمی‌کنیم)\nihr meldet euch nicht an (شما ثبت‌نام نمی‌کنید)\nsie/Sie melden sich nicht an (آن‌ها/شما (محترمانه) ثبت‌نام نمی‌کنند)",
+    "translate_fa": "an (به) + melden (گزارش/ثبت). فعل جداشدنی مرکب که به معنی ثبت‌نام کردن است. «melden» به معنی «گزارش دادن» یا «اعلام کردن» است و پیشوند «an» به معنی «به» یا «شروع» است. در حالت بازتابی «sich anmelden» به معنی ثبت‌نام کردن یا نام‌نویسی است. زمان‌ها شامل حال ساده سوم شخص مفرد و گذشته کامل است.",
+    "file": ""
+  },
+  {
+    "Filename": "400",
+    "Sound_de": "anrufen - ruft an - hat angerufen",
+    "root": "حال (Präsens):\nich rufe an (من تلفن می‌کنم)\ndu rufst an (تو تلفن می‌کنی)\ner/sie/es ruft an (او تلفن می‌کند)\nwir rufen an (ما تلفن می‌کنیم)\nihr ruft an (شما تلفن می‌کنید)\nsie/Sie rufen an (آن‌ها/شما (محترمانه) تلفن می‌کنند)\n\nگذشته ساده (Präteritum):\nich rief an (من تلفن کردم)\ndu riefst an (تو تلفن کردی)\ner/sie/es rief an (او تلفن کرد)\nwir riefen an (ما تلفن کردیم)\nihr rieft an (شما تلفن کردید)\nsie/Sie riefen an (آن‌ها/شما (محترمانه) تلفن کردند)\n\nگذشته کامل (Perfekt):\nich habe angerufen (من تلفن کرده‌ام)\ndu hast angerufen (تو تلفن کرده‌ای)\ner/sie/es hat angerufen (او تلفن کرده است)\nwir haben angerufen (ما تلفن کرده‌ایم)\nihr habt angerufen (شما تلفن کرده‌اید)\nsie/Sie haben angerufen (آن‌ها/شما (محترمانه) تلفن کرده‌اند)\n\nحالت منفی (Präsens):\nich rufe nicht an (من تلفن نمی‌کنم)\ndu rufst nicht an (تو تلفن نمی‌کنی)\ner/sie/es ruft nicht an (او تلفن نمی‌کند)\nwir rufen nicht an (ما تلفن نمی‌کنیم)\nihr ruft nicht an (شما تلفن نمی‌کنید)\nsie/Sie rufen nicht an (آن‌ها/شما (محترمانه) تلفن نمی‌کنند)",
+    "translate_fa": "تلفن کردن - تلفن می‌کند - تلفن کرده است",
+    "file": "400_de.mp3"
+  },
+  {
+    "Filename": "409",
+    "Sound_de": "ansehen - sieht an - hat angesehen",
+    "root": "حال (Präsens):\nich sehe an (من نگاه می‌کنم)\ndu siehst an (تو نگاه می‌کنی)\ner/sie/es sieht an (او نگاه می‌کند)\nwir sehen an (ما نگاه می‌کنیم)\nihr seht an (شما نگاه می‌کنید)\nsie/Sie sehen an (آن‌ها/شما (محترمانه) نگاه می‌کنند)\n\nگذشته ساده (Präteritum):\nich sah an (من نگاه کردم)\ndu sahst an (تو نگاه کردی)\ner/sie/es sah an (او نگاه کرد)\nwir sahen an (ما نگاه کردیم)\nihr saht an (شما نگاه کردید)\nsie/Sie sahen an (آن‌ها/شما (محترمانه) نگاه کردند)\n\nگذشته کامل (Perfekt):\nich habe angesehen (من نگاه کرده‌ام)\ndu hast angesehen (تو نگاه کرده‌ای)\ner/sie/es hat angesehen (او نگاه کرده است)\nwir haben angesehen (ما نگاه کرده‌ایم)\nihr habt angesehen (شما نگاه کرده‌اید)\nsie/Sie haben angesehen (آن‌ها/شما (محترمانه) نگاه کرده‌اند)\n\nحالت منفی (Präsens):\nich sehe nicht an (من نگاه نمی‌کنم)\ndu siehst nicht an (تو نگاه نمی‌کنی)\ner/sie/es sieht nicht an (او نگاه نمی‌کند)\nwir sehen nicht an (ما نگاه نمی‌کنیم)\nihr seht nicht an (شما نگاه نمی‌کنید)\nsie/Sie sehen nicht an (آن‌ها/شما (محترمانه) نگاه نمی‌کنند)",
+    "translate_fa": "نگاه کردن - نگاه می‌کند - نگاه کرده است",
+    "file": "409_de.mp3"
+  },
+  {
+    "Filename": "412",
+    "Sound_de": "antworten - antwortet - hat geantwortet",
+    "root": "حال (Präsens):\nich antworte (من پاسخ می‌دهم)\ndu antwortest (تو پاسخ می‌دهی)\ner/sie/es antwortet (او پاسخ می‌دهد)\nwir antworten (ما پاسخ می‌دهیم)\nihr antwortet (شما پاسخ می‌دهید)\nsie/Sie antworten (آن‌ها/شما (محترمانه) پاسخ می‌دهند)\n\nگذشته ساده (Präteritum):\nich antwortete (من پاسخ دادم)\ndu antwortetest (تو پاسخ دادی)\ner/sie/es antwortete (او پاسخ داد)\nwir antworteten (ما پاسخ دادیم)\nihr antwortetet (شما پاسخ دادید)\nsie/Sie antworteten (آن‌ها/شما (محترمانه) پاسخ دادند)\n\nگذشته کامل (Perfekt):\nich habe geantwortet (من پاسخ داده‌ام)\ndu hast geantwortet (تو پاسخ داده‌ای)\ner/sie/es hat geantwortet (او پاسخ داده است)\nwir haben geantwortet (ما پاسخ داده‌ایم)\nihr habt geantwortet (شما پاسخ داده‌اید)\nsie/Sie haben geantwortet (آن‌ها/شما (محترمانه) پاسخ داده‌اند)\n\nحالت منفی (Präsens):\nich antworte nicht (من پاسخ نمی‌دهم)\ndu antwortest nicht (تو پاسخ نمی‌دهی)\ner/sie/es antwortet nicht (او پاسخ نمی‌دهد)\nwir antworten nicht (ما پاسخ نمی‌دهیم)\nihr antwortet nicht (شما پاسخ نمی‌دهید)\nsie/Sie antworten nicht (آن‌ها/شما (محترمانه) پاسخ نمی‌دهند)",
+    "translate_fa": "پاسخ دادن - پاسخ می‌دهد - پاسخ داده است",
+    "file": "412_de.mp3"
+  },
+  {
+    "Filename": "427",
+    "Sound_de": "arbeiten - arbeitet - hat gearbeitet",
+    "root": "حال (Präsens):\nich arbeite (من کار می‌کنم)\ndu arbeitest (تو کار می‌کنی)\ner/sie/es arbeitet (او کار می‌کند)\nwir arbeiten (ما کار می‌کنیم)\nihr arbeitet (شما کار می‌کنید)\nsie/Sie arbeiten (آن‌ها/شما (محترمانه) کار می‌کنند)\n\nگذشته ساده (Präteritum):\nich arbeitete (من کار کردم)\ndu arbeitetest (تو کار کردی)\ner/sie/es arbeitete (او کار کرد)\nwir arbeiteten (ما کار کردیم)\nihr arbeitetet (شما کار کردید)\nsie/Sie arbeiteten (آن‌ها/شما (محترمانه) کار کردند)\n\nگذشته کامل (Perfekt):\nich habe gearbeitet (من کار کرده‌ام)\ndu hast gearbeitet (تو کار کرده‌ای)\ner/sie/es hat gearbeitet (او کار کرده است)\nwir haben gearbeitet (ما کار کرده‌ایم)\nihr habt gearbeitet (شما کار کرده‌اید)\nsie/Sie haben gearbeitet (آن‌ها/شما (محترمانه) کار کرده‌اند)\n\nحالت منفی (Präsens):\nich arbeite nicht (من کار نمی‌کنم)\ndu arbeitest nicht (تو کار نمی‌کنی)\ner/sie/es arbeitet nicht (او کار نمی‌کند)\nwir arbeiten nicht (ما کار نمی‌کنیم)\nihr arbeitet nicht (شما کار نمی‌کنید)\nsie/Sie arbeiten nicht (آن‌ها/شما (محترمانه) کار نمی‌کنند)",
+    "translate_fa": "کار کردن - کار می‌کند - کار کرده است",
+    "file": "427_de.mp3"
+  },
+  {
+    "Filename": "435",
+    "Sound_de": "ärgern (sich) - ärgert - hat geärgert",
+    "root": "حال (Präsens):\nich ärgere mich (من ناراحت می‌شم)\ndu ärgerst dich (تو ناراحت می‌شی)\ner/sie/es ärgert sich (او ناراحت می‌شود)\nwir ärgern uns (ما ناراحت می‌شویم)\nihr ärgert euch (شما ناراحت می‌شوید)\nsie/Sie ärgern sich (آن‌ها/شما (محترمانه) ناراحت می‌شوند)\n\nگذشته ساده (Präteritum):\nich ärgerte mich (من ناراحت شدم)\ndu ärgertest dich (تو ناراحت شدی)\ner/sie/es ärgerte sich (او ناراحت شد)\nwir ärgerten uns (ما ناراحت شدیم)\nihr ärgertet euch (شما ناراحت شدید)\nsie/Sie ärgerten sich (آن‌ها/شما (محترمانه) ناراحت شدند)\n\nگذشته کامل (Perfekt):\nich habe mich geärgert (من ناراحت شده‌ام)\ndu hast dich geärgert (تو ناراحت شده‌ای)\ner/sie/es hat sich geärgert (او ناراحت شده است)\nwir haben uns geärgert (ما ناراحت شده‌ایم)\nihr habt euch geärgert (شما ناراحت شده‌اید)\nsie/Sie haben sich geärgert (آن‌ها/شما (محترمانه) ناراحت شده‌اند)\n\nحالت منفی (Präsens):\nich ärgere mich nicht (من ناراحت نمی‌شم)\ndu ärgerst dich nicht (تو ناراحت نمی‌شی)\ner/sie/es ärgert sich nicht (او ناراحت نمی‌شود)\nwir ärgern uns nicht (ما ناراحت نمی‌شویم)\nihr ärgert euch nicht (شما ناراحت نمی‌شوید)\nsie/Sie ärgern sich nicht (آن‌ها/شما (محترمانه) ناراحت نمی‌شوند)",
+    "translate_fa": "ناراحت شدن - ناراحت می‌شود - ناراحت شده است",
+    "file": "435_de.mp3"
+  },
+  {
+    "Filename": "459",
+    "Sound_de": "aufhören - hört auf - hat aufgehört",
+    "root": "حال (Präsens):\nich höre auf (من متوقف می‌کنم)\ndu hörst auf (تو متوقف می‌کنی)\ner/sie/es hört auf (او متوقف می‌کند)\nwir hören auf (ما متوقف می‌کنیم)\nihr hört auf (شما متوقف می‌کنید)\nsie/Sie hören auf (آن‌ها/شما (محترمانه) متوقف می‌کنند)\n\nگذشته ساده (Präteritum):\nich hörte auf (من متوقف کردم)\ndu hörtest auf (تو متوقف کردی)\ner/sie/es hörte auf (او متوقف کرد)\nwir hörten auf (ما متوقف کردیم)\nihr hörtet auf (شما متوقف کردید)\nsie/Sie hörten auf (آن‌ها/شما (محترمانه) متوقف کردند)\n\nگذشته کامل (Perfekt):\nich habe aufgehört (من متوقف کرده‌ام)\ndu hast aufgehört (تو متوقف کرده‌ای)\ner/sie/es hat aufgehört (او متوقف کرده است)\nwir haben aufgehört (ما متوقف کرده‌ایم)\nihr habt aufgehört (شما متوقف کرده‌اید)\nsie/Sie haben aufgehört (آن‌ها/شما (محترمانه) متوقف کرده‌اند)\n\nحالت منفی (Präsens):\nich höre nicht auf (من متوقف نمی‌کنم)\ndu hörst nicht auf (تو متوقف نمی‌کنی)\ner/sie/es hört nicht auf (او متوقف نمی‌کند)\nwir hören nicht auf (ما متوقف نمی‌کنیم)\nihr hört nicht auf (شما متوقف نمی‌کنید)\nsie/Sie hören nicht auf (آن‌ها/شما (محترمانه) متوقف نمی‌کنند)",
+    "translate_fa": "توقف کردن - توقف می‌کند - توقف کرده است",
+    "file": "459_de.mp3"
+  },
+  {
+    "Filename": "462",
+    "Sound_de": "aufmachen - macht auf - hat aufgemacht",
+    "root": "حال (Präsens):\nich mache auf (من باز می‌کنم)\ndu machst auf (تو باز می‌کنی)\ner/sie/es macht auf (او باز می‌کند)\nwir machen auf (ما باز می‌کنیم)\nihr macht auf (شما باز می‌کنید)\nsie/Sie machen auf (آن‌ها/شما (محترمانه) باز می‌کنند)\n\nگذشته ساده (Präteritum):\nich machte auf (من باز کردم)\ndu machtest auf (تو باز کردی)\ner/sie/es machte auf (او باز کرد)\nwir machten auf (ما باز کردیم)\nihr machtet auf (شما باز کردید)\nsie/Sie machten auf (آن‌ها/شما (محترمانه) باز کردند)\n\nگذشته کامل (Perfekt):\nich habe aufgemacht (من باز کرده‌ام)\ndu hast aufgemacht (تو باز کرده‌ای)\ner/sie/es hat aufgemacht (او باز کرده است)\nwir haben aufgemacht (ما باز کرده‌ایم)\nihr habt aufgemacht (شما باز کرده‌اید)\nsie/Sie haben aufgemacht (آن‌ها/شما (محترمانه) باز کرده‌اند)\n\nحالت منفی (Präsens):\nich mache nicht auf (من باز نمی‌کنم)\ndu machst nicht auf (تو باز نمی‌کنی)\ner/sie/es macht nicht auf (او باز نمی‌کند)\nwir machen nicht auf (ما باز نمی‌کنیم)\nihr macht nicht auf (شما باز نمی‌کنید)\nsie/Sie machen nicht auf (آن‌ها/شما (محترمانه) باز نمی‌کنند)",
+    "translate_fa": "باز کردن - باز می‌کند - باز کرده است",
+    "file": "462_de.mp3"
+  },
+  {
+    "Filename": "464",
+    "Sound_de": "aufpassen - passt auf - hat aufgepasst",
+    "root": "حال (Präsens):\nich passe auf (من مراقبت می‌کنم)\ndu passt auf (تو مراقبت می‌کنی)\ner/sie/es passt auf (او مراقبت می‌کند)\nwir passen auf (ما مراقبت می‌کنیم)\nihr passt auf (شما مراقبت می‌کنید)\nsie/Sie passen auf (آن‌ها/شما (محترمانه) مراقبت می‌کنند)\n\nگذشته ساده (Präteritum):\nich passte auf (من مراقبت کردم)\ndu passtest auf (تو مراقبت کردی)\ner/sie/es passte auf (او مراقبت کرد)\nwir passten auf (ما مراقبت کردیم)\nihr passtet auf (شما مراقبت کردید)\nsie/Sie passten auf (آن‌ها/شما (محترمانه) مراقبت کردند)\n\nگذشته کامل (Perfekt):\nich habe aufgepasst (من مراقبت کرده‌ام)\ndu hast aufgepasst (تو مراقبت کرده‌ای)\ner/sie/es hat aufgepasst (او مراقبت کرده است)\nwir haben aufgepasst (ما مراقبت کرده‌ایم)\nihr habt aufgepasst (شما مراقبت کرده‌اید)\nsie/Sie haben aufgepasst (آن‌ها/شما (محترمانه) مراقبت کرده‌اند)\n\nحالت منفی (Präsens):\nich passe nicht auf (من مراقبت نمی‌کنم)\ndu passt nicht auf (تو مراقبت نمی‌کنی)\ner/sie/es passt nicht auf (او مراقبت نمی‌کند)\nwir passen nicht auf (ما مراقبت نمی‌کنیم)\nihr passt nicht auf (شما مراقبت نمی‌کنید)\nsie/Sie passen nicht auf (آن‌ها/شما (محترمانه) مراقبت نمی‌کنند)",
+    "translate_fa": "مراقب بودن - مراقب است - مراقب بوده است",
+    "file": "461_de.mp3"
+  },
+  {
+    "Filename": "468",
+    "Sound_de": "aufräumen - räumt auf - hat aufgeräumt",
+    "root": "حال (Präsens):\nich räume auf (من مرتب می‌کنم)\ndu räumst auf (تو مرتب می‌کنی)\ner/sie/es räumt auf (او مرتب می‌کند)\nwir räumen auf (ما مرتب می‌کنیم)\nihr räumt auf (شما مرتب می‌کنید)\nsie/Sie räumen auf (آن‌ها/شما (محترمانه) مرتب می‌کنند)\n\nگذشته ساده (Präteritum):\nich räumte auf (من مرتب کردم)\ndu räumtest auf (تو مرتب کردی)\ner/sie/es räumte auf (او مرتب کرد)\nwir räumten auf (ما مرتب کردیم)\nihr räumtet auf (شما مرتب کردید)\nsie/Sie räumten auf (آن‌ها/شما (محترمانه) مرتب کردند)\n\nگذشته کامل (Perfekt):\nich habe aufgeräumt (من مرتب کرده‌ام)\ndu hast aufgeräumt (تو مرتب کرده‌ای)\ner/sie/es hat aufgeräumt (او مرتب کرده است)\nwir haben aufgeräumt (ما مرتب کرده‌ایم)\nihr habt aufgeräumt (شما مرتب کرده‌اید)\nsie/Sie haben aufgeräumt (آن‌ها/شما (محترمانه) مرتب کرده‌اند)\n\nحالت منفی (Präsens):\nich räume nicht auf (من مرتب نمی‌کنم)\ndu räumst nicht auf (تو مرتب نمی‌کنی)\ner/sie/es räumt nicht auf (او مرتب نمی‌کند)\nwir räumen nicht auf (ما مرتب نمی‌کنیم)\nihr räumt nicht auf (شما مرتب نمی‌کنید)\nsie/Sie räumen nicht auf (آن‌ها/شما (محترمانه) مرتب نمی‌کنند)",
+    "translate_fa": "مرتب کردن - مرتب می‌کند - مرتب کرده است",
+    "file": "468_de.mp3"
+  },
+  {
+    "Filename": "473",
+    "Sound_de": "aufstehen - steht auf - ist aufgestanden",
+    "root": "حال (Präsens):\nich stehe auf (من بلند می‌شوم)\ndu stehst auf (تو بلند می‌شوی)\ner/sie/es steht auf (او بلند می‌شود)\nwir stehen auf (ما بلند می‌شویم)\nihr steht auf (شما بلند می‌شوید)\nsie/Sie stehen auf (آن‌ها/شما (محترمانه) بلند می‌شوند)\n\nگذشته ساده (Präteritum):\nich stand auf (من بلند شدم)\ndu standest auf (تو بلند شدی)\ner/sie/es stand auf (او بلند شد)\nwir standen auf (ما بلند شدیم)\nihr standet auf (شما بلند شدید)\nsie/Sie standen auf (آن‌ها/شما (محترمانه) بلند شدند)\n\nگذشته کامل (Perfekt):\nich bin aufgestanden (من بلند شده‌ام)\ndu bist aufgestanden (تو بلند شده‌ای)\ner/sie/es ist aufgestanden (او بلند شده است)\nwir sind aufgestanden (ما بلند شده‌ایم)\nihr seid aufgestanden (شما بلند شده‌اید)\nsie/Sie sind aufgestanden (آن‌ها/شما (محترمانه) بلند شده‌اند)\n\nحالت منفی (Präsens):\nich stehe nicht auf (من بلند نمی‌شوم)\ndu stehst nicht auf (تو بلند نمی‌شوی)\ner/sie/es steht nicht auf (او بلند نمی‌شود)\nwir stehen nicht auf (ما بلند نمی‌شویم)\nihr steht nicht auf (شما بلند نمی‌شوید)\nsie/Sie stehen nicht auf (آن‌ها/شما (محترمانه) بلند نمی‌شوند)",
+    "translate_fa": "بلند شدن - بلند می‌شود - بلند شده است",
+    "file": "473_de.mp3"
+  },
+  {
+    "Filename": "490",
+    "Sound_de": "ausfüllen - füllt aus - hat ausgefüllt",
+    "root": "حال (Präsens):\nich fülle aus (من پر می‌کنم)\ndu füllst aus (تو پر می‌کنی)\ner/sie/es füllt aus (او پر می‌کند)\nwir füllen aus (ما پر می‌کنیم)\nihr füllt aus (شما پر می‌کنید)\nsie/Sie füllen aus (آن‌ها/شما (محترمانه) پر می‌کنند)\n\nگذشته ساده (Präteritum):\nich füllte aus (من پر کردم)\ndu fülltest aus (تو پر کردی)\ner/sie/es füllte aus (او پر کرد)\nwir füllten aus (ما پر کردیم)\nihr fülltet aus (شما پر کردید)\nsie/Sie füllten aus (آن‌ها/شما (محترمانه) پر کردند)\n\nگذشته کامل (Perfekt):\nich habe ausgefüllt (من پر کرده‌ام)\ndu hast ausgefüllt (تو پر کرده‌ای)\ner/sie/es hat ausgefüllt (او پر کرده است)\nwir haben ausgefüllt (ما پر کرده‌ایم)\nihr habt ausgefüllt (شما پر کرده‌اید)\nsie/Sie haben ausgefüllt (آن‌ها/شما (محترمانه) پر کرده‌اند)\n\nحالت منفی (Präsens):\nich fülle nicht aus (من پر نمی‌کنم)\ndu füllst nicht aus (تو پر نمی‌کنی)\ner/sie/es füllt nicht aus (او پر نمی‌کند)\nwir füllen nicht aus (ما پر نمی‌کنیم)\nihr füllt nicht aus (شما پر نمی‌کنید)\nsie/Sie füllen nicht aus (آن‌ها/شما (محترمانه) پر نمی‌کنند)",
+    "translate_fa": "پر کردن - پر می‌کند - پر کرده است",
+    "file": "490_de.mp3"
+  },
+  {
+    "Filename": "494",
+    "Sound_de": "ausgeben - gibt aus - hat ausgegeben",
+    "root": "حال (Präsens):\nich gebe aus (من خرج می‌کنم)\ndu gibst aus (تو خرج می‌کنی)\ner/sie/es gibt aus (او خرج می‌کند)\nwir geben aus (ما خرج می‌کنیم)\nihr gebt aus (شما خرج می‌کنید)\nsie/Sie geben aus (آن‌ها/شما (محترمانه) خرج می‌کنند)\n\nگذشته ساده (Präteritum):\nich gab aus (من خرج کردم)\ndu gabst aus (تو خرج کردی)\ner/sie/es gab aus (او خرج کرد)\nwir gaben aus (ما خرج کردیم)\nihr gabt aus (شما خرج کردید)\nsie/Sie gaben aus (آن‌ها/شما (محترمانه) خرج کردند)\n\nگذشته کامل (Perfekt):\nich habe ausgegeben (من خرج کرده‌ام)\ndu hast ausgegeben (تو خرج کرده‌ای)\ner/sie/es hat ausgegeben (او خرج کرده است)\nwir haben ausgegeben (ما خرج کرده‌ایم)\nihr habt ausgegeben (شما خرج کرده‌اید)\nsie/Sie haben ausgegeben (آن‌ها/شما (محترمانه) خرج کرده‌اند)\n\nحالت منفی (Präsens):\nich gebe nicht aus (من خرج نمی‌کنم)\ndu gibst nicht aus (تو خرج نمی‌کنی)\ner/sie/es gibt nicht aus (او خرج نمی‌کند)\nwir geben nicht aus (ما خرج نمی‌کنیم)\nihr gebt nicht aus (شما خرج نمی‌کنید)\nsie/Sie geben nicht aus (آن‌ها/شما (محترمانه) خرج نمی‌کنند)",
+    "translate_fa": "خرج کردن - خرج می‌کند - خرج کرده است",
+    "file": "494_de.mp3"
+  },
+  {
+    "Filename": "497",
+    "Sound_de": "ausgehen - geht aus - ist ausgegangen",
+    "root": "حال (Präsens):\nich gehe aus (من بیرون می‌روم)\ndu gehst aus (تو بیرون می‌روی)\ner/sie/es geht aus (او بیرون می‌رود)\nwir gehen aus (ما بیرون می‌رویم)\nihr geht aus (شما بیرون می‌روید)\nsie/Sie gehen aus (آن‌ها/شما (محترمانه) بیرون می‌روند)\n\nگذشته ساده (Präteritum):\nich ging aus (من بیرون رفتم)\ndu gingst aus (تو بیرون رفتی)\ner/sie/es ging aus (او بیرون رفت)\nwir gingen aus (ما بیرون رفتیم)\nihr gingt aus (شما بیرون رفتید)\nsie/Sie gingen aus (آن‌ها/شما (محترمانه) بیرون رفتند)\n\nگذشته کامل (Perfekt):\nich bin ausgegangen (من بیرون رفته‌ام)\ndu bist ausgegangen (تو بیرون رفته‌ای)\ner/sie/es ist ausgegangen (او بیرون رفته است)\nwir sind ausgegangen (ما بیرون رفته‌ایم)\nihr seid ausgegangen (شما بیرون رفته‌اید)\nsie/Sie sind ausgegangen (آن‌ها/شما (محترمانه) بیرون رفته‌اند)\n\nحالت منفی (Präsens):\nich gehe nicht aus (من بیرون نمی‌روم)\ndu gehst nicht aus (تو بیرون نمی‌روی)\ner/sie/es geht nicht aus (او بیرون نمی‌رود)\nwir gehen nicht aus (ما بیرون نمی‌رویم)\nihr geht nicht aus (شما بیرون نمی‌روید)\nsie/Sie gehen nicht aus (آن‌ها/شما (محترمانه) بیرون نمی‌روند)",
+    "translate_fa": "خارج شدن - خارج می‌شود - خارج شده است",
+    "file": "497_de.mp3"
+  },
+  {
+    "Filename": "505",
+    "Sound_de": "ausmachen - macht aus - hat ausgemacht",
+    "root": "حال (Präsens):\nich mache aus (من خاموش می‌کنم/قرار می‌گذارم)\ndu machst aus (تو خاموش می‌کنی/قرار می‌گذاری)\ner/sie/es macht aus (او خاموش می‌کند/قرار می‌گذارد)\nwir machen aus (ما خاموش می‌کنیم/قرار می‌گذاریم)\nihr macht aus (شما خاموش می‌کنید/قرار می‌گذارید)\nsie/Sie machen aus (آن‌ها/شما (محترمانه) خاموش می‌کنند/قرار می‌گذارند)\n\nگذشته ساده (Präteritum):\nich machte aus (من خاموش کردم/قرار گذاشتم)\ndu machtest aus (تو خاموش کردی/قرار گذاشتی)\ner/sie/es machte aus (او خاموش کرد/قرار گذاشت)\nwir machten aus (ما خاموش کردیم/قرار گذاشتیم)\nihr machtet aus (شما خاموش کردید/قرار گذاشتید)\nsie/Sie machten aus (آن‌ها/شما (محترمانه) خاموش کردند/قرار گذاشتند)\n\nگذشته کامل (Perfekt):\nich habe ausgemacht (من خاموش کرده‌ام/قرار گذاشته‌ام)\ndu hast ausgemacht (تو خاموش کرده‌ای/قرار گذاشته‌ای)\ner/sie/es hat ausgemacht (او خاموش کرده است/قرار گذاشته است)\nwir haben ausgemacht (ما خاموش کرده‌ایم/قرار گذاشته‌ایم)\nihr habt ausgemacht (شما خاموش کرده‌اید/قرار گذاشته‌اید)\nsie/Sie haben ausgemacht (آن‌ها/شما (محترمانه) خاموش کرده‌اند/قرار گذاشته‌اند)\n\nحالت منفی (Präsens):\nich mache nicht aus (من خاموش نمی‌کنم/قرار نمی‌گذارم)\ndu machst nicht aus (تو خاموش نمی‌کنی/قرار نمی‌گذاری)\ner/sie/es macht nicht aus (او خاموش نمی‌کند/قرار نمی‌گذارد)\nwir machen nicht aus (ما خاموش نمی‌کنیم/قرار نمی‌گذاریم)\nihr macht nicht aus (شما خاموش نمی‌کنید/قرار نمی‌گذارید)\nsie/Sie machen nicht aus (آن‌ها/شما (محترمانه) خاموش نمی‌کنند/قرار نمی‌گذارند)",
+    "translate_fa": "خاموش کردن - خاموش می‌کند - خاموش کرده است",
+    "file": "505_de.mp3"
+  },
+  {
+    "Filename": "507",
+    "Sound_de": "auspacken - packt aus - hat ausgepackt",
+    "root": "حال (Präsens):\nich packe aus (من باز می‌کنم/بسته‌بندی را باز می‌کنم)\ndu packst aus (تو باز می‌کنی/بسته‌بندی را باز می‌کنی)\ner/sie/es packt aus (او باز می‌کند/بسته‌بندی را باز می‌کند)\nwir packen aus (ما باز می‌کنیم/بسته‌بندی را باز می‌کنیم)\nihr packt aus (شما باز می‌کنید/بسته‌بندی را باز می‌کنید)\nsie/Sie packen aus (آن‌ها/شما (محترمانه) باز می‌کنند/بسته‌بندی را باز می‌کنند)\n\nگذشته ساده (Präteritum):\nich packte aus (من باز کردم/بسته‌بندی را باز کردم)\ndu packtest aus (تو باز کردی/بسته‌بندی را باز کردی)\ner/sie/es packte aus (او باز کرد/بسته‌بندی را باز کرد)\nwir packten aus (ما باز کردیم/بسته‌بندی را باز کردیم)\nihr packtet aus (شما باز کردید/بسته‌بندی را باز کردید)\nsie/Sie packten aus (آن‌ها/شما (محترمانه) باز کردند/بسته‌بندی را باز کردند)\n\nگذشته کامل (Perfekt):\nich habe ausgepackt (من باز کرده‌ام/بسته‌بندی را باز کرده‌ام)\ndu hast ausgepackt (تو باز کرده‌ای/بسته‌بندی را باز کرده‌ای)\ner/sie/es hat ausgepackt (او باز کرده است/بسته‌بندی را باز کرده است)\nwir haben ausgepackt (ما باز کرده‌ایم/بسته‌بندی را باز کرده‌ایم)\nihr habt ausgepackt (شما باز کرده‌اید/بسته‌بندی را باز کرده‌اید)\nsie/Sie haben ausgepackt (آن‌ها/شما (محترمانه) باز کرده‌اند/بسته‌بندی را باز کرده‌اند)\n\nحالت منفی (Präsens):\nich packe nicht aus (من باز نمی‌کنم/بسته‌بندی را باز نمی‌کنم)\ndu packst nicht aus (تو باز نمی‌کنی/بسته‌بندی را باز نمی‌کنی)\ner/sie/es packt nicht aus (او باز نمی‌کند/بسته‌بندی را باز نمی‌کند)\nwir packen nicht aus (ما باز نمی‌کنیم/بسته‌بندی را باز نمی‌کنیم)\nihr packt nicht aus (شما باز نمی‌کنید/بسته‌بندی را باز نمی‌کنید)\nsie/Sie packen nicht aus (آن‌ها/شما (محترمانه) باز نمی‌کنند/بسته‌بندی را باز نمی‌کنند)",
+    "translate_fa": "باز کردن - باز می‌کند - باز کرده است",
+    "file": "507_de.mp3"
+  },
+  {
+    "Filename": "509",
+    "Sound_de": "ausruhen (sich) - ruht aus - hat ausgeruht",
+    "root": "حال (Präsens):\nich ruhe mich aus (من استراحت می‌کنم)\ndu ruhst dich aus (تو استراحت می‌کنی)\ner/sie/es ruht sich aus (او استراحت می‌کند)\nwir ruhen uns aus (ما استراحت می‌کنیم)\nihr ruht euch aus (شما استراحت می‌کنید)\nsie/Sie ruhen sich aus (آن‌ها/شما (محترمانه) استراحت می‌کنند)\n\nگذشته ساده (Präteritum):\nich ruhte mich aus (من استراحت کردم)\ndu ruhtest dich aus (تو استراحت کردی)\ner/sie/es ruhte sich aus (او استراحت کرد)\nwir ruhten uns aus (ما استراحت کردیم)\nihr ruhtet euch aus (شما استراحت کردید)\nsie/Sie ruhten sich aus (آن‌ها/شما (محترمانه) استراحت کردند)\n\nگذشته کامل (Perfekt):\nich habe mich ausgeruht (من استراحت کرده‌ام)\ndu hast dich ausgeruht (تو استراحت کرده‌ای)\ner/sie/es hat sich ausgeruht (او استراحت کرده است)\nwir haben uns ausgeruht (ما استراحت کرده‌ایم)\nihr habt euch ausgeruht (شما استراحت کرده‌اید)\nsie/Sie haben sich ausgeruht (آن‌ها/شما (محترمانه) استراحت کرده‌اند)\n\nحالت منفی (Präsens):\nich ruhe mich nicht aus (من استراحت نمی‌کنم)\ndu ruhst dich nicht aus (تو استراحت نمی‌کنی)\ner/sie/es ruht sich nicht aus (او استراحت نمی‌کند)\nwir ruhen uns nicht aus (ما استراحت نمی‌کنیم)\nihr ruht euch nicht aus (شما استراحت نمی‌کنید)\nsie/Sie ruhen sich nicht aus (آن‌ها/شما (محترمانه) استراحت نمی‌کنند)",
+    "translate_fa": "استراحت کردن - استراحت می‌کند - استراحت کرده است",
+    "file": "509_de.mp3"
+  },
+  {
+    "Filename": "512",
+    "Sound_de": "aussehen - sieht aus - hat ausgesehen",
+    "root": "حال (Präsens):\nich sehe aus (من به نظر می‌آیم)\ndu siehst aus (تو به نظر می‌آیی)\ner/sie/es sieht aus (او به نظر می‌آید)\nwir sehen aus (ما به نظر می‌آییم)\nihr seht aus (شما به نظر می‌آیید)\nsie/Sie sehen aus (آن‌ها/شما (محترمانه) به نظر می‌آیند)\n\nگذشته ساده (Präteritum):\nich sah aus (من به نظر آمدم)\ndu sahst aus (تو به نظر آمدی)\ner/sie/es sah aus (او به نظر آمد)\nwir sahen aus (ما به نظر آمدیم)\nihr saht aus (شما به نظر آمدید)\nsie/Sie sahen aus (آن‌ها/شما (محترمانه) به نظر آمدند)\n\nگذشته کامل (Perfekt):\nich habe ausgesehen (من به نظر آمده‌ام)\ndu hast ausgesehen (تو به نظر آمده‌ای)\ner/sie/es hat ausgesehen (او به نظر آمده است)\nwir haben ausgesehen (ما به نظر آمده‌ایم)\nihr habt ausgesehen (شما به نظر آمده‌اید)\nsie/Sie haben ausgesehen (آن‌ها/شما (محترمانه) به نظر آمده‌اند)\n\nحالت منفی (Präsens):\nich sehe nicht aus (من به نظر نمی‌آیم)\ndu siehst nicht aus (تو به نظر نمی‌آیی)\ner/sie/es sieht nicht aus (او به نظر نمی‌آید)\nwir sehen nicht aus (ما به نظر نمی‌آییم)\nihr seht nicht aus (شما به نظر نمی‌آیید)\nsie/Sie sehen nicht aus (آن‌ها/شما (محترمانه) به نظر نمی‌آیند)",
+    "translate_fa": "به نظر آمدن - به نظر می‌آید - به نظر آمده است",
+    "file": "512_de.mp3"
+  },
+  {
+    "Filename": "523",
+    "Sound_de": "aussprechen - spricht aus - hat ausgesprochen",
+    "root": "حال (Präsens):\nich spreche aus (من تلفظ می‌کنم/بیان می‌کنم)\ndu sprichst aus (تو تلفظ می‌کنی/بیان می‌کنی)\ner/sie/es spricht aus (او تلفظ می‌کند/بیان می‌کند)\nwir sprechen aus (ما تلفظ می‌کنیم/بیان می‌کنیم)\nihr sprecht aus (شما تلفظ می‌کنید/بیان می‌کنید)\nsie/Sie sprechen aus (آن‌ها/شما (محترمانه) تلفظ می‌کنند/بیان می‌کنند)\n\nگذشته ساده (Präteritum):\nich sprach aus (من تلفظ کردم/بیان کردم)\ndu sprachst aus (تو تلفظ کردی/بیان کردی)\ner/sie/es sprach aus (او تلفظ کرد/بیان کرد)\nwir sprachen aus (ما تلفظ کردیم/بیان کردیم)\nihr spracht aus (شما تلفظ کردید/بیان کردید)\nsie/Sie sprachen aus (آن‌ها/شما (محترمانه) تلفظ کردند/بیان کردند)\n\nگذشته کامل (Perfekt):\nich habe ausgesprochen (من تلفظ کرده‌ام/بیان کرده‌ام)\ndu hast ausgesprochen (تو تلفظ کرده‌ای/بیان کرده‌ای)\ner/sie/es hat ausgesprochen (او تلفظ کرده است/بیان کرده است)\nwir haben ausgesprochen (ما تلفظ کرده‌ایم/بیان کرده‌ایم)\nihr habt ausgesprochen (شما تلفظ کرده‌اید/بیان کرده‌اید)\nsie/Sie haben ausgesprochen (آن‌ها/شما (محترمانه) تلفظ کرده‌اند/بیان کرده‌اند)\n\nحالت منفی (Präsens):\nich spreche nicht aus (من تلفظ نمی‌کنم/بیان نمی‌کنم)\ndu sprichst nicht aus (تو تلفظ نمی‌کنی/بیان نمی‌کنی)\ner/sie/es spricht nicht aus (او تلفظ نمی‌کند/بیان نمی‌کند)\nwir sprechen nicht aus (ما تلفظ نمی‌کنیم/بیان نمی‌کنیم)\nihr sprecht nicht aus (شما تلفظ نمی‌کنید/بیان نمی‌کنید)\nsie/Sie sprechen nicht aus (آن‌ها/شما (محترمانه) تلفظ نمی‌کنند/بیان نمی‌کنند)",
+    "translate_fa": "تلفظ کردن - تلفظ می‌کند - تلفظ کرده است",
+    "file": "523_de.mp3"
+  },
+  {
+    "Filename": "525",
+    "Sound_de": "aussteigen - steigt aus - ist ausgestiegen",
+    "root": "حال (Präsens):\nich steige aus (من پیاده می‌شوم)\ndu steigst aus (تو پیاده می‌شوی)\ner/sie/es steigt aus (او پیاده می‌شود)\nwir steigen aus (ما پیاده می‌شویم)\nihr steigt aus (شما پیاده می‌شوید)\nsie/Sie steigen aus (آن‌ها/شما (محترمانه) پیاده می‌شوند)\n\nگذشته ساده (Präteritum):\nich stieg aus (من پیاده شدم)\ndu stiegst aus (تو پیاده شدی)\ner/sie/es stieg aus (او پیاده شد)\nwir stiegen aus (ما پیاده شدیم)\nihr stiegt aus (شما پیاده شدید)\nsie/Sie stiegen aus (آن‌ها/شما (محترمانه) پیاده شدند)\n\nگذشته کامل (Perfekt):\nich bin ausgestiegen (من پیاده شده‌ام)\ndu bist ausgestiegen (تو پیاده شده‌ای)\ner/sie/es ist ausgestiegen (او پیاده شده است)\nwir sind ausgestiegen (ما پیاده شده‌ایم)\nihr seid ausgestiegen (شما پیاده شده‌اید)\nsie/Sie sind ausgestiegen (آن‌ها/شما (محترمانه) پیاده شده‌اند)\n\nحالت منفی (Präsens):\nich steige nicht aus (من پیاده نمی‌شوم)\ndu steigst nicht aus (تو پیاده نمی‌شوی)\ner/sie/es steigt nicht aus (او پیاده نمی‌شود)\nwir steigen nicht aus (ما پیاده نمی‌شویم)\nihr steigt nicht aus (شما پیاده نمی‌شوید)\nsie/Sie steigen nicht aus (آن‌ها/شما (محترمانه) پیاده نمی‌شوند)",
+    "translate_fa": "پیاده شدن - پیاده می‌شود - پیاده شده است",
+    "file": "525_de.mp3"
+  },
+  {
+    "Filename": "529",
+    "Sound_de": "austragen - trägt aus - hat ausgetragen",
+    "root": "حال (Präsens):\nich trage aus (من توزیع می‌کنم)\ndu trägst aus (تو توزیع می‌کنی)\ner/sie/es trägt aus (او توزیع می‌کند)\nwir tragen aus (ما توزیع می‌کنیم)\nihr tragt aus (شما توزیع می‌کنید)\nsie/Sie tragen aus (آن‌ها/شما (محترمانه) توزیع می‌کنند)\n\nگذشته ساده (Präteritum):\nich trug aus (من توزیع کردم)\ndu trugst aus (تو توزیع کردی)\ner/sie/es trug aus (او توزیع کرد)\nwir trugen aus (ما توزیع کردیم)\nihr trugt aus (شما توزیع کردید)\nsie/Sie trugen aus (آن‌ها/شما (محترمانه) توزیع کردند)\n\nگذشته کامل (Perfekt):\nich habe ausgetragen (من توزیع کرده‌ام)\ndu hast ausgetragen (تو توزیع کرده‌ای)\ner/sie/es hat ausgetragen (او توزیع کرده است)\nwir haben ausgetragen (ما توزیع کرده‌ایم)\nihr habt ausgetragen (شما توزیع کرده‌اید)\nsie/Sie haben ausgetragen (آن‌ها/شما (محترمانه) توزیع کرده‌اند)\n\nحالت منفی (Präsens):\nich trage nicht aus (من توزیع نمی‌کنم)\ndu trägst nicht aus (تو توزیع نمی‌کنی)\ner/sie/es trägt nicht aus (او توزیع نمی‌کند)\nwir tragen nicht aus (ما توزیع نمی‌کنیم)\nihr tragt nicht aus (شما توزیع نمی‌کنید)\nsie/Sie tragen nicht aus (آن‌ها/شما (محترمانه) توزیع نمی‌کنند)",
+    "translate_fa": "توزیع کردن - توزیع می‌کند - توزیع کرده است",
+    "file": "529_de.mp3"
+  },
+  {
+    "Filename": "547",
+    "Sound_de": "backen - bäckt - hat gebacken",
+    "root": "حال (Präsens):\nich backe (من می‌پزم)\ndu bäckst (تو می‌پزی)\ner/sie/es bäckt (او می‌پزد)\nwir backen (ما می‌پزیم)\nihr backt (شما می‌پزید)\nsie/Sie backen (آن‌ها/شما (محترمانه) می‌پزند)\n\nگذشته ساده (Präteritum):\nich buk (من پختم)\ndu bukst (تو پختی)\ner/sie/es buk (او پخت)\nwir buken (ما پختیم)\nihr bukt (شما پختید)\nsie/Sie buken (آن‌ها/شما (محترمانه) پختند)\n\nگذشته کامل (Perfekt):\nich habe gebacken (من پخته‌ام)\ndu hast gebacken (تو پخته‌ای)\ner/sie/es hat gebacken (او پخته است)\nwir haben gebacken (ما پخته‌ایم)\nihr habt gebacken (شما پخته‌اید)\nsie/Sie haben gebacken (آن‌ها/شما (محترمانه) پخته‌اند)\n\nحالت منفی (Präsens):\nich backe nicht (من نمی‌پزم)\ndu bäckst nicht (تو نمی‌پزی)\ner/sie/es bäckt nicht (او نمی‌پزد)\nwir backen nicht (ما نمی‌پزیم)\nihr backt nicht (شما نمی‌پزید)\nsie/Sie backen nicht (آن‌ها/شما (محترمانه) نمی‌پزند)",
+    "translate_fa": "پختن - می‌پزد - پخته است",
+    "file": "547_de.mp3"
+  },
+  {
+    "Filename": "554",
+    "Sound_de": "baden - badet - hat gebadet",
+    "root": "حال (Präsens):\nich bade (من حمام می‌کنم)\ndu badest (تو حمام می‌کنی)\ner/sie/es badet (او حمام می‌کند)\nwir baden (ما حمام می‌کنیم)\nihr badet (شما حمام می‌کنید)\nsie/Sie baden (آن‌ها/شما (محترمانه) حمام می‌کنند)\n\nگذشته ساده (Präteritum):\nich badete (من حمام کردم)\ndu badetest (تو حمام کردی)\ner/sie/es badete (او حمام کرد)\nwir badeten (ما حمام کردیم)\nihr badetet (شما حمام کردید)\nsie/Sie badeten (آن‌ها/شما (محترمانه) حمام کردند)\n\nگذشته کامل (Perfekt):\nich habe gebadet (من حمام کرده‌ام)\ndu hast gebadet (تو حمام کرده‌ای)\ner/sie/es hat gebadet (او حمام کرده است)\nwir haben gebadet (ما حمام کرده‌ایم)\nihr habt gebadet (شما حمام کرده‌اید)\nsie/Sie haben gebadet (آن‌ها/شما (محترمانه) حمام کرده‌اند)\n\nحالت منفی (Präsens):\nich bade nicht (من حمام نمی‌کنم)\ndu badest nicht (تو حمام نمی‌کنی)\ner/sie/es badet nicht (او حمام نمی‌کند)\nwir baden nicht (ما حمام نمی‌کنیم)\nihr badet nicht (شما حمام نمی‌کنید)\nsie/Sie baden nicht (آن‌ها/شما (محترمانه) حمام نمی‌کنند)",
+    "translate_fa": "حمام کردن - حمام می‌کند - حمام کرده است",
+    "file": "554_de.mp3"
+  },
+  {
+    "Filename": "583",
+    "Sound_de": "basteln - bastelt - hat gebastelt",
+    "root": "حال (Präsens):\nich bastle (من کاردستی درست می‌کنم)\ndu bastelst (تو کاردستی درست می‌کنی)\ner/sie/es bastelt (او کاردستی درست می‌کند)\nwir basteln (ما کاردستی درست می‌کنیم)\nihr bastelt (شما کاردستی درست می‌کنید)\nsie/Sie basteln (آن‌ها/شما (محترمانه) کاردستی درست می‌کنند)\n\nگذشته ساده (Präteritum):\nich bastelte (من کاردستی درست کردم)\ndu basteltest (تو کاردستی درست کردی)\ner/sie/es bastelte (او کاردستی درست کرد)\nwir bastelten (ما کاردستی درست کردیم)\nihr basteltet (شما کاردستی درست کردید)\nsie/Sie bastelten (آن‌ها/شما (محترمانه) کاردستی درست کردند)\n\nگذشته کامل (Perfekt):\nich habe gebastelt (من کاردستی درست کرده‌ام)\ndu hast gebastelt (تو کاردستی درست کرده‌ای)\ner/sie/es hat gebastelt (او کاردستی درست کرده است)\nwir haben gebastelt (ما کاردستی درست کرده‌ایم)\nihr habt gebastelt (شما کاردستی درست کرده‌اید)\nsie/Sie haben gebastelt (آن‌ها/شما (محترمانه) کاردستی درست کرده‌اند)\n\nحالت منفی (Präsens):\nich bastle nicht (من کاردستی درست نمی‌کنم)\ndu bastelst nicht (تو کاردستی درست نمی‌کنی)\ner/sie/es bastelt nicht (او کاردستی درست نمی‌کند)\nwir basteln nicht (ما کاردستی درست نمی‌کنیم)\nihr bastelt nicht (شما کاردستی درست نمی‌کنید)\nsie/Sie basteln nicht (آن‌ها/شما (محترمانه) کاردستی درست نمی‌کنند)",
+    "translate_fa": "کاردستی درست کردن - درست می‌کند - درست کرده است",
+    "file": "583_de.mp3"
+  },
+  {
+    "Filename": "587",
+    "Sound_de": "bauen - baut - hat gebaut",
+    "root": "حال (Präsens):\nich baue (من می‌سازم)\ndu baust (تو می‌سازی)\ner/sie/es baut (او می‌سازد)\nwir bauen (ما می‌سازیم)\nihr baut (شما می‌سازید)\nsie/Sie bauen (آن‌ها/شما (محترمانه) می‌سازند)\n\nگذشته ساده (Präteritum):\nich baute (من ساختم)\ndu bautest (تو ساختی)\ner/sie/es baute (او ساخت)\nwir bauten (ما ساختیم)\nihr bautet (شما ساختید)\nsie/Sie bauten (آن‌ها/شما (محترمانه) ساختند)\n\nگذشته کامل (Perfekt):\nich habe gebaut (من ساخته‌ام)\ndu hast gebaut (تو ساخته‌ای)\ner/sie/es hat gebaut (او ساخته است)\nwir haben gebaut (ما ساخته‌ایم)\nihr habt gebaut (شما ساخته‌اید)\nsie/Sie haben gebaut (آن‌ها/شما (محترمانه) ساخته‌اند)\n\nحالت منفی (Präsens):\nich baue nicht (من نمی‌سازم)\ndu baust nicht (تو نمی‌سازی)\ner/sie/es baut nicht (او نمی‌سازد)\nwir bauen nicht (ما نمی‌سازیم)\nihr baut nicht (شما نمی‌سازید)\nsie/Sie bauen nicht (آن‌ها/شما (محترمانه) نمی‌سازند)",
+    "translate_fa": "ساختن - می‌سازد - ساخته است",
+    "file": "587_de.mp3"
+  },
+  {
+    "Filename": "594",
+    "Sound_de": "beantworten - beantwortet - hat beantwortet",
+    "root": "حال (Präsens):\nich beantworte (من پاسخ می‌دهم)\ndu beantwortest (تو پاسخ می‌دهی)\ner/sie/es beantwortet (او پاسخ می‌دهد)\nwir beantworten (ما پاسخ می‌دهیم)\nihr beantwortet (شما پاسخ می‌دهید)\nsie/Sie beantworten (آن‌ها/شما (محترمانه) پاسخ می‌دهند)\n\nگذشته ساده (Präteritum):\nich beantwortete (من پاسخ دادم)\ndu beantwortetest (تو پاسخ دادی)\ner/sie/es beantwortete (او پاسخ داد)\nwir beantworteten (ما پاسخ دادیم)\nihr beantwortetet (شما پاسخ دادید)\nsie/Sie beantworteten (آن‌ها/شما (محترمانه) پاسخ دادند)\n\nگذشته کامل (Perfekt):\nich habe beantwortet (من پاسخ داده‌ام)\ndu hast beantwortet (تو پاسخ داده‌ای)\ner/sie/es hat beantwortet (او پاسخ داده است)\nwir haben beantwortet (ما پاسخ داده‌ایم)\nihr habt beantwortet (شما پاسخ داده‌اید)\nsie/Sie haben beantwortet (آن‌ها/شما (محترمانه) پاسخ داده‌اند)\n\nحالت منفی (Präsens):\nich beantworte nicht (من پاسخ نمی‌دهم)\ndu beantwortest nicht (تو پاسخ نمی‌دهی)\ner/sie/es beantwortet nicht (او پاسخ نمی‌دهد)\nwir beantworten nicht (ما پاسخ نمی‌دهیم)\nihr beantwortet nicht (شما پاسخ نمی‌دهید)\nsie/Sie beantworten nicht (آن‌ها/شما (محترمانه) پاسخ نمی‌دهند)",
+    "translate_fa": "پاسخ دادن - پاسخ می‌دهد - پاسخ داده است",
+    "file": "594_de.mp3"
+  },
+  {
+    "Filename": "597",
+    "Sound_de": "bedanken (sich) - bedankt - hat bedankt",
+    "root": "حال (Präsens):\nich bedanke mich (من تشکر می‌کنم)\ndu bedankst dich (تو تشکر می‌کنی)\ner/sie/es bedankt sich (او تشکر می‌کند)\nwir bedanken uns (ما تشکر می‌کنیم)\nihr bedankt euch (شما تشکر می‌کنید)\nsie/Sie bedanken sich (آن‌ها/شما (محترمانه) تشکر می‌کنند)\n\nگذشته ساده (Präteritum):\nich bedankte mich (من تشکر کردم)\ndu bedanktest dich (تو تشکر کردی)\ner/sie/es bedankte sich (او تشکر کرد)\nwir bedankten uns (ما تشکر کردیم)\nihr bedanktet euch (شما تشکر کردید)\nsie/Sie bedankten sich (آن‌ها/شما (محترمانه) تشکر کردند)\n\nگذشته کامل (Perfekt):\nich habe mich bedankt (من تشکر کرده‌ام)\ndu hast dich bedankt (تو تشکر کرده‌ای)\ner/sie/es hat sich bedankt (او تشکر کرده است)\nwir haben uns bedankt (ما تشکر کرده‌ایم)\nihr habt euch bedankt (شما تشکر کرده‌اید)\nsie/Sie haben sich bedankt (آن‌ها/شما (محترمانه) تشکر کرده‌اند)\n\nحالت منفی (Präsens):\nich bedanke mich nicht (من تشکر نمی‌کنم)\ndu bedankst dich nicht (تو تشکر نمی‌کنی)\ner/sie/es bedankt sich nicht (او تشکر نمی‌کند)\nwir bedanken uns nicht (ما تشکر نمی‌کنیم)\nihr bedankt euch nicht (شما تشکر نمی‌کنید)\nsie/Sie bedanken sich nicht (آن‌ها/شما (محترمانه) تشکر نمی‌کنند)",
+    "translate_fa": "تشکر کردن - تشکر می‌کند - تشکر کرده است",
+    "file": "597_de.mp3"
+  },
+  {
+    "Filename": "599",
+    "Sound_de": "bedeuten - bedeutet - hat bedeutet",
+    "root": "حال (Präsens):\nich bedeute (من به معنایم)\ndu bedeutest (تو به معنایی)\ner/sie/es bedeutet (او به معناست)\nwir bedeuten (ما به معناییم)\nihr bedeutet (شما به معنایید)\nsie/Sie bedeuten (آن‌ها/شما (محترمانه) به معنایند)\n\nگذشته ساده (Präteritum):\nich bedeutete (من به معنا بودم)\ndu bedeutetest (تو به معنا بودی)\ner/sie/es bedeutete (او به معنا بود)\nwir bedeuteten (ما به معنا بودیم)\nihr bedeutetet (شما به معنا بودید)\nsie/Sie bedeuteten (آن‌ها/شما (محترمانه) به معنا بودند)\n\nگذشته کامل (Perfekt):\nich habe bedeutet (من به معنا بوده‌ام)\ndu hast bedeutet (تو به معنا بوده‌ای)\ner/sie/es hat bedeutet (او به معنا بوده است)\nwir haben bedeutet (ما به معنا بوده‌ایم)\nihr habt bedeutet (شما به معنا بوده‌اید)\nsie/Sie haben bedeutet (آن‌ها/شما (محترمانه) به معنا بوده‌اند)\n\nحالت منفی (Präsens):\nich bedeute nicht (من به معنا نیستم)\ndu bedeutest nicht (تو به معنا نیستی)\ner/sie/es bedeutet nicht (او به معنا نیست)\nwir bedeuten nicht (ما به معنا نیستیم)\nihr bedeutet nicht (شما به معنا نیستید)\nsie/Sie bedeuten nicht (آن‌ها/شما (محترمانه) به معنا نیستند)",
+    "translate_fa": "معنی داشتن - معنی دارد - معنی داشته است",
+    "file": "599_de.mp3"
+  },
+  {
+    "Filename": "601",
+    "Sound_de": "beeilen (sich) - beeilt - hat beeilt",
+    "root": "حال (Präsens):\nich beeile mich (من عجله می‌کنم)\ndu beeilst dich (تو عجله می‌کنی)\ner/sie/es beeilt sich (او عجله می‌کند)\nwir beeilen uns (ما عجله می‌کنیم)\nihr beeilt euch (شما عجله می‌کنید)\nsie/Sie beeilen sich (آن‌ها/شما (محترمانه) عجله می‌کنند)\n\nگذشته ساده (Präteritum):\nich beeilte mich (من عجله کردم)\ndu beeiltest dich (تو عجله کردی)\ner/sie/es beeilte sich (او عجله کرد)\nwir beeilten uns (ما عجله کردیم)\nihr beeiltet euch (شما عجله کردید)\nsie/Sie beeilten sich (آن‌ها/شما (محترمانه) عجله کردند)\n\nگذشته کامل (Perfekt):\nich habe mich beeilt (من عجله کرده‌ام)\ndu hast dich beeilt (تو عجله کرده‌ای)\ner/sie/es hat sich beeilt (او عجله کرده است)\nwir haben uns beeilt (ما عجله کرده‌ایم)\nihr habt euch beeilt (شما عجله کرده‌اید)\nsie/Sie haben sich beeilt (آن‌ها/شما (محترمانه) عجله کرده‌اند)\n\nحالت منفی (Präsens):\nich beeile mich nicht (من عجله نمی‌کنم)\ndu beeilst dich nicht (تو عجله نمی‌کنی)\ner/sie/es beeilt sich nicht (او عجله نمی‌کند)\nwir beeilen uns nicht (ما عجله نمی‌کنیم)\nihr beeilt euch nicht (شما عجله نمی‌کنید)\nsie/Sie beeilen sich nicht (آن‌ها/شما (محترمانه) عجله نمی‌کنند)",
+    "translate_fa": "عجله کردن - عجله می‌کند - عجله کرده است",
+    "file": "601_de.mp3"
+  },
+  {
+    "Filename": "603",
+    "Sound_de": "beenden - beendet - hat beendet",
+    "root": "حال (Präsens):\nich beende (من پایان می‌دهم)\ndu beendest (تو پایان می‌دهی)\ner/sie/es beendet (او پایان می‌دهد)\nwir beenden (ما پایان می‌دهیم)\nihr beendet (شما پایان می‌دهید)\nsie/Sie beenden (آن‌ها/شما (محترمانه) پایان می‌دهند)\n\nگذشته ساده (Präteritum):\nich beendete (من پایان دادم)\ndu beendetest (تو پایان دادی)\ner/sie/es beendete (او پایان داد)\nwir beendeten (ما پایان دادیم)\nihr beendetet (شما پایان دادید)\nsie/Sie beendeten (آن‌ها/شما (محترمانه) پایان دادند)\n\nگذشته کامل (Perfekt):\nich habe beendet (من پایان داده‌ام)\ndu hast beendet (تو پایان داده‌ای)\ner/sie/es hat beendet (او پایان داده است)\nwir haben beendet (ما پایان داده‌ایم)\nihr habt beendet (شما پایان داده‌اید)\nsie/Sie haben beendet (آن‌ها/شما (محترمانه) پایان داده‌اند)\n\nحالت منفی (Präsens):\nich beende nicht (من پایان نمی‌دهم)\ndu beendest nicht (تو پایان نمی‌دهی)\ner/sie/es beendet nicht (او پایان نمی‌دهد)\nwir beenden nicht (ما پایان نمی‌دهیم)\nihr beendet nicht (شما پایان نمی‌دهید)\nsie/Sie beenden nicht (آن‌ها/شما (محترمانه) پایان نمی‌دهند)",
+    "translate_fa": "تمام کردن - تمام می‌کند - تمام کرده است",
+    "file": "603_de.mp3"
+  },
+  {
+    "Filename": "605",
+    "Sound_de": "beginnen - beginnt - hat begonnen",
+    "root": "حال (Präsens):\nich beginne (من شروع می‌کنم)\ndu beginnst (تو شروع می‌کنی)\ner/sie/es beginnt (او شروع می‌کند)\nwir beginnen (ما شروع می‌کنیم)\nihr beginnt (شما شروع می‌کنید)\nsie/Sie beginnen (آن‌ها/شما (محترمانه) شروع می‌کنند)\n\nگذشته ساده (Präteritum):\nich begann (من شروع کردم)\ndu begannst (تو شروع کردی)\ner/sie/es begann (او شروع کرد)\nwir begannen (ما شروع کردیم)\nihr begannt (شما شروع کردید)\nsie/Sie begannen (آن‌ها/شما (محترمانه) شروع کردند)\n\nگذشته کامل (Perfekt):\nich habe begonnen (من شروع کرده‌ام)\ndu hast begonnen (تو شروع کرده‌ای)\ner/sie/es hat begonnen (او شروع کرده است)\nwir haben begonnen (ما شروع کرده‌ایم)\nihr habt begonnen ------------------------------------------------------------ (شما شروع کرده‌اید)\nsie/Sie haben begonnen (آن‌ها/شما (محترمانه) شروع کرده‌اند)\n\nحالت منفی (Präsens):\nich beginne nicht (من شروع نمی‌کنم)\ndu beginnst nicht (تو شروع نمی‌کنی)\ner/sie/es beginnt nicht (او شروع نمی‌کند)\nwir beginnen nicht (ما شروع نمی‌کنیم)\nihr beginnt nicht (شما شروع نمی‌کنید)\nsie/Sie beginnen nicht (آن‌ها/شما (محترمانه) شروع نمی‌کنند)",
+    "translate_fa": "شروع کردن - شروع می‌کند - شروع کرده است",
+    "file": "605_de.mp3"
+  },
+  {
+    "Filename": "607",
+    "Sound_de": "begründen - begründet - hat begründet",
+    "root": "حال (Präsens):\nich begründe (من توجیه می‌کنم)\ndu begründest (تو توجیه می‌کنی)\ner/sie/es begründet (او توجیه می‌کند)\nwir begründen (ما توجیه می‌کنیم)\nihr begründet (شما توجیه می‌کنید)\nsie/Sie begr-British (آن‌ها/شما (محترمانه) توجیه می‌کنند)\n\nگذشته ساده (Präteritum):\nich begründete (من توجیه کردم)\ndu begründetest (تو توجیه کردی)\ner/sie/es begründete (او توجیه کرد)\nwir begründeten (ما توجیه کردیم)\nihr begründetet (شما توجیه کردید)\nsie/Sie begründeten (آن‌ها/شما (محترمانه) توجیه کردند)\n\nگذشته کامل (Perfekt):\nich habe begründet (من توجیه کرده‌ام)\ndu hast begründet (تو توجیه کرده‌ای)\ner/sie/es hat begründet (او توجیه کرده است)\nwir haben begründet (ما توجیه کرده‌ایم)\nihr habt begründet (شما توجیه کرده‌اید)\nsie/Sie haben begründet (آن‌ها/شما (محترمانه) توجیه کرده‌اند)\n\nحالت منفی (Präsens):\nich begründe nicht (من توجیه نمی‌کنم)\ndu begründest nicht (تو توجیه نمی‌کنی)\ner/sie/es begründet nicht (او توجیه نمی‌کند)\nwir begründen nicht (ما توجیه نمی‌کنیم)\nihr begründet nicht (شما توجیه نمی‌کنید)\nsie/Sie begründen nicht (آن‌ها/شما (محترمانه) توجیه نمی‌کنند)",
+    "translate_fa": "توجیه کردن - توجیه می‌کند - توجیه کرده است",
+    "file": "607_de.mp3"
+  },
+  {
+    "Filename": "623",
+    "Sound_de": "bekommen - bekommt - hat bekommen",
+    "root": "حال (Präsens):\nich bekomme (من دریافت می‌کنم)\ndu bekommst (تو دریافت می‌کنی)\ner/sie/es bekommt (او دریافت می‌کند)\nwir bekommen (ما دریافت می‌کنیم)\nihr bekommt (شما دریافت می‌کنید)\nsie/Sie bekommen (آن‌ها/شما (محترمانه) دریافت می‌کنند)\n\nگذشته ساده (Präteritum):\nich bekam (من دریافت کردم)\ndu bekamst (تو دریافت کردی)\ner/sie/es bekam (او دریافت کرد)\nwir bekamen (ما دریافت کردیم)\nihr bekamt (شما دریافت کردید)\nsie/Sie bekamen (آن‌ها/شما (محترمانه) دریافت کردند)\n\nگذشته کامل (Perfekt):\nich habe bekommen (من دریافت کرده‌ام)\ndu hast bekommen (تو دریافت کرده‌ای)\ner/sie/es hat bekommen (او دریافت کرده است)\nwir haben bekommen (ما دریافت کرده‌ایم)\nihr habt bekommen (شما دریافت کرده‌اید)\nsie/Sie haben bekommen (آن‌ها/شما (محترمانه) دریافت کرده‌اند)\n\nحالت منفی (Präsens):\nich bekomme nicht (من دریافت نمی‌کنم)\ndu bekommst nicht (تو دریافت نمی‌کنی)\ner/sie/es bekommt nicht (او دریافت نمی‌کند)\nwir bekommen nicht (ما دریافت نمی‌کنیم)\nihr bekommt nicht (شما دریافت نمی‌کنید)\nsie/Sie bekommen nicht (آن‌ها/شما (محترمانه) دریافت نمی‌کنند)",
+    "translate_fa": "دریافت کردن - دریافت می‌کند - دریافت کرده است",
+    "file": "623_de.mp3"
+  },
+  {
+    "Filename": "628",
+    "Sound_de": "benutzen - benutzt - hat benutzt",
+    "root": "حال (Präsens):\nich benutze (من استفاده می‌کنم)\ndu benutzt (تو استفاده می‌کنی)\ner/sie/es benutzt (او استفاده می‌کند)\nwir benutzen (ما استفاده می‌کنیم)\nihr benutzt (شما استفاده می‌کنید)\nsie/Sie benutzen (آن‌ها/ shunt (محترمانه) استفاده می‌کنند)\n\nگذشته ساده (Präteritum):\nich benutzte (من استفاده کردم)\ndu benutztest (تو استفاده کردی)\ner/sie/es benutzte (او استفاده کرد)\nwir benutzten (ما استفاده کردیم)\nihr benutztet (شما استفاده کردید)\nsie/Sie benutzten (آن‌ها/شما (محترمانه) استفاده کردند)\n\nگذشته کامل (Perfekt):\nich habe benutzt (من استفاده کرده‌ام)\ndu hast benutzt (تو استفاده کرده‌ای)\ner/sie/es hat benutzt (او استفاده کرده است)\nwir haben benutzt (ما استفاده کرده‌ایم)\nihr habt benutzt (شما استفاده کرده‌اید)\nsie/Sie haben benutzt (آن‌ها/شما (محترمانه) استفاده کرده‌اند)\n\nحالت منفی (Präsens):\nich benutze nicht (من استفاده نمی‌کنم)\ndu benutzt nicht (تو استفاده نمی‌کنی)\ner/sie/es benutzt nicht (او استفاده نمی‌کند)\nwir benutzen nicht (ما استفاده نمی‌کنیم)\nihr benutzt nicht (شما استفاده نمی‌کنید)\nsie/Sie benutzen nicht (آن‌ها/شما (محترمانه) استفاده نمی‌کنند)",
+    "translate_fa": "استفاده کردن - استفاده می‌کند - استفاده کرده است",
+    "file": "628_de.mp3"
+  },
+  {
+    "Filename": "633",
+    "Sound_de": "beraten - berät - hat beraten",
+    "root": "حال (Präsens):\nich berate (من مشاوره می‌دهم)\ndu berätst (تو مشاوره می‌دهی)\ner/sie/es berät (او مشاوره می‌دهد)\nwir beraten (ما مشاوره می‌دهیم)\nihr beratet (شما مشاوره می‌دهید)\nsie/Sie beraten (آن‌ها/شما (محترمانه) مشاوره می‌دهند)\n\nگذشته ساده (Präteritum):\nich beriet (من مشاوره دادم)\ndu berietest (تو مشاوره دادی)\ner/sie/es beriet (او مشاوره داد)\nwir berieten (ما مشاوره دادیم)\nihr berietet (شما مشاوره دادید)\nsie/Sie berieten (آن‌ها/شما (محترمانه) مشاوره دادند)\n\nگذشته کامل (Perfekt):\nich habe beraten (من مشاوره داده‌ام)\ndu hast beraten (تو مشاوره داده‌ای)\ner/sie/es hat beraten (او مشاوره داده است)\nwir haben beraten (ما مشاوره داده‌ایم)\nihr habt beraten (شما مشاوره داده‌اید)\nsie/Sie haben beraten (آن‌ها/شما (محترمانه) مشاوره داده‌اند)\n\nحالت منفی (Präsens):\nich berate nicht (من مشاوره نمی‌دهم)\ndu berätst nicht (تو مشاوره نمی‌دهی)\ner/sie/es berät nicht (او مشاوره نمی‌دهد)\nwir beraten nicht (ما مشاوره نمی‌دهیم)\nihr beratet nicht (شما مشاوره نمی‌دهید)\nsie/Sie beraten nicht (آن‌ها/شما (محترمانه) مشاوره نمی‌دهند)",
+    "translate_fa": "مشاوره دادن - مشاوره می‌دهد - مشاوره داده است",
+    "file": "633_de.mp3"
+  },
+  {
+    "Filename": "638",
+    "Sound_de": "berichten - berichtet - hat berichtet",
+    "root": "حال (Präsens):\nich berichte (من گزارش می‌دهم)\ndu berichtest (تو گزارش می‌دهی)\ner/sie/es berichtet (او گزارش می‌دهد)\nwir berichten (ما گزارش می‌دهیم)\nihr berichtet (شما گزارش می‌دهید)\nsie/Sie berichten (آن‌ها/شما (محترمانه) گزارش می‌دهند)\n\nگذشته ساده (Präteritum):\nich berichtete (من گزارش دادم)\ndu berichtetest (تو گزارش دادی)\ner/sie/es berichtete (او گزارش داد)\nwir berichteten (ما گزارش دادیم)\nihr berichtetet (شما گزارش دادید)\nsie/Sie berichteten (آن‌ها/شما (محترمانه) گزارش دادند)\n\nگذشته کامل (Perfekt):\nich habe berichtet (من گزارش داده‌ام)\ndu hast berichtet (تو گزارش داده‌ای)\ner/sie/es hat berichtet (او گزارش داده است)\nwir haben berichtet (ما گزارش داده‌ایم)\nihr habt berichtet (شما گزارش داده‌اید)\nsie/Sie haben berichtet (آن‌ها/شما (محترمانه) گزارش داده‌اند)\n\nحالت منفی (Präsens):\nich berichte nicht (من گزارش نمی‌دهم)\ndu berichtest nicht (تو گزارش نمی‌دهی)\ner/sie/es berichtet nicht (او گزارش نمی‌دهد)\nwir berichten nicht (ما گزارش نمی‌دهیم)\nihr berichtet nicht (شما گزارش نمی‌دهید)\nsie/Sie berichten nicht (آن‌ها/شما (محترمانه) گزارش نمی‌دهند)",
+    "translate_fa": "گزارش دادن - گزارش می‌دهد - گزارش داده است",
+    "file": "638_de.mp3"
+  },
+  {
+    "Filename": "646",
+    "Sound_de": "geben - gibt - hat gegeben",
+    "root": "حال (Präsens):\nich gebe (من می‌دهم)\ndu gibst (تو می‌دهی)\ner/sie/es gibt (او می‌دهد)\nwir geben (ما می‌دهیم)\nihr gebt (شما می‌دهید)\nsie/Sie geben (آن‌ها/شما (محترمانه) می‌دهند)\n\nگذشته ساده (Präteritum):\nich gab (من دادم)\ndu gabst (تو دادی)\ner/sie/es gab (او داد)\nwir gaben (ما دادیم)\nihr gabt (شما دادید)\nsie/Sie gaben (آن‌ها/شما (محترمانه) دادند)\n\nگذشته کامل (Perfekt):\nich habe gegeben (من داده‌ام)\ndu hast gegeben (تو داده‌ای)\ner/sie/es hat gegeben (او داده است)\nwir haben gegeben (ما داده‌ایم)\nihr habt gegeben (شما داده‌اید)\nsie/Sie haben gegeben (آن‌ها/شما (محترمانه) داده‌اند)\n\nحالت منفی (Präsens):\nich gebe nicht (من نمی‌دهم)\ndu gibst nicht (تو نمی‌دهی)\ner/sie/es gibt nicht (او نمی‌دهد)\nwir geben nicht (ما نمی‌دهیم)\nihr gebt nicht (شما نمی‌دهید)\nsie/Sie geben nicht (آن‌ها/شما (محترمانه) نمی‌دهند)",
+    "translate_fa": "دادن - می‌دهد - داده است",
+    "file": "646_de.mp3"
+  },
+  {
+    "Filename": "648",
+    "Sound_de": "sagen - sagt - hat gesagt",
+    "root": "حال (Präsens):\nich sage (من می‌گویم)\ndu sagst (تو می‌گویی)\ner/sie/es sagt (او می‌گوید)\nwir sagen (ما می‌گوییم)\nihr sagt (شما می‌گویید)\nsie/Sie sagen (آن‌ها/شما (محترمانه) می‌گویند)\n\nگذشته ساده (Präteritum):\nich sagte (من گفتم)\ndu sagtest (تو گفتی)\ner/sie/es sagte (او گفت)\nwir sagten (ما گفتیم)\nihr sagtet (شما گفتید)\nsie/Sie sagten (آن‌ها/شما (محترمانه) گفتند)\n\nگذشته کامل (Perfekt):\nich habe gesagt (من گفته‌ام)\ndu hast gesagt (تو گفته‌ای)\ner/sie/es hat gesagt (او گفته است)\nwir haben gesagt (ما گفته‌ایم)\nihr habt gesagt (شما گفته‌اید)\nsie/Sie haben gesagt (آن‌ها/شما (محترمانه) گفته‌اند)\n\nحالت منفی (Präsens):\nich sage nicht (من نمی‌گویم)\ndu sagst nicht (تو نمی‌گویی)\ner/sie/es sagt nicht (او نمی‌گوید)\nwir sagen nicht (ما نمی‌گوییم)\nihr sagt nicht (شما نمی‌گویید)\nsie/Sie sagen nicht (آن‌ها/شما (محترمانه) نمی‌گویند)",
+    "translate_fa": "گفتن - می‌گوید - گفته است",
+    "file": "648_de.mp3"
+  },
+  {
+    "Filename": "650",
+    "Sound_de": "beschreiben - beschreibt - hat beschrieben",
+    "root": "حال (Präsens):\nich beschreibe (من توصیف می‌کنم)\ndu beschreibst (تو توصیف می‌کنی)\ner/sie/es beschreibt (او توصیف می‌کند)\nwir beschreiben (ما توصیف می‌کنیم)\nihr beschreibt (شما توصیف می‌کنید)\nsie/Sie beschreiben (آن‌ها/شما (محترمانه) توصیف می‌کنند)\n\nگذشته ساده (Präteritum):\nich beschrieb (من توصیف کردم)\ndu beschriebst (تو توصیف کردی)\ner/sie/es beschrieb (او توصیف کرد)\nwir beschrieben (ما توصیف کردیم)\nihr beschriebt (شما توصیف کردید)\nsie/Sie beschrieben (آن‌ها/شما (محترمانه) توصیف کردند)\n\nگذشته کامل (Perfekt):\nich habe beschrieben (من توصیف کرده‌ام)\ndu hast beschrieben (تو توصیف کرده‌ای)\ner/sie/es hat beschrieben (او توصیف کرده است)\nwir haben beschrieben (ما توصیف کرده‌ایم)\nihr habt beschrieben (شما توصیف کرده‌اید)\nsie/Sie haben beschrieben (آن‌ها/شما (محترمانه) توصیف کرده‌اند)\n\nحالت منفی (Präsens):\nich beschreibe nicht (من توصیف نمی‌کنم)\ndu beschreibst nicht (تو توصیف نمی‌کنی)\ner/sie/es beschreibt nicht (او توصیف نمی‌کند)\nwir beschreiben nicht (ما توصیف نمی‌کنیم)\nihr beschreibt nicht (شما توصیف نمی‌کنید)\nsie/Sie beschreiben nicht (آن‌ها/شما (محترمانه) توصیف نمی‌کنند)",
+    "translate_fa": "توصیف کردن - توصیف می‌کند - توصیف کرده است",
+    "file": "650_de.mp3"
+  },
+  {
+    "Filename": "652",
+    "Sound_de": "beschweren (sich) - beschwert - hat beschwert",
+    "root": "حال (Präsens):\nich beschwere mich (من شکایت می‌کنم)\ndu beschwerst dich (تو شکایت می‌کنی)\ner/sie/es beschwert sich (او شکایت می‌کند)\nwir beschweren uns (ما شکایت می‌کنیم)\nihr beschwert euch (شما شکایت می‌کنید)\nsie/Sie beschweren sich (آن‌ها/شما (محترمانه) شکایت می‌کنند)\n\nگذشته ساده (Präteritum):\nich beschwerte mich (من شکایت کردم)\ndu beschwertest dich (تو شکایت کردی)\ner/sie/es beschwerte sich (او شکایت کرد)\nwir beschwerten uns (ما شکایت کردیم)\nihr beschwertet euch (شما شکایت کردید)\nsie/Sie beschwerten sich (آن‌ها/شما (محترمانه) شکایت کردند)\n\nگذشته کامل (Perfekt):\nich habe mich beschwert (من شکایت کرده‌ام)\ndu hast dich beschwert (تو شکایت کرده‌ای)\ner/sie/es hat sich beschwert (او شکایت کرده است)\nwir haben uns beschwert (ما شکایت کرده‌ایم)\nihr habt euch beschwert (شما شکایت کرده‌اید)\nsie/Sie haben sich beschwert (آن‌ها/شما (محترمانه) شکایت کرده‌اند)\n\nحالت منفی (Präsens):\nich beschwere mich nicht (من شکایت نمی‌کنم)\ndu beschwerst dich nicht (تو شکایت نمی‌کنی)\ner/sie/es beschwert sich nicht (او شکایت نمی‌کند)\nwir beschweren uns nicht (ما شکایت نمی‌کنیم)\nihr beschwert euch nicht (شما شکایت نمی‌کنید)\nsie/Sie beschweren sich nicht (آن‌ها/شما (محترمانه) شکایت نمی‌کنند)",
+    "translate_fa": "شکایت کردن - شکایت می‌کند - شکایت کرده است",
+    "file": "652_de.mp3"
+  },
+  {
+    "Filename": "658",
+    "Sound_de": "besichtigen - besichtigt - hat besichtigt",
+    "root": "حال (Präsens):\nich besichtige (من بازدید می‌کنم)\ndu besichtigst (تو بازدید می‌کنی)\ner/sie/es besichtigt (او بازدید می‌کند)\nwir besichtigen (ما بازدید می‌کنیم)\nihr besichtigt (شما بازدید می‌کنید)\nsie/Sie besichtigen (آن‌ها/شما (محترمانه) بازدید می‌کنند)\n\nگذشته ساده (Präteritum):\nich besichtigte (من بازدید کردم)\ndu besichtigtest (تو بازدید کردی)\ner/sie/es besichtigte (او بازدید کرد)\nwir besichtigten (ما بازدید کردیم)\nihr besichtigtet (شما بازدید کردید)\nsie/Sie besichtigten (آن‌ها/شما (محترمانه) بازدید کردند)\n\nگذشته کامل (Perfekt):\nich habe besichtigt (من بازدید کرده‌ام)\ndu hast besichtigt (تو بازدید کرده‌ای)\ner/sie/es hat besichtigt (او بازدید کرده است)\nwir haben besichtigt (ما بازدید کرده‌ایم)\nihr habt besichtigt (شما بازدید کرده‌اید)\nsie/Sie haben besichtigt (آن‌ها/شما (محترمانه) بازدید کرده‌اند)\n\nحالت منفی (Präsens):\nich besichtige nicht (من بازدید نمی‌کنم)\ndu besichtigst nicht (تو بازدید نمی‌کنی)\ner/sie/es besichtigt nicht (او بازدید نمی‌کند)\nwir besichtigen nicht (ما بازدید نمی‌کنیم)\nihr besichtigt nicht (شما بازدید نمی‌کنید)\nsie/Sie besichtigen nicht (آن‌ها/شما (محترمانه) بازدید نمی‌کنند)",
+    "translate_fa": "بازدید کردن - بازدید می‌کند - بازدید کرده است",
+    "file": "658_de.mp3"
+  },
+  {
+    "Filename": "665",
+    "Sound_de": "bestätigen - bestätigt - hat bestätigt",
+    "root": "حال (Präsens):\nich bestätige (من تأیید می‌کنم)\ndu bestätigst (تو تأیید می‌کنی)\ner/sie/es bestätigt (او تأیید می‌کند)\nwir bestätigen (ما تأیید می‌کنیم)\nihr bestätigt (شما تأیید می‌کنید)\nsie/Sie bestätigen (آن‌ها/شما (محترمانه) تأیید می‌کنند)\n\nگذشته ساده (Präteritum):\nich bestätigte (من تأیید کردم)\ndu bestätigtest (تو تأیید کردی)\ner/sie/es bestätigte (او تأیید کرد)\nwir bestätigten (ما تأیید کردیم)\nihr bestätigtet (شما تأیید کردید)\nsie/Sie bestätigten (آن‌ها/شما (محترمانه) تأیید کردند)\n\nگذشته کامل (Perfekt):\nich habe bestätigt (من تأیید کرده‌ام)\ndu hast bestätigt (تو تأیید کرده‌ای)\ner/sie/es hat bestätigt (او تأیید کرده است)\nwir haben bestätigt (ما تأیید کرده‌ایم)\nihr habt bestätigt (شما تأیید کرده‌اید)\nsie/Sie haben bestätigt (آن‌ها/شما (محترمانه) تأیید کرده‌اند)\n\nحالت منفی (Präsens):\nich bestätige nicht (من تأیید نمی‌کنم)\ndu bestätigst nicht (تو تأیید نمی‌کنی)\ner/sie/es bestätigt nicht (او تأیید نمی‌کند)\nwir bestätigen nicht (ما تأیید نمی‌کنیم)\nihr bestätigt nicht (شما تأیید نمی‌کنید)\nsie/Sie bestätigen nicht (آن‌ها/شما (محترمانه) تأیید نمی‌کنند)",
+    "translate_fa": "تأیید کردن - تأیید می‌کند - تأیید کرده است",
+    "file": "665_de.mp3"
+  },
+  {
+    "Filename": "667",
+    "Sound_de": "bestehen - besteht - hat bestanden",
+    "root": "حال (Präsens):\nich bestehe (من وجود دارم/موفق می‌شم)\ndu bestehst (تو وجود داری/موفق می‌شی)\ner/sie/es besteht (او وجود دارد/موفق می‌شود)\nwir bestehen (ما وجود داریم/موفق می‌شیم)\nihr besteht (شما وجود دارید/موفق می‌شید)\nsie/Sie bestehen (آن‌ها/شما (محترمانه) وجود دارند/موفق می‌شوند)\n\nگذشته ساده (Präteritum):\nich bestand (من وجود داشتم/موفق شدم)\ndu bestandst (تو وجود داشتی/موفق شدی)\ner/sie/es bestand (او وجود داشت/موفق شد)\nwir bestanden (ما وجود داشتیم/موفق شدیم)\nihr bestandet (شما وجود داشتید/موفق شدید)\nsie/Sie bestanden (آن‌ها/شما (محترمانه) وجود داشتند/موفق شدند)\n\nگذشته کامل (Perfekt):\nich habe bestanden (من وجود داشته‌ام/موفق شده‌ام)\ndu hast bestanden (تو وجود داشته‌ای/موفق شده‌ای)\ner/sie/es hat bestanden (او وجود داشته است/موفق شده است)\nwir haben bestanden (ما وجود داشته‌ایم/موفق شده‌ایم)\nihr habt bestanden (شما وجود داشته‌اید/موفق شده‌اید)\nsie/Sie haben bestanden (آن‌ها/شما (محترمانه) وجود داشته‌اند/موفق شده‌اند)\n\nحالت منفی (Präsens):\nich bestehe nicht (من وجود ندارم/موفق نمی‌شم)\ndu bestehst nicht (تو وجود نداری/موفق نمی‌شی)\ner/sie/es besteht nicht (او وجود ندارد/موفق نمی‌شود)\nwir bestehen nicht (ما وجود نداریم/موفق نمی‌شیم)\nihr besteht nicht (شما وجود ندارید/موفق نمی‌شید)\nsie/Sie bestehen nicht (آن‌ها/شما (محترمانه) وجود ندارند/موفق نمی‌شوند)",
+    "translate_fa": "قبول شدن/وجود داشتن - وجود دارد - قبول شده است",
+    "file": "667_de.mp3"
+  },
+  {
+    "Filename": "670",
+    "Sound_de": "bestellen - bestellt - hat bestellt",
+    "root": "حال (Präsens):\nich bestelle (من سفارش می‌دهم)\ndu bestellst (تو سفارش می‌دهی)\ner/sie/es bestellt (او سفارش می‌دهد)\nwir bestellen (ما سفارش می‌دهیم)\nihr bestellt (شما سفارش می‌دهید)\nsie/Sie bestellen (آن‌ها/شما (محترمانه) سفارش می‌دهند)\n\nگذشته ساده (Präteritum):\nich bestellte (من سفارش دادم)\ndu bestelltest (تو سفارش دادی)\ner/sie/es bestellte (او سفارش داد)\nwir bestellten (ما سفارش دادیم)\nihr bestelltet (شما سفارش دادید)\nsie/Sie bestellten (آن‌ها/شما (محترمانه) سفارش دادند)\n\nگذشته کامل (Perfekt):\nich habe bestellt (من سفارش داده‌ام)\ndu hast bestellt (تو سفارش داده‌ای)\ner/sie/es hat bestellt (او سفارش داده است)\nwir haben bestellt (ما سفارش داده‌ایم)\nihr habt bestellt (شما سفارش داده‌اید)\nsie/Sie haben bestellt (آن‌ها/شما (محترمانه) سفارش داده‌اند)\n\nحالت منفی (Präsens):\nich bestelle nicht (من سفارش نمی‌دهم)\ndu bestellst nicht (تو سفارش نمی‌دهی)\ner/sie/es bestellt nicht (او سفارش نمی‌دهد)\nwir bestellen nicht (ما سفارش نمی‌دهیم)\nihr bestellt nicht (شما سفارش نمی‌دهید)\nsie/Sie bestellen nicht (آن‌ها/شما (محترمانه) سفارش نمی‌دهند)",
+    "translate_fa": "سفارش دادن - سفارش می‌دهد - سفارش داده است",
+    "file": "670_de.mp3"
+  },
+  {
+    "Filename": "677",
+    "Sound_de": "besuchen - besucht - hat besucht",
+    "root": "حال (Präsens):\nich besuche (من بازدید می‌کنم)\ndu besuchst (تو بازدید می‌کنی)\ner/sie/es besucht (او بازدید می‌کند)\nwir besuchen (ما بازدید می‌کنیم)\nihr besucht (شما بازدید می‌کنید)\nsie/Sie besuchen (آن‌ها/شما (محترمانه) بازدید می‌کنند)\n\nگذشته ساده (Präteritum):\nich besuchte (من بازدید کردم)\ndu besuchtest (تو بازدید کردی)\ner/sie/es besuchte (او بازدید کرد)\nwir besuchten (ما بازدید کردیم)\nihr besuchtet (شما بازدید کردید)\nsie/Sie besuchten (آن‌ها/شما (محترمانه) بازدید کردند)\n\nگذشته کامل (Perfekt):\nich habe besucht (من بازدید کرده‌ام)\ndu hast besucht (تو بازدید کرده‌ای)\ner/sie/es hat besucht (او بازدید کرده است)\nwir haben besucht (ما بازدید کرده‌ایم)\nihr habt besucht (شما بازدید کرده‌اید)\nsie/Sie haben besucht (آن‌ها/شما (محترمانه) بازدید کرده‌اند)\n\nحالت منفی (Präsens):\nich besuche nicht (من بازدید نمی‌کنم)\ndu besuchst nicht (تو بازدید نمی‌کنی)\ner/sie/es besucht nicht (او بازدید نمی‌کند)\nwir besuchen nicht (ما بازدید نمی‌کنیم)\nihr besucht nicht (شما بازدید نمی‌کنید)\nsie/Sie besuchen nicht (آن‌ها/شما (محترمانه) بازدید نمی‌کنند)",
+    "translate_fa": "دیدن کردن - دیدن می‌کند - دیدن کرده است",
+    "file": "677_de.mp3"
+  },
+  {
+    "Filename": "682",
+    "Sound_de": "bewerben (sich) - bewirbt - hat beworben",
+    "root": "حال (Präsens):\nich bewerbe mich (من درخواست می‌دهم)\ndu bewirbst dich (تو درخواست می‌دهی)\ner/sie/es bewirbt sich (او درخواست می‌دهد)\nwir bewerben uns (ما درخواست می‌دهیم)\nihr bewerbt euch (شما درخواست می‌دهید)\nsie/Sie bewerben sich (آن‌ها/شما (محترمانه) درخواست می‌دهند)\n\nگذشته ساده (Präteritum):\nich bewarb mich (من درخواست دادم)\ndu bewarbst dich (تو درخواست دادی)\ner/sie/es bewarb sich (او درخواست داد)\nwir bewarben uns (ما درخواست دادیم)\nihr bewarbt euch (شما درخواست دادید)\nsie/Sie bewarben sich (آن‌ها/شما (محترمانه) درخواست دادند)\n\nگذشته کامل (Perfekt):\nich habe mich beworben (من درخواست داده‌ام)\ndu hast dich beworben (تو درخواست داده‌ای)\ner/sie/es hat sich beworben (او درخواست داده است)\nwir haben uns beworben (ما درخواست داده‌ایم)\nihr habt euch beworben (شما درخواست داده‌اید)\nsie/Sie haben sich beworben (آن‌ها/شما (محترمانه) درخواست داده‌اند)\n\nحالت منفی (Präsens):\nich bewerbe mich nicht (من درخواست نمی‌دهم)\ndu bewirbst dich nicht (تو درخواست نمی‌دهی)\ner/sie/es bewirbt sich nicht (او درخواست نمی‌دهد)\nwir bewerben uns nicht (ما درخواست نمی‌دهیم)\nihr bewerbt euch nicht (شما درخواست نمی‌دهید)\nsie/Sie bewerben sich nicht (آن‌ها/شما (محترمانه) درخواست نمی‌دهند)",
+    "translate_fa": "درخواست دادن - درخواست می‌دهد - درخواست داده است",
+    "file": "682_de.mp3"
+  },
+  {
+    "Filename": "690",
+    "Sound_de": "bezahlen - bezahlt - hat bezahlt",
+    "root": "حال (Präsens):\nich bezahle (من پرداخت می‌کنم)\ndu bezahlst (تو پرداخت می‌کنی)\ner/sie/es bezahlt (او پرداخت می‌کند)\nwir bezahlen (ما پرداخت می‌کنیم)\nihr bezahlt (شما پرداخت می‌کنید)\nsie/Sie bezahlen (آن‌ها/شما (محترمانه) پرداخت می‌کنند)\n\nگذشته ساده (Präteritum):\nich bezahlte (من پرداخت کردم)\ndu bezahltest (تو پرداخت کردی)\ner/sie/es bezahlte (او پرداخت کرد)\nwir bezahlten (ما پرداخت کردیم)\nihr bezahltet (شما پرداخت کردید)\nsie/Sie bezahlten (آن‌ها/شما (محترمانه) پرداخت کردند)\n\nگذشته کامل (Perfekt):\nich habe bezahlt (من پرداخت کرده‌ام)\ndu hast bezahlt (تو پرداخت کرده‌ای)\ner/sie/es hat bezahlt (او پرداخت کرده است)\nwir haben bezahlt (ما پرداخت کرده‌ایم)\nihr habt bezahlt (شما پرداخت کرده‌اید)\nsie/Sie haben bezahlt (آن‌ها/شما (محترمانه) پرداخت کرده‌اند)\n\nحالت منفی (Präsens):\nich bezahle nicht (من پرداخت نمی‌کنم)\ndu bezahlst nicht (تو پرداخت نمی‌کنی)\ner/sie/es bezahlt nicht (او پرداخت نمی‌کند)\nwir bezahlen nicht (ما پرداخت نمی‌کنیم)\nihr bezahlt nicht (شما پرداخت نمی‌کنید)\nsie/Sie bezahlen nicht (آن‌ها/شما (محترمانه) پرداخت نمی‌کنند)",
+    "translate_fa": "پرداخت کردن - پرداخت می‌کند - پرداخت کرده است",
+    "file": "690_de.mp3"
+  },
+  {
+    "Filename": "715",
+    "Sound_de": "bitten - bittet - hat gebeten",
+    "root": "حال (Präsens):\nich bitte (من درخواست می‌کنم)\ndu bittest (تو درخواست می‌کنی)\ner/sie/es bittet (او درخواست می‌کند)\nwir bitten (ما درخواست می‌کنیم)\nihr bittet (شما درخواست می‌کنید)\nsie/Sie bitten (آن‌ها/شما (محترمانه) درخواست می‌کنند)\n\nگذشته ساده (Präteritum):\nich bat (من درخواست کردم)\ndu batest (تو درخواست کردی)\ner/sie/es bat (او درخواست کرد)\nwir baten (ما درخواست کردیم)\nihr batet (شما درخواست کردید)\nsie/Sie baten (آن‌ها/شما (محترمانه) درخواست کردند)\n\nگذشته کامل (Perfekt):\nich habe gebeten (من درخواست کرده‌ام)\ndu hast gebeten (تو درخواست کرده‌ای)\ner/sie/es hat gebeten (او درخواست کرده است)\nwir haben gebeten (ما درخواست کرده‌ایم)\nihr habt gebeten (شما درخواست کرده‌اید)\nsie/Sie haben gebeten (آن‌ها/شما (محترمانه) درخواست کرده‌اند)\n\nحالت منفی (Präsens):\nich bitte nicht (من درخواست نمی‌کنم)\ndu bittest nicht (تو درخواست نمی‌کنی)\ner/sie/es bittet nicht (او درخواست نمی‌کند)\nwir bitten nicht (ما درخواست نمی‌کنیم)\nihr bittet nicht (شما درخواست نمی‌کنید)\nsie/Sie bitten nicht (آن‌ها/شما (محترمانه) درخواست نمی‌کنند)",
+    "translate_fa": "درخواست کردن - درخواست می‌کند - درخواست کرده است",
+    "file": "715_de.mp3"
+  },
+  {
+    "Filename": "722",
+    "Sound_de": "bleiben - bleibt - ist geblieben",
+    "root": "حال (Präsens):\nich bleibe (من می‌مانم)\ndu bleibst (تو می‌مانی)\ner/sie/es bleibt (او می‌ماند)\nwir bleiben (ما می‌مانیم)\nihr bleibt (شما می‌مانید)\nsie/Sie bleiben (آن‌ها/شما (محترمانه) می‌مانند)\n\nگذشته ساده (Präteritum):\nich blieb (من ماندم)\ndu bliebst (تو ماندی)\ner/sie/es blieb (او ماند)\nwir blieben (ما ماندیم)\nihr bliebt (شما ماندید)\nsie/Sie blieben (آن‌ها/شما (محترمانه) ماندند)\n\nگذشته کامل (Perfekt):\nich bin geblieben (من مانده‌ام)\ndu bist geblieben (تو مانده‌ای)\ner/sie/es ist geblieben (او مانده است)\nwir sind geblieben (ما مانده‌ایم)\nihr seid geblieben (شما مانده‌اید)\nsie/Sie sind geblieben (آن‌ها/شما (محترمانه) مانده‌اند)\n\nحالت منفی (Präsens):\nich bleibe nicht (من نمی‌مانم)\ndu bleibst nicht (تو نمی‌مانی)\ner/sie/es bleibt nicht (او نمی‌ماند)\nwir bleiben nicht (ما نمی‌مانیم)\nihr bleibt nicht (شما نمی‌مانید)\nsie/Sie bleiben nicht (آن‌ها/شما (محترمانه) نمی‌مانند)",
+    "translate_fa": "ماندن - می‌ماند - مانده است",
+    "file": "722_de.mp3"
+  },
+  {
+    "Filename": "744",
+    "Sound_de": "braten - brät - hat gebraten",
+    "root": "حال (Präsens):\nich brate (من سرخ می‌کنم)\ndu brätst (تو سرخ می‌کنی)\ner/sie/es brät (او سرخ می‌کند)\nwir braten (ما سرخ می‌کنیم)\nihr bratet (شما سرخ می‌کنید)\nsie/Sie braten (آن‌ها/شما (محترمانه) سرخ می‌کنند)\n\nگذشته ساده (Präteritum):\nich briet (من سرخ کردم)\ndu brietest (تو سرخ کردی)\ner/sie/es briet (او سرخ کرد)\nwir brieten (ما سرخ کردیم)\nihr brietet (شما سرخ کردید)\nsie/Sie brieten (آن‌ها/شما (محترمانه) سرخ کردند)\n\nگذشته کامل (Perfekt):\nich habe gebraten (من سرخ کرده‌ام)\ndu hast gebraten (تو سرخ کرده‌ای)\ner/sie/es hat gebraten (او سرخ کرده است)\nwir haben gebraten (ما سرخ کرده‌ایم)\nihr habt gebraten (شما سرخ کرده‌اید)\nsie/Sie haben gebraten (آن‌ها/شما (محترمانه) سرخ کرده‌اند)\n\nحالت منفی (Präsens):\nich brate nicht (من سرخ نمی‌کنم)\ndu brätst nicht (تو سرخ نمی‌کنی)\ner/sie/es brät nicht (او سرخ نمی‌کند)\nwir braten nicht (ما سرخ نمی‌کنیم)\nihr bratet nicht (شما سرخ نمی‌کنید)\nsie/Sie braten nicht (آن‌ها/شما (محترمانه) سرخ نمی‌کنند)",
+    "translate_fa": "کباب کردن - کباب می‌کند - کباب کرده است",
+    "file": "744_de.mp3"
+  },
+  {
+    "Filename": "747",
+    "Sound_de": "brauchen - braucht - hat gebraucht",
+    "root": "حال (Präsens):\nich brauche (من نیاز دارم)\ndu brauchst (تو نیاز داری)\ner/sie/es braucht (او نیاز دارد)\nwir brauchen (ما نیاز داریم)\nihr braucht (شما نیاز دارید)\nsie/Sie brauchen (آن‌ها/شما (محترمانه) نیاز دارند)\n\nگذشته ساده (Präteritum):\nich brauchte (من نیاز داشتم)\ndu brauchtest (تو نیاز داشتی)\ner/sie/es brauchte (او نیاز داشت)\nwir brauchten (ما نیاز داشتیم)\nihr brauchtet (شما نیاز داشتید)\nsie/Sie brauchten (آن‌ها/شما (محترمانه) نیاز داشتند)\n\nگذشته کامل (Perfekt):\nich habe gebraucht (من نیاز داشته‌ام)\ndu hast gebraucht (تو نیاز داشته‌ای)\ner/sie/es hat gebraucht (او نیاز داشته است)\nwir haben gebraucht (ما نیاز داشته‌ایم)\nihr habt gebraucht (شما نیاز داشته‌اید)\nsie/Sie haben gebraucht (آن‌ها/شما (محترمانه) نیاز داشته‌اند)\n\nحالت منفی (Präsens):\nich brauche nicht (من نیاز ندارم)\ndu brauchst nicht (تو نیاز نداری)\ner/sie/es braucht nicht (او نیاز ندارد)\nwir brauchen nicht (ما نیاز نداریم)\nihr braucht nicht (شما نیاز ندارید)\nsie/Sie brauchen nicht (آن‌ها/شما (محترمانه) نیاز ندارند)",
+    "translate_fa": "نیاز داشتن - نیاز دارد - نیاز داشته است",
+    "file": "747_de.mp3"
+  },
+  {
+    "Filename": "758",
+    "Sound_de": "bringen - bringt - hat gebracht",
+    "root": "حال (Präsens):\nich bringe (من می‌آورم)\ndu bringst (تو می‌آوری)\ner/sie/es bringt (او می‌آورد)\nwir bringen (ما می‌آوریم)\nihr bringt (شما می‌آورید)\nsie/Sie bringen (آن‌ها/شما (محترمانه) می‌آورند)\n\nگذشته ساده (Präteritum):\nich brachte (من آوردم)\ndu brachtest (تو آوردی)\ner/sie/es brachte (او آورد)\nwir brachten (ما آوردیم)\nihr brachtet (شما آوردید)\nsie/Sie brachten (آن‌ها/شما (محترمانه) آوردند)\n\nگذشته کامل (Perfekt):\nich habe gebracht (من آورده‌ام)\ndu hast gebracht (تو آورده‌ای)\ner/sie/es hat gebracht (او آورده است)\nwir haben gebracht (ما آورده‌ایم)\nihr habt gebracht (شما آورده‌اید)\nsie/Sie haben gebracht (آن‌ها/شما (محترمانه) آورده‌اند)\n\nحالت منفی (Präsens):\nich bringe nicht (من نمی‌آورم)\ndu bringst nicht (تو نمی‌آوری)\ner/sie/es bringt nicht (او نمی‌آورد)\nwir bringen nicht (ما نمی‌آوریم)\nihr bringt nicht (شما نمی‌آورید)\nsie/Sie bringen nicht (آن‌ها/شما (محترمانه) نمی‌آورند)",
+    "translate_fa": "آوردن - می‌آورد - آورده است",
+    "file": "758_de.mp3"
+  },
+  {
+    "Filename": "771",
+    "Sound_de": "buchen - bucht - hat gebucht",
+    "root": "حال (Präsens):\nich buche (من رزرو می‌کنم)\ndu buchst (تو رزرو می‌کنی)\ner/sie/es bucht (او رزرو می‌کند)\nwir buchen (ما رزرو می‌کنیم)\nihr bucht (شما رزرو می‌کنید)\nsie/Sie buchen (آن‌ها/شما (محترمانه) رزرو می‌کنند)\n\nگذشته ساده (Präteritum):\nich buchte (من رزرو کردم)\ndu buchtest (تو رزرو کردی)\ner/sie/es buchte (او رزرو کرد)\nwir buchten (ما رزرو کردیم)\nihr buchtet (شما رزرو کردید)\nsie/Sie buchten (آن‌ها/شما (محترمانه) رزرو کردند)\n\nگذشته کامل (Perfekt):\nich habe gebucht (من رزرو کرده‌ام)\ndu hast gebucht (تو رزرو کرده‌ای)\ner/sie/es hat gebucht (او رزرو کرده است)\nwir haben gebucht (ما رزرو کرده‌ایم)\nihr habt gebucht (شما رزرو کرده‌اید)\nsie/Sie haben gebucht (آن‌ها/شما (محترمانه) رزرو کرده‌اند)\n\nحالت منفی (Präsens):\nich buche nicht (من رزرو نمی‌کنم)\ndu buchst nicht (تو رزرو نمی‌کنی)\ner/sie/es bucht nicht (او رزرو نمی‌کند)\nwir buchen nicht (ما رزرو نمی‌کنیم)\nihr bucht nicht (شما رزرو نمی‌کنید)\nsie/Sie buchen nicht (آن‌ها/شما (محترمانه) رزرو نمی‌کنند)",
+    "translate_fa": "رزرو کردن - رزرو می‌کند - رزرو کرده است",
+    "file": "771_de.mp3"
+  },
+  {
+    "Filename": "775",
+    "Sound_de": "buchstabieren - buchstabiert - hat buchstabiert",
+    "root": "حال (Präsens):\nich buchstabiere (من هجی می‌کنم)\ndu buchstabierst (تو هجی می‌کنی)\ner/sie/es buchstabiert (او هجی می‌کند)\nwir buchstabieren (ما هجی می‌کنیم)\nihr buchstabiert (شما هجی می‌کنید)\nsie/Sie buchstabieren (آن‌ها/شما (محترمانه) هجی می‌کنند)\n\nگذشته ساده (Präteritum):\nich buchstabierte (من هجی کردم)\ndu buchstabiertest (تو هجی کردی)\ner/sie/es buchstabierte (او هجی کرد)\nwir buchstabierten (ما هجی کردیم)\nihr buchstabiertet (شما هجی کردید)\nsie/Sie buchstabierten (آن‌ها/شما (محترمانه) هجی کردند)\n\nگذشته کامل (Perfekt):\nich habe buchstabiert (من هجی کرده‌ام)\ndu hast buchstabiert (تو هجی کرده‌ای)\ner/sie/es hat buchstabiert (او هجی کرده است)\nwir haben buchstabiert (ما هجی کرده‌ایم)\nihr habt buchstabiert (شما هجی کرده‌اید)\nsie/Sie haben buchstabiert (آن‌ها/شما (محترمانه) هجی کرده‌اند)\n\nحالت منفی (Präsens):\nich buchstabiere nicht (من هجی نمی‌کنم)\ndu buchstabierst nicht (تو هجی نمی‌کنی)\ner/sie/es buchstabiert nicht (او هجی نمی‌کند)\nwir buchstabieren nicht (ما هجی نمی‌کنیم)\nihr buchstabiert nicht (شما هجی نمی‌کنید)\nsie/Sie buchstabieren nicht (آن‌ها/شما (محترمانه) هجی نمی‌کنند)",
+    "translate_fa": "هجی کردن - هجی می‌کند - هجی کرده است",
+    "file": "775_de.mp3"
+  },
+  {
+    "Filename": "791",
+    "Sound_de": "chatten - chattet - hat gechattet",
+    "root": "حال (Präsens):\nich chatte (من چت می‌کنم)\ndu chattest (تو چت می‌کنی)\ner/sie/es chattet (او چت می‌کند)\nwir chatten (ما چت می‌کنیم)\nihr chattet (شما چت می‌کنید)\nsie/Sie chatten (آن‌ها/شما (محترمانه) چت می‌کنند)\n\nگذشته ساده (Präteritum):\nich chattete (من چت کردم)\ndu chattetest (تو چت کردی)\ner/sie/es chattete (او چت کرد)\nwir chatteten (ما چت کردیم)\nihr chattetet (شما چت کردید)\nsie/Sie chatteten (آن‌ها/شما (محترمانه) چت کردند)\n\nگذشته کامل (Perfekt):\nich habe gechattet (من چت کرده‌ام)\ndu hast gechattet (تو چت کرده‌ای)\ner/sie/es hat gechattet (او چت کرده است)\nwir haben gechattet (ما چت کرده‌ایم)\nihr habt gechattet (شما چت کرده‌اید)\nsie/Sie haben gechattet (آن‌ها/شما (محترمانه) چت کرده‌اند)\n\nحالت منفی (Präsens):\nich chatte nicht (من چت نمی‌کنم)\ndu chattest nicht (تو چت نمی‌کنی)\ner/sie/es chattet nicht (او چت نمی‌کند)\nwir chatten nicht (ما چت نمی‌کنیم)\nihr chattet nicht (شما چت نمی‌کنید)\nsie/Sie chatten nicht (آن‌ها/شما (محترمانه) چت نمی‌کنند)",
+    "translate_fa": "چت کردن - چت می‌کند - چت کرده است",
+    "file": "791_de.mp3"
+  },
+  {
+    "Filename": "814",
+    "Sound_de": "dabei (sein) - ist dabei - war dabei - ist dabei gewesen",
+    "root": "حال (Präsens):\nich bin dabei (من در حال انجام آن هستم)\ndu bist dabei (تو در حال انجام آن هستی)\ner/sie/es ist dabei (او در حال انجام آن است)\nwir sind dabei (ما در حال انجام آن هستیم)\nihr seid dabei (شما در حال انجام آن هستید)\nsie/Sie sind dabei (آن‌ها/شما (محترمانه) در حال انجام آن هستند)\n\nگذشته ساده (Präteritum):\nich war dabei (من در حال انجام آن بودم)\ndu warst dabei (تو در حال انجام آن بودی)\ner/sie/es war dabei (او در حال انجام آن بود)\nwir waren dabei (ما در حال انجام آن بودیم)\nihr wart dabei (شما در حال انجام آن بودید)\nsie/Sie waren dabei (آن‌ها/شما (محترمانه) در حال انجام آن بودند)\n\nگذشته کامل (Perfekt):\nich bin dabei gewesen (من در حال انجام آن بوده‌ام)\ndu bist dabei gewesen (تو در حال انجام آن بوده‌ای)\ner/sie/es ist dabei gewesen (او در حال انجام آن بوده است)\nwir sind dabei gewesen (ما در حال انجام آن بوده‌ایم)\nihr seid dabei gewesen (شما در حال انجام آن بوده‌اید)\nsie/Sie sind dabei gewesen (آن‌ها/شما (محترمانه) در حال انجام آن بوده‌اند)\n\nحالت منفی (Präsens):\nich bin nicht dabei (من در حال انجام آن نیستم)\ndu bist nicht dabei (تو در حال انجام آن نیستی)\ner/sie/es ist nicht dabei (او در حال انجام آن نیست)\nwir sind nicht dabei (ما در حال انجام آن نیستیم)\nihr seid nicht dabei (شما در حال انجام آن نیستید)\nsie/Sie sind nicht dabei (آن‌ها/شما (محترمانه) در حال انجام آن نیستند)",
+    "translate_fa": "همراه داشتن - همراه است - همراه بود - همراه بوده است",
+    "file": "814_de.mp3"
+  },
+  {
+    "Filename": "817",
+    "Sound_de": "dafür/dagegen sein - ist dafür/dagegen - war dafür/dagegen - ist dafür/dagegen gewesen",
+    "root": "حال (Präsens):\nich bin dafür/dagegen (من موافق/مخالفم)\ndu bist dafür/dagegen (تو موافق/مخالفی)\ner/sie/es ist dafür/dagegen (او موافق/مخالف است)\nwir sind dafür/dagegen (ما موافق/مخالفیم)\nihr seid dafür/dagegen (شما موافق/مخالفید)\nsie/Sie sind dafür/dagegen (آن‌ها/شما (محترمانه) موافق/مخالفند)\n\nگذشته ساده (Präteritum):\nich war dafür/dagegen (من موافق/مخالف بودم)\ndu warst dafür/dagegen (تو موافق/مخالف بودی)\ner/sie/es war dafür/dagegen (او موافق/مخالف بود)\nwir waren dafür/dagegen (ما موافق/مخالف بودیم)\nihr wart dafür/dagegen (شما موافق/مخالف بودید)\nsie/Sie waren dafür/dagegen (آن‌ها/شما (محترمانه) موافق/مخالف بودند)\n\nگذشته کامل (Perfekt):\nich bin dafür/dagegen gewesen (من موافق/مخالف بوده‌ام)\ndu bist dafür/dagegen gewesen (تو موافق/مخالف بوده‌ای)\ner/sie/es ist dafür/dagegen gewesen (او موافق/مخالف بوده است)\nwir sind dafür/dagegen gewesen (ما موافق/مخالف بوده‌ایم)\nihr seid dafür/dagegen gewesen (شما موافق/مخالف بوده‌اید)\nsie/Sie sind dafür/dagegen gewesen (آن‌ها/شما (محترمانه) موافق/مخالف بوده‌اند)\n\nحالت منفی (Präsens):\nich bin nicht dafür/dagegen (من موافق/مخالف نیستم)\ndu bist nicht dafür/dagegen (تو موافق/مخالف نیستی)\ner/sie/es ist nicht dafür/dagegen (او موافق/مخالف نیست)\nwir sind nicht dafür/dagegen (ما موافق/مخالف نیستیم)\nihr seid nicht dafür/dagegen (شما موافق/مخالف نیستید)\nsie/Sie sind nicht dafür/dagegen (آن‌ها/شما (محترمانه) موافق/مخالف نیستند)",
+    "translate_fa": "موافق/مخالف بودن - موافق/مخالف است - موافق/مخالف بود - موافق/مخالف بوده است",
+    "file": "817_de.mp3"
+  },
+  {
+    "Filename": "832",
+    "Sound_de": "danken - dankt - hat gedankt",
+    "root": "حال (Präsens):\nich danke (من تشکر می‌کنم)\ndu dankst (تو تشکر می‌کنی)\ner/sie/es dankt (او تشکر می‌کند)\nwir danken (ما تشکر می‌کنیم)\nihr dankt (شما تشکر می‌کنید)\nsie/Sie danken (آن‌ها/شما (محترمانه) تشکر می‌کنند)\n\nگذشته ساده (Präteritum):\nich dankte (من تشکر کردم)\ndu danktest (تو تشکر کردی)\ner/sie/es dankte (او تشکر کرد)\nwir dankten (ما تشکر کردیم)\nihr danktet (شما تشکر کردید)\nsie/Sie dankten (آن‌ها/شما (محترمانه) تشکر کردند)\n\nگذشته کامل (Perfekt):\nich habe gedankt (من تشکر کرده‌ام)\ndu hast gedankt (تو تشکر کرده‌ای)\ner/sie/es hat gedankt (او تشکر کرده است)\nwir haben gedankt (ما تشکر کرده‌ایم)\nihr habt gedankt (شما تشکر کرده‌اید)\nsie/Sie haben gedankt (آن‌ها/شما (محترمانه) تشکر کرده‌اند)\n\nحالت منفی (Präsens):\nich danke nicht (من تشکر نمی‌کنم)\ndu dankst nicht (تو تشکر نمی‌کنی)\ner/sie/es dankt nicht (او تشکر نمی‌کند)\nwir danken nicht (ما تشکر نمی‌کنیم)\nihr dankt nicht (شما تشکر نمی‌کنید)\nsie/Sie danken nicht (آن‌ها/شما (محترمانه) تشکر نمی‌کنند)",
+    "translate_fa": "تشکر کردن - تشکر می‌کند - تشکر کرده است",
+    "file": "832_de.mp3"
+  },
+  {
+    "Filename": "847",
+    "Sound_de": "dauern - dauert - hat gedauert",
+    "root": "حال (Präsens):\nich daure (من طول می‌کشم)\ndu dauerst (تو طول می‌کشی)\ner/sie/es dauert (او طول می‌کشد)\nwir dauern (ما طول می‌کشیم)\nihr dauert (شما طول می‌کشید)\nsie/Sie dauern (آن‌ها/شما (محترمانه) طول می‌کشند)\n\nگذشته ساده (Präteritum):\nich dauerte (من طول کشیدم)\ndu daurtest (تو طول کشیدی)\ner/sie/es dauerte (او طول کشید)\nwir dauerten (ما طول کشیدیم)\nihr daurtet (شما طول کشیدید)\nsie/Sie dauerten (آن‌ها/شما (محترمانه) طول کشیدند)\n\nگذشته کامل (Perfekt):\nich habe gedauert (من طول کشیده‌ام)\ndu hast gedauert (تو طول کشیده‌ای)\ner/sie/es hat gedauert (او طول کشیده است)\nwir haben gedauert (ما طول کشیده‌ایم)\nihr habt gedauert (شما طول کشیده‌اید)\nsie/Sie haben gedauert (آن‌ها/شما (محترمانه) طول کشیده‌اند)\n\nحالت منفی (Präsens):\nich daure nicht (من طول نمی‌کشم)\ndu dauerst nicht (تو طول نمی‌کشی)\ner/sie/es dauert nicht (او طول نمی‌کشد)\nwir dauern nicht (ما طول نمی‌کشیم)\nihr dauert nicht (شما طول نمی‌کشید)\nsie/Sie dauern nicht (آن‌ها/شما (محترمانه) طول نمی‌کشند)",
+    "translate_fa": "طول کشیدن - طول می‌کشد - طول کشیده است",
+    "file": "847_de.mp3"
+  },
+  {
+    "Filename": "849",
+    "Sound_de": "denken - denkt - hat gedacht",
+    "root": "حال (Präsens):\nich denke (من فکر می‌کنم)\ndu denkst (تو فکر می‌کنی)\ner/sie/es denkt (او فکر می‌کند)\nwir denken (ما فکر می‌کنیم)\nihr denkt (شما فکر می‌کنید)\nsie/Sie denken (آن‌ها/شما (محترمانه) فکر می‌کنند)\n\nگذشته ساده (Präteritum):\nich dachte (من فکر کردم)\ndu dachtest (تو فکر کردی)\ner/sie/es dachte (او فکر کرد)\nwir dachten (ما فکر کردیم)\nihr dachtet (شما فکر کردید)\nsie/Sie dachten (آن‌ها/شما (محترمانه) فکر کردند)\n\nگذشته کامل (Perfekt):\nich habe gedacht (من فکر کرده‌ام)\ndu hast gedacht (تو فکر کرده‌ای)\ner/sie/es hat gedacht (او فکر کرده است)\nwir haben gedacht (ما فکر کرده‌ایم)\nihr habt gedacht (شما فکر کرده‌اید)\nsie/Sie haben gedacht (آن‌ها/شما (محترمانه) فکر کرده‌اند)\n\nحالت منفی (Präsens):\nich denke nicht (من فکر نمی‌کنم)\ndu denkst nicht (تو فکر نمی‌کنی)\ner/sie/es denkt nicht (او فکر نمی‌کند)\nwir denken nicht (ما فکر نمی‌کنیم)\nihr denkt nicht (شما فکر نمی‌کنید)\nsie/Sie denken nicht (آن‌ها/شما (محترمانه) فکر نمی‌کنند)",
+    "translate_fa": "فکر کردن - فکر می‌کند - فکر کرده است",
+    "file": "849_de.mp3"
+  },
+  {
+    "Filename": "872",
+    "Sound_de": "diskutieren - diskutiert - hat diskutiert",
+    "root": "حال (Präsens):\nich diskutiere (من بحث می‌کنم)\ndu diskutierst (تو بحث می‌کنی)\ner/sie/es diskutiert (او بحث می‌کند)\nwir diskutieren (ما بحث می‌کنیم)\nihr diskutiert (شما بحث می‌کنید)\nsie/Sie diskutieren (آن‌ها/شما (محترمانه) بحث می‌کنند)\n\nگذشته ساده (Präteritum):\nich diskutierte (من بحث کردم)\ndu diskutiertest (تو بحث کردی)\ner/sie/es diskutierte (او بحث کرد)\nwir diskutierten (ما بحث کردیم)\nihr diskutiertet (شما بحث کردید)\nsie/Sie diskutierten (آن‌ها/شما (محترمانه) بحث کردند)\n\nگذشته کامل (Perfekt):\nich habe diskutiert (من بحث کرده‌ام)\ndu hast diskutiert (تو بحث کرده‌ای)\ner/sie/es hat diskutiert (او بحث کرده است)\nwir haben diskutiert (ما بحث کرده‌ایم)\nihr habt diskutiert (شما بحث کرده‌اید)\nsie/Sie haben diskutiert (آن‌ها/شما (محترمانه) بحث کرده‌اند)\n\nحالت منفی (Präsens):\nich diskutiere nicht (من بحث نمی‌کنم)\ndu diskutierst nicht (تو بحث نمی‌کنی)\ner/sie/es diskutiert nicht (او بحث نمی‌کند)\nwir diskutieren nicht (ما بحث نمی‌کنیم)\nihr diskutiert nicht (شما بحث نمی‌کنید)\nsie/Sie diskutieren nicht (آن‌ها/شما (محترمانه) بحث نمی‌کنند)",
+    "translate_fa": "بحث کردن - بحث می‌کند - بحث کرده است",
+    "file": "872_de.mp3"
+  },
+  {
+    "Filename": "899",
+    "Sound_de": "drücken - drückt - hat gedrückt",
+    "root": "حال (Präsens):\nich drücke (من فشار می‌دهم)\ndu drückst (تو فشار می‌دهی)\ner/sie/es drückt (او فشار می‌دهد)\nwir drücken (ما فشار می‌دهیم)\nihr drückt (شما فشار می‌دهید)\nsie/Sie drücken (آن‌ها/شما (محترمانه) فشار می‌دهند)\n\nگذشته ساده (Präteritum):\nich drückte (من فشار دادم)\ndu drücktest (تو فشار دادی)\ner/sie/es drückte (او فشار داد)\nwir drückten (ما فشار دادیم)\nihr drücktet (شما فشار دادید)\nsie/Sie drückten (آن‌ها/شما (محترمانه) فشار دادند)\n\nگذشته کامل (Perfekt):\nich habe gedrückt (من فشار داده‌ام)\ndu hast gedrückt (تو فشار داده‌ای)\ner/sie/es hat gedrückt (او فشار داده است)\nwir haben gedrückt (ما فشار داده‌ایم)\nihr habt gedrückt (شما فشار داده‌اید)\nsie/Sie haben gedrückt (آن‌ها/شما (محترمانه) فشار داده‌اند)\n\nحالت منفی (Präsens):\nich drücke nicht (من فشار نمی‌دهم)\ndu drückst nicht (تو فشار نمی‌دهی)\ner/sie/es drückt nicht (او فشار نمی‌دهد)\nwir drücken nicht (ما فشار نمی‌دهیم)\nihr drückt nicht (شما فشار نمی‌دهید)\nsie/Sie drücken nicht (آن‌ها/شما (محترمانه) فشار نمی‌دهند)",
+    "translate_fa": "فشار دادن - فشار می‌دهد - فشار داده است",
+    "file": "899_de.mp3"
+  },
+  {
+    "Filename": "903",
+    "Sound_de": "drucken - druckt - hat gedruckt",
+    "root": "حال (Präsens):\nich drucke (من چاپ می‌کنم)\ndu druckst (تو چاپ می‌کنی)\ner/sie/es druckt (او چاپ می‌کند)\nwir drucken (ما چاپ می‌کنیم)\nihr druckt (شما چاپ می‌کنید)\nsie/Sie drucken (آن‌ها/شما (محترمانه) چاپ می‌کنند)\n\nگذشته ساده (Präteritum):\nich druckte (من چاپ کردم)\ndu drucktest (تو چاپ کردی)\ner/sie/es druckte (او چاپ کرد)\nwir druckten (ما چاپ کردیم)\nihr drucktet (شما چاپ کردید)\nsie/Sie druckten (آن‌ها/شما (محترمانه) چاپ کردند)\n\nگذشته کامل (Perfekt):\nich habe gedruckt (من چاپ کرده‌ام)\ndu hast gedruckt (تو چاپ کرده‌ای)\ner/sie/es hat gedruckt (او چاپ کرده است)\nwir haben gedruckt (ما چاپ کرده‌ایم)\nihr habt gedruckt (شما چاپ کرده‌اید)\nsie/Sie haben gedruckt (آن‌ها/شما (محترمانه) چاپ کرده‌اند)\n\nحالت منفی (Präsens):\nich drucke nicht (من چاپ نمی‌کنم)\ndu druckst nicht (تو چاپ نمی‌کنی)\ner/sie/es druckt nicht (او چاپ نمی‌کند)\nwir drucken nicht (ما چاپ نمی‌کنیم)\nihr druckt nicht (شما چاپ نمی‌کنید)\nsie/Sie drucken nicht (آن‌ها/شما (محترمانه) چاپ نمی‌کنند)",
+    "translate_fa": "چاپ کردن - چاپ می‌کند - چاپ کرده است",
+    "file": "903_de.mp año3"
+  },
+  {
+    "Filename": "921",
+    "Sound_de": "dürfen - darf - durfte - hat gedurft",
+    "root": "حال (Präsens):\nich darf (من اجازه دارم)\ndu darfst (تو اجازه داری)\ner/sie/es darf (او اجازه دارد)\nwir dürfen (ما اجازه داریم)\nihr dürft (شما اجازه دارید)\nsie/Sie dürfen (آن‌ها/شما (محترمانه) اجازه دارند)\n\nگذشته ساده (Präteritum):\nich durfte (من اجازه داشتم)\ndu durftest (تو اجازه داشتی)\ner/sie/es durfte (او اجازه داشت)\nwir durften (ما اجازه داشتیم)\nihr durftet (شما اجازه داشتید)\nsie/Sie durften (آن‌ها/شما (محترمانه) اجازه داشتند)\n\nگذشته کامل (Perfekt):\nich habe gedurft (من اجازه داشته‌ام)\ndu hast gedurft (تو اجازه داشته‌ای)\ner/sie/es hat gedurft (او اجازه داشته است)\nwir haben gedurft (ما اجازه داشته‌ایم)\nihr habt gedurft (شما اجازه داشته‌اید)\nsie/Sie haben gedurft (آن‌ها/شما (محترمانه) اجازه داشته‌اند)\n\nحالت منفی (Präsens):\nich darf nicht (من اجازه ندارم)\ndu darfst nicht (تو اجازه نداری)\ner/sie/es darf nicht (او اجازه ندارد)\nwir dürfen nicht (ما اجازه نداریم)\nihr dürft nicht (شما اجازه ندارید)\nsie/Sie dürfen nicht (آن‌ها/شما (محترمانه) اجازه ندارند)",
+    "translate_fa": "اجازه داشتن - اجازه دارد - اجازه داشت - اجازه داشته است",
+    "file": "921_de.mp3"
+  },
+  {
+    "Filename": "929",
+    "Sound_de": "duschen - duscht - hat geduscht",
+    "root": "حال (Präsens):\nich dusche (من دوش می‌گیرم)\ndu duschst (تو دوش می‌گیری)\ner/sie/es duscht (او دوش می‌گیرد)\nwir duschen (ما دوش می‌گیریم)\nihr duscht (شما دوش می‌گیرید)\nsie/Sie duschen (آن‌ها/شما (محترمانه) دوش می‌گیرند)\n\nگذشته ساده (Präteritum):\nich duschte (من دوش گرفتم)\ndu duschtest (تو دوش گرفتی)\ner/sie/es duschte (او دوش گرفت)\nwir duschten (ما دوش گرفتیم)\nihr duschtet (شما دوش گرفتید)\nsie/Sie duschten (آن‌ها/شما (محترمانه) دوش گرفتند)\n\nگذشته کامل (Perfekt):\nich habe geduscht (من دوش گرفته‌ام)\ndu hast geduscht (تو دوش گرفته‌ای)\ner/sie/es hat geduscht (او دوش گرفته است)\nwir haben geduscht (ما دوش گرفته‌ایم)\nihr habt geduscht (شما دوش گرفته‌اید)\nsie/Sie haben geduscht (آن‌ها/شما (محترمانه) دوش گرفته‌اند)\n\nحالت منفی (Präsens):\nich dusche nicht (من دوش نمی‌گیرم)\ndu duschst nicht (تو دوش نمی‌گیری)\ner/sie/es duscht nicht (او دوش نمی‌گیرد)\nwir duschen nicht (ما دوش نمی‌گیریم)\nihr duscht nicht (شما دوش نمی‌گیرید)\nsie/Sie duschen nicht (آن‌ها/شما (محترمانه) دوش نمی‌گیرند)",
+    "translate_fa": "دوش گرفتن - دوش می‌گیرد - دوش گرفته است",
+    "file": "929_de.mp3"
+  },
+  {
+    "Filename": "964",
+    "Sound_de": "einkaufen - kauft ein - hat eingekauft",
+    "root": "حال (Präsens):\nich kaufe ein (من خرید می‌کنم)\ndu kaufst ein (تو خرید می‌کنی)\ner/sie/es kauft ein (او خرید می‌کند)\nwir kaufen ein (ما خرید می‌کنیم)\nihr kauft ein (شما خرید می‌کنید)\nsie/Sie kaufen ein (آن‌ها/شما (محترمانه) خرید می‌کنند)\n\nگذشته ساده (Präteritum):\nich kaufte ein (من خرید کردم)\ndu kauftest ein (تو خرید کردی)\ner/sie/es kaufte ein (او خرید کرد)\nwir kauften ein (ما خرید کردیم)\nihr kauftet ein (شما خرید کردید)\nsie/Sie kauften ein (آن‌ها/شما (محترمانه) خرید کردند)\n\nگذشته کامل (Perfekt):\nich habe eingekauft (من خرید کرده‌ام)\ndu hast eingekauft (تو خرید کرده‌ای)\ner/sie/es hat eingekauft (او خرید کرده است)\nwir haben eingekauft (ما خرید کرده‌ایم)\nihr habt eingekauft (شما خرید کرده‌اید)\nsie/Sie haben eingekauft (آن‌ها/شما (محترمانه) خرید کرده‌اند)\n\nحالت منفی (Präsens):\nich kaufe nicht ein (من خرید نمی‌کنم)\ndu kaufst nicht ein (تو خرید نمی‌کنی)\ner/sie/es kauft nicht ein (او خرید نمی‌کند)\nwir kaufen nicht ein (ما خرید نمی‌کنیم)\nihr kauft nicht ein (شما خرید نمی‌کنید)\nsie/Sie kaufen nicht ein (آن‌ها/شما (محترمانه) خرید نمی‌کنند)",
+    "translate_fa": "خرید کردن - خرید می‌کند - خرید کرده است",
+    "file": "964_de.mp3"
+  },
+  {
+    "Filename": "968",
+    "Sound_de": "einladen - lädt ein - hat eingeladen",
+    "root": "حال (Präsens):\nich lade ein (من دعوت می‌کنم)\ndu lädst ein (تو دعوت می‌کنی)\ner/sie/es lädt ein (او دعوت می‌کند)\nwir laden ein (ما دعوت می‌کنیم)\nihr ladet ein (شما دعوت می‌کنید)\nsie/Sie laden ein (آن‌ها/شما (محترمانه) دعوت می‌کنند)\n\nگذشته ساده (Präteritum):\nich lud ein (من دعوت کردم)\ndu ludest ein (تو دعوت کردی)\ner/sie/es lud ein (او دعوت کرد)\nwir luden ein (ما دعوت کردیم)\nihr ludet ein (شما دعوت کردید)\nsie/Sie luden ein (آن‌ها/شما (محترمانه) دعوت کردند)\n\nگذشته کامل (Perfekt):\nich habe eingeladen (من دعوت کرده‌ام)\ndu hast eingeladen (تو دعوت کرده‌ای)\ner/sie/es hat eingeladen (او دعوت کرده است)\nwir haben eingeladen (ما دعوت کرده‌ایم)\nihr habt eingeladen (شما دعوت کرده‌اید)\nsie/Sie haben eingeladen (آن‌ها/شما (محترمانه) دعوت کرده‌اند)\n\nحالت منفی (Präsens):\nich lade nicht ein (من دعوت نمی‌کنم)\ndu lädst nicht ein (تو دعوت نمی‌کنی)\ner/sie/es lädt nicht ein (او دعوت نمی‌کند)\nwir laden nicht ein (ما دعوت نمی‌کنیم)\nihr ladet nicht ein (شما دعوت نمی‌کنید)\nsie/Sie laden nicht ein (آن‌ها/شما (محترمانه) دعوت نمی‌کنند)",
+    "translate_fa": "دعوت کردن - دعوت می‌کند - دعوت کرده است",
+    "file": "968_de.mp3"
+  },
+  {
+    "Filename": "976",
+    "Sound_de": "einpacken - packt ein - hat eingepackt",
+    "root": "حال (Präsens):\nich packe ein (من بسته‌بندی می‌کنم)\ndu packst ein (تو بسته‌بندی می‌کنی)\ner/sie/es packt ein (او بسته‌بندی می‌کند)\nwir packen ein (ما بسته‌بندی می‌کنیم)\nihr packt ein (شما بسته‌بندی می‌کنید)\nsie/Sie packen ein (آن‌ها/شما (محترمانه) بسته‌بندی می‌کنند)\n\nگذشته ساده (Präteritum):\nich packte ein (من بسته‌بندی کردم)\ndu packtest ein (تو بسته‌بندی کردی)\ner/sie/es packte ein (او بسته‌بندی کرد)\nwir packten ein (ما بسته‌بندی کردیم)\nihr packtet ein (شما بسته‌بندی کردید)\nsie/Sie packten ein (آن‌ها/شما (محترمانه) بسته‌بندی کردند)\n\nگذشته کامل (Perfekt):\nich habe eingepackt (من بسته‌بندی کرده‌ام)\ndu hast eingepackt (تو بسته‌بندی کرده‌ای)\ner/sie/es hat eingepackt (او بسته‌بندی کرده است)\nwir haben eingepackt (ما بسته‌بندی کرده‌ایم)\nihr habt eingepackt (شما بسته‌بندی کرده‌اید)\nsie/Sie haben eingepackt (آن‌ها/شما (محترمانه) بسته‌بندی کرده‌اند)\n\nحالت منفی (Präsens):\nich packe nicht ein (من بسته‌بندی نمی‌کنم)\ndu packst nicht ein (تو بسته‌بندی نمی‌کنی)\ner/sie/es packt nicht ein (او بسته‌بندی نمی‌کند)\nwir packen nicht ein (ما بسته‌بندی نمی‌کنیم)\nihr packt nicht ein (شما بسته‌بندی نمی‌کنید)\nsie/Sie packen nicht ein (آن‌ها/شما (محترمانه) بسته‌بندی نمی‌کنند)",
+    "translate_fa": "بسته‌بندی کردن - بسته‌بندی می‌کند - بسته‌بندی کرده است",
+    "file": "976_de.mp3"
+  },
+  {
+    "Filename": "979",
+    "Sound_de": "einsteigen - steigt ein - ist eingestiegen",
+    "root": "حال (Präsens):\nich steige ein (من سوار می‌شوم)\ndu steigst ein (تو سوار می‌شوی)\ner/sie/es steigt ein (او سوار می‌شود)\nwir steigen ein (ما سوار می‌شویم)\nihr steigt ein (شما سوار می‌شوید)\nsie/Sie steigen ein (آن‌ها/شما (محترمانه) سوار می‌شوند)\n\nگذشته ساده (Präteritum):\nich stieg ein (من سوار شدم)\ndu stiegst ein (تو سوار شدی)\ner/sie/es stieg ein (او سوار شد)\nwir stiegen ein (ما سوار شدیم)\nihr stiegt ein (شما سوار شدید)\nsie/Sie stiegen ein (آن‌ها/شما (محترمانه) سوار شدند)\n\nگذشته کامل (Perfekt):\nich bin eingestiegen (من سوار شده‌ام)\ndu bist eingestiegen (تو سوار شده‌ای)\ner/sie/es ist eingestiegen (او سوار شده است)\nwir sind eingestiegen (ما سوار شده‌ایم)\nihr seid eingestiegen (شما سوار شده‌اید)\nsie/Sie sind eingestiegen (آن‌ها/شما (محترمانه) سوار شده‌اند)\n\nحالت منفی (Präsens):\nich steige nicht ein (من سوار نمی‌شوم)\ndu steigst nicht ein (تو سوار نمی‌شوی)\ner/sie/es steigt nicht ein (او سوار نمی‌شود)\nwir steigen nicht ein (ما سوار نمی‌شویم)\nihr steigt nicht ein (شما سوار نمی‌شوید)\nsie/Sie steigen nicht ein (آن‌ها/شما (محترمانه) سوار نمی‌شوند)",
+    "translate_fa": "سوار شدن - سوار می‌شود - سوار شده است",
+    "file": "979_de.mp3"
+  },
+  {
+    "Filename": "982",
+    "Sound_de": "eintragen - trägt ein - hat eingetragen",
+    "root": "حال (Präsens):\nich trage ein (من ثبت می‌کنم)\ndu trägst ein (تو ثبت می‌کنی)\ner/sie/es trägt ein (او ثبت می‌کند)\nwir tragen ein (ما ثبت می‌کنیم)\nihr tragt ein (شما ثبت می‌کنید)\nsie/Sie tragen ein (آن‌ها/شما (محترمانه) ثبت می‌کنند)\n\nگذشته ساده (Präteritum):\nich trug ein (من ثبت کردم)\ndu trugst ein (تو ثبت کردی)\ner/sie/es trug ein (او ثبت کرد)\nwir trugen ein (ما ثبت کردیم)\nihr trugt ein (شما ثبت کردید)\nsie/Sie trugen ein (آن‌ها/شما (محترمانه) ثبت کردند)\n\nگذشته کامل (Perfekt):\nich habe eingetragen (من ثبت کرده‌ام)\ndu hast eingetragen (تو ثبت کرده‌ای)\ner/sie/es hat eingetragen (او ثبت کرده است)\nwir haben eingetragen (ما ثبت کرده‌ایم)\nihr habt eingetragen (شما ثبت کرده‌اید)\nsie/Sie haben eingetragen (آن‌ها/شما (محترمانه) ثبت کرده‌اند)\n\nحالت منفی (Präsens):\nich trage nicht ein (من ثبت نمی‌کنم)\ndu trägst nicht ein (تو ثبت نمی‌کنی)\ner/sie/es trägt nicht ein (او ثبت نمی‌کند)\nwir tragen nicht ein (ما ثبت نمی‌کنیم)\nihr tragt nicht ein (شما ثبت نمی‌کنید)\nsie/Sie tragen nicht ein (آن‌ها/شما (محترمانه) ثبت نمی‌کنند)",
+    "translate_fa": "ثبت کردن - ثبت می‌کند - ثبت کرده است",
+    "file": "982_de.mp3"
+  },
+  {
+    "Filename": "988",
+    "Sound_de": "einverstanden sein - ist einverstanden - war einverstanden - ist einverstanden gewesen",
+    "root": "حال (Präsens):\nich bin einverstanden (من موافقم)\ndu bist einverstanden (تو موافقی)\ner/sie/es ist einverstanden (او موافق است)\nwir sind einverstanden (ما موافقیم)\nihr seid einverstanden (شما موافقید)\nsie/Sie sind einverstanden (آن‌ها/شما (محترمانه) موافقند)\n\nگذشته ساده (Präteritum):\nich war einverstanden (من موافق بودم)\ndu warst einverstanden (تو موافق بودی)\ner/sie/es war einverstanden (او موافق بود)\nwir waren einverstanden (ما موافق بودیم)\nihr wart einverstanden (شما موافق بودید)\nsie/Sie waren einverstanden (آن‌ها/شما (محترمانه) موافق بودند)\n\nگذشته کامل (Perfekt):\nich bin einverstanden gewesen (من موافق بوده‌ام)\ndu bist einverstanden gewesen (تو موافق بوده‌ای)\ner/sie/es ist einverstanden gewesen (او موافق بوده است)\nwir sind einverstanden gewesen (ما موافق بوده‌ایم)\nihr seid einverstanden gewesen (شما موافق بوده‌اید)\nsie/Sie sind einverstanden gewesen (آن‌ها/شما (محترمانه) موافق بوده‌اند)\n\nحالت منفی (Präsens):\nich bin nicht einverstanden (من موافق نیستم)\ndu bist nicht einverstanden (تو موافق نیستی)\ner/sie/es ist nicht einverstanden (او موافق نیست)\nwir sind nicht einverstanden (ما موافق نیستیم)\nihr seid nicht einverstanden (شما موافق نیستید)\nsie/Sie sind nicht einverstanden (آن‌ها/شما (محترمانه) موافق نیستند)",
+    "translate_fa": "موافق بودن - موافق است - موافق بود - موافق بوده است",
+    "file": "988_de.mp3"
+  },
+  {
+    "Filename": "995",
+    "Sound_de": "einziehen - zieht ein - ist eingezogen",
+    "root": "حال (Präsens):\nich ziehe ein (من نقل مکان می‌کنم)\ndu ziehst ein (تو نقل مکان می‌کنی)\ner/sie/es zieht ein (او نقل مکان می‌کند)\nwir ziehen ein (ما نقل مکان می‌کنیم)\nihr zieht ein (شما نقل مکان می‌کنید)\nsie/Sie ziehen ein (آن‌ها/شما (محترمانه) نقل مکان می‌کنند)\n\nگذشته ساده (Präteritum):\nich zog ein (من نقل مکان کردم)\ndu zogst ein (تو نقل مکان کردی)\ner/sie/es zog ein (او نقل مکان کرد)\nwir zogen ein (ما نقل مکان کردیم)\nihr zogt ein (شما نقل مکان کردید)\nsie/Sie zogen ein (آن‌ها/شما (محترمانه) نقل مکان کردند)\n\nگذشته کامل (Perfekt):\nich bin eingezogen (من نقل مکان کرده‌ام)\ndu bist eingezogen (تو نقل مکان کرده‌ای)\ner/sie/es ist eingezogen (او نقل مکان کرده است)\nwir sind eingezogen (ما نقل مکان کرده‌ایم)\nihr seid eingezogen (شما نقل مکان کرده‌اید)\nsie/Sie sind eingezogen (آن‌ها/شما (محترمانه) نقل مکان کرده‌اند)\n\nحالت منفی (Präsens):\nich ziehe nicht ein (من نقل مکان نمی‌کنم)\ndu ziehst nicht ein (تو نقل مکان نمی‌کنی)\ner/sie/es zieht nicht ein (او نقل مکان نمی‌کند)\nwir ziehen nicht ein (ما نقل مکان نمی‌کنیم)\nihr zieht nicht ein (شما نقل مکان نمی‌کنید)\nsie/Sie ziehen nicht ein (آن‌ها/شما (محترمانه) نقل مکان نمی‌کنند)",
+    "translate_fa": "اسکان کردن - اسکان می‌کند - اسکان کرده است",
+    "file": "995_de.mp3"
+  },
+  {
+    "Filename": "1004",
+    "Sound_de": "empfehlen - empfiehlt - hat empfohlen",
+    "root": "حال (Präsens):\nich empfehle (من توصیه می‌کنم)\ndu empfiehlst (تو توصیه می‌کنی)\ner/sie/es empfiehlt (او توصیه می‌کند)\nwir empfehlen (ما توصیه می‌کنیم)\nihr empfehlt (شما توصیه می‌کنید)\nsie/Sie empfehlen (آن‌ها/شما (محترمانه) توصیه می‌کنند)\n\nگذشته ساده (Präteritum):\nich empfahl (من توصیه کردم)\ndu empfahlst (تو توصیه کردی)\ner/sie/es empfahl (او توصیه کرد)\nwir empfahlen (ما توصیه کردیم)\nihr empfahlt (شما توصیه کردید)\nsie/Sie empfahlen (آن‌ها/شما (محترمانه) توصیه کردند)\n\nگذشته کامل (Perfekt):\nich habe empfohlen (من توصیه کرده‌ام)\ndu hast empfohlen (تو توصیه کرده‌ای)\ner/sie/es hat empfohlen (او توصیه کرده است)\nwir haben empfohlen (ما توصیه کرده‌ایم)\nihr habt empfohlen (شما توصیه کرده‌اید)\nsie/Sie haben empfohlen (آن‌ها/شما (محترمانه) توصیه کرده‌اند)\n\nحالت منفی (Präsens):\nich empfehle nicht (من توصیه نمی‌کنم)\ndu empfiehlst nicht (تو توصیه نمی‌کنی)\ner/sie/es empfiehlt nicht (او توصیه نمی‌کند)\nwir empfehlen nicht (ما توصیه نمی‌کنیم)\nihr empfehlt nicht (شما توصیه نمی‌کنید)\nsie/Sie empfehlen nicht (آن‌ها/شما (محترمانه) توصیه نمی‌کنند)",
+    "translate_fa": "توصیه کردن - توصیه می‌کند - توصیه کرده است",
+    "file": "1004_de.mp3"
+  },
+  {
+    "Filename": "1009",
+    "Sound_de": "enden - endet - hat geendet",
+    "root": "حال (Präsens):\nich ende (من پایان می‌دهم)\ndu endest (تو پایان می‌دهی)\ner/sie/es endet (او پایان می‌دهد)\nwir enden (ما پایان می‌دهیم)\nihr endet (شما پایان می‌دهید)\nsie/Sie enden (آن‌ها/شما (محترمانه) پایان می‌دهند)\n\nگذشته ساده (Präteritum):\nich endete (من پایان دادم)\ndu endetest (تو پایان دادی)\ner/sie/es endete (او پایان داد)\nwir endeten (ما پایان دادیم)\nihr endetet (شما پایان دادید)\nsie/Sie endeten (آن‌ها/شما (محترمانه) پایان دادند)\n\nگذشته کامل (Perfekt):\nich habe geendet (من پایان داده‌ام)\ndu hast geendet (تو پایان داده‌ای)\ner/sie/es hat geendet (او پایان داده است)\nwir haben geendet (ما پایان داده‌ایم)\nihr habt geendet (شما پایان داده‌اید)\nsie/Sie haben geendet (آن‌ها/شما (محترمانه) پایان داده‌اند)\n\nحالت منفی (Präsens):\nich ende nicht (من پایان نمی‌دهم)\ndu endest nicht (تو پایان نمی‌دهی)\ner/sie/es endet nicht (او پایان نمی‌دهد)\nwir enden nicht (ما پایان نمی‌دهیم)\nihr endet nicht (شما پایان نمی‌دهید)\nsie/Sie enden nicht (آن‌ها/شما (محترمانه) پایان نمی‌دهند)",
+    "translate_fa": "پایان یافتن - پایان می‌یابد - پایان یافته است",
+    "file": "1009_de.mp3"
+  },
+  {
+    "Filename": "1017",
+    "Sound_de": "entschuldigen - entschuldigt - hat اختیاری",
+    "root": "حال (Präsens):\nich entschuldige (من عذرخواهی می‌کنم)\ndu entschuldigst (تو عذرخواهی می‌کنی)\ner/sie/es entschuldigt (او عذرخواهی می‌کند)\nwir entschuldigen (ما عذرخواهی می‌کنیم)\nihr entschuldigt (شما عذرخواهی می‌کنید)\nsie/Sie entschuldigen (آن‌ها/شما (محترمانه) عذرخواهی می‌کنند)\n\nگذشته ساده (Präteritum):\nich entschuldigte (من عذرخواهی کردم)\ndu entschuldigtest (تو عذرخواهی کردی)\ner/sie/es entschuldigte (او عذرخواهی کرد)\nwir entschuldigten (ما عذرخواهی کردیم)\nihr entschuldigtet (شما عذرخواهی کردید)\nsie/Sie entschuldigten (آن‌ها/شما (محترمانه) عذرخواهی کردند)\n\nگذشته کامل (Perfekt):\nich habe entschuldigt (من عذرخواهی کرده‌ام)\ndu hast entschuldigt (تو عذرخواهی کرده‌ای)\ner/sie/es hat entschuldigt (او عذرخواهی کرده است)\nwir haben entschuldigt (ما عذرخواهی کرده‌ایم)\nihr habt entschuldigt (شما عذرخواهی کرده‌اید)\nsie/Sie haben entschuldigt (آن‌ها/شما (محترمانه) عذرخواهی کرده‌اند)\n\nحالت منفی (Präsens):\nich entschuldige nicht (من عذرخواهی نمی‌کنم)\ndu entschuldigst nicht (تو عذرخواهی نمی‌کنی)\ner/sie/es entschuldigt nicht (او عذرخواهی نمی‌کند)\nwir entschuldigen nicht (ما عذرخواهی نمی‌کنیم)\nihr entschuldigt nicht (شما عذرخواهی نمی‌کنید)\nsie/Sie entschuldigen nicht (آن‌ها/شما (محترمانه) عذرخواهی نمی‌کنند)",
+    "translate_fa": "عذرخواهی کردن - عذرخواهی می‌کند - عذرخواهی کرده است",
+    "file": "1017_de.mp3"
+  },
+  {
+    "Filename": "1026",
+    "Sound_de": "erinnern (sich) - erinnert - hat erinnert",
+    "root": "حال (Präsens):\nich erinnere mich (من به یاد می‌آورم)\ndu erinnerst dich (تو به یاد می‌آوری)\ner/sie/es erinnert sich (او به یاد می‌آورد)\nwir erinnern uns (ما به یاد می‌آوریم)\nihr erinnert euch (شما به یاد می‌آورید)\nsie/Sie erinnern sich (آن‌ها/شما (محترمانه) به یاد می‌آورند)\n\nگذشته ساده (Präteritum):\nich erinnerte mich (من به یاد آوردم)\ndu erinnertest dich (تو به یاد آوردی)\ner/sie/es erinnerte sich (او به یاد آورد)\nwir erinnerten uns (ما به یاد آوردیم)\nihr erinnertet euch (شما به یاد آوردید)\nsie/Sie erinnerten sich (آن‌ها/شما (محترمانه) به یاد آوردند)\n\nگذشته کامل (Perfekt):\nich habe mich erinnert (من به یاد آورده‌ام)\ndu hast dich erinnert (تو به یاد آورده‌ای)\ner/sie/es hat sich erinnert (او به یاد آورده است)\nwir haben uns erinnert (ما به یاد آورده‌ایم)\nihr habt euch erinnert (شما به یاد آورده‌اید)\nsie/Sie haben sich erinnert (آن‌ها/شما (محترمانه) به یاد آورده‌اند)\n\nحالت منفی (Präsens):\nich erinnere mich nicht (من به یاد نمی‌آورم)\ndu erinnerst dich nicht (تو به یاد نمی‌آوری)\ner/sie/es erinnert sich nicht (او به یاد نمی‌آورد)\nwir erinnern uns nicht (ما به یاد نمی‌آوریم)\nihr erinnert euch nicht (شما به یاد نمی‌آورید)\nsie/Sie erinnern sich nicht (آن‌ها/شما (محترمانه) به یاد نمی‌آورند)",
+    "translate_fa": "به یاد آوردن - به یاد می‌آورد - به یاد آورده است",
+    "file": "1026_de.mp3"
+  },
+  {
+    "Filename": "1029",
+    "Sound_de": "erkältet sein - ist erkältet - war erkältet - ist erkältet gewesen",
+    "root": "حال (Präsens):\nich bin erkältet (من سرما خورده‌ام)\ndu bist erkältet (تو سرما خورده‌ای)\ner/sie/es ist erkältet (او سرما خورده است)\nwir sind erkältet (ما سرما خورده‌ایم)\nihr seid erkältet (شما سرما خورده‌اید)\nsie/Sie sind erkältet (آن‌ها/شما (محترمانه) سرما خورده‌اند)\n\nگذشته ساده (Präteritum):\nich war erkältet (من سرما خورده بودم)\ndu warst erkältet (تو سرما خورده بودی)\ner/sie/es war erkältet (او سرما خورده بود)\nwir waren erkältet (ما سرما خورده بودیم)\nihr wart erkältet (شما سرما خورده بودید)\nsie/Sie waren erkältet (آن‌ها/شما (محترمانه) سرما خورده بودند)\n\nگذشته کامل (Perfekt):\nich bin erkältet gewesen (من سرما خورده بوده‌ام)\ndu bist erkältet gewesen (تو سرما خورده بوده‌ای)\ner/sie/es ist erkältet gewesen (او سرما خورده بوده است)\nwir sind erkältet gewesen (ما سرما خورده بوده‌ایم)\nihr seid erkältet gewesen (شما سرما خورده بوده‌اید)\nsie/Sie sind erkältet gewesen (آن‌ها/شما (محترمانه) سرما خورده بوده‌اند)\n\nحالت منفی (Präsens):\nich bin nicht erkältet (من سرما نخورده‌ام)\ndu bist nicht erkältet (تو سرما نخورده‌ای)\ner/sie/es ist nicht erkältet (او سرما نخورده است)\nwir sind nicht erkältet (ما سرما نخورده‌ایم)\nihr seid nicht erkältet (شما سرما نخورده‌اید)\nsie/Sie sind nicht erkältet (آن‌ها/شما (محترمانه) سرما نخورده‌اند)",
+    "translate_fa": "سرماخورده بودن - سرماخورده است - سرماخورده بود - سرماخورده بوده است",
+    "file": "1029_de.mp3"
+  },
+  {
+    "Filename": "1031",
+    "Sound_de": "erklären - erklärt - hat erklärt",
+    "root": "حال (Präsens):\nich erkläre (من توضیح می‌دهم)\ndu erklärst (تو توضیح می‌دهی)\ner/sie/es erklärt (او توضیح می‌دهد)\nwir erklären (ما توضیح می‌دهیم)\nihr erklärt (شما توضیح می‌دهید)\nsie/Sie erklären (آن‌ها/شما (محترمانه) توضیح می‌دهند)\n\nگذشته ساده (Präteritum):\nich erklärte (من توضیح دادم)\ndu erklärtest (تو توضیح دادی)\ner/sie/es erklärte (او توضیح داد)\nwir erklärten (ما توضیح دادیم)\nihr erklärtet (شما توضیح دادید)\nsie/Sie erklärten (آن‌ها/شما (محترمانه) توضیح دادند)\n\nگذشته کامل (Perfekt):\nich habe erklärt (من توضیح داده‌ام)\ndu hast erklärt (تو توضیح داده‌ای)\ner/sie/es hat erklärt (او توضیح داده است)\nwir haben erklärt (ما توضیح داده‌ایم)\nihr habt erklärt (شما توضیح داده‌اید)\nsie/Sie haben erklärt (آن‌ها/شما (محترمانه) توضیح داده‌اند)\n\nحالت منفی (Präsens):\nich erkläre nicht (من توضیح نمی‌دهم)\ndu erklärst nicht (تو توضیح نمی‌دهی)\ner/sie/es erklärt nicht (او توضیح نمی‌دهد)\nwir erklären nicht (ما توضیح نمی‌دهیم)\nihr erklärt nicht (شما توضیح نمی‌دهید)\nsie/Sie erklären nicht (آن‌ها/شما (محترمانه) توضیح نمی‌دهند)",
+    "translate_fa": "توضیح دادن - توضیح می‌دهد - توضیح داده است",
+    "file": "1031_de.mp3"
+  },
+  {
+    "Filename": "1033",
+    "Sound_de": "erlauben - erlaubt - hat erlaubt",
+    "root": "حال (Präsens):\nich erlaube (من اجازه می‌دهم)\ndu erlaubst (تو اجازه می‌دهی)\ner/sie/es erlaubt (او اجازه می‌دهد)\nwir erlauben (ما اجازه می‌دهیم)\nihr erlaubt (شما اجازه می‌دهید)\nsie/Sie erlauben (آن‌ها/شما (محترمانه) اجازه می‌دهند)\n\nگذشته ساده (Präteritum):\nich erlaubte (من اجازه دادم)\ndu erlaubtest (تو اجازه دادی)\ner/sie/es erlaubte (او اجازه داد)\nwir erlaubten (ما اجازه دادیم)\nihr erlaubtet (شما اجازه دادید)\nsie/Sie erlaubten (آن‌ها/شما (محترمانه) اجازه دادند)\n\nگذشته کامل (Perfekt):\nich habe erlaubt (من اجازه داده‌ام)\ndu hast erlaubt (تو اجازه داده‌ای)\ner/sie/es hat erlaubt (او اجازه داده است)\nwir haben erlaubt (ما اجازه داده‌ایم)\nihr habt erlaubt (شما اجازه داده‌اید)\nsie/Sie haben erlaubt (آن‌ها/شما (محترمانه) اجازه داده‌اند)\n\nحالت منفی (Präsens):\nich erlaube nicht (من اجازه نمی‌دهم)\ndu erlaubst nicht (تو اجازه نمی‌دهی)\ner/sie/es erlaubt nicht (او اجازه نمی‌دهد)\nwir erlauben nicht (ما اجازه نمی‌دهیم)\nihr erlaubt nicht (شما اجازه نمی‌دهید)\nsie/Sie erlauben nicht (آن‌ها/شما (محترمانه) اجازه نمی‌دهند)",
+    "translate_fa": "اجازه دادن - اجازه می‌دهد - اجازه داده است",
+    "file": "1033_de.mp3"
+  },
+  {
+    "Filename": "1035",
+    "Sound_de": "erlaubt sein - ist erlaubt - war erlaubt - ist erlaubt gewesen",
+    "root": "حال (Präsens):\nich bin erlaubt (من مجاز هستم)\ndu bist erlaubt (تو مجاز هستی)\ner/sie/es ist erlaubt (او مجاز است)\nwir sind erlaubt (ما مجاز هستیم)\nihr seid erlaubt (شما مجاز هستید)\nsie/Sie sind erlaubt (آن‌ها/شما (محترمانه) مجاز هستند)\n\nگذشته ساده (Präteritum):\nich war erlaubt (من مجاز بودم)\ndu warst erlaubt (تو مجاز بودی)\ner/sie/es war erlaubt (او مجاز بود)\nwir waren erlaubt (ما مجاز بودیم)\nihr wart erlaubt (شما مجاز بودید)\nsie/Sie waren erlaubt (آن‌ها/شما (محترمانه) مجاز بودند)\n\nگذشته کامل (Perfekt):\nich bin erlaubt gewesen (من مجاز بوده‌ام)\ndu bist erlaubt gewesen (تو مجاز بوده‌ای)\ner/sie/es ist erlaubt gewesen (او مجاز بوده است)\nwir sind erlaubt gewesen (ما مجاز بوده‌ایم)\nihr seid erlaubt gewesen (شما مجاز بوده‌اید)\nsie/Sie sind erlaubt gewesen (آن‌ها/شما (محترمانه) مجاز بوده‌اند)\n\nحالت منفی (Präsens):\nich bin nicht erlaubt (من مجاز نیستم)\ndu bist nicht erlaubt (تو مجاز نیستی)\ner/sie/es ist nicht erlaubt (او مجاز نیست)\nwir sind nicht erlaubt (ما مجاز نیستیم)\nihr seid nicht erlaubt (شما مجاز نیستید)\nsie/Sie sind nicht erlaubt (آن‌ها/شما (محترمانه) مجاز نیستند)",
+    "translate_fa": "مجاز بودن - مجاز است - مجاز بود - مجاز بوده است",
+    "file": "1035_de.mp3"
+  },
+  {
+    "Filename": "1041",
+    "Sound_de": "erreichen - erreicht - hat erreicht",
+    "root": "حال (Präsens):\nich erreiche (من می‌رسم/دستیابی می‌کنم)\ndu erreichst (تو می‌رسی/دستیابی می‌کنی)\ner/sie/es erreicht (او می‌رسد/دستیابی می‌کند)\nwir erreichen (ما می‌رسیم/دستیابی می‌کنیم)\nihr erreicht (شما می‌رسید/دستیابی می‌کنید)\nsie/Sie erreichen (آن‌ها/شما (محترمانه) می‌رسند/دستیابی می‌کنند)\n\nگذشته ساده (Präteritum):\nich erreichte (من رسیدم/دستیابی کردم)\ndu erreichtest (تو رسیدی/دستیابی کردی)\ner/sie/es erreichte (او رسید/دستیابی کرد)\nwir erreichten (ما رسیدیم/دستیابی کردیم)\nihr erreichtet (شما رسیدید/دستیابی کردید)\nsie/Sie erreichten (آن‌ها/شما (محترمانه) رسیدند/دستیابی کردند)\n\nگذشته کامل (Perfekt):\nich habe erreicht (من رسیده‌ام/دستیابی کرده‌ام)\ndu hast erreicht (تو رسیده‌ای/دستیابی کرده‌ای)\ner/sie/es hat erreicht (او رسیده است/دستیابی کرده است)\nwir haben erreicht (ما رسیده‌ایم/دستیابی کرده‌ایم)\nihr habt erreicht (شما رسیده‌اید/دستیابی کرده‌اید)\nsie/Sie haben erreicht (آن‌ها/شما (محترمانه) رسیده‌اند/دستیابی کرده‌اند)\n\nحالت منفی (Präsens):\nich erreiche nicht (من نمی‌رسم/دستیابی نمی‌کنم)\ndu erreichst nicht (تو نمی‌رسی/دستیابی نمی‌کنی)\ner/sie/es erreicht nicht (او نمی‌رسد/دستیابی نمی‌کند)\nwir erreichen nicht (ما نمی‌رسیم/دستیابی نمی‌کنیم)\nihr erreicht nicht (شما نمی‌رسید/دستیابی نمی‌کنید)\nsie/Sie erreichen nicht (آن‌ها/شما (محترمانه) نمی‌رسند/دستیابی نمی‌کنند)",
+    "translate_fa": "رسیدن - می‌رسد - رسیده است",
+    "file": "1041_de.mp3"
+  },
+  {
+    "Filename": "1050",
+    "Sound_de": "erzählen - erzählt - hat erzählt",
+    "root": "حال (Präsens):\nich erzähle (من تعریف می‌کنم)\ndu erzählst (تو تعریف می‌کنی)\ner/sie/es erzählt (او تعریف می‌کند)\nwir erzählen (ما تعریف می‌کنیم)\nihr erzählt (شما تعریف می‌کنید)\nsie/Sie erzählen (آن‌ها/شما (محترمانه) تعریف می‌کنند)\n\nگذشته ساده (Präteritum):\nich erzählte (من تعریف کردم)\ndu erzähltest (تو تعریف کردی)\ner/sie/es erzählte (او تعریف کرد)\nwir erzählten (ما تعریف کردیم)\nihr erzähltet (شما تعریف کردید)\nsie/Sie erzählten (آن‌ها/شما (محترمانه) تعریف کردند)\n\nگذشته کامل (Perfekt):\nich habe erzählt (من تعریف کرده‌ام)\ndu hast erzählt (تو تعریف کرده‌ای)\ner/sie/es hat erzählt (او تعریف کرده است)\nwir haben erzählt (ما تعریف کرده‌ایم)\nihr habt erzählt (شما تعریف کرده‌اید)\nsie/Sie haben erzählt (آن‌ها/شما (محترمانه) تعریف کرده‌اند)\n\nحالت منفی (Präsens):\nich erzähle nicht (من تعریف نمی‌کنم)\ndu erzählst nicht (تو تعریف نمی‌کنی)\ner/sie/es erzählt nicht (او تعریف نمی‌کند)\nwir erzählen nicht (ما تعریف نمی‌کنیم)\nihr erzählt nicht (شما تعریف نمی‌کنید)\nsie/Sie erzählen nicht (آن‌ها/شما (محترمانه) تعریف نمی‌کنند)",
+    "translate_fa": "گفتن - می‌گوید - گفته است",
+    "file": "1050_de.mp3"
+  },
+  {
+    "Filename": "1053",
+    "Sound_de": "essen - isst - hat gegessen",
+    "root": "حال (Präsens):\nich esse (من می‌خورم)\ndu isst (تو می‌خوری)\ner/sie/es isst (او می‌خورد)\nwir essen (ما می‌خوریم)\nihr esst (شما می‌خورید)\nsie/Sie essen (آن‌ها/شما (محترمانه) می‌خورند)\n\nگذشته ساده (Präteritum):\nich aß (من خوردم)\ndu aßest (تو خوردی)\ner/sie/es aß (او خورد)\nwir aßen (ما خوردیم)\nihr aßt (شما خوردید)\nsie/Sie aßen (آن‌ها/شما (محترمانه) خوردند)\n\nگذشته کامل (Perfekt):\nich habe gegessen (من خورده‌ام)\ndu hast gegessen (تو خورده‌ای)\ner/sie/es hat gegessen (او خورده است)\nwir haben gegessen (ما خورده‌ایم)\nihr habt gegessen (شما خورده‌اید)\nsie/Sie haben gegessen (آن‌ها/شما (محترمانه) خورده‌اند)\n\nحالت منفی (Präsens):\nich esse nicht (من نمی‌خورم)\ndu isst nicht (تو نمی‌خوری)\ner/sie/es isst nicht (او نمی‌خورد)\nwir essen nicht (ما نمی‌خوریم)\nihr esst nicht (شما نمی‌خورید)\nsie/Sie essen nicht (آن‌ها/شما (محترمانه) نمی‌خورند)",
+    "translate_fa": "خوردن - می‌خورد - خورده است",
+    "file": "1053_de.mp3"
+  },
+  {
+    "Filename": "1064",
+    "Sound_de": "abfliegen - fliegt (ab) - ist (ab)geflogen",
+    "root": "حال (Präsens):\nich fliege ab (من پرواز می‌کنم)\ndu fliegst ab (تو پرواز می‌کنی)\ner/sie/es fliegt ab (او پرواز می‌کند)\nwir fliegen ab (ما پرواز می‌کنیم)\nihr fliegt ab (شما پرواز می‌کنید)\nsie/Sie fliegen ab (آن‌ها/شما (محترمانه) پرواز می‌کنند)\n\nگذشته ساده (Präteritum):\nich flog ab (من پرواز کردم)\ndu flogst ab (تو پرواز کردی)\ner/sie/es flog ab (او پرواز کرد)\nwir flogen ab (ما پرواز کردیم)\nihr flogt ab (شما پرواز کردید)\nsie/Sie flogen ab (آن‌ها/شما (محترمانه) پرواز کردند)\n\nگذشته کامل (Perfekt):\nich bin abgeflogen (من پرواز کرده‌ام)\ndu bist abgeflogen (تو پرواز کرده‌ای)\ner/sie/es ist abgeflogen (او پرواز کرده است)\nwir sind abgeflogen (ما پرواز کرده‌ایم)\nihr seid abgeflogen (شما پرواز کرده‌اید)\nsie/Sie sind abgeflogen (آن‌ها/شما (محترمانه) پرواز کرده‌اند)\n\nحالت منفی (Präsens):\nich fliege nicht ab (من پرواز نمی‌کنم)\ndu fliegst nicht ab (تو پرواز نمی‌کنی)\ner/sie/es fliegt nicht ab (او پرواز نمی‌کند)\nwir fliegen nicht ab (ما پرواز نمی‌کنیم)\nihr fliegt nicht ab (شما پرواز نمی‌کنید)\nsie/Sie fliegen nicht ab (آن‌ها/شما (محترمانه) پرواز نمی‌کنند)",
+    "translate_fa": "پرواز کردن - پرواز می‌کند - پرواز کرده است",
+    "file": "1150_de.mp3"
+  },
+  {
+    "Filename": "1076",
+    "Sound_de": "fallen - fällt - ist gefallen",
+    "root": "حال (Präsens):\nich falle (من می‌افتم)\ndu fällst (تو می‌افتی)\ner/sie/es fällt (او می‌افتد)\nwir fallen (ما می‌افتیم)\nihr fallt (شما می‌افتید)\nsie/Sie fallen (آن‌ها/شما (محترمانه) می‌افتند)\n\nگذشته ساده (Präteritum):\nich fiel (من افتادم)\ndu fielst (تو افتادی)\ner/sie/es fiel (او افتاد)\nwir fielen (ما افتادیم)\nihr fielt (شما افتادید)\nsie/Sie fielen (آن‌ها/شما (محترمانه) افتادند)\n\nگذشته کامل (Perfekt):\nich bin gefallen (من افتاده‌ام)\ndu bist gefallen (تو افتاده‌ای)\ner/sie/es ist gefallen (او افتاده است)\nwir sind gefallen (ما افتاده‌ایم)\nihr seid gefallen (شما افتاده‌اید)\nsie/Sie sind gefallen (آن‌ها/شما (محترمانه) افتاده‌اند)\n\nحالت منفی (Präsens):\nich falle nicht (من نمی‌افتم)\ndu fällst nicht (تو نمی‌افتی)\ner/sie/es fällt nicht (او نمی‌افتد)\nwir fallen nicht (ما نمی‌افتیم)\nihr fallt nicht (شما نمی‌افتید)\nsie/Sie fallen nicht (آن‌ها/شما (محترمانه) نمی‌افتند)",
+    "translate_fa": "افتادن - می‌افتد - افتاده است",
+    "file": "1076_de.mp3"
+  },
+  {
+    "Filename": "1100",
+    "Sound_de": "fehlen - fehlt - hat gefehlt",
+    "root": "حال (Präsens):\nich fehle (من غایبم/کم دارم)\ndu fehlst (تو غایبی/کم داری)\ner/sie/es fehlt (او غایب است/کم دارد)\nwir fehlen (ما غایبیم/کم داریم)\nihr fehlt (شما غایبید/کم دارید)\nsie/Sie fehlen (آن‌ها/شما (محترمانه) غایبند/کم دارند)\n\nگذشته ساده (Präteritum):\nich fehlte (من غایب بودم/کم داشتم)\ndu fehltest (تو غایب بودی/کم داشتی)\ner/sie/es fehlte (او غایب بود/کم داشت)\nwir fehlten (ما غایب بودیم/کم داشتیم)\nihr fehltet (شما غایب بودید/کم داشتید)\nsie/Sie fehlten (آن‌ها/شما (محترمانه) غایب بودند/کم داشتند)\n\nگذشته کامل (Perfekt):\nich habe gefehlt (من غایب بوده‌ام/کم داشته‌ام)\ndu hast gefehlt (تو غایب بوده‌ای/کم داشته‌ای)\ner/sie/es hat gefehlt (او غایب بوده است/کم داشته است)\nwir haben gefehlt (ما غایب بوده‌ایم/کم داشته‌ایم)\nihr habt gefehlt (شما غایب بوده‌اید/کم داشته‌اید)\nsie/Sie haben gefehlt (آن‌ها/شما (محترمانه) غایب بوده‌اند/کم داشته‌اند)\n\nحالت منفی (Präsens):\nich fehle nicht (من غایب نیستم/کم ندارم)\ndu fehlst nicht (تو غایب نیستی/کم نداری)\ner/sie/es fehlt nicht (او غایب نیست/کم ندارد)\nwir fehlen nicht (ما غایب نیستیم/کم نداریم)\nihr fehlt nicht (شما غایب نیستید/کم ندارید)\nsie/Sie fehlen nicht (آن‌ها/شما (محترمانه) غایب نیستند/کم ندارند)",
+    "translate_fa": "غیبت کردن - غایب است - غایب بوده است",
+    "file": "1100_de.mp3"
+  }
+]

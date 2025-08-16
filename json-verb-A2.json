@@ -7,34 +7,6 @@
     "file": "17_de.mp3"
   },
   {
-    "Filename": "47",
-    "Sound_de": "ledig",
-    "root": "صفت/وضعیت (Präsens):\nich bin ledig (من مجرد هستم)\ndu bist ledig (تو مجرد هستی)\ner/sie/es ist ledig (او مجرد است)\nwir sind ledig (ما مجرد هستیم)\nihr seid ledig (شما مجرد هستید)\nsie/Sie sind ledig (آن‌ها/شما (محترمانه) مجرد هستید)\n\nحالت منفی (Präsens):\nich bin nicht ledig (من مجرد نیستم)\ndu bist nicht ledig (تو مجرد نیستی)\ner/sie/es ist nicht ledig (او مجرد نیست)\nwir sind nicht ledig (ما مجرد نیستیم)\nihr seid nicht ledig (شما مجرد نیستید)\nsie/Sie sind nicht ledig (آن‌ها/شما (محترمانه) مجرد نیستند)",
-    "translate_fa": "مجرد",
-    "file": "47_de.mp3"
-  },
-  {
-    "Filename": "48",
-    "Sound_de": "verheiratet",
-    "root": "صفت/وضعیت (Präsens):\nich bin verheiratet (من متأهل هستم)\ndu bist verheiratet (تو متأهل هستی)\ner/sie/es ist verheiratet (او متأهل است)\nwir sind verheiratet (ما متأهل هستیم)\nihr seid verheiratet (شما متأهل هستید)\nsie/Sie sind verheiratet (آن‌ها/شما (محترمانه) متأهل هستید)\n\nحالت منفی (Präsens):\nich bin nicht verheiratet (من متأهل نیستم)\ndu bist nicht verheiratet (تو متأهل نیستی)\ner/sie/es ist nicht verheiratet (او متأهل نیست)\nwir sind nicht verheiratet (ما متأهل نیستیم)\nihr seid nicht verheiratet (شما متأهل نیستید)\nsie/Sie sind nicht verheiratet (آن‌ها/شما (محترمانه) متأهل نیستند)",
-    "translate_fa": "متأهل",
-    "file": "48_de.mp3"
-  },
-  {
-    "Filename": "49",
-    "Sound_de": "getrennt",
-    "root": "صفت/وضعیت (Präsens):\nich bin getrennt (من جدا شده هستم)\ndu bist getrennt (تو جدا شده هستی)\ner/sie/es ist getrennt (او جدا شده است)\nwir sind getrennt (ما جدا شده هستیم)\nihr seid getrennt (شما جدا شده هستید)\nsie/Sie sind getrennt (آن‌ها/شما (محترمانه) جدا شده هستید)\n\nحالت منفی (Präsens):\nich bin nicht getrennt (من جدا شده نیستم)\ndu bist nicht getrennt (تو جدا شده نیستی)\ner/sie/es ist nicht getrennt (او جدا شده نیست)\nwir sind nicht getrennt (ما جدا شده نیستیم)\nihr seid nicht getrennt (شما جدا شده نیستید)\nsie/Sie sind nicht getrennt (آن‌ها/شما (محترمانه) جدا شده نیستند)",
-    "translate_fa": "جدا شده",
-    "file": "49_de.mp3"
-  },
-  {
-    "Filename": "50",
-    "Sound_de": "geschieden",
-    "root": "صفت/وضعیت (Präsens):\nich bin geschieden (من طلاق گرفته هستم)\ndu bist geschieden (تو طلاق گرفته هستی)\ner/sie/es ist geschieden (او طلاق گرفته است)\nwir sind geschieden (ما طلاق گرفته هستیم)\nihr seid geschieden (شما طلاق گرفته هستید)\nsie/Sie sind geschieden (آن‌ها/شما (محترمانه) طلاق گرفته هستید)\n\nحالت منفی (Präsens):\nich bin nicht geschieden (من طلاق گرفته نیستم)\ndu bist nicht geschieden (تو طلاق گرفته نیستی)\ner/sie/es ist nicht geschieden (او طلاق گرفته نیست)\nwir sind nicht geschieden (ما طلاق گرفته نیستیم)\nihr seid nicht geschieden (شما طلاق گرفته نیستید)\nsie/Sie sind nicht geschieden (آن‌ها/شما (محترمانه) طلاق گرفته نیستند)",
-    "translate_fa": "طلاق گرفته",
-    "file": "50_de.mp3"
-  },
-  {
     "Filename": "307",
     "Sound_de": "abgeben - gibt ab - hat abgegeben",
     "root": "حال (Präsens):\nich gebe ab (من تحویل می‌دهم)\ndu gibst ab (تو تحویل می‌دهی)\ner/sie/es gibt ab (او تحویل می‌دهد)\nwir geben ab (ما تحویل می‌دهیم)\nihr gebt ab (شما تحویل می‌دهید)\nsie/Sie geben ab (آن‌ها/شما (محترمانه) تحویل می‌دهند)\n\nگذشته ساده (Präteritum):\nich gab ab (من تحویل دادم)\ndu gabst ab (تو تحویل دادی)\ner/sie/es gab ab (او تحویل داد)\nwir gaben ab (ما تحویل دادیم)\nihr gabt ab (شما تحویل دادید)\nsie/Sie gaben ab (آن‌ها/شما (محترمانه) تحویل دادند)\n\nگذشته کامل (Perfekt):\nich habe abgegeben (من تحویل داده‌ام)\ndu hast abgegeben (تو تحویل داده‌ای)\ner/sie/es hat abgegeben (او تحویل داده است)\nwir haben abgegeben (ما تحویل داده‌ایم)\nihr habt abgegeben (شما تحویل داده‌اید)\nsie/Sie haben abgegeben (آن‌ها/شما (محترمانه) تحویل داده‌اند)\n\nحالت منفی (Präsens):\nich gebe nicht ab (من تحویل نمی‌دهم)\ndu gibst nicht ab (تو تحویل نمی‌دهی)\ner/sie/es gibt nicht ab (او تحویل نمی‌دهد)\nwir geben nicht ab (ما تحویل نمی‌دهیم)\nihr gebt nicht ab (شما تحویل نمی‌دهید)\nsie/Sie geben nicht ab (آن‌ها/شما (محترمانه) تحویل نمی‌دهند)",

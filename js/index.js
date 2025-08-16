@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const level = urlParams.get("level");
 
-  if (level && ["A1", "A2", "Verben A1"].includes(level)) {
+  if (level && ["A1", "A2", "A1 VERBEN"].includes(level)) {
     const jsonFile =
       level === "A1"
         ? "json-worterA1.json"
@@ -22,9 +22,8 @@ window.addEventListener("load", () => {
         : "json-verb-A1.json";
     const audioPath =
       level === "A1" ? "audio-A1" : level === "A2" ? "audio-A2" : "audio-A1";
-    document.querySelector(
-      "h1"
-    ).textContent = `GOETHE-ZERTIFIKAT ${level} - WORTLISTE`;
+    document.querySelector("h1").textContent =
+      level === "A1" || level === "A2" ? `${level} - WORTLISTE ` : level;
     container.dataset.audioPath = audioPath;
     localStorage.setItem("selectedLevel", level); // ذخیره سطح در localStorage
 
@@ -670,7 +669,7 @@ function createItem(group, groupIndex, itemIndexInGroup) {
         span.classList.contains("revealed")
       );
       spans.forEach((span) => {
-       span.classList.toggle("revealed", !allRevealed);
+        span.classList.toggle("revealed", !allRevealed);
       });
       itemBottom.dataset.revealIndex = allRevealed ? "0" : spans.length;
       const slider = itemBottom.querySelector(".reveal-slider");
@@ -880,7 +879,7 @@ function renderItems(items) {
           ? "A1"
           : document.querySelector(".content").dataset.audioPath === "audio-A2"
           ? "A2"
-          : "Verben A1";
+          : "A1 VERBEN";
       window.location.href = `worttest.html?groupIndex=${
         groupIndex + 1
       }&level=${level}`;
@@ -901,7 +900,7 @@ rootModal.addEventListener("click", (e) => {
 // back to A1 A2 card
 backButton.addEventListener("click", () => {
   document.querySelector("h1").textContent =
-    "GOETHE-ZERTIFIKAT A1 - A2 - Verben A1 WORTLISTE";
+    "Schnell Deutsch lernen mit -  SPRACH SPARK";
   document.querySelector(".level-selection").style.display = "flex";
   backButton.style.display = "none";
   container.innerHTML = "";
@@ -921,9 +920,8 @@ levelButtons.forEach((button) => {
     const audioPath =
       level === "A1" ? "audio-A1" : level === "A2" ? "audio-A2" : "audio-A1";
 
-    document.querySelector(
-      "h1"
-    ).textContent = `GOETHE-ZERTIFIKAT ${level} - WORTLISTE`;
+    document.querySelector("h1").textContent =
+      level === "A1" || level === "A2" ? `${level} - WORTLISTE ` : level;
     container.dataset.audioPath = audioPath;
 
     // ذخیره سطح انتخاب‌شده در localStorage

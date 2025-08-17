@@ -479,6 +479,11 @@ body {
   body {
     padding: 20px;
   }
+  
+  html, body {
+  height: 100dvh; /* ارتفاع واقعی صفحه */
+  margin: 0;
+}
   .container-header {
     flex-direction: row; /* حفظ چیدمان افقی در موبایل */
     gap: 10px;

@@ -544,6 +544,10 @@ h1 {
 
 @media (max-width: 600px) {
 
+  html, body {
+  height: 100dvh; /* ارتفاع واقعی صفحه */
+  margin: 0;
+}
   h1{
     font-size: 1.2em;
   }

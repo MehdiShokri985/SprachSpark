@@ -2768,7 +2768,7 @@
     "root": "نوع جمله: این یک جمله مرکب است که از دو جمله با حرف ربط 'dass' به هم وصل شده‌اند.\nIch: ضمیر فاعلی 'من'.\nhatte: فعل 'haben' در زمان گذشته ساده (Präteritum) صرف شده برای 'ich' به معنای 'داشتم'.\nkeine: حرف تعریف نفی برای 'Ahnung' است. 'Ahnung' مؤنث است، پس 'keine' به کار می‌رود.\nAhnung: اسم مؤنث به معنای 'ایده'. 'keine Ahnung haben' یک اصطلاح به معنای 'نمی‌دانم' است.\ndass: حرف ربط 'که' که یک جمله فرعی را به جمله اصلی وصل می‌کند. این حرف ربط باعث می‌شود فعل صرف شده به انتهای جمله فرعی برود.\ndu: ضمیر فاعلی 'تو'.\nheute: قید زمان 'امروز'.\nGeburtstag: اسم مذکر به معنای 'تولد'.\nhast: فعل 'haben' صرف شده برای 'du' که به انتهای جمله فرعی منتقل شده است.",
     "type": "جمله",
     "subject": ["ich"],
-    "verb": ["hatte"],
+    "verb": ["hatte","hast"],
     "auxiliary_verb": [null],
     "object": ["keine Ahnung"],
     "verb_part1": [null],
@@ -2929,8 +2929,8 @@
     "verb": ["kommt", "kommt"],
     "auxiliary_verb": [null, null],
     "object": [null, null],
-    "verb_part1": [null, null],
-    "verb_part2": [null, null]
+    "verb_part1": ["mit", null],
+    "verb_part2": ["kommt", null]
   },
   {
     "Filename": "337",

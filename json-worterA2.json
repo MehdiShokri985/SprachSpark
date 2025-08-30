@@ -2586,7 +2586,7 @@
   },
   {
     "Filename": "307",
-    "Sound_de": "abgeben - gibt ab - hat abgegeben",
+    "Sound_de": "abgeben",
     "translate_fa": "تحویل دادن",
     "file": "307_de.mp3",
     "root": "ab (خارج/جدا) + geben (دادن)",

@@ -3206,8 +3206,8 @@
   },
   {
     "Filename": "359",
-    "Sound_de": "anbieten - bietet an - hat angeboten",
-    "translate_fa": "پیشنهاد دادن - پیشنهاد می‌دهد - پیشنهاد داده است",
+    "Sound_de": "anbieten - bietet an",
+    "translate_fa": "پیشنهاد دادن - پیشنهاد می‌دهد ",
     "file": "359_de.mp3",
     "root": "an (به) + bieten (ارائه دادن)",
     "type": "فعل"
@@ -3275,7 +3275,7 @@
     "Sound_de": "Stellenangebote finden Sie in der Zeitung oder im Internet.",
     "translate_fa": "پیشنهادهای شغلی را می‌توانید در روزنامه یا اینترنت پیدا کنید。",
     "file": "365_de.mp3",
-    "root": "Stelle (شغل) + Angebot (پیشنهاد)",
+   "root": "نوع جمله: این یک جمله خبری است. فعل 'finden' در جایگاه دوم آمده است.\nStellenangebote: اسم جمع (Die Stellenangebote) به معنای «پیشنهادهای شغلی» که از ترکیب «Stelle» (شغل) و «Angebot» (پیشنهاد) ساخته شده است. این کلمه مفعول آکوزاتیو (Akkusativobjekt) است.\nfinden: فعل اصلی (Infinitiv: finden) به معنای «پیدا کردن» که برای فاعل «Sie» صرف شده است.\nSie: ضمیر فاعلی دوم شخص جمع محترمانه (شما) است.\nin: حرف اضافه (Präposition) به معنای «در». این حرف اضافه در اینجا با حالت داتیو (Dativ) به کار رفته است، زیرا به مکانی ثابت اشاره دارد.\nder Zeitung: اسم مؤنث (Die Zeitung) به معنای «روزنامه» که به دلیل حرف اضافه «in» در حالت داتیو به «der Zeitung» تبدیل شده است.\noder: حرف ربط (Konjunktion) به معنای «یا» که دو عبارت را به هم وصل می‌کند.\nim Internet: اسم خنثی (Das Internet) به معنای «اینترنت». «im» مخفف «in dem» است. «in» به دلیل اشاره به مکان ثابت، حالت داتیو می‌گیرد و حرف تعریف «das» به «dem» تبدیل شده و با «in» ترکیب می‌شود.",
     "type": "جمله",
     "subject": ["Sie"],
     "verb": ["finden"],

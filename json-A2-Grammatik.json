@@ -1,0 +1,193 @@
+[
+  {
+    "id": "1",
+    "title": "Präteritum",
+    "title_fa": "زمان گذشته ساده",
+    "level": "A2",
+    "description": "زمان گذشته ساده (Präteritum) برای بیان وقایع و حالت‌هایی در گذشته به کار می‌رود که در یک بازه زمانی مشخص به پایان رسیده‌اند. این زمان بیشتر در نوشتار رسمی، داستان‌سرایی، گزارش‌های خبری و متون تاریخی استفاده می‌شود. در زبان محاوره روزمره، استفاده از این زمان به افعال `haben` و `sein` و افعال وجهی محدود می‌شود.\n\n1. ساختار Präteritum برای افعال با قاعده:\n- برای ساختن این زمان، ابتدا پسوند مصدر (`-en` یا `-n`) را حذف کرده و ریشه فعل را به دست می‌آوریم. سپس پسوند `t` و پسوندهای شخصی زیر را به آن اضافه می‌کنیم:\n- ich: -te\n- du: -test\n- er/sie/es: -te\n- wir: -ten\n- ihr: -tet\n- sie/Sie: -ten\n- مثال: `machen` → `ich machte`, `du machtest`, etc. (من انجام دادم، تو انجام دادی)\n\n2. ساختار Präteritum برای افعال بی‌قاعده:\n- این افعال در زمان گذشته ساده کاملاً نامنظم هستند و باید شکل آن‌ها را حفظ کرد. ریشه فعل تغییر می‌کند و پسوندها نیز متفاوت هستند. برای اول‌شخص مفرد (`ich`) و سوم‌شخص مفرد (`er/sie/es`) هیچ پسوندی اضافه نمی‌شود.\n- sehen (دیدن): ich sah, du sahst, er sah, wir sahen, ihr saht, sie sahen.\n- gehen (رفتن): ich ging, du gingst, er ging, wir gingen, ihr gingt, sie gingen.\n- sprechen (صحبت کردن): ich sprach, du sprachst, er sprach, wir sprachen, ihr spracht, sie sprachen.\n\n3. نکات مهم:\n- در آلمانی محاوره، Perfekt (گذشته کامل) برای اکثر افعال ترجیح داده می‌شود، اما استفاده از Präteritum برای افعال کمکی و وجهی رایج‌تر است. به همین دلیل، در A2 صرف این افعال در Präteritum بسیار مهم است.\n- افعال با ریشه ختم شده به `d` یا `t` یک `e` اضافی بین ریشه و پسوند می‌گیرند (مثال: `arbeiten` → `ich arbeitete`).",
+    "examples": [
+      "Er `kam` gestern Abend nach Hause. (او دیشب به خانه آمد.)",
+      "Wir `waren` letzten Sommer in den Bergen. (ما تابستان گذشته در کوهستان بودیم.)",
+      "Sie `hatten` eine gute Zeit auf der Party. (آن‌ها در مهمانی اوقات خوشی داشتند.)",
+      "Ich `sprach` mit dem Lehrer. (من با معلم صحبت کردم.)"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Perfekt mit unregelmäßigen Verben",
+    "title_fa": "زمان گذشته کامل با افعال بی‌قاعده",
+    "level": "A2",
+    "description": "زمان گذشته کامل (Perfekt) برای بیان اعمال گذشته در مکالمات روزمره بسیار مهم است. این زمان با استفاده از افعال کمکی `haben` یا `sein` و اسم مفعول (Partizip II) ساخته می‌شود. در سطح A2، تمرکز بر یادگیری Partizip II افعال بی‌قاعده است که از الگوی ثابتی پیروی نمی‌کنند و باید حفظ شوند.\n\n1. تشکیل Partizip II برای افعال بی‌قاعده:\n- معمولاً با پیشوند `ge-` شروع و با پسوند `-en` ختم می‌شوند، اما ریشه فعل نیز تغییر می‌کند.\n- finden → gefunden\n- lesen → gelesen\n- essen → gegessen\n- trinken → getrunken\n- schreiben → geschrieben\n\n2. انتخاب فعل کمکی (`haben` یا `sein`):\n- haben: برای اکثر افعال، به ویژه افعالی که مفعول آکوزاتیو می‌گیرند (مثال: `lesen`, `kaufen`, `essen`, `schreiben`).\n- sein: برای افعال حرکتی (مثال: `gehen`, `fahren`, `fliegen`, `schwimmen`)، افعال تغییر حالت (مثال: `einschlafen`, `aufwachen`, `werden`) و افعال `sein`, `bleiben`, `passieren`.\n\n3. نکات مهم:\n- در افعال جداشدنی بی‌قاعده، `ge-` بین پیشوند و ریشه قرار می‌گیرد. (مثال: `aufstehen` → `aufgestanden`).\n- در افعال بی‌قاعده‌ای که به `-ieren` ختم می‌شوند، پیشوند `ge-` حذف می‌شود. (مثال: `studieren` → `studiert`).",
+    "examples": [
+      "Ich `habe` meinen Freund im Park `getroffen`. (من دوستم را در پارک ملاقات کردم.)",
+      "Sie `ist` nach Spanien `geflogen`. (او به اسپانیا پرواز کرده است.)",
+      "Wir `haben` viel Wasser `getrunken`. (ما آب زیادی نوشیده‌ایم.)",
+      "Der Film `hat` um 20 Uhr `begonnen`. (فیلم ساعت ۲۰ شروع شده است.)"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Modalverben im Perfekt & Präteritum",
+    "title_fa": "صرف افعال وجهی در گذشته",
+    "level": "A2",
+    "description": "استفاده از افعال وجهی (Modalverben) در زمان گذشته به دو صورت Präteritum و Perfekt امکان‌پذیر است. در مکالمه، Präteritum برای افعال وجهی بسیار رایج‌تر و ساده‌تر است.\n\n1. صرف افعال وجهی در زمان گذشته ساده (Präteritum):\n- این افعال در Präteritum صرف نامنظمی دارند و باید حفظ شوند. نقطه مشترک آن‌ها حذف اوملاوت از ریشه است.\n- können: ich konnte\n- müssen: ich musste\n- dürfen: ich durfte\n- sollen: ich sollte\n- wollen: ich wollte\n- mögen: ich mochte\n- مثال: `Ich konnte gestern nicht ins Kino gehen.` (من دیروز نتوانستم به سینما بروم.)\n\n2. صرف افعال وجهی در زمان گذشته کامل (Perfekt):\n- این ساختار به 'دو مصدر' (Doppelinfinitiv) معروف است و برای افعال وجهی که با یک فعل اصلی به کار رفته‌اند، استفاده می‌شود. فعل کمکی `haben` و هر دو فعل (اصلی و وجهی) در حالت مصدر در انتهای جمله قرار می‌گیرند.\n- ساختار: فاعل + `haben` صرف‌شده + ... + فعل اصلی (مصدر) + فعل وجهی (مصدر)\n- مثال: `Ich habe das nicht machen können.` (من نتوانستم آن را انجام دهم.)\n\n3. نکات مهم:\n- در زبان محاوره، اغلب از Präteritum برای افعال وجهی استفاده می‌شود و ساختار Perfekt به ندرت به کار می‌رود.\n- اگر فعل وجهی بدون فعل اصلی به کار رود، از Perfekt معمولی استفاده می‌شود. (مثال: `Ich habe nicht gewollt.` - من نخواستم.)",
+    "examples": [
+      "Er `musste` viel arbeiten. (او مجبور بود زیاد کار کند.)",
+      "`Wolltest` du mir etwas sagen? (آیا می‌خواستی چیزی به من بگویی؟)",
+      "Wir `durften` nicht in den Park. (ما اجازه نداشتیم به پارک برویم.)",
+      "Sie `hatten` die Arbeit `machen müssen`. (آن‌ها مجبور بودند کار را انجام دهند.)"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Adjektivdeklination",
+    "title_fa": "صرف صفات",
+    "level": "A2",
+    "description": "صرف صفات (Adjektivdeklination) به معنای تغییر پسوند صفت‌ها بر اساس جنسیت، تعداد، حالت گرامری و نوع حرف تعریف قبل از اسم است. این مبحث یکی از پیچیده‌ترین گرامرهای آلمانی است و به سه نوع تقسیم می‌شود.\n\n1. صرف ضعیف (Weak Declension): بعد از حروف تعریف معین (`der`, `die`, `das`):\n- در این حالت، چون حرف تعریف اطلاعات کاملی در مورد اسم می‌دهد، پسوند صفت ضعیف است (`-e` یا `-en`).\n- قاعده: `-e` در نومیناتیو و آکوزاتیو (مفرد) و `-en` در بقیه حالات.\n\n2. صرف قوی (Strong Declension): بدون حرف تعریف:\n- در این حالت، صفت به تنهایی باید جنسیت، تعداد و حالت اسم را مشخص کند و پسوندهایی مشابه حروف تعریف معین می‌گیرد.\n- قاعده: پسوندها همانند حروف تعریف معین هستند (مثال: مذکر نومیناتیو: `guter Wein`).\n\n3. صرف ترکیبی (Mixed Declension): بعد از حروف تعریف نامعین (`ein`, `eine`):\n- در این حالت، پسوندهای صفت برای مشخص کردن جنسیت در نومیناتیو و آکوزاتیو قوی و در بقیه حالات ضعیف است.\n\n| حالت | بعد از `der` | بعد از `ein` | بدون آرتیکل |\n| :--- | :--- | :--- | :--- |\n| Nom. (m) | neue | neuer | neuer |\n| Akk. (m) | neuen | neuen | neuen |\n| Dat. (m) | neuen | neuem | neuem |\n| Gen. (m) | neuen | neuen | neuen |\n\n4. نکات مهم:\n- یادگیری این قواعد به تمرین و تکرار زیاد نیاز دارد. بهتر است به جای حفظ کردن جدول، با الگوهای رایج آشنا شوید.",
+    "examples": [
+      "Der `alte` Mann liest ein Buch. (آن مرد پیر یک کتاب می‌خواند.)",
+      "Wir haben ein `großes`, `schönes` Haus. (ما یک خانه بزرگ و زیبا داریم.)",
+      "Ich kaufe `rote` Äpfel. (من سیب‌های قرمز می‌خرم.)",
+      "Ich bin mit `neuem` Computer zufrieden. (من از کامپیوتر جدیدم راضی هستم.)"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Nebensätze mit `dass`",
+    "title_fa": "جملات فرعی با `dass`",
+    "level": "A2",
+    "description": "جملات فرعی با حرف ربط `dass` (که) برای بیان یک واقعیت، عقیده، دانش یا اطلاعات اضافه استفاده می‌شوند. این جملات همیشه با یک ویرگول از جمله اصلی جدا می‌شوند و مهم‌ترین قانون آن‌ها این است که فعل صرف‌شده به انتهای جمله منتقل می‌شود.\n\n1. ساختار:\n- جمله اصلی + ویرگول + `dass` + فاعل + ... + فعل صرف‌شده\n- مثال: `Ich denke, dass das Wetter morgen schön wird.` (من فکر می‌کنم که هوا فردا خوب خواهد شد.)\n\n2. کاربرد:\n- بعد از افعالی که عقیده، دانش یا احساسات را بیان می‌کنند: `denken` (فکر کردن)، `glauben` (باور داشتن)، `wissen` (دانستن)، `sagen` (گفتن)، `finden` (پیدا کردن/نظر داشتن)، `vergessen` (فراموش کردن).\n- مثال: `Es ist gut, dass du hier bist.` (خوب است که تو اینجا هستی.)\n\n3. نکات مهم:\n- در جملات فرعی، فعل در جایگاه آخر قرار می‌گیرد، حتی اگر فعل جداشدنی باشد (پیشوند از ریشه جدا نمی‌شود) یا فعل وجهی وجود داشته باشد.\n- مثال: `Ich weiß, dass er nicht mitkommen will.` (من می‌دانم که او نمی‌خواهد همراه بیاید.)\n- جملات فرعی می‌توانند در ابتدای جمله نیز قرار بگیرند، که در این صورت جایگاه دوم جمله اصلی به فعل اختصاص می‌یابد. (مثال: `Dass er kommt, freut mich.` - اینکه او می‌آید، مرا خوشحال می‌کند.)",
+    "examples": [
+      "Wir hoffen, `dass` ihr uns `besucht`. (ما امیدواریم که شما ما را ملاقات کنید.)",
+      "Sie hat vergessen, `dass` heute Sonntag `ist`. (او فراموش کرد که امروز یکشنبه است.)",
+      "Er hat gesagt, `dass` er krank `war`. (او گفت که بیمار بود.)",
+      "Ich finde, `dass` das Buch sehr interessant `ist`. (من فکر می‌کنم که کتاب بسیار جالب است.)"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Nebensätze mit `weil` und `wenn`",
+    "title_fa": "جملات فرعی با `weil` و `wenn`",
+    "level": "A2",
+    "description": "جملات فرعی با `weil` و `wenn` برای بیان دلیل و شرایط/زمان استفاده می‌شوند. این حروف ربط نیز مانند `dass` باعث انتقال فعل صرف‌شده به انتهای جمله می‌شوند.\n\n1. جملات با `weil` (چون/زیرا):\n- برای بیان دلیل یا علت استفاده می‌شود.\n- ساختار: جمله اصلی + ویرگول + `weil` + فاعل + ... + فعل صرف‌شده\n- مثال: `Ich bleibe zu Hause, weil ich krank bin.` (من در خانه می‌مانم، چون بیمار هستم.)\n- نکته: از `denn` نیز برای بیان دلیل استفاده می‌شود، اما `denn` یک حرف ربط هماهنگ‌کننده است و فعل در جایگاه دوم می‌ماند. (مثال: `Ich bleibe zu Hause, denn ich bin krank.`) `weil` رایج‌تر است.\n\n2. جملات با `wenn` (اگر/وقتی):\n- برای شرط (اگر): برای بیان شرایطی که ممکن است در آینده رخ دهد.\n- مثال: `Wenn es regnet, bleibe ich zu Hause.` (اگر باران ببارد، من در خانه می‌مانم.)\n- برای زمان (وقتی): برای بیان یک عمل تکراری در گذشته یا حال.\n- مثال: `Wenn ich Kinder sah, war ich immer glücklich.` (وقتی بچه‌ها را می‌دیدم، همیشه خوشحال بودم.)\n- نکته: برای یک اتفاق یک‌باره در گذشته از `als` استفاده می‌شود که در سطح B1 یاد می‌گیرید.",
+    "examples": [
+      "Sie ruft mich nicht an, `weil` sie keine Zeit `hat`. (او به من زنگ نمی‌زند، چون وقت ندارد.)",
+      "`Wenn` ich in Deutschland bin, `besuche` ich meine Familie. (وقتی در آلمان هستم، از خانواده‌ام دیدن می‌کنم.)",
+      "Er kauft ein Auto, `weil` er zur Arbeit `fahren` muss. (او یک ماشین می‌خرد، چون مجبور است به سر کار برود.)",
+      "`Wenn` wir uns treffen, `gehen` wir ins Kino. (وقتی همدیگر را ملاقات می‌کنیم، به سینما می‌رویم.)"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Genitiv",
+    "title_fa": "حالت گنتیو",
+    "level": "A2",
+    "description": "حالت گنتیو (Genitiv) برای نشان دادن مالکیت، وابستگی یا ارتباط بین دو اسم استفاده می‌شود. این حالت به سؤال 'مال چه کسی؟' (Wessen?) پاسخ می‌دهد. در زبان محاوره، اغلب با ساختار `von + Dativ` جایگزین می‌شود، اما در نوشتار و زبان رسمی، کاربرد گسترده‌ای دارد.\n\n1. حروف تعریف و ضمایر در گنتیو:\n\n| جنسیت | حرف تعریف | صفت ملکی |\n| :--- | :--- | :--- |\n| مذکر | des | meines, deines, seines |\n| مؤنث | der | meiner, deiner, ihrer |\n| خنثی | des | meines, deines, seines |\n| جمع | der | meiner, deiner, ihrer |\n\n2. قوانین اسم در گنتیو:\n- اسامی مذکر و خنثی یک پسوند `-s` یا `-es` می‌گیرند. (مثال: `der Mann` → `des Mannes`, `das Haus` → `des Hauses`).\n- اسامی مؤنث و جمع تغییر نمی‌کنند.\n\n3. کاربرد گنتیو:\n- برای مالکیت: `Das ist das Auto des Lehrers.` (این ماشین آن معلم است.)\n- بعد از برخی حروف اضافه: `während` (در طول)، `wegen` (به دلیل)، `trotz` (با وجود)، `anstatt` (به جای).\n- مثال: `Wegen des schlechten Wetters bleiben wir zu Hause.` (به دلیل هوای بد، ما در خانه می‌مانیم.)",
+    "examples": [
+      "Die Farbe `des` Buches ist rot. (رنگ آن کتاب قرمز است.)",
+      "Die Qualität `der` Arbeit war sehr gut. (کیفیت کار بسیار خوب بود.)",
+      "Ich trinke keinen Kaffee `während` `der` Arbeit. (من در طول کار قهوه نمی‌نوشم.)",
+      "Er hilft `trotz` `seiner` Krankheit. (او با وجود بیماری‌اش کمک می‌کند.)"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Reflexive Verben im Dativ",
+    "title_fa": "افعال انعکاسی با داتیو",
+    "level": "A2",
+    "description": "در A1، ضمایر انعکاسی در حالت آکوزاتیو به کار می‌رفتند (مثال: `sich waschen`). در A2، با افعالی آشنا می‌شوید که ضمیر انعکاسی آن‌ها در حالت داتیو قرار می‌گیرد. این افعال علاوه بر ضمیر انعکاسی، یک مفعول آکوزاتیو نیز دارند.\n\n1. جدول ضمایر انعکاسی در داتیو:\n- ich → mir\n- du → dir\n- er/sie/es → sich\n- wir → uns\n- ihr → euch\n- sie/Sie → sich\n\n2. افعال رایج:\n- sich etwas kaufen (برای خود چیزی خریدن)\n- sich etwas wünschen (برای خود چیزی آرزو کردن)\n- sich etwas ansehen (برای خود چیزی تماشا کردن)\n- sich etwas anziehen (برای خود چیزی پوشیدن)\n\n3. ساختار جمله:\n- فاعل + فعل صرف‌شده + ضمیر انعکاسی (داتیو) + مفعول (آکوزاتیو)\n- مثال: `Ich kaufe mir ein Auto.` (من برای خودم یک ماشین می‌خرم.) در این جمله، `ein Auto` مفعول مستقیم (آکوزاتیو) و `mir` مفعول غیرمستقیم (داتیو) است.\n\n4. نکات مهم:\n- ضمیر `sich` برای سوم‌شخص در هر دو حالت آکوزاتیو و داتیو یکسان است. برای تشخیص، باید به مفعول جمله توجه کرد.",
+    "examples": [
+      "Er kauft `sich` einen Laptop. (او برای خودش یک لپ‌تاپ می‌خرد.)",
+      "Wir sehen `uns` den Film im Kino an. (ما آن فیلم را در سینما تماشا می‌کنیم.)",
+      "Kann ich `mir` einen Kaffee kochen? (آیا می‌توانم برای خودم یک قهوه درست کنم؟)",
+      "Sie wünschen `sich` ein neues Haus. (آن‌ها برای خودشان یک خانه جدید آرزو می‌کنند.)"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Verben mit festen Präpositionen",
+    "title_fa": "افعال با حروف اضافه ثابت",
+    "level": "A2",
+    "description": "بسیاری از افعال در زبان آلمانی همیشه با یک حرف اضافه خاص به کار می‌روند که معنی آن‌ها را تکمیل می‌کند. یادگیری این افعال به صورت ترکیبی (فعل + حرف اضافه) بسیار مهم است. این حروف اضافه می‌توانند آکوزاتیو یا داتیو باشند.\n\n1. افعال با حروف اضافه + آکوزاتیو:\n- denken an (فکر کردن به): `Ich denke an meine Familie.` (من به خانواده‌ام فکر می‌کنم.)\n- sich freuen auf (خوشحال بودن از چیزی که در آینده است): `Ich freue mich auf die Party.` (من از مهمانی خوشحالم.)\n- sich interessieren für (علاقه‌مند بودن به): `Er interessiert sich für Sport.` (او به ورزش علاقه‌مند است.)\n- warten auf (منتظر بودن): `Ich warte auf den Bus.` (من منتظر اتوبوس هستم.)\n\n2. افعال با حروف اضافه + داتیو:\n- sprechen mit (صحبت کردن با): `Ich spreche mit meinem Chef.` (من با رئیسم صحبت می‌کنم.)\n- sich treffen mit (ملاقات کردن با): `Wir treffen uns mit Freunden.` (ما با دوستان ملاقات می‌کنیم.)\n- sich bedanken bei (تشکر کردن از کسی): `Ich bedanke mich bei Ihnen.` (من از شما تشکر می‌کنم.)\n- träumen von (رویا دیدن در مورد): `Ich träume von einem Urlaub.` (من رویای یک تعطیلات را در سر دارم.)\n\n3. نکات مهم:\n- برای پرسیدن سوال در مورد این افعال، از کلمات پرسشی ترکیبی استفاده می‌شود (مثال: `Woran denkst du?` - به چه چیزی فکر می‌کنی؟).",
+    "examples": [
+      "Sie wartet `auf` `den` Zug. (او منتظر قطار است.)",
+      "Wir reden `über` `das` Wetter. (ما درباره هوا صحبت می‌کنیم.)",
+      "Er hat Angst `vor` `dem` Hund. (او از سگ می‌ترسد.)"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Dativ- und Akkusativpräpositionen",
+    "title_fa": "حروف اضافه داتیو و آکوزاتیو",
+    "level": "A2",
+    "description": "در سطح A2، دانش حروف اضافه گسترش می‌یابد و با حروف اضافه‌ای آشنا می‌شوید که همیشه یک حالت مشخص را به دنبال دارند. این حروف اضافه برخلاف حروف اضافه دوطرفه (Wechselpräpositionen) که در A1 یاد گرفتید، همیشه ثابت هستند.\n\n1. حروف اضافه همیشه آکوزاتیو:\n- durch (از میان)، für (برای)، ohne (بدون)، gegen (برخلاف)، um (اطراف)\n- مثال: `Ich gehe durch den Park.` (من از میان پارک می‌روم.)\n\n2. حروف اضافه همیشه داتیو:\n- aus (از)، bei (نزد)، mit (با)، nach (به سوی)، seit (از زمان)، von (از)، zu (به سوی)\n- مثال: `Sie fährt mit dem Bus.` (او با اتوبوس می‌رود.)\n\n3. نکات مهم:\n- حروف اضافه دوطرفه (Wechselpräpositionen): (`in`, `an`, `auf`, `vor`, `hinter`, `über`, `unter`, `neben`, `zwischen`) بر اساس وجود حرکت (آکوزاتیو) یا مکان ثابت (داتیو) استفاده می‌شوند.\n- قاعده کلی: اگر به سوال `Wo?` (کجا؟) پاسخ دهید، از داتیو استفاده کنید. اگر به سوال `Wohin?` (به کجا؟) پاسخ دهید، از آکوزاتیو استفاده کنید.",
+    "examples": [
+      "Das Geschenk ist `für meinen` Bruder. (این هدیه برای برادرم است.)",
+      "Wir sind `seit` einer Woche hier. (ما یک هفته است که اینجا هستیم.)",
+      "Er geht `gegen` die Wand. (او به سمت دیوار می‌رود.)",
+      "Ich gehe `zu dem` (zum) Arzt. (من به سوی پزشک می‌روم.)"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Höflichkeitsformen im Imperativ",
+    "title_fa": "جملات امری مؤدبانه‌تر",
+    "level": "A2",
+    "description": "در سطح A1، جملات امری برای `du`, `ihr` و `Sie` آموزش داده شد. در A2، با استفاده از عبارات و افعال وجهی، می‌توان این دستورات را به درخواست‌های مؤدبانه‌تر تبدیل کرد که در محیط‌های رسمی کاربرد دارد.\n\n1. جملات امری با `Sie` و `bitte`:\n- این ساده‌ترین و رایج‌ترین روش است.\n- `Sprechen Sie bitte lauter.` (لطفاً بلندتر صحبت کنید.)\n- `Gehen Sie bitte zur Tür.` (لطفاً به سمت در بروید.)\n\n2. استفاده از افعال وجهی برای درخواست:\n- `können` و `dürfen` در حالت `Konjunktiv II` برای مؤدب‌تر کردن درخواست استفاده می‌شوند.\n- `Könnten` Sie mir bitte helfen? (آیا لطفاً می‌توانید به من کمک کنید؟)\n- `Dürfte` ich Sie etwas fragen? (آیا می‌توانم چیزی از شما بپرسم؟)\n\n3. استفاده از `würden` + مصدر:\n- این ساختار نیز بسیار مؤدبانه است.\n- `Würden` Sie bitte das Fenster öffnen? (آیا لطفاً پنجره را باز می‌کنید؟)\n\n4. نکات مهم:\n- در مکالمات روزمره، برای دوستان و خانواده، همان جملات امری ساده A1 کفایت می‌کند، اما در موقعیت‌های رسمی، استفاده از `Sie` و عبارات مؤدبانه ضروری است.",
+    "examples": [
+      "`Würden` Sie mir bitte den Weg zum Bahnhof erklären? (آیا لطفاً راه ایستگاه قطار را به من توضیح می‌دهید؟)",
+      "`Könnten` wir einen Tisch reservieren? (آیا می‌توانیم یک میز رزرو کنیم؟)",
+      "`Seien` Sie bitte leise! (لطفاً ساکت باشید! - حالت امری مؤدبانه فعل `sein`)"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Demonstrativpronomen",
+    "title_fa": "ضمایر اشاره",
+    "level": "A2",
+    "description": "ضمایر اشاره (Demonstrativpronomen) برای اشاره به یک شخص یا شیء خاص از میان چند گزینه استفاده می‌شوند و به جای اسم می‌آیند. آن‌ها بر اساس جنسیت، تعداد و حالت اسم خود صرف می‌شوند و در واقع می‌توانند نقش حروف تعریف معین را بازی کنند.\n\n1. ضمایر اشاره اصلی:\n- dieser/diese/dieses: برای اشاره به چیزی نزدیک (`این`)\n- jener/jene/jenes: برای اشاره به چیزی دور (`آن`)\n\n2. صرف ضمایر اشاره:\n- این ضمایر دقیقاً مانند حروف تعریف معین (`der`, `die`, `das`) صرف می‌شوند و همان پسوندها را می‌گیرند.\n\n| حالت | مذکر | مؤنث | خنثی | جمع |\n| :--- | :--- | :--- | :--- | :--- |\n| نومیناتیو | dieser | diese | dieses | diese |\n| آکوزاتیو | diesen | diese | dieses | diese |\n| داتیو | diesem | dieser | diesem | diesen |\n\n3. نکات مهم:\n- ضمایر اشاره اغلب به عنوان پاسخ به سوالات `Welcher/Welche/Welches` استفاده می‌شوند. (مثال: `Welche Jacke möchten Sie?` - Diese!)\n- در جمله، ضمیر اشاره معمولاً تأکید بیشتری بر روی شیء مورد نظر دارد.",
+    "examples": [
+      "Welches Buch möchtest du? - Ich möchte `dieses`. (کدام کتاب را می‌خواهی؟ - من این را می‌خواهم.)",
+      "Ich spreche mit `diesem` Mann. (من با این مرد صحبت می‌کنم.)",
+      "Er mag `diesen` Hund nicht. (او این سگ را دوست ندارد.)"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Indefinitpronomen",
+    "title_fa": "ضمایر نامعین",
+    "level": "A2",
+    "description": "ضمایر نامعین (Indefinitpronomen) به یک شخص یا شیء نامشخص یا نامعلوم اشاره می‌کنند. این ضمایر به تنهایی به کار می‌روند و مانند یک اسم، می‌توانند در حالت‌های مختلف صرف شوند.\n\n1. ضمایر نامعین رایج:\n- man: 'فرد' یا 'کسی'. همیشه به صورت سوم شخص مفرد صرف می‌شود.\n- jemand / niemand: 'کسی' / 'هیچ‌کس'.\n- etwas / nichts: 'چیزی' / 'هیچ‌چیز'. این دو صرف نمی‌شوند.\n- alle: 'همه'.\n- einige / manche: 'بعضی'.\n\n2. صرف ضمایر نامعین:\n- `man` همیشه در حالت نومیناتیو است.\n- `jemand` و `niemand` در آکوزاتیو به `jemanden` و `niemanden` و در داتیو به `jemandem` و `niemandem` تغییر می‌کنند.\n- `alle`, `einige`, `manche` مانند صفات بدون حرف تعریف صرف می‌شوند.\n\n3. کاربرد:\n- Man spricht hier Deutsch. (اینجا آلمانی صحبت می‌شود.)\n- `Jemand` hat geklopft. (کسی در زد.)\n- Nichts ist unmöglich. (هیچ‌چیز غیرممکن نیست.)",
+    "examples": [
+      "Hat `jemand` den Schlüssel gesehen? (آیا کسی کلید را دیده است؟)",
+      "Ich habe `niemandem` etwas gesagt. (من به هیچ‌کس چیزی نگفتم.)",
+      "`Alle` waren zufrieden mit dem Ergebnis. (همه از نتیجه راضی بودند.)"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Satzbau mit `zu` + Infinitiv",
+    "title_fa": "ساختار جملات با `zu` + مصدر",
+    "level": "A2",
+    "description": "ساختار جملات با `zu` + مصدر برای بیان هدف، قصد یا اجبار استفاده می‌شود و به شما اجازه می‌دهد دو فعل را در یک جمله به هم وصل کنید، بدون اینکه نیاز به ساختار جملات فرعی داشته باشید.\n\n1. ساختار:\n- جمله اصلی + `zu` + فعل اصلی در حالت مصدر\n- مثال: `Ich habe Zeit, dich zu besuchen.` (من وقت دارم که تو را ملاقات کنم.)\n\n2. کاربرد:\n- بعد از افعال: `versuchen` (سعی کردن)، `vergessen` (فراموش کردن)، `planen` (برنامه‌ریزی کردن)، `beginnen` (شروع کردن)، `helfen` (کمک کردن).\n- مثال: `Ich plane, am Wochenende zu reisen.` (من برنامه‌ریزی می‌کنم که آخر هفته سفر کنم.)\n- بعد از صفات و عبارت‌های خاص: `Es ist wichtig, ...`, `Es ist schön, ...`, `Ich habe Lust, ...`.\n- مثال: `Es ist schwer, Deutsch zu lernen.` (یادگیری آلمانی سخت است.)\n\n3. نکات مهم:\n- اگر فعل اصلی جداشدنی باشد، `zu` بین پیشوند و ریشه فعل قرار می‌گیرد. (مثال: `einkaufen` → `einzukaufen`).\n- این ساختار بعد از افعال وجهی و افعالی مانند `gehen`, `kommen`, `bleiben` به کار نمی‌رود.",
+    "examples": [
+      "Wir beginnen, Deutsch `zu sprechen`. (ما شروع به صحبت کردن آلمانی می‌کنیم.)",
+      "Es ist verboten, hier `zu parken`. (پارک کردن اینجا ممنوع است.)",
+      "Ich helfe ihm, die Hausaufgaben `zu machen`. (من به او کمک می‌کنم که تکالیفش را انجام دهد.)",
+      "Er hat vergessen, die Tür `zuzumachen`. (او فراموش کرد که در را ببندد.)"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Passiv im Präsens",
+    "title_fa": "جملات مجهول در زمان حال",
+    "level": "A2",
+    "description": "جملات مجهول (Passiv) زمانی استفاده می‌شوند که فاعل (انجام‌دهنده کار) مشخص نیست یا اهمیت کمتری نسبت به خود عمل دارد. مجهول در آلمانی با فعل کمکی `werden` و اسم مفعول (Partizip II) ساخته می‌شود.\n\n1. ساختار:\n- فاعل + `werden` صرف‌شده + ... + اسم مفعول (Partizip II) در انتهای جمله\n- مثال: `Die Tür wird geöffnet.` (در باز می‌شود.)\n\n2. صرف فعل `werden` در زمان حال:\n- ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden.\n\n3. بیان فاعل (انجام‌دهنده کار):\n- اگر بخواهید فاعل را در جمله مجهول ذکر کنید، از حرف اضافه `von` برای افراد و `durch` برای اشیاء/نیروها استفاده می‌کنید.\n- مثال: `Der Brief wird von dem Lehrer gelesen.` (نامه توسط معلم خوانده می‌شود.)\n- مثال: `Das Haus wird durch den Sturm beschädigt.` (خانه توسط طوفان آسیب می‌بیند.)\n\n4. نکات مهم:\n- جملات مجهول برای افعال حرکتی (مثلاً `gehen` یا `kommen`) ساخته نمی‌شوند.\n- در A2، تمرکز اصلی بر روی مجهول در زمان حال است و زمان‌های دیگر در سطوح بالاتر آموزش داده می‌شوند.",
+    "examples": [
+      "Die Prüfung `wird` am Montag `geschrieben`. (امتحان روز دوشنبه نوشته می‌شود.)",
+      "Das Auto `wird` repariert. (ماشین تعمیر می‌شود.)",
+      "Englisch `wird` in der Schule `gelernt`. (انگلیسی در مدرسه یاد گرفته می‌شود.)",
+      "Die Arbeit `wird` `von` `mir` `gemacht`. (کار توسط من انجام می‌شود.)"
+    ]
+  }
+]

@@ -6,34 +6,58 @@ const closeButton = document.querySelector(".close-button");
 const backButton = document.querySelector(".back-btn");
 const header = document.querySelector(".header");
 
-// بررسی پارامترهای URL هنگام بارگذاری صفحه
+// نقشه تنظیمات برای فایل‌ها و مسیرهای audio
+const levelConfig = {
+  A1: {
+    jsonFile: "json-worterA1.json",
+    audioPath: "audio-A1",
+    headerText: "A1 - WORTLISTE",
+    headerClass: "color-a1",
+  },
+  A2: {
+    jsonFile: "json-worterA2.json",
+    audioPath: "audio-A2",
+    headerText: "A2 - WORTLISTE",
+    headerClass: "color-a2",
+  },
+  "A1 VERBEN": {
+    jsonFile: "json-verb-A1.json",
+    audioPath: "audio-A1",
+    headerText: "A1 VERBEN",
+    headerClass: "color-a1",
+  },
+  "A2 VERBEN": {
+    jsonFile: "json-verb-A2.json",
+    audioPath: "audio-A2",
+    headerText: "A2 VERBEN",
+    headerClass: "color-a2",
+  },
+  "A1 Kollokationen": {
+    jsonFile: "json-A1-Kollokationen.json",
+    audioPath: "audio-Kollokationen-A1",
+    headerText: "A1 Kollokationen",
+    headerClass: "color-a1",
+  },
+  "A2 Kollokationen": {
+    jsonFile: "json-A2-Kollokationen.json",
+    audioPath: "audio-Kollokationen-A2",
+    headerText: "A2 Kollokationen",
+    headerClass: "color-a2",
+  },
+};
+
 window.addEventListener("load", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const level = urlParams.get("level");
 
-  if (level && ["A1", "A2", "A1 VERBEN", "A2 VERBEN"].includes(level)) {
-    const jsonFile =
-      level === "A1"
-        ? "json-worterA1.json"
-        : level === "A2"
-        ? "json-worterA2.json"
-        : level === "A1 VERBEN"
-        ? "json-verb-A1.json"
-        : "json-verb-A2.json";
+  if (level && levelConfig[level]) {
+    const config = levelConfig[level];
 
-    const audioPath =
-      level === "A1" || level === "A1 VERBEN"
-        ? "audio-A1"
-        : level === "A2" || level === "A2 VERBEN"
-        ? "audio-A2"
-        : "";
-
-    header.textContent =
-      level === "A1" || level === "A2" ? `${level} - WORTLISTE` : level;
-    container.dataset.audioPath = audioPath;
+    header.textContent = config.headerText;
+    container.dataset.audioPath = config.audioPath;
     localStorage.setItem("selectedLevel", level);
 
-    fetch(jsonFile)
+    fetch(config.jsonFile)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to load JSON file");
@@ -41,12 +65,14 @@ window.addEventListener("load", () => {
         return response.json();
       })
       .then((data) => {
-        renderItems(data);
+        renderItems(data, config.headerClass);
         backButton.style.display = "block";
       })
       .catch((error) => {
         container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${error.message}</div>`;
       });
+  } else {
+    container.innerHTML = `<div class="error">سطح نامعتبر است یا وجود ندارد</div>`;
   }
 });
 
@@ -382,7 +408,7 @@ function createItem(group, groupIndex, itemIndexInGroup) {
   return itemDiv;
 }
 
-function renderItems(items) {
+function renderItems(items, headerClass) {
   container.innerHTML = "";
   const groupedItems = groupItems(items);
   const groupSize = 50;
@@ -393,6 +419,8 @@ function renderItems(items) {
 
     const accordionHeader = document.createElement("div");
     accordionHeader.classList.add("accordion-header");
+
+    accordionHeader.classList.add(headerClass || "color-a1"); // استفاده از headerClass یا پیش‌فرض
 
     const start = groupIndex * groupSize + 1;
     const end = Math.min(start + groupSize - 1, items.length);

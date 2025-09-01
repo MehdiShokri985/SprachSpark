@@ -3757,7 +3757,7 @@
   {
     "Filename": "406",
     "Sound_de": "In Mannheim haben Sie Anschluss nach Saarbrücken.",
-    "translate_fa": "در مانهایم می‌توانید به قطار ساربروکن متصل شوید.",
+    "translate_fa": "در مانهایم، شما با زاربروکن ارتباط دارید.",
     "file": "406_de.mp3",
     "root": "نوع جمله: این یک جمله خبری است.\nIn: حرف اضافه 'در' که با داتیو می‌آید.\nMannheim: اسم خاص.\nhaben: فعل 'haben' صرف شده برای 'Sie' (شما محترمانه).\nSie: ضمیر فاعلی محترمانه 'شما'.\nAnschluss: اسم مذکر 'اتصال'. 'Anschluss haben' به معنای 'اتصال داشتن' یا 'خط ارتباطی داشتن' است.\nnach: حرف اضافه 'به سمت'.\nSaarbrücken: اسم خاص.",
     "type": "جمله",

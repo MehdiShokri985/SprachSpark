@@ -3991,7 +3991,7 @@
     "Sound_de": "Ich habe einen neuen Fotoapparat.",
     "translate_fa": "من یک دوربین عکاسی جدید دارم.",
     "file": "426_de.mp3",
-    "root": "Foto (عکس) + Apparat (دستگاه)",
+     "root": "نوع جمله: این یک جمله خبری (Aussagesatz) است که ساختار ساده‌ای دارد.\nIch: ضمیر فاعلی (Subjekt) به معنای «من».\nhabe: فعل اصلی (Hauptverb) «haben» به معنای «داشتن» که برای ضمیر «ich» صرف شده است.\neinen neuen Fotoapparat: این عبارت مفعول آکوزاتیو (Akkusativobjekt) جمله است.\n- Fotoapparat: یک اسم مذکر (der Fotoapparat) به معنای «دوربین عکاسی» است که از ترکیب «Foto» (عکس) و «Apparat» (دستگاه) ساخته شده است.\n- neuen: صفت (Adjektiv) «neu» (جدید) است که به دلیل مذکر بودن اسم «Fotoapparat» و قرار گرفتن در حالت آکوزاتیو (Akkusativ) پسوند «en» گرفته است.\n- einen: حرف تعریف نامعین (unbestimmter Artikel) «ein» است که برای اسم مذکر «Fotoapparat» در حالت آکوزاتیو به «einen» تبدیل شده است.",
     "type": "جمله",
     "subject": ["ich"],
     "verb": ["habe"],

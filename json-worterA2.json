@@ -4321,7 +4321,7 @@
     "verb": ["ist", "kommen"],
     "auxiliary_verb": [null, null],
     "object": [null, null],
-    "verb_part1": [null, null],
+    "verb_part1": ["rein", null],
     "verb_part2": [null, null]
   },
   {

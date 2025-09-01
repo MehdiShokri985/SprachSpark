@@ -2,34 +2,50 @@ const container = document.querySelector(".content");
 const backButton = document.querySelector(".back-btn");
 const header = document.querySelector(".header");
 
+// نقشه تنظیمات برای فایل‌ها و مسیرهای audio
+const levelConfig = {
+  "A1 GRAMMATIK": {
+    jsonFile: "json-A1-Grammatik.json",
+    headerText: "A1 GRAMMATIK",
+    headerClass: "color-a1",
+  },
+  "A2 GRAMMATIK": {
+    jsonFile: "json-A2-Grammatik.json",
+    headerText: "A2 GRAMMATIK",
+    headerClass: "color-a2",
+  },
+};
+
 // بررسی پارامترهای URL هنگام بارگذاری صفحه
 window.addEventListener("load", () => {
   const urlParams = new URLSearchParams(window.location.search);
-  console.log(urlParams);
   const level = urlParams.get("level");
   header.innerHTML = level;
-  const json_file =
-    level === "A1 GRAMMATIK"
-      ? "json-A1-Grammatik.json"
-      : "json-A2-Grammatik.json";
 
-  //   if (level === "A1 GRAMMATIK") {
+  if (level && levelConfig[level]) {
+    const config = levelConfig[level];
 
-  fetch(json_file)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Failed to load JSON file");
-      }
-      return response.json();
-    })
-    .then((data) => {
-      renderItems(data);
-      backButton.style.display = "block";
-    })
-    .catch((error) => {
-      container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${error.message}</div>`;
-    });
-  //   }
+    header.textContent = config.headerText;
+    container.dataset.audioPath = config.audioPath;
+    localStorage.setItem("selectedLevel", level);
+
+    fetch(config.jsonFile)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to load JSON file");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        renderItems(data, config.headerClass);
+        backButton.style.display = "block";
+      })
+      .catch((error) => {
+        container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${error.message}</div>`;
+      });
+  } else {
+    container.innerHTML = `<div class="error">سطح نامعتبر است یا وجود ندارد</div>`;
+  }
 });
 
 function createItem(item) {
@@ -49,7 +65,7 @@ function createItem(item) {
   return itemDiv;
 }
 
-function renderItems(items) {
+function renderItems(items, headerClass) {
   container.innerHTML = "";
 
   items.forEach((item, index) => {
@@ -62,6 +78,7 @@ function renderItems(items) {
 
     const accordionContent = document.createElement("div");
     accordionContent.classList.add("accordion-content");
+    accordionHeader.classList.add(headerClass || "color-a1"); // استفاده از headerClass یا پیش‌فرض
 
     accordionDiv.appendChild(accordionHeader);
     accordionDiv.appendChild(accordionContent);

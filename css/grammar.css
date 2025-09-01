@@ -66,6 +66,14 @@ h1 {
   scrollbar-color: #7799ed #223454;
 }
 
+.color-a1 {
+  color: #00ff88;
+}
+
+.color-a2 {
+  color: #ff9400;
+}
+
 .accordion-content::-webkit-scrollbar {
   width: 4px;
 }

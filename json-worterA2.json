@@ -4462,10 +4462,10 @@
     "root": "نوع جمله: این یک جمله مرکب است که از یک جمله امری و یک جمله خبری تشکیل شده است.\nPass auf: فعل امری از فعل جداشدنی 'aufpassen' (مراقب بودن).\nPass: بخش اصلی فعل، 'auf' پیشوند آن است.\nder Teller: اسم مذکر 'بشقاب'، فاعل جمله دوم.\nfällt: فعل 'fallen' (افتادن) صرف شده برای 'der Teller'.\ngleich: قید 'فورا'.\nauf: حرف اضافه 'روی' که در اینجا با آکوزاتیو می‌آید زیرا حرکت را نشان می‌دهد.\nden: حرف تعریف 'der' (مذکر) در حالت آکوزاتیو به 'den' تبدیل شده است.\nBoden: اسم مذکر 'زمین'.",
     "type": "جمله",
     "subject": ["du", "der Teller"],
-    "verb": ["pass", "fällt"],
+    "verb": ["pass","auf", "fällt"],
     "auxiliary_verb": [null, null],
     "object": [null, null],
-    "verb_part1": ["auf", null],
+    "verb_part1": [null, null],
     "verb_part2": ["passen", null]
   },
   {

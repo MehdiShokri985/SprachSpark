@@ -533,10 +533,16 @@ document.querySelectorAll('input[name="mode"]').forEach((radio) => {
     currentSentenceIndex = 0;
     shuffledSentences = [];
     wrongAttempts = 0;
-    difficultyLevel = "simple";
-    document.querySelector(
-      'input[name="difficulty"][value="simple"]'
-    ).checked = true;
+    // فقط در حالت "sentences" سطح دشواری را تنظیم کنید
+    if (currentMode === "sentences") {
+      difficultyLevel = "simple";
+      const simpleRadio = document.querySelector(
+        'input[name="difficulty"][value="simple"]'
+      );
+      if (simpleRadio) {
+        simpleRadio.checked = true;
+      }
+    }
     scoreDisplay.textContent = score;
     popup.style.display = "none";
     completedSentencesStates = [];

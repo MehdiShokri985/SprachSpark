@@ -4645,7 +4645,7 @@
     "verb": ["tut"],
     "auxiliary_verb": [null],
     "object": [null],
-    "verb_part1": [null],
+    "verb_part1": ["weh"],
     "verb_part2": [null]
   },
   {
@@ -4667,8 +4667,8 @@
     "verb": ["kommt"],
     "auxiliary_verb": [null],
     "object": [null],
-    "verb_part1": ["aus"],
-    "verb_part2": ["kommen"]
+    "verb_part1": [null],
+    "verb_part2": [null]
   },
   {
     "Filename": "483",
@@ -4866,8 +4866,8 @@
     "root": "نوع جمله: این یک جمله خبری در زمان گذشته کامل (Perfekt) با فعل جداشدنی است.\nPlötzlich: قید 'ناگهان'.\nist: فعل کمکی 'sein' صرف شده برای 'das Licht'. از 'sein' برای افعال حرکتی یا تغییر حالت استفاده می‌شود.\ndas Licht: اسم خنثی 'نور'، فاعل.\nausgegangen: حالت Partizip II فعل 'ausgehen' (خاموش شدن).",
     "type": "جمله",
     "subject": ["das Licht"],
-    "verb": ["ist"],
-    "auxiliary_verb": [null],
+    "verb": ["ausgegangen"],
+    "auxiliary_verb": ["ist"],
     "object": [null],
     "verb_part1": ["aus"],
     "verb_part2": ["gehen"]

@@ -300,29 +300,13 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
         score--;
         wrongAttempts = 0;
         scoreDisplay.textContent = score;
+        setTimeout(() => {
+          // به جای بازنویسی دستی، تابع loadSentenceGame را فراخوانی می‌کنیم
+          loadSentenceGame(audioPath);
+          lockClick = false;
+        }, 1000);
+        return; // از ادامه اجرا جلوگیری می‌کنیم
       }
-      setTimeout(() => {
-        sentenceBoxes.innerHTML = "";
-        wordBank.innerHTML = "";
-        const shuffledWords = shuffle([...words]);
-        words.forEach((_, index) => {
-          const newBox = document.createElement("div");
-          newBox.className = "sentence-box";
-          newBox.dataset.index = index;
-          sentenceBoxes.appendChild(newBox);
-        });
-        shuffledWords.forEach((word) => {
-          const wordItem = document.createElement("div");
-          wordItem.className = "word-item";
-          wordItem.textContent = word;
-          wordItem.addEventListener("click", () =>
-            handleWordClick(wordItem, word, sentence, audioPath, words)
-          );
-          wordBank.appendChild(wordItem);
-        });
-        nextSentenceButton.disabled = true;
-        lockClick = false;
-      }, 1000);
       scoreDisplay.textContent = score;
       lockClick = false;
       return;
@@ -373,7 +357,6 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
     lockClick = false;
   }, 300);
 }
-
 function selectItem(element, type) {
   if (lockSelection || element.classList.contains("correct")) return;
   element.classList.add("selected");

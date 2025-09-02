@@ -34,13 +34,13 @@ const levelConfig = {
   },
   "A1 Kollokationen": {
     jsonFile: "json-A1-Kollokationen.json",
-    audioPath: "audio-Kollokationen-A1",
+    audioPath: "audio-A1-Kollokationen",
     headerText: "A1 Kollokationen",
     headerClass: "color-a1",
   },
   "A2 Kollokationen": {
     jsonFile: "json-A2-Kollokationen.json",
-    audioPath: "audio-Kollokationen-A2",
+    audioPath: "audio-A2-Kollokationen",
     headerText: "A2 Kollokationen",
     headerClass: "color-a2",
   },

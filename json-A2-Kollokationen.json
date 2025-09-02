@@ -4143,8 +4143,8 @@
   },
   {
     "Filename": "346",
-    "Sound_de": "das Geschäft hat noch auf",
-    "translate_fa": "فروشگاه هنوز باز است",
+    "Sound_de": "auf haben",
+    "translate_fa": "باز بودن",
     "file": "346_de.mp3",
     "root": "auf haben: فعل ترکیبی 'باز بودن'. das Geschäft: اسم 'فروشگاه'. noch: قید 'هنوز'.",
     "type": "عبارت"

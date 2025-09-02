@@ -11,7 +11,7 @@ let currentSentenceIndex = 0;
 let remainingSentences = 0;
 let shuffledSentences = [];
 let wrongAttempts = 0;
-let difficultyLevel = "simple"; // پیش‌فرض ساده
+let difficultyLevel = "simple";
 const columns = document.getElementById("columns");
 const sentenceGame = document.getElementById("sentence-game");
 const germanColumn = document.createElement("div");
@@ -300,15 +300,11 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
         score--;
         wrongAttempts = 0;
         scoreDisplay.textContent = score;
-        setTimeout(() => {
-          // به جای بازنویسی دستی، تابع loadSentenceGame را فراخوانی می‌کنیم
-          loadSentenceGame(audioPath);
-          lockClick = false;
-        }, 1000);
-        return; // از ادامه اجرا جلوگیری می‌کنیم
       }
-      scoreDisplay.textContent = score;
-      lockClick = false;
+      setTimeout(() => {
+        loadSentenceGame(audioPath);
+        lockClick = false;
+      }, 1000);
       return;
     }
     scoreDisplay.textContent = score;
@@ -357,6 +353,7 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
     lockClick = false;
   }, 300);
 }
+
 function selectItem(element, type) {
   if (lockSelection || element.classList.contains("correct")) return;
   element.classList.add("selected");
@@ -464,7 +461,7 @@ function restartGame() {
   nextSentenceButton.disabled = true;
   prevSentenceButton.disabled = true;
   playAudioButton.disabled = true;
-  playAudioButton.classList.remove("active");
+  playAudioButton.classList.add("active");
   loadPageItems();
   startTimer();
 }
@@ -505,7 +502,7 @@ function prevSentence() {
     console.log("Moving to previous sentence:", currentSentenceIndex);
     const urlParams = new URLSearchParams(window.location.search);
     const level = urlParams.get("level") || "A2";
-    constaaudioPath = level === "A1" ? "audio-A1" : "audio-A2";
+    const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
     loadSentenceGame(audioPath);
   } else {
     console.log("No previous sentence available");

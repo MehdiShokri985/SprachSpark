@@ -11,6 +11,7 @@ let currentSentenceIndex = 0;
 let remainingSentences = 0;
 let shuffledSentences = [];
 let wrongAttempts = 0;
+let difficultyLevel = "simple"; // پیش‌فرض ساده
 const columns = document.getElementById("columns");
 const sentenceGame = document.getElementById("sentence-game");
 const germanColumn = document.createElement("div");
@@ -57,6 +58,8 @@ function loadPageItems() {
   columns.style.display = currentMode === "words" ? "flex" : "none";
   sentenceGame.style.display = currentMode === "sentences" ? "block" : "none";
   legend.style.display = currentMode === "sentences" ? "block" : "none";
+  document.getElementById("difficulty-switch").style.display =
+    currentMode === "sentences" ? "flex" : "none";
   if (currentMode === "words") {
     germanColumn.innerHTML = "";
     persianColumn.innerHTML = "";
@@ -121,13 +124,12 @@ function loadSentenceGame(audioPath) {
   wordBank.innerHTML = "";
   sentenceTranslation.textContent = "";
   sentenceCount.textContent = remainingSentences;
-  sentenceRoot.style.display = "none"; // مخفی کردن باکس در شروع
-  sentenceRoot.textContent = ""; // خالی کردن محتوای باکس
+  sentenceRoot.style.display = "none";
+  sentenceRoot.textContent = "";
   completedSentence.style.display = "none";
   completedSentence.textContent = "";
   wordBank.style.display = "flex";
   legend.style.display = "block";
-  // Set button states
   nextSentenceButton.disabled = true;
   prevSentenceButton.disabled = currentSentenceIndex === 0;
   playAudioButton.disabled = !completedSentencesStates[currentSentenceIndex];
@@ -147,7 +149,6 @@ function loadSentenceGame(audioPath) {
     legend.style.display = "none";
     return;
   }
-  // Check if the sentence is already completed
   if (completedSentencesStates[currentSentenceIndex]) {
     sentenceBoxes.innerHTML =
       completedSentencesStates[currentSentenceIndex].sentenceBoxesHTML;
@@ -156,9 +157,9 @@ function loadSentenceGame(audioPath) {
     completedSentence.textContent =
       completedSentencesStates[currentSentenceIndex].completedSentence;
     sentenceRoot.textContent =
-      shuffledSentences[currentSentenceIndex].root || "بدون ریشه"; // نمایش root
+      shuffledSentences[currentSentenceIndex].root || "بدون ریشه";
     completedSentence.style.display = "block";
-    sentenceRoot.style.display = "block"; // نمایش باکس برای جمله تکمیل‌شده
+    sentenceRoot.style.display = "block";
     wordBank.style.display = "none";
     nextSentenceButton.disabled =
       currentSentenceIndex >= shuffledSentences.length - 1;
@@ -170,7 +171,31 @@ function loadSentenceGame(audioPath) {
   const currentSentence = shuffledSentences[currentSentenceIndex];
   sentenceTranslation.textContent = currentSentence.translate_fa;
   const words = currentSentence.Sound_de.trim().split(" ");
-  const shuffledWords = shuffle([...words]);
+  let allWords = [...words];
+  if (difficultyLevel === "medium" && shuffledSentences.length > 1) {
+    const otherSentences = shuffledSentences.filter(
+      (_, idx) => idx !== currentSentenceIndex
+    );
+    const randomSentence =
+      otherSentences[Math.floor(Math.random() * otherSentences.length)];
+    allWords = [...allWords, ...randomSentence.Sound_de.trim().split(" ")];
+  } else if (difficultyLevel === "hard" && shuffledSentences.length > 2) {
+    const otherSentences = shuffledSentences.filter(
+      (_, idx) => idx !== currentSentenceIndex
+    );
+    const randomIndices = [];
+    while (randomIndices.length < 2 && otherSentences.length > 0) {
+      const randomIndex = Math.floor(Math.random() * otherSentences.length);
+      if (!randomIndices.includes(randomIndex)) {
+        randomIndices.push(randomIndex);
+        allWords = [
+          ...allWords,
+          ...otherSentences[randomIndex].Sound_de.trim().split(" "),
+        ];
+      }
+    }
+  }
+  const shuffledWords = shuffle([...allWords]);
   words.forEach((_, index) => {
     const box = document.createElement("div");
     box.className = "sentence-box";
@@ -306,7 +331,10 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
     const allCorrect = Array.from(allBoxes).every((box) =>
       box.classList.contains("correct")
     );
-    if (allCorrect && wordBank.children.length === 0) {
+    if (allCorrect && wordBank.children.length > 0) {
+      wordBank.innerHTML = "";
+    }
+    if (allCorrect) {
       score++;
       remainingSentences--;
       wrongAttempts = 0;
@@ -315,13 +343,13 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
       wordBank.style.display = "none";
       completedSentence.style.display = "block";
       completedSentence.textContent = sentence.Sound_de.trim();
-      sentenceRoot.style.display = "block"; // نمایش باکس root
-      sentenceRoot.textContent = sentence.root || "بدون ریشه"; // تنظیم مقدار root
+      sentenceRoot.style.display = "block";
+      sentenceRoot.textContent = sentence.root || "بدون ریشه";
       completedSentencesStates[currentSentenceIndex] = {
         sentenceBoxesHTML: sentenceBoxes.innerHTML,
         translation: sentenceTranslation.textContent,
         completedSentence: completedSentence.textContent,
-        root: sentenceRoot.textContent, // ذخیره root
+        root: sentenceRoot.textContent,
       };
       console.log(
         "Sentence completed:",
@@ -338,7 +366,6 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
         playAudioButton.classList.add("active");
       });
       audio.play();
-      // Check if this is the last sentence
       if (currentSentenceIndex === shuffledSentences.length - 1) {
         showResult();
       }
@@ -346,6 +373,7 @@ function handleWordClick(wordItem, word, sentence, audioPath, words) {
     lockClick = false;
   }, 300);
 }
+
 function selectItem(element, type) {
   if (lockSelection || element.classList.contains("correct")) return;
   element.classList.add("selected");
@@ -442,6 +470,10 @@ function restartGame() {
   wrongAttempts = 0;
   timeLeft = 840;
   lockClick = false;
+  difficultyLevel = "simple";
+  document.querySelector(
+    'input[name="difficulty"][value="simple"]'
+  ).checked = true;
   scoreDisplay.textContent = score;
   timerDisplay.textContent = timeLeft;
   popup.style.display = "none";
@@ -490,7 +522,7 @@ function prevSentence() {
     console.log("Moving to previous sentence:", currentSentenceIndex);
     const urlParams = new URLSearchParams(window.location.search);
     const level = urlParams.get("level") || "A2";
-    const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
+    constaaudioPath = level === "A1" ? "audio-A1" : "audio-A2";
     loadSentenceGame(audioPath);
   } else {
     console.log("No previous sentence available");
@@ -521,6 +553,10 @@ document.querySelectorAll('input[name="mode"]').forEach((radio) => {
     currentSentenceIndex = 0;
     shuffledSentences = [];
     wrongAttempts = 0;
+    difficultyLevel = "simple";
+    document.querySelector(
+      'input[name="difficulty"][value="simple"]'
+    ).checked = true;
     scoreDisplay.textContent = score;
     popup.style.display = "none";
     completedSentencesStates = [];
@@ -533,9 +569,28 @@ document.querySelectorAll('input[name="mode"]').forEach((radio) => {
   });
 });
 
+document.querySelectorAll('input[name="difficulty"]').forEach((radio) => {
+  radio.addEventListener("change", (e) => {
+    difficultyLevel = e.target.value;
+    console.log("Difficulty changed to:", difficultyLevel);
+    currentSentenceIndex = 0;
+    shuffledSentences = [];
+    wrongAttempts = 0;
+    completedSentencesStates = [];
+    score = 0;
+    scoreDisplay.textContent = score;
+    popup.style.display = "none";
+    nextSentenceButton.disabled = true;
+    prevSentenceButton.disabled = true;
+    playAudioButton.disabled = true;
+    playAudioButton.classList.remove("active");
+    loadPageItems();
+  });
+});
+
 playAudioButton.addEventListener("click", playAudio);
 nextSentenceButton.addEventListener("click", nextSentence);
-prevSentenceButton.addEventListener("click", prevSentence); // اتصال رویداد کلیک به دکمه قبلی
+prevSentenceButton.addEventListener("click", prevSentence);
 
 startTimer();
 loadPageItems();

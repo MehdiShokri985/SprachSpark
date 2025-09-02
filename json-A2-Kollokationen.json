@@ -1,17 +1,17 @@
 [
   {
-    "Filename": "001",
+    "Filename": "1",
     "Sound_de": "Abfahrt haben",
     "translate_fa": "حرکت داشتن",
-    "file": "001_de.mp3",
+    "file": "1_de.mp3",
     "root": "haben: فعل 'داشتن'. Abfahrt: اسم به معنی 'حرکت' یا 'عزیمت'.",
     "type": "عبارت"
   },
   {
-    "Filename": "002",
+    "Filename": "2",
     "Sound_de": "Der Zug hat Abfahrt um 10 Uhr.",
     "translate_fa": "قطار ساعت ۱۰ حرکت می‌کند.",
-    "file": "002_de.mp3",
+    "file": "2_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Der Zug`: فاعل 'قطار'.\n`hat`: فعل 'دارد' صرف شده برای 'der Zug'.\n`Abfahrt`: مفعول 'حرکت'.\n`um 10 Uhr`: حرف اضافه 'um' به معنی 'در ساعت'.",
     "type": "جمله",
     "subject": ["Der Zug"],
@@ -22,10 +22,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "003",
+    "Filename": "3",
     "Sound_de": "Frage: Wann haben wir Abfahrt? Antwort: Wir haben Abfahrt morgen früh.",
     "translate_fa": "سوال: ما کی حرکت می‌کنیم؟ پاسخ: ما فردا صبح حرکت می‌کنیم.",
-    "file": "003_de.mp3",
+    "file": "3_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Wann' قید پرسشی 'کی'. 'haben' فعل 'داشتن' صرف شده برای 'wir'. 'wir' فاعل 'ما'.\n`Antwort`: 'Wir haben Abfahrt morgen früh' به معنی 'ما فردا صبح حرکت داریم'.",
     "type": "سوال_و_جواب",
     "subject": ["wir"],
@@ -36,18 +36,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "004",
+    "Filename": "4",
     "Sound_de": "Adresse geben",
     "translate_fa": "آدرس دادن",
-    "file": "004_de.mp3",
+    "file": "4_de.mp3",
     "root": "geben: فعل 'دادن'. Adresse: اسم به معنی 'آدرس'.",
     "type": "عبارت"
   },
   {
-    "Filename": "005",
+    "Filename": "5",
     "Sound_de": "Kannst du mir bitte deine Adresse geben?",
     "translate_fa": "می‌توانی لطفاً آدرست را به من بدهی؟",
-    "file": "005_de.mp3",
+    "file": "5_de.mp3",
     "root": "این یک جمله سؤالی است.\n`Kannst`: فعل کمکی 'توانستن' صرف شده برای 'du'.\n`du`: فاعل 'تو'.\n`mir`: مفعول غیرمستقیم 'به من'.\n`bitte`: قید 'لطفاً'.\n`deine Adresse`: مفعول مستقیم 'آدرست'.\n`geben`: فعل اصلی 'دادن'.",
     "type": "جمله",
     "subject": ["du"],
@@ -58,10 +58,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "006",
+    "Filename": "6",
     "Sound_de": "Frage: Hast du ihm die Adresse gegeben? Antwort: Ja, ich habe ihm die Adresse gegeben.",
     "translate_fa": "سوال: آیا آدرس را به او دادی؟ پاسخ: بله، آدرس را به او دادم.",
-    "file": "006_de.mp3",
+    "file": "6_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان گذشته کامل (Perfekt) است.\n`Frage`: 'Hast' فعل کمکی 'haben' صرف شده برای 'du'. 'ihm' مفعول غیرمستقیم 'به او'. 'die Adresse' مفعول مستقیم 'آدرس'. 'gegeben' قسمت سوم فعل 'geben' (دادن) است.\n`Antwort`: 'Ja, ich habe ihm die Adresse gegeben' به معنی 'بله، من آدرس را به او دادم'.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -72,18 +72,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "007",
+    "Filename": "7",
     "Sound_de": "Adressen austauschen",
     "translate_fa": "آدرس‌ها را تبادل کردن",
-    "file": "007_de.mp3",
+    "file": "7_de.mp3",
     "root": "austauschen: فعل 'تبادل کردن'. Adressen: جمع 'Adresse' به معنی 'آدرس‌ها'.",
     "type": "عبارت"
   },
   {
-    "Filename": "008",
+    "Filename": "8",
     "Sound_de": "Wir müssen noch Adressen austauschen.",
     "translate_fa": "ما هنوز باید آدرس‌ها را تبادل کنیم.",
-    "file": "008_de.mp3",
+    "file": "8_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Wir`: فاعل 'ما'.\n`müssen`: فعل کمکی 'باید' صرف شده برای 'wir'.\n`noch`: قید 'هنوز'.\n`Adressen`: مفعول 'آدرس‌ها'.\n`austauschen`: فعل اصلی 'تبادل کردن'.",
     "type": "جمله",
     "subject": ["Wir"],
@@ -94,10 +94,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "009",
+    "Filename": "9",
     "Sound_de": "Frage: Habt ihr schon die Adressen ausgetauscht? Antwort: Nein, das machen wir später.",
     "translate_fa": "سوال: آیا قبلاً آدرس‌ها را تبادل کرده‌اید؟ پاسخ: نه، این کار را بعداً انجام می‌دهیم.",
-    "file": "009_de.mp3",
+    "file": "9_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان گذشته کامل (Perfekt) است.\n`Frage`: 'Habt' فعل کمکی 'haben' صرف شده برای 'ihr'. 'schon' قید 'قبلاً'. 'die Adressen' مفعول 'آدرس‌ها'. 'ausgetauscht' قسمت سوم فعل 'austauschen' (تبادل کردن) است.\n`Antwort`: 'Nein' به معنی 'نه'. 'das machen wir später' به معنی 'ما این کار را بعداً انجام می‌دهیم'.",
     "type": "سوال_و_جواب",
     "subject": ["ihr", "wir"],
@@ -108,18 +108,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "010",
+    "Filename": "10",
     "Sound_de": "alle da sein",
     "translate_fa": "همه حضور داشته باشند",
-    "file": "010_de.mp3",
+    "file": "10_de.mp3",
     "root": "sein: فعل 'بودن'. alle: ضمیر 'همه'. da: قید مکان 'آنجا' یا 'حاضر'.",
     "type": "عبارت"
   },
   {
-    "Filename": "011",
+    "Filename": "11",
     "Sound_de": "Sind wirklich alle da?",
     "translate_fa": "آیا واقعاً همه اینجا هستند؟",
-    "file": "011_de.mp3",
+    "file": "11_de.mp3",
     "root": "این یک جمله سؤالی است.\n`Sind`: فعل 'بودن' صرف شده برای 'alle'.\n`wirklich`: قید 'واقعاً'.\n`alle`: فاعل 'همه'.\n`da`: قید مکان 'اینجا' یا 'حاضر'.",
     "type": "جمله",
     "subject": ["alle"],
@@ -130,10 +130,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "012",
+    "Filename": "12",
     "Sound_de": "Frage: Sind alle da? Antwort: Ja, alle sind schon da.",
     "translate_fa": "سوال: آیا همه حاضرند؟ پاسخ: بله، همه از قبل اینجا هستند.",
-    "file": "012_de.mp3",
+    "file": "12_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Sind' فعل 'بودن' صرف شده برای 'alle'. 'alle' فاعل 'همه'. 'da' قید مکان 'حاضر'.\n`Antwort`: 'Ja' به معنی 'بله'. 'alle sind schon da' به معنی 'همه از قبل اینجا هستند'. 'schon' قید 'از قبل' است.",
     "type": "سوال_و_جواب",
     "subject": ["alle"],
@@ -144,18 +144,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "013",
+    "Filename": "13",
     "Sound_de": "alle kommen",
     "translate_fa": "همه بیایند",
-    "file": "013_de.mp3",
+    "file": "13_de.mp3",
     "root": "kommen: فعل 'آمدن'. alle: ضمیر 'همه'.",
     "type": "عبارت"
   },
   {
-    "Filename": "014",
+    "Filename": "14",
     "Sound_de": "Ich hoffe, alle kommen zur Party.",
     "translate_fa": "امیدوارم همه به مهمانی بیایند.",
-    "file": "014_de.mp3",
+    "file": "14_de.mp3",
     "root": "این یک جمله مرکب است.\n`Ich`: فاعل 'من'.\n`hoffe`: فعل 'امیدوارم'.\n`dass`: حرف ربط 'که' (که در اینجا حذف شده است).\n`alle`: فاعل جمله فرعی 'همه'.\n`kommen`: فعل 'بیایند'.\n`zur Party`: حرف اضافه 'به' با 'مهمانی'.",
     "type": "جمله",
     "subject": ["Ich", "alle"],
@@ -166,10 +166,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "015",
+    "Filename": "15",
     "Sound_de": "Frage: Kommen alle zu dem Fest? Antwort: Ja, alle haben zugesagt.",
     "translate_fa": "سوال: آیا همه به جشن می‌آیند؟ پاسخ: بله، همه تأیید کرده‌اند.",
-    "file": "015_de.mp3",
+    "file": "15_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال و گذشته کامل (Perfekt) است.\n`Frage`: 'Kommen' فعل 'آمدن' صرف شده برای 'alle'. 'alle' فاعل 'همه'. 'zu dem Fest' حرف اضافه 'به' با 'جشن'.\n`Antwort`: 'Ja' به معنی 'بله'. 'alle haben zugesagt' به معنی 'همه تأیید کرده‌اند'. 'zugesagt' قسمت سوم فعل 'zusagen' (تأیید کردن) است.",
     "type": "سوال_و_جواب",
     "subject": ["alle"],
@@ -180,18 +180,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "016",
+    "Filename": "16",
     "Sound_de": "allein kommen",
     "translate_fa": "تنها آمدن",
-    "file": "016_de.mp3",
+    "file": "16_de.mp3",
     "root": "kommen: فعل 'آمدن'. allein: قید 'تنها'.",
     "type": "عبارت"
   },
   {
-    "Filename": "017",
+    "Filename": "17",
     "Sound_de": "Ich möchte nicht allein kommen.",
     "translate_fa": "من نمی‌خواهم تنها بیایم.",
-    "file": "017_de.mp3",
+    "file": "17_de.mp3",
     "root": "این یک جمله خبری است.\n`Ich`: فاعل 'من'.\n`möchte`: فعل کمکی 'خواستن' صرف شده برای 'ich'.\n`nicht`: قید 'نه'.\n`allein`: قید 'تنها'.\n`kommen`: فعل اصلی 'آمدن'.",
     "type": "جمله",
     "subject": ["Ich"],
@@ -202,10 +202,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "018",
+    "Filename": "18",
     "Sound_de": "Frage: Kommst du allein? Antwort: Nein, ich komme mit meiner Schwester.",
     "translate_fa": "سوال: تنها می‌آیی؟ پاسخ: نه، با خواهرم می‌آیم.",
-    "file": "018_de.mp3",
+    "file": "18_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Kommst' فعل 'آمدن' صرف شده برای 'du'. 'du' فاعل 'تو'. 'allein' قید 'تنها'.\n`Antwort`: 'Nein' به معنی 'نه'. 'ich komme mit meiner Schwester' به معنی 'من با خواهرم می‌آیم'.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -216,18 +216,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "019",
+    "Filename": "19",
     "Sound_de": "allein schaffen",
     "translate_fa": "تنها انجام دادن/از پس کاری برآمدن",
-    "file": "019_de.mp3",
+    "file": "19_de.mp3",
     "root": "schaffen: فعل 'انجام دادن'. allein: قید 'تنها'.",
     "type": "عبارت"
   },
   {
-    "Filename": "020",
+    "Filename": "20",
     "Sound_de": "Ich schaffe das allein.",
     "translate_fa": "من این کار را تنها انجام می‌دهم.",
-    "file": "020_de.mp3",
+    "file": "20_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Ich`: فاعل 'من'.\n`schaffe`: فعل 'انجام می‌دهم' صرف شده برای 'ich'.\n`das`: مفعول 'این'.\n`allein`: قید 'تنها'.",
     "type": "جمله",
     "subject": ["Ich"],
@@ -238,10 +238,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "021",
+    "Filename": "21",
     "Sound_de": "Frage: Schaffst du das allein? Antwort: Ich glaube schon.",
     "translate_fa": "سوال: می‌توانی این را تنها انجام دهی؟ پاسخ: فکر کنم آره.",
-    "file": "021_de.mp3",
+    "file": "21_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Schaffst' فعل 'انجام دادن' صرف شده برای 'du'. 'du' فاعل 'تو'. 'das' مفعول 'این'. 'allein' قید 'تنها'.\n`Antwort`: 'Ich glaube schon' به معنی 'من فکر می‌کنم آره' است. 'schon' در اینجا به معنی 'بله' یا 'آره' است.",
     "type": "سوال_و_جواب",
     "subject": ["du", "Ich"],
@@ -252,18 +252,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "022",
+    "Filename": "22",
     "Sound_de": "alles Gute wünschen",
     "translate_fa": "بهترین‌ها را آرزو کردن",
-    "file": "022_de.mp3",
+    "file": "22_de.mp3",
     "root": "wünschen: فعل 'آرزو کردن'. alles Gute: 'همه چیزهای خوب' یا 'بهترین‌ها'.",
     "type": "عبارت"
   },
   {
-    "Filename": "023",
+    "Filename": "23",
     "Sound_de": "Ich wünsche dir alles Gute zum Geburtstag.",
     "translate_fa": "بهترین‌ها را برای تولدت آرزو می‌کنم.",
-    "file": "023_de.mp3",
+    "file": "23_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Ich`: فاعل 'من'.\n`wünsche`: فعل 'آرزو می‌کنم' صرف شده برای 'ich'.\n`dir`: مفعول غیرمستقیم 'به تو'.\n`alles Gute`: مفعول مستقیم 'بهترین‌ها'.\n`zum Geburtstag`: حرف اضافه 'برای' با 'تولد'.",
     "type": "جمله",
     "subject": ["Ich"],
@@ -274,10 +274,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "024",
+    "Filename": "24",
     "Sound_de": "Frage: Hast du ihm alles Gute gewünscht? Antwort: Ja, habe ich schon gemacht.",
     "translate_fa": "سوال: آیا بهترین‌ها را برای او آرزو کردی؟ پاسخ: بله، از قبل این کار را انجام دادم.",
-    "file": "024_de.mp3",
+    "file": "24_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان گذشته کامل (Perfekt) است.\n`Frage`: 'Hast' فعل کمکی 'haben' صرف شده برای 'du'. 'ihm' مفعول غیرمستقیم 'به او'. 'alles Gute' مفعول مستقیم 'بهترین‌ها'. 'gewünscht' قسمت سوم فعل 'wünschen' (آرزو کردن) است.\n`Antwort`: 'Ja, habe ich schon gemacht' به معنی 'بله، من از قبل این کار را انجام دادم'.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -288,18 +288,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "025",
+    "Filename": "25",
     "Sound_de": "alles haben",
     "translate_fa": "همه چیز را داشتن",
-    "file": "025_de.mp3",
+    "file": "25_de.mp3",
     "root": "haben: فعل 'داشتن'. alles: ضمیر 'همه چیز'.",
     "type": "عبارت"
   },
   {
-    "Filename": "026",
+    "Filename": "26",
     "Sound_de": "Ich habe alles, was ich brauche.",
     "translate_fa": "من همه چیزهایی را که نیاز دارم، دارم.",
-    "file": "026_de.mp3",
+    "file": "26_de.mp3",
     "root": "این یک جمله مرکب است.\n`Ich`: فاعل 'من'.\n`habe`: فعل 'دارم'.\n`alles`: مفعول 'همه چیز'.\n`was`: ضمیر موصولی 'آنچه'.\n`ich brauche`: جمله فرعی 'من نیاز دارم'.",
     "type": "جمله",
     "subject": ["Ich", "ich"],
@@ -310,10 +310,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "027",
+    "Filename": "27",
     "Sound_de": "Frage: Hast du alles für die Reise? Antwort: Ja, ich habe alles dabei.",
     "translate_fa": "سوال: آیا همه چیز را برای سفر داری؟ پاسخ: بله، همه چیز را با خودم دارم.",
-    "file": "027_de.mp3",
+    "file": "27_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Hast' فعل 'داشتن' صرف شده برای 'du'. 'du' فاعل 'تو'. 'alles' مفعول 'همه چیز'. 'für die Reise' حرف اضافه 'برای' با 'سفر'.\n`Antwort`: 'Ja' به معنی 'بله'. 'ich habe alles dabei' به معنی 'من همه چیز را با خودم دارم'. 'dabei' قید 'با خود' است.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -324,18 +324,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "028",
+    "Filename": "28",
     "Sound_de": "als Krankenschwester arbeiten",
     "translate_fa": "به عنوان پرستار کار کردن",
-    "file": "028_de.mp3",
+    "file": "28_de.mp3",
     "root": "arbeiten: فعل 'کار کردن'. als: حرف اضافه 'به عنوان'. Krankenschwester: اسم 'پرستار'.",
     "type": "عبارت"
   },
   {
-    "Filename": "029",
+    "Filename": "29",
     "Sound_de": "Meine Schwester arbeitet als Krankenschwester.",
     "translate_fa": "خواهرم به عنوان پرستار کار می‌کند.",
-    "file": "029_de.mp3",
+    "file": "29_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Meine Schwester`: فاعل 'خواهرم'.\n`arbeitet`: فعل 'کار می‌کند' صرف شده برای 'meine Schwester'.\n`als Krankenschwester`: حرف اضافه 'به عنوان' با 'پرستار'.",
     "type": "جمله",
     "subject": ["Meine Schwester"],
@@ -346,10 +346,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "030",
+    "Filename": "30",
     "Sound_de": "Frage: Arbeitest du als Krankenschwester? Antwort: Ja, ich arbeite im Krankenhaus.",
     "translate_fa": "سوال: به عنوان پرستار کار می‌کنی؟ پاسخ: بله، من در بیمارستان کار می‌کنم.",
-    "file": "030_de.mp3",
+    "file": "30_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Arbeitest' فعل 'کار کردن' صرف شده برای 'du'. 'du' فاعل 'تو'. 'als Krankenschwester' حرف اضافه 'به عنوان' با 'پرستار'.\n`Antwort`: 'Ja' به معنی 'بله'. 'ich arbeite im Krankenhaus' به معنی 'من در بیمارستان کار می‌کنم'.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -360,18 +360,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "031",
+    "Filename": "31",
     "Sound_de": "alt sein",
     "translate_fa": "پیر بودن",
-    "file": "031_de.mp3",
+    "file": "31_de.mp3",
     "root": "sein: فعل 'بودن'. alt: صفت 'پیر'.",
     "type": "عبارت"
   },
   {
-    "Filename": "032",
+    "Filename": "32",
     "Sound_de": "Wie alt bist du?",
     "translate_fa": "چند سال داری؟",
-    "file": "032_de.mp3",
+    "file": "32_de.mp3",
     "root": "این یک جمله سؤالی است.\n`Wie alt`: قید پرسشی 'چند سال'.\n`bist`: فعل 'بودن' صرف شده برای 'du'.\n`du`: فاعل 'تو'.",
     "type": "جمله",
     "subject": ["du"],
@@ -382,10 +382,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "033",
+    "Filename": "33",
     "Sound_de": "Frage: Ist das Haus sehr alt? Antwort: Ja, es ist über 100 Jahre alt.",
     "translate_fa": "سوال: آیا این خانه خیلی قدیمی است؟ پاسخ: بله، بیش از ۱۰۰ سال قدمت دارد.",
-    "file": "033_de.mp3",
+    "file": "33_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Ist' فعل 'بودن' صرف شده برای 'das Haus'. 'das Haus' فاعل 'خانه'. 'sehr' قید 'خیلی'. 'alt' صفت 'قدیمی'.\n`Antwort`: 'Ja' به معنی 'بله'. 'es ist über 100 Jahre alt' به معنی 'آن بیش از ۱۰۰ سال قدمت دارد'.",
     "type": "سوال_و_جواب",
     "subject": ["das Haus", "es"],
@@ -396,18 +396,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "034",
+    "Filename": "34",
     "Sound_de": "am besten finden",
     "translate_fa": "بهترین یافتن",
-    "file": "034_de.mp3",
+    "file": "34_de.mp3",
     "root": "finden: فعل 'یافتن'. am besten: قید تفضیلی 'بهترین'.",
     "type": "عبارت"
   },
   {
-    "Filename": "035",
+    "Filename": "35",
     "Sound_de": "Ich finde Pizza am besten.",
     "translate_fa": "من پیتزا را از همه چیز بهتر می‌دانم.",
-    "file": "035_de.mp3",
+    "file": "35_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Ich`: فاعل 'من'.\n`finde`: فعل 'می‌یابم' صرف شده برای 'ich'.\n`Pizza`: مفعول 'پیتزا'.\n`am besten`: قید 'بهترین'.",
     "type": "جمله",
     "subject": ["Ich"],
@@ -418,10 +418,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "036",
+    "Filename": "36",
     "Sound_de": "Frage: Was findest du am besten? Antwort: Ich finde den neuen Film am besten.",
     "translate_fa": "سوال: چه چیزی را بهترین می‌دانی؟ پاسخ: من فیلم جدید را بهترین می‌دانم.",
-    "file": "036_de.mp3",
+    "file": "36_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Was' ضمیر پرسشی 'چه'. 'findest' فعل 'یافتن' صرف شده برای 'du'. 'du' فاعل 'تو'. 'am besten' قید 'بهترین'.\n`Antwort`: 'Ich finde den neuen Film am besten' به معنی 'من فیلم جدید را بهترین می‌دانم'.",
     "type": "سوال_و_جواب",
     "subject": ["du", "Ich"],
@@ -432,18 +432,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "037",
+    "Filename": "37",
     "Sound_de": "am Flughafen sein",
     "translate_fa": "در فرودگاه بودن",
-    "file": "037_de.mp3",
+    "file": "37_de.mp3",
     "root": "sein: فعل 'بودن'. am Flughafen: 'در فرودگاه'.",
     "type": "عبارت"
   },
   {
-    "Filename": "038",
+    "Filename": "38",
     "Sound_de": "Wir müssen um 14 Uhr am Flughafen sein.",
     "translate_fa": "ما باید ساعت ۱۴ در فرودگاه باشیم.",
-    "file": "038_de.mp3",
+    "file": "38_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Wir`: فاعل 'ما'.\n`müssen`: فعل کمکی 'باید' صرف شده برای 'wir'.\n`um 14 Uhr`: حرف اضافه 'در ساعت'.\n`am Flughafen`: حرف اضافه 'در'.\n`sein`: فعل اصلی 'بودن'.",
     "type": "جمله",
     "subject": ["Wir"],
@@ -454,10 +454,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "039",
+    "Filename": "39",
     "Sound_de": "Frage: Bist du schon am Flughafen? Antwort: Ja, ich warte hier auf dich.",
     "translate_fa": "سوال: آیا از قبل در فرودگاه هستی؟ پاسخ: بله، من اینجا منتظر تو هستم.",
-    "file": "039_de.mp3",
+    "file": "39_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Bist' فعل 'بودن' صرف شده برای 'du'. 'du' فاعل 'تو'. 'schon' قید 'از قبل'. 'am Flughafen' حرف اضافه 'در فرودگاه'.\n`Antwort`: 'Ja' به معنی 'بله'. 'ich warte hier auf dich' به معنی 'من اینجا منتظر تو هستم'. 'warten auf' یک فعل با حرف اضافه است.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -468,18 +468,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "040",
+    "Filename": "40",
     "Sound_de": "am Kiosk kaufen",
     "translate_fa": "از دکه خریدن",
-    "file": "040_de.mp3",
+    "file": "40_de.mp3",
     "root": "kaufen: فعل 'خریدن'. am Kiosk: 'از دکه'.",
     "type": "عبارت"
   },
   {
-    "Filename": "041",
+    "Filename": "41",
     "Sound_de": "Ich habe die Zeitung am Kiosk gekauft.",
     "translate_fa": "من روزنامه را از دکه خریدم.",
-    "file": "041_de.mp3",
+    "file": "41_de.mp3",
     "root": "این یک جمله خبری در زمان گذشته کامل (Perfekt) است.\n`Ich`: فاعل 'من'.\n`habe`: فعل کمکی 'haben' صرف شده برای 'ich'.\n`die Zeitung`: مفعول 'روزنامه'.\n`am Kiosk`: حرف اضافه 'در'.\n`gekauft`: قسمت سوم فعل 'kaufen' (خریدن).",
     "type": "جمله",
     "subject": ["Ich"],
@@ -490,10 +490,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "042",
+    "Filename": "42",
     "Sound_de": "Frage: Kann man hier Tickets am Kiosk kaufen? Antwort: Ja, das geht.",
     "translate_fa": "سوال: آیا می‌توان اینجا از دکه بلیت خرید؟ پاسخ: بله، امکان‌پذیر است.",
-    "file": "042_de.mp3",
+    "file": "42_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Kann' فعل کمکی 'توانستن' صرف شده برای 'man'. 'man' ضمیر 'شخص'. 'hier' قید 'اینجا'. 'Tickets' مفعول 'بلیت‌ها'. 'am Kiosk' حرف اضافه 'در'. 'kaufen' فعل اصلی 'خریدن'.\n`Antwort`: 'Ja, das geht' به معنی 'بله، آن کار می‌کند' یا 'امکان‌پذیر است'.",
     "type": "سوال_و_جواب",
     "subject": ["man", "das"],
@@ -504,18 +504,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "043",
+    "Filename": "43",
     "Sound_de": "am Meer sein",
     "translate_fa": "کنار دریا بودن",
-    "file": "043_de.mp3",
+    "file": "43_de.mp3",
     "root": "sein: فعل 'بودن'. am Meer: 'کنار دریا'.",
     "type": "عبارت"
   },
   {
-    "Filename": "044",
+    "Filename": "44",
     "Sound_de": "Wir sind im Urlaub am Meer.",
     "translate_fa": "ما در تعطیلات کنار دریا هستیم.",
-    "file": "044_de.mp3",
+    "file": "44_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Wir`: فاعل 'ما'.\n`sind`: فعل 'هستیم' صرف شده برای 'wir'.\n`im Urlaub`: 'در تعطیلات'.\n`am Meer`: حرف اضافه 'در'.",
     "type": "جمله",
     "subject": ["Wir"],
@@ -526,10 +526,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "045",
+    "Filename": "45",
     "Sound_de": "Frage: Wo seid ihr? Antwort: Wir sind am Meer.",
     "translate_fa": "سوال: شما کجا هستید؟ پاسخ: ما کنار دریا هستیم.",
-    "file": "045_de.mp3",
+    "file": "45_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Wo' قید پرسشی 'کجا'. 'seid' فعل 'بودن' صرف شده برای 'ihr'.\n`Antwort`: 'Wir sind am Meer' به معنی 'ما کنار دریا هستیم'.",
     "type": "سوال_و_جواب",
     "subject": ["ihr", "Wir"],
@@ -540,18 +540,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "046",
+    "Filename": "46",
     "Sound_de": "am Strand sein",
     "translate_fa": "در ساحل بودن",
-    "file": "046_de.mp3",
+    "file": "46_de.mp3",
     "root": "sein: فعل 'بودن'. am Strand: 'در ساحل'.",
     "type": "عبارت"
   },
   {
-    "Filename": "047",
+    "Filename": "47",
     "Sound_de": "Ich bin den ganzen Tag am Strand gewesen.",
     "translate_fa": "من تمام روز در ساحل بودم.",
-    "file": "047_de.mp3",
+    "file": "47_de.mp3",
     "root": "این یک جمله خبری در زمان گذشته کامل (Perfekt) است.\n`Ich`: فاعل 'من'.\n`bin`: فعل کمکی 'sein' صرف شده برای 'ich'.\n`den ganzen Tag`: 'تمام روز'.\n`am Strand`: حرف اضافه 'در'.\n`gewesen`: قسمت سوم فعل 'sein' (بودن).",
     "type": "جمله",
     "subject": ["Ich"],
@@ -562,10 +562,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "048",
+    "Filename": "48",
     "Sound_de": "Frage: Bist du gern am Strand? Antwort: Ja, ich liebe es, dort zu entspannen.",
     "translate_fa": "سوال: آیا دوست داری در ساحل باشی؟ پاسخ: بله، من عاشق استراحت کردن آنجا هستم.",
-    "file": "048_de.mp3",
+    "file": "48_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Bist' فعل 'بودن' صرف شده برای 'du'. 'gern' قید 'دوست داشتن'. 'am Strand' حرف اضافه 'در ساحل'.\n`Antwort`: 'Ja' به معنی 'بله'. 'ich liebe es, dort zu entspannen' به معنی 'من عاشق این هستم که آنجا استراحت کنم'.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -576,18 +576,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "049",
+    "Filename": "49",
     "Sound_de": "am Ziel sein",
     "translate_fa": "به مقصد رسیدن",
-    "file": "049_de.mp3",
+    "file": "49_de.mp3",
     "root": "sein: فعل 'بودن'. am Ziel: 'به هدف' یا 'به مقصد'.",
     "type": "عبارت"
   },
   {
-    "Filename": "050",
+    "Filename": "50",
     "Sound_de": "Wir sind fast am Ziel.",
     "translate_fa": "ما تقریباً به مقصد رسیدیم.",
-    "file": "050_de.mp3",
+    "file": "50_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Wir`: فاعل 'ما'.\n`sind`: فعل 'هستیم' صرف شده برای 'wir'.\n`fast`: قید 'تقریباً'.\n`am Ziel`: 'به مقصد'.",
     "type": "جمله",
     "subject": ["Wir"],
@@ -598,10 +598,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "051",
+    "Filename": "51",
     "Sound_de": "Frage: Wann seid ihr am Ziel? Antwort: In einer Stunde sind wir am Ziel.",
     "translate_fa": "سوال: کی به مقصد می‌رسید؟ پاسخ: ما یک ساعت دیگر به مقصد می‌رسیم.",
-    "file": "051_de.mp3",
+    "file": "51_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Wann' قید پرسشی 'کی'. 'seid' فعل 'بودن' صرف شده برای 'ihr'. 'am Ziel' 'به مقصد'.\n`Antwort`: 'In einer Stunde' به معنی 'در یک ساعت'. 'sind wir am Ziel' به معنی 'ما به مقصد می‌رسیم'.",
     "type": "سوال_و_جواب",
     "subject": ["ihr", "wir"],
@@ -612,18 +612,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "052",
+    "Filename": "52",
     "Sound_de": "an der Haltestelle aussteigen",
     "translate_fa": "در ایستگاه پیاده شدن",
-    "file": "052_de.mp3",
+    "file": "52_de.mp3",
     "root": "aussteigen: فعل ترکیبی 'پیاده شدن'. an der Haltestelle: 'در ایستگاه'.",
     "type": "عبارت"
   },
   {
-    "Filename": "053",
+    "Filename": "53",
     "Sound_de": "Bitte an der nächsten Haltestelle aussteigen.",
     "translate_fa": "لطفاً در ایستگاه بعدی پیاده شوید.",
-    "file": "053_de.mp3",
+    "file": "53_de.mp3",
     "root": "این یک جمله دستوری است.\n`Bitte`: قید 'لطفاً'.\n`an der nächsten Haltestelle`: حرف اضافه 'در ایستگاه بعدی'.\n`aussteigen`: فعل 'پیاده شدن' (در جایگاه اصلی).",
     "type": "جمله",
     "subject": [],
@@ -634,10 +634,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "054",
+    "Filename": "54",
     "Sound_de": "Frage: Muss ich an der nächsten Haltestelle aussteigen? Antwort: Ja, das ist die richtige.",
     "translate_fa": "سوال: آیا باید در ایستگاه بعدی پیاده شوم؟ پاسخ: بله، آن ایستگاه صحیح است.",
-    "file": "054_de.mp3",
+    "file": "54_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Muss' فعل کمکی 'باید' صرف شده برای 'ich'. 'ich' فاعل 'من'. 'an der nächsten Haltestelle' 'در ایستگاه بعدی'. 'aussteigen' فعل اصلی 'پیاده شدن'.\n`Antwort`: 'Ja' به معنی 'بله'. 'das ist die richtige' به معنی 'آن صحیح است'.",
     "type": "سوال_و_جواب",
     "subject": ["ich", "das"],
@@ -648,18 +648,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "055",
+    "Filename": "55",
     "Sound_de": "an der Kasse bezahlen",
     "translate_fa": "در صندوق پرداخت کردن",
-    "file": "055_de.mp3",
+    "file": "55_de.mp3",
     "root": "bezahlen: فعل 'پرداخت کردن'. an der Kasse: 'در صندوق'.",
     "type": "عبارت"
   },
   {
-    "Filename": "056",
+    "Filename": "56",
     "Sound_de": "Man muss an der Kasse bezahlen.",
     "translate_fa": "باید در صندوق پرداخت کرد.",
-    "file": "056_de.mp3",
+    "file": "56_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Man`: ضمیر 'شخص'.\n`muss`: فعل کمکی 'باید' صرف شده برای 'man'.\n`an der Kasse`: 'در صندوق'.\n`bezahlen`: فعل اصلی 'پرداخت کردن'.",
     "type": "جمله",
     "subject": ["Man"],
@@ -670,10 +670,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "057",
+    "Filename": "57",
     "Sound_de": "Frage: Hast du schon an der Kasse bezahlt? Antwort: Nein, ich stehe noch an.",
     "translate_fa": "سوال: آیا قبلاً در صندوق پرداخت کردی؟ پاسخ: نه، هنوز در صف هستم.",
-    "file": "057_de.mp3",
+    "file": "57_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان گذشته کامل (Perfekt) است.\n`Frage`: 'Hast' فعل کمکی 'haben' صرف شده برای 'du'. 'schon' قید 'قبلاً'. 'an der Kasse' 'در صندوق'. 'bezahlt' قسمت سوم فعل 'bezahlen' (پرداخت کردن) است.\n`Antwort`: 'Nein' به معنی 'نه'. 'ich stehe noch an' به معنی 'من هنوز در صف هستم'. 'anstehen' یک فعل ترکیبی است.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -684,18 +684,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "058",
+    "Filename": "58",
     "Sound_de": "an der Nordsee sein",
     "translate_fa": "در دریای شمال بودن",
-    "file": "058_de.mp3",
+    "file": "58_de.mp3",
     "root": "sein: فعل 'بودن'. an der Nordsee: 'در دریای شمال'.",
     "type": "عبارت"
   },
   {
-    "Filename": "059",
+    "Filename": "59",
     "Sound_de": "Wir fahren am Wochenende an die Nordsee.",
     "translate_fa": "ما آخر هفته به دریای شمال می‌رویم.",
-    "file": "059_de.mp3",
+    "file": "59_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Wir`: فاعل 'ما'.\n`fahren`: فعل 'می‌رویم' صرف شده برای 'wir'.\n`am Wochenende`: 'آخر هفته'.\n`an die Nordsee`: 'به دریای شمال'.",
     "type": "جمله",
     "subject": ["Wir"],
@@ -706,10 +706,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "060",
+    "Filename": "60",
     "Sound_de": "Frage: Warst du schon mal an der Nordsee? Antwort: Ja, letztes Jahr.",
     "translate_fa": "سوال: آیا تا به حال در دریای شمال بوده‌ای؟ پاسخ: بله، سال گذشته.",
-    "file": "060_de.mp3",
+    "file": "60_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان گذشته کامل (Perfekt) است.\n`Frage`: 'Warst' فعل کمکی 'sein' صرف شده برای 'du'. 'schon mal' قید 'تا به حال'. 'an der Nordsee' 'در دریای شمال'.\n`Antwort`: 'Ja, letztes Jahr' به معنی 'بله، سال گذشته'.",
     "type": "سوال_و_جواب",
     "subject": ["du"],
@@ -720,18 +720,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "061",
+    "Filename": "61",
     "Sound_de": "an der Reihe sein",
     "translate_fa": "نوبت کسی بودن",
-    "file": "061_de.mp3",
+    "file": "61_de.mp3",
     "root": "sein: فعل 'بودن'. an der Reihe: 'در صف' یا 'به نوبت'.",
     "type": "عبارت"
   },
   {
-    "Filename": "062",
+    "Filename": "62",
     "Sound_de": "Ich glaube, du bist an der Reihe.",
     "translate_fa": "فکر کنم نوبت توست.",
-    "file": "062_de.mp3",
+    "file": "62_de.mp3",
     "root": "این یک جمله مرکب است.\n`Ich`: فاعل 'من'.\n`glaube`: فعل 'فکر می‌کنم'.\n`du`: فاعل جمله فرعی 'تو'.\n`bist`: فعل 'هستی'.\n`an der Reihe`: 'به نوبت'.",
     "type": "جمله",
     "subject": ["Ich", "du"],
@@ -742,10 +742,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "063",
+    "Filename": "63",
     "Sound_de": "Frage: Bin ich jetzt an der Reihe? Antwort: Ja, komm bitte nach vorn.",
     "translate_fa": "سوال: آیا الان نوبت من است؟ پاسخ: بله، لطفاً جلو بیا.",
-    "file": "063_de.mp3",
+    "file": "63_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Bin' فعل 'بودن' صرف شده برای 'ich'. 'jetzt' قید 'الان'. 'an der Reihe' 'به نوبت'.\n`Antwort`: 'Ja' به معنی 'بله'. 'komm bitte nach vorn' یک جمله دستوری به معنی 'لطفاً جلو بیا' است.",
     "type": "سوال_و_جواب",
     "subject": ["ich"],
@@ -756,18 +756,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "064",
+    "Filename": "64",
     "Sound_de": "an der Rezeption abgeben",
     "translate_fa": "در پذیرش تحویل دادن",
-    "file": "064_de.mp3",
+    "file": "64_de.mp3",
     "root": "abgeben: فعل ترکیبی 'تحویل دادن'. an der Rezeption: 'در پذیرش'.",
     "type": "عبارت"
   },
   {
-    "Filename": "065",
+    "Filename": "65",
     "Sound_de": "Bitte geben Sie den Schlüssel an der Rezeption ab.",
     "translate_fa": "لطفاً کلید را در پذیرش تحویل دهید.",
-    "file": "065_de.mp3",
+    "file": "65_de.mp3",
     "root": "این یک جمله دستوری است.\n`Bitte`: قید 'لطفاً'.\n`geben`: فعل 'دادن' در جایگاه اصلی.\n`Sie`: ضمیر 'شما' (رسمی).\n`den Schlüssel`: مفعول 'کلید'.\n`an der Rezeption`: 'در پذیرش'.\n`ab`: بخش جداشدنی فعل 'abgeben'.",
     "type": "جمله",
     "subject": ["Sie"],
@@ -778,10 +778,10 @@
     "verb_part2": ["ab"]
   },
   {
-    "Filename": "066",
+    "Filename": "66",
     "Sound_de": "Frage: Muss ich den Schlüssel an der Rezeption abgeben? Antwort: Ja, beim Auschecken.",
     "translate_fa": "سوال: آیا باید کلید را در پذیرش تحویل دهم؟ پاسخ: بله، هنگام تسویه‌حساب.",
-    "file": "066_de.mp3",
+    "file": "66_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Muss' فعل کمکی 'باید' صرف شده برای 'ich'. 'ich' فاعل 'من'. 'den Schlüssel' مفعول 'کلید'. 'an der Rezeption' 'در پذیرش'. 'abgeben' فعل اصلی 'تحویل دادن'.\n`Antwort`: 'Ja' به معنی 'بله'. 'beim Auschecken' به معنی 'هنگام تسویه‌حساب' است.",
     "type": "سوال_و_جواب",
     "subject": ["ich"],
@@ -792,18 +792,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "067",
+    "Filename": "67",
     "Sound_de": "an der Universität studieren",
     "translate_fa": "در دانشگاه تحصیل کردن",
-    "file": "067_de.mp3",
+    "file": "67_de.mp3",
     "root": "studieren: فعل 'تحصیل کردن'. an der Universität: 'در دانشگاه'.",
     "type": "عبارت"
   },
   {
-    "Filename": "068",
+    "Filename": "68",
     "Sound_de": "Er studiert an der Universität in Berlin.",
     "translate_fa": "او در دانشگاه در برلین تحصیل می‌کند.",
-    "file": "068_de.mp3",
+    "file": "68_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Er`: فاعل 'او'.\n`studiert`: فعل 'تحصیل می‌کند' صرف شده برای 'er'.\n`an der Universität`: 'در دانشگاه'.\n`in Berlin`: 'در برلین'.",
     "type": "جمله",
     "subject": ["Er"],
@@ -814,10 +814,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "069",
+    "Filename": "69",
     "Sound_de": "Frage: Wo studierst du? Antwort: Ich studiere an der Universität in Hamburg.",
     "translate_fa": "سوال: کجا تحصیل می‌کنی؟ پاسخ: من در دانشگاه در هامبورگ تحصیل می‌کنم.",
-    "file": "069_de.mp3",
+    "file": "69_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Wo' قید پرسشی 'کجا'. 'studierst' فعل 'تحصیل کردن' صرف شده برای 'du'. 'du' فاعل 'تو'.\n`Antwort`: 'Ich studiere an der Universität in Hamburg' به معنی 'من در دانشگاه در هامبورگ تحصیل می‌کنم'.",
     "type": "سوال_و_جواب",
     "subject": ["du", "Ich"],
@@ -828,18 +828,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "070",
+    "Filename": "70",
     "Sound_de": "an die Tafel schreiben",
     "translate_fa": "روی تخته نوشتن",
-    "file": "070_de.mp3",
+    "file": "70_de.mp3",
     "root": "schreiben: فعل 'نوشتن'. an die Tafel: 'روی تخته'.",
     "type": "عبارت"
   },
   {
-    "Filename": "071",
+    "Filename": "71",
     "Sound_de": "Kannst du das Wort an die Tafel schreiben?",
     "translate_fa": "می‌توانی آن کلمه را روی تخته بنویسی؟",
-    "file": "071_de.mp3",
+    "file": "71_de.mp3",
     "root": "این یک جمله سؤالی است.\n`Kannst`: فعل کمکی 'توانستن' صرف شده برای 'du'.\n`du`: فاعل 'تو'.\n`das Wort`: مفعول 'کلمه'.\n`an die Tafel`: 'روی تخته'.\n`schreiben`: فعل اصلی 'نوشتن'.",
     "type": "جمله",
     "subject": ["du"],
@@ -850,10 +850,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "072",
+    "Filename": "72",
     "Sound_de": "Frage: Wer hat das an die Tafel geschrieben? Antwort: Das war ich.",
     "translate_fa": "سوال: چه کسی این را روی تخته نوشت؟ پاسخ: من بودم.",
-    "file": "072_de.mp3",
+    "file": "72_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان گذشته ساده (Präteritum) است.\n`Frage`: 'Wer' ضمیر پرسشی 'چه کسی'. 'hat' فعل کمکی 'haben' صرف شده برای 'wer'. 'das' مفعول 'این'. 'an die Tafel' 'روی تخته'. 'geschrieben' قسمت سوم فعل 'schreiben' (نوشتن) است.\n`Antwort`: 'Das war ich' به معنی 'آن من بودم'. 'war' فعل 'بودن' در گذشته ساده است.",
     "type": "سوال_و_جواب",
     "subject": ["Wer", "ich"],
@@ -864,18 +864,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "073",
+    "Filename": "73",
     "Sound_de": "an einen See fahren",
     "translate_fa": "به یک دریاچه رفتن",
-    "file": "073_de.mp3",
+    "file": "73_de.mp3",
     "root": "fahren: فعل 'رفتن' (با وسیله نقلیه). an einen See: 'به یک دریاچه'.",
     "type": "عبارت"
   },
   {
-    "Filename": "074",
+    "Filename": "74",
     "Sound_de": "Lass uns an einen See fahren.",
     "translate_fa": "بیا به یک دریاچه برویم.",
-    "file": "074_de.mp3",
+    "file": "74_de.mp3",
     "root": "این یک جمله پیشنهادی است.\n`Lass uns`: 'بیا' (دعوت به انجام کاری).\n`an einen See`: 'به یک دریاچه'.\n`fahren`: فعل 'رفتن' (با وسیله نقلیه).",
     "type": "جمله",
     "subject": [],
@@ -886,10 +886,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "075",
+    "Filename": "75",
     "Sound_de": "Frage: Fahren wir morgen an einen See? Antwort: Ja, das ist eine gute Idee.",
     "translate_fa": "سوال: آیا فردا به یک دریاچه می‌رویم؟ پاسخ: بله، ایده خوبی است.",
-    "file": "075_de.mp3",
+    "file": "75_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Fahren' فعل 'رفتن' صرف شده برای 'wir'. 'wir' فاعل 'ما'. 'morgen' قید 'فردا'. 'an einen See' 'به یک دریاچه'.\n`Antwort`: 'Ja' به معنی 'بله'. 'das ist eine gute Idee' به معنی 'آن یک ایده خوب است'.",
     "type": "سوال_و_جواب",
     "subject": ["wir", "das"],
@@ -900,18 +900,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "076",
+    "Filename": "76",
     "Sound_de": "an Gleis 12",
     "translate_fa": "در سکوی ۱۲",
-    "file": "076_de.mp3",
+    "file": "76_de.mp3",
     "root": "an: حرف اضافه 'در'. Gleis: اسم 'سکوی قطار'. 12: '۱۲'.",
     "type": "عبارت"
   },
   {
-    "Filename": "077",
+    "Filename": "77",
     "Sound_de": "Der Zug fährt von Gleis 12 ab.",
     "translate_fa": "قطار از سکوی ۱۲ حرکت می‌کند.",
-    "file": "077_de.mp3",
+    "file": "77_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Der Zug`: فاعل 'قطار'.\n`fährt`: فعل 'حرکت می‌کند' صرف شده برای 'der Zug'.\n`von Gleis 12`: 'از سکوی ۱۲'.\n`ab`: بخش جداشدنی فعل 'abfahren'.",
     "type": "جمله",
     "subject": ["Der Zug"],
@@ -922,10 +922,10 @@
     "verb_part2": ["ab"]
   },
   {
-    "Filename": "078",
+    "Filename": "78",
     "Sound_de": "Frage: An welchem Gleis fährt der Zug ab? Antwort: Er fährt an Gleis 12 ab.",
     "translate_fa": "سوال: قطار از کدام سکو حرکت می‌کند؟ پاسخ: از سکوی ۱۲ حرکت می‌کند.",
-    "file": "078_de.mp3",
+    "file": "78_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'An welchem Gleis' 'در کدام سکو'. 'fährt' فعل 'حرکت کردن' صرف شده برای 'der Zug'. 'der Zug' فاعل 'قطار'.\n`Antwort`: 'Er fährt an Gleis 12 ab' به معنی 'او از سکوی ۱۲ حرکت می‌کند'.",
     "type": "سوال_و_جواب",
     "subject": ["der Zug", "Er"],
@@ -936,18 +936,18 @@
     "verb_part2": ["ab"]
   },
   {
-    "Filename": "079",
+    "Filename": "79",
     "Sound_de": "anders gehen",
     "translate_fa": "به شکل دیگری پیش رفتن",
-    "file": "079_de.mp3",
+    "file": "79_de.mp3",
     "root": "gehen: فعل 'رفتن' یا 'پیش رفتن'. anders: قید 'به شکل دیگر'.",
     "type": "عبارت"
   },
   {
-    "Filename": "080",
+    "Filename": "80",
     "Sound_de": "Ich hoffe, es geht beim nächsten Mal anders.",
     "translate_fa": "امیدوارم دفعه بعد طور دیگری پیش برود.",
-    "file": "080_de.mp3",
+    "file": "80_de.mp3",
     "root": "این یک جمله مرکب است.\n`Ich`: فاعل 'من'.\n`hoffe`: فعل 'امیدوارم'.\n`es`: فاعل جمله فرعی 'آن'.\n`geht`: فعل 'پیش می‌رود' صرف شده برای 'es'.\n`beim nächsten Mal`: 'دفعه بعد'.\n`anders`: قید 'به شکل دیگر'.",
     "type": "جمله",
     "subject": ["Ich", "es"],
@@ -958,10 +958,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "081",
+    "Filename": "81",
     "Sound_de": "Frage: Ist alles anders gegangen, als du dachtest? Antwort: Ja, es war eine Überraschung.",
     "translate_fa": "سوال: آیا همه چیز طور دیگری پیش رفت، نسبت به آنچه فکر می‌کردی؟ پاسخ: بله، یک غافلگیری بود.",
-    "file": "081_de.mp3",
+    "file": "81_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان گذشته کامل (Perfekt) است.\n`Frage`: 'Ist' فعل کمکی 'sein' صرف شده برای 'alles'. 'alles' فاعل 'همه چیز'. 'anders gegangen' 'طور دیگری پیش رفته'. 'als du dachtest' 'نسبت به آنچه فکر می‌کردی'.\n`Antwort`: 'Ja' به معنی 'بله'. 'es war eine Überraschung' به معنی 'آن یک غافلگیری بود'.",
     "type": "سوال_و_جواب",
     "subject": ["alles", "es"],
@@ -972,18 +972,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "082",
+    "Filename": "82",
     "Sound_de": "Angst haben vor",
     "translate_fa": "ترس داشتن از",
-    "file": "082_de.mp3",
+    "file": "82_de.mp3",
     "root": "haben: فعل 'داشتن'. Angst: اسم 'ترس'. vor: حرف اضافه 'از'.",
     "type": "عبارت"
   },
   {
-    "Filename": "083",
+    "Filename": "83",
     "Sound_de": "Ich habe Angst vor Spinnen.",
     "translate_fa": "من از عنکبوت‌ها می‌ترسم.",
-    "file": "083_de.mp3",
+    "file": "83_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Ich`: فاعل 'من'.\n`habe`: فعل 'دارم' صرف شده برای 'ich'.\n`Angst`: مفعول 'ترس'.\n`vor Spinnen`: حرف اضافه 'از' با 'عنکبوت‌ها'.",
     "type": "جمله",
     "subject": ["Ich"],
@@ -994,10 +994,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "084",
+    "Filename": "84",
     "Sound_de": "Frage: Hast du Angst vor Hunden? Antwort: Nein, überhaupt nicht.",
     "translate_fa": "سوال: آیا از سگ‌ها می‌ترسی؟ پاسخ: نه، اصلاً.",
-    "file": "084_de.mp3",
+    "file": "84_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Hast' فعل 'داشتن' صرف شده برای 'du'. 'du' فاعل 'تو'. 'Angst' مفعول 'ترس'. 'vor Hunden' 'از سگ‌ها'.\n`Antwort`: 'Nein' به معنی 'نه'. 'überhaupt nicht' به معنی 'اصلاً' است.",
     "type": "سوال_و_جواب",
     "subject": ["du"],
@@ -1008,18 +1008,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "085",
+    "Filename": "85",
     "Sound_de": "Anschluss haben",
     "translate_fa": "ارتباط داشتن، اتصال داشتن",
-    "file": "085_de.mp3",
+    "file": "85_de.mp3",
     "root": "haben: فعل 'داشتن' که با 'Anschluss' به معنی 'ارتباط' یا 'اتصال' ترکیب می‌شود.",
     "type": "عبارت"
   },
   {
-    "Filename": "086",
+    "Filename": "86",
     "Sound_de": "Ich habe Anschluss an die U-Bahn.",
     "translate_fa": "من به مترو دسترسی دارم.",
-    "file": "086_de.mp3",
+    "file": "86_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Ich`: فاعل 'من'.\n`habe`: فعل 'دارم' صرف شده برای 'ich'.\n`Anschluss`: مفعول 'ارتباط' یا 'دسترسی'.\n`an die U-Bahn`: حرف اضافه 'an' (به) با 'مترو'.",
     "type": "جمله",
     "subject": ["Ich"],
@@ -1030,10 +1030,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "087",
+    "Filename": "87",
     "Sound_de": "Frage: Hast du den Anschluss verpasst? Antwort: Ja, ich muss auf den nächsten Zug warten.",
     "translate_fa": "سوال: آیا به قطار نرسیدی؟ پاسخ: بله، باید منتظر قطار بعدی بمانم.",
-    "file": "087_de.mp3",
+    "file": "87_de.mp3",
     "root": "این یک جمله `سؤالی-پاسخی` در زمان گذشته کامل (Perfekt) است.\n`Frage`: 'Hast' فعل کمکی 'haben' صرف شده برای 'du'. 'den Anschluss' مفعول است. 'verpasst' قسمت سوم فعل 'verpassen' (از دست دادن) است.\n`Antwort`: 'Ja' به معنی 'بله'. 'ich muss auf den nächsten Zug warten' به معنی 'من باید منتظر قطار بعدی بمانم' است. 'warten auf' یک فعل با حرف اضافه است.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -1044,18 +1044,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "088",
+    "Filename": "88",
     "Sound_de": "Apfelsaft mögen",
     "translate_fa": "آب سیب دوست داشتن",
-    "file": "088_de.mp3",
+    "file": "88_de.mp3",
     "root": "mögen: فعل 'دوست داشتن'. Apfelsaft: اسم 'آب سیب'.",
     "type": "عبارت"
   },
   {
-    "Filename": "089",
+    "Filename": "89",
     "Sound_de": "Ich mag am liebsten Apfelsaft.",
     "translate_fa": "من آب سیب را از همه بیشتر دوست دارم.",
-    "file": "089_de.mp3",
+    "file": "89_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Ich`: فاعل 'من'.\n`mag`: فعل 'دوست دارم' صرف شده برای 'ich'.\n`am liebsten`: 'از همه بیشتر'.\n`Apfelsaft`: مفعول 'آب سیب'.",
     "type": "جمله",
     "subject": ["Ich"],
@@ -1066,10 +1066,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "090",
+    "Filename": "90",
     "Sound_de": "Frage: Magst du Apfelsaft? Antwort: Ja, sehr gerne.",
     "translate_fa": "سوال: آیا آب سیب دوست داری؟ پاسخ: بله، خیلی زیاد.",
-    "file": "090_de.mp3",
+    "file": "90_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Magst' فعل 'دوست داشتن' صرف شده برای 'du'. 'du' فاعل 'تو'. 'Apfelsaft' مفعول 'آب سیب'.\n`Antwort`: 'Ja' به معنی 'بله'. 'sehr gerne' به معنی 'خیلی زیاد' است.",
     "type": "سوال_و_جواب",
     "subject": ["du"],
@@ -1080,18 +1080,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "091",
+    "Filename": "91",
     "Sound_de": "arbeitslos sein",
     "translate_fa": "بیکار بودن",
-    "file": "091_de.mp3",
+    "file": "91_de.mp3",
     "root": "sein: فعل 'بودن'. arbeitslos: صفت 'بیکار'.",
     "type": "عبارت"
   },
   {
-    "Filename": "092",
+    "Filename": "92",
     "Sound_de": "Seit drei Monaten ist er arbeitslos.",
     "translate_fa": "او سه ماه است که بیکار است.",
-    "file": "092_de.mp3",
+    "file": "92_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Seit drei Monaten`: 'سه ماه است'.\n`ist`: فعل 'است' صرف شده برای 'er'.\n`er`: فاعل 'او'.\n`arbeitslos`: صفت 'بیکار'.",
     "type": "جمله",
     "subject": ["er"],
@@ -1102,10 +1102,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "093",
+    "Filename": "93",
     "Sound_de": "Frage: Bist du noch arbeitslos? Antwort: Nein, ich habe eine neue Stelle gefunden.",
     "translate_fa": "سوال: هنوز بیکار هستی؟ پاسخ: نه، یک شغل جدید پیدا کردم.",
-    "file": "093_de.mp3",
+    "file": "93_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Bist' فعل 'بودن' صرف شده برای 'du'. 'noch' قید 'هنوز'. 'arbeitslos' صفت 'بیکار'.\n`Antwort`: 'Nein' به معنی 'نه'. 'ich habe eine neue Stelle gefunden' به معنی 'من یک شغل جدید پیدا کردم'. 'gefunden' قسمت سوم فعل 'finden' (پیدا کردن) است.",
     "type": "سوال_و_جواب",
     "subject": ["du", "ich"],
@@ -1116,18 +1116,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "094",
+    "Filename": "94",
     "Sound_de": "Ärgerst du dich",
     "translate_fa": "آیا عصبانی هستی؟",
-    "file": "094_de.mp3",
+    "file": "94_de.mp3",
     "root": "sich ärgern: فعل انعکاسی 'عصبانی شدن'. Ärgerst: فعل 'عصبانی شدن' صرف شده برای 'du'. du dich: ضمیر انعکاسی.",
     "type": "عبارت"
   },
   {
-    "Filename": "095",
+    "Filename": "95",
     "Sound_de": "Ich ärgere mich über das schlechte Wetter.",
     "translate_fa": "من از آب و هوای بد عصبانی هستم.",
-    "file": "095_de.mp3",
+    "file": "95_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Ich`: فاعل 'من'.\n`ärgere mich`: فعل انعکاسی 'عصبانی می‌شوم'.\n`über das schlechte Wetter`: 'از آب و هوای بد'.",
     "type": "جمله",
     "subject": ["Ich"],
@@ -1138,10 +1138,10 @@
     "verb_part2": []
   },
   {
-    "Filename": "096",
+    "Filename": "96",
     "Sound_de": "Frage: Ärgerst du dich darüber? Antwort: Ja, sehr.",
     "translate_fa": "سوال: آیا از این بابت عصبانی هستی؟ پاسخ: بله، خیلی زیاد.",
-    "file": "096_de.mp3",
+    "file": "96_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال است.\n`Frage`: 'Ärgerst' فعل 'عصبانی شدن' صرف شده برای 'du'. 'dich' ضمیر انعکاسی. 'darüber' 'در مورد آن'.\n`Antwort`: 'Ja' به معنی 'بله'. 'sehr' به معنی 'خیلی'.",
     "type": "سوال_و_جواب",
     "subject": ["du"],
@@ -1152,18 +1152,18 @@
     "verb_part2": []
   },
   {
-    "Filename": "097",
+    "Filename": "97",
     "Sound_de": "Arm tut weh",
     "translate_fa": "بازو درد می‌کند",
-    "file": "097_de.mp3",
+    "file": "97_de.mp3",
     "root": "weh tun: فعل ترکیبی 'درد کردن'. Arm: اسم 'بازو'.",
     "type": "عبارت"
   },
   {
-    "Filename": "098",
+    "Filename": "98",
     "Sound_de": "Mein Arm tut weh.",
     "translate_fa": "بازویم درد می‌کند.",
-    "file": "098_de.mp3",
+    "file": "98_de.mp3",
     "root": "این یک جمله خبری ساده است.\n`Mein Arm`: فاعل 'بازویم'.\n`tut`: فعل 'می‌کند' صرف شده برای 'Mein Arm'.\n`weh`: بخش جداشدنی فعل 'weh tun'.",
     "type": "جمله",
     "subject": ["Mein Arm"],
@@ -1174,10 +1174,10 @@
     "verb_part2": ["weh"]
   },
   {
-    "Filename": "099",
+    "Filename": "99",
     "Sound_de": "Frage: Tut dein Arm weh? Antwort: Ja, ich habe ihn mir verletzt.",
     "translate_fa": "سوال: آیا بازویت درد می‌کند؟ پاسخ: بله، به آن آسیب زدم.",
-    "file": "099_de.mp3",
+    "file": "99_de.mp3",
     "root": "این یک جمله سؤالی-پاسخی در زمان حال و گذشته کامل (Perfekt) است.\n`Frage`: 'Tut' فعل 'درد کردن' صرف شده برای 'dein Arm'. 'dein Arm' فاعل 'بازویت'. 'weh' بخش جداشدنی فعل.\n`Antwort`: 'Ja' به معنی 'بله'. 'ich habe ihn mir verletzt' به معنی 'من به آن آسیب زدم'. 'verletzt' قسمت سوم فعل 'verletzen' (آسیب زدن) است.",
     "type": "سوال_و_جواب",
     "subject": ["dein Arm", "ich"],

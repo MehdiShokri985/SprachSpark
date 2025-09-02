@@ -16,9 +16,7 @@
         Zurück zur Startseite
       </button>
       <div class="mode-switch">
-        <label
-          ><input type="radio" name="mode" value="words" checked />Wörter</label
-        >
+        <label><input type="radio" name="mode" value="words" checked />Wörter</label>
         <label><input type="radio" name="mode" value="sentences" />Sätze</label>
       </div>
       <div class="container-header">
@@ -32,26 +30,26 @@
       </div>
       <div class="columns" id="columns"></div>
       <div class="sentence-game" id="sentence-game" style="display: none">
+        <div class="difficulty-switch" id="difficulty-switch" style="display: block;">
+          <label style="color: #45ff42;"><input type="radio" name="difficulty" value="simple" checked />Leicht</label>
+          <label style="color: #deec5e;"><input type="radio" name="difficulty" value="medium" />Mittel</label>
+          <label style="color: #ff5e5e;"><input type="radio" name="difficulty" value="hard" />Schwer</label>
+        </div>
         <div id="legend">
           <div>
-            <span class="legend-color" style="background-color: #66bb6a"></span
-            >Subjekt
+            <span class="legend-color" style="background-color: #66bb6a"></span>Subjekt
           </div>
           <div>
-            <span class="legend-color" style="background-color: #58c4f7"></span
-            >Verb
+            <span class="legend-color" style="background-color: #58c4f7"></span>Verb
           </div>
           <div>
-            <span class="legend-color" style="background-color: #ba68c8"></span
-            >Hilfsverb
+            <span class="legend-color" style="background-color: #ba68c8"></span>Hilfsverb
           </div>
           <div>
-            <span class="legend-color" style="background-color: #f4e55e"></span
-            >Objekt
+            <span class="legend-color" style="background-color: #f4e55e"></span>Objekt
           </div>
           <div>
-            <span class="legend-color" style="background-color: #58c4f7"></span
-            >trennbares Verb
+            <span class="legend-color" style="background-color: #58c4f7"></span>trennbares Verb
           </div>
         </div>
         <div class="sentence-count" id="sentence-count">
@@ -74,7 +72,9 @@
       <div class="sentence-root" id="sentence-root"></div>
     </div>
     <div class="popup" id="result-popup">
-      <button id="close-button" class="close-button" onclick="closePopup()">×</button>
+      <button id="close-button" class="close-button" onclick="closePopup()">
+        ×
+      </button>
       <h2>Ergebnis</h2>
       <p>مجموع امتیازات: <span id="total-score"></span></p>
       <p>امتیازات کسب‌شده: <span id="earned-score"></span></p>
@@ -82,9 +82,7 @@
       <button class="back-button" onclick="goBackToLevel()">
         Zurück zur Startseite
       </button>
-      
     </div>
-
     <script src="./js/worttest.js?v=1.19"></script>
   </body>
 </html>

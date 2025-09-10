@@ -7,25 +7,83 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/128.png" />
     <title>SprachSpark</title>
     <link rel="stylesheet" href="./css/font.css" />
-    <link rel="stylesheet" href="./css/index.css?v=1.1" />
+    <link rel="stylesheet" href="./css/index.css?v=1.2" />
   </head>
   <body>
-   <h1 class="header"> SprachSpark <br><span>Schnell Deutsch lernen</span></h1>
+    <h1 class="header">
+      SprachSpark <br /><span>Schnell Deutsch lernen</span>
+    </h1>
     <div class="container">
       <div class="accordion">
         <div class="accordion-header">A1</div>
         <div class="accordion-content">
           <div class="level-selection">
-            <button class="level-btn" data-level="A1">
-              Goethe - Zertifikat A1 WORTLISTE
-            </button>
-            <button class="level-btn" data-level="A1 VERBEN">A1 VERBEN</button>
-            <button class="level-btn" data-level="A1 GRAMMATIK">
-              A1 GRAMMATIK
-            </button>
-            <button class="level-btn" data-level="A1 Kollokationen">
-              A1 Kollokationen
-            </button>
+            <div class="level-item">
+              <div class="level-title">Goethe - Zertifikat A1 WORTLISTE</div>
+              <div class="level-buttons">
+                <button class="level-btn" data-level="A1" data-type="list">
+                  List
+                </button>
+                <button
+                  class="level-btn flashcard"
+                  data-level="A1"
+                  data-type="flashcard"
+                >
+                  Flashcard
+                </button>
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="level-title">A1 VERBEN</div>
+              <div class="level-buttons">
+                <button
+                  class="level-btn"
+                  data-level="A1 VERBEN"
+                  data-type="list"
+                >
+                  List
+                </button>
+                <button
+                  class="level-btn flashcard"
+                  data-level="A1 VERBEN"
+                  data-type="flashcard"
+                >
+                  Flashcard
+                </button>
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="level-title">A1 GRAMMATIK</div>
+              <div class="level-buttons">
+                <button
+                  class="level-btn"
+                  data-level="A1 GRAMMATIK"
+                  data-type="list"
+                >
+                  List
+                </button>
+                <!-- <button class="level-btn flashcard" data-level="A1 GRAMMATIK" data-type="flashcard">Flashcard</button> -->
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="level-title">A1 Kollokationen</div>
+              <div class="level-buttons">
+                <button
+                  class="level-btn"
+                  data-level="A1 Kollokationen"
+                  data-type="list"
+                >
+                  List
+                </button>
+                <button
+                  class="level-btn flashcard"
+                  data-level="A1 Kollokationen"
+                  data-type="flashcard"
+                >
+                  Flashcard
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -33,22 +91,76 @@
         <div class="accordion-header a2">A2</div>
         <div class="accordion-content">
           <div class="level-selection">
-            <button class="level-btn a2" data-level="A2">
-              Goethe - Zertifikat A2 WORTLISTE
-            </button>
-            <button class="level-btn a2" data-level="A2 VERBEN">
-              A2 VERBEN
-            </button>
-            <button class="level-btn a2" data-level="A2 GRAMMATIK">
-              A2 GRAMMATIK
-            </button>
-            <button class="level-btn a2" data-level="A2 Kollokationen">
-              A2 Kollokationen
-            </button>
+            <div class="level-item a2">
+              <div class="level-title a2">Goethe - Zertifikat A2 WORTLISTE</div>
+              <div class="level-buttons">
+                <button class="level-btn a2" data-level="A2" data-type="list">
+                  List
+                </button>
+                <button
+                  class="level-btn flashcard a2"
+                  data-level="A2"
+                  data-type="flashcard"
+                >
+                  Flashcard
+                </button>
+              </div>
+            </div>
+            <div class="level-item a2">
+              <div class="level-title a2">A2 VERBEN</div>
+              <div class="level-buttons">
+                <button
+                  class="level-btn a2"
+                  data-level="A2 VERBEN"
+                  data-type="list"
+                >
+                  List
+                </button>
+                <button
+                  class="level-btn flashcard a2"
+                  data-level="A2 VERBEN"
+                  data-type="flashcard"
+                >
+                  Flashcard
+                </button>
+              </div>
+            </div>
+            <div class="level-item a2">
+              <div class="level-title a2">A2 GRAMMATIK</div>
+              <div class="level-buttons">
+                <button
+                  class="level-btn a2"
+                  data-level="A2 GRAMMATIK"
+                  data-type="list"
+                >
+                  List
+                </button>
+                <!-- <button class="level-btn flashcard a2" data-level="A2 GRAMMATIK" data-type="flashcard">Flashcard</button> -->
+              </div>
+            </div>
+            <div class="level-item a2">
+              <div class="level-title a2">A2 Kollokationen</div>
+              <div class="level-buttons">
+                <button
+                  class="level-btn a2"
+                  data-level="A2 Kollokationen"
+                  data-type="list"
+                >
+                  List
+                </button>
+                <button
+                  class="level-btn flashcard a2"
+                  data-level="A2 Kollokationen"
+                  data-type="flashcard"
+                >
+                  Flashcard
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="./js/index.js?v=1.1"></script>
+    <script src="./js/index.js?v=1.2"></script>
   </body>
 </html>

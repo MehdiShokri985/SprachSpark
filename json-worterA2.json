@@ -5076,8 +5076,8 @@
     "root": "نوع جمله: این یک جمله خبری است.\nAußer: حرف اضافه 'به جز'. در اینجا 'Lisa' را در حالت داتیو قرار می‌دهد.\nLisa: اسم خاص در حالت داتیو.\nmöchte: فعل کمکی مدال 'möchten' (خواستن) صرف شده برای 'niemand'.\nniemand: ضمیر نامعین به معنای 'هیچ‌کس' که در اینجا فاعل است.\nden Film: اسم مذکر 'Film' (فیلم) در حالت آکوزاتیو، پس حرف تعریف آن 'den' است.\nsehen: فعل اصلی 'دیدن' که به شکل مصدری در انتهای جمله قرار گرفته است.",
     "type": "جمله",
     "subject": ["niemand"],
-    "verb": ["möchte"],
-    "auxiliary_verb": [null],
+    "verb": ["sehen"],
+    "auxiliary_verb": ["möchte"],
     "object": ["den Film"],
     "verb_part1": [null],
     "verb_part2": [null]
@@ -5412,8 +5412,8 @@
   },
   {
     "Filename": "547",
-    "Sound_de": "backen - bäckt - hat gebacken",
-    "translate_fa": "پختن - می‌پزد - پخته است",
+    "Sound_de": "backen - bäckt - backt - hat gebacken",
+    "translate_fa": "پختن - می‌پزد - می‌پزد - پخته است",
     "file": "547_de.mp3",
     "root": "نوع کلمه: این یک فعل بی‌قاعده (starkes Verb) است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nbacken: شکل مصدری به معنای 'پختن'.\nbäckt: شکل صرف شده برای ضمیرهای 'er', 'sie', 'es'.\nhat gebacken: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gebacken' ساخته می‌شود.",
     "type": "فعل"

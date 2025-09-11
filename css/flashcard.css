@@ -206,7 +206,7 @@ h1 {
 
 .item-bottom .sound {
   font-size: 1.2em;
-  color: #93d2ff;
+  color: #d8efff;
   cursor: pointer;
   width: 100%;
   /* padding: 0px 10px; */
@@ -273,19 +273,31 @@ h1 {
 }
 
 .item-bottom button.play-btn {
-  background-color: #7799ed;
-  color: #00060b;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 0.9em;
-  height: 30px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  gap: 8px;
+  padding: 5px 8px;
+  background: #141d2ebc;
+  color: #0b0582;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  font-family: sans-serif;
+  cursor: pointer;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+
+.play-btn:hover {
+  background: #0056b3;
+  transform: scale(1.1);
+}
+.play-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: #afc905;
 }
 
 .item-bottom input[type="range"] {

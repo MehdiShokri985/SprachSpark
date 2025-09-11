@@ -339,6 +339,7 @@ function createItem(group, groupIndex, itemIndexInGroup) {
       itemBottom.dataset.revealIndex = allRevealed ? "0" : spans.length;
       const slider = itemBottom.querySelector(".reveal-slider");
       slider.value = allRevealed ? 0 : spans.length;
+      
       const percentage = (slider.value / maxSliderValue) * 100;
       slider.style.background = `linear-gradient(to right, #00ff88 ${percentage}%, #2f547f ${percentage}%)`;
     });

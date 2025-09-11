@@ -15,7 +15,7 @@ body {
   color: var(--accent);
   font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0px;
+  padding: 0px 20px 0px 20px;
   direction: rtl;
   overflow-x: hidden;
   user-select: none;
@@ -522,6 +522,7 @@ h1 {
   display: block;
   width: 100%;
   text-align: center;
+  margin-top: -20px;
 }
 
 .back-btn:hover {

@@ -24,7 +24,7 @@
   },
   {
     "Filename": "3",
-    "Sound_de": "Frage: Wo kann ich den Schlüssel abgeben? Antwort: Sie können ihn an der Rezeption abgeben.",
+    "Sound_de": "Frage: Wo kann ich den Schlüssel abgeben? \n\nAntwort: Sie können ihn an der Rezeption abgeben.",
     "translate_fa": "سوال: کجا می‌توانم کلید را تحویل دهم؟ پاسخ: شما می‌توانید آن را در پذیرش تحویل دهید.",
     "file": "3_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'kann' فعل کمکی 'können' (توانستن). 'ich' فاعل. 'den Schlüssel' مفعول. 'abgeben' قسمت جداشدنی فعل در انتها.\n**Antwort**: 'Sie' فاعل احترام. 'können' فعل کمکی. 'ihn' مفعول 'آن'. 'an der Rezeption' به معنی 'در پذیرش'. 'abgeben' در انتهای جمله.",
@@ -60,7 +60,7 @@
   },
   {
     "Filename": "6",
-    "Sound_de": "Frage: Kannst du den Schrank schon abholen? Antwort: Nein, erst nächste Woche.",
+    "Sound_de": "Frage: Kannst du den Schrank schon abholen? \nAntwort: Nein, erst nächste Woche.",
     "translate_fa": "سوال: می‌توانی الان کمد را تحویل بگیری؟ پاسخ: نه، فقط هفته آینده.",
     "file": "6_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kannst' فعل کمکی 'können' (توانستن) صرف شده برای 'du'. 'du' فاعل. 'den Schrank' مفعول. 'schon' قید 'از قبل'. 'abholen' قسمت جداشدنی فعل در انتها.\n**Antwort**: 'Nein' به معنی 'نه'. 'erst' قید 'فقط' یا 'تا'. 'nächste Woche' به معنی 'هفته آینده'.",
@@ -96,7 +96,7 @@
   },
   {
     "Filename": "9",
-    "Sound_de": "Frage: Wann holst du deinen Bruder ab? Antwort: Ich hole ihn um 5 Uhr ab.",
+    "Sound_de": "Frage: Wann holst du deinen Bruder ab? \nAntwort: Ich hole ihn um 5 Uhr ab.",
     "translate_fa": "سوال: چه زمانی برادرت را تحویل می‌گیری؟ پاسخ: من او را ساعت 5 تحویل می‌گیرم.",
     "file": "9_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'holst' فعل 'abholen' صرف شده برای 'du'. 'du' فاعل. 'deinen Bruder' مفعول. 'ab' قسمت جداشدنی فعل در انتها.\n**Antwort**: 'Ich' فاعل. 'hole' فعل 'abholen' صرف شده برای 'ich'. 'ihn' مفعول 'او'. 'um 5 Uhr' به معنی 'ساعت 5'. 'ab' در انتها.",
@@ -132,7 +132,7 @@
   },
   {
     "Filename": "12",
-    "Sound_de": "Frage: Hast du den Anschluss verpasst? Antwort: Ja, ich muss auf den nächsten Zug warten.",
+    "Sound_de": "Frage: Hast du den Anschluss verpasst? \nAntwort: Ja, ich muss auf den nächsten Zug warten.",
     "translate_fa": "سوال: آیا به قطار نرسیدی؟ پاسخ: بله، باید منتظر قطار بعدی بمانم.",
     "file": "12_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben' صرف شده برای 'du'. 'den Anschluss' مفعول است. 'verpasst' قسمت سوم فعل 'verpassen' (از دست دادن) است.\n**Antwort**: 'Ja' به معنی 'بله'. 'ich muss auf den nächsten Zug warten' به معنی 'من باید منتظر قطار بعدی بمانم' است. 'warten auf' یک فعل با حرف اضافه است.",
@@ -168,7 +168,7 @@
   },
   {
     "Filename": "15",
-    "Sound_de": "Frage: Was kann ich Ihnen anbieten? Antwort: Ein Glas Wasser, bitte.",
+    "Sound_de": "Frage: Was kann ich Ihnen anbieten? \nAntwort: Ein Glas Wasser, bitte.",
     "translate_fa": "سوال: چه چیزی می‌توانم به شما پیشنهاد دهم؟ پاسخ: یک لیوان آب، لطفا.",
     "file": "15_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'kann' فعل کمکی 'توانستن'. 'ich' فاعل. 'Ihnen' مفعول غیر مستقیم 'به شما'. 'anbieten' قسمت جداشدنی فعل در انتهای جمله.\n**Antwort**: 'Ein Glas Wasser' به معنی 'یک لیوان آب'. 'bitte' به معنی 'لطفا'.",
@@ -204,7 +204,7 @@
   },
   {
     "Filename": "18",
-    "Sound_de": "Frage: Muss ich das Wort anklicken? Antwort: Ja, klicke das Wort an, um die Definition zu sehen.",
+    "Sound_de": "Frage: Muss ich das Wort anklicken? \nAntwort: Ja, klicke das Wort an, um die Definition zu sehen.",
     "translate_fa": "سوال: آیا باید روی کلمه کلیک کنم؟ پاسخ: بله، روی کلمه کلیک کن تا تعریف را ببینی.",
     "file": "18_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Muss' فعل کمکی 'müssen' (باید). 'ich' فاعل. 'das Wort' مفعول. 'anklicken' در انتها.\n**Antwort**: 'Ja'. 'klicke' فعل امری. 'das Wort' مفعول. 'an' در انتها. 'um... zu sehen' به معنی 'برای دیدن'.",
@@ -240,7 +240,7 @@
   },
   {
     "Filename": "21",
-    "Sound_de": "Frage: Wann kommen Sie in Hamburg an? Antwort: Ich komme um 14 Uhr an.",
+    "Sound_de": "Frage: Wann kommen Sie in Hamburg an? \nAntwort: Ich komme um 14 Uhr an.",
     "translate_fa": "سوال: چه زمانی به هامبورگ می‌رسید؟ پاسخ: من ساعت 14 می‌رسم.",
     "file": "21_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'kommen' فعل 'ankommen' صرف شده برای 'Sie'. 'Sie' فاعل احترام. 'in Hamburg' مکان. 'an' قسمت جداشدنی فعل.\n**Antwort**: 'Ich' فاعل. 'komme' فعل 'ankommen' صرف شده برای 'ich'. 'um 14 Uhr' زمان. 'an' در انتها.",
@@ -276,7 +276,7 @@
   },
   {
     "Filename": "24",
-    "Sound_de": "Frage: Soll ich das ankreuzen? Antwort: Ja, kreuzen Sie das bitte an.",
+    "Sound_de": "Frage: Soll ich das ankreuzen? \nAntwort: Ja, kreuzen Sie das bitte an.",
     "translate_fa": "سوال: آیا باید این را علامت بزنم؟ پاسخ: بله، لطفا این را علامت بزنید.",
     "file": "24_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Soll' فعل کمکی 'sollen' (باید). 'ich' فاعل. 'das' مفعول. 'ankreuzen' در انتها.\n**Antwort**: 'Ja'. 'kreuzen' فعل امری احترام. 'Sie' فاعل احترام. 'das' مفعول. 'bitte' لطفا. 'an' در انتها.",
@@ -312,7 +312,7 @@
   },
   {
     "Filename": "27",
-    "Sound_de": "Frage: Wer hat das Licht angemacht? Antwort: Ich habe es angemacht.",
+    "Sound_de": "Frage: Wer hat das Licht angemacht? \nAntwort: Ich habe es angemacht.",
     "translate_fa": "سوال: چه کسی چراغ را روشن کرد؟ پاسخ: من آن را روشن کردم.",
     "file": "27_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Wer' کلمه پرسشی 'چه کسی'. 'hat' فعل کمکی 'haben'. 'das Licht' مفعول. 'angemacht' قسمت سوم فعل 'anmachen' در انتها.\n**Antwort**: 'Ich' فاعل. 'habe' فعل کمکی. 'es' مفعول 'آن'. 'angemacht' در انتها.",
@@ -348,7 +348,7 @@
   },
   {
     "Filename": "30",
-    "Sound_de": "Frage: Haben Sie sich schon angemeldet? Antwort: Ja, ich habe mich gestern angemeldet.",
+    "Sound_de": "Frage: Haben Sie sich schon angemeldet? \nAntwort: Ja, ich habe mich gestern angemeldet.",
     "translate_fa": "سوال: آیا شما قبلا ثبت‌نام کرده‌اید؟ پاسخ: بله، من دیروز ثبت‌نام کردم.",
     "file": "30_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Haben' فعل کمکی 'haben'. 'Sie' فاعل احترام. 'sich' ضمیر انعکاسی. 'schon' قید 'از قبل'. 'angemeldet' قسمت سوم فعل 'anmelden'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'mich' ضمیر انعکاسی. 'gestern' قید زمان. 'angemeldet' در انتها.",
@@ -384,7 +384,7 @@
   },
   {
     "Filename": "33",
-    "Sound_de": "Frage: Rufst du ihn heute an? Antwort: Ja, ich rufe ihn später an.",
+    "Sound_de": "Frage: Rufst du ihn heute an? \nAntwort: Ja, ich rufe ihn später an.",
     "translate_fa": "سوال: امروز به او زنگ می‌زنی؟ پاسخ: بله، من بعدا به او زنگ می‌زنم.",
     "file": "33_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Rufst' فعل 'anrufen' صرف شده برای 'du'. 'du' فاعل. 'ihn' مفعول 'او'. 'heute' قید زمان. 'an' قسمت جداشدنی فعل.\n**Antwort**: 'Ja'. 'ich' فاعل. 'rufe' فعل 'anrufen' صرف شده برای 'ich'. 'ihn' مفعول. 'später' قید زمان. 'an' در انتها.",
@@ -420,7 +420,7 @@
   },
   {
     "Filename": "36",
-    "Sound_de": "Frage: Muss ich mein Handy ausmachen? Antwort: Ja, im Kino muss man das Handy ausmachen.",
+    "Sound_de": "Frage: Muss ich mein Handy ausmachen? \nAntwort: Ja, im Kino muss man das Handy ausmachen.",
     "translate_fa": "سوال: آیا باید موبایلم را خاموش کنم؟ پاسخ: بله، در سینما باید موبایل را خاموش کرد.",
     "file": "36_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Muss' فعل کمکی 'müssen'. 'ich' فاعل. 'mein Handy' مفعول. 'ausmachen' در انتها.\n**Antwort**: 'Ja'. 'im Kino' به معنی 'در سینما'. 'muss' فعل کمکی. 'man' فاعل عمومی 'شخص'. 'das Handy' مفعول. 'ausmachen' در انتها.",
@@ -456,7 +456,7 @@
   },
   {
     "Filename": "39",
-    "Sound_de": "Frage: Zieht ihr euch warm an? Antwort: Ja, es ist kalt draußen.",
+    "Sound_de": "Frage: Zieht ihr euch warm an? \nAntwort: Ja, es ist kalt draußen.",
     "translate_fa": "سوال: لباس گرم می‌پوشید؟ پاسخ: بله، بیرون هوا سرد است.",
     "file": "39_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Zieht' فعل 'anziehen' صرف شده برای 'ihr'. 'ihr' فاعل 'شما'. 'euch' ضمیر انعکاسی 'خودتان'. 'warm' صفت 'گرم'. 'an' قسمت جداشدنی فعل.\n**Antwort**: 'Ja'. 'es ist kalt draußen' به معنی 'بیرون هوا سرد است'.",
@@ -492,7 +492,7 @@
   },
   {
     "Filename": "42",
-    "Sound_de": "Frage: Hast du deine Jacke angezogen? Antwort: Ja, ich habe meine Jacke angezogen.",
+    "Sound_de": "Frage: Hast du deine Jacke angezogen? \nAntwort: Ja, ich habe meine Jacke angezogen.",
     "translate_fa": "سوال: کاپشنت را پوشیدی؟ پاسخ: بله، کاپشنم را پوشیدم.",
     "file": "42_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'deine Jacke' مفعول. 'angezogen' قسمت سوم فعل 'anziehen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'meine Jacke' مفعول. 'angezogen' در انتها.",
@@ -528,7 +528,7 @@
   },
   {
     "Filename": "45",
-    "Sound_de": "Frage: Arbeitest du morgen im Büro? Antwort: Nein, morgen arbeite ich von zu Hause.",
+    "Sound_de": "Frage: Arbeitest du morgen im Büro? \nAntwort: Nein, morgen arbeite ich von zu Hause.",
     "translate_fa": "سوال: فردا در دفتر کار می‌کنی؟ پاسخ: نه، فردا از خانه کار می‌کنم.",
     "file": "45_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Arbeitest' فعل 'arbeiten' صرف شده برای 'du'. 'du' فاعل. 'morgen' قید زمان. 'im Büro' مکان.\n**Antwort**: 'Nein'. 'morgen' قید زمان. 'arbeite' فعل 'arbeiten' صرف شده برای 'ich'. 'ich' فاعل. 'von zu Hause' به معنی 'از خانه'.",
@@ -564,7 +564,7 @@
   },
   {
     "Filename": "48",
-    "Sound_de": "Frage: Haben Sie den Antrag schon ausgefüllt? Antwort: Ja, ich habe ihn schon ausgefüllt.",
+    "Sound_de": "Frage: Haben Sie den Antrag schon ausgefüllt? \nAntwort: Ja, ich habe ihn schon ausgefüllt.",
     "translate_fa": "سوال: آیا درخواست را قبلا پر کرده‌اید؟ پاسخ: بله، من قبلا آن را پر کردم.",
     "file": "48_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Haben' فعل کمکی 'haben'. 'Sie' فاعل احترام. 'den Antrag' مفعول. 'schon' قید 'از قبل'. 'ausgefüllt' قسمت سوم فعل 'ausfüllen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'ihn' مفعول 'آن'. 'schon' قید. 'ausgefüllt' در انتها.",
@@ -600,7 +600,7 @@
   },
   {
     "Filename": "51",
-    "Sound_de": "Frage: Ist das Licht ausgegangen? Antwort: Ja, es ist plötzlich dunkel geworden.",
+    "Sound_de": "Frage: Ist das Licht ausgegangen? \nAntwort: Ja, es ist plötzlich dunkel geworden.",
     "translate_fa": "سوال: چراغ خاموش شد؟ پاسخ: بله، ناگهان تاریک شد.",
     "file": "51_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Ist' فعل کمکی 'sein'. 'das Licht' فاعل. 'ausgegangen' قسمت سوم فعل.\n**Antwort**: 'Ja'. 'es ist plötzlich dunkel geworden' به معنی 'ناگهان تاریک شد'.",
@@ -636,7 +636,7 @@
   },
   {
     "Filename": "54",
-    "Sound_de": "Frage: Sehe ich alt aus? Antwort: Nein, du siehst gut aus!",
+    "Sound_de": "Frage: Sehe ich alt aus? \nAntwort: Nein, du siehst gut aus!",
     "translate_fa": "سوال: پیر به نظر می‌رسم؟ پاسخ: نه، خوب به نظر می‌رسی!",
     "file": "54_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Sehe' فعل 'aussehen' صرف شده برای 'ich'. 'ich' فاعل. 'alt' صفت. 'aus' در انتها.\n**Antwort**: 'Nein'. 'du' فاعل. 'siehst' فعل 'aussehen' صرف شده برای 'du'. 'gut' صفت 'خوب'. 'aus' در انتها.",
@@ -672,7 +672,7 @@
   },
   {
     "Filename": "57",
-    "Sound_de": "Frage: Sehe ich schön aus in diesem Kleid? Antwort: Ja, du siehst wunderschön aus!",
+    "Sound_de": "Frage: Sehe ich schön aus in diesem Kleid? \nAntwort: Ja, du siehst wunderschön aus!",
     "translate_fa": "سوال: آیا با این لباس زیبا به نظر می‌رسم؟ پاسخ: بله، تو فوق‌العاده زیبا به نظر می‌رسی!",
     "file": "57_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Sehe' فعل 'aussehen' صرف شده برای 'ich'. 'ich' فاعل. 'schön' صفت. 'aus' در انتها. 'in diesem Kleid' به معنی 'با این لباس'.\n**Antwort**: 'Ja'. 'du' فاعل. 'siehst' فعل 'aussehen' صرف شده برای 'du'. 'wunderschön' صفت 'فوق‌العاده زیبا'. 'aus' در انتها.",
@@ -708,7 +708,7 @@
   },
   {
     "Filename": "60",
-    "Sound_de": "Frage: Soll ich meine Schuhe ausziehen? Antwort: Ja, bitte ziehen Sie die Schuhe aus.",
+    "Sound_de": "Frage: Soll ich meine Schuhe ausziehen? \nAntwort: Ja, bitte ziehen Sie die Schuhe aus.",
     "translate_fa": "سوال: آیا باید کفش‌هایم را درآورم؟ پاسخ: بله، لطفا کفش‌ها را درآورید.",
     "file": "60_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Soll' فعل کمکی 'sollen'. 'ich' فاعل. 'meine Schuhe' مفعول. 'ausziehen' در انتها.\n**Antwort**: 'Ja'. 'bitte' لطفا. 'ziehen' فعل امری احترام. 'Sie' فاعل احترام. 'die Schuhe' مفعول. 'aus' در انتها.",
@@ -744,7 +744,7 @@
   },
   {
     "Filename": "63",
-    "Sound_de": "Frage: Fährst du mit der Bahn oder dem Bus? Antwort: Ich fahre mit der Bahn.",
+    "Sound_de": "Frage: Fährst du mit der Bahn oder dem Bus? \nAntwort: Ich fahre mit der Bahn.",
     "translate_fa": "سوال: با قطار سفر می‌کنی یا اتوبوس؟ پاسخ: من با قطار سفر می‌کنم.",
     "file": "63_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Fährst' فعل 'fahren' صرف شده برای 'du'. 'du' فاعل. 'mit der Bahn oder dem Bus' به معنی 'با قطار یا اتوبوس'.\n**Antwort**: 'Ich' فاعل. 'fahre' فعل 'fahren' صرف شده برای 'ich'. 'mit der Bahn' به معنی 'با قطار'.",
@@ -780,7 +780,7 @@
   },
   {
     "Filename": "66",
-    "Sound_de": "Frage: Zahlen Sie bar oder mit Karte? Antwort: Ich zahle bar.",
+    "Sound_de": "Frage: Zahlen Sie bar oder mit Karte? \nAntwort: Ich zahle bar.",
     "translate_fa": "سوال: نقدی پرداخت می‌کنید یا با کارت؟ پاسخ: من نقدی پرداخت می‌کنم.",
     "file": "66_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Zahlen' فعل 'zahlen' صرف شده برای 'Sie'. 'Sie' فاعل احترام. 'bar oder mit Karte' به معنی 'نقدی یا با کارت'.\n**Antwort**: 'Ich' فاعل. 'zahle' فعل 'zahlen' صرف شده برای 'ich'. 'bar' قید 'نقدی'.",
@@ -816,7 +816,7 @@
   },
   {
     "Filename": "69",
-    "Sound_de": "Frage: Kann ich hier mit Karte bezahlen? Antwort: Ja, das ist kein Problem.",
+    "Sound_de": "Frage: Kann ich hier mit Karte bezahlen? \nAntwort: Ja, das ist kein Problem.",
     "translate_fa": "سوال: آیا می‌توانم اینجا با کارت پرداخت کنم؟ پاسخ: بله، مشکلی نیست.",
     "file": "69_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kann' فعل کمکی 'können'. 'ich' فاعل. 'hier' قید 'اینجا'. 'mit Karte' به معنی 'با کارت'. 'bezahlen' در انتها.\n**Antwort**: 'Ja'. 'das ist kein Problem' به معنی 'این مشکلی نیست'.",
@@ -852,7 +852,7 @@
   },
   {
     "Filename": "72",
-    "Sound_de": "Frage: Wann beginnt das Spiel? Antwort: Es beginnt um 20 Uhr.",
+    "Sound_de": "Frage: Wann beginnt das Spiel? \nAntwort: Es beginnt um 20 Uhr.",
     "translate_fa": "سوال: بازی چه زمانی شروع می‌شود؟ پاسخ: ساعت 20 شروع می‌شود.",
     "file": "72_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'beginnt' فعل 'beginnen' صرف شده برای 'das Spiel'. 'das Spiel' فاعل.\n**Antwort**: 'Es' ضمیر فاعلی جایگزین 'das Spiel'. 'beginnt' فعل 'beginnen' صرف شده برای 'es'. 'um 20 Uhr' به معنی 'ساعت 20'.",
@@ -888,7 +888,7 @@
   },
   {
     "Filename": "75",
-    "Sound_de": "Frage: Wo hast du das Buch bekommen? Antwort: Ich habe es bei der Bücherei bekommen.",
+    "Sound_de": "Frage: Wo hast du das Buch bekommen? \nAntwort: Ich habe es bei der Bücherei bekommen.",
     "translate_fa": "سوال: کتاب را از کجا گرفتی؟ پاسخ: آن را از کتابخانه گرفتم.",
     "file": "75_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'hast' فعل کمکی 'haben'. 'du' فاعل. 'das Buch' مفعول. 'bekommen' در انتها.\n**Antwort**: 'Ich' فاعل. 'habe' فعل کمکی. 'es' مفعول 'آن'. 'bei der Bücherei' به معنی 'از کتابخانه'. 'bekommen' در انتها.",
@@ -924,7 +924,7 @@
   },
   {
     "Filename": "78",
-    "Sound_de": "Frage: Kann ich das benutzen? Antwort: Ja, du kannst es benutzen.",
+    "Sound_de": "Frage: Kann ich das benutzen? \nAntwort: Ja, du kannst es benutzen.",
     "translate_fa": "سوال: آیا می‌توانم از این استفاده کنم؟ پاسخ: بله، می‌توانی از آن استفاده کنی.",
     "file": "78_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kann' فعل کمکی 'können'. 'ich' فاعل. 'das' مفعول. 'benutzen' در انتها.\n**Antwort**: 'Ja'. 'du' فاعل. 'kannst' فعل کمکی. 'es' مفعول 'آن'. 'benutzen' در انتها.",
@@ -960,7 +960,7 @@
   },
   {
     "Filename": "81",
-    "Sound_de": "Frage: Besuchst du deine Familie oft? Antwort: Ja, ich besuche sie jedes Wochenende.",
+    "Sound_de": "Frage: Besuchst du deine Familie oft? \nAntwort: Ja, ich besuche sie jedes Wochenende.",
     "translate_fa": "سوال: اغلب به خانواده‌ات سر می‌زنی؟ پاسخ: بله، هر آخر هفته به آنها سر می‌زنم.",
     "file": "81_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Besuchst' فعل 'besuchen' صرف شده برای 'du'. 'du' فاعل. 'deine Familie' مفعول. 'oft' قید 'اغلب'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'besuche' فعل 'besuchen' صرف شده برای 'ich'. 'sie' مفعول 'آنها'. 'jedes Wochenende' به معنی 'هر آخر هفته'.",
@@ -996,7 +996,7 @@
   },
   {
     "Filename": "84",
-    "Sound_de": "Frage: Hast du das Buch schon bestellt? Antwort: Ja, es kommt morgen an.",
+    "Sound_de": "Frage: Hast du das Buch schon bestellt? \nAntwort: Ja, es kommt morgen an.",
     "translate_fa": "سوال: آیا کتاب را قبلا سفارش دادی؟ پاسخ: بله، فردا می‌رسد.",
     "file": "84_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'das Buch' مفعول. 'schon' قید 'از قبل'. 'bestellt' قسمت سوم فعل 'bestellen'.\n**Antwort**: 'Ja'. 'es' ضمیر فاعلی جایگزین 'das Buch'. 'kommt an' به معنی 'می‌رسد' (فعل جداشدنی 'ankommen'). 'morgen' قید زمان 'فردا'.",
@@ -1032,7 +1032,7 @@
   },
   {
     "Filename": "87",
-    "Sound_de": "Frage: Bleibst du zu Hause? Antwort: Ja, ich bleibe zu Hause.",
+    "Sound_de": "Frage: Bleibst du zu Hause? \nAntwort: Ja, ich bleibe zu Hause.",
     "translate_fa": "سوال: در خانه می‌مانی؟ پاسخ: بله، در خانه می‌مانم.",
     "file": "87_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bleibst' فعل 'bleiben' صرف شده برای 'du'. 'du' فاعل. 'zu Hause' مکان.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bleibe' فعل 'bleiben' صرف شده برای 'ich'. 'zu Hause' مکان.",
@@ -1068,7 +1068,7 @@
   },
   {
     "Filename": "90",
-    "Sound_de": "Frage: Bringst du mir einen Kaffee mit? Antwort: Ja, ich bringe dir einen mit.",
+    "Sound_de": "Frage: Bringst du mir einen Kaffee mit? \nAntwort: Ja, ich bringe dir einen mit.",
     "translate_fa": "سوال: یک قهوه برایم می‌آوری؟ پاسخ: بله، برایت یکی می‌آورم.",
     "file": "90_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bringst' فعل 'bringen' صرف شده برای 'du'. 'du' فاعل. 'mir' مفعول غیر مستقیم. 'einen Kaffee' مفعول مستقیم. 'mit' قسمت جداشدنی فعل 'mitbringen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bringe' فعل 'bringen' صرف شده برای 'ich'. 'dir' مفعول غیر مستقیم 'برای تو'. 'einen' ضمیر جایگزین 'einen Kaffee'. 'mit' در انتها.",
@@ -1104,7 +1104,7 @@
   },
   {
     "Filename": "93",
-    "Sound_de": "Frage: Wie buchstabiert man das? Antwort: Man buchstabiert das so: ...",
+    "Sound_de": "Frage: Wie buchstabiert man das? \nAntwort: Man buchstabiert das so: ...",
     "translate_fa": "سوال: این را چطور هجی می‌کنند؟ پاسخ: این را اینطور هجی می‌کنند: ...",
     "file": "93_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wie' کلمه پرسشی 'چطور'. 'buchstabiert' فعل 'buchstabieren' صرف شده برای 'man'. 'man' فاعل عمومی. 'das' مفعول.\n**Antwort**: 'Man' فاعل عمومی. 'buchstabiert' فعل 'buchstabieren' صرف شده برای 'man'. 'das' مفعول. 'so' به معنی 'اینطور'.",
@@ -1140,7 +1140,7 @@
   },
   {
     "Filename": "96",
-    "Sound_de": "Frage: Wo kann ich das Formular ausfüllen? Antwort: Sie können es hier ausfüllen.",
+    "Sound_de": "Frage: Wo kann ich das Formular ausfüllen? \nAntwort: Sie können es hier ausfüllen.",
     "translate_fa": "سوال: کجا می‌توانم فرم را پر کنم؟ پاسخ: شما می‌توانید آن را اینجا پر کنید.",
     "file": "96_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'kann' فعل کمکی 'können'. 'ich' فاعل. 'das Formular' مفعول. 'ausfüllen' در انتها.\n**Antwort**: 'Sie' فاعل احترام. 'können' فعل کمکی. 'es' مفعول 'آن'. 'hier' قید 'اینجا'. 'ausfüllen' در انتها.",
@@ -1176,7 +1176,7 @@
   },
   {
     "Filename": "99",
-    "Sound_de": "Frage: Hast du das Licht ausgemacht? Antwort: Ja, ich habe es ausgemacht.",
+    "Sound_de": "Frage: Hast du das Licht ausgemacht? \nAntwort: Ja, ich habe es ausgemacht.",
     "translate_fa": "سوال: چراغ را خاموش کردی؟ پاسخ: بله، آن را خاموش کردم.",
     "file": "99_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'das Licht' مفعول. 'ausgemacht' قسمت سوم فعل 'ausmachen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'es' مفعول 'آن'. 'ausgemacht' در انتها.",
@@ -1212,7 +1212,7 @@
   },
   {
     "Filename": "102",
-    "Sound_de": "Frage: Kannst du Fahrrad fahren? Antwort: Ja, ich kann Fahrrad fahren.",
+    "Sound_de": "Frage: Kannst du Fahrrad fahren? \nAntwort: Ja, ich kann Fahrrad fahren.",
     "translate_fa": "سوال: می‌توانی دوچرخه‌سواری کنی؟ پاسخ: بله، من می‌توانم دوچرخه‌سواری کنم.",
     "file": "102_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kannst' فعل کمکی 'können'. 'du' فاعل. 'Fahrrad fahren' به معنی 'دوچرخه‌سواری کردن'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'kann' فعل کمکی. 'Fahrrad fahren' در انتها.",
@@ -1248,7 +1248,7 @@
   },
   {
     "Filename": "105",
-    "Sound_de": "Frage: Fahren wir mit dem Auto oder dem Zug? Antwort: Wir fahren mit dem Auto, es ist schneller.",
+    "Sound_de": "Frage: Fahren wir mit dem Auto oder dem Zug? \nAntwort: Wir fahren mit dem Auto, es ist schneller.",
     "translate_fa": "سوال: با ماشین برویم یا قطار؟ پاسخ: با ماشین می‌رویم، سریع‌تر است.",
     "file": "105_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Fahren' فعل 'fahren' صرف شده برای 'wir'. 'wir' فاعل. 'mit dem Auto oder dem Zug' به معنی 'با ماشین یا قطار'.\n**Antwort**: 'Wir' فاعل. 'fahren' فعل 'fahren' صرف شده برای 'wir'. 'mit dem Auto'. 'es ist schneller' به معنی 'آن سریع‌تر است'.",
@@ -1284,7 +1284,7 @@
   },
   {
     "Filename": "108",
-    "Sound_de": "Frage: Wann fährt der Bus ab? Antwort: Er fährt in 10 Minuten ab.",
+    "Sound_de": "Frage: Wann fährt der Bus ab? \nAntwort: Er fährt in 10 Minuten ab.",
     "translate_fa": "سوال: اتوبوس چه زمانی حرکت می‌کند؟ پاسخ: 10 دقیقه دیگر حرکت می‌کند.",
     "file": "108_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** با فعل جداشدنی 'abfahren' (حرکت کردن) است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'fährt' فعل 'abfahren'. 'der Bus' فاعل. 'ab' قسمت جداشدنی فعل.\n**Antwort**: 'Er' ضمیر فاعلی جایگزین 'der Bus'. 'fährt' فعل. 'in 10 Minuten' به معنی '10 دقیقه دیگر'. 'ab' در انتها.",
@@ -1320,7 +1320,7 @@
   },
   {
     "Filename": "111",
-    "Sound_de": "Frage: Habe ich einen Fehler gemacht? Antwort: Ja, du hast einen Fehler gemacht, aber das ist nicht schlimm.",
+    "Sound_de": "Frage: Habe ich einen Fehler gemacht? \nAntwort: Ja, du hast einen Fehler gemacht, aber das ist nicht schlimm.",
     "translate_fa": "سوال: آیا اشتباه کردم؟ پاسخ: بله، اشتباه کردی، اما مهم نیست.",
     "file": "111_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Habe' فعل کمکی 'haben'. 'ich' فاعل. 'einen Fehler' مفعول. 'gemacht' قسمت سوم فعل 'machen'.\n**Antwort**: 'Ja'. 'du' فاعل. 'hast' فعل کمکی. 'einen Fehler' مفعول. 'gemacht' در انتها. 'aber das ist nicht schlimm' به معنی 'اما این بد نیست'.",
@@ -1356,7 +1356,7 @@
   },
   {
     "Filename": "114",
-    "Sound_de": "Frage: Feierst du deinen Geburtstag? Antwort: Ja, wir feiern im Restaurant.",
+    "Sound_de": "Frage: Feierst du deinen Geburtstag? \nAntwort: Ja, wir feiern im Restaurant.",
     "translate_fa": "سوال: تولدت را جشن می‌گیری؟ پاسخ: بله، در رستوران جشن می‌گیریم.",
     "file": "114_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Feierst' فعل 'feiern' صرف شده برای 'du'. 'du' فاعل. 'deinen Geburtstag' مفعول.\n**Antwort**: 'Ja'. 'wir' فاعل. 'feiern' فعل 'feiern' صرف شده برای 'wir'. 'im Restaurant' به معنی 'در رستوران'.",
@@ -1392,7 +1392,7 @@
   },
   {
     "Filename": "117",
-    "Sound_de": "Frage: Hast du deine Schlüssel gefunden? Antwort: Ja, ich habe sie gefunden!",
+    "Sound_de": "Frage: Hast du deine Schlüssel gefunden? \nAntwort: Ja, ich habe sie gefunden!",
     "translate_fa": "سوال: کلیدهایت را پیدا کردی؟ پاسخ: بله، آنها را پیدا کردم!",
     "file": "117_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'deine Schlüssel' مفعول. 'gefunden' قسمت سوم فعل 'finden'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'sie' مفعول 'آنها'. 'gefunden' در انتها.",
@@ -1428,7 +1428,7 @@
   },
   {
     "Filename": "120",
-    "Sound_de": "Frage: Isst du gern Fisch? Antwort: Nein, ich esse nicht gern Fisch.",
+    "Sound_de": "Frage: Isst du gern Fisch? \nAntwort: Nein, ich esse nicht gern Fisch.",
     "translate_fa": "سوال: دوست داری ماهی بخوری؟ پاسخ: نه، من دوست ندارم ماهی بخورم.",
     "file": "120_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Isst' فعل 'essen' صرف شده برای 'du'. 'du' فاعل. 'gern Fisch' به معنی 'دوست داری ماهی'.\n**Antwort**: 'Nein'. 'ich' فاعل. 'esse' فعل 'essen' صرف شده برای 'ich'. 'nicht gern Fisch' به معنی 'دوست ندارم ماهی'.",
@@ -1464,7 +1464,7 @@
   },
   {
     "Filename": "123",
-    "Sound_de": "Frage: Fliegst du gern in den Urlaub? Antwort: Nein, ich fliege nicht gern, ich werde seekrank.",
+    "Sound_de": "Frage: Fliegst du gern in den Urlaub? \nAntwort: Nein, ich fliege nicht gern, ich werde seekrank.",
     "translate_fa": "سوال: دوست داری با هواپیما به تعطیلات بروی؟ پاسخ: نه، دوست ندارم پرواز کنم، دچار تهوع می‌شوم.",
     "file": "123_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Fliegst' فعل 'fliegen' صرف شده برای 'du'. 'du' فاعل. 'gern in den Urlaub' به معنی 'دوست داری به تعطیلات'.\n**Antwort**: 'Nein'. 'ich' فاعل. 'fliege' فعل 'fliegen' صرف شده برای 'ich'. 'nicht gern' به معنی 'دوست ندارم'. 'ich werde seekrank' به معنی 'دچار تهوع می‌شوم'.",
@@ -1500,7 +1500,7 @@
   },
   {
     "Filename": "126",
-    "Sound_de": "Frage: Hast du viele Fotos gemacht? Antwort: Ja, ich habe viele schöne Fotos gemacht.",
+    "Sound_de": "Frage: Hast du viele Fotos gemacht? \nAntwort: Ja, ich habe viele schöne Fotos gemacht.",
     "translate_fa": "سوال: عکس‌های زیادی گرفتی؟ پاسخ: بله، عکس‌های زیبا زیادی گرفتم.",
     "file": "126_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'viele Fotos' مفعول. 'gemacht' قسمت سوم فعل 'machen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'viele schöne Fotos' مفعول. 'gemacht' در انتها.",
@@ -1536,7 +1536,7 @@
   },
   {
     "Filename": "129",
-    "Sound_de": "Frage: Darf ich Sie etwas fragen? Antwort: Ja, bitte fragen Sie.",
+    "Sound_de": "Frage: Darf ich Sie etwas fragen? \nAntwort: Ja, bitte fragen Sie.",
     "translate_fa": "سوال: می‌توانم از شما چیزی بپرسم؟ پاسخ: بله، لطفا بپرسید.",
     "file": "129_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Darf' فعل کمکی 'dürfen' (اجازه داشتن). 'ich' فاعل. 'Sie' مفعول احترام. 'etwas' مفعول. 'fragen' در انتها.\n**Antwort**: 'Ja'. 'bitte' لطفا. 'fragen' فعل امری احترام. 'Sie' فاعل احترام.",
@@ -1572,7 +1572,7 @@
   },
   {
     "Filename": "132",
-    "Sound_de": "Frage: Was kann ich für dich tun? Antwort: Du kannst mir helfen.",
+    "Sound_de": "Frage: Was kann ich für dich tun? \nAntwort: Du kannst mir helfen.",
     "translate_fa": "سوال: چه کاری می‌توانم برایت انجام دهم؟ پاسخ: می‌توانی به من کمک کنی.",
     "file": "132_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'kann' فعل کمکی 'können'. 'ich' فاعل. 'für dich' به معنی 'برای تو'. 'tun' در انتها.\n**Antwort**: 'Du' فاعل. 'kannst' فعل کمکی. 'mir' مفعول غیر مستقیم. 'helfen' فعل اصلی در انتها.",
@@ -1608,7 +1608,7 @@
   },
   {
     "Filename": "135",
-    "Sound_de": "Frage: Spielst du gern Fußball? Antwort: Ja, ich spiele sehr gern.",
+    "Sound_de": "Frage: Spielst du gern Fußball? \nAntwort: Ja, ich spiele sehr gern.",
     "translate_fa": "سوال: دوست داری فوتبال بازی کنی؟ پاسخ: بله، خیلی دوست دارم بازی کنم.",
     "file": "135_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Spielst' فعل 'spielen' صرف شده برای 'du'. 'du' فاعل. 'gern Fußball' به معنی 'دوست داری فوتبال'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'spiele' فعل 'spielen' صرف شده برای 'ich'. 'sehr gern' به معنی 'خیلی دوست دارم'.",
@@ -1644,7 +1644,7 @@
   },
   {
     "Filename": "138",
-    "Sound_de": "Frage: Wer hat dir den Kugelschreiber gegeben? Antwort: Er hat ihn mir gegeben.",
+    "Sound_de": "Frage: Wer hat dir den Kugelschreiber gegeben? \nAntwort: Er hat ihn mir gegeben.",
     "translate_fa": "سوال: چه کسی خودکار را به تو داد؟ پاسخ: او آن را به من داد.",
     "file": "138_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Wer' کلمه پرسشی 'چه کسی'. 'hat' فعل کمکی 'haben'. 'dir' مفعول غیر مستقیم 'به تو'. 'den Kugelschreiber' مفعول مستقیم. 'gegeben' قسمت سوم فعل 'geben'.\n**Antwort**: 'Er' فاعل 'او'. 'hat' فعل کمکی. 'ihn' مفعول مستقیم 'آن را'. 'mir' مفعول غیر مستقیم 'به من'. 'gegeben' در انتها.",
@@ -1680,7 +1680,7 @@
   },
   {
     "Filename": "141",
-    "Sound_de": "Frage: Möchtest du Torte essen? Antwort: Ja, ich esse sehr gern Torte.",
+    "Sound_de": "Frage: Möchtest du Torte essen? \nAntwort: Ja, ich esse sehr gern Torte.",
     "translate_fa": "سوال: دوست داری کیک بخوری؟ پاسخ: بله، خیلی دوست دارم کیک بخورم.",
     "file": "141_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Möchtest' فعل کمکی 'möchten'. 'du' فاعل. 'Torte essen' به معنی 'کیک خوردن'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'esse' فعل 'essen' صرف شده برای 'ich'. 'sehr gern Torte' به معنی 'خیلی دوست دارم کیک'.",
@@ -1716,7 +1716,7 @@
   },
   {
     "Filename": "144",
-    "Sound_de": "Frage: Kannst du mir das Salz geben? Antwort: Ja, hier ist es.",
+    "Sound_de": "Frage: Kannst du mir das Salz geben? \nAntwort: Ja, hier ist es.",
     "translate_fa": "سوال: می‌توانی نمک را به من بدهی؟ پاسخ: بله، بفرمایید.",
     "file": "144_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kannst' فعل کمکی 'können'. 'du' فاعل. 'mir' مفعول غیر مستقیم 'به من'. 'das Salz' مفعول مستقیم 'نمک'. 'geben' در انتها.\n**Antwort**: 'Ja'. 'hier ist es' به معنی 'بفرمایید' یا 'اینجاست'.",
@@ -1752,7 +1752,7 @@
   },
   {
     "Filename": "147",
-    "Sound_de": "Frage: Hast du ihm die Hand gegeben? Antwort: Ja, ich habe ihm die Hand gegeben.",
+    "Sound_de": "Frage: Hast du ihm die Hand gegeben? \nAntwort: Ja, ich habe ihm die Hand gegeben.",
     "translate_fa": "سوال: با او دست دادی؟ پاسخ: بله، من با او دست دادم.",
     "file": "147_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'ihm' مفعول غیر مستقیم. 'die Hand' مفعول مستقیم. 'gegeben' در انتها.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'ihm' مفعول غیر مستقیم. 'die Hand' مفعول مستقیم. 'gegeben' در انتها.",
@@ -1788,7 +1788,7 @@
   },
   {
     "Filename": "150",
-    "Sound_de": "Frage: Wo ist die Information? Antwort: Gehen Sie geradeaus zur Information.",
+    "Sound_de": "Frage: Wo ist die Information? \nAntwort: Gehen Sie geradeaus zur Information.",
     "translate_fa": "سوال: اطلاعات کجاست؟ پاسخ: مستقیم به سمت اطلاعات بروید.",
     "file": "150_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'ist' فعل 'sein' (بودن). 'die Information' فاعل.\n**Antwort**: 'Gehen' فعل امری احترام. 'Sie' فاعل احترام. 'geradeaus' به معنی 'مستقیم'. 'zur Information' به معنی 'به سمت اطلاعات'.",
@@ -1824,7 +1824,7 @@
   },
   {
     "Filename": "153",
-    "Sound_de": "Frage: Wie komme ich zum Bahnhof? Antwort: Gehen Sie immer geradeaus, dann sehen Sie den Bahnhof.",
+    "Sound_de": "Frage: Wie komme ich zum Bahnhof? \nAntwort: Gehen Sie immer geradeaus, dann sehen Sie den Bahnhof.",
     "translate_fa": "سوال: چطور به ایستگاه قطار بروم؟ پاسخ: همیشه مستقیم بروید، سپس ایستگاه قطار را می‌بینید.",
     "file": "153_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wie' کلمه پرسشی 'چطور'. 'komme' فعل 'kommen' (آمدن) صرف شده برای 'ich'. 'ich' فاعل. 'zum Bahnhof' به معنی 'به ایستگاه قطار'.\n**Antwort**: 'Gehen Sie' فعل و فاعل امری احترام. 'immer geradeaus' به معنی 'همیشه مستقیم'. 'dann' به معنی 'سپس'. 'sehen Sie' به معنی 'می‌بینید'. 'den Bahnhof' مفعول.",
@@ -1860,7 +1860,7 @@
   },
   {
     "Filename": "156",
-    "Sound_de": "Frage: Machst du gern Sport? Antwort: Ja, ich mache sehr gern Sport.",
+    "Sound_de": "Frage: Machst du gern Sport? \nAntwort: Ja, ich mache sehr gern Sport.",
     "translate_fa": "سوال: دوست داری ورزش کنی؟ پاسخ: بله، خیلی دوست دارم ورزش کنم.",
     "file": "156_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Machst' فعل 'machen' صرف شده برای 'du'. 'du' فاعل. 'gern Sport' به معنی 'دوست داری ورزش'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'mache' فعل 'machen' صرف شده برای 'ich'. 'sehr gern Sport' به معنی 'خیلی دوست دارم ورزش'.",
@@ -1896,7 +1896,7 @@
   },
   {
     "Filename": "159",
-    "Sound_de": "Frage: Was soll ich ihm schenken? Antwort: Du kannst ihm Blumen schenken.",
+    "Sound_de": "Frage: Was soll ich ihm schenken? \nAntwort: Du kannst ihm Blumen schenken.",
     "translate_fa": "سوال: چه چیزی باید به او هدیه دهم؟ پاسخ: می‌توانی به او گل هدیه بدهی.",
     "file": "159_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'soll' فعل کمکی 'sollen' (باید). 'ich' فاعل. 'ihm' مفعول غیر مستقیم. 'schenken' در انتها.\n**Antwort**: 'Du' فاعل. 'kannst' فعل کمکی. 'ihm' مفعول غیر مستقیم. 'Blumen' مفعول مستقیم 'گل‌ها'. 'schenken' در انتها.",
@@ -1932,7 +1932,7 @@
   },
   {
     "Filename": "162",
-    "Sound_de": "Frage: Hast du ein Gespräch mit ihm gehabt? Antwort: Ja, wir haben lange gesprochen.",
+    "Sound_de": "Frage: Hast du ein Gespräch mit ihm gehabt? \nAntwort: Ja, wir haben lange gesprochen.",
     "translate_fa": "سوال: با او صحبت کردی؟ پاسخ: بله، ما طولانی صحبت کردیم.",
     "file": "162_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'ein Gespräch' مفعول. 'mit ihm' به معنی 'با او'. 'gehabt' قسمت سوم فعل 'haben'.\n**Antwort**: 'Ja'. 'wir' فاعل. 'haben' فعل کمکی. 'lange' قید 'طولانی'. 'gesprochen' قسمت سوم فعل 'sprechen' (صحبت کردن).",
@@ -1968,7 +1968,7 @@
   },
   {
     "Filename": "165",
-    "Sound_de": "Frage: Hast du ein Glas? Antwort: Ja, ich habe ein Glas.",
+    "Sound_de": "Frage: Hast du ein Glas? \nAntwort: Ja, ich habe ein Glas.",
     "translate_fa": "سوال: لیوان داری؟ پاسخ: بله، لیوان دارم.",
     "file": "165_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'ein Glas' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben' صرف شده برای 'ich'. 'ein Glas' مفعول.",
@@ -2004,7 +2004,7 @@
   },
   {
     "Filename": "168",
-    "Sound_de": "Frage: Glaubst du an Wunder? Antwort: Ja, ich glaube an Wunder.",
+    "Sound_de": "Frage: Glaubst du an Wunder? \nAntwort: Ja, ich glaube an Wunder.",
     "translate_fa": "سوال: به معجزه اعتقاد داری؟ پاسخ: بله، به معجزه اعتقاد دارم.",
     "file": "168_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Glaubst' فعل 'glauben' صرف شده برای 'du'. 'du' فاعل. 'an Wunder' به معنی 'به معجزه'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'glaube' فعل 'glauben' صرف شده برای 'ich'. 'an Wunder' به معنی 'به معجزه'.",
@@ -2040,7 +2040,7 @@
   },
   {
     "Filename": "171",
-    "Sound_de": "Frage: Bist du gleich alt wie ich? Antwort: Nein, ich bin älter als du.",
+    "Sound_de": "Frage: Bist du gleich alt wie ich? \nAntwort: Nein, ich bin älter als du.",
     "translate_fa": "سوال: تو همسن من هستی؟ پاسخ: نه، من از تو بزرگتر هستم.",
     "file": "171_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل. 'gleich alt wie ich' به معنی 'همسن من'.\n**Antwort**: 'Nein'. 'ich' فاعل. 'bin' فعل 'sein' صرف شده برای 'ich'. 'älter als du' به معنی 'بزرگتر از تو'.",
@@ -2076,7 +2076,7 @@
   },
   {
     "Filename": "174",
-    "Sound_de": "Frage: Wann kommst du? Antwort: Ich komme gleich, warte bitte noch 5 Minuten.",
+    "Sound_de": "Frage: Wann kommst du? \nAntwort: Ich komme gleich, warte bitte noch 5 Minuten.",
     "translate_fa": "سوال: چه زمانی می‌آیی؟ پاسخ: الان می‌آیم، لطفا 5 دقیقه دیگر صبر کن.",
     "file": "174_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'kommst' فعل 'kommen' صرف شده برای 'du'. 'du' فاعل.\n**Antwort**: 'Ich' فاعل. 'komme' فعل 'kommen' صرف شده برای 'ich'. 'gleich' قید. 'warte bitte noch 5 Minuten' به معنی 'لطفا 5 دقیقه دیگر صبر کن'.",
@@ -2112,7 +2112,7 @@
   },
   {
     "Filename": "177",
-    "Sound_de": "Frage: Hast du immer Glück? Antwort: Nein, nicht immer, aber oft.",
+    "Sound_de": "Frage: Hast du immer Glück? \nAntwort: Nein, nicht immer, aber oft.",
     "translate_fa": "سوال: همیشه شانس می‌آوری؟ پاسخ: نه، همیشه نه، اما اغلب.",
     "file": "177_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'immer Glück' به معنی 'همیشه شانس'.\n**Antwort**: 'Nein'. 'nicht immer' به معنی 'همیشه نه'. 'aber oft' به معنی 'اما اغلب'.",
@@ -2148,7 +2148,7 @@
   },
   {
     "Filename": "180",
-    "Sound_de": "Frage: Grillst du gern? Antwort: Ja, ich grille sehr gern im Sommer.",
+    "Sound_de": "Frage: Grillst du gern? \nAntwort: Ja, ich grille sehr gern im Sommer.",
     "translate_fa": "سوال: دوست داری کباب کنی؟ پاسخ: بله، من خیلی دوست دارم در تابستان کباب کنم.",
     "file": "180_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Grillst' فعل 'grillen' صرف شده برای 'du'. 'du' فاعل. 'gern' به معنی 'با علاقه'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'grille' فعل 'grillen' صرف شده برای 'ich'. 'sehr gern' به معنی 'خیلی دوست دارم'. 'im Sommer' به معنی 'در تابستان'.",
@@ -2184,7 +2184,7 @@
   },
   {
     "Filename": "183",
-    "Sound_de": "Frage: Wie groß bist du? Antwort: Ich bin 1,80 Meter groß.",
+    "Sound_de": "Frage: Wie groß bist du? \nAntwort: Ich bin 1,80 Meter groß.",
     "translate_fa": "سوال: قدت چقدر است؟ پاسخ: من 1.80 متر قد دارم.",
     "file": "183_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wie groß' کلمه پرسشی 'چقدر بزرگ'. 'bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل.\n**Antwort**: 'Ich' فاعل. 'bin' فعل 'sein' صرف شده برای 'ich'. '1,80 Meter groß' به معنی '1.80 متر قد'.",
@@ -2220,7 +2220,7 @@
   },
   {
     "Filename": "186",
-    "Sound_de": "Frage: Hat dein Bruder lange Haare? Antwort: Nein, er hat kurze Haare.",
+    "Sound_de": "Frage: Hat dein Bruder lange Haare? \nAntwort: Nein, er hat kurze Haare.",
     "translate_fa": "سوال: برادرت موهای بلند دارد؟ پاسخ: نه، او موهای کوتاه دارد.",
     "file": "186_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hat' فعل 'haben' صرف شده برای 'dein Bruder'. 'dein Bruder' فاعل. 'lange Haare' به معنی 'موهای بلند'.\n**Antwort**: 'Nein'. 'er' ضمیر فاعلی جایگزین 'dein Bruder'. 'hat' فعل 'haben' صرف شده برای 'er'. 'kurze Haare' به معنی 'موهای کوتاه'.",
@@ -2256,7 +2256,7 @@
   },
   {
     "Filename": "189",
-    "Sound_de": "Frage: Isst du gern Hähnchen? Antwort: Ja, ich esse gern Hähnchen.",
+    "Sound_de": "Frage: Isst du gern Hähnchen? \nAntwort: Ja, ich esse gern Hähnchen.",
     "translate_fa": "سوال: دوست داری جوجه بخوری؟ پاسخ: بله، من دوست دارم جوجه بخورم.",
     "file": "189_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Isst' فعل 'essen' صرف شده برای 'du'. 'du' فاعل. 'gern Hähnchen' به معنی 'دوست داری جوجه'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'esse' فعل 'essen' صرف شده برای 'ich'. 'gern Hähnchen' به معنی 'دوست دارم جوجه'.",
@@ -2292,7 +2292,7 @@
   },
   {
     "Filename": "192",
-    "Sound_de": "Frage: Habt ihr Halbpension gebucht? Antwort: Ja, wir haben Halbpension gebucht.",
+    "Sound_de": "Frage: Habt ihr Halbpension gebucht? \nAntwort: Ja, wir haben Halbpension gebucht.",
     "translate_fa": "سوال: سرویس نیمه اقامت رزرو کردید؟ پاسخ: بله، ما سرویس نیمه اقامت رزرو کردیم.",
     "file": "192_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Habt' فعل کمکی 'haben' صرف شده برای 'ihr'. 'ihr' فاعل 'شما'. 'Halbpension' مفعول. 'gebucht' قسمت سوم فعل 'buchen' (رزرو کردن).\n**Antwort**: 'Ja'. 'wir' فاعل. 'haben' فعل کمکی. 'Halbpension' مفعول. 'gebucht' در انتها.",
@@ -2328,7 +2328,7 @@
   },
   {
     "Filename": "195",
-    "Sound_de": "Frage: Müssen wir unsere Handys ausmachen? Antwort: Ja, bitte machen Sie die Handys aus.",
+    "Sound_de": "Frage: Müssen wir unsere Handys ausmachen? \nAntwort: Ja, bitte machen Sie die Handys aus.",
     "translate_fa": "سوال: باید موبایل‌هایمان را خاموش کنیم؟ پاسخ: بله، لطفا موبایل‌ها را خاموش کنید.",
     "file": "195_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Müssen' فعل کمکی 'müssen'. 'wir' فاعل. 'unsere Handys' مفعول. 'ausmachen' در انتها.\n**Antwort**: 'Ja'. 'bitte' لطفا. 'machen Sie' فعل و فاعل امری احترام. 'die Handys' مفعول. 'aus' در انتها.",
@@ -2364,7 +2364,7 @@
   },
   {
     "Filename": "198",
-    "Sound_de": "Frage: Wann gehen wir nach Hause? Antwort: Wir gehen um 22 Uhr nach Hause.",
+    "Sound_de": "Frage: Wann gehen wir nach Hause? \nAntwort: Wir gehen um 22 Uhr nach Hause.",
     "translate_fa": "سوال: چه زمانی به خانه می‌رویم؟ پاسخ: ما ساعت 22 به خانه می‌رویم.",
     "file": "198_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'gehen' فعل 'gehen' صرف شده برای 'wir'. 'wir' فاعل. 'nach Hause' به معنی 'به خانه'.\n**Antwort**: 'Wir' فاعل. 'gehen' فعل 'gehen' صرف شده برای 'wir'. 'um 22 Uhr' به معنی 'ساعت 22'. 'nach Hause' در انتها.",
@@ -2400,7 +2400,7 @@
   },
   {
     "Filename": "201",
-    "Sound_de": "Frage: Kannst du mir bei den Hausaufgaben helfen? Antwort: Ja, ich helfe dir gern.",
+    "Sound_de": "Frage: Kannst du mir bei den Hausaufgaben helfen? \nAntwort: Ja, ich helfe dir gern.",
     "translate_fa": "سوال: می‌توانی در تکالیفم به من کمک کنی؟ پاسخ: بله، من با کمال میل به تو کمک می‌کنم.",
     "file": "201_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kannst' فعل کمکی 'können'. 'du' فاعل. 'mir' مفعول غیر مستقیم 'به من'. 'bei den Hausaufgaben' به معنی 'در تکالیف'. 'helfen' در انتها.\n**Antwort**: 'Ja'. 'ich' فاعل. 'helfe' فعل 'helfen' صرف شده برای 'ich'. 'dir' مفعول غیر مستقیم 'به تو'. 'gern' به معنی 'با کمال میل'.",
@@ -2436,7 +2436,7 @@
   },
   {
     "Filename": "204",
-    "Sound_de": "Frage: Brauchen Sie Hilfe? Antwort: Ja, danke, Sie können mir helfen.",
+    "Sound_de": "Frage: Brauchen Sie Hilfe? \nAntwort: Ja, danke, Sie können mir helfen.",
     "translate_fa": "سوال: به کمک نیاز دارید؟ پاسخ: بله، ممنون، شما می‌توانید به من کمک کنید.",
     "file": "204_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Brauchen' فعل 'brauchen' (نیاز داشتن). 'Sie' فاعل احترام. 'Hilfe' مفعول.\n**Antwort**: 'Ja'. 'danke' به معنی 'ممنون'. 'Sie' فاعل احترام. 'können' فعل کمکی. 'mir' مفعول غیر مستقیم 'به من'. 'helfen' در انتها.",
@@ -2472,7 +2472,7 @@
   },
   {
     "Filename": "207",
-    "Sound_de": "Frage: Hast du morgen einen Termin? Antwort: Nein, morgen habe ich frei.",
+    "Sound_de": "Frage: Hast du morgen einen Termin? \nAntwort: Nein, morgen habe ich frei.",
     "translate_fa": "سوال: فردا وقت ملاقات داری؟ پاسخ: نه، فردا آزاد هستم.",
     "file": "207_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'morgen' قید زمان. 'einen Termin' مفعول.\n**Antwort**: 'Nein'. 'morgen' قید زمان. 'habe' فعل 'haben' صرف شده برای 'ich'. 'ich' فاعل. 'frei' به معنی 'آزاد'.",
@@ -2508,7 +2508,7 @@
   },
   {
     "Filename": "210",
-    "Sound_de": "Frage: Soll ich dir etwas zu trinken holen? Antwort: Ja, bitte hole mir einen Saft.",
+    "Sound_de": "Frage: Soll ich dir etwas zu trinken holen? \nAntwort: Ja, bitte hole mir einen Saft.",
     "translate_fa": "سوال: برایت چیزی برای نوشیدن بیاورم؟ پاسخ: بله، لطفا یک آبمیوه برایم بیاور.",
     "file": "210_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Soll' فعل کمکی 'sollen' (باید). 'ich' فاعل. 'dir' مفعول غیر مستقیم 'برای تو'. 'etwas zu trinken' به معنی 'چیزی برای نوشیدن'. 'holen' در انتها.\n**Antwort**: 'Ja'. 'bitte' لطفا. 'hole' فعل امری. 'mir' مفعول غیر مستقیم 'برای من'. 'einen Saft' مفعول مستقیم. 'holen' در انتها.",
@@ -2544,7 +2544,7 @@
   },
   {
     "Filename": "213",
-    "Sound_de": "Frage: Hörst du das? Antwort: Nein, ich höre nichts.",
+    "Sound_de": "Frage: Hörst du das? \nAntwort: Nein, ich höre nichts.",
     "translate_fa": "سوال: آن را می‌شنوی؟ پاسخ: نه، من چیزی نمی‌شنوم.",
     "file": "213_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hörst' فعل 'hören' صرف شده برای 'du'. 'du' فاعل. 'das' مفعول.\n**Antwort**: 'Nein'. 'ich' فاعل. 'höre' فعل 'hören' صرف شده برای 'ich'. 'nichts' به معنی 'هیچی' یا 'چیزی'.",
@@ -2580,7 +2580,7 @@
   },
   {
     "Filename": "216",
-    "Sound_de": "Frage: Hast du Hunger? Antwort: Ja, ich habe Hunger.",
+    "Sound_de": "Frage: Hast du Hunger? \nAntwort: Ja, ich habe Hunger.",
     "translate_fa": "سوال: گرسنه‌ای؟ پاسخ: بله، گرسنه هستم.",
     "file": "216_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'Hunger' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben' صرف شده برای 'ich'. 'Hunger' مفعول.",
@@ -2616,7 +2616,7 @@
   },
   {
     "Filename": "219",
-    "Sound_de": "Frage: Gehst du oft ins Kino? Antwort: Ja, ich gehe oft ins Kino.",
+    "Sound_de": "Frage: Gehst du oft ins Kino? \nAntwort: Ja, ich gehe oft ins Kino.",
     "translate_fa": "سوال: اغلب به سینما می‌روی؟ پاسخ: بله، اغلب به سینما می‌روم.",
     "file": "219_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Gehst' فعل 'gehen' صرف شده برای 'du'. 'du' فاعل. 'oft ins Kino' به معنی 'اغلب به سینما'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'gehe' فعل 'gehen' صرف شده برای 'ich'. 'oft ins Kino' به معنی 'اغلب به سینما'.",
@@ -2652,7 +2652,7 @@
   },
   {
     "Filename": "222",
-    "Sound_de": "Frage: Hast du Informationen über den Kurs? Antwort: Ja, ich habe die Informationen.",
+    "Sound_de": "Frage: Hast du Informationen über den Kurs? \nAntwort: Ja, ich habe die Informationen.",
     "translate_fa": "سوال: اطلاعاتی در مورد دوره داری؟ پاسخ: بله، اطلاعات را دارم.",
     "file": "222_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'Informationen über den Kurs' به معنی 'اطلاعات در مورد دوره'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben' صرف شده برای 'ich'. 'die Informationen' مفعول.",
@@ -2688,7 +2688,7 @@
   },
   {
     "Filename": "225",
-    "Sound_de": "Frage: Kennst du diese Webseite? Antwort: Ja, die kenne ich.",
+    "Sound_de": "Frage: Kennst du diese Webseite? \nAntwort: Ja, die kenne ich.",
     "translate_fa": "سوال: این وب‌سایت را می‌شناسی؟ پاسخ: بله، آن را می‌شناسم.",
     "file": "225_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kennst' فعل 'kennen' صرف شده برای 'du'. 'du' فاعل. 'diese Webseite' مفعول.\n**Antwort**: 'Ja'. 'die' ضمیر جایگزین 'diese Webseite'. 'kenne' فعل 'kennen' صرف شده برای 'ich'. 'ich' فاعل.",
@@ -2724,7 +2724,7 @@
   },
   {
     "Filename": "228",
-    "Sound_de": "Frage: Wann habt ihr euch kennengelernt? Antwort: Wir haben uns vor einem Jahr kennengelernt.",
+    "Sound_de": "Frage: Wann habt ihr euch kennengelernt? \nAntwort: Wir haben uns vor einem Jahr kennengelernt.",
     "translate_fa": "سوال: چه زمانی با هم آشنا شدید؟ پاسخ: ما یک سال پیش با هم آشنا شدیم.",
     "file": "228_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'habt' فعل کمکی 'haben'. 'ihr' فاعل 'شما'. 'euch' ضمیر انعکاسی 'خودتان را'. 'kennengelernt' در انتها.\n**Antwort**: 'Wir' فاعل. 'haben' فعل کمکی. 'uns' ضمیر انعکاسی. 'vor einem Jahr' به معنی 'یک سال پیش'. 'kennengelernt' در انتها.",
@@ -2760,7 +2760,7 @@
   },
   {
     "Filename": "231",
-    "Sound_de": "Frage: Hast du Kinder? Antwort: Ja, ich habe zwei Kinder.",
+    "Sound_de": "Frage: Hast du Kinder? \nAntwort: Ja, ich habe zwei Kinder.",
     "translate_fa": "سوال: بچه داری؟ پاسخ: بله، من دو بچه دارم.",
     "file": "231_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'Kinder' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben' صرف شده برای 'ich'. 'zwei Kinder' مفعول.",
@@ -2796,7 +2796,7 @@
   },
   {
     "Filename": "234",
-    "Sound_de": "Frage: Geht dein Kind schon in den Kindergarten? Antwort: Ja, er geht seit einem Jahr dorthin.",
+    "Sound_de": "Frage: Geht dein Kind schon in den Kindergarten? \nAntwort: Ja, er geht seit einem Jahr dorthin.",
     "translate_fa": "سوال: آیا بچه‌ات به مهدکودک می‌رود؟ پاسخ: بله، او از یک سال پیش به آنجا می‌رود.",
     "file": "234_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Geht' فعل 'gehen' صرف شده برای 'dein Kind'. 'dein Kind' فاعل. 'schon' قید 'از قبل'. 'in den Kindergarten' به معنی 'به مهدکودک'.\n**Antwort**: 'Ja'. 'er' ضمیر فاعلی. 'geht' فعل 'gehen' صرف شده برای 'er'. 'seit einem Jahr' به معنی 'از یک سال پیش'. 'dorthin' به معنی 'به آنجا'.",
@@ -2832,7 +2832,7 @@
   },
   {
     "Filename": "237",
-    "Sound_de": "Frage: Gehen wir heute ins Kino? Antwort: Ja, lass uns gehen.",
+    "Sound_de": "Frage: Gehen wir heute ins Kino? \nAntwort: Ja, lass uns gehen.",
     "translate_fa": "سوال: امروز به سینما می‌رویم؟ پاسخ: بله، برویم.",
     "file": "237_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Gehen' فعل 'gehen' صرف شده برای 'wir'. 'wir' فاعل. 'heute' قید زمان. 'ins Kino' به معنی 'به سینما'.\n**Antwort**: 'Ja'. 'lass uns gehen' به معنی 'بگذار برویم' (دعوت به انجام کاری).",
@@ -2868,7 +2868,7 @@
   },
   {
     "Filename": "240",
-    "Sound_de": "Frage: Wo kaufst du deine Kleidung? Antwort: Ich kaufe meine Kleidung online.",
+    "Sound_de": "Frage: Wo kaufst du deine Kleidung? \nAntwort: Ich kaufe meine Kleidung online.",
     "translate_fa": "سوال: لباس‌هایت را از کجا می‌خری؟ پاسخ: من لباس‌هایم را آنلاین می‌خرم.",
     "file": "240_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'kaufst' فعل 'kaufen' صرف شده برای 'du'. 'du' فاعل. 'deine Kleidung' مفعول.\n**Antwort**: 'Ich' فاعل. 'kaufe' فعل 'kaufen' صرف شده برای 'ich'. 'meine Kleidung' مفعول. 'online' قید 'آنلاین'.",
@@ -2904,7 +2904,7 @@
   },
   {
     "Filename": "243",
-    "Sound_de": "Frage: Tut dein Kopf weh? Antwort: Ja, ich habe Kopfschmerzen.",
+    "Sound_de": "Frage: Tut dein Kopf weh? \nAntwort: Ja, ich habe Kopfschmerzen.",
     "translate_fa": "سوال: سرت درد می‌کند؟ پاسخ: بله، من سردرد دارم.",
     "file": "243_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Tut' فعل 'tun' صرف شده برای 'dein Kopf'. 'dein Kopf' فاعل. 'weh' در انتها.\n**Antwort**: 'Ja'. 'ich habe Kopfschmerzen' به معنی 'من سردرد دارم'.",
@@ -2940,7 +2940,7 @@
   },
   {
     "Filename": "246",
-    "Sound_de": "Frage: Hat das Auto hohe Kosten? Antwort: Ja, die Kosten sind sehr hoch.",
+    "Sound_de": "Frage: Hat das Auto hohe Kosten? \nAntwort: Ja, die Kosten sind sehr hoch.",
     "translate_fa": "سوال: این ماشین هزینه‌های بالایی دارد؟ پاسخ: بله، هزینه‌ها خیلی بالا هستند.",
     "file": "246_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hat' فعل 'haben' صرف شده برای 'das Auto'. 'das Auto' فاعل. 'hohe Kosten' مفعول.\n**Antwort**: 'Ja'. 'die Kosten' فاعل. 'sind' فعل 'sein' صرف شده برای 'die Kosten'. 'sehr hoch' به معنی 'خیلی بالا'.",
@@ -2976,7 +2976,7 @@
   },
   {
     "Filename": "249",
-    "Sound_de": "Frage: Bist du krank? Antwort: Ja, ich bin krank, ich kann nicht zur Arbeit gehen.",
+    "Sound_de": "Frage: Bist du krank? \nAntwort: Ja, ich bin krank, ich kann nicht zur Arbeit gehen.",
     "translate_fa": "سوال: تو بیماری؟ پاسخ: بله، من بیمار هستم، نمی‌توانم به سر کار بروم.",
     "file": "249_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل. 'krank' صفت.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bin' فعل 'sein' صرف شده برای 'ich'. 'krank' صفت. 'ich kann nicht zur Arbeit gehen' به معنی 'نمی‌توانم به سر کار بروم'.",
@@ -3012,7 +3012,7 @@
   },
   {
     "Filename": "252",
-    "Sound_de": "Frage: Hast du das Paket gekriegt? Antwort: Ja, ich habe es gestern gekriegt.",
+    "Sound_de": "Frage: Hast du das Paket gekriegt? \nAntwort: Ja, ich habe es gestern gekriegt.",
     "translate_fa": "سوال: بسته را گرفتی؟ پاسخ: بله، دیروز آن را گرفتم.",
     "file": "252_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'das Paket' مفعول. 'gekriegt' در انتها.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'es' مفعول 'آن'. 'gestern' قید زمان. 'gekriegt' در انتها.",
@@ -3048,7 +3048,7 @@
   },
   {
     "Filename": "255",
-    "Sound_de": "Frage: Hast du die Lebensmittel in die Küche gestellt? Antwort: Ja, sie sind jetzt in der Küche.",
+    "Sound_de": "Frage: Hast du die Lebensmittel in die Küche gestellt? \nAntwort: Ja, sie sind jetzt in der Küche.",
     "translate_fa": "سوال: مواد غذایی را در آشپزخانه گذاشتی؟ پاسخ: بله، آنها الان در آشپزخانه هستند.",
     "file": "255_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'die Lebensmittel' مفعول. 'in die Küche' مکان. 'gestellt' در انتها.\n**Antwort**: 'Ja'. 'sie' ضمیر فاعلی جایگزین 'die Lebensmittel'. 'sind' فعل 'sein'. 'jetzt' قید زمان. 'in der Küche' مکان.",
@@ -3084,7 +3084,7 @@
   },
   {
     "Filename": "258",
-    "Sound_de": "Frage: Wer kümmert sich um die Blumen? Antwort: Ich kümmere mich darum.",
+    "Sound_de": "Frage: Wer kümmert sich um die Blumen? \nAntwort: Ich kümmere mich darum.",
     "translate_fa": "سوال: چه کسی از گل‌ها مراقبت می‌کند؟ پاسخ: من از آنها مراقبت می‌کنم.",
     "file": "258_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wer' کلمه پرسشی 'چه کسی'. 'kümmert sich' فعل 'kümmern' صرف شده برای 'er/sie/es' با ضمیر انعکاسی. 'um die Blumen' به معنی 'از گل‌ها'.\n**Antwort**: 'Ich' فاعل. 'kümmere mich' فعل با ضمیر انعکاسی. 'darum' به معنی 'از آن'.",
@@ -3120,7 +3120,7 @@
   },
   {
     "Filename": "261",
-    "Sound_de": "Frage: Habt ihr viele Kunden? Antwort: Ja, wir haben viele Kunden.",
+    "Sound_de": "Frage: Habt ihr viele Kunden? \nAntwort: Ja, wir haben viele Kunden.",
     "translate_fa": "سوال: شما مشتریان زیادی دارید؟ پاسخ: بله، ما مشتریان زیادی داریم.",
     "file": "261_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Habt' فعل 'haben' صرف شده برای 'ihr'. 'ihr' فاعل 'شما'. 'viele Kunden' مفعول.\n**Antwort**: 'Ja'. 'wir' فاعل. 'haben' فعل 'haben' صرف شده برای 'wir'. 'viele Kunden' مفعول.",
@@ -3156,7 +3156,7 @@
   },
   {
     "Filename": "264",
-    "Sound_de": "Frage: Haben Tiere auch ein Leben? Antwort: Ja, natürlich haben sie ein Leben.",
+    "Sound_de": "Frage: Haben Tiere auch ein Leben? \nAntwort: Ja, natürlich haben sie ein Leben.",
     "translate_fa": "سوال: آیا حیوانات هم زندگی دارند؟ پاسخ: بله، البته که آنها هم زندگی دارند.",
     "file": "264_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Haben' فعل 'haben' صرف شده برای 'Tiere'. 'Tiere' فاعل 'حیوانات'. 'auch ein Leben' به معنی 'هم یک زندگی'.\n**Antwort**: 'Ja'. 'natürlich' به معنی 'البته'. 'haben' فعل 'haben' صرف شده برای 'sie'. 'sie' ضمیر فاعلی جایگزین 'Tiere'. 'ein Leben' مفعول.",
@@ -3192,7 +3192,7 @@
   },
   {
     "Filename": "267",
-    "Sound_de": "Frage: Wohin soll ich das legen? Antwort: Leg es einfach auf den Stuhl.",
+    "Sound_de": "Frage: Wohin soll ich das legen? \nAntwort: Leg es einfach auf den Stuhl.",
     "translate_fa": "سوال: این را کجا بگذارم؟ پاسخ: فقط آن را روی صندلی بگذار.",
     "file": "267_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wohin' کلمه پرسشی 'به کجا'. 'soll' فعل کمکی 'sollen'. 'ich' فاعل. 'das' مفعول. 'legen' در انتها.\n**Antwort**: 'Leg' فعل امری 'legen'. 'es' ضمیر مفعولی 'آن را'. 'einfach' به معنی 'فقط'. 'auf den Stuhl' به معنی 'روی صندلی'.",
@@ -3228,7 +3228,7 @@
   },
   {
     "Filename": "270",
-    "Sound_de": "Frage: Lernst du gern Deutsch? Antwort: Ja, ich lerne sehr gern Deutsch.",
+    "Sound_de": "Frage: Lernst du gern Deutsch? \nAntwort: Ja, ich lerne sehr gern Deutsch.",
     "translate_fa": "سوال: دوست داری آلمانی یاد بگیری؟ پاسخ: بله، خیلی دوست دارم آلمانی یاد بگیرم.",
     "file": "270_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Lernst' فعل 'lernen' صرف شده برای 'du'. 'du' فاعل. 'gern Deutsch' به معنی 'دوست داری آلمانی'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'lerne' فعل 'lernen' صرف شده برای 'ich'. 'sehr gern Deutsch' به معنی 'خیلی دوست دارم آلمانی'.",
@@ -3264,7 +3264,7 @@
   },
   {
     "Filename": "273",
-    "Sound_de": "Frage: Liest du die Zeitung? Antwort: Ja, ich lese sie jeden Morgen.",
+    "Sound_de": "Frage: Liest du die Zeitung? \nAntwort: Ja, ich lese sie jeden Morgen.",
     "translate_fa": "سوال: روزنامه می‌خوانی؟ پاسخ: بله، هر روز صبح آن را می‌خوانم.",
     "file": "273_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Liest' فعل 'lesen' صرف شده برای 'du'. 'du' فاعل. 'die Zeitung' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'lese' فعل 'lesen' صرف شده برای 'ich'. 'sie' ضمیر مفعولی 'آن را'. 'jeden Morgen' به معنی 'هر روز صبح'.",
@@ -3300,7 +3300,7 @@
   },
   {
     "Filename": "276",
-    "Sound_de": "Frage: Liegst du noch im Bett? Antwort: Ja, ich liege noch im Bett.",
+    "Sound_de": "Frage: Liegst du noch im Bett? \nAntwort: Ja, ich liege noch im Bett.",
     "translate_fa": "سوال: هنوز در تختخواب هستی؟ پاسخ: بله، هنوز در تختخواب هستم.",
     "file": "276_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Liegst' فعل 'liegen' صرف شده برای 'du'. 'du' فاعل. 'noch' قید 'هنوز'. 'im Bett' مکان.\n**Antwort**: 'Ja'. 'ich' فاعل. 'liege' فعل 'liegen' صرف شده برای 'ich'. 'noch im Bett' به معنی 'هنوز در تختخواب'.",
@@ -3336,7 +3336,7 @@
   },
   {
     "Filename": "279",
-    "Sound_de": "Frage: Liebst du mich? Antwort: Ja, ich liebe dich sehr.",
+    "Sound_de": "Frage: Liebst du mich? \nAntwort: Ja, ich liebe dich sehr.",
     "translate_fa": "سوال: مرا دوست داری؟ پاسخ: بله، من تو را خیلی دوست دارم.",
     "file": "279_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Liebst' فعل 'lieben' صرف شده برای 'du'. 'du' فاعل. 'mich' مفعول 'مرا'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'liebe' فعل 'lieben' صرف شده برای 'ich'. 'dich' مفعول 'تو را'. 'sehr' به معنی 'خیلی'.",
@@ -3372,7 +3372,7 @@
   },
   {
     "Filename": "282",
-    "Sound_de": "Frage: Was machst du gern? Antwort: Ich mache gern Sport und lese Bücher.",
+    "Sound_de": "Frage: Was machst du gern? \nAntwort: Ich mache gern Sport und lese Bücher.",
     "translate_fa": "سوال: دوست داری چه کار کنی؟ پاسخ: من دوست دارم ورزش کنم و کتاب بخوانم.",
     "file": "282_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'machst' فعل 'machen' صرف شده برای 'du'. 'du' فاعل. 'gern' به معنی 'با علاقه'.\n**Antwort**: 'Ich' فاعل. 'mache gern Sport' به معنی 'دوست دارم ورزش کنم'. 'und lese Bücher' به معنی 'و کتاب بخوانم'.",
@@ -3408,7 +3408,7 @@
   },
   {
     "Filename": "285",
-    "Sound_de": "Frage: Was habt ihr bekommen, ein Mädchen oder einen Jungen? Antwort: Wir haben ein Mädchen bekommen.",
+    "Sound_de": "Frage: Was habt ihr bekommen, ein Mädchen oder einen Jungen? \nAntwort: Wir haben ein Mädchen bekommen.",
     "translate_fa": "سوال: چه چیزی به دنیا آورده‌اید، یک دختر یا یک پسر؟ پاسخ: ما یک دختر به دنیا آوردیم.",
     "file": "285_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'habt' فعل کمکی 'haben'. 'ihr' فاعل 'شما'. 'bekommen' در انتها.\n**Antwort**: 'Wir' فاعل. 'haben' فعل کمکی. 'ein Mädchen' مفعول. 'bekommen' در انتها.",
@@ -3444,7 +3444,7 @@
   },
   {
     "Filename": "288",
-    "Sound_de": "Frage: Rauchst du? Antwort: Nein, ich rauche nicht.",
+    "Sound_de": "Frage: Rauchst du? \nAntwort: Nein, ich rauche nicht.",
     "translate_fa": "سوال: سیگار می‌کشی؟ پاسخ: نه، من سیگار نمی‌کشم.",
     "file": "288_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Rauchst' فعل 'rauchen' صرف شده برای 'du'. 'du' فاعل.\n**Antwort**: 'Nein'. 'ich' فاعل. 'rauche' فعل 'rauchen' صرف شده برای 'ich'. 'nicht' برای منفی کردن جمله.",
@@ -3480,7 +3480,7 @@
   },
   {
     "Filename": "291",
-    "Sound_de": "Frage: Willst du bei der Polizei arbeiten? Antwort: Ja, das ist mein Traumberuf.",
+    "Sound_de": "Frage: Willst du bei der Polizei arbeiten? \nAntwort: Ja, das ist mein Traumberuf.",
     "translate_fa": "سوال: می‌خواهی در پلیس کار کنی؟ پاسخ: بله، این شغل رویایی من است.",
     "file": "291_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Willst' فعل کمکی 'wollen' (خواستن). 'du' فاعل. 'bei der Polizei arbeiten' به معنی 'در پلیس کار کردن'.\n**Antwort**: 'Ja'. 'das ist mein Traumberuf' به معنی 'این شغل رویایی من است'.",
@@ -3516,7 +3516,7 @@
   },
   {
     "Filename": "294",
-    "Sound_de": "Frage: Kostet das mehr? Antwort: Ja, das kostet 10 Euro mehr.",
+    "Sound_de": "Frage: Kostet das mehr? \nAntwort: Ja, das kostet 10 Euro mehr.",
     "translate_fa": "سوال: این بیشتر هزینه دارد؟ پاسخ: بله، این 10 یورو بیشتر هزینه دارد.",
     "file": "294_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kostet' فعل 'kosten' صرف شده برای 'das'. 'das' فاعل. 'mehr' قید.\n**Antwort**: 'Ja'. 'das' فاعل. 'kostet' فعل 'kosten' صرف شده برای 'das'. '10 Euro mehr' به معنی '10 یورو بیشتر'.",
@@ -3552,7 +3552,7 @@
   },
   {
     "Filename": "297",
-    "Sound_de": "Frage: Wo kann ich ein Auto mieten? Antwort: Sie können es am Flughafen mieten.",
+    "Sound_de": "Frage: Wo kann ich ein Auto mieten? \nAntwort: Sie können es am Flughafen mieten.",
     "translate_fa": "سوال: کجا می‌توانم یک ماشین اجاره کنم؟ پاسخ: شما می‌توانید آن را در فرودگاه اجاره کنید.",
     "file": "297_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'kann' فعل کمکی 'können'. 'ich' فاعل. 'ein Auto' مفعول. 'mieten' در انتها.\n**Antwort**: 'Sie' فاعل احترام. 'können' فعل کمکی. 'es' مفعول 'آن'. 'am Flughafen' به معنی 'در فرودگاه'. 'mieten' در انتها.",
@@ -3588,7 +3588,7 @@
   },
   {
     "Filename": "300",
-    "Sound_de": "Frage: Trinkst du gern Milch? Antwort: Nein, ich trinke nicht gern Milch.",
+    "Sound_de": "Frage: Trinkst du gern Milch? \nAntwort: Nein, ich trinke nicht gern Milch.",
     "translate_fa": "سوال: دوست داری شیر بنوشی؟ پاسخ: نه، من دوست ندارم شیر بنوشم.",
     "file": "300_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Trinkst' فعل 'trinken' صرف شده برای 'du'. 'du' فاعل. 'gern Milch' به معنی 'دوست داری شیر'.\n**Antwort**: 'Nein'. 'ich' فاعل. 'trinke' فعل 'trinken' صرف شده برای 'ich'. 'nicht gern Milch' به معنی 'دوست ندارم شیر'.",
@@ -3624,7 +3624,7 @@
   },
   {
     "Filename": "303",
-    "Sound_de": "Frage: Hast du einen Kuchen mitgebracht? Antwort: Ja, ich habe einen Kuchen mitgebracht.",
+    "Sound_de": "Frage: Hast du einen Kuchen mitgebracht? \nAntwort: Ja, ich habe einen Kuchen mitgebracht.",
     "translate_fa": "سوال: یک کیک آوردی؟ پاسخ: بله، یک کیک آوردم.",
     "file": "303_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'einen Kuchen' مفعول. 'mitgebracht' قسمت سوم فعل 'mitbringen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'einen Kuchen' مفعول. 'mitgebracht' در انتها.",
@@ -3660,7 +3660,7 @@
   },
   {
     "Filename": "306",
-    "Sound_de": "Frage: Wo treffen wir uns? Antwort: Wir treffen uns im Café.",
+    "Sound_de": "Frage: Wo treffen wir uns? \nAntwort: Wir treffen uns im Café.",
     "translate_fa": "سوال: کجا همدیگر را ملاقات می‌کنیم؟ پاسخ: ما همدیگر را در کافه ملاقات می‌کنیم.",
     "file": "306_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'treffen' فعل 'treffen' صرف شده برای 'wir'. 'wir' فاعل. 'uns' ضمیر انعکاسی.\n**Antwort**: 'Wir' فاعل. 'treffen' فعل 'treffen' صرف شده برای 'wir'. 'uns' ضمیر انعکاسی. 'im Café' مکان.",
@@ -3696,7 +3696,7 @@
   },
   {
     "Filename": "309",
-    "Sound_de": "Frage: Möchten Sie etwas essen? Antwort: Ja, ich möchte einen Salat.",
+    "Sound_de": "Frage: Möchten Sie etwas essen? \nAntwort: Ja, ich möchte einen Salat.",
     "translate_fa": "سوال: آیا می‌خواهید چیزی بخورید؟ پاسخ: بله، من یک سالاد می‌خواهم.",
     "file": "309_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Möchten' فعل کمکی 'möchten'. 'Sie' فاعل احترام. 'etwas essen' به معنی 'چیزی خوردن'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'möchte' فعل کمکی. 'einen Salat' مفعول 'یک سالاد'.",
@@ -3732,7 +3732,7 @@
   },
   {
     "Filename": "312",
-    "Sound_de": "Frage: Haben Sie schon einen Termin gemacht? Antwort: Ja, ich habe einen Termin gemacht.",
+    "Sound_de": "Frage: Haben Sie schon einen Termin gemacht? \nAntwort: Ja, ich habe einen Termin gemacht.",
     "translate_fa": "سوال: شما قبلا وقت ملاقاتی تعیین کرده‌اید؟ پاسخ: بله، من یک وقت ملاقات تعیین کردم.",
     "file": "312_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Haben' فعل کمکی 'haben'. 'Sie' فاعل احترام. 'schon' قید 'از قبل'. 'einen Termin' مفعول. 'gemacht' قسمت سوم فعل 'machen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'einen Termin' مفعول. 'gemacht' در انتها.",
@@ -3768,7 +3768,7 @@
   },
   {
     "Filename": "315",
-    "Sound_de": "Frage: Bist du müde? Antwort: Ja, ich bin sehr müde.",
+    "Sound_de": "Frage: Bist du müde? \nAntwort: Ja, ich bin sehr müde.",
     "translate_fa": "سوال: خسته‌ای؟ پاسخ: بله، من خیلی خسته هستم.",
     "file": "315_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل. 'müde' صفت.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bin' فعل 'sein' صرف شده برای 'ich'. 'sehr müde' به معنی 'خیلی خسته'.",
@@ -3804,7 +3804,7 @@
   },
   {
     "Filename": "318",
-    "Sound_de": "Frage: Musst du morgen arbeiten? Antwort: Ja, ich muss morgen arbeiten.",
+    "Sound_de": "Frage: Musst du morgen arbeiten? \nAntwort: Ja, ich muss morgen arbeiten.",
     "translate_fa": "سوال: فردا باید کار کنی؟ پاسخ: بله، من فردا باید کار کنم.",
     "file": "318_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Musst' فعل کمکی 'müssen' صرف شده برای 'du'. 'du' فاعل. 'morgen' قید زمان. 'arbeiten' در انتها.\n**Antwort**: 'Ja'. 'ich' فاعل. 'muss' فعل کمکی. 'morgen' قید زمان. 'arbeiten' در انتها.",
@@ -3840,7 +3840,7 @@
   },
   {
     "Filename": "321",
-    "Sound_de": "Frage: Wann fliegst du nach München? Antwort: Ich fliege am Dienstag.",
+    "Sound_de": "Frage: Wann fliegst du nach München? \nAntwort: Ich fliege am Dienstag.",
     "translate_fa": "سوال: چه زمانی به مونیخ پرواز می‌کنی؟ پاسخ: من سه‌شنبه پرواز می‌کنم.",
     "file": "321_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'fliegst' فعل 'fliegen' صرف شده برای 'du'. 'du' فاعل. 'nach München' به معنی 'به مونیخ'.\n**Antwort**: 'Ich' فاعل. 'fliege' فعل 'fliegen' صرف شده برای 'ich'. 'am Dienstag' به معنی 'سه‌شنبه'.",
@@ -3876,7 +3876,7 @@
   },
   {
     "Filename": "324",
-    "Sound_de": "Frage: Was nimmst du? Antwort: Ich nehme den roten Stift.",
+    "Sound_de": "Frage: Was nimmst du? \nAntwort: Ich nehme den roten Stift.",
     "translate_fa": "سوال: چه چیزی می‌گیری؟ پاسخ: من خودکار قرمز را می‌گیرم.",
     "file": "324_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'nimmst' فعل 'nehmen' صرف شده برای 'du'. 'du' فاعل.\n**Antwort**: 'Ich' فاعل. 'nehme' فعل 'nehmen' صرف شده برای 'ich'. 'den roten Stift' مفعول 'خودکار قرمز'.",
@@ -3912,7 +3912,7 @@
   },
   {
     "Filename": "327",
-    "Sound_de": "Frage: Hast du morgen Zeit? Antwort: Nein, leider habe ich morgen keine Zeit.",
+    "Sound_de": "Frage: Hast du morgen Zeit? \nAntwort: Nein, leider habe ich morgen keine Zeit.",
     "translate_fa": "سوال: فردا وقت داری؟ پاسخ: نه، متاسفانه فردا وقت ندارم.",
     "file": "327_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'morgen' قید زمان. 'Zeit' مفعول.\n**Antwort**: 'Nein'. 'leider' به معنی 'متاسفانه'. 'habe' فعل 'haben' صرف شده برای 'ich'. 'ich' فاعل. 'morgen' قید زمان. 'keine Zeit' به معنی 'وقت ندارم'.",
@@ -3948,7 +3948,7 @@
   },
   {
     "Filename": "330",
-    "Sound_de": "Frage: Ist das neu? Antwort: Ja, das ist ganz neu.",
+    "Sound_de": "Frage: Ist das neu? \nAntwort: Ja, das ist ganz neu.",
     "translate_fa": "سوال: این جدید است؟ پاسخ: بله، کاملاً جدید است.",
     "file": "330_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Ist' فعل 'sein' صرف شده برای 'das'. 'das' فاعل. 'neu' صفت.\n**Antwort**: 'Ja'. 'das' فاعل. 'ist' فعل 'sein'. 'ganz neu' به معنی 'کاملاً جدید'.",
@@ -3984,7 +3984,7 @@
   },
   {
     "Filename": "333",
-    "Sound_de": "Frage: Stimmt das so? Antwort: Nein, das stimmt nicht ganz.",
+    "Sound_de": "Frage: Stimmt das so? \nAntwort: Nein, das stimmt nicht ganz.",
     "translate_fa": "سوال: این درست است؟ پاسخ: نه، این کاملاً درست نیست.",
     "file": "333_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Stimmt' فعل 'stimmen' صرف شده برای 'das'. 'das' فاعل. 'so' به معنی 'اینطور'.\n**Antwort**: 'Nein'. 'das' فاعل. 'stimmt' فعل 'stimmen'. 'nicht ganz' به معنی 'کاملاً درست نیست'.",
@@ -4020,7 +4020,7 @@
   },
   {
     "Filename": "336",
-    "Sound_de": "Frage: Hast du etwas gekauft? Antwort: Nein, ich habe nichts gekauft.",
+    "Sound_de": "Frage: Hast du etwas gekauft? \nAntwort: Nein, ich habe nichts gekauft.",
     "translate_fa": "سوال: چیزی خریدی؟ پاسخ: نه، من چیزی نخریدم.",
     "file": "336_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'etwas' مفعول 'چیزی'. 'gekauft' در انتها.\n**Antwort**: 'Nein'. 'ich' فاعل. 'habe' فعل کمکی. 'nichts' مفعول. 'gekauft' در انتها.",
@@ -4056,7 +4056,7 @@
   },
   {
     "Filename": "339",
-    "Sound_de": "Frage: Kommst du pünktlich? Antwort: Nein, ich komme nicht pünktlich, es gibt Stau.",
+    "Sound_de": "Frage: Kommst du pünktlich? \nAntwort: Nein, ich komme nicht pünktlich, es gibt Stau.",
     "translate_fa": "سوال: به موقع می‌رسی؟ پاسخ: نه، به موقع نمی‌رسم، ترافیک است.",
     "file": "339_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kommst' فعل 'kommen' صرف شده برای 'du'. 'du' فاعل. 'pünktlich' قید.\n**Antwort**: 'Nein'. 'ich' فاعل. 'komme' فعل 'kommen' صرف شده برای 'ich'. 'nicht pünktlich' به معنی 'به موقع نه'. 'es gibt Stau' به معنی 'ترافیک وجود دارد'.",
@@ -4092,7 +4092,7 @@
   },
   {
     "Filename": "342",
-    "Sound_de": "Frage: Warten wir noch? Antwort: Ja, wir müssen noch warten.",
+    "Sound_de": "Frage: Warten wir noch? \nAntwort: Ja, wir müssen noch warten.",
     "translate_fa": "سوال: هنوز صبر می‌کنیم؟ پاسخ: بله، ما باید هنوز صبر کنیم.",
     "file": "342_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Warten' فعل 'warten' صرف شده برای 'wir'. 'wir' فاعل. 'noch' قید.\n**Antwort**: 'Ja'. 'wir' فاعل. 'müssen' فعل کمکی. 'noch warten' به معنی 'هنوز صبر کردن'.",
@@ -4128,7 +4128,7 @@
   },
   {
     "Filename": "345",
-    "Sound_de": "Frage: Wohnst du oben? Antwort: Ja, ich wohne oben im 5. Stock.",
+    "Sound_de": "Frage: Wohnst du oben? \nAntwort: Ja, ich wohne oben im 5. Stock.",
     "translate_fa": "سوال: در بالا زندگی می‌کنی؟ پاسخ: بله، من در طبقه پنجم زندگی می‌کنم.",
     "file": "345_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wohnst' فعل 'wohnen' صرف شده برای 'du'. 'du' فاعل. 'oben' قید مکان.\n**Antwort**: 'Ja'. 'ich' فاعل. 'wohne' فعل 'wohnen' صرف شده برای 'ich'. 'oben im 5. Stock' به معنی 'بالا در طبقه پنجم'.",
@@ -4164,7 +4164,7 @@
   },
   {
     "Filename": "348",
-    "Sound_de": "Frage: Haben wir genug Obst? Antwort: Nein, wir müssen noch etwas kaufen.",
+    "Sound_de": "Frage: Haben wir genug Obst? \nAntwort: Nein, wir müssen noch etwas kaufen.",
     "translate_fa": "سوال: میوه کافی داریم؟ پاسخ: نه، باید هنوز کمی بخریم.",
     "file": "348_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Haben' فعل 'haben' صرف شده برای 'wir'. 'wir' فاعل. 'genug Obst' به معنی 'میوه کافی'.\n**Antwort**: 'Nein'. 'wir' فاعل. 'müssen' فعل کمکی. 'noch etwas kaufen' به معنی 'هنوز کمی خریدن'.",
@@ -4200,7 +4200,7 @@
   },
   {
     "Filename": "351",
-    "Sound_de": "Frage: Kannst du das Fenster öffnen? Antwort: Ja, ich kann es öffnen.",
+    "Sound_de": "Frage: Kannst du das Fenster öffnen? \nAntwort: Ja, ich kann es öffnen.",
     "translate_fa": "سوال: می‌توانی پنجره را باز کنی؟ پاسخ: بله، می‌توانم آن را باز کنم.",
     "file": "351_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kannst' فعل کمکی 'können'. 'du' فاعل. 'das Fenster' مفعول. 'öffnen' در انتها.\n**Antwort**: 'Ja'. 'ich' فاعل. 'kann' فعل کمکی. 'es' مفعول 'آن'. 'öffnen' در انتها.",
@@ -4236,7 +4236,7 @@
   },
   {
     "Filename": "354",
-    "Sound_de": "Frage: Trefft ihr euch oft? Antwort: Ja, wir treffen uns fast jeden Tag.",
+    "Sound_de": "Frage: Trefft ihr euch oft? \nAntwort: Ja, wir treffen uns fast jeden Tag.",
     "translate_fa": "سوال: اغلب همدیگر را ملاقات می‌کنید؟ پاسخ: بله، ما تقریباً هر روز همدیگر را ملاقات می‌کنیم.",
     "file": "354_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Trefft' فعل 'treffen' صرف شده برای 'ihr'. 'ihr' فاعل 'شما'. 'euch' ضمیر انعکاسی. 'oft' قید.\n**Antwort**: 'Ja'. 'wir' فاعل. 'treffen' فعل 'treffen' صرف شده برای 'wir'. 'uns' ضمیر انعکاسی. 'fast jeden Tag' به معنی 'تقریباً هر روز'.",
@@ -4272,7 +4272,7 @@
   },
   {
     "Filename": "357",
-    "Sound_de": "Frage: Bist du ohne Geld? Antwort: Ja, ich bin ohne Geld.",
+    "Sound_de": "Frage: Bist du ohne Geld? \nAntwort: Ja, ich bin ohne Geld.",
     "translate_fa": "سوال: بی‌پولی؟ پاسخ: بله، من بی‌پول هستم.",
     "file": "357_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل. 'ohne Geld' به معنی 'بدون پول'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bin' فعل 'sein' صرف شده برای 'ich'. 'ohne Geld' به معنی 'بدون پول'.",
@@ -4308,7 +4308,7 @@
   },
   {
     "Filename": "360",
-    "Sound_de": "Frage: Kannst du ohne Öl kochen? Antwort: Ja, das ist möglich.",
+    "Sound_de": "Frage: Kannst du ohne Öl kochen? \nAntwort: Ja, das ist möglich.",
     "translate_fa": "سوال: می‌توانی بدون روغن بپزی؟ پاسخ: بله، این ممکن است.",
     "file": "360_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kannst' فعل کمکی 'können'. 'du' فاعل. 'ohne Öl kochen' به معنی 'بدون روغن پختن'.\n**Antwort**: 'Ja'. 'das ist möglich' به معنی 'این ممکن است'.",
@@ -4344,7 +4344,7 @@
   },
   {
     "Filename": "363",
-    "Sound_de": "Frage: Übernachtet ihr im Hotel? Antwort: Ja, wir übernachten im Hotel.",
+    "Sound_de": "Frage: Übernachtet ihr im Hotel? \nAntwort: Ja, wir übernachten im Hotel.",
     "translate_fa": "سوال: در هتل اقامت می‌کنید؟ پاسخ: بله، ما در هتل اقامت می‌کنیم.",
     "file": "363_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Übernachtet' فعل 'übernachten' صرف شده برای 'ihr'. 'ihr' فاعل 'شما'. 'im Hotel' مکان.\n**Antwort**: 'Ja'. 'wir' فاعل. 'übernachten' فعل 'übernachten' صرف شده برای 'wir'. 'im Hotel' مکان.",
@@ -4380,7 +4380,7 @@
   },
   {
     "Filename": "366",
-    "Sound_de": "Frage: Ist alles in Ordnung? Antwort: Ja, alles ist in Ordnung.",
+    "Sound_de": "Frage: Ist alles in Ordnung? \nAntwort: Ja, alles ist in Ordnung.",
     "translate_fa": "سوال: همه چیز خوب است؟ پاسخ: بله، همه چیز خوب است.",
     "file": "366_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Ist' فعل 'sein'. 'alles' فاعل. 'in Ordnung' به معنی 'مرتب' یا 'خوب'.\n**Antwort**: 'Ja'. 'alles' فاعل. 'ist' فعل 'sein'. 'in Ordnung' به معنی 'مرتب' یا 'خوب'.",
@@ -4416,7 +4416,7 @@
   },
   {
     "Filename": "369",
-    "Sound_de": "Frage: Hast du das Paket abgegeben? Antwort: Ja, ich habe es schon abgegeben.",
+    "Sound_de": "Frage: Hast du das Paket abgegeben? \nAntwort: Ja, ich habe es schon abgegeben.",
     "translate_fa": "سوال: بسته را تحویل دادی؟ پاسخ: بله، من قبلاً آن را تحویل دادم.",
     "file": "369_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'das Paket' مفعول. 'abgegeben' قسمت سوم فعل 'abgeben'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'es' مفعول 'آن'. 'schon' قید 'قبلاً'. 'abgegeben' در انتها.",
@@ -4452,7 +4452,7 @@
   },
   {
     "Filename": "372",
-    "Sound_de": "Frage: Ist hier Parken verboten? Antwort: Ja, hier ist das Parken verboten.",
+    "Sound_de": "Frage: Ist hier Parken verboten? \nAntwort: Ja, hier ist das Parken verboten.",
     "translate_fa": "سوال: اینجا پارک کردن ممنوع است؟ پاسخ: بله، اینجا پارک کردن ممنوع است.",
     "file": "372_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Ist' فعل 'sein'. 'hier' قید مکان. 'Parken' فاعل. 'verboten' صفت.\n**Antwort**: 'Ja'. 'hier' قید مکان. 'ist' فعل 'sein'. 'das Parken' فاعل. 'verboten' صفت.",
@@ -4488,7 +4488,7 @@
   },
   {
     "Filename": "375",
-    "Sound_de": "Frage: Hast du deinen Pass dabei? Antwort: Ja, ich habe meinen Pass dabei.",
+    "Sound_de": "Frage: Hast du deinen Pass dabei? \nAntwort: Ja, ich habe meinen Pass dabei.",
     "translate_fa": "سوال: پاسپورتت را همراه داری؟ پاسخ: بله، پاسپورتم را همراه دارم.",
     "file": "375_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'deinen Pass' مفعول. 'dabei' به معنی 'همراه'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben'. 'meinen Pass' مفعول. 'dabei' به معنی 'همراه'.",
@@ -4524,7 +4524,7 @@
   },
   {
     "Filename": "378",
-    "Sound_de": "Frage: Wann machst du Mittagspause? Antwort: Ich mache Mittagspause von 12 bis 13 Uhr.",
+    "Sound_de": "Frage: Wann machst du Mittagspause? \nAntwort: Ich mache Mittagspause von 12 bis 13 Uhr.",
     "translate_fa": "سوال: چه زمانی استراحت ناهار می‌کنی؟ پاسخ: من از ساعت 12 تا 13 استراحت ناهار می‌کنم.",
     "file": "378_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wann' کلمه پرسشی 'چه زمانی'. 'machst' فعل 'machen' صرف شده برای 'du'. 'du' فاعل. 'Mittagspause' مفعول.\n**Antwort**: 'Ich' فاعل. 'mache' فعل 'machen' صرف شده برای 'ich'. 'Mittagspause'. 'von 12 bis 13 Uhr' به معنی 'از 12 تا 13'.",
@@ -4560,7 +4560,7 @@
   },
   {
     "Filename": "381",
-    "Sound_de": "Frage: Hast du einen Stadtplan gekauft? Antwort: Ja, ich habe einen gekauft.",
+    "Sound_de": "Frage: Hast du einen Stadtplan gekauft? \nAntwort: Ja, ich habe einen gekauft.",
     "translate_fa": "سوال: یک نقشه شهر خریدی؟ پاسخ: بله، یکی خریدم.",
     "file": "381_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'einen Stadtplan' مفعول. 'gekauft' قسمت سوم فعل 'kaufen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'einen' ضمیر جایگزین 'einen Stadtplan'. 'gekauft' در انتها.",
@@ -4596,7 +4596,7 @@
   },
   {
     "Filename": "384",
-    "Sound_de": "Frage: Kann ich hier Platz nehmen? Antwort: Ja, nehmen Sie Platz.",
+    "Sound_de": "Frage: Kann ich hier Platz nehmen? \nAntwort: Ja, nehmen Sie Platz.",
     "translate_fa": "سوال: می‌توانم اینجا بنشینم؟ پاسخ: بله، بنشینید.",
     "file": "384_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kann' فعل کمکی 'können'. 'ich' فاعل. 'hier' قید مکان. 'Platz nehmen' به معنی 'نشستن'.\n**Antwort**: 'Ja'. 'nehmen Sie Platz' به معنی 'بنشینید' (امری احترام).",
@@ -4632,7 +4632,7 @@
   },
   {
     "Filename": "387",
-    "Sound_de": "Frage: Sollen wir die Polizei rufen? Antwort: Ja, ich denke, wir sollten die Polizei rufen.",
+    "Sound_de": "Frage: Sollen wir die Polizei rufen? \nAntwort: Ja, ich denke, wir sollten die Polizei rufen.",
     "translate_fa": "سوال: باید به پلیس زنگ بزنیم؟ پاسخ: بله، فکر می‌کنم باید به پلیس زنگ بزنیم.",
     "file": "387_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Sollen' فعل کمکی 'sollen' (باید). 'wir' فاعل. 'die Polizei' مفعول. 'rufen' در انتها.\n**Antwort**: 'Ja'. 'ich denke' به معنی 'من فکر می‌کنم'. 'wir' فاعل. 'sollten' فعل کمکی. 'die Polizei' مفعول. 'rufen' در انتها.",
@@ -4668,7 +4668,7 @@
   },
   {
     "Filename": "390",
-    "Sound_de": "Frage: Haben Sie schon die Rechnung bekommen? Antwort: Nein, ich warte noch auf die Rechnung.",
+    "Sound_de": "Frage: Haben Sie schon die Rechnung bekommen? \nAntwort: Nein, ich warte noch auf die Rechnung.",
     "translate_fa": "سوال: قبلا صورتحساب را دریافت کرده‌اید؟ پاسخ: نه، هنوز منتظر صورتحساب هستم.",
     "file": "390_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Haben' فعل کمکی 'haben'. 'Sie' فاعل احترام. 'schon' قید 'قبلاً'. 'die Rechnung' مفعول. 'bekommen' قسمت سوم فعل 'bekommen'.\n**Antwort**: 'Nein'. 'ich' فاعل. 'warte' فعل 'warten'. 'noch' قید 'هنوز'. 'auf die Rechnung' به معنی 'منتظر صورتحساب'.",
@@ -4704,7 +4704,7 @@
   },
   {
     "Filename": "393",
-    "Sound_de": "Frage: Soll ich hier links oder rechts gehen? Antwort: Gehen Sie rechts.",
+    "Sound_de": "Frage: Soll ich hier links oder rechts gehen? \nAntwort: Gehen Sie rechts.",
     "translate_fa": "سوال: باید اینجا به چپ بروم یا راست؟ پاسخ: به راست بروید.",
     "file": "393_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Soll' فعل کمکی 'sollen'. 'ich' فاعل. 'hier' قید. 'links oder rechts gehen' به معنی 'به چپ یا راست رفتن'.\n**Antwort**: 'Gehen Sie' فعل و فاعل امری احترام. 'rechts' قید مکان 'راست'.",
@@ -4740,7 +4740,7 @@
   },
   {
     "Filename": "396",
-    "Sound_de": "Frage: Regnet es? Antwort: Ja, es regnet.",
+    "Sound_de": "Frage: Regnet es? \nAntwort: Ja, es regnet.",
     "translate_fa": "سوال: باران می‌بارد؟ پاسخ: بله، باران می‌بارد.",
     "file": "396_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Regnet' فعل 'regnen' صرف شده برای 'es'. 'es' فاعل.\n**Antwort**: 'Ja'. 'es' فاعل. 'regnet' فعل 'regnen'.",
@@ -4776,7 +4776,7 @@
   },
   {
     "Filename": "399",
-    "Sound_de": "Frage: Isst du gern Reis? Antwort: Ja, ich esse sehr gern Reis.",
+    "Sound_de": "Frage: Isst du gern Reis? \nAntwort: Ja, ich esse sehr gern Reis.",
     "translate_fa": "سوال: دوست داری برنج بخوری؟ پاسخ: بله، من خیلی دوست دارم برنج بخورم.",
     "file": "399_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Isst' فعل 'essen' صرف شده برای 'du'. 'du' فاعل. 'gern Reis' به معنی 'دوست داری برنج'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'esse' فعل 'essen' صرف شده برای 'ich'. 'sehr gern Reis' به معنی 'خیلی دوست دارم برنج'.",
@@ -4812,7 +4812,7 @@
   },
   {
     "Filename": "402",
-    "Sound_de": "Frage: Ist dein Auto repariert? Antwort: Ja, mein Auto ist repariert.",
+    "Sound_de": "Frage: Ist dein Auto repariert? \nAntwort: Ja, mein Auto ist repariert.",
     "translate_fa": "سوال: ماشینت تعمیر شده است؟ پاسخ: بله، ماشینم تعمیر شده است.",
     "file": "402_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Passiv) است.\n**Frage**: 'Ist' فعل 'sein'. 'dein Auto' فاعل. 'repariert' قسمت سوم فعل 'reparieren'.\n**Antwort**: 'Ja'. 'mein Auto' فاعل. 'ist' فعل 'sein'. 'repariert' در انتها.",
@@ -4848,7 +4848,7 @@
   },
   {
     "Filename": "405",
-    "Sound_de": "Frage: Gehen wir im Restaurant essen? Antwort: Ja, lass uns im Restaurant essen gehen.",
+    "Sound_de": "Frage: Gehen wir im Restaurant essen? \nAntwort: Ja, lass uns im Restaurant essen gehen.",
     "translate_fa": "سوال: می‌رویم در رستوران غذا بخوریم؟ پاسخ: بله، برویم در رستوران غذا بخوریم.",
     "file": "405_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Gehen' فعل 'gehen' صرف شده برای 'wir'. 'wir' فاعل. 'im Restaurant essen' به معنی 'در رستوران خوردن'.\n**Antwort**: 'Ja'. 'lass uns' به معنی 'بگذار'. 'im Restaurant essen gehen' به معنی 'در رستوران برای خوردن رفتن'.",
@@ -4884,7 +4884,7 @@
   },
   {
     "Filename": "408",
-    "Sound_de": "Frage: Habe ich das richtig verstanden? Antwort: Ja, du hast es richtig verstanden.",
+    "Sound_de": "Frage: Habe ich das richtig verstanden? \nAntwort: Ja, du hast es richtig verstanden.",
     "translate_fa": "سوال: آیا این را درست فهمیدم؟ پاسخ: بله، تو آن را درست فهمیدی.",
     "file": "408_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Habe' فعل کمکی 'haben'. 'ich' فاعل. 'das' مفعول. 'richtig verstanden' به معنی 'درست فهمیدن'. 'verstanden' قسمت سوم فعل 'verstehen'.\n**Antwort**: 'Ja'. 'du' فاعل. 'hast' فعل کمکی. 'es' مفعول 'آن'. 'richtig verstanden' در انتها.",
@@ -4920,7 +4920,7 @@
   },
   {
     "Filename": "411",
-    "Sound_de": "Frage: Riecht das gut? Antwort: Ja, das riecht sehr gut.",
+    "Sound_de": "Frage: Riecht das gut? \nAntwort: Ja, das riecht sehr gut.",
     "translate_fa": "سوال: این بوی خوبی می‌دهد؟ پاسخ: بله، این بوی خیلی خوبی می‌دهد.",
     "file": "411_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Riecht' فعل 'riechen' صرف شده برای 'das'. 'das' فاعل. 'gut' قید.\n**Antwort**: 'Ja'. 'das' فاعل. 'riecht' فعل 'riechen'. 'sehr gut' به معنی 'خیلی خوب'.",
@@ -4956,7 +4956,7 @@
   },
   {
     "Filename": "414",
-    "Sound_de": "Frage: Bist du ruhig? Antwort: Ja, ich bin ruhig.",
+    "Sound_de": "Frage: Bist du ruhig? \nAntwort: Ja, ich bin ruhig.",
     "translate_fa": "سوال: آرامی؟ پاسخ: بله، من آرام هستم.",
     "file": "414_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل. 'ruhig' صفت.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bin' فعل 'sein' صرف شده برای 'ich'. 'ruhig' صفت.",
@@ -4992,7 +4992,7 @@
   },
   {
     "Filename": "417",
-    "Sound_de": "Frage: Schmeckt der Salat? Antwort: Ja, er schmeckt köstlich.",
+    "Sound_de": "Frage: Schmeckt der Salat? \nAntwort: Ja, er schmeckt köstlich.",
     "translate_fa": "سوال: سالاد طعم می‌دهد؟ پاسخ: بله، طعم آن عالی است.",
     "file": "417_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Schmeckt' فعل 'schmecken' صرف شده برای 'der Salat'. 'der Salat' فاعل.\n**Antwort**: 'Ja'. 'er' ضمیر فاعلی جایگزین 'der Salat'. 'schmeckt' فعل 'schmecken'. 'köstlich' به معنی 'خوشمزه'.",
@@ -5028,7 +5028,7 @@
   },
   {
     "Filename": "420",
-    "Sound_de": "Frage: Hast du Salz? Antwort: Ja, ich habe Salz.",
+    "Sound_de": "Frage: Hast du Salz? \nAntwort: Ja, ich habe Salz.",
     "translate_fa": "سوال: نمک داری؟ پاسخ: بله، من نمک دارم.",
     "file": "420_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'Salz' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben' صرف شده برای 'ich'. 'Salz' مفعول.",
@@ -5064,7 +5064,7 @@
   },
   {
     "Filename": "423",
-    "Sound_de": "Frage: Was soll ich sagen? Antwort: Sag einfach die Wahrheit.",
+    "Sound_de": "Frage: Was soll ich sagen? \nAntwort: Sag einfach die Wahrheit.",
     "translate_fa": "سوال: چه چیزی باید بگویم؟ پاسخ: فقط حقیقت را بگو.",
     "file": "423_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'soll' فعل کمکی 'sollen' (باید). 'ich' فاعل. 'sagen' در انتها.\n**Antwort**: 'Sag' فعل امری 'sagen'. 'einfach' به معنی 'فقط'. 'die Wahrheit' مفعول 'حقیقت'.",
@@ -5100,7 +5100,7 @@
   },
   {
     "Filename": "426",
-    "Sound_de": "Frage: Fährst du mit der S-Bahn zum Bahnhof? Antwort: Ja, die S-Bahn ist am schnellsten.",
+    "Sound_de": "Frage: Fährst du mit der S-Bahn zum Bahnhof? \nAntwort: Ja, die S-Bahn ist am schnellsten.",
     "translate_fa": "سوال: با S-Bahn به ایستگاه قطار می‌روی؟ پاسخ: بله، S-Bahn از همه سریع‌تر است.",
     "file": "426_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Fährst' فعل 'fahren' صرف شده برای 'du'. 'du' فاعل. 'mit der S-Bahn zum Bahnhof' به معنی 'با S-Bahn به ایستگاه قطار'.\n**Antwort**: 'Ja'. 'die S-Bahn' فاعل. 'ist' فعل 'sein'. 'am schnellsten' به معنی 'از همه سریع‌تر'.",
@@ -5136,7 +5136,7 @@
   },
   {
     "Filename": "429",
-    "Sound_de": "Frage: Siehst du das Schild? Antwort: Ja, ich sehe es.",
+    "Sound_de": "Frage: Siehst du das Schild? \nAntwort: Ja, ich sehe es.",
     "translate_fa": "سوال: تابلو را می‌بینی؟ پاسخ: بله، آن را می‌بینم.",
     "file": "429_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Siehst' فعل 'sehen' صرف شده برای 'du'. 'du' فاعل. 'das Schild' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'sehe' فعل 'sehen' صرف شده برای 'ich'. 'es' ضمیر مفعولی 'آن را'.",
@@ -5172,7 +5172,7 @@
   },
   {
     "Filename": "432",
-    "Sound_de": "Frage: Sehe ich schlecht aus? Antwort: Ja, du siehst müde aus.",
+    "Sound_de": "Frage: Sehe ich schlecht aus? \nAntwort: Ja, du siehst müde aus.",
     "translate_fa": "سوال: بد به نظر می‌رسم؟ پاسخ: بله، خسته به نظر می‌رسی.",
     "file": "432_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Sehe' فعل 'aussehen' صرف شده برای 'ich'. 'ich' فاعل. 'schlecht' صفت. 'aus' در انتها.\n**Antwort**: 'Ja'. 'du' فاعل. 'siehst' فعل 'aussehen' صرف شده برای 'du'. 'müde' صفت 'خسته'. 'aus' در انتها.",
@@ -5208,7 +5208,7 @@
   },
   {
     "Filename": "435",
-    "Sound_de": "Frage: Machen wir jetzt Schluss? Antwort: Ja, wir machen jetzt Schluss.",
+    "Sound_de": "Frage: Machen wir jetzt Schluss? \nAntwort: Ja, wir machen jetzt Schluss.",
     "translate_fa": "سوال: الان تمام می‌کنیم؟ پاسخ: بله، ما الان تمام می‌کنیم.",
     "file": "435_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Machen' فعل 'machen' صرف شده برای 'wir'. 'wir' فاعل. 'jetzt Schluss'.\n**Antwort**: 'Ja'. 'wir' فاعل. 'machen' فعل 'machen' صرف شده برای 'wir'. 'jetzt Schluss'.",
@@ -5244,7 +5244,7 @@
   },
   {
     "Filename": "438",
-    "Sound_de": "Frage: Schmeckt dir das Essen? Antwort: Ja, es schmeckt sehr gut, danke.",
+    "Sound_de": "Frage: Schmeckt dir das Essen? \nAntwort: Ja, es schmeckt sehr gut, danke.",
     "translate_fa": "سوال: غذا طعم خوبی برایت دارد؟ پاسخ: بله، طعم آن خیلی خوب است، ممنون.",
     "file": "438_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Schmeckt' فعل 'schmecken' صرف شده برای 'das Essen'. 'dir' مفعول غیر مستقیم 'برای تو'. 'das Essen' فاعل.\n**Antwort**: 'Ja'. 'es' ضمیر فاعلی جایگزین 'das Essen'. 'schmeckt' فعل 'schmecken'. 'sehr gut' به معنی 'خیلی خوب'. 'danke' به معنی 'ممنون'.",
@@ -5280,7 +5280,7 @@
   },
   {
     "Filename": "441",
-    "Sound_de": "Frage: Fährst du zu schnell? Antwort: Nein, ich fahre nicht zu schnell.",
+    "Sound_de": "Frage: Fährst du zu schnell? \nAntwort: Nein, ich fahre nicht zu schnell.",
     "translate_fa": "سوال: خیلی سریع رانندگی می‌کنی؟ پاسخ: نه، من خیلی سریع رانندگی نمی‌کنم.",
     "file": "441_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Fährst' فعل 'fahren' صرف شده برای 'du'. 'du' فاعل. 'zu schnell' به معنی 'خیلی سریع'.\n**Antwort**: 'Nein'. 'ich' فاعل. 'fahre' فعل 'fahren' صرف شده برای 'ich'. 'nicht zu schnell' به معنی 'خیلی سریع نه'.",
@@ -5316,7 +5316,7 @@
   },
   {
     "Filename": "444",
-    "Sound_de": "Frage: Gehst du gern in die Schule? Antwort: Ja, ich gehe gern in die Schule.",
+    "Sound_de": "Frage: Gehst du gern in die Schule? \nAntwort: Ja, ich gehe gern in die Schule.",
     "translate_fa": "سوال: دوست داری به مدرسه بروی؟ پاسخ: بله، من دوست دارم به مدرسه بروم.",
     "file": "444_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Gehst' فعل 'gehen' صرف شده برای 'du'. 'du' فاعل. 'gern in die Schule' به معنی 'دوست داری به مدرسه'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'gehe' فعل 'gehen' صرف شده برای 'ich'. 'gern in die Schule' به معنی 'دوست دارم به مدرسه'.",
@@ -5352,7 +5352,7 @@
   },
   {
     "Filename": "447",
-    "Sound_de": "Frage: Ist die Prüfung schwer? Antwort: Ja, die Prüfung ist ziemlich schwer.",
+    "Sound_de": "Frage: Ist die Prüfung schwer? \nAntwort: Ja, die Prüfung ist ziemlich schwer.",
     "translate_fa": "سوال: امتحان سخت است؟ پاسخ: بله، امتحان نسبتاً سخت است.",
     "file": "447_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Ist' فعل 'sein'. 'die Prüfung' فاعل 'امتحان'. 'schwer' صفت.\n**Antwort**: 'Ja'. 'die Prüfung' فاعل. 'ist' فعل 'sein'. 'ziemlich schwer' به معنی 'نسبتاً سخت'.",
@@ -5388,7 +5388,7 @@
   },
   {
     "Filename": "450",
-    "Sound_de": "Frage: Hast du ihn gesehen? Antwort: Ja, ich habe ihn gesehen.",
+    "Sound_de": "Frage: Hast du ihn gesehen? \nAntwort: Ja, ich habe ihn gesehen.",
     "translate_fa": "سوال: او را دیدی؟ پاسخ: بله، من او را دیدم.",
     "file": "450_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'ihn' مفعول 'او را'. 'gesehen' قسمت سوم فعل 'sehen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'ihn' مفعول. 'gesehen' در انتها.",
@@ -5424,7 +5424,7 @@
   },
   {
     "Filename": "453",
-    "Sound_de": "Frage: Habt ihr euch kennengelernt? Antwort: Ja, wir haben uns letztes Jahr kennengelernt.",
+    "Sound_de": "Frage: Habt ihr euch kennengelernt? \nAntwort: Ja, wir haben uns letztes Jahr kennengelernt.",
     "translate_fa": "سوال: با هم آشنا شدید؟ پاسخ: بله، ما سال گذشته با هم آشنا شدیم.",
     "file": "453_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Habt' فعل کمکی 'haben'. 'ihr' فاعل 'شما'. 'euch' ضمیر انعکاسی. 'kennengelernt' قسمت سوم فعل 'kennenlernen'.\n**Antwort**: 'Ja'. 'wir' فاعل. 'haben' فعل کمکی. 'uns' ضمیر انعکاسی. 'letztes Jahr' به معنی 'سال گذشته'. 'kennengelernt' در انتها.",
@@ -5460,7 +5460,7 @@
   },
   {
     "Filename": "456",
-    "Sound_de": "Frage: Hast du eine neue Stelle? Antwort: Ja, ich habe eine neue Stelle.",
+    "Sound_de": "Frage: Hast du eine neue Stelle? \nAntwort: Ja, ich habe eine neue Stelle.",
     "translate_fa": "سوال: شغل جدید داری؟ پاسخ: بله، من یک شغل جدید دارم.",
     "file": "456_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'eine neue Stelle' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben'. 'eine neue Stelle' مفعول.",
@@ -5496,7 +5496,7 @@
   },
   {
     "Filename": "459",
-    "Sound_de": "Frage: Hast du ein Telefon? Antwort: Ja, ich habe ein Telefon.",
+    "Sound_de": "Frage: Hast du ein Telefon? \nAntwort: Ja, ich habe ein Telefon.",
     "translate_fa": "سوال: تلفن داری؟ پاسخ: بله، من تلفن دارم.",
     "file": "459_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'ein Telefon' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben' صرف شده برای 'ich'. 'ein Telefon' مفعول.",
@@ -5532,7 +5532,7 @@
   },
   {
     "Filename": "462",
-    "Sound_de": "Frage: Kann ich einen Termin machen? Antwort: Ja, rufen Sie uns bitte an.",
+    "Sound_de": "Frage: Kann ich einen Termin machen? \nAntwort: Ja, rufen Sie uns bitte an.",
     "translate_fa": "سوال: می‌توانم یک وقت ملاقات تعیین کنم؟ پاسخ: بله، لطفا با ما تماس بگیرید.",
     "file": "462_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kann' فعل کمکی 'können'. 'ich' فاعل. 'einen Termin' مفعول. 'machen' در انتها.\n**Antwort**: 'Ja'. 'rufen Sie uns bitte an' به معنی 'لطفا با ما تماس بگیرید'. 'anrufen' فعل جداشدنی 'تماس گرفتن'.",
@@ -5568,7 +5568,7 @@
   },
   {
     "Filename": "465",
-    "Sound_de": "Frage: Ist das teuer? Antwort: Ja, das ist sehr teuer.",
+    "Sound_de": "Frage: Ist das teuer? \nAntwort: Ja, das ist sehr teuer.",
     "translate_fa": "سوال: این گران است؟ پاسخ: بله، این خیلی گران است.",
     "file": "465_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Ist' فعل 'sein'. 'das' فاعل. 'teuer' صفت.\n**Antwort**: 'Ja'. 'das' فاعل. 'ist' فعل 'sein'. 'sehr teuer' به معنی 'خیلی گران'.",
@@ -5604,7 +5604,7 @@
   },
   {
     "Filename": "468",
-    "Sound_de": "Frage: Hast du den Text gelesen? Antwort: Ja, ich habe den Text gelesen.",
+    "Sound_de": "Frage: Hast du den Text gelesen? \nAntwort: Ja, ich habe den Text gelesen.",
     "translate_fa": "سوال: متن را خواندی؟ پاسخ: بله، من متن را خواندم.",
     "file": "468_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'den Text' مفعول. 'gelesen' قسمت سوم فعل 'lesen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'den Text' مفعول. 'gelesen' در انتها.",
@@ -5640,7 +5640,7 @@
   },
   {
     "Filename": "471",
-    "Sound_de": "Frage: Wo kann ich ein Ticket kaufen? Antwort: Sie können es am Automaten kaufen.",
+    "Sound_de": "Frage: Wo kann ich ein Ticket kaufen? \nAntwort: Sie können es am Automaten kaufen.",
     "translate_fa": "سوال: کجا می‌توانم یک بلیط بخرم؟ پاسخ: شما می‌توانید آن را از دستگاه خودکار بخرید.",
     "file": "471_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'kann' فعل کمکی 'können'. 'ich' فاعل. 'ein Ticket' مفعول. 'kaufen' در انتها.\n**Antwort**: 'Sie' فاعل احترام. 'können' فعل کمکی. 'es' مفعول 'آن'. 'am Automaten' به معنی 'از دستگاه خودکار'. 'kaufen' در انتها.",
@@ -5676,7 +5676,7 @@
   },
   {
     "Filename": "474",
-    "Sound_de": "Frage: Liegt mein Schlüssel auf dem Tisch? Antwort: Ja, dein Schlüssel liegt auf dem Tisch.",
+    "Sound_de": "Frage: Liegt mein Schlüssel auf dem Tisch? \nAntwort: Ja, dein Schlüssel liegt auf dem Tisch.",
     "translate_fa": "سوال: کلید من روی میز است؟ پاسخ: بله، کلیدت روی میز است.",
     "file": "474_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Liegt' فعل 'liegen' صرف شده برای 'mein Schlüssel'. 'mein Schlüssel' فاعل. 'auf dem Tisch' مکان.\n**Antwort**: 'Ja'. 'dein Schlüssel' فاعل. 'liegt' فعل 'liegen'. 'auf dem Tisch' مکان.",
@@ -5712,7 +5712,7 @@
   },
   {
     "Filename": "477",
-    "Sound_de": "Frage: Wo finde ich eine Toilette? Antwort: Die Toilette ist dort hinten.",
+    "Sound_de": "Frage: Wo finde ich eine Toilette? \nAntwort: Die Toilette ist dort hinten.",
     "translate_fa": "سوال: کجا می‌توانم توالت پیدا کنم؟ پاسخ: توالت آنجاست.",
     "file": "477_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'finde' فعل 'finden' صرف شده برای 'ich'. 'ich' فاعل. 'eine Toilette' مفعول.\n**Antwort**: 'Die Toilette' فاعل. 'ist' فعل 'sein'. 'dort hinten' به معنی 'آنجا پشت'.",
@@ -5748,7 +5748,7 @@
   },
   {
     "Filename": "480",
-    "Sound_de": "Frage: Ist die Pflanze tot? Antwort: Ja, sie ist leider tot.",
+    "Sound_de": "Frage: Ist die Pflanze tot? \nAntwort: Ja, sie ist leider tot.",
     "translate_fa": "سوال: گیاه مرده است؟ پاسخ: بله، متاسفانه مرده است.",
     "file": "480_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Ist' فعل 'sein'. 'die Pflanze' فاعل 'گیاه'. 'tot' صفت.\n**Antwort**: 'Ja'. 'sie' ضمیر فاعلی جایگزین 'die Pflanze'. 'ist' فعل 'sein'. 'leider tot' به معنی 'متاسفانه مرده'.",
@@ -5784,7 +5784,7 @@
   },
   {
     "Filename": "483",
-    "Sound_de": "Frage: Wo treffen wir uns? Antwort: Wir treffen uns am Bahnhof.",
+    "Sound_de": "Frage: Wo treffen wir uns? \nAntwort: Wir treffen uns am Bahnhof.",
     "translate_fa": "سوال: کجا همدیگر را ملاقات می‌کنیم؟ پاسخ: ما همدیگر را در ایستگاه قطار ملاقات می‌کنیم.",
     "file": "483_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'treffen' فعل 'treffen' صرف شده برای 'wir'. 'wir' فاعل. 'uns' ضمیر انعکاسی.\n**Antwort**: 'Wir' فاعل. 'treffen' فعل 'treffen' صرف شده برای 'wir'. 'uns' ضمیر انعکاسی. 'am Bahnhof' به معنی 'در ایستگاه قطار'.",
@@ -5820,7 +5820,7 @@
   },
   {
     "Filename": "486",
-    "Sound_de": "Frage: Was möchtest du trinken? Antwort: Ich möchte einen Saft trinken.",
+    "Sound_de": "Frage: Was möchtest du trinken? \nAntwort: Ich möchte einen Saft trinken.",
     "translate_fa": "سوال: چه چیزی می‌خواهی بنوشی؟ پاسخ: من می‌خواهم یک آبمیوه بنوشم.",
     "file": "486_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'möchtest' فعل کمکی 'möchten'. 'du' فاعل. 'trinken' در انتها.\n**Antwort**: 'Ich' فاعل. 'möchte' فعل کمکی. 'einen Saft' مفعول 'یک آبمیوه'. 'trinken' در انتها.",
@@ -5856,7 +5856,7 @@
   },
   {
     "Filename": "489",
-    "Sound_de": "Frage: Was soll ich tun? Antwort: Du sollst gar nichts tun.",
+    "Sound_de": "Frage: Was soll ich tun? \nAntwort: Du sollst gar nichts tun.",
     "translate_fa": "سوال: چه کاری باید انجام دهم؟ پاسخ: تو نباید هیچ کاری انجام دهی.",
     "file": "489_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Was' کلمه پرسشی 'چه'. 'soll' فعل کمکی 'sollen'. 'ich' فاعل. 'tun' در انتها.\n**Antwort**: 'Du' فاعل. 'sollst' فعل کمکی. 'gar nichts' به معنی 'اصلاً هیچ چیز'. 'tun' در انتها.",
@@ -5892,7 +5892,7 @@
   },
   {
     "Filename": "492",
-    "Sound_de": "Frage: Wo gehen wir über die Straße? Antwort: Wir gehen hier über die Straße.",
+    "Sound_de": "Frage: Wo gehen wir über die Straße? \nAntwort: Wir gehen hier über die Straße.",
     "translate_fa": "سوال: کجا از خیابان عبور می‌کنیم؟ پاسخ: ما اینجا از خیابان عبور می‌کنیم.",
     "file": "492_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'gehen' فعل 'gehen' صرف شده برای 'wir'. 'wir' فاعل. 'über die Straße' به معنی 'از روی خیابان'.\n**Antwort**: 'Wir' فاعل. 'gehen' فعل 'gehen' صرف شده برای 'wir'. 'hier' قید مکان 'اینجا'. 'über die Straße' در انتها.",
@@ -5928,7 +5928,7 @@
   },
   {
     "Filename": "495",
-    "Sound_de": "Frage: Wo wohnst du, oben oder unten? Antwort: Ich wohne unten.",
+    "Sound_de": "Frage: Wo wohnst du, oben oder unten? \nAntwort: Ich wohne unten.",
     "translate_fa": "سوال: کجا زندگی می‌کنی، بالا یا پایین؟ پاسخ: من پایین زندگی می‌کنم.",
     "file": "495_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'wohnst' فعل 'wohnen' صرف شده برای 'du'. 'du' فاعل. 'oben oder unten' به معنی 'بالا یا پایین'.\n**Antwort**: 'Ich' فاعل. 'wohne' فعل 'wohnen' صرف شده برای 'ich'. 'unten' قید مکان 'پایین'.",
@@ -5964,7 +5964,7 @@
   },
   {
     "Filename": "498",
-    "Sound_de": "Frage: Haben Sie schon unterschrieben? Antwort: Nein, ich muss noch unterschreiben.",
+    "Sound_de": "Frage: Haben Sie schon unterschrieben? \nAntwort: Nein, ich muss noch unterschreiben.",
     "translate_fa": "سوال: قبلا امضا کرده‌اید؟ پاسخ: نه، من باید هنوز امضا کنم.",
     "file": "498_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Haben' فعل کمکی 'haben'. 'Sie' فاعل احترام. 'schon' قید 'قبلاً'. 'unterschrieben' قسمت سوم فعل 'unterschreiben'.\n**Antwort**: 'Nein'. 'ich' فاعل. 'muss' فعل کمکی 'müssen'. 'noch unterschreiben' به معنی 'هنوز امضا کردن'.",
@@ -6000,7 +6000,7 @@
   },
   {
     "Filename": "501",
-    "Sound_de": "Frage: Nimmst du Urlaub? Antwort: Ja, ich nehme Urlaub im Juli.",
+    "Sound_de": "Frage: Nimmst du Urlaub? \nAntwort: Ja, ich nehme Urlaub im Juli.",
     "translate_fa": "سوال: مرخصی می‌گیری؟ پاسخ: بله، من در ماه جولای مرخصی می‌گیرم.",
     "file": "501_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Nimmst' فعل 'nehmen' صرف شده برای 'du'. 'du' فاعل. 'Urlaub' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'nehme' فعل 'nehmen' صرف شده برای 'ich'. 'Urlaub'. 'im Juli' به معنی 'در ماه جولای'.",
@@ -6036,7 +6036,7 @@
   },
   {
     "Filename": "504",
-    "Sound_de": "Frage: Bist du verheiratet? Antwort: Ja, ich bin verheiratet.",
+    "Sound_de": "Frage: Bist du verheiratet? \nAntwort: Ja, ich bin verheiratet.",
     "translate_fa": "سوال: تو متأهل هستی؟ پاسخ: بله، من متأهل هستم.",
     "file": "504_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل. 'verheiratet' صفت.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bin' فعل 'sein' صرف شده برای 'ich'. 'verheiratet' صفت.",
@@ -6072,7 +6072,7 @@
   },
   {
     "Filename": "507",
-    "Sound_de": "Frage: Hast du viele Freunde? Antwort: Ja, ich habe viele Freunde.",
+    "Sound_de": "Frage: Hast du viele Freunde? \nAntwort: Ja, ich habe viele Freunde.",
     "translate_fa": "سوال: دوستان زیادی داری؟ پاسخ: بله، من دوستان زیادی دارم.",
     "file": "507_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'viele Freunde' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben' صرف شده برای 'ich'. 'viele Freunde' مفعول.",
@@ -6108,7 +6108,7 @@
   },
   {
     "Filename": "510",
-    "Sound_de": "Frage: Wer steht vor der Tür? Antwort: Der Postbote steht vor der Tür.",
+    "Sound_de": "Frage: Wer steht vor der Tür? \nAntwort: Der Postbote steht vor der Tür.",
     "translate_fa": "سوال: چه کسی جلوی در ایستاده است؟ پاسخ: پستچی جلوی در ایستاده است.",
     "file": "510_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wer' کلمه پرسشی 'چه کسی'. 'steht' فعل 'stehen'. 'vor der Tür' مکان.\n**Antwort**: 'Der Postbote' فاعل 'پستچی'. 'steht' فعل 'stehen'. 'vor der Tür' مکان.",
@@ -6144,7 +6144,7 @@
   },
   {
     "Filename": "513",
-    "Sound_de": "Frage: Kannst du dich vorstellen? Antwort: Ja, ich kann mich vorstellen.",
+    "Sound_de": "Frage: Kannst du dich vorstellen? \nAntwort: Ja, ich kann mich vorstellen.",
     "translate_fa": "سوال: می‌توانی خودت را معرفی کنی؟ پاسخ: بله، می‌توانم خودم را معرفی کنم.",
     "file": "513_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kannst' فعل کمکی 'können'. 'du' فاعل. 'dich' ضمیر انعکاسی 'خودت را'. 'vorstellen' در انتها.\n**Antwort**: 'Ja'. 'ich' فاعل. 'kann' فعل کمکی. 'mich' ضمیر انعکاسی 'خودم را'. 'vorstellen' در انتها.",
@@ -6180,7 +6180,7 @@
   },
   {
     "Filename": "516",
-    "Sound_de": "Frage: Habt ihr warmes Wasser? Antwort: Ja, wir haben warmes Wasser.",
+    "Sound_de": "Frage: Habt ihr warmes Wasser? \nAntwort: Ja, wir haben warmes Wasser.",
     "translate_fa": "سوال: آب گرم دارید؟ پاسخ: بله، ما آب گرم داریم.",
     "file": "516_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Habt' فعل 'haben' صرف شده برای 'ihr'. 'ihr' فاعل 'شما'. 'warmes Wasser' مفعول.\n**Antwort**: 'Ja'. 'wir' فاعل. 'haben' فعل 'haben' صرف شده برای 'wir'. 'warmes Wasser' مفعول.",
@@ -6216,7 +6216,7 @@
   },
   {
     "Filename": "519",
-    "Sound_de": "Frage: Ist das Kind weiblich? Antwort: Ja, es ist weiblich.",
+    "Sound_de": "Frage: Ist das Kind weiblich? \nAntwort: Ja, es ist weiblich.",
     "translate_fa": "سوال: آیا این بچه دختر است؟ پاسخ: بله، او مونث است.",
     "file": "519_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Ist' فعل 'sein'. 'das Kind' فاعل 'بچه'. 'weiblich' صفت.\n**Antwort**: 'Ja'. 'es' ضمیر فاعلی جایگزین 'das Kind'. 'ist' فعل 'sein'. 'weiblich' صفت.",
@@ -6252,7 +6252,7 @@
   },
   {
     "Filename": "522",
-    "Sound_de": "Frage: Willst du Arzt werden? Antwort: Ja, das ist mein Ziel.",
+    "Sound_de": "Frage: Willst du Arzt werden? \nAntwort: Ja, das ist mein Ziel.",
     "translate_fa": "سوال: می‌خواهی پزشک شوی؟ پاسخ: بله، این هدف من است.",
     "file": "522_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Willst' فعل کمکی 'wollen' (خواستن). 'du' فاعل. 'Arzt werden' به معنی 'پزشک شدن'.\n**Antwort**: 'Ja'. 'das ist mein Ziel' به معنی 'این هدف من است'.",
@@ -6288,7 +6288,7 @@
   },
   {
     "Filename": "525",
-    "Sound_de": "Frage: Wo wohnst du? Antwort: Ich wohne in Hamburg.",
+    "Sound_de": "Frage: Wo wohnst du? \nAntwort: Ich wohne in Hamburg.",
     "translate_fa": "سوال: کجا زندگی می‌کنی؟ پاسخ: من در هامبورگ زندگی می‌کنم.",
     "file": "525_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wo' کلمه پرسشی 'کجا'. 'wohnst' فعل 'wohnen' صرف شده برای 'du'. 'du' فاعل.\n**Antwort**: 'Ich' فاعل. 'wohne' فعل 'wohnen' صرف شده برای 'ich'. 'in Hamburg' مکان.",
@@ -6324,7 +6324,7 @@
   },
   {
     "Filename": "528",
-    "Sound_de": "Frage: Wer zahlt? Antwort: Ich zahle.",
+    "Sound_de": "Frage: Wer zahlt? \nAntwort: Ich zahle.",
     "translate_fa": "سوال: چه کسی حساب می‌کند؟ پاسخ: من حساب می‌کنم.",
     "file": "528_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Wer' کلمه پرسشی 'چه کسی'. 'zahlt' فعل 'zahlen' صرف شده برای 'er/sie/es'.\n**Antwort**: 'Ich' فاعل. 'zahle' فعل 'zahlen' صرف شده برای 'ich'.",
@@ -6360,7 +6360,7 @@
   },
   {
     "Filename": "531",
-    "Sound_de": "Frage: Hast du Zeit? Antwort: Ja, ich habe Zeit.",
+    "Sound_de": "Frage: Hast du Zeit? \nAntwort: Ja, ich habe Zeit.",
     "translate_fa": "سوال: وقت داری؟ پاسخ: بله، وقت دارم.",
     "file": "531_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Hast' فعل 'haben' صرف شده برای 'du'. 'du' فاعل. 'Zeit' مفعول.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل 'haben' صرف شده برای 'ich'. 'Zeit' مفعول.",
@@ -6396,7 +6396,7 @@
   },
   {
     "Filename": "534",
-    "Sound_de": "Frage: Hast du die Zeitung gelesen? Antwort: Ja, ich habe die Zeitung gelesen.",
+    "Sound_de": "Frage: Hast du die Zeitung gelesen? \nAntwort: Ja, ich habe die Zeitung gelesen.",
     "translate_fa": "سوال: روزنامه را خواندی؟ پاسخ: بله، من روزنامه را خواندم.",
     "file": "534_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** در زمان گذشته کامل (Perfekt) است.\n**Frage**: 'Hast' فعل کمکی 'haben'. 'du' فاعل. 'die Zeitung' مفعول. 'gelesen' قسمت سوم فعل 'lesen'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'habe' فعل کمکی. 'die Zeitung' مفعول. 'gelesen' در انتها.",
@@ -6432,7 +6432,7 @@
   },
   {
     "Filename": "537",
-    "Sound_de": "Frage: Kannst du Zigaretten kaufen? Antwort: Nein, ich rauche nicht mehr.",
+    "Sound_de": "Frage: Kannst du Zigaretten kaufen? \nAntwort: Nein, ich rauche nicht mehr.",
     "translate_fa": "سوال: می‌توانی سیگار بخری؟ پاسخ: نه، من دیگر سیگار نمی‌کشم.",
     "file": "537_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Kannst' فعل کمکی 'können'. 'du' فاعل. 'Zigaretten' مفعول. 'kaufen' در انتها.\n**Antwort**: 'Nein'. 'ich' فاعل. 'rauche nicht mehr' به معنی 'دیگر سیگار نمی‌کشم'.",
@@ -6468,7 +6468,7 @@
   },
   {
     "Filename": "540",
-    "Sound_de": "Frage: Haben Sie ein Zimmer für uns? Antwort: Ja, wir haben ein Zimmer für Sie.",
+    "Sound_de": "Frage: Haben Sie ein Zimmer für uns? \nAntwort: Ja, wir haben ein Zimmer für Sie.",
     "translate_fa": "سوال: اتاقی برای ما دارید؟ پاسخ: بله، ما یک اتاق برای شما داریم.",
     "file": "540_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Haben' فعل 'haben' صرف شده برای 'Sie'. 'Sie' فاعل احترام. 'ein Zimmer für uns' به معنی 'یک اتاق برای ما'.\n**Antwort**: 'Ja'. 'wir' فاعل. 'haben' فعل 'haben' صرف شده برای 'wir'. 'ein Zimmer für Sie' به معنی 'یک اتاق برای شما'.",
@@ -6504,7 +6504,7 @@
   },
   {
     "Filename": "543",
-    "Sound_de": "Frage: Fährst du zum Bahnhof? Antwort: Ja, ich fahre zum Bahnhof.",
+    "Sound_de": "Frage: Fährst du zum Bahnhof? \nAntwort: Ja, ich fahre zum Bahnhof.",
     "translate_fa": "سوال: به ایستگاه قطار می‌روی؟ پاسخ: بله، من به ایستگاه قطار می‌روم.",
     "file": "543_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Fährst' فعل 'fahren' صرف شده برای 'du'. 'du' فاعل. 'zum Bahnhof' به معنی 'به ایستگاه قطار'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'fahre' فعل 'fahren' صرف شده برای 'ich'. 'zum Bahnhof' مکان.",
@@ -6540,7 +6540,7 @@
   },
   {
     "Filename": "546",
-    "Sound_de": "Frage: Gehen wir zu Fuß? Antwort: Ja, wir gehen zu Fuß.",
+    "Sound_de": "Frage: Gehen wir zu Fuß? \nAntwort: Ja, wir gehen zu Fuß.",
     "translate_fa": "سوال: پیاده برویم؟ پاسخ: بله، ما پیاده می‌رویم.",
     "file": "546_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Gehen' فعل 'gehen' صرف شده برای 'wir'. 'wir' فاعل. 'zu Fuß' به معنی 'پیاده'.\n**Antwort**: 'Ja'. 'wir' فاعل. 'gehen' فعل 'gehen' صرف شده برای 'wir'. 'zu Fuß' به معنی 'پیاده'.",
@@ -6576,7 +6576,7 @@
   },
   {
     "Filename": "549",
-    "Sound_de": "Frage: Bist du zu Hause? Antwort: Ja, ich bin zu Hause.",
+    "Sound_de": "Frage: Bist du zu Hause? \nAntwort: Ja, ich bin zu Hause.",
     "translate_fa": "سوال: در خانه هستی؟ پاسخ: بله، من در خانه هستم.",
     "file": "549_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل. 'zu Hause' به معنی 'در خانه'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bin' فعل 'sein' صرف شده برای 'ich'. 'zu Hause' مکان.",
@@ -6612,7 +6612,7 @@
   },
   {
     "Filename": "552",
-    "Sound_de": "Frage: Bist du zufrieden mit der Wohnung? Antwort: Ja, ich bin sehr zufrieden.",
+    "Sound_de": "Frage: Bist du zufrieden mit der Wohnung? \nAntwort: Ja, ich bin sehr zufrieden.",
     "translate_fa": "سوال: از آپارتمان راضی هستی؟ پاسخ: بله، من خیلی راضی هستم.",
     "file": "552_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Bist' فعل 'sein' صرف شده برای 'du'. 'du' فاعل. 'zufrieden mit der Wohnung' به معنی 'راضی از آپارتمان'.\n**Antwort**: 'Ja'. 'ich' فاعل. 'bin' فعل 'sein'. 'sehr zufrieden' به معنی 'خیلی راضی'.",
@@ -6648,7 +6648,7 @@
   },
   {
     "Filename": "555",
-    "Sound_de": "Frage: Fährst du mit dem Zug oder dem Bus? Antwort: Ich fahre mit dem Zug.",
+    "Sound_de": "Frage: Fährst du mit dem Zug oder dem Bus? \nAntwort: Ich fahre mit dem Zug.",
     "translate_fa": "سوال: با قطار سفر می‌کنی یا با اتوبوس؟ پاسخ: من با قطار سفر می‌کنم.",
     "file": "555_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Fährst' فعل 'fahren' صرف شده برای 'du'. 'du' فاعل. 'mit dem Zug oder dem Bus' به معنی 'با قطار یا با اتوبوس'.\n**Antwort**: 'Ich' فاعل. 'fahre' فعل 'fahren' صرف شده برای 'ich'. 'mit dem Zug' به معنی 'با قطار'.",
@@ -6684,7 +6684,7 @@
   },
   {
     "Filename": "558",
-    "Sound_de": "Frage: Sollen wir zusammen essen? Antwort: Ja, lass uns zusammen essen.",
+    "Sound_de": "Frage: Sollen wir zusammen essen? \nAntwort: Ja, lass uns zusammen essen.",
     "translate_fa": "سوال: با هم غذا بخوریم؟ پاسخ: بله، بریم با هم غذا بخوریم.",
     "file": "558_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Sollen' فعل کمکی 'sollen' (باید). 'wir' فاعل. 'zusammen essen' به معنی 'با هم غذا خوردن'.\n**Antwort**: 'Ja'. 'lass uns' به معنی 'بگذار' یا 'بریم'. 'zusammen essen' به معنی 'با هم غذا خوردن'.",
@@ -6720,7 +6720,7 @@
   },
   {
     "Filename": "561",
-    "Sound_de": "Frage: Zahlen wir zusammen? Antwort: Ja, wir zahlen zusammen.",
+    "Sound_de": "Frage: Zahlen wir zusammen? \nAntwort: Ja, wir zahlen zusammen.",
     "translate_fa": "سوال: با هم حساب می‌کنیم؟ پاسخ: بله، ما با هم حساب می‌کنیم.",
     "file": "561_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Zahlen' فعل 'zahlen' صرف شده برای 'wir'. 'wir' فاعل. 'zusammen' به معنی 'با هم'.\n**Antwort**: 'Ja'. 'wir' فاعل. 'zahlen' فعل 'zahlen' صرف شده برای 'wir'. 'zusammen' به معنی 'با هم'.",
@@ -6756,7 +6756,7 @@
   },
   {
     "Filename": "564",
-    "Sound_de": "Frage: Liegt das Restaurant zwischen dem Kino und der Bank? Antwort: Ja, es liegt genau dazwischen.",
+    "Sound_de": "Frage: Liegt das Restaurant zwischen dem Kino und der Bank? \nAntwort: Ja, es liegt genau dazwischen.",
     "translate_fa": "سوال: رستوران بین سینما و بانک قرار دارد؟ پاسخ: بله، دقیقاً بین آن دو قرار دارد.",
     "file": "564_de.mp3",
     "root": "این یک جمله **سؤالی-پاسخی** است.\n**Frage**: 'Liegt' فعل 'liegen' صرف شده برای 'das Restaurant'. 'das Restaurant' فاعل. 'zwischen dem Kino und der Bank' به معنی 'بین سینما و بانک'.\n**Antwort**: 'Ja'. 'es' ضمیر فاعلی جایگزین 'das Restaurant'. 'liegt' فعل 'liegen'. 'genau dazwischen' به معنی 'دقیقاً بین آن'.",

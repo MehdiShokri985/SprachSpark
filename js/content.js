@@ -479,7 +479,7 @@ function renderItems(items, headerClass) {
         accordionContent.innerHTML = "";
         toggleTextboxButton.textContent = "Text ein";
         document.body.style.overflow = "";
-        document.body.style.padding = "20px";
+        // document.body.style.padding = "20px";
       } else {
         group.forEach((item, itemIndexInGroup) => {
           const itemDiv = createItem([item], groupIndex, itemIndexInGroup);
@@ -496,8 +496,8 @@ function renderItems(items, headerClass) {
         });
 
         document.body.style.overflow = "hidden";
-        document.body.style.padding = "0px";
-        document.body.style.paddingBottom = "10px";
+        // document.body.style.padding = "0px";
+        // document.body.style.paddingBottom = "10px";
       }
 
       const anyActive = document.querySelector(".accordion-content.active");

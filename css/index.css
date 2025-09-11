@@ -123,8 +123,8 @@
       }
 
       .level-btn.flashcard {
-        background-color: #2a3955;
-        color: #f1c40f;
+        background-color: #1f2d46;
+        color: #00ff88ad;
       }
 
       .level-btn:hover {
@@ -145,7 +145,7 @@
       }
 
       .level-btn.flashcard.a2 {
-        color: #f1c40f;
+        color: #bbd540;
       }
 
       @media (max-width: 600px) {

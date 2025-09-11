@@ -107,26 +107,27 @@ function createFlashcard(item, groupIndex, itemIndexInGroup, audioPath) {
       <div class="flashcard-front">
         <div class="item-top">
           <div class="filename">${itemNumber}</div>
-          <div class="type">${
+          ${
             mainItem.type
               ? mainItem.type === "فعل (غیرجداشدنی)"
-                ? "فعل"
-                : mainItem.type
+                ? "<div class='type'>فعل</div>"
+                : `<div class='type'>${mainItem.type}</div>`
               : ""
-          }</div>
+          }
+          
         </div>
         <div class="translate">${mainItem.translate_fa || ""}</div>
       </div>
       <div class="flashcard-back">
         <div class="item-top">
           <div class="filename">${itemNumber}</div>
-          <div class="type">${
+          ${
             mainItem.type
               ? mainItem.type === "فعل (غیرجداشدنی)"
-                ? "فعل"
-                : mainItem.type
+                ? "<div class='type'>فعل</div>"
+                : `<div class='type'>${mainItem.type}</div>`
               : ""
-          }</div>
+          }
         </div>
         <div class="item-bottom">
           <div class="sound ${isMainSentence ? "sentence" : ""} ${

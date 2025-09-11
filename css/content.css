@@ -14,7 +14,7 @@ h1 {
   background: #182236;
   padding: 15px 0;
   width: 100%;
-  margin: 0 auto 1px auto;
+  margin: 20px auto 1px auto;
   border-bottom: 3px solid #f1c40f;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   display: block;
@@ -30,7 +30,7 @@ h1 {
 }
 
 .accordion {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .accordion-header {
@@ -390,9 +390,9 @@ h1 {
   background-color: rgba(40, 58, 90, 0.8);
   margin: auto;
   padding: 30px 20px 10px 20px;
-  border: 1px solid #72a0f6;
+  /* border: 1px solid #72a0f6; */
   border-radius: 10px;
-  width: 80%;
+  /* width: 80%; */
   max-width: 500px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   animation: fadeInScale 0.3s ease-out forwards;
@@ -474,7 +474,7 @@ h1 {
   top: 10px;
   right: 15px;
   font-size: 28px;
-  font-weight: bold;
+  /* font-weight: bold; */
   cursor: pointer;
   transition: color 0.2s ease;
 }

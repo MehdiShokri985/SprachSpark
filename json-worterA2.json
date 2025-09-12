@@ -5768,7 +5768,7 @@
     "root": "نوع جمله: این یک جمله مرکب است که شامل یک جمله امری و یک جمله خبری است.\nKommt: شکل دستوری فعل 'kommen' (آمدن) برای ضمیرهای 'ihr' (شماها).\nwir: ضمیر فاعلی 'ما'.\nsetzen: فعل 'setzen' (نشستن) صرف شده برای 'wir'.\nuns: ضمیر انعکاسی 'sich' (خود) در حالت آکوزاتیو برای 'wir'.\nauf: حرف اضافه 'بر روی'. در اینجا با آکوزاتیو می‌آید چون حرکت به سمت یک مکان را نشان می‌دهد.\ndiese: ضمیر اشاره به معنای 'این' که برای اسم مؤنث 'Bank' و در حالت آکوزاتیو به 'diese' تبدیل شده است.\nBank: اسم مؤنث 'نیمکت' که مفعول آکوزاتیو است.",
     "type": "جمله",
     "subject": ["wir"],
-    "verb": ["setzen"],
+    "verb": ["Kommt","setzen"],
     "auxiliary_verb": [null],
     "object": ["uns"],
     "verb_part1": [null],
@@ -5834,7 +5834,7 @@
     "root": "نوع جمله: این یک جمله خبری در زمان گذشته کامل است.\nDie Kinder: اسم جمع 'بچه‌ها' که فاعل است.\nhaben: فعل کمکی 'haben' صرف شده برای فاعل جمع.\netwas: ضمیر نامعین 'چیزی'.\ngebastelt: صفت مفعولی فعل 'basteln' (کاردستی ساختن) که در انتهای جمله قرار گرفته است.",
     "type": "جمله",
     "subject": ["die Kinder"],
-    "verb": ["haben"],
+    "verb": ["haben","gebastelt"],
     "auxiliary_verb": [null],
     "object": ["etwas"],
     "verb_part1": [null],
@@ -5860,7 +5860,7 @@
     "auxiliary_verb": [null],
     "object": [null],
     "verb_part1": [null],
-    "verb_part2": [null]
+    "verb_part2": ["weh"]
   },
   {
     "Filename": "587",

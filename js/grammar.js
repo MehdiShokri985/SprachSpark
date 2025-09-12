@@ -17,6 +17,7 @@ const levelConfig = {
 };
 
 // بررسی پارامترهای URL هنگام بارگذاری صفحه
+let colorclass = "";
 window.addEventListener("load", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const level = urlParams.get("level");
@@ -24,7 +25,7 @@ window.addEventListener("load", () => {
 
   if (level && levelConfig[level]) {
     const config = levelConfig[level];
-
+    colorclass = config.headerClass;
     header.textContent = config.headerText;
     container.dataset.audioPath = config.audioPath;
     localStorage.setItem("selectedLevel", level);
@@ -53,11 +54,13 @@ function createItem(item) {
   itemDiv.classList.add("grammar-item");
 
   itemDiv.innerHTML = `
-          <div class="grammar-title-fa">${item.title_fa}</div>
+          <div class="grammar-title-fa ${colorclass}">${item.title_fa}</div>
           <div class="grammar-description">${item.description}</div>
           <div class="grammar-examples">
             <ul>
-              ${item.examples.map((example) => `<li>${example}</li>`).join("")}
+              ${item.examples
+                .map((example) => `<li class="${colorclass}">${example}</li>`)
+                .join("")}
             </ul>
           </div>
         `;
@@ -102,7 +105,7 @@ function renderItems(items, headerClass) {
       if (isActive) {
         accordionContent.innerHTML = "";
         document.body.style.overflow = "";
-        document.body.style.padding = "20px";
+        // document.body.style.padding = "20px";
       } else {
         const itemDiv = createItem(item);
         accordionContent.appendChild(itemDiv);
@@ -117,8 +120,8 @@ function renderItems(items, headerClass) {
         });
 
         document.body.style.overflow = "hidden";
-        document.body.style.padding = "0px";
-        document.body.style.paddingBottom = "10px";
+        // document.body.style.padding = "0px";
+        // document.body.style.paddingBottom = "10px";
       }
 
       const anyActive = document.querySelector(".accordion-content.active");

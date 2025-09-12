@@ -97,6 +97,7 @@ h1 {
   z-index: 1;
   touch-action: pan-y;
   cursor: grab;
+  border:solid 1px #30417c4a;
 }
 
 .flashcard.dragging {
@@ -130,6 +131,7 @@ h1 {
   border-radius: 10px;
   background-color: var(--card-bg);
   overflow: hidden; /* جلوگیری از برآمدگی عناصر */
+  box-shadow:0 4px 8px rgb(0 0 0 / 50%) ;
 }
 
 .flashcard-back {
@@ -168,29 +170,34 @@ h1 {
   font-size: 0.8em;
   background-color: #7b810a29;
   padding: 3px 6px;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   color: #fbff00;
   text-align: center;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 }
 
 .item-top .type {
   font-size: 0.8em;
   background-color: #289dad29;
   padding: 3px 6px;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   color: #79fffd;
   text-align: center;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 }
 
 .translate {
-  font-size: 1.2em;
-  color: #c5fff7;
-  text-align: center;
-  margin: 200px 10px 0px 10px;
+    font-size: 1.2em;
+    color: #c5fff7;
+    text-align: center;
+    margin: 200px 10px 0px 10px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    background-color: #253758;
+    width: 91%;
+
 }
 
 .item-bottom {
@@ -199,17 +206,21 @@ h1 {
   text-align: center;
   width: 95%;
   padding: 10px 0;
-  margin-top: 200px; /* برای قرار دادن sound در بالا */
+  margin-top: 180px; /* برای قرار دادن sound در بالا */
   height: 100%; /* استفاده از کل ارتفاع موجود */
   box-sizing: border-box;
 }
 
 .item-bottom .sound {
-  font-size: 1.2em;
-  color: #d8efff;
-  cursor: pointer;
-  width: 100%;
-  /* padding: 0px 10px; */
+     font-size: 1.4em;
+    color: #d8efff;
+    cursor: pointer;
+    width: 97%;
+    padding: 10px 5px 10px 5px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #253758;
+
 }
 
 .item-bottom .sound.pink-text {

@@ -3,7 +3,7 @@ body {
   color: #f1c40f;
   font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 20px;
+  /* padding: 20px; */
   direction: rtl;
 }
 
@@ -14,7 +14,7 @@ h1 {
   background: #182236;
   padding: 15px 0;
   width: 100%;
-  margin: 0 auto 1px auto;
+  margin: 20px auto 1px auto;
   border-bottom: 3px solid #f1c40f;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   display: block;
@@ -24,13 +24,13 @@ h1 {
 
 .container {
   max-width: 800px;
-  margin: 0px auto 10px auto;
+  margin: 20px auto 10px auto;
   position: relative;
 }
 
-.accordion {
+/* .accordion {
   margin-bottom: 20px;
-}
+} */
 
 .accordion-header {
   background-color: #2a3955;
@@ -71,8 +71,10 @@ h1 {
 }
 
 .color-a2 {
-  color: #ff9400;
+  color: #d3ff02;
 }
+
+
 
 .accordion-content::-webkit-scrollbar {
   width: 4px;
@@ -106,7 +108,7 @@ h1 {
 
 .grammar-title-fa {
   font-size: 1.2em;
-  color: #00ff88;
+  /* color: #00ff88; */
   margin-bottom: 15px;
   text-align: right;
 }
@@ -153,6 +155,7 @@ h1 {
   display: block;
   width: 100%;
   text-align: center;
+  margin-top: -20px;
 }
 
 .back-btn:hover {

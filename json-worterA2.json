@@ -6041,8 +6041,8 @@
     "verb": ["beeilen", "fährt"],
     "auxiliary_verb": ["kannst", null],
     "object": ["dich", null],
-    "verb_part1": [null, "ab"],
-    "verb_part2": ["beeilen", "fahren"]
+    "verb_part1": ["fahren"],
+    "verb_part2": ["ab"]
   },
   {
     "Filename": "603",

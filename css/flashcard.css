@@ -206,9 +206,11 @@ h1 {
   text-align: center;
   width: 95%;
   padding: 10px 0;
-  margin-top: 180px; /* برای قرار دادن sound در بالا */
   height: 100%; /* استفاده از کل ارتفاع موجود */
   box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+
 }
 
 .item-bottom .sound {

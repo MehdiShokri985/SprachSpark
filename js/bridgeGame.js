@@ -11,7 +11,9 @@ let pillars = [{ x: 50, pieces: 0, filenames: [], questions: [], number: 1 }];
 let currentPillar = 0;
 let wrongCount = 0;
 let clickLocked = false;
+let fallbackTimer = null;
 const pillarColors = ["#ff4500", "#32cd32", "#1e90ff", "#ff69b4", "#ffd700"];
+
 const testData = [
   {
     translate_fa: "سلام",
@@ -49,22 +51,34 @@ function correctAnswer(item) {
   renderBridge(true);
   renderRemainingQuestions();
 
+  // نمایش دکمه سوال بعدی
+  const nextButton = document.getElementById("nextQuestionButton");
+  nextButton.style.display = "block";
+
   // تایمر پشتیبان برای رفتن به سوال بعدی
-  const fallbackTimer = setTimeout(() => {
+  fallbackTimer = setTimeout(() => {
     clickLocked = false;
     startQuestion();
-  }, 5000); // ۵ ثانیه تایمر پشتیبان
+  }, 5000);
 
   // پخش فایل صوتی
   playSound(item);
   const audio = document.getElementById("sound");
   audio.onended = () => {
-    clearTimeout(fallbackTimer); // لغو تایمر اگر صوت به پایان رسید
+    clearTimeout(fallbackTimer);
     clickLocked = false;
     startQuestion();
   };
   audio.onerror = () => {
-    clearTimeout(fallbackTimer); // لغو تایمر در صورت خطای صوت
+    clearTimeout(fallbackTimer);
+    clickLocked = false;
+    startQuestion();
+  };
+
+  // رویداد کلیک برای دکمه سوال بعدی
+  nextButton.onclick = () => {
+    clearTimeout(fallbackTimer);
+    audio.pause();
     clickLocked = false;
     startQuestion();
   };
@@ -237,6 +251,9 @@ function startQuestion() {
     showEndMessage("آفرین! همه سوالات تمام شد.");
     return;
   }
+  // مخفی کردن دکمه سوال بعدی در شروع سوال جدید
+  const nextButton = document.getElementById("nextQuestionButton");
+  nextButton.style.display = "none";
   const item = data[currentIndex];
   const qEl = document.getElementById("question");
   const optionsDiv = document.getElementById("options");
@@ -406,6 +423,9 @@ function wrongAnswer() {
   wrongCount++;
   hearts = Math.max(0, hearts - 1);
   updateHearts();
+  // مخفی کردن دکمه سوال بعدی در پاسخ غلط
+  const nextButton = document.getElementById("nextQuestionButton");
+  nextButton.style.display = "none";
   if (hearts <= 0) {
     showEndMessage("بازی تمام شد! ❤️");
     clickLocked = false;

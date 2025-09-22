@@ -29,10 +29,21 @@ levelButtons.forEach((button) => {
     const type = button.dataset.type;
     localStorage.setItem("selectedLevel", level);
 
+    const gameLevels = [
+      "A1_game",
+      "A1_VERBEN_game",
+      "A1_Kollokationen_game",
+      "A2_game",
+      "A2_VERBEN_game",
+      "A2_Kollokationen_game",
+    ];
     const grammarLevels = ["A1 GRAMMATIK", "A2 GRAMMATIK"];
     let targetPage;
     if (grammarLevels.includes(level)) {
       targetPage = type === "list" ? "grammar.html" : "flashcard.html";
+    }
+    if (gameLevels.includes(level)) {
+      targetPage = "bridgeGame.html";
     } else {
       targetPage = type === "list" ? "content.html" : "flashcard.html";
     }

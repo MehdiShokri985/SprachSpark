@@ -1,0 +1,350 @@
+      :root {
+        --bridge-piece-size: 28px;
+        --pillar-width: 30px;
+        --pillar-height: 100px;
+        --bottom-gap: 100px;
+      }
+      @media (max-width: 600px) {
+        :root {
+          --bridge-piece-size: 38px;
+          --pillar-width: 40px;
+          --pillar-height: 120px;
+          --bottom-gap: 120px;
+        }
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      body {
+        margin: 0;
+        background: linear-gradient(to bottom, #87ceeb, #e0f6ff);
+       font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
+        direction: rtl;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      #gameContainer {
+        position: relative;
+        height: calc(100vh - var(--bottom-gap));
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        margin-top: 0;
+      }
+      #river {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: calc(var(--bottom-gap));
+        background: linear-gradient(#4682b4, #5f9ea0);
+        z-index: 0;
+      }
+      #bridgeContainer {
+        position: relative;
+        height: 100%;
+        display: block;
+        z-index: 2;
+        margin: 0 20px;
+      }
+      #questionArea {
+        position: fixed;
+        top: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(255, 255, 255, 0.95);
+        padding: 14px;
+        max-width: calc(100% - 24px);
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        z-index: 20;
+      }
+      #hearts {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        font-size: 20px;
+        z-index: 21;
+        text-shadow: 0 3px 6px rgb(0 0 0 / 33%);
+        background: rgb(255 255 255 / 30%);
+        padding: 3px 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 700;
+      }
+      #remainingQuestions {
+        position: fixed;
+        top: 16px;
+        left: 16px;
+        width: var(--bridge-piece-size);
+        height: var(--bridge-piece-size);
+        background: linear-gradient(#f99638, #d2750e);
+        border: 1px solid #40677c;
+        border-radius: 4px;
+        box-shadow: 2px 2px 6px rgb(0 0 0 / 18%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        color: #000f3f;
+        font-weight: 600;
+        z-index: 21;
+        padding: 0px 5px 0px 5px;
+      }
+      .bridge-pillar {
+        width: var(--pillar-width);
+        height: var(--pillar-height);
+        background: linear-gradient(#394e5d, #37505d);
+        border: 2px solid #0d3e5c;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        border-radius: 6px;
+        box-shadow: 0 6px 12px rgb(24 32 69 / 54%);
+      }
+      .pillar-number {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-shadow: 0 2px 4px rgb(0 0 0 / 73%);
+        z-index: 2;
+      }
+      .bridge-piece {
+        width: var(--bridge-piece-size);
+        height: var(--bridge-piece-size);
+        background: linear-gradient(#f99638, #d2750e);
+        border: 1px solid #40677c;
+        border-radius: 4px;
+        margin: 0;
+        box-shadow: 2px 2px 6px rgb(0 0 0 / 18%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        color: #000f3f;
+        font-weight: 600;
+        position: absolute;
+        z-index: 3;
+        transform-origin: center bottom;
+        pointer-events: auto;
+        user-select: none;
+      }
+      .added {
+        animation: throwUp 600ms cubic-bezier(0.22, 0.9, 0.37, 1);
+      }
+      @keyframes throwUp {
+        0% {
+          transform: translateY(60vh) scale(0.6) rotate(-15deg);
+          opacity: 0;
+        }
+        60% {
+          transform: translateY(-8px) scale(1.02) rotate(6deg);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(0) scale(1) rotate(0);
+          opacity: 1;
+        }
+      }
+      .falling {
+        animation: fallDown 600ms cubic-bezier(0.37, 0, 0.78, 0.1) forwards;
+        background: linear-gradient(#ff0000, #cc0000);
+      }
+      @keyframes fallDown {
+        0% {
+          transform: translateY(0) scale(1) rotate(0);
+          opacity: 1;
+        }
+        40% {
+          transform: translateY(-8px) scale(1.02) rotate(6deg);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(60vh) scale(0.6) rotate(-15deg);
+          opacity: 0;
+        }
+      }
+      .explode-container {
+        position: absolute;
+        width: var(--piece-size, 28px);
+        height: var(--piece-size, 28px);
+        pointer-events: none;
+        z-index: 40;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform-origin: center center;
+      }
+      .explode-main {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        background: linear-gradient(#a0522d, #8b4513);
+        border: 2px solid #5c4033;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 600;
+        color: white;
+        animation: explodeMain 760ms cubic-bezier(0.17, 0.84, 0.44, 1) forwards;
+      }
+      @keyframes explodeMain {
+        0% {
+          transform: scale(1) rotate(0);
+          opacity: 1;
+          filter: blur(0);
+        }
+        30% {
+          transform: scale(1.2) rotate(8deg);
+          opacity: 1;
+          filter: blur(0.5px);
+        }
+        100% {
+          transform: scale(0.12) rotate(45deg) translateY(-40px);
+          opacity: 0;
+          filter: blur(1.5px);
+        }
+      }
+      .shard {
+        position: absolute;
+        width: 60%;
+        height: 60%;
+        border-radius: 4px;
+        background: linear-gradient(#c06a3f, #8b4513);
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        transform-origin: center center;
+        animation: shardFly 900ms cubic-bezier(0.17, 0.84, 0.44, 1) forwards;
+        opacity: 0;
+      }
+      @keyframes shardFly {
+        0% {
+          transform: translate(0, 0) rotate(0) scale(1);
+          opacity: 1;
+        }
+        40% {
+          opacity: 1;
+        }
+        100% {
+          transform: translate(var(--dx, 60px), var(--dy, -120px))
+            rotate(var(--rot, 90deg)) scale(0.22);
+          opacity: 0;
+        }
+      }
+      #question {
+        margin: 0px 0px 20px 0px;
+        font-size: 1.05rem;
+        line-height: 1.3;
+        color: #222;
+      }
+      #options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 12px;
+      }
+      .option {
+        padding: 5px 5px;
+        min-width: 110px;
+        text-align: center;
+        background: #ffd90f;
+        border: 2px solid #ffa50000;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.15s, box-shadow 0.15s;
+        user-select: none;
+        font-weight: 600;
+        touch-action: manipulation;
+      }
+      .option:active {
+        transform: scale(0.98);
+      }
+      .option:hover {
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+        transform: translateY(-3px);
+      }
+      .option:disabled {
+        pointer-events: none;
+        opacity: 0.6;
+      }
+      #hearts #heartsCount {
+        font-size: 18px;
+      }
+      #puzzle {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        width: 100%;
+        direction: ltr;
+      }
+      #wordBank,
+      #wordLine {
+        min-height: 48px;
+        padding: 8px;
+        border-radius: 8px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+      }
+      #wordBank {
+        background: rgba(255, 255, 255, 0.92);
+        border: 2px dashed rgba(0, 0, 0, 0.06);
+      }
+      #wordLine {
+        background: rgba(255, 255, 255, 0.98);
+        border: 2px solid rgba(0, 0, 0, 0.04);
+        min-height: 60px;
+      }
+      .draggableWord {
+        padding: 8px 10px;
+        border-radius: 8px;
+        background: #ffa;
+        border: 1px solid #e6b800;
+        cursor: grab;
+        user-select: none;
+        font-weight: 600;
+      }
+      .draggableWord.dragging {
+        opacity: 0.45;
+      }
+      #endMessage {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.96);
+        padding: 18px;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        z-index: 50;
+        display: none;
+      }
+      #gameContainer::-webkit-scrollbar {
+        height: 6px;
+      }
+      #gameContainer::-webkit-scrollbar-track {
+        background: #2165a0;
+      }
+      #gameContainer::-webkit-scrollbar-thumb {
+        background: rgb(45, 55, 195);
+      }
+      #gameContainer::-webkit-scrollbar-thumb:hover {
+        background: rgb(9, 33, 141);
+      }
+   

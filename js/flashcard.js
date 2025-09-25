@@ -5,49 +5,85 @@ const modalRootHeader = document.getElementById("modalRootHeader");
 const closeButton = document.querySelector(".close-button");
 const backButton = document.querySelector(".back-btn");
 const header = document.querySelector(".header");
+const urlParams = new URLSearchParams(window.location.search);
+const level = urlParams.get("level");
 
 const levelConfig = {
   A1: {
-    jsonFile: "json-worterA1.json",
-    audioPath: "audio-A1",
+    jsonFile: "../json/json-worterA1.json",
+    audioPath: "../audio-A1",
     headerText: "A1 WORTLISTE",
     headerClass: "color-a1",
   },
   A2: {
-    jsonFile: "json-worterA2.json",
-    audioPath: "audio-A2",
+    jsonFile: "../json/json-worterA2.json",
+    audioPath: "../audio-A2",
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",
   },
   "A1 VERBEN": {
-    jsonFile: "json-verb-A1.json",
-    audioPath: "audio-A1",
+    jsonFile: "../json/json-verb-A1.json",
+    audioPath: "../audio-A1",
     headerText: "A1 VERBEN",
     headerClass: "color-a1",
   },
   "A2 VERBEN": {
-    jsonFile: "json-verb-A2.json",
-    audioPath: "audio-A2",
+    jsonFile: "../json/json-verb-A2.json",
+    audioPath: "../audio-A2",
     headerText: "A2 VERBEN",
     headerClass: "color-a2",
   },
   "A1 Kollokationen": {
-    jsonFile: "json-A1-Kollokationen.json",
-    audioPath: "audio-A1-Kollokationen",
+    jsonFile: "../json/json-A1-Kollokationen.json",
+    audioPath: "../audio-A1-Kollokationen",
     headerText: "A1 Kollokationen",
     headerClass: "color-a1",
   },
   "A2 Kollokationen": {
-    jsonFile: "json-A2-Kollokationen.json",
-    audioPath: "audio-A2-Kollokationen",
+    jsonFile: "../json/json-A2-Kollokationen.json",
+    audioPath: "../audio-A2-Kollokationen",
     headerText: "A2 Kollokationen",
+    headerClass: "color-a2",
+  },
+  "A1 Gruppierte Worter": {
+    jsonFile: "../json/json-Gruppierte-worterA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Gruppierte Worter",
+    headerClass: "color-a1",
+  },
+  "A2 Gruppierte Worter": {
+    jsonFile: "../json/json-Gruppierte-worterA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Gruppierte Worter",
+    headerClass: "color-a2",
+  },
+  "A1 Synonyms worter": {
+    jsonFile: "../json/json-Synonyms-worterA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Synonyms worter",
+    headerClass: "color-a1",
+  },
+  "A2 Synonyms worter": {
+    jsonFile: "../json/json-Synonyms-worterA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Synonyms worter",
+    headerClass: "color-a2",
+  },
+  "A1 Synonyms verb": {
+    jsonFile: "../json/json-Synonyms-verbA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Synonyms verb",
+    headerClass: "color-a1",
+  },
+  "A2 Synonyms verb": {
+    jsonFile: "../json/json-Synonyms-verbA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Synonyms verb",
     headerClass: "color-a2",
   },
 };
 
 window.addEventListener("load", () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const level = urlParams.get("level");
   if (level && levelConfig[level]) {
     const config = levelConfig[level];
     header.textContent = config.headerText;
@@ -310,15 +346,15 @@ function renderGroups(items, headerClass) {
   const groupSize = 50;
 
   groupedItems.forEach((group, groupIndex) => {
-    const groupDiv = document.createElement("div");
-    groupDiv.className = `group-header ${headerClass || "color-a1"}`;
+    const accordionHeader = document.createElement("div");
+    accordionHeader.className = `group-header ${headerClass || "color-a1"}`;
     const start = groupIndex * groupSize + 1;
     const end = Math.min(start + groupSize - 1, items.length);
-    groupDiv.innerHTML = `
+    accordionHeader.innerHTML = `
       <span>Gruppe ${groupIndex + 1} (${start} - ${end})</span>
       <div class="header-buttons">
-        <button class="test-btn" type="button">Worttest</button>
-        <button class="toggle-textbox-btn" disabled type="button">Text ein</button>
+        <button class="test-btn" >Worttest</button>
+        <button class="toggle-textbox-btn" disabled >Text ein</button>
       </div>
     `;
 
@@ -326,11 +362,19 @@ function renderGroups(items, headerClass) {
     flashcardContainer.className = "flashcard-container";
     flashcardContainer.dataset.groupIndex = groupIndex;
 
-    container.appendChild(groupDiv);
+    container.appendChild(accordionHeader);
     container.appendChild(flashcardContainer);
 
-    groupDiv.addEventListener("click", (e) => {
-      if (e.target.closest(".toggle-textbox-btn, .test-btn")) return;
+    accordionHeader.addEventListener("click", (e) => {
+      if (
+        e.target.classList.contains("toggle-textbox-btn") ||
+        e.target.closest(".toggle-textbox-btn") ||
+        e.target.classList.contains("test-btn") ||
+        e.target.closest(".test-btn")
+      ) {
+        console.log(e);
+        return;
+      }
 
       if (flashcardContainer.classList.contains("active")) {
         // بازگشت به نمایش همه گروه‌ها
@@ -357,7 +401,7 @@ function renderGroups(items, headerClass) {
           .querySelectorAll(".group-header, .flashcard-container")
           .forEach((el) => {
             el.style.display =
-              el === groupDiv || el === flashcardContainer ? "" : "none";
+              el === accordionHeader || el === flashcardContainer ? "" : "none";
           });
         // مخفی کردن header و back-btn هنگام نمایش فلش‌کارت‌ها
         header.style.display = "none";
@@ -496,7 +540,7 @@ function renderGroups(items, headerClass) {
           card.addEventListener("pointercancel", endPointer);
         });
 
-        const toggleTextboxButton = groupDiv.querySelector(
+        const toggleTextboxButton = accordionHeader.querySelector(
           ".toggle-textbox-btn"
         );
         toggleTextboxButton.disabled = false;
@@ -512,21 +556,16 @@ function renderGroups(items, headerClass) {
           });
           toggleTextboxButton.textContent = isHidden ? "Text aus" : "Text ein";
         });
-
-        const testButton = groupDiv.querySelector(".test-btn");
-        testButton.addEventListener("click", (e) => {
-          e.stopPropagation();
-          localStorage.setItem("testGroupData", JSON.stringify(group));
-          const level = container.dataset.audioPath.includes("A1")
-            ? "A1"
-            : container.dataset.audioPath.includes("A2")
-            ? "A2"
-            : "A1 VERBEN";
-          window.location.href = `worttest.html?groupIndex=${
-            groupIndex + 1
-          }&level=${level}`;
-        });
       }
+    });
+
+    const testButton = accordionHeader.querySelector(".test-btn");
+    testButton.addEventListener("click", (e) => {
+      e.stopPropagation();
+      localStorage.setItem("testGroupData", JSON.stringify(group));
+      window.location.href = `../pages/worttest.html?groupIndex=${
+        groupIndex + 1
+      }&level=${level}`;
     });
   });
 }
@@ -537,5 +576,5 @@ rootModal.addEventListener("click", (e) => {
 });
 backButton.addEventListener(
   "click",
-  () => (window.location.href = "index.html")
+  () => (window.location.href = "../index.html")
 );

@@ -5,51 +5,86 @@ const modalRootHeader = document.getElementById("modalRootHeader");
 const closeButton = document.querySelector(".close-button");
 const backButton = document.querySelector(".back-btn");
 const header = document.querySelector(".header");
+const urlParams = new URLSearchParams(window.location.search);
+const level = urlParams.get("level");
 
 // نقشه تنظیمات برای فایل‌ها و مسیرهای audio
 const levelConfig = {
   A1: {
-    jsonFile: "json-worterA1.json",
-    audioPath: "audio-A1",
+    jsonFile: "../json/json-worterA1.json",
+    audioPath: "../audio-A1",
     headerText: "A1 WORTLISTE",
     headerClass: "color-a1",
   },
   A2: {
-    jsonFile: "json-worterA2.json",
-    audioPath: "audio-A2",
+    jsonFile: "../json/json-worterA2.json",
+    audioPath: "../audio-A2",
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",
   },
   "A1 VERBEN": {
-    jsonFile: "json-verb-A1.json",
-    audioPath: "audio-A1",
+    jsonFile: "../json/json-verb-A1.json",
+    audioPath: "../audio-A1",
     headerText: "A1 VERBEN",
     headerClass: "color-a1",
   },
   "A2 VERBEN": {
-    jsonFile: "json-verb-A2.json",
-    audioPath: "audio-A2",
+    jsonFile: "../json/json-verb-A2.json",
+    audioPath: "../audio-A2",
     headerText: "A2 VERBEN",
     headerClass: "color-a2",
   },
   "A1 Kollokationen": {
-    jsonFile: "json-A1-Kollokationen.json",
-    audioPath: "audio-A1-Kollokationen",
+    jsonFile: "../json/json-A1-Kollokationen.json",
+    audioPath: "../audio-A1-Kollokationen",
     headerText: "A1 Kollokationen",
     headerClass: "color-a1",
   },
   "A2 Kollokationen": {
-    jsonFile: "json-A2-Kollokationen.json",
-    audioPath: "audio-A2-Kollokationen",
+    jsonFile: "../json/json-A2-Kollokationen.json",
+    audioPath: "../audio-A2-Kollokationen",
     headerText: "A2 Kollokationen",
+    headerClass: "color-a2",
+  },
+  "A1 Gruppierte Worter": {
+    jsonFile: "../json/json-Gruppierte-worterA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Gruppierte Worter",
+    headerClass: "color-a1",
+  },
+  "A2 Gruppierte Worter": {
+    jsonFile: "../json/json-Gruppierte-worterA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Gruppierte Worter",
+    headerClass: "color-a2",
+  },
+  "A1 Synonyms worter": {
+    jsonFile: "../json/json-Synonyms-worterA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Synonyms worter",
+    headerClass: "color-a1",
+  },
+  "A2 Synonyms worter": {
+    jsonFile: "../json/json-Synonyms-worterA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Synonyms worter",
+    headerClass: "color-a2",
+  },
+  "A1 Synonyms verb": {
+    jsonFile: "../json/json-Synonyms-verbA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Synonyms verb",
+    headerClass: "color-a1",
+  },
+  "A2 Synonyms verb": {
+    jsonFile: "../json/json-Synonyms-verbA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Synonyms verb",
     headerClass: "color-a2",
   },
 };
 
 window.addEventListener("load", () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const level = urlParams.get("level");
-
   if (level && levelConfig[level]) {
     const config = levelConfig[level];
 
@@ -339,7 +374,7 @@ function createItem(group, groupIndex, itemIndexInGroup) {
       itemBottom.dataset.revealIndex = allRevealed ? "0" : spans.length;
       const slider = itemBottom.querySelector(".reveal-slider");
       slider.value = allRevealed ? 0 : spans.length;
-      
+
       const percentage = (slider.value / maxSliderValue) * 100;
       slider.style.background = `linear-gradient(to right, #00ff88 ${percentage}%, #2f547f ${percentage}%)`;
     });
@@ -443,6 +478,7 @@ function renderItems(items, headerClass) {
     container.appendChild(accordionDiv);
 
     accordionHeader.addEventListener("click", (e) => {
+      console.log(e);
       if (
         e.target.classList.contains("toggle-textbox-btn") ||
         e.target.closest(".toggle-textbox-btn") ||
@@ -451,6 +487,7 @@ function renderItems(items, headerClass) {
       ) {
         return;
       }
+
       const isActive = accordionContent.classList.contains("active");
 
       document.querySelectorAll(".accordion-content").forEach((content) => {
@@ -538,17 +575,13 @@ function renderItems(items, headerClass) {
 
     const testButton = accordionHeader.querySelector(".test-btn");
     testButton.addEventListener("click", (e) => {
+      console.log(e);
+      // return;
       e.stopPropagation();
       const groupIndex = parseInt(accordionContent.dataset.groupIndex);
       const groupData = groupedItems[groupIndex];
       localStorage.setItem("testGroupData", JSON.stringify(groupData));
-      const level =
-        document.querySelector(".content").dataset.audioPath === "audio-A1"
-          ? "A1"
-          : document.querySelector(".content").dataset.audioPath === "audio-A2"
-          ? "A2"
-          : "A1 VERBEN";
-      window.location.href = `worttest.html?groupIndex=${
+      window.location.href = `../pages/worttest.html?groupIndex=${
         groupIndex + 1
       }&level=${level}`;
     });
@@ -566,5 +599,5 @@ rootModal.addEventListener("click", (e) => {
 });
 
 backButton.addEventListener("click", () => {
-  window.location.href = "index.html";
+  window.location.href = "../index.html";
 });

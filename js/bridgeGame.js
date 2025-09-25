@@ -1,7 +1,7 @@
-// متغیرهای قبلی بدون تغییر
 let data = [];
 let datalenght = 0;
 let currentIndex = 0;
+let originalIndex = 0;
 let hearts = 3;
 let correctStreak = 0;
 let bridgePieces = 0;
@@ -13,7 +13,6 @@ let wrongCount = 0;
 let clickLocked = false;
 let fallbackTimer = null;
 const pillarColors = ["#ff4500", "#32cd32", "#1e90ff", "#ff69b4", "#ffd700"];
-
 const testData = [
   {
     translate_fa: "سلام",
@@ -34,9 +33,6 @@ const testData = [
     type: "جمله",
   },
 ];
-
-// توابع دیگر بدون تغییر باقی می‌مانند
-// فقط تابع correctAnswer تغییر می‌کند
 function correctAnswer(item) {
   bridgePieces++;
   totalCorrectAnswers++;
@@ -50,18 +46,12 @@ function correctAnswer(item) {
   pillars[currentPillar].pieces++;
   renderBridge(true);
   renderRemainingQuestions();
-
-  // نمایش دکمه سوال بعدی
   const nextButton = document.getElementById("nextQuestionButton");
   nextButton.style.display = "block";
-
-  // تایمر پشتیبان برای رفتن به سوال بعدی
   fallbackTimer = setTimeout(() => {
     clickLocked = false;
     startQuestion();
   }, 5000);
-
-  // پخش فایل صوتی
   playSound(item);
   const audio = document.getElementById("sound");
   audio.onended = () => {
@@ -74,24 +64,20 @@ function correctAnswer(item) {
     clickLocked = false;
     startQuestion();
   };
-
-  // رویداد کلیک برای دکمه سوال بعدی
   nextButton.onclick = () => {
     clearTimeout(fallbackTimer);
     audio.pause();
     clickLocked = false;
     startQuestion();
   };
-
   if (correctStreak >= 3) {
     hearts = hearts + 1;
     correctStreak = 0;
     updateHearts();
   }
   currentIndex++;
+  updateQuestionNumber();
 }
-
-// بقیه توابع بدون تغییر
 function createPillarElement(pillar) {
   const div = document.createElement("div");
   div.className = "bridge-pillar";
@@ -104,7 +90,6 @@ function createPillarElement(pillar) {
   div.appendChild(numberDiv);
   return div;
 }
-
 function renderBridge(
   isNewPiece = false,
   isFalling = false,
@@ -217,14 +202,15 @@ function updateHearts() {
   const heartsEl = document.getElementById("hearts");
   heartsEl.innerHTML = `<span id="heartIcon">❤️</span><span id="heartsCount">${hearts}</span>`;
 }
-
 function renderRemainingQuestions() {
   const remaining = datalenght - bridgePieces;
-  console.log(datalenght, "-", bridgePieces);
   const remainingEl = document.getElementById("remainingQuestions");
   remainingEl.textContent = `${remaining}`;
 }
-
+function updateQuestionNumber() {
+  const questionNumberEl = document.getElementById("questionNumber");
+  questionNumberEl.textContent = `${currentIndex + originalIndex + 1}`;
+}
 function playSound(item) {
   if (!item || !item.file) return;
   const audio = document.getElementById("sound");
@@ -240,25 +226,26 @@ function showEndMessage(text) {
     em.id = "endMessage";
     document.getElementById("gameContainer").appendChild(em);
   }
-  em.innerHTML = `<div>${text}</div><div style="margin-top:10px"><button onclick="location.reload()">بازی دوباره</button></div>`;
+  em.innerHTML = `<div>${text}</div><div style="margin-top:10px"><button onclick="location.reload()">Spiel neu starten</button></div>`;
   em.style.display = "block";
 }
 function startQuestion() {
   if (clickLocked) {
     return;
   }
+  console.log("Data length:", data.length);
   if (currentIndex >= data.length) {
-    showEndMessage("آفرین! همه سوالات تمام شد.");
+    showEndMessage("Super! Alle Fragen sind abgeschlossen.");
     return;
   }
-  // مخفی کردن دکمه سوال بعدی در شروع سوال جدید
   const nextButton = document.getElementById("nextQuestionButton");
   nextButton.style.display = "none";
   const item = data[currentIndex];
   const qEl = document.getElementById("question");
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
-  qEl.textContent = item.translate_fa || "—";
+  qEl.textContent = item.translate_fa || "Laden...";
+  updateQuestionNumber();
   const textDe = (item.Sound_de || "").toString().trim();
   const isSentence =
     /[\.\!\?؟]$/.test(textDe) ||
@@ -274,7 +261,14 @@ function startQuestion() {
     puzzle.appendChild(wordBank);
     optionsDiv.appendChild(puzzle);
     const words = textDe.split(/\s+/).filter(Boolean);
-    const shuffled = shuffleArray([...words]);
+    const shuffledWords = shuffleArray([...words]);
+    console.log("Original words:", words);
+    console.log("Shuffled words:", shuffledWords);
+    // Verify shuffling
+    const isShuffled = words.some(
+      (word, index) => word !== shuffledWords[index]
+    );
+    console.log("Is shuffled:", isShuffled);
     function createDraggableWord(word) {
       const w = document.createElement("div");
       w.className = "draggableWord";
@@ -304,7 +298,7 @@ function startQuestion() {
       });
       return w;
     }
-    shuffled.forEach((w) => {
+    shuffledWords.forEach((w) => {
       const el = createDraggableWord(w);
       wordBank.appendChild(el);
     });
@@ -374,21 +368,43 @@ function startQuestion() {
     }
   } else {
     const correct = item;
-    const options = [correct];
-    const pool = data.filter((d) => {
-      const s = (d.Sound_de || "").toString().trim();
-      if (!s || /\s/.test(s) || /[\.\!\?؟]$/.test(s)) return false;
-      return s !== (correct.Sound_de || "").toString().trim();
-    });
-    shuffleArray(pool);
-    while (options.length < 4 && pool.length > 0) options.push(pool.pop());
-    if (options.length < 4) {
-      const fallback = data.filter((d) => !options.includes(d));
-      shuffleArray(fallback);
-      while (options.length < 4 && fallback.length > 0)
-        options.push(fallback.pop());
+    const availableOptions = [...data].filter(
+      (d) =>
+        (d.Sound_de || "").toString().trim() !==
+          (correct.Sound_de || "").toString().trim() &&
+        !(
+          /[\.\!\?؟]$/.test((d.Sound_de || "").toString().trim()) ||
+          (d.type && d.type.toString().includes("جمله"))
+        )
+    );
+    // console.log(
+    //   "Available options:",
+    //   availableOptions.map((opt) => opt.Sound_de)
+    // );
+    // Select up to 5 random options plus the correct one
+    const options = [];
+    const selectedOptions = new Set();
+    // Add the correct option first
+    options.push(correct);
+    selectedOptions.add(correct.Sound_de);
+    // Add up to 5 random options
+    const shuffledAvailableOptions = shuffleArray([...availableOptions]);
+    let count = 0;
+    for (let option of shuffledAvailableOptions) {
+      if (count >= 5) break;
+      if (!selectedOptions.has(option.Sound_de)) {
+        selectedOptions.add(option.Sound_de);
+        options.push(option);
+        count++;
+      }
     }
-    shuffleArray(options).forEach((optItem) => {
+    // Shuffle the final options array to ensure random order
+    const option = shuffleArray(options);
+    // console.log(
+    //   "Selected options (shuffled):",
+    //   options.map((opt) => opt.Sound_de)
+    // );
+    option.forEach((optItem) => {
       const opt = document.createElement("div");
       opt.className = "option";
       opt.textContent = optItem.Sound_de || "";
@@ -404,30 +420,33 @@ function startQuestion() {
     });
   }
 }
+
 function shuffleArray(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
+  const shuffled = [...arr]; // کپی از آرایه اصلی
+  for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
-  return arr;
+  return shuffled;
 }
+
 function checkAnswer(selected, correct) {
-  if ((selected.Sound_de || "") === (correct.Sound_de || "")) {
+  if (
+    (selected.Sound_de || "").toString() === (correct.Sound_de || "").toString()
+  ) {
     correctAnswer(correct);
   } else {
     wrongAnswer();
   }
 }
-
 function wrongAnswer() {
   wrongCount++;
   hearts = Math.max(0, hearts - 1);
   updateHearts();
-  // مخفی کردن دکمه سوال بعدی در پاسخ غلط
   const nextButton = document.getElementById("nextQuestionButton");
   nextButton.style.display = "none";
   if (hearts <= 0) {
-    showEndMessage("بازی تمام شد! ❤️");
+    showEndMessage("Spiel vorbei! ❤️");
     clickLocked = false;
     return;
   }
@@ -447,8 +466,6 @@ function wrongAnswer() {
         pillars[currentPillar].pieces--;
         bridgePieces--;
         pieceCounter--;
-        console.log(bridgePieces);
-        console.log(pieceCounter);
         if (pillars[currentPillar].pieces === 0) {
           pillars.splice(currentPillar, 1);
           pillars.forEach((pillar, index) => {
@@ -484,58 +501,94 @@ function wrongAnswer() {
     }, 600);
   }
 }
-
 const levelConfig = {
   A1_game: {
-    jsonFile: "json-worterA1.json",
-    audioPath: "audio-A1",
+    jsonFile: "../json/json-worterA1.json",
+    audioPath: "../audio-A1",
     headerText: "A1 WORTLISTE",
     headerClass: "color-a1",
   },
   A2_game: {
-    jsonFile: "json-worterA2.json",
-    audioPath: "audio-A2",
+    jsonFile: "../json/json-worterA2.json",
+    audioPath: "../audio-A2",
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",
   },
   A1_VERBEN_game: {
-    jsonFile: "json-verb-A1.json",
-    audioPath: "audio-A1",
+    jsonFile: "../json/json-verb-A1.json",
+    audioPath: "../audio-A1",
     headerText: "A1 VERBEN",
     headerClass: "color-a1",
   },
   A2_VERBEN_game: {
-    jsonFile: "json-verb-A2.json",
-    audioPath: "audio-A2",
+    jsonFile: "../json/json-verb-A2.json",
+    audioPath: "../audio-A2",
     headerText: "A2 VERBEN",
     headerClass: "color-a2",
   },
   A1_Kollokationen_game: {
-    jsonFile: "json-A1-Kollokationen.json",
-    audioPath: "audio-A1-Kollokationen",
+    jsonFile: "../json/json-A1-Kollokationen.json",
+    audioPath: "../audio-A1-Kollokationen",
     headerText: "A1 Kollokationen",
     headerClass: "color-a1",
   },
   A2_Kollokationen_game: {
-    jsonFile: "json-A2-Kollokationen.json",
-    audioPath: "audio-A2-Kollokationen",
+    jsonFile: "../json/json-A2-Kollokationen.json",
+    audioPath: "../audio-A2-Kollokationen",
     headerText: "A2 Kollokationen",
     headerClass: "color-a2",
   },
+  A1_Gruppierte_Worter_game: {
+    jsonFile: "../json/json-Gruppierte-worterA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Gruppierte Worter",
+    headerClass: "color-a1",
+  },
+  A2_Gruppierte_Worter_game: {
+    jsonFile: "../json/json-Gruppierte-worterA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Gruppierte Worter",
+    headerClass: "color-a2",
+  },
+  A1_Synonyms_Worter_game: {
+    jsonFile: "../json/json-Synonyms-worterA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Synonyms Worter",
+    headerClass: "color-a1",
+  },
+  A2_Synonyms_Worter_game: {
+    jsonFile: "../json/json-Synonyms-worterA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Synonyms Worter",
+    headerClass: "color-a2",
+  },
+  A1_Synonyms_verb_game: {
+    jsonFile: "../json/json-Synonyms-verbA1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 Synonyms Verb",
+    headerClass: "color-a1",
+  },
+  A2_Synonyms_verb_game: {
+    jsonFile: "../json/json-Synonyms-verbA2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 Synonyms Verb",
+    headerClass: "color-a2",
+  },
 };
-
 let config = null;
 let audioPath = null;
-
 async function loadData() {
   const urlParams = new URLSearchParams(window.location.search);
   const level = urlParams.get("level");
 
   if (level && levelConfig[level]) {
     config = levelConfig[level];
+
+    const questionstype = document.getElementById("questionstype");
+    questionstype.textContent = `${config.headerText}`;
+
     audioPath = config.audioPath;
     localStorage.setItem("selectedLevel", level);
-
     try {
       const res = await fetch(config.jsonFile);
       if (!res.ok) throw new Error("شبکه مشکل دارد");
@@ -550,22 +603,45 @@ async function loadData() {
         "— استفاده از دادهٔ تستی"
       );
       data = testData;
+      datalenght = data.length;
     }
     data = data.map((d) => ({
       ...d,
-      Sound_de: (d.Sound_de || d.Sound || d.sound || "").toString(),
-      translate_fa: d.translate_fa || d.translate || d.t || "",
-      Filename: d.Filename || d.file || d.File || d.filename || "",
+      Sound_de: d.Sound_de.toString(),
+      translate_fa: d.translate_fa,
+      Filename: d.Filename,
     }));
-
-    data = shuffleArray(data);
+    initStartQuestionBox();
+  }
+}
+function initStartQuestionBox() {
+  const startQuestionBox = document.getElementById("startQuestionBox");
+  const startQuestionInput = document.getElementById("startQuestionInput");
+  const startQuestionButton = document.getElementById("startQuestionButton");
+  const totalQuestionsEl = document.getElementById("totalQuestions");
+  const errorEl = document.getElementById("startQuestionError");
+  totalQuestionsEl.textContent = datalenght;
+  startQuestionInput.setAttribute("max", datalenght);
+  startQuestionButton.addEventListener("click", () => {
+    const startIndex = parseInt(startQuestionInput.value) - 1;
+    if (isNaN(startIndex) || startIndex < 0 || startIndex >= datalenght) {
+      errorEl.textContent = `Bitte geben Sie eine Nummer zwischen 1 و ${datalenght} ein.`;
+      errorEl.style.display = "block";
+      return;
+    }
+    errorEl.style.display = "none";
+    originalIndex = startIndex;
+    currentIndex = 0;
+    data = data.slice(startIndex);
+    datalenght = data.length;
+    startQuestionBox.style.display = "none";
     initBridge();
     renderRemainingQuestions();
     startQuestion();
     updateHearts();
-  }
+    updateQuestionNumber();
+  });
 }
-
 function initBridge() {
   const bc = document.getElementById("bridgeContainer");
   bc.innerHTML = "";

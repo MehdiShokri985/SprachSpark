@@ -36,16 +36,24 @@ levelButtons.forEach((button) => {
       "A2_game",
       "A2_VERBEN_game",
       "A2_Kollokationen_game",
+      "A1_Gruppierte_Worter_game",
+      "A1_Synonyms_Worter_game",
+      "A1_Synonyms_verb_game",
+      "A2_Gruppierte_Worter_game",
+      "A2_Synonyms_Worter_game",
+      "A2_Synonyms_verb_game",
     ];
     const grammarLevels = ["A1 GRAMMATIK", "A2 GRAMMATIK"];
     let targetPage;
-    if (grammarLevels.includes(level)) {
-      targetPage = type === "list" ? "grammar.html" : "flashcard.html";
-    }
+    // console.log(grammarLevels);
+
     if (gameLevels.includes(level)) {
-      targetPage = "bridgeGame.html";
+      targetPage = "../pages/bridgeGame.html";
+    } else if (grammarLevels.includes(level)) {
+      targetPage = "../pages/grammar.html";
     } else {
-      targetPage = type === "list" ? "content.html" : "flashcard.html";
+      targetPage =
+        type === "list" ? "../pages/content.html" : "../pages/flashcard.html";
     }
 
     window.location.href = `${targetPage}?level=${level}`;

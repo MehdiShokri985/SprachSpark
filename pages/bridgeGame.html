@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../images/128.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/128.png" />
+    <title>SprachSpark - Spiel zum Deutschlernen</title>
+    <link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="../css/bridgeGame.css?v=2" />
+  </head>
+  <body>
+   <div id="river"></div>
+    <div id="startQuestionBox">
+      <label for="startQuestionInput"
+        >Fragenummer starten (1 bis <span id="totalQuestions">0</span>)</label
+      >
+      <input type="number" id="startQuestionInput" min="1" value="1" />
+      <div
+        id="startQuestionError"
+        style="color: red; font-size: 0.9rem; margin: 10px 0; display: none"
+      ></div>
+      <button id="startQuestionButton">Spiel starten</button>
+    </div>
+    <div id="questionArea">
+      <div id="questionNumber">1</div>
+      <h2 id="question">Laden...</h2>
+      <div id="options"></div>
+      <button id="nextQuestionButton">Nächste Frage</button>
+    </div>
+    <div id="hearts">
+      <span id="heartIcon">❤️</span><span id="heartsCount">3</span>
+    </div>
+    <div id="remainingQuestions">0</div>
+    <div id="questionstype"></div>
+    <div id="gameContainer" tabindex="0">
+      <div id="bridgeContainer"></div>
+    </div>
+    <audio id="sound" preload="auto"></audio>
+    <script src="../js/bridgeGame.js?v=2"></script>
+  </body>
+</html>

@@ -5,12 +5,12 @@ const header = document.querySelector(".header");
 // نقشه تنظیمات برای فایل‌ها و مسیرهای audio
 const levelConfig = {
   "A1 GRAMMATIK": {
-    jsonFile: "json-A1-Grammatik.json",
+    jsonFile: "../json/json-A1-Grammatik.json",
     headerText: "A1 GRAMMATIK",
     headerClass: "color-a1",
   },
   "A2 GRAMMATIK": {
-    jsonFile: "json-A2-Grammatik.json",
+    jsonFile: "../json/json-A2-Grammatik.json",
     headerText: "A2 GRAMMATIK",
     headerClass: "color-a2",
   },
@@ -22,6 +22,8 @@ window.addEventListener("load", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const level = urlParams.get("level");
   header.innerHTML = level;
+
+  console.log(level);
 
   if (level && levelConfig[level]) {
     const config = levelConfig[level];
@@ -146,5 +148,5 @@ function renderItems(items, headerClass) {
 }
 
 backButton.addEventListener("click", () => {
-  window.location.href = "index.html";
+  window.location.href = "../index.html";
 });

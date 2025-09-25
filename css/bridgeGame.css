@@ -5,8 +5,6 @@
   --bottom-gap: 100px;
 }
 
-
-
 html,
 body {
   height: 100%;
@@ -58,6 +56,19 @@ body {
   text-align: center;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   z-index: 20;
+  min-width: 180px;
+  /* position: relative; */
+}
+#questionNumber {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #000f3f;
+  background: #b6ffe2;
+  padding: 2px 2px 2px 2px;
+  border-radius: 4px;
 }
 #hearts {
   position: fixed;
@@ -73,26 +84,50 @@ body {
   align-items: center;
   gap: 8px;
   font-weight: 700;
+  height: var(--bridge-piece-size);
 }
+
 #remainingQuestions {
   position: fixed;
   top: 16px;
   left: 16px;
-  width: var(--bridge-piece-size);
+  /* width: var(--bridge-piece-size); */
   height: var(--bridge-piece-size);
-  background: linear-gradient(#f99638, #d2750e);
+  text-shadow: 0 3px 6px rgb(0 0 0 / 33%);
+  background: rgb(85 255 111 / 48%);
   border: 1px solid #40677c;
   border-radius: 4px;
   box-shadow: 2px 2px 6px rgb(0 0 0 / 18%);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 14px;
   color: #000f3f;
   font-weight: 600;
   z-index: 21;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 8px 0px 8px;
 }
+
+#questionstype {
+  position: fixed;
+  top: 16px;
+  left: 65px;
+  /* width: var(--bridge-piece-size); */
+  height: var(--bridge-piece-size);
+  text-shadow: 0 3px 6px rgb(0 0 0 / 33%);
+  background: rgb(255 255 255 / 30%);
+  border-radius: 4px;
+  /* box-shadow: 2px 2px 6px rgb(0 0 0 / 18%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #000f3f;
+  font-weight: 600;
+  z-index: 21;
+  padding: 0px 10px 0px 10px;
+}
+
 .bridge-pillar {
   width: var(--pillar-width);
   height: var(--pillar-height);
@@ -238,7 +273,7 @@ body {
   }
 }
 #question {
-  margin: 0px 0px 20px 0px;
+  margin: 10px 0px 20px 0px;
   font-size: 1.05rem;
   line-height: 1.3;
   color: #222;
@@ -251,17 +286,15 @@ body {
   margin-top: 12px;
 }
 .option {
-    padding: 2px 7px 0px 7px;
-    /* min-width: 110px; */
-    text-align: center;
-    background: #ffd90f;
-    /* border: 2px solid #ffa50000; */
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.15s, box-shadow 0.15s;
-    user-select: none;
-    font-weight: 600;
-    touch-action: manipulation;
+  padding: 2px 7px 0px 7px;
+  text-align: center;
+  background: #ffd90f;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  user-select: none;
+  font-weight: 600;
+  touch-action: manipulation;
 }
 .option:active {
   transform: scale(0.98);
@@ -304,16 +337,14 @@ body {
 #wordLine {
   background: rgba(255, 255, 255, 0.98);
   border: 2px solid rgba(0, 0, 0, 0.04);
-  /* min-height: 60px; */
 }
 .draggableWord {
-      padding: 2px 5px 2px 5px;
-    border-radius: 5px;
-    background: #ffd90f;;
-    /* border: 1px solid #becf6b; */
-    cursor: grab;
-    user-select: none;
-    font-weight: 600;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+  background: #ffd90f;
+  cursor: grab;
+  user-select: none;
+  font-weight: 600;
 }
 .draggableWord.dragging {
   opacity: 0.45;
@@ -342,7 +373,6 @@ body {
 #gameContainer::-webkit-scrollbar-thumb:hover {
   background: rgb(9, 33, 141);
 }
-
 #nextQuestionButton {
   display: none;
   margin-top: 12px;
@@ -362,7 +392,56 @@ body {
 #nextQuestionButton:active {
   transform: scale(0.98);
 }
-
+#startQuestionBox {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.96);
+  padding: 10px 10px 0px 10px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  text-align: center;
+  max-width: 300px;
+}
+#startQuestionBox label {
+  font-size: 0.9rem;
+  color: #222;
+  margin-bottom: 10px;
+  display: block;
+}
+#startQuestionInput {
+  padding: 8px;
+  font-size: 1rem;
+  width: 100px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#startQuestionButton {
+  padding: 8px 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+#startQuestionButton:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+#startQuestionButton:active {
+  transform: scale(0.98);
+}
+#startQuestionError {
+  color: red;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
 @media (max-width: 600px) {
   :root {
     --bridge-piece-size: 38px;
@@ -370,12 +449,13 @@ body {
     --pillar-height: 120px;
     --bottom-gap: 120px;
   }
-
   #questionArea {
-     font-size: 1em;
+    font-size: 1em;
   }
-
-  #question{
-     font-size: 1.1em;
+  #question {
+    font-size: 1.1em;
+  }
+  #startQuestionBox {
+    max-width: 90%;
   }
 }

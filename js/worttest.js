@@ -41,6 +41,8 @@ let completedSentencesStates = [];
 const playAudioButton = document.getElementById("play-audio");
 const sentenceRoot = document.getElementById("sentence-root");
 
+let config = "";
+
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -49,12 +51,60 @@ function shuffle(array) {
   return array;
 }
 
+const levelConfig = {
+  A1: {
+    audioPath: "../audio-A1",
+  },
+  A2: {
+    audioPath: "../audio-A2",
+  },
+  "A1 VERBEN": {
+    audioPath: "../audio-A1",
+  },
+  "A2 VERBEN": {
+    audioPath: "../audio-A2",
+  },
+  "A1 Kollokationen": {
+    audioPath: "../audio-A1-Kollokationen",
+  },
+  "A2 Kollokationen": {
+    audioPath: "../audio-A2-Kollokationen",
+  },
+  "A1 Gruppierte Worter": {
+    audioPath: "../audio-A1",
+  },
+  "A2 Gruppierte Worter": {
+    audioPath: "../audio-A2",
+  },
+  "A1 Synonyms worter": {
+    audioPath: "../audio-A1",
+  },
+  "A2 Synonyms worter": {
+    audioPath: "../audio-A2",
+  },
+  "A1 Synonyms verb": {
+    audioPath: "../audio-A1",
+  },
+  "A2 Synonyms verb": {
+    audioPath: "../audio-A2",
+  },
+};
+
 function loadPageItems() {
+  // const urlParams = new URLSearchParams(window.location.search);
+
   const urlParams = new URLSearchParams(window.location.search);
+  const level = urlParams.get("level");
+
+  if (level && levelConfig[level]) {
+    config = levelConfig[level];
+  }
+
   const groupIndex = parseInt(urlParams.get("groupIndex")) || 0;
-  const level = urlParams.get("level") || "A2";
+  // const level = urlParams.get("level") || "A2";
   document.getElementById("group-index").textContent = groupIndex;
-  const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
+
+  const audioPath = config.audioPath; // level === "A1" ? "../audio-A1" : "../audio-A2";
   columns.style.display = currentMode === "words" ? "flex" : "none";
   sentenceGame.style.display = currentMode === "sentences" ? "block" : "none";
   legend.style.display = currentMode === "sentences" ? "block" : "none";
@@ -370,9 +420,9 @@ function selectItem(element, type) {
 }
 
 function checkMatch() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const level = urlParams.get("level") || "A2";
-  const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
+  // const urlParams = new URLSearchParams(window.location.search);
+  // const level = urlParams.get("level") || "A2";
+  const audioPath = config.audioPath; //level === "A1" ? "../audio-A1" : "../audio-A2";
   lockSelection = true;
   if (selectedGerman.dataset.filename === selectedPersian.dataset.filename) {
     selectedGerman.classList.add("correct");
@@ -480,16 +530,16 @@ function startTimer() {
 
 function goBackToLevel() {
   const level = localStorage.getItem("selectedLevel") || "A2";
-  window.location.href = `index.html?level=${level}`;
+  window.location.href = `../index.html?level=${level}`;
 }
 
 function nextSentence() {
   if (currentSentenceIndex < shuffledSentences.length - 1) {
     currentSentenceIndex++;
     console.log("Moving to next sentence:", currentSentenceIndex);
-    const urlParams = new URLSearchParams(window.location.search);
-    const level = urlParams.get("level") || "A2";
-    const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
+    // const urlParams = new URLSearchParams(window.location.search);
+    // const level = urlParams.get("level") || "A2";
+    const audioPath = config.audioPath; //level === "A1" ? "../audio-A1" : "../audio-A2";
     loadSentenceGame(audioPath);
   } else {
     console.log("No next sentence available");
@@ -499,10 +549,10 @@ function nextSentence() {
 function prevSentence() {
   if (currentSentenceIndex > 0) {
     currentSentenceIndex--;
-    console.log("Moving to previous sentence:", currentSentenceIndex);
-    const urlParams = new URLSearchParams(window.location.search);
-    const level = urlParams.get("level") || "A2";
-    const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
+    // console.log("Moving to previous sentence:", currentSentenceIndex);
+    // const urlParams = new URLSearchParams(window.location.search);
+    // const level = urlParams.get("level") || "A2";
+    const audioPath = config.audioPath; //level === "A1" ? "../audio-A1" : "../audio-A2";
     loadSentenceGame(audioPath);
   } else {
     console.log("No previous sentence available");
@@ -515,12 +565,13 @@ function closePopup() {
 
 function playAudio() {
   if (!playAudioButton.disabled) {
-    console.log("Playing audio for sentence:", currentSentenceIndex);
-    const urlParams = new URLSearchParams(window.location.search);
-    const level = urlParams.get("level") || "A2";
-    const audioPath = level === "A1" ? "audio-A1" : "audio-A2";
+    // console.log("Playing audio for sentence:", currentSentenceIndex);
+    // const urlParams = new URLSearchParams(window.location.search);
+    // const level = urlParams.get("level") || "A2";
+    const audioPath = config.audioPath; //level === "A1" ? "../audio-A1" : "../audio-A2";
     const currentSentence = shuffledSentences[currentSentenceIndex];
     const audio = new Audio(`${audioPath}/${currentSentence.Filename}_de.mp3`);
+    console.log(audio);
     audio.play();
   }
 }

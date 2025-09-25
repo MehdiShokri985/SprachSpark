@@ -48,12 +48,12 @@ levelButtons.forEach((button) => {
     // console.log(grammarLevels);
 
     if (gameLevels.includes(level)) {
-      targetPage = "pages/bridgeGame.html";
+      targetPage = ".../pages/bridgeGame.html";
     } else if (grammarLevels.includes(level)) {
-      targetPage = "pages/grammar.html";
+      targetPage = ".../pages/grammar.html";
     } else {
       targetPage =
-        type === "list" ? "pages/content.html" : "pages/flashcard.html";
+        type === "list" ? ".../pages/content.html" : ".../pages/flashcard.html";
     }
 
     window.location.href = `${targetPage}?level=${level}`;

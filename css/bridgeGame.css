@@ -14,7 +14,7 @@ body {
 }
 body {
   margin: 0;
-  background: linear-gradient(to bottom, #87ceeb, #e0f6ff);
+  background: linear-gradient(to bottom, #14142e, #f5cdbd);
   font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
   direction: rtl;
   -webkit-font-smoothing: antialiased;
@@ -49,7 +49,7 @@ body {
   top: 16px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(255, 255, 255, 0.95);
+  background: rgb(255 255 255 / 41%);
   padding: 14px;
   max-width: calc(100% - 24px);
   border-radius: 12px;
@@ -110,8 +110,8 @@ body {
 
 #questionstype {
   position: fixed;
-  top: 16px;
-  left: 65px;
+  top: 17px;
+  left: 70px;
   /* width: var(--bridge-piece-size); */
   height: var(--bridge-piece-size);
   text-shadow: 0 3px 6px rgb(0 0 0 / 33%);

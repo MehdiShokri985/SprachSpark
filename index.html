@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <base href="https://mehdishokri985.github.io/SprachSpark/">
+   <script>
+    (function() {
+      var base = document.createElement('base');
+      if (location.hostname === "mehdishokri985.github.io") {
+        base.href = "/SprachSpark/";
+      } else {
+        base.href = "/";
+      }
+      document.head.appendChild(base);
+    })();
+  </script>
     <link rel="icon" type="image/x-icon" href="images/128.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/128.png" />
     <title>SprachSpark</title>

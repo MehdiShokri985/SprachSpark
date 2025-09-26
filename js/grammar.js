@@ -23,8 +23,6 @@ window.addEventListener("load", () => {
   const level = urlParams.get("level");
   header.innerHTML = level;
 
-  console.log(level);
-
   if (level && levelConfig[level]) {
     const config = levelConfig[level];
     colorclass = config.headerClass;
@@ -55,17 +53,51 @@ function createItem(item) {
   const itemDiv = document.createElement("div");
   itemDiv.classList.add("grammar-item");
 
-  itemDiv.innerHTML = `
-          <div class="grammar-title-fa ${colorclass}">${item.title_fa}</div>
-          <div class="grammar-description">${item.description}</div>
-          <div class="grammar-examples">
-            <ul>
-              ${item.examples
-                .map((example) => `<li class="${colorclass}">${example}</li>`)
-                .join("")}
-            </ul>
-          </div>
-        `;
+  // ایجاد title_fa
+  const titleDiv = document.createElement("div");
+  titleDiv.classList.add("grammar-title-fa", colorclass);
+  titleDiv.innerHTML = item.title_fa;
+
+  // ایجاد header
+  const headerDiv = document.createElement("div");
+  headerDiv.classList.add("grammar-header");
+  headerDiv.innerHTML = item.header;
+
+  // ایجاد لیست بخش‌ها
+  const sectionsDiv = document.createElement("div");
+  item.sections.forEach((section) => {
+    const sectionHeader = document.createElement("div");
+    sectionHeader.classList.add(colorclass, "section-header");
+    sectionHeader.innerHTML = section.title;
+
+    const sectionContent = document.createElement("div");
+    sectionContent.classList.add("section-content");
+    sectionContent.innerHTML = section.content;
+
+    sectionHeader.addEventListener("click", () => {
+      // بستن سایر section-contentها در همان grammar-item
+      const siblingContents =
+        sectionHeader.parentElement.querySelectorAll(".section-content");
+      siblingContents.forEach((content) => {
+        if (
+          content !== sectionContent &&
+          content.classList.contains("active")
+        ) {
+          content.classList.remove("active");
+        }
+      });
+
+      // تغییر وضعیت section-content فعلی
+      sectionContent.classList.toggle("active");
+    });
+
+    sectionsDiv.appendChild(sectionHeader);
+    sectionsDiv.appendChild(sectionContent);
+  });
+
+  itemDiv.appendChild(titleDiv);
+  itemDiv.appendChild(headerDiv);
+  itemDiv.appendChild(sectionsDiv);
 
   return itemDiv;
 }
@@ -78,12 +110,14 @@ function renderItems(items, headerClass) {
     accordionDiv.classList.add("accordion");
 
     const accordionHeader = document.createElement("div");
-    accordionHeader.classList.add("accordion-header");
+    accordionHeader.classList.add(
+      "accordion-header",
+      headerClass || "color-a1"
+    );
     accordionHeader.innerHTML = `<span>${index + 1}. ${item.title}</span>`;
 
     const accordionContent = document.createElement("div");
     accordionContent.classList.add("accordion-content");
-    accordionHeader.classList.add(headerClass || "color-a1"); // استفاده از headerClass یا پیش‌فرض
 
     accordionDiv.appendChild(accordionHeader);
     accordionDiv.appendChild(accordionContent);
@@ -92,6 +126,7 @@ function renderItems(items, headerClass) {
     accordionHeader.addEventListener("click", () => {
       const isActive = accordionContent.classList.contains("active");
 
+      // بستن سایر آکاردئون‌ها
       document.querySelectorAll(".accordion-content").forEach((content) => {
         if (
           content !== accordionContent &&
@@ -107,7 +142,6 @@ function renderItems(items, headerClass) {
       if (isActive) {
         accordionContent.innerHTML = "";
         document.body.style.overflow = "";
-        // document.body.style.padding = "20px";
       } else {
         const itemDiv = createItem(item);
         accordionContent.appendChild(itemDiv);
@@ -122,8 +156,6 @@ function renderItems(items, headerClass) {
         });
 
         document.body.style.overflow = "hidden";
-        // document.body.style.padding = "0px";
-        // document.body.style.paddingBottom = "10px";
       }
 
       const anyActive = document.querySelector(".accordion-content.active");

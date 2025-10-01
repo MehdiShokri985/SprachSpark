@@ -6809,7 +6809,7 @@
   {
     "Filename": "676",
     "Sound_de": "Ich mache einen Besuch im Krankenhaus.",
-    "translate_fa": "به بیمارستان می‌روم.",
+    "translate_fa": "دارم به بیمارستان سر می‌زنم.",
     "file": "676_de.mp3",
     "root": "نوع جمله: این یک جمله خبری است.\nIch: ضمیر فاعلی 'من'.\nmache: فعل 'machen' (انجام دادن) صرف شده برای 'ich'.\neinen Besuch: اصطلاح 'بازدید کردن'. 'Besuch' مذکر است و در حالت آکوزاتیو حرف تعریف آن 'einen' است.\nim: انقباض 'in' و 'dem'. 'in' با داتیو می‌آید. 'das Krankenhaus' (خنثی) در داتیو به 'dem Krankenhaus' تبدیل می‌شود.\nKrankenhaus: اسم خنثی 'بیمارستان'.",
     "type": "جمله",

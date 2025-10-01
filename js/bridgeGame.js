@@ -76,7 +76,7 @@ function correctAnswer(item) {
     updateHearts();
   }
   currentIndex++;
-  updateQuestionNumber();
+  // updateQuestionNumber();
 }
 function createPillarElement(pillar) {
   const div = document.createElement("div");
@@ -207,9 +207,9 @@ function renderRemainingQuestions() {
   const remainingEl = document.getElementById("remainingQuestions");
   remainingEl.textContent = `${remaining}`;
 }
-function updateQuestionNumber() {
+function updateQuestionNumber(number) {
   const questionNumberEl = document.getElementById("questionNumber");
-  questionNumberEl.textContent = `${currentIndex + originalIndex + 1}`;
+  questionNumberEl.textContent = `${number}`;
 }
 function playSound(item) {
   if (!item || !item.file) return;
@@ -233,7 +233,7 @@ function startQuestion() {
   if (clickLocked) {
     return;
   }
-  console.log("Data length:", data.length);
+  console.log("Data length:", data);
   if (currentIndex >= data.length) {
     showEndMessage("Super! Alle Fragen sind abgeschlossen.");
     return;
@@ -245,7 +245,7 @@ function startQuestion() {
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
   qEl.textContent = item.translate_fa || "Laden...";
-  updateQuestionNumber();
+  updateQuestionNumber(item.Filename);
   const textDe = (item.Sound_de || "").toString().trim();
   const isSentence =
     /[\.\!\?؟]$/.test(textDe) ||
@@ -639,7 +639,7 @@ function initStartQuestionBox() {
     renderRemainingQuestions();
     startQuestion();
     updateHearts();
-    updateQuestionNumber();
+    // updateQuestionNumber();
   });
 }
 function initBridge() {

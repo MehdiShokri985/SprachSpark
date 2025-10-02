@@ -167,6 +167,7 @@
         flex-direction: row;
         align-items: center;
         gap: 5px;
+        direction: rtl;
       }
 
       .item-top .filename {

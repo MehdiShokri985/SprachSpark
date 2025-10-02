@@ -11,13 +11,13 @@ const level = urlParams.get("level");
 // نقشه تنظیمات برای فایل‌ها و مسیرهای audio
 const levelConfig = {
   A1: {
-    jsonFile: "../json/json-worterA1.json",
+    jsonFile: "../json/json-A1.json",
     audioPath: "../audio-A1",
     headerText: "A1 WORTLISTE",
     headerClass: "color-a1",
   },
   A2: {
-    jsonFile: "../json/json-worterA2.json",
+    jsonFile: "../json/json-A2.json",
     audioPath: "../audio-A2",
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",

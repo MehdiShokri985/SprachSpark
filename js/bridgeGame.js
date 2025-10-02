@@ -503,13 +503,13 @@ function wrongAnswer() {
 }
 const levelConfig = {
   A1_game: {
-    jsonFile: "../json/json-worterA1.json",
+    jsonFile: "../json/json-A1.json",
     audioPath: "../audio-A1",
     headerText: "A1 WORTLISTE",
     headerClass: "color-a1",
   },
   A2_game: {
-    jsonFile: "../json/json-worterA2.json",
+    jsonFile: "../json/json-A2.json",
     audioPath: "../audio-A2",
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",

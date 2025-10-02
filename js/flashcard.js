@@ -365,6 +365,7 @@ function renderGroups(items, headerClass) {
     accordionHeader.innerHTML = `
       <span>Gruppe ${groupIndex + 1} (${start} - ${end})</span>
       <div class="header-buttons">
+        <button class="view-toggle-btn">Tabelle</button>
         <button class="test-btn" >Worttest</button>
         <button class="toggle-textbox-btn" disabled >Text ein</button>
       </div>
@@ -373,6 +374,7 @@ function renderGroups(items, headerClass) {
     const flashcardContainer = document.createElement("div");
     flashcardContainer.className = "flashcard-container";
     flashcardContainer.dataset.groupIndex = groupIndex;
+    flashcardContainer.dataset.viewMode = "single"; // Default view mode
 
     container.appendChild(accordionHeader);
     container.appendChild(flashcardContainer);
@@ -382,9 +384,10 @@ function renderGroups(items, headerClass) {
         e.target.classList.contains("toggle-textbox-btn") ||
         e.target.closest(".toggle-textbox-btn") ||
         e.target.classList.contains("test-btn") ||
-        e.target.closest(".test-btn")
+        e.target.closest(".test-btn") ||
+        e.target.classList.contains("view-toggle-btn") ||
+        e.target.closest(".view-toggle-btn")
       ) {
-        console.log(e);
         return;
       }
 
@@ -421,136 +424,7 @@ function renderGroups(items, headerClass) {
         flashcardContainer.innerHTML = "";
         flashcardContainer.classList.add("active");
 
-        group.forEach((item, idx) => {
-          const fc = createFlashcard(
-            item,
-            groupIndex,
-            idx,
-            container.dataset.audioPath
-          );
-          flashcardContainer.appendChild(fc);
-          fc.classList.add(idx === 0 ? "active" : "next");
-        });
-
-        const flashcards = Array.from(
-          flashcardContainer.querySelectorAll(".flashcard")
-        );
-        let activeCardIndex = 0;
-
-        flashcards.forEach((card, index) => {
-          let isDown = false;
-          let startX = 0,
-            startY = 0,
-            currentX = 0;
-          let startTime = 0;
-          let isDragging = false;
-          const dragThreshold = 10;
-          const swipeThreshold = 80;
-          const interactiveSelector =
-            ".root-icon, .play-btn, .reveal-slider, .sound, .input-text, button, input, a";
-
-          card.addEventListener("pointerdown", (ev) => {
-            if (ev.target.closest(interactiveSelector)) return;
-            card.setPointerCapture(ev.pointerId);
-            isDown = true;
-            startX = ev.clientX;
-            startY = ev.clientY;
-            currentX = startX;
-            startTime = Date.now();
-            isDragging = false;
-            card.style.transition = "none";
-          });
-
-          card.addEventListener("pointermove", (ev) => {
-            if (!isDown) return;
-            const diffX = ev.clientX - startX;
-            const diffY = ev.clientY - startY;
-            if (
-              !isDragging &&
-              Math.abs(diffX) > dragThreshold &&
-              Math.abs(diffX) > Math.abs(diffY)
-            ) {
-              isDragging = true;
-              card.classList.add("dragging");
-              ev.preventDefault();
-            }
-            if (isDragging) {
-              currentX = ev.clientX;
-              card.style.transform = `translate(calc(-50% + ${diffX}px), -50%)`;
-            }
-          });
-
-          const endPointer = (ev) => {
-            if (!isDown) return;
-            try {
-              card.releasePointerCapture(ev.pointerId);
-            } catch (e) {}
-            isDown = false;
-            card.classList.remove("dragging");
-            card.style.transition = "transform 0.45s ease, opacity 0.45s ease";
-
-            const endX = ev.clientX || currentX || startX;
-            const diffX = endX - startX;
-            const duration = Date.now() - startTime;
-
-            if (
-              !isDragging &&
-              duration < 300 &&
-              Math.abs(diffX) < dragThreshold
-            ) {
-              const isFlipped = card.classList.contains("flipped");
-              card.classList.toggle("flipped");
-              card.style.transform = "translate(-50%, -50%)";
-              const slider = card.querySelector(".reveal-slider");
-              const spans = card.querySelectorAll(".sound span");
-              if (slider && spans) {
-                slider.value = 0;
-                spans.forEach((s) => s.classList.remove("revealed"));
-                const updateSliderBg = (val, max) => {
-                  const percent = max
-                    ? Math.min(100, Math.round((val / max) * 100))
-                    : 0;
-                  slider.style.background = `linear-gradient(to right, #00ff88 ${percent}%, #34495e ${percent}%)`;
-                };
-                updateSliderBg(0, slider.max);
-              }
-              return;
-            }
-
-            if (isDragging && Math.abs(diffX) > swipeThreshold) {
-              if (diffX < 0 && activeCardIndex < flashcards.length - 1) {
-                flashcards[activeCardIndex].classList.remove("active");
-                flashcards[activeCardIndex].classList.add("prev");
-                activeCardIndex += 1;
-                flashcards[activeCardIndex].classList.remove("next");
-                flashcards[activeCardIndex].classList.add("active");
-                if (activeCardIndex + 1 < flashcards.length)
-                  flashcards[activeCardIndex + 1].classList.add("next");
-              } else if (diffX > 0 && activeCardIndex > 0) {
-                flashcards[activeCardIndex].classList.remove("active");
-                flashcards[activeCardIndex].classList.add("next");
-                activeCardIndex -= 1;
-                flashcards[activeCardIndex].classList.remove("prev");
-                flashcards[activeCardIndex].classList.add("active");
-              }
-            }
-
-            flashcards.forEach((c, i) => {
-              c.style.transform = c.classList.contains("active")
-                ? "translate(-50%, -50%)"
-                : c.classList.contains("next")
-                ? "translate(100%, -50%)"
-                : c.classList.contains("prev")
-                ? "translate(-100%, -50%)"
-                : "";
-            });
-
-            isDragging = false;
-          };
-
-          card.addEventListener("pointerup", endPointer);
-          card.addEventListener("pointercancel", endPointer);
-        });
+        renderFlashcards(flashcardContainer, group, groupIndex);
 
         const toggleTextboxButton = accordionHeader.querySelector(
           ".toggle-textbox-btn"
@@ -571,6 +445,20 @@ function renderGroups(items, headerClass) {
       }
     });
 
+    const viewToggleButton = accordionHeader.querySelector(".view-toggle-btn");
+    viewToggleButton.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const currentMode = flashcardContainer.dataset.viewMode;
+      const newMode = currentMode === "single" ? "table" : "single";
+      flashcardContainer.dataset.viewMode = newMode;
+      viewToggleButton.textContent =
+        newMode === "single" ? "Tabelle" : "Einzeln";
+      if (flashcardContainer.classList.contains("active")) {
+        flashcardContainer.innerHTML = "";
+        renderFlashcards(flashcardContainer, group, groupIndex);
+      }
+    });
+
     const testButton = accordionHeader.querySelector(".test-btn");
     testButton.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -580,6 +468,169 @@ function renderGroups(items, headerClass) {
       }&level=${level}`;
     });
   });
+}
+
+function renderFlashcards(flashcardContainer, group, groupIndex) {
+  const viewMode = flashcardContainer.dataset.viewMode;
+  const audioPath = container.dataset.audioPath;
+
+  group.forEach((item, idx) => {
+    const fc = createFlashcard(item, groupIndex, idx, audioPath);
+    flashcardContainer.appendChild(fc);
+  });
+
+  const flashcards = Array.from(
+    flashcardContainer.querySelectorAll(".flashcard")
+  );
+
+  if (viewMode === "table") {
+    flashcardContainer.classList.add("table-mode");
+    flashcards.forEach((card) => {
+      card.classList.add("active");
+      attachFlipListener(card);
+    });
+  } else {
+    flashcardContainer.classList.remove("table-mode");
+    flashcards.forEach((card, index) => {
+      card.classList.add(index === 0 ? "active" : "next");
+      attachSwipeListeners(card, flashcards, index);
+    });
+  }
+}
+
+function attachFlipListener(card) {
+  card.addEventListener("click", (ev) => {
+    if (
+      ev.target.closest(
+        ".root-icon, .play-btn, .reveal-slider, .sound, .input-text, button, input, a"
+      )
+    )
+      return;
+    card.classList.toggle("flipped");
+    const slider = card.querySelector(".reveal-slider");
+    const spans = card.querySelectorAll(".sound span");
+    if (slider && spans) {
+      slider.value = 0;
+      spans.forEach((s) => s.classList.remove("revealed"));
+      const updateSliderBg = (val, max) => {
+        const percent = max ? Math.min(100, Math.round((val / max) * 100)) : 0;
+        slider.style.background = `linear-gradient(to right, #00ff88 ${percent}%, #34495e ${percent}%)`;
+      };
+      updateSliderBg(0, slider.max);
+    }
+  });
+}
+
+function attachSwipeListeners(card, flashcards, initialIndex) {
+  let activeCardIndex = initialIndex;
+  let isDown = false;
+  let startX = 0,
+    startY = 0,
+    currentX = 0;
+  let startTime = 0;
+  let isDragging = false;
+  const dragThreshold = 10;
+  const swipeThreshold = 80;
+  const interactiveSelector =
+    ".root-icon, .play-btn, .reveal-slider, .sound, .input-text, button, input, a";
+
+  card.addEventListener("pointerdown", (ev) => {
+    if (ev.target.closest(interactiveSelector)) return;
+    card.setPointerCapture(ev.pointerId);
+    isDown = true;
+    startX = ev.clientX;
+    startY = ev.clientY;
+    currentX = startX;
+    startTime = Date.now();
+    isDragging = false;
+    card.style.transition = "none";
+  });
+
+  card.addEventListener("pointermove", (ev) => {
+    if (!isDown) return;
+    const diffX = ev.clientX - startX;
+    const diffY = ev.clientY - startY;
+    if (
+      !isDragging &&
+      Math.abs(diffX) > dragThreshold &&
+      Math.abs(diffX) > Math.abs(diffY)
+    ) {
+      isDragging = true;
+      card.classList.add("dragging");
+      ev.preventDefault();
+    }
+    if (isDragging) {
+      currentX = ev.clientX;
+      card.style.transform = `translate(calc(-50% + ${diffX}px), -50%)`;
+    }
+  });
+
+  const endPointer = (ev) => {
+    if (!isDown) return;
+    try {
+      card.releasePointerCapture(ev.pointerId);
+    } catch (e) {}
+    isDown = false;
+    card.classList.remove("dragging");
+    card.style.transition = "transform 0.45s ease, opacity 0.45s ease";
+
+    const endX = ev.clientX || currentX || startX;
+    const diffX = endX - startX;
+    const duration = Date.now() - startTime;
+
+    if (!isDragging && duration < 300 && Math.abs(diffX) < dragThreshold) {
+      const isFlipped = card.classList.contains("flipped");
+      card.classList.toggle("flipped");
+      card.style.transform = "translate(-50%, -50%)";
+      const slider = card.querySelector(".reveal-slider");
+      const spans = card.querySelectorAll(".sound span");
+      if (slider && spans) {
+        slider.value = 0;
+        spans.forEach((s) => s.classList.remove("revealed"));
+        const updateSliderBg = (val, max) => {
+          const percent = max
+            ? Math.min(100, Math.round((val / max) * 100))
+            : 0;
+          slider.style.background = `linear-gradient(to right, #00ff88 ${percent}%, #34495e ${percent}%)`;
+        };
+        updateSliderBg(0, slider.max);
+      }
+      return;
+    }
+
+    if (isDragging && Math.abs(diffX) > swipeThreshold) {
+      if (diffX < 0 && activeCardIndex < flashcards.length - 1) {
+        flashcards[activeCardIndex].classList.remove("active");
+        flashcards[activeCardIndex].classList.add("prev");
+        activeCardIndex += 1;
+        flashcards[activeCardIndex].classList.remove("next");
+        flashcards[activeCardIndex].classList.add("active");
+        if (activeCardIndex + 1 < flashcards.length)
+          flashcards[activeCardIndex + 1].classList.add("next");
+      } else if (diffX > 0 && activeCardIndex > 0) {
+        flashcards[activeCardIndex].classList.remove("active");
+        flashcards[activeCardIndex].classList.add("next");
+        activeCardIndex -= 1;
+        flashcards[activeCardIndex].classList.remove("prev");
+        flashcards[activeCardIndex].classList.add("active");
+      }
+    }
+
+    flashcards.forEach((c, i) => {
+      c.style.transform = c.classList.contains("active")
+        ? "translate(-50%, -50%)"
+        : c.classList.contains("next")
+        ? "translate(100%, -50%)"
+        : c.classList.contains("prev")
+        ? "translate(-100%, -50%)"
+        : "";
+    });
+
+    isDragging = false;
+  };
+
+  card.addEventListener("pointerup", endPointer);
+  card.addEventListener("pointercancel", endPointer);
 }
 
 closeButton.addEventListener("click", () => rootModal.classList.remove("show"));

@@ -42,6 +42,8 @@ levelButtons.forEach((button) => {
       "A2_Gruppierte_Worter_game",
       "A2_Synonyms_Worter_game",
       "A2_Synonyms_verb_game",
+      "worter_A1_game",
+      "worter_A2_game",
     ];
     const grammarLevels = ["A1 GRAMMATIK", "A2 GRAMMATIK"];
     let targetPage;

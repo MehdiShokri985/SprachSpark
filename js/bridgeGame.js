@@ -574,6 +574,18 @@ const levelConfig = {
     headerText: "A2 Synonyms Verb",
     headerClass: "color-a2",
   },
+    worter_A1_game: {
+    jsonFile: "../json/json-worter-A1.json",
+    audioPath: "../audio-A1",
+    headerText: "A1 WORTLISTE",
+    headerClass: "color-a1",
+  },
+  worter_A2_game: {
+    jsonFile: "../json/json-worter-A2.json",
+    audioPath: "../audio-A2",
+    headerText: "A2 WORTLISTE",
+    headerClass: "color-a2",
+  },
 };
 let config = null;
 let audioPath = null;

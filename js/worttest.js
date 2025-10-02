@@ -88,6 +88,12 @@ const levelConfig = {
   "A2 Synonyms verb": {
     audioPath: "../audio-A2",
   },
+  worter_A1: {
+    audioPath: "../audio-A1",
+  },
+  worter_A2: {
+    audioPath: "../audio-A2",
+  },
 };
 
 function loadPageItems() {

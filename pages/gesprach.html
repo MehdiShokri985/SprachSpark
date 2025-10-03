@@ -2,15 +2,14 @@
 <html lang="fa">
   <head>
     <meta charset="UTF-8" />
+     <!-- base پیش‌فرض: به پوشه‌ی بالاتر اشاره کند -->
+    <base id="site-base" href="../">
     <script>
       (function () {
-        var base = document.createElement("base");
+        // اگر روی GitHub Pages هستیم، base را به آدرس ریپوی شما تغییر بده
         if (location.hostname === "mehdishokri985.github.io") {
-          base.href = "/SprachSpark/";
-        } else {
-          base.href = "../";
+          document.getElementById("site-base").setAttribute("href", "/SprachSpark/");
         }
-        document.head.appendChild(base);
       })();
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -1,6 +1,6 @@
 const backButton = document.querySelector(".back-btn");
 
-fetch("../json/Gespräch/json-Gesprach-Gruppe.json")
+fetch("json/Gespräch/json-Gesprach-Gruppe.json")
   .then((response) => response.json())
   .then((data) => {
     const container = document.getElementById("accordion-container");
@@ -127,5 +127,5 @@ fetch("../json/Gespräch/json-Gesprach-Gruppe.json")
 
 backButton.addEventListener(
   "click",
-  () => (window.location.href = "../index.html")
+  () => (window.location.href = "index.html")
 );

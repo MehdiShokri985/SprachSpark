@@ -280,5 +280,5 @@ rootModal.addEventListener("click", (e) => {
 });
 backButton.addEventListener(
   "click",
-  () => (window.location.href = "/pages/gesprach.html")
+  () => (window.location.href = "pages/gesprach.html")
 );

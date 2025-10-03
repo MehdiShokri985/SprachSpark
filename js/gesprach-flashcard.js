@@ -19,7 +19,7 @@ if (level) {
 window.addEventListener("load", () => {
   // console.log(level);
   // console.log(`../json/Gespräch/A1-Gruppen/${level.thema}.json`);
-  fetch("../json/Gespräch/json-Gesprach-Gruppe.json")
+  fetch("json/Gespräch/json-Gesprach-Gruppe.json")
     .then((res) => {
       if (!res.ok) throw new Error("خطا در بارگذاری levelConfig.json");
       return res.json();
@@ -31,9 +31,9 @@ window.addEventListener("load", () => {
       if (thema_) {
         const config = thema_;
         header.textContent = config.Thema;
-        container.dataset.audioPath = `../audio-gesprach/${levelGesprach}/${level.thema}`;
+        container.dataset.audioPath = `audio-gesprach/${levelGesprach}/${level.thema}`;
 
-        fetch(`../json/Gespräch/A1-Gruppen/${level.thema}.json`)
+        fetch(`json/Gespräch/A1-Gruppen/${level.thema}.json`)
           .then((r) => {
             if (!r.ok) throw new Error("Failed to load JSON file");
             return r.json();
@@ -280,5 +280,5 @@ rootModal.addEventListener("click", (e) => {
 });
 backButton.addEventListener(
   "click",
-  () => (window.location.href = "gesprach.html")
+  () => (window.location.href = "pages/gesprach.html")
 );

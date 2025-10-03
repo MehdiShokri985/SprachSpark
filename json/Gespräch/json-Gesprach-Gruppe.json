@@ -1,0 +1,647 @@
+{
+  "Gruppen": [
+    {
+      "level": "A1",
+      "id": 1,
+      "Gruppe": "Vorstellung und soziale Kontakte",
+      "GruppeFarsi": "معرفی و روابط اجتماعی",
+      "Beschreibung": "Begrüßung, Vorstellung, Familie und Alltagskontakte",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Vorstellung auf der Straße",
+          "ThemaFarsi": "معرفی در خیابان",
+          "fileName": "vorstellung_strasse",
+          "folderPath": "/topics/vorstellung_strasse"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Familie zu Hause",
+          "ThemaFarsi": "خانواده در خانه",
+          "fileName": "familie_zuhause",
+          "folderPath": "/topics/familie_zuhause"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Party bei Freunden",
+          "ThemaFarsi": "مهمانی در خانه دوست",
+          "fileName": "party_freunde",
+          "folderPath": "/topics/party_freunde"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Geburtstagsfeier",
+          "ThemaFarsi": "جشن تولد",
+          "fileName": "geburtstagsfeier",
+          "folderPath": "/topics/geburtstagsfeier"
+        },
+        {
+          "Nr": 5,
+          "Thema": "Weihnachtsfeier",
+          "ThemaFarsi": "جشن کریسمس",
+          "fileName": "weihnachtsfeier",
+          "folderPath": "/topics/weihnachtsfeier"
+        },
+        {
+          "Nr": 6,
+          "Thema": "Spazieren mit Hund im Park",
+          "ThemaFarsi": "پیاده‌روی با سگ در پارک",
+          "fileName": "hund_park",
+          "folderPath": "/topics/hund_park"
+        },
+        {
+          "Nr": 7,
+          "Thema": "Reiseziel besprechen",
+          "ThemaFarsi": "صحبت در مورد مقصد سفر",
+          "fileName": "reiseziel",
+          "folderPath": "/topics/reiseziel"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 2,
+      "Gruppe": "Einkaufen und Geschäfte",
+      "GruppeFarsi": "خرید و فروشگاه‌ها",
+      "Beschreibung": "Kauf von Waren, Preisfragen, Bezahlen",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Einkaufen im Geschäft",
+          "ThemaFarsi": "خرید در فروشگاه",
+          "fileName": "einkaufen_geschaeft",
+          "folderPath": "/topics/einkaufen_geschaeft"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Obst kaufen auf dem Markt",
+          "ThemaFarsi": "خرید میوه در بازار",
+          "fileName": "obst_markt",
+          "folderPath": "/topics/obst_markt"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Kleidung kaufen",
+          "ThemaFarsi": "خرید لباس",
+          "fileName": "kleidung_kaufen",
+          "folderPath": "/topics/kleidung_kaufen"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Online einkaufen",
+          "ThemaFarsi": "خرید آنلاین",
+          "fileName": "online_einkaufen",
+          "folderPath": "/topics/online_einkaufen"
+        },
+        {
+          "Nr": 5,
+          "Thema": "Blumen kaufen",
+          "ThemaFarsi": "خرید گل",
+          "fileName": "blumen_kaufen",
+          "folderPath": "/topics/blumen_kaufen"
+        },
+        {
+          "Nr": 6,
+          "Thema": "Buch kaufen",
+          "ThemaFarsi": "خرید کتاب",
+          "fileName": "buch_kaufen",
+          "folderPath": "/topics/buch_kaufen"
+        },
+        {
+          "Nr": 7,
+          "Thema": "Spielzeug kaufen",
+          "ThemaFarsi": "خرید اسباب‌بازی",
+          "fileName": "spielzeug_kaufen",
+          "folderPath": "/topics/spielzeug_kaufen"
+        },
+        {
+          "Nr": 8,
+          "Thema": "Schuhe kaufen",
+          "ThemaFarsi": "خرید کفش",
+          "fileName": "schuhe_kaufen",
+          "folderPath": "/topics/schuhe_kaufen"
+        },
+        {
+          "Nr": 9,
+          "Thema": "Eis kaufen",
+          "ThemaFarsi": "خرید بستنی",
+          "fileName": "eis_kaufen",
+          "folderPath": "/topics/eis_kaufen"
+        },
+        {
+          "Nr": 10,
+          "Thema": "Essen kaufen am Flughafen",
+          "ThemaFarsi": "خرید غذا در فرودگاه",
+          "fileName": "essen_flughafen",
+          "folderPath": "/topics/essen_flughafen"
+        },
+        {
+          "Nr": 11,
+          "Thema": "Getränk kaufen im Zug",
+          "ThemaFarsi": "خرید نوشیدنی در قطار",
+          "fileName": "getraenk_zug",
+          "folderPath": "/topics/getraenk_zug"
+        },
+        {
+          "Nr": 12,
+          "Thema": "Souvenirs kaufen",
+          "ThemaFarsi": "خرید سوغاتی",
+          "fileName": "souvenirs_kaufen",
+          "folderPath": "/topics/souvenirs_kaufen"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 3,
+      "Gruppe": "Essen und Trinken",
+      "GruppeFarsi": "غذا و نوشیدنی",
+      "Beschreibung": "Essen bestellen, über Geschmack sprechen",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Essen bestellen im Restaurant",
+          "ThemaFarsi": "سفارش غذا در رستوران",
+          "fileName": "essen_restaurant",
+          "folderPath": "/topics/essen_restaurant"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Kaffee im Café",
+          "ThemaFarsi": "قهوه در کافه",
+          "fileName": "kaffee_cafe",
+          "folderPath": "/topics/kaffee_cafe"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Essen in der Küche",
+          "ThemaFarsi": "صحبت در مورد غذا در آشپزخانه",
+          "fileName": "essen_kueche",
+          "folderPath": "/topics/essen_kueche"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Picknick auf der Wiese",
+          "ThemaFarsi": "پیک‌نیک در چمن",
+          "fileName": "picknick_wiese",
+          "folderPath": "/topics/picknick_wiese"
+        },
+        {
+          "Nr": 5,
+          "Thema": "Haustiere füttern",
+          "ThemaFarsi": "غذا دادن به حیوانات خانگی",
+          "fileName": "haustiere_fuettern",
+          "folderPath": "/topics/haustiere_fuettern"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 4,
+      "Gruppe": "Reisen und Transport",
+      "GruppeFarsi": "سفر و حمل‌ونقل",
+      "Beschreibung": "Reisen mit Flugzeug, Zug, Bus, Probleme",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Zugreise im Bahnhof",
+          "ThemaFarsi": "سفر با قطار در ایستگاه",
+          "fileName": "zugreise_bahnhof",
+          "folderPath": "/topics/zugreise_bahnhof"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Fahrradfahren auf dem Fahrradweg",
+          "ThemaFarsi": "دوچرخه‌سواری در خیابان",
+          "fileName": "fahrradfahren",
+          "folderPath": "/topics/fahrradfahren"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Zum Flughafen gehen",
+          "ThemaFarsi": "رفتن به فرودگاه",
+          "fileName": "zum_flughafen",
+          "folderPath": "/topics/zum_flughafen"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Flugreise am Flughafen",
+          "ThemaFarsi": "سفر با هواپیما در فرودگاه",
+          "fileName": "flugreise",
+          "folderPath": "/topics/flugreise"
+        },
+        {
+          "Nr": 5,
+          "Thema": "Check-in am Flughafen",
+          "ThemaFarsi": "چک‌این در فرودگاه",
+          "fileName": "checkin_flughafen",
+          "folderPath": "/topics/checkin_flughafen"
+        },
+        {
+          "Nr": 6,
+          "Thema": "Flugverspätung",
+          "ThemaFarsi": "تأخیر پرواز",
+          "fileName": "flugverspaetung",
+          "folderPath": "/topics/flugverspaetung"
+        },
+        {
+          "Nr": 7,
+          "Thema": "Sicherheitskontrolle",
+          "ThemaFarsi": "کنترل امنیت در فرودگاه",
+          "fileName": "sicherheitskontrolle",
+          "folderPath": "/topics/sicherheitskontrolle"
+        },
+        {
+          "Nr": 8,
+          "Thema": "Verlorenes Gepäck",
+          "ThemaFarsi": "گم شدن چمدان",
+          "fileName": "verlorenes_gepaeck",
+          "folderPath": "/topics/verlorenes_gepaeck"
+        },
+        {
+          "Nr": 9,
+          "Thema": "Gate fragen",
+          "ThemaFarsi": "پرسیدن گیت پرواز",
+          "fileName": "gate_fragen",
+          "folderPath": "/topics/gate_fragen"
+        },
+        {
+          "Nr": 10,
+          "Thema": "Lange Schlangen",
+          "ThemaFarsi": "صف طولانی در فرودگاه",
+          "fileName": "lange_schlangen",
+          "folderPath": "/topics/lange_schlangen"
+        },
+        {
+          "Nr": 11,
+          "Thema": "Warten auf den Zug",
+          "ThemaFarsi": "انتظار قطار در ایستگاه",
+          "fileName": "warten_zug",
+          "folderPath": "/topics/warten_zug"
+        },
+        {
+          "Nr": 12,
+          "Thema": "Zugverspätung",
+          "ThemaFarsi": "تأخیر قطار",
+          "fileName": "zugverspaetung",
+          "folderPath": "/topics/zugverspaetung"
+        },
+        {
+          "Nr": 13,
+          "Thema": "Ticketkontrolle im Zug",
+          "ThemaFarsi": "کنترل بلیط در قطار",
+          "fileName": "ticketkontrolle",
+          "folderPath": "/topics/ticketkontrolle"
+        },
+        {
+          "Nr": 14,
+          "Thema": "Verloren im Bahnhof",
+          "ThemaFarsi": "گم شدن در ایستگاه قطار",
+          "fileName": "verloren_bahnhof",
+          "folderPath": "/topics/verloren_bahnhof"
+        },
+        {
+          "Nr": 15,
+          "Thema": "Überfüllter Zug",
+          "ThemaFarsi": "شلوغی قطار",
+          "fileName": "ueberfuellter_zug",
+          "folderPath": "/topics/ueberfuellter_zug"
+        },
+        {
+          "Nr": 16,
+          "Thema": "Busreise am Busbahnhof",
+          "ThemaFarsi": "سفر با اتوبوس در ایستگاه",
+          "fileName": "busreise",
+          "folderPath": "/topics/busreise"
+        },
+        {
+          "Nr": 17,
+          "Thema": "Verkehrsstau",
+          "ThemaFarsi": "ترافیک در جاده",
+          "fileName": "verkehrsstau",
+          "folderPath": "/topics/verkehrsstau"
+        },
+        {
+          "Nr": 18,
+          "Thema": "Taxi buchen am Flughafen",
+          "ThemaFarsi": "رزرو تاکسی در فرودگاه",
+          "fileName": "taxi_buchen",
+          "folderPath": "/topics/taxi_buchen"
+        },
+        {
+          "Nr": 19,
+          "Thema": "Schiffsreise im Hafen",
+          "ThemaFarsi": "سفر با کشتی در بندر",
+          "fileName": "schiffsreise",
+          "folderPath": "/topics/schiffsreise"
+        },
+        {
+          "Nr": 20,
+          "Thema": "Wetterprobleme auf Reisen",
+          "ThemaFarsi": "مشکلات آب و هوا در سفر",
+          "fileName": "wetterprobleme",
+          "folderPath": "/topics/wetterprobleme"
+        },
+        {
+          "Nr": 21,
+          "Thema": "Pass und Visum",
+          "ThemaFarsi": "پاسپورت و ویزا",
+          "fileName": "pass_visum",
+          "folderPath": "/topics/pass_visum"
+        },
+        {
+          "Nr": 22,
+          "Thema": "Internetprobleme am Flughafen",
+          "ThemaFarsi": "مشکلات اینترنت در فرودگاه",
+          "fileName": "internetprobleme",
+          "folderPath": "/topics/internetprobleme"
+        },
+        {
+          "Nr": 23,
+          "Thema": "Gruppenreise mit Flugzeug",
+          "ThemaFarsi": "سفر گروهی با هواپیما",
+          "fileName": "gruppenreise",
+          "folderPath": "/topics/gruppenreise"
+        },
+        {
+          "Nr": 24,
+          "Thema": "Sitzprobleme im Zug",
+          "ThemaFarsi": "مشکلات صندلی در قطار",
+          "fileName": "sitzprobleme",
+          "folderPath": "/topics/sitzprobleme"
+        },
+        {
+          "Nr": 25,
+          "Thema": "Toilette am Flughafen",
+          "ThemaFarsi": "سرویس بهداشتی در فرودگاه",
+          "fileName": "toilette_flughafen",
+          "folderPath": "/topics/toilette_flughafen"
+        },
+        {
+          "Nr": 26,
+          "Thema": "Fahrrad mitnehmen im Bahnhof",
+          "ThemaFarsi": "سفر با دوچرخه در ایستگاه",
+          "fileName": "fahrrad_bahnhof",
+          "folderPath": "/topics/fahrrad_bahnhof"
+        },
+        {
+          "Nr": 27,
+          "Thema": "Handybatterie leer",
+          "ThemaFarsi": "مشکلات باطری موبایل",
+          "fileName": "handybatterie",
+          "folderPath": "/topics/handybatterie"
+        },
+        {
+          "Nr": 28,
+          "Thema": "Sprachprobleme am Flughafen",
+          "ThemaFarsi": "مشکلات زبان در فرودگاه",
+          "fileName": "sprachprobleme",
+          "folderPath": "/topics/sprachprobleme"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 5,
+      "Gruppe": "Gesundheit und Medizin",
+      "GruppeFarsi": "سلامت و پزشکی",
+      "Beschreibung": "Arztbesuche, Apotheke, einfache Probleme",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Arztbesuch",
+          "ThemaFarsi": "رفتن به دکتر",
+          "fileName": "arztbesuch",
+          "folderPath": "/topics/arztbesuch"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Zahnarztbesuch",
+          "ThemaFarsi": "رفتن به دندان‌پزشک",
+          "fileName": "zahnarztbesuch",
+          "folderPath": "/topics/zahnarztbesuch"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Friseur (Aussehen)",
+          "ThemaFarsi": "رفتن به آرایشگاه",
+          "fileName": "friseur",
+          "folderPath": "/topics/friseur"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Medikamente kaufen",
+          "ThemaFarsi": "خرید دارو",
+          "fileName": "medikamente_kaufen",
+          "folderPath": "/topics/medikamente_kaufen"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 6,
+      "Gruppe": "Bildung und Arbeit",
+      "GruppeFarsi": "آموزش و کار",
+      "Beschreibung": "Schule, Universität, Beruf",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Hobbys in der Schule",
+          "ThemaFarsi": "سرگرمی‌ها در مدرسه",
+          "fileName": "hobbys_schule",
+          "folderPath": "/topics/hobbys_schule"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Arbeit im Büro",
+          "ThemaFarsi": "صحبت در مورد کار در دفتر",
+          "fileName": "arbeit_buero",
+          "folderPath": "/topics/arbeit_buero"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Studium an der Universität",
+          "ThemaFarsi": "درس خواندن در دانشگاه",
+          "fileName": "studium_universitaet",
+          "folderPath": "/topics/studium_universitaet"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Jahreszeiten in der Schule",
+          "ThemaFarsi": "صحبت در مورد فصل‌ها در مدرسه",
+          "fileName": "jahreszeiten_schule",
+          "folderPath": "/topics/jahreszeiten_schule"
+        },
+        {
+          "Nr": 5,
+          "Thema": "Bankbesuch",
+          "ThemaFarsi": "رفتن به بانک",
+          "fileName": "bankbesuch",
+          "folderPath": "/topics/bankbesuch"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 7,
+      "Gruppe": "Freizeit und Sport",
+      "GruppeFarsi": "تفریح و ورزش",
+      "Beschreibung": "Sport, Natur, Freizeitaktivitäten",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Wetter im Park",
+          "ThemaFarsi": "آب و هوا در پارک",
+          "fileName": "wetter_park",
+          "folderPath": "/topics/wetter_park"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Sport im Fitnessstudio",
+          "ThemaFarsi": "ورزش در باشگاه",
+          "fileName": "sport_fitnessstudio",
+          "folderPath": "/topics/sport_fitnessstudio"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Urlaub am Strand",
+          "ThemaFarsi": "تعطیلات در ساحل",
+          "fileName": "urlaub_strand",
+          "folderPath": "/topics/urlaub_strand"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Spazieren im Wald",
+          "ThemaFarsi": "پیاده‌روی در جنگل",
+          "fileName": "spazieren_wald",
+          "folderPath": "/topics/spazieren_wald"
+        },
+        {
+          "Nr": 5,
+          "Thema": "Schwimmen im Schwimmbad",
+          "ThemaFarsi": "شنا در استخر",
+          "fileName": "schwimmen_schwimmbad",
+          "folderPath": "/topics/schwimmen_schwimmbad"
+        },
+        {
+          "Nr": 6,
+          "Thema": "Musik im Konzert",
+          "ThemaFarsi": "صحبت در مورد موسیقی در کنسرت",
+          "fileName": "musik_konzert",
+          "folderPath": "/topics/musik_konzert"
+        },
+        {
+          "Nr": 7,
+          "Thema": "Sport im Stadion",
+          "ThemaFarsi": "صحبت در مورد ورزش در استادیوم",
+          "fileName": "sport_stadion",
+          "folderPath": "/topics/sport_stadion"
+        },
+        {
+          "Nr": 8,
+          "Thema": "Messebesuch",
+          "ThemaFarsi": "رفتن به نمایشگاه",
+          "fileName": "messebesuch",
+          "folderPath": "/topics/messebesuch"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 8,
+      "Gruppe": "Kultur und Besichtigung",
+      "GruppeFarsi": "فرهنگ و بازدید",
+      "Beschreibung": "Kulturelle Orte wie Museum, Kino, Theater",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Bibliothek",
+          "ThemaFarsi": "کتابخانه",
+          "fileName": "bibliothek",
+          "folderPath": "/topics/bibliothek"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Kino",
+          "ThemaFarsi": "سینما",
+          "fileName": "kino",
+          "folderPath": "/topics/kino"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Museumsbesuch",
+          "ThemaFarsi": "بازدید از موزه",
+          "fileName": "museumsbesuch",
+          "folderPath": "/topics/museumsbesuch"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Theaterbesuch",
+          "ThemaFarsi": "رفتن به تئاتر",
+          "fileName": "theaterbesuch",
+          "folderPath": "/topics/theaterbesuch"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 9,
+      "Gruppe": "Haus und Alltag",
+      "GruppeFarsi": "خانه و زندگی روزمره",
+      "Beschreibung": "Tägliche Aktivitäten, Zeit, Post",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Weg fragen in der Stadt",
+          "ThemaFarsi": "پرسیدن راه در شهر",
+          "fileName": "weg_fragen",
+          "folderPath": "/topics/weg_fragen"
+        },
+        {
+          "Nr": 2,
+          "Thema": "Farben im Malergeschäft",
+          "ThemaFarsi": "صحبت در مورد رنگ‌ها در مغازه نقاشی",
+          "fileName": "farben_malergeschäft",
+          "folderPath": "/topics/farben_malergeschaeft"
+        },
+        {
+          "Nr": 3,
+          "Thema": "Postamt",
+          "ThemaFarsi": "رفتن به پست",
+          "fileName": "postamt",
+          "folderPath": "/topics/postamt"
+        },
+        {
+          "Nr": 4,
+          "Thema": "Zeit im Uhrengeschäft",
+          "ThemaFarsi": "صحبت در مورد زمان در ساعت‌سازی",
+          "fileName": "zeit_uhrengeschäft",
+          "folderPath": "/topics/zeit_uhrengeschaeft"
+        },
+        {
+          "Nr": 5,
+          "Thema": "Schlaf im Schlafzimmer",
+          "ThemaFarsi": "صحبت در مورد خواب در اتاق خواب",
+          "fileName": "schlaf_schlafzimmer",
+          "folderPath": "/topics/schlaf_schlafzimmer"
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "id": 10,
+      "Gruppe": "Hotel und Unterkunft",
+      "GruppeFarsi": "هتل و اقامت",
+      "Beschreibung": "Hotelbuchung und Aufenthalt",
+      "Themen": [
+        {
+          "Nr": 1,
+          "Thema": "Zimmer buchen im Hotel",
+          "ThemaFarsi": "رزرو اتاق در هتل",
+          "fileName": "zimmer_hotel",
+          "folderPath": "/topics/zimmer_hotel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+body {
+  background-color: #141d2e;
+  color: #f1c40f;
+  font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  direction: rtl;
+}
+
+h1 {
+  text-align: center;
+  color: #f1c40f;
+  font-size: 1.5em;
+  background: #182236;
+  padding: 15px 0;
+  width: 100%;
+  margin: 10px auto 1px auto;
+  border-bottom: 3px solid #f1c40f;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: block;
+  max-width: 800px;
+  font-weight: 100;
+}
+
+.header span {
+  font-size: 1.2rem;
+  color: #7c87cc;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.accordion {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #2a3955;
+  color: #00ff88;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.accordion-header:hover {
+  background-color: #3a4e73;
+}
+
+.accordion-header.a2 {
+  color: #d3ff02;
+}
+
+.accordion-header .persian-title {
+  text-align: right;
+  flex: 1;
+  font-size: 0.9rem;
+  color: #0e1522;
+}
+
+.accordion-header .german-title {
+  text-align: left;
+  flex: 1;
+  color: #00ff88;
+  font-size: 0.8em;
+  font-weight: normal;
+  direction: ltr;
+}
+
+.accordion-header.a2 .german-title {
+  color: #d3ff02;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  background-color: #182236;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 0px 10px;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+.level-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.level-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid #00ff8847;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.level-item.a2 {
+  border-color: #d3ff0240;
+}
+
+.level-title {
+  font-size: 1.2em;
+  color: #00ff88;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.level-title.a2 {
+  color: #d3ff02;
+}
+
+.level-title .persian-title {
+  text-align: right;
+  flex: 1;
+  font-size: 0.8rem;
+  color: #6a85b6;
+}
+
+.level-title .german-title {
+  text-align: left;
+  flex: 1;
+  color: #00ff88;
+  font-size: 0.8em;
+  font-weight: normal;
+  direction: ltr;
+}
+
+.level-title.a2 .german-title {
+  color: #d3ff02;
+}
+
+.level-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.level-btn {
+  background-color: #1f2d46;
+  color: #00ff88ad;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  flex: 1;
+  text-align: center;
+}
+
+.level-btn.flashcard {
+  background-color: #1f2d46;
+  color: #00ff88ad;
+}
+
+.level-btn:hover {
+  background-color: #26395a;
+  transform: translateY(-2px);
+}
+
+.level-btn.flashcard:hover {
+  background-color: #3a4e73;
+}
+
+.level-btn:active {
+  transform: translateY(0);
+}
+
+.level-btn.a2 {
+  color: #bbd540;
+}
+
+.level-btn.flashcard.a2 {
+  color: #bbd540;
+}
+
+.back-btn {
+  background-color: #101735;
+  color: #4d79ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 1px 1px 10px 10px;
+  cursor: pointer;
+  font-size: 0.8em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 0px auto 10px auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.back-btn:hover {
+  /* background: linear-gradient(135deg, #131c43 0%, #2a3465 100%); */
+  /* transform: scale(1.02); */
+  background-color: #131c43;
+}
+
+@media (max-width: 600px) {
+  html,
+  body {
+    height: 100dvh;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  .accordion-header {
+    font-size: 1.1em;
+    padding: 10px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .accordion-header .persian-title,
+  .accordion-header .german-title {
+    text-align: center;
+  }
+  .accordion-header .german-title {
+    font-size: 0.8em;
+  }
+  .level-item {
+    padding: 8px;
+    border-width: 1.5px;
+  }
+  .level-title {
+    font-size: 1em;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .level-title .persian-title,
+  .level-title .german-title {
+    text-align: center;
+  }
+  .level-title .german-title {
+    font-size: 0.75em;
+  }
+  .level-btn {
+    font-size: 0.8em;
+    padding: 6px 10px;
+  }
+
+  .back-btn {
+    font-size: 0.7em;
+    padding: 8px 15px;
+  }
+}

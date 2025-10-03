@@ -55,7 +55,7 @@ levelButtons.forEach((button) => {
       targetPage = "pages/grammar.html";
     } else {
       targetPage =
-        type === "list" ? "pages/content.html" : "pages/flashcard.html";
+        type === "list" ? "pages/content.html" : type === "flashcard"? "pages/flashcard.html" :"pages/gesprach.html" ;
     }
 
     window.location.href = `${targetPage}?level=${level}`;

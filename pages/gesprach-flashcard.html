@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="../images/128.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="../images/128.png" />
+      <!-- base پیش‌فرض: به پوشه‌ی بالاتر اشاره کند -->
+    <base id="site-base" href="../">
+      <script>
+      (function () {
+        // اگر روی GitHub Pages هستیم، base را به آدرس ریپوی شما تغییر بده
+        if (location.hostname === "mehdishokri985.github.io") {
+          document.getElementById("site-base").setAttribute("href", "/SprachSpark/");
+        }
+      })();
+    </script>
     <title>SprachSpark - Conversation Flashcards</title>
     <link rel="stylesheet" href="../css/font.css" />
     <link rel="stylesheet" href="../css/gesprach-flashcard.css" />

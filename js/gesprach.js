@@ -116,7 +116,7 @@ fetch("json/Gespräch/json-Gesprach-Gruppe.json")
         const level = button.dataset.level;
         // const type = button.dataset.type;
         let targetPage;
-        targetPage = "/pages/gesprach-flashcard.html";
+        targetPage = "pages/gesprach-flashcard.html";
         localStorage.setItem("selectedLevel", JSON.stringify(level));
 
         window.location.href = `${targetPage}`;

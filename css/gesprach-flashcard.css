@@ -1,5 +1,5 @@
 :root {
-  --bg: #141d2e;
+  --bg: #191e29;
   --accent: #f1c40f;
   --card-bg: #2a3b5c;
   --card-back-bg: #433b72;
@@ -52,7 +52,7 @@ h1 {
   overflow-x: hidden;
   height: calc(100dvh - 120px); /* Adjusted for header and back button */
   scrollbar-width: thin;
-  scrollbar-color: #35334561 #141d2e;
+  scrollbar-color: #35334561  #191e29;
   padding: 0px 5px;
 }
 

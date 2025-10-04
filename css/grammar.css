@@ -49,6 +49,8 @@
         .accordion-header:hover {
           background-color: #3a4e73;
         }
+
+       
       }
 
       .accordion-content {
@@ -94,7 +96,7 @@
 
       .grammar-item {
         background-color: #283a5a;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 15px;
         margin-bottom: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -116,8 +118,8 @@
       }
 
       .section-header {
-        background-color: #2a3955;
-        border-radius: 8px;
+        background-color: #242a4ffa;
+        border-radius: 5px;
         padding: 10px;
         cursor: pointer;
         color: #00ff88;
@@ -125,10 +127,14 @@
         text-align: right;
       }
 
+       .section-header:hover {
+          background-color: #202648fa;
+        }
+
       .section-content {
         display: none;
         padding: 10px;
-        background-color: #1f2e4966;
+        background-color: #242a4f91;
         border-radius: 6px;
         margin-bottom: 10px;
         white-space: pre-line;

@@ -119,26 +119,13 @@
         "file": "387_de.mp3"
     },
     {
-        "Filename": "758",
-        "Sound_de": "bringen - bringt - hat gebracht",
-        "root": "حال (Präsens):\nich bringe (من می‌آورم)\ndu bringst (تو می‌آوری)\ner/sie/es bringt (او می‌آورد)\nwir bringen (ما می‌آوریم)\nihr bringt (شما می‌آورید)\nsie/Sie bringen (آن‌ها/شما (محترمانه) می‌آورند)\n\nگذشته ساده (Präteritum):\nich brachte (من آوردم)\ndu brachtest (تو آوردی)\ner/sie/es brachte (او آورد)\nwir brachten (ما آوردیم)\nihr brachtet (شما آوردید)\nsie/Sie brachten (آن‌ها/شما (محترمانه) آوردند)\n\nگذشته کامل (Perfekt):\nich habe gebracht (من آورده‌ام)\ndu hast gebracht (تو آورده‌ای)\ner/sie/es hat gebracht (او آورده است)\nwir haben gebracht (ما آورده‌ایم)\nihr habt gebracht (شما آورده‌اید)\nsie/Sie haben gebracht (آن‌ها/شما (محترمانه) آورده‌اند)\n\nحالت منفی (Präsens):\nich bringe nicht (من نمی‌آورم)\ndu bringst nicht (تو نمی‌آوری)\ner/sie/es bringt nicht (او نمی‌آورد)\nwir bringen nicht (ما نمی‌آوریم)\nihr bringt nicht (شما نمی‌آورید)\nsie/Sie bringen nicht (آن‌ها/شما (محترمانه) نمی‌آورند)",
-        "translate_fa": "آوردن - می‌آورد - آورده است",
-        "file": "758_de.mp3"
-    },
-    {
         "Filename": "979",
         "Sound_de": "einsteigen - steigt ein - ist eingestiegen",
         "root": "حال (Präsens):\nich steige ein (من سوار می‌شوم)\ndu steigst ein (تو سوار می‌شوی)\ner/sie/es steigt ein (او سوار می‌شود)\nwir steigen ein (ما سوار می‌شویم)\nihr steigt ein (شما سوار می‌شوید)\nsie/Sie steigen ein (آن‌ها/شما (محترمانه) سوار می‌شوند)\n\nگذشته ساده (Präteritum):\nich stieg ein (من سوار شدم)\ndu stiegst ein (تو سوار شدی)\ner/sie/es stieg ein (او سوار شد)\nwir stiegen ein (ما سوار شدیم)\nihr stiegt ein (شما سوار شدید)\nsie/Sie stiegen ein (آن‌ها/شما (محترمانه) سوار شدند)\n\nگذشته کامل (Perfekt):\nich bin eingestiegen (من سوار شده‌ام)\ndu bist eingestiegen (تو سوار شده‌ای)\ner/sie/es ist eingestiegen (او سوار شده است)\nwir sind eingestiegen (ما سوار شده‌ایم)\nihr seid eingestiegen (شما سوار شده‌اید)\nsie/Sie sind eingestiegen (آن‌ها/شما (محترمانه) سوار شده‌اند)\n\nحالت منفی (Präsens):\nich steige nicht ein (من سوار نمی‌شوم)\ndu steigst nicht ein (تو سوار نمی‌شوی)\ner/sie/es steigt nicht ein (او سوار نمی‌شود)\nwir steigen nicht ein (ما سوار نمی‌شویم)\nihr steigt nicht ein (شما سوار نمی‌شوید)\nsie/Sie steigen nicht ein (آن‌ها/شما (محترمانه) سوار نمی‌شوند)",
         "translate_fa": "سوار شدن - سوار می‌شود - سوار شده است",
         "file": "979_de.mp3"
     },
-    {
-        "Filename": "995",
-        "Sound_de": "einziehen - zieht ein - ist eingezogen",
-        "root": "حال (Präsens):\nich ziehe ein (من نقل مکان می‌کنم)\ndu ziehst ein (تو نقل مکان می‌کنی)\ner/sie/es zieht ein (او نقل مکان می‌کند)\nwir ziehen ein (ما نقل مکان می‌کنیم)\nihr zieht ein (شما نقل مکان می‌کنید)\nsie/Sie ziehen ein (آن‌ها/شما (محترمانه) نقل مکان می‌کنند)\n\nگذشته ساده (Präteritum):\nich zog ein (من نقل مکان کردم)\ndu zogst ein (تو نقل مکان کردی)\ner/sie/es zog ein (او نقل مکان کرد)\nwir zogen ein (ما نقل مکان کردیم)\nihr zogt ein (شما نقل مکان کردید)\nsie/Sie zogen ein (آن‌ها/شما (محترمانه) نقل مکان کردند)\n\nگذشته کامل (Perfekt):\nich bin eingezogen (من نقل مکان کرده‌ام)\ndu bist eingezogen (تو نقل مکان کرده‌ای)\ner/sie/es ist eingezogen (او نقل مکان کرده است)\nwir sind eingezogen (ما نقل مکان کرده‌ایم)\nihr seid eingezogen (شما نقل مکان کرده‌اید)\nsie/Sie sind eingezogen (آن‌ها/شما (محترمانه) نقل مکان کرده‌اند)\n\nحالت منفی (Präsens):\nich ziehe nicht ein (من نقل مکان نمی‌کنم)\ndu ziehst nicht ein (تو نقل مکان نمی‌کنی)\ner/sie/es zieht nicht ein (او نقل مکان نمی‌کند)\nwir ziehen nicht ein (ما نقل مکان نمی‌کنیم)\nihr zieht nicht ein (شما نقل مکان نمی‌کنید)\nsie/Sie ziehen nicht ein (آن‌ها/شما (محترمانه) نقل مکان نمی‌کنند)",
-        "translate_fa": "اسکان کردن - اسکان می‌کند - اسکان کرده است",
-        "file": "995_de.mp3"
-    },
+
     {
         "Filename": "1710",
         "Sound_de": "kommen - kommt - ist gekommen",
@@ -165,7 +152,7 @@
         "Sound_de": "anmelden (sich) - meldet an - hat angemeldet",
         "root": "حال (Präsens):\nich melde mich an (من ثبت‌نام می‌کنم)\ndu meldest dich an (تو ثبت‌نام می‌کنی)\ner/sie/es meldet sich an (او ثبت‌نام می‌کند)\nwir melden uns an (ما ثبت‌نام می‌کنیم)\nihr meldet euch an (شما ثبت‌نام می‌کنید)\nsie/Sie melden sich an (آن‌ها/شما (محترمانه) ثبت‌نام می‌کنند)\n\nگذشته ساده (Präteritum):\nich meldete mich an (من ثبت‌نام کردم)\ndu meldetest dich an (تو ثبت‌نام کردی)\ner/sie/es meldete sich an (او ثبت‌نام کرد)\nwir meldeten uns an (ما ثبت‌نام کردیم)\nihr meldetet euch an (شما ثبت‌نام کردید)\nsie/Sie meldeten sich an (آن‌ها/شما (محترمانه) ثبت‌نام کردند)\n\nگذشته کامل (Perfekt):\nich habe mich angemeldet (من ثبت‌نام کرده‌ام)\ndu hast dich angemeldet (تو ثبت‌نام کرده‌ای)\ner/sie/es hat sich angemeldet (او ثبت‌نام کرده است)\nwir haben uns angemeldet (ما ثبت‌نام کرده‌ایم)\nihr habt euch angemeldet (شما ثبت‌نام کرده‌اید)\nsie/Sie haben sich angemeldet (آن‌ها/شما (محترمانه) ثبت‌نام کرده‌اند)\n\nحالت منفی (Präsens):\nich melde mich nicht an (من ثبت‌نام نمی‌کنم)\ndu meldest dich nicht an (تو ثبت‌نام نمی‌کنی)\ner/sie/es meldet sich nicht an (او ثبت‌نام نمی‌کند)\nwir melden uns nicht an (ما ثبت‌نام نمی‌کنیم)\nihr meldet euch nicht an (شما ثبت‌نام نمی‌کنید)\nsie/Sie melden sich nicht an (آن‌ها/شما (محترمانه) ثبت‌نام نمی‌کنند)",
         "translate_fa": "ثبت‌نام کردن - ثبت‌نام می‌کند - ثبت‌نام کرده است",
-        "file": ""
+        "file": "393_de.mp3"
     },
     {
         "Filename": "982",
@@ -637,26 +624,13 @@
         "file": "1890_de.mp3"
     },
     {
-        "Filename": "758",
-        "Sound_de": "bringen - bringt - hat gebracht",
-        "root": "حال (Präsens):\nich bringe (من می‌آورم)\ndu bringst (تو می‌آوری)\ner/sie/es bringt (او می‌آورد)\nwir bringen (ما می‌آوریم)\nihr bringt (شما می‌آورید)\nsie/Sie bringen (آن‌ها/شما (محترمانه) می‌آورند)\n\nگذشته ساده (Präteritum):\nich brachte (من آوردم)\ndu brachtest (تو آوردی)\ner/sie/es brachte (او آورد)\nwir brachten (ما آوردیم)\nihr brachtet (شما آوردید)\nsie/Sie brachten (آن‌ها/شما (محترمانه) آوردند)\n\nگذشته کامل (Perfekt):\nich habe gebracht (من آورده‌ام)\ndu hast gebracht (تو آورده‌ای)\ner/sie/es hat gebracht (او آورده است)\nwir haben gebracht (ما آورده‌ایم)\nihr habt gebracht (شما آورده‌اید)\nsie/Sie haben gebracht (آن‌ها/شما (محترمانه) آورده‌اند)\n\nحالت منفی (Präsens):\nich bringe nicht (من نمی‌آورم)\ndu bringst nicht (تو نمی‌آوری)\ner/sie/es bringt nicht (او نمی‌آورد)\nwir bringen nicht (ما نمی‌آوریم)\nihr bringt nicht (شما نمی‌آورید)\nsie/Sie bringen nicht (آن‌ها/شما (محترمانه) نمی‌آورند)",
-        "translate_fa": "آوردن - می‌آورد - آورده است",
-        "file": "758_de.mp3"
-    },
-    {
         "Filename": "2071",
         "Sound_de": "nehmen - nimmt - hat genommen",
         "root": "حال (Präsens):\nich nehme (من می‌گیرم)\ndu nimmst (تو می‌گیری)\ner/sie/es nimmt (او می‌گیرد)\nwir nehmen (ما می‌گیریم)\nihr nehmt (شما می‌گیرید)\nsie/Sie nehmen (آن‌ها/شما (محترمانه) می‌گیرند)\n\nگذشته ساده (Präteritum):\nich nahm (من گرفتم)\ndu nahmst (تو گرفتی)\ner/sie/es nahm (او گرفت)\nwir nahmen (ما گرفتیم)\nihr nahmt (شما گرفتید)\nsie/Sie nahmen (آن‌ها/شما (محترمانه) گرفتند)\n\nگذشته کامل (Perfekt):\nich habe genommen (من گرفته‌ام)\ndu hast genommen (تو گرفته‌ای)\ner/sie/es hat genommen (او گرفته است)\nwir haben genommen (ما گرفته‌ایم)\nihr habt genommen (شما گرفته‌اید)\nsie/Sie haben genommen (آن‌ها/شما (محترمانه) گرفته‌اند)\n\nحالت منفی (Präsens):\nich nehme nicht (من نمی‌گیرم)\ndu nimmst nicht (تو نمی‌گیری)\ner/sie/es nimmt nicht (او نمی‌گیرد)\nwir nehmen nicht (ما نمی‌گیریم)\nihr nehmt nicht (شما نمی‌گیرید)\nsie/Sie nehmen nicht (آن‌ها/شما (محترمانه) نمی‌گیرند)",
         "translate_fa": "گرفتن - می‌گیرد - گرفته است",
         "file": "2071_de.mp3"
     },
-    {
-        "Filename": "1812",
-        "Sound_de": "lassen - lässt - hat gelassen",
-        "root": "حال (Präsens):\nich lasse (من اجازه می‌دهم/می‌گذارم)\ndu lässt (تو اجازه می‌دهی/می‌گذاری)\ner/sie/es lässt (او اجازه می‌دهد/می‌گذارد)\nwir lassen (ما اجازه می‌دهیم/می‌گذاریم)\nihr lasst (شما اجازه می‌دهید/می‌گذارید)\nsie/Sie lassen (آن‌ها/شما (محترمانه) اجازه می‌دهند/می‌گذارند)\n\nگذشته ساده (Präteritum):\nich ließ (من اجازه دادم/گذاشتم)\ndu ließest (تو اجازه دادی/گذاشتی)\ner/sie/es ließ (او اجازه داد/گذاشت)\nwir ließen (ما اجازه دادیم/گذاشتیم)\nihr ließt (شما اجازه دادید/گذاشتید)\nsie/Sie ließen (آن‌ها/شما (محترمانه) اجازه دادند/گذاشتند)\n\nگذشته کامل (Perfekt):\nich habe gelassen (من اجازه داده‌ام/گذاشته‌ام)\ndu hast gelassen (تو اجازه داده‌ای/گذاشته‌ای)\ner/sie/es hat gelassen (او اجازه داده است/گذاشته است)\nwir haben gelassen (ما اجازه داده‌ایم/گذاشته‌ایم)\nihr habt gelassen (شما اجازه داده‌اید/گذاشته‌اید)\nsie/Sie haben gelassen (آن‌ها/شما (محترمانه) اجازه داده‌اند/گذاشته‌اند)\n\nحالت منفی (Präsens):\nich lasse nicht (من اجازه نمی‌دهم/نمی‌گذارم)\ndu lässt nicht (تو اجازه نمی‌دهی/نمی‌گذاری)\ner/sie/es lässt nicht (او اجازه نمی‌دهد/نمی‌گذارد)\nwir lassen nicht (ما اجازه نمی‌دهیم/نمی‌گذاریم)\nihr lasst nicht (شما اجازه نمی‌دهید/نمی‌گذارید)\nsie/Sie lassen nicht (آن‌ها/شما (محترمانه) اجازه نمی‌دهند/نمی‌گذارند)",
-        "translate_fa": "رها کردن / اجازه دادن - رها می‌کند - رها کرده است",
-        "file": "1812_de.mp3"
-    },
+
     {
         "Filename": "1831",
         "Sound_de": "legen - legt - hat gelegt",

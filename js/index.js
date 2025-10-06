@@ -59,8 +59,8 @@ levelButtons.forEach((button) => {
           ? "pages/content.html"
           : type === "flashcard"
           ? "pages/flashcard.html"
-          : type === "path"
-          ? "pages/path.html"
+          : type === "box"
+          ? "pages/box.html"
           : "pages/gesprach.html";
     }
 

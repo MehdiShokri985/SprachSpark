@@ -63,13 +63,6 @@
         "file": "310_de.mp3"
     },
     {
-        "Filename": "1812",
-        "Sound_de": "lassen - lässt - hat gelassen",
-        "root": "حال (Präsens):\nich lasse (من اجازه می‌دهم/می‌گذارم)\ndu lässt (تو اجازه می‌دهی/می‌گذاری)\ner/sie/es lässt (او اجازه می‌دهد/می‌گذارد)\nwir lassen (ما اجازه می‌دهیم/می‌گذاریم)\nihr lasst (شما اجازه می‌دهید/می‌گذارید)\nsie/Sie lassen (آن‌ها/شما (محترمانه) اجازه می‌دهند/می‌گذارند)\n\nگذشته ساده (Präteritum):\nich ließ (من اجازه دادم/گذاشتم)\ndu ließest (تو اجازه دادی/گذاشتی)\ner/sie/es ließ (او اجازه داد/گذاشت)\nwir ließen (ما اجازه دادیم/گذاشتیم)\nihr ließt (شما اجازه دادید/گذاشتید)\nsie/Sie ließen (آن‌ها/شما (محترمانه) اجازه دادند/گذاشتند)\n\nگذشته کامل (Perfekt):\nich habe gelassen (من اجازه داده‌ام/گذاشته‌ام)\ndu hast gelassen (تو اجازه داده‌ای/گذاشته‌ای)\ner/sie/es hat gelassen (او اجازه داده است/گذاشته است)\nwir haben gelassen (ما اجازه داده‌ایم/گذاشته‌ایم)\nihr habt gelassen (شما اجازه داده‌اید/گذاشته‌اید)\nsie/Sie haben gelassen (آن‌ها/شما (محترمانه) اجازه داده‌اند/گذاشته‌اند)\n\nحالت منفی (Präsens):\nich lasse nicht (من اجازه نمی‌دهم/نمی‌گذارم)\ndu lässt nicht (تو اجازه نمی‌دهی/نمی‌گذاری)\ner/sie/es lässt nicht (او اجازه نمی‌دهد/نمی‌گذارد)\nwir lassen nicht (ما اجازه نمی‌دهیم/نمی‌گذاریم)\nihr lasst nicht (شما اجازه نمی‌دهید/نمی‌گذارید)\nsie/Sie lassen nicht (آن‌ها/شما (محترمانه) اجازه نمی‌دهند/نمی‌گذارند)",
-        "translate_fa": "رها کردن / اجازه دادن - رها می‌کند - رها کرده است",
-        "file": "1812_de.mp3"
-    },
-    {
         "Filename": "314",
         "Sound_de": "abschließen - schließt ab - hat abgeschlossen",
         "root": "حال (Präsens):\nich schließe ab (من تمام می‌کنم/قفل می‌کنم)\ndu schließt ab (تو تمام می‌کنی/قفل می‌کنی)\ner/sie/es schließt ab (او تمام می‌کند/قفل می‌کند)\nwir schließen ab (ما تمام می‌کنیم/قفل می‌کنیم)\nihr schließt ab (شما تمام می‌کنید/قفل می‌کنید)\nsie/Sie schließen ab (آن‌ها/شما (محترمانه) تمام می‌کنند/قفل می‌کنند)\n\nگذشته ساده (Präteritum):\nich schloss ab (من تمام کردم/قفل کردم)\ndu schlossest ab (تو تمام کردی/قفل کردی)\ner/sie/es schloss ab (او تمام کرد/قفل کرد)\nwir schlossen ab (ما تمام کردیم/قفل کردیم)\nihr schlosst ab (شما تمام کردید/قفل کردید)\nsie/Sie schlossen ab (آن‌ها/شما (محترمانه) تمام کردند/قفل کردند)\n\nگذشته کامل (Perfekt):\nich habe abgeschlossen (من تمام کرده‌ام/قفل کرده‌ام)\ndu hast abgeschlossen (تو تمام کرده‌ای/قفل کرده‌ای)\ner/sie/es hat abgeschlossen (او تمام کرده است/قفل کرده است)\nwir haben abgeschlossen (ما تمام کرده‌ایم/قفل کرده‌ایم)\nihr habt abgeschlossen (شما تمام کرده‌اید/قفل کرده‌اید)\nsie/Sie haben abgeschlossen (آن‌ها/شما (محترمانه) تمام کرده‌اند/قفل کرده‌اند)\n\nحالت منفی (Präsens):\nich schließe nicht ab (من تمام نمی‌کنم/قفل نمی‌کنم)\ndu schließt nicht ab (تو تمام نمی‌کنی/قفل نمی‌کنی)\ner/sie/es schließt nicht ab (او تمام نمی‌کند/قفل نمی‌کند)\nwir schließen nicht ab (ما تمام نمی‌کنیم/قفل نمی‌کنیم)\nihr schließt nicht ab (شما تمام نمی‌کنید/قفل نمی‌کنید)\nsie/Sie schließen nicht ab (آن‌ها/شما (محترمانه) تمام نمی‌کنند/قفل نمی‌کنند)",
@@ -124,13 +117,6 @@
         "root": "حال (Präsens):\nich komme an (من می‌رسم)\ndu kommst an (تو می‌رسی)\ner/sie/es kommt an (او می‌رسد)\nwir kommen an (ما می‌رسیم)\nihr kommt an (شما می‌رسید)\nsie/Sie kommen an (آن‌ها/شما (محترمانه) می‌رسند)\n\nگذشته ساده (Präteritum):\nich kam an (من رسیدم)\ndu kamst an (تو رسیدی)\ner/sie/es kam an (او رسید)\nwir kamen an (ما رسیدیم)\nihr kamt an (شما رسیدید)\nsie/Sie kamen an (آن‌ها/شما (محترمانه) رسیدند)\n\nگذشته کامل (Perfekt):\nich bin angekommen (من رسیده‌ام)\ndu bist angekommen (تو رسیده‌ای)\ner/sie/es ist angekommen (او رسیده است)\nwir sind angekommen (ما رسیده‌ایم)\nihr seid angekommen (شما رسیده‌اید)\nsie/Sie sind angekommen (آن‌ها/شما (محترمانه) رسیده‌اند)\n\nحالت منفی (Präsens):\nich komme nicht an (من نمی‌رسم)\ndu kommst nicht an (تو نمی‌رسی)\ner/sie/es kommt nicht an (او نمی‌رسد)\nwir kommen nicht an (ما نمی‌رسیم)\nihr kommt nicht an (شما نمی‌رسید)\nsie/Sie kommen nicht an (آن‌ها/شما (محترمانه) نمی‌رسند)",
         "translate_fa": "رسیدن - می‌رسد - رسیده است",
         "file": "387_de.mp3"
-    },
-    {
-        "Filename": "646",
-        "Sound_de": "geben - gibt - hat gegeben",
-        "root": "حال (Präsens):\nich gebe (من می‌دهم)\ndu gibst (تو می‌دهی)\ner/sie/es gibt (او می‌دهد)\nwir geben (ما می‌دهیم)\nihr gebt (شما می‌دهید)\nsie/Sie geben (آن‌ها/شما (محترمانه) می‌دهند)\n\nگذشته ساده (Präteritum):\nich gab (من دادم)\ndu gabst (تو دادی)\ner/sie/es gab (او داد)\nwir gaben (ما دادیم)\nihr gabt (شما دادید)\nsie/Sie gaben (آن‌ها/شما (محترمانه) دادند)\n\nگذشته کامل (Perfekt):\nich habe gegeben (من داده‌ام)\ndu hast gegeben (تو داده‌ای)\ner/sie/es hat gegeben (او داده است)\nwir haben gegeben (ما داده‌ایم)\nihr habt gegeben (شما داده‌اید)\nsie/Sie haben gegeben (آن‌ها/شما (محترمانه) داده‌اند)\n\nحالت منفی (Präsens):\nich gebe nicht (من نمی‌دهم)\ndu gibst nicht (تو نمی‌دهی)\ner/sie/es gibt nicht (او نمی‌دهد)\nwir geben nicht (ما نمی‌دهیم)\nihr gebt nicht (شما نمی‌دهید)\nsie/Sie geben nicht (آن‌ها/شما (محترمانه) نمی‌دهند)",
-        "translate_fa": "دادن - می‌دهد - داده است",
-        "file": "646_de.mp3"
     },
     {
         "Filename": "758",

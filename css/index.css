@@ -20,6 +20,7 @@
         display: block;
         max-width: 800px;
         font-weight: 100;
+            text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
       }
 
       .header span {
@@ -31,6 +32,7 @@
         max-width: 800px;
         margin: 10px auto 10px auto;
         position: relative;
+            text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
       }
 
       .accordion {
@@ -120,6 +122,7 @@
         transition: background-color 0.3s ease, transform 0.2s ease;
         flex: 1;
         text-align: center;
+            text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
       }
 
       .level-btn.flashcard {

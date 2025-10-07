@@ -19,6 +19,7 @@ body {
   direction: rtl;
   overflow: hidden; /* Prevent body scrolling */
   user-select: none;
+   text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
 }
 
 h1 {
@@ -34,6 +35,10 @@ h1 {
   display: block;
   max-width: 800px;
   font-weight: 100;
+}
+
+button{
+        text-shadow: 1px 1px 4px rgb(0 0 0 / 64%);
 }
 
 .container {

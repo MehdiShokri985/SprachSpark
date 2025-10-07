@@ -20,6 +20,11 @@ body {
   direction: rtl;
   overflow-x: hidden;
   user-select: none;
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
+}
+
+button{
+        text-shadow: 1px 1px 4px rgb(0 0 0 / 64%);
 }
 
 h1 {

@@ -5,6 +5,7 @@
         margin: 0;
         direction: rtl;
         padding: 0px 20px 0px 20px;
+        text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
       }
 
       h1 {
@@ -21,6 +22,11 @@
         max-width: 800px;
         font-weight: 100;
       }
+
+      button{
+        text-shadow: 1px 1px 4px rgb(0 0 0 / 64%);
+}
+
 
       .container {
         max-width: 800px;

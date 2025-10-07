@@ -414,6 +414,7 @@ h1 {
   margin: auto;
   border-radius: 8px;
   width: 90%;
+  text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
   /* background: #25375852; */
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); */
 }

@@ -40,7 +40,7 @@ h1 {
   max-width: 800px;
   font-weight: 300;
   margin-top: 20px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 .container {
   max-width: 800px;
@@ -370,11 +370,13 @@ h1 {
   border-radius: 8px;
   /* background: #44609417; */
   width: 90%;
+  text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); */
 }
 .translate.sentence-translate {
   margin-top: 10px;
   font-size: 1em;
+  text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
   /* background: #2c3455; */
 }
 
@@ -633,8 +635,8 @@ background: #3c448e;
   background: linear-gradient(45deg, #101735, #1e2a44);
   color: #4d79ff;
   border: none;
-  padding: 12px 24px;
-  border-radius: 4px 4px 12px 12px;
+  padding: 6px 24px;
+  border-radius: 0px 0px 12px 12px;
   cursor: pointer;
   font-size: 0.9em;
   font-weight: 600;
@@ -648,7 +650,7 @@ background: #3c448e;
 }
 .back-btn:hover {
   background: linear-gradient(45deg, #131c43, #2a3b66);
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
 }
 .zero {
   color: #f34e4e;

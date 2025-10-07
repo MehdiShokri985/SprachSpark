@@ -237,13 +237,13 @@ h1 {
   gap: 10px;
 }
 .selection-btn {
-  color: #03081c;
+  color: #ffffff;
   border: none;
   padding: 6px 24px;
   border-radius: 6px;
   cursor: pointer;
   font-size: 1em;
-  font-weight: 600;
+  /* font-weight: 600; */
   transition: background-color 0.2s ease, transform 0.2s ease,
     box-shadow 0.2s ease;
   box-shadow: var(--shadow);
@@ -251,13 +251,13 @@ h1 {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 .selection-btn.level-0 {
- background: #c7322fd1
+ background: #ff4761;
 }
 .selection-btn.level-50 {
- background: #999b14db;
+ background: #ceaf39;
 }
 .selection-btn.level-100 {
- background: #149b2ad1
+ background: #0bba74;
 
 }
 .selection-btn:hover {
@@ -545,11 +545,7 @@ background: #3c448e;
   pointer-events: auto;
 }
 .modal-content {
-  background: linear-gradient(
-    135deg,
-    rgba(40, 58, 90, 0.9),
-    rgba(30, 34, 53, 0.9)
-  );
+  background: #1d2940f2;
   margin: auto;
   padding: 30px 20px 10px 20px;
   border-radius: 12px;
@@ -577,7 +573,7 @@ background: #3c448e;
   background: #7799ed;
 }
 #modalRootHeader {
-  color: #da7bff;
+  color: #0043ff;
   text-align: left;
   direction: ltr;
   font-size: 1.1rem;
@@ -590,7 +586,7 @@ background: #3c448e;
   max-height: 60vh;
   overflow: auto;
   font-size: 0.9em;
-  background: #1d2940;
+  background: #161f310f;
   border-radius: 10px;
   padding: 10px;
   color: #cccccc;

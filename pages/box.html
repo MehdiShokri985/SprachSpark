@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="../images/128.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="../images/128.png" />
-    <title>SprachSpark - Content (Refactor)</title>
+    <title>SprachSpark - Trainingsbox</title>
     <link rel="stylesheet" href="../css/font.css" />
-   <link rel="stylesheet" href="../css/box.css?v=1.1" />
+   <link rel="stylesheet" href="../css/box.css?v=1.2" />
   </head>
+  <body>
   <body>
     <h1 class="header"></h1>
     <div class="container">
-      <button class="back-btn">Zurück zu den Hauptgruppen</button>
-      <div class="content path-container">
+      <button class="back-btn">Zurück zur Hauptseite</button>
+      <div class="content path-container" style="display: none;">
         <div class="box-title zero">Lernen 0%</div>
         <div id="box0" class="box"></div>
         <div class="box-title fifty">Lernen 50%</div>
         <div id="box50" class="box"></div>
         <div class="box-title hundred">Lernen 100%</div>
         <div id="box100" class="box"></div>
+      </div>
+      <div class="group-container">
+        <div class="group-title">Gruppen</div>
+        <div id="groupBox" class="group-box"></div>
       </div>
     </div>
     <div id="rootModal" class="modal">
@@ -31,6 +36,9 @@
       </div>
     </div>
     <div id="flashcardPopup" class="flashcard-popup"></div>
-     <script src="../js/box.js?v=1.1"></script>
+     
+     <script src="../js/box.js?v=1.2"></script>
   </body>
 </html>
+
+

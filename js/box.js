@@ -1,4 +1,4 @@
-const container = document.querySelector(".content");
+const container = document.querySelector(".container");
 const rootModal = document.getElementById("rootModal");
 const modalRootContent = document.getElementById("modalRootContent");
 const modalRootHeader = document.getElementById("modalRootHeader");
@@ -11,27 +11,34 @@ const flashcardPopup = document.getElementById("flashcardPopup");
 const box0 = document.getElementById("box0");
 const box50 = document.getElementById("box50");
 const box100 = document.getElementById("box100");
+const groupBox = document.getElementById("groupBox");
+const pathContainer = document.querySelector(".path-container");
+const groupContainer = document.querySelector(".group-container");
 const levelConfig = {
   A1: {
     jsonFile: "../json/json-A1.json",
+    jsonParentFile: "../json/json-A1.json",
     audioPath: "../audio-A1",
     headerText: "A1 WORTLISTE",
     headerClass: "color-a1",
   },
   A2: {
     jsonFile: "../json/json-A2.json",
+    jsonParentFile: "../json/json-A2.json",
     audioPath: "../audio-A2",
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",
   },
   "A1 VERBEN": {
     jsonFile: "../json/json-verb-A1.json",
+    jsonParentFile: "../json/json-A1.json",
     audioPath: "../audio-A1",
     headerText: "A1 VERBEN",
     headerClass: "color-a1",
   },
   "A2 VERBEN": {
     jsonFile: "../json/json-verb-A2.json",
+    jsonParentFile: "../json/json-A2.json",
     audioPath: "../audio-A2",
     headerText: "A2 VERBEN",
     headerClass: "color-a2",
@@ -50,56 +57,67 @@ const levelConfig = {
   },
   "A1 Gruppierte Worter": {
     jsonFile: "../json/json-Gruppierte-worterA1.json",
+    jsonParentFile: "../json/json-A1.json",
     audioPath: "../audio-A1",
     headerText: "A1 Gruppierte Worter",
     headerClass: "color-a1",
   },
   "A2 Gruppierte Worter": {
     jsonFile: "../json/json-Gruppierte-worterA2.json",
+    jsonParentFile: "../json/json-A2.json",
     audioPath: "../audio-A2",
     headerText: "A2 Gruppierte Worter",
     headerClass: "color-a2",
   },
   "A1 Synonyms worter": {
     jsonFile: "../json/json-Synonyms-worterA1.json",
+    jsonParentFile: "../json/json-A1.json",
     audioPath: "../audio-A1",
     headerText: "A1 Synonyms worter",
     headerClass: "color-a1",
   },
   "A2 Synonyms worter": {
     jsonFile: "../json/json-Synonyms-worterA2.json",
+    jsonParentFile: "../json/json-A2.json",
     audioPath: "../audio-A2",
     headerText: "A2 Synonyms worter",
     headerClass: "color-a2",
   },
   "A1 Synonyms verb": {
     jsonFile: "../json/json-Synonyms-verbA1.json",
+    jsonParentFile: "../json/json-A1.json",
     audioPath: "../audio-A1",
     headerText: "A1 Synonyms verb",
     headerClass: "color-a1",
   },
   "A2 Synonyms verb": {
     jsonFile: "../json/json-Synonyms-verbA2.json",
+    jsonParentFile: "../json/json-A2.json",
     audioPath: "../audio-A2",
     headerText: "A2 Synonyms verb",
     headerClass: "color-a2",
   },
   worter_A1: {
     jsonFile: "../json/json-worter-A1.json",
+    jsonParentFile: "../json/json-A1.json",
     audioPath: "../audio-A1",
     headerText: "A1 WORTLISTE",
     headerClass: "color-a1",
   },
   worter_A2: {
     jsonFile: "../json/json-worter-A2.json",
+    jsonParentFile: "../json/json-A2.json",
     audioPath: "../audio-A2",
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",
   },
 };
 let itemsData = [];
+let parentData = [];
 let nodeStates = [];
 let nodeViewCounts = [];
+let currentGroupStart = -1;
+const groupSize = 50;
 window.addEventListener("load", () => {
   if (level && levelConfig[level]) {
     const config = levelConfig[level];
@@ -113,11 +131,20 @@ window.addEventListener("load", () => {
       })
       .then((data) => {
         itemsData = data;
-        nodeStates = new Array(data.length).fill("0");
-        nodeViewCounts = new Array(data.length).fill(0);
-        renderPath(data, config.headerClass);
+        // console.log(config.jsonParentFile);
+        return fetch(config.jsonParentFile);
+      })
+      .then((r) => {
+        if (!r.ok) throw new Error("Failed to load parent JSON file");
+        return r.json();
+      })
+      .then((pdata) => {
+        parentData = pdata;
+        nodeStates = new Array(itemsData.length).fill("0");
+        nodeViewCounts = new Array(itemsData.length).fill(0);
         header.style.display = "block";
         backButton.style.display = "block";
+        renderGroups(config.headerClass);
       })
       .catch((err) => {
         container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${err.message}</div>`;
@@ -130,25 +157,54 @@ window.addEventListener("load", () => {
     backButton.style.display = "none";
   }
 });
-function renderPath(items, headerClass) {
+function renderGroups(headerClass) {
+  groupContainer.style.display = "block";
+  pathContainer.style.display = "none";
+  backButton.textContent = "Zurück zur Hauptseite";
+  groupBox.innerHTML = "";
+  const numGroups = Math.ceil(itemsData.length / groupSize);
+  for (let i = 0; i < numGroups; i++) {
+    const groupNode = document.createElement("div");
+    groupNode.className = "group-node";
+    const start = i * groupSize + 1;
+    const end = Math.min((i + 1) * groupSize, itemsData.length);
+    groupNode.textContent = `${start}-${end}`;
+    groupNode.dataset.groupIndex = i;
+    groupNode.addEventListener("click", () => showGroup(i));
+    groupBox.appendChild(groupNode);
+  }
+}
+function showGroup(groupIndex) {
+  currentGroupStart = groupIndex * groupSize;
+  const groupItems = itemsData.slice(
+    currentGroupStart,
+    currentGroupStart + groupSize
+  );
+  renderPath(groupItems, currentGroupStart);
+  groupContainer.style.display = "none";
+  pathContainer.style.display = "block";
+  backButton.textContent = "Zurück zu den Gruppen";
+}
+function renderPath(items, startIndex) {
   box0.innerHTML = "";
   box50.innerHTML = "";
   box100.innerHTML = "";
-  items.forEach((item, index) => {
+  items.forEach((item, localIndex) => {
+    const globalIndex = startIndex + localIndex;
     const node = document.createElement("div");
-    node.className = `node node-${nodeStates[index]}`;
-    node.textContent = index + 1;
-    node.dataset.index = index;
+    node.className = `node node-${nodeStates[globalIndex]}`;
+    node.textContent = globalIndex + 1;
+    node.dataset.index = globalIndex;
     const counter = document.createElement("div");
     counter.className = "node-counter";
-    counter.textContent = nodeViewCounts[index];
-    if (nodeViewCounts[index] > 0) {
+    counter.textContent = nodeViewCounts[globalIndex];
+    if (nodeViewCounts[globalIndex] > 0) {
       counter.classList.add("visible");
     }
     node.appendChild(counter);
-    const targetBox = getBoxByLevel(nodeStates[index]);
+    const targetBox = getBoxByLevel(nodeStates[globalIndex]);
     targetBox.appendChild(node);
-    node.addEventListener("click", () => showFlashcardPopup(index));
+    node.addEventListener("click", () => showFlashcardPopup(globalIndex));
   });
 }
 function getBoxByLevel(level) {
@@ -156,23 +212,19 @@ function getBoxByLevel(level) {
   if (level === "100") return box100;
   return box0;
 }
-function createFlashcard(item, index, audioPath) {
-  const mainItem = item;
-  const mainSoundDe = (mainItem.Sound_de || "").trim();
-  const isMainSentence = /[.!?]$/.test(mainSoundDe);
+function getSoundDetails(itm) {
+  if (!itm) return { soundContent: "", colorClass: "", isSentence: false };
+  const mainSoundDe = (itm.Sound_de || "").trim();
+  const isSentence = /[.!?,]$/.test(mainSoundDe);
   let colorClass = "";
-  if (!isMainSentence) {
+  if (!isSentence) {
     const lower = mainSoundDe.toLowerCase();
     if (lower.startsWith("die ")) colorClass = "pink-text";
     else if (lower.startsWith("der ")) colorClass = "blue-text";
     else if (lower.startsWith("das ")) colorClass = "green-text";
   }
-  const itemNumber = index + 1;
-  const flashcardDiv = document.createElement("div");
-  flashcardDiv.className = "flashcard";
-  flashcardDiv.dataset.index = index;
   let soundContent = mainSoundDe;
-  if (isMainSentence) {
+  if (isSentence) {
     const segments = mainSoundDe.split(" ").filter(Boolean);
     let currentIndex = 0;
     soundContent = segments
@@ -200,7 +252,7 @@ function createFlashcard(item, index, audioPath) {
           }
           return { match: false, length: 1, phraseWords: [] };
         };
-        let result = checkMultiWord(mainItem.subject, idx);
+        let result = checkMultiWord(itm.subject, idx);
         if (result.match) {
           const phrase = result.phraseWords
             .map(
@@ -213,7 +265,7 @@ function createFlashcard(item, index, audioPath) {
           currentIndex = idx + result.length;
           return `<span class="subject">${phrase}</span>`;
         }
-        result = checkMultiWord(mainItem.object, idx);
+        result = checkMultiWord(itm.object, idx);
         if (result.match) {
           const phrase = result.phraseWords
             .map(
@@ -228,17 +280,17 @@ function createFlashcard(item, index, audioPath) {
         }
         const clean = cleanWord;
         let cls = "";
-        if (mainItem.auxiliary_verb?.some((a) => a?.toLowerCase() === clean))
+        if (itm.auxiliary_verb?.some((a) => a?.toLowerCase() === clean))
           cls = "aux-verb";
-        else if (mainItem.subject?.some((s) => s?.toLowerCase() === clean))
+        else if (itm.subject?.some((s) => s?.toLowerCase() === clean))
           cls = "subject";
-        else if (mainItem.verb?.some((v) => v?.toLowerCase() === clean))
+        else if (itm.verb?.some((v) => v?.toLowerCase() === clean))
           cls = "verb";
-        else if (mainItem.verb_part1?.some((vp) => vp?.toLowerCase() === clean))
+        else if (itm.verb_part1?.some((vp) => vp?.toLowerCase() === clean))
           cls = "verb_part1";
-        else if (mainItem.verb_part2?.some((vp) => vp?.toLowerCase() === clean))
+        else if (itm.verb_part2?.some((vp) => vp?.toLowerCase() === clean))
           cls = "verb_part2";
-        else if (mainItem.object?.some((o) => o?.toLowerCase() === clean))
+        else if (itm.object?.some((o) => o?.toLowerCase() === clean))
           cls = "object";
         currentIndex = idx + 1;
         return `<span class="${cls}">${word.replace(
@@ -249,19 +301,80 @@ function createFlashcard(item, index, audioPath) {
       .filter(Boolean)
       .join(" ");
   }
+  return { soundContent, colorClass, isSentence };
+}
+function createFlashcard(item, index, audioPath) {
+  const mainItem = item;
+  const itemNumber = index + 1;
+  const mainSoundDetails = getSoundDetails(mainItem);
+  const soundContent = mainSoundDetails.soundContent;
+  const colorClass = mainSoundDetails.colorClass;
+  const isMainSentence = mainSoundDetails.isSentence;
+
+  let sentenceItem = null;
+  if (mainItem.Filename) {
+    const filenameNum = parseInt(mainItem.Filename);
+
+    if (!isNaN(filenameNum)) {
+      const sentenceNum = filenameNum + 1;
+      const sentenceIndex = sentenceNum - 1;
+      if (sentenceIndex >= 0 && sentenceIndex < parentData.length) {
+        // const potentialSentence = parentData[sentenceIndex];
+        const potentialSentence = parentData.filter(
+          (sentences) => sentences.Filename == sentenceIndex + 1
+        )[0];
+        //  console.log(potentialSentence)
+        const soundDe = potentialSentence.Sound_de || "";
+        if (/[.!?,]$/.test(soundDe)) {
+          sentenceItem = potentialSentence;
+        }
+      }
+      //  console.log(parentData);
+      //  console.log(filenameNum,sentenceIndex)
+    }
+  }
+
+  const sentenceSoundDetails = getSoundDetails(sentenceItem);
+  const sentenceSoundContent = sentenceSoundDetails.soundContent;
+  const sentenceColorClass = sentenceSoundDetails.colorClass;
+  const isSentenceSentence = sentenceSoundDetails.isSentence;
+
+  const flashcardDiv = document.createElement("div");
+  flashcardDiv.className = "flashcard";
+  flashcardDiv.dataset.index = index;
+  const withSentenceClass = sentenceItem ? "with-sentence" : "";
   flashcardDiv.innerHTML = `
           <div class="flashcard-inner">
-            <div class="flashcard-front">
+            <div class="flashcard-front ${withSentenceClass}">
               <div class="item-top">
                 <div class="filename">${itemNumber}</div>
               </div>
               <div class="translate">${mainItem.translate_fa || ""}</div>
+              ${
+                sentenceItem
+                  ? `
+                <div class="translate sentence-translate">${
+                  sentenceItem.translate_fa || ""
+                }</div>
+              `
+                  : ""
+              }
             </div>
-            <div class="flashcard-back">
+            <div class="flashcard-back ${withSentenceClass}">
               <div class="item-top">
                 <div class="filename">${itemNumber}</div>
               </div>
-              <div class="item-bottom">
+              ${
+                mainItem.root?.trim()
+                  ? `
+                <div class="root-icon word-root-icon">i</div>
+                <div class="root-icon word-root-icon" style="display: none;" data-root-content='${JSON.stringify(
+                  { root: mainItem.root, Sound_de: mainItem.Sound_de }
+                )}'></div>
+              `
+                  : ""
+              }
+              <div class="sound-container">
                 <div class="sound ${isMainSentence ? "sentence" : ""} ${
     isMainSentence ? "" : colorClass
   }">${soundContent}</div>
@@ -271,45 +384,83 @@ function createFlashcard(item, index, audioPath) {
   }" preload="none"></audio>
                   <button class="play-btn" type="button">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4 1.8C11.5532 0.262376 14 1.07799 14 3.00001V21.1214C14 23.0539 11.5313 23.8627 10.3878 22.3049L6.49356 17H4C2.34315 17 1 15.6569 1 14V10C1 8.34315 2.34315 7 4 7H6.5L10.4 1.8ZM12 3L8.1 8.2C7.72229 8.70361 7.12951 9 6.5 9H4C3.44772 9 3 9.44772 3 10V14C3 14.5523 3.44772 15 4 15H6.49356C7.13031 15 7.72901 15.3032 8.10581 15.8165L12 21.1214V3Z"/>
-                      <path d="M16.2137 4.17445C16.1094 3.56451 16.5773 3 17.1961 3C17.6635 3 18.0648 3.328 18.1464 3.78824C18.4242 5.35347 19 8.96465 19 12C19 15.0353 18.4242 18.6465 18.1464 20.2118C18.0648 20.672 17.6635 21 17.1961 21C16.5773 21 16.1094 20.4355 16.2137 19.8256C16.5074 18.1073 17 14.8074 17 12C17 9.19264 16.5074 5.8927 16.2137 4.17445Z"/>
-                      <path d="M21.41 5C20.7346 5 20.2402 5.69397 20.3966 6.35098C20.6758 7.52413 21 9.4379 21 12C21 14.5621 20.6758 16.4759 20.3966 17.649C20.2402 18.306 20.7346 19 21.41 19C21.7716 19 22.0974 18.7944 22.2101 18.4509C22.5034 17.5569 23 15.5233 23 12C23 8.47672 22.5034 6.44306 22.2101 5.54913C22.0974 5.20556 21.7716 5 21.41 5Z"/>
-                    </svg>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4 1.8C11.5532 0.262376 14 1.07799 14 3.00001V21.1214C14 23.0539 11.5313 23.8627 10.3878 22.3049L6.49356 17H4C2.34315 17 1 15.6569 1 14V10C1 8.34315 2.34315 7 4 7H6.5L10.4 1.8ZM12 3L8.1 8.2C7.72229 8.70361 7.12951 9 6.5 9H4C3.44772 9 3 9.44772 3 10V14C3 14.5523 3.44772 15 4 15H6.49356C7.13031 15 7.72901 15.3032 8.10581 15.8165L12 21.1214V3Z"/>
+              <path d="M16.2137 4.17445C16.1094 3.56451 16.5773 3 17.1961 3C17.6635 3 18.0648 3.328 18.1464 3.78824C18.4242 5.35347 19 8.96465 19 12C19 15.0353 18.4242 18.6465 18.1464 20.2118C18.0648 20.672 17.6635 21 17.1961 21C16.5773 21 16.1094 20.4355 16.2137 19.8256C16.5074 18.1073 17 14.8074 17 12C17 9.19264 16.5074 5.8927 16.2137 4.17445Z"/>
+              <path d="M21.41 5C20.7346 5 20.2402 5.69397 20.3966 6.35098C20.6758 7.52413 21 9.4379 21 12C21 14.5621 20.6758 16.4759 20.3966 17.649C20.2402 18.306 20.7346 19 21.41 19C21.7716 19 22.0974 18.7944 22.2101 18.4509C22.5034 17.5569 23 15.5233 23 12C23 8.47672 22.5034 6.44306 22.2101 5.54913C22.0974 5.20556 21.7716 5 21.41 5Z"/>
+            </svg>
                   </button>
                 </div>
               </div>
+              ${
+                sentenceItem
+                  ? `
+                ${
+                  sentenceItem.root?.trim()
+                    ? `
+                  <div class="root-icon sentence-root-icon">!</div>
+                  <div class="root-icon sentence-root-icon" style="display: none;" data-root-content='${JSON.stringify(
+                    { root: sentenceItem.root, Sound_de: sentenceItem.Sound_de }
+                  )}'></div>
+                `
+                    : ""
+                }
+                <div class="sound-container sentence-container">
+                  <div class="sound ${isSentenceSentence ? "sentence" : ""} ${
+                      isSentenceSentence ? "" : sentenceColorClass
+                    }">${sentenceSoundContent}</div>
+                  <div class="ctrl-bottom">
+                    <audio src="${audioPath}/${
+                      sentenceItem.file || ""
+                    }" preload="none"></audio>
+                    <button class="play-btn" type="button">
+                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4 1.8C11.5532 0.262376 14 1.07799 14 3.00001V21.1214C14 23.0539 11.5313 23.8627 10.3878 22.3049L6.49356 17H4C2.34315 17 1 15.6569 1 14V10C1 8.34315 2.34315 7 4 7H6.5L10.4 1.8ZM12 3L8.1 8.2C7.72229 8.70361 7.12951 9 6.5 9H4C3.44772 9 3 9.44772 3 10V14C3 14.5523 3.44772 15 4 15H6.49356C7.13031 15 7.72901 15.3032 8.10581 15.8165L12 21.1214V3Z"/>
+              <path d="M16.2137 4.17445C16.1094 3.56451 16.5773 3 17.1961 3C17.6635 3 18.0648 3.328 18.1464 3.78824C18.4242 5.35347 19 8.96465 19 12C19 15.0353 18.4242 18.6465 18.1464 20.2118C18.0648 20.672 17.6635 21 17.1961 21C16.5773 21 16.1094 20.4355 16.2137 19.8256C16.5074 18.1073 17 14.8074 17 12C17 9.19264 16.5074 5.8927 16.2137 4.17445Z"/>
+              <path d="M21.41 5C20.7346 5 20.2402 5.69397 20.3966 6.35098C20.6758 7.52413 21 9.4379 21 12C21 14.5621 20.6758 16.4759 20.3966 17.649C20.2402 18.306 20.7346 19 21.41 19C21.7716 19 22.0974 18.7944 22.2101 18.4509C22.5034 17.5569 23 15.5233 23 12C23 8.47672 22.5034 6.44306 22.2101 5.54913C22.0974 5.20556 21.7716 5 21.41 5Z"/>
+            </svg>
+                    </button>
+                  </div>
+                </div>
+              `
+                  : ""
+              }
             </div>
           </div>
         `;
-  const soundDiv = flashcardDiv.querySelector(".sound");
-  const audioEl = flashcardDiv.querySelector("audio");
-  const playButton = flashcardDiv.querySelector(".play-btn");
-  playButton.addEventListener("click", (ev) => {
-    ev.stopPropagation();
-    audioEl.currentTime = 0;
-    audioEl.play();
-  });
-  soundDiv.addEventListener("click", (ev) => {
-    ev.stopPropagation();
-  });
-  if (mainItem.root?.trim()) {
-    const rootIcon = document.createElement("div");
-    rootIcon.className = "root-icon";
-    rootIcon.textContent = "i";
-    rootIcon.dataset.rootContent = JSON.stringify({
-      root: mainItem.root,
-      Sound_de: mainSoundDe,
-    });
-    const backSide = flashcardDiv.querySelector(".flashcard-back");
-    backSide.insertBefore(rootIcon, backSide.querySelector(".item-bottom"));
-    rootIcon.addEventListener("click", (ev) => {
+
+  const soundDivs = flashcardDiv.querySelectorAll(".sound");
+  soundDivs.forEach((soundDiv) => {
+    soundDiv.addEventListener("click", (ev) => {
       ev.stopPropagation();
-      const data = JSON.parse(rootIcon.dataset.rootContent || "{}");
-      modalRootHeader.textContent = data.Sound_de || "";
-      modalRootContent.textContent = data.root || "";
-      rootModal.classList.add("show");
     });
-  }
+  });
+
+  const playButtons = flashcardDiv.querySelectorAll(".play-btn");
+  playButtons.forEach((btn) => {
+    btn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const audio = btn.previousElementSibling;
+      audio.currentTime = 0;
+      audio.play();
+    });
+  });
+
+  const rootIcons = flashcardDiv.querySelectorAll(
+    ".root-icon:not([style*='display: none'])"
+  );
+  rootIcons.forEach((icon, idx) => {
+    const dataIcon = icon.nextElementSibling;
+    if (dataIcon) {
+      icon.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const data = JSON.parse(dataIcon.dataset.rootContent || "{}");
+        modalRootHeader.textContent = data.Sound_de || "";
+        modalRootContent.textContent = data.root || "";
+        rootModal.classList.add("show");
+      });
+    }
+  });
+
   const buttonsDiv = document.createElement("div");
   buttonsDiv.className = "selection-buttons";
   ["0", "50", "100"].forEach((lvl) => {
@@ -361,12 +512,11 @@ function handleSelection(index, level) {
       node.style.transition =
         "left 0.5s ease, top 0.5s ease, opacity 0.5s ease";
       document.body.appendChild(node);
-      // Create a temporary node to calculate the target position at the end
       const tempNode = document.createElement("div");
       tempNode.style.visibility = "hidden";
       tempNode.style.width = "36px";
       tempNode.style.height = "36px";
-      newBox.appendChild(tempNode); // Append temp node to the end
+      newBox.appendChild(tempNode);
       const targetRect = tempNode.getBoundingClientRect();
       setTimeout(() => {
         node.style.left = `${targetRect.left}px`;
@@ -374,7 +524,7 @@ function handleSelection(index, level) {
         node.style.opacity = "0.5";
       }, 10);
       setTimeout(() => {
-        newBox.appendChild(node); // Append the actual node to the end
+        newBox.appendChild(node);
         newBox.removeChild(tempNode);
         node.style.position = "relative";
         node.style.left = "";
@@ -384,7 +534,6 @@ function handleSelection(index, level) {
         node.style.zIndex = "";
       }, 600);
     } else {
-      // If staying in the same box, move to the end
       newBox.appendChild(node);
     }
   }, 500);
@@ -400,7 +549,12 @@ closeButton.addEventListener("click", () => rootModal.classList.remove("show"));
 rootModal.addEventListener("click", (e) => {
   if (e.target === rootModal) rootModal.classList.remove("show");
 });
-backButton.addEventListener(
-  "click",
-  () => (window.location.href = "../index.html")
-);
+backButton.addEventListener("click", () => {
+  if (pathContainer.style.display === "block") {
+    pathContainer.style.display = "none";
+    groupContainer.style.display = "block";
+    backButton.textContent = "Zurück zur Hauptseite";
+  } else {
+    window.location.href = "../index.html";
+  }
+});

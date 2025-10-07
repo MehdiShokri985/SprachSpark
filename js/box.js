@@ -367,7 +367,7 @@ function createFlashcard(item, index, audioPath) {
               ${
                 mainItem.root?.trim()
                   ? `
-                <div class="root-icon word-root-icon">i</div>
+                <div class="root-icon word-root-icon">!</div>
                 <div class="root-icon word-root-icon" style="display: none;" data-root-content='${JSON.stringify(
                   { root: mainItem.root, Sound_de: mainItem.Sound_de }
                 )}'></div>

@@ -537,6 +537,16 @@ function handleSelection(index, level) {
       newBox.appendChild(node);
     }
   }, 500);
+
+  // بررسی خالی بودن box0 و box50
+  setTimeout(() => {
+    if (box0.children.length === 0 && box50.children.length === 0) {
+      showCelebration();
+      return;
+    }
+  }, 600); // بعد از اتمام انیمیشن جابجایی
+
+  // بررسی اینکه آیا تمام نودهای گروه فعلی در وضعیت 100 هستند
 }
 function attachFlipListener(card) {
   card.addEventListener("click", (ev) => {
@@ -558,3 +568,25 @@ backButton.addEventListener("click", () => {
     window.location.href = "../index.html";
   }
 });
+
+function showCelebration() {
+  const celebrationDiv = document.createElement("div");
+  celebrationDiv.className = "celebration";
+  celebrationDiv.style.fontFamily =
+    '"iranyekanwebregular", Arial, Helvetica, sans-serif';
+  celebrationDiv.innerHTML = `
+    <h2>تبریک! 🎉</h2>
+    <p>همه فلش‌کارت‌ها به 100% رسیدند!</p>
+  `;
+  document.body.appendChild(celebrationDiv);
+
+  confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 },
+  });
+
+  setTimeout(() => {
+    celebrationDiv.remove();
+  }, 3000);
+}

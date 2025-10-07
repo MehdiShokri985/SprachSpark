@@ -361,7 +361,7 @@ h1 {
   text-align: center;
 }
 .translate {
-  font-size: 1.1em;
+  font-size: 1.3em;
   color: #c5fff7;
   text-align: center;
   margin: 10px auto;
@@ -406,7 +406,7 @@ h1 {
   top: 15px;
 }
 .sound-container .sound {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #d8efff;
   cursor: pointer;
   padding: 5px 5px;
@@ -466,10 +466,10 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 6px 12px;
+  padding: 4px 10px;
   background: linear-gradient(45deg, #28134be8, #3c1e6b);
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 1em;
   font-family: sans-serif;
   cursor: pointer;
@@ -586,6 +586,10 @@ h1 {
   border-radius: 10px;
   padding: 10px;
   color: #cccccc;
+}
+
+.sound-container .sentence {
+  font-size: 1em;
 }
 @keyframes fadeInScale {
   from {

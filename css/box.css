@@ -100,29 +100,25 @@ h1 {
   margin-bottom: 10px;
 }
 .group-node {
-  position: relative;
-  width: 136px;
-  height: 48px;
-  background: #1250cb9e;
-  border-radius: 10px 25px 5px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #bbbfff;
-  font-size: 1.2em;
-  cursor: pointer;
-  /* transition: background-color 0.3s ease, transform 0.3s ease, opacity 0.5s ease,
-    box-shadow 0.3s ease; */
-  z-index: 10;
-  box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4);
-  text-shadow: 1px 1px 3px #000000;
-  border: solid 1px #ffffff40;
+    position: relative;
+    width: 110px;
+    height: 57px;
+    background: #295cc269;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #81abff;
+    font-size: 1.2em;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 3px #000000;
+    border: solid 1px #1059e985;
 }
 .group-node:hover {
-  /* transform: scale(1.03); */
-  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); */
-  /* background:#113b8e; */
-  color: #04061f;
+
+  color: #cfddfa;
 }
 .box {
   width: 100%;
@@ -277,12 +273,15 @@ h1 {
 }
 .selection-btn.level-0 {
   background: #ff47617a;
+    border:solid 1px #f709394d
 }
 .selection-btn.level-50 {
   background: #ceaf397a;
+    border: solid 1px #dfb41ac9;
 }
 .selection-btn.level-100 {
   background: #0bba747a;
+  border: solid 1px #0aeb68a1;
 }
 .selection-btn:hover {
   /* transform: translateY(-2px); */

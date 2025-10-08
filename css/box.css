@@ -178,12 +178,12 @@ h1 {
 .node.node-100 {
   background: #0bba7494;
   border: solid 1px #e5e5e5b8;
-  box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: -1px 3px 4px 0px rgb(0 0 0);
 }
 .node.node-50 {
   background: #ceaf39c2;
   border: solid 1px #e5e5e5b8;
-  box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: -1px 3px 4px 0px rgb(0 0 0);
 }
 .node.node-0 {
   background: #ff474717;

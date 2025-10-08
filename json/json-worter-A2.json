@@ -1352,7 +1352,7 @@
   {
     "Filename": "174",
     "Sound_de": "der Liter - die Liter",
-    "translate_fa": "یک لیتر",
+    "translate_fa": " لیتر",
     "file": "174_de.mp3",
     "root": "",
     "type": "اسم"
@@ -1360,7 +1360,7 @@
   {
     "Filename": "175",
     "Sound_de": "das Gramm - die Gramm / das Kilogramm - die Kilogramm",
-    "translate_fa": "یک گرم / یک کیلوگرم",
+    "translate_fa": " گرم /  کیلوگرم",
     "file": "175_de.mp3",
     "root": "",
     "type": "اسم"

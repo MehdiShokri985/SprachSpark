@@ -170,21 +170,21 @@ h1 {
   text-shadow: 1px 1px 3px #000000;
 }
 .node:hover {
-  /* transform: scale(1.05); */
+
   color: #060606;
-  /* box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4); */
+ 
 }
 .node.node-100 {
-    background: #1cb71145;
-    border: solid 1px #42ff365c;
-    box-shadow: -1px 3px 4px 0px rgb(0 0 0);
-    color: #14ff76;
+  background: #1cb71145;
+  border: solid 1px #42ff365c;
+  box-shadow: -1px 3px 4px 0px rgb(0 0 0);
+  color: #14ff76;
 }
 .node.node-50 {
-     background: #fff00442;
-    border: solid 1px #ffe80f80;
-    box-shadow: -1px 3px 4px 0px rgb(0 0 0);
-    color: #f6ff57;
+  background: #fff00442;
+  border: solid 1px #ffe80f80;
+  box-shadow: -1px 3px 4px 0px rgb(0 0 0);
+  color: #f6ff57;
 }
 .node.node-0 {
   background: #ff474717;
@@ -193,9 +193,15 @@ h1 {
 }
 
 .node.node-0:hover {
-  /* transform: scale(1.05); */
   color: #f9bac3;
-  /* box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4); */
+}
+
+.node.node-50:hover {
+  color: #f7fba0;
+}
+
+.node.node-100:hover {
+  color: #84f8b5;
 }
 .node-counter {
   position: absolute;

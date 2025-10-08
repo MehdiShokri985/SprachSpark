@@ -1294,7 +1294,7 @@
   {
     "Filename": "169",
     "Sound_de": "der Meter - die Meter",
-    "translate_fa": "یک متر",
+    "translate_fa": " متر",
     "file": "169_de.mp3",
     "root": "",
     "type": "اسم"
@@ -1336,7 +1336,7 @@
   {
     "Filename": "172",
     "Sound_de": "der Kilometer - die Kilometer",
-    "translate_fa": "دو کیلومتر",
+    "translate_fa": "کیلومتر",
     "file": "172_de.mp3",
     "root": "",
     "type": "اسم"

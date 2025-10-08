@@ -175,16 +175,16 @@ h1 {
   /* box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4); */
 }
 .node.node-100 {
-  background: #0bba7447;
-  border: solid 1px #e5e5e55c;
-  box-shadow: -1px 3px 4px 0px rgb(0 0 0);
-  color: #14ff76;
+    background: #1cb71145;
+    border: solid 1px #42ff365c;
+    box-shadow: -1px 3px 4px 0px rgb(0 0 0);
+    color: #14ff76;
 }
 .node.node-50 {
-  background: #ceaf3970;
-  border: solid 1px #e5e5e56e;
-  box-shadow: -1px 3px 4px 0px rgb(0 0 0);
-  color: #f6ff57;
+     background: #fff00442;
+    border: solid 1px #ffe80f80;
+    box-shadow: -1px 3px 4px 0px rgb(0 0 0);
+    color: #f6ff57;
 }
 .node.node-0 {
   background: #ff474717;

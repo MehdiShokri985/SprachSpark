@@ -15,7 +15,6 @@
   --gradient-bg: #1a1b27;
 }
 
-
 html,
 body {
   min-height: 100%;
@@ -176,14 +175,16 @@ h1 {
   /* box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4); */
 }
 .node.node-100 {
-  background: #0bba7494;
-  border: solid 1px #e5e5e5b8;
+  background: #0bba7447;
+  border: solid 1px #e5e5e55c;
   box-shadow: -1px 3px 4px 0px rgb(0 0 0);
+  color: #14ff76;
 }
 .node.node-50 {
-  background: #ceaf39c2;
-  border: solid 1px #e5e5e5b8;
+  background: #ceaf3970;
+  border: solid 1px #e5e5e56e;
   box-shadow: -1px 3px 4px 0px rgb(0 0 0);
+  color: #f6ff57;
 }
 .node.node-0 {
   background: #ff474717;
@@ -613,7 +614,6 @@ h1 {
 .sound-container .sentence {
   font-size: 1em;
 }
-
 
 /* استایل برای پیام تشویقی */
 /* استایل جدید برای پیام تشویقی */

@@ -273,15 +273,19 @@ h1 {
 }
 .selection-btn.level-0 {
   background: #ff47617a;
-    border:solid 1px #f709394d
+    border:solid 1px #ff608085;
+    color: #ff6985;
 }
 .selection-btn.level-50 {
   background: #ceaf397a;
     border: solid 1px #dfb41ac9;
+    color: #f2ff00;
+    
 }
 .selection-btn.level-100 {
   background: #0bba747a;
   border: solid 1px #0aeb68a1;
+  color: #6aff98;
 }
 .selection-btn:hover {
   /* transform: translateY(-2px); */
@@ -388,7 +392,7 @@ h1 {
   text-align: center;
 }
 .translate {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #c5fff7;
   text-align: center;
   margin: 10px auto;
@@ -435,7 +439,7 @@ h1 {
   top: 15px;
 }
 .sound-container .sound {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #d8efff;
   cursor: pointer;
   padding: 5px 5px;

@@ -118,6 +118,19 @@ let nodeStates = [];
 let nodeViewCounts = [];
 let currentGroupStart = -1;
 const groupSize = 50;
+
+function sanitizeString(str) {
+  if (!str) return "";
+  // جایگزینی نقل‌قول‌های تکی و دوتایی و کاراکترهای خاص
+  return str
+    .replace(/"/g, "&quot;") // جایگزینی نقل‌قول دوتایی
+    .replace(/'/g, "&apos;") // جایگزینی نقل‌قول تکی
+    // .replace(/\n/g, " ") // جایگزینی خط جدید
+    .replace(/\r/g, " ") // جایگزینی بازگشت به خط
+    .replace(/</g, "&lt;") // جایگزینی < برای جلوگیری از مشکلات HTML
+    .replace(/>/g, "&gt;"); // جایگزینی > برای جلوگیری از مشکلات HTML
+}
+
 window.addEventListener("load", () => {
   if (level && levelConfig[level]) {
     const config = levelConfig[level];
@@ -369,7 +382,10 @@ function createFlashcard(item, index, audioPath) {
                   ? `
                 <div class="root-icon word-root-icon">!</div>
                 <div class="root-icon word-root-icon" style="display: none;" data-root-content='${JSON.stringify(
-                  { root: mainItem.root, Sound_de: mainItem.Sound_de }
+                  {
+                    root: sanitizeString(mainItem.root),
+                    Sound_de: sanitizeString(mainItem.Sound_de),
+                  }
                 )}'></div>
               `
                   : ""
@@ -399,7 +415,10 @@ function createFlashcard(item, index, audioPath) {
                     ? `
                   <div class="root-icon sentence-root-icon">!</div>
                   <div class="root-icon sentence-root-icon" style="display: none;" data-root-content='${JSON.stringify(
-                    { root: sentenceItem.root, Sound_de: sentenceItem.Sound_de }
+                    {
+                      root: sanitizeString(sentenceItem.root),
+                      Sound_de: sanitizeString(sentenceItem.Sound_de),
+                    }
                   )}'></div>
                 `
                     : ""
@@ -448,15 +467,30 @@ function createFlashcard(item, index, audioPath) {
   const rootIcons = flashcardDiv.querySelectorAll(
     ".root-icon:not([style*='display: none'])"
   );
+
   rootIcons.forEach((icon, idx) => {
     const dataIcon = icon.nextElementSibling;
+    console.log(dataIcon);
     if (dataIcon) {
       icon.addEventListener("click", (ev) => {
         ev.stopPropagation();
-        const data = JSON.parse(dataIcon.dataset.rootContent || "{}");
-        modalRootHeader.textContent = data.Sound_de || "";
-        modalRootContent.textContent = data.root || "";
-        rootModal.classList.add("show");
+
+        try {
+          console.log("data-root-content:", dataIcon.dataset.rootContent); // برای اشکال‌زدایی
+          const data = JSON.parse(dataIcon.dataset.rootContent || "{}");
+          modalRootHeader.textContent = data.Sound_de || "";
+          modalRootContent.textContent = data.root || "";
+          rootModal.classList.add("show");
+        } catch (error) {
+          console.error(
+            "Error parsing JSON:",
+            error,
+            dataIcon.dataset.rootContent
+          );
+          modalRootHeader.textContent = "خطا";
+          modalRootContent.textContent = "داده‌های ریشه نامعتبر است.";
+          rootModal.classList.add("show");
+        }
       });
     }
   });

@@ -372,7 +372,7 @@ h1 {
 .item-top .filename {
   font-size: 0.8em;
   background: #82873e45;
-  padding: 1px 6px;
+  padding: 3px 7px 0px 7px;
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   color: eef324;

@@ -122,13 +122,15 @@ const groupSize = 50;
 function sanitizeString(str) {
   if (!str) return "";
   // جایگزینی نقل‌قول‌های تکی و دوتایی و کاراکترهای خاص
-  return str
-    .replace(/"/g, "&quot;") // جایگزینی نقل‌قول دوتایی
-    .replace(/'/g, "&apos;") // جایگزینی نقل‌قول تکی
-    // .replace(/\n/g, " ") // جایگزینی خط جدید
-    .replace(/\r/g, " ") // جایگزینی بازگشت به خط
-    .replace(/</g, "&lt;") // جایگزینی < برای جلوگیری از مشکلات HTML
-    .replace(/>/g, "&gt;"); // جایگزینی > برای جلوگیری از مشکلات HTML
+  return (
+    str
+      .replace(/"/g, "&quot;") // جایگزینی نقل‌قول دوتایی
+      .replace(/'/g, "&apos;") // جایگزینی نقل‌قول تکی
+      // .replace(/\n/g, " ") // جایگزینی خط جدید
+      .replace(/\r/g, " ") // جایگزینی بازگشت به خط
+      .replace(/</g, "&lt;") // جایگزینی < برای جلوگیری از مشکلات HTML
+      .replace(/>/g, "&gt;")
+  ); // جایگزینی > برای جلوگیری از مشکلات HTML
 }
 
 window.addEventListener("load", () => {
@@ -470,13 +472,13 @@ function createFlashcard(item, index, audioPath) {
 
   rootIcons.forEach((icon, idx) => {
     const dataIcon = icon.nextElementSibling;
-    console.log(dataIcon);
+    // console.log(dataIcon);
     if (dataIcon) {
       icon.addEventListener("click", (ev) => {
         ev.stopPropagation();
 
         try {
-          console.log("data-root-content:", dataIcon.dataset.rootContent); // برای اشکال‌زدایی
+          // console.log("data-root-content:", dataIcon.dataset.rootContent); // برای اشکال‌زدایی
           const data = JSON.parse(dataIcon.dataset.rootContent || "{}");
           modalRootHeader.textContent = data.Sound_de || "";
           modalRootContent.textContent = data.root || "";

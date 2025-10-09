@@ -813,18 +813,18 @@ h1 {
 .review-timer {
     position: absolute;
     top: 10px;
-    left: 57px;
+    left: 52px;
     color: #1673ff;
     font-size: 1em;
     margin-left: 10px;
 }
 
 .review-text{
-      position: absolute;
-    top: 10px;
-    left: 87px;
+     position: absolute;
+    top: 13px;
+    left: 88px;
     color: #2e77e5;
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin-left: 10px;
     text-shadow: 1px 1px 4px rgb(0 0 0 / 96%);
 }

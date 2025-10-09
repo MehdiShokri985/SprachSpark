@@ -12,7 +12,7 @@
   --node-50: var(--node-default);
   --node-100: var(--node-learned);
   --box-bg: #182236;
-  --shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  --shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
   --gradient-bg: #1a1b27;
 }
 
@@ -39,7 +39,7 @@ h1 {
   width: 100%;
   margin: 0 auto 1px auto;
   border-bottom: 4px solid var(--accent);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
   max-width: 800px;
   font-weight: 300;
   margin-top: 20px;
@@ -87,7 +87,7 @@ h1 {
   gap: 15px;
   transition: height 0.3s ease;
   box-shadow: var(--shadow);
-  border: 1px solid var(--muted);
+  border: 1px solid #2d40655e;
   direction: ltr;
 }
 .group-title {
@@ -138,7 +138,7 @@ h1 {
   box-shadow: var(--shadow);
   border: 1px solid var(--muted);
   direction: ltr;
-  border: solid 1px #34495e;
+ border: solid 1px #2d406580;
 }
 .box-title {
   text-align: left;
@@ -174,13 +174,13 @@ h1 {
 .node.node-100 {
   background: #1cb71145;
   border: solid 1px #42ff365c;
-  box-shadow: -1px 3px 4px 0px rgb(0 0 0);
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 67%);
   color: #14ff76;
 }
 .node.node-50 {
   background: #fff00442;
   border: solid 1px #ffe80f80;
-  box-shadow: -1px 3px 4px 0px rgb(0 0 0);
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 67%);
   color: #f6ff57;
 }
 .node.node-0 {
@@ -273,18 +273,18 @@ h1 {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 .selection-btn.level-0 {
-  background: #ff47617a;
+  background: rgb(45 37 55);
     border:solid 1px #ff608085;
     color: #ff6985;
 }
 .selection-btn.level-50 {
-  background: #ceaf397a;
+  background: rgb(84 87 41);
     border: solid 1px #dfb41ac9;
     color: #f2ff00;
     
 }
 .selection-btn.level-100 {
-  background: #0bba747a;
+  background: rgb(26 75 44);
   border: solid 1px #0aeb68a1;
   color: #6aff98;
 }
@@ -525,13 +525,13 @@ h1 {
   position: absolute;
   top: 12px;
   left: 8px;
-  color: #000000;
+  color: #4157de;
   font-size: 1em;
   cursor: pointer;
   z-index: 5;
   padding: 2px;
   border-radius: 50%;
-  background: #3c448e;
+  background: #2a315cc7;
   transition: background-color 0.2s ease, transform 0.2s ease;
   width: 20px;
   height: 20px;
@@ -543,7 +543,7 @@ h1 {
   text-shadow: 1px 1px 4px rgb(0 0 0 / 9%);
 }
 .root-icon:hover {
-  background: #444c93;
+  background: #353d75c7;
   transform: scale(1.02);
 }
 .root-icon.word-root-icon {
@@ -703,7 +703,7 @@ h1 {
   cursor: pointer;
   font-size: 0.9em;
   font-weight: 600;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
   transition: background-color 0.3s ease, transform 0.2s ease;
   margin: 0 auto 20px auto;
   display: block;
@@ -769,7 +769,7 @@ h1 {
 }
 
 .review-content {
-       background: #13193cd1;
+       background: #191f43e3;
     border-radius: 12px;
     padding: 50px 20px 50px 20px;
     text-align: center;
@@ -913,7 +913,7 @@ h1 {
     align-items: center;
     justify-content: center;
     /* padding: 0px  10px 0px 10px; */
-    background-color: #090f29;
+    background-color: #090f29a6;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }

@@ -779,7 +779,7 @@ function showNextReviewItem() {
     setTimeout(() => {
       currentReviewIndex++;
       showNextReviewItem();
-    }, 2000); // مکث 2 ثانیه بعد از پایان صدا
+    }, 1000); // مکث 2 ثانیه بعد از پایان صدا
   };
 }
 

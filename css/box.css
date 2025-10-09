@@ -819,6 +819,16 @@ h1 {
     margin-left: 10px;
 }
 
+.review-text{
+      position: absolute;
+    top: 10px;
+    left: 87px;
+    color: #2e77e5;
+    font-size: 0.7em;
+    margin-left: 10px;
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 96%);
+}
+
 .group-wrapper {
     display: flex;
     gap: 0px;
@@ -948,7 +958,7 @@ h1 {
 .review-progress-dot {
   width: 4px;
   height: 4px;
-  background-color: #2a4e72ad; /* Default dot color */
+  background-color: #23415e54; /* Default dot color */
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease;

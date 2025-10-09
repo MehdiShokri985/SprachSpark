@@ -1,4 +1,5 @@
-:root {
+
+    :root {
   --bg: #1a1b27;
   --accent: #f1c40f;
   --card-bg: #2a2f4f;
@@ -101,10 +102,10 @@ h1 {
 }
 .group-node {
     position: relative;
-    width: 110px;
+       width: 123px;
     height: 57px;
-    background: #295cc269;
-    border-radius: 20px 20px 20px 20px;
+    background: #295cc242;
+    border-radius: 10px 0px 0px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -723,6 +724,105 @@ h1 {
 .hundred {
   color: #0bba74;
 }
+
+.review-btn {
+    width: 49px;
+    height: 57px;
+    background: #830dff1c;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #81abff;
+    font-size: 0.9em;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 3px #000000;
+    border: solid 1px #1059e985;
+}
+
+.review-btn:hover {
+    color: #cfddfa;
+}
+
+.review-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.review-popup.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.review-content {
+       background: #13193cd1;
+    border-radius: 12px;
+    padding: 50px 20px 50px 20px;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    max-width: 450px;
+        /* border: solid 1px #414a7f59; */
+}
+
+.review-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #ff3333;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.review-german {
+    font-size: 1.2em;
+    color: #5fabe0;
+    margin-bottom: 10px;
+}
+
+.review-persian {
+    font-size: 1em;
+    color: #5c64a6;
+}
+
+.review-counter {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #a3f012;
+    font-size: 1em;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.review-timer {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: #1673ff;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.group-wrapper {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
 @media (max-width: 600px) {
   .container {
     width: 95%;
@@ -738,7 +838,7 @@ h1 {
     font-size: 0.8em;
   }
   .group-node {
-    width: 95px;
+    width: 100px;
     height: 50px;
     font-size: 1em;
   }
@@ -793,4 +893,72 @@ h1 {
   .root-icon.sentence-root-icon {
     top: calc(50% + 15px);
   }
+
+  .review-btn {
+   
+    height: 50px;
+  }
 }
+
+/* New styles for review progress bar */
+.review-progress {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px  10px 0px 10px; */
+    background-color: #090f29;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* .review-progress-line-container {
+  width: 100%;
+  height: 1px;
+  background-color: #34495e; 
+  border-radius: 2px;
+  position: relative;
+  margin-bottom: 5px;
+} */
+
+/* .review-progress-line {
+  height: 100%;
+  background-color: #0bba74; 
+  width: 0%;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+} */
+
+.review-progress-dots {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  position: absolute;
+  /* top: -px; Position dots above the line */
+  pointer-events: none;
+}
+
+.review-progress-dot {
+  width: 4px;
+  height: 4px;
+  background-color: #2a4e72ad; /* Default dot color */
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  pointer-events: auto;
+}
+
+.review-progress-dot.active {
+  background-color: #002eff; /* Active dot color */
+}
+
+.review-progress-dot:hover {
+  background-color: #ceaf39; /* Hover color */
+}
+

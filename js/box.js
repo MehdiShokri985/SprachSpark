@@ -14,6 +14,18 @@ const box100 = document.getElementById("box100");
 const groupBox = document.getElementById("groupBox");
 const pathContainer = document.querySelector(".path-container");
 const groupContainer = document.querySelector(".group-container");
+const reviewPopup = document.getElementById("reviewPopup");
+const reviewClose = document.querySelector(".review-close");
+const reviewGerman = document.getElementById("reviewGerman");
+const reviewPersian = document.getElementById("reviewPersian");
+const reviewAudio = document.getElementById("reviewAudio");
+const reviewCounter = document.getElementById("reviewCounter");
+const reviewTimer = document.getElementById("reviewTimer");
+const reviewProgress = document.getElementById("reviewProgress");
+// const reviewProgressLine = reviewProgress.querySelector(".review-progress-line");
+const reviewProgressDots = reviewProgress.querySelector(
+  ".review-progress-dots"
+);
 const levelConfig = {
   A1: {
     jsonFile: "../json/json-A1.json",
@@ -179,6 +191,8 @@ function renderGroups(headerClass) {
   groupBox.innerHTML = "";
   const numGroups = Math.ceil(itemsData.length / groupSize);
   for (let i = 0; i < numGroups; i++) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "group-wrapper";
     const groupNode = document.createElement("div");
     groupNode.className = "group-node";
     const start = i * groupSize + 1;
@@ -186,7 +200,14 @@ function renderGroups(headerClass) {
     groupNode.textContent = `${start}-${end}`;
     groupNode.dataset.groupIndex = i;
     groupNode.addEventListener("click", () => showGroup(i));
-    groupBox.appendChild(groupNode);
+    const reviewBtn = document.createElement("div");
+    reviewBtn.className = "review-btn";
+    reviewBtn.textContent = "R";
+    reviewBtn.dataset.groupIndex = i;
+    reviewBtn.addEventListener("click", () => showReviewSlideshow(i));
+    wrapper.appendChild(groupNode);
+    wrapper.appendChild(reviewBtn);
+    groupBox.appendChild(wrapper);
   }
 }
 function showGroup(groupIndex) {
@@ -626,3 +647,158 @@ function showCelebration() {
     celebrationDiv.remove();
   }, 3000);
 }
+
+let currentReviewIndex = 0;
+let reviewItems = [];
+let reviewAudioPath = "";
+let timerInterval;
+let reviewDurations = []; // To store durations for accurate time recalculation
+
+function formatTime(seconds) {
+  const min = Math.floor(seconds / 60);
+  const sec = seconds % 60;
+  return `${min}:${sec < 10 ? "0" : ""}${sec}`;
+}
+
+function showReviewSlideshow(groupIndex) {
+  const start = groupIndex * groupSize;
+  reviewItems = itemsData.slice(start, start + groupSize);
+  reviewAudioPath = container.dataset.audioPath;
+  let totalTime = 0;
+  let loadedCount = 0;
+  reviewDurations = [];
+  reviewItems.forEach((item, idx) => {
+    const audio = new Audio(`${reviewAudioPath}/${item.file || ""}`);
+    audio.preload = "metadata";
+    audio.onloadedmetadata = () => {
+      const duration = audio.duration + 2; // Add 2s pause
+      reviewDurations[idx] = duration;
+      totalTime += duration;
+      loadedCount++;
+      if (loadedCount === reviewItems.length) {
+        startReview(totalTime);
+      }
+    };
+    audio.onerror = () => {
+      const duration = 4; // Default 2s audio + 2s pause
+      reviewDurations[idx] = duration;
+      totalTime += duration;
+      loadedCount++;
+      if (loadedCount === reviewItems.length) {
+        startReview(totalTime);
+      }
+    };
+  });
+}
+
+function startReview(totalTime) {
+  currentReviewIndex = 0;
+  reviewPopup.style.display = "flex";
+  setTimeout(() => {
+    reviewPopup.classList.add("active");
+    let remainingTime = Math.round(totalTime);
+    reviewTimer.textContent = formatTime(remainingTime);
+    timerInterval = setInterval(() => {
+      remainingTime = Math.max(0, remainingTime - 1);
+      reviewTimer.textContent = formatTime(remainingTime);
+      if (remainingTime <= 0) clearInterval(timerInterval);
+    }, 1000);
+    initProgressBar();
+    showNextReviewItem();
+  }, 10);
+}
+
+function initProgressBar() {
+  reviewProgressDots.innerHTML = ""; // Clear previous dots
+  reviewItems.forEach((_, idx) => {
+    const dot = document.createElement("div");
+    dot.className = "review-progress-dot";
+    dot.dataset.index = idx;
+    dot.addEventListener("click", () => jumpToReviewItem(idx));
+    reviewProgressDots.appendChild(dot);
+  });
+  updateProgressBar();
+}
+
+function updateProgressBar() {
+  const progressPercentage = (currentReviewIndex / reviewItems.length) * 100;
+  // reviewProgressLine.style.width = `${progressPercentage}%`;
+
+  const dots = reviewProgressDots.querySelectorAll(".review-progress-dot");
+  dots.forEach((dot, idx) => {
+    if (idx < currentReviewIndex) {
+      dot.classList.add("active");
+    } else {
+      dot.classList.remove("active");
+    }
+  });
+}
+
+function recalculateRemainingTime() {
+  let remainingTime = 0;
+  for (let i = currentReviewIndex; i < reviewDurations.length; i++) {
+    remainingTime += reviewDurations[i] || 4; // Default if not loaded
+  }
+  return Math.round(remainingTime);
+}
+
+function jumpToReviewItem(newIndex) {
+  if (newIndex < 0 || newIndex >= reviewItems.length) return;
+  reviewAudio.pause(); // Pause current audio
+  currentReviewIndex = newIndex;
+  clearInterval(timerInterval); // Stop current timer
+  let remainingTime = recalculateRemainingTime(); // Use let instead of const
+  reviewTimer.textContent = formatTime(remainingTime);
+  timerInterval = setInterval(() => {
+    remainingTime = Math.max(0, remainingTime - 1);
+    reviewTimer.textContent = formatTime(remainingTime);
+    if (remainingTime <= 0) clearInterval(timerInterval);
+  }, 1000);
+  showNextReviewItem();
+}
+
+function showNextReviewItem() {
+  if (currentReviewIndex >= reviewItems.length) {
+    closeReviewPopup();
+    return;
+  }
+
+  const item = reviewItems[currentReviewIndex];
+  const mainSoundDetails = getSoundDetails(item);
+  reviewGerman.innerHTML = mainSoundDetails.soundContent;
+  reviewPersian.textContent = item.translate_fa || "";
+
+  reviewCounter.textContent = `${currentReviewIndex + 1}/${reviewItems.length}`;
+
+  reviewAudio.src = `${reviewAudioPath}/${item.file || ""}`;
+  reviewAudio.play();
+
+  updateProgressBar();
+
+  reviewAudio.onended = () => {
+    setTimeout(() => {
+      currentReviewIndex++;
+      showNextReviewItem();
+    }, 2000); // مکث 2 ثانیه بعد از پایان صدا
+  };
+}
+
+function closeReviewPopup() {
+  reviewPopup.classList.remove("active");
+  clearInterval(timerInterval);
+  setTimeout(() => {
+    reviewPopup.style.display = "none";
+    reviewAudio.pause();
+    reviewAudio.src = "";
+    currentReviewIndex = 0;
+    reviewItems = [];
+    reviewDurations = [];
+    reviewProgressDots.innerHTML = "";
+    // reviewProgressLine.style.width = "0%";
+  }, 500);
+}
+
+reviewClose.addEventListener("click", closeReviewPopup);
+reviewPopup.addEventListener("click", (e) => {
+  if (e.target === reviewPopup) closeReviewPopup();
+});

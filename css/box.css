@@ -796,7 +796,7 @@ h1 {
 .review-persian {
     font-size: 1em;
     color: #5c64a6;
-        display: none;
+        /* display: none; */
 }
 
 .review-counter {

@@ -61,6 +61,8 @@ levelButtons.forEach((button) => {
           ? "pages/flashcard.html"
           : type === "box"
           ? "pages/box.html"
+          : type === "box2"
+          ? "pages/box2.html"
           : "pages/gesprach.html";
     }
 

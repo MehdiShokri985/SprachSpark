@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../images/128.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/128.png" />
+    <title>SprachSpark - Trainingsbox</title>
+    <link rel="stylesheet" href="../css/font.css" />
+       <link rel="stylesheet" href="../css/box2.css?v=1.1" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+ 
+  </head>
+  <body>
+    <h1 class="header"></h1>
+    <div class="container">
+      <button class="back-btn">Zurück zur Hauptseite</button>
+      <div class="content path-container" style="display: none">
+        <div
+          class="group-parent-title"
+        ></div>
+        <div class="box-title zero">Lernen 0%</div>
+        <div id="box0" class="box"></div>
+        <div class="box-title fifty">Lernen 50%</div>
+        <div id="box50" class="box"></div>
+        <div class="box-title hundred">Lernen 100%</div>
+        <div id="box100" class="box"></div>
+      </div>
+      <div class="group-container">
+        <div class="group-title">Gruppen</div>
+        <div id="groupBox" class="group-box"></div>
+      </div>
+    </div>
+    <div id="rootModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <p id="modalRootHeader"></p>
+        <p id="modalRootContent"></p>
+      </div>
+    </div>
+    <div id="flashcardPopup" class="flashcard-popup"></div>
+    <div id="reviewPopup" class="review-popup">
+      <div class="review-content">
+        <span class="review-close">&times;</span>
+        <div id="reviewTimer" class="review-timer"></div>
+        <div id="reviewCounter" class="review-counter"></div>
+        <div class="review-text">Review time</div>
+        <div id="reviewGerman" class="review-german"></div>
+        <div id="reviewPersian" class="review-persian"></div>
+        <audio id="reviewAudio" preload="none"></audio>
+        <div id="reviewProgress" class="review-progress">
+          <div class="review-progress-dots"></div>
+        </div>
+      </div>
+    </div>
+     <script src="../js/box2.js?v=1.1"></script>
+  </body>
+</html>

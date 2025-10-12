@@ -2748,14 +2748,6 @@
         "type": "حرف اضافه"
     },
     {
-        "Filename": "359",
-        "Sound_de": "anbieten - bietet an",
-        "translate_fa": "پیشنهاد دادن - پیشنهاد می‌دهد ",
-        "file": "359_de.mp3",
-        "root": "an (به) + bieten (ارائه دادن)",
-        "type": "فعل"
-    },
-    {
         "Filename": "363",
         "Sound_de": "das Angebot - die Angebote",
         "translate_fa": "پیشنهاد",

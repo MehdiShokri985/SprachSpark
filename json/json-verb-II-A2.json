@@ -6170,7 +6170,7 @@
   {
     "Filename": "686",
     "Sound_de": "du bäckst.",
-    "translate_fa": "پخت.",
+    "translate_fa": "می پزی.",
     "root": "du bäckst nicht.\nشما پخت نمی کنید.\nBäckst du?\nپخت؟",
     "parent": "backen",
     "file": "686_de.mp3",
@@ -6179,7 +6179,7 @@
   {
     "Filename": "687",
     "Sound_de": "er/sie/es bäckt.",
-    "translate_fa": "او/او/آن را پخت می کند.",
+    "translate_fa": "او/او/آن  می پزد  .",
     "root": "er/sie/es bäckt nicht.\nاو/او/آن پخته نمی شود.\nBäckt er/sie/es?\nآیا او/آن پخت؟",
     "parent": "backen",
     "file": "687_de.mp3",
@@ -6188,7 +6188,7 @@
   {
     "Filename": "688",
     "Sound_de": "wir backen.",
-    "translate_fa": "پختیم.",
+    "translate_fa": "می پزیم.",
     "root": "wir backen nicht.\nما پخت نمی کنیم.\nBacken wir?\nآیا ما در حال پخت هستیم؟",
     "parent": "backen",
     "file": "688_de.mp3",
@@ -6197,7 +6197,7 @@
   {
     "Filename": "689",
     "Sound_de": "ihr backt.",
-    "translate_fa": "پخت.",
+    "translate_fa": "می پزید.",
     "root": "ihr backt nicht.\nشما پخت نمی کنید.\nBackt ihr?\nپخت؟",
     "parent": "backen",
     "file": "689_de.mp3",
@@ -6206,8 +6206,8 @@
   {
     "Filename": "690",
     "Sound_de": "sie/Sie backen.",
-    "translate_fa": "آنها پختند.",
-    "root": "sie/Sie backen nicht.\nآنها/آنها پخته نمی شوند.\nBacken sie/Sie?\nپخت؟",
+    "translate_fa": "آنها می پزند.",
+    "root": "sie/Sie backen nicht.\nآنها/آنها نمی پزند.\nBacken sie/Sie?\nآیا آنها می پزند؟",
     "parent": "backen",
     "file": "690_de.mp3",
     "tense": "Präsens"
@@ -6224,8 +6224,8 @@
   {
     "Filename": "692",
     "Sound_de": "du bukst.",
-    "translate_fa": "شما رزرو می کنید.",
-    "root": "du bukst nicht.\nشما رزرو نمی کنید.\nBukst du?\nآیا رزرو می کنید؟",
+    "translate_fa": "تو پختی",
+    "root": "du bukst nicht.\nتو نپختی.\nBukst du?\nآیا تو نپختی؟",
     "parent": "backen",
     "file": "692_de.mp3",
     "tense": "Präteritum"
@@ -6233,8 +6233,8 @@
   {
     "Filename": "693",
     "Sound_de": "er/sie/es buk.",
-    "translate_fa": "او/او/آن پخته شد.",
-    "root": "er/sie/es buk nicht.\nاو/او/آن پخت نشد.\nBuk er/sie/es?\nآیا او/او پخت؟",
+    "translate_fa": "او/او/آن پخت .",
+    "root": "er/sie/es buk nicht.\nاو/او/آن نپخت .\nBuk er/sie/es?\nآیا او/او پخت؟",
     "parent": "backen",
     "file": "693_de.mp3",
     "tense": "Präteritum"
@@ -6242,8 +6242,8 @@
   {
     "Filename": "694",
     "Sound_de": "wir buken.",
-    "translate_fa": "ما رزرو می کنیم.",
-    "root": "wir buken nicht.\nما رزرو نمی کنیم.\nBuken wir?\nآیا ما رزرو می کنیم؟",
+    "translate_fa": "ما پختیم.",
+    "root": "wir buken nicht.\nما نپختیم.\nBuken wir?\nآیا ما رزرو می کنیم؟",
     "parent": "backen",
     "file": "694_de.mp3",
     "tense": "Präteritum"
@@ -6251,8 +6251,8 @@
   {
     "Filename": "695",
     "Sound_de": "ihr bukt.",
-    "translate_fa": "شما خرید می کنید.",
-    "root": "ihr bukt nicht.\nشما پخت نمی کنید.\nBukt ihr?\nخرید؟",
+    "translate_fa": "شما پختید.",
+    "root": "ihr bukt nicht.\nشما نپختید.\nBukt ihr?\nآیا شما پختید؟",
     "parent": "backen",
     "file": "695_de.mp3",
     "tense": "Präteritum"
@@ -6260,8 +6260,8 @@
   {
     "Filename": "696",
     "Sound_de": "sie/Sie buken.",
-    "translate_fa": "آنها/آنها رزرو می کنند.",
-    "root": "sie/Sie buken nicht.\nآنها/آنها رزرو نمی کنند.\nBuken sie/Sie?\nآیا رزرو می کنید؟",
+    "translate_fa": "آنها/آنها پختند.",
+    "root": "sie/Sie buken nicht.\nآنها/آنها نپختند.\nBuken sie/Sie?\nآیا آنها پختند؟",
     "parent": "backen",
     "file": "696_de.mp3",
     "tense": "Präteritum"
@@ -6269,8 +6269,8 @@
   {
     "Filename": "697",
     "Sound_de": "ich habe gebacken.",
-    "translate_fa": "پختم.",
-    "root": "ich habe nicht gebacken.\nپختم.\nHabe ich gebacken?\nپختم؟",
+    "translate_fa": "پخته ام.",
+    "root": "ich habe nicht gebacken.\nنپخته ام.\nHabe ich gebacken?\nآیا پخته ام؟",
     "parent": "backen",
     "file": "697_de.mp3",
     "tense": "Perfekt"
@@ -6278,8 +6278,8 @@
   {
     "Filename": "698",
     "Sound_de": "du hast gebacken.",
-    "translate_fa": "شما پخت.",
-    "root": "du hast nicht gebacken.\nپخت نکردی.\nHast du gebacken?\nآیا پخته اید؟",
+    "translate_fa": "تو پخته ای.",
+    "root": "du hast nicht gebacken.\nتو نپخته ای.\nHast du gebacken?\nآیا پخته ای؟",
     "parent": "backen",
     "file": "698_de.mp3",
     "tense": "Perfekt"
@@ -6287,8 +6287,8 @@
   {
     "Filename": "699",
     "Sound_de": "er/sie/es hat gebacken.",
-    "translate_fa": "او/او/آن پخته شد.",
-    "root": "er/sie/es hat nicht gebacken.\nاو/او/آن پخت نشد.\nHat er/sie/es gebacken?\nآیا او/او پخت؟",
+    "translate_fa": "او/او/آن پخته اند.",
+    "root": "er/sie/es hat nicht gebacken.\nاو/او/آن نپخته اند.\nHat er/sie/es gebacken?\nآیا او/او پخته اند؟",
     "parent": "backen",
     "file": "699_de.mp3",
     "tense": "Perfekt"
@@ -6296,8 +6296,8 @@
   {
     "Filename": "700",
     "Sound_de": "wir haben gebacken.",
-    "translate_fa": "پختیم.",
-    "root": "wir haben nicht gebacken.\nپخت نکردیم.\nHaben wir gebacken?\nپختیم؟",
+    "translate_fa": "پخنه ایم.",
+    "root": "wir haben nicht gebacken.\nنپخته ایم.\nHaben wir gebacken?\nآیا پخته ایم؟",
     "parent": "backen",
     "file": "700_de.mp3",
     "tense": "Perfekt"
@@ -6305,8 +6305,8 @@
   {
     "Filename": "701",
     "Sound_de": "ihr habt gebacken.",
-    "translate_fa": "شما پخت.",
-    "root": "ihr habt nicht gebacken.\nپخت نکردی.\nHabt ihr gebacken?\nآیا پخته اید؟",
+    "translate_fa": "شما پخته اید.",
+    "root": "ihr habt nicht gebacken.\nنپخته اید .\nHabt ihr gebacken?\nآیا پخته اید؟",
     "parent": "backen",
     "file": "701_de.mp3",
     "tense": "Perfekt"
@@ -6314,8 +6314,8 @@
   {
     "Filename": "702",
     "Sound_de": "sie/Sie haben gebacken.",
-    "translate_fa": "او/او پخت.",
-    "root": "sie/Sie haben nicht gebacken.\nآنها پخت نکردند.\nHaben sie/Sie gebacken?\nآیا پخته اید؟",
+    "translate_fa": "آنها پخنه اند.",
+    "root": "sie/Sie haben nicht gebacken.\nآنها نپخته اند .\nHaben sie/Sie gebacken?\nآیا پخته اند؟",
     "parent": "backen",
     "file": "702_de.mp3",
     "tense": "Perfekt"
@@ -6323,8 +6323,8 @@
   {
     "Filename": "703",
     "Sound_de": "ich hatte gebacken.",
-    "translate_fa": "من پخته شده بودم.",
-    "root": "ich hatte nicht gebacken.\nمن پخته نشده بودم.\nHatte ich gebacken?\nمن پختم؟",
+    "translate_fa": "من پخته  بودم.",
+    "root": "ich hatte nicht gebacken.\nمن نپخته  بودم.\nHatte ich gebacken?\nمن پخته بودم؟",
     "parent": "backen",
     "file": "703_de.mp3",
     "tense": "Plusquamperfekt"
@@ -6332,8 +6332,8 @@
   {
     "Filename": "704",
     "Sound_de": "du hattest gebacken.",
-    "translate_fa": "شما پخته شده بودید.",
-    "root": "du hattest nicht gebacken.\nشما پخته نشده بودید.\nHattest du gebacken?\nپخت؟",
+    "translate_fa": "شما پخته  بودید.",
+    "root": "du hattest nicht gebacken.\nشما نپخته  بودید.\nHattest du gebacken?\nآیا پخته بودید؟",
     "parent": "backen",
     "file": "704_de.mp3",
     "tense": "Plusquamperfekt"
@@ -6342,7 +6342,7 @@
     "Filename": "705",
     "Sound_de": "er/sie/es hatte gebacken.",
     "translate_fa": "او/او پخته بود.",
-    "root": "er/sie/es hatte nicht gebacken.\nاو/او/پخته نشده بود.\nHatte er/sie/es gebacken?\nآیا او/او پخته شده است؟",
+    "root": "er/sie/es hatte nicht gebacken.\nاو/او نپخته  بود.\nHatte er/sie/es gebacken?\nآیا او/او پخته بود؟",
     "parent": "backen",
     "file": "705_de.mp3",
     "tense": "Plusquamperfekt"
@@ -6350,8 +6350,8 @@
   {
     "Filename": "706",
     "Sound_de": "wir hatten gebacken.",
-    "translate_fa": "ما پخته شده بودیم.",
-    "root": "wir hatten nicht gebacken.\nما پخته نشده بودیم.\nHatten wir gebacken?\nما پخته بودیم؟",
+    "translate_fa": "ما پخته بودیم.",
+    "root": "wir hatten nicht gebacken.\nما نپخته بودیم.\nHatten wir gebacken?\nآیا ما پخته بودیم؟",
     "parent": "backen",
     "file": "706_de.mp3",
     "tense": "Plusquamperfekt"
@@ -6359,8 +6359,8 @@
   {
     "Filename": "707",
     "Sound_de": "ihr hattet gebacken.",
-    "translate_fa": "شما پخته شده بودید.",
-    "root": "ihr hattet nicht gebacken.\nشما پخته نشده بودید.\nHattet ihr gebacken?\nپخت؟",
+    "translate_fa": "شما پخته  بودید.",
+    "root": "ihr hattet nicht gebacken.\nشما نپخته  بودید.\nHattet ihr gebacken?\nآیا پخته بودید؟",
     "parent": "backen",
     "file": "707_de.mp3",
     "tense": "Plusquamperfekt"
@@ -6368,8 +6368,8 @@
   {
     "Filename": "708",
     "Sound_de": "sie/Sie hatten gebacken.",
-    "translate_fa": "آنها پخته شده بودند.",
-    "root": "sie/Sie hatten nicht gebacken.\nاو/او پخته نشده بود.\nHatten sie/Sie gebacken?\nآنها پخته بودند؟",
+    "translate_fa": "آنها پخته بودند.",
+    "root": "sie/Sie hatten nicht gebacken.\nاو/او نپخته  بودند.\nHatten sie/Sie gebacken?\nآنها پخته بودند؟",
     "parent": "backen",
     "file": "708_de.mp3",
     "tense": "Plusquamperfekt"
@@ -6377,8 +6377,8 @@
   {
     "Filename": "709",
     "Sound_de": "ich werde backen.",
-    "translate_fa": "پختم.",
-    "root": "ich werde nicht backen.\nپختم.\nWerde ich backen?\nپختم؟",
+    "translate_fa": "من خواهم پخت..",
+    "root": "ich werde nicht backen.\nنخواهم پخت.\nWerde ich backen?\nآیا خواهم پخت؟",
     "parent": "backen",
     "file": "709_de.mp3",
     "tense": "Futur I"
@@ -6386,8 +6386,8 @@
   {
     "Filename": "710",
     "Sound_de": "du wirst backen.",
-    "translate_fa": "پخت.",
-    "root": "du wirst nicht backen.\nپختی.\nWirst du backen?\nآیا می خواهید پخت؟",
+    "translate_fa": "تو خواهی پخت.",
+    "root": "du wirst nicht backen.\nنخواهی پخت.\nWirst du backen?\nآیا تو  خواهی پخت؟",
     "parent": "backen",
     "file": "710_de.mp3",
     "tense": "Futur I"
@@ -6395,8 +6395,8 @@
   {
     "Filename": "711",
     "Sound_de": "er/sie/es wird backen.",
-    "translate_fa": "او/او/آن پخت خواهد شد.",
-    "root": "er/sie/es wird nicht backen.\nاو/او/آن پخته نخواهد شد.\nWird er/sie/es backen?\nآیا او/او پخت؟",
+    "translate_fa": "او/او/آن  خواهد پخت.",
+    "root": "er/sie/es wird nicht backen.\nاو/او/آن  نخواهد پخت.\nWird er/sie/es backen?\nآیا او/او خواهد پخت؟",
     "parent": "backen",
     "file": "711_de.mp3",
     "tense": "Futur I"
@@ -6404,8 +6404,8 @@
   {
     "Filename": "712",
     "Sound_de": "wir werden backen.",
-    "translate_fa": "پختیم.",
-    "root": "wir werden nicht backen.\nما پخت نمی کنیم.\nWerden wir backen?\nآیا ما قصد پخت داریم؟",
+    "translate_fa": "ما خواهیم پخت.",
+    "root": "wir werden nicht backen.\nما  نخواهیم پخت.\nWerden wir backen?\nآیا ما خواهیم پخت ؟",
     "parent": "backen",
     "file": "712_de.mp3",
     "tense": "Futur I"
@@ -6413,8 +6413,8 @@
   {
     "Filename": "713",
     "Sound_de": "ihr werdet backen.",
-    "translate_fa": "پخت.",
-    "root": "ihr werdet nicht backen.\nپختی.\nWerdet ihr backen?\nآیا می خواهید پخت؟",
+    "translate_fa": "شما خواهید پخت.",
+    "root": "ihr werdet nicht backen.\nشما نخواهید پخت.\nWerdet ihr backen?\nآیا شما  خواهید پخت؟",
     "parent": "backen",
     "file": "713_de.mp3",
     "tense": "Futur I"
@@ -6422,8 +6422,8 @@
   {
     "Filename": "714",
     "Sound_de": "sie/Sie werden backen.",
-    "translate_fa": "او/او پخت.",
-    "root": "sie/Sie werden nicht backen.\nآنها پخت نخواهند شد.\nWerden sie/Sie backen?\nآیا آنها پختند؟",
+    "translate_fa": "آنها خواهند پخت.",
+    "root": "sie/Sie werden nicht backen.\nآنها  نخواهند پخت.\nWerden sie/Sie backen?\nآیا آنها خواهند پخت؟",
     "parent": "backen",
     "file": "714_de.mp3",
     "tense": "Futur I"

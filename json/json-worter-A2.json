@@ -3118,14 +3118,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "547",
-        "Sound_de": "backen - bäckt - backt - hat gebacken",
-        "translate_fa": "پختن - می‌پزد - می‌پزد - پخته است",
-        "file": "547_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده (starkes Verb) است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nbacken: شکل مصدری به معنای 'پختن'.\nbäckt: شکل صرف شده برای ضمیرهای 'er', 'sie', 'es'.\nhat gebacken: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gebacken' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "549",
         "Sound_de": "die Bäckerei - die Bäckereien",
         "translate_fa": "نانوایی",

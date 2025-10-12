@@ -2804,14 +2804,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "398",
-        "Sound_de": "der Anruf - die Anrufe",
-        "translate_fa": "تماس تلفنی",
-        "file": "398_de.mp3",
-        "root": "نوع کلمه: این یک اسم مذکر است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم مذکر.\nAnruf: اسم مذکر به معنای 'تماس تلفنی'.\ndie Anrufe: شکل جمع اسم 'Anruf' است.",
-        "type": "اسم"
-    },
-    {
         "Filename": "403",
         "Sound_de": "der Anruf - die Anrufe",
         "translate_fa": "تماس تلفنی",

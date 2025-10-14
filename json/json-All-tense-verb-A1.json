@@ -1,0 +1,1234 @@
+[
+  {
+    "Präsens": "wohnen",
+    "Präteritum": "wohnten",
+    "Perfekt": "haben gewohnt",
+    "Plusquamperfekt": "hatten gewohnt",
+    "Futur I": "werden wohnen",
+    "Futur II": "werden gewohnt haben"
+  },
+  {
+    "Präsens": "essen",
+    "Präteritum": "aßen",
+    "Perfekt": "haben gegessen",
+    "Plusquamperfekt": "hatten gegessen",
+    "Futur I": "werden essen",
+    "Futur II": "werden gegessen haben"
+  },
+  {
+    "Präsens": "trinken",
+    "Präteritum": "tranken",
+    "Perfekt": "haben getrunken",
+    "Plusquamperfekt": "hatten getrunken",
+    "Futur I": "werden trinken",
+    "Futur II": "werden getrunken haben"
+  },
+  {
+    "Präsens": "bezahlen",
+    "Präteritum": "bezahlten",
+    "Perfekt": "haben bezahlt",
+    "Plusquamperfekt": "hatten bezahlt",
+    "Futur I": "werden bezahlen",
+    "Futur II": "werden bezahlt haben"
+  },
+  {
+    "Präsens": "abfahren",
+    "Präteritum": "fuhren ab",
+    "Perfekt": "sein abgefahren",
+    "Plusquamperfekt": "waren abgefahren",
+    "Futur I": "werden abfahren",
+    "Futur II": "werden abgefahren sein"
+  },
+  {
+    "Präsens": "abgeben",
+    "Präteritum": "gaben ab",
+    "Perfekt": "haben abgegeben",
+    "Plusquamperfekt": "hatten abgegeben",
+    "Futur I": "werden abgeben",
+    "Futur II": "werden abgegeben haben"
+  },
+  {
+    "Präsens": "abholen",
+    "Präteritum": "holten ab",
+    "Perfekt": "haben abgeholt",
+    "Plusquamperfekt": "hatten abgeholt",
+    "Futur I": "werden abholen",
+    "Futur II": "werden abgeholt haben"
+  },
+  {
+    "Präsens": "anfangen",
+    "Präteritum": "fingen an",
+    "Perfekt": "haben angefangen",
+    "Plusquamperfekt": "hatten angefangen",
+    "Futur I": "werden anfangen",
+    "Futur II": "werden angefangen haben"
+  },
+  {
+    "Präsens": "anklicken",
+    "Präteritum": "klickten an",
+    "Perfekt": "haben angeklickt",
+    "Plusquamperfekt": "hatten angeklickt",
+    "Futur I": "werden anklicken",
+    "Futur II": "werden angeklickt haben"
+  },
+  {
+    "Präsens": "ankommen",
+    "Präteritum": "kamen an",
+    "Perfekt": "sein angekommen",
+    "Plusquamperfekt": "waren angekommen",
+    "Futur I": "werden ankommen",
+    "Futur II": "werden angekommen sein"
+  },
+  {
+    "Präsens": "ankreuzen",
+    "Präteritum": "kreuzten an",
+    "Perfekt": "haben angekreuzt",
+    "Plusquamperfekt": "hatten angekreuzt",
+    "Futur I": "werden ankreuzen",
+    "Futur II": "werden angekreuzt haben"
+  },
+  {
+    "Präsens": "anmachen",
+    "Präteritum": "machten an",
+    "Perfekt": "haben angemacht",
+    "Plusquamperfekt": "hatten angemacht",
+    "Futur I": "werden anmachen",
+    "Futur II": "werden angemacht haben"
+  },
+  {
+    "Präsens": "anmelden",
+    "Präteritum": "meldeten an",
+    "Perfekt": "haben angemeldet",
+    "Plusquamperfekt": "hatten angemeldet",
+    "Futur I": "werden anmelden",
+    "Futur II": "werden angemeldet haben"
+  },
+  {
+    "Präsens": "anrufen",
+    "Präteritum": "riefen an",
+    "Perfekt": "haben angerufen",
+    "Plusquamperfekt": "hatten angerufen",
+    "Futur I": "werden anrufen",
+    "Futur II": "werden angerufen haben"
+  },
+  {
+    "Präsens": "antworten",
+    "Präteritum": "antworteten",
+    "Perfekt": "haben geantwortet",
+    "Plusquamperfekt": "hatten geantwortet",
+    "Futur I": "werden antworten",
+    "Futur II": "werden geantwortet haben"
+  },
+  {
+    "Präsens": "anziehen",
+    "Präteritum": "zogen an",
+    "Perfekt": "haben angezogen",
+    "Plusquamperfekt": "hatten angezogen",
+    "Futur I": "werden anziehen",
+    "Futur II": "werden angezogen haben"
+  },
+  {
+    "Präsens": "arbeiten",
+    "Präteritum": "arbeiteten",
+    "Perfekt": "haben gearbeitet",
+    "Plusquamperfekt": "hatten gearbeitet",
+    "Futur I": "werden arbeiten",
+    "Futur II": "werden gearbeitet haben"
+  },
+  {
+    "Präsens": "aufhören",
+    "Präteritum": "hörten auf",
+    "Perfekt": "haben aufgehört",
+    "Plusquamperfekt": "hatten aufgehört",
+    "Futur I": "werden aufhören",
+    "Futur II": "werden aufgehört haben"
+  },
+  {
+    "Präsens": "aufstehen",
+    "Präteritum": "standen auf",
+    "Perfekt": "sein aufgestanden",
+    "Plusquamperfekt": "waren aufgestanden",
+    "Futur I": "werden aufstehen",
+    "Futur II": "werden aufgestanden sein"
+  },
+  {
+    "Präsens": "ausfüllen",
+    "Präteritum": "füllten aus",
+    "Perfekt": "haben ausgefüllt",
+    "Plusquamperfekt": "hatten ausgefüllt",
+    "Futur I": "werden ausfüllen",
+    "Futur II": "werden ausgefüllt haben"
+  },
+  {
+    "Präsens": "ausmachen",
+    "Präteritum": "machten aus",
+    "Perfekt": "haben ausgemacht",
+    "Plusquamperfekt": "hatten ausgemacht",
+    "Futur I": "werden ausmachen",
+    "Futur II": "werden ausgemacht haben"
+  },
+  {
+    "Präsens": "aussehen",
+    "Präteritum": "sahen aus",
+    "Perfekt": "haben ausgesehen",
+    "Plusquamperfekt": "hatten ausgesehen",
+    "Futur I": "werden aussehen",
+    "Futur II": "werden ausgesehen haben"
+  },
+  {
+    "Präsens": "aussteigen",
+    "Präteritum": "stiegen aus",
+    "Perfekt": "sein ausgestiegen",
+    "Plusquamperfekt": "waren ausgestiegen",
+    "Futur I": "werden aussteigen",
+    "Futur II": "werden ausgestiegen sein"
+  },
+  {
+    "Präsens": "ausziehen",
+    "Präteritum": "zogen aus",
+    "Perfekt": "haben ausgezogen",
+    "Plusquamperfekt": "hatten ausgezogen",
+    "Futur I": "werden ausziehen",
+    "Futur II": "werden ausgezogen haben"
+  },
+  {
+    "Präsens": "baden",
+    "Präteritum": "badebten",
+    "Perfekt": "haben gebadet",
+    "Plusquamperfekt": "hatten gebadet",
+    "Futur I": "werden baden",
+    "Futur II": "werden gebadet haben"
+  },
+  {
+    "Präsens": "bedeuten",
+    "Präteritum": "bedeuteten",
+    "Perfekt": "haben bedeutet",
+    "Plusquamperfekt": "hatten bedeutet",
+    "Futur I": "werden bedeuten",
+    "Futur II": "werden bedeutet haben"
+  },
+  {
+    "Präsens": "beginnen",
+    "Präteritum": "begannen",
+    "Perfekt": "haben begonnen",
+    "Plusquamperfekt": "hatten begonnen",
+    "Futur I": "werden beginnen",
+    "Futur II": "werden begonnen haben"
+  },
+  {
+    "Präsens": "bekommen",
+    "Präteritum": "bekamen",
+    "Perfekt": "haben bekommen",
+    "Plusquamperfekt": "hatten bekommen",
+    "Futur I": "werden bekommen",
+    "Futur II": "werden bekommen haben"
+  },
+  {
+    "Präsens": "benutzen",
+    "Präteritum": "benutzten",
+    "Perfekt": "haben benutzt",
+    "Plusquamperfekt": "hatten benutzt",
+    "Futur I": "werden benutzen",
+    "Futur II": "werden benutzt haben"
+  },
+  {
+    "Präsens": "besichtigen",
+    "Präteritum": "besichtigten",
+    "Perfekt": "haben besichtigt",
+    "Plusquamperfekt": "hatten besichtigt",
+    "Futur I": "werden besichtigen",
+    "Futur II": "werden besichtigt haben"
+  },
+  {
+    "Präsens": "bestellen",
+    "Präteritum": "bestellten",
+    "Perfekt": "haben bestellt",
+    "Plusquamperfekt": "hatten bestellt",
+    "Futur I": "werden bestellen",
+    "Futur II": "werden bestellt haben"
+  },
+  {
+    "Präsens": "besuchen",
+    "Präteritum": "besuchten",
+    "Perfekt": "haben besucht",
+    "Plusquamperfekt": "hatten besucht",
+    "Futur I": "werden besuchen",
+    "Futur II": "werden besucht haben"
+  },
+  {
+    "Präsens": "bezahlen",
+    "Präteritum": "bezahlten",
+    "Perfekt": "haben bezahlt",
+    "Plusquamperfekt": "hatten bezahlt",
+    "Futur I": "werden bezahlen",
+    "Futur II": "werden bezahlt haben"
+  },
+  {
+    "Präsens": "bitten",
+    "Präteritum": "baten",
+    "Perfekt": "haben gebeten",
+    "Plusquamperfekt": "hatten gebeten",
+    "Futur I": "werden bitten",
+    "Futur II": "werden gebeten haben"
+  },
+  {
+    "Präsens": "bleiben",
+    "Präteritum": "blieben",
+    "Perfekt": "sein geblieben",
+    "Plusquamperfekt": "waren geblieben",
+    "Futur I": "werden bleiben",
+    "Futur II": "werden geblieben sein"
+  },
+  {
+    "Präsens": "brauchen",
+    "Präteritum": "brauchten",
+    "Perfekt": "haben gebraucht",
+    "Plusquamperfekt": "hatten gebraucht",
+    "Futur I": "werden brauchen",
+    "Futur II": "werden gebraucht haben"
+  },
+  {
+    "Präsens": "bringen",
+    "Präteritum": "brachten",
+    "Perfekt": "haben gebracht",
+    "Plusquamperfekt": "hatten gebracht",
+    "Futur I": "werden bringen",
+    "Futur II": "werden gebracht haben"
+  },
+  {
+    "Präsens": "buchstabieren",
+    "Präteritum": "buchstabierten",
+    "Perfekt": "haben buchstabiert",
+    "Plusquamperfekt": "hatten buchstabiert",
+    "Futur I": "werden buchstabieren",
+    "Futur II": "werden buchstabiert haben"
+  },
+  {
+    "Präsens": "danken",
+    "Präteritum": "dankten",
+    "Perfekt": "haben gedankt",
+    "Plusquamperfekt": "hatten gedankt",
+    "Futur I": "werden danken",
+    "Futur II": "werden gedankt haben"
+  },
+  {
+    "Präsens": "dauern",
+    "Präteritum": "dauerte",
+    "Perfekt": "haben gedauert",
+    "Plusquamperfekt": "hatten gedauert",
+    "Futur I": "werden dauern",
+    "Futur II": "werden gedauert haben"
+  },
+  {
+    "Präsens": "drucken",
+    "Präteritum": "druckten",
+    "Perfekt": "haben gedruckt",
+    "Plusquamperfekt": "hatten gedruckt",
+    "Futur I": "werden drucken",
+    "Futur II": "werden gedruckt haben"
+  },
+  {
+    "Präsens": "drücken",
+    "Präteritum": "drückten",
+    "Perfekt": "haben gedrückt",
+    "Plusquamperfekt": "hatten gedrückt",
+    "Futur I": "werden drücken",
+    "Futur II": "werden gedrückt haben"
+  },
+  {
+    "Präsens": "dürfen",
+    "Präteritum": "durften",
+    "Perfekt": "haben gedurft",
+    "Plusquamperfekt": "hatten gedurft",
+    "Futur I": "werden dürfen",
+    "Futur II": "werden gedurft haben"
+  },
+  {
+    "Präsens": "duschen",
+    "Präteritum": "duschten",
+    "Perfekt": "haben geduscht",
+    "Plusquamperfekt": "hatten geduscht",
+    "Futur I": "werden duschen",
+    "Futur II": "werden geduscht haben"
+  },
+  {
+    "Präsens": "einkaufen",
+    "Präteritum": "kauften ein",
+    "Perfekt": "haben eingekauft",
+    "Plusquamperfekt": "hatten eingekauft",
+    "Futur I": "werden einkaufen",
+    "Futur II": "werden eingekauft haben"
+  },
+  {
+    "Präsens": "einladen",
+    "Präteritum": "luden ein",
+    "Perfekt": "haben eingeladen",
+    "Plusquamperfekt": "hatten eingeladen",
+    "Futur I": "werden einladen",
+    "Futur II": "werden eingeladen haben"
+  },
+  {
+    "Präsens": "einsteigen",
+    "Präteritum": "stiegen ein",
+    "Perfekt": "sein eingestiegen",
+    "Plusquamperfekt": "waren eingestiegen",
+    "Futur I": "werden einsteigen",
+    "Futur II": "werden eingestiegen sein"
+  },
+  {
+    "Präsens": "empfehlen",
+    "Präteritum": "empfahlen",
+    "Perfekt": "haben empfohlen",
+    "Plusquamperfekt": "hatten empfohlen",
+    "Futur I": "werden empfehlen",
+    "Futur II": "werden empfohlen haben"
+  },
+  {
+    "Präsens": "enden",
+    "Präteritum": "endeten",
+    "Perfekt": "haben geendet",
+    "Plusquamperfekt": "hatten geendet",
+    "Futur I": "werden enden",
+    "Futur II": "werden geendet haben"
+  },
+  {
+    "Präsens": "entschuldigen",
+    "Präteritum": "entschuldigten",
+    "Perfekt": "haben entschuldigt",
+    "Plusquamperfekt": "hatten entschuldigt",
+    "Futur I": "werden entschuldigen",
+    "Futur II": "werden entschuldigt haben"
+  },
+  {
+    "Präsens": "erklären",
+    "Präteritum": "erklärten",
+    "Perfekt": "haben erklärt",
+    "Plusquamperfekt": "hatten erklärt",
+    "Futur I": "werden erklären",
+    "Futur II": "werden erklärt haben"
+  },
+  {
+    "Präsens": "erlauben",
+    "Präteritum": "erlaubten",
+    "Perfekt": "haben erlaubt",
+    "Plusquamperfekt": "hatten erlaubt",
+    "Futur I": "werden erlauben",
+    "Futur II": "werden erlaubt haben"
+  },
+  {
+    "Präsens": "erzählen",
+    "Präteritum": "erzählten",
+    "Perfekt": "haben erzählt",
+    "Plusquamperfekt": "hatten erzählt",
+    "Futur I": "werden erzählen",
+    "Futur II": "werden erzählt haben"
+  },
+  {
+    "Präsens": "essen",
+    "Präteritum": "aßen",
+    "Perfekt": "haben gegessen",
+    "Plusquamperfekt": "hatten gegessen",
+    "Futur I": "werden essen",
+    "Futur II": "werden gegessen haben"
+  },
+  {
+    "Präsens": "fahren",
+    "Präteritum": "fuhren",
+    "Perfekt": "sein gefahren",
+    "Plusquamperfekt": "waren gefahren",
+    "Futur I": "werden fahren",
+    "Futur II": "werden gefahren sein"
+  },
+  {
+    "Präsens": "feiern",
+    "Präteritum": "feierten",
+    "Perfekt": "haben gefeiert",
+    "Plusquamperfekt": "hatten gefeiert",
+    "Futur I": "werden feiern",
+    "Futur II": "werden gefeiert haben"
+  },
+  {
+    "Präsens": "fehlen",
+    "Präteritum": "fehlten",
+    "Perfekt": "haben gefehlt",
+    "Plusquamperfekt": "hatten gefehlt",
+    "Futur I": "werden fehlen",
+    "Futur II": "werden gefehlt haben"
+  },
+  {
+    "Präsens": "fernsehen",
+    "Präteritum": "sahen fern",
+    "Perfekt": "haben ferngesehen",
+    "Plusquamperfekt": "hatten ferngesehen",
+    "Futur I": "werden fernsehen",
+    "Futur II": "werden ferngesehen haben"
+  },
+  {
+    "Präsens": "finden",
+    "Präteritum": "fanden",
+    "Perfekt": "haben gefunden",
+    "Plusquamperfekt": "hatten gefunden",
+    "Futur I": "werden finden",
+    "Futur II": "werden gefunden haben"
+  },
+  {
+    "Präsens": "fliegen",
+    "Präteritum": "flogen",
+    "Perfekt": "sein geflogen",
+    "Plusquamperfekt": "waren geflogen",
+    "Futur I": "werden fliegen",
+    "Futur II": "werden geflogen sein"
+  },
+  {
+    "Präsens": "abfliegen",
+    "Präteritum": "flogen ab",
+    "Perfekt": "sein abgeflogen",
+    "Plusquamperfekt": "waren abgeflogen",
+    "Futur I": "werden abfliegen",
+    "Futur II": "werden abgeflogen sein"
+  },
+  {
+    "Präsens": "fragen",
+    "Präteritum": "fragten",
+    "Perfekt": "haben gefragt",
+    "Plusquamperfekt": "hatten gefragt",
+    "Futur I": "werden fragen",
+    "Futur II": "werden gefragt haben"
+  },
+  {
+    "Präsens": "freuen",
+    "Präteritum": "freuten",
+    "Perfekt": "haben gefreut",
+    "Plusquamperfekt": "hatten gefreut",
+    "Futur I": "werden freuen",
+    "Futur II": "werden gefreut haben"
+  },
+  {
+    "Präsens": "frühstücken",
+    "Präteritum": "frühstückten",
+    "Perfekt": "haben gefrühstückt",
+    "Plusquamperfekt": "hatten gefrühstückt",
+    "Futur I": "werden frühstücken",
+    "Futur II": "werden gefrühstückt haben"
+  },
+  {
+    "Präsens": "geben",
+    "Präteritum": "gaben",
+    "Perfekt": "haben gegeben",
+    "Plusquamperfekt": "hatten gegeben",
+    "Futur I": "werden geben",
+    "Futur II": "werden gegeben haben"
+  },
+  {
+    "Präsens": "geboren",
+    "Präteritum": "geboren",
+    "Perfekt": "sein geboren",
+    "Plusquamperfekt": "waren geboren",
+    "Futur I": "werden geboren",
+    "Futur II": "werden geboren sein"
+  },
+  {
+    "Präsens": "gefallen",
+    "Präteritum": "gefielen",
+    "Perfekt": "haben gefallen",
+    "Plusquamperfekt": "hatten gefallen",
+    "Futur I": "werden gefallen",
+    "Futur II": "werden gefallen haben"
+  },
+  {
+    "Präsens": "gehören",
+    "Präteritum": "gehörten",
+    "Perfekt": "haben gehört",
+    "Plusquamperfekt": "hatten gehört",
+    "Futur I": "werden gehören",
+    "Futur II": "werden gehört haben"
+  },
+  {
+    "Präsens": "gestorben",
+    "Präteritum": "gestorben",
+    "Perfekt": "sein gestorben",
+    "Plusquamperfekt": "waren gestorben",
+    "Futur I": "werden sterben",
+    "Futur II": "werden gestorben sein"
+  },
+  {
+    "Präsens": "gewinnen",
+    "Präteritum": "gewannen",
+    "Perfekt": "haben gewonnen",
+    "Plusquamperfekt": "hatten gewonnen",
+    "Futur I": "werden gewinnen",
+    "Futur II": "werden gewonnen haben"
+  },
+  {
+    "Präsens": "glauben",
+    "Präteritum": "glaubten",
+    "Perfekt": "haben geglaubt",
+    "Plusquamperfekt": "hatten geglaubt",
+    "Futur I": "werden glauben",
+    "Futur II": "werden geglaubt haben"
+  },
+  {
+    "Präsens": "gratulieren",
+    "Präteritum": "gratulierten",
+    "Perfekt": "haben gratuliert",
+    "Plusquamperfekt": "hatten gratuliert",
+    "Futur I": "werden gratulieren",
+    "Futur II": "werden gratuliert haben"
+  },
+  {
+    "Präsens": "grillen",
+    "Präteritum": "grillten",
+    "Perfekt": "haben gegrillt",
+    "Plusquamperfekt": "hatten gegrillt",
+    "Futur I": "werden grillen",
+    "Futur II": "werden gegrillt haben"
+  },
+  {
+    "Präsens": "haben",
+    "Präteritum": "hatten",
+    "Perfekt": "haben gehabt",
+    "Plusquamperfekt": "hatten gehabt",
+    "Futur I": "werden haben",
+    "Futur II": "werden gehabt haben"
+  },
+  {
+    "Präsens": "halten",
+    "Präteritum": "hielten",
+    "Perfekt": "haben gehalten",
+    "Plusquamperfekt": "hatten gehalten",
+    "Futur I": "werden halten",
+    "Futur II": "werden gehalten haben"
+  },
+  {
+    "Präsens": "heiraten",
+    "Präteritum": "heirateten",
+    "Perfekt": "haben geheiratet",
+    "Plusquamperfekt": "hatten geheiratet",
+    "Futur I": "werden heiraten",
+    "Futur II": "werden geheiratet haben"
+  },
+  {
+    "Präsens": "heißen",
+    "Präteritum": "hießen",
+    "Perfekt": "haben geheißen",
+    "Plusquamperfekt": "hatten geheißen",
+    "Futur I": "werden heißen",
+    "Futur II": "werden geheißen haben"
+  },
+  {
+    "Präsens": "helfen",
+    "Präteritum": "halfen",
+    "Perfekt": "haben geholfen",
+    "Plusquamperfekt": "hatten geholfen",
+    "Futur I": "werden helfen",
+    "Futur II": "werden geholfen haben"
+  },
+  {
+    "Präsens": "holen",
+    "Präteritum": "holten",
+    "Perfekt": "haben geholt",
+    "Plusquamperfekt": "hatten geholt",
+    "Futur I": "werden holen",
+    "Futur II": "werden geholt haben"
+  },
+  {
+    "Präsens": "hören",
+    "Präteritum": "hörten",
+    "Perfekt": "haben gehört",
+    "Plusquamperfekt": "hatten gehört",
+    "Futur I": "werden hören",
+    "Futur II": "werden gehört haben"
+  },
+  {
+    "Präsens": "kaufen",
+    "Präteritum": "kauften",
+    "Perfekt": "haben gekauft",
+    "Plusquamperfekt": "hatten gekauft",
+    "Futur I": "werden kaufen",
+    "Futur II": "werden gekauft haben"
+  },
+  {
+    "Präsens": "kennen",
+    "Präteritum": "kannten",
+    "Perfekt": "haben gekannt",
+    "Plusquamperfekt": "hatten gekannt",
+    "Futur I": "werden kennen",
+    "Futur II": "werden gekannt haben"
+  },
+  {
+    "Präsens": "kennenlernen",
+    "Präteritum": "lernten kennen",
+    "Perfekt": "haben kennengelernt",
+    "Plusquamperfekt": "hatten kennengelernt",
+    "Futur I": "werden kennenlernen",
+    "Futur II": "werden kennengelernt haben"
+  },
+  {
+    "Präsens": "kochen",
+    "Präteritum": "kochten",
+    "Perfekt": "haben gekocht",
+    "Plusquamperfekt": "hatten gekocht",
+    "Futur I": "werden kochen",
+    "Futur II": "werden gekocht haben"
+  },
+  {
+    "Präsens": "kommen",
+    "Präteritum": "kamen",
+    "Perfekt": "sein gekommen",
+    "Plusquamperfekt": "waren gekommen",
+    "Futur I": "werden kommen",
+    "Futur II": "werden gekommen sein"
+  },
+  {
+    "Präsens": "können",
+    "Präteritum": "konnten",
+    "Perfekt": "haben gekonnt",
+    "Plusquamperfekt": "hatten gekonnt",
+    "Futur I": "werden können",
+    "Futur II": "werden gekonnt haben"
+  },
+  {
+    "Präsens": "kosten",
+    "Präteritum": "kosteten",
+    "Perfekt": "haben gekostet",
+    "Plusquamperfekt": "hatten gekostet",
+    "Futur I": "werden kosten",
+    "Futur II": "werden gekostet haben"
+  },
+  {
+    "Präsens": "kriegen",
+    "Präteritum": "kriegten",
+    "Perfekt": "haben gekriegt",
+    "Plusquamperfekt": "hatten gekriegt",
+    "Futur I": "werden kriegen",
+    "Futur II": "werden gekriegt haben"
+  },
+  {
+    "Präsens": "sich kümmern",
+    "Präteritum": "kümmerten sich",
+    "Perfekt": "haben sich gekümmert",
+    "Plusquamperfekt": "hatten sich gekümmert",
+    "Futur I": "werden sich kümmern",
+    "Futur II": "werden sich gekümmert haben"
+  },
+  {
+    "Präsens": "lachen",
+    "Präteritum": "lachten",
+    "Perfekt": "haben gelacht",
+    "Plusquamperfekt": "hatten gelacht",
+    "Futur I": "werden lachen",
+    "Futur II": "werden gelacht haben"
+  },
+  {
+    "Präsens": "laufen",
+    "Präteritum": "liefen",
+    "Perfekt": "sein gelaufen",
+    "Plusquamperfekt": "waren gelaufen",
+    "Futur I": "werden laufen",
+    "Futur II": "werden gelaufen sein"
+  },
+  {
+    "Präsens": "leben",
+    "Präteritum": "lebten",
+    "Perfekt": "haben gelebt",
+    "Plusquamperfekt": "hatten gelebt",
+    "Futur I": "werden leben",
+    "Futur II": "werden gelebt haben"
+  },
+  {
+    "Präsens": "legen",
+    "Präteritum": "legten",
+    "Perfekt": "haben gelegt",
+    "Plusquamperfekt": "hatten gelegt",
+    "Futur I": "werden legen",
+    "Futur II": "werden gelegt haben"
+  },
+  {
+    "Präsens": "lernen",
+    "Präteritum": "lernten",
+    "Perfekt": "haben gelernt",
+    "Plusquamperfekt": "hatten gelernt",
+    "Futur I": "werden lernen",
+    "Futur II": "werden gelernt haben"
+  },
+  {
+    "Präsens": "lesen",
+    "Präteritum": "lasen",
+    "Perfekt": "haben gelesen",
+    "Plusquamperfekt": "hatten gelesen",
+    "Futur I": "werden lesen",
+    "Futur II": "werden gelesen haben"
+  },
+  {
+    "Präsens": "lieben",
+    "Präteritum": "liebten",
+    "Perfekt": "haben geliebt",
+    "Plusquamperfekt": "hatten geliebt",
+    "Futur I": "werden lieben",
+    "Futur II": "werden geliebt haben"
+  },
+  {
+    "Präsens": "liegen",
+    "Präteritum": "lagen",
+    "Perfekt": "haben gelegen",
+    "Plusquamperfekt": "hatten gelegen",
+    "Futur I": "werden liegen",
+    "Futur II": "werden gelegen haben"
+  },
+  {
+    "Präsens": "machen",
+    "Präteritum": "machten",
+    "Perfekt": "haben gemacht",
+    "Plusquamperfekt": "hatten gemacht",
+    "Futur I": "werden machen",
+    "Futur II": "werden gemacht haben"
+  },
+  {
+    "Präsens": "mieten",
+    "Präteritum": "mieteten",
+    "Perfekt": "haben gemietet",
+    "Plusquamperfekt": "hatten gemietet",
+    "Futur I": "werden mieten",
+    "Futur II": "werden gemietet haben"
+  },
+  {
+    "Präsens": "bringen mit",
+    "Präteritum": "brachten mit",
+    "Perfekt": "haben mitgebracht",
+    "Plusquamperfekt": "hatten mitgebracht",
+    "Futur I": "werden mitbringen",
+    "Futur II": "werden mitgebracht haben"
+  },
+  {
+    "Präsens": "kommen mit",
+    "Präteritum": "kamen mit",
+    "Perfekt": "sind mitgekommen",
+    "Plusquamperfekt": "waren mitgekommen",
+    "Futur I": "werden mitkommen",
+    "Futur II": "werden mitgekommen sein"
+  },
+  {
+    "Präsens": "machen mit",
+    "Präteritum": "machten mit",
+    "Perfekt": "haben mitgemacht",
+    "Plusquamperfekt": "hatten mitgemacht",
+    "Futur I": "werden mitmachen",
+    "Futur II": "werden mitgemacht haben"
+  },
+  {
+    "Präsens": "nehmen mit",
+    "Präteritum": "nahmen mit",
+    "Perfekt": "haben mitgenommen",
+    "Plusquamperfekt": "hatten mitgenommen",
+    "Futur I": "werden mitnehmen",
+    "Futur II": "werden mitgenommen haben"
+  },
+  {
+    "Präsens": "möchten",
+    "Präteritum": "möchten (Konjunktivform, keine Präteritum-Form)",
+    "Perfekt": "haben möchten wollen",
+    "Plusquamperfekt": "hatten möchten wollen",
+    "Futur I": "werden möchten",
+    "Futur II": "werden möchten haben"
+  },
+  {
+    "Präsens": "mögen",
+    "Präteritum": "mochten",
+    "Perfekt": "haben gemocht",
+    "Plusquamperfekt": "hatten gemocht",
+    "Futur I": "werden mögen",
+    "Futur II": "werden gemocht haben"
+  },
+  {
+    "Präsens": "müssen",
+    "Präteritum": "mussten",
+    "Perfekt": "haben gemusst",
+    "Plusquamperfekt": "hatten gemusst",
+    "Futur I": "werden müssen",
+    "Futur II": "werden gemusst haben"
+  },
+  {
+    "Präsens": "nehmen",
+    "Präteritum": "nahmen",
+    "Perfekt": "haben genommen",
+    "Plusquamperfekt": "hatten genommen",
+    "Futur I": "werden nehmen",
+    "Futur II": "werden genommen haben"
+  },
+  {
+    "Präsens": "öffnen",
+    "Präteritum": "öffneten",
+    "Perfekt": "haben geöffnet",
+    "Plusquamperfekt": "hatten geöffnet",
+    "Futur I": "werden öffnen",
+    "Futur II": "werden geöffnet haben"
+  },
+  {
+    "Präsens": "fahren Rad",
+    "Präteritum": "fuhren Rad",
+    "Perfekt": "sind Rad gefahren",
+    "Plusquamperfekt": "waren Rad gefahren",
+    "Futur I": "werden Rad fahren",
+    "Futur II": "werden Rad gefahren sein"
+  },
+  {
+    "Präsens": "rauchen",
+    "Präteritum": "rauchten",
+    "Perfekt": "haben geraucht",
+    "Plusquamperfekt": "hatten geraucht",
+    "Futur I": "werden rauchen",
+    "Futur II": "werden geraucht haben"
+  },
+  {
+    "Präsens": "regnen",
+    "Präteritum": "regnete",
+    "Perfekt": "hat geregnet",
+    "Plusquamperfekt": "hatte geregnet",
+    "Futur I": "wird regnen",
+    "Futur II": "wird geregnet haben"
+  },
+  {
+    "Präsens": "reisen",
+    "Präteritum": "reisten",
+    "Perfekt": "sind gereist",
+    "Plusquamperfekt": "waren gereist",
+    "Futur I": "werden reisen",
+    "Futur II": "werden gereist sein"
+  },
+  {
+    "Präsens": "reparieren",
+    "Präteritum": "reparierten",
+    "Perfekt": "haben repariert",
+    "Plusquamperfekt": "hatten repariert",
+    "Futur I": "werden reparieren",
+    "Futur II": "werden repariert haben"
+  },
+  {
+    "Präsens": "riechen",
+    "Präteritum": "rochen",
+    "Perfekt": "haben gerochen",
+    "Plusquamperfekt": "hatten gerochen",
+    "Futur I": "werden riechen",
+    "Futur II": "werden gerochen haben"
+  },
+  {
+    "Präsens": "scheinen",
+    "Präteritum": "schienen",
+    "Perfekt": "haben geschienen",
+    "Plusquamperfekt": "hatten geschienen",
+    "Futur I": "werden scheinen",
+    "Futur II": "werden geschienen haben"
+  },
+  {
+    "Präsens": "schicken",
+    "Präteritum": "schickten",
+    "Perfekt": "haben geschickt",
+    "Plusquamperfekt": "hatten geschickt",
+    "Futur I": "werden schicken",
+    "Futur II": "werden geschickt haben"
+  },
+  {
+    "Präsens": "schlafen",
+    "Präteritum": "schliefen",
+    "Perfekt": "haben geschlafen",
+    "Plusquamperfekt": "hatten geschlafen",
+    "Futur I": "werden schlafen",
+    "Futur II": "werden geschlafen haben"
+  },
+  {
+    "Präsens": "schließen",
+    "Präteritum": "schlossen",
+    "Perfekt": "haben geschlossen",
+    "Plusquamperfekt": "hatten geschlossen",
+    "Futur I": "werden schließen",
+    "Futur II": "werden geschlossen haben"
+  },
+  {
+    "Präsens": "schmecken",
+    "Präteritum": "schmeckten",
+    "Perfekt": "haben geschmeckt",
+    "Plusquamperfekt": "hatten geschmeckt",
+    "Futur I": "werden schmecken",
+    "Futur II": "werden geschmeckt haben"
+  },
+    {
+    "Präsens": "sagen",
+    "Präteritum": "sagten",
+    "Perfekt": "haben gesagt",
+    "Plusquamperfekt": "hatten gesagt",
+    "Futur I": "werden sagen",
+    "Futur II": "werden gesagt haben"
+  },
+  {
+    "Präsens": "schreiben",
+    "Präteritum": "schrieben",
+    "Perfekt": "haben geschrieben",
+    "Plusquamperfekt": "hatten geschrieben",
+    "Futur I": "werden schreiben",
+    "Futur II": "werden geschrieben haben"
+  },
+  {
+    "Präsens": "schwimmen",
+    "Präteritum": "schwammen",
+    "Perfekt": "sind geschwommen",
+    "Plusquamperfekt": "waren geschwommen",
+    "Futur I": "werden schwimmen",
+    "Futur II": "werden geschwommen sein"
+  },
+  {
+    "Präsens": "sehen",
+    "Präteritum": "sahen",
+    "Perfekt": "haben gesehen",
+    "Plusquamperfekt": "hatten gesehen",
+    "Futur I": "werden sehen",
+    "Futur II": "werden gesehen haben"
+  },
+  {
+    "Präsens": "sein",
+    "Präteritum": "waren",
+    "Perfekt": "sind gewesen",
+    "Plusquamperfekt": "waren gewesen",
+    "Futur I": "werden sein",
+    "Futur II": "werden gewesen sein"
+  },
+  {
+    "Präsens": "an sein",
+    "Präteritum": "waren an",
+    "Perfekt": "sind an gewesen",
+    "Plusquamperfekt": "waren an gewesen",
+    "Futur I": "werden an sein",
+    "Futur II": "werden an gewesen sein"
+  },
+  {
+    "Präsens": "auf sein",
+    "Präteritum": "waren auf",
+    "Perfekt": "sind auf gewesen",
+    "Plusquamperfekt": "waren auf gewesen",
+    "Futur I": "werden auf sein",
+    "Futur II": "werden auf gewesen sein"
+  },
+  {
+    "Präsens": "weg sein",
+    "Präteritum": "waren weg",
+    "Perfekt": "sind weg gewesen",
+    "Plusquamperfekt": "waren weg gewesen",
+    "Futur I": "werden weg sein",
+    "Futur II": "werden weg gewesen sein"
+  },
+  {
+    "Präsens": "zu sein",
+    "Präteritum": "waren zu",
+    "Perfekt": "sind zu gewesen",
+    "Plusquamperfekt": "waren zu gewesen",
+    "Futur I": "werden zu sein",
+    "Futur II": "werden zu gewesen sein"
+  },
+  {
+    "Präsens": "sitzen",
+    "Präteritum": "saßen",
+    "Perfekt": "haben gesessen",
+    "Plusquamperfekt": "hatten gesessen",
+    "Futur I": "werden sitzen",
+    "Futur II": "werden gesessen haben"
+  },
+  {
+    "Präsens": "sollen",
+    "Präteritum": "sollten",
+    "Perfekt": "haben sollen",
+    "Plusquamperfekt": "hatten sollen",
+    "Futur I": "werden sollen",
+    "Futur II": "werden sollen haben"
+  },
+  {
+    "Präsens": "spielen",
+    "Präteritum": "spielten",
+    "Perfekt": "haben gespielt",
+    "Plusquamperfekt": "hatten gespielt",
+    "Futur I": "werden spielen",
+    "Futur II": "werden gespielt haben"
+  },
+  {
+    "Präsens": "sprechen",
+    "Präteritum": "sprachen",
+    "Perfekt": "haben gesprochen",
+    "Plusquamperfekt": "hatten gesprochen",
+    "Futur I": "werden sprechen",
+    "Futur II": "werden gesprochen haben"
+  },
+  {
+    "Präsens": "stehen",
+    "Präteritum": "standen",
+    "Perfekt": "haben gestanden",
+    "Plusquamperfekt": "hatten gestanden",
+    "Futur I": "werden stehen",
+    "Futur II": "werden gestanden haben"
+  },
+  {
+    "Präsens": "tanzen",
+    "Präteritum": "tanzten",
+    "Perfekt": "haben getanzt",
+    "Plusquamperfekt": "hatten getanzt",
+    "Futur I": "werden tanzen",
+    "Futur II": "werden getanzt haben"
+  },
+  {
+    "Präsens": "telefonieren",
+    "Präteritum": "telefonierten",
+    "Perfekt": "haben telefoniert",
+    "Plusquamperfekt": "hatten telefoniert",
+    "Futur I": "werden telefonieren",
+    "Futur II": "werden telefoniert haben"
+  },
+  {
+    "Präsens": "treffen",
+    "Präteritum": "trafen",
+    "Perfekt": "haben getroffen",
+    "Plusquamperfekt": "hatten getroffen",
+    "Futur I": "werden treffen",
+    "Futur II": "werden getroffen haben"
+  },
+  {
+    "Präsens": "tun",
+    "Präteritum": "taten",
+    "Perfekt": "haben getan",
+    "Plusquamperfekt": "hatten getan",
+    "Futur I": "werden tun",
+    "Futur II": "werden getan haben"
+  },
+  {
+    "Präsens": "übernachten",
+    "Präteritum": "übernachteten",
+    "Perfekt": "haben übernachtet",
+    "Plusquamperfekt": "hatten übernachtet",
+    "Futur I": "werden übernachten",
+    "Futur II": "werden übernachtet haben"
+  },
+  {
+    "Präsens": "überweisen",
+    "Präteritum": "überwiesen",
+    "Perfekt": "haben überwiesen",
+    "Plusquamperfekt": "hatten überwiesen",
+    "Futur I": "werden überweisen",
+    "Futur II": "werden überwiesen haben"
+  },
+  {
+    "Präsens": "unterschreiben",
+    "Präteritum": "unterschrieben",
+    "Perfekt": "haben unterschrieben",
+    "Plusquamperfekt": "hatten unterschrieben",
+    "Futur I": "werden unterschreiben",
+    "Futur II": "werden unterschrieben haben"
+  },
+  {
+    "Präsens": "verdienen",
+    "Präteritum": "verdienten",
+    "Perfekt": "haben verdient",
+    "Plusquamperfekt": "hatten verdient",
+    "Futur I": "werden verdienen",
+    "Futur II": "werden verdient haben"
+  },
+  {
+    "Präsens": "verkaufen",
+    "Präteritum": "verkauften",
+    "Perfekt": "haben verkauft",
+    "Plusquamperfekt": "hatten verkauft",
+    "Futur I": "werden verkaufen",
+    "Futur II": "werden verkauft haben"
+  },
+  {
+    "Präsens": "vermieten",
+    "Präteritum": "vermieteten",
+    "Perfekt": "haben vermietet",
+    "Plusquamperfekt": "hatten vermietet",
+    "Futur I": "werden vermieten",
+    "Futur II": "werden vermietet haben"
+  },
+  {
+    "Präsens": "verstehen",
+    "Präteritum": "verstanden",
+    "Perfekt": "haben verstanden",
+    "Plusquamperfekt": "hatten verstanden",
+    "Futur I": "werden verstehen",
+    "Futur II": "werden verstanden haben"
+  },
+  {
+    "Präsens": "vorstellen",
+    "Präteritum": "stellten vor",
+    "Perfekt": "haben vorgestellt",
+    "Plusquamperfekt": "hatten vorgestellt",
+    "Futur I": "werden vorstellen",
+    "Futur II": "werden vorgestellt haben"
+  },
+  {
+    "Präsens": "wandern",
+    "Präteritum": "wanderten",
+    "Perfekt": "sind gewandert",
+    "Plusquamperfekt": "waren gewandert",
+    "Futur I": "werden wandern",
+    "Futur II": "werden gewandert sein"
+  },
+  {
+    "Präsens": "warten",
+    "Präteritum": "warteten",
+    "Perfekt": "haben gewartet",
+    "Plusquamperfekt": "hatten gewartet",
+    "Futur I": "werden warten",
+    "Futur II": "werden gewartet haben"
+  },
+  {
+    "Präsens": "waschen",
+    "Präteritum": "wuschen",
+    "Perfekt": "haben gewaschen",
+    "Plusquamperfekt": "hatten gewaschen",
+    "Futur I": "werden waschen",
+    "Futur II": "werden gewaschen haben"
+  },
+  {
+    "Präsens": "weh tun",
+    "Präteritum": "taten weh",
+    "Perfekt": "haben wehgetan",
+    "Plusquamperfekt": "hatten wehgetan",
+    "Futur I": "werden weh tun",
+    "Futur II": "werden wehgetan haben"
+  },
+  {
+    "Präsens": "wiederholen",
+    "Präteritum": "wiederholten",
+    "Perfekt": "haben wiederholt",
+    "Plusquamperfekt": "hatten wiederholt",
+    "Futur I": "werden wiederholen",
+    "Futur II": "werden wiederholt haben"
+  },
+  {
+    "Präsens": "wissen",
+    "Präteritum": "wussten",
+    "Perfekt": "haben gewusst",
+    "Plusquamperfekt": "hatten gewusst",
+    "Futur I": "werden wissen",
+    "Futur II": "werden gewusst haben"
+  },
+  {
+    "Präsens": "wohnen",
+    "Präteritum": "wohnten",
+    "Perfekt": "haben gewohnt",
+    "Plusquamperfekt": "hatten gewohnt",
+    "Futur I": "werden wohnen",
+    "Futur II": "werden gewohnt haben"
+  },
+  {
+    "Präsens": "wollen",
+    "Präteritum": "wollten",
+    "Perfekt": "haben wollen",
+    "Plusquamperfekt": "hatten wollen",
+    "Futur I": "werden wollen",
+    "Futur II": "werden wollen haben"
+  },
+  {
+    "Präsens": "zahlen",
+    "Präteritum": "zahlten",
+    "Perfekt": "haben gezahlt",
+    "Plusquamperfekt": "hatten gezahlt",
+    "Futur I": "werden zahlen",
+    "Futur II": "werden gezahlt haben"
+  }
+]

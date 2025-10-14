@@ -4085,7 +4085,7 @@
     },
     {
         "Filename": "944",
-        "Sound_de": "die Ehefrau - die Ehefrauen / der Ehemann - die Ehemänner / der Ehepartner - die Ehepartner",
+        "Sound_de": "die Ehefrau - der Ehemann",
         "translate_fa": "همسر (زن) - همسر (مرد) - همسر",
         "file": "944_de.mp3",
         "root": "اطلاعاتی در دسترس نیست.",
@@ -4235,14 +4235,7 @@
         "root": "نوع کلمه: این یک صفت است.\neng: به معنای 'تنگ'.",
         "type": "صفت"
     },
-    {
-        "Filename": "1017",
-        "Sound_de": "entschuldigen - entschuldigt - hat entschuldigt",
-        "translate_fa": "عذرخواهی کردن - عذرخواهی می‌کند - عذرخواهی کرده است",
-        "file": "1017_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این فعل با پیشوند جدا نشدنی 'ent-' شروع می‌شود. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nentschuldigen: شکل مصدری به معنای 'عذرخواهی کردن'.\nentschuldigt: شکل صرف شده برای ضمیرهای 'er', 'sie', 'es' و 'ihr'.\nhat entschuldigt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'entschuldigt' ساخته می‌شود.",
-        "type": "فعل"
-    },
+
     {
         "Filename": "1020",
         "Sound_de": "die Entschuldigung - die Entschuldigungen",

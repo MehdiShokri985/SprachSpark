@@ -617,11 +617,11 @@ h1 {
 }
 .tense-time {
   /* font-weight: bold; */
-  color: #81abff;
+  color: #a0d9ff;
 }
 .tense-form {
-  color: #aea0ff;
-  font-size: 1.01em;
+  color: #38d099;
+  font-size: 1.03em;
 }
 
 @keyframes bounce {

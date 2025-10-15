@@ -124,13 +124,13 @@ h1 {
   background-color: var(--box-bg);
   border-radius: 12px;
   margin-bottom: 20px;
-  padding: 24px;
+  padding: 5px 15px 15px 15px;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   transition: height 0.3s ease;
   box-shadow: var(--shadow);
   border: 1px solid #2d406580;
@@ -146,7 +146,7 @@ h1 {
 }
 .node {
   position: relative;
-  width: 38px;
+  width: 42px;
   height: 36px;
   background: linear-gradient(45deg, var(--node-default), #b3b315);
   border-radius: 40% 0% 40% 40%;
@@ -167,13 +167,13 @@ h1 {
 }
 .node.node-100 {
   background: #1cb71145;
-  border: solid 1px #42ff365c;
+  border: solid 1px #42ff3640;
   box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 67%);
   color: #14ff76;
 }
 .node.node-50 {
   background: #fff00442;
-  border: solid 1px #ffe80f80;
+  border: solid 1px #ffe80f4d;
   box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 67%);
   color: #f6ff57;
 }
@@ -218,7 +218,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(7 8 23 / 68%);
   z-index: 100;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -264,17 +264,17 @@ h1 {
 }
 .selection-btn.level-0 {
   background: rgb(45 37 55);
-  border: solid 1px #ff608085;
+  border: solid 1px #ff608038;
   color: #ff6985;
 }
 .selection-btn.level-50 {
   background: rgb(84 87 41);
-  border: solid 1px #dfb41ac9;
+  border: solid 1px #dfb41a69;
   color: #f2ff00;
 }
 .selection-btn.level-100 {
   background: rgb(26 75 44);
-  border: solid 1px #0aeb68a1;
+  border: solid 1px #0aeb6833;
   color: #6aff98;
 }
 .selection-btn:hover {
@@ -302,7 +302,7 @@ h1 {
   cursor: grab;
   border: solid 2px #30417c29;
   box-sizing: border-box;
-  background: linear-gradient(135deg, #2a2f4f66 0%, #1e22354f 100%);
+  background: #0002441c;
 }
 .flashcard.dragging {
   cursor: grabbing;
@@ -313,11 +313,11 @@ h1 {
   width: 100%;
   height: auto;
   min-height: 300px;
-  background: #2a32619c;
+  background: #23294ce6;
   border-radius: 12px;
   transition: transform 0.6s ease;
   transform-style: preserve-3d;
-  border: solid 1px #718ee369;
+  border: solid 1px #3f4e7aa3;
 }
 .flashcard.flipped .flashcard-inner {
   transform: rotateY(180deg);
@@ -393,7 +393,7 @@ h1 {
 }
 .sound-container .sound {
   font-size: 1.2em;
-  color: #d8efff;
+  color: #a8cef6;
   cursor: pointer;
   padding: 5px 5px;
   margin: auto;
@@ -585,6 +585,43 @@ h1 {
   font-size: 2.1em;
   margin-left: 10px;
   width: 100%;
+}
+
+.tense-display {
+  background: var(--card-bg);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 0px auto 20px;
+  /* max-width: 600px; */
+  direction: ltr;
+  text-align: left;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--muted);
+  display: none;
+}
+.tense-header {
+  color: #b3f10f;
+  font-size: 1.6em;
+  text-align: center;
+}
+.tense-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tense-item {
+  padding: 3px 0;
+  border-bottom: 1px solid var(--muted);
+  display: flex;
+  justify-content: space-between;
+}
+.tense-time {
+  /* font-weight: bold; */
+  color: #81abff;
+}
+.tense-form {
+  color: #aea0ff;
+  font-size: 1.01em;
 }
 
 @keyframes bounce {
@@ -869,4 +906,22 @@ h1 {
 }
 .review-progress-dot:hover {
   background-color: #ceaf39;
+}
+
+.tense-group-title {
+  width: 100%;
+  color: #a0d9ff;
+  /* font-size: 1.2em; */
+  /* font-weight: bold; */
+  margin: 10px 0 0px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #2d406580;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.nodes-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
 }

@@ -15,6 +15,7 @@ const groupBox = document.getElementById("groupBox");
 const pathContainer = document.querySelector(".path-container");
 const groupContainer = document.querySelector(".group-container");
 const groupParentTitle = document.querySelector(".group-parent-title");
+const tenseDisplay = document.getElementById("tenseDisplay");
 const reviewPopup = document.getElementById("reviewPopup");
 const reviewClose = document.querySelector(".review-close");
 const reviewGerman = document.getElementById("reviewGerman");
@@ -31,12 +32,14 @@ const levelConfig = {
   A1_verben_II: {
     jsonFile: "../json/json-verb-II-A1.json",
     audioPath: "../audio-A1-Verben-II",
+    tense: "../json/json-All-tense-verb-A1.json",
     headerText: "A1 Verben II",
     headerClass: "color-a1",
   },
   A2_verben_II: {
     jsonFile: "../json/json-verb-II-A2.json",
     audioPath: "../audio-A2-Verben-II",
+    tense: "../json/json-All-tense-verb-A2.json",
     headerText: "A2 Verben II",
     headerClass: "color-a2",
   },
@@ -45,6 +48,7 @@ const levelConfig = {
 let itemsData = [];
 let nodeStates = [];
 let nodeViewCounts = [];
+let tenseData = {};
 let currentGroupParent = "";
 
 function sanitizeString(str) {
@@ -55,6 +59,16 @@ function sanitizeString(str) {
     .replace(/\r/g, " ")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
+}
+
+function renderTenses(tenses, groupParent) {
+  let html = `<div class="tense-header">Zeiten: ${groupParent}</div><ul class="tense-list">`;
+  Object.keys(tenses).forEach((time) => {
+    html += `<li class="tense-item"><span class="tense-time">${time}:</span> <span class="tense-form">${tenses[time]}</span></li>`;
+  });
+  html += "</ul>";
+  tenseDisplay.innerHTML = html;
+  tenseDisplay.style.display = "block";
 }
 
 window.addEventListener("load", () => {
@@ -72,6 +86,19 @@ window.addEventListener("load", () => {
         itemsData = data;
         nodeStates = new Array(itemsData.length).fill("0");
         nodeViewCounts = new Array(itemsData.length).fill(0);
+        return fetch(config.tense);
+      })
+      .then((r) => {
+        if (!r.ok) throw new Error("Failed to load tense JSON file");
+        return r.json();
+      })
+      .then((tenseObj) => {
+        Object.keys(tenseObj).forEach((key) => {
+          const presens = tenseObj[key].Präsens;
+          if (presens) {
+            tenseData[presens] = tenseObj[key];
+          }
+        });
         header.style.display = "block";
         backButton.style.display = "block";
         renderGroups(config.headerClass);
@@ -119,32 +146,86 @@ function showGroup(groupParent) {
   currentGroupParent = groupParent;
   const groupItems = itemsData.filter((item) => item.parent === groupParent);
   renderPath(groupItems);
-  groupParentTitle.textContent = groupParent;
+  groupParentTitle.textContent = "";
+  const tenses = tenseData[groupParent];
+  if (tenses) {
+    renderTenses(tenses, groupParent);
+  } else {
+    tenseDisplay.style.display = "none";
+  }
   groupContainer.style.display = "none";
   pathContainer.style.display = "block";
   backButton.textContent = "Zurück zu den Gruppen";
 }
 
 function renderPath(items) {
+  // Clear previous content
   box0.innerHTML = "";
   box50.innerHTML = "";
   box100.innerHTML = "";
-  items.forEach((item, localIndex) => {
-    const globalIndex = itemsData.indexOf(item);
-    const node = document.createElement("div");
-    node.className = `node node-${nodeStates[globalIndex]}`;
-    node.textContent = globalIndex + 1;
-    node.dataset.index = globalIndex;
-    const counter = document.createElement("div");
-    counter.className = "node-counter";
-    counter.textContent = nodeViewCounts[globalIndex];
-    if (nodeViewCounts[globalIndex] > 0) {
-      counter.classList.add("visible");
-    }
-    node.appendChild(counter);
-    const targetBox = getBoxByLevel(nodeStates[globalIndex]);
-    targetBox.appendChild(node);
-    node.addEventListener("click", () => showFlashcardPopup(globalIndex));
+
+  // Group items by state (0, 50, 100)
+  const groups = {
+    0: items.filter((_, localIndex) => {
+      const globalIndex = itemsData.indexOf(items[localIndex]);
+      return nodeStates[globalIndex] === "0";
+    }),
+    50: items.filter((_, localIndex) => {
+      const globalIndex = itemsData.indexOf(items[localIndex]);
+      return nodeStates[globalIndex] === "50";
+    }),
+    100: items.filter((_, localIndex) => {
+      const globalIndex = itemsData.indexOf(items[localIndex]);
+      return nodeStates[globalIndex] === "100";
+    }),
+  };
+
+  // For each state box
+  Object.keys(groups).forEach((state) => {
+    const targetBox = getBoxByLevel(state);
+    const stateItems = groups[state];
+
+    if (stateItems.length === 0) return;
+
+    // Further group by tense within the state
+    const tenseMap = new Map();
+    stateItems.forEach((item, localIndex) => {
+      const globalIndex = itemsData.indexOf(item);
+      const tense = item.tense || "Unbekannt";
+      if (!tenseMap.has(tense)) {
+        tenseMap.set(tense, []);
+      }
+      tenseMap.get(tense).push({ item, localIndex, globalIndex });
+    });
+
+    // Render each tense group
+    tenseMap.forEach((tenseItems, tense) => {
+      const groupTitle = document.createElement("div");
+      groupTitle.className = "tense-group-title";
+      groupTitle.textContent = tense;
+      targetBox.appendChild(groupTitle);
+
+      const nodesWrapper = document.createElement("div");
+      nodesWrapper.className = "nodes-wrapper";
+
+      tenseItems.forEach(({ item, localIndex, globalIndex }) => {
+        const node = document.createElement("div");
+        node.className = `node node-${nodeStates[globalIndex]}`;
+        node.textContent = globalIndex + 1;
+        node.dataset.index = globalIndex;
+        const counter = document.createElement("div");
+        counter.className = "node-counter";
+        counter.textContent = nodeViewCounts[globalIndex];
+        if (nodeViewCounts[globalIndex] > 0) {
+          counter.classList.add("visible");
+        }
+        node.appendChild(counter);
+        nodesWrapper.appendChild(node);
+        node.addEventListener("click", () => showFlashcardPopup(globalIndex));
+      });
+
+      targetBox.appendChild(nodesWrapper);
+    });
   });
 }
 
@@ -400,41 +481,11 @@ function handleSelection(index, level) {
     } else {
       counter.classList.remove("visible");
     }
-    const oldBox = node.parentElement;
-    const newBox = getBoxByLevel(level);
-    if (oldBox !== newBox) {
-      const rect = node.getBoundingClientRect();
-      node.style.position = "fixed";
-      node.style.left = `${rect.left}px`;
-      node.style.top = `${rect.top}px`;
-      node.style.zIndex = "1000";
-      node.style.transition =
-        "left 0.5s ease, top 0.5s ease, opacity 0.5s ease";
-      document.body.appendChild(node);
-      const tempNode = document.createElement("div");
-      tempNode.style.visibility = "hidden";
-      tempNode.style.width = "36px";
-      tempNode.style.height = "36px";
-      newBox.appendChild(tempNode);
-      const targetRect = tempNode.getBoundingClientRect();
-      setTimeout(() => {
-        node.style.left = `${targetRect.left}px`;
-        node.style.top = `${targetRect.top}px`;
-        node.style.opacity = "0.5";
-      }, 10);
-      setTimeout(() => {
-        newBox.appendChild(node);
-        newBox.removeChild(tempNode);
-        node.style.position = "relative";
-        node.style.left = "";
-        node.style.top = "";
-        node.style.opacity = "1";
-        node.style.transition = "";
-        node.style.zIndex = "";
-      }, 600);
-    } else {
-      newBox.appendChild(node);
-    }
+    // Re-render the path to update grouping
+    const groupItems = itemsData.filter(
+      (item) => item.parent === currentGroupParent
+    );
+    renderPath(groupItems);
   }, 500);
 
   setTimeout(() => {
@@ -461,6 +512,7 @@ rootModal.addEventListener("click", (e) => {
 backButton.addEventListener("click", () => {
   if (pathContainer.style.display === "block") {
     pathContainer.style.display = "none";
+    tenseDisplay.style.display = "none";
     groupContainer.style.display = "block";
     backButton.textContent = "Zurück zur Hauptseite";
   } else {

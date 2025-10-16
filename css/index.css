@@ -1,4 +1,4 @@
-      body {
+/* body {
         background-color: #191e29;
         color: #f1c40f;
         font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
@@ -21,25 +21,25 @@
         max-width: 800px;
         font-weight: 100;
             text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
-      }
-
+      } */
+/* 
       .header span {
         font-size: 1.2rem;
         color: #7c87cc;
-      }
+      } */
 
-      .container {
-        max-width: 800px;
-        margin: 10px auto 10px auto;
-        position: relative;
-            text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
-      }
+.container {
+  max-width: 800px;
+  margin: 10px auto 10px auto;
+  position: relative;
+      text-shadow: 1px 1px 1px rgb(0 0 0 / 98%);
+}
 
-      .accordion {
-        margin-bottom: 10px;
-      }
+.accordion {
+  margin-bottom: 10px;
+}
 
-      .accordion-header {
+/* .accordion-header {
         background-color: #2a3955;
         color: #00ff88;
         padding: 15px;
@@ -50,17 +50,17 @@
         transition: background-color 0.3s ease;
         text-align: center;
         font-weight: bold;
-      }
+      } */
 
-      .accordion-header:hover {
+/* .accordion-header:hover {
         background-color: #3a4e73;
-      }
+      } */
 
-      .accordion-header.a2 {
+/* .accordion-header.a2 {
         color: #d3ff02;
-      }
+      } */
 
-      .accordion-content {
+/* .accordion-content {
         display: none;
         padding: 10px;
         background-color: #121e35;
@@ -71,108 +71,108 @@
 
       .accordion-content.active {
         display: block;
-      }
+      } */
 
-      .level-selection {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
+.level-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-      .level-item {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        border: 2px solid #00ff8847; /* حاشیه زیبا برای A1 */
-        border-radius: 8px; /* گوشه‌های گرد */
-        padding: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* سایه ملایم */
-      }
+.level-item {
+     display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    border-bottom: 2px solid #191e2970;
+    /* border-radius: 5px; */
+    padding: 0px 5px 10px 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+}
 
-      .level-item.a2 {
-        border-color: #d3ff0240; /* حاشیه برای A2 */
-      }
+/* .level-item.a2 {
+  border-color: #d3ff0240; 
+} */
 
-      .level-title {
-        font-size: 1.2em;
-        color: #00ff88;
-        text-align: center;
-        margin: 5px 0;
-      }
+.level-title {
+      font-size: 1.2em;
+    color: #c9d5e4;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+}
 
-      .level-title.a2 {
-        color: #d3ff02;
-      }
+.level-title.a2 {
+  color: #d3ff02;
+}
 
-      .level-buttons {
-        display: flex;
-        gap: 8px;
-        justify-content: center;
-      }
+.level-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
 
-      .level-btn {
-        background-color: #1f2d46;
-        color: #00ff88ad;
-        border: none;
-        padding: 8px 15px; /* پدینگ کوچکتر برای دکمه‌های کوچک */
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 0.9em; /* فونت کوچکتر */
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-        transition: background-color 0.3s ease, transform 0.2s ease;
-        flex: 1;
-        text-align: center;
-            text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
-      }
+.level-btn {
+    background-color: #191e29;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    /* transition: background-color 0.3s ease, transform 0.2s ease; */
+    flex: 1;
+    /* text-align: center; */
+    /* text-shadow: 1px 1px 4px rgb(0 0 0 / 98%); */
+}
 
-      .level-btn.flashcard {
-        background-color: #1f2d46;
-        color: #00ff88ad;
-      }
+.level-btn.flashcard {
+  background-color: #1f2d46;
+  /* color: #00ff88ad; */
+}
 
-      .level-btn:hover {
-        background-color: #26395a;
-        /* transform: translateY(-2px); */
-      }
+.level-btn:hover {
+  background-color: #13171e;
+  /* transform: translateY(-2px); */
+}
 
-      .level-btn.flashcard:hover {
-        background-color: #3a4e73;
-      }
+.level-btn.flashcard:hover {
+  background-color: #3a4e73;
+}
 
-      .level-btn:active {
-        transform: translateY(0);
-      }
+.level-btn:active {
+  transform: translateY(0);
+}
 
-      .level-btn.a2 {
-        color: #bbd540;
-      }
+.level-btn.a2 {
+  color: #bbd540;
+}
 
-      .level-btn.flashcard.a2 {
-        color: #bbd540;
-      }
+.level-btn.flashcard.a2 {
+  color: #bbd540;
+}
 
-      @media (max-width: 600px) {
-        html,
-        body {
-          height: 100dvh;
-          margin: 0;
-        }
-        h1 {
-          font-size: 1.2em;
-        }
-        .accordion-header {
-          font-size: 1.1em;
-          padding: 10px;
-        }
-        .level-item {
-          padding: 8px;
-          border-width: 1.5px; /* حاشیه نازک‌تر برای موبایل */
-        }
-        .level-title {
-          font-size: 1em;
-        }
-        .level-btn {
-          font-size: 0.8em; /* فونت حتی کوچکتر برای موبایل */
-          padding: 6px 10px; /* پدینگ کوچکتر برای موبایل */
-        }
-      }
+@media (max-width: 600px) {
+  html,
+  body {
+    height: 100dvh;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  .accordion-header {
+    font-size: 1.1em;
+    padding: 10px;
+  }
+  .level-item {
+    padding: 8px;
+    border-width: 1.5px; /* حاشیه نازک‌تر برای موبایل */
+  }
+  .level-title {
+    font-size: 1em;
+  }
+  .level-btn {
+    font-size: 0.8em; /* فونت حتی کوچکتر برای موبایل */
+    padding: 6px 10px; /* پدینگ کوچکتر برای موبایل */
+  }
+}

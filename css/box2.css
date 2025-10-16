@@ -588,16 +588,16 @@ h1 {
 }
 
 .tense-display {
-  background: var(--card-bg);
-  padding: 15px;
-  border-radius: 8px;
-  margin: 0px auto 20px;
-  /* max-width: 600px; */
-  direction: ltr;
-  text-align: left;
-  box-shadow: var(--shadow);
-  border: 1px solid var(--muted);
-  display: none;
+    background: #2a2f4f05;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0px auto 20px;
+    /* max-width: 600px; */
+    direction: ltr;
+    text-align: left;
+    /* box-shadow: var(--shadow); */
+    border: 1px solid #0000002e;
+    display: none;
 }
 .tense-header {
   color: #b3f10f;

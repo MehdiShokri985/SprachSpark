@@ -15589,8 +15589,8 @@
     "verb": ["tut"],
     "auxiliary_verb": [null],
     "object": [null],
-    "verb_part1": [null],
-    "verb_part2": [null]
+    "verb_part1": ["tut"],
+    "verb_part2": ["weh"]
   },
   {
     "Filename": "1424",
@@ -21256,7 +21256,7 @@
   },
   {
     "Filename": "1909",
-    "Sound_de": "Wie schreiben Sie das?",
+    "Sound_de": "Wie schreiben man das?",
     "translate_fa": "این را چطور می‌نویسند؟",
     "file": "1909_de.mp3",
     "root": "نوع جمله: این یک جمله سؤالی با کلمه پرسشی (W-Frage) است.\nWie: کلمه پرسشی 'چگونه'.\nschreiben: فعل 'schreiben' (نوشتن) صرف شده برای 'Sie'.\nSie: ضمیر فاعلی محترمانه 'شما'.\ndas: ضمیر اشاره 'آن' که مفعول آکوزاتیو است.",

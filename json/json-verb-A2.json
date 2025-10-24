@@ -1216,5 +1216,14 @@
     "root": "حال (Präsens):\nich passe (من مناسبم/می‌گذرم)\ndu passt (تو مناسبی/می‌گذری)\ner/sie/es passt (او مناسب است/می‌گذرد)\nwir passen (ما مناسبیم/می‌گذریم)\nihr passt (شما مناسبید/می‌گذرید)\nsie/Sie passen (آن‌ها/شما (محترمانه) مناسبند/می‌گذرند)\n\nگذشته ساده (Präteritum):\nich passte (من مناسب بودم/گذشتم)\ndu passtest (تو مناسب بودی/گذشتی)\ner/sie/es passte (او مناسب بود/گذشت)\nwir passten (ما مناسب بودیم/گذشتیم)\nihr passtet (شما مناسب بودید/گذشتید)\nsie/Sie passten (آن‌ها/شما (محترمانه) مناسب بودند/گذشتند)\n\nگذشته کامل (Perfekt):\nich habe gepasst (من مناسب بوده‌ام/گذشته‌ام)\ndu hast gepasst (تو مناسب بوده‌ای/گذشته‌ای)\ner/sie/es hat gepasst (او مناسب بوده/گذشته است)\nwir haben gepasst (ما مناسب بوده‌ایم/گذشته‌ایم)\nihr habt gepasst (شما مناسب بوده‌اید/گذشته‌اید)\nsie/Sie haben gepasst (آن‌ها/شما (محترمانه) مناسب بوده‌اند/گذشته‌اند)\n\nحالت منفی (Präsens):\nich passe nicht (من مناسب نیستم/نمی‌گذرم)\ndu passt nicht (تو مناسب نیستی/نمی‌گذری)\ner/sie/es passt nicht (او مناسب نیست/نمی‌گذرد)\nwir passen nicht (ما مناسب نیستیم/نمی‌گذریم)\nihr passt nicht (شما مناسب نیستید/نمی‌گذرید)\nsie/Sie passen nicht (آن‌ها/شما (محترمانه) مناسب نیستند/نمی‌گذرند)",
     "translate_fa": "مناسب بودن - مناسب است - مناسب بوده است",
     "file": "2198_de.mp3"
-  }
+  },
+      {
+        "Filename": "2201",
+        "Sound_de": "passieren - passiert - ist passiert",
+        "translate_fa": "اتفاق افتادن - اتفاق می‌افتد - اتفاق افتاده است",
+        "file": "2201_de.mp3",
+        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. فعل در زمان گذشته کامل با 'sein' ساخته می‌شود.\npassieren: شکل مصدری به معنای 'اتفاق افتادن'.\npassiert: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nist passiert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'sein' و صفت مفعولی 'passiert' ساخته می‌شود.",
+        "type": "فعل",
+        "verb_type": "غیرجداشدنی"
+    }
 ]

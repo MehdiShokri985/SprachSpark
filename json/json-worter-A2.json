@@ -7364,15 +7364,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2224",
-        "Sound_de": "planen - plant - hat geplant",
-        "translate_fa": "برنامه‌ریزی کردن - برنامه‌ریزی می‌کند - برنامه‌ریزی کرده است",
-        "file": "2224_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nplanen: شکل مصدری به معنای 'برنامه‌ریزی کردن'.\nplant: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geplant: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geplant' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "2227",
         "Sound_de": "der Platz - die Plätze",
         "translate_fa": "جا / مکان",
@@ -7500,15 +7491,7 @@
         "root": "نوع کلمه: این یک حرف اضافه (Präposition) است.\npro: به معنای 'به ازای' یا 'برای هر'. این حرف اضافه با حالت آکوزاتیو به کار می‌رود.",
         "type": "حرف اضافه"
     },
-    {
-        "Filename": "2265",
-        "Sound_de": "probieren - probiert - hat probiert",
-        "translate_fa": "امتحان کردن - امتحان می‌کند - امتحان کرده است",
-        "file": "2265_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nprobieren: شکل مصدری به معنای 'امتحان کردن' یا 'چشیدن'.\nprobiert: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat probiert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'probiert' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
+
     {
         "Filename": "2268",
         "Sound_de": "das Problem - die Probleme",
@@ -7549,15 +7532,7 @@
         "root": "نوع کلمه: این یک اسم مذکر است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nProspekt: اسم مذکر به معنای 'بروشور' یا 'کاتالوگ'.\ndie Prospekte: شکل جمع اسم 'Prospekt' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2279",
-        "Sound_de": "prüfen - prüft - hat geprüft",
-        "translate_fa": "بررسی کردن - بررسی می‌کند - بررسی کرده است",
-        "file": "2279_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nprüfen: شکل مصدری به معنای 'بررسی کردن' یا 'آزمودن'.\nprüft: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geprüft: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geprüft' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
+
     {
         "Filename": "2281",
         "Sound_de": "die Prüfung - die Prüfungen",
@@ -7582,15 +7557,7 @@
         "root": "نوع کلمه: این یک صفت یا قید است.\npünktlich: به معنای 'وقت‌شناس' یا 'سروقت'.",
         "type": "صفت"
     },
-    {
-        "Filename": "2288",
-        "Sound_de": "putzen - putzt - hat geputzt",
-        "translate_fa": "تمیز کردن - تمیز می‌کند - تمیز کرده است",
-        "file": "2288_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nputzen: شکل مصدری به معنای 'تمیز کردن'.\nputzt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geputzt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geputzt' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
+    
     {
         "Filename": "2290",
         "Sound_de": "die Qualität - die Qualitäten",
@@ -7615,15 +7582,7 @@
         "root": "نوع کلمه: این یک اسم خنثی است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndas: حرف تعریف مشخص برای اسم‌های خنثی.\nRadio: اسم خنثی به معنای 'رادیو'.\ndie Radios: شکل جمع اسم 'Radio' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2298",
-        "Sound_de": "raten - rät - hat geraten",
-        "translate_fa": "توصیه کردن - توصیه می‌کند - توصیه کرده است",
-        "file": "2298_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nraten: شکل مصدری به معنای 'حدس زدن' یا 'توصیه کردن'.\nrät: صرف شده برای 'er', 'sie', 'es'.\nhat geraten: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geraten' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
+    
     {
         "Filename": "2301",
         "Sound_de": "das Rathaus - die Rathäuser",
@@ -7640,15 +7599,7 @@
         "root": "نوع کلمه: این یک اسم خنثی است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndas: حرف تعریف مشخص برای اسم‌های خنثی.\nRätsel: اسم خنثی به معنای 'معما' یا 'چیستان'.\ndie Rätsel: شکل جمع اسم 'Rätsel' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2306",
-        "Sound_de": "rauchen - raucht - hat geraucht",
-        "translate_fa": "سیگار کشیدن - سیگار می‌کشد - سیگار کشیده است",
-        "file": "2306_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nrauchen: شکل مصدری به معنای 'سیگار کشیدن'.\nraucht: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geraucht: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geraucht' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
+    
     {
         "Filename": "2309",
         "Sound_de": "der Raum - die Räume",
@@ -7657,15 +7608,7 @@
         "root": "نوع کلمه: این یک اسم مذکر است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nRaum: اسم مذکر به معنای 'اتاق' یا 'فضا'.\ndie Räume: شکل جمع اسم 'Raum' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2311",
-        "Sound_de": "rechnen - rechnet - hat gerechnet",
-        "translate_fa": "محاسبه کردن - محاسبه می‌کند - محاسبه کرده است",
-        "file": "2311_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nrechnen: شکل مصدری به معنای 'حساب کردن'.\nrechnet: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gerechnet: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gerechnet' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
+   
     {
         "Filename": "2313",
         "Sound_de": "die Rechnung - die Rechnungen",
@@ -7674,15 +7617,7 @@
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nRechnung: اسم مؤنث به معنای 'صورت‌حساب'.\ndie Rechnungen: شکل جمع اسم 'Rechnung' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2316",
-        "Sound_de": "recht haben - hat recht - hatte recht - hat recht gehabt",
-        "translate_fa": "حق داشتن - حق دارد - حق داشت - حق داشته است",
-        "file": "2316_de.mp3",
-        "root": "نوع کلمه: این یک اصطلاح فعلی است.\nrecht haben: به معنای 'حق داشتن'.\nhat recht: صرف شده در زمان حال.\nhatte recht: صرف شده در زمان گذشته ساده (Präteritum).\nhat recht gehabt: صرف شده در زمان گذشته کامل (Perfekt).",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
+
     {
         "Filename": "2318",
         "Sound_de": "rechts",
@@ -7692,15 +7627,6 @@
         "type": "قید"
     },
     {
-        "Filename": "2320",
-        "Sound_de": "reden - redet - hat geredet",
-        "translate_fa": "صحبت کردن - صحبت می‌کند - صحبت کرده است",
-        "file": "2320_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nreden: شکل مصدری به معنای 'صحبت کردن'.\nredet: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geredet: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geredet' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "2323",
         "Sound_de": "der Regen - die Regen",
         "translate_fa": "باران",
@@ -7708,15 +7634,7 @@
         "root": "نوع کلمه: این یک اسم مذکر است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nRegen: اسم مذکر به معنای 'باران'.\ndie Regen: شکل جمع اسم 'Regen' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2325",
-        "Sound_de": "regnen - regnet - hat geregnet",
-        "translate_fa": "باریدن - می‌بارد - باریده است",
-        "file": "2325_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. این فعل معمولاً با ضمیر خنثی 'es' به کار می‌رود.\nregnen: شکل مصدری به معنای 'باریدن'.\nregnet: صرف شده برای 'es'.\nhat geregnet: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geregnet' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
+    
     {
         "Filename": "2327",
         "Sound_de": "reich",
@@ -7781,32 +7699,8 @@
         "root": "نوع کلمه: این یک اسم مذکر مرکب است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nReiseführer: اسم مذکر به معنای 'راهنمای سفر' یا 'کتاب راهنما'.\ndie Reiseführer: شکل جمع اسم 'Reiseführer' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2348",
-        "Sound_de": "reisen - reist - ist gereist",
-        "translate_fa": "سفر کردن - سفر می‌کند - سفر کرده است",
-        "file": "2348_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. فعل در گذشته کامل با 'sein' ساخته می‌شود.\nreisen: شکل مصدری به معنای 'سفر کردن'.\nreist: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nist gereist: شکل گذشته کامل (Perfekt) که با فعل کمکی 'sein' و صفت مفعولی 'gereist' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
-        "Filename": "2350",
-        "Sound_de": "reiten - reitet - ist geritten",
-        "translate_fa": "اسب‌سواری کردن - اسب‌سواری می‌کند - اسب‌سواری کرده است",
-        "file": "2350_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. فعل در گذشته کامل با 'sein' ساخته می‌شود.\nreiten: شکل مصدری به معنای 'سوارکاری کردن'.\nreitet: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nist geritten: شکل گذشته کامل (Perfekt) که با فعل کمکی 'sein' و صفت مفعولی 'geritten' ساخته می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
-        "Filename": "2352",
-        "Sound_de": "renovieren - renoviert - hat renoviert",
-        "translate_fa": "نوسازی کردن - نوسازی می‌کند - نوسازی کرده است",
-        "file": "2352_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. این فعل به دلیل پسوند 'ieren' پیشوند 'ge-' را در زمان گذشته کامل نمی‌گیرد.\nrenovieren: شکل مصدری به معنای 'بازسازی کردن'.\nrenoviert: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat renoviert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'renoviert' ساخته می‌شود.",
-        "type": "فعل"
-    },
+ 
+   
     {
         "Filename": "2354",
         "Sound_de": "der Rentner - die Rentnerin - die Rentner - die Rentnerinnen",
@@ -7823,22 +7717,8 @@
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nReparatur: اسم مؤنث به معنای 'تعمیر'.\ndie Reparaturen: شکل جمع اسم 'Reparatur' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2358",
-        "Sound_de": "reparieren - repariert - hat repariert",
-        "translate_fa": "تعمیر کردن - تعمیر می‌کند - تعمیر کرده است",
-        "file": "2358_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. این فعل به دلیل پسوند 'ieren' پیشوند 'ge-' را در زمان گذشته کامل نمی‌گیرد.\nreparieren: شکل مصدری به معنای 'تعمیر کردن'.\nrepariert: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat repariert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'repariert' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2360",
-        "Sound_de": "reservieren - reserviert - reservierte - hat reserviert",
-        "translate_fa": "رزرو کردن - رزرو می‌کند - رزرو کرده است",
-        "file": "2360_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال، گذشته ساده و گذشته کامل را نشان می‌دهد. این فعل به دلیل پسوند 'ieren' پیشوند 'ge-' را در زمان گذشته کامل نمی‌گیرد.\nreservieren: شکل مصدری به معنای 'رزرو کردن'.\nreserviert: صرف شده در زمان حال.\nreservierte: صرف شده در زمان گذشته ساده (Präteritum).\nhat reserviert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'reserviert' ساخته می‌شود.",
-        "type": "فعل"
-    },
+
+
     {
         "Filename": "2363",
         "Sound_de": "der Rest - die Reste",
@@ -7878,14 +7758,6 @@
         "file": "2373_de.mp3",
         "root": "نوع کلمه: این یک صفت یا قید است.\nrichtig: به معنای 'درست' یا 'واقعاً'.",
         "type": "صفت"
-    },
-    {
-        "Filename": "2376",
-        "Sound_de": "riechen - riecht - hat gerochen",
-        "translate_fa": "بو کردن - بو می‌کند - بو کرده است",
-        "file": "2376_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nriechen: شکل مصدری به معنای 'بو دادن'.\nriecht: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gerochen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gerochen' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2379",
@@ -7942,14 +7814,6 @@
         "file": "2392_de.mp3",
         "root": "نوع کلمه: این یک اسم مذکر مرکب است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nRucksack: اسم مذکر به معنای 'کوله پشتی'.\ndie Rucksäcke: شکل جمع اسم 'Rucksack' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2394",
-        "Sound_de": "rufen - ruft - hat gerufen",
-        "translate_fa": "صدا کردن - صدا می‌کند - صدا کرده است",
-        "file": "2394_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nrufen: شکل مصدری به معنای 'صدا زدن' یا 'فریاد زدن'.\nruft: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gerufen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gerufen' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2397",
@@ -8016,14 +7880,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2422",
-        "Sound_de": "sammeln - sammelt - hat gesammelt",
-        "translate_fa": "جمع کردن - جمع می‌کند - جمع کرده است",
-        "file": "2422_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nsammeln: شکل مصدری به معنای 'جمع‌آوری کردن'.\nsammelt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gesammelt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gesammelt' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2425",
         "Sound_de": "der Satz - die Sätze",
         "translate_fa": "جمله",
@@ -8064,14 +7920,6 @@
         "type": "صفت"
     },
     {
-        "Filename": "2436",
-        "Sound_de": "schaffen - schafft - hat geschafft",
-        "translate_fa": "انجام دادن - انجام می‌دهد - انجام داده است",
-        "file": "2436_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschaffen: شکل مصدری به معنای 'انجام دادن' یا 'موفق شدن'.\nschafft: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschafft: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschafft' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2439",
         "Sound_de": "der Schalter - die Schalter",
         "translate_fa": "باجه",
@@ -8088,36 +7936,12 @@
         "type": "صفت"
     },
     {
-        "Filename": "2445",
-        "Sound_de": "scheinen - scheint - hat geschienen",
-        "translate_fa": "به نظر آمدن - به نظر می‌آید - به نظر آمده است",
-        "file": "2445_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nscheinen: شکل مصدری به معنای 'درخشیدن'.\nscheint: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschienen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschienen' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2447",
-        "Sound_de": "schenken - schenkt - hat geschenkt",
-        "translate_fa": "هدیه دادن - هدیه می‌دهد - هدیه داده است",
-        "file": "2447_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschenken: شکل مصدری به معنای 'هدیه دادن'.\nschenkt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschenkt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschenkt' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2449",
         "Sound_de": "die Schere - die Scheren",
         "translate_fa": "قیچی",
         "file": "2449_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nSchere: اسم مؤنث به معنای 'قیچی'.\ndie Scheren: شکل جمع اسم 'Schere' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2451",
-        "Sound_de": "schicken - schickt - hat geschickt",
-        "translate_fa": "فرستادن - می‌فرستد - فرستاده است",
-        "file": "2451_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschicken: شکل مصدری به معنای 'ارسال کردن'.\nschickt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschickt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschickt' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2454",
@@ -8136,28 +7960,12 @@
         "type": "اسم"
     },
     {
-        "Filename": "2458",
-        "Sound_de": "schimpfen - schimpft - hat geschimpft",
-        "translate_fa": "غر زدن - غر می‌زند - غر زده است",
-        "file": "2458_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschimpfen: شکل مصدری به معنای 'شکایت کردن' یا 'غرغر کردن'.\nschimpft: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschimpft: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschimpft' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2461",
         "Sound_de": "der Schirm - die Schirme",
         "translate_fa": "چتر",
         "file": "2461_de.mp3",
         "root": "نوع کلمه: این یک اسم مذکر است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nSchirm: اسم مذکر به معنای 'چتر'.\ndie Schirme: شکل جمع اسم 'Schirm' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2463",
-        "Sound_de": "schlafen - schläft - hat geschlafen",
-        "translate_fa": "خوابیدن - می‌خوابد - خوابیده است",
-        "file": "2463_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschlafen: شکل مصدری به معنای 'خوابیدن'.\nschläft: صرف شده برای 'er', 'sie', 'es'.\nhat geschlafen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschlafen' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2467",
@@ -8174,14 +7982,6 @@
         "file": "2469_de.mp3",
         "root": "نوع کلمه: این یک صفت یا قید است.\nschlecht: به معنای 'بد'.",
         "type": "صفت"
-    },
-    {
-        "Filename": "2473",
-        "Sound_de": "schließen - schließt - hat geschlossen",
-        "translate_fa": "بستن - می‌بندد - بسته است",
-        "file": "2473_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschließen: شکل مصدری به معنای 'بستن' یا 'قفل کردن'.\nschließt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschlossen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschlossen' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2476",
@@ -8216,14 +8016,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2487",
-        "Sound_de": "schmecken - schmeckt - hat geschmeckt",
-        "translate_fa": "مزه کردن - مزه می‌دهد - مزه کرده است",
-        "file": "2487_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschmecken: شکل مصدری به معنای 'مزه دادن' یا 'چشیدن'.\nschmeckt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschmeckt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschmeckt' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2491",
         "Sound_de": "der Schmerz - die Schmerzen",
         "translate_fa": "درد",
@@ -8246,22 +8038,6 @@
         "file": "2496_de.mp3",
         "root": "نوع کلمه: این یک اسم مذکر است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nSchnee: اسم مذکر به معنای 'برف'.\ndie Schnee: شکل جمع اسم 'Schnee' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2498",
-        "Sound_de": "schneiden (sich) - schneidet - hat geschnitten",
-        "translate_fa": "بریدن - می‌برد - بریده است",
-        "file": "2498_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. فعل می‌تواند انعکاسی باشد.\nschneiden (sich): شکل مصدری به معنای 'بریدن' یا 'بریدن خود'.\nschneidet: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschnitten: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschnitten' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2502",
-        "Sound_de": "schneien - schneit - hat geschneit",
-        "translate_fa": "برف آمدن - برف می‌آید - برف آمده است",
-        "file": "2502_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschneien: شکل مصدری به معنای 'برف باریدن'.\nschneit: صرف شده برای ضمیر صوری 'es'.\nhat geschneit: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschneit' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2504",
@@ -8310,14 +8086,6 @@
         "file": "2518_de.mp3",
         "root": "نوع کلمه: این یک صفت (Adjektiv) است.\nschrecklich: به معنای 'وحشتناک' یا 'افتضاح'.",
         "type": "صفت"
-    },
-    {
-        "Filename": "2521",
-        "Sound_de": "schreiben - schreibt - hat geschrieben",
-        "translate_fa": "نوشتن - می‌نویسد - نوشته است",
-        "file": "2521_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nschreiben: شکل مصدری به معنای 'نوشتن'.\nschreibt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geschrieben: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geschrieben' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2523",
@@ -8400,14 +8168,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2549",
-        "Sound_de": "schwimmen - schwimmt - ist geschwommen",
-        "translate_fa": "شنا کردن - شنا می‌کند - شنا کرده است",
-        "file": "2549_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. فعل در گذشته کامل با 'sein' ساخته می‌شود.\nschwimmen: شکل مصدری به معنای 'شنا کردن'.\nschwimmt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nist geschwommen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'sein' و صفت مفعولی 'geschwommen' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2551",
         "Sound_de": "der See - die Seen",
         "translate_fa": "دریاچه",
@@ -8422,14 +8182,6 @@
         "file": "2554_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد. توجه: این کلمه در زبان آلمانی دو معنی و جنسیت متفاوت دارد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nSee: اسم مؤنث به معنای 'دریا'.\ndie Seen: شکل جمع اسم 'See' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2557",
-        "Sound_de": "sehen - sieht - hat gesehen",
-        "translate_fa": "دیدن - می‌بیند - دیده است",
-        "file": "2557_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nsehen: شکل مصدری به معنای 'دیدن'.\nsieht: صرف شده برای 'er', 'sie', 'es'.\nhat gesehen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gesehen' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2562",
@@ -8455,46 +8207,7 @@
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nSeife: اسم مؤنث به معنای 'صابون'.\ndie Seifen: شکل جمع اسم 'Seife' است.",
         "type": "اسم"
     },
-    {
-        "Filename": "2569",
-        "Sound_de": "sein - ist - war - ist gewesen",
-        "translate_fa": "بودن - است - بود - بوده است",
-        "file": "2569_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده و از افعال کمکی مهم در آلمانی است. این عبارت شکل مصدری، صرف شده در زمان حال، گذشته ساده و گذشته کامل را نشان می‌دهد.\nsein: شکل مصدری به معنای 'بودن'.\nist: صرف شده برای 'ich', 'du', 'er', 'sie', 'es'.\nwar: صرف شده در گذشته ساده (Präteritum) برای 'ich' و 'er', 'sie', 'es'.\nist gewesen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'ist' و صفت مفعولی 'gewesen' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2577",
-        "Sound_de": "an sein / aus sein",
-        "translate_fa": "روشن بودن / خاموش بودن",
-        "file": "2577_de.mp3",
-        "root": "نوع کلمه: این‌ها اصطلاحات فعلی هستند.\nan sein: به معنای 'روشن بودن'.\naus sein: به معنای 'خاموش بودن'.",
-        "type": "فعل جداشدنی"
-    },
-    {
-        "Filename": "2579",
-        "Sound_de": "auf sein",
-        "translate_fa": "باز بودن",
-        "file": "2579_de.mp3",
-        "root": "نوع کلمه: این یک اصطلاح فعلی است.\nauf sein: به معنای 'باز بودن'.",
-        "type": "فعل جداشدنی"
-    },
-    {
-        "Filename": "2581",
-        "Sound_de": "weg sein",
-        "translate_fa": "غایب بودن",
-        "file": "2581_de.mp3",
-        "root": "نوع کلمه: این یک اصطلاح فعلی است.\nweg sein: به معنای 'رفته بودن' یا 'نبودن'.",
-        "type": "فعل جداشدنی"
-    },
-    {
-        "Filename": "2583",
-        "Sound_de": "zu sein",
-        "translate_fa": "بسته بودن",
-        "file": "2583_de.mp3",
-        "root": "نوع کلمه: این یک اصطلاح فعلی است.\nzu sein: به معنای 'بسته بودن'.",
-        "type": "فعل جداشدنی"
-    },
+    
     {
         "Filename": "2585",
         "Sound_de": "seit",
@@ -8536,14 +8249,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2598",
-        "Sound_de": "setzen (sich) - setzt - hat gesetzt",
-        "translate_fa": "نشستن - می‌نشیند - نشسته است",
-        "file": "2598_de.mp3",
-        "root": "نوع کلمه: این یک فعل انعکاسی با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nsetzen (sich): شکل مصدری به معنای 'نشستن'.\nsetzt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gesetzt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gesetzt' ساخته می‌شود.",
-        "type": "فعل بازتابی"
-    },
-    {
         "Filename": "2600",
         "Sound_de": "sicher",
         "translate_fa": "مطمئن",
@@ -8552,28 +8257,12 @@
         "type": "صفت"
     },
     {
-        "Filename": "2604",
-        "Sound_de": "singen - singt - hat gesungen",
-        "translate_fa": "خواندن - می‌خواند - خوانده است",
-        "file": "2604_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده (starkes Verb) است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nsingen: شکل مصدری به معنای 'آواز خواندن'.\nsingt: صرف شده برای ضمیرهای 'er', 'sie', 'es' و 'ihr'.\nhat gesungen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gesungen' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2606",
         "Sound_de": "die Situation - die Situationen",
         "translate_fa": "موقعیت",
         "file": "2606_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nSituation: اسم مؤنث به معنای 'وضعیت' یا 'شرایط'.\ndie Situationen: شکل جمع اسم 'Situation' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2609",
-        "Sound_de": "sitzen - sitzt - hat/ist gesessen",
-        "translate_fa": "نشستن - می‌نشیند - نشسته است",
-        "file": "2609_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. در زمان گذشته کامل، این فعل می‌تواند با 'haben' یا 'sein' به کار رود.\nsitzen: شکل مصدری به معنای 'نشستن'.\nsitzt: صرف شده برای ضمیرهای 'er', 'sie', 'es' و 'ihr'.\nhat/ist gesessen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' یا 'sein' و صفت مفعولی 'gesessen' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2611",
@@ -8616,14 +8305,6 @@
         "type": "قید"
     },
     {
-        "Filename": "2627",
-        "Sound_de": "sollen - soll - sollte",
-        "translate_fa": "باید - باید - می‌بایست",
-        "file": "2627_de.mp3",
-        "root": "نوع کلمه: این یک فعل کمکی مدال (Modalverb) است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته ساده را نشان می‌دهد.\nsollen: شکل مصدری به معنای 'باید'.\nsoll: صرف شده برای 'ich' و 'er', 'sie', 'es'.\nsollte: صرف شده در زمان گذشته ساده (Präteritum) برای 'ich' و 'er', 'sie', 'es'.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2630",
         "Sound_de": "die Sonne - die Sonnen",
         "translate_fa": "خورشید",
@@ -8656,14 +8337,6 @@
         "type": "صفت"
     },
     {
-        "Filename": "2639",
-        "Sound_de": "sparen - spart - hat gespart",
-        "translate_fa": "پس‌انداز کردن - پس‌انداز می‌کند - پس‌انداز کرده است",
-        "file": "2639_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nsparen: شکل مصدری به معنای 'صرفه‌جویی کردن'.\nspart: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gespart: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gespart' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2641",
         "Sound_de": "der Spaß - die Späße",
         "translate_fa": "لذت",
@@ -8688,28 +8361,12 @@
         "type": "قید"
     },
     {
-        "Filename": "2649",
-        "Sound_de": "spazieren gehen - geht spazieren - ist spazieren gegangen",
-        "translate_fa": "پیاده‌روی کردن - پیاده‌روی می‌کند - پیاده‌روی کرده است",
-        "file": "2649_de.mp3",
-        "root": "نوع کلمه: این یک فعل مرکب است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. فعل در گذشته کامل با 'sein' ساخته می‌شود.\nspazieren gehen: شکل مصدری به معنای 'قدم زدن'.\ngeht spazieren: صرف شده برای 'er', 'sie', 'es'. 'gehen' فعل اصلی و 'spazieren' بخش جداشدنی است.\nist spazieren gegangen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'sein' و صفت مفعولی 'spazieren gegangen' ساخته می‌شود.",
-        "type": "فعل جداشدنی"
-    },
-    {
         "Filename": "2651",
         "Sound_de": "der Spaziergang - die Spaziergänge",
         "translate_fa": "پیاده‌روی",
         "file": "2651_de.mp3",
         "root": "نوع کلمه: این یک اسم مذکر مرکب است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nSpaziergang: اسم مذکر به معنای 'پیاده‌روی'.\ndie Spaziergänge: شکل جمع اسم 'Spaziergang' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2653",
-        "Sound_de": "speichern - speichert - hat gespeichert",
-        "translate_fa": "ذخیره کردن - ذخیره می‌کند - ذخیره کرده است",
-        "file": "2653_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nspeichern: شکل مصدری به معنای 'ذخیره کردن'.\nspeichert: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gespeichert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gespeichert' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2655",
@@ -8726,14 +8383,6 @@
         "file": "2657_de.mp3",
         "root": "نوع کلمه: این یک اسم خنثی است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndas: حرف تعریف مشخص برای اسم‌های خنثی.\nSpiel: اسم خنثی به معنای 'بازی'.\ndie Spiele: شکل جمع اسم 'Spiel' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2660",
-        "Sound_de": "spielen - spielt - hat gespielt",
-        "translate_fa": "بازی کردن - بازی می‌کند - بازی کرده است",
-        "file": "2660_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nspielen: شکل مصدری به معنای 'بازی کردن' یا 'نواختن'.\nspielt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gespielt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gespielt' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2664",
@@ -8766,14 +8415,6 @@
         "file": "2670_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nSprache: اسم مؤنث به معنای 'زبان'.\ndie Sprachen: شکل جمع اسم 'Sprache' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2672",
-        "Sound_de": "sprechen - spricht - hat gesprochen",
-        "translate_fa": "صحبت کردن - صحبت می‌کند - صحبت کرده است",
-        "file": "2672_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nsprechen: شکل مصدری به معنای 'صحبت کردن'.\nspricht: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gesprochen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gesprochen' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2674",
@@ -8816,44 +8457,12 @@
         "type": "صفت"
     },
     {
-        "Filename": "2686",
-        "Sound_de": "stattfinden - findet statt - hat stattgefunden",
-        "translate_fa": "برگزار شدن - برگزار می‌شود - برگزار شده است",
-        "file": "2686_de.mp3",
-        "root": "نوع کلمه: این یک فعل جداشدنی بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nstattfinden: شکل مصدری به معنای 'برگزار شدن'.\nfindet statt: صرف شده برای 'er', 'sie', 'es'. 'statt' پیشوند جداشدنی است.\nhat stattgefunden: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'stattgefunden' ساخته می‌شود.",
-        "type": "فعل جداشدنی"
-    },
-    {
-        "Filename": "2688",
-        "Sound_de": "stehen - steht - hat/ist gestanden",
-        "translate_fa": "ایستادن - می‌ایستد - ایستاده است",
-        "file": "2688_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. در زمان گذشته کامل، این فعل می‌تواند با 'haben' یا 'sein' به کار رود.\nstehen: شکل مصدری به معنای 'ایستادن' یا 'قرار گرفتن'.\nsteht: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat/ist gestanden: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' یا 'sein' و صفت مفعولی 'gestanden' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2692",
         "Sound_de": "die Stelle - die Stellen",
         "translate_fa": "موقعیت",
         "file": "2692_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nStelle: اسم مؤنث به معنای 'مکان' یا 'موقعیت شغلی'.\ndie Stellen: شکل جمع اسم 'Stelle' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2695",
-        "Sound_de": "stellen - stellt - hat gestellt",
-        "translate_fa": "قرار دادن - قرار می‌دهد - قرار داده است",
-        "file": "2695_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nstellen: شکل مصدری به معنای 'گذاشتن' یا 'قرار دادن' (در حالت عمودی).\nstellt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gestellt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gestellt' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2697",
-        "Sound_de": "sterben - stirbt - ist gestorben",
-        "translate_fa": "مردن - می‌میرد - مرده است",
-        "file": "2697_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. فعل در گذشته کامل با 'sein' ساخته می‌شود.\nsterben: شکل مصدری به معنای 'مردن'.\nstirbt: صرف شده برای 'er', 'sie', 'es'.\nist gestorben: شکل گذشته کامل (Perfekt) که با فعل کمکی 'sein' و صفت مفعولی 'gestorben' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2699",
@@ -8896,14 +8505,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2710",
-        "Sound_de": "stören - stört - hat gestört",
-        "translate_fa": "مزاحم شدن - مزاحم می‌شود - مزاحم شده است",
-        "file": "2710_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nstören: شکل مصدری به معنای 'مزاحم شدن'.\nstört: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gestört: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gestört' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2714",
         "Sound_de": "der Strand - die Strände",
         "translate_fa": "ساحل",
@@ -8926,14 +8527,6 @@
         "file": "2718_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث مرکب است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nStraßenbahn: اسم مؤنث به معنای 'تراموا'.\ndie Straßenbahnen: شکل جمع اسم 'Straßenbahn' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2720",
-        "Sound_de": "streiten (sich) - streitet - hat gestritten",
-        "translate_fa": "دعوا کردن - دعوا می‌کند - دعوا کرده است",
-        "file": "2720_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده انعکاسی است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nstreiten (sich): شکل مصدری به معنای 'دعوا کردن' یا 'بحث کردن'.\nstreitet: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gestritten: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gestritten' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2722",
@@ -8976,14 +8569,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2733",
-        "Sound_de": "studieren - studiert - hat studiert",
-        "translate_fa": "درس خواندن - درس می‌خواند - درس خوانده است",
-        "file": "2733_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. این فعل به دلیل پسوند 'ieren' پیشوند 'ge-' را در زمان گذشته کامل نمی‌گیرد.\nstudieren: شکل مصدری به معنای 'تحصیل کردن'.\nstudiert: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat studiert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'studiert' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2735",
         "Sound_de": "das Studium - die Studien",
         "translate_fa": "تحصیل",
@@ -8998,14 +8583,6 @@
         "file": "2737_de.mp3",
         "root": "نوع کلمه: این یک اسم مذکر است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nStuhl: اسم مذکر به معنای 'صندلی'.\ndie Stühle: شکل جمع اسم 'Stuhl' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2739",
-        "Sound_de": "suchen - sucht - hat gesucht",
-        "translate_fa": "جستجو کردن - جستجو می‌کند - جستجو کرده است",
-        "file": "2739_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nsuchen: شکل مصدری به معنای 'جستجو کردن'.\nsucht: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat gesucht: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'gesucht' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2743",
@@ -9030,14 +8607,6 @@
         "file": "2748_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nSuppe: اسم مؤنث به معنای 'سوپ'.\ndie Suppen: شکل جمع اسم 'Suppe' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2750",
-        "Sound_de": "surfen - surft - hat/ist gesurft",
-        "translate_fa": "موج‌سواری کردن - موج‌سواری می‌کند - موج‌سواری کرده است",
-        "file": "2750_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. فعل در گذشته کامل می‌تواند با 'haben' یا 'sein' به کار رود.\nsurfen: شکل مصدری به معنای 'موج‌سواری کردن' یا 'در اینترنت گشتن'.\nsurft: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat/ist gesurft: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' یا 'sein' و صفت مفعولی 'gesurft' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2753",
@@ -9096,14 +8665,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2770",
-        "Sound_de": "tanzen - tanzt - hat getanzt",
-        "translate_fa": "رقصیدن - می‌رقصد - رقصیده است",
-        "file": "2770_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\ntanzen: شکل مصدری به معنای 'رقصیدن'.\ntanzt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat getanzt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'getanzt' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2772",
         "Sound_de": "die Tasche - die Taschen",
         "translate_fa": "کیف",
@@ -9126,14 +8687,6 @@
         "file": "2777_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nTasse: اسم مؤنث به معنای 'فنجان'.\ndie Tassen: شکل جمع اسم 'Tasse' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2779",
-        "Sound_de": "(aus)tauschen - tauscht (aus) - hat (aus)getauscht",
-        "translate_fa": "تعویض کردن - تعویض می‌کند - تعویض کرده است",
-        "file": "2779_de.mp3",
-        "root": "نوع کلمه: این یک فعل جداشدنی با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\n(aus)tauschen: شکل مصدری به معنای 'تعویض کردن' یا 'مبادله کردن'.\ntauscht (aus): صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat (aus)getauscht: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'ausgetauscht' ساخته می‌شود.",
-        "type": "فعل جداشدنی"
     },
     {
         "Filename": "2782",
@@ -9160,36 +8713,12 @@
         "type": "اسم"
     },
     {
-        "Filename": "2789",
-        "Sound_de": "teilen - teilt - hat geteilt",
-        "translate_fa": "تقسیم کردن - تقسیم می‌کند - تقسیم کرده است",
-        "file": "2789_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nteilen: شکل مصدری به معنای 'تقسیم کردن' یا 'به اشتراک گذاشتن'.\nteilt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geteilt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geteilt' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2792",
-        "Sound_de": "teilnehmen - nimmt teil - hat teilgenommen",
-        "translate_fa": "شرکت کردن - شرکت می‌کند - شرکت کرده است",
-        "file": "2792_de.mp3",
-        "root": "نوع کلمه: این یک فعل جداشدنی بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nteilnehmen: شکل مصدری به معنای 'شرکت کردن'.\nnimmt teil: صرف شده برای 'er', 'sie', 'es'. 'teil' پیشوند جداشدنی است.\nhat teilgenommen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'teilgenommen' ساخته می‌شود.",
-        "type": "فعل جداشدنی"
-    },
-    {
         "Filename": "2794",
         "Sound_de": "das Telefon - die Telefone",
         "translate_fa": "تلفن",
         "file": "2794_de.mp3",
         "root": "نوع کلمه: این یک اسم خنثی است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndas: حرف تعریف مشخص برای اسم‌های خنثی.\nTelefon: اسم خنثی به معنای 'تلفن'.\ndie Telefone: شکل جمع اسم 'Telefon' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2796",
-        "Sound_de": "telefonieren - telefoniert - hat telefoniert",
-        "translate_fa": "تلفن کردن - تلفن می‌کند - تلفن کرده است",
-        "file": "2796_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. این فعل به دلیل پسوند 'ieren' پیشوند 'ge-' را در زمان گذشته کامل نمی‌گیرد.\ntelefonieren: شکل مصدری به معنای 'تلفن زدن'.\ntelefoniert: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat telefoniert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'telefoniert' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2798",
@@ -9368,22 +8897,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2847",
-        "Sound_de": "tragen - trägt - hat getragen",
-        "translate_fa": "حمل کردن/پوشیدن - حمل می‌کند/می‌پوشد - حمل کرده است/پوشیده است",
-        "file": "2847_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\ntragen: شکل مصدری به معنای 'حمل کردن' یا 'پوشیدن'.\nträgt: صرف شده برای 'er', 'sie', 'es'.\nhat getragen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'getragen' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2850",
-        "Sound_de": "trainieren - trainiert - hat trainiert",
-        "translate_fa": "تمرین کردن - تمرین می‌کند - تمرین کرده است",
-        "file": "2850_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. این فعل به دلیل پسوند 'ieren' پیشوند 'ge-' را در زمان گذشته کامل نمی‌گیرد.\ntrainieren: شکل مصدری به معنای 'تمرین کردن'.\ntrainiert: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat trainiert: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'trainiert' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2852",
         "Sound_de": "das Training - die Trainings",
         "translate_fa": "تمرین",
@@ -9400,14 +8913,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2857",
-        "Sound_de": "träumen - träumt - hat geträumt",
-        "translate_fa": "رؤیا دیدن - رؤیا می‌بیند - رؤیا دیده است",
-        "file": "2857_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nträumen: شکل مصدری به معنای 'خواب دیدن'.\nträumt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geträumt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geträumt' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2860",
         "Sound_de": "traurig",
         "translate_fa": "غمگین",
@@ -9416,36 +8921,12 @@
         "type": "صفت"
     },
     {
-        "Filename": "2862",
-        "Sound_de": "treffen (sich) - trifft - hat getroffen",
-        "translate_fa": "ملاقات کردن",
-        "file": "2862_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده انعکاسی است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\ntreffen (sich): شکل مصدری به معنای 'ملاقات کردن'.\ntrifft: صرف شده برای 'er', 'sie', 'es'.\nhat getroffen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'getroffen' ساخته می‌شود.",
-        "type": "فعل (بازتابی)"
-    },
-    {
-        "Filename": "2864",
-        "Sound_de": "trifft - hat getroffen",
-        "translate_fa": "ملاقات می‌کند - ملاقات کرده است",
-        "file": "2864_de.mp3",
-        "root": "نوع کلمه: این عبارت صرف شده فعل 'treffen' در زمان حال و گذشته کامل را نشان می‌دهد.\ntrifft: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat getroffen: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'getroffen' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2866",
         "Sound_de": "die Treppe - die Treppen",
         "translate_fa": "پله",
         "file": "2866_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nTreppe: اسم مؤنث به معنای 'پله' یا 'پلکان'.\ndie Treppen: شکل جمع اسم 'Treppe' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2869",
-        "Sound_de": "trinken - trinkt - hat getrunken",
-        "translate_fa": "نوشیدن - می‌نوشد - نوشیده است",
-        "file": "2869_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\ntrinken: شکل مصدری به معنای 'نوشیدن'.\ntrinkt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat getrunken: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'getrunken' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2871",
@@ -9472,14 +8953,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2877",
-        "Sound_de": "tun - tut - hat getan",
-        "translate_fa": "انجام دادن - انجام می‌دهد - انجام داده است",
-        "file": "2877_de.mp3",
-        "root": "نوع کلمه: این یک فعل بی‌قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\ntun: شکل مصدری به معنای 'انجام دادن'.\ntut: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat getan: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'getan' ساخته می‌شود.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2881",
         "Sound_de": "die Tür - die Türen",
         "translate_fa": "در",
@@ -9494,14 +8967,6 @@
         "file": "2883_de.mp3",
         "root": "نوع کلمه: این یک صفت یا قید است.\ntypisch: به معنای 'معمول' یا 'کلیشه‌ای'.",
         "type": "صفت"
-    },
-    {
-        "Filename": "2886",
-        "Sound_de": "üben - übt - hat geübt",
-        "translate_fa": "تمرین کردن - تمرین می‌کند - تمرین کرده است",
-        "file": "2886_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nüben: شکل مصدری به معنای 'تمرین کردن'.\nübt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat geübt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'geübt' ساخته می‌شود.",
-        "type": "فعل"
     },
     {
         "Filename": "2888",
@@ -9528,36 +8993,12 @@
         "type": "قید"
     },
     {
-        "Filename": "2896",
-        "Sound_de": "übernachten - übernachtet - hat übernachtet",
-        "translate_fa": "شب ماندن - شب می‌ماند - شب مانده است",
-        "file": "2896_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این فعل با پیشوند جدا نشدنی 'über-' شروع می‌شود. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد.\nübernachten: شکل مصدری به معنای 'شب ماندن' یا 'اقامت داشتن'.\nübernachtet: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat übernachtet: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'übernachtet' ساخته می‌شود.",
-        "type": "فعل (جداشدنی)"
-    },
-    {
-        "Filename": "2898",
-        "Sound_de": "übersetzen - übersetzt - hat übersetzt",
-        "translate_fa": "ترجمه کردن - ترجمه می‌کند - ترجمه کرده است",
-        "file": "2898_de.mp3",
-        "root": "نوع کلمه: این یک فعل با قاعده است. این فعل با پیشوند جدا نشدنی 'über-' شروع می‌شود. این عبارت شکل مصدری، صرف شده در زمان حال و گذشته کامل را نشان می‌دهد. این فعل به دلیل پیشوند 'über-' پیشوند 'ge-' را در زمان گذشته کامل نمی‌گیرد.\nübersetzen: شکل مصدری به معنای 'ترجمه کردن'.\nübersetzt: صرف شده برای 'er', 'sie', 'es' و 'ihr'.\nhat übersetzt: شکل گذشته کامل (Perfekt) که با فعل کمکی 'haben' و صفت مفعولی 'übersetzt' ساخته می‌شود.",
-        "type": "فعل (جداشدنی)"
-    },
-    {
         "Filename": "2900",
         "Sound_de": "die Übersetzung - die Übersetzungen",
         "translate_fa": "ترجمه",
         "file": "2900_de.mp3",
         "root": "نوع کلمه: این یک اسم مؤنث است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد. این کلمه با پیشوند جدا نشدنی 'über-' شروع می‌شود.\ndie: حرف تعریف مشخص برای اسم‌های مؤنث.\nÜbersetzung: اسم مؤنث به معنای 'ترجمه'.\ndie Übersetzungen: شکل جمع اسم 'Übersetzung' است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2902",
-        "Sound_de": "überweisen - überweist - hat überwiesen",
-        "translate_fa": "انتقال دادن (پول) - انتقال می‌دهد - انتقال داده است",
-        "file": "2902_de.mp3",
-        "root": "überweisen: یک فعل جدا نشدنی در زبان آلمانی است. معنی این فعل «انتقال دادن» یا «واریز کردن» پول است.\nüberweisen: شکل مصدر فعل (Infinitiv) است که به همین صورت در دیکشنری‌ها یافت می‌شود.\nüberweist: این شکل، صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens) است. پیشوند «über» در این فعل جدا نمی‌شود.\nhat überwiesen: این شکل، زمان گذشته کامل (Perfekt) فعل است. از فعل کمکی «haben» برای ساختن زمان گذشته استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «überwiesen» تبدیل می‌شود. این ترکیب نشان می‌دهد که یک عمل در گذشته به پایان رسیده است.",
-        "type": "فعل (جداشدنی)"
     },
     {
         "Filename": "2905",
@@ -9574,30 +9015,6 @@
         "file": "2908_de.mp3",
         "root": "um: این کلمه یک حرف اضافه (Präposition) است که معانی مختلفی دارد. در این درس، به دو کاربرد اصلی آن اشاره می‌شود: یکی به معنی «حدودِ» یا «در» برای بیان زمان مشخص، و دیگری به معنی «اطرافِ» یا «دورِ» برای بیان مکان.",
         "type": "حرف اضافه"
-    },
-    {
-        "Filename": "2911",
-        "Sound_de": "umsteigen - steigt um - ist umgestiegen",
-        "translate_fa": "عوض کردن (وسایل نقلیه) - عوض می‌کند - عوض کرده است",
-        "file": "2911_de.mp3",
-        "root": "umsteigen: یک فعل جداشدنی در زبان آلمانی است که به معنی «عوض کردن وسیله نقلیه» یا «پیاده شدن و سوار شدن» است.\numsteigen: شکل مصدر فعل (Infinitiv) است.\nsteigt um: این شکل، صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens) است. در این حالت، پیشوند «um» از فعل جدا شده و به انتهای جمله منتقل می‌شود.\nist umgestiegen: این شکل، زمان گذشته کامل (Perfekt) فعل است. از آنجایی که این فعل حرکت را بیان می‌کند، از فعل کمکی «sein» برای ساختن زمان گذشته استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «umgestiegen» تبدیل می‌شود. در اینجا پیشوند «um» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل (جداشدنی)"
-    },
-    {
-        "Filename": "2913",
-        "Sound_de": "umziehen - zieht um - ist umgezogen",
-        "translate_fa": "اسباب‌کشی کردن - اسباب‌کشی می‌کند - اسباب‌کشی کرده است",
-        "file": "2913_de.mp3",
-        "root": "umziehen: یک فعل جداشدنی در زبان آلمانی به معنی «اسباب‌کشی کردن» یا «محل زندگی را تغییر دادن» است.\numziehen: شکل مصدر فعل (Infinitiv) است.\nzieht um: این شکل، صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens) است. پیشوند «um» از فعل جدا می‌شود و به انتهای جمله می‌رود.\nist umgezogen: این شکل، زمان گذشته کامل (Perfekt) فعل است. از آنجایی که این فعل حرکت را بیان می‌کند، از فعل کمکی «sein» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «umgezogen» تغییر می‌کند. در اینجا پیشوند «um» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل (جداشدنی)"
-    },
-    {
-        "Filename": "2915",
-        "Sound_de": "sich umziehen - zieht sich um - zog sich um - hat sich umgezogen",
-        "translate_fa": "لباس عوض کردن - لباس عوض می‌کند - لباس عوض کرده است",
-        "file": "2915_de.mp3",
-        "root": "sich umziehen: این فعل یک فعل انعکاسی (reflexives Verb) به معنی «لباس عوض کردن» است. ضمیر انعکاسی «sich» به معنی «خودش» است.\nsich umziehen: شکل مصدر فعل انعکاسی است.\nzieht sich um: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens). در اینجا ضمیر انعکاسی «sich» بعد از فعل قرار می‌گیرد و پیشوند «um» به انتهای جمله منتقل می‌شود.\nzog sich um: صرف فعل برای سوم شخص مفرد در زمان گذشته ساده (Präteritum).\nhat sich umgezogen: زمان گذشته کامل (Perfekt). در این حالت از فعل کمکی «haben» استفاده می‌شود، ضمیر انعکاسی «sich» در جای خود باقی می‌ماند و شکل اصلی فعل به «Partizip II» یعنی «umgezogen» تبدیل می‌شود.",
-        "type": "فعل (بازتابی، جداشدنی)"
     },
     {
         "Filename": "2917",
@@ -9656,28 +9073,12 @@
         "type": "حرف اضافه"
     },
     {
-        "Filename": "2933",
-        "Sound_de": "unterhalten (sich) - unterhält - hat unterhalten",
-        "translate_fa": "صحبت کردن - صحبت می‌کند - صحبت کرده است",
-        "file": "2933_de.mp3",
-        "root": "unterhalten (sich): یک فعل انعکاسی (reflexives Verb) به معنی «گفت‌وگو کردن» یا «صحبت کردن با هم» است. این فعل همیشه به یک ضمیر انعکاسی نیاز دارد.\nunterhalten: شکل مصدر فعل است.\nunterhält: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens). پیشوند «unter» در این فعل جدا نمی‌شود.\nhat unterhalten: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «unterhalten» تغییر می‌کند. این فعل چون انعکاسی است، به ضمیر انعکاسی نیز نیاز دارد (sich unterhalten).",
-        "type": "فعل (بازتابی)"
-    },
-    {
         "Filename": "2936",
         "Sound_de": "die Unterkunft - die Unterkünfte",
         "translate_fa": "محل اقامت",
         "file": "2936_de.mp3",
         "root": "die Unterkunft: اسم مؤنث به معنی «محل اقامت» یا «سرپناه». این کلمه از فعل «unterkommen» (اقامت کردن) مشتق شده است.\ndie Unterkünfte: شکل جمع اسم «die Unterkunft» است. در اینجا «ü» به جای «u» آمده و یک «e» به انتهای کلمه اضافه شده است تا شکل جمع را بسازد.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2938",
-        "Sound_de": "unternehmen - unternimmt - hat unternommen",
-        "translate_fa": "انجام دادن - انجام می‌دهد - انجام داده است",
-        "file": "2938_de.mp3",
-        "root": "unternehmen: یک فعل جدا نشدنی در زبان آلمانی به معنی «انجام دادن»، «برنامه‌ریزی کردن» یا «اقدام کردن» است.\nunternehmen: شکل مصدر فعل است.\nunternimmt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat unternommen: زمان گذشته کامل (Perfekt) این فعل است. از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «unternommen» تغییر می‌کند.",
-        "type": "فعل (جداشدنی)"
     },
     {
         "Filename": "2940",
@@ -9696,36 +9097,12 @@
         "type": "اسم"
     },
     {
-        "Filename": "2945",
-        "Sound_de": "unterschreiben - unterschreibt - hat unterschrieben",
-        "translate_fa": "امضا کردن - امضا می‌کند - امضا کرده است",
-        "file": "2945_de.mp3",
-        "root": "unterschreiben: یک فعل جدا نشدنی در زبان آلمانی به معنی «امضا کردن» است.\nunterschreiben: شکل مصدر فعل است.\nunterschreibt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat unterschrieben: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «unterschrieben» تغییر می‌کند.",
-        "type": "فعل (جداشدنی)"
-    },
-    {
         "Filename": "2947",
         "Sound_de": "die Unterschrift - die Unterschriften",
         "translate_fa": "امضا",
         "file": "2947_de.mp3",
         "root": "die Unterschrift: اسم مؤنث به معنی «امضا». این کلمه از فعل «unterschreiben» (امضا کردن) مشتق شده است.\ndie Unterschriften: شکل جمع اسم «die Unterschrift» است. در اینجا «en» به انتهای کلمه اضافه شده است تا شکل جمع را بسازد.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2949",
-        "Sound_de": "untersuchen - untersucht - hat untersucht",
-        "translate_fa": "معاینه کردن - معاینه می‌کند - معاینه کرده است",
-        "file": "2949_de.mp3",
-        "root": "untersuchen: یک فعل جدا نشدنی به معنی «معاینه کردن»، «بررسی کردن» یا «تحقیق کردن» است.\nuntersuchen: شکل مصدر فعل است.\nuntersucht: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat untersucht: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «untersucht» تغییر می‌کند.",
-        "type": "فعل (جداشدنی)"
-    },
-    {
-        "Filename": "2952",
-        "Sound_de": "unterwegs sein - war unterwegs - ist unterwegs gewesen",
-        "translate_fa": "در راه بودن - در راه بود - در راه بوده است",
-        "file": "2952_de.mp3",
-        "root": "unterwegs sein: یک عبارت به معنی «در راه بودن» یا «در حال حرکت بودن» است.\nunterwegs sein: شکل مصدر عبارت است.\nwar unterwegs: زمان گذشته ساده (Präteritum) برای «ich» یا «er/sie/es». «war» شکل گذشته فعل «sein» است.\nist unterwegs gewesen: زمان گذشته کامل (Perfekt) برای «er/sie/es». از فعل کمکی «sein» استفاده می‌شود و «sein» به شکل «Partizip II» یعنی «gewesen» تغییر می‌کند.",
-        "type": "فعل (جداشدنی)"
     },
     {
         "Filename": "2954",
@@ -9736,14 +9113,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "2956",
-        "Sound_de": "verabredet sein - ist verabredet - war verabredet - ist verabredet gewesen",
-        "translate_fa": "قرار داشتن - قرار دارد - قرار داشت - قرار داشته است",
-        "file": "2956_de.mp3",
-        "root": "verabredet sein: یک عبارت فعلی است که به معنی «قرار ملاقات داشتن» یا «قرار گذاشتن» است.\nverabredet sein: شکل مصدر عبارت است.\nist verabredet: زمان حال کامل (Perfekt) برای «er/sie/es». «ist» فعل کمکی «sein» است.\nwar verabredet: زمان گذشته ساده (Präteritum) برای «ich» یا «er/sie/es». «war» شکل گذشته فعل «sein» است.\nist verabredet gewesen: زمان گذشته کامل (Perfekt) برای «er/sie/es». در این ساختار، «ist» فعل کمکی و «gewesen» شکل «Partizip II» از فعل «sein» است.",
-        "type": "فعل (جداشدنی)"
-    },
-    {
         "Filename": "2958",
         "Sound_de": "die Veranstaltung - die Veranstaltungen",
         "translate_fa": "رویداد",
@@ -9752,60 +9121,12 @@
         "type": "اسم"
     },
     {
-        "Filename": "2960",
-        "Sound_de": "verbieten - verboten sein",
-        "translate_fa": "ممنوع کردن - ممنوع بودن",
-        "file": "2960_de.mp3",
-        "root": "verbieten: یک فعل جدا نشدنی به معنی «ممنوع کردن» است.\nverbieten: شکل مصدر فعل است.\nverboten sein: یک عبارت فعلی است که به معنی «ممنوع بودن» یا «اجازه نداشتن» است. «verboten» شکل «Partizip II» فعل «verbieten» است و با فعل «sein» به کار می‌رود.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2962",
-        "Sound_de": "verdienen - verdient - hat verdient",
-        "translate_fa": "کسب کردن - کسب می‌کند - کسب کرده است",
-        "file": "2962_de.mp3",
-        "root": "verdienen: یک فعل جدا نشدنی به معنی «درآمد داشتن»، «کسب کردن» یا «لایق بودن» است.\nverdienen: شکل مصدر فعل است.\nverdient: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat verdient: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «verdient» تغییر می‌کند.",
-        "type": "فعل"
-    },
-    {
         "Filename": "2964",
         "Sound_de": "der Verein - die Vereine",
         "translate_fa": "انجمن/باشگاه",
         "file": "2964_de.mp3",
         "root": "der Verein: اسم مذکر به معنی «انجمن» یا «باشگاه». این کلمه از فعل «vereinen» (متحد کردن) مشتق شده است.\ndie Vereine: شکل جمع اسم «der Verein» است. در اینجا «e» به انتهای کلمه اضافه شده است تا شکل جمع را بسازد.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2967",
-        "Sound_de": "vereinbaren - vereinbart - hat vereinbart",
-        "translate_fa": "قرار گذاشتن - قرار می‌گذارد - قرار گذاشته است",
-        "file": "2967_de.mp3",
-        "root": "vereinbaren: یک فعل جدا نشدنی به معنی «قرار گذاشتن» یا «هماهنگ کردن» است.\nvereinbaren: شکل مصدر فعل است.\nvereinbart: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat vereinbart: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «vereinbart» تغییر می‌کند.",
-        "type": "فعل (جداشدنی)"
-    },
-    {
-        "Filename": "2969",
-        "Sound_de": "vergessen - vergisst - hat vergessen",
-        "translate_fa": "فراموش کردن - فراموش می‌کند - فراموش کرده است",
-        "file": "2969_de.mp3",
-        "root": "vergessen: یک فعل جدا نشدنی و بی‌قاعده به معنی «فراموش کردن» است.\nvergessen: شکل مصدر فعل است.\nvergisst: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat vergessen: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «vergessen» تغییر می‌کند.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2972",
-        "Sound_de": "vergleichen - vergleicht - hat verglichen",
-        "translate_fa": "مقایسه کردن - مقایسه می‌کند - مقایسه کرده است",
-        "file": "2972_de.mp3",
-        "root": "vergleichen: یک فعل جدا نشدنی و بی‌قاعده به معنی «مقایسه کردن» است.\nvergleichen: شکل مصدر فعل است.\nvergleicht: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat verglichen: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «verglichen» تغییر می‌کند.",
-        "type": "فعل"
-    },
-    {
-        "Filename": "2975",
-        "Sound_de": "verkaufen - verkauft - hat verkauft",
-        "translate_fa": "فروختن - می‌فروشد - فروخته است",
-        "file": "2975_de.mp3",
-        "root": "verkaufen: یک فعل جدا نشدنی به معنی «فروختن» است.\nverkaufen: شکل مصدر فعل است.\nverkauft: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat verkauft: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «verkauft» تغییر می‌کند.",
-        "type": "فعل (جداشدنی)"
     },
     {
         "Filename": "2977",
@@ -9824,74 +9145,12 @@
         "type": "اسم"
     },
     {
-        "Filename": "2981",
-        "Sound_de": "verletzt (sich) - verletzt - hat verletzt",
-        "translate_fa": "آسیب دیدن - آسیب می‌بیند - آسیب دیده است",
-        "file": "2981_de.mp3",
-        "root": "verletzt (sich): یک فعل انعکاسی به معنی «آسیب دیدن» یا «مجروح شدن» است.\nverletzt: شکل «Partizip II» فعل «verletzen» (آسیب زدن) که در اینجا به عنوان صفت فعلی به معنی «مجروح» به کار رفته است.\nverletzt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat verletzt: زمان گذشته کامل (Perfekt) برای فعل «sich verletzen». از فعل کمکی «haben» استفاده می‌شود و «verletzen» به شکل «Partizip II» یعنی «verletzt» تغییر می‌کند.",
-        "type": "فعل (بازتابی)"
-    },
-    {
-        "Filename": "2984",
-        "Sound_de": "verlieben (sich) - verliebt - hat verliebt",
-        "translate_fa": "عاشق شدن - عاشق می‌شود - عاشق شده است",
-        "file": "2984_de.mp3",
-        "root": "verlieben (sich): یک فعل انعکاسی به معنی «عاشق شدن» است. این فعل همیشه به ضمیر انعکاسی نیاز دارد.\nverlieben: شکل مصدر فعل است.\nverliebt: شکل «Partizip II» فعل «verlieben» که در اینجا به عنوان صفت فعلی به معنی «عاشق» به کار رفته است. همچنین صرف فعل برای سوم شخص مفرد در زمان حال است.\nhat verliebt: زمان گذشته کامل (Perfekt) برای فعل «sich verlieben». از فعل کمکی «haben» استفاده می‌شود و «verlieben» به شکل «Partizip II» یعنی «verliebt» تغییر می‌کند.",
-        "type": "فعل بازتابی",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "2986",
-        "Sound_de": "verlieren - verliert - hat verloren",
-        "translate_fa": "گم کردن/باختن - گم می‌کند/می‌بازد - گم کرده است/باخته است",
-        "file": "2986_de.mp3",
-        "root": "verlieren: یک فعل جدا نشدنی و بی‌قاعده به معنی «گم کردن» یا «باختن» است.\nverlieren: شکل مصدر فعل است.\nverliert: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat verloren: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «verloren» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
-        "Filename": "2990",
-        "Sound_de": "vermieten - vermietet - hat vermietet",
-        "translate_fa": "اجاره دادن - اجاره می‌دهد - اجاره داده است",
-        "file": "2990_de.mp3",
-        "root": "vermieten: یک فعل جدا نشدنی به معنی «اجاره دادن» است.\nvermieten: شکل مصدر فعل است.\nvermietet: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat vermietet: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «vermietet» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
         "Filename": "2992",
         "Sound_de": "der Vermieter - die Vermieterin - die Vermieter",
         "translate_fa": "صاحبخانه (مرد) - صاحبخانه (زن) - صاحبخانه‌ها",
         "file": "2992_de.mp3",
         "root": "der Vermieter: اسم مذکر به معنی «صاحب‌خانه» (مذکر).\ndie Vermieterin: اسم مؤنث به معنی «صاحب‌خانه» (مؤنث).\ndie Vermieter: شکل جمع برای هر دو جنسیت. این کلمه از فعل «vermieten» (اجاره دادن) مشتق شده است.",
         "type": "اسم"
-    },
-    {
-        "Filename": "2994",
-        "Sound_de": "verpassen - verpasst - hat verpasst",
-        "translate_fa": "جا ماندن - جا می‌ماند - جا مانده است",
-        "file": "2994_de.mp3",
-        "root": "verpassen: یک فعل جدا نشدنی به معنی «از دست دادن» (مثلاً قطار، اتوبوس) یا «موفق نشدن در رسیدن» است.\nverpassen: شکل مصدر فعل است.\nverpasst: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat verpasst: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «verpasst» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "2996",
-        "Sound_de": "verreisen - verreist - ist verreist",
-        "translate_fa": "سفر کردن - سفر می‌کند - سفر کرده است",
-        "file": "2996_de.mp3",
-        "root": "verreisen: یک فعل جدا نشدنی به معنی «به سفر رفتن» است. این فعل حرکت را بیان می‌کند.\nverreisen: شکل مصدر فعل است.\nverreist: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nist verreist: زمان گذشته کامل (Perfekt). از آنجایی که این فعل حرکت را بیان می‌کند، از فعل کمکی «sein» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «verreist» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "2999",
-        "Sound_de": "verschieben - verschiebt - hat verschoben",
-        "translate_fa": "به تعویق انداختن - به تعویق می‌اندازد - به تعویق انداخته است",
-        "file": "2999_de.mp3",
-        "root": "verschieben: یک فعل جدا نشدنی و بی‌قاعده به معنی «به تعویق انداختن» یا «جابه‌جا کردن» است.\nverschieben: شکل مصدر فعل است.\nverschiebt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat verschoben: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «verschoben» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
     },
     {
         "Filename": "3001",
@@ -9908,24 +9167,6 @@
         "file": "3004_de.mp3",
         "root": "die Verspätung: اسم مؤنث به معنی «تأخیر» یا «دیرکرد». این کلمه از صفت «spät» (دیر) و پیشوند «ver» مشتق شده است.\ndie Verspätungen: شکل جمع اسم «die Verspätung» است. در اینجا «en» به انتهای کلمه اضافه شده است تا شکل جمع را بسازد.",
         "type": "اسم"
-    },
-    {
-        "Filename": "3006",
-        "Sound_de": "verstehen - versteht - hat verstanden",
-        "translate_fa": "فهمیدن - می‌فهمد - فهمیده است",
-        "file": "3006_de.mp3",
-        "root": "verstehen: یک فعل جدا نشدنی و بی‌قاعده به معنی «فهمیدن» یا «درک کردن» است.\nverstehen: شکل مصدر فعل است.\nversteht: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat verstanden: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «verstanden» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
-        "Filename": "3009",
-        "Sound_de": "versuchen - versucht - hat versucht",
-        "translate_fa": "امتحان کردن - امتحان می‌کند - امتحان کرده است",
-        "file": "3009_de.mp3",
-        "root": "versuchen: یک فعل جدا نشدنی به معنی «سعی کردن» یا «امتحان کردن» است.\nversuchen: شکل مصدر فعل است.\nversucht: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat versucht: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «versucht» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
     },
     {
         "Filename": "3012",
@@ -10000,15 +9241,6 @@
         "type": "قید"
     },
     {
-        "Filename": "3040",
-        "Sound_de": "vorbereiten - bereitet vor - hat vorbereitet",
-        "translate_fa": "آماده کردن - آماده می‌کند - آماده کرده است",
-        "file": "3040_de.mp3",
-        "root": "vorbereiten: یک فعل جداشدنی به معنی «آماده کردن» یا «تدارک دیدن» است.\nvorbereiten: شکل مصدر فعل است.\nbereitet vor: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens). پیشوند «vor» از فعل جدا شده و به انتهای جمله منتقل می‌شود.\nhat vorbereitet: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «vorbereitet» تغییر می‌کند. در اینجا پیشوند «vor» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
         "Filename": "3043",
         "Sound_de": "vorgestern",
         "translate_fa": "پریروز",
@@ -10057,15 +9289,6 @@
         "type": "صفت"
     },
     {
-        "Filename": "3059",
-        "Sound_de": "vorstellen (sich) - stellt vor - hat vorgestellt",
-        "translate_fa": "معرفی کردن - معرفی می‌کند - معرفی کرده است",
-        "file": "3059_de.mp3",
-        "root": "vorstellen (sich): یک فعل انعکاسی جداشدنی به معنی «خود را معرفی کردن» است. همچنین می‌تواند به معنی «معرفی کردن» (بدون ضمیر انعکاسی) نیز باشد.\nvorstellen: شکل مصدر فعل است.\nstellt vor: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens). پیشوند «vor» از فعل جدا شده و به انتهای جمله منتقل می‌شود.\nhat vorgestellt: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «vorgestellt» تغییر می‌کند. در اینجا پیشوند «vor» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل بازتابی",
-        "verb_type": "جداشدنی"
-    },
-    {
         "Filename": "3062",
         "Sound_de": "vorwärts",
         "translate_fa": "به جلو",
@@ -10088,15 +9311,6 @@
         "file": "3067_de.mp3",
         "root": "der Wagen: اسم مذکر به معنی «خودرو»، «کالسکه» یا «واگن». «der» حرف تعریف مشخص برای اسامی مذکر است.\ndie Wagen: شکل جمع اسم «der Wagen» است. این کلمه در حالت جمع تغییری نمی‌کند و فقط حرف تعریف آن از «der» به «die» تغییر می‌کند.",
         "type": "اسم"
-    },
-    {
-        "Filename": "3070",
-        "Sound_de": "wählen - wählt - hat gewählt",
-        "translate_fa": "انتخاب کردن - انتخاب می‌کند - انتخاب کرده است",
-        "file": "3070_de.mp3",
-        "root": "wählen: یک فعل باقاعده به معنی «انتخاب کردن» یا «شماره‌گیری کردن» است.\nwählen: شکل مصدر فعل است.\nwählt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gewählt: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gewählt» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
     },
     {
         "Filename": "3073",
@@ -10123,15 +9337,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "3081",
-        "Sound_de": "wandern - wandert - ist gewandert",
-        "translate_fa": "پیاده‌روی کردن - پیاده‌روی می‌کند - پیاده‌روی کرده است",
-        "file": "3081_de.mp3",
-        "root": "wandern: یک فعل باقاعده به معنی «پیاده‌روی کردن» در کوه یا طبیعت است. این فعل حرکت را بیان می‌کند.\nwandern: شکل مصدر فعل است.\nwandert: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nist gewandert: زمان گذشته کامل (Perfekt). از آنجایی که این فعل حرکت را بیان می‌کند، از فعل کمکی «sein» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gewandert» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "3083",
         "Sound_de": "wann",
         "translate_fa": "کی",
@@ -10146,15 +9351,6 @@
         "file": "3086_de.mp3",
         "root": "warm: یک صفت به معنی «گرم». این صفت می‌تواند برای توصیف آب و هوا، غذا یا لباس به کار رود.",
         "type": "صفت"
-    },
-    {
-        "Filename": "3090",
-        "Sound_de": "warten - wartet - hat gewartet",
-        "translate_fa": "منتظر ماندن - منتظر می‌ماند - منتظر مانده است",
-        "file": "3090_de.mp3",
-        "root": "warten: یک فعل باقاعده به معنی «منتظر ماندن» است.\nwarten: شکل مصدر فعل است.\nwartet: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gewartet: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gewartet» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
     },
     {
         "Filename": "3093",
@@ -10181,15 +9377,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "3100",
-        "Sound_de": "waschen (sich) - wäscht - hat gewaschen",
-        "translate_fa": "شستن (خود) - می‌شوید - شسته است",
-        "file": "3100_de.mp3",
-        "root": "waschen (sich): یک فعل جدا نشدنی و بی‌قاعده به معنی «شستن» (خود یا چیزی) است.\nwaschen: شکل مصدر فعل است.\nwäscht: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gewaschen: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gewaschen» تغییر می‌کند.",
-        "type": "فعل بازتابی",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "3102",
         "Sound_de": "das Wasser - die Wasser",
         "translate_fa": "آب - آب‌ها",
@@ -10206,84 +9393,12 @@
         "type": "اسم"
     },
     {
-        "Filename": "3107",
-        "Sound_de": "wechseln - wechselt - hat gewechselt",
-        "translate_fa": "عوض کردن - عوض می‌کند - عوض کرده است",
-        "file": "3107_de.mp3",
-        "root": "wechseln: یک فعل باقاعده به معنی «عوض کردن»، «تبادل کردن» یا «تغییر دادن» است.\nwechseln: شکل مصدر فعل است.\nwechselt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gewechselt: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gewechselt» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
-        "Filename": "3110",
-        "Sound_de": "wecken - weckt - hat geweckt",
-        "translate_fa": "بیدار کردن - بیدار می‌کند - بیدار کرده است",
-        "file": "3110_de.mp3",
-        "root": "wecken: یک فعل باقاعده به معنی «بیدار کردن» است.\nwecken: شکل مصدر فعل است.\nweckt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat geweckt: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «geweckt» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "3112",
         "Sound_de": "weg",
         "translate_fa": "رفته",
         "file": "3112_de.mp3",
         "root": "weg: یک قید مکان (Lokaladverb) به معنی «دور»، «رفته» یا «ناپدید شده». این کلمه حالت یا مکان چیزی را توصیف می‌کند.",
         "type": "قید"
-    },
-    {
-        "Filename": "3115",
-        "Sound_de": "wegbringen - bringt weg - hat weggebracht",
-        "translate_fa": "بردن (دور کردن) - می‌برد - برده است",
-        "file": "3115_de.mp3",
-        "root": "wegbringen: یک فعل جداشدنی و بی‌قاعده به معنی «بردن» یا «دور کردن» است.\nwegbringen: شکل مصدر فعل است.\nbringt weg: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens). پیشوند «weg» از فعل جدا شده و به انتهای جمله منتقل می‌شود.\nhat weggebracht: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «weggebracht» تغییر می‌کند. در اینجا پیشوند «weg» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "3117",
-        "Sound_de": "wegfahren - fährt weg - ist weggefahren",
-        "translate_fa": "راندن (رفتن با وسیله) - می‌راند - رانده است",
-        "file": "3117_de.mp3",
-        "root": "wegfahren: یک فعل جداشدنی و بی‌قاعده به معنی «با خودرو دور شدن» یا «به سفر رفتن» است. این فعل حرکت را بیان می‌کند.\nwegfahren: شکل مصدر فعل است.\nfährt weg: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nist weggefahren: زمان گذشته کامل (Perfekt). از آنجایی که این فعل حرکت را بیان می‌کند، از فعل کمکی «sein» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «weggefahren» تغییر می‌کند. در اینجا پیشوند «weg» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "3119",
-        "Sound_de": "weglaufen - läuft weg - ist weggelaufen",
-        "translate_fa": "فرار کردن - فرار می‌کند - فرار کرده است",
-        "file": "3119_de.mp3",
-        "root": "weglaufen: یک فعل جداشدنی و بی‌قاعده به معنی «فرار کردن» یا «دور دویدن» است. این فعل حرکت را بیان می‌کند.\nweglaufen: شکل مصدر فعل است.\nläuft weg: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nist weggelaufen: زمان گذشته کامل (Perfekt). از آنجایی که این فعل حرکت را بیان می‌کند، از فعل کمکی «sein» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «weggelaufen» تغییر می‌کند. در اینجا پیشوند «weg» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "3121",
-        "Sound_de": "wegmachen - macht weg - hat weggemacht",
-        "translate_fa": "پاک کردن (برداشتن) - پاک می‌کند - پاک کرده است",
-        "file": "3121_de.mp3",
-        "root": "wegmachen: یک فعل جداشدنی باقاعده به معنی «پاک کردن»، «برداشتن» یا «حذف کردن» است.\nwegmachen: شکل مصدر فعل است.\nmacht weg: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat weggemacht: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «weggemacht» تغییر می‌کند. در اینجا پیشوند «weg» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "3123",
-        "Sound_de": "wegnehmen - nimmt weg - hat weggenommen",
-        "translate_fa": "گرفتن (برداشتن) - می‌گیرد - گرفته است",
-        "file": "3123_de.mp3",
-        "root": "wegnehmen: یک فعل جداشدنی و بی‌قاعده به معنی «گرفتن» یا «برداشتن» است.\nwegnehmen: شکل مصدر فعل است.\nnimmt weg: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat weggenommen: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «weggenommen» تغییر می‌کند. در اینجا پیشوند «weg» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "3125",
-        "Sound_de": "wegwerfen - wirft weg - hat weggeworfen",
-        "translate_fa": "دور انداختن - دور می‌اندازد - دور انداخته است",
-        "file": "3125_de.mp3",
-        "root": "wegwerfen: یک فعل جداشدنی و بی‌قاعده به معنی «دور انداختن» است.\nwegwerfen: شکل مصدر فعل است.\nwirft weg: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat weggeworfen: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «weggeworfen» تغییر می‌کند. در اینجا پیشوند «weg» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
     },
     {
         "Filename": "3127",
@@ -10300,15 +9415,6 @@
         "file": "3130_de.mp3",
         "root": "wegen: یک حرف اضافه (Präposition) به معنی «به دلیلِ» یا «به خاطرِ». این حرف اضافه معمولاً با حالت گنتیو (Genitiv) به کار می‌رود، اما در زبان روزمره اغلب با داتیو استفاده می‌شود.",
         "type": "حرف اضافه"
-    },
-    {
-        "Filename": "3133",
-        "Sound_de": "wehtun - tut weh - hat wehgetan",
-        "translate_fa": "درد کردن - درد می‌کند - درد کرده است",
-        "file": "3133_de.mp3",
-        "root": "wehtun: یک فعل جداشدنی و بی‌قاعده به معنی «درد کردن» یا «آسیب زدن» است.\nwehtun: شکل مصدر فعل است.\ntut weh: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat wehgetan: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «wehgetan» تغییر می‌کند. در اینجا پیشوند «weh» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
     },
     {
         "Filename": "3136",
@@ -10343,15 +9449,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "3145",
-        "Sound_de": "weinen - weint - hat geweint",
-        "translate_fa": "گریه کردن - گریه می‌کند - گریه کرده است",
-        "file": "3145_de.mp3",
-        "root": "weinen: یک فعل باقاعده به معنی «گریه کردن» است.\nweinen: شکل مصدر فعل است.\nweint: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat geweint: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «geweint» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "3148",
         "Sound_de": "weit",
         "translate_fa": "دور",
@@ -10366,24 +9463,6 @@
         "file": "3150_de.mp3",
         "root": "weiter: یک قید یا صفت به معنی «بیشتر»، «ادامه» یا «جلوتر». این کلمه برای بیان ادامه یک عمل یا حرکت به کار می‌رود.",
         "type": "صفت"
-    },
-    {
-        "Filename": "3152",
-        "Sound_de": "weitermachen - macht weiter - hat weitergemacht",
-        "translate_fa": "ادامه دادن - ادامه می‌دهد - ادامه داده است",
-        "file": "3152_de.mp3",
-        "root": "weitermachen: یک فعل جداشدنی باقاعده به معنی «ادامه دادن» یا «دنبال کردن» است.\nweitermachen: شکل مصدر فعل است.\nmacht weiter: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat weitergemacht: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «weitergemacht» تغییر می‌کند. در اینجا پیشوند «weiter» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
-        "Filename": "3154",
-        "Sound_de": "weiterhelfen - hilft weiter - hat weitergeholfen",
-        "translate_fa": "کمک بیشتر کردن - کمک می‌کند - کمک کرده است",
-        "file": "3154_de.mp3",
-        "root": "weiterhelfen: یک فعل جداشدنی و بی‌قاعده به معنی «کمک کردن» یا «یاری رساندن» است. این فعل همیشه با حالت داتیو می‌آید.\nweiterhelfen: شکل مصدر فعل است.\nhilft weiter: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat weitergeholfen: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «weitergeholfen» تغییر می‌کند. در اینجا پیشوند «weiter» به ابتدای «Partizip II» چسبیده است.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
     },
     {
         "Filename": "3156",
@@ -10432,15 +9511,6 @@
         "file": "3171_de.mp3",
         "root": "wer: یک واژه پرسشی (Interrogativpronomen) به معنی «چه کسی» است که برای پرسیدن در مورد یک شخص به کار می‌رود.\nwer: شکل فاعلی (Nominativ) است.\nwen: شکل آکوزاتیو (Akkusativ) است. برای مثال، «Wen siehst du?» (تو چه کسی را می‌بینی؟).\nwem: شکل داتیو (Dativ) است. برای مثال، «Wem gibst du das Buch?» (تو کتاب را به چه کسی می‌دهی؟).",
         "type": "ضمیر پرسشی"
-    },
-    {
-        "Filename": "3173",
-        "Sound_de": "werden - wird - ist geworden",
-        "translate_fa": "شدن - می‌شود - شده است",
-        "file": "3173_de.mp3",
-        "root": "werden: یک فعل بی‌قاعده با چندین کاربرد است. «werden» می‌تواند به معنی «شدن» (تغییر حالت)، «ساختن آینده» و «ساختن مجهول» به کار رود.\nwerden: شکل مصدر فعل است.\nwird: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nist geworden: زمان گذشته کامل (Perfekt). از آنجایی که این فعل تغییر حالت را بیان می‌کند، از فعل کمکی «sein» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «geworden» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
     },
     {
         "Filename": "3176",
@@ -10499,15 +9569,6 @@
         "type": "قید"
     },
     {
-        "Filename": "3202",
-        "Sound_de": "wiederholen - wiederholt - hat wiederholt",
-        "translate_fa": "تکرار کردن - تکرار می‌کند - تکرار کرده است",
-        "file": "3202_de.mp3",
-        "root": "wiederholen: یک فعل جدا نشدنی و باقاعده به معنی «تکرار کردن» است.\nwiederholen: شکل مصدر فعل است.\nwiederholt: این شکل، صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens) است.\nhat wiederholt: این شکل، زمان گذشته کامل (Perfekt) فعل است. از فعل کمکی «haben» برای ساختن زمان گذشته استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «wiederholt» تبدیل می‌شود.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
-    },
-    {
         "Filename": "3204",
         "Sound_de": "das Wiederhören",
         "translate_fa": "خداحافظی (در تلفن)",
@@ -10556,15 +9617,6 @@
         "type": "قید"
     },
     {
-        "Filename": "3216",
-        "Sound_de": "wissen - weiß - hat gewusst",
-        "translate_fa": "دانستن - می‌داند - دانسته است",
-        "file": "3216_de.mp3",
-        "root": "wissen: یک فعل بی‌قاعده به معنی «دانستن» یا «مطلع بودن» است. این فعل جزء افعال مودال‌مانند محسوب می‌شود.\nwissen: شکل مصدر فعل است.\nweiß: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gewusst: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gewusst» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "3219",
         "Sound_de": "der Witz - die Witze",
         "translate_fa": "جوک",
@@ -10605,15 +9657,6 @@
         "type": "قید پرسشی"
     },
     {
-        "Filename": "3233",
-        "Sound_de": "wohnen - wohnt - hat gewohnt",
-        "translate_fa": "زندگی کردن - زندگی می‌کند - زندگی کرده است",
-        "file": "3233_de.mp3",
-        "root": "wohnen: یک فعل باقاعده به معنی «زندگی کردن» یا «ساکن بودن» است. این فعل برای بیان محل اقامت ثابت به کار می‌رود.\nwohnen: شکل مصدر فعل است.\nwohnt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gewohnt: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gewohnt» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "3235",
         "Sound_de": "die Wohnung - die Wohnungen",
         "translate_fa": "آپارتمان",
@@ -10636,15 +9679,6 @@
         "file": "3240_de.mp3",
         "root": "die Wolke: اسم مؤنث به معنی «ابر».\ndie Wolken: شکل جمع اسم «die Wolke» است. در اینجا «n» به انتهای کلمه اضافه شده است تا شکل جمع را بسازد.",
         "type": "اسم"
-    },
-    {
-        "Filename": "3242",
-        "Sound_de": "wollen - will - wollte - hat gewollt (hat wollen als Modalverb)",
-        "translate_fa": "خواستن - می‌خواهد - خواست - خواسته است",
-        "file": "3242_de.mp3",
-        "root": "wollen: یک فعل مودال (Modalverb) به معنی «خواستن» یا «اراده داشتن» است.\nwollen: شکل مصدر فعل است.\nwill: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nwollte: صرف فعل برای سوم شخص مفرد در زمان گذشته ساده (Präteritum).\nhat gewollt: زمان گذشته کامل (Perfekt) زمانی که فعل «wollen» به تنهایی در جمله به کار می‌رود.\nhat wollen: زمان گذشته کامل (Perfekt) زمانی که «wollen» به عنوان فعل مودال در جمله به کار می‌رود. در این حالت، فعل اصلی و «wollen» هر دو به صورت مصدر در انتهای جمله قرار می‌گیرند و «haben» صرف می‌شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
     },
     {
         "Filename": "3244",
@@ -10679,15 +9713,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "3258",
-        "Sound_de": "wünschen",
-        "translate_fa": "آرزو کردن",
-        "file": "3258_de.mp3",
-        "root": "wünschen: یک فعل باقاعده به معنی «آرزو کردن» یا «خواستن». این فعل می‌تواند با یک مفعول داتیو (دریافت کننده آرزو) و یک مفعول آکوزاتیو (آنچه آرزو می‌شود) به کار رود، یا به صورت انعکاسی «sich etwas wünschen» (چیزی برای خود آرزو کردن) استفاده شود.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "3260",
         "Sound_de": "die Wurst - die Würste",
         "translate_fa": "سوسیس",
@@ -10704,39 +9729,12 @@
         "type": "اسم"
     },
     {
-        "Filename": "3264",
-        "Sound_de": "zahlen - zahlt - hat gezahlt",
-        "translate_fa": "پرداخت کردن - پرداخت می‌کند - پرداخت کرده است",
-        "file": "3264_de.mp3",
-        "root": "zahlen: یک فعل باقاعده به معنی «پرداخت کردن» است.\nzahlen: شکل مصدر فعل است.\nzahlt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gezahlt: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gezahlt» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
         "Filename": "3266",
         "Sound_de": "der Zahn - die Zähne",
         "translate_fa": "دندان",
         "file": "3266_de.mp3",
         "root": "der Zahn: اسم مذکر به معنی «دندان».\ndie Zähne: شکل جمع اسم «der Zahn» است. در اینجا «ä» به جای «a» آمده و یک «e» نیز به انتهای کلمه اضافه شده است تا شکل جمع را بسازد.",
         "type": "اسم"
-    },
-    {
-        "Filename": "3268",
-        "Sound_de": "zeichnen - zeichnet - hat gezeichnet",
-        "translate_fa": "نقاشی کردن - نقاشی می‌کند - نقاشی کرده است",
-        "file": "3268_de.mp3",
-        "root": "zeichnen: یک فعل باقاعده به معنی «نقاشی کشیدن» یا «ترسیم کردن» است.\nzeichnen: شکل مصدر فعل است.\nzeichnet: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gezeichnet: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gezeichnet» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
-    },
-    {
-        "Filename": "3270",
-        "Sound_de": "zeigen - zeigt - hat gezeigt",
-        "translate_fa": "نشان دادن - نشان می‌دهد - نشان داده است",
-        "file": "3270_de.mp3",
-        "root": "zeigen: یک فعل باقاعده به معنی «نشان دادن» است. این فعل معمولاً با یک مفعول داتیو (به چه کسی) و یک مفعول آکوزاتیو (چه چیزی) به کار می‌رود.\nzeigen: شکل مصدر فعل است.\nzeigt: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat gezeigt: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gezeigt» تغییر می‌کند.",
-        "type": "فعل",
-        "verb_type": "غیرجداشدنی"
     },
     {
         "Filename": "3272",
@@ -10793,15 +9791,6 @@
         "file": "3287_de.mp3",
         "root": "das Zeugnis: اسم خنثی به معنی «گواهینامه»، «مدرک» یا «کارنامه».\ndie Zeugnisse: شکل جمع اسم «das Zeugnis» است. در اینجا «e» به انتهای کلمه اضافه شده است تا شکل جمع را بسازد.",
         "type": "اسم"
-    },
-    {
-        "Filename": "3289",
-        "Sound_de": "(an/aus)ziehen - zieht (an/aus) - hat/ist (an/aus)gezogen",
-        "translate_fa": "(پوشیدن/درآوردن) - می‌پوشد/درمی‌آورد - پوشیده/درآورده است",
-        "file": "3289_de.mp3",
-        "root": "(an/aus)ziehen: یک فعل جداشدنی و بی‌قاعده با دو معنی است. «anziehen» به معنی «پوشیدن» لباس و «ausziehen» به معنی «درآوردن» لباس است. این فعل همچنین می‌تواند به معنی «اسباب‌کشی کردن» نیز باشد که در این صورت با فعل کمکی «sein» می‌آید.\n(an/aus)ziehen: شکل مصدر فعل است.\nzieht (an/aus): صرف فعل برای سوم شخص مفرد در زمان حال ساده (Präsens).\nhat/ist (an/aus)gezogen: زمان گذشته کامل (Perfekt). «anziehen» و «ausziehen» (به معنی پوشیدن/درآوردن) با «haben» و «ausziehen» (به معنی اسباب‌کشی) با «sein» به کار می‌رود.",
-        "type": "فعل",
-        "verb_type": "جداشدنی"
     },
     {
         "Filename": "3293",
@@ -10884,14 +9873,6 @@
         "type": "اسم"
     },
     {
-        "Filename": "3323",
-        "Sound_de": "zuhören - hört zu - hat zugehört",
-        "translate_fa": "گوش دادن - گوش می‌دهد - گوش داده است",
-        "file": "3323_de.mp3",
-        "root": "zuhören: یک فعل جداشدنی و باقاعده به معنی «گوش دادن» یا «توجه کردن» است. این فعل همیشه با حالت داتیو می‌آید.\nzuhören: شکل مصدر فعل است.\nhört zu: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat zugehört: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «zugehört» تغییر می‌کند.",
-        "type": "فعل جداشدنی"
-    },
-    {
         "Filename": "3325",
         "Sound_de": "zuletzt",
         "translate_fa": "آخرین",
@@ -10908,28 +9889,12 @@
         "type": "عبارت"
     },
     {
-        "Filename": "3330",
-        "Sound_de": "zumachen - macht zu - hat zugemacht",
-        "translate_fa": "بستن - می‌بندد - بسته است",
-        "file": "3330_de.mp3",
-        "root": "zumachen: یک فعل جداشدنی و باقاعده به معنی «بستن» است.\nzumachen: شکل مصدر فعل است.\nmacht zu: صرف فعل برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nhat zugemacht: زمان گذشته کامل (Perfekt). از فعل کمکی «haben» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «zugemacht» تغییر می‌کند.",
-        "type": "فعل جداشدنی"
-    },
-    {
         "Filename": "3332",
         "Sound_de": "zurück",
         "translate_fa": "برگشت",
         "file": "3332_de.mp3",
         "root": "zurück: یک قید جهت (Richtungsadverb) به معنی «برگشت»، «به عقب» یا «بازگشت». این کلمه برای بیان بازگشت به یک نقطه آغاز به کار می‌رود.",
         "type": "قید"
-    },
-    {
-        "Filename": "3334",
-        "Sound_de": "zurückfahren - zurückgeben - zurückgehen - zurückkommen - zurücklaufen",
-        "translate_fa": "برگشتن (با وسیله) - پس دادن - برگشتن (پیاده) - باز آمدن - دویدن به عقب",
-        "file": "3334_de.mp3",
-        "root": "zurückfahren: فعل جداشدنی به معنی «با وسیله نقلیه برگشتن».\nzurückgeben: فعل جداشدنی به معنی «پس دادن».\nzurückgehen: فعل جداشدنی به معنی «پیاده برگشتن».\nzurückkommen: فعل جداشدنی به معنی «برگشتن».\nzurücklaufen: فعل جداشدنی به معنی «با دویدن برگشتن».",
-        "type": "فعل جداشدنی"
     },
     {
         "Filename": "3340",

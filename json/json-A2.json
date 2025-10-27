@@ -31957,22 +31957,9 @@
     "root": "نوع کلمه: این یک اسم مذکر است. این عبارت شکل مفرد و جمع اسم را نشان می‌دهد.\nder: حرف تعریف مشخص برای اسم‌های مذکر.\nTitel: اسم مذکر به معنای 'عنوان'.\ndie Titel: شکل جمع اسم 'Titel' است.",
     "type": "اسم"
   },
+
   {
     "Filename": "2826",
-    "Sound_de": "Wie heißt der Film?",
-    "translate_fa": "اسم فیلم چیست؟",
-    "file": "2826_de.mp3",
-    "root": "نوع جمله: این یک جمله سؤالی با کلمه پرسشی (W-Frage) است.\nWie heißt: 'چه نامیده می‌شود'. 'heißen' فعل 'نامیده شدن' است.\nder Film: اسم مذکر 'فیلم' که فاعل است.",
-    "type": "جمله",
-    "subject": ["der Film"],
-    "verb": ["heißt"],
-    "auxiliary_verb": [null],
-    "object": [null],
-    "verb_part1": [null],
-    "verb_part2": [null]
-  },
-  {
-    "Filename": "2827",
     "Sound_de": "Ich weiß den Titel nicht mehr.",
     "translate_fa": "عنوان را دیگر یادم نیست.",
     "file": "2827_de.mp3",

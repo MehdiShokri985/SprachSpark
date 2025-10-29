@@ -972,6 +972,331 @@
     "tense": "Futur II"
   },
   {
+"Filename": "5492",
+"Sound_de": "ich gehe.",
+"translate_fa": "من می‌روم.",
+"root": "ich gehe nicht.\nمن نمی‌روم.\nGehe ich?\nآیا من می‌روم؟",
+"parent": "gehen",
+"file": "5492_de.mp3",
+"tense": "Präsens"
+},
+{
+"Filename": "5493",
+"Sound_de": "du gehst.",
+"translate_fa": "تو می‌روی.",
+"root": "du gehst nicht.\nتو نمی‌روی.\nGehst du?\nآیا تو می‌روی؟\nGeh!\nبرو!",
+"parent": "gehen",
+"file": "5493_de.mp3",
+"tense": "Präsens"
+},
+{
+"Filename": "5494",
+"Sound_de": "er/sie/es geht.",
+"translate_fa": "او/او/آن می‌رود.",
+"root": "er/sie/es geht nicht.\nاو/او/آن نمی‌رود.\nGeht er/sie/es?\nآیا او/او/آن می‌رود؟",
+"parent": "gehen",
+"file": "5494_de.mp3",
+"tense": "Präsens"
+},
+{
+"Filename": "5495",
+"Sound_de": "wir gehen.",
+"translate_fa": "ما می‌رویم.",
+"root": "wir gehen nicht.\nما نمی‌رویم.\nGehen wir?\nآیا ما می‌رویم؟",
+"parent": "gehen",
+"file": "5495_de.mp3",
+"tense": "Präsens"
+},
+{
+"Filename": "5496",
+"Sound_de": "ihr geht.",
+"translate_fa": "شما می‌روید.",
+"root": "ihr geht nicht.\nشما نمی‌روید.\nGeht ihr?\nآیا شما می‌روید؟\nGeht!\nبروید!",
+"parent": "gehen",
+"file": "5496_de.mp3",
+"tense": "Präsens"
+},
+{
+"Filename": "5497",
+"Sound_de": "sie/Sie gehen.",
+"translate_fa": "شما/آنها می‌روند.",
+"root": "sie/Sie gehen nicht.\nشما/آنها نمی‌روند.\nGehen sie/Sie?\nآیا شما/آنها می‌روند؟\nGehen Sie!\nبروید!",
+"parent": "gehen",
+"file": "5497_de.mp3",
+"tense": "Präsens"
+},
+{
+"Filename": "5498",
+"Sound_de": "ich ging.",
+"translate_fa": "من رفتم.",
+"root": "ich ging nicht.\nمن نرفتم.\nGing ich?\nآیا من رفتم؟",
+"parent": "gehen",
+"file": "5498_de.mp3",
+"tense": "Präteritum"
+},
+{
+"Filename": "5499",
+"Sound_de": "du gingst.",
+"translate_fa": "تو رفتی.",
+"root": "du gingst nicht.\nتو نرفتی.\nGingst du?\nآیا تو رفتی؟\nGeh!\nبرو!",
+"parent": "gehen",
+"file": "5499_de.mp3",
+"tense": "Präteritum"
+},
+{
+"Filename": "5500",
+"Sound_de": "er/sie/es ging.",
+"translate_fa": "او/او/آن رفت.",
+"root": "er/sie/es ging nicht.\nاو/او/آن نرفت.\nGing er/sie/es?\nآیا او/او/آن رفت؟",
+"parent": "gehen",
+"file": "5500_de.mp3",
+"tense": "Präteritum"
+},
+{
+"Filename": "5501",
+"Sound_de": "wir gingen.",
+"translate_fa": "ما رفتیم.",
+"root": "wir gingen nicht.\nما نرفتیم.\nGingen wir?\nآیا ما رفتیم؟",
+"parent": "gehen",
+"file": "5501_de.mp3",
+"tense": "Präteritum"
+},
+{
+"Filename": "5502",
+"Sound_de": "ihr gingt.",
+"translate_fa": "شما رفتید.",
+"root": "ihr gingt nicht.\nشما نرفتید.\nGingt ihr?\nآیا شما رفتید؟\nGeht!\nبروید!",
+"parent": "gehen",
+"file": "5502_de.mp3",
+"tense": "Präteritum"
+},
+{
+"Filename": "5503",
+"Sound_de": "sie/Sie gingen.",
+"translate_fa": "شما/آنها رفتند.",
+"root": "sie/Sie gingen nicht.\nشما/آنها نرفتند.\nGingen sie/Sie?\nآیا شما/آنها رفتند؟\nGehen Sie!\nبروید!",
+"parent": "gehen",
+"file": "5503_de.mp3",
+"tense": "Präteritum"
+},
+{
+"Filename": "5504",
+"Sound_de": "ich bin gegangen.",
+"translate_fa": "من رفته‌ام.",
+"root": "ich bin nicht gegangen.\nمن نرفته‌ام.\nBin ich gegangen?\nآیا من رفته‌ام؟",
+"parent": "gehen",
+"file": "5504_de.mp3",
+"tense": "Perfekt"
+},
+{
+"Filename": "5505",
+"Sound_de": "du bist gegangen.",
+"translate_fa": "تو رفته‌ای.",
+"root": "du bist nicht gegangen.\nتو نرفته‌ای.\nBist du gegangen?\nآیا تو رفته‌ای؟\nGeh!\nبرو!",
+"parent": "gehen",
+"file": "5505_de.mp3",
+"tense": "Perfekt"
+},
+{
+"Filename": "5506",
+"Sound_de": "er/sie/es ist gegangen.",
+"translate_fa": "او/او/آن رفته است.",
+"root": "er/sie/es ist nicht gegangen.\nاو/او/آن نرفته است.\nIst er/sie/es gegangen?\nآیا او/او/آن رفته است؟",
+"parent": "gehen",
+"file": "5506_de.mp3",
+"tense": "Perfekt"
+},
+{
+"Filename": "5507",
+"Sound_de": "wir sind gegangen.",
+"translate_fa": "ما رفته‌ایم.",
+"root": "wir sind nicht gegangen.\nما نرفته‌ایم.\nSind wir gegangen?\nآیا ما رفته‌ایم؟",
+"parent": "gehen",
+"file": "5507_de.mp3",
+"tense": "Perfekt"
+},
+{
+"Filename": "5508",
+"Sound_de": "ihr seid gegangen.",
+"translate_fa": "شما رفته‌اید.",
+"root": "ihr seid nicht gegangen.\nشما نرفته‌اید.\nSeid ihr gegangen?\nآیا شما رفته‌اید؟\nGeht!\nبروید!",
+"parent": "gehen",
+"file": "5508_de.mp3",
+"tense": "Perfekt"
+},
+{
+"Filename": "5509",
+"Sound_de": "sie/Sie sind gegangen.",
+"translate_fa": "شما/آنها رفته‌اند.",
+"root": "sie/Sie sind nicht gegangen.\nشما/آنها نرفته‌اند.\nSind sie/Sie gegangen?\nآیا شما/آنها رفته‌اند؟\nGehen Sie!\nبروید!",
+"parent": "gehen",
+"file": "5509_de.mp3",
+"tense": "Perfekt"
+},
+{
+"Filename": "5510",
+"Sound_de": "ich war gegangen.",
+"translate_fa": "من رفته بودم.",
+"root": "ich war nicht gegangen.\nمن نرفته بودم.\nWar ich gegangen?\nآیا من رفته بودم؟",
+"parent": "gehen",
+"file": "5510_de.mp3",
+"tense": "Plusquamperfekt"
+},
+{
+"Filename": "5511",
+"Sound_de": "du warst gegangen.",
+"translate_fa": "تو رفته بودی.",
+"root": "du warst nicht gegangen.\nتو نرفته بودی.\nWarst du gegangen?\nآیا تو رفته بودی؟\nGeh!\nبرو!",
+"parent": "gehen",
+"file": "5511_de.mp3",
+"tense": "Plusquamperfekt"
+},
+{
+"Filename": "5512",
+"Sound_de": "er/sie/es war gegangen.",
+"translate_fa": "او/او/آن رفته بود.",
+"root": "er/sie/es war nicht gegangen.\nاو/او/آن نرفته بود.\nWar er/sie/es gegangen?\nآیا او/او/آن رفته بود؟",
+"parent": "gehen",
+"file": "5512_de.mp3",
+"tense": "Plusquamperfekt"
+},
+{
+"Filename": "5513",
+"Sound_de": "wir waren gegangen.",
+"translate_fa": "ما رفته بودیم.",
+"root": "wir waren nicht gegangen.\nما نرفته بودیم.\nWaren wir gegangen?\nآیا ما رفته بودیم؟",
+"parent": "gehen",
+"file": "5513_de.mp3",
+"tense": "Plusquamperfekt"
+},
+{
+"Filename": "5514",
+"Sound_de": "ihr wart gegangen.",
+"translate_fa": "شما رفته بودید.",
+"root": "ihr wart nicht gegangen.\nشما نرفته بودید.\nWart ihr gegangen?\nآیا شما رفته بودید؟\nGeht!\nبروید!",
+"parent": "gehen",
+"file": "5514_de.mp3",
+"tense": "Plusquamperfekt"
+},
+{
+"Filename": "5515",
+"Sound_de": "sie/Sie waren gegangen.",
+"translate_fa": "شما/آنها رفته بودند.",
+"root": "sie/Sie waren nicht gegangen.\nشما/آنها نرفته بودند.\nWaren sie/Sie gegangen?\nآیا شما/آنها رفته بودند؟\nGehen Sie!\nبروید!",
+"parent": "gehen",
+"file": "5515_de.mp3",
+"tense": "Plusquamperfekt"
+},
+{
+"Filename": "5516",
+"Sound_de": "ich werde gehen.",
+"translate_fa": "من خواهم رفت.",
+"root": "ich werde nicht gehen.\nمن نخواهم رفت.\nWerde ich gehen?\nآیا من خواهم رفت؟",
+"parent": "gehen",
+"file": "5516_de.mp3",
+"tense": "Futur I"
+},
+{
+"Filename": "5517",
+"Sound_de": "du wirst gehen.",
+"translate_fa": "تو خواهی رفت.",
+"root": "du wirst nicht gehen.\nتو نخواهی رفت.\nWirst du gehen?\nآیا تو خواهی رفت؟\nGeh!\nبرو!",
+"parent": "gehen",
+"file": "5517_de.mp3",
+"tense": "Futur I"
+},
+{
+"Filename": "5518",
+"Sound_de": "er/sie/es wird gehen.",
+"translate_fa": "او/او/آن خواهد رفت.",
+"root": "er/sie/es wird nicht gehen.\nاو/او/آن نخواهد رفت.\nWird er/sie/es gehen?\nآیا او/او/آن خواهد رفت؟",
+"parent": "gehen",
+"file": "5518_de.mp3",
+"tense": "Futur I"
+},
+{
+"Filename": "5519",
+"Sound_de": "wir werden gehen.",
+"translate_fa": "ما خواهیم رفت.",
+"root": "wir werden nicht gehen.\nما نخواهیم رفت.\nWerden wir gehen?\nآیا ما خواهیم رفت؟",
+"parent": "gehen",
+"file": "5519_de.mp3",
+"tense": "Futur I"
+},
+{
+"Filename": "5520",
+"Sound_de": "ihr werdet gehen.",
+"translate_fa": "شما خواهید رفت.",
+"root": "ihr werdet nicht gehen.\nشما نخواهید رفت.\nWerdet ihr gehen?\nآیا شما خواهید رفت؟\nGeht!\nبروید!",
+"parent": "gehen",
+"file": "5520_de.mp3",
+"tense": "Futur I"
+},
+{
+"Filename": "5521",
+"Sound_de": "sie/Sie werden gehen.",
+"translate_fa": "شما/آنها خواهند رفت.",
+"root": "sie/Sie werden nicht gehen.\nشما/آنها نخواهند رفت.\nWerden sie/Sie gehen?\nآیا شما/آنها خواهند رفت؟\nGehen Sie!\nبروید!",
+"parent": "gehen",
+"file": "5521_de.mp3",
+"tense": "Futur I"
+},
+{
+"Filename": "5522",
+"Sound_de": "ich werde gegangen sein.",
+"translate_fa": "من رفته خواهم بود.",
+"root": "ich werde nicht gegangen sein.\nمن نرفته خواهم بود.\nWerde ich gegangen sein?\nآیا من رفته خواهم بود؟",
+"parent": "gehen",
+"file": "5522_de.mp3",
+"tense": "Futur II"
+},
+{
+"Filename": "5523",
+"Sound_de": "du wirst gegangen sein.",
+"translate_fa": "تو رفته خواهی بود.",
+"root": "du wirst nicht gegangen sein.\nتو نرفته خواهی بود.\nWirst du gegangen sein?\nآیا تو رفته خواهی بود؟\nGeh!\nبرو!",
+"parent": "gehen",
+"file": "5523_de.mp3",
+"tense": "Futur II"
+},
+{
+"Filename": "5524",
+"Sound_de": "er/sie/es wird gegangen sein.",
+"translate_fa": "او/او/آن رفته خواهد بود.",
+"root": "er/sie/es wird nicht gegangen sein.\nاو/او/آن نرفته خواهد بود.\nWird er/sie/es gegangen sein?\nآیا او/او/آن رفته خواهد بود؟",
+"parent": "gehen",
+"file": "5524_de.mp3",
+"tense": "Futur II"
+},
+{
+"Filename": "5525",
+"Sound_de": "wir werden gegangen sein.",
+"translate_fa": "ما رفته خواهیم بود.",
+"root": "wir werden nicht gegangen sein.\nما نرفته خواهیم بود.\nWerden wir gegangen sein?\nآیا ما رفته خواهیم بود؟",
+"parent": "gehen",
+"file": "5525_de.mp3",
+"tense": "Futur II"
+},
+{
+"Filename": "5526",
+"Sound_de": "ihr werdet gegangen sein.",
+"translate_fa": "شما رفته خواهید بود.",
+"root": "ihr werdet nicht gegangen sein.\nشما نرفته خواهید بود.\nWerdet ihr gegangen sein?\nآیا شما رفته خواهید بود؟\nGeht!\nبروید!",
+"parent": "gehen",
+"file": "5526_de.mp3",
+"tense": "Futur II"
+},
+{
+"Filename": "5527",
+"Sound_de": "sie/Sie werden gegangen sein.",
+"translate_fa": "شما/آنها رفته خواهند بود.",
+"root": "sie/Sie werden nicht gegangen sein.\nشما/آنها نرفته خواهند بود.\nWerden sie/Sie gegangen sein?\nآیا شما/آنها رفته خواهند بود؟\nGehen Sie!\nبروید!",
+"parent": "gehen",
+"file": "5527_de.mp3",
+"tense": "Futur II"
+},
+
+  {
     "Filename": "109",
     "Sound_de": "ich bezahle.",
     "translate_fa": "من پرداخت می کنم.",

@@ -534,6 +534,7 @@ function createFlashcard(item, index, audioPath) {
 function showFlashcardPopup(index) {
   const audioPath = container.dataset.audioPath;
   const item = itemsData[index];
+  console.log(audioPath);
   const flashcard = createFlashcard(item, index, audioPath);
   flashcardPopup.innerHTML = "";
   flashcardPopup.appendChild(flashcard);

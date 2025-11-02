@@ -1,4 +1,3 @@
-
 import json
 
 # نام فایل ورودی و خروجی
@@ -13,7 +12,11 @@ with open(input_file, 'r', encoding='utf-8') as f:
 if isinstance(data, list):
     for i, item in enumerate(data):
         if isinstance(item, dict) and 'Filename' in item:
-            item['Filename'] = str(i + 1)  # آپدیت از 1 شروع شود
+            new_filename = str(i + 1)  # آپدیت از 1 شروع شود
+            item['Filename'] = new_filename
+            # آپدیت کلید "file" بر اساس شماره Filename
+            if 'file' in item:
+                item['file'] = f"{new_filename}_de.mp3"
 
     # ذخیره در فایل جدید
     with open(output_file, 'w', encoding='utf-8') as f:

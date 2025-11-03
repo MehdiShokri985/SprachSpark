@@ -359,10 +359,12 @@ function createFlashcard(item, index, audioPath) {
         const potentialSentence = parentData.filter(
           (sentences) => sentences.Filename == sentenceIndex + 1
         )[0];
-        //  console.log(potentialSentence)
-        const soundDe = potentialSentence.Sound_de || "";
-        if (/[.!?,]$/.test(soundDe)) {
-          sentenceItem = potentialSentence;
+        console.log(potentialSentence);
+        if (potentialSentence) {
+          const soundDe = potentialSentence.Sound_de || "";
+          if (/[.!?,]$/.test(soundDe)) {
+            sentenceItem = potentialSentence;
+          }
         }
       }
       //  console.log(parentData);

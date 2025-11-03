@@ -1,27 +1,28 @@
 import json
 
-# نام فایل ورودی و خروجی
-input_file = './json/json-verb-A2.json'  # فایل JSON ورودی (آرایه‌ای از آبجکت‌ها)
-output_file = 'output.json'  # فایل JSON خروجی
+# مسیر فایل‌ها
+source_file = "output1 copy.json"
+target_file = "json-verb-A2.json"
 
-# خواندن فایل JSON
-with open(input_file, 'r', encoding='utf-8') as f:
-    data = json.load(f)
+# خواندن فایل‌ها
+with open(source_file, "r", encoding="utf-8") as f:
+    source_data = json.load(f)
 
-# فرض بر این است که data یک لیست (آرایه) از دیکشنری‌هاست
-if isinstance(data, list):
-    for i, item in enumerate(data):
-        if isinstance(item, dict) and 'Filename' in item:
-            new_filename = str(i + 1)  # آپدیت از 1 شروع شود
-            item['Filename'] = new_filename
-            # آپدیت کلید "file" بر اساس شماره Filename
-            if 'file' in item:
-                item['file'] = f"{new_filename}_de.mp3"
+with open(target_file, "r", encoding="utf-8") as f:
+    target_data = json.load(f)
 
-    # ذخیره در فایل جدید
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-    
-    print(f"فایل آپدیت شده در {output_file} ذخیره شد.")
-else:
-    print("فایل JSON باید یک آرایه (لیست) از آبجکت‌ها باشد.")
+# تبدیل source به دیکشنری برای دسترسی سریع
+source_dict = {item["Filename"]: item for item in source_data}
+
+# آپدیت کردن فایل دوم
+for item in target_data:
+    filename = item.get("Filename")
+    if filename in source_dict:
+        item["Sound_de"] = source_dict[filename].get("Sound_de", item.get("Sound_de"))
+        item["translate_fa"] = source_dict[filename].get("translate_fa", item.get("translate_fa"))
+
+# ذخیره فایل آپدیت شده
+with open(target_file, "w", encoding="utf-8") as f:
+    json.dump(target_data, f, ensure_ascii=False, indent=4)
+
+print("✅ فایل دوم با موفقیت آپدیت شد.")

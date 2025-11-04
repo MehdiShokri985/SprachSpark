@@ -454,14 +454,14 @@
         "translate_fa": "درگیر بودن",
         "file": "65_de.mp3"
     },
-    {
-        "Filename": "66",
-        "Sound_de": "dafür sein - waren dafür - sind dafür gewesen",
-        "translate_fa": "موافق بودن",
-        "file": "66_de.mp3",
-        "root": "dafür sein: یک عبارت idiomatic با فعل نامنظم «sein» به معنی «موافق بودن» است.\ndafür sein: شکل مصدر عبارت است.\nist dafür: صرف عبارت برای سوم شخص مفرد (er, sie, es) در زمان حال ساده (Präsens).\nist dafür gewesen: زمان گذشته کامل (Perfekt). از فعل کمکی «sein» استفاده می‌شود و شکل اصلی فعل به «Partizip II» یعنی «gewesen» تغییر می‌کند.",
-        "type": "عبارت idiomatic"
-    },
+{
+    "Filename": "66",
+    "Sound_de": "dafür sein - waren dafür - sind dafür gewesen",
+    "translate_fa": "موافق بودن",
+    "file": "66_de.mp3",
+    "root": "حال (Präsens):\nich bin dafür (من موافق هستم)\ndu bist dafür (تو موافق هستی)\ner/sie/es ist dafür (او موافق است)\nwir sind dafür (ما موافق هستیم)\nihr seid dafür (شما موافق هستید)\nsie/Sie sind dafür (آن‌ها/شما (محترمانه) موافق هستند)\n\nگذشته ساده (Präteritum):\nich war dafür (من موافق بودم)\ndu warst dafür (تو موافق بودی)\ner/sie/es war dafür (او موافق بود)\nwir waren dafür (ما موافق بودیم)\nihr wart dafür (شما موافق بودید)\nsie/Sie waren dafür (آن‌ها/شما (محترمانه) موافق بودند)\n\nگذشته کامل (Perfekt):\nich bin dafür gewesen (من موافق بوده‌ام)\ndu bist dafür gewesen (تو موافق بوده‌ای)\ner/sie/es ist dafür gewesen (او موافق بوده است)\nwir sind dafür gewesen (ما موافق بوده‌ایم)\nihr seid dafür gewesen (شما موافق بوده‌اید)\nsie/Sie sind dafür gewesen (آن‌ها/شما (محترمانه) موافق بوده‌اند)\n\nحالت منفی (Präsens):\nich bin nicht dafür (من موافق نیستم)\ndu bist nicht dafür (تو موافق نیستی)\ner/sie/es ist nicht dafür (او موافق نیست)\nwir sind nicht dafür (ما موافق نیستیم)\nihr seid nicht dafür (شما موافق نیستید)\nsie/Sie sind nicht dafür (آن‌ها/شما (محترمانه) موافق نیستند)",
+    "type": "عبارت idiomatic"
+},
     {
         "Filename": "67",
         "Sound_de": "dagegen sein - waren dagegen - sind dagegen gewesen",

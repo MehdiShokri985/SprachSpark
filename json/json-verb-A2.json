@@ -652,13 +652,7 @@
     "translate_fa": "خوردن",
     "file": "93_de.mp3"
   },
-  {
-    "Filename": "94",
-    "Sound_de": "abfliegen - flogen ab - sind abgeflogen",
-    "root": "حال (Präsens):\nich fliege ab (من پرواز می‌کنم)\ndu fliegst ab (تو پرواز می‌کنی)\ner/sie/es fliegt ab (او پرواز می‌کند)\nwir fliegen ab (ما پرواز می‌کنیم)\nihr fliegt ab (شما پرواز می‌کنید)\nsie/Sie fliegen ab (آن‌ها/شما (محترمانه) پرواز می‌کنند)\n\nگذشته ساده (Präteritum):\nich flog ab (من پرواز کردم)\ndu flogst ab (تو پرواز کردی)\ner/sie/es flog ab (او پرواز کرد)\nwir flogen ab (ما پرواز کردیم)\nihr flogt ab (شما پرواز کردید)\nsie/Sie flogen ab (آن‌ها/شما (محترمانه) پرواز کردند)\n\nگذشته کامل (Perfekt):\nich bin abgeflogen (من پرواز کرده‌ام)\ndu bist abgeflogen (تو پرواز کرده‌ای)\ner/sie/es ist abgeflogen (او پرواز کرده است)\nwir sind abgeflogen (ما پرواز کرده‌ایم)\nihr seid abgeflogen (شما پرواز کرده‌اید)\nsie/Sie sind abgeflogen (آن‌ها/شما (محترمانه) پرواز کرده‌اند)\n\nحالت منفی (Präsens):\nich fliege nicht ab (من پرواز نمی‌کنم)\ndu fliegst nicht ab (تو پرواز نمی‌کنی)\ner/sie/es fliegt nicht ab (او پرواز نمی‌کند)\nwir fliegen nicht ab (ما پرواز نمی‌کنیم)\nihr fliegt nicht ab (شما پرواز نمی‌کنید)\nsie/Sie fliegen nicht ab (آن‌ها/شما (محترمانه) پرواز نمی‌کنند)",
-    "translate_fa": "پرواز کردن",
-    "file": "94_de.mp3"
-  },
+
   {
     "Filename": "95",
     "Sound_de": "fallen - fielen - sind gefallen",
@@ -749,13 +743,6 @@
     "root": "حال (Präsens):\nich fühle (من احساس می‌کنم)\ndu fühlst (تو احساس می‌کنی)\ner/sie/es fühlt (او احساس می‌کند)\nwir fühlen (ما احساس می‌کنیم)\nihr fühlt (شما احساس می‌کنید)\nsie/Sie fühlen (آن‌ها/شما (محترمانه) احساس می‌کنند)\n\nگذشته ساده (Präteritum):\nich fühlte (من احساس کردم)\ndu fühltest (تو احساس کردی)\ner/sie/es fühlte (او احساس کرد)\nwir fühlten (ما احساس کردیم)\nihr fühltet (شما احساس کردید)\nsie/Sie fühlten (آن‌ها/شما (محترمانه) احساس کردند)\n\nگذشته کامل (Perfekt):\nich habe gefühlt (من احساس کرده‌ام)\ndu hast gefühlt (تو احساس کرده‌ای)\ner/sie/es hat gefühlt (او احساس کرده است)\nwir haben gefühlt (ما احساس کرده‌ایم)\nihr habt gefühlt (شما احساس کرده‌اید)\nsie/Sie haben gefühlt (آن‌ها/شما (محترمانه) احساس کرده‌اند)\n\nحالت منفی (Präsens):\nich fühle nicht (من احساس نمی‌کنم)\ndu fühlst nicht (تو احساس نمی‌کنی)\ner/sie/es fühlt nicht (او احساس نمی‌کند)\nwir fühlen nicht (ما احساس نمی‌کنیم)\nihr fühlt nicht (شما احساس نمی‌کنید)\nsie/Sie fühlen nicht (آن‌ها/شما (محترمانه) احساس نمی‌کنند)",
     "translate_fa": "احساس کردن",
     "file": "107_de.mp3"
-  },
-  {
-    "Filename": "108",
-    "Sound_de": "geben - gaben - haben gegeben",
-    "root": "حال (Präsens):\nich gebe (من می‌دهم)\ndu gibst (تو می‌دهی)\ner/sie/es gibt (او می‌دهد)\nwir geben (ما می‌دهیم)\nihr gebt (شما می‌دهید)\nsie/Sie geben (آن‌ها/شما (محترمانه) می‌دهند)\n\nگذشته ساده (Präteritum):\nich gab (من دادم)\ndu gabst (تو دادی)\ner/sie/es gab (او داد)\nwir gaben (ما دادیم)\nihr gabt (شما دادید)\nsie/Sie gaben (آن‌ها/شما (محترمانه) دادند)\n\nگذشته کامل (Perfekt):\nich habe gegeben (من داده‌ام)\ndu hast gegeben (تو داده‌ای)\ner/sie/es hat gegeben (او داده است)\nwir haben gegeben (ما داده‌ایم)\nihr habt gegeben (شما داده‌اید)\nsie/Sie haben gegeben (آن‌ها/شما (محترمانه) داده‌اند)\n\nحالت منفی (Präsens):\nich gebe nicht (من نمی‌دهم)\ndu gibst nicht (تو نمی‌دهی)\ner/sie/es gibt nicht (او نمی‌دهد)\nwir geben nicht (ما نمی‌دهیم)\nihr gebt nicht (شما نمی‌دهید)\nsie/Sie geben nicht (آن‌ها/شما (محترمانه) نمی‌دهند)",
-    "translate_fa": "دادن",
-    "file": "108_de.mp3"
   },
   {
     "Filename": "109",

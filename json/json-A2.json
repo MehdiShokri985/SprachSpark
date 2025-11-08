@@ -37710,11 +37710,11 @@
     "root": "نوع جمله: این یک جمله مرکب است که از دو جمله خبری مستقل تشکیل شده است.\nZuerst: قید زمان «ابتدا».\nmüsst: فعل مودال «müssen» به معنی «باید» که برای «ihr» صرف شده است.\nihr: ضمیر فاعلی به معنی «شما» (جمع غیرمحترمانه).\ndie: حرف تعریف مشخص برای اسم جمع «Hausaufgaben» است. «Hausaufgaben» مفعول مستقیم (آکوزاتیو) است.\nHausaufgaben: اسم جمع «تکالیف خانه» که در حالت آکوزاتیو به کار رفته است.\nmachen: فعل اصلی «انجام دادن».\ndann: قید زمان به معنی «سپس» یا «بعداً».\nkönnt: فعل مودال «können» به معنی «توانستن» که برای «ihr» صرف شده است.\nihr: ضمیر فاعلی به معنی «شما».\nspielen: فعل اصلی «بازی کردن».",
     "type": "جمله",
     "subject": ["ihr", "ihr"],
-    "verb": ["müsst", "könnt"],
-    "auxiliary_verb": [null, null],
-    "object": ["die Hausaufgaben", "spielen"],
-    "verb_part1": ["machen", null],
-    "verb_part2": ["aus", null]
+    "verb": ["machen", "spielen"],
+    "auxiliary_verb": ["müsst", "könnt"],
+    "object": ["die Hausaufgaben"],
+    "verb_part1": [ null],
+    "verb_part2": [ null]
   },
   {
     "Filename": "3318",

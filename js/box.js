@@ -43,14 +43,14 @@ const levelConfig = {
   },
   "A1 VERBEN": {
     jsonFile: "../json/json-verb-A1.json",
-    jsonParentFile: "../json/json-A1.json",
+    jsonParentFile: "null",
     audioPath: "../audio-A1-Verben",
     headerText: "A1 VERBEN",
     headerClass: "color-a1",
   },
   "A2 VERBEN": {
     jsonFile: "../json/json-verb-A2.json",
-    jsonParentFile: "../json/json-A2.json",
+    jsonParentFile: "null",
     audioPath: "../audio-A2-Verben",
     headerText: "A2 VERBEN",
     headerClass: "color-a2",
@@ -158,25 +158,34 @@ window.addEventListener("load", () => {
       })
       .then((data) => {
         itemsData = data;
-        // console.log(config.jsonParentFile);
-        return fetch(config.jsonParentFile);
+        console.log(config.jsonParentFile);
+        if (config.jsonParentFile != "null") {
+          return fetch(config.jsonParentFile);
+        }
       })
       .then((r) => {
-        if (!r.ok) throw new Error("Failed to load parent JSON file");
-        return r.json();
+        if (config.jsonParentFile != "null") {
+          if (!r.ok) throw new Error("Failed to load parent JSON file");
+          return r.json();
+        }
       })
       .then((pdata) => {
+        // if (config.jsonParentFile != "null") {
         parentData = pdata;
         nodeStates = new Array(itemsData.length).fill("0");
         nodeViewCounts = new Array(itemsData.length).fill(0);
         header.style.display = "block";
         backButton.style.display = "block";
         renderGroups(config.headerClass);
+        // }
       })
       .catch((err) => {
+        // if (config.jsonParentFile != "null") {
+
         container.innerHTML = `<div class="error">خطا در بارگذاری فایل JSON: ${err.message}</div>`;
         header.style.display = "none";
         backButton.style.display = "none";
+        // }
       });
   } else {
     container.innerHTML = `<div class="error">سطح نامعتبر است یا وجود ندارد</div>`;
@@ -354,16 +363,18 @@ function createFlashcard(item, index, audioPath) {
     if (!isNaN(filenameNum)) {
       const sentenceNum = filenameNum + 1;
       const sentenceIndex = sentenceNum - 1;
-      if (sentenceIndex >= 0 && sentenceIndex < parentData.length) {
-        // const potentialSentence = parentData[sentenceIndex];
-        const potentialSentence = parentData.filter(
-          (sentences) => sentences.Filename == sentenceIndex + 1
-        )[0];
-        console.log(potentialSentence);
-        if (potentialSentence) {
-          const soundDe = potentialSentence.Sound_de || "";
-          if (/[.!?,]$/.test(soundDe)) {
-            sentenceItem = potentialSentence;
+      if (parentData) {
+        if (sentenceIndex >= 0 && sentenceIndex < parentData.length) {
+          // const potentialSentence = parentData[sentenceIndex];
+          const potentialSentence = parentData.filter(
+            (sentences) => sentences.Filename == sentenceIndex + 1
+          )[0];
+          console.log(potentialSentence);
+          if (potentialSentence) {
+            const soundDe = potentialSentence.Sound_de || "";
+            if (/[.!?,]$/.test(soundDe)) {
+              sentenceItem = potentialSentence;
+            }
           }
         }
       }

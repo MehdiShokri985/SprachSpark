@@ -206,6 +206,7 @@ h1 {
   border-radius: 10px;
   background-color: #253758;
   width: 91%;
+  direction: rtl;
 }
 
 .item-bottom {

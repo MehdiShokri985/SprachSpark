@@ -93,6 +93,12 @@ const levelConfig = {
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",
   },
+  Flughafen: {
+    jsonFile: "../json/json-Flughafen.json",
+    audioPath: "../Flughafen",
+    headerText: "Am Flughafen",
+    headerClass: "color-a2",
+  },
 };
 
 window.addEventListener("load", () => {

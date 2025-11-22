@@ -94,6 +94,9 @@ const levelConfig = {
   worter_A2: {
     audioPath: "../audio-A2",
   },
+  Flughafen: {
+    audioPath: "../Flughafen",
+  },
 };
 
 function loadPageItems() {

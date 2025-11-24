@@ -1,0 +1,321 @@
+  [{
+    "Sound_de": "das Flugzeug",
+    "root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Zeug (چیز، وسیله)\nمعنی کلی: هواپیما = وسیله‌ای برای پرواز\nمترادف‌ها:\n- das Fluggerät\nمتضادها:\n- der Zug (قطار)\n- das Auto (ماشین)"
+  },
+  {
+    "Sound_de": "der Passagier",
+    "root": "اجزای تشکیل‌دهنده:\nvom französischen 'passager' (مسافر)\nمعنی کلی: مسافر = کسی که در وسیله نقلیه سفر می‌کند\nمترادف‌ها:\n- der Reisende (مسافر)\nمتضادها:\n- der Fahrer / die Fahrerin (راننده)"
+  },
+  {
+    "Sound_de": "der Ausweis",
+    "root": "اجزای تشکیل‌دهنده:\nAus (خارج، بیرون) + Weis (نشانه، مدرک)\nمعنی کلی: کارت شناسایی = مدرکی برای اثبات هویت\nمترادف‌ها:\n- die Identitätskarte (کارت هویت)\nمتضادها:\n- kein Ausweis (بدون مدرک شناسایی)"
+  },
+  {
+    "Sound_de": "der Reisepass",
+    "root": "اجزای تشکیل‌دهنده:\nReise (سفر) + Pass (مدرک، اجازه ورود)\nمعنی کلی: گذرنامه = مدرک شناسایی برای سفر بین‌المللی\nمترادف‌ها:\n- der Pass\nمتضادها:\n- der Personalausweis (کارت شناسایی داخلی)"
+  },
+  {
+    "Sound_de": "das Ticket",
+    "root": "اجزای تشکیل‌دهنده:\nاز انگلیسی 'ticket' (بلیط)\nمعنی کلی: بلیط = مدرک اجازه ورود یا استفاده از وسیله نقلیه\nمترادف‌ها:\n- die Fahrkarte (بلیط)\nمتضادها:\n- kein Ticket (بدون بلیط)"
+  },
+    {
+    "Sound_de": "die Fahrkarte",
+    "root": "اجزای تشکیل‌دهنده:\nFahr (سفر کردن، رانندگی کردن) + Karte (کارت، بلیط)\nمعنی کلی: بلیط سفر\nمترادف‌ها:\n- das Ticket\n- die Eintrittskarte (برای ورود)\nمتضادها:\n- der Fahrscheinverlust (از دست دادن بلیط)"
+  },
+  {
+    "Sound_de": "das Handgepäck",
+    "root": "اجزای تشکیل‌دهنده:\nHand (دست) + Gepäck (چمدان، بار)\nمعنی کلی: چمدان دستی، بار همراه\nمترادف‌ها:\n- das Carry-on (انگلیسی)\nمتضادها:\n- das Aufgabegepäck (بار تحویل داده شده)"
+  },
+  {
+    "Sound_de": "das Gepäck",
+    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار، وسایل سفر) از packen (بسته‌بندی کردن)\nمعنی کلی: وسایل سفر، بار\nمترادف‌ها:\n- die Reisetasche (ساک سفر)\nمتضادها:\n- leichtes Gepäck (بار سبک)"
+  },
+  {
+    "Sound_de": "die Sicherheitskontrolle",
+    "root": "اجزای تشکیل‌دهنده:\nSicherheits (امنیتی) + Kontrolle (کنترل)\nمعنی کلی: کنترل امنیتی\nمترادف‌ها:\n- die Sicherheitsprüfung\nمتضادها:\n- freie Durchgang (عبور آزاد بدون کنترل)"
+  },
+  {
+    "Sound_de": "das Gate",
+    "root": "اجزای تشکیل‌دهنده:\nGate (دروازه، اصطلاح فرودگاهی)\nمعنی کلی: دروازه خروج به پرواز\nمترادف‌ها:\n- der Ausgang\nمتضادها:\n- der Eingang (ورودی)"
+  },
+  {
+    "Sound_de": "der Flugsteig",
+    "root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Steig (سکو، مسیر)\nمعنی کلی: سکو یا راهروی ورود به هواپیما\nمترادف‌ها:\n- die Flugbrücke\n- Gate (دروازه)\nمتضادها:\n- die Ankunftshalle (سالن ورود)"
+  },
+  {
+    "Sound_de": "das Einsteigen",
+    "root": "اجزای تشکیل‌دهنده:\nEin (داخل) + steigen (بالا رفتن، سوار شدن)\nمعنی کلی: سوار شدن به وسیله نقلیه (هواپیما)\nمترادف‌ها:\n- Boarding\nمتضادها:\n- das Aussteigen (پیاده شدن)"
+  },
+  {
+    "Sound_de": "der Abflug",
+    "root": "اجزای تشکیل‌دهنده:\nAb (رو به خارج، ترک) + Flug (پرواز)\nمعنی کلی: پرواز خروجی، زمان ترک فرودگاه\nمترادف‌ها:\n- der Start\nمتضادها:\n- die Landung (فرود)"
+  },
+  {
+"Sound_de": "die Ankunft",
+"root": "اجزای تشکیل‌دهنده:\nAn (به) + Kunft (آمدن، رسیدن)\nمعنی کلی: ورود / رسیدن به مقصد\nمترادف‌ها:\n- die Anreise (رسیدن به مقصد)\nمتضادها:\n- der Abflug (پرواز، حرکت از مبدأ)"
+},
+{
+"Sound_de": "der Flugbegleiter / die Flugbegleiterin",
+"root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Begleiter (همراه)\nمعنی کلی: مهماندار هواپیما\nمترادف‌ها:\n- der Steward / die Stewardess (خدمه پرواز)\nمتضادها:\n- der Passagier (مسافر)"
+},
+{
+"Sound_de": "der Sitzplatz",
+"root": "اجزای تشکیل‌دهنده:\nSitz (صندلی) + Platz (جا، مکان)\nمعنی کلی: جای نشستن / صندلی\nمترادف‌ها:\n- der Platz (مکان)\nمتضادها:\n- der Stehplatz (جای ایستادن)"
+},
+{
+"Sound_de": "das Visum",
+"root": "اجزای تشکیل‌دهنده:\nVisum (از لاتین، علامت اجازه ورود)\nمعنی کلی: ویزا / اجازه ورود به کشور\nمترادف‌ها:\n- die Einreisegenehmigung (مجوز ورود)\nمتضادها:\n- das Einreiseverbot (ممنوعیت ورود)"
+},
+{
+"Sound_de": "die Verspätung",
+"root": "اجزای تشکیل‌دهنده:\nVer- (نشانه تغییر) + spät (دیر) + -ung (ساخت اسم)\nمعنی کلی: تأخیر\nمترادف‌ها:\n- die Verzögerung (تأخیر)\nمتضادها:\n- die Pünktlichkeit (سر وقت بودن)"
+},
+ {
+    "Sound_de": "die Gepäckaufgabe",
+    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار، چمدان) + Aufgabe (واگذاری، تحویل)\nمعنی کلی: تحویل بار (چمدان) در فرودگاه برای حمل\nمترادف‌ها:\n- Gepäckabgabe (تحویل بار) – abgegebenes Gepäck\n- Check‑in des Gepäcks (چک‌آی‌پی بار)\nمتضادها:\n- Gepäckausgabe (تحویل بار پس از پرواز) – بار برگشتی\n- Gepäckabholung (برداشت بار) – برداشتن چمدان پس از رسیدن"
+  },
+  {
+    "Sound_de": "die Gepäckausgabe",
+    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار) + Ausgabe (توزیع، تحویل)\nمعنی کلی: محلی که پس از پرواز بار به مسافران تحویل داده می‌شود (بگِیج ریکلیم)\nمترادف‌ها:\n- Gepäckabholung (برداشت چمدان)\n- Gepäckrückgabe (بازگرداندن بار)\nمتضادها:\n- Gepäckaufgabe (تحویل بار پیش از پرواز)\n- Gepäckeincheckung (ثبت بار پیش از پرواز)"
+  },
+  {
+    "Sound_de": "das Übergepäck",
+    "root": "اجزای تشکیل‌دهنده:\nüber (بیش از، اضافه) + Gepäck (بار)\nمعنی کلی: باری که بیش از سقف مجاز وزن یا تعداد چمدان است\nمترادف‌ها:\n- Überladungsgepäck (بار اضافه)\n- Extra-Gepäck (چمدان اضافی)\nمتضادها:\n- Freigepäck (بار مجاز رایگان)\n- Handgepäck (بار دستی کوچکتر، داخل کابین)"
+  },
+  {
+    "Sound_de": "das Gepäckband",
+    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار) + Band (نوار، تسمه)\nمعنی کلی: نوار چرخشی در فرودگاه که چمدان‌ها پس از پرواز روی آن می‌آیند\nمترادف‌ها:\n- Gepäckförderband (نوار حمل بار)\n- Karussell (چرخ‌ونوار بار)\nمتضادها:\n- Gepäckschalter (پیشخوان بار)\n- Gepäckaufgabe-Ort (محل تحویل بار)"
+  },
+  {
+    "Sound_de": "der Gepäckwagen",
+    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار) + Wagen (چرخ‌دستگاه، ترالی)\nمعنی کلی: ترالی یا چرخ‌بری برای حمل چمدان‌ها در فرودگاه\nمترادف‌ها:\n- Kofferkarren (چرخ‌دستگاه چمدان)\n- Gepäcktrolley (ترولی بار)\nمتضادها:\n- Handgepäck (بار دستی، قابل حمل با دست)\n- Gepäckträger (کسی که بار را حمل می‌کند، باربر انسانی)"
+  },
+  {
+    "Sound_de": "die Passkontrolle",
+    "root": "اجزای تشکیل‌دهنده:\nPass (گذرنامه) + Kontrolle (کنترل، بازرسی)\nمعنی کلی: بازرسی گذرنامه مسافران در فرودگاه یا مرز\nمترادف‌ها:\n- Grenzkontrolle (کنترل مرزی)\n- Einreisekontrolle (کنترل ورود)\nمتضادها:\n- Passausgabe (صدور گذرنامه)\n- Passannahme (تحویل گذرنامه)"
+  },
+  {
+    "Sound_de": "die Zollkontrolle",
+    "root": "اجزای تشکیل‌دهنده:\nZoll (گمرک) + Kontrolle (بازرسی)\nمعنی کلی: بازبینی گمرکی مسافران یا بار در مرز یا فرودگاه\nمترادف‌ها:\n- Grenzkontrolle (کنترل مرزی)\n- Einfuhrkontrolle (کنترل واردات)\nمتضادها:\n- Zollfreigrenze (مرز معاف از گمرک)\n- Steuerfreie Zone (منطقه معاف از مالیات)"
+  },
+  {
+    "Sound_de": "der Zollbeamte",
+    "root": "اجزای تشکیل‌دهنده:\nZoll (گمرک) + Beamte (کارمند، مامور)\nمعنی کلی: مأمور گمرک که کنترل گمرکی انجام می‌دهد\nمترادف‌ها:\n- Zollinspektor (بازرس گمرک)\n- Zollagent (نماینده گمرک)\nمتضادها:\n- Reisender (مسافر)\n- Fluggast (مسافر هواپیما)"
+  },
+  {
+    "Sound_de": "die Zollerklärung",
+    "root": "اجزای تشکیل‌دهنده:\nZoll (گمرک) + Erklärung (اظهارنامه)\nمعنی کلی: سند یا فرم اظهار گمرکی بار یا کالا به گمرک\nمترادف‌ها:\n- Einfuhrerklärung (اظهارنامه ورود)\n- Deklaration (اظهار)\nمتضادها:\n- Schweigepflicht (رازداری، امتناع از اظهار)\n- Nichtdeklaration (عدم اظهار)"
+  },
+  {
+    "Sound_de": "die Abflugzeit",
+    "root": "اجزای تشکیل‌دهنده:\nAbflug (بلند شدن پرواز) + Zeit (زمان)\nمعنی کلی: زمان حرکت (پرواز) هواپیما از فرودگاه مبدا\nمترادف‌ها:\n- Startzeit (زمان آغاز)\n- Abflugtermin (وقت پرواز)\nمتضادها:\n- Ankunftszeit (زمان رسیدن)\n- Landungszeit (زمان فرود)"
+  },
+  {
+    "Sound_de": "die Ankunftszeit",
+    "root": "اجزای تشکیل‌دهنده:\nAnkunft (رسیدن) + Zeit (زمان)\nمعنی کلی: زمان رسیدن هواپیما به مقصد\nمترادف‌ها:\n- Landungszeit (زمان فرود)\n- Ankunftsdatum (تاریخ رسیدن)\nمتضادها:\n- Abflugzeit (زمان پرواز)\n- Abreisezeit (زمان عزیمت)"
+  },
+  {
+    "Sound_de": "die Flugnummer",
+    "root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Nummer (شماره)\nمعنی کلی: شماره‌ی اختصاص داده‌شده به یک پرواز خاص\nمترادف‌ها:\n- Flugcode (کد پرواز)\n- Flugkennzeichen (شناسه پرواز)\nمتضادها:\n- Buchungsnummer (شماره رزرو) — شماره‌ای متفاوت برای رزرو\n- Passagiernummer (شماره مسافر) — شماره‌ی فردی"
+  },
+  {
+    "Sound_de": "die Durchsage",
+    "root": "اجزای تشکیل‌دهنده:\nDurch (از طریق) + Sage (گفتن، خبر) — در این ترکیب به معنای «اعلان»\nمعنی کلی: اعلان عمومی از طریق بلندگو در فرودگاه یا هواپیما\nمترادف‌ها:\n- Ansage (اعلان)\n- Lautsprecherdurchsage (اعلان از بلندگو)\nمتضادها:\n- Stille (سکوت)\n- Geheimhaltung (محرمانگی، عدم اعلان)"
+  },
+  {
+    "Sound_de": "deklarieren",
+    "root": "اجزای تشکیل‌دهنده:\nLat. declarare → «اظهار کردن» + پسوند فارسی/آلمانی\nمعنی کلی: اظهار گمرکی، اعلام ارزش یا محتوای بار\nمترادف‌ها:\n- deklarativ machen (اظهار کردن)\n- anmelden (ثبت کردن، اظهار کردن)\nمتضادها:\n- verschweigen (پنهان کردن)\n- verheimlichen (مخفی کردن)"
+  },
+  {
+    "Sound_de": "steuerfrei",
+    "root": "اجزای تشکیل‌دهنده:\nSteuer (مالیات) + frei (آزاد، معاف)\nمعنی کلی: معاف از مالیات، بدون پرداخت مالیات\nمترادف‌ها:\n- zollfrei (معاف از گمرک)\n- taxfrei (بدون مالیات)\nمتضادها:\n- steuerpflichtig (مشمول مالیات)\n- besteuert (مالیات داده‌شده)"
+  },
+  {
+    "Sound_de": "die Einfuhr",
+    "root": "اجزای تشکیل‌دهنده:\nEin (ورود) + Fuhr (از führen → حمل، آوردن) — Einfuhr به معنای واردات است\nمعنی کلی: واردات کالا به یک کشور\nمترادف‌ها:\n- Import (واردات)\n- Einbringen (وارد کردن)\nمتضادها:\n- Ausfuhr (صادرات)\n- Ausfuhrung (خروج کالا)"
+  },
+  {
+    "Sound_de": "verboten",
+    "root": "اجزای تشکیل‌دهنده:\nVer- (پیشوند منفی) + boten (از bieten → پیشنهاد داد) — در معنی «ممنوع»\nمعنی کلی: ممنوع، غیرمجاز\nمترادف‌ها:\n- untersagt (ممنوع)\n- nicht erlaubt (اجازه داده نشده)\nمتضادها:\n- erlaubt (مجاز)\n- gestattet (مجاز)"
+  },
+  {
+    "Sound_de": "die Menge",
+    "root": "اجزای تشکیل‌دهنده:\nMenge (واحد پایه) — به معنای مقدار یا تعداد\nمعنی کلی: مقدار، تعداد، حجم یک چیز\nمترادف‌ها:\n- die Anzahl (تعداد)\n- das Volumen (حجم)\nمتضادها:\n- die Leere (خلا، تهی بودن)\n- das Minimum (حداقل)"
+  },
+  {
+    "Sound_de": "der Inhalt",
+    "root": "اجزای تشکیل‌دهنده:\nIn (در) + Halt (نگه‌داشتن، حاوی بودن) — به معنای محتوای چیزی\nمعنی کلی: محتوا، آنچه داخل چیزی وجود دارد\nمترادف‌ها:\n- der Gehalt (محتوا)\n- die Substanz (ماده، محتوا)\nمتضادها:\n- die Hülle (پوسته، جلد خالی)\n- die Außenfläche (سطح بیرونی)"
+  },
+  {
+    "Sound_de": "die Kleidung",
+    "root": "اجزای تشکیل‌دهنده:\nKleiden (پوشیدن) + -ung (پسوند اسم‌ساز) → آنچه پوشیده می‌شود = لباس\nمعنی کلی: لباس، پوشاک\nمترادف‌ها:\n- die Bekleidung (پوشاک)\n- das Gewand (لباس)\nمتضادها:\n- die Nacktheit (بی‌پوشش بودن)\n- die Uniformität (یک‌نواختی پوشش، در برخی زمینه‌ها)"
+  },
+  {
+    "Sound_de": "die Kosmetik",
+    "root": "اجزای تشکیل‌دهنده:\nKosmetik (از یونانی kosmos → آرایش) — اشاره به محصولات آرایشی دارد\nمعنی کلی: لوازم آرایش و بهداشتی\nمترادف‌ها:\n- die Schminke (آرایش)\n- Schönheitspflege (مراقبت زیبایی)\nمتضادها:\n- das Pflegeprodukt ohne Farbe (محصول مراقبتی بدون رنگ)\n- die Funktionale Körperpflege (مراقبت بدنی صرفاً بهداشت)"
+  },
+  {
+    "Sound_de": "die elektronischen Geräte",
+    "root": "اجزای تشکیل‌دهنده:\nelektronisch (الکترونیکی) + Geräte (دستگاه‌ها)\nمعنی کلی: وسایل الکترونیکی مثل موبایل، لپ‌تاپ، تبلت\nمترادف‌ها:\n- die Elektrogeräte (تجهیزات الکتریکی)\n- die Digitalgeräte (دستگاه‌های دیجیتال)\nمتضادها:\n- mechanische Geräte (دستگاه‌های مکانیکی)\n- manuelle Werkzeuge (ابزار دستی)"
+  },
+  {
+    "Sound_de": "die Lebensmittel",
+    "root": "اجزای تشکیل‌دهنده:\nLeben (زندگی) + Mittel (وسایل، مواد) → آنچه برای زندگی لازم است = غذا\nمعنی کلی: مواد غذایی، خوراکی‌ها\nمترادف‌ها:\n- die Nahrungsmittel (غذایی)\n- die Nahrung (غذا)\nمتضادها:\n- Abfall (ضایعات)\n- ungenießbare Substanz (ماده غیرقابل خوردن)"
+  },
+  {
+    "Sound_de": "die Unterlagen",
+    "root": "اجزای تشکیل‌دهنده:\nunter (زیر) + Lage (موقعیت، جای) → چیزهایی که زیر دست هستند = اسناد، مدرک\nمعنی کلی: اسناد و مدارک، برگه‌های مهم سفر\nمترادف‌ها:\n- die Dokumente (اسناد)\n- die Papiere (پاسپورت، برگه‌ها)\nمتضادها:\n- die Kopie (نسخه کپی) — در برخی معناها متضاد نیست ولی متفاوت است\n- das Fehlen von Dokumenten (نداشتن مدارک)"
+  },
+  {
+    "Sound_de": "der Versicherungsnachweis",
+    "root": "اجزای تشکیل‌دهنده:\nVersicherung (بیمه) + Nachweis (سند، اثبات)\nمعنی کلی: مدرک بیمه (اثبات داشتن بیمه)\nمترادف‌ها:\n- die Versicherungsbestätigung (تأییدیه بیمه)\n- das Versicherungsschreiben (نامه بیمه)\nمتضادها:\n- der Nichtnachweis (نبود مدرک)\n- der Versicherungsrückzug (لغو بیمه) — در معنای مفهومی"
+  },
+  {
+    "Sound_de": "die Auslandskrankenversicherung",
+    "root": "اجزای تشکیل‌دهنده:\nAusland (خارج) + Krankenversicherung (بیمه سلامتی)\nمعنی کلی: بیمه درمانی در خارج از کشور\nمترادف‌ها:\n- die Reise-Krankenversicherung (بیمه درمانی سفر)\n- die International Health Insurance (بیمه سلامت بین‌المللی)\nمتضادها:\n- die Inlands-Krankenversicherung (بیمه درمانی داخل کشور)\n- der Versicherungsschutz fehlt (نبود پوشش بیمه‌ای)"
+  },
+  {
+    "Sound_de": "der Finanzierungsnachweis",
+    "root": "اجزای تشکیل‌دهنده:\nFinanzierung (تأمین مالی) + Nachweis (سند اثبات)\nمعنی کلی: مدرک اثبات تأمین مالی (مثلاً پول کافی برای سفر)\nمترادف‌ها:\n- der Geldnachweis (اثبات پول)\n- die Finanzbestätigung (تأییدیه مالی)\nمتضادها:\n- der Finanzierungsrückzug (پس گرفتن تامین مالی)\n- das Fehlen von Mitteln (نبود پول کافی)"
+  },
+  {
+    "Sound_de": "genug Geld",
+    "root": "اجزای تشکیل‌دهنده:\ngenug (کافی) + Geld (پول)\nمعنی کلی: داشتن پول کافی\nمترادف‌ها:\n- ausreichendes Geld (پول کافی)\n- genügend Mittel (منابع کافی)\nمتضادها:\n- zu wenig Geld (پول خیلی کم)\n- finanzielle Knappheit (فقر مالی)"
+  },
+  {
+    "Sound_de": "der Kontoauszug",
+    "root": "اجزای تشکیل‌دهنده:\nKonto (حساب بانکی) + Auszug (صورت‌حساب، خروجی)\nمعنی کلی: صورت‌حساب بانکی، گردش حساب\nمترادف‌ها:\n- Bankauszug (صورت‌حساب بانکی)\n- Kontoübersicht (نمایش حساب)\nمتضادها:\n- das leere Konto (حساب خالی)\n- die Kontoanmeldung (افتتاح حساب بدون تراکنش)"
+  },
+  {
+    "Sound_de": "der Wegweiser",
+    "root": "اجزای تشکیل‌دهنده:\nWeg (راه) + Weiser (راهنما) → نشانگر مسیر\nمعنی کلی: تابلو راهنمای مسیر در فرودگاه یا ایستگاه\nمترادف‌ها:\n- das Schild (تابلو)\n- Wegmarkierung (نشانه مسیر)\nمتضادها:\n- die Sackgasse (کوی بن‌بست)\n- die Fehlbeschilderung (بدراهنما بودن)"
+  },
+  {
+    "Sound_de": "die Information",
+    "root": "اجزای تشکیل‌دهنده:\nInformieren (اطلاع دادن) + -ation (اسم‌سازی) → اطلاعات\nمعنی کلی: بخش اطلاعات (چیزهایی که مسافر می‌خواهد بداند)\nمترادف‌ها:\n- Auskunft (اطلاع‌رسانی)\n- Service-Schalter (پیشخوان سرویس)\nمتضادها:\n- Desinformation (اطلاع غلط)\n- Geheimhaltung (محرمانگی)"
+  },
+  {
+    "Sound_de": "die Toilette",
+    "root": "اجزای تشکیل‌دهنده:\nToilette (واژه قرضی از فرانسوی) — محلی برای رفاه و سرویس بهداشتی\nمعنی کلی: دستشویی، سرویس بهداشتی\nمترادف‌ها:\n- das WC (ابجدی کوتاه‌شده for water closet)\n- das Badezimmer (حمام، اگر شامل توالت باشد)\nمتضادها:\n- die Außentoilette (دستشویی بیرونی، در بعضی فرودگاه‌ها)\n- das Fehlen einer Toilette (نبود سرویس بهداشتی)"
+  },
+  {
+    "Sound_de": "die Behindertentoilette",
+    "root": "اجزای تشکیل‌دهنده:\nBehinderten (معلولان) + Toilette (توالت)\nمعنی کلی: سرویس بهداشتی مخصوص افراد معلول\nمترادف‌ها:\n- barrierefreie Toilette (دستشویی بدون مانع)\n- Rollstuhl‑WC (دستشویی ویلچری)\nمتضادها:\n- herkömmliche Toilette (توالت معمولی)\n- nicht barrierefreie Einrichtung (سرویس‌سهولت غیر قابل دسترسی)"
+  },
+  {
+    "Sound_de": "die Wickelstation",
+    "root": "اجزای تشکیل‌دهنده:\nWickeln (پوشک بستن) + Station (ایستگاه)\nمعنی کلی: محل تعویض پوشک نوزاد در فرودگاه یا ترمینال\nمترادف‌ها:\n- Baby‑Wickeltisch (میز پوشک) \n- Kindersanitärbereich (منطقه سرویس کودک)\nمتضادها:\n- kein Wickelplatz (نبود محل تعویض پوشک)\n- Erwachsenenbereich (منطقه بزرگسالان بدون امکانات کودک)"
+  },
+  {
+    "Sound_de": "der Sicherheitsgurt",
+    "root": "اجزای تشکیل‌دهنده:\nSicherheit (امنیت) + Gurt (کمربند)\nمعنی کلی: کمربند ایمنی در هواپیما\nمترادف‌ها:\n- Anschnallgurt (کمربند بسته شدن)\n- Gurtsystem (سیستم کمربند)\nمتضادها:\n- Freiflug (پرواز بدون گُرت) → غیررسمی\n- kein Gurt (نبود کمربند)"
+  },
+  {
+    "Sound_de": "anschnallen / bitte anschnallen",
+    "root": "اجزای تشکیل‌دهنده:\nan (پیشوند) + schnallen (بستن) → بستن کمربند ایمنی\nمعنی کلی: لطفا کمربند ایمنی‌تان را ببندید\nمترادف‌ها:\n- Gurt anlegen (کمربند ببندید)\n- sich anschnallen (بستن کمربند)\nمتضادها:\n- abschnallen (باز کردن کمربند)\n- Gurt lösen (رها کردن کمربند)"
+  },
+  {
+    "Sound_de": "die aufrechte Sitzposition",
+    "root": "اجزای تشکیل‌دهنده:\naufrecht (صاف، قائم) + Sitz (نشستن) + Position (موقعیت)\nمعنی کلی: وضعیت نشستن صاف و عمودی (در هواپیما)\nمترادف‌ها:\n- gerade Sitzhaltung (حالت نشستن راست)\n- aufrechter Sitz (نشستن مستقیم)\nمتضادها:\n- geneigte Sitzposition (حالت نشستن مایل)\n- halb liegend (نیمه خوابیده)"
+  },
+  {
+    "Sound_de": "das Tischchen / der Tisch",
+    "root": "اجزای تشکیل‌دهنده:\nTisch (میز) + -chen (پسوند کوچک‌کننده) → میز کوچک\nمعنی کلی: میز کوچک در هواپیما (روی صندلی، میز غذا)\nمترادف‌ها:\n- Klapptisch (میز تاشو)\n- Tray‑Table (میز سینی هواپیما)\nمتضادها:\n- kein Tisch (نبود میز)\n- Armlehne (پایه بازو صندلی، به جای میز)"
+  },
+  {
+    "Sound_de": "das Gepäckfach / das Overhead Bin",
+    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار) + Fach (محفظه) → محفظه بار بالای سر در هواپیما\nمعنی کلی: محفظه بالای سر برای قرار دادن چمدان دستی در هواپیما\nمترادف‌ها:\n- Overhead Bin (اصطلاح انگلیسی)\n- Oberkopf-Fach (محفظه بالای سر)\nمتضادها:\n- Gepäckschrank (کمد بار) — کمتر رایج در هواپیما\n- Fußraum (فضای زیر صندلی) — جای دیگر برای بار دستی کوچک"
+  },
+  {
+    "Sound_de": "das Anschnallzeichen",
+    "root": "اجزای تشکیل‌دهنده:\nanschnallen (بستن کمربند) + Zeichen (علامت)\nمعنی کلی: علامت نشان‌دهنده بستن کمربند ایمنی در هواپیما\nمترادف‌ها:\n- Gurtanzeige (نمایشگر کمربند)\n- Sicherheitszeichen (علامت ایمنی)\nمتضادها:\n- Anschnallverbot (ممنوعیت بستن کمربند) — غیرعادی\n- Zeichen zum Gurtablassen (علامت آزاد کردن کمربند)"
+  },
+  {
+    "Sound_de": "die Turbulenzen",
+    "root": "اجزای تشکیل‌دهنده:\nTurbulenz (از لاتین turba → آشفتگی) → آشفتگی جریان هوا\nمعنی کلی: نوسان‌های هوایی (تکان‌های هواپیما)\nمترادف‌ها:\n- Luftturbulenzen (نوسان هوایی)\n- Flatterbewegung (حرکت لرزشی)\nمتضادها:\n- ruhiger Flug (پرواز آرام)\n- stabile Luftströmung (جریان هوایی پایدار)"
+  },
+  {
+    "Sound_de": "etwas zu trinken",
+    "root": "اجزای تشکیل‌دهنده:\netwas (چیزی) + zu trinken (برای نوشیدن)\nمعنی کلی: چیزی برای نوشیدن (آب، نوشیدنی)\nمترادف‌ها:\n- ein Getränk (یک نوشیدنی)\n- Flüssigkeit (مایع)\nمتضادها:\n- nichts zu trinken (هیچ چیزی برای نوشیدن)\n- trockene Speise (غذای خشک بدون نوشیدنی)"
+  },
+  {
+    "Sound_de": "das Essen / das Menü",
+    "root": "اجزای تشکیل‌دهنده:\nEssen (غذا) و Menü (لیست غذا)\nمعنی کلی: غذای سرو شده در هواپیما و/یا فهرست غذاها\nمترادف‌ها:\n- Mahlzeit (وعده غذایی)\n- Speisen (خوراک)\nمتضادها:\n- Fasten (روزه، نخوردن غذا)\n- kein Essen (نبود غذا)"
+  },
+  {
+    "Sound_de": "die Decke",
+    "root": "اجزای تشکیل‌دهنده:\nDecke (پتو، پوشش) → پتو یا پوشش برای گرم شدن\nمعنی کلی: پتو برای استفاده در هواپیما\nمترادف‌ها:\n- Wolldecke (پتو پشمی)\n- Flugdecke (پتو مخصوص پرواز)\nمتضادها:\n- Kissen (بالش) — بیشتر برای سر\n- keine Decke (نبود پتو)"
+  },
+  {
+    "Sound_de": "das Kissen",
+    "root": "اجزای تشکیل‌دهنده:\nKissen (بالش) — تکیه‌گاه نرم برای سر\nمعنی کلی: بالش برای استفاده در هواپیما\nمترادف‌ها:\n- Nackenkissen (بالش گردنی)\n- Kopfkissen (بالش سر)\nمتضادها:\n- Matte (زیرانداز نازک)\n- keine Stütze (نبود تکیه‌گاه)"
+  },
+  {
+    "Sound_de": "mir ist kalt",
+    "root": "اجزای تشکیل‌دهنده:\nmir (برای من) + ist (است) + kalt (سرد)\nمعنی کلی: بیان اینکه من سردم است\nمترادف‌ها:\n- ich friere (من یخ زده‌ام)\n- mir ist kühl (به من خنک است)\nمتضادها:\n- mir ist warm (به من گرم است)\n- mir ist heiß (خیلی گرمم)"
+  },
+  {
+    "Sound_de": "die Klimaanlage / der Luftzug",
+    "root": "اجزای تشکیل‌دهنده:\nKlimaanlage (تجهیز سیستم تهویه) + Luftzug (جریان هوا)\nمعنی کلی: سیستم تهویه یا جریان هوای داخل کابین هواپیما\nمترادف‌ها:\n- Belüftungssystem (سیستم تهویه)\n- Luftzirkulation (گردش هوا)\nمتضادها:\n- geschlossene Kabine (کابین بسته بدون جریان هوا)\n- Hitze (گرمای شدید)"
+  },
+  {
+    "Sound_de": "das Entertainment / das Bordunterhaltungssystem",
+    "root": "اجزای تشکیل‌دهنده:\nEntertainment (سرگرمی) + Bord (ناو، در اینجا هواپیما) + Unterhaltungssystem (سیستم سرگرمی)\nمعنی کلی: سیستم سرگرمی در هواپیما (فیلم، موسیقی، بازی)\nمترادف‌ها:\n- Bord-Entertainment (سرگرمی هواپیما)\n- Inflight-Entertainment (سرگرمی پروازی)\nمتضادها:\n- Langeweile (کسالت)\n- kein Unterhaltungsprogramm (نبود برنامه سرگرمی)"
+  },
+  {
+    "Sound_de": "die Kopfhörer",
+    "root": "اجزای تشکیل‌دهنده:\nKopf (سر) + Hörer (گوش‌دهنده) → هدفون\nمعنی کلی: هدفون برای گوش دادن به سیستم سرگرمی هواپیما\nمترادف‌ها:\n- Headset (هدست)\n- Ohrhörer (ایرپاد، هدفون داخل گوش)\nمتضادها:\n- keine Kopfhörer (نبود هدفون)\n- Lautsprecher (بلندگوی عمومی)"
+  },
+  {
+    "Sound_de": "mir ist übel",
+    "root": "اجزای تشکیل‌دهنده:\nmir (برای من) + ist (است) + übel (بد، ناخوش)\nمعنی کلی: من احساس تهوع می‌کنم\nمترادف‌ها:\n- ich bin seekrank (من بیماری دریایی دارم)\n- mir ist schlecht (به من بد است)\nمتضادها:\n- mir ist gut (حالم خوب است)\n- ich fühle mich wohl (خودم را خوب احساس می‌کنم)"
+  },
+  {
+    "Sound_de": "die Spucktüte",
+    "root": "اجزای تشکیل‌دهنده:\nspucken (تف کردن، استفراغ) + Tüte (کیسه) → کیسه استفراغ\nمعنی کلی: کیسه استفراغ که در هواپیما برای مسافران بیمار داده می‌شود\nمترادف‌ها:\n- Übeltütе (کیسه بیماری)\n- Brechbeutel (کیسه بالا آوردن)\nمتضادها:\n- kein Beutel (نبود کیسه)\n- Müllbeutel (کیسه زباله، اما استفاده متفاوت)"
+  },
+  {
+    "Sound_de": "die Toilette / das WC",
+    "root": "اجزای تشکیل‌دهنده:\nToilette (توالت) و WC (کوتاه‌شده برای water closet)\nمعنی کلی: سرویس بهداشتی در هواپیما\nمترادف‌ها:\n- Waschraum (اتاق شست‌وشو)\n- Sanitäreinrichtung (تجهیزات بهداشتی)\nمتضادها:\n- kein WC (نبود دستشویی)\n- Notfalltoilette (توالت اضطراری، کم رایج)"
+  },
+  {
+    "Sound_de": "der Platz tauschen",
+    "root": "اجزای تشکیل‌دهنده:\nPlatz (صندلی، جای) + tauschen (تعویض کردن)\nمعنی کلی: تعویض صندلی با کسی دیگر در هواپیما\nمترادف‌ها:\n- Sitz tauschen (مبادله صندلی)\n- Sitzplatz wechseln (تغییر جای نشستن)\nمتضادها:\n- beim Platz bleiben (در همان جای خود ماندن)\n- nicht tauschen (مبادله نکردن)"
+  },
+  {
+    "Sound_de": "das Fenster / der Fensterplatz",
+    "root": "اجزای تشکیل‌دهنده:\nFenster (پنجره) + Platz (جای) → جای کنار پنجره\nمعنی کلی: صندلی کنار پنجره در هواپیما\nمترادف‌ها:\n- Window Seat (اصطلاح انگلیسی)\n- Sitz am Fenster (صندلی کنار پنجره)\nمتضادها:\n- Gangplatz (صندلی راهرو)\n- Mittelsitz (صندلی وسط)"
+  },
+  {
+    "Sound_de": "die Leselampe",
+    "root": "اجزای تشکیل‌دهنده:\nLesen (خواندن) + Lampe (لامپ) → چراغ مطالعه\nمعنی کلی: چراغ کوچک بالای صندلی برای خواندن در هواپیما\nمترادف‌ها:\n- Leseleuchte (چراغ مطالعه)\n- Bordleselampe (لامپ مطالعه داخل هواپیما)\nمتضادها:\n- keine Lampe (نبود چراغ)\n- Deckenbeleuchtung (نور سقفی، عمومی)"
+  },
+  {
+    "Sound_de": "das Baby weint",
+    "root": "اجزای تشکیل‌دهنده:\nBaby (نوزاد) + weint (گریه می‌کند)\nمعنی کلی: نوزاد گریه می‌کند (به عنوان وضعیت در پرواز)\nمترادف‌ها:\n- das Kind weint (بچه گریه می‌کند)\n- das Säugling schlägt Alarm (نوزاد سر و صدا می‌کند)\nمتضادها:\n- das Baby schläft (نوزاد خواب است)\n- das Baby ist ruhig (نوزاد آرام است)"
+  },
+  {
+    "Sound_de": "die Landung",
+    "root": "اجزای تشکیل‌دهنده:\nLand (زمین) + ung (اسم‌سازی) → فرود آمدن بر زمین\nمعنی کلی: فرود هواپیما روی زمین\nمترادف‌ها:\n- das Aufsetzen (نشست)\n- das Absetzen (نشاندن هواپیما)\nمتضادها:\n- der Start (بلند شدن)\n- der Abflug (حرکت از زمین)"
+  },
+  {
+    "Sound_de": "die Crew / die Flugbegleiter",
+    "root": "اجزای تشکیل‌دهنده:\nCrew (خدمه) / Flug (پرواز) + Begleiter (همراه – کسانی که پرواز را همراهی می‌کنند)\nمعنی کلی: خدمه‌ی پرواز، مهمانداران هواپیما\nمترادف‌ها:\n- das Kabinenpersonal (پرسنل کابین)\n- Flugpersonal (پرسنل پرواز)\nمتضادها:\n- die Passagiere (مسافران)\n- Bodenpersonal (پرسنل زمینی، کارکنان فرودگاه)"
+  },
+  {
+    "Sound_de": "der Rufknopf",
+    "root": "اجزای تشکیل‌دهنده:\nRuf (فراخوان) + Knopf (دکمه) → دکمه فراخوان خدمه\nمعنی کلی: دکمه‌ای که مسافر آن را فشار می‌دهد تا توجه مهماندار جلب شود\nمترادف‌ها:\n- Serviceknopf (دکمه سرویس)\n- Hilfe-Knopf (دکمه کمک)\nمتضادها:\n- kein Knopf (نبود دکمه)\n- Abschaltknopf (دکمه خاموش کردن، در برخی سیستم‌ها)"
+  },
+  {
+    "Sound_de": "der Duty-free-Verkauf",
+    "root": "اجزای تشکیل‌دهنده:\nDuty-free (معاف از مالیات) + Verkauf (فروش)\nمعنی کلی: فروشگاه یا فروش کالا در هواپیما یا فرودگاه بدون مالیات گمرکی\nمترادف‌ها:\n- Duty‑free-Shop (فروشگاه بدون مالیات)\n- steuerfreier Handel (تجارت معاف از مالیات)\nمتضادها:\n- regulärer Verkauf (فروش عادی با مالیات)\n- Zollpflichtiger Verkauf (فروش مشمول گمرک)"
+  },
+  {
+    "Sound_de": "die Einreisekarte / das Zollformular",
+    "root": "اجزای تشکیل‌دهنده:\nEinreise (ورود) + Karte (کارت) / Zoll (گمرک) + Formular (فرم)\nمعنی کلی: کارت ورود به کشور / فرم گمرکی که مسافران باید پر کنند\nمترادف‌ها:\n- Einreiseformular (فرم ورود)\n- Zollerklärung (اظهارنامه گمرکی)\nمتضادها:\n- Abreisekarte (کارت خروج)\n- Ausfuhrformular (فرم صادرات)"
+  },
+  {
+    "Sound_de": "wir landen gleich",
+    "root": "اجزای تشکیل‌دهنده:\nwir (ما) + landen (فرود آمدن) + gleich (به زودی)\nمعنی کلی: به زودی فرود می‌آییم — اعلام خدمه وقت نزدیک شدن به مقصد\nمترادف‌ها:\n- wir stehen kurz vor der Landung (ما تقریباً در حال فرود هستیم)\n- wir setzen bald auf (ما به زودی می‌نشینیم)\nمتضادها:\n- wir starten gleich (ما به زودی پرواز می‌کنیم)\n- wir fliegen weiter (ما به پرواز ادامه می‌دهیم)"
+  }
+]

@@ -1,81 +1,1164 @@
+der Antwortbogen - die Antwortbogen
+die Aufgabe - die Aufgaben
+das Beispiel - die Beispiele
+die Durchsage - die Durchsagen
+die Lösung - die Lösungen
+der Prüfer - die Prüfer
+die Prüferin - die Prüferinnen
+die Prüfung - die Prüfungen
+der Punkt - die Punkte
+der Teil - die Teile
+der Test - die Tests
+der Text - die Texte
+das Wörterbuch - die Wörterbücher
+die Familienmitglieder
+der Bruder - die Brüder
+der Cousin - die Cousins
+die Cousine - die Cousinen
+die Eltern
+der Enkel - die Enkel
+die Enkelin - die Enkelinnen
+die Geschwister
+die Großeltern
+die Großmutter - die Großmütter
+der Großvater - die Großväter
+das Kind - die Kinder
+die Mutter - die Mütter
+der Onkel - die Onkel
+die Schwester - die Schwestern
+der Sohn - die Söhne
+die Tante - die Tanten
+die Tochter - die Töchter
+der Vater - die Väter
+die Verwandten
+der Familienstand - die Familienstände
+ledig
+verheiratet
+getrennt
+geschieden
+die Farben
+blau
+braun
+gelb
+grau
+grün
+lila
+orange
+rosa
+rot
+schwarz
+weiß
+die Berufe
+der Angestellter - die Angestellten
+die Angestellte - die Angestellten
+der Arzt - die Ärzte
+die Ärztin - die Ärztinnen
+der Auszubildender - die Auszubildenden
+die Auszubildende - die Auszubildenden
+der Autor - die Autoren
+die Autorin - die Autorinnen
+der Babysitter - die Babysitter
+der Bäcker - die Bäcker
+die Bäckerin - die Bäckerinnen
+der Doktor - die Doktoren
+die Doktorin - die Doktorinnen
+der Fahrer - die Fahrer
+die Fahrerin - die Fahrerinnen
+der Friseur - die Friseure
+die Friseurin - die Friseurinnen
+der Handwerker - die Handwerker
+die Handwerkerin - die Handwerkerinnen
+der Hausmann - die Hausmänner
+die Hausfrau - die Hausfrauen
+der Journalist - die Journalisten
+die Journalistin - die Journalistinnen
+der Kaufmann - die Kaufleute
+die Kaufleute
+die Kauffrau - die Kauffrauen
+der Kellner - die Kellner
+die Kellnerin - die Kellnerinnen
+der Koch - die Köche
+die Köchin - die Köchinnen
+der Krankenpfleger - die Krankenpfleger
+die Krankenschwester - die Krankenschwestern
+der Künstler - die Künstler
+die Künstlerin - die Künstlerinnen
+der Lehrer - die Lehrer
+die Lehrerin - die Lehrerinnen
+der Mechaniker - die Mechaniker
+die Mechanikerin - die Mechanikerinnen
+das Model - die Models
+der Musiker - die Musiker
+die Musikerin - die Musikerinnen
+der Polizist - die Polizisten
+die Polizistin - die Polizistinnen
+der Rentner - die Rentner
+die Rentnerin - die Rentnerinnen
+der Sänger - die Sänger
+die Sängerin - die Sängerinnen
+der Schauspieler - die Schauspieler
+die Schauspielerin - die Schauspielerinnen
+der Techniker - die Techniker
+die Technikerin - die Technikerinnen
+der Verkäufer - die Verkäufer
+die Verkäuferin - die Verkäuferinnen
+die Himmelsrichtungen
+der Norden
+der Süden
+der Osten
+der Westen
+die Länder und Nationalitäten
+das Deutschland
+die Deutsche - die Deutschen
+deutsch
+auf Deutsch
+das Österreich
+der Österreicher - die Österreicher
+die Österreicherin - die Österreicherinnen
+österreichisch
+die Schweiz
+der Schweizer - die Schweizer
+die Schweizerin - die Schweizerinnen
+schweizerisch
+das Luxemburg
+der Luxemburger - die Luxemburger
+die Luxemburgerin - die Luxemburgerinnen
+luxemburgisch
+das Europa
+der Europäer - die Europäer
+die Europäerin - die Europäerinnen
+europäisch
+die Schule und Schulfächer
+das Abitur
+der Direktor - die Direktoren
+die Hausaufgabe - die Hausaufgaben
+die Klasse - die Klassen
+die Klassenfahrt - die Klassenfahrten
+das Sekretariat - die Sekretariate
+der Stundenplan - die Stundenpläne
+die Biologie - die Biologien
+die Chemie - die Chemien
+das Deutsch - die Deutschs
+das Englisch - die Englischs
+das Französisch - die Französischs
+die Geografie - die Geografien
+die Geschichte - die Geschichten
+die Kunst(erziehung) - die Künste(erziehungen)
+das Latein - die Lateins
+die Mathematik - die Mathematiken
+die Musik - die Musiken
+die Physik - die Physiken
+die Religion - die Religionen
+die Sozialkunde - die Sozialkunden
+der Sport - die Sporte
+die Währungen und die Maße - die Währungen und die Maße
+1 Euro = 100 Cent
+1 Franke = 100 Rappen
+der Meter - die Meter
+1,50 m = ein Meter fünfzig
+der Zentimeter - die Zentimeter
+der Kilometer - die Kilometer
+das Prozent - die Prozente
+der Liter - die Liter
+das Gramm - die Gramm / das Kilogramm - die Kilogramm
+der Grad Celsius - die Grade Celsius
+das Datum - die Daten
+1848 = achtzehnhundertachtundvierzig
+Berlin, 14.3.2013 = vierzehnter dritter zweitausenddreizehn
+der Feiertag - die Feiertage
+der Karneval - die Karnevale
+das Ostern - die Ostern
+das Weihnachten - die Weihnachten
+das Neujahr - die Neujahre
+der Silvester - die Silvester
+die Jahreszeit - die Jahreszeiten
+der Frühling - die Frühlings
+das Frühjahr - die Frühjahre
+der Sommer - die Sommer
+der Herbst - die Herbste
+der Winter - die Winter
+der Monat - die Monate
+der Januar - die Januare
+der Februar - die Februare
+der März - die Märze
+der April - die Aprils
+der Mai - die Mais
+der Juni - die Junis
+der Juli - die Julis
+der August - die Auguste
+der September - die Septembers
+der Oktober - die Oktobers
+der November - die Novembers
+der Dezember - die Dezembers
+die Tageszeit - die Tageszeiten
+der Tag - die Tage
+der Morgen - die Morgen
+der Vormittag - die Vormittage
+der Mittag - die Mittage
+der Nachmittag - die Nachmittage
+der Abend - die Abende
+die Nacht - die Nächte
+die Mitternacht - die Mitternächte
+täglich
+tagsüber
+morgens, am Morgen
+vormittags, am Vormittag
+mittags, am Mittag
+nachmittags, am Nachmittag
+abends, am Abend
+nachts, in der Nacht
+um Mitternacht
+die Uhrzeit - die Uhrzeiten
+07.03 = sieben Uhr drei
+3.15 = drei Uhr fünfzehn
+15.30 = fünfzehn Uhr dreißig - halb vier
+24.00 = vierundzwanzig Uhr
+13.00 = dreizehn Uhr - ein Uhr
+11.30 = halb zwölf
+14.05 = vierzehn Uhr fünf - fünf nach zwei
+14.55 = vierzehn Uhr fünfundfünfzig - fünf vor drei
+10.15 = viertel nach zehn
+6.45 = viertel vor sieben
+20.40 = zwanzig Uhr vierzig - zwanzig vor neun
+der Wochentag - die Wochentage
+am Wochenende
+montags, am Montag
+dienstags, am Dienstag
+mittwochs, am Mittwoch
+donnerstags, am Donnerstag
+freitags, am Freitag
+samstags, am Samstag
+sonntags, am Sonntag
+der Arbeitstag - die Arbeitstage / der Werktag - die Werktage
+der Feiertag - die Feiertage
+das Zeitmaß - die Zeitmaße
+die Sekunde - die Sekunden
+die Minute - die Minuten
+die Stunde - die Stunden
+die Woche - die Wochen
+das Jahr - die Jahre
+die Zahlen
+eins
+zwei
+drei
+vier
+fünf
+sechs
+sieben
+acht
+neun
+zehn
+elf
+zwölf
+dreizehn
+vierzehn
+fünfzehn
+sechzehn
+siebzehn
+achtzehn
+neunzehn
+zwanzig
+einundzwanzig
+dreißig
+vierzig
+fünfzig
+sechzig
+siebzig
+achtzig
+neunzig
+(ein)hundert
+hunderteins
+zweihundert
+(ein)tausend
+zweitausendeins
+die Million - die Millionen
+der/die erste
+der/die zweite
+der/die dritte
+der/die vierte
+erstens
+zweitens
+drittens
+viertens
+einmal
+zweimal
+dreimal
+viermal
+ab
+aber
+abgeben
+die Achtung (Sg.) - die Achtungen
+die Adresse - die Adressen
+die Ahnung - die Ahnungen
+aktiv
+aktuell
+all
+allein
+als
+also
+alt
+das Alter (Sg.) - die Alter
 
-das Flugzeug
-der Passagier
-der Ausweis
-der Reisepass
-das Ticket
-die Fahrkarte
-das Handgepäck
-das Gepäck
-die Sicherheitskontrolle
-das Gate
-der Flugsteig
-das Einsteigen
-der Abflug
-die Ankunft
-der Flugbegleiter / die Flugbegleiterin
-der Sitzplatz
-das Visum
-die Verspätung
-die Gepäckaufgabe
-die Gepäckausgabe
-das Übergepäck
-das Gepäckband
-der Gepäckwagen
-die Passkontrolle
-die Zollkontrolle
-der Zollbeamte
-die Zollerklärung
-die Abflugzeit
-die Ankunftszeit
-die Flugnummer
-die Durchsage
-deklarieren
-steuerfrei
-die Einfuhr
-verboten
-die Menge
-der Inhalt
-die Kleidung
+
+die Ampel - die Ampeln
+an
+das Angebot - die Angebote
+ander
+anders
+der Anfang - die Anfänge
+die Angst - die Ängste
+die Ankunft - die Ankünfte
+die Anmeldung - die Anmeldungen
+der Anruf - die Anrufe
+der Anschluss - die Anschlüsse
+die Antwort - die Antworten
+die Anzeige - die Anzeigen
+der Anzug - die Anzüge
+der Apfel - die Äpfel
+die Apotheke - die Apotheken
+der Apparat - die Apparate
+die Arbeit - die Arbeiten
+arbeitslos
+arm
+der Arm - die Arme
+der Artikel - die Artikel
+auch
+auf
+auf jeden
+aufregend
+der Aufzug - die Aufzüge
+das Auge - die Augen
+aus
+die Ausbildung - die Ausbildungen
+der Ausflug - die Ausflüge
+der Ausgang - die Ausgänge
+die Auskunft - die Auskünfte
+das Ausland - die Ausländer
+außer
+außerdem
+außerhalb
+die Ausstellung - die Ausstellungen
+der Ausweis - die Ausweise
+das Auto - die Autos
+die Autobahn - die Autobahnen
+der Automat - die Automaten
+automatisch
+das Baby - die Babys
+der Babysitter - die Babysitter
+die Bäckerei - die Bäckereien
+das Bad - die Bäder
+die Bahn - die Bahnen
+der Bahnhof - die Bahnhöfe
+der Bahnsteig - die Bahnsteige
+bald
+der Balkon - die Balkone
+der Ball - die Bälle
+die Banane - die Bananen
+die Band - die Bands
+die Bank - die Banken
+die Bank - die Bänke
+bar
+der Basketball - die Basketbälle
+der Bauch - die Bäuche
+der Baum - die Bäume
+die Baustelle - die Baustellen
+bei
+beide
+das Bein - die Beine
+bekannt - der/die Bekannte - die Bekannten
+beliebt
+bequem
+der Berg - die Berge
+der Beruf - die Berufe
+berühmt
+der Bescheid - die Bescheide
+besetzt
+besonders
+bestellt
+der Besuch - die Besuche
+das Bett - die Betten
+die Bewerbung - die Bewerbungen
+bewölkt
+die Wolke - die Wolken
+die Bibliothek - die Bibliotheken
+das Bier - die Biere
+das Bild - die Bilder
+billig
+die Birne - die Birnen
+bis
+bisschen
+bitte
+die Bitte - die Bitten
+bitter
+das Blatt - die Blätter
+der Bleistift - die Bleistifte
+blöd
+der/das Blog - die Blogs
+blond
+die Blume - die Blumen
+die Bluse - die Blusen
+die Bohne - die Bohnen
+böse
+der Brief - die Briefe
+die Briefmarke - die Briefmarken
+die Brille - die Brillen
+das Brot - die Brote
+das Brötchen - die Brötchen
+die Brücke - die Brücken
+das Buch - die Bücher
+der Buchstabe - die Buchstaben
+bunt
+das Büro - die Büros
+der Bus - die Busse
+die Butter (Sg.)
+das Café - die Cafés
+die Cafeteria - die Cafeterien
+der Chef - die Chefin - die Chefs - die Chefinnen
+der Club - die Clubs / der Klub - die Klubs
+der/das Comic - die Comics
+der Computer - die Computer
+die Creme - die Cremes
+da
+darauf - darüber
+damals
+die Dame - die Damen
+Damen (an der Toilette)
+Sehr geehrte Damen und Herren,
+daneben
+der Dank (Sg.)
+danke
+dann
+dass
+die Datei - die Dateien
+das Datum - die Daten
+denn
+deshalb
+deutlich
+dick
+das Ding - die Dinge
+direkt
+die Disco - die Discos / die Disko - die Diskos
+doch
+das Doppelzimmer - die Doppelzimmer
+das Dorf - die Dörfer
+dort - her - hin
+draußen
+dringend
+drinnen
+drüben
+der Drucker - die Drucker
+dumm
+dunkel
+dünn
+durch
+der Durst (Sg.)
+die Dusche - die Duschen
+das E-Book - die E-Books
+echt
+die Ecke - die Ecken
+egal
+die Ehefrau - der Ehemann
+das Ei - die Eier
+eigen-
+eigentlich
+eilig
+einfach
+der Eingang - die Eingänge
+einig-
+das Einkaufszentrum - die Einkaufszentren
+die Einladung - die Einladungen
+einmal
+der Eintritt - die Eintritte
+einzel-
+das Eis - die Eise
+die E-Mail - die E-Mails
+der Empfänger - die Empfänger
+das Ende - die Enden
+endlich
+eng
+die Entschuldigung - die Entschuldigungen
+das Erdgeschoss - die Erdgeschosse
+die Erfahrung - die Erfahrungen
+die Erlaubnis - die Erlaubnisse
+die Ermäßigung - die Ermäßigungen
+erst
+der Erwachsene - die Erwachsenen
+das Essen - die Essen
+etwas
+das Fach - die Fächer
+die Abfahrt - die Abfahrten
+die Fahrkarte - die Fahrkarten
+der Fahrplan - die Fahrpläne
+das (Fahr)Rad - die (Fahr)Räder
+falsch
+die Familie - die Familien
+der Familienname - die Familiennamen
+der Fan - die Fans
+fantastisch
+die Farbe - die Farben
+fast
+faul
+der Fehler - die Fehler
+die Feier - die Feiern
+das Fenster - die Fenster
+die Ferien (Pl.)
+der Fernseher - die Fernseher
+das Fest - die Feste
+das Festival - die Festivals
+fett
+das Fieber - die Fieber
+der Film - die Filme
+die Firma - die Firmen
+der Fisch - die Fische
+die Flasche - die Flaschen
+das Fleisch - die Fleische
+fleißig
+der Flohmarkt - die Flohmärkte
+der Flug - die Flüge
+der Flughafen - die Flughäfen
+das Flugzeug - die Flugzeuge
+der Fluss - die Flüsse
+das Formular - die Formulare
+der Fotoapparat - die Fotoapparate
+das Foto - die Fotos
+die Frage - die Fragen
+die Frau - die Frauen
+frei
+freiwillig
+die Freizeit - die Freizeiten
+fremd
+der Freund - die Freunde, die Freundin - die Freundinnen
+freundlich
+Mit freundlichen Grüßen
+frisch
+froh
+früh
+früher
+das Frühstück - die Frühstücke
+der Führerschein - die Führerscheine
+die Führung - die Führungen
+die Fundsachen
+für
+furchtbar
+der Fuß - die Füße
+der Fußball - die Fußbälle
+die Gabel - die Gabeln
+ganz
+die Garage - die Garagen
+der Garten - die Gärten
+der Gast - die Gäste
+geboren
+das Geburtsjahr - die Geburtsjahre, der Geburtsort - die Geburtsorte, der Geburtstag - die Geburtstage
+geehrt
+Sehr geehrte Damen und Herren,
+gefährlich
+gegen
+das Gegenteil - die Gegensätze
+gegenüber
+das Gehalt - die Gehälter
+das Geld
+die Geldbörse - die Geldbörsen
+das Gemüse
+genau
+genug
+das Gepäck (Sg.)
+gerade
+geradeaus
+das Gerät - die Geräte
+das Gericht - die Gerichte
+gern - lieber - am liebsten
+das Geschäft - die Geschäfte
+das Geschenk - die Geschenke
+die Geschichte - die Geschichten
+das Geschirr (Sg.)
+das Gesicht - die Gesichter
+das Gespräch - die Gespräche
+gestern
+gesund
+die Gesundheit (Sg.)
+das Getränk - die Getränke
+das Gewitter - die Gewitter
+die Gitarre - die Gitarren
+das Glas - die Gläser
+gleich
+das Gleis - die Gleise
+das Glück (Sg.)
+glücklich
+der Glückwunsch - die Glückwünsche
+die Grippe - die Grippen
+groß
+die Größe - die Größen
+die Gruppe - die Gruppen
+der Gruß - die Grüße
+günstig
+gut - besser - am besten
+das Haar - die Haare
+das Hähnchen - die Hähnchen
+die Halle - die Hallen
+hallo
+der Hals - die Hälse
+die Haltestelle - die Haltestellen
+der Hamburger - die Hamburger
+die Hand - die Hände
+das Handtuch - die Handtücher
+das Handy - die Handys
+hart
+hässlich
+die Hauptstadt - die Hauptstädte
+das Haus - die Häuser
+der Haushalt - die Haushalte
+das Heft - die Hefte
+die Heimat - die Heimaten
+heiß
+die Heizung - die Heizungen
+hell
+das Hemd - die Hemden
+her/her-/-her
+heraus/raus
+herein/rein
+der Herd - die Herde
+der Herr - die Herren
+herzlich
+heute
+hier
+die Hilfe - die Hilfen
+der Himmel - die Himmel
+hin/hin-/-hin
+hinten
+hinter
+das Hobby - die Hobbys
+hoch
+die Hochzeit - die Hochzeiten
+hoffentlich
+die Homepage - die Homepages
+die Hose - die Hosen
+das Hotel - die Hotels
+der Hund - die Hunde
+der Hunger (Sg.)
+die Idee - die Ideen
+immer
+in
+die Information - die Informationen
+die Insel - die Inseln
+das Instrument - die Instrumente
+intelligent
+das Interesse - die Interessen
+interessant
+international
+das Internet (Sg.)
+das Interview - die Interviews
+ja
+die Jacke - die Jacken
+die Jeans - die Jeans
+jeder
+jemand
+jetzt
+der Job - die Jobs
+die Jugendherberge - die Jugendherbergen
+der/die Jugendliche - die Jugendlichen
+jung
+der Junge - die Jungen
+der Kaffee (Sg.)
+der Kalender - die Kalender
+kalt
+die Kamera - die Kameras
+kaputt
+die Karte - die Karten
+die Kartoffel - die Kartoffeln
+der Käse (Sg.)
+die Kasse - die Kassen
+die Katze - die Katzen
+das Kaufhaus - die Kaufhäuser
+kein - keine
+der Keller - die Keller
+die Kenntnisse (Pl.)
+die Kette - die Ketten
+das Kind - die Kinder
+der Kindergarten - die Kindergärten
+das Kino - die Kinos
+der Kiosk - die Kioske
+die Kirche - die Kirchen
+klar
+das Klavier - die Klaviere
+das Kleid - die Kleider
+die Kleidung (Sg.)
+klein
+klug
+der Koffer - die Koffer
+der Kollege - die Kollegen / die Kollegin - die Kolleginnen
+komisch
+der Kontakt - die Kontakte
+das Konto - die Konten
+das Konzert - die Konzerte
+der Kopf - die Köpfe
+der Körper - die Körper
 die Kosmetik
-die elektronischen Geräte
+kostenlos
+krank
+das Krankenhaus - die Krankenhäuser
+die Krankenkasse - die Krankenkassen
+die Krankheit - die Krankheiten
+der Kredit - die Kredite
+die Kreuzung - die Kreuzungen
+der Krimi - die Krimis
+die Küche - die Küchen
+der Kuchen - die Kuchen
+kühl
+der Kühlschrank - die Kühlschränke
+die Kultur - die Kulturen
+der Kunde - die Kunden / die Kundin - die Kundinnen
+die Kunst - die Künste
+der Kurs - die Kurse
+kurz
+der Laden - die Läden
+die Lampe - die Lampen
+das Land - die Länder
+die Landschaft - die Landschaften
+lang
+lange
+langsam
+langweilig
+der Laptop - die Laptops / das Laptop - die Laptops
+laut
+das Leben - die Leben
 die Lebensmittel
-die Unterlagen
-der Versicherungsnachweis
-die Auslandskrankenversicherung
-der Finanzierungsnachweis
-genug Geld
-der Kontoauszug
-der Wegweiser
-die Information
-die Toilette
-die Behindertentoilette
-die Wickelstation
-der Sicherheitsgurt
-anschnallen / bitte anschnallen
-die aufrechte Sitzposition
-das Tischchen / der Tisch
-das Gepäckfach / das Overhead Bin
-das Anschnallzeichen
-die Turbulenzen
-etwas zu trinken
-das Essen / das Menü
-die Decke
-das Kissen
-mir ist kalt
-die Klimaanlage / der Luftzug
-das Entertainment / das Bordunterhaltungssystem
-die Kopfhörer
-mir ist übel
-die Spucktüte
-die Toilette / das WC
-der Platz tauschen
-das Fenster / der Fensterplatz
-die Leselampe
-das Baby weint
-die Landung
-die Crew / die Flugbegleiter
-der Rufknopf
-der Duty-free-Verkauf
-die Einreisekarte / das Zollformular
-wir landen gleich
+leer
+leicht
+leider
+leise
+letzt-
+die Leute
+das Licht - die Lichter
+lieb-
+Lieblings-
+das Lied - die Lieder
+der Link - die Links
+links
+der Löffel - die Löffel
+das Lokal - die Lokale
+die Lüge - die Lügen
+die Lust - die Lüste
+lustig
+das Mädchen - die Mädchen
+der Magen - die Mägen
+die Mailbox - die Mailboxen
+mal
+man
+manch-
+manchmal
+der Mann - die Männer
+männlich
+die Mannschaft - die Mannschaften
+der Mantel - die Mäntel
+der Markt - die Märkte
+die Maschine - die Maschinen
+das Medikament - die Medikamente
+das Meer - die Meere
+mehr
+die Meinung - die Meinungen
+meist
+meistens
+die Menge - die Mengen
+der Mensch - die Menschen
+die Messe - die Messen
+das Messer - die Messer
+die Miete - die Mieten
+die Milch
+mindestens
+das Mineralwasser - die Mineralwasser
+mit
+der Mitarbeiter - die Mitarbeiter
+das Mittagessen - die Mittagessen
+die Mitte - die Mitten
+das Mittel - die Mittel
+die Möbel
+das Mobiltelefon - die Mobiltelefone
+die Mode - die Moden
+modern
+möglich
+der Moment - die Momente
+morgen
+der Motor - die Motoren
+der Motorroller - die Motorroller
+müde
+der Müll
+der Mund - die Münder
+das Museum - die Museen
+die Musik
+die Mütze - die Mützen
+nach
+der Nachbar - die Nachbarn / die Nachbarin - die Nachbarinnen
+die Nachricht - die Nachrichten
+nächste
+die Nähe
+der Name - die Namen
+nass
+die Natur
+natürlich
+neben
+nebenan
+neblig
+nein
+nervös
+nett
+neu
+nicht
+nichts
+nie
+niemand
+nirgends
+noch
+normal
+die Note - die Noten
+die Notiz - die Notizen
+notwendig
+die Nudel - die Nudeln
+die Nummer - die Nummern
+nur
+nützlich
+oben
+das Obst
+oder
+offen
+oft
+ohne
+das Ohr - die Ohren
+das Öl - die Öle
+online
+die Orange - die Orangen
+die Ordnung - die Ordnungen
+der Ort - die Orte
+das Paar - die Paare
+ein paar
+das Paket - die Pakete
+das Papier - die Papiere
+die Papiere
+das Parfüm - die Parfüms
+der Park - die Parks
+der Partner - die Partnerin - die Partner - die Partnerinnen
+die Party - die Partys
+der Pass - die Pässe
+das Passwort - die Passwörter
+die Pause - die Pausen
+die Person - die Personen
+das Pferd - die Pferde
+die Pflanze - die Pflanzen
+die Pizza - die Pizzen
+das Plakat - die Plakate
+der Plan - die Pläne
+der Platz - die Plätze
+plötzlich
+die Polizei
+die Pommes frites
+die Portion - die Portionen
+die Post
+das Poster - die Poster
+die Postkarte - die Postkarten
+die Postleitzahl - die Postleitzahlen
+das Praktikum - die Praktika
+praktisch
+die Praxis - die Praxen
+der Preis - die Preise
+preiswert
+privat
+pro
+das Problem - die Probleme
+das Produkt - die Produkte
+das Programm - die Programme
+das Projekt - die Projekte
+der Prospekt - die Prospekte
+die Prüfung - die Prüfungen
+der Pullover - die Pullover
+pünktlich
+die Qualität - die Qualitäten
+das Quiz - die Quiz
+das Radio - die Radios
+das Rathaus - die Rathäuser
+das Rätsel - die Rätsel
+der Raum - die Räume
+die Rechnung - die Rechnungen
+rechts
+der Regen - die Regen
+reich
+der Reifen - die Reifen
+die Reihe - die Reihen
+die Reinigung - die Reinigungen
+der Reis
+die Reise - die Reisen
+das Reisebüro - die Reisebüros
+der Reiseführer - die Reiseführer
+der Rentner - die Rentnerin - die Rentner - die Rentnerinnen
+die Reparatur - die Reparaturen
+der Rest - die Reste
+das Restaurant - die Restaurants
+das Rezept - die Rezepte
+die Rezeption - die Rezeptionen
+richtig
+das Rind - die Rinder
+der Ring - die Ringe
+der Rock - die Röcke
+romantisch
+die Rose - die Rosen
+der Rücken - die Rücken
+der Rucksack - die Rucksäcke
+die Ruhe - die Ruhen
+ruhig
+rund
+der Rundgang - die Rundgänge
+die Sache - die Sachen
+der Saft - die Säfte
+der Salat - die Salate
+das Salz - die Salze
+der Satz - die Sätze
+sauber
+sauer
+schade
+schädlich
+der Schalter - die Schalter
+scharf
+die Schere - die Scheren
+das Schiff - die Schiffe
+das Schild - die Schilder
+der Schirm - die Schirme
+das Schlafzimmer - die Schlafzimmer
+schlecht
+schlimm
+das Schloss - die Schlösser
+der Schluss - die Schlüsse
+der Schlüssel - die Schlüssel
+der Schmerz - die Schmerzen
+schmutzig
+der Schnee - die Schnee
+schnell
+die Schokolade - die Schokoladen
+schon
+schön
+der Schrank - die Schränke
+schrecklich
+schriftlich
+der Schuh - die Schuhe
+die Schule - die Schulen
+der Schüler - die Schülerin - die Schüler - die Schülerinnen
+schwach
+schwanger
+das Schwein - die Schweine
+schwer
+schwierig
+das Schwimmbad - die Schwimmbäder
+der See - die Seen
+die See - die Seen
+die Sehenswürdigkeit - die Sehenswürdigkeiten
+sehr
+die Seife - die Seifen
+seit
+die Seite - die Seiten
+selbst
+die Sendung - die Sendungen
+der Service - die Services
+sicher
+die Situation - die Situationen
+der Ski - die Skier
+so
+das Sofa - die Sofas
+sofort
+sogar
+die Sonne - die Sonnen
+sonnig
+sonst
+spannend
+der Spaß - die Späße
+spät
+später
+der Spaziergang - die Spaziergänge
+die Speisekarte - die Speisekarten
+das Spiel - die Spiele
+der Sport - die Sporte
+sportlich
+der Sportplatz - die Sportplätze
+die Sprache - die Sprachen
+die Sprechstunde - die Sprechstunden
+die Stadt - die Städte
+der Stadtplan - die Stadtpläne
+der Star - die Stars
+stark
+die Stelle - die Stellen
+der Stiefel - die Stiefel
+der Stift - die Stifte
+das Stipendium - die Stipendien
+der Stock - die Stöcke
+das Stockwerk - die Stockwerke
+der Strand - die Strände
+die Straße - die Straßen
+die Straßenbahn - die Straßenbahnen
+streng
+der Stress - die Stresse
+stressig
+das Stück - die Stücke
+der Student - die Studentin - die Studenten - die Studentinnen
+das Studium - die Studien
+der Stuhl - die Stühle
+super
+der Supermarkt - die Supermärkte
+die Suppe - die Suppen
+süß
+die Süßigkeiten
+sympathisch
+das Tablet - die Tablets
+die Tablette - die Tabletten
+die Tafel - die Tafeln
+die Tasche - die Taschen
+das Taschengeld - die Taschengelder
+die Tasse - die Tassen
+das Taxi - die Taxis
+das Team - die Teams
+der Tee - die Tees
+das Telefon - die Telefone
+der Teller - die Teller
+das Tennis - die Tennisse
+der Termin - die Termine
+teuer
+der Text - die Texte
+das Theater - die Theater
+das Thema - die Themen
+das Ticket - die Tickets
+tief
+das Tier - die Tiere
+der Tipp - die Tipps
+der Tisch - die Tische
+der Titel - die Titel
+die Toilette - die Toiletten
+toll
+die Tomate - die Tomaten
+der Topf - die Töpfe
+die Torte - die Torten
+tot
+total
+die Tour - die Touren
+der Tourist - die Touristin - die Touristen
+das Training - die Trainings
+der Traum - die Träume
+traurig
+die Treppe - die Treppen
+trocken
+tschüs
+das T-Shirt - die T-Shirts
+die Tür - die Türen
+typisch
+über
+überall
+übermorgen
+die Übersetzung - die Übersetzungen
+die Uhr - die Uhren
+um
+der Umzug - die Umzüge
+unbedingt
+und
+der Unfall - die Unfälle
+die Universität - die Universitäten
+unten
+unter
+die Unterkunft - die Unterkünfte
+der Unterricht - die Unterrichte
+der Unterschied - die Unterschiede
+die Unterschrift - die Unterschriften
+der Urlaub - die Urlaube
+die Veranstaltung - die Veranstaltungen
+der Verein - die Vereine
+der Verkehr - die Verkehre
+das Verkehrsmittel - die Verkehrsmittel
+der Vermieter - die Vermieterin - die Vermieter
+verschieden
+die Verspätung - die Verspätungen
+der Vertrag - die Verträge
+viel
+vielleicht
+der Vogel - die Vögel
+voll
+der Volleyball - die Volleybälle
+von
+vor
+vorbei
+vorgestern
+vorher
+vorn(e)
+der Vorname - die Vornamen
+der Vorschlag - die Vorschläge
+vorsichtig
+vorwärts
+wach
+der Wagen - die Wagen
+wahr
+wahrscheinlich
+der Wald - die Wälder
+wann
+warm
+warum
+was
+die Wäsche - die Wäschen
+das Wasser - die Wasser
+die Webseite - die Webseiten
+weg
+der Weg - die Wege
+wegen
+weiblich
+weich
+weil
+der Wein - die Weine
+weit
+weiter
+welcher
+die Welt - die Welten
+wenig
+wenigstens
+wenn
+wer (wen, wem)
+die Werkstatt - die Werkstätten
+der Wettbewerb - die Wettbewerbe
+das Wetter
+wichtig
+wie
+wie viel
+wieder
+das Wiederhören
+das Wiedersehen
+willkommen
+der Wind - die Winde
+windig
+wirklich
+der Witz - die Witze
+witzig
+wo
+woher
+wohin
+die Wohnung - die Wohnungen
+das Wohnzimmer - die Wohnzimmer
+die Wolke - die Wolken
+der Workshop - die Workshops
+das Wort - die Wörter
+wunderbar
+der Wunsch - die Wünsche
+die Wurst - die Würste
+die Zahl - die Zahlen
+der Zahn - die Zähne
+die Zeit - die Zeiten
+die Zeitschrift - die Zeitschriften
+die Zeitung - die Zeitungen
+das Zelt - die Zelte
+das Zentrum - die Zentren
+der Zettel - die Zettel
+das Zeugnis - die Zeugnisse
+das Ziel - die Ziele
+das Zimmer - die Zimmer
+der Zirkus - die Zirkusse
+die Zitrone - die Zitronen
+der Zoo - die Zoos
+zu
+der Zucker - die Zucker
+zuerst
+zufrieden
+der Zug - die Züge
+zuletzt
+zum Beispiel
+zurück
+zusammen
+zwischen

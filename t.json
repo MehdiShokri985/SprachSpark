@@ -1,321 +1,2950 @@
-  [{
-    "Sound_de": "das Flugzeug",
-    "root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Zeug (چیز، وسیله)\nمعنی کلی: هواپیما = وسیله‌ای برای پرواز\nمترادف‌ها:\n- das Fluggerät\nمتضادها:\n- der Zug (قطار)\n- das Auto (ماشین)"
+[
+  {
+    "Sound_de": "Person - die Personen",
+    "root": "اجزای تشکیل‌دهنده:\nPerson (از لاتین persona، به معنی ماسک یا نقش در تئاتر، که به فرد انسانی اشاره دارد)\nمعنی کلی: شخص = فرد انسانی\nمترادف‌ها:\n- der Mensch (انسان)\n- das Individuum (فرد)\nمتضادها:\n- das Tier (حیوان)\n- die Gruppe (گروه)"
   },
   {
-    "Sound_de": "der Passagier",
-    "root": "اجزای تشکیل‌دهنده:\nvom französischen 'passager' (مسافر)\nمعنی کلی: مسافر = کسی که در وسیله نقلیه سفر می‌کند\nمترادف‌ها:\n- der Reisende (مسافر)\nمتضادها:\n- der Fahrer / die Fahrerin (راننده)"
+    "Sound_de": "Name - die Namen",
+    "root": "اجزای تشکیل‌دهنده:\nName (از قدیمی آلمانی namo، به معنی نام یا عنوان)\nمعنی کلی: نام = شناسه فرد یا چیز\nمترادف‌ها:\n- der Beiname (لقب)\n- der Titel (عنوان)\nمتضادها:\n- anonym (ناشناس)"
   },
   {
-    "Sound_de": "der Ausweis",
-    "root": "اجزای تشکیل‌دهنده:\nAus (خارج، بیرون) + Weis (نشانه، مدرک)\nمعنی کلی: کارت شناسایی = مدرکی برای اثبات هویت\nمترادف‌ها:\n- die Identitätskarte (کارت هویت)\nمتضادها:\n- kein Ausweis (بدون مدرک شناسایی)"
+    "Sound_de": "Adresse - die Adressen",
+    "root": "اجزای تشکیل‌دهنده:\nAdresse (از فرانسوی adresse، به معنی جهت یا مکان)\nمعنی کلی: آدرس = مکان سکونت یا تماس\nمترادف‌ها:\n- die Anschrift (آدرس نوشته‌شده)\n- der Wohnort (محل سکونت)\nمتضادها:\n- unbekannt (ناشناخته)"
   },
   {
-    "Sound_de": "der Reisepass",
-    "root": "اجزای تشکیل‌دهنده:\nReise (سفر) + Pass (مدرک، اجازه ورود)\nمعنی کلی: گذرنامه = مدرک شناسایی برای سفر بین‌المللی\nمترادف‌ها:\n- der Pass\nمتضادها:\n- der Personalausweis (کارت شناسایی داخلی)"
+    "Sound_de": "Telefon - die Telefone",
+    "root": "اجزای تشکیل‌دهنده:\nTele (دور) + phon (صدا)\nمعنی کلی: تلفن = دستگاه برای انتقال صدا از دور\nمترادف‌ها:\n- das Fernsprecher (تلفن دور)\nمتضادها:\n- das Brief (نامه)"
   },
   {
-    "Sound_de": "das Ticket",
-    "root": "اجزای تشکیل‌دهنده:\nاز انگلیسی 'ticket' (بلیط)\nمعنی کلی: بلیط = مدرک اجازه ورود یا استفاده از وسیله نقلیه\nمترادف‌ها:\n- die Fahrkarte (بلیط)\nمتضادها:\n- kein Ticket (بدون بلیط)"
-  },
-    {
-    "Sound_de": "die Fahrkarte",
-    "root": "اجزای تشکیل‌دهنده:\nFahr (سفر کردن، رانندگی کردن) + Karte (کارت، بلیط)\nمعنی کلی: بلیط سفر\nمترادف‌ها:\n- das Ticket\n- die Eintrittskarte (برای ورود)\nمتضادها:\n- der Fahrscheinverlust (از دست دادن بلیط)"
+    "Sound_de": "Geburtsdatum - die Geburtsdaten",
+    "root": "اجزای تشکیل‌دهنده:\nGeburt (تولد) + Datum (تاریخ)\nمعنی کلی: تاریخ تولد = روز تولد فرد\nمترادف‌ها:\n- das Geburtsjahr (سال تولد، اما نه دقیق)\nمتضادها:\n- das Sterbedatum (تاریخ مرگ)"
   },
   {
-    "Sound_de": "das Handgepäck",
-    "root": "اجزای تشکیل‌دهنده:\nHand (دست) + Gepäck (چمدان، بار)\nمعنی کلی: چمدان دستی، بار همراه\nمترادف‌ها:\n- das Carry-on (انگلیسی)\nمتضادها:\n- das Aufgabegepäck (بار تحویل داده شده)"
+    "Sound_de": "Geburtsort - die Geburtsorte",
+    "root": "اجزای تشکیل‌دهنده:\nGeburt (تولد) + Ort (مکان)\nمعنی کلی: محل تولد = جایی که فرد متولد شده\nمترادف‌ها:\n- der Heimatort (محل زادگاه)"
   },
   {
-    "Sound_de": "das Gepäck",
-    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار، وسایل سفر) از packen (بسته‌بندی کردن)\nمعنی کلی: وسایل سفر، بار\nمترادف‌ها:\n- die Reisetasche (ساک سفر)\nمتضادها:\n- leichtes Gepäck (بار سبک)"
+    "Sound_de": "Alter - die Alter",
+    "root": "اجزای تشکیل‌دهنده:\nAlter (از قدیمی آلمانی altar، به معنی سن)\nمعنی کلی: سن = تعداد سال‌های زندگی\nمترادف‌ها:\n- das Lebensalter (سن زندگی)\nمتضادها:\n- die Jugend (جوانی)\n- das Alter (پیری، اما خودش است)"
   },
   {
-    "Sound_de": "die Sicherheitskontrolle",
-    "root": "اجزای تشکیل‌دهنده:\nSicherheits (امنیتی) + Kontrolle (کنترل)\nمعنی کلی: کنترل امنیتی\nمترادف‌ها:\n- die Sicherheitsprüfung\nمتضادها:\n- freie Durchgang (عبور آزاد بدون کنترل)"
+    "Sound_de": "Geschlecht - die Geschlechter",
+    "root": "اجزای تشکیل‌دهنده:\nGeschlecht (از قدیمی آلمانی gislaht، به معنی جنس یا نژاد)\nمعنی کلی: جنسیت =男 یا女\nمترادف‌ها:\n- das Gender (جنسیت)\n- das Sexus (جنس)\nمتضادها:\n- männlich (مذکر) vs weiblich (مونث)"
   },
   {
-    "Sound_de": "das Gate",
-    "root": "اجزای تشکیل‌دهنده:\nGate (دروازه، اصطلاح فرودگاهی)\nمعنی کلی: دروازه خروج به پرواز\nمترادف‌ها:\n- der Ausgang\nمتضادها:\n- der Eingang (ورودی)"
+    "Sound_de": "Familienstand - die Familienstände",
+    "root": "اجزای تشکیل‌دهنده:\nFamilie (خانواده) + Stand (وضعیت)\nمعنی کلی: وضعیت خانوادگی = مجرد، متاهل و غیره\nمترادف‌ها:\n- der Zivilstand (وضعیت مدنی)"
   },
   {
-    "Sound_de": "der Flugsteig",
-    "root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Steig (سکو، مسیر)\nمعنی کلی: سکو یا راهروی ورود به هواپیما\nمترادف‌ها:\n- die Flugbrücke\n- Gate (دروازه)\nمتضادها:\n- die Ankunftshalle (سالن ورود)"
+    "Sound_de": "Familie - die Familien",
+    "root": "اجزای تشکیل‌دهنده:\nFamilie (از لاتین familia، به معنی خانوار)\nمعنی کلی: خانواده = گروه خونی یا اجتماعی\nمترادف‌ها:\n- die Verwandtschaft (خویشاوندی)\n- der Haushalt (خانوار)\nمتضادها:\n- der Einzelgänger (تنها)"
   },
   {
-    "Sound_de": "das Einsteigen",
-    "root": "اجزای تشکیل‌دهنده:\nEin (داخل) + steigen (بالا رفتن، سوار شدن)\nمعنی کلی: سوار شدن به وسیله نقلیه (هواپیما)\nمترادف‌ها:\n- Boarding\nمتضادها:\n- das Aussteigen (پیاده شدن)"
+    "Sound_de": "Persönliche Beziehungen",
+    "root": "اجزای تشکیل‌دهنده:\nPersönlich (شخصی) + Beziehungen (روابط)\nمعنی کلی: روابط شخصی = ارتباطات فردی\nمترادف‌ها:\n- die Kontakte (تماس‌ها)\n- die Freundschaften (دوستی‌ها)\nمتضادها:\n- die Feindschaft (دشمنی)"
   },
   {
-    "Sound_de": "der Abflug",
-    "root": "اجزای تشکیل‌دهنده:\nAb (رو به خارج، ترک) + Flug (پرواز)\nمعنی کلی: پرواز خروجی، زمان ترک فرودگاه\nمترادف‌ها:\n- der Start\nمتضادها:\n- die Landung (فرود)"
+    "Sound_de": "Staatsangehörigkeit - die Staatsangehörigkeiten",
+    "root": "اجزای تشکیل‌دهنده:\nStaat (دولت) + Angehörigkeit (عضویت)\nمعنی کلی: تابعیت = عضویت در یک کشور\nمترادف‌ها:\n- die Nationalität (ملیت)\n- die Bürgerschaft (شهروندی)"
   },
   {
-"Sound_de": "die Ankunft",
-"root": "اجزای تشکیل‌دهنده:\nAn (به) + Kunft (آمدن، رسیدن)\nمعنی کلی: ورود / رسیدن به مقصد\nمترادف‌ها:\n- die Anreise (رسیدن به مقصد)\nمتضادها:\n- der Abflug (پرواز، حرکت از مبدأ)"
-},
-{
-"Sound_de": "der Flugbegleiter / die Flugbegleiterin",
-"root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Begleiter (همراه)\nمعنی کلی: مهماندار هواپیما\nمترادف‌ها:\n- der Steward / die Stewardess (خدمه پرواز)\nمتضادها:\n- der Passagier (مسافر)"
-},
-{
-"Sound_de": "der Sitzplatz",
-"root": "اجزای تشکیل‌دهنده:\nSitz (صندلی) + Platz (جا، مکان)\nمعنی کلی: جای نشستن / صندلی\nمترادف‌ها:\n- der Platz (مکان)\nمتضادها:\n- der Stehplatz (جای ایستادن)"
-},
-{
-"Sound_de": "das Visum",
-"root": "اجزای تشکیل‌دهنده:\nVisum (از لاتین، علامت اجازه ورود)\nمعنی کلی: ویزا / اجازه ورود به کشور\nمترادف‌ها:\n- die Einreisegenehmigung (مجوز ورود)\nمتضادها:\n- das Einreiseverbot (ممنوعیت ورود)"
-},
-{
-"Sound_de": "die Verspätung",
-"root": "اجزای تشکیل‌دهنده:\nVer- (نشانه تغییر) + spät (دیر) + -ung (ساخت اسم)\nمعنی کلی: تأخیر\nمترادف‌ها:\n- die Verzögerung (تأخیر)\nمتضادها:\n- die Pünktlichkeit (سر وقت بودن)"
-},
- {
-    "Sound_de": "die Gepäckaufgabe",
-    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار، چمدان) + Aufgabe (واگذاری، تحویل)\nمعنی کلی: تحویل بار (چمدان) در فرودگاه برای حمل\nمترادف‌ها:\n- Gepäckabgabe (تحویل بار) – abgegebenes Gepäck\n- Check‑in des Gepäcks (چک‌آی‌پی بار)\nمتضادها:\n- Gepäckausgabe (تحویل بار پس از پرواز) – بار برگشتی\n- Gepäckabholung (برداشت بار) – برداشتن چمدان پس از رسیدن"
+    "Sound_de": "Nationalität - die Nationalitäten",
+    "root": "اجزای تشکیل‌دهنده:\nNation (ملت) + alität (کیفیت)\nمعنی کلی: ملیت = تعلق به یک ملت\nمترادف‌ها:\n- die Staatsangehörigkeit (تابعیت)"
   },
   {
-    "Sound_de": "die Gepäckausgabe",
-    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار) + Ausgabe (توزیع، تحویل)\nمعنی کلی: محلی که پس از پرواز بار به مسافران تحویل داده می‌شود (بگِیج ریکلیم)\nمترادف‌ها:\n- Gepäckabholung (برداشت چمدان)\n- Gepäckrückgabe (بازگرداندن بار)\nمتضادها:\n- Gepäckaufgabe (تحویل بار پیش از پرواز)\n- Gepäckeincheckung (ثبت بار پیش از پرواز)"
+    "Sound_de": "Herkunft - die Herkünfte",
+    "root": "اجزای تشکیل‌دهنده:\nHer (اینجا) + kunft (آمدن، از kommen)\nمعنی کلی: منشأ = جایی که از آن آمده\nمترادف‌ها:\n- die Abstammung (اصل و نسب)\n- die Ursprung (منشأ)\nمتضادها:\n- die Zukunft (آینده)"
   },
   {
-    "Sound_de": "das Übergepäck",
-    "root": "اجزای تشکیل‌دهنده:\nüber (بیش از، اضافه) + Gepäck (بار)\nمعنی کلی: باری که بیش از سقف مجاز وزن یا تعداد چمدان است\nمترادف‌ها:\n- Überladungsgepäck (بار اضافه)\n- Extra-Gepäck (چمدان اضافی)\nمتضادها:\n- Freigepäck (بار مجاز رایگان)\n- Handgepäck (بار دستی کوچکتر، داخل کابین)"
+    "Sound_de": "Aussehen - die Aussehen",
+    "root": "اجزای تشکیل‌دهنده:\nAus (بیرون) + sehen (دیدن)\nمعنی کلی: ظاهر = چگونگی دیده شدن\nمترادف‌ها:\n- das Erscheinungsbild (تصویر ظاهری)\n- das Äußere (بیرونی)\nمتضادها:\n- das Innere (داخلی)"
   },
   {
-    "Sound_de": "das Gepäckband",
-    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار) + Band (نوار، تسمه)\nمعنی کلی: نوار چرخشی در فرودگاه که چمدان‌ها پس از پرواز روی آن می‌آیند\nمترادف‌ها:\n- Gepäckförderband (نوار حمل بار)\n- Karussell (چرخ‌ونوار بار)\nمتضادها:\n- Gepäckschalter (پیشخوان بار)\n- Gepäckaufgabe-Ort (محل تحویل بار)"
+    "Sound_de": "Gewohnheiten",
+    "root": "اجزای تشکیل‌دهنده:\nGewohnheit (از gewöhnen، عادت کردن)\nمعنی کلی: عادت‌ها = رفتارهای تکراری\nمترادف‌ها:\n- die Angewohnheiten (عادت‌ها)\n- die Routinen (روتین‌ها)\nمتضادها:\n- die Ausnahme (استثنا)"
   },
   {
-    "Sound_de": "der Gepäckwagen",
-    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار) + Wagen (چرخ‌دستگاه، ترالی)\nمعنی کلی: ترالی یا چرخ‌بری برای حمل چمدان‌ها در فرودگاه\nمترادف‌ها:\n- Kofferkarren (چرخ‌دستگاه چمدان)\n- Gepäcktrolley (ترولی بار)\nمتضادها:\n- Handgepäck (بار دستی، قابل حمل با دست)\n- Gepäckträger (کسی که بار را حمل می‌کند، باربر انسانی)"
+    "Sound_de": "Tagesablauf - die Tagesabläufe",
+    "root": "اجزای تشکیل‌دهنده:\nTag (روز) + Ablauf (جریان)\nمعنی کلی: برنامه روزانه = جریان روز\nمترادف‌ها:\n- der Tagesplan (برنامه روز)\n- die Routine (روتین)"
   },
   {
-    "Sound_de": "die Passkontrolle",
-    "root": "اجزای تشکیل‌دهنده:\nPass (گذرنامه) + Kontrolle (کنترل، بازرسی)\nمعنی کلی: بازرسی گذرنامه مسافران در فرودگاه یا مرز\nمترادف‌ها:\n- Grenzkontrolle (کنترل مرزی)\n- Einreisekontrolle (کنترل ورود)\nمتضادها:\n- Passausgabe (صدور گذرنامه)\n- Passannahme (تحویل گذرنامه)"
+    "Sound_de": "Wohnung - die Wohnungen",
+    "root": "اجزای تشکیل‌دهنده:\nWohn (زندگی کردن) + ung (اسم‌ساز)\nمعنی کلی: آپارتمان = محل زندگی\nمترادف‌ها:\n- die Bleibe (اقامتگاه)\n- das Appartement (آپارتمان)\nمتضادها:\n- das Haus (خانه، اما مشابه)"
   },
   {
-    "Sound_de": "die Zollkontrolle",
-    "root": "اجزای تشکیل‌دهنده:\nZoll (گمرک) + Kontrolle (بازرسی)\nمعنی کلی: بازبینی گمرکی مسافران یا بار در مرز یا فرودگاه\nمترادف‌ها:\n- Grenzkontrolle (کنترل مرزی)\n- Einfuhrkontrolle (کنترل واردات)\nمتضادها:\n- Zollfreigrenze (مرز معاف از گمرک)\n- Steuerfreie Zone (منطقه معاف از مالیات)"
+    "Sound_de": "Räume",
+    "root": "اجزای تشکیل‌دهنده:\nRaum (فضا)\nمعنی کلی: اتاق‌ها = فضاهای بسته\nمترادف‌ها:\n- die Zimmer (اتاق‌ها)"
   },
   {
-    "Sound_de": "der Zollbeamte",
-    "root": "اجزای تشکیل‌دهنده:\nZoll (گمرک) + Beamte (کارمند، مامور)\nمعنی کلی: مأمور گمرک که کنترل گمرکی انجام می‌دهد\nمترادف‌ها:\n- Zollinspektor (بازرس گمرک)\n- Zollagent (نماینده گمرک)\nمتضادها:\n- Reisender (مسافر)\n- Fluggast (مسافر هواپیما)"
+    "Sound_de": "Einrichtung - die Einrichtungen",
+    "root": "اجزای تشکیل‌دهنده:\nEin (درون) + richtung (جهت، چیدمان)\nمعنی کلی: تجهیزات = چیدمان یا设施\nمترادف‌ها:\n- die Ausstattung (تجهیزات)\n- die Möblierung (مبلمان)"
   },
   {
-    "Sound_de": "die Zollerklärung",
-    "root": "اجزای تشکیل‌دهنده:\nZoll (گمرک) + Erklärung (اظهارنامه)\nمعنی کلی: سند یا فرم اظهار گمرکی بار یا کالا به گمرک\nمترادف‌ها:\n- Einfuhrerklärung (اظهارنامه ورود)\n- Deklaration (اظهار)\nمتضادها:\n- Schweigepflicht (رازداری، امتناع از اظهار)\n- Nichtdeklaration (عدم اظهار)"
+    "Sound_de": "Möbel",
+    "root": "اجزای تشکیل‌دهنده:\nMöbel (از فرانسوی meuble، متحرک)\nمعنی کلی: مبلمان = اشیاء متحرک خانه\nمترادف‌ها:\n- die Einrichtungsgegenstände (اشیاء تجهیزات)"
   },
   {
-    "Sound_de": "die Abflugzeit",
-    "root": "اجزای تشکیل‌دهنده:\nAbflug (بلند شدن پرواز) + Zeit (زمان)\nمعنی کلی: زمان حرکت (پرواز) هواپیما از فرودگاه مبدا\nمترادف‌ها:\n- Startzeit (زمان آغاز)\n- Abflugtermin (وقت پرواز)\nمتضادها:\n- Ankunftszeit (زمان رسیدن)\n- Landungszeit (زمان فرود)"
+    "Sound_de": "Haushalt - die Haushalte",
+    "root": "اجزای تشکیل‌دهنده:\nHaus (خانه) + halt (نگهداری)\nمعنی کلی: خانوار = مدیریت خانه\nمترادف‌ها:\n- der Haushalt (خانوار)"
   },
   {
-    "Sound_de": "die Ankunftszeit",
-    "root": "اجزای تشکیل‌دهنده:\nAnkunft (رسیدن) + Zeit (زمان)\nمعنی کلی: زمان رسیدن هواپیما به مقصد\nمترادف‌ها:\n- Landungszeit (زمان فرود)\n- Ankunftsdatum (تاریخ رسیدن)\nمتضادها:\n- Abflugzeit (زمان پرواز)\n- Abreisezeit (زمان عزیمت)"
+    "Sound_de": "technische Einrichtungen",
+    "root": "اجزای تشکیل‌دهنده:\nTechnisch (فنی) + Einrichtungen (تجهیزات)\nمعنی کلی: تجهیزات فنی = دستگاه‌های فنی\nمترادف‌ها:\n- die Geräte (دستگاه‌ها)"
   },
   {
-    "Sound_de": "die Flugnummer",
-    "root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Nummer (شماره)\nمعنی کلی: شماره‌ی اختصاص داده‌شده به یک پرواز خاص\nمترادف‌ها:\n- Flugcode (کد پرواز)\n- Flugkennzeichen (شناسه پرواز)\nمتضادها:\n- Buchungsnummer (شماره رزرو) — شماره‌ای متفاوت برای رزرو\n- Passagiernummer (شماره مسافر) — شماره‌ی فردی"
+    "Sound_de": "Miete - die Mieten",
+    "root": "اجزای تشکیل‌دهنده:\nMiete (از قدیمی آلمانی mieta، اجاره)\nمعنی کلی: اجاره = پرداخت برای استفاده\nمترادف‌ها:\n- der Mietzins (اجاره‌بها)\nمتضادها:\n- der Kauf (خرید)"
   },
   {
-    "Sound_de": "die Durchsage",
-    "root": "اجزای تشکیل‌دهنده:\nDurch (از طریق) + Sage (گفتن، خبر) — در این ترکیب به معنای «اعلان»\nمعنی کلی: اعلان عمومی از طریق بلندگو در فرودگاه یا هواپیما\nمترادف‌ها:\n- Ansage (اعلان)\n- Lautsprecherdurchsage (اعلان از بلندگو)\nمتضادها:\n- Stille (سکوت)\n- Geheimhaltung (محرمانگی، عدم اعلان)"
+    "Sound_de": "Mietverhältnis - die Mietverhältnisse",
+    "root": "اجزای تشکیل‌دهنده:\nMiete (اجاره) + Verhältnis (رابطه)\nمعنی کلی: رابطه اجاره = قرارداد اجاره\nمترادف‌ها:\n- der Mietvertrag (قرارداد اجاره)"
   },
   {
-    "Sound_de": "deklarieren",
-    "root": "اجزای تشکیل‌دهنده:\nLat. declarare → «اظهار کردن» + پسوند فارسی/آلمانی\nمعنی کلی: اظهار گمرکی، اعلام ارزش یا محتوای بار\nمترادف‌ها:\n- deklarativ machen (اظهار کردن)\n- anmelden (ثبت کردن، اظهار کردن)\nمتضادها:\n- verschweigen (پنهان کردن)\n- verheimlichen (مخفی کردن)"
+    "Sound_de": "Wohnungswechsel - die Wohnungswechsel",
+    "root": "اجزای تشکیل‌دهنده:\nWohnung (آپارتمان) + Wechsel (تغییر)\nمعنی کلی: تغییر آپارتمان = جابجایی خانه\nمترادف‌ها:\n- der Umzug (جابجایی)"
   },
   {
-    "Sound_de": "steuerfrei",
-    "root": "اجزای تشکیل‌دهنده:\nSteuer (مالیات) + frei (آزاد، معاف)\nمعنی کلی: معاف از مالیات، بدون پرداخت مالیات\nمترادف‌ها:\n- zollfrei (معاف از گمرک)\n- taxfrei (بدون مالیات)\nمتضادها:\n- steuerpflichtig (مشمول مالیات)\n- besteuert (مالیات داده‌شده)"
+    "Sound_de": "umwelt - die Umwelten",
+    "root": "اجزای تشکیل‌دهنده:\nUm (اطراف) + Welt (جهان)\nمعنی کلی: محیط = اطراف جهان\nمترادف‌ها:\n- die Natur (طبیعت)\n- die Umgebung (محیط اطراف)\nمتضادها:\n- die Innenwelt (جهان درونی)"
   },
   {
-    "Sound_de": "die Einfuhr",
-    "root": "اجزای تشکیل‌دهنده:\nEin (ورود) + Fuhr (از führen → حمل، آوردن) — Einfuhr به معنای واردات است\nمعنی کلی: واردات کالا به یک کشور\nمترادف‌ها:\n- Import (واردات)\n- Einbringen (وارد کردن)\nمتضادها:\n- Ausfuhr (صادرات)\n- Ausfuhrung (خروج کالا)"
+    "Sound_de": "Pflanzen",
+    "root": "اجزای تشکیل‌دهنده:\nPflanze (گیاه، از pflanzen کاشتن)\nمعنی کلی: گیاهان = موجودات سبز\nمترادف‌ها:\n- die Gewächse (رشدکننده‌ها)"
+  },
+  {
+    "Sound_de": "Tiere",
+    "root": "اجزای تشکیل‌دهنده:\nTier (حیوان، از قدیمی آلمانی tior)\nمعنی کلی: حیوانات = موجودات متحرک\nمترادف‌ها:\n- die Fauna (جانوران)\nمتضادها:\n- die Pflanzen (گیاهان)\n- die Menschen (انسان‌ها)"
+  },
+  {
+    "Sound_de": "Klima - die Klimata",
+    "root": "اجزای تشکیل‌دهنده:\nKlima (از یونانی klima، شیب یا منطقه)\nمعنی کلی: آب و هوا = شرایط جوی بلندمدت\nمترادف‌ها:\n- das Wetter (آب و هوا، اما کوتاه‌مدت)"
+  },
+  {
+    "Sound_de": "Wetter - die Wetter",
+    "root": "اجزای تشکیل‌دهنده:\nWetter (از قدیمی آلمانی wetar، باد یا هوا)\nمعنی کلی: هوا = شرایط جوی کوتاه‌مدت\nمترادف‌ها:\n- das Klima (آب و هوا، اما بلندمدت)\nمتضادها:\n- schönes Wetter (هوای خوب) vs schlechtes Wetter (هوای بد)"
+  },
+  {
+    "Sound_de": "Reisen - Verkehr",
+    "root": "اجزای تشکیل‌دهنده:\nReisen (سفر کردن) - Verkehr (ترافیک یا حمل و نقل)\nمعنی کلی: سفرها - ترافیک = جابجایی و حمل\nمترادف‌ها:\n- das Fahren (رانندگی)"
+  },
+  {
+    "Sound_de": "privater Und öffentlicher Verkehr",
+    "root": "اجزای تشکیل‌دهنده:\nPrivat (خصوصی) + Öffentlich (عمومی) + Verkehr (حمل و نقل)\nمعنی کلی: حمل و نقل خصوصی و عمومی = وسایل شخصی و عمومی\nمترادف‌ها:\n- der Nahverkehr (حمل محلی)"
+  },
+  {
+    "Sound_de": "Reisen",
+    "root": "اجزای تشکیل‌دهنده:\nReise (سفر، از reisen سفر کردن)\nمعنی کلی: سفرها = جابجایی دور\nمترادف‌ها:\n- die Tour (تور)\n- die Fahrt (سفر)\nمتضادها:\n- der Aufenthalt (اقامت)"
+  },
+  {
+    "Sound_de": "Unterkunft - die Unterkünfte",
+    "root": "اجزای تشکیل‌دهنده:\nUnter (زیر) + Kunft (آمدن، پناه)\nمعنی کلی: اقامتگاه = محل ماندن\nمترادف‌ها:\n- die Herberge (پناهگاه)\n- das Hotel (هتل)"
+  },
+  {
+    "Sound_de": "Gepäck - die Gepäcke",
+    "root": "اجزای تشکیل‌دهنده:\nGe (جمعی) + Päck (بسته)\nمعنی کلی: چمدان = وسایل حمل‌شده\nمترادف‌ها:\n- das Gepäckstück (قطعه چمدان)\n- die Tasche (کیف)"
+  },
+  {
+    "Sound_de": "Nahrungsmittel - die Nahrungsmittel",
+    "root": "اجزای تشکیل‌دهنده:\nNahrung (غذا) + Mittel (وسیله)\nمعنی کلی: مواد غذایی = وسایل تغذیه\nمترادف‌ها:\n- die Lebensmittel (مواد زندگی)"
+  },
+  {
+    "Sound_de": "Mahlzeiten",
+    "root": "اجزای تشکیل‌دهنده:\nMahl (غذا) + Zeit (زمان)\nمعنی کلی: وعده‌های غذایی = زمان‌های غذا\nمترادف‌ها:\n- die Essen (غذاها)"
+  },
+  {
+    "Sound_de": "Speisen",
+    "root": "اجزای تشکیل‌دهنده:\nSpeise (غذا، از speisen غذا دادن)\nمعنی کلی: غذاها = اقلام خوردنی\nمترادف‌ها:\n- die Gerichte (ظرف‌ها)"
+  },
+  {
+    "Sound_de": "Getränke",
+    "root": "اجزای تشکیل‌دهنده:\nGetränk (نوشیدنی، از trinken نوشیدن)\nمعنی کلی: نوشیدنی‌ها = مایعات خوردنی\nمترادف‌ها:\n- die Flüssigkeiten (مایعات)"
+  },
+  {
+    "Sound_de": "Lokale (Restaurant, Café)",
+    "root": "اجزای تشکیل‌دهنده:\nLokal (محلی)\nمعنی کلی: مکان‌ها (رستوران، کافه) = مکان‌های عمومی خوردن\nمترادف‌ها:\n- das Restaurant (رستوران)\n- das Café (کافه)"
+  },
+  {
+    "Sound_de": "einkaufen - Gebrauchsartikel",
+    "root": "اجزای تشکیل‌دهنده:\nEin (در) + kaufen (خریدن) - Gebrauchs (استفاده) + artikel (اقلام)\nمعنی کلی: خرید - اقلام مصرفی = خرید چیزهای مفید\nمترادف‌ها:\n- das Shoppen (خرید)"
+  },
+  {
+    "Sound_de": "Geschäfte",
+    "root": "اجزای تشکیل‌دهنده:\nGeschäft (کسب و کار)\nمعنی کلی: فروشگاه‌ها = مکان‌های تجاری\nمترادف‌ها:\n- die Läden (مغازه‌ها)"
+  },
+  {
+    "Sound_de": "Preis - die Preise",
+    "root": "اجزای تشکیل‌دهنده:\nPreis (از قدیمی آلمانی pris، ارزش)\nمعنی کلی: قیمت = ارزش پولی\nمترادف‌ها:\n- der Kosten (هزینه)\n- der Wert (ارزش)\nمتضادها:\n- billig (ارزان) vs teuer (گران)"
+  },
+  {
+    "Sound_de": "Lebensmittel - die Lebensmittel",
+    "root": "اجزای تشکیل‌دهنده:\nLeben (زندگی) + Mittel (وسیله)\nمعنی کلی: مواد غذایی = وسایل زندگی\nمترادف‌ها:\n- die Nahrungsmittel (مواد غذایی)"
+  },
+  {
+    "Sound_de": "Kleidung - die Kleidungen",
+    "root": "اجزای تشکیل‌دهنده:\nKleid (لباس) + ung (اسم‌ساز)\nمعنی کلی: لباس = پوشش بدن\nمترادف‌ها:\n- die Bekleidung (پوشاک)\n- die Garderobe (گاردروب)"
+  },
+  {
+    "Sound_de": "Dienstleistungen",
+    "root": "اجزای تشکیل‌دهنده:\nDienst (خدمت) + Leistung (عملکرد)\nمعنی کلی: خدمات = عملکردهای خدماتی\nمترادف‌ها:\n- die Services (سرویس‌ها)"
+  },
+  {
+    "Sound_de": "Post - die Posten",
+    "root": "اجزای تشکیل‌دهنده:\nPost (از لاتین positus، قرار داده شده)\nمعنی کلی: پست = سیستم ارسال\nمترادف‌ها:\n- die Briefpost (پست نامه)"
+  },
+  {
+    "Sound_de": "Telekommunikation - die Telekommunikationen",
+    "root": "اجزای تشکیل‌دهنده:\nTele (دور) + Kommunikation (ارتباط)\nمعنی کلی: ارتباطات دور = سیستم‌های ارتباطی\nمترادف‌ها:\n- die Fernkommunikation (ارتباط دور)"
+  },
+  {
+    "Sound_de": "Banken",
+    "root": "اجزای تشکیل‌دهنده:\nBank (از ایتالیایی banca، نیمکت)\nمعنی کلی: بانک‌ها = موسسات مالی\nمترادف‌ها:\n- die Kreditinstitute (موسسات اعتباری)"
+  },
+  {
+    "Sound_de": "Polizei - die Polizeien",
+    "root": "اجزای تشکیل‌دهنده:\nPolizei (از یونانی polis، شهر)\nمعنی کلی: پلیس = نیروی نظم\nمترادف‌ها:\n- die Ordnungshüter (نگهبانان نظم)"
+  },
+  {
+    "Sound_de": "erziehung - Ausbildung - Lernen",
+    "root": "اجزای تشکیل‌دهنده:\nErziehung (تربیت) - Ausbildung (آموزش) - Lernen (یادگیری)\nمعنی کلی: تربیت - آموزش - یادگیری = فرآیندهای آموزشی\nمترادف‌ها:\n- die Bildung (آموزش)"
+  },
+  {
+    "Sound_de": "Kinderbetreuung - die Kinderbetreuungen",
+    "root": "اجزای تشکیل‌دهنده:\nKind (کودک) + Betreuung (مراقبت)\nمعنی کلی: مراقبت از کودکان = نگهداری بچه‌ها\nمترادف‌ها:\n- die Kinderpflege (پرستاری کودکان)"
+  },
+  {
+    "Sound_de": "Schule - die Schulen",
+    "root": "اجزای تشکیل‌دهنده:\nSchule (از یونانی schole، اوقات فراغت)\nمعنی کلی: مدرسه = مکان یادگیری\nمترادف‌ها:\n- das Bildungsinstitut (موسسه آموزشی)\nمتضادها:\n- der Urlaub (تعطیلات)"
+  },
+  {
+    "Sound_de": "Sprachen lernen",
+    "root": "اجزای تشکیل‌دهنده:\nSprache (زبان) + lernen (یادگیری)\nمعنی کلی: یادگیری زبان‌ها = آموختن زبان\nمترادف‌ها:\n- das Sprachstudium (مطالعه زبان)"
+  },
+  {
+    "Sound_de": "Arbeit - Beruf",
+    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار) - Beruf (شغل)\nمعنی کلی: کار - حرفه = فعالیت درآمدزا\nمترادف‌ها:\n- der Job (شغل)\nمتضادها:\n- die Freizeit (اوقات فراغت)"
+  },
+  {
+    "Sound_de": "Arbeitsplatz - die Arbeitsplätze",
+    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار) + Platz (مکان)\nمعنی کلی: محل کار = جایی برای کار\nمترادف‌ها:\n- der Jobort (محل شغل)"
+  },
+  {
+    "Sound_de": "Urlaub - die Urlaube",
+    "root": "اجزای تشکیل‌دهنده:\nUr (اصلی) + Laub (اجازه، از erlauben)\nمعنی کلی: تعطیلات = زمان استراحت\nمترادف‌ها:\n- der Ferien (تعطیلات)\nمتضادها:\n- die Arbeit (کار)"
+  },
+  {
+    "Sound_de": "Freizeit - unterhaltung",
+    "root": "اجزای تشکیل‌دهنده:\nFrei (آزاد) + Zeit (زمان) - Unterhaltung (سرگرمی)\nمعنی کلی: اوقات فراغت - سرگرمی = زمان آزاد\nمترادف‌ها:\n- die Erholung (استراحت)"
+  },
+  {
+    "Sound_de": "Interessen",
+    "root": "اجزای تشکیل‌دهنده:\nInteresse (علاقه، از لاتین inter esse)\nمعنی کلی: علایق = چیزهای جذاب\nمترادف‌ها:\n- die Hobbys (سرگرمی‌ها)"
+  },
+  {
+    "Sound_de": "Sport treiben",
+    "root": "اجزای تشکیل‌دهنده:\nSport (ورزش) + treiben (انجام دادن)\nمعنی کلی: ورزش کردن = فعالیت بدنی\nمترادف‌ها:\n- das Trainieren (تمرین کردن)"
+  },
+  {
+    "Sound_de": "Radio - die Radios",
+    "root": "اجزای تشکیل‌دهنده:\nRadio (از لاتین radius، پرتو)\nمعنی کلی: رادیو = دستگاه پخش صدا\nمترادف‌ها:\n- das Rundfunk (پخش گرد)"
+  },
+  {
+    "Sound_de": "Fernsehen - die Fernseher",
+    "root": "اجزای تشکیل‌دهنده:\nFern (دور) + sehen (دیدن)\nمعنی کلی: تلویزیون = دیدن از دور\nمترادف‌ها:\n- das TV (تی‌وی)"
+  },
+  {
+    "Sound_de": "Internet - die Internete",
+    "root": "اجزای تشکیل‌دهنده:\nInter (بین) + net (شبکه)\nمعنی کلی: اینترنت = شبکه بین‌المللی\nمترادف‌ها:\n- das Web (وب)\n- das Netz (شبکه)"
+  },
+  {
+    "Sound_de": "Lektüre - die Lektüren",
+    "root": "اجزای تشکیل‌دهنده:\nLektüre (از لاتین legere، خواندن)\nمعنی کلی: مطالعه = مواد خواندنی\nمترادف‌ها:\n- die Lesestoff (مواد خواندنی)"
+  },
+  {
+    "Sound_de": "Presse - die Pressen",
+    "root": "اجزای تشکیل‌دهنده:\nPresse (از فرانسوی presse، فشار)\nمعنی کلی: مطبوعات = رسانه‌های چاپی\nمترادف‌ها:\n- die Medien (رسانه‌ها)"
+  },
+  {
+    "Sound_de": "eins",
+    "root": "اجزای تشکیل‌دهنده:\neins (یک، از قدیمی آلمانی ein)\nمعنی کلی: یک = عدد 1\nمترادف‌ها:\n- der Eine (یکی)"
+  },
+  {
+    "Sound_de": "zwei",
+    "root": "اجزای تشکیل‌دهنده:\nzwei (دو، از قدیمی آلمانی zwei)\nمعنی کلی: دو = عدد 2\nمترادف‌ها:\n- der Zweite (دوم)"
+  },
+  {
+    "Sound_de": "drei",
+    "root": "اجزای تشکیل‌دهنده:\ndrei (سه، از قدیمی آلمانی dri)\nمعنی کلی: سه = عدد 3"
+  },
+  {
+    "Sound_de": "vier",
+    "root": "اجزای تشکیل‌دهنده:\nvier (چهار، از قدیمی آلمانی fior)\nمعنی کلی: چهار = عدد 4"
+  },
+  {
+    "Sound_de": "fünf",
+    "root": "اجزای تشکیل‌دهنده:\nfünf (پنج، از قدیمی آلمانی fimf)\nمعنی کلی: پنج = عدد 5"
+  },
+  {
+    "Sound_de": "sechs",
+    "root": "اجزای تشکیل‌دهنده:\nsechs (شش، از قدیمی آلمانی sehs)\nمعنی کلی: شش = عدد 6"
+  },
+  {
+    "Sound_de": "sieben",
+    "root": "اجزای تشکیل‌دهنده:\nsieben (هفت، از قدیمی آلمانی sibun)\nمعنی کلی: هفت = عدد 7"
+  },
+  {
+    "Sound_de": "acht",
+    "root": "اجزای تشکیل‌دهنده:\nacht (هشت، از قدیمی آلمانی ahto)\nمعنی کلی: هشت = عدد 8"
+  },
+  {
+    "Sound_de": "neun",
+    "root": "اجزای تشکیل‌دهنده:\nneun (نه، از قدیمی آلمانی niun)\nمعنی کلی: نه = عدد 9"
+  },
+  {
+    "Sound_de": "zehn",
+    "root": "اجزای تشکیل‌دهنده:\nzehn (ده، از قدیمی آلمانی zehan)\nمعنی کلی: ده = عدد 10"
+  },
+  {
+    "Sound_de": "elf",
+    "root": "اجزای تشکیل‌دهنده:\nelf (یازده، از قدیمی آلمانی einlif)\nمعنی کلی: یازده = عدد 11"
+  },
+  {
+    "Sound_de": "zwölf",
+    "root": "اجزای تشکیل‌دهنده:\nzwölf (دوازده، از قدیمی آلمانی zwelif)\nمعنی کلی: دوازده = عدد 12"
+  },
+  {
+    "Sound_de": "dreizehn",
+    "root": "اجزای تشکیل‌دهنده:\ndrei (سه) + zehn (ده)\nمعنی کلی: سیزده = عدد 13"
+  },
+  {
+    "Sound_de": "vierzehn",
+    "root": "اجزای تشکیل‌دهنده:\nvier (چهار) + zehn (ده)\nمعنی کلی: چهارده = عدد 14"
+  },
+  {
+    "Sound_de": "fünfzehn",
+    "root": "اجزای تشکیل‌دهنده:\nfünf (پنج) + zehn (ده)\nمعنی کلی: پانزده = عدد 15"
+  },
+  {
+    "Sound_de": "sechzehn",
+    "root": "اجزای تشکیل‌دهنده:\nsechs (شش) + zehn (ده)\nمعنی کلی: شانزده = عدد 16"
+  },
+  {
+    "Sound_de": "siebzehn",
+    "root": "اجزای تشکیل‌دهنده:\nsieben (هفت) + zehn (ده)\nمعنی کلی: هفده = عدد 17"
+  },
+  {
+    "Sound_de": "achtzehn",
+    "root": "اجزای تشکیل‌دهنده:\nacht (هشت) + zehn (ده)\nمعنی کلی: هجده = عدد 18"
+  },
+  {
+    "Sound_de": "neunzehn",
+    "root": "اجزای تشکیل‌دهنده:\nneun (نه) + zehn (ده)\nمعنی کلی: نوزده = عدد 19"
+  },
+  {
+    "Sound_de": "zwanzig",
+    "root": "اجزای تشکیل‌دهنده:\nzwanzig (بیست، از zwei zehn)\nمعنی کلی: بیست = عدد 20"
+  },
+  {
+    "Sound_de": "einundzwanzig",
+    "root": "اجزای تشکیل‌دهنده:\nein (یک) + und (و) + zwanzig (بیست)\nمعنی کلی: بیست و یک = عدد 21"
+  },
+  {
+    "Sound_de": "dreißig",
+    "root": "اجزای تشکیل‌دهنده:\ndrei (سه) + ßig (ده‌گانه)\nمعنی کلی: سی = عدد 30"
+  },
+  {
+    "Sound_de": "vierzig",
+    "root": "اجزای تشکیل‌دهنده:\nvier (چهار) + zig (ده‌گانه)\nمعنی کلی: چهل = عدد 40"
+  },
+  {
+    "Sound_de": "fünfzig",
+    "root": "اجزای تشکیل‌دهنده:\nfünf (پنج) + zig (ده‌گانه)\nمعنی کلی: پنجاه = عدد 50"
+  },
+  {
+    "Sound_de": "sechzig",
+    "root": "اجزای تشکیل‌دهنده:\nsechs (شش) + zig (ده‌گانه)\nمعنی کلی: شصت = عدد 60"
+  },
+  {
+    "Sound_de": "siebzig",
+    "root": "اجزای تشکیل‌دهنده:\nsieben (هفت) + zig (ده‌گانه)\nمعنی کلی: هفتاد = عدد 70"
+  },
+  {
+    "Sound_de": "achtzig",
+    "root": "اجزای تشکیل‌دهنده:\nacht (هشت) + zig (ده‌گانه)\nمعنی کلی: هشتاد = عدد 80"
+  },
+  {
+    "Sound_de": "neunzig",
+    "root": "اجزای تشکیل‌دهنده:\nneun (نه) + zig (ده‌گانه)\nمعنی کلی: نود = عدد 90"
+  },
+  {
+    "Sound_de": "ein hundert",
+    "root": "اجزای تشکیل‌دهنده:\nein (یک) + hundert (صد)\nمعنی کلی: صد = عدد 100"
+  },
+  {
+    "Sound_de": "hunderteins",
+    "root": "اجزای تشکیل‌دهنده:\nhundert (صد) + eins (یک)\nمعنی کلی: صد و یک = عدد 101"
+  },
+  {
+    "Sound_de": "zweihundert",
+    "root": "اجزای تشکیل‌دهنده:\nzwei (دو) + hundert (صد)\nمعنی کلی: دویست = عدد 200"
+  },
+  {
+    "Sound_de": "ein tausend",
+    "root": "اجزای تشکیل‌دهنده:\nein (یک) + tausend (هزار)\nمعنی کلی: هزار = عدد 1000"
+  },
+  {
+    "Sound_de": "eine Million - die Millionen",
+    "root": "اجزای تشکیل‌دهنده:\nMillion (از ایتالیایی milione، بزرگ هزار)\nمعنی کلی: میلیون = عدد 1000000"
+  },
+  {
+    "Sound_de": "eine Milliarde - die Milliarden",
+    "root": "اجزای تشکیل‌دهنده:\nMilliarde (میلیارد، هزار میلیون)\nمعنی کلی: میلیارد = عدد 1000000000"
+  },
+  {
+    "Sound_de": "erste",
+    "root": "اجزای تشکیل‌دهنده:\nerst (اول، از erster)\nمعنی کلی: اول = ترتیبی 1\nمترادف‌ها:\n- der Erste (اول)\nمتضادها:\n- der Letzte (آخر)"
+  },
+  {
+    "Sound_de": "zweite",
+    "root": "اجزای تشکیل‌دهنده:\nzweit (دوم)\nمعنی کلی: دوم = ترتیبی 2\nمتضادها:\n- der Erste (اول)"
+  },
+  {
+    "Sound_de": "dritte",
+    "root": "اجزای تشکیل‌دهنده:\ndritt (سوم)\nمعنی کلی: سوم = ترتیبی 3"
+  },
+  {
+    "Sound_de": "vierte",
+    "root": "اجزای تشکیل‌دهنده:\nviert (چهارم)\nمعنی کلی: چهارم = ترتیبی 4"
+  },
+  {
+    "Sound_de": "USW",
+    "root": "اجزای تشکیل‌دهنده:\nU (و) + S (چنین) + W (و غیره)\nمعنی کلی: و غیره = und so weiter"
+  },
+  {
+    "Sound_de": "Datum - die Daten",
+    "root": "اجزای تشکیل‌دهنده:\nDatum (تاریخ، از لاتین datum داده‌شده)\nمعنی کلی: تاریخ = روز و ماه و سال"
+  },
+  {
+    "Sound_de": "1/2 = ein halb- halb",
+    "root": "اجزای تشکیل‌دهنده:\nein (یک) + halb (نیم)\nمعنی کلی: نیم = 1/2\nمترادف‌ها:\n- die Hälfte (نیمه)"
+  },
+  {
+    "Sound_de": "1/4 = ein Viertel- Viertel",
+    "root": "اجزای تشکیل‌دهنده:\nViertel (یک چهارم)\nمعنی کلی: یک چهارم = 1/4"
+  },
+  {
+    "Sound_de": "1999 = neunzehnhundertneunundneunzig",
+    "root": "اجزای تشکیل‌دهنده:\nneunzehn (نوزده) + hundert (صد) + neun (نه) + und (و) + neunzig (نود)\nمعنی کلی: 1999 = سال خوانده‌شده"
+  },
+  {
+    "Sound_de": "2014 = zweitausendvierzehn",
+    "root": "اجزای تشکیل‌دهنده:\nzwei (دو) + tausend (هزار) + vierzehn (چهارده)\nمعنی کلی: 2014 = سال خوانده‌شده"
+  },
+  {
+    "Sound_de": "heute ist der 1- März = heute ist der erste März - der erste Dritte",
+    "root": "اجزای تشکیل‌دهنده:\nder erste (اول) + März (مارس)\nمعنی کلی: امروز اول مارس است"
+  },
+  {
+    "Sound_de": "Berlin, 12- April 2002 = Berlin, zwölfter Vierter zweitausendzwei",
+    "root": "اجزای تشکیل‌دهنده:\nzwölfter (دوازدهم) + April (آوریل) + zweitausendzwei (2002)\nمعنی کلی: برلین، 12 آوریل 2002"
+  },
+  {
+    "Sound_de": "Uhrzeit - die Uhrzeiten",
+    "root": "اجزای تشکیل‌دهنده:\nUhr (ساعت) + Zeit (زمان)\nمعنی کلی: زمان ساعت = ساعت روز"
+  },
+  {
+    "Sound_de": "0.03 Uhr = null Uhr drei",
+    "root": "اجزای تشکیل‌دهنده:\nnull (صفر) + Uhr (ساعت) + drei (سه)\nمعنی کلی: 00:03 = صفر ساعت سه"
+  },
+  {
+    "Sound_de": "7.15 Uhr = sieben Uhr fünfzehn",
+    "root": "اجزای تشکیل‌دهنده:\nsieben (هفت) + Uhr (ساعت) + fünfzehn (پانزده)\nمعنی کلی: 07:15 = هفت ساعت پانزده"
+  },
+  {
+    "Sound_de": "13.17 Uhr = dreizehn Uhr siebzehn",
+    "root": "اجزای تشکیل‌دهنده:\ndreizehn (سیزده) + Uhr (ساعت) + siebzehn (هفده)\nمعنی کلی: 13:17 = سیزده ساعت هفده"
+  },
+  {
+    "Sound_de": "24.00 Uhr = vierundzwanzig Uhr",
+    "root": "اجزای تشکیل‌دهنده:\nvierundzwanzig (بیست و چهار) + Uhr (ساعت)\nمعنی کلی: 24:00 = بیست و چهار ساعت"
+  },
+  {
+    "Sound_de": "ein Uhr",
+    "root": "اجزای تشکیل‌دهنده:\nein (یک) + Uhr (ساعت)\nمعنی کلی: یک ساعت"
+  },
+  {
+    "Sound_de": "fünf Minuten vor",
+    "root": "اجزای تشکیل‌دهنده:\nfünf (پنج) + Minuten (دقیقه) + vor (قبل)\nمعنی کلی: پنج دقیقه قبل"
+  },
+  {
+    "Sound_de": "nach eins (ein Uhr)",
+    "root": "اجزای تشکیل‌دهنده:\nnach (پس از) + eins (یک)\nمعنی کلی: پس از یک"
+  },
+  {
+    "Sound_de": "Viertel vor",
+    "root": "اجزای تشکیل‌دهنده:\nViertel (یک چهارم) + vor (قبل)\nمعنی کلی: یک ربع قبل"
+  },
+  {
+    "Sound_de": "nach zwei (zwei Uhr)",
+    "root": "اجزای تشکیل‌دهنده:\nnach (پس از) + zwei (دو)\nمعنی کلی: پس از دو"
+  },
+  {
+    "Sound_de": "halb drei",
+    "root": "اجزای تشکیل‌دهنده:\nhalb (نیم) + drei (سه)\nمعنی کلی: نیم سه = 2:30"
+  },
+  {
+    "Sound_de": "zeitmaße - zeitangaben",
+    "root": "اجزای تشکیل‌دهنده:\nZeit (زمان) + Maße (اندازه) - Angaben (اطلاعات)\nمعنی کلی: اندازه‌های زمان - اطلاعات زمان"
+  },
+  {
+    "Sound_de": "die Sekunde - die Sekunden",
+    "root": "اجزای تشکیل‌دهنده:\nSekunde (ثانیه، از لاتین secunda)\nمعنی کلی: ثانیه = واحد زمان"
+  },
+  {
+    "Sound_de": "die Minute - die Minuten",
+    "root": "اجزای تشکیل‌دهنده:\nMinute (دقیقه، از لاتین minuta)\nمعنی کلی: دقیقه = 60 ثانیه"
+  },
+  {
+    "Sound_de": "die Stunde - die Stunden",
+    "root": "اجزای تشکیل‌دهنده:\nStunde (ساعت، از قدیمی آلمانی stunta)\nمعنی کلی: ساعت = 60 دقیقه"
+  },
+  {
+    "Sound_de": "der Tag - die Tage",
+    "root": "اجزای تشکیل‌دهنده:\nTag (روز، از قدیمی آلمانی tag)\nمعنی کلی: روز = 24 ساعت\nمتضادها:\n- die Nacht (شب)"
+  },
+  {
+    "Sound_de": "die Woche - die Wochen",
+    "root": "اجزای تشکیل‌دهنده:\nWoche (هفته، از قدیمی آلمانی wohha)\nمعنی کلی: هفته = 7 روز"
+  },
+  {
+    "Sound_de": "das Jahr - die Jahre",
+    "root": "اجزای تشکیل‌دهنده:\nJahr (سال، از قدیمی آلمانی jar)\nمعنی کلی: سال = 365 روز"
+  },
+  {
+    "Sound_de": "woche - wochentage",
+    "root": "اجزای تشکیل‌دهنده:\nWoche (هفته) - Wochentage (روزهای هفته)\nمعنی کلی: هفته - روزهای هفته"
+  },
+  {
+    "Sound_de": "der Wochentag - die Wochentage",
+    "root": "اجزای تشکیل‌دهنده:\nWochen (هفته) + Tag (روز)\nمعنی کلی: روز هفته = یکی از هفت روز"
+  },
+  {
+    "Sound_de": "der Sonntag - die Sonntage",
+    "root": "اجزای تشکیل‌دهنده:\nSonn (خورشید) + Tag (روز)\nمعنی کلی: یکشنبه = روز خورشید"
+  },
+  {
+    "Sound_de": "der Montag - die Montage",
+    "root": "اجزای تشکیل‌دهنده:\nMond (ماه) + Tag (روز)\nمعنی کلی: دوشنبه = روز ماه"
+  },
+  {
+    "Sound_de": "der Dienstag - die Dienstage",
+    "root": "اجزای تشکیل‌دهنده:\nDien (خدمت، از Tyr خدای) + Tag (روز)\nمعنی کلی: سه‌شنبه = روز تیر"
+  },
+  {
+    "Sound_de": "der Mittwoch - die Mittwoche",
+    "root": "اجزای تشکیل‌دهنده:\nMitt (وسط) + Woche (هفته)\nمعنی کلی: چهارشنبه = وسط هفته"
+  },
+  {
+    "Sound_de": "der Donnerstag - die Donnerstage",
+    "root": "اجزای تشکیل‌دهنده:\nDonner (رعد، از Thor) + Tag (روز)\nمعنی کلی: پنج‌شنبه = روز تور"
+  },
+  {
+    "Sound_de": "der Freitag - die Freitage",
+    "root": "اجزای تشکیل‌دهنده:\nFrei (آزاد، از Frigg) + Tag (روز)\nمعنی کلی: جمعه = روز فریگ"
+  },
+  {
+    "Sound_de": "der Samstag - Sonnabend - die Samstage - Sonnabende",
+    "root": "اجزای تشکیل‌دهنده:\nSam (جمع، از Sabbath) + Tag (روز) - Sonn (خورشید) + Abend (عصر)\nمعنی کلی: شنبه = روز جمع یا عصر خورشید"
+  },
+  {
+    "Sound_de": "das Wochenende - die Wochenenden",
+    "root": "اجزای تشکیل‌دهنده:\nWoche (هفته) + Ende (پایان)\nمعنی کلی: آخر هفته = پایان هفته"
+  },
+  {
+    "Sound_de": "am Wochenende",
+    "root": "اجزای تشکیل‌دهنده:\nam (در) + Wochenende (آخر هفته)\nمعنی کلی: در آخر هفته"
+  },
+  {
+    "Sound_de": "Tag - Tageszeiten",
+    "root": "اجزای تشکیل‌دهنده:\nTag (روز) - Tageszeiten (زمان‌های روز)\nمعنی کلی: روز - زمان‌های روز"
+  },
+  {
+    "Sound_de": "der Tag - die Tage",
+    "root": "اجزای تشکیل‌دهنده:\nTag (روز)\nمعنی کلی: روز = دوره روشن"
+  },
+  {
+    "Sound_de": "der Morgen - die Morgen",
+    "root": "اجزای تشکیل‌دهنده:\nMorgen (صبح، از morge)\nمعنی کلی: صبح = ابتدای روز\nمتضادها:\n- der Abend (عصر)"
+  },
+  {
+    "Sound_de": "der Vormittag - die Vormittage",
+    "root": "اجزای تشکیل‌دهنده:\nVor (قبل) + Mittag (ظهر)\nمعنی کلی: قبل از ظهر = پیش از ظهر"
+  },
+  {
+    "Sound_de": "der Mittag - die Mittage",
+    "root": "اجزای تشکیل‌دهنده:\nMitt (وسط) + Tag (روز)\nمعنی کلی: ظهر = وسط روز"
+  },
+  {
+    "Sound_de": "der Nachmittag - die Nachmittage",
+    "root": "اجزای تشکیل‌دهنده:\nNach (پس) + Mittag (ظهر)\nمعنی کلی: بعد از ظهر = پس از ظهر"
+  },
+  {
+    "Sound_de": "der Abend - die Abende",
+    "root": "اجزای تشکیل‌دهنده:\nAbend (عصر، از abend)\nمعنی کلی: عصر = پایان روز\nمتضادها:\n- der Morgen (صبح)"
+  },
+  {
+    "Sound_de": "die Nacht - die Nächte",
+    "root": "اجزای تشکیل‌دهنده:\nNacht (شب، از nacht)\nمعنی کلی: شب = دوره تاریک\nمتضادها:\n- der Tag (روز)"
+  },
+  {
+    "Sound_de": "monat - monatsnamen",
+    "root": "اجزای تشکیل‌دهنده:\nMonat (ماه) - Monatsnamen (نام‌های ماه)\nمعنی کلی: ماه - نام‌های ماه"
+  },
+  {
+    "Sound_de": "der Januar - die Januare",
+    "root": "اجزای تشکیل‌دهنده:\nJanuar (ژانویه، از Janus خدای)\nمعنی کلی: ژانویه = ماه اول"
+  },
+  {
+    "Sound_de": "der Februar - die Februare",
+    "root": "اجزای تشکیل‌دهنده:\nFebruar (فوریه، از februa پاکسازی)\nمعنی کلی: فوریه = ماه دوم"
+  },
+  {
+    "Sound_de": "der März - die Märze",
+    "root": "اجزای تشکیل‌دهنده:\nMärz (مارس، از Mars خدای)\nمعنی کلی: مارس = ماه سوم"
+  },
+  {
+    "Sound_de": "der April - die Aprile",
+    "root": "اجزای تشکیل‌دهنده:\nApril (آوریل، از aperire باز کردن)\nمعنی کلی: آوریل = ماه چهارم"
+  },
+  {
+    "Sound_de": "der Mai - die Maie",
+    "root": "اجزای تشکیل‌دهنده:\nMai (مه، از Maia خدای)\nمعنی کلی: مه = ماه پنجم"
+  },
+  {
+    "Sound_de": "der Juni - die Junie",
+    "root": "اجزای تشکیل‌دهنده:\nJuni (ژوئن، از Juno خدای)\nمعنی کلی: ژوئن = ماه ششم"
+  },
+  {
+    "Sound_de": "der Juli - die Julie",
+    "root": "اجزای تشکیل‌دهنده:\nJuli (ژوئیه، از Julius Caesar)\nمعنی کلی: ژوئیه = ماه هفتم"
+  },
+  {
+    "Sound_de": "der August - die Auguste",
+    "root": "اجزای تشکیل‌دهنده:\nAugust (اوت، از Augustus)\nمعنی کلی: اوت = ماه هشتم"
+  },
+  {
+    "Sound_de": "der September - die Septembere",
+    "root": "اجزای تشکیل‌دهنده:\nSeptem (هفت) + ber (ماه)\nمعنی کلی: سپتامبر = ماه نهم"
+  },
+  {
+    "Sound_de": "der Oktober - die Oktobere",
+    "root": "اجزای تشکیل‌دهنده:\nOkto (هشت) + ber (ماه)\nمعنی کلی: اکتبر = ماه دهم"
+  },
+  {
+    "Sound_de": "der November - die Novembere",
+    "root": "اجزای تشکیل‌دهنده:\nNovem (نه) + ber (ماه)\nمعنی کلی: نوامبر = ماه یازدهم"
+  },
+  {
+    "Sound_de": "der Dezember - die Dezembere",
+    "root": "اجزای تشکیل‌دهنده:\nDezem (ده) + ber (ماه)\nمعنی کلی: دسامبر = ماه دوازدهم"
+  },
+  {
+    "Sound_de": "Jahr - Jahreszeiten",
+    "root": "اجزای تشکیل‌دهنده:\nJahr (سال) - Jahreszeiten (فصول سال)\nمعنی کلی: سال - فصول"
+  },
+  {
+    "Sound_de": "der Frühling - die Frühlings",
+    "root": "اجزای تشکیل‌دهنده:\nFrüh (زود) + ling (کوچک)\nمعنی کلی: بهار = فصل زود\nمتضادها:\n- der Herbst (پاییز)"
+  },
+  {
+    "Sound_de": "das Frühjahr - die Frühjahre",
+    "root": "اجزای تشکیل‌دهنده:\nFrüh (زود) + Jahr (سال)\nمعنی کلی: بهار = ابتدای سال\nمترادف‌ها:\n- der Frühling (بهار)"
+  },
+  {
+    "Sound_de": "der Sommer - die Sommer",
+    "root": "اجزای تشکیل‌دهنده:\nSommer (تابستان، از sum)\nمعنی کلی: تابستان = فصل گرم\nمتضادها:\n- der Winter (زمستان)"
+  },
+  {
+    "Sound_de": "der Herbst - die Herbste",
+    "root": "اجزای تشکیل‌دهنده:\nHerbst (پاییز، از harvest)\nمعنی کلی: پاییز = فصل برداشت\nمتضادها:\n- der Frühling (بهار)"
+  },
+  {
+    "Sound_de": "der Winter - die Winter",
+    "root": "اجزای تشکیل‌دهنده:\nWinter (زمستان، از wet)\nمعنی کلی: زمستان = فصل سرد\nمتضادها:\n- der Sommer (تابستان)"
+  },
+  {
+    "Sound_de": "Währungen - die Währungen",
+    "root": "اجزای تشکیل‌دهنده:\nWährung (پول، از währen دوام داشتن)\nمعنی کلی: ارزها = واحدهای پولی"
+  },
+  {
+    "Sound_de": "1 Euro - die Euros",
+    "root": "اجزای تشکیل‌دهنده:\nEuro (یورو، از اروپا)\nمعنی کلی: یورو = ارز اروپا"
+  },
+  {
+    "Sound_de": "100 Cent - die Cents",
+    "root": "اجزای تشکیل‌دهنده:\nCent (سنت، از صد)\nمعنی کلی: سنت = 1/100 یورو"
+  },
+  {
+    "Sound_de": "Maße und Gewichte",
+    "root": "اجزای تشکیل‌دهنده:\nMaße (اندازه‌ها) + und (و) + Gewichte (وزن‌ها)\nمعنی کلی: اندازه‌ها و وزن‌ها"
+  },
+  {
+    "Sound_de": "ein Meter = 1m",
+    "root": "اجزای تشکیل‌دهنده:\nMeter (متر، از یونانی metron)\nمعنی کلی: متر = واحد طول"
+  },
+  {
+    "Sound_de": "ein Zentimeter = 1 cm",
+    "root": "اجزای تشکیل‌دهنده:\nZenti (صد) + meter (متر)\nمعنی کلی: سانتی‌متر = 1/100 متر"
+  },
+  {
+    "Sound_de": "ein Meter fünfzehn = 1,15 m",
+    "root": "اجزای تشکیل‌دهنده:\nein Meter (یک متر) + fünfzehn (پانزده)\nمعنی کلی: یک متر پانزده = 1.15 متر"
+  },
+  {
+    "Sound_de": "zweihundert Kilometer = 200 km",
+    "root": "اجزای تشکیل‌دهنده:\nzweihundert (دویست) + Kilo (هزار) + meter (متر)\nمعنی کلی: دویست کیلومتر = 200 کیلومتر"
+  },
+  {
+    "Sound_de": "ein Quadratmeter = 1 m 2",
+    "root": "اجزای تشکیل‌دهنده:\nQuadrat (مربع) + meter (متر)\nمعنی کلی: متر مربع = واحد مساحت"
+  },
+  {
+    "Sound_de": "ein Grad unter Null - minus ein Grad = - 1",
+    "root": "اجزای تشکیل‌دهنده:\nGrad (درجه) + unter Null (زیر صفر)\nمعنی کلی: یک درجه زیر صفر = -1"
+  },
+  {
+    "Sound_de": "vier Grad Über Null - PIUS vier Grad = + 4",
+    "root": "اجزای تشکیل‌دهنده:\nvier Grad (چهار درجه) + über Null (بالای صفر)\nمعنی کلی: چهار درجه بالای صفر = +4"
+  },
+  {
+    "Sound_de": "ein Prozent = 1%",
+    "root": "اجزای تشکیل‌دهنده:\nPro (برای) + Zent (صد)\nمعنی کلی: درصد = 1/100"
+  },
+  {
+    "Sound_de": "ein Liter = 1L",
+    "root": "اجزای تشکیل‌دهنده:\nLiter (لیتر، از یونانی litra)\nمعنی کلی: لیتر = واحد حجم"
+  },
+  {
+    "Sound_de": "ein Gramm = 1g",
+    "root": "اجزای تشکیل‌دهنده:\nGramm (گرم، از یونانی gramma)\nمعنی کلی: گرم = واحد وزن"
+  },
+  {
+    "Sound_de": "ein Pfund = 500g",
+    "root": "اجزای تشکیل‌دهنده:\nPfund (پوند، از لاتین pondus)\nمعنی کلی: پوند = 500 گرم"
+  },
+  {
+    "Sound_de": "ein Kilo(gramm) = 1kg",
+    "root": "اجزای تشکیل‌دهنده:\nKilo (هزار) + Gramm (گرم)\nمعنی کلی: کیلوگرم = 1000 گرم"
+  },
+  {
+    "Sound_de": "Länder - Ländernamen - Nationalitäten",
+    "root": "اجزای تشکیل‌دهنده:\nLand (کشور) - Namen (نام‌ها) - Nationalitäten (ملیت‌ها)\nمعنی کلی: کشورها - نام کشورها - ملیت‌ها"
+  },
+  {
+    "Sound_de": "Deutschland - die Deutschlands",
+    "root": "اجزای تشکیل‌دهنده:\nDeutsch (آلمانی) + Land (کشور)\nمعنی کلی: آلمان = کشور آلمانی"
+  },
+  {
+    "Sound_de": "die Deutsche - die Deutschen",
+    "root": "اجزای تشکیل‌دهنده:\nDeutsche (آلمانی، مونث)\nمعنی کلی: آلمانی (مونث) = شخص آلمانی"
+  },
+  {
+    "Sound_de": "ein Deutscher - die Deutschen",
+    "root": "اجزای تشکیل‌دهنده:\nDeutscher (آلمانی، مذکر)\nمعنی کلی: یک آلمانی (مذکر)"
+  },
+  {
+    "Sound_de": "eine Deutsche - die Deutschen",
+    "root": "اجزای تشکیل‌دهنده:\nDeutsche (آلمانی، مونث)\nمعنی کلی: یک آلمانی (مونث)"
+  },
+  {
+    "Sound_de": "Deutsche - die Deutschen",
+    "root": "اجزای تشکیل‌دهنده:\nDeutsche (آلمانی‌ها)\nمعنی کلی: آلمانی‌ها = مردم آلمان"
+  },
+  {
+    "Sound_de": "deutsch",
+    "root": "اجزای تشکیل‌دهنده:\ndeutsch (آلمانی، از theodisk مردم)\nمعنی کلی: آلمانی = مربوط به آلمان"
+  },
+  {
+    "Sound_de": "Europa - die Europas",
+    "root": "اجزای تشکیل‌دهنده:\nEuropa (اروپا، از یونانی)\nمعنی کلی: اروپا = قاره"
+  },
+  {
+    "Sound_de": "Europäer - die Europäer",
+    "root": "اجزای تشکیل‌دهنده:\nEuropa + er (شخص)\nمعنی کلی: اروپایی = شخص اروپایی"
+  },
+  {
+    "Sound_de": "europäisch",
+    "root": "اجزای تشکیل‌دهنده:\neuropäisch (اروپایی)\nمعنی کلی: اروپایی = مربوط به اروپا"
+  },
+  {
+    "Sound_de": "Farben - die Farben",
+    "root": "اجزای تشکیل‌دهنده:\nFarbe (رنگ، از farba)\nمعنی کلی: رنگ‌ها = کیفیت بصری"
+  },
+  {
+    "Sound_de": "schwarz",
+    "root": "اجزای تشکیل‌دهنده:\nschwarz (سیاه، از swarz)\nمعنی کلی: سیاه = بدون نور\nمتضادها:\n- weiß (سفید)"
+  },
+  {
+    "Sound_de": "weiß",
+    "root": "اجزای تشکیل‌دهنده:\nweiß (سفید، از hwiz)\nمعنی کلی: سفید = همه نور\nمتضادها:\n- schwarz (سیاه)"
+  },
+  {
+    "Sound_de": "grau",
+    "root": "اجزای تشکیل‌دهنده:\ngrau (خاکستری، از grao)\nمعنی کلی: خاکستری = بین سیاه و سفید"
+  },
+  {
+    "Sound_de": "rot",
+    "root": "اجزای تشکیل‌دهنده:\nrot (قرمز، از rot)\nمعنی کلی: قرمز = رنگ خون\nمتضادها:\n- grün (سبز، در برخی زمینه‌ها)"
+  },
+  {
+    "Sound_de": "blau",
+    "root": "اجزای تشکیل‌دهنده:\nblau (آبی، از blao)\nمعنی کلی: آبی = رنگ آسمان"
+  },
+  {
+    "Sound_de": "gelb",
+    "root": "اجزای تشکیل‌دهنده:\ngelb (زرد، از gelwa)\nمعنی کلی: زرد = رنگ خورشید"
+  },
+  {
+    "Sound_de": "grün",
+    "root": "اجزای تشکیل‌دهنده:\ngrün (سبز، از gruo رشد کردن)\nمعنی کلی: سبز = رنگ گیاه\nمتضادها:\n- rot (قرمز، در ترافیک)"
+  },
+  {
+    "Sound_de": "braun",
+    "root": "اجزای تشکیل‌دهنده:\nbraun (قهوه‌ای، از brun)\nمعنی کلی: قهوه‌ای = رنگ زمین"
+  },
+  {
+    "Sound_de": "Himmelsrichtungen - die Himmelsrichtungen",
+    "root": "اجزای تشکیل‌دهنده:\nHimmel (آسمان) + Richtungen (جهت‌ها)\nمعنی کلی: جهت‌های آسمانی = شمال جنوب و غیره"
+  },
+  {
+    "Sound_de": "der Norden - die Norden",
+    "root": "اجزای تشکیل‌دهنده:\nNorden (شمال، از north)\nمعنی کلی: شمال = جهت بالا\nمتضادها:\n- der Süden (جنوب)"
+  },
+  {
+    "Sound_de": "der Süden - die Süden",
+    "root": "اجزای تشکیل‌دهنده:\nSüden (جنوب، از south)\nمعنی کلی: جنوب = جهت پایین\nمتضادها:\n- der Norden (شمال)"
+  },
+  {
+    "Sound_de": "der Westen - die Westen",
+    "root": "اجزای تشکیل‌دهنده:\nWesten (غرب، از west)\nمعنی کلی: غرب = جهت غروب\nمتضادها:\n- der Osten (شرق)"
+  },
+  {
+    "Sound_de": "der Osten - die Osten",
+    "root": "اجزای تشکیل‌دهنده:\nOsten (شرق، از east)\nمعنی کلی: شرق = جهت طلوع\nمتضادها:\n- der Westen (غرب)"
+  },
+  {
+    "Sound_de": "der Osten - die Osten",
+    "root": "اجزای تشکیل‌دهنده:\nOsten (شرق)\nمعنی کلی: شرق = جهت طلوع"
+  },
+  {
+    "Sound_de": "ab",
+    "root": "اجزای تشکیل‌دهنده:\nab (از، از ab)\nمعنی کلی: از = شروع از\nمترادف‌ها:\n- von (از)"
+  },
+  {
+    "Sound_de": "aber",
+    "root": "اجزای تشکیل‌دهنده:\naber (اما، از aber)\nمعنی کلی: اما = مخالف\nمترادف‌ها:\n- jedoch (با این حال)"
+  },
+  {
+    "Sound_de": "die Abfahrt - die Abfahrten",
+    "root": "اجزای تشکیل‌دهنده:\nAb (دور) + Fahrt (سفر)\nمعنی کلی:出发 = شروع سفر\nمترادف‌ها:\n- der Start (شروع)\nمتضادها:\n- die Ankunft (رسیدن)"
+  },
+  {
+    "Sound_de": "der Absender - die Absender",
+    "root": "اجزای تشکیل‌دهنده:\nAb (دور) + Sender (فرستنده)\nمعنی کلی: فرستنده = کسی که می‌فرستد\nمتضادها:\n- der Empfänger (گیرنده)"
+  },
+  {
+    "Sound_de": "die Achtung - die Achtungen",
+    "root": "اجزای تشکیل‌دهنده:\nAchtung (توجه، از achten توجه کردن)\nمعنی کلی: توجه = احترام یا هشدار\nمترادف‌ها:\n- die Vorsicht (احتیاط)"
+  },
+  {
+    "Sound_de": "die Adresse - die Adressen",
+    "root": "اجزای تشکیل‌دهنده:\nAdresse (آدرس)\nمعنی کلی: آدرس = مکان"
+  },
+  {
+    "Sound_de": "all",
+    "root": "اجزای تشکیل‌دهنده:\nall (همه، از al)\nمعنی کلی: همه = کل\nمتضادها:\n- keiner (هیچ)"
+  },
+  {
+    "Sound_de": "allein",
+    "root": "اجزای تشکیل‌دهنده:\nallein (تنها، از all ein)\nمعنی کلی: تنها = بدون دیگران\nمتضادها:\n- zusammen (با هم)"
+  },
+  {
+    "Sound_de": "also",
+    "root": "اجزای تشکیل‌دهنده:\nalso (پس، از all so)\nمعنی کلی: پس = نتیجه\nمترادف‌ها:\n- daher (بنابراین)"
+  },
+  {
+    "Sound_de": "alt",
+    "root": "اجزای تشکیل‌دهنده:\nalt (قدیمی، از alt)\nمعنی کلی: قدیمی = کهنه\nمتضادها:\n- neu (جدید)\n- jung (جوان)"
+  },
+  {
+    "Sound_de": "das Alter - die Alter",
+    "root": "اجزای تشکیل‌دهنده:\nAlter (سن)\nمعنی کلی: سن = پیری"
+  },
+  {
+    "Sound_de": "an",
+    "root": "اجزای تشکیل‌دهنده:\nan (در، به)\nمعنی کلی: در = نزدیک"
+  },
+  {
+    "Sound_de": "anbieten",
+    "root": "اجزای تشکیل‌دهنده:\nan (به) + bieten (پیشنهاد)\nمعنی کلی: پیشنهاد دادن = ارائه\nمترادف‌ها:\n- offerieren (پیشنهاد کردن)"
+  },
+  {
+    "Sound_de": "das Angebot - die Angebote",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Gebot (فرمان، پیشنهاد)\nمعنی کلی: پیشنهاد = عرضه\nمترادف‌ها:\n- das Offerte (پیشنهاد)"
+  },
+  {
+    "Sound_de": "ander",
+    "root": "اجزای تشکیل‌دهنده:\nander (دیگر، از ander)\nمعنی کلی: دیگر = متفاوت\nمتضادها:\n- gleich (یکسان)"
+  },
+  {
+    "Sound_de": "der Anfang - die Anfänge",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Fang (گرفتن)\nمعنی کلی: شروع = ابتدا\nمتضادها:\n- das Ende (پایان)"
+  },
+  {
+    "Sound_de": "die Ankunft - die Ankünfte",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Kunft (آمدن)\nمعنی کلی: رسیدن = ورود\nمتضادها:\n- die Abfahrt (رفتن)"
+  },
+  {
+    "Sound_de": "die Anmeldung - die Anmeldungen",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Meldung (گزارش)\nمعنی کلی: ثبت نام = اعلام"
+  },
+  {
+    "Sound_de": "die Anrede - die Anreden",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Rede (سخن)\nمعنی کلی: خطاب = سلام\nمترادف‌ها:\n- die Begrüßung (سلام)"
+  },
+  {
+    "Sound_de": "der Anruf - die Anrufe",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Ruf (صدا زدن)\nمعنی کلی: تماس = زنگ زدن"
+  },
+  {
+    "Sound_de": "der Anruf - die Anrufe",
+    "root": "اجزای تشکیل‌دهنده:\nAnruf (تماس)\nمعنی کلی: تماس = زنگ"
+  },
+  {
+    "Sound_de": "die Ansage - die Ansagen",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Sage (گفتن)\nمعنی کلی: اعلام = گفتن"
+  },
+  {
+    "Sound_de": "der Anschluss - die Anschlüsse",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Schluss (بستن)\nمعنی کلی: اتصال = لینک\nمترادف‌ها:\n- die Verbindung (اتصال)"
+  },
+  {
+    "Sound_de": "die Antwort - die Antworten",
+    "root": "اجزای تشکیل‌دهنده:\nAnt (مقابل) + Wort (کلمه)\nمعنی کلی: پاسخ = جواب\nمتضادها:\n- die Frage (سوال)"
+  },
+  {
+    "Sound_de": "die Anzeige - die Anzeigen",
+    "root": "اجزای تشکیل‌دهنده:\nAn (به) + Zeige (نشان دادن)\nمعنی کلی: آگهی = نمایش"
+  },
+  {
+    "Sound_de": "das Apartment - die Apartments",
+    "root": "اجزای تشکیل‌دهنده:\nApartment (آپارتمان، از فرانسوی)\nمعنی کلی: آپارتمان = واحد مسکونی\nمترادف‌ها:\n- die Wohnung (آپارتمان)"
+  },
+  {
+    "Sound_de": "der Apfel - die Äpfel",
+    "root": "اجزای تشکیل‌دهنده:\nApfel (سیب، از apful)\nمعنی کلی: سیب = میوه"
+  },
+  {
+    "Sound_de": "der Appetit - die Appetite",
+    "root": "اجزای تشکیل‌دهنده:\nAppetit (اشتها، از لاتین appetitus)\nمعنی کلی: اشتها = میل به غذا\nمتضادها:\n- der Ekel (تنفر)"
+  },
+  {
+    "Sound_de": "die Arbeit - die Arbeiten",
+    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار، از arbaiti)\nمعنی کلی: کار = فعالیت\nمتضادها:\n- die Ruhe (استراحت)"
+  },
+  {
+    "Sound_de": "arbeitslos",
+    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار) + los (بدون)\nمعنی کلی: بیکار = بدون کار\nمتضادها:\n- beschäftigt (مشغول)"
+  },
+  {
+    "Sound_de": "der Arbeitsplatz - die Arbeitsplätze",
+    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار) + Platz (مکان)\nمعنی کلی: محل کار = جای کار"
+  },
+  {
+    "Sound_de": "der Arm - die Arme",
+    "root": "اجزای تشکیل‌دهنده:\nArm (بازو، از arm)\nمعنی کلی: بازو = عضو بدن"
+  },
+  {
+    "Sound_de": "der Arzt - die Ärzte",
+    "root": "اجزای تشکیل‌دهنده:\nArzt (پزشک، از arzat)\nمعنی کلی: پزشک = دکتر\nمترادف‌ها:\n- der Doktor (دکتر)"
+  },
+  {
+    "Sound_de": "auch",
+    "root": "اجزای تشکیل‌دهنده:\nauch (همچنین، از ouch)\nمعنی کلی: همچنین = هم"
+  },
+  {
+    "Sound_de": "auf",
+    "root": "اجزای تشکیل‌دهنده:\nauf (روی، از uf)\nمعنی کلی: روی = بالای\nمتضادها:\n- unter (زیر)"
+  },
+  {
+    "Sound_de": "die Aufgabe - die Aufgaben",
+    "root": "اجزای تشکیل‌دهنده:\nAuf (روی) + Gabe (دادن)\nمعنی کلی: وظیفه = کار داده‌شده"
+  },
+  {
+    "Sound_de": "der Aufzug - die Aufzüge",
+    "root": "اجزای تشکیل‌دهنده:\nAuf (بالا) + Zug (کشیدن)\nمعنی کلی: آسانسور = بالابر\nمترادف‌ها:\n- der Lift (لیفت)"
+  },
+  {
+    "Sound_de": "das Auge - die Augen",
+    "root": "اجزای تشکیل‌دهنده:\nAuge (چشم، از ouga)\nمعنی کلی: چشم = عضو بینایی"
+  },
+  {
+    "Sound_de": "aus",
+    "root": "اجزای تشکیل‌دهنده:\naus (از، بیرون)\nمعنی کلی: از = بیرون از\nمتضادها:\n- in (در)"
+  },
+  {
+    "Sound_de": "der Ausflug - die Ausflüge",
+    "root": "اجزای تشکیل‌دهنده:\nAus (بیرون) + Flug (پرواز)\nمعنی کلی: گردش = سفر کوتاه"
+  },
+  {
+    "Sound_de": "der Ausgang - die Ausgänge",
+    "root": "اجزای تشکیل‌دهنده:\nAus (بیرون) + Gang (رفتن)\nمعنی کلی: خروج = درب بیرون\nمتضادها:\n- der Eingang (ورود)"
+  },
+  {
+    "Sound_de": "die Auskunft - die Auskünfte",
+    "root": "اجزای تشکیل‌دهنده:\nAus (بیرون) + Kunft (آمدن، اطلاعات)\nمعنی کلی: اطلاعات = راهنمایی"
+  },
+  {
+    "Sound_de": "das Ausland - die Ausländer",
+    "root": "اجزای تشکیل‌دهنده:\nAus (بیرون) + Land (کشور)\nمعنی کلی: خارج = کشور خارجی\nمتضادها:\n- das Inland (داخل)"
+  },
+  {
+    "Sound_de": "der Ausländer - die Ausländer",
+    "root": "اجزای تشکیل‌دهنده:\nAus (بیرون) + Länder (کشوری)\nمعنی کلی: خارجی = شخص خارجی\nمتضادها:\n- der Einheimische (بومی)"
+  },
+  {
+    "Sound_de": "ausländisch",
+    "root": "اجزای تشکیل‌دهنده:\nausländisch (خارجی)\nمعنی کلی: خارجی = مربوط به خارج\nمتضادها:\n- einheimisch (بومی)"
+  },
+  {
+    "Sound_de": "die Aussage - die Aussagen",
+    "root": "اجزای تشکیل‌دهنده:\nAus (بیرون) + Sage (گفتن)\nمعنی کلی: بیان = گفته"
+  },
+  {
+    "Sound_de": "aus sein",
+    "root": "اجزای تشکیل‌دهنده:\naus (بیرون) + sein (بودن)\nمعنی کلی: خاموش بودن = تمام شدن"
+  },
+  {
+    "Sound_de": "der Ausweis - die Ausweise",
+    "root": "اجزای تشکیل‌دهنده:\nAus (بیرون) + Weis (نشان دادن)\nمعنی کلی: کارت شناسایی = مدرک"
+  },
+  {
+    "Sound_de": "das Auto - die Autos",
+    "root": "اجزای تشکیل‌دهنده:\nAuto (خودرو، از auto خود)\nمعنی کلی: ماشین = خودرو\nمترادف‌ها:\n- der Wagen (واگن)"
+  },
+  {
+    "Sound_de": "die Autobahn - die Autobahnen",
+    "root": "اجزای تشکیل‌دهنده:\nAuto (ماشین) + Bahn (راه)\nمعنی کلی: اتوبان = بزرگراه"
+  },
+  {
+    "Sound_de": "der Automat - die Automaten",
+    "root": "اجزای تشکیل‌دهنده:\nAutomat (اتومات، از auto خودکار)\nمعنی کلی: دستگاه خودکار = ماشین فروش"
+  },
+  {
+    "Sound_de": "automatisch",
+    "root": "اجزای تشکیل‌دهنده:\nautomatisch (خودکار)\nمعنی کلی: خودکار = اتوماتیک\nمتضادها:\n- manuell (دستی)"
+  },
+  {
+    "Sound_de": "B",
+    "root": "اجزای تشکیل‌دهنده:\nB (حرف ب)\nمعنی کلی: ب = حرف"
+  },
+  {
+    "Sound_de": "das Baby - die Babys",
+    "root": "اجزای تشکیل‌دهنده:\nBaby (نوزاد، از انگلیسی)\nمعنی کلی: نوزاد = کودک کوچک\nمترادف‌ها:\n- das Säugling (شیرخوار)"
+  },
+  {
+    "Sound_de": "die Bäckerei - die Bäckereien",
+    "root": "اجزای تشکیل‌دهنده:\nBäcker (نانوا) + ei (مکان)\nمعنی کلی: نانوایی = مکان پخت نان"
+  },
+  {
+    "Sound_de": "das Bad - die Bäder",
+    "root": "اجزای تشکیل‌دهنده:\nBad (حمام، از baden شستن)\nمعنی کلی: حمام = مکان شستشو\nمترادف‌ها:\n- das Badezimmer (حمام)"
+  },
+  {
+    "Sound_de": "die Bahn - die Bahnen",
+    "root": "اجزای تشکیل‌دهنده:\nBahn (راه، قطار)\nمعنی کلی: قطار = وسیله ریلی"
+  },
+  {
+    "Sound_de": "der Bahnhof - die Bahnhöfe",
+    "root": "اجزای تشکیل‌دهنده:\nBahn (قطار) + Hof (حیاط)\nمعنی کلی: ایستگاه قطار = مکان قطار\nمترادف‌ها:\n- der Zugstation (ایستگاه قطار)"
+  },
+  {
+    "Sound_de": "der Bahnsteig - die Bahnsteige",
+    "root": "اجزای تشکیل‌دهنده:\nBahn (قطار) + Steig (پلتفرم)\nمعنی کلی: سکو = پلتفرم قطار"
+  },
+  {
+    "Sound_de": "bald",
+    "root": "اجزای تشکیل‌دهنده:\nbald (به زودی، از bald)\nمعنی کلی: به زودی = زود\nمتضادها:\n- später (بعدا)"
+  },
+  {
+    "Sound_de": "der Balkon - die Balkone",
+    "root": "اجزای تشکیل‌دهنده:\nBalkon (بالکن، از ایتالیایی balcone)\nمعنی کلی: بالکن = تراس"
+  },
+  {
+    "Sound_de": "die Banane - die Bananen",
+    "root": "اجزای تشکیل‌دهنده:\nBanane (موز، از banana)\nمعنی کلی: موز = میوه"
+  },
+  {
+    "Sound_de": "die Bank - die Bänke",
+    "root": "اجزای تشکیل‌دهنده:\nBank (نیمکت یا بانک)\nمعنی کلی: بانک یا نیمکت = موسسه یا صندلی"
+  },
+  {
+    "Sound_de": "bar",
+    "root": "اجزای تشکیل‌دهنده:\nbar (نقد، از bar)\nمعنی کلی: نقد =现金"
+  },
+  {
+    "Sound_de": "der Bauch - die Bäuche",
+    "root": "اجزای تشکیل‌دهنده:\nBauch (شکم، از buh)\nمعنی کلی: شکم = قسمت بدن"
+  },
+  {
+    "Sound_de": "der Baum - die Bäume",
+    "root": "اجزای تشکیل‌دهنده:\nBaum (درخت، از boum)\nمعنی کلی: درخت = گیاه بزرگ"
+  },
+  {
+    "Sound_de": "der Beamte - die Beamten",
+    "root": "اجزای تشکیل‌دهنده:\nBeamte (کارمند، از beamter)\nمعنی کلی: کارمند = مقام رسمی"
+  },
+  {
+    "Sound_de": "bei",
+    "root": "اجزای تشکیل‌دهنده:\nbei (نزد، از bi)\nمعنی کلی: نزد = نزدیک"
+  },
+  {
+    "Sound_de": "beide",
+    "root": "اجزای تشکیل‌دهنده:\nbeide (هر دو، از beide)\nمعنی کلی: هر دو = دو تا"
+  },
+  {
+    "Sound_de": "das Bein - die Beine",
+    "root": "اجزای تشکیل‌دهنده:\nBein (پا، از bein)\nمعنی کلی: پا = عضو پایین"
+  },
+  {
+    "Sound_de": "das Beispiel - die Beispiele",
+    "root": "اجزای تشکیل‌دهنده:\nBei (نزد) + Spiel (بازی)\nمعنی کلی: مثال = نمونه"
+  },
+  {
+    "Sound_de": "bekannt",
+    "root": "اجزای تشکیل‌دهنده:\nbe (پیشوند) + kannt (شناخته)\nمعنی کلی: شناخته‌شده = معروف\nمتضادها:\n- unbekannt (ناشناخته)"
+  },
+  {
+    "Sound_de": "der Bekannte - die Bekannten",
+    "root": "اجزای تشکیل‌دهنده:\nBekannte (آشنا)\nمعنی کلی: آشنا = شخص شناخته"
+  },
+  {
+    "Sound_de": "der Beruf - die Berufe",
+    "root": "اجزای تشکیل‌دهنده:\nBeruf (شغل، از berufen فراخوانده)\nمعنی کلی: حرفه = شغل\nمترادف‌ها:\n- der Job (شغل)"
+  },
+  {
+    "Sound_de": "besetzt",
+    "root": "اجزای تشکیل‌دهنده:\nbe (پیشوند) + setzt (نشسته)\nمعنی کلی: اشغال‌شده = گرفته‌شده\nمتضادها:\n- frei (آزاد)"
+  },
+  {
+    "Sound_de": "besser",
+    "root": "اجزای تشکیل‌دهنده:\nbesser (بهتر، مقایسه‌ای از gut)\nمعنی کلی: بهتر = superior\nمتضادها:\n- schlechter (بدتر)"
+  },
+  {
+    "Sound_de": "best",
+    "root": "اجزای تشکیل‌دهنده:\nbest (بهترین، عالی از gut)\nمعنی کلی: بهترین = عالی\nمتضادها:\n- schlechtest (بدترین)"
+  },
+  {
+    "Sound_de": "das Bett - die Betten",
+    "root": "اجزای تشکیل‌دهنده:\nBett (تخت، از betti)\nمعنی کلی: تخت = جای خواب"
+  },
+  {
+    "Sound_de": "das Bier - die Biere",
+    "root": "اجزای تشکیل‌دهنده:\nBier (آبجو، از bier)\nمعنی کلی: آبجو = نوشیدنی الکلی"
+  },
+  {
+    "Sound_de": "das Bild - die Bilder",
+    "root": "اجزای تشکیل‌دهنده:\nBild (تصویر، از bild)\nمعنی کلی: تصویر = عکس"
+  },
+  {
+    "Sound_de": "billig",
+    "root": "اجزای تشکیل‌دهنده:\nbillig (ارزان، از billich)\nمعنی کلی: ارزان = کم قیمت\nمتضادها:\n- teuer (گران)"
+  },
+  {
+    "Sound_de": "die Birne - die Birnen",
+    "root": "اجزای تشکیل‌دهنده:\nBirne (گلابی، از bira)\nمعنی کلی: گلابی = میوه"
+  },
+  {
+    "Sound_de": "bis",
+    "root": "اجزای تشکیل‌دهنده:\nbis (تا، از bi)\nمعنی کلی: تا = تا زمانی"
+  },
+  {
+    "Sound_de": "bisschen",
+    "root": "اجزای تشکیل‌دهنده:\nBiss (گاز) + chen (کوچک)\nمعنی کلی: کمی = مقدار کوچک"
+  },
+  {
+    "Sound_de": "bitte",
+    "root": "اجزای تشکیل‌دهنده:\nbitte (لطفا، از bitten درخواست)\nمعنی کلی: لطفا = درخواست مودبانه"
+  },
+  {
+    "Sound_de": "die Bitte - die Bitten",
+    "root": "اجزای تشکیل‌دهنده:\nBitte (درخواست)\nمعنی کلی: درخواست = خواهش"
+  },
+  {
+    "Sound_de": "bitter",
+    "root": "اجزای تشکیل‌دهنده:\nbitter (تلخ، از bitter)\nمعنی کلی: تلخ = طعم بد\nمتضادها:\n- süß (شیرین)"
+  },
+  {
+    "Sound_de": "der Bleistift - die Bleistifte",
+    "root": "اجزای تشکیل‌دهنده:\nBlei (سرب) + Stift (قلم)\nمعنی کلی: مداد = ابزار نوشتن"
+  },
+  {
+    "Sound_de": "der Blick - die Blicke",
+    "root": "اجزای تشکیل‌دهنده:\nBlick (نگاه، از blicken)\nمعنی کلی: نگاه = دید"
+  },
+  {
+    "Sound_de": "die Blume - die Blumen",
+    "root": "اجزای تشکیل‌دهنده:\nBlume (گل، از blomo)\nمعنی کلی: گل = گیاه زیبا"
+  },
+  {
+    "Sound_de": "der Bogen - die Bögen",
+    "root": "اجزای تشکیل‌دهنده:\nBogen (کمان یا ورق، از bogen)\nمعنی کلی: ورق = کاغذ"
+  },
+  {
+    "Sound_de": "böse",
+    "root": "اجزای تشکیل‌دهنده:\nböse (بد، از böse)\nمعنی کلی: بد = شرور\nمتضادها:\n- gut (خوب)"
+  },
+  {
+    "Sound_de": "breit",
+    "root": "اجزای تشکیل‌دهنده:\nbreit (پهن، از breit)\nمعنی کلی: پهن = وسیع\nمتضادها:\n- schmal (باریک)"
+  },
+  {
+    "Sound_de": "der Brief - die Briefe",
+    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه، از brief)\nمعنی کلی: نامه = نوشته ارسال‌شده"
+  },
+  {
+    "Sound_de": "die Briefmarke - die Briefmarken",
+    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Marke (علامت)\nمعنی کلی: تمبر = علامت پستی"
+  },
+  {
+    "Sound_de": "das Brot - die Brote",
+    "root": "اجزای تشکیل‌دهنده:\nBrot (نان، از brot)\nمعنی کلی: نان = غذای پخته"
+  },
+  {
+    "Sound_de": "das Brötchen - die Brötchen",
+    "root": "اجزای تشکیل‌دهنده:\nBröt (نان کوچک) + chen (کوچک)\nمعنی کلی: نان کوچک = رول"
+  },
+  {
+    "Sound_de": "der Bruder - die Brüder",
+    "root": "اجزای تشکیل‌دهنده:\nBruder (برادر، از broder)\nمعنی کلی: برادر = خویش مذکر\nمتضادها:\n- die Schwester (خواهر)"
+  },
+  {
+    "Sound_de": "das Buch - die Bücher",
+    "root": "اجزای تشکیل‌دهنده:\nBuch (کتاب، از buoh)\nمعنی کلی: کتاب = نوشته صحافی‌شده"
+  },
+  {
+    "Sound_de": "der Buchstabe - die Buchstaben",
+    "root": "اجزای تشکیل‌دهنده:\nBuch (کتاب) + Stabe (عصا، حرف)\nمعنی کلی: حرف = علامت الفبا"
+  },
+  {
+    "Sound_de": "der Bus - die Busse",
+    "root": "اجزای تشکیل‌دهنده:\nBus (اتوبوس، از omnibus)\nمعنی کلی: اتوبوس = وسیله عمومی"
+  },
+  {
+    "Sound_de": "die Butter - die Butter",
+    "root": "اجزای تشکیل‌دهنده:\nButter (کره، از butyrum)\nمعنی کلی: کره = محصول شیر"
+  },
+  {
+    "Sound_de": "das Café - die Cafés",
+    "root": "اجزای تشکیل‌دهنده:\nCafé (کافه، از فرانسه)\nمعنی کلی: کافه = مکان قهوه"
+  },
+  {
+    "Sound_de": "die CD - die CDs",
+    "root": "اجزای تشکیل‌دهنده:\nCD (سی‌دی، Compact Disc)\nمعنی کلی: سی‌دی = دیسک فشرده"
+  },
+  {
+    "Sound_de": "der Chef - die Chefs",
+    "root": "اجزای تشکیل‌دهنده:\nChef (رئیس، از فرانسه)\nمعنی کلی: رئیس = مدیر\nمترادف‌ها:\n- der Boss (باس)"
+  },
+  {
+    "Sound_de": "circa - ca",
+    "root": "اجزای تشکیل‌دهنده:\ncirca (تقریبا، از لاتین)\nمعنی کلی: حدود = تقریبا"
+  },
+  {
+    "Sound_de": "der Computer - die Computer",
+    "root": "اجزای تشکیل‌دهنده:\nComputer (کامپیوتر، از compute محاسبه)\nمعنی کلی: کامپیوتر = ماشین محاسبه"
+  },
+  {
+    "Sound_de": "da",
+    "root": "اجزای تشکیل‌دهنده:\nda (آنجا، از da)\nمعنی کلی: آنجا = در آنجا\nمتضادها:\n- hier (اینجا)"
+  },
+  {
+    "Sound_de": "die Dame - die Damen",
+    "root": "اجزای تشکیل‌دهنده:\nDame (بانو، از فرانسه)\nمعنی کلی: بانو = خانم\nمتضادها:\n- der Herr (آقا)"
+  },
+  {
+    "Sound_de": "Damen (an der Toilette) - die Damen",
+    "root": "اجزای تشکیل‌دهنده:\nDamen (بانوان)\nمعنی کلی: بانوان (در توالت) = توالت زنان"
+  },
+  {
+    "Sound_de": "daneben",
+    "root": "اجزای تشکیل‌دهنده:\nda (آنجا) + neben (کنار)\nمعنی کلی: کنار آن = مجاور"
+  },
+  {
+    "Sound_de": "der Dank - die Danke",
+    "root": "اجزای تشکیل‌دهنده:\nDank (تشکر، از dank)\nمعنی کلی: تشکر = قدردانی"
+  },
+  {
+    "Sound_de": "danke",
+    "root": "اجزای تشکیل‌دهنده:\ndanke (متشکرم)\nمعنی کلی: متشکرم = تشکر"
+  },
+  {
+    "Sound_de": "dann",
+    "root": "اجزای تشکیل‌دهنده:\ndann (پس، از dann)\nمعنی کلی: پس = سپس"
+  },
+  {
+    "Sound_de": "das Datum - die Daten",
+    "root": "اجزای تشکیل‌دهنده:\nDatum (تاریخ)\nمعنی کلی: تاریخ = روز"
+  },
+  {
+    "Sound_de": "dein",
+    "root": "اجزای تشکیل‌دهنده:\ndein (مال تو، از dein)\nمعنی کلی: مال تو = possessive"
+  },
+  {
+    "Sound_de": "denn",
+    "root": "اجزای تشکیل‌دهنده:\ndenn (زیرا، از denn)\nمعنی کلی: زیرا = چون"
+  },
+  {
+    "Sound_de": "der, die, das",
+    "root": "اجزای تشکیل‌دهنده:\nder/die/das (the)\nمعنی کلی: the = مقاله معین"
+  },
+  {
+    "Sound_de": "dich",
+    "root": "اجزای تشکیل‌دهنده:\ndich (تو را)\nمعنی کلی: تو را = مفعول"
+  },
+  {
+    "Sound_de": "dies",
+    "root": "اجزای تشکیل‌دهنده:\ndies (این، از dies)\nمعنی کلی: این = this"
+  },
+  {
+    "Sound_de": "dir",
+    "root": "اجزای تشکیل‌دهنده:\ndir (به تو)\nمعنی کلی: به تو = dative"
+  },
+  {
+    "Sound_de": "die Disco - die Discos",
+    "root": "اجزای تشکیل‌دهنده:\nDisco (دیسکو، از discotheque)\nمعنی کلی: دیسکو = مکان رقص"
+  },
+  {
+    "Sound_de": "der Doktor - die Doktoren",
+    "root": "اجزای تشکیل‌دهنده:\nDoktor (دکتر، از doctor)\nمعنی کلی: دکتر = پزشک"
+  },
+  {
+    "Sound_de": "das Doppelzimmer - die Doppelzimmer",
+    "root": "اجزای تشکیل‌دهنده:\nDoppel (دوتایی) + Zimmer (اتاق)\nمعنی کلی: اتاق دوتخته = برای دو نفر\nمتضادها:\n- das Einzelzimmer (تک تخته)"
+  },
+  {
+    "Sound_de": "das Dorf - die Dörfer",
+    "root": "اجزای تشکیل‌دهنده:\nDorf (روستا، از thorp)\nمعنی کلی: روستا = مکان کوچک\nمتضادها:\n- die Stadt (شهر)"
+  },
+  {
+    "Sound_de": "dort",
+    "root": "اجزای تشکیل‌دهنده:\ndort (آنجا)\nمعنی کلی: آنجا = there\nمتضادها:\n- hier (اینجا)"
+  },
+  {
+    "Sound_de": "draußen",
+    "root": "اجزای تشکیل‌دهنده:\ndraußen (بیرون)\nمعنی کلی: بیرون = خارج\nمتضادها:\n- drinnen (داخل)"
+  },
+  {
+    "Sound_de": "der Drucker - die Drucker",
+    "root": "اجزای تشکیل‌دهنده:\nDrucker (پرینتر، از drucken چاپ)\nمعنی کلی: پرینتر = دستگاه چاپ"
+  },
+  {
+    "Sound_de": "durch",
+    "root": "اجزای تشکیل‌دهنده:\ndurch (از طریق)\nمعنی کلی: از طریق = through"
+  },
+  {
+    "Sound_de": "die Durchsage - die Durchsagen",
+    "root": "اجزای تشکیل‌دهنده:\nDurch (از طریق) + Sage (گفتن)\nمعنی کلی: اعلام عمومی = پخش"
+  },
+  {
+    "Sound_de": "der Durst - die Durste",
+    "root": "اجزای تشکیل‌دهنده:\nDurst (تشنگی، از thurst)\nمعنی کلی: تشنگی = نیاز به آب\nمتضادها:\n- der Hunger (گرسنگی، اما نه دقیق)"
+  },
+  {
+    "Sound_de": "die Dusche - die Duschen",
+    "root": "اجزای تشکیل‌دهنده:\nDusche (دوش، از douche)\nمعنی کلی: دوش = شستشو ایستاده"
+  },
+  {
+    "Sound_de": "die Ecke - die Ecken",
+    "root": "اجزای تشکیل‌دهنده:\nEcke (گوشه، از ecka)\nمعنی کلی: گوشه = زاویه"
+  },
+  {
+    "Sound_de": "die Ehefrau - die Ehefrauen",
+    "root": "اجزای تشکیل‌دهنده:\nEhe (ازدواج) + Frau (زن)\nمعنی کلی: همسر = زن متاهل"
+  },
+  {
+    "Sound_de": "der Ehemann - die Ehemänner",
+    "root": "اجزای تشکیل‌دهنده:\nEhe (ازدواج) + Mann (مرد)\nمعنی کلی: شوهر = مرد متاهل"
+  },
+  {
+    "Sound_de": "das Ei - die Eier",
+    "root": "اجزای تشکیل‌دهنده:\nEi (تخم، از ei)\nمعنی کلی: تخم = محصول مرغ"
+  },
+  {
+    "Sound_de": "eilig",
+    "root": "اجزای تشکیل‌دهنده:\neilig (عجله‌ای، از eile عجله)\nمعنی کلی: عجله‌ای = سریع\nمتضادها:\n- langsam (آهسته)"
+  },
+  {
+    "Sound_de": "ein",
+    "root": "اجزای تشکیل‌دهنده:\nein (یک، a/an)\nمعنی کلی: یک = مقاله نامعین"
+  },
+  {
+    "Sound_de": "einfach",
+    "root": "اجزای تشکیل‌دهنده:\neinfach (ساده، از ein fache یک لایه)\nمعنی کلی: ساده = آسان\nمتضادها:\n- kompliziert (پیچیده)"
+  },
+  {
+    "Sound_de": "der Eingang - die Eingänge",
+    "root": "اجزای تشکیل‌دهنده:\nEin (درون) + Gang (رفتن)\nمعنی کلی: ورود = درب داخل\nمتضادها:\n- der Ausgang (خروج)"
+  },
+  {
+    "Sound_de": "die Einladung - die Einladungen",
+    "root": "اجزای تشکیل‌دهنده:\nEin (درون) + Ladung (بار، دعوت)\nمعنی کلی: دعوت = فراخوان"
+  },
+  {
+    "Sound_de": "einmal",
+    "root": "اجزای تشکیل‌دهنده:\nein (یک) + mal (بار)\nمعنی کلی: یک بار = once"
+  },
+  {
+    "Sound_de": "der Eintritt - die Eintritte",
+    "root": "اجزای تشکیل‌دهنده:\nEin (درون) + Tritt (گام)\nمعنی کلی: ورود = بلیت ورود"
+  },
+  {
+    "Sound_de": "das Einzelzimmer - die Einzelzimmer",
+    "root": "اجزای تشکیل‌دهنده:\nEinzel (تک) + Zimmer (اتاق)\nمعنی کلی: اتاق تک = برای یک نفر\nمتضادها:\n- das Doppelzimmer (دوتخته)"
+  },
+  {
+    "Sound_de": "die Eltern - die Eltern",
+    "root": "اجزای تشکیل‌دهنده:\nEltern (والدین، از alt قدیمی)\nمعنی کلی: والدین = پدر و مادر"
+  },
+  {
+    "Sound_de": "die E-Mail - die E-Mails",
+    "root": "اجزای تشکیل‌دهنده:\nE (الکترونیک) + Mail (نامه)\nمعنی کلی: ایمیل = نامه الکترونیک"
+  },
+  {
+    "Sound_de": "der Empfänger - die Empfänger",
+    "root": "اجزای تشکیل‌دهنده:\nEmp (دریافت) + Fänger (گیرنده)\nمعنی کلی: گیرنده = دریافت‌کننده\nمتضادها:\n- der Absender (فرستنده)"
+  },
+  {
+    "Sound_de": "das Ende - die Enden",
+    "root": "اجزای تشکیل‌دهنده:\nEnde (پایان، از endi)\nمعنی کلی: پایان = آخر\nمتضادها:\n- der Anfang (شروع)"
+  },
+  {
+    "Sound_de": "die Entschuldigung - die Entschuldigungen",
+    "root": "اجزای تشکیل‌دهنده:\nEnt (دور) + Schuld (گناه) + igung\nمعنی کلی: عذرخواهی = پوزش"
+  },
+  {
+    "Sound_de": "er",
+    "root": "اجزای تشکیل‌دهنده:\ner (او، مذکر)\nمعنی کلی: او = he"
+  },
+  {
+    "Sound_de": "das Ergebnis - die Ergebnisse",
+    "root": "اجزای تشکیل‌دهنده:\nEr (او) + Gebnis (دادن، نتیجه)\nمعنی کلی: نتیجه = outcome"
+  },
+  {
+    "Sound_de": "der Erwachsene - die Erwachsenen",
+    "root": "اجزای تشکیل‌دهنده:\nEr (بزرگ) + Wachsene (رشد کرده)\nمعنی کلی: بزرگسال = بالغ\nمتضادها:\n- das Kind (کودک)"
+  },
+  {
+    "Sound_de": "es",
+    "root": "اجزای تشکیل‌دهنده:\nes (آن، خنثی)\nمعنی کلی: آن = it"
+  },
+  {
+    "Sound_de": "das Essen - die Essen",
+    "root": "اجزای تشکیل‌دهنده:\nEssen (غذا، از essen خوردن)\nمعنی کلی: غذا = meal"
+  },
+  {
+    "Sound_de": "euer",
+    "root": "اجزای تشکیل‌دهنده:\neuer (مال شما، جمع)\nمعنی کلی: مال شما = your"
+  },
+  {
+    "Sound_de": "der Fahrer - die Fahrer",
+    "root": "اجزای تشکیل‌دهنده:\nFahrer (راننده، از fahren رانندگی)\nمعنی کلی: راننده = driver"
+  },
+  {
+    "Sound_de": "die Fahrkarte - die Fahrkarten",
+    "root": "اجزای تشکیل‌دهنده:\nFahr (سفر) + Karte (کارت)\nمعنی کلی: بلیت = ticket"
+  },
+  {
+    "Sound_de": "das Fahrrad - die Fahrräder",
+    "root": "اجزای تشکیل‌دهنده:\nFahr (سفر) + Rad (چرخ)\nمعنی کلی: دوچرخه = bicycle\nمترادف‌ها:\n- das Velo (دوچرخه)"
+  },
+  {
+    "Sound_de": "falsch",
+    "root": "اجزای تشکیل‌دهنده:\nfalsch (غلط، از falsch)\nمعنی کلی: غلط = wrong\nمتضادها:\n- richtig (درست)"
+  },
+  {
+    "Sound_de": "die Familie - die Familien",
+    "root": "اجزای تشکیل‌دهنده:\nFamilie (خانواده)\nمعنی کلی: خانواده = family"
+  },
+  {
+    "Sound_de": "der Familienname - die Familiennamen",
+    "root": "اجزای تشکیل‌دهنده:\nFamilie (خانواده) + Name (نام)\nمعنی کلی: نام خانوادگی = surname"
+  },
+  {
+    "Sound_de": "der Familienstand - die Familienstände",
+    "root": "اجزای تشکیل‌دهنده:\nFamilie (خانواده) + Stand (وضعیت)\nمعنی کلی: وضعیت خانوادگی = marital status"
+  },
+  {
+    "Sound_de": "die Farbe - die Farben",
+    "root": "اجزای تشکیل‌دهنده:\nFarbe (رنگ)\nمعنی کلی: رنگ = color"
+  },
+  {
+    "Sound_de": "das Fax - die Faxe",
+    "root": "اجزای تشکیل‌دهنده:\nFax (فکس، از facsimile)\nمعنی کلی: فکس = ارسال تصویر"
+  },
+  {
+    "Sound_de": "die Feier - die Feiern",
+    "root": "اجزای تشکیل‌دهنده:\nFeier (جشن، از feiern جشن گرفتن)\nمعنی کلی: جشن = celebration"
+  },
+  {
+    "Sound_de": "der Feierabend, der Feiertag - die Feierabende, die Feiertage",
+    "root": "اجزای تشکیل‌دهنده:\nFeier (جشن) + Abend (عصر)، Tag (روز)\nمعنی کلی: بعد از کار، تعطیل = rest time"
+  },
+  {
+    "Sound_de": "der Fehler - die Fehler",
+    "root": "اجزای تشکیل‌دهنده:\nFehler (اشتباه، از fehlen کمبود)\nمعنی کلی: اشتباه = mistake"
+  },
+  {
+    "Sound_de": "fertig",
+    "root": "اجزای تشکیل‌دهنده:\nfertig (آماده، از fertig)\nمعنی کلی: آماده = done\nمتضادها:\n- unfertig (ناتمام)"
+  },
+  {
+    "Sound_de": "das Feuer - die Feuer",
+    "root": "اجزای تشکیل‌دهنده:\nFeuer (آتش، از fiur)\nمعنی کلی: آتش = fire"
+  },
+  {
+    "Sound_de": "das Fieber - die Fieber",
+    "root": "اجزای تشکیل‌دهنده:\nFieber (تب، از fieber)\nمعنی کلی: تب = fever"
+  },
+  {
+    "Sound_de": "der Film - die Filme",
+    "root": "اجزای تشکیل‌دهنده:\nFilm (فیلم، از film)\nمعنی کلی: فیلم = movie"
+  },
+  {
+    "Sound_de": "die Firma - die Firmen",
+    "root": "اجزای تشکیل‌دهنده:\nFirma (شرکت، از firma)\nمعنی کلی: شرکت = company"
+  },
+  {
+    "Sound_de": "der Fisch - die Fische",
+    "root": "اجزای تشکیل‌دهنده:\nFisch (ماهی، از fisc)\nمعنی کلی: ماهی = fish"
+  },
+  {
+    "Sound_de": "die Flasche - die Flaschen",
+    "root": "اجزای تشکیل‌دهنده:\nFlasche (بطری، از flaska)\nمعنی کلی: بطری = bottle"
+  },
+  {
+    "Sound_de": "das Fleisch - die Fleische",
+    "root": "اجزای تشکیل‌دهنده:\nFleisch (گوشت، از fleisc)\nمعنی کلی: گوشت = meat"
+  },
+  {
+    "Sound_de": "der Abflug - die Abflüge",
+    "root": "اجزای تشکیل‌دهنده:\nAb (دور) + Flug (پرواز)\nمعنی کلی: پرواز = departure\nمتضادها:\n- die Ankunft (arrival)"
+  },
+  {
+    "Sound_de": "der Flughafen - die Flughäfen",
+    "root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Hafen (بندر، محل توقف)\nمعنی کلی: فرودگاه = محلی برای نشست و برخاست هواپیماها\nمترادف‌ها:\n- der Airport (فرودگاه)\nمتضادها:\n- der Bahnhof (ایستگاه قطار)\n- die Landstraße (جاده)\n- der Busbahnhof (ترمینال اتوبوس)"
+  },
+  {
+    "Sound_de": "das Flugzeug - die Flugzeuge",
+    "root": "اجزای تشکیل‌دهنده:\nFlug (پرواز) + Zeug (وسیله)\nمعنی کلی: هواپیما = وسیله پرواز\nمترادف‌ها:\n- das Airplane (هواپیما)"
+  },
+  {
+    "Sound_de": "das Formular - die Formulare",
+    "root": "اجزای تشکیل‌دهنده:\nFormular (فرم، از form)\nمعنی کلی: فرم = document"
+  },
+  {
+    "Sound_de": "das Foto - die Fotos",
+    "root": "اجزای تشکیل‌دهنده:\nFoto (عکس، از photo)\nمعنی کلی: عکس = picture"
+  },
+  {
+    "Sound_de": "die Frage - die Fragen",
+    "root": "اجزای تشکیل‌دهنده:\nFrage (سوال، از fragen)\nمعنی کلی: سوال = question\nمتضادها:\n- die Antwort (پاسخ)"
+  },
+  {
+    "Sound_de": "die Frau - die Frauen",
+    "root": "اجزای تشکیل‌دهنده:\nFrau (زن، از frouwa)\nمعنی کلی: زن = female\nمتضادها:\n- der Mann (مرد)"
+  },
+  {
+    "Sound_de": "frei",
+    "root": "اجزای تشکیل‌دهنده:\nfrei (آزاد، از frei)\nمعنی کلی: آزاد = free\nمتضادها:\n- besetzt (اشغال)"
+  },
+  {
+    "Sound_de": "die Freizeit - die Freizeiten",
+    "root": "اجزای تشکیل‌دهنده:\nFrei (آزاد) + Zeit (زمان)\nمعنی کلی: اوقات فراغت = leisure"
+  },
+  {
+    "Sound_de": "fremd",
+    "root": "اجزای تشکیل‌دهنده:\nfremd (غریبه، از fremd)\nمعنی کلی: غریبه = strange\nمتضادها:\n- bekannt (شناخته)"
+  },
+  {
+    "Sound_de": "der Freund - die Freunde",
+    "root": "اجزای تشکیل‌دهنده:\nFreund (دوست، از freunt)\nمعنی کلی: دوست = friend\nمتضادها:\n- der Feind (دشمن)"
+  },
+  {
+    "Sound_de": "früher",
+    "root": "اجزای تشکیل‌دهنده:\nfrüher (زودتر، مقایسه‌ای از früh)\nمعنی کلی: زودتر = earlier\nمتضادها:\n- später (بعدا)"
+  },
+  {
+    "Sound_de": "das Frühstück - die Frühstücke",
+    "root": "اجزای تشکیل‌دهنده:\nFrüh (زود) + Stück (قطعه)\nمعنی کلی: صبحانه = breakfast"
+  },
+  {
+    "Sound_de": "die Führung - die Führungen",
+    "root": "اجزای تشکیل‌دهنده:\nFührung (راهنمایی، از führen)\nمعنی کلی: تور = guide"
+  },
+  {
+    "Sound_de": "für",
+    "root": "اجزای تشکیل‌دهنده:\nfür (برای)\nمعنی کلی: برای = for"
+  },
+  {
+    "Sound_de": "der Fuß - die Füße",
+    "root": "اجزای تشکیل‌دهنده:\nFuß (پا، از fuoz)\nمعنی کلی: پا = foot"
+  },
+  {
+    "Sound_de": "der Fußball - die Fußbälle",
+    "root": "اجزای تشکیل‌دهنده:\nFuß (پا) + Ball (توپ)\nمعنی کلی: فوتبال = soccer"
+  },
+  {
+    "Sound_de": "der Garten - die Gärten",
+    "root": "اجزای تشکیل‌دهنده:\nGarten (باغ، از garto)\nمعنی کلی: باغ = garden"
+  },
+  {
+    "Sound_de": "der Gast - die Gäste",
+    "root": "اجزای تشکیل‌دهنده:\nGast (مهمان، از gast)\nمعنی کلی: مهمان = guest\nمتضادها:\n- der Gastgeber (میزبان)"
+  },
+  {
+    "Sound_de": "das Geburtsjahr - die Geburtsjahre",
+    "root": "اجزای تشکیل‌دهنده:\nGeburt (تولد) + Jahr (سال)\nمعنی کلی: سال تولد = birth year"
+  },
+  {
+    "Sound_de": "der Geburtsort - die Geburtsorte",
+    "root": "اجزای تشکیل‌دهنده:\nGeburt (تولد) + Ort (مکان)\nمعنی کلی: محل تولد = birthplace"
+  },
+  {
+    "Sound_de": "der Geburtstag - die Geburtstage",
+    "root": "اجزای تشکیل‌دهنده:\nGeburt (تولد) + Tag (روز)\nمعنی کلی: تولد = birthday"
+  },
+  {
+    "Sound_de": "gegen",
+    "root": "اجزای تشکیل‌دهنده:\ngegen (علیه)\nمعنی کلی: علیه = against"
+  },
+  {
+    "Sound_de": "das Geld - die Gelder",
+    "root": "اجزای تشکیل‌دهنده:\nGeld (پول، از gelt)\nمعنی کلی: پول = money"
+  },
+  {
+    "Sound_de": "das Gemüse - die Gemüse",
+    "root": "اجزای تشکیل‌دهنده:\nGemüse (سبزیجات، از muse غذا)\nمعنی کلی: سبزیجات = vegetables"
+  },
+  {
+    "Sound_de": "das Gepäck - die Gepäcke",
+    "root": "اجزای تشکیل‌دهنده:\nGe (جمعی) + Päck (بسته)\nمعنی کلی: چمدان = luggage"
+  },
+  {
+    "Sound_de": "gerade",
+    "root": "اجزای تشکیل‌دهنده:\ngerade (مستقیم، از gerade)\nمعنی کلی: مستقیم = straight\nمتضادها:\n- krumm (کج)"
+  },
+  {
+    "Sound_de": "geradeaus",
+    "root": "اجزای تشکیل‌دهنده:\ngerade (مستقیم) + aus (بیرون)\nمعنی کلی: مستقیم جلو = straight ahead"
+  },
+  {
+    "Sound_de": "gern",
+    "root": "اجزای تشکیل‌دهنده:\ngern (با میل، از gern)\nمعنی کلی: با میل = gladly\nمتضادها:\n- ungern (بدون میل)"
+  },
+  {
+    "Sound_de": "das Geschäft - die Geschäfte",
+    "root": "اجزای تشکیل‌دهنده:\nGeschäft (کسب، از schaffen ایجاد)\nمعنی کلی: فروشگاه = shop"
+  },
+  {
+    "Sound_de": "das Geschenk - die Geschenke",
+    "root": "اجزای تشکیل‌دهنده:\nGe (جمعی) + Schenk (دادن)\nمعنی کلی: هدیه = gift"
+  },
+  {
+    "Sound_de": "die Geschwister - die Geschwister",
+    "root": "اجزای تشکیل‌دهنده:\nGe (جمعی) + Schwister (خواهر برادر)\nمعنی کلی: خواهر و برادر = siblings"
+  },
+  {
+    "Sound_de": "das Gespräch - die Gespräche",
+    "root": "اجزای تشکیل‌دهنده:\nGe (جمعی) + Spräch (سخن)\nمعنی کلی: گفتگو = conversation"
+  },
+  {
+    "Sound_de": "gestern",
+    "root": "اجزای تشکیل‌دهنده:\ngestern (دیروز، از gester)\nمعنی کلی: دیروز = yesterday\nمتضادها:\n- morgen (فردا)"
+  },
+  {
+    "Sound_de": "das Getränk - die Getränke",
+    "root": "اجزای تشکیل‌دهنده:\nGe (جمعی) + Tränk (نوشیدن)\nمعنی کلی: نوشیدنی = drink"
+  },
+  {
+    "Sound_de": "das Gewicht - die Gewichte",
+    "root": "اجزای تشکیل‌دهنده:\nGewicht (وزن، از wichten)\nمعنی کلی: وزن = weight"
+  },
+  {
+    "Sound_de": "das Glas - die Gläser",
+    "root": "اجزای تشکیل‌دهنده:\nGlas (شیشه، لیوان)\nمعنی کلی: لیوان = glass"
+  },
+  {
+    "Sound_de": "gleich",
+    "root": "اجزای تشکیل‌دهنده:\ngleich (یکسان، از gleich)\nمعنی کلی: یکسان = same\nمتضادها:\n- unterschiedlich (متفاوت)"
+  },
+  {
+    "Sound_de": "das Gleis - die Gleise",
+    "root": "اجزای تشکیل‌دهنده:\nGleis (ریل، از gleis)\nمعنی کلی: ریل = track"
+  },
+  {
+    "Sound_de": "das Glück - die Glücke",
+    "root": "اجزای تشکیل‌دهنده:\nGlück (شانس، از glück)\nمعنی کلی: شانس = luck\nمتضادها:\n- das Pech (بدشانسی)"
+  },
+  {
+    "Sound_de": "glücklich",
+    "root": "اجزای تشکیل‌دهنده:\nglücklich (خوشحال)\nمعنی کلی: خوشحال = happy\nمتضادها:\n- unglücklich (ناخوش)"
+  },
+  {
+    "Sound_de": "der Glückwunsch - die Glückwünsche",
+    "root": "اجزای تشکیل‌دهنده:\nGlück (شانس) + Wunsch (آرزو)\nمعنی کلی: تبریک = congratulation"
+  },
+  {
+    "Sound_de": "Grad (Celsius) - die Grade",
+    "root": "اجزای تشکیل‌دهنده:\nGrad (درجه)\nمعنی کلی: درجه = degree"
+  },
+  {
+    "Sound_de": "groß",
+    "root": "اجزای تشکیل‌دهنده:\ngroß (بزرگ، از gros)\nمعنی کلی: بزرگ = big\nمتضادها:\n- klein (کوچک)"
+  },
+  {
+    "Sound_de": "die Größe - die Größen",
+    "root": "اجزای تشکیل‌دهنده:\nGröße (اندازه)\nمعنی کلی: اندازه = size"
+  },
+  {
+    "Sound_de": "die Großeltern - die Großeltern",
+    "root": "اجزای تشکیل‌دهنده:\nGroß (بزرگ) + Eltern (والدین)\nمعنی کلی: پدربزرگ و مادربزرگ = grandparents"
+  },
+  {
+    "Sound_de": "die Großmutter - die Großmütter",
+    "root": "اجزای تشکیل‌دهنده:\nGroß (بزرگ) + Mutter (مادر)\nمعنی کلی: مادربزرگ = grandmother"
+  },
+  {
+    "Sound_de": "der Großvater - die Großväter",
+    "root": "اجزای تشکیل‌دهنده:\nGroß (بزرگ) + Vater (پدر)\nمعنی کلی: پدربزرگ = grandfather"
+  },
+  {
+    "Sound_de": "die Gruppe - die Gruppen",
+    "root": "اجزای تشکیل‌دهنده:\nGruppe (گروه، از group)\nمعنی کلی: گروه = group"
+  },
+  {
+    "Sound_de": "der Gruß - die Grüße",
+    "root": "اجزای تشکیل‌دهنده:\nGruß (سلام، از grüßen)\nمعنی کلی: سلام = greeting"
+  },
+  {
+    "Sound_de": "Mit freundlichen Grüßen",
+    "root": "اجزای تشکیل‌دهنده:\nMit (با) + freundlichen (دوستانه) + Grüßen (سلام‌ها)\nمعنی کلی: با بهترین سلام‌ها = best regards"
+  },
+  {
+    "Sound_de": "gültig",
+    "root": "اجزای تشکیل‌دهنده:\ngültig ( معتبر، از gelten)\nمعنی کلی: معتبر = valid\nمتضادها:\n- ungültig (نامعتبر)"
+  },
+  {
+    "Sound_de": "günstig",
+    "root": "اجزای تشکیل‌دهنده:\ngünstig (ارزان، مساعد)\nمعنی کلی: مساعد = favorable\nمتضادها:\n- teuer (گران)"
+  },
+  {
+    "Sound_de": "gut",
+    "root": "اجزای تشکیل‌دهنده:\ngut (خوب، از gut)\nمعنی کلی: خوب = good\nمتضادها:\n- schlecht (بد)"
+  },
+  {
+    "Sound_de": "das Haar - die Haare",
+    "root": "اجزای تشکیل‌دهنده:\nHaar (مو، از har)\nمعنی کلی: مو = hair"
+  },
+  {
+    "Sound_de": "das Hähnchen - die Hähnchen",
+    "root": "اجزای تشکیل‌دهنده:\nHähnchen (جوجه، کوچک از Hahn)\nمعنی کلی: مرغ = chicken"
+  },
+  {
+    "Sound_de": "die Halbpension - die Halbpensionen",
+    "root": "اجزای تشکیل‌دهنده:\nHalb (نیم) + Pension (پانسیون)\nمعنی کلی: نیم‌پانسیون = half board"
+  },
+  {
+    "Sound_de": "die Halle - die Hallen",
+    "root": "اجزای تشکیل‌دهنده:\nHalle (سالن، از halle)\nمعنی کلی: سالن = hall"
+  },
+  {
+    "Sound_de": "hallo",
+    "root": "اجزای تشکیل‌دهنده:\nhallo (سلام)\nمعنی کلی: سلام = hello"
+  },
+  {
+    "Sound_de": "die Haltestelle - die Haltestellen",
+    "root": "اجزای تشکیل‌دهنده:\nHalt (توقف) + Stelle (مکان)\nمعنی کلی: ایستگاه = stop"
+  },
+  {
+    "Sound_de": "die Hand - die Hände",
+    "root": "اجزای تشکیل‌دهنده:\nHand (دست، از hand)\nمعنی کلی: دست = hand"
+  },
+  {
+    "Sound_de": "das Handy - die Handys",
+    "root": "اجزای تشکیل‌دهنده:\nHand (دست) + y (کوچک)\nمعنی کلی: موبایل = cell phone"
+  },
+  {
+    "Sound_de": "das Haus - die Häuser",
+    "root": "اجزای تشکیل‌دهنده:\nHaus (خانه، از hus)\nمعنی کلی: خانه = house"
+  },
+  {
+    "Sound_de": "die Hausaufgabe - die Hausaufgaben",
+    "root": "اجزای تشکیل‌دهنده:\nHaus (خانه) + Aufgabe (وظیفه)\nمعنی کلی: تکلیف خانه = homework"
+  },
+  {
+    "Sound_de": "die Hausfrau - die Hausfrauen",
+    "root": "اجزای تشکیل‌دهنده:\nHaus (خانه) + Frau (زن)\nمعنی کلی: خانه‌دار = housewife"
+  },
+  {
+    "Sound_de": "der Hausmann - die Hausmänner",
+    "root": "اجزای تشکیل‌دهنده:\nHaus (خانه) + Mann (مرد)\nمعنی کلی: مرد خانه‌دار = househusband"
+  },
+  {
+    "Sound_de": "die Heimat - die Heimaten",
+    "root": "اجزای تشکیل‌دهنده:\nHeimat (میهن، از heim خانه)\nمعنی کلی: میهن = homeland"
+  },
+  {
+    "Sound_de": "hell",
+    "root": "اجزای تشکیل‌دهنده:\nhell (روشن، از hell)\nمعنی کلی: روشن = bright\nمتضادها:\n- dunkel (تاریک)"
+  },
+  {
+    "Sound_de": "der Herd - die Herde",
+    "root": "اجزای تشکیل‌دهنده:\nHerd (اجاق، از herd)\nمعنی کلی: اجاق = stove"
+  },
+  {
+    "Sound_de": "der Herr - die Herren",
+    "root": "اجزای تشکیل‌دهنده:\nHerr (آقا، از herr)\nمعنی کلی: آقا = sir\nمتضادها:\n- die Dame (بانو)"
+  },
+  {
+    "Sound_de": "herzlich",
+    "root": "اجزای تشکیل‌دهنده:\nherzlich (صمیمانه، از herz قلب)\nمعنی کلی: صمیمانه = heartily"
+  },
+  {
+    "Sound_de": "heute",
+    "root": "اجزای تشکیل‌دهنده:\nheute (امروز، از hiutu)\nمعنی کلی: امروز = today\nمتضادها:\n- gestern (دیروز)"
+  },
+  {
+    "Sound_de": "hier",
+    "root": "اجزای تشکیل‌دهنده:\nhier (اینجا)\nمعنی کلی: اینجا = here\nمتضادها:\n- dort (آنجا)"
+  },
+  {
+    "Sound_de": "die Hilfe - die Hilfen",
+    "root": "اجزای تشکیل‌دهنده:\nHilfe (کمک، از helfen)\nمعنی کلی: کمک = help"
+  },
+  {
+    "Sound_de": "hinten",
+    "root": "اجزای تشکیل‌دهنده:\nhinten (پشت)\nمعنی کلی: پشت = back\nمتضادها:\n- vorn (جلو)"
+  },
+  {
+    "Sound_de": "das Hobby - die Hobbys",
+    "root": "اجزای تشکیل‌دهنده:\nHobby (سرگرمی، از انگلیسی)\nمعنی کلی: سرگرمی = hobby"
+  },
+  {
+    "Sound_de": "hoch",
+    "root": "اجزای تشکیل‌دهنده:\nhoch (بلند، از hoch)\nمعنی کلی: بلند = high\nمتضادها:\n- niedrig (پایین)"
+  },
+  {
+    "Sound_de": "die Hochzeit - die Hochzeiten",
+    "root": "اجزای تشکیل‌دهنده:\nHoch (بالا) + Zeit (زمان)\nمعنی کلی: عروسی = wedding"
+  },
+  {
+    "Sound_de": "das Hotel - die Hotels",
+    "root": "اجزای تشکیل‌دهنده:\nHotel (هتل، از فرانسه)\nمعنی کلی: هتل = hotel"
+  },
+  {
+    "Sound_de": "der Hund - die Hunde",
+    "root": "اجزای تشکیل‌دهنده:\nHund (سگ، از hunt)\nمعنی کلی: سگ = dog"
+  },
+  {
+    "Sound_de": "der Hunger - die Hunger",
+    "root": "اجزای تشکیل‌دهنده:\nHunger (گرسنگی، از hunger)\nمعنی کلی: گرسنگی = hunger"
+  },
+  {
+    "Sound_de": "ich",
+    "root": "اجزای تشکیل‌دهنده:\nich (من)\nمعنی کلی: من = I"
+  },
+  {
+    "Sound_de": "ihr/ihm/ihn",
+    "root": "اجزای تشکیل‌دهنده:\nihr (شما، او)\nمعنی کلی: شما/به او/او را = pronouns"
+  },
+  {
+    "Sound_de": "immer",
+    "root": "اجزای تشکیل‌دهنده:\nimmer (همیشه، از ie mer همیشه بیشتر)\nمعنی کلی: همیشه = always\nمتضادها:\n- nie (هرگز)"
+  },
+  {
+    "Sound_de": "in",
+    "root": "اجزای تشکیل‌دهنده:\nin (در)\nمعنی کلی: در = in\nمتضادها:\n- aus (بیرون)"
+  },
+  {
+    "Sound_de": "die Information - die Informationen",
+    "root": "اجزای تشکیل‌دهنده:\nInformation (اطلاعات، از لاتین)\nمعنی کلی: اطلاعات = info"
+  },
+  {
+    "Sound_de": "international",
+    "root": "اجزای تشکیل‌دهنده:\ninter (بین) + national (ملی)\nمعنی کلی: بین‌المللی = international"
+  },
+  {
+    "Sound_de": "das Internet - die Internets",
+    "root": "اجزای تشکیل‌دهنده:\nInternet (اینترنت)\nمعنی کلی: اینترنت = net"
+  },
+  {
+    "Sound_de": "ja",
+    "root": "اجزای تشکیل‌دهنده:\nja (بله)\nمعنی کلی: بله = yes\nمتضادها:\n- nein (نه)"
+  },
+  {
+    "Sound_de": "die Jacke - die Jacken",
+    "root": "اجزای تشکیل‌دهنده:\nJacke (کت، از jacke)\nمعنی کلی: کت = jacket"
+  },
+  {
+    "Sound_de": "jed",
+    "root": "اجزای تشکیل‌دهنده:\njed (هر، از jed)\nمعنی کلی: هر = every"
+  },
+  {
+    "Sound_de": "jetzt",
+    "root": "اجزای تشکیل‌دهنده:\njetzt (حالا، از je zît حالا زمان)\nمعنی کلی: حالا = now"
+  },
+  {
+    "Sound_de": "der Job - die Jobs",
+    "root": "اجزای تشکیل‌دهنده:\nJob (شغل، از انگلیسی)\nمعنی کلی: شغل = job"
+  },
+  {
+    "Sound_de": "der Jugendliche - die Jugendlichen",
+    "root": "اجزای تشکیل‌دهنده:\nJugend (جوانی) + liche (شخص)\nمعنی کلی: نوجوان = adolescent"
+  },
+  {
+    "Sound_de": "jung",
+    "root": "اجزای تشکیل‌دهنده:\njung (جوان، از jung)\nمعنی کلی: جوان = young\nمتضادها:\n- alt (پیر)"
+  },
+  {
+    "Sound_de": "der Junge - die Jungen",
+    "root": "اجزای تشکیل‌دهنده:\nJunge (پسر، از junge)\nمعنی کلی: پسر = boy\nمتضادها:\n- das Mädchen (دختر)"
+  },
+  {
+    "Sound_de": "der Kaffee - die Kaffees",
+    "root": "اجزای تشکیل‌دهنده:\nKaffee (قهوه، از قهوه)\nمعنی کلی: قهوه = coffee"
+  },
+  {
+    "Sound_de": "kaputt",
+    "root": "اجزای تشکیل‌دهنده:\nkaputt (خراب، از فرانسه capot)\nمعنی کلی: خراب = broken\nمتضادها:\n- ganz (سالم)"
+  },
+  {
+    "Sound_de": "die Karte - die Karten",
+    "root": "اجزای تشکیل‌دهنده:\nKarte (کارت، از karte)\nمعنی کلی: کارت = card"
+  },
+  {
+    "Sound_de": "(Kredit)-Karte - die (Kredit)-Karten",
+    "root": "اجزای تشکیل‌دهنده:\nKredit (اعتبار) + Karte (کارت)\nمعنی کلی: کارت اعتباری = credit card"
+  },
+  {
+    "Sound_de": "die Kartoffel - die Kartoffeln",
+    "root": "اجزای تشکیل‌دهنده:\nKartoffel (سیب‌زمینی، از tartufel)\nمعنی کلی: سیب‌زمینی = potato"
+  },
+  {
+    "Sound_de": "die Kasse - die Kassen",
+    "root": "اجزای تشکیل‌دهنده:\nKasse (صندوق، از kasse)\nمعنی کلی: صندوق = cash register"
+  },
+  {
+    "Sound_de": "kein",
+    "root": "اجزای تشکیل‌دهنده:\nkein (هیچ، از kein)\nمعنی کلی: هیچ = no\nمتضادها:\n- ein (یک)"
+  },
+  {
+    "Sound_de": "das Kind - die Kinder",
+    "root": "اجزای تشکیل‌دهنده:\nKind (کودک، از kind)\nمعنی کلی: کودک = child\nمتضادها:\n- der Erwachsene (بزرگسال)"
+  },
+  {
+    "Sound_de": "der Kindergarten - die Kindergärten",
+    "root": "اجزای تشکیل‌دهنده:\nKind (کودک) + Garten (باغ)\nمعنی کلی: مهدکودک = kindergarten"
+  },
+  {
+    "Sound_de": "das Kino - die Kinos",
+    "root": "اجزای تشکیل‌دهنده:\nKino (سینما، از kinema)\nمعنی کلی: سینما = cinema"
+  },
+  {
+    "Sound_de": "der Kiosk - die Kioske",
+    "root": "اجزای تشکیل‌دهنده:\nKiosk (کیوسک، از kiosk)\nمعنی کلی: کیوسک = kiosk"
+  },
+  {
+    "Sound_de": "klar",
+    "root": "اجزای تشکیل‌دهنده:\nklar (واضح، از klar)\nمعنی کلی: واضح = clear\nمتضادها:\n- unklar (نامشخص)"
+  },
+  {
+    "Sound_de": "die Klasse - die Klassen",
+    "root": "اجزای تشکیل‌دهنده:\nKlasse (کلاس، از class)\nمعنی کلی: کلاس = class"
+  },
+  {
+    "Sound_de": "die Kleidung - die Kleidungen",
+    "root": "اجزای تشکیل‌دهنده:\nKleidung (لباس)\nمعنی کلی: لباس = clothing"
+  },
+  {
+    "Sound_de": "klein",
+    "root": "اجزای تشکیل‌دهنده:\nklein (کوچک، از klein)\nمعنی کلی: کوچک = small\nمتضادها:\n- groß (بزرگ)"
+  },
+  {
+    "Sound_de": "der Koffer - die Koffer",
+    "root": "اجزای تشکیل‌دهنده:\nKoffer (چمدان، از koffer)\nمعنی کلی: چمدان = suitcase"
+  },
+  {
+    "Sound_de": "der Kollege - die Kollegen",
+    "root": "اجزای تشکیل‌دهنده:\nKollege (همکار، از colleague)\nمعنی کلی: همکار = colleague"
+  },
+  {
+    "Sound_de": "das Konto - die Konten",
+    "root": "اجزای تشکیل‌دهنده:\nKonto (حساب، از conto)\nمعنی کلی: حساب = account"
+  },
+  {
+    "Sound_de": "der Kopf - die Köpfe",
+    "root": "اجزای تشکیل‌دهنده:\nKopf (سر، از kopf)\nمعنی کلی: سر = head"
+  },
+  {
+    "Sound_de": "krank",
+    "root": "اجزای تشکیل‌دهنده:\nkrank (بیمار، از krank)\nمعنی کلی: بیمار = sick\nمتضادها:\n- gesund (سالم)"
+  },
+  {
+    "Sound_de": "die Küche - die Küchen",
+    "root": "اجزای تشکیل‌دهنده:\nKüche (آشپزخانه، از küche)\nمعنی کلی: آشپزخانه = kitchen"
+  },
+  {
+    "Sound_de": "der Kuchen - die Kuchen",
+    "root": "اجزای تشکیل‌دهنده:\nKuchen (کیک، از kuchen)\nمعنی کلی: کیک = cake"
+  },
+  {
+    "Sound_de": "der Kugelschreiber - die Kugelschreiber",
+    "root": "اجزای تشکیل‌دهنده:\nKugel (توپ) + Schreiber (نویسنده)\nمعنی کلی: خودکار = ballpoint pen"
+  },
+  {
+    "Sound_de": "der Kühlschrank - die Kühlschränke",
+    "root": "اجزای تشکیل‌دهنده:\nKühl (سرد) + Schrank (کابینت)\nمعنی کلی: یخچال = refrigerator"
+  },
+  {
+    "Sound_de": "kulturell",
+    "root": "اجزای تشکیل‌دهنده:\nkulturell (فرهنگی، از kultur)\nمعنی کلی: فرهنگی = cultural"
+  },
+  {
+    "Sound_de": "der Kunde - die Kunden",
+    "root": "اجزای تشکیل‌دهنده:\nKunde (مشتری، از kunde)\nمعنی کلی: مشتری = customer\nمتضادها:\n- der Verkäufer (فروشنده)"
+  },
+  {
+    "Sound_de": "der Kurs - die Kurse",
+    "root": "اجزای تشکیل‌دهنده:\nKurs (دوره، از course)\nمعنی کلی: دوره = course"
+  },
+  {
+    "Sound_de": "kurz",
+    "root": "اجزای تشکیل‌دهنده:\nkurz (کوتاه، از kurz)\nمعنی کلی: کوتاه = short\nمتضادها:\n- lang (بلند)"
+  },
+  {
+    "Sound_de": "der Laden - die Läden",
+    "root": "اجزای تشکیل‌دهنده:\nLaden (مغازه، از laden)\nمعنی کلی: مغازه = shop"
+  },
+  {
+    "Sound_de": "das Land - die Länder",
+    "root": "اجزای تشکیل‌دهنده:\nLand (کشور، از land)\nمعنی کلی: کشور = country"
+  },
+  {
+    "Sound_de": "lang",
+    "root": "اجزای تشکیل‌دهنده:\nlang (بلند، از lang)\nمعنی کلی: بلند = long\nمتضادها:\n- kurz (کوتاه)"
+  },
+  {
+    "Sound_de": "lange",
+    "root": "اجزای تشکیل‌دهنده:\nlange (طولانی)\nمعنی کلی: طولانی = for a long time"
+  },
+  {
+    "Sound_de": "langsam",
+    "root": "اجزای تشکیل‌دهنده:\nlangsam (آهسته، از lang sam آهسته طولانی)\nمعنی کلی: آهسته = slow\nمتضادها:\n- schnell (سریع)"
+  },
+  {
+    "Sound_de": "laut",
+    "root": "اجزای تشکیل‌دهنده:\nlaut (بلند، از laut)\nمعنی کلی: بلند = loud\nمتضادها:\n- leise (آرام)"
+  },
+  {
+    "Sound_de": "das Leben - die Leben",
+    "root": "اجزای تشکیل‌دهنده:\nLeben (زندگی، از leiben)\nمعنی کلی: زندگی = life\nمتضادها:\n- der Tod (مرگ)"
+  },
+  {
+    "Sound_de": "die Lebensmittel - die Lebensmittel",
+    "root": "اجزای تشکیل‌دهنده:\nLeben (زندگی) + Mittel (وسیله)\nمعنی کلی: مواد غذایی = foodstuffs"
+  },
+  {
+    "Sound_de": "ledig",
+    "root": "اجزای تشکیل‌دهنده:\nledig (مجرد، از ledig)\nمعنی کلی: مجرد = single\nمتضادها:\n- verheiratet (متاهل)"
+  },
+  {
+    "Sound_de": "der Lehrer - die Lehrer",
+    "root": "اجزای تشکیل‌دهنده:\nLehrer (معلم، از lehren آموزش)\nمعنی کلی: معلم = teacher"
+  },
+  {
+    "Sound_de": "leicht",
+    "root": "اجزای تشکیل‌دهنده:\nleicht (سبک، از leicht)\nمعنی کلی: سبک = light\nمتضادها:\n- schwer (سنگین)"
+  },
+  {
+    "Sound_de": "leider",
+    "root": "اجزای تشکیل‌دهنده:\nleider (متاسفانه، از leid رنج)\nمعنی کلی: متاسفانه = unfortunately"
+  },
+  {
+    "Sound_de": "leise",
+    "root": "اجزای تشکیل‌دهنده:\nleise (آرام، از leise)\nمعنی کلی: آرام = quiet\nمتضادها:\n- laut (بلند)"
+  },
+  {
+    "Sound_de": "letzt",
+    "root": "اجزای تشکیل‌دهنده:\nletzt (آخر، از letzt)\nمعنی کلی: آخر = last\nمتضادها:\n- erst (اول)"
+  },
+  {
+    "Sound_de": "die Leute - die Leute",
+    "root": "اجزای تشکیل‌دهنده:\nLeute (مردم، از liuti)\nمعنی کلی: مردم = people"
+  },
+  {
+    "Sound_de": "das Licht - die Lichter",
+    "root": "اجزای تشکیل‌دهنده:\nLicht (نور، از licht)\nمعنی کلی: نور = light\nمتضادها:\n- die Dunkelheit (تاریکی)"
+  },
+  {
+    "Sound_de": "lieb",
+    "root": "اجزای تشکیل‌دهنده:\nlieb (عزیز، از lieb)\nمعنی کلی: عزیز = dear\nمتضادها:\n- böse (بد)"
+  },
+  {
+    "Sound_de": "Liebe Susanne, lieber Hans,",
+    "root": "اجزای تشکیل‌دهنده:\nLiebe (عزیز) + نام\nمعنی کلی: عزیز سوزان، عزیز هانس = dear"
+  },
+  {
+    "Sound_de": "lieber",
+    "root": "اجزای تشکیل‌دهنده:\nlieber (ترجیحا، مقایسه‌ای از lieb)\nمعنی کلی: ترجیحا = preferably"
+  },
+  {
+    "Sound_de": "Lieblings-",
+    "root": "اجزای تشکیل‌دهنده:\nLiebling (محبوب) + s\nمعنی کلی: محبوب = favorite"
+  },
+  {
+    "Sound_de": "das Lied - die Lieder",
+    "root": "اجزای تشکیل‌دهنده:\nLied (آهنگ، از lied)\nمعنی کلی: آهنگ = song"
+  },
+  {
+    "Sound_de": "links",
+    "root": "اجزای تشکیل‌دهنده:\nlinks (چپ، از links)\nمعنی کلی: چپ = left\nمتضادها:\n- rechts (راست)"
+  },
+  {
+    "Sound_de": "der Lkw - die Lkws",
+    "root": "اجزای تشکیل‌دهنده:\nLkw (کامیون، Lastkraftwagen)\nمعنی کلی: کامیون = truck"
+  },
+  {
+    "Sound_de": "das Lokal - die Lokale",
+    "root": "اجزای تشکیل‌دهنده:\nLokal (محلی، از local)\nمعنی کلی: مکان = locale"
+  },
+  {
+    "Sound_de": "die Lösung - die Lösungen",
+    "root": "اجزای تشکیل‌دهنده:\nLösung (راه حل، از lösen حل کردن)\nمعنی کلی: راه حل = solution"
+  },
+  {
+    "Sound_de": "lustig",
+    "root": "اجزای تشکیل‌دهنده:\nlustig (خنده‌دار، از lust تمایل)\nمعنی کلی: خنده‌دار = funny\nمتضادها:\n- traurig (غمگین)"
+  },
+  {
+    "Sound_de": "das Mädchen - die Mädchen",
+    "root": "اجزای تشکیل‌دهنده:\nMädchen (دختر، کوچک از Magd)\nمعنی کلی: دختر = girl\nمتضادها:\n- der Junge (پسر)"
+  },
+  {
+    "Sound_de": "man",
+    "root": "اجزای تشکیل‌دهنده:\nman (یکی، مردم)\nمعنی کلی: یکی = one (impersonal)"
+  },
+  {
+    "Sound_de": "der Mann - die Männer",
+    "root": "اجزای تشکیل‌دهنده:\nMann (مرد، از mann)\nمعنی کلی: مرد = man\nمتضادها:\n- die Frau (زن)"
+  },
+  {
+    "Sound_de": "männlich",
+    "root": "اجزای تشکیل‌دهنده:\nmännlich (مذکر)\nمعنی کلی: مذکر = male\nمتضادها:\n- weiblich (مونث)"
+  },
+  {
+    "Sound_de": "die Maschine - die Maschinen",
+    "root": "اجزای تشکیل‌دهنده:\nMaschine (ماشین، از machine)\nمعنی کلی: ماشین = machine"
+  },
+  {
+    "Sound_de": "das Meer - die Meere",
+    "root": "اجزای تشکیل‌دهنده:\nMeer (دریا، از meri)\nمعنی کلی: دریا = sea"
+  },
+  {
+    "Sound_de": "mehr",
+    "root": "اجزای تشکیل‌دهنده:\nmehr (بیشتر، از mehr)\nمعنی کلی: بیشتر = more\nمتضادها:\n- weniger (کمتر)"
+  },
+  {
+    "Sound_de": "mein",
+    "root": "اجزای تشکیل‌دهنده:\nmein (مال من)\nمعنی کلی: مال من = my"
+  },
+  {
+    "Sound_de": "meist-",
+    "root": "اجزای تشکیل‌دهنده:\nmeist (بیشتر، superlative از viel)\nمعنی کلی: بیشتر = most"
+  },
+  {
+    "Sound_de": "der Mensch - die Menschen",
+    "root": "اجزای تشکیل‌دهنده:\nMensch (انسان، از mensch)\nمعنی کلی: انسان = human"
+  },
+  {
+    "Sound_de": "die Miete - die Mieten",
+    "root": "اجزای تشکیل‌دهنده:\nMiete (اجاره)\nمعنی کلی: اجاره = rent"
+  },
+  {
+    "Sound_de": "die Milch - die Milchen",
+    "root": "اجزای تشکیل‌دهنده:\nMilch (شیر، از milch)\nمعنی کلی: شیر = milk"
+  },
+  {
+    "Sound_de": "mit",
+    "root": "اجزای تشکیل‌دهنده:\nmit (با)\nمعنی کلی: با = with"
+  },
+  {
+    "Sound_de": "die Mitte - die Mitten",
+    "root": "اجزای تشکیل‌دهنده:\nMitte (وسط، از mitte)\nمعنی کلی: وسط = middle"
+  },
+  {
+    "Sound_de": "die Möbel",
+    "root": "اجزای تشکیل‌دهنده:\nMöbel (مبلمان)\nمعنی کلی: مبلمان = furniture"
+  },
+  {
+    "Sound_de": "möglich",
+    "root": "اجزای تشکیل‌دهنده:\nmöglich (ممکن، از mögen)\nمعنی کلی: ممکن = possible\nمتضادها:\n- unmöglich (ناممکن)"
+  },
+  {
+    "Sound_de": "der Moment - die Momente",
+    "root": "اجزای تشکیل‌دهنده:\nMoment (لحظه، از moment)\nمعنی کلی: لحظه = moment"
+  },
+  {
+    "Sound_de": "morgen",
+    "root": "اجزای تشکیل‌دهنده:\nmorgen (فردا، صبح)\nمعنی کلی: فردا = tomorrow\nمتضادها:\n- gestern (دیروز)"
+  },
+  {
+    "Sound_de": "müde",
+    "root": "اجزای تشکیل‌دهنده:\nmüde (خسته، از müde)\nمعنی کلی: خسته = tired\nمتضادها:\n- munter (سرحال)"
+  },
+  {
+    "Sound_de": "der Mund - die Münder",
+    "root": "اجزای تشکیل‌دهنده:\nMund (دهان، از mund)\nمعنی کلی: دهان = mouth"
+  },
+  {
+    "Sound_de": "die Mutter - die Mütter",
+    "root": "اجزای تشکیل‌دهنده:\nMutter (مادر، از mutter)\nمعنی کلی: مادر = mother"
+  },
+  {
+    "Sound_de": "nach",
+    "root": "اجزای تشکیل‌دهنده:\nnach (پس از)\nمعنی کلی: پس از = after"
+  },
+  {
+    "Sound_de": "nächst-",
+    "root": "اجزای تشکیل‌دهنده:\nnächst (بعدی، از nächst)\nمعنی کلی: بعدی = next"
+  },
+  {
+    "Sound_de": "der Name - die Namen",
+    "root": "اجزای تشکیل‌دهنده:\nName (نام)\nمعنی کلی: نام = name"
+  },
+  {
+    "Sound_de": "nein",
+    "root": "اجزای تشکیل‌دهنده:\nnein (نه)\nمعنی کلی: نه = no\nمتضادها:\n- ja (بله)"
+  },
+  {
+    "Sound_de": "neu",
+    "root": "اجزای تشکیل‌دهنده:\nneu (جدید، از neu)\nمعنی کلی: جدید = new\nمتضادها:\n- alt (قدیمی)"
+  },
+  {
+    "Sound_de": "nicht",
+    "root": "اجزای تشکیل‌دهنده:\nnicht (نه، از ni wiht نه چیز)\nمعنی کلی: نه = not"
+  },
+  {
+    "Sound_de": "nichts",
+    "root": "اجزای تشکیل‌دهنده:\nnichts (هیچ چیز)\nمعنی کلی: هیچ چیز = nothing\nمتضادها:\n- etwas (چیزی)"
+  },
+  {
+    "Sound_de": "nie",
+    "root": "اجزای تشکیل‌دهنده:\nnie (هرگز)\nمعنی کلی: هرگز = never\nمتضادها:\n- immer (همیشه)"
+  },
+  {
+    "Sound_de": "noch",
+    "root": "اجزای تشکیل‌دهنده:\nnoch (هنوز)\nمعنی کلی: هنوز = still"
+  },
+  {
+    "Sound_de": "normal",
+    "root": "اجزای تشکیل‌دهنده:\nnormal (عادی، از normal)\nمعنی کلی: عادی = normal\nمتضادها:\n- abnormal (غیرعادی)"
+  },
+  {
+    "Sound_de": "die Nummer - die Nummern",
+    "root": "اجزای تشکیل‌دهنده:\nNummer (شماره، از number)\nمعنی کلی: شماره = number"
+  },
+  {
+    "Sound_de": "nur",
+    "root": "اجزای تشکیل‌دهنده:\nnur (فقط)\nمعنی کلی: فقط = only"
+  },
+  {
+    "Sound_de": "oben",
+    "root": "اجزای تشکیل‌دهنده:\noben (بالا)\nمعنی کلی: بالا = above\nمتضادها:\n- unten (پایین)"
+  },
+  {
+    "Sound_de": "das Obst - die Obst",
+    "root": "اجزای تشکیل‌دهنده:\nObst (میوه، از obst)\nمعنی کلی: میوه = fruit"
+  },
+  {
+    "Sound_de": "oder",
+    "root": "اجزای تشکیل‌دهنده:\noder (یا)\nمعنی کلی: یا = or"
+  },
+  {
+    "Sound_de": "geöffnet",
+    "root": "اجزای تشکیل‌دهنده:\nge (گذشته) + öffnet (باز)\nمعنی کلی: باز = open\nمتضادها:\n- geschlossen (بسته)"
+  },
+  {
+    "Sound_de": "oft",
+    "root": "اجزای تشکیل‌دهنده:\noft (اغلب، از oft)\nمعنی کلی: اغلب = often\nمتضادها:\n- selten (به ندرت)"
+  },
+  {
+    "Sound_de": "ohne",
+    "root": "اجزای تشکیل‌دهنده:\nohne (بدون)\nمعنی کلی: بدون = without"
+  },
+  {
+    "Sound_de": "das Öl - die Öle",
+    "root": "اجزای تشکیل‌دهنده:\nÖl (روغن، از oil)\nمعنی کلی: روغن = oil"
+  },
+  {
+    "Sound_de": "die Oma - die Omas",
+    "root": "اجزای تشکیل‌دهنده:\nOma (مادربزرگ، کوتاه از Großmutter)\nمعنی کلی: مادربزرگ = grandma"
+  },
+  {
+    "Sound_de": "der Opa - die Opas",
+    "root": "اجزای تشکیل‌دهنده:\nOpa (پدربزرگ، کوتاه از Großvater)\nمعنی کلی: پدربزرگ = grandpa"
+  },
+  {
+    "Sound_de": "die Ordnung - die Ordnungen",
+    "root": "اجزای تشکیل‌دهنده:\nOrdnung (نظم، از ordnen)\nمعنی کلی: نظم = order\nمتضادها:\n- das Chaos (هرج و مرج)"
+  },
+  {
+    "Sound_de": "der Ort - die Orte",
+    "root": "اجزای تشکیل‌دهنده:\nOrt (مکان، از ort)\nمعنی کلی: مکان = place"
+  },
+  {
+    "Sound_de": "das Papier - die Papiere",
+    "root": "اجزای تشکیل‌دهنده:\nPapier (کاغذ، از paper)\nمعنی کلی: کاغذ = paper"
+  },
+  {
+    "Sound_de": "die Papiere",
+    "root": "اجزای تشکیل‌دهنده:\nPapiere (مدارک)\nمعنی کلی: مدارک = papers"
+  },
+  {
+    "Sound_de": "der Partner - die Partner",
+    "root": "اجزای تشکیل‌دهنده:\nPartner (شریک، از partner)\nمعنی کلی: شریک = partner"
+  },
+  {
+    "Sound_de": "die Partnerin - die Partnerinnen",
+    "root": "اجزای تشکیل‌دهنده:\nPartnerin (شریک مونث)\nمعنی کلی: شریک (مونث) = female partner"
+  },
+  {
+    "Sound_de": "die Party - die Partys",
+    "root": "اجزای تشکیل‌دهنده:\nParty (مهمانی، از party)\nمعنی کلی: مهمانی = party"
+  },
+  {
+    "Sound_de": "der Pass - die Pässe",
+    "root": "اجزای تشکیل‌دهنده:\nPass (پاسپورت، از pass)\nمعنی کلی: پاسپورت = passport"
+  },
+  {
+    "Sound_de": "die Pause - die Pausen",
+    "root": "اجزای تشکیل‌دهنده:\nPause (وقفه، از pause)\nمعنی کلی: وقفه = break"
+  },
+  {
+    "Sound_de": "der Plan - die Pläne",
+    "root": "اجزای تشکیل‌دهنده:\nPlan (طرح، از plan)\nمعنی کلی: طرح = plan"
+  },
+  {
+    "Sound_de": "der Platz - die Plätze",
+    "root": "اجزای تشکیل‌دهنده:\nPlatz (مکان، از platz)\nمعنی کلی: مکان = place"
+  },
+  {
+    "Sound_de": "die Polizei",
+    "root": "اجزای تشکیل‌دهنده:\nPolizei (پلیس)\nمعنی کلی: پلیس = police"
+  },
+  {
+    "Sound_de": "die Pommes frites",
+    "root": "اجزای تشکیل‌دهنده:\nPommes frites (سیب‌زمینی سرخ‌کرده، از فرانسه)\nمعنی کلی: سیب‌زمینی سرخ‌کرده = french fries"
+  },
+  {
+    "Sound_de": "die Post - die Posten",
+    "root": "اجزای تشکیل‌دهنده:\nPost (پست)\nمعنی کلی: پست = post"
+  },
+  {
+    "Sound_de": "die Postleitzahl - die Postleitzahlen",
+    "root": "اجزای تشکیل‌دهنده:\nPost (پست) + Leitzahl (کد راهنما)\nمعنی کلی: کد پستی = zip code"
+  },
+  {
+    "Sound_de": "das Praktikum - die Praktika",
+    "root": "اجزای تشکیل‌دهنده:\nPraktikum (کارآموزی، از praxis)\nمعنی کلی: کارآموزی = internship"
+  },
+  {
+    "Sound_de": "die Praxis - die Praxen",
+    "root": "اجزای تشکیل‌دهنده:\nPraxis (تمرین، مطب)\nمعنی کلی: مطب = practice"
+  },
+  {
+    "Sound_de": "der Preis - die Preise",
+    "root": "اجزای تشکیل‌دهنده:\nPreis (قیمت)\nمعنی کلی: قیمت = price"
+  },
+  {
+    "Sound_de": "das Problem - die Probleme",
+    "root": "اجزای تشکیل‌دهنده:\nProblem (مشکل، از problem)\nمعنی کلی: مشکل = problem"
+  },
+  {
+    "Sound_de": "der Prospekt - die Prospekte",
+    "root": "اجزای تشکیل‌دهنده:\nProspekt (بروشور، از prospectus)\nمعنی کلی: بروشور = brochure"
+  },
+  {
+    "Sound_de": "die Prüfung - die Prüfungen",
+    "root": "اجزای تشکیل‌دهنده:\nPrüfung (آزمون، از prüfen بررسی)\nمعنی کلی: آزمون = exam"
+  },
+  {
+    "Sound_de": "pünktlich",
+    "root": "اجزای تشکیل‌دهنده:\npünktlich (به موقع، از punkt نقطه)\nمعنی کلی: به موقع = punctual\nمتضادها:\n- verspätet (دیر)"
+  },
+  {
+    "Sound_de": "der Raum - die Räume",
+    "root": "اجزای تشکیل‌دهنده:\nRaum (فضا، اتاق)\nمعنی کلی: اتاق = room"
+  },
+  {
+    "Sound_de": "die Rechnung - die Rechnungen",
+    "root": "اجزای تشکیل‌دهنده:\nRechnung (صورتحساب، از rechnen محاسبه)\nمعنی کلی: صورتحساب = bill"
+  },
+  {
+    "Sound_de": "rechts",
+    "root": "اجزای تشکیل‌دهنده:\nrechts (راست)\nمعنی کلی: راست = right\nمتضادها:\n- links (چپ)"
+  },
+  {
+    "Sound_de": "der Regen - die Regen",
+    "root": "اجزای تشکیل‌دهنده:\nRegen (باران، از regan)\nمعنی کلی: باران = rain"
+  },
+  {
+    "Sound_de": "der Reis",
+    "root": "اجزای تشکیل‌دهنده:\nReis (برنج، از reis)\nمعنی کلی: برنج = rice"
+  },
+  {
+    "Sound_de": "die Reise - die Reisen",
+    "root": "اجزای تشکیل‌دهنده:\nReise (سفر)\nمعنی کلی: سفر = trip"
+  },
+  {
+    "Sound_de": "das Reisebüro - die Reisebüros",
+    "root": "اجزای تشکیل‌دهنده:\nReise (سفر) + Büro (دفتر)\nمعنی کلی: آژانس مسافرتی = travel agency"
+  },
+  {
+    "Sound_de": "der Reiseführer - die Reiseführer",
+    "root": "اجزای تشکیل‌دهنده:\nReise (سفر) + Führer (راهنما)\nمعنی کلی: راهنمای سفر = guidebook"
+  },
+  {
+    "Sound_de": "die Reparatur - die Reparaturen",
+    "root": "اجزای تشکیل‌دهنده:\nReparatur (تعمیر، از repair)\nمعنی کلی: تعمیر = repair"
+  },
+  {
+    "Sound_de": "das Restaurant - die Restaurants",
+    "root": "اجزای تشکیل‌دهنده:\nRestaurant (رستوران، از فرانسه)\nمعنی کلی: رستوران = restaurant"
+  },
+  {
+    "Sound_de": "die Rezeption - die Rezeptionen",
+    "root": "اجزای تشکیل‌دهنده:\nRezeption (پذیرش، از reception)\nمعنی کلی: پذیرش = reception"
+  },
+  {
+    "Sound_de": "richtig",
+    "root": "اجزای تشکیل‌دهنده:\nrichtig (درست)\nمعنی کلی: درست = correct\nمتضادها:\n- falsch (غلط)"
+  },
+  {
+    "Sound_de": "ruhig",
+    "root": "اجزای تشکیل‌دهنده:\nruhig (آرام، از ruhe استراحت)\nمعنی کلی: آرام = calm"
+  },
+  {
+    "Sound_de": "der Saft - die Säfte",
+    "root": "اجزای تشکیل‌دهنده:\nSaft (آبمیوه، از saft)\nمعنی کلی: آبمیوه = juice"
+  },
+  {
+    "Sound_de": "der Salat - die Salate",
+    "root": "اجزای تشکیل‌دهنده:\nSalat (سالاد، از salat)\nمعنی کلی: سالاد = salad"
+  },
+  {
+    "Sound_de": "das Salz",
+    "root": "اجزای تشکیل‌دهنده:\nSalz (نمک، از salz)\nمعنی کلی: نمک = salt"
+  },
+  {
+    "Sound_de": "der Satz - die Sätze",
+    "root": "اجزای تشکیل‌دهنده:\nSatz (جمله، از satz)\nمعنی کلی: جمله = sentence"
+  },
+  {
+    "Sound_de": "die S-Bahn - die S-Bahnen",
+    "root": "اجزای تشکیل‌دهنده:\nS-Bahn (قطار شهری، Stadtbahn)\nمعنی کلی: قطار شهری = S-train"
+  },
+  {
+    "Sound_de": "der Schalter - die Schalter",
+    "root": "اجزای تشکیل‌دهنده:\nSchalter (گیشه، از schalter)\nمعنی کلی: گیشه = counter"
+  },
+  {
+    "Sound_de": "das Schild - die Schilder",
+    "root": "اجزای تشکیل‌دهنده:\nSchild (تابلو، از schild)\nمعنی کلی: تابلو = sign"
+  },
+  {
+    "Sound_de": "der Schinken - die Schinken",
+    "root": "اجزای تشکیل‌دهنده:\nSchinken (ژامبون، از schinken)\nمعنی کلی: ژامبون = ham"
+  },
+  {
+    "Sound_de": "schlecht",
+    "root": "اجزای تشکیل‌دهنده:\nschlecht (بد)\nمعنی کلی: بد = bad\nمتضادها:\n- gut (خوب)"
+  },
+  {
+    "Sound_de": "geschlossen",
+    "root": "اجزای تشکیل‌دهنده:\nge (گذشته) + schlossen (بسته)\nمعنی کلی: بسته = closed\nمتضادها:\n- geöffnet (باز)"
+  },
+  {
+    "Sound_de": "der Schluss - die Schlüsse",
+    "root": "اجزای تشکیل‌دهنده:\nSchluss (پایان، از schließen)\nمعنی کلی: پایان = conclusion\nمتضادها:\n- der Anfang (شروع)"
+  },
+  {
+    "Sound_de": "der Schlüssel - die Schlüssel",
+    "root": "اجزای تشکیل‌دهنده:\nSchlüssel (کلید، از sluzzel)\nمعنی کلی: کلید = key"
+  },
+  {
+    "Sound_de": "schnell",
+    "root": "اجزای تشکیل‌دهنده:\nschnell (سریع)\nمعنی کلی: سریع = fast\nمتضادها:\n- langsam (آهسته)"
+  },
+  {
+    "Sound_de": "schon",
+    "root": "اجزای تشکیل‌دهنده:\nschon (이미)\nمعنی کلی: 이미 = already"
+  },
+  {
+    "Sound_de": "schön",
+    "root": "اجزای تشکیل‌دهنده:\nschön (زیبا)\nمعنی کلی: زیبا = beautiful\nمتضادها:\n- hässlich (زشت)"
+  },
+  {
+    "Sound_de": "der Schrank - die Schränke",
+    "root": "اجزای تشکیل‌دهنده:\nSchrank (کابینت، از schrank)\nمعنی کلی: کابینت = cupboard"
+  },
+  {
+    "Sound_de": "der Schuh - die Schuhe",
+    "root": "اجزای تشکیل‌دهنده:\nSchuh (کفش، از schuoh)\nمعنی کلی: کفش = shoe"
+  },
+  {
+    "Sound_de": "die Schule - die Schulen",
+    "root": "اجزای تشکیل‌دهنده:\nSchule (مدرسه)\nمعنی کلی: مدرسه = school"
+  },
+  {
+    "Sound_de": "der Schüler - die Schüler",
+    "root": "اجزای تشکیل‌دهنده:\nSchüler (دانش‌آموز، از schule)\nمعنی کلی: دانش‌آموز = pupil"
+  },
+  {
+    "Sound_de": "schwer",
+    "root": "اجزای تشکیل‌دهنده:\nschwer (سنگین)\nمعنی کلی: سنگین = heavy\nمتضادها:\n- leicht (سبک)"
+  },
+  {
+    "Sound_de": "die Schwester - die Schwestern",
+    "root": "اجزای تشکیل‌دهنده:\nSchwester (خواهر، از swester)\nمعنی کلی: خواهر = sister\nمتضادها:\n- der Bruder (برادر)"
+  },
+  {
+    "Sound_de": "das Schwimmbad - die Schwimmbäder",
+    "root": "اجزای تشکیل‌دهنده:\nSchwimm (شنا) + Bad (حمام)\nمعنی کلی: استخر = swimming pool"
+  },
+  {
+    "Sound_de": "der See - die Seen",
+    "root": "اجزای تشکیل‌دهنده:\nSee (دریاچه، از seo)\nمعنی کلی: دریاچه = lake"
+  },
+  {
+    "Sound_de": "die Sehenswürdigkeit - die Sehenswürdigkeiten",
+    "root": "اجزای تشکیل‌دهنده:\nSehen (دیدن) + Würdigkeit (ارزش)\nمعنی کلی: جاذبه = sight"
+  },
+  {
+    "Sound_de": "sehr",
+    "root": "اجزای تشکیل‌دهنده:\nsehr (خیلی)\nمعنی کلی: خیلی = very"
+  },
+  {
+    "Sound_de": "seit",
+    "root": "اجزای تشکیل‌دهنده:\nseit (از)\nمعنی کلی: از = since"
+  },
+  {
+    "Sound_de": "selbstständig",
+    "root": "اجزای تشکیل‌دهنده:\nselbst (خود) + ständig (ایستاده)\nمعنی کلی: مستقل = independent"
+  },
+  {
+    "Sound_de": "sich",
+    "root": "اجزای تشکیل‌دهنده:\nsich (خود)\nمعنی کلی: خود = oneself"
+  },
+  {
+    "Sound_de": "sie",
+    "root": "اجزای تشکیل‌دهنده:\nsie (آنها، شما رسمی)\nمعنی کلی: آنها = they"
+  },
+  {
+    "Sound_de": "Sie",
+    "root": "اجزای تشکیل‌دهنده:\nSie (شما رسمی)\nمعنی کلی: شما = you formal"
+  },
+  {
+    "Sound_de": "so",
+    "root": "اجزای تشکیل‌دهنده:\nso (چنین)\nمعنی کلی: چنین = so"
+  },
+  {
+    "Sound_de": "das Sofa - die Sofas",
+    "root": "اجزای تشکیل‌دهنده:\nSofa (کاناپه، از sofa)\nمعنی کلی: کاناپه = sofa"
+  },
+  {
+    "Sound_de": "sofort",
+    "root": "اجزای تشکیل‌دهنده:\nso (چنین) + fort (فورا)\nمعنی کلی: فورا = immediately"
+  },
+  {
+    "Sound_de": "der Sohn - die Söhne",
+    "root": "اجزای تشکیل‌دهنده:\nSohn (پسر، از sohn)\nمعنی کلی: پسر = son\nمتضادها:\n- die Tochter (دختر)"
+  },
+  {
+    "Sound_de": "die Sonne - die Sonnen",
+    "root": "اجزای تشکیل‌دهنده:\nSonne (خورشید، از sunno)\nمعنی کلی: خورشید = sun"
+  },
+  {
+    "Sound_de": "spät",
+    "root": "اجزای تشکیل‌دهنده:\nspät (دیر، از spät)\nمعنی کلی: دیر = late\nمتضادها:\n- früh (زود)"
+  },
+  {
+    "Sound_de": "später",
+    "root": "اجزای تشکیل‌دهنده:\nspäter (بعدا)\nمعنی کلی: بعدا = later\nمتضادها:\n- früher (زودتر)"
+  },
+  {
+    "Sound_de": "die Speisekarte - die Speisekarten",
+    "root": "اجزای تشکیل‌دهنده:\nSpeise (غذا) + Karte (کارت)\nمعنی کلی: منو = menu"
+  },
+  {
+    "Sound_de": "der Sport - die Sporte",
+    "root": "اجزای تشکیل‌دهنده:\nSport (ورزش، از sport)\nمعنی کلی: ورزش = sport"
+  },
+  {
+    "Sound_de": "die Sprache - die Sprachen",
+    "root": "اجزای تشکیل‌دهنده:\nSprache (زبان، از sprechen)\nمعنی کلی: زبان = language"
+  },
+  {
+    "Sound_de": "die Stadt - die Städte",
+    "root": "اجزای تشکیل‌دهنده:\nStadt (شهر، از stat)\nمعنی کلی: شهر = city\nمتضادها:\n- das Dorf (روستا)"
+  },
+  {
+    "Sound_de": "die Stelle - die Stellen",
+    "root": "اجزای تشکیل‌دهنده:\nStelle (مکان، شغل)\nمعنی کلی: مکان = position"
+  },
+  {
+    "Sound_de": "die Tasche - die Taschen",
+    "root": "اجزای تشکیل‌دهنده:\nTasche (کیف، از tasche)\nمعنی کلی: کیف = bag"
+  },
+  {
+    "Sound_de": "das Taxi - die Taxis",
+    "root": "اجزای تشکیل‌دهنده:\nTaxi (تاکسی، از taximeter)\nمعنی کلی: تاکسی = taxi"
+  },
+  {
+    "Sound_de": "der Tee - die Tees",
+    "root": "اجزای تشکیل‌دهنده:\nTee (چای، از tea)\nمعنی کلی: چای = tea"
+  },
+  {
+    "Sound_de": "der Teil - die Teile",
+    "root": "اجزای تشکیل‌دهنده:\nTeil (قسمت، از teil)\nمعنی کلی: قسمت = part"
+  },
+  {
+    "Sound_de": "das Telefon - die Telefone",
+    "root": "اجزای تشکیل‌دهنده:\nTelefon (تلفن)\nمعنی کلی: تلفن = telephone"
+  },
+  {
+    "Sound_de": "der Termin - die Termine",
+    "root": "اجزای تشکیل‌دهنده:\nTermin (موعد، از termin)\nمعنی کلی: موعد = appointment"
+  },
+  {
+    "Sound_de": "der Test - die Tests",
+    "root": "اجزای تشکیل‌دهنده:\nTest (تست، از test)\nمعنی کلی: تست = test"
+  },
+  {
+    "Sound_de": "teuer",
+    "root": "اجزای تشکیل‌دهنده:\nteuer (گران)\nمعنی کلی: گران = expensive\nمتضادها:\n- billig (ارزان)"
+  },
+  {
+    "Sound_de": "der Text - die Texte",
+    "root": "اجزای تشکیل‌دهنده:\nText (متن، از text)\nمعنی کلی: متن = text"
+  },
+  {
+    "Sound_de": "das Thema - die Themen",
+    "root": "اجزای تشکیل‌دهنده:\nThema (موضوع، از theme)\nمعنی کلی: موضوع = topic"
+  },
+  {
+    "Sound_de": "das Ticket - die Tickets",
+    "root": "اجزای تشکیل‌دهنده:\nTicket (بلیت، از ticket)\nمعنی کلی: بلیت = ticket"
+  },
+  {
+    "Sound_de": "der Tisch - die Tische",
+    "root": "اجزای تشکیل‌دهنده:\nTisch (میز، از tisc)\nمعنی کلی: میز = table"
+  },
+  {
+    "Sound_de": "die Tochter - die Töchter",
+    "root": "اجزای تشکیل‌دهنده:\nTochter (دختر، از tohter)\nمعنی کلی: دختر = daughter\nمتضادها:\n- der Sohn (پسر)"
+  },
+  {
+    "Sound_de": "die Toilette - die Toiletten",
+    "root": "اجزای تشکیل‌دهنده:\nToilette (توالت، از toilette)\nمعنی کلی: توالت = toilet"
+  },
+  {
+    "Sound_de": "die Tomate - die Tomaten",
+    "root": "اجزای تشکیل‌دهنده:\nTomate (گوجه، از tomato)\nمعنی کلی: گوجه = tomato"
+  },
+  {
+    "Sound_de": "tot",
+    "root": "اجزای تشکیل‌دهنده:\ntot (مرده)\nمعنی کلی: مرده = dead\nمتضادها:\n- lebendig (زنده)"
+  },
+  {
+    "Sound_de": "die Treppe - die Treppen",
+    "root": "اجزای تشکیل‌دهنده:\nTreppe (پله، از treppe)\nمعنی کلی: پله = stairs"
+  },
+  {
+    "Sound_de": "tschüss",
+    "root": "اجزای تشکیل‌دهنده:\ntschüss (خداحافظ، از adieu)\nمعنی کلی: خداحافظ = bye"
+  },
+  {
+    "Sound_de": "über",
+    "root": "اجزای تشکیل‌دهنده:\nüber (بالای)\nمعنی کلی: بالای = over"
+  },
+  {
+    "Sound_de": "die Uhr - die Uhren",
+    "root": "اجزای تشکیل‌دهنده:\nUhr (ساعت، از uhr)\nمعنی کلی: ساعت = clock"
+  },
+  {
+    "Sound_de": "um",
+    "root": "اجزای تشکیل‌دهنده:\num (در حدود)\nمعنی کلی: در حدود = around"
+  },
+  {
+    "Sound_de": "umziehen",
+    "root": "اجزای تشکیل‌دهنده:\num (تغییر) + ziehen (کشیدن)\nمعنی کلی: جابجا شدن = move house"
+  },
+  {
+    "Sound_de": "und",
+    "root": "اجزای تشکیل‌دهنده:\nund (و)\nمعنی کلی: و = and"
+  },
+  {
+    "Sound_de": "unser-",
+    "root": "اجزای تشکیل‌دهنده:\nunser (مال ما)\nمعنی کلی: مال ما = our"
+  },
+  {
+    "Sound_de": "unten",
+    "root": "اجزای تشکیل‌دهنده:\nunten (پایین)\nمعنی کلی: پایین = below\nمتضادها:\n- oben (بالا)"
+  },
+  {
+    "Sound_de": "unter",
+    "root": "اجزای تشکیل‌دهنده:\nunter (زیر)\nمعنی کلی: زیر = under\nمتضادها:\n- über (بالا)"
+  },
+  {
+    "Sound_de": "der Unterricht - die Unterrichte",
+    "root": "اجزای تشکیل‌دهنده:\nUnter (زیر) + Richt (جهت، آموزش)\nمعنی کلی: درس = lesson"
+  },
+  {
+    "Sound_de": "die Unterschrift - die Unterschriften",
+    "root": "اجزای تشکیل‌دهنده:\nUnter (زیر) + Schrift (نوشته)\nمعنی کلی: امضا = signature"
+  },
+  {
+    "Sound_de": "der Urlaub - die Urlaube",
+    "root": "اجزای تشکیل‌دهنده:\nUrlaub (تعطیلات)\nمعنی کلی: تعطیلات = vacation"
+  },
+  {
+    "Sound_de": "der Vater - die Väter",
+    "root": "اجزای تشکیل‌دهنده:\nVater (پدر، از vater)\nمعنی کلی: پدر = father"
   },
   {
     "Sound_de": "verboten",
-    "root": "اجزای تشکیل‌دهنده:\nVer- (پیشوند منفی) + boten (از bieten → پیشنهاد داد) — در معنی «ممنوع»\nمعنی کلی: ممنوع، غیرمجاز\nمترادف‌ها:\n- untersagt (ممنوع)\n- nicht erlaubt (اجازه داده نشده)\nمتضادها:\n- erlaubt (مجاز)\n- gestattet (مجاز)"
+    "root": "اجزای تشکیل‌دهنده:\nver (پیشوند) + boten (ممنوع)\nمعنی کلی: ممنوع = forbidden\nمتضادها:\n- erlaubt (مجاز)"
   },
   {
-    "Sound_de": "die Menge",
-    "root": "اجزای تشکیل‌دهنده:\nMenge (واحد پایه) — به معنای مقدار یا تعداد\nمعنی کلی: مقدار، تعداد، حجم یک چیز\nمترادف‌ها:\n- die Anzahl (تعداد)\n- das Volumen (حجم)\nمتضادها:\n- die Leere (خلا، تهی بودن)\n- das Minimum (حداقل)"
+    "Sound_de": "der Verein - die Vereine",
+    "root": "اجزای تشکیل‌دهنده:\nVerein (انجمن، از vereinen متحد کردن)\nمعنی کلی: انجمن = club"
   },
   {
-    "Sound_de": "der Inhalt",
-    "root": "اجزای تشکیل‌دهنده:\nIn (در) + Halt (نگه‌داشتن، حاوی بودن) — به معنای محتوای چیزی\nمعنی کلی: محتوا، آنچه داخل چیزی وجود دارد\nمترادف‌ها:\n- der Gehalt (محتوا)\n- die Substanz (ماده، محتوا)\nمتضادها:\n- die Hülle (پوسته، جلد خالی)\n- die Außenfläche (سطح بیرونی)"
+    "Sound_de": "verheiratet",
+    "root": "اجزای تشکیل‌دهنده:\nver (پیشوند) + heiratet (ازدواج کرده)\nمعنی کلی: متاهل = married\nمتضادها:\n- ledig (مجرد)"
   },
   {
-    "Sound_de": "die Kleidung",
-    "root": "اجزای تشکیل‌دهنده:\nKleiden (پوشیدن) + -ung (پسوند اسم‌ساز) → آنچه پوشیده می‌شود = لباس\nمعنی کلی: لباس، پوشاک\nمترادف‌ها:\n- die Bekleidung (پوشاک)\n- das Gewand (لباس)\nمتضادها:\n- die Nacktheit (بی‌پوشش بودن)\n- die Uniformität (یک‌نواختی پوشش، در برخی زمینه‌ها)"
+    "Sound_de": "der Verkäufer - die Verkäufer",
+    "root": "اجزای تشکیل‌دهنده:\nVer (پیشوند) + Käufer (فروشنده)\nمعنی کلی: فروشنده = seller\nمتضادها:\n- der Kunde (مشتری)"
   },
   {
-    "Sound_de": "die Kosmetik",
-    "root": "اجزای تشکیل‌دهنده:\nKosmetik (از یونانی kosmos → آرایش) — اشاره به محصولات آرایشی دارد\nمعنی کلی: لوازم آرایش و بهداشتی\nمترادف‌ها:\n- die Schminke (آرایش)\n- Schönheitspflege (مراقبت زیبایی)\nمتضادها:\n- das Pflegeprodukt ohne Farbe (محصول مراقبتی بدون رنگ)\n- die Funktionale Körperpflege (مراقبت بدنی صرفاً بهداشت)"
+    "Sound_de": "der Vermieter - die Vermieter",
+    "root": "اجزای تشکیل‌دهنده:\nVer (پیشوند) + Mieter (اجاره‌دهنده)\nمعنی کلی: صاحبخانه = landlord"
   },
   {
-    "Sound_de": "die elektronischen Geräte",
-    "root": "اجزای تشکیل‌دهنده:\nelektronisch (الکترونیکی) + Geräte (دستگاه‌ها)\nمعنی کلی: وسایل الکترونیکی مثل موبایل، لپ‌تاپ، تبلت\nمترادف‌ها:\n- die Elektrogeräte (تجهیزات الکتریکی)\n- die Digitalgeräte (دستگاه‌های دیجیتال)\nمتضادها:\n- mechanische Geräte (دستگاه‌های مکانیکی)\n- manuelle Werkzeuge (ابزار دستی)"
+    "Sound_de": "der Verwandte - die Verwandten",
+    "root": "اجزای تشکیل‌دهنده:\nVer (پیشوند) + Wandte (خویشاوند)\nمعنی کلی: خویشاوند = relative"
   },
   {
-    "Sound_de": "die Lebensmittel",
-    "root": "اجزای تشکیل‌دهنده:\nLeben (زندگی) + Mittel (وسایل، مواد) → آنچه برای زندگی لازم است = غذا\nمعنی کلی: مواد غذایی، خوراکی‌ها\nمترادف‌ها:\n- die Nahrungsmittel (غذایی)\n- die Nahrung (غذا)\nمتضادها:\n- Abfall (ضایعات)\n- ungenießbare Substanz (ماده غیرقابل خوردن)"
+    "Sound_de": "viel",
+    "root": "اجزای تشکیل‌دهنده:\nviel (زیاد)\nمعنی کلی: زیاد = much\nمتضادها:\n- wenig (کم)"
   },
   {
-    "Sound_de": "die Unterlagen",
-    "root": "اجزای تشکیل‌دهنده:\nunter (زیر) + Lage (موقعیت، جای) → چیزهایی که زیر دست هستند = اسناد، مدرک\nمعنی کلی: اسناد و مدارک، برگه‌های مهم سفر\nمترادف‌ها:\n- die Dokumente (اسناد)\n- die Papiere (پاسپورت، برگه‌ها)\nمتضادها:\n- die Kopie (نسخه کپی) — در برخی معناها متضاد نیست ولی متفاوت است\n- das Fehlen von Dokumenten (نداشتن مدارک)"
+    "Sound_de": "vielleicht",
+    "root": "اجزای تشکیل‌دهنده:\nviel (زیاد) + leicht (سبک)\nمعنی کلی: شاید = perhaps"
   },
   {
-    "Sound_de": "der Versicherungsnachweis",
-    "root": "اجزای تشکیل‌دهنده:\nVersicherung (بیمه) + Nachweis (سند، اثبات)\nمعنی کلی: مدرک بیمه (اثبات داشتن بیمه)\nمترادف‌ها:\n- die Versicherungsbestätigung (تأییدیه بیمه)\n- das Versicherungsschreiben (نامه بیمه)\nمتضادها:\n- der Nichtnachweis (نبود مدرک)\n- der Versicherungsrückzug (لغو بیمه) — در معنای مفهومی"
+    "Sound_de": "von",
+    "root": "اجزای تشکیل‌دهنده:\nvon (از)\nمعنی کلی: از = from"
   },
   {
-    "Sound_de": "die Auslandskrankenversicherung",
-    "root": "اجزای تشکیل‌دهنده:\nAusland (خارج) + Krankenversicherung (بیمه سلامتی)\nمعنی کلی: بیمه درمانی در خارج از کشور\nمترادف‌ها:\n- die Reise-Krankenversicherung (بیمه درمانی سفر)\n- die International Health Insurance (بیمه سلامت بین‌المللی)\nمتضادها:\n- die Inlands-Krankenversicherung (بیمه درمانی داخل کشور)\n- der Versicherungsschutz fehlt (نبود پوشش بیمه‌ای)"
+    "Sound_de": "vor",
+    "root": "اجزای تشکیل‌دهنده:\nvor (قبل)\nمعنی کلی: قبل = before"
   },
   {
-    "Sound_de": "der Finanzierungsnachweis",
-    "root": "اجزای تشکیل‌دهنده:\nFinanzierung (تأمین مالی) + Nachweis (سند اثبات)\nمعنی کلی: مدرک اثبات تأمین مالی (مثلاً پول کافی برای سفر)\nمترادف‌ها:\n- der Geldnachweis (اثبات پول)\n- die Finanzbestätigung (تأییدیه مالی)\nمتضادها:\n- der Finanzierungsrückzug (پس گرفتن تامین مالی)\n- das Fehlen von Mitteln (نبود پول کافی)"
+    "Sound_de": "der Vorname - die Vornamen",
+    "root": "اجزای تشکیل‌دهنده:\nVor (قبل) + Name (نام)\nمعنی کلی: نام کوچک = first name"
   },
   {
-    "Sound_de": "genug Geld",
-    "root": "اجزای تشکیل‌دهنده:\ngenug (کافی) + Geld (پول)\nمعنی کلی: داشتن پول کافی\nمترادف‌ها:\n- ausreichendes Geld (پول کافی)\n- genügend Mittel (منابع کافی)\nمتضادها:\n- zu wenig Geld (پول خیلی کم)\n- finanzielle Knappheit (فقر مالی)"
+    "Sound_de": "die Vorsicht - die Vorsichten",
+    "root": "اجزای تشکیل‌دهنده:\nVor (قبل) + Sicht (دید)\nمعنی کلی: احتیاط = caution"
   },
   {
-    "Sound_de": "der Kontoauszug",
-    "root": "اجزای تشکیل‌دهنده:\nKonto (حساب بانکی) + Auszug (صورت‌حساب، خروجی)\nمعنی کلی: صورت‌حساب بانکی، گردش حساب\nمترادف‌ها:\n- Bankauszug (صورت‌حساب بانکی)\n- Kontoübersicht (نمایش حساب)\nمتضادها:\n- das leere Konto (حساب خالی)\n- die Kontoanmeldung (افتتاح حساب بدون تراکنش)"
+    "Sound_de": "die Vorwahl - die Vorwahlen",
+    "root": "اجزای تشکیل‌دهنده:\nVor (قبل) + Wahl (انتخاب، کد)\nمعنی کلی: پیش‌شماره = area code"
   },
   {
-    "Sound_de": "der Wegweiser",
-    "root": "اجزای تشکیل‌دهنده:\nWeg (راه) + Weiser (راهنما) → نشانگر مسیر\nمعنی کلی: تابلو راهنمای مسیر در فرودگاه یا ایستگاه\nمترادف‌ها:\n- das Schild (تابلو)\n- Wegmarkierung (نشانه مسیر)\nمتضادها:\n- die Sackgasse (کوی بن‌بست)\n- die Fehlbeschilderung (بدراهنما بودن)"
+    "Sound_de": "wann",
+    "root": "اجزای تشکیل‌دهنده:\nwann (کی)\nمعنی کلی: کی = when"
   },
   {
-    "Sound_de": "die Information",
-    "root": "اجزای تشکیل‌دهنده:\nInformieren (اطلاع دادن) + -ation (اسم‌سازی) → اطلاعات\nمعنی کلی: بخش اطلاعات (چیزهایی که مسافر می‌خواهد بداند)\nمترادف‌ها:\n- Auskunft (اطلاع‌رسانی)\n- Service-Schalter (پیشخوان سرویس)\nمتضادها:\n- Desinformation (اطلاع غلط)\n- Geheimhaltung (محرمانگی)"
+    "Sound_de": "warum",
+    "root": "اجزای تشکیل‌دهنده:\nwa (چه) + rum (برای)\nمعنی کلی: چرا = why"
   },
   {
-    "Sound_de": "die Toilette",
-    "root": "اجزای تشکیل‌دهنده:\nToilette (واژه قرضی از فرانسوی) — محلی برای رفاه و سرویس بهداشتی\nمعنی کلی: دستشویی، سرویس بهداشتی\nمترادف‌ها:\n- das WC (ابجدی کوتاه‌شده for water closet)\n- das Badezimmer (حمام، اگر شامل توالت باشد)\nمتضادها:\n- die Außentoilette (دستشویی بیرونی، در بعضی فرودگاه‌ها)\n- das Fehlen einer Toilette (نبود سرویس بهداشتی)"
+    "Sound_de": "was",
+    "root": "اجزای تشکیل‌دهنده:\nwas (چه)\nمعنی کلی: چه = what"
   },
   {
-    "Sound_de": "die Behindertentoilette",
-    "root": "اجزای تشکیل‌دهنده:\nBehinderten (معلولان) + Toilette (توالت)\nمعنی کلی: سرویس بهداشتی مخصوص افراد معلول\nمترادف‌ها:\n- barrierefreie Toilette (دستشویی بدون مانع)\n- Rollstuhl‑WC (دستشویی ویلچری)\nمتضادها:\n- herkömmliche Toilette (توالت معمولی)\n- nicht barrierefreie Einrichtung (سرویس‌سهولت غیر قابل دسترسی)"
+    "Sound_de": "was für ein",
+    "root": "اجزای تشکیل‌دهنده:\nwas für ein (چه نوع)\nمعنی کلی: چه نوع = what kind"
   },
   {
-    "Sound_de": "die Wickelstation",
-    "root": "اجزای تشکیل‌دهنده:\nWickeln (پوشک بستن) + Station (ایستگاه)\nمعنی کلی: محل تعویض پوشک نوزاد در فرودگاه یا ترمینال\nمترادف‌ها:\n- Baby‑Wickeltisch (میز پوشک) \n- Kindersanitärbereich (منطقه سرویس کودک)\nمتضادها:\n- kein Wickelplatz (نبود محل تعویض پوشک)\n- Erwachsenenbereich (منطقه بزرگسالان بدون امکانات کودک)"
+    "Sound_de": "das Wasser - die Wasser",
+    "root": "اجزای تشکیل‌دهنده:\nWasser (آب، از wassar)\nمعنی کلی: آب = water"
   },
   {
-    "Sound_de": "der Sicherheitsgurt",
-    "root": "اجزای تشکیل‌دهنده:\nSicherheit (امنیت) + Gurt (کمربند)\nمعنی کلی: کمربند ایمنی در هواپیما\nمترادف‌ها:\n- Anschnallgurt (کمربند بسته شدن)\n- Gurtsystem (سیستم کمربند)\nمتضادها:\n- Freiflug (پرواز بدون گُرت) → غیررسمی\n- kein Gurt (نبود کمربند)"
+    "Sound_de": "weiblich",
+    "root": "اجزای تشکیل‌دهنده:\nweiblich (مونث)\nمعنی کلی: مونث = female\nمتضادها:\n- männlich (مذکر)"
   },
   {
-    "Sound_de": "anschnallen / bitte anschnallen",
-    "root": "اجزای تشکیل‌دهنده:\nan (پیشوند) + schnallen (بستن) → بستن کمربند ایمنی\nمعنی کلی: لطفا کمربند ایمنی‌تان را ببندید\nمترادف‌ها:\n- Gurt anlegen (کمربند ببندید)\n- sich anschnallen (بستن کمربند)\nمتضادها:\n- abschnallen (باز کردن کمربند)\n- Gurt lösen (رها کردن کمربند)"
+    "Sound_de": "der Wein - die Weine",
+    "root": "اجزای تشکیل‌دهنده:\nWein (شراب، از wein)\nمعنی کلی: شراب = wine"
   },
   {
-    "Sound_de": "die aufrechte Sitzposition",
-    "root": "اجزای تشکیل‌دهنده:\naufrecht (صاف، قائم) + Sitz (نشستن) + Position (موقعیت)\nمعنی کلی: وضعیت نشستن صاف و عمودی (در هواپیما)\nمترادف‌ها:\n- gerade Sitzhaltung (حالت نشستن راست)\n- aufrechter Sitz (نشستن مستقیم)\nمتضادها:\n- geneigte Sitzposition (حالت نشستن مایل)\n- halb liegend (نیمه خوابیده)"
+    "Sound_de": "weit",
+    "root": "اجزای تشکیل‌دهنده:\nweit (دور)\nمعنی کلی: دور = far\nمتضادها:\n- nah (نزدیک)"
   },
   {
-    "Sound_de": "das Tischchen / der Tisch",
-    "root": "اجزای تشکیل‌دهنده:\nTisch (میز) + -chen (پسوند کوچک‌کننده) → میز کوچک\nمعنی کلی: میز کوچک در هواپیما (روی صندلی، میز غذا)\nمترادف‌ها:\n- Klapptisch (میز تاشو)\n- Tray‑Table (میز سینی هواپیما)\nمتضادها:\n- kein Tisch (نبود میز)\n- Armlehne (پایه بازو صندلی، به جای میز)"
+    "Sound_de": "weiter",
+    "root": "اجزای تشکیل‌دهنده:\nweiter (بیشتر)\nمعنی کلی: بیشتر = further"
   },
   {
-    "Sound_de": "das Gepäckfach / das Overhead Bin",
-    "root": "اجزای تشکیل‌دهنده:\nGepäck (بار) + Fach (محفظه) → محفظه بار بالای سر در هواپیما\nمعنی کلی: محفظه بالای سر برای قرار دادن چمدان دستی در هواپیما\nمترادف‌ها:\n- Overhead Bin (اصطلاح انگلیسی)\n- Oberkopf-Fach (محفظه بالای سر)\nمتضادها:\n- Gepäckschrank (کمد بار) — کمتر رایج در هواپیما\n- Fußraum (فضای زیر صندلی) — جای دیگر برای بار دستی کوچک"
+    "Sound_de": "welch-",
+    "root": "اجزای تشکیل‌دهنده:\nwelch (کدام)\nمعنی کلی: کدام = which"
   },
   {
-    "Sound_de": "das Anschnallzeichen",
-    "root": "اجزای تشکیل‌دهنده:\nanschnallen (بستن کمربند) + Zeichen (علامت)\nمعنی کلی: علامت نشان‌دهنده بستن کمربند ایمنی در هواپیما\nمترادف‌ها:\n- Gurtanzeige (نمایشگر کمربند)\n- Sicherheitszeichen (علامت ایمنی)\nمتضادها:\n- Anschnallverbot (ممنوعیت بستن کمربند) — غیرعادی\n- Zeichen zum Gurtablassen (علامت آزاد کردن کمربند)"
+    "Sound_de": "die Welt - die Welten",
+    "root": "اجزای تشکیل‌دهنده:\nWelt (جهان، از wer-ald مرد سن)\nمعنی کلی: جهان = world"
   },
   {
-    "Sound_de": "die Turbulenzen",
-    "root": "اجزای تشکیل‌دهنده:\nTurbulenz (از لاتین turba → آشفتگی) → آشفتگی جریان هوا\nمعنی کلی: نوسان‌های هوایی (تکان‌های هواپیما)\nمترادف‌ها:\n- Luftturbulenzen (نوسان هوایی)\n- Flatterbewegung (حرکت لرزشی)\nمتضادها:\n- ruhiger Flug (پرواز آرام)\n- stabile Luftströmung (جریان هوایی پایدار)"
+    "Sound_de": "wenig",
+    "root": "اجزای تشکیل‌دهنده:\nwenig (کم)\nمعنی کلی: کم = little\nمتضادها:\n- viel (زیاد)"
   },
   {
-    "Sound_de": "etwas zu trinken",
-    "root": "اجزای تشکیل‌دهنده:\netwas (چیزی) + zu trinken (برای نوشیدن)\nمعنی کلی: چیزی برای نوشیدن (آب، نوشیدنی)\nمترادف‌ها:\n- ein Getränk (یک نوشیدنی)\n- Flüssigkeit (مایع)\nمتضادها:\n- nichts zu trinken (هیچ چیزی برای نوشیدن)\n- trockene Speise (غذای خشک بدون نوشیدنی)"
+    "Sound_de": "wer",
+    "root": "اجزای تشکیل‌دهنده:\nwer (کیست)\nمعنی کلی: کیست = who"
   },
   {
-    "Sound_de": "das Essen / das Menü",
-    "root": "اجزای تشکیل‌دهنده:\nEssen (غذا) و Menü (لیست غذا)\nمعنی کلی: غذای سرو شده در هواپیما و/یا فهرست غذاها\nمترادف‌ها:\n- Mahlzeit (وعده غذایی)\n- Speisen (خوراک)\nمتضادها:\n- Fasten (روزه، نخوردن غذا)\n- kein Essen (نبود غذا)"
+    "Sound_de": "werden",
+    "root": "اجزای تشکیل‌دهنده:\nwerden (شدن)\nمعنی کلی: شدن = become"
   },
   {
-    "Sound_de": "die Decke",
-    "root": "اجزای تشکیل‌دهنده:\nDecke (پتو، پوشش) → پتو یا پوشش برای گرم شدن\nمعنی کلی: پتو برای استفاده در هواپیما\nمترادف‌ها:\n- Wolldecke (پتو پشمی)\n- Flugdecke (پتو مخصوص پرواز)\nمتضادها:\n- Kissen (بالش) — بیشتر برای سر\n- keine Decke (نبود پتو)"
+    "Sound_de": "das Wetter - die Wetter",
+    "root": "اجزای تشکیل‌دهنده:\nWetter (هوا)\nمعنی کلی: هوا = weather"
   },
   {
-    "Sound_de": "das Kissen",
-    "root": "اجزای تشکیل‌دهنده:\nKissen (بالش) — تکیه‌گاه نرم برای سر\nمعنی کلی: بالش برای استفاده در هواپیما\nمترادف‌ها:\n- Nackenkissen (بالش گردنی)\n- Kopfkissen (بالش سر)\nمتضادها:\n- Matte (زیرانداز نازک)\n- keine Stütze (نبود تکیه‌گاه)"
+    "Sound_de": "wichtig",
+    "root": "اجزای تشکیل‌دهنده:\nwichtig (مهم، از wichtig)\nمعنی کلی: مهم = important\nمتضادها:\n- unwichtig (غیرمهم)"
   },
   {
-    "Sound_de": "mir ist kalt",
-    "root": "اجزای تشکیل‌دهنده:\nmir (برای من) + ist (است) + kalt (سرد)\nمعنی کلی: بیان اینکه من سردم است\nمترادف‌ها:\n- ich friere (من یخ زده‌ام)\n- mir ist kühl (به من خنک است)\nمتضادها:\n- mir ist warm (به من گرم است)\n- mir ist heiß (خیلی گرمم)"
+    "Sound_de": "wie",
+    "root": "اجزای تشکیل‌دهنده:\nwie (چگونه)\nمعنی کلی: چگونه = how"
   },
   {
-    "Sound_de": "die Klimaanlage / der Luftzug",
-    "root": "اجزای تشکیل‌دهنده:\nKlimaanlage (تجهیز سیستم تهویه) + Luftzug (جریان هوا)\nمعنی کلی: سیستم تهویه یا جریان هوای داخل کابین هواپیما\nمترادف‌ها:\n- Belüftungssystem (سیستم تهویه)\n- Luftzirkulation (گردش هوا)\nمتضادها:\n- geschlossene Kabine (کابین بسته بدون جریان هوا)\n- Hitze (گرمای شدید)"
+    "Sound_de": "das Wiederhören - die Wiederhörungen",
+    "root": "اجزای تشکیل‌دهنده:\nWieder (دوباره) + Hören (شنیدن)\nمعنی کلی: خداحافظ (در تلفن) = goodbye"
   },
   {
-    "Sound_de": "das Entertainment / das Bordunterhaltungssystem",
-    "root": "اجزای تشکیل‌دهنده:\nEntertainment (سرگرمی) + Bord (ناو، در اینجا هواپیما) + Unterhaltungssystem (سیستم سرگرمی)\nمعنی کلی: سیستم سرگرمی در هواپیما (فیلم، موسیقی، بازی)\nمترادف‌ها:\n- Bord-Entertainment (سرگرمی هواپیما)\n- Inflight-Entertainment (سرگرمی پروازی)\nمتضادها:\n- Langeweile (کسالت)\n- kein Unterhaltungsprogramm (نبود برنامه سرگرمی)"
+    "Sound_de": "das Wiedersehen - die Wiedersehungen",
+    "root": "اجزای تشکیل‌دهنده:\nWieder (دوباره) + Sehen (دیدن)\nمعنی کلی: خداحافظ = goodbye"
   },
   {
-    "Sound_de": "die Kopfhörer",
-    "root": "اجزای تشکیل‌دهنده:\nKopf (سر) + Hörer (گوش‌دهنده) → هدفون\nمعنی کلی: هدفون برای گوش دادن به سیستم سرگرمی هواپیما\nمترادف‌ها:\n- Headset (هدست)\n- Ohrhörer (ایرپاد، هدفون داخل گوش)\nمتضادها:\n- keine Kopfhörer (نبود هدفون)\n- Lautsprecher (بلندگوی عمومی)"
+    "Sound_de": "wie viel",
+    "root": "اجزای تشکیل‌دهنده:\nwie (چگونه) + viel (زیاد)\nمعنی کلی: چقدر = how much"
   },
   {
-    "Sound_de": "mir ist übel",
-    "root": "اجزای تشکیل‌دهنده:\nmir (برای من) + ist (است) + übel (بد، ناخوش)\nمعنی کلی: من احساس تهوع می‌کنم\nمترادف‌ها:\n- ich bin seekrank (من بیماری دریایی دارم)\n- mir ist schlecht (به من بد است)\nمتضادها:\n- mir ist gut (حالم خوب است)\n- ich fühle mich wohl (خودم را خوب احساس می‌کنم)"
+    "Sound_de": "willkommen",
+    "root": "اجزای تشکیل‌دهنده:\nwill (خواستن) + kommen (آمدن)\nمعنی کلی: خوش آمدید = welcome"
   },
   {
-    "Sound_de": "die Spucktüte",
-    "root": "اجزای تشکیل‌دهنده:\nspucken (تف کردن، استفراغ) + Tüte (کیسه) → کیسه استفراغ\nمعنی کلی: کیسه استفراغ که در هواپیما برای مسافران بیمار داده می‌شود\nمترادف‌ها:\n- Übeltütе (کیسه بیماری)\n- Brechbeutel (کیسه بالا آوردن)\nمتضادها:\n- kein Beutel (نبود کیسه)\n- Müllbeutel (کیسه زباله، اما استفاده متفاوت)"
+    "Sound_de": "der Wind - die Winde",
+    "root": "اجزای تشکیل‌دهنده:\nWind (باد، از wind)\nمعنی کلی: باد = wind"
   },
   {
-    "Sound_de": "die Toilette / das WC",
-    "root": "اجزای تشکیل‌دهنده:\nToilette (توالت) و WC (کوتاه‌شده برای water closet)\nمعنی کلی: سرویس بهداشتی در هواپیما\nمترادف‌ها:\n- Waschraum (اتاق شست‌وشو)\n- Sanitäreinrichtung (تجهیزات بهداشتی)\nمتضادها:\n- kein WC (نبود دستشویی)\n- Notfalltoilette (توالت اضطراری، کم رایج)"
+    "Sound_de": "wir",
+    "root": "اجزای تشکیل‌دهنده:\nwir (ما)\nمعنی کلی: ما = we"
   },
   {
-    "Sound_de": "der Platz tauschen",
-    "root": "اجزای تشکیل‌دهنده:\nPlatz (صندلی، جای) + tauschen (تعویض کردن)\nمعنی کلی: تعویض صندلی با کسی دیگر در هواپیما\nمترادف‌ها:\n- Sitz tauschen (مبادله صندلی)\n- Sitzplatz wechseln (تغییر جای نشستن)\nمتضادها:\n- beim Platz bleiben (در همان جای خود ماندن)\n- nicht tauschen (مبادله نکردن)"
+    "Sound_de": "wo",
+    "root": "اجزای تشکیل‌دهنده:\nwo (کجا)\nمعنی کلی: کجا = where"
   },
   {
-    "Sound_de": "das Fenster / der Fensterplatz",
-    "root": "اجزای تشکیل‌دهنده:\nFenster (پنجره) + Platz (جای) → جای کنار پنجره\nمعنی کلی: صندلی کنار پنجره در هواپیما\nمترادف‌ها:\n- Window Seat (اصطلاح انگلیسی)\n- Sitz am Fenster (صندلی کنار پنجره)\nمتضادها:\n- Gangplatz (صندلی راهرو)\n- Mittelsitz (صندلی وسط)"
+    "Sound_de": "woher",
+    "root": "اجزای تشکیل‌دهنده:\nwo (کجا) + her (از اینجا)\nمعنی کلی: از کجا = from where"
   },
   {
-    "Sound_de": "die Leselampe",
-    "root": "اجزای تشکیل‌دهنده:\nLesen (خواندن) + Lampe (لامپ) → چراغ مطالعه\nمعنی کلی: چراغ کوچک بالای صندلی برای خواندن در هواپیما\nمترادف‌ها:\n- Leseleuchte (چراغ مطالعه)\n- Bordleselampe (لامپ مطالعه داخل هواپیما)\nمتضادها:\n- keine Lampe (نبود چراغ)\n- Deckenbeleuchtung (نور سقفی، عمومی)"
+    "Sound_de": "wohin",
+    "root": "اجزای تشکیل‌دهنده:\nwo (کجا) + hin (به آنجا)\nمعنی کلی: به کجا = to where"
   },
   {
-    "Sound_de": "das Baby weint",
-    "root": "اجزای تشکیل‌دهنده:\nBaby (نوزاد) + weint (گریه می‌کند)\nمعنی کلی: نوزاد گریه می‌کند (به عنوان وضعیت در پرواز)\nمترادف‌ها:\n- das Kind weint (بچه گریه می‌کند)\n- das Säugling schlägt Alarm (نوزاد سر و صدا می‌کند)\nمتضادها:\n- das Baby schläft (نوزاد خواب است)\n- das Baby ist ruhig (نوزاد آرام است)"
+    "Sound_de": "die Wohnung - die Wohnungen",
+    "root": "اجزای تشکیل‌دهنده:\nWohnung (آپارتمان)\nمعنی کلی: آپارتمان = apartment"
   },
   {
-    "Sound_de": "die Landung",
-    "root": "اجزای تشکیل‌دهنده:\nLand (زمین) + ung (اسم‌سازی) → فرود آمدن بر زمین\nمعنی کلی: فرود هواپیما روی زمین\nمترادف‌ها:\n- das Aufsetzen (نشست)\n- das Absetzen (نشاندن هواپیما)\nمتضادها:\n- der Start (بلند شدن)\n- der Abflug (حرکت از زمین)"
+    "Sound_de": "das Wort - die Wörter",
+    "root": "اجزای تشکیل‌دهنده:\nWort (کلمه، از wort)\nمعنی کلی: کلمه = word"
   },
   {
-    "Sound_de": "die Crew / die Flugbegleiter",
-    "root": "اجزای تشکیل‌دهنده:\nCrew (خدمه) / Flug (پرواز) + Begleiter (همراه – کسانی که پرواز را همراهی می‌کنند)\nمعنی کلی: خدمه‌ی پرواز، مهمانداران هواپیما\nمترادف‌ها:\n- das Kabinenpersonal (پرسنل کابین)\n- Flugpersonal (پرسنل پرواز)\nمتضادها:\n- die Passagiere (مسافران)\n- Bodenpersonal (پرسنل زمینی، کارکنان فرودگاه)"
+    "Sound_de": "wunderbar",
+    "root": "اجزای تشکیل‌دهنده:\nwunder (شگفت) + bar (قابل)\nمعنی کلی: شگفت‌انگیز = wonderful"
   },
   {
-    "Sound_de": "der Rufknopf",
-    "root": "اجزای تشکیل‌دهنده:\nRuf (فراخوان) + Knopf (دکمه) → دکمه فراخوان خدمه\nمعنی کلی: دکمه‌ای که مسافر آن را فشار می‌دهد تا توجه مهماندار جلب شود\nمترادف‌ها:\n- Serviceknopf (دکمه سرویس)\n- Hilfe-Knopf (دکمه کمک)\nمتضادها:\n- kein Knopf (نبود دکمه)\n- Abschaltknopf (دکمه خاموش کردن، در برخی سیستم‌ها)"
+    "Sound_de": "die Zeit - die Zeiten",
+    "root": "اجزای تشکیل‌دهنده:\nZeit (زمان، از zeit)\nمعنی کلی: زمان = time"
   },
   {
-    "Sound_de": "der Duty-free-Verkauf",
-    "root": "اجزای تشکیل‌دهنده:\nDuty-free (معاف از مالیات) + Verkauf (فروش)\nمعنی کلی: فروشگاه یا فروش کالا در هواپیما یا فرودگاه بدون مالیات گمرکی\nمترادف‌ها:\n- Duty‑free-Shop (فروشگاه بدون مالیات)\n- steuerfreier Handel (تجارت معاف از مالیات)\nمتضادها:\n- regulärer Verkauf (فروش عادی با مالیات)\n- Zollpflichtiger Verkauf (فروش مشمول گمرک)"
+    "Sound_de": "zurzeit",
+    "root": "اجزای تشکیل‌دهنده:\nzur (به) + Zeit (زمان)\nمعنی کلی: در حال حاضر = currently"
   },
   {
-    "Sound_de": "die Einreisekarte / das Zollformular",
-    "root": "اجزای تشکیل‌دهنده:\nEinreise (ورود) + Karte (کارت) / Zoll (گمرک) + Formular (فرم)\nمعنی کلی: کارت ورود به کشور / فرم گمرکی که مسافران باید پر کنند\nمترادف‌ها:\n- Einreiseformular (فرم ورود)\n- Zollerklärung (اظهارنامه گمرکی)\nمتضادها:\n- Abreisekarte (کارت خروج)\n- Ausfuhrformular (فرم صادرات)"
+    "Sound_de": "die Zeitung - die Zeitungen",
+    "root": "اجزای تشکیل‌دهنده:\nZeitung (روزنامه، از zeit زمان)\nمعنی کلی: روزنامه = newspaper"
   },
   {
-    "Sound_de": "wir landen gleich",
-    "root": "اجزای تشکیل‌دهنده:\nwir (ما) + landen (فرود آمدن) + gleich (به زودی)\nمعنی کلی: به زودی فرود می‌آییم — اعلام خدمه وقت نزدیک شدن به مقصد\nمترادف‌ها:\n- wir stehen kurz vor der Landung (ما تقریباً در حال فرود هستیم)\n- wir setzen bald auf (ما به زودی می‌نشینیم)\nمتضادها:\n- wir starten gleich (ما به زودی پرواز می‌کنیم)\n- wir fliegen weiter (ما به پرواز ادامه می‌دهیم)"
+    "Sound_de": "die Zigarette - die Zigaretten",
+    "root": "اجزای تشکیل‌دهنده:\nZigarette (سیگار، از cigarette)\nمعنی کلی: سیگار = cigarette"
+  },
+  {
+    "Sound_de": "das Zimmer - die Zimmer",
+    "root": "اجزای تشکیل‌دهنده:\nZimmer (اتاق، از zimmer)\nمعنی کلی: اتاق = room"
+  },
+  {
+    "Sound_de": "der Zoll - die Zölle",
+    "root": "اجزای تشکیل‌دهنده:\nZoll (گمرک، از zoll)\nمعنی کلی: گمرک = customs"
+  },
+  {
+    "Sound_de": "zu",
+    "root": "اجزای تشکیل‌دهنده:\nzu (به)\nمعنی کلی: به = to"
+  },
+  {
+    "Sound_de": "zufrieden",
+    "root": "اجزای تشکیل‌دهنده:\nzu (به) + frieden (صلح)\nمعنی کلی: راضی = satisfied\nمتضادها:\n- unzufrieden (ناراضی)"
+  },
+  {
+    "Sound_de": "der Zug - die Züge",
+    "root": "اجزای تشکیل‌دهنده:\nZug (قطار، از ziehen کشیدن)\nمعنی کلی: قطار = train"
+  },
+  {
+    "Sound_de": "zurück",
+    "root": "اجزای تشکیل‌دهنده:\nzu (به) + rück (عقب)\nمعنی کلی: عقب = back"
+  },
+  {
+    "Sound_de": "zusammen",
+    "root": "اجزای تشکیل‌دهنده:\nzu (به) + sammen (با هم)\nمعنی کلی: با هم = together\nمتضادها:\n- allein (تنها)"
+  },
+  {
+    "Sound_de": "zwischen",
+    "root": "اجزای تشکیل‌دهنده:\nzwischen (بین)\nمعنی کلی: بین = between"
   }
 ]

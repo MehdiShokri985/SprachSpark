@@ -371,9 +371,9 @@ function renderGroups(items, headerClass) {
     accordionHeader.innerHTML = `
       <span>Gruppe ${groupIndex + 1} (${start} - ${end})</span>
       <div class="header-buttons">
-        <button class="filter-words-btn">Nur Wörter</button>
-        <button class="view-toggle-btn">Tabelle</button>
-        <button class="test-btn" >Worttest</button>
+        <button class="filter-words-btn"> </button>
+        <button class="view-toggle-btn"> </button>
+        <button class="test-btn" > </button>
         <button class="toggle-textbox-btn" disabled >Text ein</button>
       </div>
     `;
@@ -469,8 +469,8 @@ function renderGroups(items, headerClass) {
       const currentFilter = flashcardContainer.dataset.filterMode;
       const newFilter = currentFilter === "all" ? "words" : "all";
       flashcardContainer.dataset.filterMode = newFilter;
-      filterWordsButton.textContent =
-        newFilter === "all" ? "Nur Wörter" : "Alle";
+      // filterWordsButton.textContent =
+      //   newFilter === "all" ? "Nur Wörter" : "Alle";
       if (flashcardContainer.classList.contains("active")) {
         flashcardContainer.innerHTML = "";
         let filteredGroup = group;
@@ -489,8 +489,8 @@ function renderGroups(items, headerClass) {
       const currentMode = flashcardContainer.dataset.viewMode;
       const newMode = currentMode === "single" ? "table" : "single";
       flashcardContainer.dataset.viewMode = newMode;
-      viewToggleButton.textContent =
-        newMode === "single" ? "Tabelle" : "Einzeln";
+      // viewToggleButton.textContent =
+      //   newMode === "single" ? "Tabelle" : "Einzeln";
       if (flashcardContainer.classList.contains("active")) {
         flashcardContainer.innerHTML = "";
         let filteredGroup = group;

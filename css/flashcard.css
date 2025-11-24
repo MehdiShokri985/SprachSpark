@@ -408,6 +408,8 @@ h1 {
   height: 20px;
   display: inline-flex;
   align-items: center;
+  min-width: 30px;
+    margin-left: 5px;
 }
 
 .group-header .toggle-textbox-btn:disabled {
@@ -658,10 +660,11 @@ h1 {
   }
   .group-header .toggle-textbox-btn,
   .group-header .test-btn,
-  .group-header .filter-words-btn {
-    font-size: 0.7em;
-    padding: 3px 6px;
-    min-width: 50px;
+  .group-header .filter-words-btn , .group-header .view-toggle-btn  {
+    /* font-size: 0.7em; */
+    /* padding: 3px 6px; */
+    min-width: 30px;
+    margin-left: 5px;
   }
 
   .group-header {

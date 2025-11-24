@@ -1479,7 +1479,7 @@
     "root": "نوع جمله: جمله امری شرطی. فعل امری: Gehen Sie (بروید، از gehen برای Sie). مکان: durch den grünen Ausgang (از طریق خروجی سبز، 'durch' با آکوزاتیو). شرط: wenn Sie nichts zu verzollen haben (اگر چیزی برای اظهار ندارید، 'wenn' برای شرط، فاعل: Sie، فعل: haben، infinitive: zu verzollen از verzollen به معنای اظهار کردن در گمرک). این جمله راهنمایی شرطی است.",
     "type": "جمله",
     "subject": ["Sie"],
-    "verb": ["Gehen"],
+    "verb": ["Gehen","haben"],
     "auxiliary_verb": [null],
     "object": ["durch den grünen Ausgang"],
     "verb_part1": [null],
@@ -1493,7 +1493,7 @@
     "root": "نوع جمله: جمله مرکب شامل سؤال و پاسخ. جمله اول: Muss ich durch die Zollkontrolle? - سؤال. فعل مدال: Muss (باید)، فاعل: ich، ساختار: durch die Zollkontrolle (از طریق، آکوزاتیو). جمله دوم: Nur wenn Sie Waren über dem Freibetrag haben. - پاسخ شرطی. 'Nur' (فقط)، 'wenn' (اگر)، فاعل: Sie، مفعول: Waren über dem Freibetrag (کالاها بیش از حد مجاز، 'über' با داتیو)، فعل: haben.",
     "type": "جمله",
     "subject": ["ich", "Sie"],
-    "verb": [null, "haben"],
+    "verb": ["Waren", "haben"],
     "auxiliary_verb": ["Muss", null],
     "object": ["durch die Zollkontrolle", "Waren über dem Freibetrag"],
     "verb_part1": [null, null],
@@ -1580,8 +1580,8 @@
     "verb": ["fülle"],
     "auxiliary_verb": [null],
     "object": ["die Zollerklärung"],
-    "verb_part1": ["aus"],
-    "verb_part2": [null]
+    "verb_part1": [null],
+    "verb_part2": ["aus"]
   },
   {
     "Filename": "114",
@@ -1591,11 +1591,11 @@
     "root": "نوع جمله: جمله امری شرطی. 'Bitte' (لطفاً). فعل امری: füllen Sie ... aus (پر کنید، از ausfüllen جداشدنی). مفعول: die Zollerklärung. شرط: wenn Sie mehr als 10.000 Euro Bargeld mitführen (اگر بیش از ۱۰,۰۰۰ یورو پول نقد حمل می‌کنید، 'wenn' شرط، فاعل: Sie، فعل: mitführen (حمل کردن، جداشدنی) به 'mitführen'، مفعول: mehr als 10.000 Euro Bargeld).",
     "type": "جمله",
     "subject": ["Sie"],
-    "verb": ["füllen"],
+    "verb": ["füllen","mitführen"],
     "auxiliary_verb": [null],
-    "object": ["die Zollerklärung aus"],
-    "verb_part1": ["aus"],
-    "verb_part2": [null]
+    "object": ["die Zollerklärung"],
+    "verb_part1": [null],
+    "verb_part2": ["aus"]
   },
   {
     "Filename": "115",
@@ -1605,7 +1605,7 @@
     "root": "نوع جمله: جمله مرکب شامل سؤال و پاسخ. جمله اول: Brauche ich eine Zollerklärung? - سؤال. فعل: Brauche (نیاز دارم از brauchen)، فاعل: ich، مفعول: eine Zollerklärung (یک اظهارنامه، آکوزاتیو). جمله دوم: Nur bei Waren über 430 Euro aus Nicht-EU-Ländern. - پاسخ. 'Nur' (فقط)، 'bei' (برای، با داتیو)، 'Waren' (کالاها)، 'über 430 Euro' (بیش از ۴۳۰ یورو، 'über' با آکوزاتیو)، 'aus Nicht-EU-Ländern' (از کشورهای غیر اتحادیه اروپا، 'aus' با داتیو).",
     "type": "جمله",
     "subject": ["ich", null],
-    "verb": ["Brauche", null],
+    "verb": ["Brauche", "Waren"],
     "auxiliary_verb": [null, null],
     "object": ["eine Zollerklärung", "Nur bei Waren über 430 Euro aus Nicht-EU-Ländern"],
     "verb_part1": [null, null],
@@ -1614,7 +1614,7 @@
   {
     "Filename": "116",
     "Sound_de": "die Abflugzeit",
-    "translate_fa": "زمان出发",
+    "translate_fa": "زمانزمان پرواز یا ساعت پرواز",
     "file": "116_de.mp3",
     "root": "این یک اسم است. «Abflugzeit» اسم مؤنث (die Abflugzeit) به معنای «زمان پرواز» یا «زمان出发» است. حالت‌های صرف آن: Nominativ: die Abflugzeit, Akkusativ: die Abflugzeit, Dativ: der Abflugzeit, Genitiv: der Abflugzeit. این کلمه ترکیبی از «Abflug» (پرواز خروجی) و «Zeit» (زمان) است و در زمینه فرودگاه برای زمان حرکت هواپیما استفاده می‌شود.",
     "type": "کلمه",

@@ -371,6 +371,7 @@ function renderGroups(items, headerClass) {
     accordionHeader.innerHTML = `
       <span>Gruppe ${groupIndex + 1} (${start} - ${end})</span>
       <div class="header-buttons">
+        <button class="filter-words-btn">Nur Wörter</button>
         <button class="view-toggle-btn">Tabelle</button>
         <button class="test-btn" >Worttest</button>
         <button class="toggle-textbox-btn" disabled >Text ein</button>
@@ -381,6 +382,7 @@ function renderGroups(items, headerClass) {
     flashcardContainer.className = "flashcard-container";
     flashcardContainer.dataset.groupIndex = groupIndex;
     flashcardContainer.dataset.viewMode = "single"; // Default view mode
+    flashcardContainer.dataset.filterMode = "all"; // Default filter mode: all items
 
     container.appendChild(accordionHeader);
     container.appendChild(flashcardContainer);
@@ -392,7 +394,9 @@ function renderGroups(items, headerClass) {
         e.target.classList.contains("test-btn") ||
         e.target.closest(".test-btn") ||
         e.target.classList.contains("view-toggle-btn") ||
-        e.target.closest(".view-toggle-btn")
+        e.target.closest(".view-toggle-btn") ||
+        e.target.classList.contains("filter-words-btn") ||
+        e.target.closest(".filter-words-btn")
       ) {
         return;
       }
@@ -430,7 +434,14 @@ function renderGroups(items, headerClass) {
         flashcardContainer.innerHTML = "";
         flashcardContainer.classList.add("active");
 
-        renderFlashcards(flashcardContainer, group, groupIndex);
+        let filteredGroup = group;
+        if (flashcardContainer.dataset.filterMode === "words") {
+          filteredGroup = group.filter(
+            (item) => !/[.!?]$/.test((item.Sound_de || "").trim())
+          );
+        }
+
+        renderFlashcards(flashcardContainer, filteredGroup, groupIndex);
 
         const toggleTextboxButton = accordionHeader.querySelector(
           ".toggle-textbox-btn"
@@ -451,6 +462,27 @@ function renderGroups(items, headerClass) {
       }
     });
 
+    const filterWordsButton =
+      accordionHeader.querySelector(".filter-words-btn");
+    filterWordsButton.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const currentFilter = flashcardContainer.dataset.filterMode;
+      const newFilter = currentFilter === "all" ? "words" : "all";
+      flashcardContainer.dataset.filterMode = newFilter;
+      filterWordsButton.textContent =
+        newFilter === "all" ? "Nur Wörter" : "Alle";
+      if (flashcardContainer.classList.contains("active")) {
+        flashcardContainer.innerHTML = "";
+        let filteredGroup = group;
+        if (newFilter === "words") {
+          filteredGroup = group.filter(
+            (item) => !/[.!?]$/.test((item.Sound_de || "").trim())
+          );
+        }
+        renderFlashcards(flashcardContainer, filteredGroup, groupIndex);
+      }
+    });
+
     const viewToggleButton = accordionHeader.querySelector(".view-toggle-btn");
     viewToggleButton.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -461,7 +493,13 @@ function renderGroups(items, headerClass) {
         newMode === "single" ? "Tabelle" : "Einzeln";
       if (flashcardContainer.classList.contains("active")) {
         flashcardContainer.innerHTML = "";
-        renderFlashcards(flashcardContainer, group, groupIndex);
+        let filteredGroup = group;
+        if (flashcardContainer.dataset.filterMode === "words") {
+          filteredGroup = group.filter(
+            (item) => !/[.!?]$/.test((item.Sound_de || "").trim())
+          );
+        }
+        renderFlashcards(flashcardContainer, filteredGroup, groupIndex);
       }
     });
 

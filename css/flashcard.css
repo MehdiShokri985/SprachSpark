@@ -20,11 +20,11 @@ body {
   direction: rtl;
   overflow-x: hidden;
   user-select: none;
-    text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
+  text-shadow: 1px 1px 4px rgb(0 0 0 / 98%);
 }
 
-button{
-        text-shadow: 1px 1px 4px rgb(0 0 0 / 64%);
+button {
+  text-shadow: 1px 1px 4px rgb(0 0 0 / 64%);
 }
 
 h1 {
@@ -395,6 +395,7 @@ h1 {
 }
 
 .group-header .toggle-textbox-btn,
+.group-header .filter-words-btn,
 .group-header .test-btn,
 .group-header .view-toggle-btn {
   background-color: #00ff88;
@@ -426,7 +427,7 @@ h1 {
 
 .group-header .view-toggle-btn {
   background-color: #ff9800d9;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .group-header .view-toggle-btn:hover {
@@ -610,22 +611,6 @@ h1 {
   /* padding: 10px; */
 }
 
-/* .flashcard-container.table-mode .flashcard {
-        position: relative;
-        top: auto;
-        left: auto;
-        transform: none;
-        width: auto;
-        max-width: none;
-        height: auto;
-        min-height: 200px;
-        margin: 0;
-        opacity: 1;
-        z-index: 1;
-        transition: none;
-        cursor: pointer;
-      } */
-
 .flashcard-container.table-mode .flashcard {
   position: relative;
   top: auto;
@@ -672,7 +657,8 @@ h1 {
     font-size: 1.2em;
   }
   .group-header .toggle-textbox-btn,
-  .group-header .test-btn {
+  .group-header .test-btn,
+  .group-header .filter-words-btn {
     font-size: 0.7em;
     padding: 3px 6px;
     min-width: 50px;
@@ -740,4 +726,12 @@ h1 {
   .flashcard-container.table-mode .flashcard .translate {
     font-size: 0.8em;
   }
+}
+
+.group-header .filter-words-btn {
+  background-color: #9c27b0d9;
+}
+
+.group-header .filter-words-btn:hover {
+  background-color: #ba68c8d9;
 }

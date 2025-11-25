@@ -3477,7 +3477,7 @@
   },
   {
     "Filename": "248",
-    "Sound_de": "Haben Sie ein weiteres Kissen?  Leider sind alle vergeben.",
+    "Sound_de": "Haben Sie ein weiteres Kissen? Leider sind alle vergeben.",
     "translate_fa": "بالش دیگری دارید؟ متأسفانه همه توزیع شده‌اند.",
     "file": "248_de.mp3",
     "root": "نوع جمله: سؤال و پاسخ. 'Haben Sie ein weiteres Kissen?': فعل 'haben' (داشتن)، فاعل 'Sie'، مفعول 'ein weiteres Kissen' در آکوزاتیو. 'Leider sind alle vergeben.': 'sind' فعل کمکی، 'vergeben' پارتیسیپ گذشته از 'vergeben' (توزیع شده)، فاعل 'alle' (همه).",

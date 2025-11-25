@@ -470,6 +470,8 @@ die Einladung - die Einladungen
 einmal
 der Eintritt - die Eintritte
 einzel-
+
+
 das Eis - die Eise
 die E-Mail - die E-Mails
 der Empfänger - die Empfänger
@@ -598,6 +600,9 @@ die Halle - die Hallen
 hallo
 der Hals - die Hälse
 die Haltestelle - die Haltestellen
+
+
+
 der Hamburger - die Hamburger
 die Hand - die Hände
 das Handtuch - die Handtücher
@@ -893,6 +898,9 @@ der Rest - die Reste
 das Restaurant - die Restaurants
 das Rezept - die Rezepte
 die Rezeption - die Rezeptionen
+
+
+
 richtig
 das Rind - die Rinder
 der Ring - die Ringe

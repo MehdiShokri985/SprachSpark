@@ -3435,7 +3435,7 @@
   },
   {
     "Filename": "245",
-    "Sound_de": "Könnten Sie mir bitte eine Decke bringen?  Gerne.",
+    "Sound_de": "Könnten Sie mir bitte eine Decke bringen?Gerne.",
     "translate_fa": "می‌توانید لطفاً یک پتو برایم بیاورید؟ با کمال میل.",
     "file": "245_de.mp3",
     "root": "نوع جمله: سؤال و پاسخ. 'Könnten Sie mir bitte eine Decke bringen?': فعل مدال 'können' (توانستن) در شرطی برای درخواست مودبانه، فاعل 'Sie' (شما رسمی)، 'mir' ضمیر من در داتیو (برای من)، 'bitte' (لطفاً)، 'bringen' فعل اصلی (آوردن). 'Gerne.': پاسخ کوتاه به معنای 'با کمال میل'.",

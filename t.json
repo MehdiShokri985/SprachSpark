@@ -1,758 +1,803 @@
 [
   {
-    "Sound_de": "Schlüssel abgeben",
-    "root": "عبارت 'Schlüssel abgeben' از دو جزء تشکیل شده است:\n- 'Schlüssel': این کلمه اسم مذکر است و به معنی 'کلید' در زبان آلمانی می‌باشد. ریشه آن از زبان آلمانی قدیم 'sluzzil' گرفته شده که به معنی وسیله‌ای برای قفل کردن است.\n- 'abgeben': این فعل به معنی 'تحویل دادن'، 'تسلیم کردن' یا 'دادن' است. پیشوند 'ab-' نشان‌دهنده جدایی یا انتقال است و ریشه فعل 'geben' به معنی 'دادن' است که از آلمانی قدیم 'geban' مشتق شده.\nاین عبارت در مجموع به معنی 'تحویل دادن کلید' یا 'بازگرداندن کلید' است، مثلاً در زمینه اجاره یا هتل.\nمترادف‌های آلمانی:\nSchlüssel übergeben - تحویل دادن کلید\nSchlüssel zurückgeben - بازگرداندن کلید\nSchlüssel abliefern - تحویل کردن کلید\nمتضاد‌های آلمانی:\nSchlüssel behalten - نگه داشتن کلید\nSchlüssel einbehalten - حفظ کردن کلید"
+    "Sound_de": "Abfahrt haben",
+    "root": "اجزای تشکیل‌دهنده: Abfahrt (زمان حرکت یا خروج، مانند قطار یا اتوبوس) + haben (داشتن).\nمترادف‌ها: Abfahrtszeit haben (داشتن زمان حرکت).\nمتضادها: Ankunft haben (داشتن زمان ورود)."
   },
   {
-    "Sound_de": "Schrank abholen",
-    "root": "عبارت 'Schrank abholen' از دو جزء تشکیل شده است:\n- 'Schrank': این کلمه اسم مذکر است و به معنی 'کمد'، 'کابینت' یا 'گاردروب' در زبان آلمانی می‌باشد. ریشه آن از آلمانی قدیم 'scranc' گرفته شده که به معنی محفظه نگهداری است.\n- 'abholen': این فعل به معنی 'برداشتن'، 'جمع کردن' یا 'تحویل گرفتن' است. پیشوند 'ab-' نشان‌دهنده حرکت به سمت دور است و ریشه فعل 'holen' به معنی 'آوردن' یا 'گرفتن' است که از آلمانی قدیم 'holōn' مشتق شده.\nاین عبارت در مجموع به معنی 'برداشتن کمد' یا 'جمع کردن کابینت' است، مثلاً در زمینه خرید یا جابجایی.\nمترادف‌های آلمانی:\nSchrank mitnehmen - برداشتن کمد\nSchrank holen - گرفتن کمد\nSchrank abtransportieren - حمل کردن کمد\nمتضاد‌های آلمانی:\nSchrank lassen - ترک کردن کمد\nSchrank abgeben - تحویل دادن کمد\nSchrank zurücklassen - پشت سر گذاشتن کمد"
+    "Sound_de": "Adresse geben",
+    "root": "اجزای تشکیل‌دهنده: Adresse (آدرس) + geben (دادن).\nمترادف‌ها: Anschrift angeben (دادن آدرس).\nمتضادها: Adresse verbergen (پنهان کردن آدرس)."
   },
-  
   {
-    "Sound_de": "Bruder abholen",
-    "root": "عبارت \"Bruder abholen\" به معنای برداشتن یا آوردن برادر است.\nاجزا: \"Bruder\" به معنای برادر، \"abholen\" فعل جداشدنی متشکل از پیشوند \"ab-\" (به معنای دور کردن یا برداشتن) و فعل \"holen\" (به معنای آوردن یا fetching).\nمترادف‌ها: Bruder einsammeln (جمع کردن برادر)، Bruder mitnehmen (بردن برادر با خود)\nمتضادها: Bruder zurücklassen (جا گذاشتن برادر)"
+    "Sound_de": "Adressen austauschen",
+    "root": "اجزای تشکیل‌دهنده: Adressen (آدرس‌ها) + austauschen (تبادل کردن).\nمترادف‌ها: Adressen wechseln (تعویض آدرس‌ها).\nمتضادها: Adressen behalten (نگه داشتن آدرس‌ها)."
+  },
+  {
+    "Sound_de": "alle da sein",
+    "root": "اجزای تشکیل‌دهنده: alle (همه) + da (آنجا) + sein (بودن).\nمترادف‌ها: alle anwesend sein (همه حاضر بودن).\nمتضادها: niemand da sein (هیچ‌کس آنجا نبودن)."
+  },
+  {
+    "Sound_de": "alle kommen",
+    "root": "اجزای تشکیل‌دهنده: alle (همه) + kommen (آمدن).\nمترادف‌ها: alle eintreffen (همه رسیدن).\nمتضادها: alle gehen (همه رفتن)."
+  },
+  {
+    "Sound_de": "allein kommen",
+    "root": "اجزای تشکیل‌دهنده: allein (تنها) + kommen (آمدن).\nمترادف‌ها: solo kommen (تنها آمدن).\nمتضادها: zusammen kommen (با هم آمدن)."
+  },
+  {
+    "Sound_de": "allein schaffen",
+    "root": "اجزای تشکیل‌دهنده: allein (تنها) + schaffen (انجام دادن یا موفق شدن).\nمترادف‌ها: allein bewältigen (تنها مدیریت کردن).\nمتضادها: zusammen schaffen (با هم انجام دادن)."
+  },
+  {
+    "Sound_de": "alles Gute wünschen",
+    "root": "اجزای تشکیل‌دهنده: alles Gute (همه چیز خوب) + wünschen (آرزو کردن).\nمترادف‌ها: viel Erfolg wünschen (آرزوی موفقیت زیاد کردن).\nمتضادها: Pech wünschen (آرزوی بدشانسی کردن)."
+  },
+  {
+    "Sound_de": "alles haben",
+    "root": "اجزای تشکیل‌دهنده: alles (همه چیز) + haben (داشتن).\nمترادف‌ها: alles besitzen (همه چیز داشتن).\nمتضادها: nichts haben (هیچ چیز نداشتن)."
+  },
+  {
+    "Sound_de": "als Krankenschwester arbeiten",
+    "root": "اجزای تشکیل‌دهنده: als (به عنوان) + Krankenschwester (پرستار) + arbeiten (کار کردن).\nمترادف‌ها: als Pflegerin tätig sein (به عنوان پرستار فعالیت کردن).\nمتضادها: als Arzt arbeiten (به عنوان پزشک کار کردن)."
+  },
+  {
+    "Sound_de": "alt sein",
+    "root": "اجزای تشکیل‌دهنده: alt (قدیمی) + sein (بودن).\nمترادف‌ها: betagt sein (پیر بودن).\nمتضادها: jung sein (جوان بودن)."
+  },
+  {
+    "Sound_de": "am besten finden",
+    "root": "اجزای تشکیل‌دهنده: am besten (بهترین) + finden (پیدا کردن یا فکر کردن).\nمترادف‌ها: für das Beste halten (به عنوان بهترین نگه داشتن).\nمتضادها: am schlechtesten finden (بدترین پیدا کردن)."
+  },
+  {
+    "Sound_de": "am Flughafen sein",
+    "root": "اجزای تشکیل‌دهنده: am (در) + Flughafen (فرودگاه) + sein (بودن).\nمترادف‌ها: auf dem Airport sein (در فرودگاه بودن).\nمتضادها: zu Hause sein (در خانه بودن)."
+  },
+  {
+    "Sound_de": "am Kiosk kaufen",
+    "root": "اجزای تشکیل‌دهنده: am (در) + Kiosk (کیوسک) + kaufen (خریدن).\nمترادف‌ها: im Kiosk erwerben (در کیوسک خریدن).\nمتضادها: am Kiosk verkaufen (در کیوسک فروختن)."
+  },
+  {
+    "Sound_de": "am Meer sein",
+    "root": "اجزای تشکیل‌دهنده: am (در) + Meer (دریا) + sein (بودن).\nمترادف‌ها: am Ozean sein (در اقیانوس بودن).\nمتضادها: im Inland sein (در داخل کشور بودن)."
+  },
+  {
+    "Sound_de": "am Strand sein",
+    "root": "اجزای تشکیل‌دهنده: am (در) + Strand (ساحل) + sein (بودن).\nمترادف‌ها: am Ufer sein (در ساحل بودن).\nمتضادها: im Wasser sein (در آب بودن)."
+  },
+  {
+    "Sound_de": "am Ziel sein",
+    "root": "اجزای تشکیل‌دهنده: am (در) + Ziel (هدف) + sein (بودن).\nمترادف‌ها: am Zielort sein (در مکان هدف بودن).\nمتضادها: am Start sein (در شروع بودن)."
+  },
+  {
+    "Sound_de": "an der Haltestelle aussteigen",
+    "root": "اجزای تشکیل‌دهنده: an der (در) + Haltestelle (ایستگاه) + aussteigen (پیاده شدن).\nمترادف‌ها: an der Station aussteigen (در ایستگاه پیاده شدن).\nمتضادها: an der Haltestelle einsteigen (در ایستگاه سوار شدن)."
+  },
+  {
+    "Sound_de": "an der Kasse bezahlen",
+    "root": "اجزای تشکیل‌دهنده: an der (در) + Kasse (صندوق) + bezahlen (پرداخت کردن).\nمترادف‌ها: an der Kasse zahlen (در صندوق پرداخت کردن).\nمتضادها: an der Kasse erstatten (در صندوق بازپرداخت کردن)."
+  },
+  {
+    "Sound_de": "an der Nordsee sein",
+    "root": "اجزای تشکیل‌دهنده: an der (در) + Nordsee (دریای شمال) + sein (بودن).\nمترادف‌ها: an der Nordküste sein (در ساحل شمالی بودن)."
+  },
+  {
+    "Sound_de": "an der Reihe sein",
+    "root": "اجزای تشکیل‌دهنده: an der (در) + Reihe (نوبت) + sein (بودن).\nمترادف‌ها: dran sein (نوبت بودن).\nمتضادها: nicht an der Reihe sein (نوبت نبودن)."
+  },
+  {
+    "Sound_de": "an der Rezeption abgeben",
+    "root": "اجزای تشکیل‌دهنده: an der (در) + Rezeption (پذیرش) + abgeben (تحویل دادن).\nمترادف‌ها: an der Rezeption einreichen (در پذیرش تحویل دادن).\nمتضادها: an der Rezeption abholen (در پذیرش برداشتن)."
+  },
+  {
+    "Sound_de": "an der Universität studieren",
+    "root": "اجزای تشکیل‌دهنده: an der (در) + Universität (دانشگاه) + studieren (تحصیل کردن).\nمترادف‌ها: an der Uni lernen (در دانشگاه یادگیری).\nمتضادها: an der Universität lehren (در دانشگاه تدریس کردن)."
+  },
+  {
+    "Sound_de": "an die Tafel schreiben",
+    "root": "اجزای تشکیل‌دهنده: an die (روی) + Tafel (تخته) + schreiben (نوشتن).\nمترادف‌ها: an die Tafel notieren (روی تخته نوشتن).\nمتضادها: von der Tafel löschen (از تخته پاک کردن)."
+  },
+  {
+    "Sound_de": "an einen See fahren",
+    "root": "اجزای تشکیل‌دهنده: an einen (به یک) + See (دریاچه) + fahren (رفتن).\nمترادف‌ها: zu einem See reisen (به یک دریاچه سفر کردن).\nمتضادها: von einem See wegfahren (از یک دریاچه دور شدن)."
+  },
+  {
+    "Sound_de": "an Gleis 12",
+    "root": "اجزای تشکیل‌دهنده: an (در) + Gleis (خط قطار) + 12 (شماره ۱۲).\nمترادف‌ها: auf Bahnsteig 12 (روی سکوی ۱۲)."
+  },
+  {
+    "Sound_de": "anders gehen",
+    "root": "اجزای تشکیل‌دهنده: anders (متفاوت) + gehen (رفتن).\nمترادف‌ها: anders laufen (متفاوت راه رفتن).\nمتضادها: gleich gehen (یکسان رفتن)."
+  },
+  {
+    "Sound_de": "Angst haben vor",
+    "root": "اجزای تشکیل‌دهنده: Angst (ترس) + haben (داشتن) + vor (از).\nمترادف‌ها: Furcht haben vor (ترس داشتن از).\nمتضادها: Mut haben vor (شجاعت داشتن در برابر)."
   },
   {
     "Sound_de": "Anschluss haben",
-    "root": "عبارت \"Anschluss haben\" به معنای داشتن اتصال یا ارتباط است.\nاجزا: \"Anschluss\" به معنای اتصال، \"haben\" به معنای داشتن.\nمترادف‌ها: Verbindung haben (داشتن ارتباط)\nمتضادها: Keinen Anschluss haben (نداشتن اتصال)"
+    "root": "اجزای تشکیل‌دهنده: Anschluss (اتصال یا بعدی) + haben (داشتن).\nمترادف‌ها: Verbindung haben (اتصال داشتن).\nمتضادها: Unterbrechung haben (قطع داشتن)."
   },
   {
-    "Sound_de": "etwas anbieten",
-    "root": "عبارت \"etwas anbieten\" به معنای پیشنهاد کردن چیزی است.\nاجزا: \"etwas\" به معنای چیزی، \"anbieten\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای به سمت یا شروع) و فعل \"bieten\" (به معنای پیشنهاد کردن).\nمترادف‌ها: etwas offerieren (پیشنهاد کردن چیزی)، etwas vorschlagen (پیشنهاد کردن چیزی)\nمتضادها: etwas ablehnen (رد کردن چیزی)"
+    "Sound_de": "Apfelsaft mögen",
+    "root": "اجزای تشکیل‌دهنده: Apfelsaft (آب سیب) + mögen (دوست داشتن).\nمترادف‌ها: Apfelsaft lieben (آب سیب دوست داشتن).\nمتضادها: Apfelsaft hassen (آب سیب متنفر بودن)."
   },
   {
-    "Sound_de": "Wort anklicken",
-    "root": "عبارت \"Wort anklicken\" به معنای کلیک کردن روی کلمه است.\nاجزا: \"Wort\" به معنای کلمه، \"anklicken\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای شروع یا به سمت) و فعل \"klicken\" (به معنای کلیک کردن).\nمترادف‌ها: Wort anklicken (کلیک کردن روی کلمه)"
+    "Sound_de": "arbeitslos sein",
+    "root": "اجزای تشکیل‌دهنده: arbeitslos (بیکار) + sein (بودن).\nمترادف‌ها: ohne Job sein (بدون شغل بودن).\nمتضادها: beschäftigt sein (مشغول بودن)."
   },
   {
-    "Sound_de": "in Hamburg ankommen",
-    "root": "عبارت \"in Hamburg ankommen\" به معنای رسیدن به هامبورگ است.\nاجزا: \"in Hamburg\" به معنای در هامبورگ، \"ankommen\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای رسیدن به) و فعل \"kommen\" (به معنای آمدن).\nمترادف‌ها: in Hamburg eintreffen (رسیدن به هامبورگ)\nمتضادها: aus Hamburg abreisen (ترک کردن هامبورگ)"
+    "Sound_de": "Ärgerst du dich",
+    "root": "اجزای تشکیل‌دهنده: Ärgerst (عصبانی شدن) + du (تو) + dich (خودت).\nمترادف‌ها: Bist du sauer (عصبانی هستی).\nمتضادها: Freust du dich (خوشحال هستی)."
   },
   {
-    "Sound_de": "etwas ankreuzen",
-    "root": "عبارت \"etwas ankreuzen\" به معنای علامت زدن چیزی (مانند چک‌باکس) است.\nاجزا: \"etwas\" به معنای چیزی، \"ankreuzen\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای شروع) و فعل \"kreuzen\" (به معنای عبور دادن یا علامت زدن).\nمترادف‌ها: etwas markieren (علامت زدن چیزی)، etwas abhaken (چک کردن چیزی)"
+    "Sound_de": "Arm tut weh",
+    "root": "اجزای تشکیل‌دهنده: Arm (بازو) + tut weh (درد کردن).\nمترادف‌ها: Arm schmerzt (بازو درد کردن).\nمتضادها: Arm fühlt sich gut an (بازو خوب احساس شدن)."
   },
   {
-    "Sound_de": "Licht anmachen",
-    "root": "عبارت \"Licht anmachen\" به معنای روشن کردن چراغ است.\nاجزا: \"Licht\" به معنای نور یا چراغ، \"anmachen\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای روشن کردن) و فعل \"machen\" (به معنای کردن).\nمترادف‌ها: Licht einschalten (روشن کردن چراغ)\nمتضادها: Licht ausmachen (خاموش کردن چراغ)"
+    "Sound_de": "Artikel gelesen",
+    "root": "اجزای تشکیل‌دهنده: Artikel (مقاله) + gelesen (خوانده شده).\nمترادف‌ها: Artikel durchgelesen (مقاله خوانده شده).\nمتضادها: Artikel ungelesen (مقاله خوانده نشده)."
   },
   {
-    "Sound_de": "sich anmelden",
-    "root": "عبارت \"sich anmelden\" به معنای ثبت‌نام کردن یا لاگین کردن است.\nاجزا: \"sich\" ضمیر انعکاسی، \"anmelden\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای شروع یا به سمت) و فعل \"melden\" (به معنای گزارش دادن).\nمترادف‌ها: sich registrieren (ثبت‌نام کردن)، sich einloggen (لاگین کردن)\nمتضادها: sich abmelden (لاگ‌اوت کردن)"
+    "Sound_de": "auf dem Foto sein",
+    "root": "اجزای تشکیل‌دهنده: auf dem (روی) + Foto (عکس) + sein (بودن).\nمترادف‌ها: im Bild sein (در تصویر بودن).\nمتضادها: nicht auf dem Foto sein (روی عکس نبودن)."
   },
   {
-    "Sound_de": "jemanden anrufen",
-    "root": "عبارت \"jemanden anrufen\" به معنای زنگ زدن به کسی است.\nاجزا: \"jemanden\" به معنای کسی را، \"anrufen\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای به سمت) و فعل \"rufen\" (به معنای صدا زدن).\nمترادف‌ها: jemanden telefonieren (تلفن کردن به کسی)، jemanden kontaktieren (تماس گرفتن با کسی)\nمتضادها: jemanden ignorieren (نادیده گرفتن کسی)"
+    "Sound_de": "auf dem Land wohnen",
+    "root": "اجزای تشکیل‌دهنده: auf dem (روی) + Land (زمین یا روستا) + wohnen (زندگی کردن).\nمترادف‌ها: ländlich wohnen (روستایی زندگی کردن).\nمتضادها: in der Stadt wohnen (در شهر زندگی کردن)."
   },
   {
-    "Sound_de": "Handy ausmachen",
-    "root": "عبارت \"Handy ausmachen\" به معنای خاموش کردن موبایل است.\nاجزا: \"Handy\" به معنای موبایل، \"ausmachen\" فعل جداشدنی متشکل از پیشوند \"aus-\" (به معنای خاموش کردن یا بیرون) و فعل \"machen\" (به معنای کردن).\nمترادف‌ها: Handy ausschalten (خاموش کردن موبایل)\nمتضادها: Handy anmachen (روشن کردن موبایل)"
-  },
-  {
-    "Sound_de": "sich anziehen",
-    "root": "عبارت \"sich anziehen\" به معنای لباس پوشیدن است.\nاجزا: \"sich\" ضمیر انعکاسی، \"anziehen\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای به تن کردن) و فعل \"ziehen\" (به معنای کشیدن).\nمترادف‌ها: sich kleiden (لباس پوشیدن)\nمتضادها: sich ausziehen (لباس درآوردن)"
-  },
-  {
-    "Sound_de": "Jacke anziehen",
-    "root": "عبارت \"Jacke anziehen\" به معنای پوشیدن ژاکت است.\nاجزا: \"Jacke\" به معنای ژاکت، \"anziehen\" فعل جداشدنی متشکل از پیشوند \"an-\" (به معنای به تن کردن) و فعل \"ziehen\" (به معنای کشیدن).\nمترادف‌ها: Jacke anlegen (پوشیدن ژاکت)\nمتضادها: Jacke ausziehen (درآوردن ژاکت)"
-  },
-  {
-    "Sound_de": "im Büro arbeiten",
-    "root": "عبارت \"im Büro arbeiten\" به معنای کار کردن در دفتر است.\nاجزا: \"im Büro\" به معنای در دفتر، \"arbeiten\" به معنای کار کردن.\nمترادف‌ها: im Office arbeiten (کار کردن در دفتر)\nمتضادها: zu Hause bleiben (ماندن در خانه)"
-  },
-  {
-    "Sound_de": "etwas ausfüllen",
-    "root": "عبارت \"etwas ausfüllen\" به معنای پر کردن چیزی (مانند فرم) است.\nاجزا: \"etwas\" به معنای چیزی، \"ausfüllen\" فعل جداشدنی متشکل از پیشوند \"aus-\" (به معنای کامل کردن) و فعل \"füllen\" (به معنای پر کردن).\nمترادف‌ها: etwas vervollständigen (کامل کردن چیزی)"
-  },
-  {
-    "Sound_de": "Licht ausgehen",
-    "root": "عبارت \"Licht ausgehen\" به معنای خاموش شدن چراغ است.\nاجزا: \"Licht\" به معنای چراغ، \"ausgehen\" فعل جداشدنی متشکل از پیشوند \"aus-\" (به معنای خاموش شدن) و فعل \"gehen\" (به معنای رفتن).\nمترادف‌ها: Licht erlöschen (خاموش شدن چراغ)\nمتضادها: Licht angehen (روشن شدن چراغ)"
-  },
-  {
-    "Sound_de": "alt aussehen",
-    "root": "عبارت \"alt aussehen\" به معنای پیر به نظر رسیدن است.\nاجزا: \"alt\" به معنای پیر، \"aussehen\" فعل جداشدنی متشکل از پیشوند \"aus-\" (به معنای ظاهر شدن) و فعل \"sehen\" (به معنای دیدن).\nمترادف‌ها: alt wirken (پیر به نظر رسیدن)\nمتضادها: jung aussehen (جوان به نظر رسیدن)"
-  },
-  {
-    "Sound_de": "schön aussehen",
-    "root": "عبارت \"schön aussehen\" به معنای زیبا به نظر رسیدن است.\nاجزا: \"schön\" به معنای زیبا، \"aussehen\" فعل جداشدنی متشکل از پیشوند \"aus-\" (به معنای ظاهر شدن) و فعل \"sehen\" (به معنای دیدن).\nمترادف‌ها: hübsch aussehen (زیبا به نظر رسیدن)\nمتضادها: hässlich aussehen (زشت به نظر رسیدن)"
-  },
-  {
-    "Sound_de": "Schuhe ausziehen",
-    "root": "عبارت \"Schuhe ausziehen\" به معنای درآوردن کفش‌ها است.\nاجزا: \"Schuhe\" به معنای کفش‌ها، \"ausziehen\" فعل جداشدنی متشکل از پیشوند \"aus-\" (به معنای درآوردن) و فعل \"ziehen\" (به معنای کشیدن).\nمترادف‌ها: Schuhe abstreifen (درآوردن کفش‌ها)\nمتضادها: Schuhe anziehen (پوشیدن کفش‌ها)"
-  },
-  {
-    "Sound_de": "mit der Bahn fahren",
-    "root": "عبارت \"mit der Bahn fahren\" به معنای رفتن با قطار است.\nاجزا: \"mit der Bahn\" به معنای با قطار، \"fahren\" به معنای رفتن یا رانندگی کردن.\nمترادف‌ها: mit dem Zug reisen (سفر با قطار)\nمتضادها: zu Fuß gehen (پیاده رفتن)"
-  },
-  {
-    "Sound_de": "bar zahlen",
-    "root": "عبارت \"bar zahlen\" به معنای پرداخت نقدی است.\nاجزا: \"bar\" به معنای نقدی، \"zahlen\" به معنای پرداخت کردن.\nمترادف‌ها: in bar bezahlen (پرداخت نقدی)\nمتضادها: mit Karte zahlen (پرداخت با کارت)"
-  },
-  {
-    "Sound_de": "mit Karte bezahlen",
-    "root": "عبارت \"mit Karte bezahlen\" به معنای پرداخت با کارت است.\nاجزا: \"mit Karte\" به معنای با کارت، \"bezahlen\" به معنای پرداخت کردن.\nمترادف‌ها: kartenzahlen (پرداخت با کارت)\nمتضادها: bar zahlen (پرداخت نقدی)"
-  },
-  {
-    "Sound_de": "Spiel beginnen",
-    "root": "عبارت \"Spiel beginnen\" به معنای شروع بازی است.\nاجزا: \"Spiel\" به معنای بازی، \"beginnen\" به معنای شروع کردن.\nمترادف‌ها: Spiel starten (شروع بازی)\nمتضادها: Spiel beenden (پایان بازی)"
-  },
-  {
-    "Sound_de": "etwas bei jemandem bekommen",
-    "root": "عبارت \"etwas bei jemandem bekommen\" به معنای گرفتن چیزی از کسی است.\nاجزا: \"etwas\" به معنای چیزی، \"bei jemandem\" به معنای نزد کسی، \"bekommen\" به معنای گرفتن.\nمترادف‌ها: etwas von jemandem erhalten (دریافت چیزی از کسی)"
-  },
-  {
-    "Sound_de": "etwas benutzen",
-    "root": "عبارت \"etwas benutzen\" به معنای استفاده کردن از چیزی است.\nاجزا: \"etwas\" به معنای چیزی، \"benutzen\" به معنای استفاده کردن.\nمترادف‌ها: etwas verwenden (استفاده کردن از چیزی)\nمتضادها: etwas ignorieren (نادیده گرفتن چیزی)"
-  },
-  {
-    "Sound_de": "jemanden besuchen",
-    "root": "عبارت \"jemanden besuchen\" به معنای بازدید از کسی است.\nاجزا: \"jemanden\" به معنای کسی را، \"besuchen\" به معنای بازدید کردن.\nمترادف‌ها: jemanden aufsuchen (دیدن کسی)\nمتضادها: jemanden meiden (اجتناب از کسی)"
-  },
-  {
-    "Sound_de": "Buch bestellen",
-    "root": "عبارت \"Buch bestellen\" به معنای سفارش کتاب است.\nاجزا: \"Buch\" به معنای کتاب، \"bestellen\" به معنای سفارش دادن.\nمترادف‌ها: Buch ordern (سفارش کتاب)"
-  },
-  {
-    "Sound_de": "zu Hause bleiben",
-    "root": "عبارت \"zu Hause bleiben\" به معنای ماندن در خانه است.\nاجزا: \"zu Hause\" به معنای در خانه، \"bleiben\" به معنای ماندن.\nمترادف‌ها: daheim bleiben (ماندن در خانه)\nمتضادها: ausgehen (بیرون رفتن)"
-  },
-  {
-    "Sound_de": "Kaffee bringen",
-    "root": "عبارت \"Kaffee bringen\" به معنای آوردن قهوه است.\nاجزا: \"Kaffee\" به معنای قهوه، \"bringen\" به معنای آوردن.\nمترادف‌ها: Kaffee servieren (سرو کردن قهوه)"
-  },
-  {
-    "Sound_de": "Namen buchstabieren",
-    "root": "عبارت \"Namen buchstabieren\" به معنای هجی کردن نام است.\nاجزا: \"Namen\" به معنای نام، \"buchstabieren\" به معنای هجی کردن.\nمترادف‌ها: Namen spellieren (هجی کردن نام)"
-  },
-  {
-    "Sound_de": "Formular ausfüllen",
-    "root": "عبارت \"Formular ausfüllen\" به معنای پر کردن فرم است.\nاجزا: \"Formular\" به معنای فرم، \"ausfüllen\" فعل جداشدنی متشکل از پیشوند \"aus-\" (به معنای کامل کردن) و فعل \"füllen\" (به معنای پر کردن).\nمترادف‌ها: Formular vervollständigen (کامل کردن فرم)"
-  },
-  {
-    "Sound_de": "Licht ausmachen",
-    "root": "عبارت \"Licht ausmachen\" به معنای خاموش کردن چراغ است.\nاجزا: \"Licht\" به معنای چراغ، \"ausmachen\" فعل جداشدنی متشکل از پیشوند \"aus-\" (به معنای خاموش کردن) و فعل \"machen\" (به معنای کردن).\nمترادف‌ها: Licht ausschalten (خاموش کردن چراغ)\nمتضادها: Licht anmachen (روشن کردن چراغ)"
-  },
-  {
-    "Sound_de": "Fahrrad fahren",
-    "root": "عبارت \"Fahrrad fahren\" به معنای دوچرخه‌سواری کردن است.\nاجزا: \"Fahrrad\" به معنای دوچرخه، \"fahren\" به معنای رفتن یا رانندگی کردن.\nمترادف‌ها: Rad fahren (دوچرخه‌سواری کردن)\nمتضادها: zu Fuß gehen (پیاده رفتن)"
-  },
-  {
-    "Sound_de": "mit dem Auto fahren",
-    "root": "عبارت \"mit dem Auto fahren\" به معنای رفتن با ماشین است.\nاجزا: \"mit dem Auto\" به معنای با ماشین، \"fahren\" به معنای رفتن یا رانندگی کردن.\nمترادف‌ها: Auto fahren (رانندگی با ماشین)\nمتضادها: mit dem Fahrrad fahren (رفتن با دوچرخه)"
-  },
-  {
-    "Sound_de": "Bus fahren",
-    "root": "اجزای تشکیل‌دهنده: 'Bus' به معنای اتوبوس و 'fahren' به معنای رانندگی کردن یا سوار شدن (در وسایل نقلیه).\nمترادف‌ها: Bus benutzen (استفاده از اتوبوس), mit dem Bus reisen (سفر با اتوبوس).\nمتضادها: zu Fuß gehen (پیاده رفتن)."
-  },
-  {
-    "Sound_de": "Fehler machen",
-    "root": "اجزای تشکیل‌دهنده: 'Fehler' به معنای اشتباه و 'machen' به معنای انجام دادن یا ساختن.\nمترادف‌ها: einen Fehler begehen (مرتکب اشتباه شدن), irren (اشتباه کردن).\nمتضادها: richtig machen (درست انجام دادن)."
-  },
-  {
-    "Sound_de": "Geburtstag feiern",
-    "root": "اجزای تشکیل‌دهنده: 'Geburtstag' به معنای تولد و 'feiern' به معنای جشن گرفتن.\nمترادف‌ها: Geburtstag begehen (تولد را برگزار کردن), Geburtstagsparty veranstalten (مهمانی تولد ترتیب دادن)."
-  },
-  {
-    "Sound_de": "Schlüssel finden",
-    "root": "اجزای تشکیل‌دهنده: 'Schlüssel' به معنای کلید و 'finden' به معنای پیدا کردن.\nمترادف‌ها: Schlüssel entdecken (کلید را کشف کردن).\nمتضادها: Schlüssel verlieren (کلید را گم کردن)."
-  },
-  {
-    "Sound_de": "Fisch essen",
-    "root": "اجزای تشکیل‌دهنده: 'Fisch' به معنای ماهی و 'essen' به معنای خوردن.\nمترادف‌ها: Fisch verzehren (ماهی مصرف کردن)."
-  },
-  {
-    "Sound_de": "nicht gern fliegen",
-    "root": "اجزای تشکیل‌دهنده: 'nicht gern' به معنای دوست نداشتن و 'fliegen' به معنای پرواز کردن.\nمترادف‌ها: ungern fliegen (با اکراه پرواز کردن).\nمتضادها: gern fliegen (دوست داشتن پرواز کردن)."
-  },
-  {
-    "Sound_de": "Foto machen",
-    "root": "اجزای تشکیل‌دهنده: 'Foto' به معنای عکس و 'machen' به معنای گرفتن یا ساختن.\nمترادف‌ها: fotografieren (عکس گرفتن), Bild aufnehmen (تصویر گرفتن).\nمتضادها: Foto löschen (عکس را حذف کردن)."
-  },
-  {
-    "Sound_de": "etwas fragen",
-    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنای چیزی و 'fragen' به معنای پرسیدن.\nمترادف‌ها: etwas erfragen (چیزی را جویا شدن), nach etwas fragen (در مورد چیزی پرسیدن)."
-  },
-  {
-    "Sound_de": "für jemanden etwas tun",
-    "root": "اجزای تشکیل‌دهنده: 'für jemanden' به معنای برای کسی و 'etwas tun' به معنای کاری انجام دادن.\nمترادف‌ها: jemandem helfen (به کسی کمک کردن), für jemanden handeln (برای کسی عمل کردن)."
-  },
-  {
-    "Sound_de": "Fußball spielen",
-    "root": "اجزای تشکیل‌دهنده: 'Fußball' به معنای فوتبال و 'spielen' به معنای بازی کردن.\nمترادف‌ها: Fußball treiben (فوتبال زدن)."
-  },
-  {
-    "Sound_de": "Kugelschreiber geben",
-    "root": "اجزای تشکیل‌دهنده: 'Kugelschreiber' به معنای خودکار و 'geben' به معنای دادن.\nمترادف‌ها: Kugelschreiber reichen (خودکار را رساندن)."
-  },
-  {
-    "Sound_de": "Torten essen",
-    "root": "اجزای تشکیل‌دهنده: 'Torten' به معنای کیک‌ها (جمع) و 'essen' به معنای خوردن.\nمترادف‌ها: Kuchen essen (کیک خوردن)."
-  },
-  {
-    "Sound_de": "jemandem etwas geben",
-    "root": "اجزای تشکیل‌دهنده: 'jemandem' به معنای به کسی و 'etwas geben' به معنای چیزی دادن.\nمترادف‌ها: jemandem etwas schenken (به کسی چیزی هدیه دادن), jemandem etwas überreichen (به کسی چیزی تقدیم کردن).\nمتضادها: jemandem etwas nehmen (از کسی چیزی گرفتن)."
-  },
-  {
-    "Sound_de": "jemandem die Hand geben",
-    "root": "اجزای تشکیل‌دهنده: 'jemandem' به معنای به کسی، 'die Hand' به معنای دست و 'geben' به معنای دادن (دست دادن).\nمترادف‌ها: jemandem die Hand schütteln (با کسی دست دادن)."
-  },
-  {
-    "Sound_de": "zur Information gehen",
-    "root": "اجزای تشکیل‌دهنده: 'zur' به معنای به سمت، 'Information' به معنای اطلاعات و 'gehen' به معنای رفتن.\nمترادف‌ها: zur Auskunft gehen (به اطلاعات رفتن)."
-  },
-  {
-    "Sound_de": "Geradeaus gehen",
-    "root": "اجزای تشکیل‌دهنده: 'Geradeaus' به معنای مستقیم و 'gehen' به معنای رفتن.\nمترادف‌ها: straight ahead gehen (مستقیم رفتن).\nمتضادها: umkehren (برگشتن)."
-  },
-  {
-    "Sound_de": "etwas gern machen",
-    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنای چیزی، 'gern' به معنای با علاقه و 'machen' به معنای انجام دادن.\nمترادف‌ها: etwas liebend gern tun (چیزی را با عشق انجام دادن).\nمتضادها: etwas ungern machen (چیزی را با اکراه انجام دادن)."
-  },
-  {
-    "Sound_de": "Geschenk schenken",
-    "root": "اجزای تشکیل‌دهنده: 'Geschenk' به معنای هدیه و 'schenken' به معنای هدیه دادن.\nمترادف‌ها: Präsent geben (هدیه دادن)."
-  },
-  {
-    "Sound_de": "Gespräch haben",
-    "root": "اجزای تشکیل‌دهنده: 'Gespräch' به معنای گفتگو و 'haben' به معنای داشتن.\nمترادف‌ها: Unterhaltung führen (گفتگو کردن)."
-  },
-  {
-    "Sound_de": "Glas haben",
-    "root": "اجزای تشکیل‌دهنده: 'Glas' به معنای لیوان و 'haben' به معنای داشتن.\nمترادف‌ها: Becher besitzen (لیوان داشتن)."
-  },
-  {
-    "Sound_de": "an etwas glauben",
-    "root": "اجزای تشکیل‌دهنده: 'an etwas' به معنای به چیزی و 'glauben' به معنای باور داشتن.\nمترادف‌ها: an etwas festhalten (به چیزی چسبیدن), etwas für wahr halten (چیزی را درست پنداشتن).\nمتضادها: an etwas zweifeln (به چیزی شک کردن)."
-  },
-  {
-    "Sound_de": "gleich alt sein",
-    "root": "اجزای تشکیل‌دهنده: 'gleich' به معنای برابر، 'alt' به معنای سن و 'sein' به معنای بودن.\nمترادف‌ها: im gleichen Alter sein (در سن برابر بودن).\nمتضادها: unterschiedlich alt sein (سن متفاوت داشتن)."
-  },
-  {
-    "Sound_de": "gleich kommen",
-    "root": "اجزای تشکیل‌دهنده: 'gleich' به معنای به زودی و 'kommen' به معنای آمدن.\nمترادف‌ها: bald kommen (به زودی آمدن).\nمتضادها: später kommen (دیرتر آمدن)."
-  },
-  {
-    "Sound_de": "Glück haben",
-    "root": "اجزای تشکیل‌دهنده: 'Glück' به معنای شانس و 'haben' به معنای داشتن.\nمترادف‌ها: Glücklich sein (خوش‌شانس بودن).\nمتضادها: Pech haben (بدشانس بودن)."
-  },
-  {
-    "Sound_de": "im Garten grillen",
-    "root": "اجزای تشکیل‌دهنده: 'im Garten' به معنای در باغ و 'grillen' به معنای کباب کردن.\nمترادف‌ها: im Garten barbecue machen (در باغ باربیکیو کردن)."
-  },
-  {
-    "Sound_de": "groß sein",
-    "root": "اجزای تشکیل‌دهنده: 'groß' به معنای بزرگ و 'sein' به معنای بودن.\nمترادف‌ها: großartig sein (عالی بودن), riesig sein (غول‌پیکر بودن).\nمتضادها: klein sein (کوچک بودن)."
-  },
-  {
-    "Sound_de": "Haare haben",
-    "root": "اجزای تشکیل‌دهنده: 'Haare' به معنای موها و 'haben' به معنای داشتن.\nمترادف‌ها: Haarpracht haben (موهای پرپشت داشتن)."
-  },
-  {
-    "Sound_de": "Hähnchen essen",
-    "root": "اجزای تشکیل‌دهنده: 'Hähnchen' به معنای مرغ و 'essen' به معنای خوردن.\nمترادف‌ها: Huhn verzehren (مرغ مصرف کردن)."
-  },
-  {
-    "Sound_de": "Halbpension haben",
-    "root": "اجزای تشکیل‌دهنده: 'Halbpension' به معنای نیم‌پانسیون (صبحانه و شام) و 'haben' به معنای داشتن.\nمترادف‌ها: Halbpension buchen (نیم‌پانسیون رزرو کردن)."
-  },
-  {
-    "Sound_de": "Handys ausmachen",
-    "root": "اجزای تشکیل‌دهنده: 'Handys' به معنای موبایل‌ها (جمع) و 'ausmachen' به معنای خاموش کردن.\nمترادف‌ها: Mobiltelefone ausschalten (موبایل‌ها را خاموش کردن).\nمتضادها: Handys einschalten (موبایل‌ها را روشن کردن)."
-  },
-  {
-    "Sound_de": "nach Hause gehen",
-    "root": "اجزای تشکیل‌دهنده: 'nach Hause' به معنای به خانه و 'gehen' به معنای رفتن.\nمترادف‌ها: heimgehen (به خانه رفتن).\nمتضادها: weggehen (دور شدن)."
-  },
-  {
-    "Sound_de": "Hausaufgaben helfen",
-    "root": "اجزای تشکیل‌دهنده: 'Hausaufgaben' به معنای تکالیف خانه و 'helfen' به معنای کمک کردن.\nمترادف‌ها: bei Hausaufgaben assistieren (در تکالیف کمک کردن)."
-  },
-  {
-    "Sound_de": "jemandem helfen",
-    "root": "اجزای تشکیل‌دهنده: 'jemandem' به معنای به کسی و 'helfen' به معنای کمک کردن.\nمترادف‌ها: jemandem beistehen (به کسی ایستادن), jemandem unterstützen (کسی را حمایت کردن).\nمتضادها: jemandem schaden (به کسی آسیب زدن)."
-  },
-  {
-    "Sound_de": "einen Termin haben",
-    "root": "اجزای تشکیل‌دهنده: 'einen Termin' به معنای یک قرار و 'haben' به معنای داشتن.\nمترادف‌ها: einen Appointment haben (یک قرار داشتن)."
-  },
-  {
-    "Sound_de": "sich etwas holen",
-    "root": "اجزای تشکیل‌دهنده: 'sich' به معنای خود، 'etwas' به معنای چیزی و 'holen' به معنای آوردن یا گرفتن.\nمترادف‌ها: sich etwas besorgen (چیزی برای خود تهیه کردن)."
-  },
-  {
-    "Sound_de": "etwas hören",
-    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنای چیزی و 'hören' به معنای شنیدن.\nمترادف‌ها: etwas lauschen (به چیزی گوش دادن).\nمتضادها: etwas ignorieren (چیزی را نادیده گرفتن)."
-  },
-  {
-    "Sound_de": "Hunger haben",
-    "root": "اجزای تشکیل‌دهنده: 'Hunger' به معنای گرسنگی و 'haben' به معنای داشتن.\nمترادف‌ها: hungrig sein (گرسنه بودن).\nمتضادها: satt sein (سیر بودن)."
-  },
-  {
-    "Sound_de": "im Kino ins Kino gehen",
-    "root": "اجزای تشکیل‌دهنده: 'im Kino' به معنای در سینما و 'ins Kino gehen' به معنای به سینما رفتن (ممکن است تکراری باشد).\nمترادف‌ها: ins Kino gehen (به سینما رفتن)."
-  },
-  {
-    "Sound_de": "Information haben",
-    "root": "اجزای تشکیل‌دهنده: 'Information' به معنای اطلاعات و 'haben' به معنای داشتن.\nمترادف‌ها: Wissen besitzen (دانش داشتن)."
-  },
-  {
-    "Sound_de": "Webseiten kennen",
-    "root": "اجزای تشکیل‌دهنده: 'Webseiten' به معنای وب‌سایت‌ها و 'kennen' به معنای شناختن.\nمترادف‌ها: Websites wissen (وب‌سایت‌ها را دانستن)."
-  },
-  {
-    "Sound_de": "sich kennenlernen",
-    "root": "اجزای تشکیل‌دهنده: 'sich' به معنای یکدیگر و 'kennenlernen' به معنای آشنا شدن.\nمترادف‌ها: sich begegnen (با هم ملاقات کردن)."
-  },
-  {
-    "Sound_de": "Kinder haben",
-    "root": "اجزای تشکیل‌دهنده: 'Kinder' به معنای کودکان و 'haben' به معنای داشتن.\nمترادف‌ها: Nachwuchs haben (فرزند داشتن)."
-  },
-  {
-    "Sound_de": "in den Kindergarten gehen",
-    "root": "اجزای تشکیل‌دهنده: 'in den Kindergarten' به معنای به مهدکودک و 'gehen' به معنای رفتن.\nمترادف‌ها: in den Kindertagesstätte gehen (به مهدکودک رفتن)."
-  },
-  {
-    "Sound_de": "Kino gehen",
-    "root": "اجزای تشکیل‌دهنده: Kino (سینما) + gehen (رفتن)\nمترادف‌ها: ins Kino gehen (به سینما رفتن)\nمتضادها: zu Hause bleiben (در خانه ماندن)"
-  },
-  {
-    "Sound_de": "Kleidung kaufen",
-    "root": "اجزای تشکیل‌دهنده: Kleidung (لباس) + kaufen (خریدن)\nمترادف‌ها: Kleidung einkaufen (لباس خریدن)\nمتضادها: Kleidung verkaufen (لباس فروختن)"
-  },
-  {
-    "Sound_de": "Kopf tut weh",
-    "root": "اجزای تشکیل‌دهنده: Kopf (سر) + tut weh (درد می‌کند)\nمترادف‌ها: Kopfschmerzen haben (سردرد داشتن)\nمتضادها: sich wohlfühlen (احساس خوب داشتن)"
-  },
-  {
-    "Sound_de": "Kosten haben",
-    "root": "اجزای تشکیل‌دهنده: Kosten (هزینه‌ها) + haben (داشتن)\nمترادف‌ها: Ausgaben haben (هزینه داشتن)\nمتضادها: Einnahmen haben (درآمد داشتن)"
-  },
-  {
-    "Sound_de": "krank sein",
-    "root": "اجزای تشکیل‌دهنده: krank (بیمار) + sein (بودن)\nمترادف‌ها: unwohl sein (ناخوش بودن)\nمتضادها: gesund sein (سالم بودن)"
-  },
-  {
-    "Sound_de": "etwas kriegen",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + kriegen (گرفتن، دریافت کردن)\nمترادف‌ها: etwas bekommen (چیزی گرفتن)\nمتضادها: etwas verlieren (چیزی از دست دادن)"
-  },
-  {
-    "Sound_de": "in die Küche stellen",
-    "root": "اجزای تشکیل‌دهنده: in die Küche (در آشپزخانه) + stellen (قرار دادن)\nمترادف‌ها: in die Küche legen (در آشپزخانه گذاشتن)"
-  },
-  {
-    "Sound_de": "sich kümmern um",
-    "root": "اجزای تشکیل‌دهنده: sich kümmern (مراقبت کردن) + um (در مورد)\nمترادف‌ها: sich sorgen um (نگران بودن در مورد)\nمتضادها: ignorieren (نادیده گرفتن)"
-  },
-  {
-    "Sound_de": "Kunden haben",
-    "root": "اجزای تشکیل‌دهنده: Kunden (مشتریان) + haben (داشتن)\nمترادف‌ها: Klienten haben (مشتری داشتن)"
-  },
-  {
-    "Sound_de": "das Leben haben",
-    "root": "اجزای تشکیل‌دهنده: das Leben (زندگی) + haben (داشتن)\nمترادف‌ها: leben (زندگی کردن)"
-  },
-  {
-    "Sound_de": "etwas legen",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + legen (گذاشتن)\nمترادف‌ها: etwas stellen (چیزی قرار دادن)\nمتضادها: etwas nehmen (چیزی برداشتن)"
-  },
-  {
-    "Sound_de": "Deutsch lernen",
-    "root": "اجزای تشکیل‌دهنده: Deutsch (آلمانی) + lernen (یاد گرفتن)\nمترادف‌ها: Deutsch studieren (آلمانی خواندن)"
-  },
-  {
-    "Sound_de": "etwas lesen",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + lesen (خواندن)\nمترادف‌ها: etwas durchlesen (چیزی را مرور کردن)\nمتضادها: etwas schreiben (چیزی نوشتن)"
-  },
-  {
-    "Sound_de": "im Bett liegen",
-    "root": "اجزای تشکیل‌دهنده: im Bett (در تخت) + liegen (دراز کشیدن)\nمترادف‌ها: im Bett sein (در تخت بودن)\nمتضادها: aufstehen (بلند شدن)"
-  },
-  {
-    "Sound_de": "jemanden lieben",
-    "root": "اجزای تشکیل‌دهنده: jemanden (کسی را) + lieben (دوست داشتن)\nمترادف‌ها: jemanden mögen (کسی را دوست داشتن)\nمتضادها: jemanden hassen (کسی را متنفر بودن)"
-  },
-  {
-    "Sound_de": "etwas machen",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + machen (انجام دادن)\nمترادف‌ها: etwas tun (چیزی کردن)\nمتضادها: nichts tun (هیچ کاری نکردن)"
-  },
-  {
-    "Sound_de": "Mädchen bekommen",
-    "root": "اجزای تشکیل‌دهنده: Mädchen (دختر) + bekommen (گرفتن، به دنیا آوردن)\nمترادف‌ها: ein Mädchen zur Welt bringen (دختر به دنیا آوردن)"
-  },
-  {
-    "Sound_de": "nicht rauchen",
-    "root": "اجزای تشکیل‌دهنده: nicht (نه) + rauchen (سیگار کشیدن)\nمترادف‌ها: rauchfrei sein (بدون سیگار بودن)\nمتضادها: rauchen (سیگار کشیدن)"
-  },
-  {
-    "Sound_de": "bei der Polizei arbeiten",
-    "root": "اجزای تشکیل‌دهنده: bei der Polizei (در پلیس) + arbeiten (کار کردن)\nمترادف‌ها: Polizist sein (پلیس بودن)"
-  },
-  {
-    "Sound_de": "mehr kosten",
-    "root": "اجزای تشکیل‌دهنده: mehr (بیشتر) + kosten (هزینه داشتن)\nمترادف‌ها: teurer sein (گران‌تر بودن)\nمتضادها: weniger kosten (کمتر هزینه داشتن)"
-  },
-  {
-    "Sound_de": "Auto mieten",
-    "root": "اجزای تشکیل‌دهنده: Auto (ماشین) + mieten (اجاره کردن)\nمترادف‌ها: Auto leihen (ماشین قرض گرفتن)\nمتضادها: Auto kaufen (ماشین خریدن)"
-  },
-  {
-    "Sound_de": "Milch trinken",
-    "root": "اجزای تشکیل‌دهنده: Milch (شیر) + trinken (نوشیدن)\nمترادف‌ها: Milch konsumieren (شیر مصرف کردن)"
-  },
-  {
-    "Sound_de": "etwas mitbringen",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + mitbringen (همراه آوردن)\nمترادف‌ها: etwas mitnehmen (چیزی با خود بردن)"
-  },
-  {
-    "Sound_de": "im Café sich treffen",
-    "root": "اجزای تشکیل‌دهنده: im Café (در کافه) + sich treffen (دیدار کردن)\nمترادف‌ها: im Café verabreden (در کافه قرار گذاشتن)"
-  },
-  {
-    "Sound_de": "etwas möchten",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + möchten (خواستن)\nمترادف‌ها: etwas wollen (چیزی خواستن)\nمتضادها: etwas ablehnen (چیزی رد کردن)"
-  },
-  {
-    "Sound_de": "Termin machen",
-    "root": "اجزای تشکیل‌دهنده: Termin (قرار) + machen (انجام دادن)\nمترادف‌ها: Termin vereinbaren (قرار هماهنگ کردن)"
-  },
-  {
-    "Sound_de": "müde sein",
-    "root": "اجزای تشکیل‌دهنده: müde (خسته) + sein (بودن)\nمترادف‌ها: erschöpft sein (خسته بودن)\nمتضادها: energiegeladen sein (پر انرژی بودن)"
-  },
-  {
-    "Sound_de": "Arbeiten müssen",
-    "root": "اجزای تشکیل‌دهنده: Arbeiten (کار کردن) + müssen (باید)\nمترادف‌ها: arbeiten sollen (باید کار کردن)"
-  },
-  {
-    "Sound_de": "München fliegen",
-    "root": "اجزای تشکیل‌دهنده: München (مونیخ) + fliegen (پرواز کردن)\nمترادف‌ها: nach München fliegen (به مونیخ پرواز کردن)"
-  },
-  {
-    "Sound_de": "etwas nehmen",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + nehmen (گرفتن)\nمترادف‌ها: etwas greifen (چیزی گرفتن)\nمتضادها: etwas lassen (چیزی رها کردن)"
-  },
-  {
-    "Sound_de": "keine Zeit haben",
-    "root": "اجزای تشکیل‌دهنده: keine Zeit (هیچ زمانی) + haben (داشتن)\nمترادف‌ها: beschäftigt sein (مشغول بودن)\nمتضادها: Zeit haben (زمان داشتن)"
-  },
-  {
-    "Sound_de": "neu sein",
-    "root": "اجزای تشکیل‌دهنده: neu (جدید) + sein (بودن)\nمترادف‌ها: frisch sein (تازه بودن)\nمتضادها: alt sein (قدیمی بودن)"
-  },
-  {
-    "Sound_de": "nicht stimmen",
-    "root": "اجزای تشکیل‌دهنده: nicht (نه) + stimmen (درست بودن)\nمترادف‌ها: falsch sein (اشتباه بودن)\nمتضادها: stimmen (درست بودن)"
-  },
-  {
-    "Sound_de": "nichts kaufen",
-    "root": "اجزای تشکیل‌دهنده: nichts (هیچ چیز) + kaufen (خریدن)\nمترادف‌ها: nichts einkaufen (هیچ چیز خریدن)\nمتضادها: etwas kaufen (چیزی خریدن)"
-  },
-  {
-    "Sound_de": "nicht pünktlich kommen",
-    "root": "اجزای تشکیل‌دهنده: nicht pünktlich (به موقع نه) + kommen (آمدن)\nمترادف‌ها: verspätet kommen (دیر آمدن)\nمتضادها: pünktlich kommen (به موقع آمدن)"
-  },
-  {
-    "Sound_de": "noch warten",
-    "root": "اجزای تشکیل‌دهنده: noch (هنوز) + warten (منتظر ماندن)\nمترادف‌ها: weiter warten (ادامه منتظر ماندن)"
-  },
-  {
-    "Sound_de": "oben wohnen",
-    "root": "اجزای تشکیل‌دهنده: oben (بالا) + wohnen (زندگی کردن)\nمترادف‌ها: oben leben (بالا زندگی کردن)\nمتضادها: unten wohnen (پایین زندگی کردن)"
-  },
-  {
-    "Sound_de": "Obst kaufen",
-    "root": "اجزای تشکیل‌دهنده: Obst (میوه) + kaufen (خریدن)\nمترادف‌ها: Obst einkaufen (میوه خریدن)"
-  },
-  {
-    "Sound_de": "etwas öffnen",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + öffnen (باز کردن)\nمترادف‌ها: etwas aufmachen (چیزی باز کردن)\nمتضادها: etwas schließen (چیزی بستن)"
-  },
-  {
-    "Sound_de": "jemanden oft treffen",
-    "root": "اجزای تشکیل‌دهنده: jemanden (کسی را) + oft (اغلب) + treffen (دیدار کردن)\nمترادف‌ها: jemanden häufig sehen (کسی را اغلب دیدن)"
-  },
-  {
-    "Sound_de": "ohne Geld sein",
-    "root": "اجزای تشکیل‌دهنده: ohne Geld (بدون پول) + sein (بودن)\nمترادف‌ها: pleite sein (ورشکسته بودن)\nمتضادها: Geld haben (پول داشتن)"
-  },
-  {
-    "Sound_de": "ohne Öl kochen",
-    "root": "اجزای تشکیل‌دهنده: ohne Öl (بدون روغن) + kochen (پختن)\nمترادف‌ها: fettfrei kochen (بدون چربی پختن)"
-  },
-  {
-    "Sound_de": "im Hotel übernachten",
-    "root": "اجزای تشکیل‌دهنده: im Hotel (در هتل) + übernachten (شب ماندن)\nمترادف‌ها: im Hotel schlafen (در هتل خوابیدن)"
-  },
-  {
-    "Sound_de": "in Ordnung sein",
-    "root": "اجزای تشکیل‌دهنده: in Ordnung (در نظم) + sein (بودن)\nمترادف‌ها: okay sein (خوب بودن)\nمتضادها: kaputt sein (خراب بودن)"
-  },
-  {
-    "Sound_de": "Paket abgeben",
-    "root": "اجزای تشکیل‌دهنده: Paket (بسته) + abgeben (تحویل دادن)\nمترادف‌ها: Paket abliefern (بسته تحویل دادن)\nمتضادها: Paket abholen (بسته برداشتن)"
-  },
-  {
-    "Sound_de": "Parken ist verboten",
-    "root": "اجزای تشکیل‌دهنده: Parken (پارک کردن) + ist verboten (ممنوع است)\nمترادف‌ها: Parkverbot (ممنوعیت پارک)\nمتضادها: Parken erlaubt (پارک مجاز)"
-  },
-  {
-    "Sound_de": "Pass haben",
-    "root": "اجزای تشکیل‌دهنده: Pass (پاسپورت) + haben (داشتن)\nمترادف‌ها: Ausweis haben (شناسنامه داشتن)"
-  },
-  {
-    "Sound_de": "Mittagspause machen",
-    "root": "اجزای تشکیل‌دهنده: Mittagspause (وقفه ناهار) + machen (انجام دادن)\nمترادف‌ها: Mittagspause einlegen (وقفه ناهار گرفتن)"
-  },
-  {
-    "Sound_de": "Stadtplan kaufen",
-    "root": "اجزای تشکیل‌دهنده: Stadtplan (نقشه شهر) + kaufen (خریدن)\nمترادف‌ها: Stadtplan erwerben (نقشه شهر خریدن)"
-  },
-  {
-    "Sound_de": "Platz nehmen",
-    "root": "اجزای تشکیل‌دهنده: Platz (جا) + nehmen (گرفتن)\nمترادف‌ها: sich setzen (نشستن)\nمتضادها: aufstehen (بلند شدن)"
-  },
-  {
-    "Sound_de": "Polizei rufen",
-    "root": "اجزای تشکیل‌دهنده: Polizei (پلیس) + rufen (صدا زدن)\nمترادف‌ها: Polizei anrufen (پلیس تماس گرفتن)"
-  },
-  {
-    "Sound_de": "Rechnung, bitte",
-    "root": "اجزای تشکیل‌دهنده: Rechnung (صورتحساب) + bitte (لطفاً)\nمترادف‌ها: Die Rechnung, bitte (صورتحساب لطفاً)"
-  },
-  {
-    "Sound_de": "rechts gehen",
-    "root": "اجزای تشکیل‌دهنده: rechts (راست) + gehen (رفتن)\nمترادف‌ها: nach rechts gehen (به راست رفتن)\nمتضادها: links gehen (به چپ رفتن)"
-  },
-  {
-    "Sound_de": "es regnet",
-    "root": "اجزای تشکیل‌دهنده: es (آن) + regnet (باران می‌بارد)\nمترادف‌ها: es regnet (باران می‌بارد)\nمتضادها: die Sonne scheint (آفتاب می‌تابد)"
-  },
-  {
-    "Sound_de": "Reis essen",
-    "root": "اجزای تشکیل‌دهنده: Reis (برنج) + essen (خوردن)\nمترادف‌ها: Reis verzehren (برنج خوردن)"
-  },
-  {
-    "Sound_de": "Auto reparieren",
-    "root": "اجزای تشکیل‌دهنده: Auto (ماشین) + reparieren (تعمیر کردن)\nمترادف‌ها: Auto instandsetzen (ماشین تعمیر کردن)\nمتضادها: Auto kaputtmachen (ماشین خراب کردن)"
-  },
-  {
-    "Sound_de": "im Restaurant essen",
-    "root": "اجزای تشکیل‌دهنده: im Restaurant (در رستوران) + essen (خوردن)\nمترادف‌ها: auswärts essen (بیرون خوردن)"
-  },
-  {
-    "Sound_de": "richtig verstehen",
-    "root": "اجزای تشکیل‌دهنده: richtig (درست) + verstehen (فهمیدن)\nمترادف‌ها: korrekt verstehen (درست فهمیدن)\nمتضادها: missverstehen (اشتباه فهمیدن)"
-  },
-  {
-    "Sound_de": "gut riechen",
-    "root": "اجزای تشکیل‌دهنده: gut (خوب) + riechen (بو دادن)\nمترادف‌ها: angenehm riechen (خوشبو بودن)\nمتضادها: schlecht riechen (بدبو بودن)"
-  },
-  {
-    "Sound_de": "ruhig sein",
-    "root": "اجزای تشکیل‌دهنده: ruhig (آرام) + sein (بودن)\nمترادف‌ها: still sein (ساکت بودن)\nمتضادها: laut sein (بلند بودن)"
-  },
-  {
-    "Sound_de": "Salat schmeckt",
-    "root": "اجزای تشکیل‌دهنده: Salat (سالاد) + schmeckt (مزه می‌دهد)\nمترادف‌ها: Salat schmeckt gut (سالاد خوب مزه می‌دهد)"
-  },
-  {
-    "Sound_de": "Salz haben",
-    "root": "اجزای تشکیل‌دهنده: Salz (نمک) + haben (داشتن)\nمترادف‌ها: Salz besitzen (نمک داشتن)"
-  },
-  {
-    "Sound_de": "etwas sagen",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + sagen (گفتن)\nمترادف‌ها: etwas äußern (چیزی بیان کردن)\nمتضادها: schweigen (سکوت کردن)"
-  },
-  {
-    "Sound_de": "S-Bahn fahren",
-    "root": "اجزای تشکیل‌دهنده: S-Bahn (قطار شهری) + fahren (راندن)\nمترادف‌ها: mit der S-Bahn reisen (با قطار شهری سفر کردن)"
-  },
-  {
-    "Sound_de": "Schild sehen",
-    "root": "اجزای تشکیل‌دهنده: Schild (تابلو) + sehen (دیدن)\nمترادف‌ها: Schild bemerken (تابلو noticing)"
-  },
-  {
-    "Sound_de": "schlecht aussehen",
-    "root": "اجزای تشکیل‌دهنده: schlecht (بد) + aussehen (به نظر رسیدن)\nمترادف‌ها: hässlich aussehen (زشت به نظر رسیدن)\nمتضادها: gut aussehen (خوب به نظر رسیدن)"
-  },
-  {
-    "Sound_de": "Schluss machen",
-    "root": "اجزای تشکیل‌دهنده: Schluss (پایان) + machen (انجام دادن)\nمترادف‌ها: aufhören (متوقف شدن)\nمتضادها: anfangen (شروع کردن)"
-  },
-  {
-    "Sound_de": "gut schmecken",
-    "root": "اجزای تشکیل‌دهنده: gut (خوب) + schmecken (مزه دادن)\nمترادف‌ها: lecker schmecken (خوشمزه بودن)\nمتضادها: schlecht schmecken (بد مزه بودن)"
-  },
-  {
-    "Sound_de": "schnell fahren",
-    "root": "اجزای تشکیل‌دهنده: schnell (سریع) + fahren (راندن)\nمترادف‌ها: rasch fahren (سریع راندن)\nمتضادها: langsam fahren (آهسته راندن)"
-  },
-  {
-    "Sound_de": "in die Schule gehen",
-    "root": "اجزای تشکیل‌دهنده: in die Schule (به مدرسه) + gehen (رفتن)\nمترادف‌ها: zur Schule gehen (به مدرسه رفتن)"
-  },
-  {
-    "Sound_de": "schwer sein",
-    "root": "اجزای تشکیل‌دهنده: schwer (سنگین) + sein (بودن)\nمترادف‌ها: belastend sein (سنگین بودن)\nمتضادها: leicht sein (سبک بودن)"
-  },
-  {
-    "Sound_de": "jemanden sehen",
-    "root": "اجزای تشکیل‌دهنده: jemanden (کسی را) + sehen (دیدن)\nمترادف‌ها: jemanden erblicken (کسی را دیدن)"
-  },
-  {
-    "Sound_de": "jemanden kennenlernen",
-    "root": "اجزای تشکیل‌دهنده: jemanden (کسی را) + kennenlernen (آشنا شدن)\nمترادف‌ها: jemanden treffen (کسی را ملاقات کردن)"
-  },
-  {
-    "Sound_de": "neue Stelle haben",
-    "root": "اجزای تشکیل‌دهنده: neue Stelle (جایگاه جدید) + haben (داشتن)\nمترادف‌ها: neuen Job haben (شغل جدید داشتن)"
-  },
-  {
-    "Sound_de": "Telefon haben",
-    "root": "اجزای تشکیل‌دهنده: Telefon (تلفن) + haben (داشتن)\nمترادف‌ها: Handy haben (موبایل داشتن)"
-  },
-  {
-    "Sound_de": "einen Termin machen",
-    "root": "اجزای تشکیل‌دهنده: einen Termin (یک قرار) + machen (انجام دادن)\nمترادف‌ها: einen Termin vereinbaren (یک قرار هماهنگ کردن)"
-  },
-  {
-    "Sound_de": "teuer sein",
-    "root": "اجزای تشکیل‌دهنده: teuer (گران) + sein (بودن)\nمترادف‌ها: kostspielig sein (گران بودن)\nمتضادها: billig sein (ارزان بودن)"
-  },
-  {
-    "Sound_de": "einen Text lesen",
-    "root": "اجزای تشکیل‌دهنده: einen Text (یک متن) + lesen (خواندن)\nمترادف‌ها: einen Text durchlesen (یک متن مرور کردن)"
-  },
-  {
-    "Sound_de": "ein Ticket kaufen",
-    "root": "اجزای تشکیل‌دهنده: ein Ticket (یک بلیط) + kaufen (خریدن)\nمترادف‌ها: ein Ticket erwerben (یک بلیط خریدن)"
+    "Sound_de": "auf dem Sportplatz",
+    "root": "اجزای تشکیل‌دهنده: auf dem (روی) + Sportplatz (زمین ورزش).\nمترادف‌ها: auf dem Spielfeld (روی زمین بازی)."
   },
   {
     "Sound_de": "auf dem Tisch liegen",
-    "root": "اجزای تشکیل‌دهنده: auf dem Tisch (روی میز) + liegen (دراز کشیدن)\nمترادف‌ها: auf dem Tisch sein (روی میز بودن)"
+    "root": "اجزای تشکیل‌دهنده: auf dem (روی) + Tisch (میز) + liegen (دراز کشیدن یا قرار داشتن).\nمترادف‌ها: auf dem Tisch ruhen (روی میز استراحت کردن).\nمتضادها: unter dem Tisch liegen (زیر میز قرار داشتن)."
   },
   {
-    "Sound_de": "Toilette finden",
-    "root": "اجزای تشکیل‌دهنده: Toilette (توالت) + finden (پیدا کردن)\nمترادف‌ها: WC suchen (توالت جستجو کردن)\nمتضادها: Toilette verlieren (توالت گم کردن)"
+    "Sound_de": "auf dem Tisch stehen",
+    "root": "اجزای تشکیل‌دهنده: auf dem (روی) + Tisch (میز) + stehen (ایستادن).\nمترادف‌ها: auf dem Tisch aufgestellt sein (روی میز قرار داده شده بودن).\nمتضادها: unter dem Tisch stehen (زیر میز ایستادن)."
   },
   {
-    "Sound_de": "tot sein",
-    "root": "اجزای تشکیل‌دهنده: tot (مرده) + sein (بودن)\nمترادف‌ها: verstorben sein (فوت شده بودن)\nمتضادها: lebendig sein (زنده بودن)"
+    "Sound_de": "auf den Markt gehen",
+    "root": "اجزای تشکیل‌دهنده: auf den (به) + Markt (بازار) + gehen (رفتن).\nمترادف‌ها: zum Markt gehen (به بازار رفتن).\nمتضادها: vom Markt gehen (از بازار رفتن)."
   },
   {
-    "Sound_de": "sich treffen",
-    "root": "اجزای تشکیل‌دهنده: sich (خود را) + treffen (دیدار کردن)\nمترادف‌ها: sich verabreden (قرار گذاشتن)"
+    "Sound_de": "auf der Autobahn fahren",
+    "root": "اجزای تشکیل‌دهنده: auf der (روی) + Autobahn (اتوبان) + fahren (رانندگی کردن).\nمترادف‌ها: auf der Schnellstraße fahren (روی بزرگراه رانندگی کردن).\nمتضادها: auf Nebenstraßen fahren (روی جاده‌های فرعی رانندگی کردن)."
   },
   {
-    "Sound_de": "etwas trinken",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + trinken (نوشیدن)\nمترادف‌ها: etwas zu sich nehmen (چیزی نوشیدن)"
+    "Sound_de": "auf Deutsch",
+    "root": "اجزای تشکیل‌دهنده: auf (روی یا به) + Deutsch (آلمانی).\nمترادف‌ها: in Deutsch (به آلمانی).\nمتضادها: auf Englisch (به انگلیسی)."
   },
   {
-    "Sound_de": "etwas tun",
-    "root": "اجزای تشکیل‌دهنده: etwas (چیزی) + tun (انجام دادن)\nمترادف‌ها: etwas machen (چیزی کردن)\nمتضادها: nichts tun (هیچ کاری نکردن)"
+    "Sound_de": "auf die Kinder aufpassen",
+    "root": "اجزای تشکیل‌دهنده: auf die (روی) + Kinder (کودکان) + aufpassen (مراقبت کردن).\nمترادف‌ها: auf die Kinder achten (به کودکان توجه کردن).\nمتضادها: die Kinder ignorieren (کودکان را نادیده گرفتن)."
   },
   {
-    "Sound_de": "über die Straße gehen",
-    "root": "اجزای تشکیل‌دهنده: über die Straße (از خیابان) + gehen (رفتن)\nمترادف‌ها: die Straße überqueren (خیابان عبور کردن)"
+    "Sound_de": "auf die Mailbox sprechen",
+    "root": "اجزای تشکیل‌دهنده: auf die (روی) + Mailbox (صندوق صوتی) + sprechen (صحبت کردن).\nمترادف‌ها: auf den Anrufbeantworter sprechen (روی پاسخگوی خودکار صحبت کردن).\nمتضادها: die Mailbox abhören (صندوق صوتی را گوش کردن)."
   },
   {
-    "Sound_de": "unten wohnen",
-    "root": "اجزای تشکیل‌دهنده: unten (پایین) + wohnen (زندگی کردن)\nمترادف‌ها: unten leben (پایین زندگی کردن)\nمتضادها: oben wohnen (بالا زندگی کردن)"
+    "Sound_de": "auf eine Party gehen",
+    "root": "اجزای تشکیل‌دهنده: auf eine (به یک) + Party (مهمانی) + gehen (رفتن).\nمترادف‌ها: zu einer Feier gehen (به یک جشن رفتن).\nمتضادها: von einer Party gehen (از یک مهمانی رفتن)."
   },
   {
-    "Sound_de": "unterschreiben",
-    "root": "اجزای تشکیل‌دهنده: unter (زیر) + schreiben (نوشتن)\nمترادف‌ها: signieren (امضا کردن)"
+    "Sound_de": "auf jeden Fall",
+    "root": "اجزای تشکیل‌دهنده: auf (روی) + jeden Fall (هر مورد).\nمترادف‌ها: in jedem Fall (در هر مورد).\nمتضادها: auf keinen Fall (به هیچ وجه)."
   },
   {
-    "Sound_de": "Urlaub nehmen",
-    "root": "اجزای تشکیل‌دهنده: Urlaub (تعطیلات) + nehmen (گرفتن)\nمترادف‌ها: Ferien machen (تعطیلات گرفتن)"
+    "Sound_de": "auf keinen Fall ansehen",
+    "root": "اجزای تشکیل‌دهنده: auf keinen Fall (به هیچ وجه) + ansehen (نگاه کردن).\nمترادف‌ها: keinesfalls anschauen (به هیچ وجه نگاه کردن).\nمتضادها: auf jeden Fall ansehen (حتماً نگاه کردن)."
   },
   {
-    "Sound_de": "verheiratet sein",
-    "root": "اجزای تشکیل‌دهنده: verheiratet (متاهل) + sein (بودن)\nمترادف‌ها: ehelicht sein (متاهل بودن)\nمتضادها: ledig sein (مجرد بودن)"
+    "Sound_de": "auf Rezept bekommen",
+    "root": "اجزای تشکیل‌دهنده: auf (روی) + Rezept (نسخه) + bekommen (دریافت کردن).\nمترادف‌ها: auf Verordnung erhalten (روی نسخه دریافت کردن).\nمتضادها: ohne Rezept kaufen (بدون نسخه خریدن)."
   },
   {
-    "Sound_de": "viele haben",
-    "root": "اجزای تشکیل‌دهنده: viele (بسیاری) + haben (داشتن)\nمترادف‌ها: viel besitzen (زیاد داشتن)\nمتضادها: wenige haben (کم داشتن)"
+    "Sound_de": "auf Wiederhören",
+    "root": "اجزای تشکیل‌دهنده: auf (تا) + Wiederhören (شنیدن دوباره).\nمترادف‌ها: bis zum nächsten Mal (تا دفعه بعد).\nمتضادها: kein Wiederhören (شنیدن دوباره نه)."
   },
   {
-    "Sound_de": "vor der Tür stehen",
-    "root": "اجزای تشکیل‌دهنده: vor der Tür (جلوی در) + stehen (ایستادن)\nمترادف‌ها: vor der Tür warten (جلوی در منتظر ماندن)"
+    "Sound_de": "auf Wiedersehen",
+    "root": "اجزای تشکیل‌دهنده: auf (تا) + Wiedersehen (دیدن دوباره).\nمترادف‌ها: tschüss (خداحافظ).\nمتضادها: hallo (سلام)."
   },
   {
-    "Sound_de": "sich vorstellen",
-    "root": "اجزای تشکیل‌دهنده: sich (خود را) + vorstellen (معرفی کردن)\nمترادف‌ها: sich präsentieren (خود را معرفی کردن)"
+    "Sound_de": "aufhören mit",
+    "root": "اجزای تشکیل‌دهنده: aufhören (متوقف شدن) + mit (با).\nمترادف‌ها: stoppen mit (متوقف کردن با).\nمتضادها: anfangen mit (شروع کردن با)."
   },
   {
-    "Sound_de": "warmes Wasser haben",
-    "root": "اجزای تشکیل‌دهنده: warmes Wasser (آب گرم) + haben (داشتن)\nمترادف‌ها: heißes Wasser haben (آب داغ داشتن)\nمتضادها: kaltes Wasser haben (آب سرد داشتن)"
+    "Sound_de": "aufregend sein",
+    "root": "اجزای تشکیل‌دهنده: aufregend (هیجان‌انگیز) + sein (بودن).\nمترادف‌ها: spannend sein (جذاب بودن).\nمتضادها: langweilig sein (خسته‌کننده بودن)."
   },
   {
-    "Sound_de": "weiblich sein",
-    "root": "اجزای تشکیل‌دهنده: weiblich (زنانه) + sein (بودن)\nمترادف‌ها: feminin sein (زنانه بودن)\nمتضادها: männlich sein (مردانه بودن)"
+    "Sound_de": "Ausbildung machen",
+    "root": "اجزای تشکیل‌دهنده: Ausbildung (آموزش) + machen (انجام دادن).\nمترادف‌ها: Lehre absolvieren (آموزش را کامل کردن).\nمتضادها: Ausbildung abbrechen (آموزش را قطع کردن)."
   },
   {
-    "Sound_de": "Arzt werden",
-    "root": "اجزای تشکیل‌دهنده: Arzt (پزشک) + werden (شدن)\nمترادف‌ها: Mediziner werden (پزشک شدن)"
+    "Sound_de": "Auskunft geben",
+    "root": "اجزای تشکیل‌دهنده: Auskunft (اطلاعات) + geben (دادن).\nمترادف‌ها: Information geben (اطلاعات دادن).\nمتضادها: Auskunft verweigern (اطلاعات را رد کردن)."
   },
   {
-    "Sound_de": "Wo wohnen",
-    "root": "اجزای تشکیل‌دهنده: Wo (کجا) + wohnen (زندگی کردن)\nمترادف‌ها: Wo leben (کجا زندگی کردن)"
+    "Sound_de": "Auto fahren",
+    "root": "اجزای تشکیل‌دهنده: Auto (ماشین) + fahren (رانندگی کردن).\nمترادف‌ها: Wagen lenken (ماشین راندن).\nمتضادها: zu Fuß gehen (پیاده رفتن)."
   },
   {
-    "Sound_de": "Zahlen, bitte",
-    "root": "اجزای تشکیل‌دهنده: Zahlen (پرداخت کردن) + bitte (لطفاً)\nمترادف‌ها: Bezahlen, bitte (پرداخت لطفاً)"
+    "Sound_de": "bald kommen",
+    "root": "اجزای تشکیل‌دهنده: bald (به زودی) + kommen (آمدن).\nمترادف‌ها: gleich kommen (فوراً آمدن).\nمتضادها: spät kommen (دیر آمدن)."
   },
   {
-    "Sound_de": "Zeit haben",
-    "root": "اجزای تشکیل‌دهنده: Zeit (زمان) + haben (داشتن)\nمترادف‌ها: Freizeit haben (وقت آزاد داشتن)\nمتضادها: keine Zeit haben (هیچ زمانی نداشتن)"
+    "Sound_de": "Ball spielen",
+    "root": "اجزای تشکیل‌دهنده: Ball (توپ) + spielen (بازی کردن).\nمترادف‌ها: Ball werfen (توپ پرتاب کردن).\nمتضادها: Ball ruhen lassen (توپ را استراحت دادن)."
   },
   {
-    "Sound_de": "Zeitung lesen",
-    "root": "اجزای تشکیل‌دهنده: Zeitung (روزنامه) + lesen (خواندن)\nمترادف‌ها: Zeitung durchblättern (روزنامه ورق زدن)"
+    "Sound_de": "bar zahlen",
+    "root": "اجزای تشکیل‌دهنده: bar (نقدی) + zahlen (پرداخت کردن).\nمترادف‌ها: in bar bezahlen (نقدی پرداخت کردن).\nمتضادها: mit Karte zahlen (با کارت پرداخت کردن)."
   },
   {
-    "Sound_de": "Zigaretten kaufen",
-    "root": "اجزای تشکیل‌دهنده: Zigaretten (سیگارها) + kaufen (خریدن)\nمترادف‌ها: Zigaretten erwerben (سیگار خریدن)"
+    "Sound_de": "Basketball spielen",
+    "root": "اجزای تشکیل‌دهنده: Basketball (بسکتبال) + spielen (بازی کردن).\nمترادف‌ها: Korbball spielen (بسکتبال بازی کردن).\nمتضادها: Fußball spielen (فوتبال بازی کردن)."
   },
   {
-    "Sound_de": "Zimmer haben",
-    "root": "اجزای تشکیل‌دهنده: Zimmer (اتاق) + haben (داشتن)\nمترادف‌ها: Raum haben (اتاق داشتن)"
+    "Sound_de": "Bauch tut weh",
+    "root": "اجزای تشکیل‌دهنده: Bauch (شکم) + tut weh (درد کردن).\nمترادف‌ها: Bauch schmerzt (شکم درد کردن).\nمتضادها: Bauch fühlt sich gut an (شکم خوب احساس شدن)."
   },
   {
-    "Sound_de": "zum Bahnhof fahren",
-    "root": "اجزای تشکیل‌دهنده: zum Bahnhof (به ایستگاه قطار) + fahren (راندن)\nمترادف‌ها: zum Bahnhof reisen (به ایستگاه قطار سفر کردن)"
+    "Sound_de": "bei der Schwester leben",
+    "root": "اجزای تشکیل‌دهنده: bei der (نزد) + Schwester (خواهر) + leben (زندگی کردن).\nمترادف‌ها: bei der Schwester wohnen (نزد خواهر زندگی کردن).\nمتضادها: allein leben (تنها زندگی کردن)."
   },
   {
-    "Sound_de": "zu Fuß gehen",
-    "root": "اجزای تشکیل‌دهنده: zu Fuß (پیاده) + gehen (رفتن)\nمترادف‌ها: laufen (دویدن)\nمتضادها: mit dem Auto fahren (با ماشین رفتن)"
+    "Sound_de": "bei jemandem übernachten",
+    "root": "اجزای تشکیل‌دهنده: bei jemandem (نزد کسی) + übernachten (شب ماندن).\nمترادف‌ها: bei jemandem schlafen (نزد کسی خوابیدن).\nمتضادها: zu Hause übernachten (در خانه شب ماندن)."
   },
   {
-    "Sound_de": "zu Hause sein",
-    "root": "اجزای تشکیل‌دهنده: zu Hause (در خانه) + sein (بودن)\nمترادف‌ها: daheim sein (در خانه بودن)\nمتضادها: unterwegs sein (در راه بودن)"
+    "Sound_de": "bei... wohnen",
+    "root": "اجزای تشکیل‌دهنده: bei (نزد) + ... (کسی) + wohnen (زندگی کردن).\nمترادف‌ها: bei ... leben (نزد ... زندگی کردن).\nمتضادها: fern von ... wohnen (دور از ... زندگی کردن)."
   },
   {
-    "Sound_de": "mit der Wohnung zufrieden sein",
-    "root": "اجزای تشکیل‌دهنده: mit der Wohnung (با آپارتمان) + zufrieden (راضی) + sein (بودن)\nمترادف‌ها: mit der Wohnung glücklich sein (با آپارتمان خوشحال بودن)\nمتضادها: mit der Wohnung unzufrieden sein (با آپارتمان ناراضی بودن)"
+    "Sound_de": "beide kommen",
+    "root": "اجزای تشکیل‌دهنده: beide (هر دو) + kommen (آمدن).\nمترادف‌ها: beide eintreffen (هر دو رسیدن).\nمتضادها: keiner kommt (هیچ‌کدام نمی‌آید)."
   },
   {
-    "Sound_de": "mit dem Zug fahren",
-    "root": "اجزای تشکیل‌دهنده: mit dem Zug (با قطار) + fahren (راندن)\nمترادف‌ها: mit dem Zug reisen (با قطار سفر کردن)"
+    "Sound_de": "beim Essen stören",
+    "root": "اجزای تشکیل‌دهنده: beim (در حین) + Essen (خوردن) + stören (مزاحم شدن).\nمترادف‌ها: beim Mahl unterbrechen (در حین غذا قطع کردن).\nمتضادها: beim Essen helfen (در حین غذا کمک کردن)."
   },
   {
-    "Sound_de": "zusammen essen",
-    "root": "اجزای تشکیل‌دهنده: zusammen (با هم) + essen (خوردن)\nمترادف‌ها: gemeinsam essen (با هم خوردن)\nمتضادها: allein essen (تنها خوردن)"
+    "Sound_de": "Bein tut weh",
+    "root": "اجزای تشکیل‌دهنده: Bein (پا) + tut weh (درد کردن).\nمترادف‌ها: Bein schmerzt (پا درد کردن).\nمتضادها: Bein fühlt sich gut an (پا خوب احساس شدن)."
   },
   {
-    "Sound_de": "zusammen zahlen",
-    "root": "اجزای تشکیل‌دهنده: zusammen (با هم) + zahlen (پرداخت کردن)\nمترادف‌ها: gemeinsam bezahlen (با هم پرداخت کردن)\nمتضادها: getrennt zahlen (جدا پرداخت کردن)"
+    "Sound_de": "bekannt sein",
+    "root": "اجزای تشکیل‌دهنده: bekannt (شناخته‌شده) + sein (بودن).\nمترادف‌ها: berühmt sein (معروف بودن).\nمتضادها: unbekannt sein (ناشناخته بودن)."
   },
   {
-    "Sound_de": "zwischen zwei Orten liegen",
-    "root": "اجزای تشکیل‌دهنده: zwischen zwei Orten (بین دو مکان) + liegen (قرار داشتن)\nمترادف‌ها: dazwischen liegen (بین قرار داشتن)"
+    "Sound_de": "beliebt sein",
+    "root": "اجزای تشکیل‌دهنده: beliebt (محبوب) + sein (بودن).\nمترادف‌ها: populär sein (محبوب بودن).\nمتضادها: unbeliebt sein (نامحبوب بودن)."
+  },
+  {
+    "Sound_de": "bequem sein",
+    "root": "اجزای تشکیل‌دهنده: bequem (راحت) + sein (بودن).\nمترادف‌ها: komfortabel sein (راحت بودن).\nمتضادها: unbequem sein (ناراحت بودن)."
+  },
+  {
+    "Sound_de": "berichten von",
+    "root": "اجزای تشکیل‌دهنده: berichten (گزارش دادن) + von (از).\nمترادف‌ها: erzählen von (گفتن از).\nمتضادها: schweigen von (سکوت کردن از)."
+  },
+  {
+    "Sound_de": "berühmt sein",
+    "root": "اجزای تشکیل‌دهنده: berühmt (معروف) + sein (بودن).\nمترادف‌ها: bekannt sein (شناخته‌شده بودن).\nمتضادها: unbekannt sein (ناشناخته بودن)."
+  },
+  {
+    "Sound_de": "Bescheid bekommen",
+    "root": "اجزای تشکیل‌دهنده: Bescheid (اطلاع) + bekommen (دریافت کردن).\nمترادف‌ها: Nachricht erhalten (پیام دریافت کردن).\nمتضادها: Bescheid geben (اطلاع دادن)."
+  },
+  {
+    "Sound_de": "Bescheid geben",
+    "root": "اجزای تشکیل‌دهنده: Bescheid (اطلاع) + geben (دادن).\nمترادف‌ها: informieren (اطلاع دادن).\nمتضادها: Bescheid bekommen (اطلاع دریافت کردن)."
+  },
+  {
+    "Sound_de": "besetzt sein",
+    "root": "اجزای تشکیل‌دهنده: besetzt (اشغال) + sein (بودن).\nمترادف‌ها: belegt sein (اشغال بودن).\nمتضادها: frei sein (آزاد بودن)."
+  },
+  {
+    "Sound_de": "besonders günstig sein",
+    "root": "اجزای تشکیل‌دهنده: besonders (به خصوص) + günstig (ارزان) + sein (بودن).\nمترادف‌ها: sehr billig sein (خیلی ارزان بودن).\nمتضادها: besonders teuer sein (به خصوص گران بودن)."
+  },
+  {
+    "Sound_de": "besser finden",
+    "root": "اجزای تشکیل‌دهنده: besser (بهتر) + finden (پیدا کردن یا فکر کردن).\nمترادف‌ها: vorzuziehen finden (ترجیح دادن).\nمتضادها: schlechter finden (بدتر پیدا کردن)."
+  },
+  {
+    "Sound_de": "Besuch bekommen",
+    "root": "اجزای تشکیل‌دهنده: Besuch (بازدید) + bekommen (دریافت کردن).\nمترادف‌ها: Gäste empfangen (مهمان受け کردن).\nمتضادها: Besuch machen (بازدید کردن)."
+  },
+  {
+    "Sound_de": "Bilder hängen",
+    "root": "اجزای تشکیل‌دهنده: Bilder (تصاویر) + hängen (آویزان کردن).\nمترادف‌ها: Bilder aufhängen (تصاویر آویزان کردن).\nمتضادها: Bilder abnehmen (تصاویر برداشتن)."
+  },
+  {
+    "Sound_de": "billig sein",
+    "root": "اجزای تشکیل‌دهنده: billig (ارزان) + sein (بودن).\nمترادف‌ها: günstig sein (ارزان بودن).\nمتضادها: teuer sein (گران بودن)."
+  },
+  {
+    "Sound_de": "bis Freitag",
+    "root": "اجزای تشکیل‌دهنده: bis (تا) + Freitag (جمعه).\nمترادف‌ها: bis zum Freitag (تا جمعه).\nمتضادها: ab Freitag (از جمعه)."
+  },
+  {
+    "Sound_de": "bis gleich",
+    "root": "اجزای تشکیل‌دهنده: bis (تا) + gleich (فوراً).\nمترادف‌ها: bis bald (تا زود).\nمتضادها: bis später (تا بعداً)."
+  },
+  {
+    "Sound_de": "bitter schmecken",
+    "root": "اجزای تشکیل‌دهنده: bitter (تلخ) + schmecken (مزه دادن).\nمترادف‌ها: herb schmecken (تلخ مزه دادن).\nمتضادها: süß schmecken (شیرین مزه دادن)."
+  },
+  {
+    "Sound_de": "Blätter sammeln",
+    "root": "اجزای تشکیل‌دهنده: Blätter (برگ‌ها) + sammeln (جمع کردن).\nمترادف‌ها: Blätter einsammeln (برگ‌ها جمع کردن).\nمتضادها: Blätter verstreuen (برگ‌ها پراکنده کردن)."
+  },
+  {
+    "Sound_de": "blöd finden",
+    "root": "اجزای تشکیل‌دهنده: blöd (احمقانه) + finden (پیدا کردن).\nمترادف‌ها: dumm finden (احمقانه پیدا کردن).\nمتضادها: klug finden (هوشمند پیدا کردن)."
+  },
+  {
+    "Sound_de": "blonde Haare haben",
+    "root": "اجزای تشکیل‌دهنده: blonde (بلوند) + Haare (موها) + haben (داشتن).\nمترادف‌ها: helles Haar haben (موهای روشن داشتن).\nمتضادها: dunkle Haare haben (موهای تیره داشتن)."
+  },
+  {
+    "Sound_de": "Bohnen essen",
+    "root": "اجزای تشکیل‌دهنده: Bohnen (لوبیا) + essen (خوردن).\nمترادف‌ها: Bohnen verzehren (لوبیا خوردن).\nمتضادها: Bohnen anpflanzen (لوبیا کاشتن)."
+  },
+  {
+    "Sound_de": "böse sein auf",
+    "root": "اجزای تشکیل‌دهنده: böse (عصبانی) + sein (بودن) + auf (روی).\nمترادف‌ها: sauer sein auf (عصبانی بودن روی).\nمتضادها: freundlich sein zu (دوستانه بودن با)."
+  },
+  {
+    "Sound_de": "Brief bekommen",
+    "root": "اجزای تشکیل‌دهنده: Brief (نامه) + bekommen (دریافت کردن).\nمترادف‌ها: Post erhalten (پست دریافت کردن).\nمتضادها: Brief schicken (نامه فرستادن)."
+  },
+  {
+    "Sound_de": "Briefmarken sammeln",
+    "root": "اجزای تشکیل‌دهنده: Briefmarken (تمبرها) + sammeln (جمع کردن).\nمترادف‌ها: Stempel sammeln (تمبر جمع کردن).\nمتضادها: Briefmarken wegwerfen (تمبرها دور انداختن)."
+  },
+  {
+    "Sound_de": "Briefmarke vergessen",
+    "root": "اجزای تشکیل‌دهنده: Briefmarke (تمبر) + vergessen (فراموش کردن).\nمترادف‌ها: Briefmarke übersehen (تمبر نادیده گرفتن).\nمتضادها: Briefmarke erinnern (تمبر به یاد آوردن)."
+  },
+  {
+    "Sound_de": "Brot kaufen",
+    "root": "اجزای تشکیل‌دهنده: Brot (نان) + kaufen (خریدن).\nمترادف‌ها: Brot erwerben (نان خریدن).\nمتضادها: Brot backen (نان پختن)."
+  },
+  {
+    "Sound_de": "Brötchen zum Frühstück",
+    "root": "اجزای تشکیل‌دهنده: Brötchen (نان کوچک) + zum (برای) + Frühstück (صبحانه).\nمترادف‌ها: Semmeln zum Frühstück (نان کوچک برای صبحانه)."
+  },
+  {
+    "Sound_de": "bunte Kleider tragen",
+    "root": "اجزای تشکیل‌دهنده: bunte (رنگی) + Kleider (لباس‌ها) + tragen (پوشیدن).\nمترادف‌ها: farbige Kleidung anziehen (لباس رنگی پوشیدن).\nمتضادها: einfarbige Kleider tragen (لباس تک‌رنگ پوشیدن)."
+  },
+  {
+    "Sound_de": "Bus fahren",
+    "root": "اجزای تشکیل‌دهنده: Bus (اتوبوس) + fahren (رانندگی کردن یا رفتن).\nمترادف‌ها: Bus benutzen (اتوبوس استفاده کردن).\nمتضادها: zu Fuß gehen (پیاده رفتن)."
+  },
+  {
+    "Sound_de": "Butter aufs Brot",
+    "root": "اجزای تشکیل‌دهنده: Butter (کره) + aufs (روی) + Brot (نان).\nمترادف‌ها: Butter auf Brot streichen (کره روی نان مالیدن)."
+  },
+  {
+    "Sound_de": "Chatten",
+    "root": "اجزای تشکیل‌دهنده: Chatten (چت کردن).\nمترادف‌ها: online plaudern (آنلاین گپ زدن).\nمتضادها: offline sein (آفلاین بودن)."
+  },
+  {
+    "Sound_de": "Comics lesen",
+    "root": "اجزای تشکیل‌دهنده: Comics (کمیک‌ها) + lesen (خواندن).\nمترادف‌ها: Comics durchblättern (کمیک‌ها ورق زدن).\nمتضادها: Bücher lesen (کتاب‌ها خواندن)."
+  },
+  {
+    "Sound_de": "Da drüben",
+    "root": "اجزای تشکیل‌دهنده: Da (آنجا) + drüben (آن طرف).\nمترادف‌ها: Dort drüben (آنجا آن طرف).\nمتضادها: Hier drüben (اینجا این طرف)."
+  },
+  {
+    "Sound_de": "dabei haben",
+    "root": "اجزای تشکیل‌دهنده: dabei (در آن) + haben (داشتن).\nمترادف‌ها: mit sich haben (با خود داشتن).\nمتضادها: nicht dabei haben (نداشتن)."
+  },
+  {
+    "Sound_de": "dagegen sein",
+    "root": "اجزای تشکیل‌دهنده: dagegen (علیه آن) + sein (بودن).\nمترادف‌ها: dagegen (علیه).\nمتضادها: dafür sein (برای آن بودن)."
+  },
+  {
+    "Sound_de": "darüber sprechen",
+    "root": "اجزا: darüber (قید، به معنای در مورد آن یا بالای آن)\nsprechen (فعل، به معنای حرف زدن یا صحبت کردن)\nمترادف: über etwas reden (در مورد چیزی حرف زدن)\nمتضاد: schweigen (سکوت کردن)"
+  },
+  {
+    "Sound_de": "das Abendessen vorbereiten",
+    "root": "اجزا: das (مقاله معین خنثی)\nAbendessen (اسم، شام)\nvorbereiten (فعل، آماده کردن)"
+  },
+  {
+    "Sound_de": "das Auto fahren",
+    "root": "اجزا: das (مقاله معین خنثی)\nAuto (اسم، ماشین)\nfahren (فعل، رانندگی کردن)\nمترادف: mit dem Auto fahren (با ماشین رانندگی کردن)"
+  },
+  {
+    "Sound_de": "das Bad nehmen",
+    "root": "اجزا: das (مقاله معین خنثی)\nBad (اسم، حمام)\nnehmen (فعل، گرفتن)\nمترادف: baden (حمام کردن)"
+  },
+  {
+    "Sound_de": "das Buch kostet",
+    "root": "اجزا: das (مقاله معین خنثی)\nBuch (اسم، کتاب)\nkostet (فعل، هزینه داشتن یا قیمت داشتن)"
+  },
+  {
+    "Sound_de": "das Ding",
+    "root": "اجزا: das (مقاله معین خنثی)\nDing (اسم، چیز)\nمترادف: die Sache (چیز یا مسئله)"
+  },
+  {
+    "Sound_de": "das erste Mal",
+    "root": "اجزا: das (مقاله معین خنثی)\nerste (صفت، اولین)\nMal (اسم، بار یا دفعه)\nمترادف: zum ersten Mal (برای اولین بار)"
+  },
+  {
+    "Sound_de": "das Essen machen",
+    "root": "اجزا: das (مقاله معین خنثی)\nEssen (اسم، غذا)\nmachen (فعل، درست کردن)\nمترادف: kochen (پختن)"
+  },
+  {
+    "Sound_de": "das Fenster ist offen",
+    "root": "اجزا: das (مقاله معین خنثی)\nFenster (اسم، پنجره)\nist (فعل بودن)\noffen (صفت، باز)\nمتضاد: das Fenster ist geschlossen (پنجره بسته است)"
+  },
+  {
+    "Sound_de": "das Fenster öffnen",
+    "root": "اجزا: das (مقاله معین خنثی)\nFenster (اسم، پنجره)\nöffnen (فعل، باز کردن)\nمترادف: das Fenster aufmachen (پنجره را باز کردن)\nمتضاد: das Fenster schließen (پنجره را بستن)"
+  },
+  {
+    "Sound_de": "das Fenster zumachen",
+    "root": "اجزا: das (مقاله معین خنثی)\nFenster (اسم، پنجره)\nzumachen (فعل، بستن)\nمترادف: das Fenster schließen (پنجره را بستن)\nمتضاد: das Fenster öffnen (پنجره را باز کردن)"
+  },
+  {
+    "Sound_de": "das Flugzeug hat Verspätung",
+    "root": "اجزا: das (مقاله معین خنثی)\nFlugzeug (اسم، هواپیما)\nhat (فعل داشتن)\nVerspätung (اسم، تأخیر)\nمتضاد: das Flugzeug ist pünktlich (هواپیما به موقع است)"
+  },
+  {
+    "Sound_de": "das Formular ausfüllen",
+    "root": "اجزا: das (مقاله معین خنثی)\nFormular (اسم، فرم)\nausfüllen (فعل، پر کردن)"
+  },
+  {
+    "Sound_de": "das Gegenteil von",
+    "root": "اجزا: das (مقاله معین خنثی)\nGegenteil (اسم، مقابل یا ضد)\nvon (حرف اضافه، از)\nمترادف: das Antonym von (متضاد از)"
+  },
+  {
+    "Sound_de": "das Gepäck kontrollieren",
+    "root": "اجزا: das (مقاله معین خنثی)\nGepäck (اسم، چمدان یا بار)\nkontrollieren (فعل، کنترل کردن یا بررسی کردن)"
+  },
+  {
+    "Sound_de": "auf haben",
+    "root": "اجزا: auf (حرف اضافه، روی یا به)\nhaben (فعل، داشتن)\nمترادف: Lust haben (میل داشتن)"
+  },
+  {
+    "Sound_de": "das Geschirr spülen",
+    "root": "اجزا: das (مقاله معین خنثی)\nGeschirr (اسم، ظرف‌ها)\nspülen (فعل، شستن)"
+  },
+  {
+    "Sound_de": "das Gesicht waschen",
+    "root": "اجزا: das (مقاله معین خنثی)\nGesicht (اسم، صورت)\nwaschen (فعل، شستن)"
+  },
+  {
+    "Sound_de": "das Glas fällt",
+    "root": "اجزا: das (مقاله معین خنثی)\nGlas (اسم، لیوان)\nfällt (فعل، افتادن)"
+  },
+  {
+    "Sound_de": "das ist meine Sache",
+    "root": "اجزا: das (مقاله معین خنثی)\nist (فعل بودن)\nmeine (ضمیر ملکی، مال من)\nSache (اسم، چیز یا مسئله)\nمترادف: das geht dich nichts an (این به تو ربطی ندارد)"
+  },
+  {
+    "Sound_de": "das Licht anmachen",
+    "root": "اجزا: das (مقاله معین خنثی)\nLicht (اسم، نور یا چراغ)\nanmachen (فعل، روشن کردن)\nمتضاد: das Licht ausmachen (چراغ را خاموش کردن)"
+  },
+  {
+    "Sound_de": "das Licht ausmachen",
+    "root": "اجزا: das (مقاله معین خنثی)\nLicht (اسم، نور یا چراغ)\nausmachen (فعل، خاموش کردن)\nمتضاد: das Licht anmachen (چراغ را روشن کردن)"
+  },
+  {
+    "Sound_de": "das Lied gehört haben",
+    "root": "اجزا: das (مقاله معین خنثی)\nLied (اسم، آهنگ)\ngehört (فعل گذشته، شنیدن)\nhaben (فعل کمکی)"
+  },
+  {
+    "Sound_de": "das macht doch nichts",
+    "root": "اجزا: das (مقاله معین خنثی)\nmacht (فعل، کردن)\ndoch (ذره، ولی)\nnichts (هیچ چیز)\nمترادف: das ist nicht schlimm (این بد نیست)"
+  },
+  {
+    "Sound_de": "das Messer schneidet nicht gut",
+    "root": "اجزا: das (مقاله معین خنثی)\nMesser (اسم، چاقو)\nschneidet (فعل، بریدن)\nnicht (نه)\ngut (خوب)"
+  },
+  {
+    "Sound_de": "das Öl kontrollieren",
+    "root": "اجزا: das (مقاله معین خنثی)\nÖl (اسم، روغن)\nkontrollieren (فعل، کنترل کردن)"
+  },
+  {
+    "Sound_de": "das Paket zur Post bringen",
+    "root": "اجزا: das (مقاله معین خنثی)\nPaket (اسم، بسته)\nzur (به سمت)\nPost (اسم، پست)\nbringen (فعل، بردن)"
+  },
+  {
+    "Sound_de": "das Poster hängt",
+    "root": "اجزا: das (مقاله معین خنثی)\nPoster (اسم، پوستر)\nhängt (فعل، آویزان بودن)"
+  },
+  {
+    "Sound_de": "das Rätsel lösen",
+    "root": "اجزا: das (مقاله معین خنثی)\nRätsel (اسم، معما)\nlösen (فعل، حل کردن)"
+  },
+  {
+    "Sound_de": "das Rezept geben",
+    "root": "اجزا: das (مقاله معین خنثی)\nRezept (اسم، دستور غذا یا نسخه)\ngeben (فعل، دادن)"
+  },
+  {
+    "Sound_de": "das Schloss besichtigen",
+    "root": "اجزا: das (مقاله معین خنثی)\nSchloss (اسم، قلعه)\nbesichtigen (فعل، بازدید کردن)"
+  },
+  {
+    "Sound_de": "das Schloss ist kaputt",
+    "root": "اجزا: das (مقاله معین خنثی)\nSchloss (اسم، قفل)\nist (فعل بودن)\nkaputt (صفت، خراب)\nمتضاد: das Schloss funktioniert (قفل کار می‌کند)"
+  },
+  {
+    "Sound_de": "das Spiel beginnt",
+    "root": "اجزا: das (مقاله معین خنثی)\nSpiel (اسم، بازی)\nbeginnt (فعل، شروع شدن)"
+  },
+  {
+    "Sound_de": "das Spiel verlieren",
+    "root": "اجزا: das (مقاله معین خنثی)\nSpiel (اسم، بازی)\nverlieren (فعل، باختن)\nمتضاد: das Spiel gewinnen (بازی را بردن)"
+  },
+  {
+    "Sound_de": "das Studium dauert",
+    "root": "اجزا: das (مقاله معین خنثی)\nStudium (اسم، تحصیل)\ndauert (فعل، طول کشیدن)"
+  },
+  {
+    "Sound_de": "das Thema ist",
+    "root": "اجزا: das (مقاله معین خنثی)\nThema (اسم، موضوع)\nist (فعل بودن)"
+  },
+  {
+    "Sound_de": "das Ticket kostet",
+    "root": "اجزا: das (مقاله معین خنثی)\nTicket (اسم، بلیط)\nkostet (فعل، هزینه داشتن)"
+  },
+  {
+    "Sound_de": "das Wasser kocht",
+    "root": "اجزا: das (مقاله معین خنثی)\nWasser (اسم، آب)\nkocht (فعل، جوشیدن)"
+  },
+  {
+    "Sound_de": "das Wetter wird gut",
+    "root": "اجزا: das (مقاله معین خنثی)\nWetter (اسم، آب و هوا)\nwird (فعل شدن)\ngut (صفت، خوب)"
+  },
+  {
+    "Sound_de": "das Wort aussprechen",
+    "root": "اجزا: das (مقاله معین خنثی)\nWort (اسم، کلمه)\naussprechen (فعل، تلفظ کردن)"
+  },
+  {
+    "Sound_de": "das Wort kennen",
+    "root": "اجزا: das (مقاله معین خنثی)\nWort (اسم، کلمه)\nkennen (فعل، شناختن)\nمتضاد: das Wort nicht kennen (کلمه را نشناختن)"
+  },
+  {
+    "Sound_de": "das Zeugnis bekommen",
+    "root": "اجزا: das (مقاله معین خنثی)\nZeugnis (اسم، گواهی یا کارنامه)\nbekommen (فعل، گرفتن)"
+  },
+  {
+    "Sound_de": "dass er auch kommt",
+    "root": "اجزا: dass (که)\ner (او مرد)\nauch (هم)\nkommt (فعل، آمدن)"
+  },
+  {
+    "Sound_de": "Datum und Unterschrift vergessen",
+    "root": "اجزا: Datum (اسم، تاریخ)\nund (و)\nUnterschrift (اسم، امضا)\nvergessen (فعل، فراموش کردن)"
+  },
+  {
+    "Sound_de": "deine Meinung ändern",
+    "root": "اجزا: deine (ضمیر ملکی، مال تو)\nMeinung (اسم، نظر)\nändern (فعل، تغییر دادن)\nمترادف: die Meinung wechseln (نظر را عوض کردن)"
+  },
+  {
+    "Sound_de": "den Ausweis sehen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nAusweis (اسم، کارت شناسایی)\nsehen (فعل، دیدن)"
+  },
+  {
+    "Sound_de": "den Führerschein haben",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nFührerschein (اسم، گواهینامه رانندگی)\nhaben (فعل، داشتن)"
+  },
+  {
+    "Sound_de": "den ganzen Tag Schule",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nganzen (صفت، تمام)\nTag (اسم، روز)\nSchule (اسم، مدرسه)"
+  },
+  {
+    "Sound_de": "den Haushalt machen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nHaushalt (اسم، خانه‌داری)\nmachen (فعل، کردن)"
+  },
+  {
+    "Sound_de": "den Herd haben",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nHerd (اسم، اجاق)\nhaben (فعل، داشتن)"
+  },
+  {
+    "Sound_de": "den Koffer auspacken",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nKoffer (اسم، چمدان)\nauspacken (فعل، باز کردن)\nمتضاد: den Koffer packen (چمدان را بستن)"
+  },
+  {
+    "Sound_de": "den Koffer packen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nKoffer (اسم، چمدان)\npacken (فعل، بستن)\nمتضاد: den Koffer auspacken (چمدان را باز کردن)"
+  },
+  {
+    "Sound_de": "den Mantel anziehen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nMantel (اسم، کت)\nanziehen (فعل، پوشیدن)\nمتضاد: den Mantel ausziehen (کت را درآوردن)"
+  },
+  {
+    "Sound_de": "den Müll rausbringen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nMüll (اسم، زباله)\nrausbringen (فعل، بیرون بردن)"
+  },
+  {
+    "Sound_de": "den Mund öffnen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nMund (اسم، دهان)\nöffnen (فعل، باز کردن)\nمتضاد: den Mund schließen (دهان را بستن)"
+  },
+  {
+    "Sound_de": "den Namen buchstabieren",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nNamen (اسم، نام)\nbuchstabieren (فعل، هجی کردن)"
+  },
+  {
+    "Sound_de": "den Pass brauchen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nPass (اسم، پاسپورت)\nbrauchen (فعل، نیاز داشتن)"
+  },
+  {
+    "Sound_de": "den Reifen wechseln",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nReifen (اسم، لاستیک)\nwechseln (فعل، عوض کردن)"
+  },
+  {
+    "Sound_de": "den Rest geben",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nRest (اسم، باقی‌مانده)\ngeben (فعل، دادن)"
+  },
+  {
+    "Sound_de": "den Ring verloren",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nRing (اسم، حلقه)\nverloren (فعل گذشته، گم کردن)\nمتضاد: den Ring finden (حلقه را پیدا کردن)"
+  },
+  {
+    "Sound_de": "den Satz verstehen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nSatz (اسم، جمله)\nverstehen (فعل، فهمیدن)\nمتضاد: den Satz nicht verstehen (جمله را نفهمیدن)"
+  },
+  {
+    "Sound_de": "den Schirm mitnehmen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nSchirm (اسم، چتر)\nmitnehmen (فعل، با خود بردن)"
+  },
+  {
+    "Sound_de": "den Schrank liefern",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nSchrank (اسم، کمد)\nliefern (فعل، تحویل دادن)"
+  },
+  {
+    "Sound_de": "den Termin verschieben",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nTermin (اسم، قرار)\nverschieben (فعل، به تعویق انداختن)"
+  },
+  {
+    "Sound_de": "den Text lesen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nText (اسم، متن)\nlesen (فعل، خواندن)"
+  },
+  {
+    "Sound_de": "den Tisch decken",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nTisch (اسم، میز)\ndecken (فعل، چیدن)"
+  },
+  {
+    "Sound_de": "den Weg beschreiben",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nWeg (اسم، راه)\nbeschreiben (فعل، توصیف کردن)"
+  },
+  {
+    "Sound_de": "den Weg zeigen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nWeg (اسم، راه)\nzeigen (فعل، نشان دادن)"
+  },
+  {
+    "Sound_de": "den Zug verpassen",
+    "root": "اجزا: den (مقاله معین مذکر اتهامی)\nZug (اسم، قطار)\nverpassen (فعل، از دست دادن)\nمتضاد: den Zug erreichen (به قطار رسیدن)"
+  },
+  {
+    "Sound_de": "denken an",
+    "root": "اجزا: denken (فعل، فکر کردن)\nan (حرف اضافه، به)\nمترادف: nachdenken über (فکر کردن در مورد)"
+  },
+  {
+    "Sound_de": "der Drucker ist kaputt",
+    "root": "اجزا: der (مقاله معین مذکر)\nDrucker (اسم، پرینتر)\nist (فعل بودن)\nkaputt (صفت، خراب)\nمتضاد: der Drucker funktioniert (پرینتر کار می‌کند)"
+  },
+  {
+    "Sound_de": "der Ehemann/die Ehefrau",
+    "root": "اجزا: der (مقاله معین مذکر)\nEhemann (اسم، شوهر)\ndie (مقاله معین مؤنث)\nEhefrau (اسم، همسر)\nمترادف: der Gatte/die Gattin (شوهر/همسر)"
+  },
+  {
+    "Sound_de": "der Empfänger sein",
+    "root": "اجزا: der (مقاله معین مذکر)\nEmpfänger (اسم، گیرنده)\nsein (فعل بودن)"
+  },
+  {
+    "Sound_de": "der Fahrplan ist neu",
+    "root": "اجزا: der (مقاله معین مذکر)\nFahrplan (اسم، برنامه حرکت)\nist (فعل بودن)\nneu (صفت، جدید)\nمتضاد: der Fahrplan ist alt (برنامه حرکت قدیمی است)"
+  },
+  {
+    "Sound_de": "der Fernseher ist kaputt",
+    "root": "اجزا: der (مقاله معین مذکر)\nFernseher (اسم، تلویزیون)\nist (فعل بودن)\nkaputt (صفت، خراب)\nمتضاد: der Fernseher funktioniert (تلویزیون کار می‌کند)"
+  },
+  {
+    "Sound_de": "der Film läuft",
+    "root": "اجزا: der (مقاله معین مذکر)\nFilm (اسم، فیلم)\nläuft (فعل، پخش شدن)"
+  },
+  {
+    "Sound_de": "der Fuß tut weh",
+    "root": "اجزا: der (مقاله معین مذکر)\nFuß (اسم، پا)\ntut (فعل، کردن)\nweh (صفت، درد کردن)"
+  },
+  {
+    "Sound_de": "der Kühlschrank ist leer",
+    "root": "اجزا: der (مقاله معین مذکر)\nKühlschrank (اسم، یخچال)\nist (فعل بودن)\nleer (صفت، خالی)\nمتضاد: der Kühlschrank ist voll (یخچال پر است)"
+  },
+  {
+    "Sound_de": "der Kunde/die Kundin",
+    "root": "اجزا: der (مقاله معین مذکر)\nKunde (اسم، مشتری مرد)\ndie (مقاله معین مؤنث)\nKundin (اسم، مشتری زن)"
+  },
+  {
+    "Sound_de": "der Kurs dauert",
+    "root": "اجزا: der (مقاله معین مذکر)\nKurs (اسم، دوره)\ndauert (فعل، طول کشیدن)"
+  },
+  {
+    "Sound_de": "der kürzeste Weg",
+    "root": "اجزا: der (مقاله معین مذکر)\nkürzeste (صفت، کوتاه‌ترین)\nWeg (اسم، راه)\nمتضاد: der längste Weg (طولانی‌ترین راه)"
+  },
+  {
+    "Sound_de": "der Motor ist kaputt",
+    "root": "اجزا: der (مقاله معین مذکر)\nMotor (اسم، موتور)\nist (فعل بودن)\nkaputt (صفت، خراب)\nمتضاد: der Motor funktioniert (موتور کار می‌کند)"
+  },
+  {
+    "Sound_de": "der nächste Bus kommt",
+    "root": "اجزا: der (مقاله معین مذکر)\nnächste (صفت، بعدی)\nBus (اسم، اتوبوس)\nkommt (فعل، آمدن)"
+  },
+  {
+    "Sound_de": "der Platz ist frei",
+    "root": "اجزا: der (مقاله معین مذکر)\nPlatz (اسم، جا)\nist (فعل بودن)\nfrei (صفت، آزاد)\nمتضاد: der Platz ist besetzt (جا اشغال است)"
+  },
+  {
+    "Sound_de": "der Rock ist zu eng",
+    "root": "اجزا: der (مقاله معین مذکر)\nRock (اسم، دامن)\nist (فعل بودن)\nzu (بیش از حد)\neng (صفت، تنگ)\nمتضاد: der Rock ist zu weit (دامن خیلی گشاد است)"
+  },
+  {
+    "Sound_de": "der Stuhl ist frei",
+    "root": "اجزا: der (مقاله معین مذکر)\nStuhl (اسم، صندلی)\nist (فعل بودن)\nfrei (صفت، آزاد)\nمتضاد: der Stuhl ist besetzt (صندلی اشغال است)"
+  },
+  {
+    "Sound_de": "der Supermarkt hat noch offen",
+    "root": "اجزا: der (مقاله معین مذکر)\nSupermarkt (اسم، سوپرمارکت)\nhat (فعل داشتن)\nnoch (هنوز)\noffen (صفت، باز)\nمتضاد: der Supermarkt ist geschlossen (سوپرمارکت بسته است)"
+  },
+  {
+    "Sound_de": "der Unterricht dauert",
+    "root": "اجزا: der (مقاله معین مذکر)\nUnterricht (اسم، درس)\ndauert (فعل، طول کشیدن)"
+  },
+  {
+    "Sound_de": "der Unterschied",
+    "root": "اجزا: der (مقاله معین مذکر)\nUnterschied (اسم، تفاوت)\nمترادف: die Differenz (تفاوت)"
+  },
+  {
+    "Sound_de": "der Wind ist kalt",
+    "root": "اجزا: der (مقاله معین مذکر)\nWind (اسم، باد)\nist (فعل بودن)\nkalt (صفت، سرد)\nمتضاد: der Wind ist warm (باد گرم است)"
+  },
+  {
+    "Sound_de": "der Zahn tut weh",
+    "root": "اجزا: der (مقاله معین مذکر)\nZahn (اسم، دندان)\ntut (فعل، کردن)\nweh (صفت، درد کردن)"
+  },
+  {
+    "Sound_de": "der Zug hält nicht",
+    "root": "اجزا: der (مقاله معین مذکر)\nZug (اسم، قطار)\nhält (فعل، توقف کردن)\nnicht (نه)\nمتضاد: der Zug hält (قطار توقف می‌کند)"
+  },
+  {
+    "Sound_de": "der Zug hat keine Verspätung",
+    "root": "اجزا: der (مقاله معین مذکر)\nZug (اسم، قطار)\nhat (فعل داشتن)\nkeine (هیچ)\nVerspätung (اسم، تأخیر)\nمترادف: der Zug ist pünktlich (قطار به موقع است)"
+  },
+  {
+    "Sound_de": "deshalb komme ich nicht",
+    "root": "اجزا: deshalb (بنابراین)\nkomme (فعل، آمدن)\nich (من)\nnicht (نه)\nمترادف: aus diesem Grund komme ich nicht (به این دلیل نمی‌آیم)"
+  },
+  {
+    "Sound_de": "deutlich sprechen",
+    "root": "اجزا: deutlich (صفت، واضح)\nsprechen (فعل، حرف زدن)\nمتضاد: undeutlich sprechen (نامفهوم حرف زدن)"
+  },
+  {
+    "Sound_de": "Deutsch lernen",
+    "root": "اجزا: Deutsch (اسم، آلمانی)\nlernen (فعل، یاد گرفتن)"
+  },
+  {
+    "Sound_de": "Deutschkenntnisse sind gut",
+    "root": "اجزا: Deutschkenntnisse (اسم، دانش آلمانی)\nsind (فعل بودن)\ngut (صفت، خوب)"
+  },
+  {
+    "Sound_de": "dick sein",
+    "root": "اجزا: dick (صفت، چاق)\nsein (فعل بودن)\nمتضاد: dünn sein (لاغر بودن)"
+  },
+  {
+    "Sound_de": "die Ausbildung beenden",
+    "root": "اجزا: die (مقاله معین مؤنث)\nAusbildung (اسم، آموزش)\nbeenden (فعل، پایان دادن)\nمتضاد: die Ausbildung beginnen (آموزش را شروع کردن)"
+  },
+  {
+    "Sound_de": "die Bank schließt",
+    "root": "اجزا: die (مقاله معین مؤنث)\nBank (اسم، بانک)\nschließt (فعل، بستن)"
   }
-
-
 
 ]

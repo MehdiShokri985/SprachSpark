@@ -1,194 +1,1031 @@
-Schlüssel abgeben
-Schrank abholen
-
-
-Bruder abholen
+Abfahrt haben
+Adresse geben
+Adressen austauschen
+alle da sein
+alle kommen
+allein kommen
+allein schaffen
+alles Gute wünschen
+alles haben
+als Krankenschwester arbeiten
+alt sein
+am besten finden
+am Flughafen sein
+am Kiosk kaufen
+am Meer sein
+am Strand sein
+am Ziel sein
+an der Haltestelle aussteigen
+an der Kasse bezahlen
+an der Nordsee sein
+an der Reihe sein
+an der Rezeption abgeben
+an der Universität studieren
+an die Tafel schreiben
+an einen See fahren
+an Gleis 12
+anders gehen
+Angst haben vor
 Anschluss haben
-etwas anbieten
-Wort anklicken
-in Hamburg ankommen
-etwas ankreuzen
-Licht anmachen
-sich anmelden
-jemanden anrufen
-Handy ausmachen
-sich anziehen
-Jacke anziehen
-im Büro arbeiten
-etwas ausfüllen
-Licht ausgehen
-alt aussehen
-schön aussehen
-Schuhe ausziehen
-mit der Bahn fahren
+Apfelsaft mögen
+arbeitslos sein
+Ärgerst du dich
+Arm tut weh
+Artikel gelesen
+auf dem Foto sein
+auf dem Land wohnen
+auf dem Sportplatz
+auf dem Tisch liegen
+auf dem Tisch stehen
+auf den Markt gehen
+auf der Autobahn fahren
+auf Deutsch
+auf die Kinder aufpassen
+auf die Mailbox sprechen
+auf eine Party gehen
+auf jeden Fall
+auf keinen Fall ansehen
+auf Rezept bekommen
+auf Wiederhören
+auf Wiedersehen
+aufhören mit
+aufregend sein
+Ausbildung machen
+Auskunft geben
+Auto fahren
+bald kommen
+Ball spielen
 bar zahlen
-mit Karte bezahlen
-Spiel beginnen
-etwas bei jemandem bekommen
-etwas benutzen
-jemanden besuchen
-Buch bestellen
-zu Hause bleiben
-Kaffee bringen
-Namen buchstabieren
-Formular ausfüllen
-Licht ausmachen
-Fahrrad fahren
-mit dem Auto fahren
-
-
+Basketball spielen
+Bauch tut weh
+bei der Schwester leben
+bei jemandem übernachten
+bei... wohnen
+beide kommen
+beim Essen stören
+Bein tut weh
+bekannt sein
+beliebt sein
+bequem sein
+berichten von
+berühmt sein
+Bescheid bekommen
+Bescheid geben
+besetzt sein
+besonders günstig sein
+besser finden
+Besuch bekommen
+Bilder hängen
+billig sein
+bis Freitag
+bis gleich
+bitter schmecken
+Blätter sammeln
+blöd finden
+blonde Haare haben
+Bohnen essen
+böse sein auf
+Brief bekommen
+Briefmarken sammeln
+Briefmarke vergessen
+Brot kaufen
+Brötchen zum Frühstück
+bunte Kleider tragen
 Bus fahren
+Butter aufs Brot
+Chatten
+Comics lesen
+Da drüben
+dabei haben
+dagegen sein
+
+
+darüber sprechen
+das Abendessen vorbereiten
+das Auto fahren
+das Bad nehmen
+das Buch kostet
+das Ding
+das erste Mal
+das Essen machen
+das Fenster ist offen
+das Fenster öffnen
+das Fenster zumachen
+das Flugzeug hat Verspätung
+das Formular ausfüllen
+das Gegenteil von
+das Gepäck kontrollieren
+auf haben
+das Geschirr spülen
+das Gesicht waschen
+das Glas fällt
+das ist meine Sache
+das Licht anmachen
+das Licht ausmachen
+das Lied gehört haben
+das macht doch nichts
+das Messer schneidet nicht gut
+das Öl kontrollieren
+das Paket zur Post bringen
+das Poster hängt
+das Rätsel lösen
+das Rezept geben
+das Schloss besichtigen
+das Schloss ist kaputt
+das Spiel beginnt
+das Spiel verlieren
+das Studium dauert
+das Thema ist
+das Ticket kostet
+das Wasser kocht
+das Wetter wird gut
+das Wort aussprechen
+das Wort kennen
+das Zeugnis bekommen
+dass er auch kommt
+Datum und Unterschrift vergessen
+deine Meinung ändern
+den Ausweis sehen
+den Eingang finden
+den Führerschein haben
+den ganzen Tag Schule
+den Haushalt machen
+den Herd haben
+den Koffer auspacken
+den Koffer packen
+den Mantel anziehen
+den Müll rausbringen
+den Mund öffnen
+den Namen buchstabieren
+den Pass brauchen
+den Reifen wechseln
+den Rest geben
+den Ring verloren
+den Satz verstehen
+den Schirm mitnehmen
+den Schrank liefern
+den Termin verschieben
+den Text lesen
+den Tisch decken
+den Weg beschreiben
+den Weg zeigen
+den Zug verpassen
+denken an
+der Drucker ist kaputt
+der Ehemann/die Ehefrau
+der Empfänger sein
+der Fahrplan ist neu
+der Fernseher ist kaputt
+der Film läuft
+der Fuß tut weh
+der Kühlschrank ist leer
+der Kunde/die Kundin
+der Kurs dauert
+der kürzeste Weg
+der Motor ist kaputt
+der nächste Bus kommt
+der Platz ist frei
+der Rock ist zu eng
+der Stuhl ist frei
+der Supermarkt hat noch offen
+der Unterricht dauert
+der Unterschied
+der Wind ist kalt
+der Zahn tut weh
+der Zug hält nicht
+der Zug hat keine Verspätung
+deshalb komme ich nicht
+deutlich sprechen
+Deutsch lernen
+Deutschkenntnisse sind gut
+dick sein
+die Ausbildung beenden
+die Bank schließt
+
+
+die Blumen gefallen
+die Brille ist kaputt
+die Datei speichern/öffnen
+die Datei speichern
+die Farbe gefällt mir
+die Firma wechseln
+die Führung beginnt
+die Geschäfte schließen
+die Hose waschen
+die Kinder rufen
+die Kleidung wechseln
+die Krankheit haben
+die Küche aufräumen
+die Lampe anmachen
+die letzte Woche
+die Mannschaft hat verloren
+die Meinung begründen
+die meisten Nachbarn
+die Menschen sind anders
+die Miete bezahlen
+die Milch ist im Kühlschrank
+die Nachrichten sehen
+die neue Mode
+die Nummer zwölf
+die Plätze tauschen
+die Polizei rufen
+die Preise sind hoch
+die Prüfung bestehen
+die Reise buchen
+die Schere schneidet nicht
+die Schuhe drücken
+die Sonne scheint
+die Straße endet hier
+die Treppe hochgehen
+die Tür aufmachen
+die Tür öffnen
+die Tür schließen
+die Tür zu sein
+die Uhr ist stehen geblieben
+die Wahrheit sagen
+die Waschmaschine funktioniert
+die Zeit vergeht
+die Zeitung austragen
+direkt nach der Schule
+direkt über dem Café
+dort sein
+dorthin stellen
+draußen bleiben
+draußen sitzen
+dringend sein
+drinnen oder draußen sitzen
+dumm sein
+dunkel sein
+dünn sein
+durch den Wald fahren
+durch die Straße gehen
+dürfen
+Durst haben
+E-Books kaufen
+echt sein
+egal sein
+eigentlich
+ein Auto haben
+ein Auto kaufen
+ein Auto mieten
+ein Bild haben
+ein bisschen Französisch sprechen
+ein bisschen lauter sprechen
+ein Buch lesen
+ein Dank
+ein Doppelzimmer haben
+ein Ei zum Frühstück
+ein eigenes Zimmer haben
+ein Einzelkind sein
+ein Einzelzimmer haben
+ein Fach mögen
+ein Fan sein
+ein Fest feiern
+ein Formular ausfüllen
+ein Foto machen
+ein Freund/eine Freundin
+ein Geschenk bekommen
+ein Geschenk geben
+ein Geschenk kriegen
+ein Gespräch führen
+ein Gespräch führen
+ein Glas haben
+ein Glas Wasser
+ein gutes Lokal
+ein Haus bauen
+ein Heft haben
+ein Hemd tragen
+ein Instrument spielen
+ein Interview im Radio
+ein Lied singen
+ein Link schicken
+ein Mädchen haben
+ein Medikament nehmen
+ein Mittel gegen
+ein Mobiltelefon haben
+ein Paar Schuhe
+ein paar Tage
+ein Plakat machen
+ein Platz ist frei
+ein Praktikum machen
+ein Problem haben
+ein Rundgang durch
+ein Schild sehen
+ein Star sein
+ein Stipendium bekommen
+ein Stück Kuchen anbieten
+ein Stück Kuchen
+ein Tablet haben
+ein Taxi rufen
+ein Theaterstück
+ein Traum sein
+ein Unfall haben
+ein warmes Essen
+ein Zimmer bestellen
+ein Zimmer reservieren
+eine Bitte haben
+eine Creme kaufen
+eine Datei drucken
+eine E-Mail schicken
+eine E-Mail schreiben
+eine Fahrkarte haben
+eine Flasche Wasser
+eine Frage be en
+eine Frage haben
+eine Gabel haben
+eine Garage haben
+eine Geschichte erzählen
+eine Grippe haben
+eine Gruppe beginnt
+eine gute Idee haben
+eine gute Zeit haben
+eine Jacke anziehen
+eine Karte schreiben
+eine Katze haben
+eine Kette bekommen
+eine Küche haben
+eine Menge Zeit haben
+eine Nachricht schreiben
+eine neue Ausstellung im Museum
+eine neue Kamera haben
+eine neue Stelle haben
+eine neue Wohnung finden
+eine Nummer kleiner
+eine Partnerin haben
+eine Party feiern
+eine Party machen
+eine Pause machen
+eine Portion Eis
+eine Postkarte schreiben
+eine Rechnung bekommen
+eine Rechnung schicken
+eine Reise buchen
+eine Reise machen
+eine schwierige Situation
+eine Stadttour buchen
+eine Stelle anbieten
+eine Tasse Kaffee
+eine Torte backen
+eine Unterkunft suchen
+eine Wurst essen
+eine Zeitschrift kaufen
+einen Arzt rufen
+einen Arzttermin haben
+einen Ausflug machen
+einen Ausflug organisieren
+einen Baum haben
+einen Blog schreiben
+einen Brief haben
+einen Brief schreiben
+einen Brief übersetzen
+einen Club mit guter Musik
+einen Computer haben
+einen Fehler machen
+einen Film sehen
+einen Flug buchen
+einen Job finden
+einen Job suchen
+einen Kaffee kochen
+einen Kredit brauchen
+einen Kuchen backen
+einen Kurs besuchen
+einen Laptop haben
+einen Löffel bringen
+einen Moment warten
+einen neuen Job haben
+einen Parkplatz finden
+einen Plan machen
+einen Rucksack mitnehmen
+einen Stadtplan kaufen
+einen Stift haben
+einen Termin machen
+einen Termin vereinbaren
+einen Text schreiben
+einen Tipp geben
+einen Topf haben
+einen Vorschlag haben/machen
+einen Wagen haben
+einen Witz erzählen
+einen Workshop haben
+einen Zettel haben
+einfach sein
+einige Fehler
+Eintritt ist frei
+einverstanden sein
+einzeln sprechen
+Eis essen
+Elektrogeräte finden
+endlich kommen
+eng sein
+Erfahrung haben
+erkältet sein
+Erlaubnis haben
+erlaubt sein
+Ermäßigung geben
+erreichen
+es eilig haben
+es geht
+es gibt ein Gewitter
+es gibt etwas zu essen
+es gibt keine Karten
+es hat geklappt
+es regnet
+es regnet nicht, dann kommen wir
+es schneit
+es tut mir leid
+es versuchen
+etwas bedeuten
+etwas bestätigen
+etwas bringen
+etwas erklären
+etwas erzählen
+etwas finden
+etwas für den Körper tun
+etwas gebastelt haben
+etwas gegen Grippe haben
+etwas gut/schlecht finden
+etwas halten
+etwas herstellen
+etwas herunterladen
+etwas holen
+
+
+etwas legen
+etwas machen
+etwas notieren
+etwas raten
+etwas schaffen
+etwas schenken
+etwas tragen
+etwas trinken
+etwas tun
+etwas unternehmen
+etwas vergessen
+etwas verlieren
+etwas vorbereiten
+etwas zum Schreiben haben
+Falsch sein
+Familie leben
+fantastisch aussehen
+fast zu Ende sein
+faul sein
 Fehler machen
-Geburtstag feiern
-Schlüssel finden
-Fisch essen
-nicht gern fliegen
-Foto machen
-etwas fragen
-für jemanden etwas tun
+Feierabend haben
+Feiertag sein
+Ferien haben
+fertig sein
+Fieber haben
+Fisch mögen
+fit sein
+Fleisch braten
+Fleisch mag ich nicht
+fleißig sein
+Fotografieren
+Fragen stellen
+freiwillig länger im Büro bleiben
+fremd sein
+freundlich sein
+frisch sein
+froh sein
+früher wohnen
+Frühstück essen
+fünf nach zwölf
+für das Konzert Karten haben
+für Sie
+furchtbar aussehen
 Fußball spielen
-Kugelschreiber geben
-Torten essen
-jemandem etwas geben
-jemandem die Hand geben
-zur Information gehen
-Geradeaus gehen
-etwas gern machen
-Geschenk schenken
-Gespräch haben
-Glas haben
-an etwas glauben
+ganz nett sein
+ganz vergessen
+Gäste haben
+geboren sein
+Geburtstag feiern
+Geburtstag haben
+gefährlich sein
+gegen den Baum fahren
+gegen den Vorschlag sein
+gegen wen spielen
+gegenüber vom Bahnhof
+Geld haben
+Geld leihen
+Geld überweisen
+Geld verdienen
+Geld wechseln
+Gemüse kaufen
+genau acht Uhr
+genau sein
+genug sein
+geöffnet sein
+Gepäck mitnehmen
+gerade essen
+gerade kommen
+geradeaus gehen
+gern helfen
+Geschirr in den Schrank stellen
+gesund sein
+Gitarre spielen
 gleich alt sein
 gleich kommen
 Glück haben
-im Garten grillen
 groß sein
-Haare haben
-Hähnchen essen
-Halbpension haben
+Grüße an
+gültig sein
+günstige Angebote
+gut finden
+gut geschlafen haben
+gute Noten haben
+gute Qualität
+Guten Appetit
+Guten Morgen
+Hähnchen mit Pommes
+Hals tut weh
+Halsschmerzen haben
+Hände waschen
+Handtuch geben
+Handynummer geben
 Handys ausmachen
-nach Hause gehen
-Hausaufgaben helfen
-jemandem helfen
-einen Termin haben
-sich etwas holen
-etwas hören
+hart sein
+hässlich finden
+Hauptstadt von Deutschland
+Heimat sein
+heiß sein
+heißen
+Heizung ist kaputt
+hell sein
+herein kommen
+Herzlichen Glückwunsch
+heute arbeiten
+heute oder morgen
+hier wohnen
+Hilfe haben
+Himmel ist blau
+hinten aussteigen
+hinter dem Haus
+Hobbys haben
+hoch sein
+Homepage kennen
+Hunde mögen
 Hunger haben
-im Kino ins Kino gehen
-Information haben
-Webseiten kennen
-sich kennenlernen
-Kinder haben
+ich komme ins Kino
+ich liebe dich
+im Angebot sein
+im Bett bleiben
+im Büro arbeiten
+im Dorf leben
+im Erdgeschoss wohnen
+im ersten Stock wohnen
+im Hotel sein
+im Internet finden
+im Internet Musik hören
+im Internet surfen
+im Krankenhaus sein
+im Moment
+im Park spazieren
+im Rathaus anmelden
+im Raum stattfinden
+im Reisebüro buchen
+im Restaurant essen
+im Schrank stehen
+im Supermarkt einkaufen
+im Verein sein
+im Wald spazieren
+im Wohnzimmer fernsehen
+im Zelt schlafen
+im Zentrum wohnen
+in den Kalender schauen
+in den Keller bringen
 in den Kindergarten gehen
-
-
-Kino gehen
+in den Müll werfen
+in den Zirkus gehen
+in den Zoo gehen
+in der Bibliothek lernen
+in der dritten Reihe sitzen
+in der Freizeit
+in der Nähe sein
+in der Natur sein
+in der Zeitung stehen
+in die Ausstellung gehen
+in die Berge fahren
+in die Disco gehen
+in die Ecke gehen
+in die Mitte stellen
+in die Reinigung bringen
+in die Schule gehen
+in einem Laden kaufen
+in einem Team arbeiten
+in einer Jugendherberge übernachten
+in einer Straße wohnen
+in Größe M
+in Halle B treffen
+in Ordnung sein
+in Ruhe lassen
+in welchem Haus wohnen
+ins Ausland fahren
+ins Bett gehen
+ins Café gehen
+ins Einkaufszentrum mitkommen
+ins Kino gehen
+ins Schwimmbad gehen
+ins Theater gehen
+Insel sein
+intelligent sein
+interessant sein
+Interessen haben
+Jeans mögen
+jeden Tag geöffnet
+jedes Kind
+jemand da sein
+jemandem gratulieren
+jemandem helfen
+jemanden besuchen
+jemanden nennen
+jemanden treffen
+jung sein
+jünger sein als
+jünger sein
+Kaffee trinken
+kalt sein
+kaputt sein
+Karten abholen
+Karten spielen
+Kartoffeln brauchen
+Käse essen
+kein Chinesisch sprechen
+keine Ahnung haben
+keine Kinder haben
+keine Lust haben
+keine Seife haben
+keinen Garten haben
+keinen Hunger/keine Zeit haben
+keinen Wein nehmen
+Kinder haben
+Kirche alt sein
+klar sein
+Klavier spielen
 Kleidung kaufen
+klein sein
+klug sein
+Kollegin haben
+komisch sein
+Kontakt haben
 Kopf tut weh
-Kosten haben
+Kosmetik kaufen
+kostenlos sein
 krank sein
-etwas kriegen
-in die Küche stellen
-sich kümmern um
-Kunden haben
-das Leben haben
-etwas legen
-Deutsch lernen
-etwas lesen
-im Bett liegen
-jemanden lieben
-etwas machen
-Mädchen bekommen
-nicht rauchen
-bei der Polizei arbeiten
-mehr kosten
-Auto mieten
-Milch trinken
-etwas mitbringen
-im Café sich treffen
-etwas möchten
-Termin machen
+Krimis lesen
+kühl sein
+Kulturen interessieren
+Kunst mögen
+kurze Haare haben
+lang sein
+lange Haare haben
+langsam sprechen
+langweilig sein
+laut sein
+Lebensmittel bekommen
+leer sein
+leicht sein
+leise sein
+Licht an sein
+Licht ausgegangen
+lieber... als
+Lieblingsfarbe
+Lieblingsgericht sein
+Lieblingsgetränk sein
+links gehen
+Lust haben auf
+lustig sein
+Magen tut weh
+man darf nicht rauchen
+manche Nachbarn
+mehr als
+Mein Mann
+mein Rücken tut weh
+mindestens zwei Stunden
+Mineralwasser trinken
+mir ist heiß
+mir ist kalt
+mir ist schlecht
+mit dem Auto fahren
+mit dem Fahrrad fahren
+mit dem Schiff fahren
+mit dem Service zufrieden sein
+mit dem Zug fahren
+mit der Bahn fahren
+mit der Kreditkarte bezahlen
+mit der Straßenbahn fahren
+mit jemandem reden
+mit jemandem sprechen
+mit Karte bezahlen
+mit oder ohne
+mit Zitrone trinken
+mit Zucker
+Mitarbeiter haben
+Mittagessen haben
+Mittagspause haben
+Mitte August
+Möbel sind schön
+modern sein
+morgen beginnt die Schule
+Motorroller fahren
 müde sein
-Arbeiten müssen
-München fliegen
-etwas nehmen
-keine Zeit haben
+Musik hören
+Mützen haben
+nach der Arbeit treffen
+nach Fisch riechen
+nach Hause gehen
+nach München fliegen
+Nachbarn haben
+Nachrichten hören
+nächste Woche
+Name ist Thomas
+nass sein
+natürlich
+neben mir
+nebenan wohnen
+neblig sein
+nervös sein
+nett sein von
+nett sein
 neu sein
 nicht stimmen
-nichts kaufen
-nicht pünktlich kommen
-noch warten
+nicht weit sein
+nicht weiterfahren
+nicht zu Hause sein
+nichts machen
+nie pünktlich kommen
+niemand da sein
+nirgends parken
+noch 20 Euro haben
+noch ein paar Minuten
+noch einmal anrufen
+normal sein
+Nudeln essen
+nur fünf Euro
+nützlich sein
 oben wohnen
 Obst kaufen
-etwas öffnen
-jemanden oft treffen
-ohne Geld sein
-ohne Öl kochen
-im Hotel übernachten
-in Ordnung sein
-Paket abgeben
+ohne Milch
+Ohrenschmerzen haben
+online sein
+online überweisen
+Orangen essen
+Ordnung machen
+Ort und Datum
+Papiere dabei haben
 Parken ist verboten
-Pass haben
-Mittagspause machen
-Stadtplan kaufen
+passiert sein
+Passwort ändern
+Passwort vergessen
+Pferde lieben
+Pizza essen
 Platz nehmen
-Polizei rufen
+Pommes frites essen
+Post für mich
+Postleitzahl geben
+praktisch sein
+preiswert sein
+privat sein
+pro Person
+Quizsendungen anschauen
+Rad fahren
+Radio hören
 Rechnung, bitte
+recht haben
+rechts abbiegen an der Kreuzung
 rechts gehen
-es regnet
+Regen haben
+reich sein
+Reifen wechseln
 Reis essen
-Auto reparieren
-im Restaurant essen
+Reiseführer kaufen
+reiten lernen
+Rentner sein
+richtig sein
 richtig verstehen
-gut riechen
+riechen gut
+romantisch sein
+rote Rosen schenken
+Rücken tut weh
 ruhig sein
+rund sein
+Sachen abholen
+Sachen im Hotel lassen
+sag mal
 Salat schmeckt
 Salz haben
-etwas sagen
-S-Bahn fahren
-Schild sehen
-schlecht aussehen
+sauber sein
+sauer sein
+schädlich sein
+scharf sein
+schimpfen über/auf
+Schlafzimmer
+schlecht geträumt haben
+schlecht sein
 Schluss machen
-gut schmecken
+Schlüssel abgeben
+Schlüssel in der Tasche haben
+Schmerzen haben
+schmutzig sein
+Schnee liegen
 schnell fahren
-in die Schule gehen
+Schokolade lieben
+schon fertig sein
+schön sein
+schrecklich aussehen
+schriftliche Prüfung
+Schuhe ausziehen
+schwach sein
+schwanger sein
+Schweinefleisch essen
 schwer sein
-jemanden sehen
-jemanden kennenlernen
-neue Stelle haben
-Telefon haben
-einen Termin machen
-teuer sein
-einen Text lesen
-ein Ticket kaufen
-auf dem Tisch liegen
-Toilette finden
-tot sein
+schwierig sein
+Sehenswürdigkeiten
+sehr schön
+sein Auto verkaufen
+seit fünf Jahren
+selbst machen
+Sendungen anschauen
+sich ändern
+sich ausruhen
+sich bedanken für
+sich beeilen
+sich beschweren über
+sich bewerben um
+sich die Hände waschen
+sich eine Jacke anziehen
+sich eintragen
+sich entschuldigen
+sich erinnern an
+sich etwas merken
+sich etwas wünschen
+sich freuen über/auf
+sich fühlen
+sich informieren über
+sich interessieren für
+sich kennenlernen
+sich kümmern um
+sich schriftlich anmelden
+sich setzen
+sich streiten
 sich treffen
-etwas trinken
-etwas tun
+sich um Pflanzen kümmern
+sich umziehen
+sich unterhalten über
+sich verabreden
+sich vorbereiten auf
+sich vorstellen
+sicher sein
+Ski fahren
+so groß wie
+so schnell
+sofort  en
+sonnig sein
+sonst noch einen Wunsch
+spannend sein
+Spaß haben
+Spaß machen
+später machen
+spazieren gehen
+Spaziergang machen
+Speisekarte bringen
+Spiele spielen
+Sport machen
+sportlich sein
+Sprachen sprechen
+Sprechstunde haben
+Stadtplan kaufen
+stark regnen
+starke Kopfschmerzen
+stehen bleiben
+Stell die Milch in den Kühlschrank
+Stiefel kaufen
+streng sein
+Stress haben
+Studentin sein
+Studium abschließen
+Ausbildung abschließen
+super sein
+Suppe schmeckt
+süß sein
+Süßigkeiten essen
+Süßigkeiten mögen
+sympathisch sein
+Tabletten nehmen
+Taschengeld bekommen
+Tennis spielen
+tief sein
+Tiere haben
+Titel des Films
+Toilette finden
+toll sein
+Tomate ist grün
+tot sein
+total langweilig
+Touristen kommen
+traurig sein
+trocken sein
+Tür abschließen
+Tür ist auf
+Türen schließen automatisch
+typisch sein für
+über die Brücke fahren
 über die Straße gehen
+über uns wohnen
+überall suchen
+übermorgen kommen
+Uhr geht richtig
+um die Welt reisen
+um etwas bitten
+umsteigen
+Umzug haben
+unbedingt sprechen
 unten wohnen
 unterschreiben
+Unterschrift fehlen
+unterwegs sein
+Urlaub machen
 Urlaub nehmen
-verheiratet sein
-viele haben
+Veranstaltung haben
+verboten sein
+Verkehr haben
+Verkehrsmittel benutzen
+verletzt sein
+verliebt sein
+vermietet sein
+verschieden sein
+Verspätung haben
+Vertrag unterschreiben
+viel Sport machen
+viel Zeit haben
+viele Leute
+viele Wolken haben
+Vögel mögen
+voll sein
+Volleyball spielen
+vom Rind
+von Beruf sein
+von dort kommen
+von etwas träumen
+von gestern sein
+von zu Hause kommen
 vor der Tür stehen
-sich vorstellen
+vor einer Stunde
+vorn einsteigen
+vorsichtig fahren
+vorwärts fahren
+wach sein
+wählen
+wahr sein
 warmes Wasser haben
-weiblich sein
-Arzt werden
-Wo wohnen
-Zahlen, bitte
+warten auf
+Wäsche waschen
+Webseiten haben
+weg sein
+wegen seiner Arbeit
+weiblich oder männlich
+weich sein
+Wein trinken
+wenig verstehen
+wichtig sein
+wichtige Informationen
+wie ein Kind schreiben
+wie groß
+wie lange
+wie meinst du das
+wie sagt man
+wie viel
+wieder kommen
+windig sein
+wirklich so
+Witze erzählen
+witzig finden
+wohin gehen
+wunderbar schmecken
 Zeit haben
 Zeitung lesen
-Zigaretten kaufen
-Zimmer haben
-zum Bahnhof fahren
+zu Abend essen
+zu einer Messe gehen
+zu früh sein
 zu Fuß gehen
+zu Hause bleiben
 zu Hause sein
-mit der Wohnung zufrieden sein
-mit dem Zug fahren
+zu Mittag essen
+zu spät kommen
+zu süß sein
+zu teuer sein
+zufrieden sein mit
+zufrieden sein
+zuletzt gesehen
+zum Bahnhof fahren
+zum Beispiel
+zum Essen ein Bier
+zum Essen einladen
+zum Geburtstag gratulieren
+zum Glück
+zum Schalter gehen
+zum Schluss
+zur Hochzeit kommen
+zur Krankenkasse gehen
+zur Post gehen
 zusammen essen
 zusammen zahlen
-zwischen zwei Orten liegen

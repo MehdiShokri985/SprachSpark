@@ -23,13 +23,13 @@ const levelConfig = {
   },
   "A1 VERBEN": {
     jsonFile: "../json/json-verb-A1.json",
-    audioPath: "../audio-A1",
+    audioPath: "../audio-A1-Verben",
     headerText: "A1 VERBEN",
     headerClass: "color-a1",
   },
   "A2 VERBEN": {
     jsonFile: "../json/json-verb-A2.json",
-    audioPath: "../audio-A2",
+    audioPath: "../audio-A2-Verben",
     headerText: "A2 VERBEN",
     headerClass: "color-a2",
   },

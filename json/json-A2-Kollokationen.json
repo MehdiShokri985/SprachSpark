@@ -2878,9 +2878,7 @@
     "object": [],
     "verb_part1": ["fertig sein"],
     "verb_part2": []
-  }
-,
-
+  },
   {
     "Filename": "241",
     "Sound_de": "bis gleich",
@@ -5400,9 +5398,7 @@
     "object": ["den Haushalt", "die Arbeit"],
     "verb_part1": [],
     "verb_part2": []
-  }
-,
-
+  },
   {
     "Filename": "451",
     "Sound_de": "den Herd haben",
@@ -7202,9 +7198,7 @@
     "object": ["die Ausbildung"],
     "verb_part1": ["beenden"],
     "verb_part2": []
-  }
-,
-
+  },
   {
     "Filename": "601",
     "Sound_de": "die Bank schließt",
@@ -9004,9 +8998,7 @@
     "object": [],
     "verb_part1": ["sitzen"],
     "verb_part2": []
-  }
-,
-
+  },
   {
     "Filename": "751",
     "Sound_de": "dringend sein",
@@ -37051,16 +37043,4 @@
     "verb_part1": [],
     "verb_part2": []
   }
-
-
-
-
-
-
-
-
-
-
-
-
 ]

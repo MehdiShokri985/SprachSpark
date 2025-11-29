@@ -798,6 +798,3307 @@
   {
     "Sound_de": "die Bank schließt",
     "root": "اجزا: die (مقاله معین مؤنث)\nBank (اسم، بانک)\nschließt (فعل، بستن)"
-  }
+  },
+  
+  {
+    "sound_de": "die Blumen gefallen",
+    "root": "این عبارت به معنی 'گل‌ها خوشم می‌آید' یا 'از گل‌ها خوشم می‌آید' است.\nاجزا: 'die' مقاله معین plural برای اسم مؤنث 'Blumen' که plural از 'Blume' (گل) است، 'gefallen' فعل کمکی برای بیان خوش آمدن یا رضایت.\nمترادف: die Blumen mögen (گل‌ها دوست داشتن)\nمتضاد: die Blumen nicht gefallen (گل‌ها خوش نیامدن)"
+  },
+  {
+    "sound_de": "die Brille ist kaputt",
+    "root": "این عبارت به معنی 'عینک شکسته است' یا 'عینک خراب است' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Brille' (عینک)، 'ist' فعل بودن در زمان حال، 'kaputt' صفت به معنی شکسته یا خراب."
+  },
+  {
+    "sound_de": "die Datei speichern/öffnen",
+    "root": "این عبارت به معنی 'فایل را ذخیره/باز کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Datei' (فایل)، 'speichern' فعل به معنی ذخیره کردن، '/' برای گزینه، 'öffnen' فعل به معنی باز کردن.\nمترادف: die Datei sichern/eröffnen (فایل را ایمن کردن/گشودن)"
+  },
+  {
+    "sound_de": "die Datei speichern",
+    "root": "این عبارت به معنی 'فایل را ذخیره کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Datei' (فایل)، 'speichern' فعل به معنی ذخیره کردن.\nمترادف: die Datei sichern (فایل را ایمن کردن)"
+  },
+  {
+    "sound_de": "die Farbe gefällt mir",
+    "root": "این عبارت به معنی 'این رنگ خوشم می‌آید' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Farbe' (رنگ)، 'gefällt' شکل سوم شخص singular از 'gefallen' به معنی خوش آمدن، 'mir' ضمیر غیرمستقیم به معنی به من.\nمترادف: die Farbe mag ich (این رنگ را دوست دارم)\nمتضاد: die Farbe gefällt mir nicht (این رنگ خوشم نمی‌آید)"
+  },
+  {
+    "sound_de": "die Firma wechseln",
+    "root": "این عبارت به معنی 'شرکت را عوض کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Firma' (شرکت)، 'wechseln' فعل به معنی عوض کردن یا تغییر دادن.\nمترادف: die Firma ändern (شرکت را تغییر دادن)"
+  },
+  {
+    "sound_de": "die Führung beginnt",
+    "root": "این عبارت به معنی 'تور راهنمایی شروع می‌شود' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Führung' (راهنمایی یا تور)، 'beginnt' شکل سوم شخص singular از 'beginnen' به معنی شروع کردن."
+  },
+  {
+    "sound_de": "die Geschäfte schließen",
+    "root": "این عبارت به معنی 'مغازه‌ها می‌بندند' است.\nاجزا: 'die' مقاله معین plural برای 'Geschäfte' که plural از 'Geschäft' (مغازه) است، 'schließen' فعل به معنی بستن.\nمترادف: die Läden schließen (مغازه‌ها می‌بندند)\nمتضاد: die Geschäfte öffnen (مغازه‌ها باز می‌کنند)"
+  },
+  {
+    "sound_de": "die Hose waschen",
+    "root": "این عبارت به معنی 'شلوار را شستن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Hose' (شلوار)، 'waschen' فعل به معنی شستن.\nمترادف: die Hose reinigen (شلوار را تمیز کردن)"
+  },
+  {
+    "sound_de": "die Kinder rufen",
+    "root": "این عبارت به معنی 'بچه‌ها را صدا زدن' است.\nاجزا: 'die' مقاله معین plural برای 'Kinder' که plural از 'Kind' (بچه) است، 'rufen' فعل به معنی صدا زدن.\nمترادف: die Kinder anrufen (بچه‌ها را تماس گرفتن)"
+  },
+  {
+    "sound_de": "die Kleidung wechseln",
+    "root": "این عبارت به معنی 'لباس را عوض کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Kleidung' (لباس)، 'wechseln' فعل به معنی عوض کردن.\nمترادف: die Kleidung ändern (لباس را تغییر دادن)"
+  },
+  {
+    "sound_de": "die Krankheit haben",
+    "root": "این عبارت به معنی 'بیماری داشتن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Krankheit' (بیماری)، 'haben' فعل به معنی داشتن.\nمترادف: die Erkrankung haben (بیماری داشتن)"
+  },
+  {
+    "sound_de": "die Küche aufräumen",
+    "root": "این عبارت به معنی 'آشپزخانه را مرتب کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Küche' (آشپزخانه)، 'aufräumen' فعل به معنی مرتب کردن یا تمیز کردن.\nمترادف: die Küche ordnen (آشپزخانه را مرتب کردن)"
+  },
+  {
+    "sound_de": "die Lampe anmachen",
+    "root": "این عبارت به معنی 'لامپ را روشن کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Lampe' (لامپ)، 'anmachen' فعل به معنی روشن کردن.\nمترادف: die Lampe einschalten (لامپ را روشن کردن)\nمتضاد: die Lampe ausmachen (لامپ را خاموش کردن)"
+  },
+  {
+    "sound_de": "die letzte Woche",
+    "root": "این عبارت به معنی 'هفته گذشته' است.\nاجزا: 'die' مقاله معین singular feminine برای 'letzte' (آخرین) 'Woche' (هفته).\nمترادف: die vergangene Woche (هفته گذشته)\nمتضاد: die nächste Woche (هفته آینده)"
+  },
+  {
+    "sound_de": "die Mannschaft hat verloren",
+    "root": "این عبارت به معنی 'تیم باخته است' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Mannschaft' (تیم)، 'hat' فعل کمکی، 'verloren' ماضی از 'verlieren' به معنی باختن.\nمترادف: die Mannschaft hat unterlegen (تیم شکست خورده)\nمتضاد: die Mannschaft hat gewonnen (تیم برده است)"
+  },
+  {
+    "sound_de": "die Meinung begründen",
+    "root": "این عبارت به معنی 'نظر را توجیه کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Meinung' (نظر)، 'begründen' فعل به معنی توجیه کردن یا دلیل آوردن.\nمترادف: die Meinung erklären (نظر را توضیح دادن)"
+  },
+  {
+    "sound_de": "die meisten Nachbarn",
+    "root": "این عبارت به معنی 'بیشتر همسایه‌ها' است.\nاجزا: 'die' مقاله معین plural برای 'meisten' (بیشتر) 'Nachbarn' که plural از 'Nachbar' (همسایه) است.\nمترادف: die Mehrheit der Nachbarn (اکثریت همسایه‌ها)"
+  },
+  {
+    "sound_de": "die Menschen sind anders",
+    "root": "این عبارت به معنی 'مردم متفاوت هستند' است.\nاجزا: 'die' مقاله معین plural برای 'Menschen' (مردم)، 'sind' فعل بودن plural، 'anders' صفت به معنی متفاوت.\nمترادف: die Leute sind verschieden (مردم متفاوت هستند)\nمتضاد: die Menschen sind gleich (مردم یکسان هستند)"
+  },
+  {
+    "sound_de": "die Miete bezahlen",
+    "root": "این عبارت به معنی 'اجاره را پرداخت کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Miete' (اجاره)، 'bezahlen' فعل به معنی پرداخت کردن.\nمترادف: die Miete zahlen (اجاره را پرداخت کردن)"
+  },
+  {
+    "sound_de": "die Milch ist im Kühlschrank",
+    "root": "این عبارت به معنی 'شیر در یخچال است' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Milch' (شیر)، 'ist' فعل بودن، 'im' انقباض 'in dem' (در)، 'Kühlschrank' (یخچال)."
+  },
+  {
+    "sound_de": "die Nachrichten sehen",
+    "root": "این عبارت به معنی 'اخبار را دیدن' است.\nاجزا: 'die' مقاله معین plural برای 'Nachrichten' (اخبار)، 'sehen' فعل به معنی دیدن.\nمترادف: die Nachrichten anschauen (اخبار را تماشا کردن)"
+  },
+  {
+    "sound_de": "die neue Mode",
+    "root": "این عبارت به معنی 'مد جدید' است.\nاجزا: 'die' مقاله معین singular feminine برای 'neue' (جدید) 'Mode' (مد).\nمترادف: die aktuelle Mode (مد فعلی)\nمتضاد: die alte Mode (مد قدیمی)"
+  },
+  {
+    "sound_de": "die Nummer zwölf",
+    "root": "این عبارت به معنی 'شماره دوازده' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Nummer' (شماره)، 'zwölf' عدد دوازده.\nمترادف: die Zahl zwölf (عدد دوازده)"
+  },
+  {
+    "sound_de": "die Plätze tauschen",
+    "root": "این عبارت به معنی 'جاها را عوض کردن' است.\nاجزا: 'die' مقاله معین plural برای 'Plätze' که plural از 'Platz' (جا) است، 'tauschen' فعل به معنی عوض کردن.\nمترادف: die Plätze wechseln (جاها را تغییر دادن)"
+  },
+  {
+    "sound_de": "die Polizei rufen",
+    "root": "این عبارت به معنی 'پلیس را صدا زدن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Polizei' (پلیس)، 'rufen' فعل به معنی صدا زدن.\nمترادف: die Polizei anrufen (پلیس را تماس گرفتن)"
+  },
+  {
+    "sound_de": "die Preise sind hoch",
+    "root": "این عبارت به معنی 'قیمت‌ها بالا هستند' است.\nاجزا: 'die' مقاله معین plural برای 'Preise' که plural از 'Preis' (قیمت) است، 'sind' فعل بودن plural، 'hoch' صفت به معنی بالا.\nمترادف: die Preise sind teuer (قیمت‌ها گران هستند)\nمتضاد: die Preise sind niedrig (قیمت‌ها پایین هستند)"
+  },
+  {
+    "sound_de": "die Prüfung bestehen",
+    "root": "این عبارت به معنی 'امتحان را قبول شدن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Prüfung' (امتحان)، 'bestehen' فعل به معنی قبول شدن.\nمترادف: die Prüfung meistern (امتحان را موفق شدن)\nمتضاد: die Prüfung durchfallen (امتحان را رد شدن)"
+  },
+  {
+    "sound_de": "die Reise buchen",
+    "root": "این عبارت به معنی 'سفر را رزرو کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Reise' (سفر)، 'buchen' فعل به معنی رزرو کردن.\nمترادف: die Reise reservieren (سفر را رزرو کردن)"
+  },
+  {
+    "sound_de": "die Schere schneidet nicht",
+    "root": "این عبارت به معنی 'قیچی نمی‌برد' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Schere' (قیچی)، 'schneidet' شکل سوم شخص singular از 'schneiden' به معنی بریدن، 'nicht' منفی.\nمترادف: die Schere funktioniert nicht (قیچی کار نمی‌کند)"
+  },
+  {
+    "sound_de": "die Schuhe drücken",
+    "root": "این عبارت به معنی 'کفش‌ها فشار می‌آورند' یا 'کفش‌ها تنگ هستند' است.\nاجزا: 'die' مقاله معین plural برای 'Schuhe' که plural از 'Schuh' (کفش) است، 'drücken' فعل به معنی فشار آوردن.\nمترادف: die Schuhe sind eng (کفش‌ها تنگ هستند)\nمتضاد: die Schuhe passen (کفش‌ها اندازه هستند)"
+  },
+  {
+    "sound_de": "die Sonne scheint",
+    "root": "این عبارت به معنی 'خورشید می‌درخشد' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Sonne' (خورشید)، 'scheint' شکل سوم شخص singular از 'scheinen' به معنی درخشیدن.\nمترادف: die Sonne strahlt (خورشید می‌تابد)"
+  },
+  {
+    "sound_de": "die Straße endet hier",
+    "root": "این عبارت به معنی 'خیابان اینجا تمام می‌شود' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Straße' (خیابان)، 'endet' شکل سوم شخص singular از 'enden' به معنی تمام شدن، 'hier' اینجا."
+  },
+  {
+    "sound_de": "die Treppe hochgehen",
+    "root": "این عبارت به معنی 'از پله بالا رفتن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Treppe' (پله)، 'hochgehen' فعل به معنی بالا رفتن.\nمترادف: die Treppe hinaufgehen (از پله بالا رفتن)\nمتضاد: die Treppe hinuntergehen (از پله پایین رفتن)"
+  },
+  {
+    "sound_de": "die Tür aufmachen",
+    "root": "این عبارت به معنی 'در را باز کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Tür' (در)، 'aufmachen' فعل به معنی باز کردن.\nمترادف: die Tür öffnen (در را باز کردن)\nمتضاد: die Tür zumachen (در را بستن)"
+  },
+  {
+    "sound_de": "die Tür öffnen",
+    "root": "این عبارت به معنی 'در را باز کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Tür' (در)، 'öffnen' فعل به معنی باز کردن.\nمترادف: die Tür aufmachen (در را باز کردن)\nمتضاد: die Tür schließen (در را بستن)"
+  },
+  {
+    "sound_de": "die Tür schließen",
+    "root": "این عبارت به معنی 'در را بستن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Tür' (در)، 'schließen' فعل به معنی بستن.\nمترادف: die Tür zumachen (در را بستن)\nمتضاد: die Tür öffnen (در را باز کردن)"
+  },
+  {
+    "sound_de": "die Tür zu sein",
+    "root": "این عبارت به معنی 'در بسته بودن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Tür' (در)، 'zu' به معنی بسته، 'sein' فعل بودن.\nمترادف: die Tür geschlossen sein (در بسته بودن)\nمتضاد: die Tür offen sein (در باز بودن)"
+  },
+  {
+    "sound_de": "die Uhr ist stehen geblieben",
+    "root": "این عبارت به معنی 'ساعت ایستاده است' یا 'ساعت از کار افتاده' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Uhr' (ساعت)، 'ist' فعل کمکی، 'stehen geblieben' ماضی از 'stehenbleiben' به معنی ایستادن.\nمترادف: die Uhr ist gestoppt (ساعت متوقف شده)"
+  },
+  {
+    "sound_de": "die Wahrheit sagen",
+    "root": "این عبارت به معنی 'حقیقت را گفتن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Wahrheit' (حقیقت)، 'sagen' فعل به معنی گفتن.\nمترادف: die Wahrheit erzählen (حقیقت را گفتن)\nمتضاد: lügen (دروغ گفتن)"
+  },
+  {
+    "sound_de": "die Waschmaschine funktioniert",
+    "root": "این عبارت به معنی 'ماشین لباسشویی کار می‌کند' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Waschmaschine' (ماشین لباسشویی)، 'funktioniert' شکل سوم شخص singular از 'funktionieren' به معنی کار کردن.\nمترادف: die Waschmaschine läuft (ماشین لباسشویی کار می‌کند)\nمتضاد: die Waschmaschine funktioniert nicht (ماشین لباسشویی کار نمی‌کند)"
+  },
+  {
+    "sound_de": "die Zeit vergeht",
+    "root": "این عبارت به معنی 'زمان می‌گذرد' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Zeit' (زمان)، 'vergeht' شکل سوم شخص singular از 'vergehen' به معنی گذشتن.\nمترادف: die Zeit fliegt (زمان پرواز می‌کند)"
+  },
+  {
+    "sound_de": "die Zeitung austragen",
+    "root": "این عبارت به معنی 'روزنامه را توزیع کردن' است.\nاجزا: 'die' مقاله معین singular feminine برای 'Zeitung' (روزنامه)، 'austragen' فعل به معنی توزیع کردن یا پخش کردن.\nمترادف: die Zeitung verteilen (روزنامه را توزیع کردن)"
+  },
+  {
+    "sound_de": "direkt nach der Schule",
+    "root": "این عبارت به معنی 'مستقیم بعد از مدرسه' است.\nاجزا: 'direkt' قید به معنی مستقیم، 'nach' حرف اضافه به معنی بعد از، 'der' مقاله معین singular feminine dative برای 'Schule' (مدرسه).\nمترادف: unmittelbar nach der Schule (بلافاصله بعد از مدرسه)"
+  },
+  {
+    "sound_de": "direkt über dem Café",
+    "root": "این عبارت به معنی 'مستقیم بالای کافه' است.\nاجزا: 'direkt' قید به معنی مستقیم، 'über' حرف اضافه به معنی بالای، 'dem' مقاله معین singular neuter/masculine dative برای 'Café' (کافه).\nمترادف: genau über dem Café (دقیقاً بالای کافه)\nمتضاد: direkt unter dem Café (مستقیم زیر کافه)"
+  },
+  {
+    "sound_de": "dort sein",
+    "root": "این عبارت به معنی 'آنجا بودن' است.\nاجزا: 'dort' قید به معنی آنجا، 'sein' فعل بودن.\nمترادف: da sein (آنجا بودن)\nمتضاد: hier sein (اینجا بودن)"
+  },
+  {
+    "sound_de": "dorthin stellen",
+    "root": "این عبارت به معنی 'آنجا گذاشتن' است.\nاجزا: 'dorthin' قید به معنی به آنجا، 'stellen' فعل به معنی گذاشتن یا قرار دادن.\nمترادف: dahin stellen (به آنجا گذاشتن)"
+  },
+  {
+    "sound_de": "draußen bleiben",
+    "root": "این عبارت به معنی 'بیرون ماندن' است.\nاجزا: 'draußen' قید به معنی بیرون، 'bleiben' فعل به معنی ماندن.\nمترادف: draußen verweilen (بیرون ماندن)\nمتضاد: drinnen bleiben (داخل ماندن)"
+  },
+  {
+    "sound_de": "draußen sitzen",
+    "root": "این عبارت به معنی 'بیرون نشستن' است.\nاجزا: 'draußen' قید به معنی بیرون، 'sitzen' فعل به معنی نشستن.\nمترادف: im Freien sitzen (در فضای باز نشستن)\nمتضاد: drinnen sitzen (داخل نشستن)"
+  },
+  {
+    "sound_de": "dringend sein",
+    "root": "این عبارت به معنی 'فوری بودن' است.\nاجزا: 'dringend' صفت به معنی فوری، 'sein' فعل بودن.\nمترادف: eilig sein (عجله‌ای بودن)\nمتضاد: nicht dringend sein (غیرفوری بودن)"
+  },
+  {
+    "sound_de": "drinnen oder draußen sitzen",
+    "root": "این عبارت به معنی 'داخل یا بیرون نشستن' است.\nاجزا: 'drinnen' قید به معنی داخل، 'oder' حرف ربط به معنی یا، 'draußen' قید به معنی بیرون، 'sitzen' فعل به معنی نشستن."
+  },
+  {
+    "sound_de": "dumm sein",
+    "root": "این عبارت به معنی 'احمق بودن' است.\nاجزا: 'dumm' صفت به معنی احمق، 'sein' فعل بودن.\nمترادف: blöd sein (احمق بودن)\nمتضاد: klug sein (هوشمند بودن)"
+  },
+  {
+    "sound_de": "dunkel sein",
+    "root": "این عبارت به معنی 'تاریک بودن' است.\nاجزا: 'dunkel' صفت به معنی تاریک، 'sein' فعل بودن.\nمترادف: finster sein (تاریک بودن)\nمتضاد: hell sein (روشن بودن)"
+  },
+  {
+    "sound_de": "dünn sein",
+    "root": "این عبارت به معنی 'لاغر بودن' است.\nاجزا: 'dünn' صفت به معنی لاغر یا نازک، 'sein' فعل بودن.\nمترادف: schlank sein (لاغر بودن)\nمتضاد: dick sein (چاق بودن)"
+  },
+  {
+    "sound_de": "durch den Wald fahren",
+    "root": "این عبارت به معنی 'از جنگل عبور کردن با وسیله' است.\nاجزا: 'durch' حرف اضافه به معنی از میان، 'den' مقاله معین singular masculine accusative برای 'Wald' (جنگل)، 'fahren' فعل به معنی رانندگی کردن یا رفتن.\nمترادف: durch den Wald reisen (از جنگل سفر کردن)"
+  },
+  {
+    "sound_de": "durch die Straße gehen",
+    "root": "این عبارت به معنی 'از خیابان رفتن' است.\nاجزا: 'durch' حرف اضافه به معنی از میان، 'die' مقاله معین singular feminine accusative برای 'Straße' (خیابان)، 'gehen' فعل به معنی رفتن.\nمترادف: durch die Straße laufen (از خیابان دویدن)"
+  },
+  {
+    "sound_de": "dürfen",
+    "root": "این فعل به معنی 'اجازه داشتن' یا 'ممکن بودن' است.\nاجزا: 'dürfen' فعل کمکی به معنی ممکن بودن یا اجازه داشتن.\nمترادف: erlaubt sein (اجازه داشتن)\nمتضاد: nicht dürfen (اجازه نداشتن)"
+  },
+  {
+    "sound_de": "Durst haben",
+    "root": "این عبارت به معنی 'تشنه بودن' است.\nاجزا: 'Durst' اسم masculine به معنی تشنگی، 'haben' فعل به معنی داشتن.\nمترادف: durstig sein (تشنه بودن)\nمتضاد: keinen Durst haben (تشنه نبودن)"
+  },
+  {
+    "sound_de": "E-Books kaufen",
+    "root": "این عبارت به معنی 'کتاب‌های الکترونیکی خریدن' است.\nاجزا: 'E-Books' plural از 'E-Book' (کتاب الکترونیکی)، 'kaufen' فعل به معنی خریدن.\nمترادف: Elektronische Bücher erwerben (کتاب‌های الکترونیکی خریدن)"
+  },
+  {
+    "sound_de": "echt sein",
+    "root": "این عبارت به معنی 'واقعی بودن' است.\nاجزا: 'echt' صفت به معنی واقعی، 'sein' فعل بودن.\nمترادف: wahr sein (واقعی بودن)\nمتضاد: falsch sein (جعلی بودن)"
+  },
+  {
+    "sound_de": "egal sein",
+    "root": "این عبارت به معنی 'بی‌تفاوت بودن' است.\nاجزا: 'egal' صفت به معنی بی‌تفاوت، 'sein' فعل بودن.\nمترادف: gleichgültig sein (بی‌تفاوت بودن)"
+  },
+  {
+    "sound_de": "eigentlich",
+    "root": "این قید به معنی 'در واقع' یا 'اصولاً' است.\nاجزا: 'eigentlich' قید به معنی در واقع.\nمترادف: tatsächlich (در واقع)"
+  },
+  {
+    "sound_de": "ein Auto haben",
+    "root": "این عبارت به معنی 'ماشین داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter/masculine برای 'Auto' (ماشین)، 'haben' فعل به معنی داشتن.\nمترادف: ein Wagen besitzen (ماشین داشتن)"
+  },
+  {
+    "sound_de": "ein Auto kaufen",
+    "root": "این عبارت به معنی 'ماشین خریدن' است.\nاجزا: 'ein' مقاله نامعین singular neuter/masculine برای 'Auto' (ماشین)، 'kaufen' فعل به معنی خریدن.\nمترادف: ein Auto erwerben (ماشین خریدن)"
+  },
+  {
+    "sound_de": "ein Auto mieten",
+    "root": "این عبارت به معنی 'ماشین کرایه کردن' است.\nاجزا: 'ein' مقاله نامعین singular neuter/masculine برای 'Auto' (ماشین)، 'mieten' فعل به معنی کرایه کردن.\nمترادف: ein Auto leihen (ماشین قرض گرفتن)"
+  },
+  {
+    "sound_de": "ein Bild haben",
+    "root": "این عبارت به معنی 'تصویر داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Bild' (تصویر)، 'haben' فعل به معنی داشتن.\nمترادف: ein Foto haben (عکس داشتن)"
+  },
+  {
+    "sound_de": "ein bisschen Französisch sprechen",
+    "root": "این عبارت به معنی 'کمی فرانسه صحبت کردن' است.\nاجزا: 'ein bisschen' به معنی کمی، 'Französisch' (فرانسه)، 'sprechen' فعل به معنی صحبت کردن.\nمترادف: ein wenig Französisch reden (کمی فرانسه حرف زدن)"
+  },
+  {
+    "sound_de": "ein bisschen lauter sprechen",
+    "root": "این عبارت به معنی 'کمی بلندتر صحبت کردن' است.\nاجزا: 'ein bisschen' به معنی کمی، 'lauter' مقایسه‌ای از 'laut' (بلند)، 'sprechen' فعل به معنی صحبت کردن.\nمترادف: etwas lauter sprechen (کمی بلندتر صحبت کردن)\nمتضاد: ein bisschen leiser sprechen (کمی آرام‌تر صحبت کردن)"
+  },
+  {
+    "sound_de": "ein Buch lesen",
+    "root": "این عبارت به معنی 'کتاب خواندن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Buch' (کتاب)، 'lesen' فعل به معنی خواندن.\nمترادف: ein Buch durchlesen (کتاب را کامل خواندن)"
+  },
+  {
+    "sound_de": "ein Dank",
+    "root": "این عبارت به معنی 'یک تشکر' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Dank' (تشکر).\nمترادف: eine Danksagung (یک تشکر)"
+  },
+  {
+    "sound_de": "ein Doppelzimmer haben",
+    "root": "این عبارت به معنی 'اتاق دوتخته داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Doppelzimmer' (اتاق دوتخته)، 'haben' فعل به معنی داشتن.\nمترادف: ein Zweibettzimmer haben (اتاق دوتخته داشتن)\nمتضاد: ein Einzelzimmer haben (اتاق تک‌تخته داشتن)"
+  },
+  {
+    "sound_de": "ein Ei zum Frühstück",
+    "root": "این عبارت به معنی 'یک تخم‌مرغ برای صبحانه' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Ei' (تخم‌مرغ)، 'zum' انقباض 'zu dem' به معنی برای، 'Frühstück' (صبحانه)."
+  },
+  {
+    "sound_de": "ein eigenes Zimmer haben",
+    "root": "این عبارت به معنی 'اتاق خود داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'eigenes' (خود) 'Zimmer' (اتاق)، 'haben' فعل به معنی داشتن.\nمترادف: ein privates Zimmer haben (اتاق خصوصی داشتن)"
+  },
+  {
+    "sound_de": "ein Einzelkind sein",
+    "root": "این عبارت به معنی 'تک‌فرزند بودن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Einzelkind' (تک‌فرزند)، 'sein' فعل بودن.\nمترادف: das einzige Kind sein (تنها فرزند بودن)"
+  },
+  {
+    "sound_de": "ein Einzelzimmer haben",
+    "root": "این عبارت به معنی 'اتاق تک‌تخته داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Einzelzimmer' (اتاق تک‌تخته)، 'haben' فعل به معنی داشتن.\nمترادف: ein Einzelbettzimmer haben (اتاق تک‌تخته داشتن)\nمتضاد: ein Doppelzimmer haben (اتاق دوتخته داشتن)"
+  },
+  {
+    "sound_de": "ein Fach mögen",
+    "root": "این عبارت به معنی 'درس را دوست داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Fach' (درس یا رشته)، 'mögen' فعل به معنی دوست داشتن.\nمترادف: ein Fach schätzen (درس را قدردانی کردن)\nمتضاد: ein Fach nicht mögen (درس را دوست نداشتن)"
+  },
+  {
+    "sound_de": "ein Fan sein",
+    "root": "این عبارت به معنی 'طرفدار بودن' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Fan' (طرفدار)، 'sein' فعل بودن.\nمترادف: ein Anhänger sein (پیرو بودن)"
+  },
+  {
+    "sound_de": "ein Fest feiern",
+    "root": "این عبارت به معنی 'جشن گرفتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Fest' (جشن)، 'feiern' فعل به معنی جشن گرفتن.\nمترادف: eine Feier abhalten (جشن برگزار کردن)"
+  },
+  {
+    "sound_de": "ein Formular ausfüllen",
+    "root": "این عبارت به معنی 'فرم را پر کردن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Formular' (فرم)، 'ausfüllen' فعل به معنی پر کردن.\nمترادف: ein Formular vervollständigen (فرم را کامل کردن)"
+  },
+  {
+    "sound_de": "ein Foto machen",
+    "root": "این عبارت به معنی 'عکس گرفتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Foto' (عکس)، 'machen' فعل به معنی گرفتن یا ساختن.\nمترادف: ein Bild aufnehmen (عکس گرفتن)"
+  },
+  {
+    "sound_de": "ein Freund/eine Freundin",
+    "root": "این عبارت به معنی 'یک دوست پسر/یک دوست دختر' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Freund' (دوست پسر)، '/' برای گزینه، 'eine' مقاله نامعین singular feminine برای 'Freundin' (دوست دختر).\nمترادف: ein Kumpel/eine Kumpelin (یک رفیق/یک رفیقه)"
+  },
+  {
+    "sound_de": "ein Geschenk bekommen",
+    "root": "این عبارت به معنی 'هدیه گرفتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Geschenk' (هدیه)، 'bekommen' فعل به معنی گرفتن.\nمترادف: ein Geschenk erhalten (هدیه دریافت کردن)\nمتضاد: ein Geschenk geben (هدیه دادن)"
+  },
+  {
+    "sound_de": "ein Geschenk geben",
+    "root": "این عبارت به معنی 'هدیه دادن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Geschenk' (هدیه)، 'geben' فعل به معنی دادن.\nمترادف: ein Geschenk schenken (هدیه دادن)\nمتضاد: ein Geschenk bekommen (هدیه گرفتن)"
+  },
+  {
+    "sound_de": "ein Geschenk kriegen",
+    "root": "این عبارت به معنی 'هدیه گرفتن' (عامیانه) است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Geschenk' (هدیه)، 'kriegen' فعل عامیانه به معنی گرفتن.\nمترادف: ein Geschenk bekommen (هدیه گرفتن)"
+  },
+  {
+    "sound_de": "ein Gespräch führen",
+    "root": "این عبارت به معنی 'گفتگو کردن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Gespräch' (گفتگو)، 'führen' فعل به معنی هدایت کردن یا داشتن.\nمترادف: ein Gespräch halten (گفتگو نگه داشتن)"
+  },
+  {
+    "sound_de": "ein Gespräch führen",
+    "root": "این عبارت به معنی 'گفتگو کردن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Gespräch' (گفتگو)، 'führen' فعل به معنی هدایت کردن یا داشتن.\nمترادف: ein Gespräch halten (گفتگو نگه داشتن)"
+  },
+  {
+    "sound_de": "ein Glas haben",
+    "root": "این عبارت به معنی 'لیوان داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Glas' (لیوان)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "ein Glas Wasser",
+    "root": "این عبارت به معنی 'یک لیوان آب' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Glas' (لیوان)، 'Wasser' (آب)."
+  },
+  {
+    "sound_de": "ein gutes Lokal",
+    "root": "این عبارت به معنی 'یک رستوران خوب' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'gutes' (خوب) 'Lokal' (رستوران محلی).\nمترادف: ein gutes Restaurant (یک رستوران خوب)\nمتضاد: ein schlechtes Lokal (یک رستوران بد)"
+  },
+  {
+    "sound_de": "ein Haus bauen",
+    "root": "این عبارت به معنی 'خانه ساختن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Haus' (خانه)، 'bauen' فعل به معنی ساختن.\nمترادف: ein Haus errichten (خانه بنا کردن)"
+  },
+  {
+    "sound_de": "ein Heft haben",
+    "root": "این عبارت به معنی 'دفتر داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Heft' (دفتر)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "ein Hemd tragen",
+    "root": "این عبارت به معنی 'پیراهن پوشیدن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Hemd' (پیراهن)، 'tragen' فعل به معنی پوشیدن.\nمترادف: ein Hemd anhaben (پیراهن داشتن)"
+  },
+  {
+    "sound_de": "ein Instrument spielen",
+    "root": "این عبارت به معنی 'ساز زدن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Instrument' (ساز)، 'spielen' فعل به معنی نواختن.\nمترادف: ein Instrument bedienen (ساز نواختن)"
+  },
+  {
+    "sound_de": "ein Interview im Radio",
+    "root": "این عبارت به معنی 'یک مصاحبه در رادیو' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Interview' (مصاحبه)، 'im' انقباض 'in dem' (در)، 'Radio' (رادیو)."
+  },
+  {
+    "sound_de": "ein Lied singen",
+    "root": "این عبارت به معنی 'آهنگ خواندن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Lied' (آهنگ)، 'singen' فعل به معنی خواندن.\nمترادف: ein Song vortragen (آهنگ اجرا کردن)"
+  },
+  {
+    "sound_de": "ein Link schicken",
+    "root": "این عبارت به معنی 'لینک فرستادن' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Link' (لینک)، 'schicken' فعل به معنی فرستادن.\nمترادف: einen Verweis senden (لینک ارسال کردن)"
+  },
+  {
+    "sound_de": "ein Mädchen haben",
+    "root": "این عبارت به معنی 'دختر داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Mädchen' (دختر)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "ein Medikament nehmen",
+    "root": "این عبارت به معنی 'دارو خوردن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Medikament' (دارو)، 'nehmen' فعل به معنی گرفتن یا خوردن.\nمترادف: ein Arzneimittel einnehmen (دارو مصرف کردن)"
+  },
+  {
+    "sound_de": "ein Mittel gegen",
+    "root": "این عبارت به معنی 'دارویی علیه' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Mittel' (دارو یا وسیله)، 'gegen' حرف اضافه به معنی علیه.\nمترادف: ein Remedy gegen (درمان علیه)"
+  },
+  {
+    "sound_de": "ein Mobiltelefon haben",
+    "root": "این عبارت به معنی 'تلفن همراه داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Mobiltelefon' (تلفن همراه)، 'haben' فعل به معنی داشتن.\nمترادف: ein Handy besitzen (موبایل داشتن)"
+  },
+  {
+    "sound_de": "ein Paar Schuhe",
+    "root": "این عبارت به معنی 'یک جفت کفش' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Paar' (جفت)، 'Schuhe' plural از 'Schuh' (کفش).\nمترادف: ein Paar Footwear (یک جفت کفش)"
+  },
+  {
+    "sound_de": "ein paar Tage",
+    "root": "این عبارت به معنی 'چند روز' است.\nاجزا: 'ein paar' به معنی چند، 'Tage' plural از 'Tag' (روز).\nمترادف: einige Tage (چند روز)"
+  },
+  {
+    "sound_de": "ein Plakat machen",
+    "root": "این عبارت به معنی 'پوستر ساختن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Plakat' (پوستر)، 'machen' فعل به معنی ساختن.\nمترادف: ein Poster erstellen (پوستر ایجاد کردن)"
+  },
+  {
+    "sound_de": "ein Platz ist frei",
+    "root": "این عبارت به معنی 'یک جا خالی است' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Platz' (جا)، 'ist' فعل بودن، 'frei' صفت به معنی خالی.\nمترادف: ein Sitz ist verfügbar (یک صندلی در دسترس است)\nمتضاد: ein Platz ist besetzt (یک جا اشغال است)"
+  },
+  {
+    "sound_de": "ein Praktikum machen",
+    "root": "این عبارت به معنی 'کارآموزی کردن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Praktikum' (کارآموزی)، 'machen' فعل به معنی کردن.\nمترادف: ein Internship absolvieren (کارآموزی گذراندن)"
+  },
+  {
+    "sound_de": "ein Problem haben",
+    "root": "این عبارت به معنی 'مشکل داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Problem' (مشکل)، 'haben' فعل به معنی داشتن.\nمترادف: eine Schwierigkeit haben (مشکل داشتن)"
+  },
+  {
+    "sound_de": "ein Rundgang durch",
+    "root": "این عبارت به معنی 'گردش از میان' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Rundgang' (گردش)، 'durch' حرف اضافه به معنی از میان.\nمترادف: eine Tour durch (تور از میان)"
+  },
+  {
+    "sound_de": "ein Schild sehen",
+    "root": "این عبارت به معنی 'تابلو دیدن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Schild' (تابلو)، 'sehen' فعل به معنی دیدن.\nمترادف: ein Sign anschauen (تابلو تماشا کردن)"
+  },
+  {
+    "sound_de": "ein Star sein",
+    "root": "این عبارت به معنی 'ستاره بودن' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Star' (ستاره)، 'sein' فعل بودن.\nمترادف: ein Berühmtheit sein (مشهور بودن)"
+  },
+  {
+    "sound_de": "ein Stipendium bekommen",
+    "root": "این عبارت به معنی 'بورسیه گرفتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Stipendium' (بورسیه)، 'bekommen' فعل به معنی گرفتن.\nمترادف: ein Scholarship erhalten (بورسیه دریافت کردن)"
+  },
+  {
+    "sound_de": "ein Stück Kuchen anbieten",
+    "root": "این عبارت به معنی 'یک تکه کیک پیشنهاد کردن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Stück' (تکه)، 'Kuchen' (کیک)، 'anbieten' فعل به معنی پیشنهاد کردن.\nمترادف: ein Stück Kuchen offerieren (یک تکه کیک عرضه کردن)"
+  },
+  {
+    "sound_de": "ein Stück Kuchen",
+    "root": "این عبارت به معنی 'یک تکه کیک' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Stück' (تکه)، 'Kuchen' (کیک)."
+  },
+  {
+    "sound_de": "ein Tablet haben",
+    "root": "این عبارت به معنی 'تبلت داشتن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Tablet' (تبلت)، 'haben' فعل به معنی داشتن.\nمترادف: ein Pad besitzen (تبلت داشتن)"
+  },
+  {
+    "sound_de": "ein Taxi rufen",
+    "root": "این عبارت به معنی 'تاکسی صدا زدن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Taxi' (تاکسی)، 'rufen' فعل به معنی صدا زدن.\nمترادف: ein Taxi anrufen (تاکسی تماس گرفتن)"
+  },
+  {
+    "sound_de": "ein Theaterstück",
+    "root": "این عبارت به معنی 'یک نمایش تئاتر' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Theaterstück' (نمایش تئاتر)."
+  },
+  {
+    "sound_de": "ein Traum sein",
+    "root": "این عبارت به معنی 'رویا بودن' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Traum' (رویا)، 'sein' فعل بودن.\nمترادف: ein Dream sein (رویا بودن)"
+  },
+  {
+    "sound_de": "ein Unfall haben",
+    "root": "این عبارت به معنی 'تصادف داشتن' است.\nاجزا: 'ein' مقاله نامعین singular masculine برای 'Unfall' (تصادف)، 'haben' فعل به معنی داشتن.\nمترادف: einen Accident erleiden (تصادف کردن)"
+  },
+  {
+    "sound_de": "ein warmes Essen",
+    "root": "این عبارت به معنی 'یک غذای گرم' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'warmes' (گرم) 'Essen' (غذا).\nمترادف: eine warme Mahlzeit (یک غذای گرم)\nمتضاد: ein kaltes Essen (یک غذای سرد)"
+  },
+  {
+    "sound_de": "ein Zimmer bestellen",
+    "root": "این عبارت به معنی 'اتاق سفارش دادن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Zimmer' (اتاق)، 'bestellen' فعل به معنی سفارش دادن.\nمترادف: ein Zimmer buchen (اتاق رزرو کردن)"
+  },
+  {
+    "sound_de": "ein Zimmer reservieren",
+    "root": "این عبارت به معنی 'اتاق رزرو کردن' است.\nاجزا: 'ein' مقاله نامعین singular neuter برای 'Zimmer' (اتاق)، 'reservieren' فعل به معنی رزرو کردن.\nمترادف: ein Zimmer buchen (اتاق رزرو کردن)"
+  },
+  {
+    "sound_de": "eine Bitte haben",
+    "root": "این عبارت به معنی 'یک درخواست داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Bitte' (درخواست)، 'haben' فعل به معنی داشتن.\nمترادف: eine Anfrage haben (یک درخواست داشتن)"
+  },
+  {
+    "sound_de": "eine Creme kaufen",
+    "root": "این عبارت به معنی 'کرم خریدن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Creme' (کرم)، 'kaufen' فعل به معنی خریدن."
+  },
+  {
+    "sound_de": "eine Datei drucken",
+    "root": "این عبارت به معنی 'فایل را چاپ کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Datei' (فایل)، 'drucken' فعل به معنی چاپ کردن.\nمترادف: eine Datei ausdrucken (فایل را چاپ کردن)"
+  },
+  {
+    "sound_de": "eine E-Mail schicken",
+    "root": "این عبارت به معنی 'ایمیل فرستادن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'E-Mail' (ایمیل)، 'schicken' فعل به معنی فرستادن.\nمترادف: eine E-Mail senden (ایمیل ارسال کردن)"
+  },
+  {
+    "sound_de": "eine E-Mail schreiben",
+    "root": "این عبارت به معنی 'ایمیل نوشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'E-Mail' (ایمیل)، 'schreiben' فعل به معنی نوشتن.\nمترادف: eine E-Mail verfassen (ایمیل نگاشتن)"
+  },
+  {
+    "sound_de": "eine Fahrkarte haben",
+    "root": "این عبارت به معنی 'بلیت داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Fahrkarte' (بلیت)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "eine Flasche Wasser",
+    "root": "این عبارت به معنی 'یک بطری آب' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Flasche' (بطری)، 'Wasser' (آب)."
+  },
+  {
+    "sound_de": "eine Frage be en",
+    "root": "این عبارت به نظر غلط املایی دارد، احتمالاً 'eine Frage beantworten' به معنی 'سؤال را جواب دادن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Frage' (سؤال)، 'beantworten' فعل به معنی جواب دادن.\nمترادف: eine Frage antworten (سؤال را پاسخ دادن)"
+  },
+  {
+    "sound_de": "eine Frage haben",
+    "root": "این عبارت به معنی 'سؤال داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Frage' (سؤال)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "eine Gabel haben",
+    "root": "این عبارت به معنی 'چنگال داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Gabel' (چنگال)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "eine Garage haben",
+    "root": "این عبارت به معنی 'گاراژ داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Garage' (گاراژ)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "eine Geschichte erzählen",
+    "root": "این عبارت به معنی 'داستان گفتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Geschichte' (داستان)، 'erzählen' فعل به معنی گفتن.\nمترادف: eine Story berichten (داستان گزارش کردن)"
+  },
+  {
+    "sound_de": "eine Grippe haben",
+    "root": "این عبارت به معنی 'آنفولانزا داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Grippe' (آنفولانزا)، 'haben' فعل به معنی داشتن.\nمترادف: eine Influenza haben (آنفولانزا داشتن)"
+  },
+  {
+    "sound_de": "eine Gruppe beginnt",
+    "root": "این عبارت به معنی 'گروه شروع می‌کند' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Gruppe' (گروه)، 'beginnt' شکل سوم شخص singular از 'beginnen' به معنی شروع کردن."
+  },
+  {
+    "sound_de": "eine gute Idee haben",
+    "root": "این عبارت به معنی 'ایده خوب داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'gute' (خوب) 'Idee' (ایده)، 'haben' فعل به معنی داشتن.\nمترادف: eine tolle Idee haben (ایده عالی داشتن)\nمتضاد: eine schlechte Idee haben (ایده بد داشتن)"
+  },
+  {
+    "sound_de": "eine gute Zeit haben",
+    "root": "این عبارت به معنی 'زمان خوب داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'gute' (خوب) 'Zeit' (زمان)، 'haben' فعل به معنی داشتن.\nمترادف: eine schöne Zeit haben (زمان زیبا داشتن)"
+  },
+  {
+    "sound_de": "eine Jacke anziehen",
+    "root": "این عبارت به معنی 'کت پوشیدن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Jacke' (کت)، 'anziehen' فعل به معنی پوشیدن.\nمترادف: eine Jacke anhaben (کت داشتن)\nمتضاد: eine Jacke ausziehen (کت درآوردن)"
+  },
+  {
+    "sound_de": "eine Karte schreiben",
+    "root": "این عبارت به معنی 'کارت نوشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Karte' (کارت)، 'schreiben' فعل به معنی نوشتن.\nمترادف: eine Postkarte verfassen (کارت پستال نگاشتن)"
+  },
+  {
+    "sound_de": "eine Katze haben",
+    "root": "این عبارت به معنی 'گربه داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Katze' (گربه)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "eine Kette bekommen",
+    "root": "این عبارت به معنی 'زنجیر گرفتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Kette' (زنجیر یا گردنبند)، 'bekommen' فعل به معنی گرفتن."
+  },
+  {
+    "sound_de": "eine Küche haben",
+    "root": "این عبارت به معنی 'آشپزخانه داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Küche' (آشپزخانه)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "eine Menge Zeit haben",
+    "root": "این عبارت به معنی 'زمان زیاد داشتن' است.\nاجزا: 'eine Menge' به معنی مقدار زیاد، 'Zeit' (زمان)، 'haben' فعل به معنی داشتن.\nمترادف: viel Zeit haben (زمان زیاد داشتن)\nمتضاد: wenig Zeit haben (زمان کم داشتن)"
+  },
+  {
+    "sound_de": "eine Nachricht schreiben",
+    "root": "این عبارت به معنی 'پیام نوشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Nachricht' (پیام)، 'schreiben' فعل به معنی نوشتن.\nمترادف: eine Message verfassen (پیام نگاشتن)"
+  },
+  {
+    "sound_de": "eine neue Ausstellung im Museum",
+    "root": "این عبارت به معنی 'نمایشگاه جدید در موزه' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'neue' (جدید) 'Ausstellung' (نمایشگاه)، 'im' انقباض 'in dem' (در)، 'Museum' (موزه).\nمترادف: eine frische Exhibition im Museum (نمایشگاه تازه در موزه)"
+  },
+  {
+    "sound_de": "eine neue Kamera haben",
+    "root": "این عبارت به معنی 'دوربین جدید داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'neue' (جدید) 'Kamera' (دوربین)، 'haben' فعل به معنی داشتن.\nمترادف: eine frische Kamera besitzen (دوربین تازه داشتن)"
+  },
+  {
+    "sound_de": "eine neue Stelle haben",
+    "root": "این عبارت به معنی 'شغل جدید داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'neue' (جدید) 'Stelle' (شغل)، 'haben' فعل به معنی داشتن.\nمترادف: eine neue Position haben (موقعیت جدید داشتن)"
+  },
+  {
+    "sound_de": "eine neue Wohnung finden",
+    "root": "این عبارت به معنی 'آپارتمان جدید پیدا کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'neue' (جدید) 'Wohnung' (آپارتمان)، 'finden' فعل به معنی پیدا کردن.\nمترادف: eine frische Wohnung entdecken (آپارتمان تازه پیدا کردن)"
+  },
+  {
+    "sound_de": "eine Nummer kleiner",
+    "root": "این عبارت به معنی 'یک شماره کوچکتر' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Nummer' (شماره)، 'kleiner' مقایسه‌ای از 'klein' (کوچک).\nمترادف: eine Größe kleiner (یک اندازه کوچکتر)\nمتضاد: eine Nummer größer (یک شماره بزرگتر)"
+  },
+  {
+    "sound_de": "eine Partnerin haben",
+    "root": "این عبارت به معنی 'شریک (زن) داشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Partnerin' (شریک زن)، 'haben' فعل به معنی داشتن.\nمترادف: eine Gefährtin haben (همراه زن داشتن)"
+  },
+  {
+    "sound_de": "eine Party feiern",
+    "root": "این عبارت به معنی 'پارتی جشن گرفتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Party' (پارتی)، 'feiern' فعل به معنی جشن گرفتن.\nمترادف: eine Feier abhalten (پارتی برگزار کردن)"
+  },
+  {
+    "sound_de": "eine Party machen",
+    "root": "این عبارت به معنی 'پارتی برگزار کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Party' (پارتی)، 'machen' فعل به معنی برگزار کردن.\nمترادف: eine Party organisieren (پارتی سازماندهی کردن)"
+  },
+  {
+    "sound_de": "eine Pause machen",
+    "root": "این عبارت به معنی 'استراحت کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Pause' (استراحت)، 'machen' فعل به معنی کردن.\nمترادف: eine Break einlegen (استراحت کردن)"
+  },
+  {
+    "sound_de": "eine Portion Eis",
+    "root": "این عبارت به معنی 'یک پرس بستنی' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Portion' (پرس)، 'Eis' (بستنی)."
+  },
+  {
+    "sound_de": "eine Postkarte schreiben",
+    "root": "این عبارت به معنی 'کارت پستال نوشتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Postkarte' (کارت پستال)، 'schreiben' فعل به معنی نوشتن.\nمترادف: eine Ansichtskarte verfassen (کارت پستال نگاشتن)"
+  },
+  {
+    "sound_de": "eine Rechnung bekommen",
+    "root": "این عبارت به معنی 'فاکتور گرفتن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Rechnung' (فاکتور)، 'bekommen' فعل به معنی گرفتن.\nمترادف: eine Bill erhalten (فاکتور دریافت کردن)"
+  },
+  {
+    "sound_de": "eine Rechnung schicken",
+    "root": "این عبارت به معنی 'فاکتور فرستادن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Rechnung' (فاکتور)، 'schicken' فعل به معنی فرستادن.\nمترادف: eine Bill senden (فاکتور ارسال کردن)"
+  },
+  {
+    "sound_de": "eine Reise buchen",
+    "root": "این عبارت به معنی 'سفر رزرو کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Reise' (سفر)، 'buchen' فعل به معنی رزرو کردن.\nمترادف: eine Trip reservieren (سفر رزرو کردن)"
+  },
+  {
+    "sound_de": "eine Reise machen",
+    "root": "این عبارت به معنی 'سفر کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Reise' (سفر)، 'machen' فعل به معنی کردن.\nمترادف: eine Trip unternehmen (سفر انجام دادن)"
+  },
+  {
+    "sound_de": "eine schwierige Situation",
+    "root": "این عبارت به معنی 'وضعیت دشوار' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'schwierige' (دشوار) 'Situation' (وضعیت).\nمترادف: eine komplizierte Lage (وضعیت پیچیده)\nمتضاد: eine einfache Situation (وضعیت ساده)"
+  },
+  {
+    "sound_de": "eine Stadttour buchen",
+    "root": "این عبارت به معنی 'تور شهری رزرو کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Stadttour' (تور شهری)، 'buchen' فعل به معنی رزرو کردن.\nمترادف: eine City-Tour reservieren (تور شهری رزرو کردن)"
+  },
+  {
+    "sound_de": "eine Stelle anbieten",
+    "root": "این عبارت به معنی 'شغل پیشنهاد کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Stelle' (شغل)، 'anbieten' فعل به معنی پیشنهاد کردن.\nمترادف: eine Position offerieren (شغل عرضه کردن)"
+  },
+  {
+    "sound_de": "eine Tasse Kaffee",
+    "root": "این عبارت به معنی 'یک فنجان قهوه' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Tasse' (فنجان)، 'Kaffee' (قهوه)."
+  },
+  {
+    "sound_de": "eine Torte backen",
+    "root": "این عبارت به معنی 'کیک پختن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Torte' (کیک)، 'backen' فعل به معنی پختن.\nمترادف: eine Cake herstellen (کیک ساختن)"
+  },
+  {
+    "sound_de": "eine Unterkunft suchen",
+    "root": "این عبارت به معنی 'اقامتگاه جستجو کردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Unterkunft' (اقامتگاه)، 'suchen' فعل به معنی جستجو کردن.\nمترادف: eine Accommodation finden (اقامتگاه پیدا کردن)"
+  },
+  {
+    "sound_de": "eine Wurst essen",
+    "root": "این عبارت به معنی 'سوسیس خوردن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Wurst' (سوسیس)، 'essen' فعل به معنی خوردن."
+  },
+  {
+    "sound_de": "eine Zeitschrift kaufen",
+    "root": "این عبارت به معنی 'مجله خریدن' است.\nاجزا: 'eine' مقاله نامعین singular feminine برای 'Zeitschrift' (مجله)، 'kaufen' فعل به معنی خریدن.\nمترادف: eine Magazine erwerben (مجله خریدن)"
+  },
+  {
+    "sound_de": "einen Arzt rufen",
+    "root": "این عبارت به معنی 'دکتر صدا زدن' است.\nاجزا: 'einen' مقاله نامعین singular masculine accusative برای 'Arzt' (دکتر)، 'rufen' فعل به معنی صدا زدن.\nمترادف: einen Doktor anrufen (دکتر تماس گرفتن)"
+  },
+  {
+    "sound_de": "einen Arzttermin haben",
+    "root": "این عبارت به معنی 'نوبت دکتر داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Arzttermin' (نوبت دکتر)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einen Ausflug machen",
+    "root": "این عبارت به معنی 'گردش کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Ausflug' (گردش)، 'machen' فعل به معنی کردن.\nمترادف: einen Trip unternehmen (گردش انجام دادن)"
+  },
+  {
+    "sound_de": "einen Ausflug organisieren",
+    "root": "این عبارت به معنی 'گردش سازماندهی کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Ausflug' (گردش)، 'organisieren' فعل به معنی سازماندهی کردن.\nمترادف: einen Excursion planen (گردش برنامه‌ریزی کردن)"
+  },
+  {
+    "sound_de": "einen Baum haben",
+    "root": "این عبارت به معنی 'درخت داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Baum' (درخت)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einen Blog schreiben",
+    "root": "این عبارت به معنی 'بلاگ نوشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Blog' (بلاگ)، 'schreiben' فعل به معنی نوشتن.\nمترادف: einen Weblog verfassen (وبلاگ نگاشتن)"
+  },
+  {
+    "sound_de": "einen Brief haben",
+    "root": "این عبارت به معنی 'نامه داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Brief' (نامه)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einen Brief schreiben",
+    "root": "این عبارت به معنی 'نامه نوشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Brief' (نامه)، 'schreiben' فعل به معنی نوشتن.\nمترادف: einen Letter verfassen (نامه نگاشتن)"
+  },
+  {
+    "sound_de": "einen Brief übersetzen",
+    "root": "این عبارت به معنی 'نامه ترجمه کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Brief' (نامه)، 'übersetzen' فعل به معنی ترجمه کردن.\nمترادف: einen Brief translatieren (نامه ترجمه کردن)"
+  },
+  {
+    "sound_de": "einen Club mit guter Musik",
+    "root": "این عبارت به معنی 'کلوپ با موسیقی خوب' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Club' (کلوپ)، 'mit' حرف اضافه به معنی با، 'guter' (خوب) 'Musik' (موسیقی).\nمترادف: einen Club mit toller Musik (کلوپ با موسیقی عالی)"
+  },
+  {
+    "sound_de": "einen Computer haben",
+    "root": "این عبارت به معنی 'کامپیوتر داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Computer' (کامپیوتر)، 'haben' فعل به معنی داشتن.\nمترادف: einen PC besitzen (کامپیوتر داشتن)"
+  },
+  {
+    "sound_de": "einen Fehler machen",
+    "root": "این عبارت به معنی 'اشتباه کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Fehler' (اشتباه)، 'machen' فعل به معنی کردن.\nمترادف: einen Mistake begehen (اشتباه مرتکب شدن)"
+  },
+  {
+    "sound_de": "einen Film sehen",
+    "root": "این عبارت به معنی 'فیلم دیدن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Film' (فیلم)، 'sehen' فعل به معنی دیدن.\nمترادف: einen Movie anschauen (فیلم تماشا کردن)"
+  },
+  {
+    "sound_de": "einen Flug buchen",
+    "root": "این عبارت به معنی 'پرواز رزرو کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Flug' (پرواز)، 'buchen' فعل به معنی رزرو کردن.\nمترادف: einen Flight reservieren (پرواز رزرو کردن)"
+  },
+  {
+    "sound_de": "einen Job finden",
+    "root": "این عبارت به معنی 'شغل پیدا کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Job' (شغل)، 'finden' فعل به معنی پیدا کردن.\nمترادف: eine Arbeit entdecken (شغل پیدا کردن)"
+  },
+  {
+    "sound_de": "einen Job suchen",
+    "root": "این عبارت به معنی 'شغل جستجو کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Job' (شغل)، 'suchen' فعل به معنی جستجو کردن.\nمترادف: eine Stelle suchen (شغل جستجو کردن)"
+  },
+  {
+    "sound_de": "einen Kaffee kochen",
+    "root": "این عبارت به معنی 'قهوه دم کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Kaffee' (قهوه)، 'kochen' فعل به معنی دم کردن یا پختن.\nمترادف: einen Coffee zubereiten (قهوه آماده کردن)"
+  },
+  {
+    "sound_de": "einen Kredit brauchen",
+    "root": "این عبارت به معنی 'اعتبار نیاز داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Kredit' (اعتبار)، 'brauchen' فعل به معنی نیاز داشتن.\nمترادف: einen Loan benötigen (وام نیاز داشتن)"
+  },
+  {
+    "sound_de": "einen Kuchen backen",
+    "root": "این عبارت به معنی 'کیک پختن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Kuchen' (کیک)، 'backen' فعل به معنی پختن.\nمترادف: einen Cake backen (کیک پختن)"
+  },
+  {
+    "sound_de": "einen Kurs besuchen",
+    "root": "این عبارت به معنی 'دوره شرکت کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Kurs' (دوره)، 'besuchen' فعل به معنی شرکت کردن.\nمترادف: einen Course belegen (دوره ثبت‌نام کردن)"
+  },
+  {
+    "sound_de": "einen Laptop haben",
+    "root": "این عبارت به معنی 'لپ‌تاپ داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Laptop' (لپ‌تاپ)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einen Löffel bringen",
+    "root": "این عبارت به معنی 'قاشق آوردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Löffel' (قاشق)، 'bringen' فعل به معنی آوردن."
+  },
+  {
+    "sound_de": "einen Moment warten",
+    "root": "این عبارت به معنی 'لحظه‌ای منتظر ماندن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Moment' (لحظه)، 'warten' فعل به معنی منتظر ماندن.\nمترادف: einen Augenblick warten (لحظه‌ای منتظر ماندن)"
+  },
+  {
+    "sound_de": "einen neuen Job haben",
+    "root": "این عبارت به معنی 'شغل جدید داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'neuen' (جدید) 'Job' (شغل)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einen Parkplatz finden",
+    "root": "این عبارت به معنی 'جای پارک پیدا کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Parkplatz' (جای پارک)، 'finden' فعل به معنی پیدا کردن.\nمترادف: einen Parking spot entdecken (جای پارک پیدا کردن)"
+  },
+  {
+    "sound_de": "einen Plan machen",
+    "root": "این عبارت به معنی 'برنامه‌ریزی کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Plan' (برنامه)، 'machen' فعل به معنی کردن.\nمترادف: einen Scheme erstellen (طرح ساختن)"
+  },
+  {
+    "sound_de": "einen Rucksack mitnehmen",
+    "root": "این عبارت به معنی 'کوله‌پشتی بردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Rucksack' (کوله‌پشتی)، 'mitnehmen' فعل به معنی بردن با خود.\nمترادف: einen Backpack mitführen (کوله‌پشتی حمل کردن)"
+  },
+  {
+    "sound_de": "einen Stadtplan kaufen",
+    "root": "این عبارت به معنی 'نقشه شهر خریدن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Stadtplan' (نقشه شهر)، 'kaufen' فعل به معنی خریدن.\nمترادف: einen City map erwerben (نقشه شهر خریدن)"
+  },
+  {
+    "sound_de": "einen Stift haben",
+    "root": "این عبارت به معنی 'خودکار داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Stift' (خودکار)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einen Termin machen",
+    "root": "این عبارت به معنی 'قرار گذاشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Termin' (قرار)، 'machen' فعل به معنی گذاشتن.\nمترادف: einen Appointment vereinbaren (قرار هماهنگ کردن)"
+  },
+  {
+    "sound_de": "einen Termin vereinbaren",
+    "root": "این عبارت به معنی 'قرار هماهنگ کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Termin' (قرار)، 'vereinbaren' فعل به معنی هماهنگ کردن.\nمترادف: einen Termin absprechen (قرار توافق کردن)"
+  },
+  {
+    "sound_de": "einen Text schreiben",
+    "root": "این عبارت به معنی 'متن نوشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Text' (متن)، 'schreiben' فعل به معنی نوشتن.\nمترادف: einen Passage verfassen (متن نگاشتن)"
+  },
+  {
+    "sound_de": "einen Tipp geben",
+    "root": "این عبارت به معنی 'نکته دادن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Tipp' (نکته)، 'geben' فعل به معنی دادن.\nمترادف: einen Hinweis geben (راهنمایی دادن)"
+  },
+  {
+    "sound_de": "einen Topf haben",
+    "root": "این عبارت به معنی 'قابلمه داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Topf' (قابلمه)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einen Vorschlag haben/machen",
+    "root": "این عبارت به معنی 'پیشنهاد داشتن/کردن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Vorschlag' (پیشنهاد)، 'haben' به معنی داشتن، '/' برای گزینه، 'machen' به معنی کردن.\nمترادف: einen Suggestion machen (پیشنهاد کردن)"
+  },
+  {
+    "sound_de": "einen Wagen haben",
+    "root": "این عبارت به معنی 'ماشین داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Wagen' (ماشین)، 'haben' فعل به معنی داشتن.\nمترادف: ein Auto haben (ماشین داشتن)"
+  },
+  {
+    "sound_de": "einen Witz erzählen",
+    "root": "این عبارت به معنی 'جوک گفتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Witz' (جوک)، 'erzählen' فعل به معنی گفتن.\nمترادف: einen Joke berichten (جوک گفتن)"
+  },
+  {
+    "sound_de": "einen Workshop haben",
+    "root": "این عبارت به معنی 'کارگاه داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Workshop' (کارگاه)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einen Zettel haben",
+    "root": "این عبارت به معنی 'کاغذ داشتن' است.\nاجزا: 'einen' مقاله نامعین singular masculine برای 'Zettel' (کاغذ کوچک)، 'haben' فعل به معنی داشتن."
+  },
+  {
+    "sound_de": "einfach sein",
+    "root": "این عبارت به معنی 'ساده بودن' است.\nاجزا: 'einfach' صفت به معنی ساده، 'sein' فعل بودن.\nمترادف: unkompliziert sein (غیرپیچیده بودن)\nمتضاد: schwierig sein (دشوار بودن)"
+  },
+  {
+    "sound_de": "einige Fehler",
+    "root": "این عبارت به معنی 'چند اشتباه' است.\nاجزا: 'einige' به معنی چند، 'Fehler' plural از 'Fehler' (اشتباه).\nمترادف: einige Mistakes (چند اشتباه)"
+  },
+  {
+    "sound_de": "Eintritt ist frei",
+    "root": "این عبارت به معنی 'ورود رایگان است' است.\nاجزا: 'Eintritt' (ورود)، 'ist' فعل بودن، 'frei' صفت به معنی رایگان.\nمترادف: Admission ist kostenlos (ورود رایگان است)\nمتضاد: Eintritt kostet (ورود هزینه دارد)"
+  },
+  {
+    "sound_de": "einverstanden sein",
+    "root": "این عبارت به معنی 'موافق بودن' است.\nاجزا: 'einverstanden' صفت به معنی موافق، 'sein' فعل بودن.\nمترادف: agree sein (موافق بودن)\nمتضاد: nicht einverstanden sein (موافق نبودن)"
+  },
+  {
+    "sound_de": "einzeln sprechen",
+    "root": "این عبارت به معنی 'تک‌تک صحبت کردن' است.\nاجزا: 'einzeln' قید به معنی تک‌تک، 'sprechen' فعل به معنی صحبت کردن.\nمترادف: individuell sprechen (فردی صحبت کردن)"
+  },
+  {
+    "sound_de": "Eis essen",
+    "root": "این عبارت به معنی 'بستنی خوردن' است.\nاجزا: 'Eis' (بستنی)، 'essen' فعل به معنی خوردن.\nمترادف: Ice cream verzehren (بستنی مصرف کردن)"
+  },
+  {
+    "sound_de": "Elektrogeräte finden",
+    "root": "این عبارت به معنی 'لوازم برقی پیدا کردن' است.\nاجزا: 'Elektrogeräte' plural از 'Elektrogerät' (لوازم برقی)، 'finden' فعل به معنی پیدا کردن.\nمترادف: Electrical appliances entdecken (لوازم برقی پیدا کردن)"
+  },
+  {
+    "sound_de": "endlich kommen",
+    "root": "این عبارت به معنی 'بالاخره آمدن' است.\nاجزا: 'endlich' قید به معنی بالاخره، 'kommen' فعل به معنی آمدن.\nمترادف: schließlich eintreffen (بالاخره رسیدن)"
+  },
+  {
+    "sound_de": "eng sein",
+    "root": "این عبارت به معنی 'تنگ بودن' است.\nاجزا: 'eng' صفت به معنی تنگ، 'sein' فعل بودن.\nمترادف: narrow sein (تنگ بودن)\nمتضاد: weit sein (گشاد بودن)"
+  },
+  {
+    "sound_de": "Erfahrung haben",
+    "root": "این عبارت به معنی 'تجربه داشتن' است.\nاجزا: 'Erfahrung' (تجربه)، 'haben' فعل به معنی داشتن.\nمترادف: Experience besitzen (تجربه داشتن)"
+  },
+  {
+    "sound_de": "erkältet sein",
+    "root": "این عبارت به معنی 'سرماخورده بودن' است.\nاجزا: 'erkältet' ماضی از 'erkälten' به معنی سرماخوردن، 'sein' فعل بودن.\nمترادف: verkühlt sein (سرماخورده بودن)\nمتضاد: gesund sein (سالم بودن)"
+  },
+  {
+    "sound_de": "Erlaubnis haben",
+    "root": "این عبارت به معنی 'اجازه داشتن' است.\nاجزا: 'Erlaubnis' (اجازه)، 'haben' فعل به معنی داشتن.\nمترادف: Permission haben (اجازه داشتن)"
+  },
+  {
+    "sound_de": "erlaubt sein",
+    "root": "این عبارت به معنی 'اجازه داشتن' است.\nاجزا: 'erlaubt' صفت به معنی مجاز، 'sein' فعل بودن.\nمترادف: gestattet sein (اجازه داشتن)\nمتضاد: verboten sein (ممنوع بودن)"
+  },
+  {
+    "sound_de": "Ermäßigung geben",
+    "root": "این عبارت به معنی 'تخفیف دادن' است.\nاجزا: 'Ermäßigung' (تخفیف)، 'geben' فعل به معنی دادن.\nمترادف: Discount gewähren (تخفیف اعطا کردن)"
+  },
+  {
+    "sound_de": "erreichen",
+    "root": "این فعل به معنی 'رسیدن' یا 'تماس گرفتن' است.\nاجزا: 'erreichen' فعل به معنی رسیدن یا دستیابی.\nمترادف: erreichen (رسیدن)"
+  },
+  {
+    "sound_de": "es eilig haben",
+    "root": "این عبارت به معنی 'عجله داشتن' است.\nاجزا: 'es' ضمیر خنثی، 'eilig' صفت به معنی عجله‌ای، 'haben' فعل به معنی داشتن.\nمترادف: es pressiert haben (عجله داشتن)"
+  },
+  {
+    "sound_de": "es geht",
+    "root": "این عبارت به معنی 'می‌رود' یا 'حال خوب است' است.\nاجزا: 'es' ضمیر خنثی، 'geht' شکل سوم شخص singular از 'gehen' به معنی رفتن.\nمترادف: es funktioniert (کار می‌کند)"
+  },
+  {
+    "sound_de": "es gibt ein Gewitter",
+    "root": "این عبارت به معنی 'رعد و برق وجود دارد' است.\nاجزا: 'es gibt' به معنی وجود دارد، 'ein' مقاله نامعین، 'Gewitter' (رعد و برق).\nمترادف: es gibt einen Sturm (طوفان وجود دارد)"
+  },
+  {
+    "sound_de": "es gibt etwas zu essen",
+    "root": "این عبارت به معنی 'چیزی برای خوردن وجود دارد' است.\nاجزا: 'es gibt' به معنی وجود دارد، 'etwas' (چیزی)، 'zu essen' به معنی برای خوردن."
+  },
+  {
+    "sound_de": "es gibt keine Karten",
+    "root": "این عبارت به معنی 'بلیتی وجود ندارد' است.\nاجزا: 'es gibt' به معنی وجود دارد، 'keine' منفی، 'Karten' plural از 'Karte' (کارت یا بلیت).\nمترادف: es gibt keine Tickets (بلیتی وجود ندارد)"
+  },
+  {
+    "sound_de": "es hat geklappt",
+    "root": "این عبارت به معنی 'موفق شد' است.\nاجزا: 'es' ضمیر، 'hat' فعل کمکی، 'geklappt' ماضی از 'klappen' به معنی موفق شدن.\nمترادف: es hat funktioniert (کار کرد)"
+  },
+  {
+    "sound_de": "es regnet",
+    "root": "این عبارت به معنی 'باران می‌بارد' است.\nاجزا: 'es' ضمیر برای آب و هوا، 'regnet' شکل سوم شخص singular از 'regnen' به معنی باریدن.\nمترادف: es gießt (باران می‌ریزد)\nمتضاد: es scheint die Sonne (خورشید می‌درخشد)"
+  },
+  {
+    "sound_de": "es regnet nicht, dann kommen wir",
+    "root": "این عبارت به معنی 'باران نمی‌بارد، پس می‌آییم' است.\nاجزا: 'es regnet nicht' (باران نمی‌بارد)، 'dann' (پس)، 'kommen wir' (می‌آییم).\nمترادف: wenn es nicht regnet, kommen wir (اگر باران نبارد، می‌آییم)"
+  },
+  {
+    "sound_de": "es schneit",
+    "root": "این عبارت به معنی 'برف می‌بارد' است.\nاجزا: 'es' ضمیر، 'schneit' شکل سوم شخص singular از 'schneien' به معنی برف باریدن.\nمترادف: es schneit (برف می‌بارد)"
+  },
+  {
+    "sound_de": "es tut mir leid",
+    "root": "این عبارت به معنی 'متأسفم' است.\nاجزا: 'es tut' (می‌کند)، 'mir' (به من)، 'leid' (درد)، یعنی 'برایم درد می‌کند' یعنی متأسفم.\nمترادف: ich bedauere (متأسفم)"
+  },
+  {
+    "sound_de": "es versuchen",
+    "root": "این عبارت به معنی 'امتحان کردن' است.\nاجزا: 'es' ضمیر، 'versuchen' فعل به معنی سعی کردن.\nمترادف: es probieren (امتحان کردن)"
+  },
+  {
+    "sound_de": "etwas bedeuten",
+    "root": "این عبارت به معنی 'چیزی معنی دادن' است.\nاجزا: 'etwas' (چیزی)، 'bedeuten' فعل به معنی معنی دادن.\nمترادف: etwas heißen (چیزی معنی کردن)"
+  },
+  {
+    "sound_de": "etwas bestätigen",
+    "root": "این عبارت به معنی 'چیزی تأیید کردن' است.\nاجزا: 'etwas' (چیزی)، 'bestätigen' فعل به معنی تأیید کردن.\nمترادف: etwas affirmieren (چیزی تأیید کردن)\nمتضاد: etwas verneinen (چیزی انکار کردن)"
+  },
+  {
+    "sound_de": "etwas bringen",
+    "root": "این عبارت به معنی 'چیزی آوردن' است.\nاجزا: 'etwas' (چیزی)، 'bringen' فعل به معنی آوردن.\nمترادف: etwas mitbringen (چیزی همراه آوردن)"
+  },
+  {
+    "sound_de": "etwas erklären",
+    "root": "این عبارت به معنی 'چیزی توضیح دادن' است.\nاجزا: 'etwas' (چیزی)، 'erklären' فعل به معنی توضیح دادن.\nمترادف: etwas erläutern (چیزی روشن کردن)"
+  },
+  {
+    "sound_de": "etwas erzählen",
+    "root": "این عبارت به معنی 'چیزی گفتن' است.\nاجزا: 'etwas' (چیزی)، 'erzählen' فعل به معنی گفتن.\nمترادف: etwas berichten (چیزی گزارش کردن)"
+  },
+  {
+    "sound_de": "etwas finden",
+    "root": "این عبارت به معنی 'چیزی پیدا کردن' است.\nاجزا: 'etwas' (چیزی)، 'finden' فعل به معنی پیدا کردن.\nمترادف: etwas entdecken (چیزی کشف کردن)\nمتضاد: etwas verlieren (چیزی گم کردن)"
+  },
+  {
+    "sound_de": "etwas für den Körper tun",
+    "root": "این عبارت به معنی 'چیزی برای بدن کردن' است.\nاجزا: 'etwas' (چیزی)، 'für' (برای)، 'den Körper' (بدن)، 'tun' فعل به معنی کردن.\nمترادف: etwas für die Gesundheit tun (چیزی برای سلامتی کردن)"
+  },
+  {
+    "sound_de": "etwas gebastelt haben",
+    "root": "این عبارت به معنی 'چیزی ساخته داشتن' است.\nاجزا: 'etwas' (چیزی)، 'gebastelt' ماضی از 'basteln' به معنی ساختن手工، 'haben' فعل کمکی.\nمترادف: etwas geknutzelt haben (چیزی手工 ساخته داشتن)"
+  },
+  {
+    "sound_de": "etwas gegen Grippe haben",
+    "root": "این عبارت به معنی 'چیزی علیه آنفولانزا داشتن' است.\nاجزا: 'etwas' (چیزی)، 'gegen' (علیه)، 'Grippe' (آنفولانزا)، 'haben' فعل به معنی داشتن.\nمترادف: etwas gegen Influenza haben (چیزی علیه آنفولانزا داشتن)"
+  },
+  {
+    "sound_de": "etwas gut/schlecht finden",
+    "root": "این عبارت به معنی 'چیزی خوب/بد یافتن' است.\nاجزا: 'etwas' (چیزی)، 'gut' (خوب)/'schlecht' (بد)، 'finden' فعل به معنی یافتن.\nمترادف: etwas positiv/negativ bewerten (چیزی مثبت/منفی ارزیابی کردن)"
+  },
+  {
+    "sound_de": "etwas halten",
+    "root": "این عبارت به معنی 'چیزی نگه داشتن' است.\nاجزا: 'etwas' (چیزی)، 'halten' فعل به معنی نگه داشتن.\nمترادف: etwas festhalten (چیزی محکم نگه داشتن)"
+  },
+  {
+    "sound_de": "etwas herstellen",
+    "root": "این عبارت به معنی 'چیزی تولید کردن' است.\nاجزا: 'etwas' (چیزی)، 'herstellen' فعل به معنی تولید کردن.\nمترادف: etwas produzieren (چیزی تولید کردن)"
+  },
+  {
+    "sound_de": "etwas herunterladen",
+    "root": "این عبارت به معنی 'چیزی دانلود کردن' است.\nاجزا: 'etwas' (چیزی)، 'herunterladen' فعل به معنی دانلود کردن.\nمترادف: etwas downloaden (چیزی دانلود کردن)"
+  },
+  {
+    "sound_de": "etwas holen",
+    "root": "این عبارت به معنی 'چیزی آوردن' است.\nاجزا: 'etwas' (چیزی)، 'holen' فعل به معنی آوردن یا گرفتن.\nمترادف: etwas fetchen (چیزی آوردن)"
+  },
 
+  {
+    "Sound_de": "etwas legen",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something' یا 'چیزی'، 'legen' فعل به معنی 'to lay' یا 'to put down'.\nمترادف آلمانی: etwas hinlegen (چیزی را پایین گذاشتن), etwas ablegen (چیزی را کنار گذاشتن).\nمتضاد آلمانی: etwas aufheben (چیزی را برداشتن)."
+  },
+  {
+    "Sound_de": "etwas machen",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'machen' فعل به معنی 'to do' یا 'to make'.\nمترادف آلمانی: etwas tun (چیزی کردن), etwas herstellen (چیزی ساختن).\nمتضاد آلمانی: nichts machen (هیچ کاری نکردن)."
+  },
+  {
+    "Sound_de": "etwas notieren",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'notieren' فعل به معنی 'to note' یا 'to jot down'.\nمترادف آلمانی: etwas aufschreiben (چیزی نوشتن), etwas vermerken (چیزی ثبت کردن)."
+  },
+  {
+    "Sound_de": "etwas raten",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'raten' فعل به معنی 'to guess' یا 'to advise'.\nمترادف آلمانی: etwas schätzen (چیزی تخمین زدن), etwas erraten (چیزی حدس زدن)."
+  },
+  {
+    "Sound_de": "etwas schaffen",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'schaffen' فعل به معنی 'to create' یا 'to manage'.\nمترادف آلمانی: etwas erzeugen (چیزی تولید کردن), etwas bewältigen (چیزی مدیریت کردن).\nمتضاد آلمانی: etwas misslingen (چیزی شکست خوردن)."
+  },
+  {
+    "Sound_de": "etwas schenken",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'schenken' فعل به معنی 'to give as a gift'.\nمترادف آلمانی: etwas verschenken (چیزی هدیه دادن), etwas geben (چیزی دادن)."
+  },
+  {
+    "Sound_de": "etwas tragen",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'tragen' فعل به معنی 'to carry' یا 'to wear'.\nمترادف آلمانی: etwas mitnehmen (چیزی بردن), etwas anhaben (چیزی پوشیدن).\nمتضاد آلمانی: etwas ablegen (چیزی کنار گذاشتن)."
+  },
+  {
+    "Sound_de": "etwas trinken",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'trinken' فعل به معنی 'to drink'.\nمترادف آلمانی: etwas nippen (چیزی جرعه جرعه خوردن).\nمتضاد آلمانی: etwas essen (چیزی خوردن، اما برای جامدات)."
+  },
+  {
+    "Sound_de": "etwas tun",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'tun' فعل به معنی 'to do'.\nمترادف آلمانی: etwas machen (چیزی کردن).\nمتضاد آلمانی: nichts tun (هیچ کاری نکردن)."
+  },
+  {
+    "Sound_de": "etwas unternehmen",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'unternehmen' فعل به معنی 'to undertake' یا 'to do something'.\nمترادف آلمانی: etwas machen (چیزی کردن), etwas vornehmen (چیزی انجام دادن)."
+  },
+  {
+    "Sound_de": "etwas vergessen",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'vergessen' فعل به معنی 'to forget'.\nمترادف آلمانی: etwas übersehen (چیزی نادیده گرفتن).\nمتضاد آلمانی: etwas erinnern (چیزی به خاطر آوردن)."
+  },
+  {
+    "Sound_de": "etwas verlieren",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'verlieren' فعل به معنی 'to lose'.\nمترادف آلمانی: etwas abhandenkommen (چیزی گم شدن).\nمتضاد آلمانی: etwas finden (چیزی پیدا کردن)."
+  },
+  {
+    "Sound_de": "etwas vorbereiten",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'vorbereiten' فعل به معنی 'to prepare'.\nمترادف آلمانی: etwas zubereiten (چیزی آماده کردن), etwas herrichten (چیزی ترتیب دادن)."
+  },
+  {
+    "Sound_de": "etwas zum Schreiben haben",
+    "root": "اجزای تشکیل‌دهنده: 'etwas' به معنی 'something'، 'zum Schreiben' به معنی 'for writing'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Schreibzeug haben (ابزار نوشتاری داشتن)."
+  },
+  {
+    "Sound_de": "Falsch sein",
+    "root": "اجزای تشکیل‌دهنده: 'falsch' صفت به معنی 'wrong' یا 'false'، 'sein' فعل کمکی به معنی 'to be'.\nمترادف آلمانی: unrichtig sein (نادرست بودن), irrig sein (اشتباه بودن).\nمتضاد آلمانی: richtig sein (درست بودن)."
+  },
+  {
+    "Sound_de": "Familie leben",
+    "root": "اجزای تشکیل‌دهنده: 'Familie' به معنی 'family'، 'leben' فعل به معنی 'to live'.\nمترادف آلمانی: in Familie leben (در خانواده زندگی کردن)."
+  },
+  {
+    "Sound_de": "fantastisch aussehen",
+    "root": "اجزای تشکیل‌دهنده: 'fantastisch' صفت به معنی 'fantastic'، 'aussehen' فعل به معنی 'to look'.\nمترادف آلمانی: großartig aussehen (عالی به نظر رسیدن), toll aussehen (عالی به نظر رسیدن).\nمتضاد آلمانی: schrecklich aussehen (وحشتناک به نظر رسیدن)."
+  },
+  {
+    "Sound_de": "fast zu Ende sein",
+    "root": "اجزای تشکیل‌دهنده: 'fast' قید به معنی 'almost'، 'zu Ende' به معنی 'to end'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: beinahe beendet sein (تقریباً تمام شدن)."
+  },
+  {
+    "Sound_de": "faul sein",
+    "root": "اجزای تشکیل‌دهنده: 'faul' صفت به معنی 'lazy'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: träge sein (تنبل بودن).\nمتضاد آلمانی: fleißig sein (سخت‌کوش بودن)."
+  },
+  {
+    "Sound_de": "Fehler machen",
+    "root": "اجزای تشکیل‌دهنده: 'Fehler' به معنی 'mistake'، 'machen' فعل به معنی 'to make'.\nمترادف آلمانی: einen Irrtum begehen (اشتباه مرتکب شدن).\nمتضاد آلمانی: richtig machen (درست کردن)."
+  },
+  {
+    "Sound_de": "Feierabend haben",
+    "root": "اجزای تشکیل‌دهنده: 'Feierabend' به معنی 'end of work day'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Feierabend machen (پایان کار داشتن)."
+  },
+  {
+    "Sound_de": "Feiertag sein",
+    "root": "اجزای تشکیل‌دهنده: 'Feiertag' به معنی 'holiday'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: Feiertag haben (تعطیل بودن)."
+  },
+  {
+    "Sound_de": "Ferien haben",
+    "root": "اجزای تشکیل‌دهنده: 'Ferien' به معنی 'vacation'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Urlaub haben (تعطیلات داشتن)."
+  },
+  {
+    "Sound_de": "fertig sein",
+    "root": "اجزای تشکیل‌دهنده: 'fertig' صفت به معنی 'finished'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: beendet sein (تمام شدن).\nمتضاد آلمانی: unfertig sein (ناتمام بودن)."
+  },
+  {
+    "Sound_de": "Fieber haben",
+    "root": "اجزای تشکیل‌دهنده: 'Fieber' به معنی 'fever'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Fieber bekommen (تب داشتن)."
+  },
+  {
+    "Sound_de": "Fisch mögen",
+    "root": "اجزای تشکیل‌دهنده: 'Fisch' به معنی 'fish'، 'mögen' فعل به معنی 'to like'.\nمترادف آلمانی: Fisch lieben (ماهی دوست داشتن).\nمتضاد آلمانی: Fisch hassen (ماهی متنفر بودن)."
+  },
+  {
+    "Sound_de": "fit sein",
+    "root": "اجزای تشکیل‌دهنده: 'fit' صفت به معنی 'fit'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: in Form sein (در فرم بودن).\nمتضاد آلمانی: unfit sein (نامناسب بودن)."
+  },
+  {
+    "Sound_de": "Fleisch braten",
+    "root": "اجزای تشکیل‌دهنده: 'Fleisch' به معنی 'meat'، 'braten' فعل به معنی 'to fry' یا 'to roast'.\nمترادف آلمانی: Fleisch grillen (گوشت کباب کردن)."
+  },
+  {
+    "Sound_de": "Fleisch mag ich nicht",
+    "root": "اجزای تشکیل‌دهنده: 'Fleisch' به معنی 'meat'، 'mag' از 'mögen' به معنی 'like'، 'ich nicht' به معنی 'I not'.\nمترادف آلمانی: Fleisch hasse ich (گوشت متنفرم)."
+  },
+  {
+    "Sound_de": "fleißig sein",
+    "root": "اجزای تشکیل‌دهنده: 'fleißig' صفت به معنی 'diligent'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: arbeitsam sein (سخت‌کوش بودن).\nمتضاد آلمانی: faul sein (تنبل بودن)."
+  },
+  {
+    "Sound_de": "Fotografieren",
+    "root": "اجزای تشکیل‌دهنده: 'fotografieren' فعل به معنی 'to photograph'.\nمترادف آلمانی: knipsen (عکس گرفتن), fotografieren (عکاسی کردن)."
+  },
+  {
+    "Sound_de": "Fragen stellen",
+    "root": "اجزای تشکیل‌دهنده: 'Fragen' به معنی 'questions'، 'stellen' فعل به معنی 'to ask' یا 'to pose'.\nمترادف آلمانی: Fragen stellen (سؤال پرسیدن)."
+  },
+  {
+    "Sound_de": "freiwillig länger im Büro bleiben",
+    "root": "اجزای تشکیل‌دهنده: 'freiwillig' قید به معنی 'voluntarily'، 'länger' به معنی 'longer'، 'im Büro' به معنی 'in the office'، 'bleiben' فعل به معنی 'to stay'.\nمترادف آلمانی: freiwillig überstunden machen (داوطلبانه اضافه‌کاری کردن)."
+  },
+  {
+    "Sound_de": "fremd sein",
+    "root": "اجزای تشکیل‌دهنده: 'fremd' صفت به معنی 'strange' یا 'foreign'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: unbekannt sein (ناشناخته بودن).\nمتضاد آلمانی: vertraut sein (آشنا بودن)."
+  },
+  {
+    "Sound_de": "freundlich sein",
+    "root": "اجزای تشکیل‌دهنده: 'freundlich' صفت به معنی 'friendly'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: nett sein (خوب بودن).\nمتضاد آلمانی: unfreundlich sein (غیر دوستانه بودن)."
+  },
+  {
+    "Sound_de": "frisch sein",
+    "root": "اجزای تشکیل‌دهنده: 'frisch' صفت به معنی 'fresh'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: neu sein (جدید بودن).\nمتضاد آلمانی: alt sein (قدیمی بودن)."
+  },
+  {
+    "Sound_de": "froh sein",
+    "root": "اجزای تشکیل‌دهنده: 'froh' صفت به معنی 'glad'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: glücklich sein (خوشحال بودن).\nمتضاد آلمانی: traurig sein (غمگین بودن)."
+  },
+  {
+    "Sound_de": "früher wohnen",
+    "root": "اجزای تشکیل‌دهنده: 'früher' قید به معنی 'earlier' یا 'formerly'، 'wohnen' فعل به معنی 'to live'.\nمترادف آلمانی: zuvor wohnen (قبلاً زندگی کردن)."
+  },
+  {
+    "Sound_de": "Frühstück essen",
+    "root": "اجزای تشکیل‌دهنده: 'Frühstück' به معنی 'breakfast'، 'essen' فعل به معنی 'to eat'.\nمترادف آلمانی: Frühstück zu sich nehmen (صبحانه خوردن)."
+  },
+  {
+    "Sound_de": "fünf nach zwölf",
+    "root": "اجزای تشکیل‌دهنده: 'fünf' به معنی 'five'، 'nach' به معنی 'after'، 'zwölf' به معنی 'twelve'.\nمترادف آلمانی: 12:05 Uhr (ساعت 12:05)."
+  },
+  {
+    "Sound_de": "für das Konzert Karten haben",
+    "root": "اجزای تشکیل‌دهنده: 'für das Konzert' به معنی 'for the concert'، 'Karten' به معنی 'tickets'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Konzertkarten besitzen (بلیط کنسرت داشتن)."
+  },
+  {
+    "Sound_de": "für Sie",
+    "root": "اجزای تشکیل‌دهنده: 'für' حرف اضافه به معنی 'for'، 'Sie' ضمیر به معنی 'you' (رسمی).\nمترادف آلمانی: für dich (برای تو، غیررسمی)."
+  },
+  {
+    "Sound_de": "furchtbar aussehen",
+    "root": "اجزای تشکیل‌دهنده: 'furchtbar' صفت به معنی 'terrible'، 'aussehen' فعل به معنی 'to look'.\nمترادف آلمانی: schrecklich aussehen (وحشتناک به نظر رسیدن).\nمتضاد آلمانی: wunderbar aussehen (عالی به نظر رسیدن)."
+  },
+  {
+    "Sound_de": "Fußball spielen",
+    "root": "اجزای تشکیل‌دهنده: 'Fußball' به معنی 'soccer'، 'spielen' فعل به معنی 'to play'.\nمترادف آلمانی: Fußball treten (فوتبال بازی کردن)."
+  },
+  {
+    "Sound_de": "ganz nett sein",
+    "root": "اجزای تشکیل‌دهنده: 'ganz' قید به معنی 'quite'، 'nett' صفت به معنی 'nice'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: ziemlich freundlich sein (کاملاً دوستانه بودن)."
+  },
+  {
+    "Sound_de": "ganz vergessen",
+    "root": "اجزای تشکیل‌دهنده: 'ganz' قید به معنی 'completely'، 'vergessen' فعل به معنی 'to forget'.\nمترادف آلمانی: total vergessen (کاملاً فراموش کردن).\nمتضاد آلمانی: ganz erinnern (کاملاً به خاطر آوردن)."
+  },
+  {
+    "Sound_de": "Gäste haben",
+    "root": "اجزای تشکیل‌دهنده: 'Gäste' به معنی 'guests'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Besucher haben (مهمان داشتن)."
+  },
+  {
+    "Sound_de": "geboren sein",
+    "root": "اجزای تشکیل‌دهنده: 'geboren' صفت به معنی 'born'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: zur Welt kommen (به دنیا آمدن)."
+  },
+  {
+    "Sound_de": "Geburtstag feiern",
+    "root": "اجزای تشکیل‌دهنده: 'Geburtstag' به معنی 'birthday'، 'feiern' فعل به معنی 'to celebrate'.\nمترادف آلمانی: Geburtstag begehen (تولد جشن گرفتن)."
+  },
+  {
+    "Sound_de": "Geburtstag haben",
+    "root": "اجزای تشکیل‌دهنده: 'Geburtstag' به معنی 'birthday'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Geburtstag feiern (تولد داشتن، اما جشن)."
+  },
+  {
+    "Sound_de": "gefährlich sein",
+    "root": "اجزای تشکیل‌دهنده: 'gefährlich' صفت به معنی 'dangerous'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: riskant sein (خطرناک بودن).\nمتضاد آلمانی: sicher sein (امن بودن)."
+  },
+  {
+    "Sound_de": "gegen den Baum fahren",
+    "root": "اجزای تشکیل‌دهنده: 'gegen' حرف اضافه به معنی 'against'، 'den Baum' به معنی 'the tree'، 'fahren' فعل به معنی 'to drive'.\nمترادف آلمانی: in den Baum crashen (به درخت برخورد کردن)."
+  },
+  {
+    "Sound_de": "gegen den Vorschlag sein",
+    "root": "اجزای تشکیل‌دهنده: 'gegen' حرف اضافه به معنی 'against'، 'den Vorschlag' به معنی 'the proposal'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: den Vorschlag ablehnen (پیشنهاد را رد کردن).\nمتضاد آلمانی: für den Vorschlag sein (برای پیشنهاد بودن)."
+  },
+  {
+    "Sound_de": "gegen wen spielen",
+    "root": "اجزای تشکیل‌دهنده: 'gegen' حرف اضافه به معنی 'against'، 'wen' ضمیر به معنی 'whom'، 'spielen' فعل به معنی 'to play'.\nمترادف آلمانی: gegen wen antreten (در مقابل کی بازی کردن)."
+  },
+  {
+    "Sound_de": "gegenüber vom Bahnhof",
+    "root": "اجزای تشکیل‌دهنده: 'gegenüber' حرف اضافه به معنی 'opposite'، 'vom Bahnhof' به معنی 'from the station'.\nمترادف آلمانی: gegenüber dem Bahnhof (مقابل ایستگاه)."
+  },
+  {
+    "Sound_de": "Geld haben",
+    "root": "اجزای تشکیل‌دهنده: 'Geld' به معنی 'money'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Geld besitzen (پول داشتن).\nمتضاد آلمانی: kein Geld haben (پول نداشتن)."
+  },
+  {
+    "Sound_de": "Geld leihen",
+    "root": "اجزای تشکیل‌دهنده: 'Geld' به معنی 'money'، 'leihen' فعل به معنی 'to lend' یا 'to borrow'.\nمترادف آلمانی: Geld borgen (پول قرض کردن).\nمتضاد آلمانی: Geld zurückgeben (پول پس دادن)."
+  },
+  {
+    "Sound_de": "Geld überweisen",
+    "root": "اجزای تشکیل‌دهنده: 'Geld' به معنی 'money'، 'überweisen' فعل به معنی 'to transfer'.\nمترادف آلمانی: Geld senden (پول ارسال کردن)."
+  },
+  {
+    "Sound_de": "Geld verdienen",
+    "root": "اجزای تشکیل‌دهنده: 'Geld' به معنی 'money'، 'verdienen' فعل به معنی 'to earn'.\nمترادف آلمانی: Geld machen (پول درآوردن).\nمتضاد آلمانی: Geld ausgeben (پول خرج کردن)."
+  },
+  {
+    "Sound_de": "Geld wechseln",
+    "root": "اجزای تشکیل‌دهنده: 'Geld' به معنی 'money'، 'wechseln' فعل به معنی 'to exchange'.\nمترادف آلمانی: Währung umtauschen (ارز تعویض کردن)."
+  },
+  {
+    "Sound_de": "Gemüse kaufen",
+    "root": "اجزای تشکیل‌دهنده: 'Gemüse' به معنی 'vegetables'، 'kaufen' فعل به معنی 'to buy'.\nمترادف آلمانی: Gemüse erwerben (سبزیجات خریدن)."
+  },
+  {
+    "Sound_de": "genau acht Uhr",
+    "root": "اجزای تشکیل‌دهنده: 'genau' قید به معنی 'exactly'، 'acht Uhr' به معنی 'eight o'clock'.\nمترادف آلمانی: punkt acht Uhr (دقیقاً هشت)."
+  },
+  {
+    "Sound_de": "genau sein",
+    "root": "اجزای تشکیل‌دهنده: 'genau' صفت به معنی 'exact'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: präzise sein (دقیق بودن).\nمتضاد آلمانی: ungenau sein (غیردقیق بودن)."
+  },
+  {
+    "Sound_de": "genug sein",
+    "root": "اجزای تشکیل‌دهنده: 'genug' صفت به معنی 'enough'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: ausreichen (کافی بودن).\nمتضاد آلمانی: nicht genug sein (کافی نبودن)."
+  },
+  {
+    "Sound_de": "geöffnet sein",
+    "root": "اجزای تشکیل‌دهنده: 'geöffnet' صفت به معنی 'open'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: offen sein (باز بودن).\nمتضاد آلمانی: geschlossen sein (بسته بودن)."
+  },
+  {
+    "Sound_de": "Gepäck mitnehmen",
+    "root": "اجزای تشکیل‌دهنده: 'Gepäck' به معنی 'luggage'، 'mitnehmen' فعل به معنی 'to take along'.\nمترادف آلمانی: Gepäck mitführen (چمدان بردن)."
+  },
+  {
+    "Sound_de": "gerade essen",
+    "root": "اجزای تشکیل‌دهنده: 'gerade' قید به معنی 'just' یا 'straight'، 'essen' فعل به معنی 'to eat'.\nمترادف آلمانی: gerade speisen (در حال خوردن)."
+  },
+  {
+    "Sound_de": "gerade kommen",
+    "root": "اجزای تشکیل‌دهنده: 'gerade' قید به معنی 'just'، 'kommen' فعل به معنی 'to come'.\nمترادف آلمانی: gerade ankommen (در حال آمدن)."
+  },
+  {
+    "Sound_de": "geradeaus gehen",
+    "root": "اجزای تشکیل‌دهنده: 'geradeaus' قید به معنی 'straight ahead'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: straight gehen (مستقیم رفتن).\nمتضاد آلمانی: abbiegen (پیچیدن)."
+  },
+  {
+    "Sound_de": "gern helfen",
+    "root": "اجزای تشکیل‌دهنده: 'gern' قید به معنی 'gladly'، 'helfen' فعل به معنی 'to help'.\nمترادف آلمانی: gerne assistieren (با خوشحالی کمک کردن)."
+  },
+  {
+    "Sound_de": "Geschirr in den Schrank stellen",
+    "root": "اجزای تشکیل‌دهنده: 'Geschirr' به معنی 'dishes'، 'in den Schrank' به معنی 'in the cupboard'، 'stellen' فعل به معنی 'to put'.\nمترادف آلمانی: Geschirr einräumen (ظرف‌ها را در کابینت گذاشتن)."
+  },
+  {
+    "Sound_de": "gesund sein",
+    "root": "اجزای تشکیل‌دهنده: 'gesund' صفت به معنی 'healthy'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: wohl sein (سالم بودن).\nمتضاد آلمانی: krank sein (بیمار بودن)."
+  },
+  {
+    "Sound_de": "Gitarre spielen",
+    "root": "اجزای تشکیل‌دهنده: 'Gitarre' به معنی 'guitar'، 'spielen' فعل به معنی 'to play'.\nمترادف آلمانی: Gitarre zupfen (گیتار نواختن)."
+  },
+  {
+    "Sound_de": "gleich alt sein",
+    "root": "اجزای تشکیل‌دهنده: 'gleich' صفت به معنی 'same'، 'alt' صفت به معنی 'old'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: gleichaltrig sein (هم‌سن بودن)."
+  },
+  {
+    "Sound_de": "gleich kommen",
+    "root": "اجزای تشکیل‌دهنده: 'gleich' قید به معنی 'soon'، 'kommen' فعل به معنی 'to come'.\nمترادف آلمانی: bald kommen (به زودی آمدن)."
+  },
+  {
+    "Sound_de": "Glück haben",
+    "root": "اجزای تشکیل‌دهنده: 'Glück' به معنی 'luck'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Glück besitzen (شانس داشتن).\nمتضاد آلمانی: Pech haben (بدشانسی داشتن)."
+  },
+  {
+    "Sound_de": "groß sein",
+    "root": "اجزای تشکیل‌دهنده: 'groß' صفت به معنی 'big' یا 'tall'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: großartig sein (بزرگ بودن).\nمتضاد آلمانی: klein sein (کوچک بودن)."
+  },
+  {
+    "Sound_de": "Grüße an",
+    "root": "اجزای تشکیل‌دهنده: 'Grüße' به معنی 'greetings'، 'an' حرف اضافه به معنی 'to'.\nمترادف آلمانی: Grüße bestellen (سلام رساندن)."
+  },
+  {
+    "Sound_de": "gültig sein",
+    "root": "اجزای تشکیل‌دهنده: 'gültig' صفت به معنی 'valid'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: valid sein (معتبر بودن).\nمتضاد آلمانی: ungültig sein (نامعتبر بودن)."
+  },
+  {
+    "Sound_de": "günstige Angebote",
+    "root": "اجزای تشکیل‌دهنده: 'günstige' صفت به معنی 'cheap'، 'Angebote' به معنی 'offers'.\nمترادف آلمانی: billige Angebote (پیشنهادهای ارزان).\nمتضاد آلمانی: teure Angebote (پیشنهادهای گران)."
+  },
+  {
+    "Sound_de": "gut finden",
+    "root": "اجزای تشکیل‌دهنده: 'gut' صفت به معنی 'good'، 'finden' فعل به معنی 'to find'.\nمترادف آلمانی: mögen (دوست داشتن).\nمتضاد آلمانی: schlecht finden (بد یافتن)."
+  },
+  {
+    "Sound_de": "gut geschlafen haben",
+    "root": "اجزای تشکیل‌دهنده: 'gut' قید به معنی 'well'، 'geschlafen' فعل گذشته به معنی 'slept'، 'haben' فعل کمکی.\nمترادف آلمانی: gut geruht haben (خوب خوابیده بودن).\nمتضاد آلمانی: schlecht geschlafen haben (بد خوابیده بودن)."
+  },
+  {
+    "Sound_de": "gute Noten haben",
+    "root": "اجزای تشکیل‌دهنده: 'gute' صفت به معنی 'good'، 'Noten' به معنی 'grades'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: gute Zensuren haben (نمرات خوب داشتن).\nمتضاد آلمانی: schlechte Noten haben (نمرات بد داشتن)."
+  },
+  {
+    "Sound_de": "gute Qualität",
+    "root": "اجزای تشکیل‌دهنده: 'gute' صفت به معنی 'good'، 'Qualität' به معنی 'quality'.\nمترادف آلمانی: hohe Qualität (کیفیت بالا).\nمتضاد آلمانی: schlechte Qualität (کیفیت بد)."
+  },
+  {
+    "Sound_de": "Guten Appetit",
+    "root": "اجزای تشکیل‌دهنده: 'Guten' صفت به معنی 'good'، 'Appetit' به معنی 'appetite'.\nمترادف آلمانی: Mahlzeit (نوش جان)."
+  },
+  {
+    "Sound_de": "Guten Morgen",
+    "root": "اجزای تشکیل‌دهنده: 'Guten' صفت به معنی 'good'، 'Morgen' به معنی 'morning'.\nمترادف آلمانی: Hallo am Morgen (صبح بخیر)."
+  },
+  {
+    "Sound_de": "Hähnchen mit Pommes",
+    "root": "اجزای تشکیل‌دهنده: 'Hähnchen' به معنی 'chicken'، 'mit' حرف اضافه به معنی 'with'، 'Pommes' به معنی 'fries'.\nمترادف آلمانی: Huhn mit Fritten (مرغ با سیب‌زمینی سرخ‌کرده)."
+  },
+  {
+    "Sound_de": "Hals tut weh",
+    "root": "اجزای تشکیل‌دهنده: 'Hals' به معنی 'throat'، 'tut weh' عبارت به معنی 'hurts'.\nمترادف آلمانی: Halsschmerzen haben (گلو درد داشتن)."
+  },
+  {
+    "Sound_de": "Halsschmerzen haben",
+    "root": "اجزای تشکیل‌دهنده: 'Halsschmerzen' به معنی 'sore throat'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Kehlkopfschmerzen haben (گلو درد داشتن)."
+  },
+  {
+    "Sound_de": "Hände waschen",
+    "root": "اجزای تشکیل‌دهنده: 'Hände' به معنی 'hands'، 'waschen' فعل به معنی 'to wash'.\nمترادف آلمانی: Hände reinigen (دست‌ها را شستن)."
+  },
+  {
+    "Sound_de": "Handtuch geben",
+    "root": "اجزای تشکیل‌دهنده: 'Handtuch' به معنی 'towel'، 'geben' فعل به معنی 'to give'.\nمترادف آلمانی: Handtuch reichen (حوله دادن)."
+  },
+  {
+    "Sound_de": "Handynummer geben",
+    "root": "اجزای تشکیل‌دهنده: 'Handynummer' به معنی 'mobile number'، 'geben' فعل به معنی 'to give'.\nمترادف آلمانی: Mobilnummer angeben (شماره موبایل دادن)."
+  },
+  {
+    "Sound_de": "Handys ausmachen",
+    "root": "اجزای تشکیل‌دهنده: 'Handys' به معنی 'mobiles'، 'ausmachen' فعل به معنی 'to turn off'.\nمترادف آلمانی: Handys ausschalten (موبایل‌ها را خاموش کردن).\nمتضاد آلمانی: Handys anmachen (موبایل‌ها را روشن کردن)."
+  },
+  {
+    "Sound_de": "hart sein",
+    "root": "اجزای تشکیل‌دهنده: 'hart' صفت به معنی 'hard'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: fest sein (سخت بودن).\nمتضاد آلمانی: weich sein (نرم بودن)."
+  },
+  {
+    "Sound_de": "hässlich finden",
+    "root": "اجزای تشکیل‌دهنده: 'hässlich' صفت به معنی 'ugly'، 'finden' فعل به معنی 'to find'.\nمترادف آلمانی: unattraktiv finden (زشت یافتن).\nمتضاد آلمانی: schön finden (زیبا یافتن)."
+  },
+  {
+    "Sound_de": "Hauptstadt von Deutschland",
+    "root": "اجزای تشکیل‌دهنده: 'Hauptstadt' به معنی 'capital'، 'von Deutschland' به معنی 'of Germany'.\nمترادف آلمانی: Berlin (برلین)."
+  },
+  {
+    "Sound_de": "Heimat sein",
+    "root": "اجزای تشکیل‌دهنده: 'Heimat' به معنی 'home'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: Zuhause sein (خانه بودن)."
+  },
+  {
+    "Sound_de": "heiß sein",
+    "root": "اجزای تشکیل‌دهنده: 'heiß' صفت به معنی 'hot'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: warm sein (گرم بودن).\nمتضاد آلمانی: kalt sein (سرد بودن)."
+  },
+  {
+    "Sound_de": "heißen",
+    "root": "اجزای تشکیل‌دهنده: 'heißen' فعل به معنی 'to be called'.\nمترادف آلمانی: nennen (نامیده شدن)."
+  },
+  {
+    "Sound_de": "Heizung ist kaputt",
+    "root": "اجزای تشکیل‌دهنده: 'Heizung' به معنی 'heating'، 'ist' از 'sein' به معنی 'is'، 'kaputt' صفت به معنی 'broken'.\nمترادف آلمانی: Heizung defekt (گرمایش خراب)."
+  },
+  {
+    "Sound_de": "hell sein",
+    "root": "اجزای تشکیل‌دهنده: 'hell' صفت به معنی 'bright'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: licht sein (روشن بودن).\nمتضاد آلمانی: dunkel sein (تاریک بودن)."
+  },
+  {
+    "Sound_de": "herein kommen",
+    "root": "اجزای تشکیل‌دهنده: 'herein' قید به معنی 'in'، 'kommen' فعل به معنی 'to come'.\nمترادف آلمانی: eintreten (وارد شدن).\nمتضاد آلمانی: hinausgehen (بیرون رفتن)."
+  },
+  {
+    "Sound_de": "Herzlichen Glückwunsch",
+    "root": "اجزای تشکیل‌دهنده: 'Herzlichen' صفت به معنی 'hearty'، 'Glückwunsch' به معنی 'congratulations'.\nمترادف آلمانی: Gratulation (تبریک)."
+  },
+  {
+    "Sound_de": "heute arbeiten",
+    "root": "اجزای تشکیل‌دهنده: 'heute' قید به معنی 'today'، 'arbeiten' فعل به معنی 'to work'.\nمترادف آلمانی: heute jobben (امروز کار کردن)."
+  },
+  {
+    "Sound_de": "heute oder morgen",
+    "root": "اجزای تشکیل‌دهنده: 'heute' به معنی 'today'، 'oder' به معنی 'or'، 'morgen' به معنی 'tomorrow'.\nمترادف آلمانی: bald (به زودی)."
+  },
+  {
+    "Sound_de": "hier wohnen",
+    "root": "اجزای تشکیل‌دهنده: 'hier' قید به معنی 'here'، 'wohnen' فعل به معنی 'to live'.\nمترادف آلمانی: hier leben (اینجا زندگی کردن)."
+  },
+  {
+    "Sound_de": "Hilfe haben",
+    "root": "اجزای تشکیل‌دهنده: 'Hilfe' به معنی 'help'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Unterstützung haben (کمک داشتن)."
+  },
+  {
+    "Sound_de": "Himmel ist blau",
+    "root": "اجزای تشکیل‌دهنده: 'Himmel' به معنی 'sky'، 'ist' به معنی 'is'، 'blau' صفت به معنی 'blue'.\nمترادف آلمانی: Himmel ist azur (آسمان آبی است)."
+  },
+  {
+    "Sound_de": "hinten aussteigen",
+    "root": "اجزای تشکیل‌دهنده: 'hinten' قید به معنی 'at the back'، 'aussteigen' فعل به معنی 'to get off'.\nمترادف آلمانی: hinten herauskommen (از عقب پیاده شدن).\nمتضاد آلمانی: vorne aussteigen (از جلو پیاده شدن)."
+  },
+  {
+    "Sound_de": "hinter dem Haus",
+    "root": "اجزای تشکیل‌دهنده: 'hinter' حرف اضافه به معنی 'behind'، 'dem Haus' به معنی 'the house'.\nمترادف آلمانی: hinter dem Gebäude (پشت خانه).\nمتضاد آلمانی: vor dem Haus (جلوی خانه)."
+  },
+  {
+    "Sound_de": "Hobbys haben",
+    "root": "اجزای تشکیل‌دهنده: 'Hobbys' به معنی 'hobbies'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Freizeitaktivitäten haben (سرگرمی داشتن)."
+  },
+  {
+    "Sound_de": "hoch sein",
+    "root": "اجزای تشکیل‌دهنده: 'hoch' صفت به معنی 'high'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: groß sein (بلند بودن).\nمتضاد آلمانی: niedrig sein (کوتاه بودن)."
+  },
+  {
+    "Sound_de": "Homepage kennen",
+    "root": "اجزای تشکیل‌دهنده: 'Homepage' به معنی 'homepage'، 'kennen' فعل به معنی 'to know'.\nمترادف آلمانی: Website kennen (وبسایت شناختن)."
+  },
+  {
+    "Sound_de": "Hunde mögen",
+    "root": "اجزای تشکیل‌دهنده: 'Hunde' به معنی 'dogs'، 'mögen' فعل به معنی 'to like'.\nمترادف آلمانی: Hunde lieben (سگ‌ها دوست داشتن).\nمتضاد آلمانی: Hunde hassen (سگ‌ها متنفر بودن)."
+  },
+  {
+    "Sound_de": "Hunger haben",
+    "root": "اجزای تشکیل‌دهنده: 'Hunger' به معنی 'hunger'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: hungrig sein (گرسنه بودن).\nمتضاد آلمانی: satt sein (سیر بودن)."
+  },
+  {
+    "Sound_de": "ich komme ins Kino",
+    "root": "اجزای تشکیل‌دهنده: 'ich' ضمیر به معنی 'I'، 'komme' از 'kommen' به معنی 'come'، 'ins Kino' به معنی 'to the cinema'.\nمترادف آلمانی: ich gehe ins Kino (به سینما می‌روم)."
+  },
+  {
+    "Sound_de": "ich liebe dich",
+    "root": "اجزای تشکیل‌دهنده: 'ich' به معنی 'I'، 'liebe' از 'lieben' به معنی 'love'، 'dich' به معنی 'you'.\nمترادف آلمانی: ich hab dich lieb (دوستت دارم)."
+  },
+  {
+    "Sound_de": "im Angebot sein",
+    "root": "اجزای تشکیل‌دهنده: 'im' حرف اضافه به معنی 'in'، 'Angebot' به معنی 'offer'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: im Sale sein (در حراج بودن)."
+  },
+  {
+    "Sound_de": "im Bett bleiben",
+    "root": "اجزای تشکیل‌دهنده: 'im Bett' به معنی 'in bed'، 'bleiben' فعل به معنی 'to stay'.\nمترادف آلمانی: im Bett verweilen (در تخت ماندن)."
+  },
+  {
+    "Sound_de": "im Büro arbeiten",
+    "root": "اجزای تشکیل‌دهنده: 'im Büro' به معنی 'in the office'، 'arbeiten' فعل به معنی 'to work'.\nمترادف آلمانی: im Office jobben (در دفتر کار کردن)."
+  },
+  {
+    "Sound_de": "im Dorf leben",
+    "root": "اجزای تشکیل‌دهنده: 'im Dorf' به معنی 'in the village'، 'leben' فعل به معنی 'to live'.\nمترادف آلمانی: auf dem Land leben (در روستا زندگی کردن)."
+  },
+  {
+    "Sound_de": "im Erdgeschoss wohnen",
+    "root": "اجزای تشکیل‌دهنده: 'im Erdgeschoss' به معنی 'on the ground floor'، 'wohnen' فعل به معنی 'to live'.\nمترادف آلمانی: im Parterre wohnen (در طبقه همکف زندگی کردن)."
+  },
+  {
+    "Sound_de": "im ersten Stock wohnen",
+    "root": "اجزای تشکیل‌دهنده: 'im ersten Stock' به معنی 'on the first floor'، 'wohnen' فعل به معنی 'to live'.\nمترادف آلمانی: im 1. Etage wohnen (در طبقه اول زندگی کردن)."
+  },
+  {
+    "Sound_de": "im Hotel sein",
+    "root": "اجزای تشکیل‌دهنده: 'im Hotel' به معنی 'in the hotel'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: im Hotel übernachten (در هتل بودن)."
+  },
+  {
+    "Sound_de": "im Internet finden",
+    "root": "اجزای تشکیل‌دهنده: 'im Internet' به معنی 'on the internet'، 'finden' فعل به معنی 'to find'.\nمترادف آلمانی: online suchen (در اینترنت پیدا کردن)."
+  },
+  {
+    "Sound_de": "im Internet Musik hören",
+    "root": "اجزای تشکیل‌دهنده: 'im Internet' به معنی 'on the internet'، 'Musik hören' به معنی 'listen to music'.\nمترادف آلمانی: online Musik streamen (موسیقی آنلاین گوش دادن)."
+  },
+  {
+    "Sound_de": "im Internet surfen",
+    "root": "اجزای تشکیل‌دهنده: 'im Internet' به معنی 'on the internet'، 'surfen' فعل به معنی 'to surf'.\nمترادف آلمانی: im Web browsen (در اینترنت گشت زدن)."
+  },
+  {
+    "Sound_de": "im Krankenhaus sein",
+    "root": "اجزای تشکیل‌دهنده: 'im Krankenhaus' به معنی 'in the hospital'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: hospitalisiert sein (در بیمارستان بودن)."
+  },
+  {
+    "Sound_de": "im Moment",
+    "root": "اجزای تشکیل‌دهنده: 'im' حرف اضافه به معنی 'in'، 'Moment' به معنی 'moment'.\nمترادف آلمانی: gerade jetzt (در لحظه)."
+  },
+  {
+    "Sound_de": "im Park spazieren",
+    "root": "اجزای تشکیل‌دهنده: 'im Park' به معنی 'in the park'، 'spazieren' فعل به معنی 'to stroll'.\nمترادف آلمانی: im Park flanieren (در پارک قدم زدن)."
+  },
+  {
+    "Sound_de": "im Rathaus anmelden",
+    "root": "اجزای تشکیل‌دهنده: 'im Rathaus' به معنی 'in the town hall'، 'anmelden' فعل به معنی 'to register'.\nمترادف آلمانی: im Rathaus registrieren (در شهرداری ثبت کردن)."
+  },
+  {
+    "Sound_de": "im Raum stattfinden",
+    "root": "اجزای تشکیل‌دهنده: 'im Raum' به معنی 'in the room'، 'stattfinden' فعل به معنی 'to take place'.\nمترادف آلمانی: im Zimmer ablaufen (در اتاق اتفاق افتادن)."
+  },
+  {
+    "Sound_de": "im Reisebüro buchen",
+    "root": "اجزای تشکیل‌دهنده: 'im Reisebüro' به معنی 'in the travel agency'، 'buchen' فعل به معنی 'to book'.\nمترادف آلمانی: im Reisebüro reservieren (در آژانس مسافرتی رزرو کردن)."
+  },
+  {
+    "Sound_de": "im Restaurant essen",
+    "root": "اجزای تشکیل‌دهنده: 'im Restaurant' به معنی 'in the restaurant'، 'essen' فعل به معنی 'to eat'.\nمترادف آلمانی: auswärts essen (در رستوران خوردن)."
+  },
+  {
+    "Sound_de": "im Schrank stehen",
+    "root": "اجزای تشکیل‌دهنده: 'im Schrank' به معنی 'in the cupboard'، 'stehen' فعل به معنی 'to stand'.\nمترادف آلمانی: im Schrank lagern (در کابینت ایستادن)."
+  },
+  {
+    "Sound_de": "im Supermarkt einkaufen",
+    "root": "اجزای تشکیل‌دهنده: 'im Supermarkt' به معنی 'in the supermarket'، 'einkaufen' فعل به معنی 'to shop'.\nمترادف آلمانی: im Supermarkt besorgen (در سوپرمارکت خرید کردن)."
+  },
+  {
+    "Sound_de": "im Verein sein",
+    "root": "اجزای تشکیل‌دهنده: 'im Verein' به معنی 'in the club'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: Mitglied sein (عضو بودن)."
+  },
+  {
+    "Sound_de": "im Wald spazieren",
+    "root": "اجزای تشکیل‌دهنده: 'im Wald' به معنی 'in the forest'، 'spazieren' فعل به معنی 'to stroll'.\nمترادف آلمانی: im Wald wandern (در جنگل قدم زدن)."
+  },
+  {
+    "Sound_de": "im Wohnzimmer fernsehen",
+    "root": "اجزای تشکیل‌دهنده: 'im Wohnzimmer' به معنی 'in the living room'، 'fernsehen' فعل به معنی 'to watch TV'.\nمترادف آلمانی: im Wohnzimmer TV schauen (در اتاق نشیمن تلویزیون دیدن)."
+  },
+  {
+    "Sound_de": "im Zelt schlafen",
+    "root": "اجزای تشکیل‌دهنده: 'im Zelt' به معنی 'in the tent'، 'schlafen' فعل به معنی 'to sleep'.\nمترادف آلمانی: campen (در چادر خوابیدن)."
+  },
+  {
+    "Sound_de": "im Zentrum wohnen",
+    "root": "اجزای تشکیل‌دهنده: 'im Zentrum' به معنی 'in the center'، 'wohnen' فعل به معنی 'to live'.\nمترادف آلمانی: zentral wohnen (در مرکز زندگی کردن).\nمتضاد آلمانی: am Rand wohnen (در حاشیه زندگی کردن)."
+  },
+  {
+    "Sound_de": "in den Kalender schauen",
+    "root": "اجزای تشکیل‌دهنده: 'in den Kalender' به معنی 'in the calendar'، 'schauen' فعل به معنی 'to look'.\nمترادف آلمانی: in den Kalender blicken (به تقویم نگاه کردن)."
+  },
+  {
+    "Sound_de": "in den Keller bringen",
+    "root": "اجزای تشکیل‌دهنده: 'in den Keller' به معنی 'to the basement'، 'bringen' فعل به معنی 'to bring'.\nمترادف آلمانی: in den Keller transportieren (به زیرزمین بردن)."
+  },
+  {
+    "Sound_de": "in den Kindergarten gehen",
+    "root": "اجزای تشکیل‌دهنده: 'in den Kindergarten' به معنی 'to the kindergarten'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: in den Kita gehen (به مهدکودک رفتن)."
+  },
+  {
+    "Sound_de": "in den Müll werfen",
+    "root": "اجزای تشکیل‌دهنده: 'in den Müll' به معنی 'in the trash'، 'werfen' فعل به معنی 'to throw'.\nمترادف آلمانی: wegwerfen (دور انداختن)."
+  },
+  {
+    "Sound_de": "in den Zirkus gehen",
+    "root": "اجزای تشکیل‌دهنده: 'in den Zirkus' به معنی 'to the circus'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: Zirkus besuchen (به سیرک رفتن)."
+  },
+  {
+    "Sound_de": "in den Zoo gehen",
+    "root": "اجزای تشکیل‌دهنده: 'in den Zoo' به معنی 'to the zoo'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: Zoo besuchen (به باغ وحش رفتن)."
+  },
+  {
+    "Sound_de": "in der Bibliothek lernen",
+    "root": "اجزای تشکیل‌دهنده: 'in der Bibliothek' به معنی 'in the library'، 'lernen' فعل به معنی 'to learn'.\nمترادف آلمانی: in der Bibliothek studieren (در کتابخانه درس خواندن)."
+  },
+  {
+    "Sound_de": "in der dritten Reihe sitzen",
+    "root": "اجزای تشکیل‌دهنده: 'in der dritten Reihe' به معنی 'in the third row'، 'sitzen' فعل به معنی 'to sit'.\nمترادف آلمانی: in Reihe 3 sitzen (در ردیف سوم نشستن)."
+  },
+  {
+    "Sound_de": "in der Freizeit",
+    "root": "اجزای تشکیل‌دهنده: 'in der' حرف اضافه، 'Freizeit' به معنی 'leisure time'.\nمترادف آلمانی: in der Freizeit (در اوقات فراغت)."
+  },
+  {
+    "Sound_de": "in der Nähe sein",
+    "root": "اجزای تشکیل‌دهنده: 'in der Nähe' به معنی 'nearby'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: nah sein (نزدیک بودن).\nمتضاد آلمانی: fern sein (دور بودن)."
+  },
+  {
+    "Sound_de": "in der Natur sein",
+    "root": "اجزای تشکیل‌دهنده: 'in der Natur' به معنی 'in nature'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: draußen sein (در طبیعت بودن)."
+  },
+  {
+    "Sound_de": "in der Zeitung stehen",
+    "root": "اجزای تشکیل‌دهنده: 'in der Zeitung' به معنی 'in the newspaper'، 'stehen' فعل به معنی 'to stand' یا 'to be written'.\nمترادف آلمانی: in der Presse sein (در روزنامه بودن)."
+  },
+  {
+    "Sound_de": "in die Ausstellung gehen",
+    "root": "اجزای تشکیل‌دهنده: 'in die Ausstellung' به معنی 'to the exhibition'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: Ausstellung besuchen (به نمایشگاه رفتن)."
+  },
+  {
+    "Sound_de": "in die Berge fahren",
+    "root": "اجزای تشکیل‌دهنده: 'in die Berge' به معنی 'to the mountains'، 'fahren' فعل به معنی 'to go' یا 'to drive'.\nمترادف آلمانی: in die Berge reisen (به کوه‌ها رفتن)."
+  },
+  {
+    "Sound_de": "in die Disco gehen",
+    "root": "اجزای تشکیل‌دهنده: 'in die Disco' به معنی 'to the disco'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: Disco besuchen (به دیسکو رفتن)."
+  },
+  {
+    "Sound_de": "in die Ecke gehen",
+    "root": "اجزای تشکیل‌دهنده: 'in die Ecke' به معنی 'to the corner'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: in die Ecke stellen (به گوشه رفتن)."
+  },
+  {
+    "Sound_de": "in die Mitte stellen",
+    "root": "اجزای تشکیل‌دهنده: 'in die Mitte' به معنی 'in the middle'، 'stellen' فعل به معنی 'to put'.\nمترادف آلمانی: zentral stellen (در وسط گذاشتن).\nمتضاد آلمانی: an den Rand stellen (در لبه گذاشتن)."
+  },
+  {
+    "Sound_de": "in die Reinigung bringen",
+    "root": "اجزای تشکیل‌دهنده: 'in die Reinigung' به معنی 'to the cleaners'، 'bringen' فعل به معنی 'to bring'.\nمترادف آلمانی: zur Reinigung geben (به خشکشویی بردن)."
+  },
+  {
+    "Sound_de": "in die Schule gehen",
+    "root": "اجزای تشکیل‌دهنده: 'in die Schule' به معنی 'to school'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: zur Schule gehen (به مدرسه رفتن)."
+  },
+  {
+    "Sound_de": "in einem Laden kaufen",
+    "root": "اجزای تشکیل‌دهنده: 'in einem Laden' به معنی 'in a shop'، 'kaufen' فعل به معنی 'to buy'.\nمترادف آلمانی: im Geschäft kaufen (در مغازه خرید کردن)."
+  },
+  {
+    "Sound_de": "in einem Team arbeiten",
+    "root": "اجزای تشکیل‌دهنده: 'in einem Team' به معنی 'in a team'، 'arbeiten' فعل به معنی 'to work'.\nمترادف آلمانی: teamweise arbeiten (در تیم کار کردن)."
+  },
+  {
+    "Sound_de": "in einer Jugendherberge übernachten",
+    "root": "اجزای تشکیل‌دهنده: 'in einer Jugendherberge' به معنی 'in a youth hostel'، 'übernachten' فعل به معنی 'to stay overnight'.\nمترادف آلمانی: in Hostel schlafen (در هاستل خوابیدن)."
+  },
+  {
+    "Sound_de": "in einer Straße wohnen",
+    "root": "اجزای تشکیل‌دهنده: 'in einer Straße' به معنی 'in a street'، 'wohnen' فعل به معنی 'to live'.\nمترادف آلمانی: in einer Gasse wohnen (در یک خیابان زندگی کردن)."
+  },
+  {
+    "Sound_de": "in Größe M",
+    "root": "اجزای تشکیل‌دهنده: 'in Größe' به معنی 'in size'، 'M' به معنی 'medium'.\nمترادف آلمانی: in Medium (در سایز متوسط)."
+  },
+  {
+    "Sound_de": "in Halle B treffen",
+    "root": "اجزای تشکیل‌دهنده: 'in Halle B' به معنی 'in hall B'، 'treffen' فعل به معنی 'to meet'.\nمترادف آلمانی: in Halle B begegnen (در سالن B ملاقات کردن)."
+  },
+  {
+    "Sound_de": "in Ordnung sein",
+    "root": "اجزای تشکیل‌دهنده: 'in Ordnung' به معنی 'in order'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: okay sein (خوب بودن).\nمتضاد آلمانی: durcheinander sein (به هم ریخته بودن)."
+  },
+  {
+    "Sound_de": "in Ruhe lassen",
+    "root": "اجزای تشکیل‌دهنده: 'in Ruhe' به معنی 'in peace'، 'lassen' فعل به معنی 'to leave'.\nمترادف آلمانی: allein lassen (تنها گذاشتن)."
+  },
+  {
+    "Sound_de": "in welchem Haus wohnen",
+    "root": "اجزای تشکیل‌دهنده: 'in welchem Haus' به معنی 'in which house'، 'wohnen' فعل به معنی 'to live'.\nمترادف آلمانی: in welchem Gebäude leben (در کدام خانه زندگی کردن)."
+  },
+  {
+    "Sound_de": "ins Ausland fahren",
+    "root": "اجزای تشکیل‌دهنده: 'ins Ausland' به معنی 'abroad'، 'fahren' فعل به معنی 'to go'.\nمترادف آلمانی: ins Ausland reisen (به خارج رفتن).\nمتضاد آلمانی: im Inland bleiben (در داخل ماندن)."
+  },
+  {
+    "Sound_de": "ins Bett gehen",
+    "root": "اجزای تشکیل‌دهنده: 'ins Bett' به معنی 'to bed'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: schlafen gehen (به تخت رفتن)."
+  },
+  {
+    "Sound_de": "ins Café gehen",
+    "root": "اجزای تشکیل‌دهنده: 'ins Café' به معنی 'to the café'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: Café besuchen (به کافه رفتن)."
+  },
+  {
+    "Sound_de": "ins Einkaufszentrum mitkommen",
+    "root": "اجزای تشکیل‌دهنده: 'ins Einkaufszentrum' به معنی 'to the shopping center'، 'mitkommen' فعل به معنی 'to come along'.\nمترادف آلمانی: mit ins Shoppingcenter kommen (به مرکز خرید همراه آمدن)."
+  },
+  {
+    "Sound_de": "ins Kino gehen",
+    "root": "اجزای تشکیل‌دهنده: 'ins Kino' به معنی 'to the cinema'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: Kino besuchen (به سینما رفتن)."
+  },
+  {
+    "Sound_de": "ins Schwimmbad gehen",
+    "root": "اجزای تشکیل‌دهنده: 'ins Schwimmbad' به معنی 'to the swimming pool'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: schwimmen gehen (به استخر رفتن)."
+  },
+  {
+    "Sound_de": "ins Theater gehen",
+    "root": "اجزای تشکیل‌دهنده: 'ins Theater' به معنی 'to the theater'، 'gehen' فعل به معنی 'to go'.\nمترادف آلمانی: Theater besuchen (به تئاتر رفتن)."
+  },
+  {
+    "Sound_de": "Insel sein",
+    "root": "اجزای تشکیل‌دهنده: 'Insel' به معنی 'island'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: Insel darstellen (جزیره بودن)."
+  },
+  {
+    "Sound_de": "intelligent sein",
+    "root": "اجزای تشکیل‌دهنده: 'intelligent' صفت به معنی 'intelligent'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: klug sein (هوشمند بودن).\nمتضاد آلمانی: dumm sein (احمق بودن)."
+  },
+  {
+    "Sound_de": "interessant sein",
+    "root": "اجزای تشکیل‌دهنده: 'interessant' صفت به معنی 'interesting'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: spannend sein (جالب بودن).\nمتضاد آلمانی: langweilig sein (خسته‌کننده بودن)."
+  },
+  {
+    "Sound_de": "Interessen haben",
+    "root": "اجزای تشکیل‌دهنده: 'Interessen' به معنی 'interests'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Hobbys haben (علاقه داشتن)."
+  },
+  {
+    "Sound_de": "Jeans mögen",
+    "root": "اجزای تشکیل‌دهنده: 'Jeans' به معنی 'jeans'، 'mögen' فعل به معنی 'to like'.\nمترادف آلمانی: Jeans lieben (جین دوست داشتن).\nمتضاد آلمانی: Jeans hassen (جین متنفر بودن)."
+  },
+  {
+    "Sound_de": "jeden Tag geöffnet",
+    "root": "اجزای تشکیل‌دهنده: 'jeden Tag' به معنی 'every day'، 'geöffnet' صفت به معنی 'open'.\nمترادف آلمانی: täglich offen (هر روز باز).\nمتضاد آلمانی: nie geöffnet (هرگز باز نبودن)."
+  },
+  {
+    "Sound_de": "jedes Kind",
+    "root": "اجزای تشکیل‌دهنده: 'jedes' ضمیر به معنی 'every'، 'Kind' به معنی 'child'.\nمترادف آلمانی: jedes Kind (هر کودک)."
+  },
+  {
+    "Sound_de": "jemand da sein",
+    "root": "اجزای تشکیل‌دهنده: 'jemand' ضمیر به معنی 'someone'، 'da sein' به معنی 'to be there'.\nمترادف آلمانی: jemand anwesend sein (کسی بودن).\nمتضاد آلمانی: niemand da sein (هیچ‌کس نبودن)."
+  },
+  {
+    "Sound_de": "jemandem gratulieren",
+    "root": "اجزای تشکیل‌دهنده: 'jemandem' به معنی 'to someone'، 'gratulieren' فعل به معنی 'to congratulate'.\nمترادف آلمانی: jemandem beglückwünschen (به کسی تبریک گفتن)."
+  },
+  {
+    "Sound_de": "jemandem helfen",
+    "root": "اجزای تشکیل‌دهنده: 'jemandem' به معنی 'to someone'، 'helfen' فعل به معنی 'to help'.\nمترادف آلمانی: jemandem assistieren (به کسی کمک کردن).\nمتضاد آلمانی: jemandem schaden (به کسی آسیب زدن)."
+  },
+  {
+    "Sound_de": "jemanden besuchen",
+    "root": "اجزای تشکیل‌دهنده: 'jemanden' به معنی 'someone'، 'besuchen' فعل به معنی 'to visit'.\nمترادف آلمانی: jemanden aufsuchen (کسی را بازدید کردن)."
+  },
+  {
+    "Sound_de": "jemanden nennen",
+    "root": "اجزای تشکیل‌دهنده: 'jemanden' به معنی 'someone'، 'nennen' فعل به معنی 'to name'.\nمترادف آلمانی: jemanden bezeichnen (کسی را نامیدن)."
+  },
+  {
+    "Sound_de": "jemanden treffen",
+    "root": "اجزای تشکیل‌دهنده: 'jemanden' به معنی 'someone'، 'treffen' فعل به معنی 'to meet'.\nمترادف آلمانی: jemanden begegnen (کسی را ملاقات کردن)."
+  },
+  {
+    "Sound_de": "jung sein",
+    "root": "اجزای تشکیل‌دهنده: 'jung' صفت به معنی 'young'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: jugendlich sein (جوان بودن).\nمتضاد آلمانی: alt sein (پیر بودن)."
+  },
+  {
+    "Sound_de": "jünger sein als",
+    "root": "اجزای تشکیل‌دهنده: 'jünger' مقایسه‌ای به معنی 'younger'، 'sein als' به معنی 'to be than'.\nمترادف آلمانی: jünger als (جوان‌تر از).\nمتضاد آلمانی: älter sein als (پیرتر بودن از)."
+  },
+  {
+    "Sound_de": "jünger sein",
+    "root": "اجزای تشکیل‌دهنده: 'jünger' مقایسه‌ای به معنی 'younger'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: weniger alt sein (جوان‌تر بودن).\nمتضاد آلمانی: älter sein (پیرتر بودن)."
+  },
+  {
+    "Sound_de": "Kaffee trinken",
+    "root": "اجزای تشکیل‌دهنده: 'Kaffee' به معنی 'coffee'، 'trinken' فعل به معنی 'to drink'.\nمترادف آلمانی: Kaffee genießen (قهوه نوشیدن)."
+  },
+  {
+    "Sound_de": "kalt sein",
+    "root": "اجزای تشکیل‌دهنده: 'kalt' صفت به معنی 'cold'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: kühl sein (سرد بودن).\nمتضاد آلمانی: heiß sein (گرم بودن)."
+  },
+  {
+    "Sound_de": "kaputt sein",
+    "root": "اجزای تشکیل‌دهنده: 'kaputt' صفت به معنی 'broken'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: defekt sein (خراب بودن).\nمتضاد آلمانی: intakt sein (سالم بودن)."
+  },
+  {
+    "Sound_de": "Karten abholen",
+    "root": "اجزای تشکیل‌دهنده: 'Karten' به معنی 'tickets'، 'abholen' فعل به معنی 'to pick up'.\nمترادف آلمانی: Tickets holen (بلیط‌ها را برداشتن)."
+  },
+  {
+    "Sound_de": "Karten spielen",
+    "root": "اجزای تشکیل‌دهنده: 'Karten' به معنی 'cards'، 'spielen' فعل به معنی 'to play'.\nمترادف آلمانی: Kartenspiel machen (کارت بازی کردن)."
+  },
+  {
+    "Sound_de": "Kartoffeln brauchen",
+    "root": "اجزای تشکیل‌دهنده: 'Kartoffeln' به معنی 'potatoes'، 'brauchen' فعل به معنی 'to need'.\nمترادف آلمانی: Kartoffeln benötigen (سیب‌زمینی نیاز داشتن)."
+  },
+  {
+    "Sound_de": "Käse essen",
+    "root": "اجزای تشکیل‌دهنده: 'Käse' به معنی 'cheese'، 'essen' فعل به معنی 'to eat'.\nمترادف آلمانی: Käse verzehren (پنیر خوردن)."
+  },
+  {
+    "Sound_de": "kein Chinesisch sprechen",
+    "root": "اجزای تشکیل‌دهنده: 'kein' منفی به معنی 'no'، 'Chinesisch' به معنی 'Chinese'، 'sprechen' فعل به معنی 'to speak'.\nمترادف آلمانی: nicht Chinesisch können (چینی صحبت نکردن)."
+  },
+  {
+    "Sound_de": "keine Ahnung haben",
+    "root": "اجزای تشکیل‌دهنده: 'keine Ahnung' به معنی 'no idea'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: keine Idee haben (ایده نداشتن)."
+  },
+  {
+    "Sound_de": "keine Kinder haben",
+    "root": "اجزای تشکیل‌دهنده: 'keine Kinder' به معنی 'no children'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: kinderlos sein (بدون بچه بودن).\nمتضاد آلمانی: Kinder haben (بچه داشتن)."
+  },
+  {
+    "Sound_de": "keine Lust haben",
+    "root": "اجزای تشکیل‌دهنده: 'keine Lust' به معنی 'no desire'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: keine Motivation haben (میل نداشتن).\nمتضاد آلمانی: Lust haben (میل داشتن)."
+  },
+  {
+    "Sound_de": "keine Seife haben",
+    "root": "اجزای تشکیل‌دهنده: 'keine Seife' به معنی 'no soap'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: ohne Seife sein (بدون صابون بودن)."
+  },
+  {
+    "Sound_de": "keinen Garten haben",
+    "root": "اجزای تشکیل‌دهنده: 'keinen Garten' به معنی 'no garden'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: gartenlos sein (بدون باغ بودن).\nمتضاد آلمانی: einen Garten haben (باغ داشتن)."
+  },
+  {
+    "Sound_de": "keinen Hunger/keine Zeit haben",
+    "root": "اجزای تشکیل‌دهنده: 'keinen Hunger' به معنی 'no hunger'، 'keine Zeit' به معنی 'no time'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: nicht hungrig/keine Zeit haben (گرسنه نبودن/وقت نداشتن)."
+  },
+  {
+    "Sound_de": "keinen Wein nehmen",
+    "root": "اجزای تشکیل‌دهنده: 'keinen Wein' به معنی 'no wine'، 'nehmen' فعل به معنی 'to take'.\nمترادف آلمانی: Wein ablehnen (شراب نگرفتن)."
+  },
+  {
+    "Sound_de": "Kinder haben",
+    "root": "اجزای تشکیل‌دهنده: 'Kinder' به معنی 'children'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Nachwuchs haben (بچه داشتن).\nمتضاد آلمانی: keine Kinder haben (بچه نداشتن)."
+  },
+  {
+    "Sound_de": "Kirche alt sein",
+    "root": "اجزای تشکیل‌دهنده: 'Kirche' به معنی 'church'، 'alt' صفت به معنی 'old'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: Kirche altmodisch sein (کلیسا قدیمی بودن)."
+  },
+  {
+    "Sound_de": "klar sein",
+    "root": "اجزای تشکیل‌دهنده: 'klar' صفت به معنی 'clear'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: offensichtlich sein (واضح بودن).\nمتضاد آلمانی: unklar sein (نامشخص بودن)."
+  },
+  {
+    "Sound_de": "Klavier spielen",
+    "root": "اجزای تشکیل‌دهنده: 'Klavier' به معنی 'piano'، 'spielen' فعل به معنی 'to play'.\nمترادف آلمانی: Piano spielen (پیانو نواختن)."
+  },
+  {
+    "Sound_de": "Kleidung kaufen",
+    "root": "اجزای تشکیل‌دهنده: 'Kleidung' به معنی 'clothing'، 'kaufen' فعل به معنی 'to buy'.\nمترادف آلمانی: Kleidung erwerben (لباس خریدن)."
+  },
+  {
+    "Sound_de": "klein sein",
+    "root": "اجزای تشکیل‌دهنده: 'klein' صفت به معنی 'small'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: winzig sein (کوچک بودن).\nمتضاد آلمانی: groß sein (بزرگ بودن)."
+  },
+  {
+    "Sound_de": "klug sein",
+    "root": "اجزای تشکیل‌دهنده: 'klug' صفت به معنی 'smart'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: intelligent sein (هوشمند بودن).\nمتضاد آلمانی: dumm sein (احمق بودن)."
+  },
+  {
+    "Sound_de": "Kollegin haben",
+    "root": "اجزای تشکیل‌دهنده: 'Kollegin' به معنی 'female colleague'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Kollegin besitzen (همکار زن داشتن)."
+  },
+  {
+    "Sound_de": "komisch sein",
+    "root": "اجزای تشکیل‌دهنده: 'komisch' صفت به معنی 'funny' یا 'strange'، 'sein' فعل به معنی 'to be'.\nمترادف آلمانی: lustig sein (خنده‌دار بودن).\nمتضاد آلمانی: ernst sein (جدی بودن)."
+  },
+  {
+    "Sound_de": "Kontakt haben",
+    "root": "اجزای تشکیل‌دهنده: 'Kontakt' به معنی 'contact'، 'haben' فعل به معنی 'to have'.\nمترادف آلمانی: Verbindung haben (تماس داشتن)."
+  },
+  {
+    "Sound_de": "Kopf tut weh",
+    "root": "اجزای تشکیل‌دهنده: 'Kopf' به معنی 'head'، 'tut weh' عبارت به معنی 'hurts'.\nمترادف آلمانی: Kopfschmerzen haben (سر درد داشتن)."
+  },
+  
+  {
+    "Sound_de": "Kosmetik kaufen",
+    "root": "اجزا: Kosmetik به معنای لوازم آرایشی یا محصولات زیبایی، kaufen به معنای خرید کردن.\nمعنی کلی: خرید لوازم آرایشی.\nمترادف ها: Schönheitsprodukte erwerben (خرید محصولات زیبایی)\nمتضاد ها: Kosmetik verkaufen (فروش لوازم آرایشی)"
+  },
+  {
+    "Sound_de": "kostenlos sein",
+    "root": "اجزا: kostenlos به معنای رایگان، sein به معنای بودن.\nمعنی کلی: رایگان بودن.\nمترادف ها: gratis sein (رایگان بودن)\nمتضاد ها: kostenpflichtig sein (پولی بودن)"
+  },
+  {
+    "Sound_de": "krank sein",
+    "root": "اجزا: krank به معنای بیمار، sein به معنای بودن.\nمعنی کلی: بیمار بودن.\nمترادف ها: unwohl sein (ناخوش بودن)\nمتضاد ها: gesund sein (سالم بودن)"
+  },
+  {
+    "Sound_de": "Krimis lesen",
+    "root": "اجزا: Krimis به معنای رمان‌های جنایی، lesen به معنای خواندن.\nمعنی کلی: خواندن رمان‌های جنایی.\nمترادف ها: Detektivgeschichten lesen (خواندن داستان‌های کارآگاهی)"
+  },
+  {
+    "Sound_de": "kühl sein",
+    "root": "اجزا: kühl به معنای خنک، sein به معنای بودن.\nمعنی کلی: خنک بودن.\nمترادف ها: frisch sein (تازه بودن)\nمتضاد ها: warm sein (گرم بودن)"
+  },
+  {
+    "Sound_de": "Kulturen interessieren",
+    "root": "اجزا: Kulturen به معنای فرهنگ‌ها، interessieren به معنای علاقه‌مند کردن.\nمعنی کلی: علاقه‌مند بودن به فرهنگ‌ها.\nمترادف ها: Kulturen faszinieren (جذب فرهنگ‌ها کردن)"
+  },
+  {
+    "Sound_de": "Kunst mögen",
+    "root": "اجزا: Kunst به معنای هنر، mögen به معنای دوست داشتن.\nمعنی کلی: دوست داشتن هنر.\nمترادف ها: Kunst schätzen (قدر هنر دانستن)\nمتضاد ها: Kunst ablehnen (رد کردن هنر)"
+  },
+  {
+    "Sound_de": "kurze Haare haben",
+    "root": "اجزا: kurze به معنای کوتاه، Haare به معنای موها، haben به معنای داشتن.\nمعنی کلی: داشتن موهای کوتاه.\nمترادف ها: Kurzhaarfrisur haben (داشتن مدل موی کوتاه)\nمتضاد ها: lange Haare haben (داشتن موهای بلند)"
+  },
+  {
+    "Sound_de": "lang sein",
+    "root": "اجزا: lang به معنای بلند، sein به معنای بودن.\nمعنی کلی: بلند بودن.\nمترادف ها: groß sein (بزرگ بودن در قد)\nمتضاد ها: kurz sein (کوتاه بودن)"
+  },
+  {
+    "Sound_de": "lange Haare haben",
+    "root": "اجزا: lange به معنای بلند، Haare به معنای موها، haben به معنای داشتن.\nمعنی کلی: داشتن موهای بلند.\nمترادف ها: Langhaarfrisur haben (داشتن مدل موی بلند)\nمتضاد ها: kurze Haare haben (داشتن موهای کوتاه)"
+  },
+  {
+    "Sound_de": "langsam sprechen",
+    "root": "اجزا: langsam به معنای آهسته، sprechen به معنای صحبت کردن.\nمعنی کلی: آهسته صحبت کردن.\nمترادف ها: bedächtig sprechen (با تأمل صحبت کردن)\nمتضاد ها: schnell sprechen (سریع صحبت کردن)"
+  },
+  {
+    "Sound_de": "langweilig sein",
+    "root": "اجزا: langweilig به معنای خسته‌کننده، sein به معنای بودن.\nمعنی کلی: خسته‌کننده بودن.\nمترادف ها: öde sein (کسل‌کننده بودن)\nمتضاد ها: spannend sein (هیجان‌انگیز بودن)"
+  },
+  {
+    "Sound_de": "laut sein",
+    "root": "اجزا: laut به معنای بلند (صدا)، sein به معنای بودن.\nمعنی کلی: بلند بودن (صدا).\nمترادف ها: noisy sein (پر سر و صدا بودن)\nمتضاد ها: leise sein (آرام بودن)"
+  },
+  {
+    "Sound_de": "Lebensmittel bekommen",
+    "root": "اجزا: Lebensmittel به معنای مواد غذایی، bekommen به معنای دریافت کردن.\nمعنی کلی: دریافت مواد غذایی.\nمترادف ها: Nahrungsmittel erhalten (دریافت مواد غذایی)"
+  },
+  {
+    "Sound_de": "leer sein",
+    "root": "اجزا: leer به معنای خالی، sein به معنای بودن.\nمعنی کلی: خالی بودن.\nمترادف ها: unbesetzt sein (اشغال‌نشده بودن)\nمتضاد ها: voll sein (پر بودن)"
+  },
+  {
+    "Sound_de": "leicht sein",
+    "root": "اجزا: leicht به معنای سبک یا آسان، sein به معنای بودن.\nمعنی کلی: سبک یا آسان بودن.\nمترادف ها: einfach sein (ساده بودن)\nمتضاد ها: schwer sein (سنگین یا سخت بودن)"
+  },
+  {
+    "Sound_de": "leise sein",
+    "root": "اجزا: leise به معنای آرام، sein به معنای بودن.\nمعنی کلی: آرام بودن.\nمترادف ها: still sein (ساکت بودن)\nمتضاد ها: laut sein (بلند بودن)"
+  },
+  {
+    "Sound_de": "Licht an sein",
+    "root": "اجزا: Licht به معنای نور، an به معنای روشن، sein به معنای بودن.\nمعنی کلی: روشن بودن نور.\nمترادف ها: Licht eingeschaltet sein (نور روشن بودن)\nمتضاد ها: Licht aus sein (نور خاموش بودن)"
+  },
+  {
+    "Sound_de": "Licht ausgegangen",
+    "root": "اجزا: Licht به معنای نور، ausgegangen به معنای خاموش شده.\nمعنی کلی: خاموش شدن نور.\nمترادف ها: Licht erloschen (نور خاموش شده)"
+  },
+  {
+    "Sound_de": "lieber... als",
+    "root": "اجزا: lieber به معنای ترجیحاً، als به معنای نسبت به.\nمعنی کلی: ترجیح دادن ... به جای ...\nمترادف ها: vorziehen... als (ترجیح دادن ... نسبت به)"
+  },
+  {
+    "Sound_de": "Lieblingsfarbe",
+    "root": "اجزا: Lieblings به معنای مورد علاقه، Farbe به معنای رنگ.\nمعنی کلی: رنگ مورد علاقه.\nمترادف ها: Favoritfarbe (رنگ مورد علاقه)"
+  },
+  {
+    "Sound_de": "Lieblingsgericht sein",
+    "root": "اجزا: Lieblingsgericht به معنای غذای مورد علاقه، sein به معنای بودن.\nمعنی کلی: بودن غذای مورد علاقه.\nمترادف ها: Favoritessen sein (غذای مورد علاقه بودن)"
+  },
+  {
+    "Sound_de": "Lieblingsgetränk sein",
+    "root": "اجزا: Lieblingsgetränk به معنای نوشیدنی مورد علاقه، sein به معنای بودن.\nمعنی کلی: بودن نوشیدنی مورد علاقه.\nمترادف ها: Favoritgetränk sein (نوشیدنی مورد علاقه بودن)"
+  },
+  {
+    "Sound_de": "links gehen",
+    "root": "اجزا: links به معنای چپ، gehen به معنای رفتن.\nمعنی کلی: به چپ رفتن.\nمترادف ها: nach links abbiegen (به چپ پیچیدن)\nمتضاد ها: rechts gehen (به راست رفتن)"
+  },
+  {
+    "Sound_de": "Lust haben auf",
+    "root": "اجزا: Lust به معنای میل، haben به معنای داشتن، auf به معنای به.\nمعنی کلی: میل داشتن به چیزی.\nمترادف ها: Appetit haben auf (اشتها داشتن به)\nمتضاد ها: keine Lust haben (میل نداشتن)"
+  },
+  {
+    "Sound_de": "lustig sein",
+    "root": "اجزا: lustig به معنای خنده‌دار، sein به معنای بودن.\nمعنی کلی: خنده‌دار بودن.\nمترادف ها: komisch sein (خنده‌دار بودن)\nمتضاد ها: ernst sein (جدی بودن)"
+  },
+  {
+    "Sound_de": "Magen tut weh",
+    "root": "اجزا: Magen به معنای معده، tut weh به معنای درد کردن.\nمعنی کلی: معده درد کردن.\nمترادف ها: Bauchschmerzen haben (درد شکم داشتن)"
+  },
+  {
+    "Sound_de": "man darf nicht rauchen",
+    "root": "اجزا: man به معنای یکی/شما، darf nicht به معنای اجازه ندارد، rauchen به معنای سیگار کشیدن.\nمعنی کلی: اجازه سیگار کشیدن نیست.\nمترادف ها: Rauchen verboten (سیگار کشیدن ممنوع)"
+  },
+  {
+    "Sound_de": "manche Nachbarn",
+    "root": "اجزا: manche به معنای برخی، Nachbarn به معنای همسایه‌ها.\nمعنی کلی: برخی همسایه‌ها.\nمترادف ها: einige Nachbarn (بعضی همسایه‌ها)"
+  },
+  {
+    "Sound_de": "mehr als",
+    "root": "اجزا: mehr به معنای بیشتر، als به معنای نسبت به.\nمعنی کلی: بیشتر از.\nمترادف ها: über (بیش از)\nمتضاد ها: weniger als (کمتر از)"
+  },
+  {
+    "Sound_de": "Mein Mann",
+    "root": "اجزا: Mein به معنای من، Mann به معنای شوهر.\nمعنی کلی: شوهر من.\nمترادف ها: Mein Ehemann (شوهر من)"
+  },
+  {
+    "Sound_de": "mein Rücken tut weh",
+    "root": "اجزا: mein به معنای من، Rücken به معنای کمر، tut weh به معنای درد کردن.\nمعنی کلی: کمر من درد می‌کند.\nمترادف ها: Rückenschmerzen haben (درد کمر داشتن)"
+  },
+  {
+    "Sound_de": "mindestens zwei Stunden",
+    "root": "اجزا: mindestens به معنای حداقل، zwei به معنای دو، Stunden به معنای ساعت‌ها.\nمعنی کلی: حداقل دو ساعت.\nمترادف ها:至少 zwei Stunden (حداقل دو ساعت)"
+  },
+  {
+    "Sound_de": "Mineralwasser trinken",
+    "root": "اجزا: Mineralwasser به معنای آب معدنی، trinken به معنای نوشیدن.\nمعنی کلی: نوشیدن آب معدنی.\nمترادف ها: Sprudelwasser trinken (نوشیدن آب گازدار)"
+  },
+  {
+    "Sound_de": "mir ist heiß",
+    "root": "اجزا: mir به معنای به من، ist به معنای است، heiß به معنای گرم.\nمعنی کلی: به من گرم است (گرمم است).\nمترادف ها: ich habe Hitze (گرمم است)\nمتضاد ها: mir ist kalt (سردم است)"
+  },
+  {
+    "Sound_de": "mir ist kalt",
+    "root": "اجزا: mir به معنای به من، ist به معنای است، kalt به معنای سرد.\nمعنی کلی: به من سرد است (سردم است).\nمترادف ها: ich friere (سردم است)\nمتضاد ها: mir ist heiß (گرمم است)"
+  },
+  {
+    "Sound_de": "mir ist schlecht",
+    "root": "اجزا: mir به معنای به من، ist به معنای است، schlecht به معنای بد.\nمعنی کلی: حالم بد است.\nمترادف ها: mir ist übel (حالم بد است)"
+  },
+  {
+    "Sound_de": "mit dem Auto fahren",
+    "root": "اجزا: mit به معنای با، dem Auto به معنای ماشین، fahren به معنای رانندگی کردن.\nمعنی کلی: با ماشین رانندگی کردن.\nمترادف ها: Auto fahren (ماشین راندن)"
+  },
+  {
+    "Sound_de": "mit dem Fahrrad fahren",
+    "root": "اجزا: mit به معنای با، dem Fahrrad به معنای دوچرخه، fahren به معنای راندن.\nمعنی کلی: با دوچرخه رفتن.\nمترادف ها: Rad fahren (دوچرخه راندن)"
+  },
+  {
+    "Sound_de": "mit dem Schiff fahren",
+    "root": "اجزا: mit به معنای با، dem Schiff به معنای کشتی، fahren به معنای رفتن.\nمعنی کلی: با کشتی رفتن.\nمترادف ها: Schiff reisen (سفر با کشتی)"
+  },
+  {
+    "Sound_de": "mit dem Service zufrieden sein",
+    "root": "اجزا: mit به معنای با، dem Service به معنای خدمات، zufrieden به معنای راضی، sein به معنای بودن.\nمعنی کلی: از خدمات راضی بودن.\nمترادف ها: mit dem Dienstleistung zufrieden sein (از خدمات راضی بودن)\nمتضاد ها: unzufrieden sein (ناراضی بودن)"
+  },
+  {
+    "Sound_de": "mit dem Zug fahren",
+    "root": "اجزا: mit به معنای با، dem Zug به معنای قطار، fahren به معنای رفتن.\nمعنی کلی: با قطار رفتن.\nمترادف ها: Zug reisen (سفر با قطار)"
+  },
+  {
+    "Sound_de": "mit der Bahn fahren",
+    "root": "اجزا: mit به معنای با، der Bahn به معنای راه‌آهن، fahren به معنای رفتن.\nمعنی کلی: با قطار رفتن.\nمترادف ها: mit dem Zug fahren (با قطار رفتن)"
+  },
+  {
+    "Sound_de": "mit der Kreditkarte bezahlen",
+    "root": "اجزا: mit به معنای با، der Kreditkarte به معنای کارت اعتباری، bezahlen به معنای پرداخت کردن.\nمعنی کلی: با کارت اعتباری پرداخت کردن.\nمترادف ها: Kreditkarte verwenden (استفاده از کارت اعتباری)"
+  },
+  {
+    "Sound_de": "mit der Straßenbahn fahren",
+    "root": "اجزا: mit به معنای با، der Straßenbahn به معنای تراموا، fahren به معنای رفتن.\nمعنی کلی: با تراموا رفتن.\nمترادف ها: Tram fahren (تراموا راندن)"
+  },
+  {
+    "Sound_de": "mit jemandem reden",
+    "root": "اجزا: mit به معنای با، jemandem به معنای کسی، reden به معنای حرف زدن.\nمعنی کلی: با کسی حرف زدن.\nمترادف ها: mit jemandem sprechen (با کسی صحبت کردن)"
+  },
+  {
+    "Sound_de": "mit jemandem sprechen",
+    "root": "اجزا: mit به معنای با، jemandem به معنای کسی، sprechen به معنای صحبت کردن.\nمعنی کلی: با کسی صحبت کردن.\nمترادف ها: mit jemandem reden (با کسی حرف زدن)"
+  },
+  {
+    "Sound_de": "mit Karte bezahlen",
+    "root": "اجزا: mit به معنای با، Karte به معنای کارت، bezahlen به معنای پرداخت کردن.\nمعنی کلی: با کارت پرداخت کردن.\nمترادف ها: kartenzahlen (پرداخت با کارت)"
+  },
+  {
+    "Sound_de": "mit oder ohne",
+    "root": "اجزا: mit به معنای با، oder به معنای یا، ohne به معنای بدون.\nمعنی کلی: با یا بدون.\nمترادف ها: inklusive oder exklusive (شامل یا بدون)"
+  },
+  {
+    "Sound_de": "mit Zitrone trinken",
+    "root": "اجزا: mit به معنای با، Zitrone به معنای لیمو، trinken به معنای نوشیدن.\nمعنی کلی: با لیمو نوشیدن.\nمترادف ها: Zitronengetränk trinken (نوشیدن نوشیدنی لیمویی)"
+  },
+  {
+    "Sound_de": "mit Zucker",
+    "root": "اجزا: mit به معنای با، Zucker به معنای شکر.\nمعنی کلی: با شکر.\nمترادف ها: gesüßt (شیرین شده)"
+  },
+  {
+    "Sound_de": "Mitarbeiter haben",
+    "root": "اجزا: Mitarbeiter به معنای کارمندان، haben به معنای داشتن.\nمعنی کلی: داشتن کارمندان.\nمترادف ها: Angestellte haben (داشتن کارکنان)"
+  },
+  {
+    "Sound_de": "Mittagessen haben",
+    "root": "اجزا: Mittagessen به معنای ناهار، haben به معنای داشتن.\nمعنی کلی: داشتن ناهار.\nمترادف ها: Lunch haben (داشتن ناهار)"
+  },
+  {
+    "Sound_de": "Mittagspause haben",
+    "root": "اجزا: Mittagspause به معنای استراحت ناهار، haben به معنای داشتن.\nمعنی کلی: داشتن استراحت ناهار.\nمترادف ها: Lunchpause haben (داشتن استراحت ناهار)"
+  },
+  {
+    "Sound_de": "Mitte August",
+    "root": "اجزا: Mitte به معنای وسط، August به معنای اوت.\nمعنی کلی: وسط ماه اوت.\nمترادف ها: Mid-August (وسط اوت)"
+  },
+  {
+    "Sound_de": "Möbel sind schön",
+    "root": "اجزا: Möbel به معنای مبلمان، sind به معنای هستند، schön به معنای زیبا.\nمعنی کلی: مبلمان زیبا هستند.\nمترادف ها: Möbel sind attraktiv (مبلمان جذاب هستند)"
+  },
+  {
+    "Sound_de": "modern sein",
+    "root": "اجزا: modern به معنای مدرن، sein به معنای بودن.\nمعنی کلی: مدرن بودن.\nمترادف ها: zeitgemäß sein (به‌روز بودن)\nمتضاد ها: altmodisch sein (قدیمی بودن)"
+  },
+  {
+    "Sound_de": "morgen beginnt die Schule",
+    "root": "اجزا: morgen به معنای فردا، beginnt به معنای شروع می‌شود، die Schule به معنای مدرسه.\nمعنی کلی: فردا مدرسه شروع می‌شود.\nمترادف ها: Schule startet morgen (مدرسه فردا شروع می‌شود)"
+  },
+  {
+    "Sound_de": "Motorroller fahren",
+    "root": "اجزا: Motorroller به معنای موتور اسکوتر، fahren به معنای راندن.\nمعنی کلی: راندن موتور اسکوتر.\nمترادف ها: Scooter fahren (راندن اسکوتر)"
+  },
+  {
+    "Sound_de": "müde sein",
+    "root": "اجزا: müde به معنای خسته، sein به معنای بودن.\nمعنی کلی: خسته بودن.\nمترادف ها: erschöpft sein (فرسوده بودن)\nمتضاد ها: ausgeruht sein (استراحت‌کرده بودن)"
+  },
+  {
+    "Sound_de": "Musik hören",
+    "root": "اجزا: Musik به معنای موسیقی، hören به معنای شنیدن.\nمعنی کلی: شنیدن موسیقی.\nمترادف ها: Musik lauschen (گوش دادن به موسیقی)"
+  },
+  {
+    "Sound_de": "Mützen haben",
+    "root": "اجزا: Mützen به معنای کلاه‌ها، haben به معنای داشتن.\nمعنی کلی: داشتن کلاه‌ها.\nمترادف ها: Hüte haben (داشتن کلاه‌ها)"
+  },
+  {
+    "Sound_de": "nach der Arbeit treffen",
+    "root": "اجزا: nach به معنای بعد از، der Arbeit به معنای کار، treffen به معنای ملاقات کردن.\nمعنی کلی: بعد از کار ملاقات کردن.\nمترادف ها: nach Feierabend treffen (بعد از پایان کار ملاقات کردن)"
+  },
+  {
+    "Sound_de": "nach Fisch riechen",
+    "root": "اجزا: nach به معنای مثل، Fisch به معنای ماهی، riechen به معنای بوییدن.\nمعنی کلی: بوی ماهی دادن.\nمترادف ها: fischig riechen (بوی ماهی دادن)"
+  },
+  {
+    "Sound_de": "nach Hause gehen",
+    "root": "اجزا: nach به معنای به، Hause به معنای خانه، gehen به معنای رفتن.\nمعنی کلی: به خانه رفتن.\nمترادف ها: heimgehen (به خانه رفتن)"
+  },
+  {
+    "Sound_de": "nach München fliegen",
+    "root": "اجزا: nach به معنای به، München به معنای مونیخ، fliegen به معنای پرواز کردن.\nمعنی کلی: به مونیخ پرواز کردن.\nمترادف ها: nach München reisen (سفر به مونیخ)"
+  },
+  {
+    "Sound_de": "Nachbarn haben",
+    "root": "اجزا: Nachbarn به معنای همسایه‌ها، haben به معنای داشتن.\nمعنی کلی: داشتن همسایه‌ها.\nمترادف ها: Nachbarschaft haben (داشتن همسایگی)"
+  },
+  {
+    "Sound_de": "Nachrichten hören",
+    "root": "اجزا: Nachrichten به معنای اخبار، hören به معنای شنیدن.\nمعنی کلی: شنیدن اخبار.\nمترادف ها: News hören (شنیدن اخبار)"
+  },
+  {
+    "Sound_de": "nächste Woche",
+    "root": "اجزا: nächste به معنای بعدی، Woche به معنای هفته.\nمعنی کلی: هفته بعدی.\nمترادف ها: kommende Woche (هفته آینده)"
+  },
+  {
+    "Sound_de": "Name ist Thomas",
+    "root": "اجزا: Name به معنای نام، ist به معنای است، Thomas به معنای توماس.\nمعنی کلی: نام توماس است.\nمترادف ها: Ich heiße Thomas (نام من توماس است)"
+  },
+  {
+    "Sound_de": "nass sein",
+    "root": "اجزا: nass به معنای خیس، sein به معنای بودن.\nمعنی کلی: خیس بودن.\nمترادف ها: feucht sein (مرطوب بودن)\nمتضاد ها: trocken sein (خشک بودن)"
+  },
+  {
+    "Sound_de": "natürlich",
+    "root": "اجزا: natürlich به معنای البته یا طبیعی.\nمعنی کلی: البته.\nمترادف ها: selbstverständlich (البته)\nمتضاد ها: unnatürlich (غیرطبیعی)"
+  },
+  {
+    "Sound_de": "neben mir",
+    "root": "اجزا: neben به معنای کنار، mir به معنای من.\nمعنی کلی: کنار من.\nمترادف ها: an meiner Seite (در کنار من)"
+  },
+  {
+    "Sound_de": "nebenan wohnen",
+    "root": "اجزا: nebenan به معنای کنار، wohnen به معنای زندگی کردن.\nمعنی کلی: در کنار زندگی کردن.\nمترادف ها: in der Nachbarschaft wohnen (در همسایگی زندگی کردن)"
+  },
+  {
+    "Sound_de": "neblig sein",
+    "root": "اجزا: neblig به معنای مه‌آلود، sein به معنای بودن.\nمعنی کلی: مه‌آلود بودن.\nمترادف ها: dunstig sein (مه‌آلود بودن)\nمتضاد ها: klar sein (صاف بودن)"
+  },
+  {
+    "Sound_de": "nervös sein",
+    "root": "اجزا: nervös به معنای عصبی، sein به معنای بودن.\nمعنی کلی: عصبی بودن.\nمترادف ها: aufgeregt sein (هیجان‌زده بودن)\nمتضاد ها: ruhig sein (آرام بودن)"
+  },
+  {
+    "Sound_de": "nett sein von",
+    "root": "اجزا: nett به معنای خوب، sein به معنای بودن، von به معنای از.\nمعنی کلی: خوب بودن از طرف کسی.\nمترادف ها: freundlich sein von (دوستانه بودن از)"
+  },
+  {
+    "Sound_de": "nett sein",
+    "root": "اجزا: nett به معنای خوب یا دوستانه، sein به معنای بودن.\nمعنی کلی: خوب بودن.\nمترادف ها: freundlich sein (دوستانه بودن)\nمتضاد ها: unfreundlich sein (غیر دوستانه بودن)"
+  },
+  {
+    "Sound_de": "neu sein",
+    "root": "اجزا: neu به معنای جدید، sein به معنای بودن.\nمعنی کلی: جدید بودن.\nمترادف ها: frisch sein (تازه بودن)\nمتضاد ها: alt sein (قدیمی بودن)"
+  },
+  {
+    "Sound_de": "nicht stimmen",
+    "root": "اجزا: nicht به معنای نه، stimmen به معنای درست بودن.\nمعنی کلی: درست نبودن.\nمترادف ها: falsch sein (اشتباه بودن)\nمتضاد ها: stimmen (درست بودن)"
+  },
+  {
+    "Sound_de": "nicht weit sein",
+    "root": "اجزا: nicht به معنای نه، weit به معنای دور، sein به معنای بودن.\nمعنی کلی: دور نبودن.\nمترادف ها: nah sein (نزدیک بودن)\nمتضاد ها: weit sein (دور بودن)"
+  },
+  {
+    "Sound_de": "nicht weiterfahren",
+    "root": "اجزا: nicht به معنای نه، weiter به معنای بیشتر، fahren به معنای رفتن.\nمعنی کلی: ادامه ندادن رفتن.\nمترادف ها: stoppen (توقف کردن)\nمتضاد ها: weiterfahren (ادامه دادن)"
+  },
+  {
+    "Sound_de": "nicht zu Hause sein",
+    "root": "اجزا: nicht به معنای نه، zu Hause به معنای در خانه، sein به معنای بودن.\nمعنی کلی: در خانه نبودن.\nمترادف ها: auswärts sein (خارج بودن)\nمتضاد ها: zu Hause sein (در خانه بودن)"
+  },
+  {
+    "Sound_de": "nichts machen",
+    "root": "اجزا: nichts به معنای هیچ چیز، machen به معنای کردن.\nمعنی کلی: هیچ کاری نکردن.\nمترادف ها: faulenzen (تنبلی کردن)"
+  },
+  {
+    "Sound_de": "nie pünktlich kommen",
+    "root": "اجزا: nie به معنای هرگز، pünktlich به معنای به‌موقع، kommen به معنای آمدن.\nمعنی کلی: هرگز به‌موقع نیامدن.\nمترادف ها: immer verspätet kommen (همیشه دیر آمدن)\nمتضاد ها: pünktlich kommen (به‌موقع آمدن)"
+  },
+  {
+    "Sound_de": "niemand da sein",
+    "root": "اجزا: niemand به معنای هیچ‌کس، da به معنای آنجا، sein به معنای بودن.\nمعنی کلی: هیچ‌کس آنجا نبودن.\nمترادف ها: keiner anwesend sein (هیچ‌کس حاضر نبودن)\nمتضاد ها: jemand da sein (کسی آنجا بودن)"
+  },
+  {
+    "Sound_de": "nirgends parken",
+    "root": "اجزا: nirgends به معنای هیچ‌جا، parken به معنای پارک کردن.\nمعنی کلی: هیچ‌جا پارک نکردن.\nمترادف ها: nirgendwo parken (هیچ‌جا پارک نکردن)"
+  },
+  {
+    "Sound_de": "noch 20 Euro haben",
+    "root": "اجزا: noch به معنای هنوز، 20 Euro به معنای ۲۰ یورو، haben به معنای داشتن.\nمعنی کلی: هنوز ۲۰ یورو داشتن.\nمترادف ها: 20 Euro übrig haben (۲۰ یورو باقی داشتن)"
+  },
+  {
+    "Sound_de": "noch ein paar Minuten",
+    "root": "اجزا: noch به معنای هنوز، ein paar به معنای چند، Minuten به معنای دقیقه.\nمعنی کلی: هنوز چند دقیقه.\nمترادف ها: noch einige Minuten (هنوز چند دقیقه)"
+  },
+  {
+    "Sound_de": "noch einmal anrufen",
+    "root": "اجزا: noch به معنای هنوز، einmal به معنای یک بار، anrufen به معنای زنگ زدن.\nمعنی کلی: یک بار دیگر زنگ زدن.\nمترادف ها: erneut anrufen (دوباره زنگ زدن)"
+  },
+  {
+    "Sound_de": "normal sein",
+    "root": "اجزا: normal به معنای عادی، sein به معنای بودن.\nمعنی کلی: عادی بودن.\nمترادف ها: gewöhnlich sein (معمولی بودن)\nمتضاد ها: abnormal sein (غیرعادی بودن)"
+  },
+  {
+    "Sound_de": "Nudeln essen",
+    "root": "اجزا: Nudeln به معنای نودل‌ها، essen به معنای خوردن.\nمعنی کلی: خوردن نودل.\nمترادف ها: Pasta essen (خوردن پاستا)"
+  },
+  {
+    "Sound_de": "nur fünf Euro",
+    "root": "اجزا: nur به معنای فقط، fünf به معنای پنج، Euro به معنای یورو.\nمعنی کلی: فقط پنج یورو.\nمترادف ها: lediglich fünf Euro (فقط پنج یورو)"
+  },
+  {
+    "Sound_de": "nützlich sein",
+    "root": "اجزا: nützlich به معنای مفید، sein به معنای بودن.\nمعنی کلی: مفید بودن.\nمترادف ها: hilfreich sein (کمک‌کننده بودن)\nمتضاد ها: nutzlos sein (بی‌فایده بودن)"
+  },
+  {
+    "Sound_de": "oben wohnen",
+    "root": "اجزا: oben به معنای بالا، wohnen به معنای زندگی کردن.\nمعنی کلی: در بالا زندگی کردن.\nمترادف ها: im Obergeschoss wohnen (در طبقه بالا زندگی کردن)\nمتضاد ها: unten wohnen (در پایین زندگی کردن)"
+  },
+  {
+    "Sound_de": "Obst kaufen",
+    "root": "اجزا: Obst به معنای میوه، kaufen به معنای خرید کردن.\nمعنی کلی: خرید میوه.\nمترادف ها: Früchte erwerben (خرید میوه‌ها)"
+  },
+  {
+    "Sound_de": "ohne Milch",
+    "root": "اجزا: ohne به معنای بدون، Milch به معنای شیر.\nمعنی کلی: بدون شیر.\nمترادف ها: milchfrei (بدون شیر)\nمتضاد ها: mit Milch (با شیر)"
+  },
+  {
+    "Sound_de": "Ohrenschmerzen haben",
+    "root": "اجزا: Ohrenschmerzen به معنای درد گوش، haben به معنای داشتن.\nمعنی کلی: داشتن درد گوش.\nمترادف ها: Ohrenweh haben (درد گوش داشتن)"
+  },
+  {
+    "Sound_de": "online sein",
+    "root": "اجزا: online به معنای آنلاین، sein به معنای بودن.\nمعنی کلی: آنلاین بودن.\nمترادف ها: im Netz sein (در شبکه بودن)\nمتضاد ها: offline sein (آفلاین بودن)"
+  },
+  {
+    "Sound_de": "online überweisen",
+    "root": "اجزا: online به معنای آنلاین، überweisen به معنای انتقال دادن.\nمعنی کلی: انتقال آنلاین.\nمترادف ها: online transferieren (انتقال آنلاین)"
+  },
+  {
+    "Sound_de": "Orangen essen",
+    "root": "اجزا: Orangen به معنای پرتقال‌ها، essen به معنای خوردن.\nمعنی کلی: خوردن پرتقال.\nمترادف ها: Apfelsinen essen (خوردن پرتقال)"
+  },
+  {
+    "Sound_de": "Ordnung machen",
+    "root": "اجزا: Ordnung به معنای نظم، machen به معنای کردن.\nمعنی کلی: نظم دادن.\nمترادف ها: aufräumen (مرتب کردن)"
+  },
+  {
+    "Sound_de": "Ort und Datum",
+    "root": "اجزا: Ort به معنای مکان، und به معنای و، Datum به معنای تاریخ.\nمعنی کلی: مکان و تاریخ.\nمترادف ها: Platz und Zeit (مکان و زمان)"
+  },
+  {
+    "Sound_de": "Papiere dabei haben",
+    "root": "اجزا: Papiere به معنای مدارک، dabei به معنای همراه، haben به معنای داشتن.\nمعنی کلی: مدارک همراه داشتن.\nمترادف ها: Dokumente mitführen (مدارک همراه بردن)"
+  },
+  {
+    "Sound_de": "Parken ist verboten",
+    "root": "اجزا: Parken به معنای پارک کردن، ist به معنای است، verboten به معنای ممنوع.\nمعنی کلی: پارک کردن ممنوع است.\nمترادف ها: Parkverbot (ممنوعیت پارک)"
+  },
+  {
+    "Sound_de": "passiert sein",
+    "root": "اجزا: passiert به معنای اتفاق افتاده، sein به معنای بودن.\nمعنی کلی: اتفاق افتاده بودن.\nمترادف ها: geschehen sein (اتفاق افتاده بودن)"
+  },
+  {
+    "Sound_de": "Passwort ändern",
+    "root": "اجزا: Passwort به معنای رمز عبور، ändern به معنای تغییر دادن.\nمعنی کلی: تغییر رمز عبور.\nمترادف ها: Kennwort wechseln (تغییر کلمه عبور)"
+  },
+  {
+    "Sound_de": "Passwort vergessen",
+    "root": "اجزا: Passwort به معنای رمز عبور، vergessen به معنای فراموش کردن.\nمعنی کلی: فراموش کردن رمز عبور.\nمترادف ها: Passwort verlegt (گم کردن رمز عبور)"
+  },
+  {
+    "Sound_de": "Pferde lieben",
+    "root": "اجزا: Pferde به معنای اسب‌ها، lieben به معنای دوست داشتن.\nمعنی کلی: دوست داشتن اسب‌ها.\nمترادف ها: Pferde mögen (دوست داشتن اسب‌ها)"
+  },
+  {
+    "Sound_de": "Pizza essen",
+    "root": "اجزا: Pizza به معنای پیتزا، essen به معنای خوردن.\nمعنی کلی: خوردن پیتزا."
+  },
+  {
+    "Sound_de": "Platz nehmen",
+    "root": "اجزا: Platz به معنای جای، nehmen به معنای گرفتن.\nمعنی کلی: جای گرفتن (نشستن).\nمترادف ها: sitzen (نشستن)"
+  },
+  {
+    "Sound_de": "Pommes frites essen",
+    "root": "اجزا: Pommes frites به معنای سیب‌زمینی سرخ‌کرده، essen به معنای خوردن.\nمعنی کلی: خوردن سیب‌زمینی سرخ‌کرده.\nمترادف ها: Fritten essen (خوردن سیب‌زمینی سرخ‌کرده)"
+  },
+  {
+    "Sound_de": "Post für mich",
+    "root": "اجزا: Post به معنای پست، für به معنای برای، mich به معنای من.\nمعنی کلی: پست برای من.\nمترادف ها: Mail für mich (نامه برای من)"
+  },
+  {
+    "Sound_de": "Postleitzahl geben",
+    "root": "اجزا: Postleitzahl به معنای کد پستی، geben به معنای دادن.\nمعنی کلی: دادن کد پستی.\nمترادف ها: PLZ angeben (دادن کد پستی)"
+  },
+  {
+    "Sound_de": "praktisch sein",
+    "root": "اجزا: praktisch به معنای عملی، sein به معنای بودن.\nمعنی کلی: عملی بودن.\nمترادف ها: handlich sein (کاربردی بودن)\nمتضاد ها: unpraktisch sein (غیرعملی بودن)"
+  },
+  {
+    "Sound_de": "preiswert sein",
+    "root": "اجزا: preiswert به معنای ارزان‌قیمت، sein به معنای بودن.\nمعنی کلی: ارزان بودن.\nمترادف ها: günstig sein (ارزان بودن)\nمتضاد ها: teuer sein (گران بودن)"
+  },
+  {
+    "Sound_de": "privat sein",
+    "root": "اجزا: privat به معنای خصوصی، sein به معنای بودن.\nمعنی کلی: خصوصی بودن.\nمترادف ها: persönlich sein (شخصی بودن)\nمتضاد ها: öffentlich sein (عمومی بودن)"
+  },
+  {
+    "Sound_de": "pro Person",
+    "root": "اجزا: pro به معنای به ازای، Person به معنای شخص.\nمعنی کلی: به ازای هر شخص.\nمترادف ها: je Person (به ازای هر شخص)"
+  },
+  {
+    "Sound_de": "Quizsendungen anschauen",
+    "root": "اجزا: Quizsendungen به معنای برنامه‌های مسابقه، anschauen به معنای تماشا کردن.\nمعنی کلی: تماشا کردن برنامه‌های مسابقه.\nمترادف ها: Quizshows sehen (دیدن نمایش‌های مسابقه)"
+  },
+  {
+    "Sound_de": "Rad fahren",
+    "root": "اجزا: Rad به معنای دوچرخه، fahren به معنای راندن.\nمعنی کلی: دوچرخه راندن.\nمترادف ها: Fahrrad fahren (دوچرخه راندن)"
+  },
+  {
+    "Sound_de": "Radio hören",
+    "root": "اجزا: Radio به معنای رادیو، hören به معنای شنیدن.\nمعنی کلی: شنیدن رادیو.\nمترادف ها: Rundfunk hören (شنیدن پخش)"
+  },
+  {
+    "Sound_de": "Rechnung, bitte",
+    "root": "اجزا: Rechnung به معنای صورتحساب، bitte به معنای لطفاً.\nمعنی کلی: صورتحساب لطفاً.\nمترادف ها: Die Rechnung, bitte (صورتحساب لطفاً)"
+  },
+  {
+    "Sound_de": "recht haben",
+    "root": "اجزا: recht به معنای حق، haben به معنای داشتن.\nمعنی کلی: حق داشتن (درست بودن).\nمترادف ها: im Recht sein (حق داشتن)\nمتضاد ها: unrecht haben (اشتباه کردن)"
+  },
+  {
+    "Sound_de": "rechts abbiegen an der Kreuzung",
+    "root": "اجزا: rechts به معنای راست، abbiegen به معنای پیچیدن، an der Kreuzung به معنای در تقاطع.\nمعنی کلی: در تقاطع به راست پیچیدن.\nمترادف ها: rechts einbiegen (به راست پیچیدن)"
+  },
+  {
+    "Sound_de": "rechts gehen",
+    "root": "اجزا: rechts به معنای راست، gehen به معنای رفتن.\nمعنی کلی: به راست رفتن.\nمترادف ها: nach rechts abbiegen (به راست پیچیدن)\nمتضاد ها: links gehen (به چپ رفتن)"
+  },
+  {
+    "Sound_de": "Regen haben",
+    "root": "اجزا: Regen به معنای باران، haben به معنای داشتن.\nمعنی کلی: باران داشتن (بارانی بودن).\nمترادف ها: es regnet (باران می‌بارد)"
+  },
+  {
+    "Sound_de": "reich sein",
+    "root": "اجزا: reich به معنای ثروتمند، sein به معنای بودن.\nمعنی کلی: ثروتمند بودن.\nمترادف ها: wohlhabend sein (ثروتمند بودن)\nمتضاد ها: arm sein (فقیر بودن)"
+  },
+  {
+    "Sound_de": "Reifen wechseln",
+    "root": "اجزا: Reifen به معنای لاستیک، wechseln به معنای تعویض کردن.\nمعنی کلی: تعویض لاستیک.\nمترادف ها: Reifen austauschen (تعویض لاستیک)"
+  },
+  {
+    "Sound_de": "Reis essen",
+    "root": "اجزا: Reis به معنای برنج، essen به معنای خوردن.\nمعنی کلی: خوردن برنج."
+  },
+  {
+    "Sound_de": "Reiseführer kaufen",
+    "root": "اجزا: Reiseführer به معنای راهنمای سفر، kaufen به معنای خرید کردن.\nمعنی کلی: خرید راهنمای سفر.\nمترادف ها: Travelguide erwerben (خرید راهنمای سفر)"
+  },
+  {
+    "Sound_de": "reiten lernen",
+    "root": "اجزا: reiten به معنای سوارکاری، lernen به معنای یادگیری.\nمعنی کلی: یادگیری سوارکاری.\nمترادف ها: Reitkunst lernen (یادگیری هنر سوارکاری)"
+  },
+  {
+    "Sound_de": "Rentner sein",
+    "root": "اجزا: Rentner به معنای بازنشسته، sein به معنای بودن.\nمعنی کلی: بازنشسته بودن.\nمترادف ها: Pensionär sein (بازنشسته بودن)"
+  },
+  {
+    "Sound_de": "richtig sein",
+    "root": "اجزا: richtig به معنای درست، sein به معنای بودن.\nمعنی کلی: درست بودن.\nمترادف ها: korrekt sein (صحیح بودن)\nمتضاد ها: falsch sein (اشتباه بودن)"
+  },
+  {
+    "Sound_de": "richtig verstehen",
+    "root": "اجزا: richtig به معنای درست، verstehen به معنای درک کردن.\nمعنی کلی: درست درک کردن.\nمترادف ها: korrekt begreifen (درست فهمیدن)\nمتضاد ها: missverstehen (اشتباه فهمیدن)"
+  },
+  {
+    "Sound_de": "riechen gut",
+    "root": "اجزا: riechen به معنای بوییدن، gut به معنای خوب.\nمعنی کلی: خوب بوییدن.\nمترادف ها: duften (خوشبو بودن)\nمتضاد ها: stinken (بدبو بودن)"
+  },
+  {
+    "Sound_de": "romantisch sein",
+    "root": "اجزا: romantisch به معنای رمانتیک، sein به معنای بودن.\nمعنی کلی: رمانتیک بودن.\nمترادف ها: verträumt sein (رویایی بودن)\nمتضاد ها: unromantisch sein (غیر رمانتیک بودن)"
+  },
+  {
+    "Sound_de": "rote Rosen schenken",
+    "root": "اجزا: rote به معنای قرمز، Rosen به معنای رزها، schenken به معنای هدیه دادن.\nمعنی کلی: هدیه دادن رزهای قرمز.\nمترادف ها: rote Rosen verschenken (هدیه دادن رزهای قرمز)"
+  },
+  {
+    "Sound_de": "Rücken tut weh",
+    "root": "اجزا: Rücken به معنای کمر، tut weh به معنای درد کردن.\nمعنی کلی: کمر درد کردن.\nمترادف ها: Rückenschmerzen haben (درد کمر داشتن)"
+  },
+  {
+    "Sound_de": "ruhig sein",
+    "root": "اجزا: ruhig به معنای آرام، sein به معنای بودن.\nمعنی کلی: آرام بودن.\nمترادف ها: still sein (ساکت بودن)\nمتضاد ها: unruhig sein (ناآرام بودن)"
+  },
+  {
+    "Sound_de": "rund sein",
+    "root": "اجزا: rund به معنای گرد، sein به معنای بودن.\nمعنی کلی: گرد بودن.\nمترادف ها: kreisförmig sein (دایره‌ای بودن)\nمتضاد ها: eckig sein (گوشه‌دار بودن)"
+  },
+  {
+    "Sound_de": "Sachen abholen",
+    "root": "اجزا: Sachen به معنای چیزها، abholen به معنای برداشتن.\nمعنی کلی: برداشتن چیزها.\nمترادف ها: Dinge abholen (برداشتن چیزها)"
+  },
+  {
+    "Sound_de": "Sachen im Hotel lassen",
+    "root": "اجزا: Sachen به معنای چیزها، im Hotel به معنای در هتل، lassen به معنای گذاشتن.\nمعنی کلی: گذاشتن چیزها در هتل.\nمترادف ها: Gepäck im Hotel lassen (گذاشتن چمدان در هتل)"
+  },
+  {
+    "Sound_de": "sag mal",
+    "root": "اجزا: sag به معنای بگو، mal به معنای یک بار.\nمعنی کلی: بگو ببینم.\nمترادف ها: erzähl mal (بگو ببینم)"
+  },
+  {
+    "Sound_de": "Salat schmeckt",
+    "root": "اجزا: Salat به معنای سالاد، schmeckt به معنای مزه دادن.\nمعنی کلی: سالاد مزه می‌دهد (خوشمزه است).\nمترادف ها: Salat mundet (سالاد خوشمزه است)"
+  },
+  {
+    "Sound_de": "Salz haben",
+    "root": "اجزا: Salz به معنای نمک، haben به معنای داشتن.\nمعنی کلی: داشتن نمک.\nمترادف ها: Salz besitzen (داشتن نمک)"
+  },
+  {
+    "Sound_de": "sauber sein",
+    "root": "اجزا: sauber به معنای تمیز، sein به معنای بودن.\nمعنی کلی: تمیز بودن.\nمترادف ها: rein sein (پاک بودن)\nمتضاد ها: schmutzig sein (کثیف بودن)"
+  },
+  {
+    "Sound_de": "sauer sein",
+    "root": "اجزا: sauer به معنای ترش یا عصبانی، sein به معنای بودن.\nمعنی کلی: ترش بودن یا عصبانی بودن.\nمترادف ها: ärgerlich sein (عصبانی بودن)\nمتضاد ها: süß sein (شیرین بودن) برای ترش"
+  },
+  {
+    "Sound_de": "schädlich sein",
+    "root": "اجزا: schädlich به معنای مضر، sein به معنای بودن.\nمعنی کلی: مضر بودن.\nمترادف ها: schädlich wirken (مضر عمل کردن)\nمتضاد ها: nützlich sein (مفید بودن)"
+  },
+  {
+    "Sound_de": "scharf sein",
+    "root": "اجزا: scharf به معنای تند یا تیز، sein به معنای بودن.\nمعنی کلی: تند بودن.\nمترادف ها: pikant sein (تند بودن)\nمتضاد ها: mild sein (ملایم بودن)"
+  },
+  {
+    "Sound_de": "schimpfen über/auf",
+    "root": "اجزا: schimpfen به معنای غر زدن، über/auf به معنای بر/روی.\nمعنی کلی: غر زدن بر چیزی.\nمترادف ها: meckern über (غر زدن بر)"
+  },
+  {
+    "Sound_de": "Schlafzimmer",
+    "root": "اجزا: Schlaf به معنای خواب، Zimmer به معنای اتاق.\nمعنی کلی: اتاق خواب.\nمترادف ها: Bedroom (اتاق خواب)"
+  },
+  {
+    "Sound_de": "schlecht geträumt haben",
+    "root": "اجزا: schlecht به معنای بد، geträumt به معنای خواب دیده، haben به معنای داشتن.\nمعنی کلی: خواب بد دیدن.\nمترادف ها: Albtraum haben (کابوس داشتن)"
+  },
+  {
+    "Sound_de": "schlecht sein",
+    "root": "اجزا: schlecht به معنای بد، sein به معنای بودن.\nمعنی کلی: بد بودن.\nمترادف ها: mies sein (بد بودن)\nمتضاد ها: gut sein (خوب بودن)"
+  },
+  {
+    "Sound_de": "Schluss machen",
+    "root": "اجزا: Schluss به معنای پایان، machen به معنای کردن.\nمعنی کلی: پایان دادن.\nمترادف ها: beenden (پایان دادن)"
+  },
+  {
+    "Sound_de": "Schlüssel abgeben",
+    "root": "اجزا: Schlüssel به معنای کلید، abgeben به معنای تحویل دادن.\nمعنی کلی: تحویل دادن کلید.\nمترادف ها: Schlüssel übergeben (تحویل کلید)"
+  },
+  {
+    "Sound_de": "Schlüssel in der Tasche haben",
+    "root": "اجزا: Schlüssel به معنای کلید، in der Tasche به معنای در کیف، haben به معنای داشتن.\nمعنی کلی: داشتن کلید در کیف.\nمترادف ها: Schlüssel bei sich haben (کلید همراه داشتن)"
+  },
+  {
+    "Sound_de": "Schmerzen haben",
+    "root": "اجزا: Schmerzen به معنای دردها، haben به معنای داشتن.\nمعنی کلی: داشتن درد.\nمترادف ها: Wehtun haben (درد داشتن)"
+  },
+  {
+    "Sound_de": "schmutzig sein",
+    "root": "اجزا: schmutzig به معنای کثیف، sein به معنای بودن.\nمعنی کلی: کثیف بودن.\nمترادف ها: dreckig sein (کثیف بودن)\nمتضاد ها: sauber sein (تمیز بودن)"
+  },
+  
+  {
+    "Sound_de": "Schnee liegen",
+    "root": "اجزای تشکیل‌دهنده: Schnee (برف) - liegen (دراز کشیدن یا قرار گرفتن).\nاین عبارت به معنای 'برف روی زمین بودن' است.\nمترادف: Schnee bedecken (پوشاندن با برف)"
+  },
+  {
+    "Sound_de": "schnell fahren",
+    "root": "اجزای تشکیل‌دهنده: schnell (سریع) - fahren (رانندگی کردن یا رفتن).\nاین عبارت به معنای 'سریع رانندگی کردن' است.\nمترادف: rasch fahren (سریع رفتن) - hurtig fahren (تند رفتن).\nمتضاد: langsam fahren (آهسته رفتن)"
+  },
+  {
+    "Sound_de": "Schokolade lieben",
+    "root": "اجزای تشکیل‌دهنده: Schokolade (شکلات) - lieben (دوست داشتن یا عشق ورزیدن).\nاین عبارت به معنای 'شکلات دوست داشتن' است.\nمترادف: Schokolade mögen (شکلات liking) - Schokolade verehren (شکلات پرستیدن).\nمتضاد: Schokolade hassen (شکلات متنفر بودن)"
+  },
+  {
+    "Sound_de": "schon fertig sein",
+    "root": "اجزای تشکیل‌دهنده: schon (از قبل یا حالا) - fertig (آماده یا تمام شده) - sein (بودن).\nاین عبارت به معنای 'از قبل آماده بودن' است.\nمترادف: bereits erledigt sein (از قبل انجام شده بودن).\nمتضاد: noch nicht fertig sein (هنوز آماده نبودن)"
+  },
+  {
+    "Sound_de": "schön sein",
+    "root": "اجزای تشکیل‌دهنده: schön (زیبا) - sein (بودن).\nاین عبارت به معنای 'زیبا بودن' است.\nمترادف: hübsch sein (قشنگ بودن) - attraktiv sein (جذاب بودن).\nمتضاد: hässlich sein (زشت بودن)"
+  },
+  {
+    "Sound_de": "schrecklich aussehen",
+    "root": "اجزای تشکیل‌دهنده: schrecklich (وحشتناک) - aussehen (به نظر رسیدن).\nاین عبارت به معنای 'وحشتناک به نظر رسیدن' است.\nمترادف: furchtbar aussehen (ترسناک به نظر رسیدن).\nمتضاد: gut aussehen (خوب به نظر رسیدن)"
+  },
+  {
+    "Sound_de": "schriftliche Prüfung",
+    "root": "اجزای تشکیل‌دهنده: schriftliche (کتبی) - Prüfung (آزمون).\nاین عبارت به معنای 'آزمون کتبی' است.\nمترادف: schriftlicher Test (تست کتبی).\nمتضاد: mündliche Prüfung (آزمون شفاهی)"
+  },
+  {
+    "Sound_de": "Schuhe ausziehen",
+    "root": "اجزای تشکیل‌دهنده: Schuhe (کفش‌ها) - ausziehen (درآوردن).\nاین عبارت به معنای 'کفش‌ها را درآوردن' است.\nمترادف: Schuhe ablegen (کفش‌ها را گذاشتن).\nمتضاد: Schuhe anziehen (کفش‌ها را پوشیدن)"
+  },
+  {
+    "Sound_de": "schwach sein",
+    "root": "اجزای تشکیل‌دهنده: schwach (ضعیف) - sein (بودن).\nاین عبارت به معنای 'ضعیف بودن' است.\nمترادف: schwächlich sein (ناتوان بودن).\nمتضاد: stark sein (قوی بودن)"
+  },
+  {
+    "Sound_de": "schwanger sein",
+    "root": "اجزای تشکیل‌دهنده: schwanger (باردار) - sein (بودن).\nاین عبارت به معنای 'باردار بودن' است.\nمترادف: trächtig sein (حامله بودن، برای حیوانات).\nمتضاد: nicht schwanger sein (باردار نبودن)"
+  },
+  {
+    "Sound_de": "Schweinefleisch essen",
+    "root": "اجزای تشکیل‌دهنده: Schweinefleisch (گوشت خوک) - essen (خوردن).\nاین عبارت به معنای 'گوشت خوک خوردن' است.\nمترادف: Pork essen (گوشت خوک خوردن)."
+  },
+  {
+    "Sound_de": "schwer sein",
+    "root": "اجزای تشکیل‌دهنده: schwer (سنگین) - sein (بودن).\nاین عبارت به معنای 'سنگین بودن' است.\nمترادف: massiv sein (سنگین بودن).\nمتضاد: leicht sein (سبک بودن)"
+  },
+  {
+    "Sound_de": "schwierig sein",
+    "root": "اجزای تشکیل‌دهنده: schwierig (دشوار) - sein (بودن).\nاین عبارت به معنای 'دشوار بودن' است.\nمترادف: kompliziert sein (پیچیده بودن).\nمتضاد: einfach sein (آسان بودن)"
+  },
+  {
+    "Sound_de": "Sehenswürdigkeiten",
+    "root": "اجزای تشکیل‌دهنده: Sehen (دیدن) - würdig (شایسته) - keiten (جمع).\nاین عبارت به معنای 'جاذبه‌های دیدنی' است.\nمترادف: Attraktionen (جاذبه‌ها)."
+  },
+  {
+    "Sound_de": "sehr schön",
+    "root": "اجزای تشکیل‌دهنده: sehr (خیلی) - schön (زیبا).\nاین عبارت به معنای 'خیلی زیبا' است.\nمترادف: wunderschön (شگفت‌انگیز زیبا).\nمتضاد: sehr hässlich (خیلی زشت)"
+  },
+  {
+    "Sound_de": "sein Auto verkaufen",
+    "root": "اجزای تشکیل‌دهنده: sein (مال او) - Auto (ماشین) - verkaufen (فروختن).\nاین عبارت به معنای 'ماشین خود را فروختن' است.\nمترادف: sein Fahrzeug veräußern (وسیله نقلیه خود را فروختن)."
+  },
+  {
+    "Sound_de": "seit fünf Jahren",
+    "root": "اجزای تشکیل‌دهنده: seit (از) - fünf (پنج) - Jahren (سال‌ها).\nاین عبارت به معنای 'از پنج سال پیش' است.\nمترادف: seit fünf Jahren (هیچ مترادف مستقیم)."
+  },
+  {
+    "Sound_de": "selbst machen",
+    "root": "اجزای تشکیل‌دهنده: selbst (خود) - machen (انجام دادن).\nاین عبارت به معنای 'خود انجام دادن' است.\nمترادف: eigenhändig machen (با دست خود انجام دادن)."
+  },
+  {
+    "Sound_de": "Sendungen anschauen",
+    "root": "اجزای تشکیل‌دهنده: Sendungen (برنامه‌ها) - anschauen (تماشا کردن).\nاین عبارت به معنای 'برنامه‌ها را تماشا کردن' است.\nمترادف: Programme gucken (برنامه‌ها را نگاه کردن)."
+  },
+  {
+    "Sound_de": "sich ändern",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - ändern (تغییر دادن).\nاین عبارت به معنای 'تغییر کردن' است.\nمترادف: sich verändern (تغییر کردن).\nمتضاد: gleich bleiben (همان ماندن)"
+  },
+  {
+    "Sound_de": "sich ausruhen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - ausruhen (استراحت کردن).\nاین عبارت به معنای 'استراحت کردن' است.\nمترادف: sich erholen (بهبودی یافتن).\nمتضاد: sich anstrengen (تلاش کردن)"
+  },
+  {
+    "Sound_de": "sich bedanken für",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - bedanken (تشکر کردن) - für (برای).\nاین عبارت به معنای 'تشکر کردن برای' است.\nمترادف: danken für (تشکر کردن برای)."
+  },
+  {
+    "Sound_de": "sich beeilen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - beeilen (عجله کردن).\nاین عبارت به معنای 'عجله کردن' است.\nمترادف: sich eilen (عجله کردن).\nمتضاد: sich Zeit lassen (وقت گذاشتن)"
+  },
+  {
+    "Sound_de": "sich beschweren über",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - beschweren (شکایت کردن) - über (درباره).\nاین عبارت به معنای 'شکایت کردن درباره' است.\nمترادف: sich beklagen über (گلایه کردن درباره).\nمتضاد: sich freuen über (خوشحال شدن درباره)"
+  },
+  {
+    "Sound_de": "sich bewerben um",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - bewerben (درخواست دادن) - um (برای).\nاین عبارت به معنای 'درخواست دادن برای' است.\nمترادف: sich melden um (ثبت نام کردن برای)."
+  },
+  {
+    "Sound_de": "sich die Hände waschen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - die Hände (دست‌ها) - waschen (شستن).\nاین عبارت به معنای 'دست‌ها را شستن' است.\nمترادف: Hände waschen (دست شستن)."
+  },
+  {
+    "Sound_de": "sich eine Jacke anziehen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - eine Jacke (یک ژاکت) - anziehen (پوشیدن).\nاین عبارت به معنای 'یک ژاکت پوشیدن' است.\nمترادف: eine Jacke anlegen (ژاکت گذاشتن)."
+  },
+  {
+    "Sound_de": "sich eintragen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - eintragen (ثبت کردن).\nاین عبارت به معنای 'ثبت کردن خود' است.\nمترادف: sich einschreiben (ثبت نام کردن)."
+  },
+  {
+    "Sound_de": "sich entschuldigen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - entschuldigen (عذرخواهی کردن).\nاین عبارت به معنای 'عذرخواهی کردن' است.\nمترادف: sich verzeihen lassen (بخشش خواستن)."
+  },
+  {
+    "Sound_de": "sich erinnern an",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - erinnern (یادآوری کردن) - an (به).\nاین عبارت به معنای 'یادآوری کردن به' است.\nمترادف: sich entsinnen an (یاد کردن به).\nمتضاد: vergessen (فراموش کردن)"
+  },
+  {
+    "Sound_de": "sich etwas merken",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - etwas (چیزی) - merken (به خاطر سپردن).\nاین عبارت به معنای 'چیزی را به خاطر سپردن' است.\nمترادف: sich etwas einprägen (چیزی را حک کردن).\nمتضاد: etwas vergessen (چیزی را فراموش کردن)"
+  },
+  {
+    "Sound_de": "sich etwas wünschen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - etwas (چیزی) - wünschen (آرزو کردن).\nاین عبارت به معنای 'چیزی آرزو کردن' است.\nمترادف: etwas erhoffen (چیزی امیدوار بودن)."
+  },
+  {
+    "Sound_de": "sich freuen über/auf",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - freuen (خوشحال شدن) - über/auf (درباره/برای).\nاین عبارت به معنای 'خوشحال شدن درباره/برای' است.\nمترادف: sich erfreuen an (لذت بردن از).\nمتضاد: sich ärgern über (عصبانی شدن درباره)"
+  },
+  {
+    "Sound_de": "sich fühlen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - fühlen (احساس کردن).\nاین عبارت به معنای 'احساس کردن' است.\nمترادف: sich empfinden (احساس کردن)."
+  },
+  {
+    "Sound_de": "sich informieren über",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - informieren (اطلاع یافتن) - über (درباره).\nاین عبارت به معنای 'اطلاع یافتن درباره' است.\nمترادف: sich erkundigen über (پرس و جو کردن درباره)."
+  },
+  {
+    "Sound_de": "sich interessieren für",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - interessieren (علاقه‌مند شدن) - für (برای).\nاین عبارت به معنای 'علاقه‌مند شدن برای' است.\nمترادف: sich begeistern für (هیجان‌زده شدن برای).\nمتضاد: sich desinteressieren (بی‌علاقه بودن)"
+  },
+  {
+    "Sound_de": "sich kennenlernen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - kennenlernen (آشنا شدن).\nاین عبارت به معنای 'آشنا شدن' است.\nمترادف: sich begegnen (ملاقات کردن)."
+  },
+  {
+    "Sound_de": "sich kümmern um",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - kümmern (مراقبت کردن) - um (درباره).\nاین عبارت به معنای 'مراقبت کردن درباره' است.\nمترادف: sich sorgen um (نگران بودن درباره)."
+  },
+  {
+    "Sound_de": "sich schriftlich anmelden",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - schriftlich (کتبی) - anmelden (ثبت نام کردن).\nاین عبارت به معنای 'کتبی ثبت نام کردن' است.\nمترادف: sich schriftlich einschreiben (کتبی ثبت کردن).\nمتضاد: sich mündlich anmelden (شفاهی ثبت نام کردن)"
+  },
+  {
+    "Sound_de": "sich setzen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - setzen (نشستن).\nاین عبارت به معنای 'نشستن' است.\nمترادف: Platz nehmen (جا گرفتن).\nمتضاد: sich stellen (ایستادن)"
+  },
+  {
+    "Sound_de": "sich streiten",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - streiten (دعوا کردن).\nاین عبارت به معنای 'دعوا کردن' است.\nمترادف: sich zanken (جر و بحث کردن).\nمتضاد: sich vertragen (آشتی کردن)"
+  },
+  {
+    "Sound_de": "sich treffen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - treffen (ملاقات کردن).\nاین عبارت به معنای 'ملاقات کردن' است.\nمترادف: sich begegnen (دیدار کردن)."
+  },
+  {
+    "Sound_de": "sich um Pflanzen kümmern",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - um (درباره) - Pflanzen (گیاهان) - kümmern (مراقبت کردن).\nاین عبارت به معنای 'مراقبت کردن از گیاهان' است.\nمترادف: Pflanzen pflegen (گیاهان را نگهداری کردن)."
+  },
+  {
+    "Sound_de": "sich umziehen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - umziehen (لباس عوض کردن).\nاین عبارت به معنای 'لباس عوض کردن' است.\nمترادف: sich anziehen (پوشیدن) - but for change.\nمتضاد: sich nicht umziehen (لباس عوض نکردن)"
+  },
+  {
+    "Sound_de": "sich unterhalten über",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - unterhalten (گفتگو کردن) - über (درباره).\nاین عبارت به معنای 'گفتگو کردن درباره' است.\nمترادف: sich besprechen über (بحث کردن درباره)."
+  },
+  {
+    "Sound_de": "sich verabreden",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - verabreden (قرار گذاشتن).\nاین عبارت به معنای 'قرار گذاشتن' است.\nمترادف: sich verabreden (هیچ مترادف مستقیم)."
+  },
+  {
+    "Sound_de": "sich vorbereiten auf",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - vorbereiten (آماده شدن) - auf (برای).\nاین عبارت به معنای 'آماده شدن برای' است.\nمترادف: sich rüsten für (مجهز شدن برای)."
+  },
+  {
+    "Sound_de": "sich vorstellen",
+    "root": "اجزای تشکیل‌دهنده: sich (خود) - vorstellen (معرفی کردن یا تصور کردن).\nاین عبارت به معنای 'معرفی کردن خود' است.\nمترادف: sich präsentieren (ارائه کردن خود)."
+  },
+  {
+    "Sound_de": "sicher sein",
+    "root": "اجزای تشکیل‌دهنده: sicher (مطمئن) - sein (بودن).\nاین عبارت به معنای 'مطمئن بودن' است.\nمترادف: gewiss sein (یقینی بودن).\nمتضاد: unsicher sein (نامطمئن بودن)"
+  },
+  {
+    "Sound_de": "Ski fahren",
+    "root": "اجزای تشکیل‌دهنده: Ski (اسکی) - fahren (رفتن).\nاین عبارت به معنای 'اسکی کردن' است.\nمترادف: Skilaufen (اسکی دویدن)."
+  },
+  {
+    "Sound_de": "so groß wie",
+    "root": "اجزای تشکیل‌دهنده: so (چنین) - groß (بزرگ) - wie (مانند).\nاین عبارت به معنای 'به اندازه ... بزرگ' است.\nمترادف: ebenso groß wie (به همان اندازه بزرگ مانند)."
+  },
+  {
+    "Sound_de": "so schnell",
+    "root": "اجزای تشکیل‌دهنده: so (چنین) - schnell (سریع).\nاین عبارت به معنای 'چنین سریع' است.\nمترادف: so rasch (چنین تند).\nمتضاد: so langsam (چنین آهسته)"
+  },
+  {
+    "Sound_de": "sofort  en",
+    "root": "اجزای تشکیل‌دهنده: sofort (فوراً) - en (احتمالاً typo، شاید kommen یا چیزی).\nاین عبارت ممکن است ناقص باشد، اما به معنای 'فوراً' است.\nمترادف: gleich (بلافاصله).\nمتضاد: später (بعداً)"
+  },
+  {
+    "Sound_de": "sonnig sein",
+    "root": "اجزای تشکیل‌دهنده: sonnig (آفتابی) - sein (بودن).\nاین عبارت به معنای 'آفتابی بودن' است.\nمترادف: sonnenhell sein (آفتاب روشن بودن).\nمتضاد: bewölkt sein (ابری بودن)"
+  },
+  {
+    "Sound_de": "sonst noch einen Wunsch",
+    "root": "اجزای تشکیل‌دهنده: sonst (دیگر) - noch (هنوز) - einen Wunsch (یک آرزو).\nاین عبارت به معنای 'دیگر آرزویی دارید؟' است."
+  },
+  {
+    "Sound_de": "spannend sein",
+    "root": "اجزای تشکیل‌دهنده: spannend (هیجان‌انگیز) - sein (بودن).\nاین عبارت به معنای 'هیجان‌انگیز بودن' است.\nمترادف: aufregend sein (هیجان‌انگیز بودن).\nمتضاد: langweilig sein (کسل‌کننده بودن)"
+  },
+  {
+    "Sound_de": "Spaß haben",
+    "root": "اجزای تشکیل‌دهنده: Spaß (لذت) - haben (داشتن).\nاین عبارت به معنای 'لذت بردن' است.\nمترادف: Vergnügen haben (لذت داشتن).\nمتضاد: keinen Spaß haben (لذت نبردن)"
+  },
+  {
+    "Sound_de": "Spaß machen",
+    "root": "اجزای تشکیل‌دهنده: Spaß (لذت) - machen (انجام دادن).\nاین عبارت به معنای 'لذت بردن' است.\nمترادف: Freude machen (شادی کردن)."
+  },
+  {
+    "Sound_de": "später machen",
+    "root": "اجزای تشکیل‌دهنده: später (بعداً) - machen (انجام دادن).\nاین عبارت به معنای 'بعداً انجام دادن' است.\nمترادف: nachher erledigen (بعداً انجام دادن).\nمتضاد: sofort machen (فوراً انجام دادن)"
+  },
+  {
+    "Sound_de": "spazieren gehen",
+    "root": "اجزای تشکیل‌دهنده: spazieren (پیاده‌روی) - gehen (رفتن).\nاین عبارت به معنای 'پیاده‌روی کردن' است.\nمترادف: bummeln (گشت زدن)."
+  },
+  {
+    "Sound_de": "Spaziergang machen",
+    "root": "اجزای تشکیل‌دهنده: Spaziergang (پیاده‌روی) - machen (انجام دادن).\nاین عبارت به معنای 'پیاده‌روی کردن' است.\nمترادف: einen Ausflug machen (گشت کردن)."
+  },
+  {
+    "Sound_de": "Speisekarte bringen",
+    "root": "اجزای تشکیل‌دهنده: Speisekarte (منو) - bringen (آوردن).\nاین عبارت به معنای 'منو آوردن' است.\nمترادف: Menükarte holen (منو آوردن)."
+  },
+  {
+    "Sound_de": "Spiele spielen",
+    "root": "اجزای تشکیل‌دهنده: Spiele (بازی‌ها) - spielen (بازی کردن).\nاین عبارت به معنای 'بازی کردن بازی‌ها' است.\nمترادف: Games zocken (بازی کردن گیم‌ها)."
+  },
+  {
+    "Sound_de": "Sport machen",
+    "root": "اجزای تشکیل‌دهنده: Sport (ورزش) - machen (انجام دادن).\nاین عبارت به معنای 'ورزش کردن' است.\nمترادف: trainieren (تمرین کردن)."
+  },
+  {
+    "Sound_de": "sportlich sein",
+    "root": "اجزای تشکیل‌دهنده: sportlich (ورزشی) - sein (بودن).\nاین عبارت به معنای 'ورزشی بودن' است.\nمترادف: athletisch sein (ورزشکار بودن).\nمتضاد: unsportlich sein (غیرورزشی بودن)"
+  },
+  {
+    "Sound_de": "Sprachen sprechen",
+    "root": "اجزای تشکیل‌دهنده: Sprachen (زبان‌ها) - sprechen (صحبت کردن).\nاین عبارت به معنای 'زبان‌ها صحبت کردن' است.\nمترادف: Idiome beherrschen (زبان‌ها مسلط بودن)."
+  },
+  {
+    "Sound_de": "Sprechstunde haben",
+    "root": "اجزای تشکیل‌دهنده: Sprechstunde (ساعت مشاوره) - haben (داشتن).\nاین عبارت به معنای 'ساعت مشاوره داشتن' است.\nمترادف: Konsultationszeit haben (زمان مشاوره داشتن)."
+  },
+  {
+    "Sound_de": "Stadtplan kaufen",
+    "root": "اجزای تشکیل‌دهنده: Stadtplan (نقشه شهر) - kaufen (خریدن).\nاین عبارت به معنای 'نقشه شهر خریدن' است.\nمترادف: Citymap erwerben (نقشه شهر خریدن)."
+  },
+  {
+    "Sound_de": "stark regnen",
+    "root": "اجزای تشکیل‌دهنده: stark (شدید) - regnen (باریدن).\nاین عبارت به معنای 'شدید باریدن' است.\nمترادف: heftig regnen (شدید باریدن).\nمتضاد: leicht regnen (کم باریدن)"
+  },
+  {
+    "Sound_de": "starke Kopfschmerzen",
+    "root": "اجزای تشکیل‌دهنده: starke (شدید) - Kopfschmerzen (سردرد).\nاین عبارت به معنای 'سردرد شدید' است.\nمترادف: starke Migräne (میگرن شدید)."
+  },
+  {
+    "Sound_de": "stehen bleiben",
+    "root": "اجزای تشکیل‌دهنده: stehen (ایستادن) - bleiben (ماندن).\nاین عبارت به معنای 'ایستادن و ماندن' است.\nمترادف: anhalten (توقف کردن).\nمتضاد: weitergehen (ادامه رفتن)"
+  },
+  {
+    "Sound_de": "Stell die Milch in den Kühlschrank",
+    "root": "اجزای تشکیل‌دهنده: Stell (بگذار) - die Milch (شیر) - in den Kühlschrank (در یخچال).\nاین عبارت به معنای 'شیر را در یخچال بگذار' است."
+  },
+  {
+    "Sound_de": "Stiefel kaufen",
+    "root": "اجزای تشکیل‌دهنده: Stiefel (چکمه) - kaufen (خریدن).\nاین عبارت به معنای 'چکمه خریدن' است.\nمترادف: Boots erwerben (چکمه خریدن)."
+  },
+  {
+    "Sound_de": "streng sein",
+    "root": "اجزای تشکیل‌دهنده: streng (سختگیر) - sein (بودن).\nاین عبارت به معنای 'سختگیر بودن' است.\nمترادف: hart sein (سخت بودن).\nمتضاد: locker sein (آسان‌گیر بودن)"
+  },
+  {
+    "Sound_de": "Stress haben",
+    "root": "اجزای تشکیل‌دهنده: Stress (استرس) - haben (داشتن).\nاین عبارت به معنای 'استرس داشتن' است.\nمترادف: unter Druck stehen (تحت فشار بودن).\nمتضاد: entspannt sein (آرام بودن)"
+  },
+  {
+    "Sound_de": "Studentin sein",
+    "root": "اجزای تشکیل‌دهنده: Studentin (دانشجو زن) - sein (بودن).\nاین عبارت به معنای 'دانشجو زن بودن' است.\nمترادف: Studierende sein (دانشجو بودن)."
+  },
+  {
+    "Sound_de": "Studium abschließen",
+    "root": "اجزای تشکیل‌دهنده: Studium (تحصیلات) - abschließen (تمام کردن).\nاین عبارت به معنای 'تحصیلات را تمام کردن' است.\nمترادف: Studium beenden (تحصیلات را پایان دادن)."
+  },
+  {
+    "Sound_de": "Ausbildung abschließen",
+    "root": "اجزای تشکیل‌دهنده: Ausbildung (آموزش) - abschließen (تمام کردن).\nاین عبارت به معنای 'آموزش را تمام کردن' است.\nمترادف: Lehre beenden (آموزش را پایان دادن)."
+  },
+  {
+    "Sound_de": "super sein",
+    "root": "اجزای تشکیل‌دهنده: super (عالی) - sein (بودن).\nاین عبارت به معنای 'عالی بودن' است.\nمترادف: toll sein (عالی بودن).\nمتضاد: schlecht sein (بد بودن)"
+  },
+  {
+    "Sound_de": "Suppe schmeckt",
+    "root": "اجزای تشکیل‌دهنده: Suppe (سوپ) - schmeckt (طعم دادن).\nاین عبارت به معنای 'سوپ طعم دارد' است.\nمترادف: Suppe mundet (سوپ خوشمزه است)."
+  },
+  {
+    "Sound_de": "süß sein",
+    "root": "اجزای تشکیل‌دهنده: süß (شیرین) - sein (بودن).\nاین عبارت به معنای 'شیرین بودن' است.\nمترادف: zuckerig sein (شکرین بودن).\nمتضاد: sauer sein (ترش بودن)"
+  },
+  {
+    "Sound_de": "Süßigkeiten essen",
+    "root": "اجزای تشکیل‌دهنده: Süßigkeiten (شیرینی‌جات) - essen (خوردن).\nاین عبارت به معنای 'شیرینی‌جات خوردن' است.\nمترادف: Naschereien verzehren (شیرینی خوردن)."
+  },
+  {
+    "Sound_de": "Süßigkeiten mögen",
+    "root": "اجزای تشکیل‌دهنده: Süßigkeiten (شیرینی‌جات) - mögen (دوست داشتن).\nاین عبارت به معنای 'شیرینی‌جات دوست داشتن' است.\nمترادف: Süßigkeiten lieben (شیرینی دوست داشتن).\nمتضاد: Süßigkeiten hassen (شیرینی متنفر بودن)"
+  },
+  {
+    "Sound_de": "sympathisch sein",
+    "root": "اجزای تشکیل‌دهنده: sympathisch (دوست‌داشتنی) - sein (بودن).\nاین عبارت به معنای 'دوست‌داشتنی بودن' است.\nمترادف: nett sein (خوب بودن).\nمتضاد: unsympathisch sein (ناخوشایند بودن)"
+  },
+  {
+    "Sound_de": "Tabletten nehmen",
+    "root": "اجزای تشکیل‌دهنده: Tabletten (قرص‌ها) - nehmen (گرفتن).\nاین عبارت به معنای 'قرص گرفتن' است.\nمترادف: Pillen einnehmen (قرص خوردن)."
+  },
+  {
+    "Sound_de": "Taschengeld bekommen",
+    "root": "اجزای تشکیل‌دهنده: Taschengeld (پول توجیبی) - bekommen (دریافت کردن).\nاین عبارت به معنای 'پول توجیبی دریافت کردن' است.\nمترادف: Pocket money erhalten (پول جیبی گرفتن)."
+  },
+  {
+    "Sound_de": "Tennis spielen",
+    "root": "اجزای تشکیل‌دهنده: Tennis (تنیس) - spielen (بازی کردن).\nاین عبارت به معنای 'تنیس بازی کردن' است.\nمترادف: Tennis treiben (تنیس زدن)."
+  },
+  {
+    "Sound_de": "tief sein",
+    "root": "اجزای تشکیل‌دهنده: tief (عمیق) - sein (بودن).\nاین عبارت به معنای 'عمیق بودن' است.\nمترادف: profund sein (عمیق بودن).\nمتضاد: flach sein (کم‌عمق بودن)"
+  },
+  {
+    "Sound_de": "Tiere haben",
+    "root": "اجزای تشکیل‌دهنده: Tiere (حیوانات) - haben (داشتن).\nاین عبارت به معنای 'حیوانات داشتن' است.\nمترادف: Haustiere besitzen (حیوانات خانگی داشتن)."
+  },
+  {
+    "Sound_de": "Titel des Films",
+    "root": "اجزای تشکیل‌دهنده: Titel (عنوان) - des Films (فیلم).\nاین عبارت به معنای 'عنوان فیلم' است.\nمترادف: Filmtitel (عنوان فیلم)."
+  },
+  {
+    "Sound_de": "Toilette finden",
+    "root": "اجزای تشکیل‌دهنده: Toilette (توالت) - finden (پیدا کردن).\nاین عبارت به معنای 'توالت پیدا کردن' است.\nمترادف: WC aufsuchen (توالت جستجو کردن)."
+  },
+  {
+    "Sound_de": "toll sein",
+    "root": "اجزای تشکیل‌دهنده: toll (عالی) - sein (بودن).\nاین عبارت به معنای 'عالی بودن' است.\nمترادف: super sein (سوپر بودن).\nمتضاد: doof sein (احمقانه بودن)"
+  },
+  {
+    "Sound_de": "Tomate ist grün",
+    "root": "اجزای تشکیل‌دهنده: Tomate (گوجه) - ist (است) - grün (سبز).\nاین عبارت به معنای 'گوجه سبز است' است.\nمترادف: Tomate ist unreif (گوجه نرسیده است).\nمتضاد: Tomate ist rot (گوجه قرمز است)"
+  },
+  {
+    "Sound_de": "tot sein",
+    "root": "اجزای تشکیل‌دهنده: tot (مرده) - sein (بودن).\nاین عبارت به معنای 'مرده بودن' است.\nمترادف: verstorben sein (فوت کرده بودن).\nمتضاد: lebendig sein (زنده بودن)"
+  },
+  {
+    "Sound_de": "total langweilig",
+    "root": "اجزای تشکیل‌دهنده: total (کاملاً) - langweilig (کسل‌کننده).\nاین عبارت به معنای 'کاملاً کسل‌کننده' است.\nمترادف: absolut öde (کاملاً خسته‌کننده).\nمتضاد: total spannend (کاملاً هیجان‌انگیز)"
+  },
+  {
+    "Sound_de": "Touristen kommen",
+    "root": "اجزای تشکیل‌دهنده: Touristen (توریست‌ها) - kommen (آمدن).\nاین عبارت به معنای 'توریست‌ها آمدن' است.\nمترادف: Besucher eintreffen (بازدیدکنندگان رسیدن)."
+  },
+  {
+    "Sound_de": "traurig sein",
+    "root": "اجزای تشکیل‌دهنده: traurig (غمگین) - sein (بودن).\nاین عبارت به معنای 'غمگین بودن' است.\nمترادف: betrübt sein (ناراحت بودن).\nمتضاد: fröhlich sein (شاد بودن)"
+  },
+  {
+    "Sound_de": "trocken sein",
+    "root": "اجزای تشکیل‌دهنده: trocken (خشک) - sein (بودن).\nاین عبارت به معنای 'خشک بودن' است.\nمترادف: arid sein (خشک بودن).\nمتضاد: feucht sein (مرطوب بودن)"
+  },
+  {
+    "Sound_de": "Tür abschließen",
+    "root": "اجزای تشکیل‌دهنده: Tür (در) - abschließen (قفل کردن).\nاین عبارت به معنای 'در را قفل کردن' است.\nمترادف: Tür verriegeln (در را بستن).\nمتضاد: Tür aufschließen (در را باز کردن)"
+  },
+  {
+    "Sound_de": "Tür ist auf",
+    "root": "اجزای تشکیل‌دهنده: Tür (در) - ist (است) - auf (باز).\nاین عبارت به معنای 'در باز است' است.\nمترادف: Tür ist geöffnet (در باز شده).\nمتضاد: Tür ist zu (در بسته است)"
+  },
+  {
+    "Sound_de": "Türen schließen automatisch",
+    "root": "اجزای تشکیل‌دهنده: Türen (درها) - schließen (بستن) - automatisch (خودکار).\nاین عبارت به معنای 'درها خودکار بسته می‌شوند' است.\nمترادف: Türen schließen sich automatisch (درها خودکار بسته می‌شوند)."
+  },
+  {
+    "Sound_de": "typisch sein für",
+    "root": "اجزای تشکیل‌دهنده: typisch (معمولی) - sein (بودن) - für (برای).\nاین عبارت به معنای 'معمولی بودن برای' است.\nمترادف: charakteristisch sein für (ویژگی بودن برای).\nمتضاد: atypisch sein für (غیرمعمولی بودن برای)"
+  },
+  {
+    "Sound_de": "über die Brücke fahren",
+    "root": "اجزای تشکیل‌دهنده: über (از روی) - die Brücke (پل) - fahren (رانندگی کردن).\nاین عبارت به معنای 'از روی پل رانندگی کردن' است.\nمترادف: die Brücke überqueren (پل را عبور کردن)."
+  },
+  {
+    "Sound_de": "über die Straße gehen",
+    "root": "اجزای تشکیل‌دهنده: über (از روی) - die Straße (خیابان) - gehen (رفتن).\nاین عبارت به معنای 'از خیابان عبور کردن' است.\nمترادف: die Straße kreuzen (خیابان را عبور کردن)."
+  },
+  {
+    "Sound_de": "über uns wohnen",
+    "root": "اجزای تشکیل‌دهنده: über (بالای) - uns (ما) - wohnen (زندگی کردن).\nاین عبارت به معنای 'بالای ما زندگی کردن' است.\nمترادف: oberhalb wohnen (بالا زندگی کردن)."
+  },
+  {
+    "Sound_de": "überall suchen",
+    "root": "اجزای تشکیل‌دهنده: überall (همه جا) - suchen (جستجو کردن).\nاین عبارت به معنای 'همه جا جستجو کردن' است.\nمترادف: allenthalben suchen (هر جایی جستجو کردن)."
+  },
+  {
+    "Sound_de": "übermorgen kommen",
+    "root": "اجزای تشکیل‌دهنده: übermorgen (پس‌فردا) - kommen (آمدن).\nاین عبارت به معنای 'پس‌فردا آمدن' است.\nمترادف: in zwei Tagen kommen (در دو روز آمدن)."
+  },
+
+  {
+    "Sound_de": "Uhr geht richtig",
+    "root": "اجزای تشکیل‌دهنده: 'Uhr' به معنای ساعت یا時計، 'geht' از فعل gehen به معنای می‌رود یا کار می‌کند، 'richtig' به معنای درست یا صحیح.\nاین عبارت به معنای 'ساعت درست می‌رود' یا 'ساعت دقیق است' است.\nمترادف آلمانی: Uhr läuft richtig (ساعت درست کار می‌کند)\nمتضاد آلمانی: Uhr geht falsch (ساعت اشتباه می‌رود)"
+  },
+  {
+    "Sound_de": "um die Welt reisen",
+    "root": "اجزای تشکیل‌دهنده: 'um' به معنای اطراف، 'die Welt' به معنای جهان، 'reisen' به معنای سفر کردن.\nاین عبارت به معنای 'سفر به دور جهان' است."
+  },
+  {
+    "Sound_de": "um etwas bitten",
+    "root": "اجزای تشکیل‌دهنده: 'um' به معنای برای، 'etwas' به معنای چیزی، 'bitten' به معنای درخواست کردن یا التماس کردن.\nاین عبارت به معنای 'درخواست چیزی کردن' است.\nمترادف آلمانی: um etwas ersuchen (درخواست چیزی کردن)\nمتضاد آلمانی: etwas ablehnen (چیزی را رد کردن)"
+  },
+  {
+    "Sound_de": "umsteigen",
+    "root": "اجزای تشکیل‌دهنده: 'um' به معنای تغییر، 'steigen' به معنای سوار شدن یا بالا رفتن.\nاین فعل به معنای 'تغییر وسیله نقلیه' یا 'تعویض قطار/اتوبوس' است.\nمترادف آلمانی: umschalten (تغییر دادن)\nمتضاد آلمانی: durchfahren (مستقیم رفتن)"
+  },
+  {
+    "Sound_de": "Umzug haben",
+    "root": "اجزای تشکیل‌دهنده: 'Umzug' به معنای نقل مکان یا اسباب‌کشی، 'haben' به معنای داشتن.\nاین عبارت به معنای 'اسباب‌کشی داشتن' است.\nمترادف آلمانی: Umziehen (نقل مکان کردن)"
+  },
+  {
+    "Sound_de": "unbedingt sprechen",
+    "root": "اجزای تشکیل‌دهنده: 'unbedingt' به معنای حتماً یا بدون شرط، 'sprechen' به معنای صحبت کردن.\nاین عبارت به معنای 'حتماً صحبت کردن' است.\nمترادف آلمانی: dringend sprechen (فوری صحبت کردن)"
+  },
+  {
+    "Sound_de": "unten wohnen",
+    "root": "اجزای تشکیل‌دهنده: 'unten' به معنای پایین، 'wohnen' به معنای زندگی کردن یا ساکن بودن.\nاین عبارت به معنای 'در پایین زندگی کردن' است.\nمترادف آلمانی: unten leben (در پایین زندگی کردن)\nمتضاد آلمانی: oben wohnen (در بالا زندگی کردن)"
+  },
+  {
+    "Sound_de": "unterschreiben",
+    "root": "اجزای تشکیل‌دهنده: 'unter' به معنای زیر، 'schreiben' به معنای نوشتن.\nاین فعل به معنای 'امضا کردن' است.\nمترادف آلمانی: signieren (امضا کردن)"
+  },
+  {
+    "Sound_de": "Unterschrift fehlen",
+    "root": "اجزای تشکیل‌دهنده: 'Unterschrift' به معنای امضا، 'fehlen' به معنای گم بودن یا نبودن.\nاین عبارت به معنای 'امضا کم بودن' یا 'امضا نداشتن' است.\nمترادف آلمانی: Signatur fehlen (امضا کم بودن)"
+  },
+  {
+    "Sound_de": "unterwegs sein",
+    "root": "اجزای تشکیل‌دهنده: 'unterwegs' به معنای در راه، 'sein' به معنای بودن.\nاین عبارت به معنای 'در راه بودن' است.\nمترادف آلمانی: auf dem Weg sein (در راه بودن)"
+  },
+  {
+    "Sound_de": "Urlaub machen",
+    "root": "اجزای تشکیل‌دهنده: 'Urlaub' به معنای تعطیلات، 'machen' به معنای انجام دادن.\nاین عبارت به معنای 'تعطیلات رفتن' است.\nمترادف آلمانی: Ferien machen (تعطیلات رفتن)"
+  },
+  {
+    "Sound_de": "Urlaub nehmen",
+    "root": "اجزای تشکیل‌دهنده: 'Urlaub' به معنای تعطیلات، 'nehmen' به معنای گرفتن.\nاین عبارت به معنای 'مرخصی گرفتن' است.\nمترادف آلمانی: Urlaub beantragen (مرخصی درخواست کردن)"
+  },
+  {
+    "Sound_de": "Veranstaltung haben",
+    "root": "اجزای تشکیل‌دهنده: 'Veranstaltung' به معنای رویداد یا مراسم، 'haben' به معنای داشتن.\nاین عبارت به معنای 'رویداد داشتن' است.\nمترادف آلمانی: Event haben (رویداد داشتن)"
+  },
+  {
+    "Sound_de": "verboten sein",
+    "root": "اجزای تشکیل‌دهنده: 'verboten' به معنای ممنوع، 'sein' به معنای بودن.\nاین عبارت به معنای 'ممنوع بودن' است.\nمترادف آلمانی: untersagt sein (ممنوع بودن)\nمتضاد آلمانی: erlaubt sein (مجاز بودن)"
+  },
+  {
+    "Sound_de": "Verkehr haben",
+    "root": "اجزای تشکیل‌دهنده: 'Verkehr' به معنای ترافیک یا روابط، 'haben' به معنای داشتن.\nاین عبارت به معنای 'ترافیک داشتن' است.\nمترادف آلمانی: Verkehrsaufkommen haben (ترافیک داشتن)"
+  },
+  {
+    "Sound_de": "Verkehrsmittel benutzen",
+    "root": "اجزای تشکیل‌دهنده: 'Verkehrsmittel' به معنای وسیله نقلیه، 'benutzen' به معنای استفاده کردن.\nاین عبارت به معنای 'استفاده از وسیله نقلیه' است.\nمترادف آلمانی: Transportmittel nutzen (استفاده از وسیله حمل و نقل)"
+  },
+  {
+    "Sound_de": "verletzt sein",
+    "root": "اجزای تشکیل‌دهنده: 'verletzt' به معنای زخمی یا آسیب‌دیده، 'sein' به معنای بودن.\nاین عبارت به معنای 'زخمی بودن' است.\nمترادف آلمانی: verwundet sein (زخمی بودن)\nمتضاد آلمانی: unverletzt sein (سالم بودن)"
+  },
+  {
+    "Sound_de": "verliebt sein",
+    "root": "اجزای تشکیل‌دهنده: 'verliebt' به معنای عاشق، 'sein' به معنای بودن.\nاین عبارت به معنای 'عاشق بودن' است.\nمترادف آلمانی: verliebt sein in (عاشق بودن در)\nمتضاد آلمانی: unlieb sein (نفرت داشتن)"
+  },
+  {
+    "Sound_de": "vermietet sein",
+    "root": "اجزای تشکیل‌دهنده: 'vermietet' به معنای اجاره داده شده، 'sein' به معنای بودن.\nاین عبارت به معنای 'اجاره داده شده بودن' است.\nمترادف آلمانی: vermietet werden (اجاره داده شدن)\nمتضاد آلمانی: verkauft sein (فروخته شده بودن)"
+  },
+  {
+    "Sound_de": "verschieden sein",
+    "root": "اجزای تشکیل‌دهنده: 'verschieden' به معنای متفاوت، 'sein' به معنای بودن.\nاین عبارت به معنای 'متفاوت بودن' است.\nمترادف آلمانی: unterschiedlich sein (متفاوت بودن)\nمتضاد آلمانی: gleich sein (یکسان بودن)"
+  },
+  {
+    "Sound_de": "Verspätung haben",
+    "root": "اجزای تشکیل‌دهنده: 'Verspätung' به معنای تأخیر، 'haben' به معنای داشتن.\nاین عبارت به معنای 'تأخیر داشتن' است.\nمترادف آلمانی: Verzögerung haben (تأخیر داشتن)\nمتضاد آلمانی: pünktlich sein (به موقع بودن)"
+  },
+  {
+    "Sound_de": "Vertrag unterschreiben",
+    "root": "اجزای تشکیل‌دهنده: 'Vertrag' به معنای قرارداد، 'unterschreiben' به معنای امضا کردن.\nاین عبارت به معنای 'امضا کردن قرارداد' است.\nمترادف آلمانی: Vertrag signieren (امضا کردن قرارداد)"
+  },
+  {
+    "Sound_de": "viel Sport machen",
+    "root": "اجزای تشکیل‌دهنده: 'viel' به معنای زیاد، 'Sport' به معنای ورزش، 'machen' به معنای انجام دادن.\nاین عبارت به معنای 'ورزش زیاد کردن' است.\nمترادف آلمانی: viel trainieren (زیاد تمرین کردن)\nمتضاد آلمانی: wenig Sport machen (ورزش کم کردن)"
+  },
+  {
+    "Sound_de": "viel Zeit haben",
+    "root": "اجزای تشکیل‌دهنده: 'viel' به معنای زیاد، 'Zeit' به معنای زمان، 'haben' به معنای داشتن.\nاین عبارت به معنای 'زمان زیاد داشتن' است.\nمترادف آلمانی: reichlich Zeit haben (زمان فراوان داشتن)\nمتضاد آلمانی: wenig Zeit haben (زمان کم داشتن)"
+  },
+  {
+    "Sound_de": "viele Leute",
+    "root": "اجزای تشکیل‌دهنده: 'viele' به معنای بسیاری، 'Leute' به معنای مردم.\nاین عبارت به معنای 'مردم زیاد' است.\nمترادف آلمانی: viele Personen (افراد زیاد)\nمتضاد آلمانی: wenige Leute (مردم کم)"
+  },
+  {
+    "Sound_de": "viele Wolken haben",
+    "root": "اجزای تشکیل‌دهنده: 'viele' به معنای بسیاری، 'Wolken' به معنای ابرها، 'haben' به معنای داشتن.\nاین عبارت به معنای 'ابرهای زیاد داشتن' (در مورد هوا) است.\nمترادف آلمانی: bewölkt sein (ابری بودن)\nمتضاد آلمانی: wolkenlos sein (بدون ابر بودن)"
+  },
+  {
+    "Sound_de": "Vögel mögen",
+    "root": "اجزای تشکیل‌دهنده: 'Vögel' به معنای پرندگان، 'mögen' به معنای دوست داشتن.\nاین عبارت به معنای 'پرندگان را دوست داشتن' است.\nمترادف آلمانی: Vögel lieben (پرندگان را دوست داشتن)\nمتضاد آلمانی: Vögel hassen (پرندگان را نفرت داشتن)"
+  },
+  {
+    "Sound_de": "voll sein",
+    "root": "اجزای تشکیل‌دهنده: 'voll' به معنای پر، 'sein' به معنای بودن.\nاین عبارت به معنای 'پر بودن' است.\nمترادف آلمانی: gefüllt sein (پر بودن)\nمتضاد آلمانی: leer sein (خالی بودن)"
+  },
+  {
+    "Sound_de": "Volleyball spielen",
+    "root": "اجزای تشکیل‌دهنده: 'Volleyball' به معنای والیبال، 'spielen' به معنای بازی کردن.\nاین عبارت به معنای 'والیبال بازی کردن' است.\nمترادف آلمانی: Volleyball treiben (والیبال انجام دادن)"
+  },
+  {
+    "Sound_de": "vom Rind",
+    "root": "اجزای تشکیل‌دهنده: 'vom' به معنای از، 'Rind' به معنای گاو.\nاین عبارت به معنای 'از گاو' (مثلاً گوشت گاو) است.\nمترادف آلمانی: Rindfleisch (گوشت گاو)"
+  },
+  {
+    "Sound_de": "von Beruf sein",
+    "root": "اجزای تشکیل‌دهنده: 'von' به معنای از، 'Beruf' به معنای حرفه، 'sein' به معنای بودن.\nاین عبارت به معنای 'از نظر حرفه بودن' است.\nمترادف آلمانی: beruflich sein (حرفه‌ای بودن)"
+  },
+  {
+    "Sound_de": "von dort kommen",
+    "root": "اجزای تشکیل‌دهنده: 'von' به معنای از، 'dort' به معنای آنجا، 'kommen' به معنای آمدن.\nاین عبارت به معنای 'از آنجا آمدن' است.\nمترادف آلمانی: von da kommen (از آنجا آمدن)\nمتضاد آلمانی: dorthin gehen (به آنجا رفتن)"
+  },
+  {
+    "Sound_de": "von etwas träumen",
+    "root": "اجزای تشکیل‌دهنده: 'von' به معنای از، 'etwas' به معنای چیزی، 'träumen' به معنای خواب دیدن.\nاین عبارت به معنای 'خواب چیزی دیدن' است.\nمترادف آلمانی: von etwas phantasieren (در مورد چیزی خیال‌پردازی کردن)"
+  },
+  {
+    "Sound_de": "von gestern sein",
+    "root": "اجزای تشکیل‌دهنده: 'von' به معنای از، 'gestern' به معنای دیروز، 'sein' به معنای بودن.\nاین عبارت به معنای 'از دیروز بودن' یا قدیمی بودن است.\nمترادف آلمانی: veraltet sein (قدیمی بودن)\nمتضاد آلمانی: aktuell sein (جدید بودن)"
+  },
+  {
+    "Sound_de": "von zu Hause kommen",
+    "root": "اجزای تشکیل‌دهنده: 'von' به معنای از، 'zu Hause' به معنای خانه، 'kommen' به معنای آمدن.\nاین عبارت به معنای 'از خانه آمدن' است.\nمترادف آلمانی: von Heim kommen (از خانه آمدن)\nمتضاد آلمانی: nach Hause gehen (به خانه رفتن)"
+  },
+  {
+    "Sound_de": "vor der Tür stehen",
+    "root": "اجزای تشکیل‌دهنده: 'vor' به معنای جلو، 'der Tür' به معنای در، 'stehen' به معنای ایستادن.\nاین عبارت به معنای 'جلوی در ایستادن' است.\nمترادف آلمانی: an der Tür warten (جلوی در منتظر ماندن)"
+  },
+  {
+    "Sound_de": "vor einer Stunde",
+    "root": "اجزای تشکیل‌دهنده: 'vor' به معنای قبل، 'einer Stunde' به معنای یک ساعت.\nاین عبارت به معنای 'یک ساعت پیش' است.\nمترادف آلمانی: eine Stunde zuvor (یک ساعت قبل)\nمتضاد آلمانی: in einer Stunde (در یک ساعت)"
+  },
+  {
+    "Sound_de": "vorn einsteigen",
+    "root": "اجزای تشکیل‌دهنده: 'vorn' به معنای جلو، 'einsteigen' به معنای سوار شدن.\nاین عبارت به معنای 'از جلو سوار شدن' است.\nمترادف آلمانی: vorne einsteigen (از جلو سوار شدن)\nمتضاد آلمانی: hinten einsteigen (از عقب سوار شدن)"
+  },
+  {
+    "Sound_de": "vorsichtig fahren",
+    "root": "اجزای تشکیل‌دهنده: 'vorsichtig' به معنای احتیاط‌آمیز، 'fahren' به معنای رانندگی کردن.\nاین عبارت به معنای 'احتیاط رانندگی کردن' است.\nمترادف آلمانی: vorsichtig lenken (احتیاط هدایت کردن)\nمتضاد آلمانی: rücksichtslos fahren (بی‌احتیاط رانندگی کردن)"
+  },
+  {
+    "Sound_de": "vorwärts fahren",
+    "root": "اجزای تشکیل‌دهنده: 'vorwärts' به معنای جلو، 'fahren' به معنای رانندگی کردن.\nاین عبارت به معنای 'به جلو رانندگی کردن' است.\nمترادف آلمانی: nach vorne fahren (به جلو رفتن)\nمتضاد آلمانی: rückwärts fahren (به عقب رانندگی کردن)"
+  },
+  {
+    "Sound_de": "wach sein",
+    "root": "اجزای تشکیل‌دهنده: 'wach' به معنای بیدار، 'sein' به معنای بودن.\nاین عبارت به معنای 'بیدار بودن' است.\nمترادف آلمانی: wachsam sein (هوشیار بودن)\nمتضاد آلمانی: schlafen (خواب بودن)"
+  },
+  {
+    "Sound_de": "wählen",
+    "root": "اجزای تشکیل‌دهنده: 'wählen' به معنای انتخاب کردن یا رای دادن.\nاین فعل به معنای 'انتخاب کردن' است.\nمترادف آلمانی: auswählen (انتخاب کردن)\nمتضاد آلمانی: ablehnen (رد کردن)"
+  },
+  {
+    "Sound_de": "wahr sein",
+    "root": "اجزای تشکیل‌دهنده: 'wahr' به معنای واقعی، 'sein' به معنای بودن.\nاین عبارت به معنای 'واقعی بودن' است.\nمترادف آلمانی: wahrhaftig sein (واقعی بودن)\nمتضاد آلمانی: falsch sein (دروغ بودن)"
+  },
+  {
+    "Sound_de": "warmes Wasser haben",
+    "root": "اجزای تشکیل‌دهنده: 'warmes' به معنای گرم، 'Wasser' به معنای آب، 'haben' به معنای داشتن.\nاین عبارت به معنای 'آب گرم داشتن' است.\nمترادف آلمانی: heißes Wasser haben (آب داغ داشتن)\nمتضاد آلمانی: kaltes Wasser haben (آب سرد داشتن)"
+  },
+  {
+    "Sound_de": "warten auf",
+    "root": "اجزای تشکیل‌دهنده: 'warten' به معنای منتظر ماندن، 'auf' به معنای بر.\nاین عبارت به معنای 'منتظر چیزی بودن' است.\nمترادف آلمانی: abwarten (منتظر ماندن)"
+  },
+  {
+    "Sound_de": "Wäsche waschen",
+    "root": "اجزای تشکیل‌دهنده: 'Wäsche' به معنای لباس‌ها، 'waschen' به معنای شستن.\nاین عبارت به معنای 'شستن لباس‌ها' است.\nمترادف آلمانی: Wäsche reinigen (تمیز کردن لباس‌ها)"
+  },
+  {
+    "Sound_de": "Webseiten haben",
+    "root": "اجزای تشکیل‌دهنده: 'Webseiten' به معنای صفحات وب، 'haben' به معنای داشتن.\nاین عبارت به معنای 'داشتن صفحات وب' است.\nمترادف آلمانی: Internetseiten besitzen (داشتن صفحات اینترنتی)"
+  },
+  {
+    "Sound_de": "weg sein",
+    "root": "اجزای تشکیل‌دهنده: 'weg' به معنای دور، 'sein' به معنای بودن.\nاین عبارت به معنای 'رفته بودن' یا 'نبودن' است.\nمترادف آلمانی: fort sein (رفته بودن)\nمتضاد آلمانی: da sein (حاضر بودن)"
+  },
+  {
+    "Sound_de": "wegen seiner Arbeit",
+    "root": "اجزای تشکیل‌دهنده: 'wegen' به معنای به خاطر، 'seiner' به معنای مال او، 'Arbeit' به معنای کار.\nاین عبارت به معنای 'به خاطر کارش' است.\nمترادف آلمانی: aufgrund seiner Arbeit (به دلیل کارش)"
+  },
+  {
+    "Sound_de": "weiblich oder männlich",
+    "root": "اجزای تشکیل‌دهنده: 'weiblich' به معنای زنانه، 'oder' به معنای یا، 'männlich' به معنای مردانه.\nاین عبارت به معنای 'زنانه یا مردانه' است.\nمترادف آلمانی: feminin oder maskulin (زنانه یا مردانه)"
+  },
+  {
+    "Sound_de": "weich sein",
+    "root": "اجزای تشکیل‌دهنده: 'weich' به معنای نرم، 'sein' به معنای بودن.\nاین عبارت به معنای 'نرم بودن' است.\nمترادف آلمانی: sanft sein (نرم بودن)\nمتضاد آلمانی: hart sein (سخت بودن)"
+  },
+  {
+    "Sound_de": "Wein trinken",
+    "root": "اجزای تشکیل‌دهنده: 'Wein' به معنای شراب، 'trinken' به معنای نوشیدن.\nاین عبارت به معنای 'شراب نوشیدن' است.\nمترادف آلمانی: Wein genießen (شراب لذت بردن)"
+  },
+  {
+    "Sound_de": "wenig verstehen",
+    "root": "اجزای تشکیل‌دهنده: 'wenig' به معنای کم، 'verstehen' به معنای فهمیدن.\nاین عبارت به معنای 'کم فهمیدن' است.\nمترادف آلمانی: wenig begreifen (کم درک کردن)\nمتضاد آلمانی: viel verstehen (زیاد فهمیدن)"
+  },
+  {
+    "Sound_de": "wichtig sein",
+    "root": "اجزای تشکیل‌دهنده: 'wichtig' به معنای مهم، 'sein' به معنای بودن.\nاین عبارت به معنای 'مهم بودن' است.\nمترادف آلمانی: bedeutsam sein (مهم بودن)\nمتضاد آلمانی: unwichtig sein (غیرمهم بودن)"
+  },
+  {
+    "Sound_de": "wichtige Informationen",
+    "root": "اجزای تشکیل‌دهنده: 'wichtige' به معنای مهم، 'Informationen' به معنای اطلاعات.\nاین عبارت به معنای 'اطلاعات مهم' است.\nمترادف آلمانی: wesentliche Infos (اطلاعات ضروری)\nمتضاد آلمانی: unwichtige Informationen (اطلاعات غیرمهم)"
+  },
+  {
+    "Sound_de": "wie ein Kind schreiben",
+    "root": "اجزای تشکیل‌دهنده: 'wie' به معنای مثل، 'ein Kind' به معنای یک کودک، 'schreiben' به معنای نوشتن.\nاین عبارت به معنای 'مثل یک کودک نوشتن' است."
+  },
+  {
+    "Sound_de": "wie groß",
+    "root": "اجزای تشکیل‌دهنده: 'wie' به معنای چقدر، 'groß' به معنای بزرگ.\nاین عبارت به معنای 'چقدر بزرگ' است.\nمترادف آلمانی: wie hoch (چقدر بلند)\nمتضاد آلمانی: wie klein (چقدر کوچک)"
+  },
+  {
+    "Sound_de": "wie lange",
+    "root": "اجزای تشکیل‌دهنده: 'wie' به معنای چقدر، 'lange' به معنای طولانی.\nاین عبارت به معنای 'چقدر طولانی' است.\nمترادف آلمانی: wie lang (چقدر طولانی)\nمتضاد آلمانی: wie kurz (چقدر کوتاه)"
+  },
+  {
+    "Sound_de": "wie meinst du das",
+    "root": "اجزای تشکیل‌دهنده: 'wie' به معنای چگونه، 'meinst' از meinen به معنای فکر کردن، 'du' به معنای تو، 'das' به معنای آن.\nاین عبارت به معنای 'منظورت چیه' است.\nمترادف آلمانی: was meinst du damit (منظورت چیه)"
+  },
+  {
+    "Sound_de": "wie sagt man",
+    "root": "اجزای تشکیل‌دهنده: 'wie' به معنای چگونه، 'sagt' از sagen به معنای گفتن، 'man' به معنای یکی.\nاین عبارت به معنای 'چطور می‌گن' است.\nمترادف آلمانی: wie formuliert man (چطور بیان می‌کنن)"
+  },
+  {
+    "Sound_de": "wie viel",
+    "root": "اجزای تشکیل‌دهنده: 'wie' به معنای چقدر، 'viel' به معنای زیاد.\nاین عبارت به معنای 'چقدر' است.\nمترادف آلمانی: wieviel (چقدر)\nمتضاد آلمانی: wie wenig (چقدر کم)"
+  },
+  {
+    "Sound_de": "wieder kommen",
+    "root": "اجزای تشکیل‌دهنده: 'wieder' به معنای دوباره، 'kommen' به معنای آمدن.\nاین عبارت به معنای 'دوباره آمدن' است.\nمترادف آلمانی: zurückkommen (برگشتن)\nمتضاد آلمانی: weggehen (رفتن)"
+  },
+  {
+    "Sound_de": "windig sein",
+    "root": "اجزای تشکیل‌دهنده: 'windig' به معنای باددار، 'sein' به معنای بودن.\nاین عبارت به معنای 'بادی بودن' است.\nمترادف آلمانی: stürmisch sein (طوفانی بودن)\nمتضاد آلمانی: windstill sein (بدون باد بودن)"
+  },
+  {
+    "Sound_de": "wirklich so",
+    "root": "اجزای تشکیل‌دهنده: 'wirklich' به معنای واقعاً، 'so' به معنای اینطور.\nاین عبارت به معنای 'واقعاً اینطور' است.\nمترادف آلمانی: tatsächlich so (واقعاً اینطور)"
+  },
+  {
+    "Sound_de": "Witze erzählen",
+    "root": "اجزای تشکیل‌دهنده: 'Witze' به معنای جوک‌ها، 'erzählen' به معنای گفتن.\nاین عبارت به معنای 'جوک گفتن' است.\nمترادف آلمانی: Scherze machen (شوخی کردن)"
+  },
+  {
+    "Sound_de": "witzig finden",
+    "root": "اجزای تشکیل‌دهنده: 'witzig' به معنای خنده‌دار، 'finden' به معنای پیدا کردن یا فکر کردن.\nاین عبارت به معنای 'خنده‌دار یافتن' است.\nمترادف آلمانی: lustig finden (خنده‌دار یافتن)\nمتضاد آلمانی: langweilig finden (خسته‌کننده یافتن)"
+  },
+  {
+    "Sound_de": "wohin gehen",
+    "root": "اجزای تشکیل‌دهنده: 'wohin' به معنای کجا (به)، 'gehen' به معنای رفتن.\nاین عبارت به معنای 'به کجا رفتن' است.\nمترادف آلمانی: wohin laufen (به کجا دویدن)"
+  },
+  {
+    "Sound_de": "wunderbar schmecken",
+    "root": "اجزای تشکیل‌دهنده: 'wunderbar' به معنای فوق‌العاده، 'schmecken' به معنای مزه دادن.\nاین عبارت به معنای 'عالی مزه دادن' است.\nمترادف آلمانی: herrlich schmecken (عالی مزه دادن)\nمتضاد آلمانی: schlecht schmecken (بد مزه دادن)"
+  },
+  {
+    "Sound_de": "Zeit haben",
+    "root": "اجزای تشکیل‌دهنده: 'Zeit' به معنای زمان، 'haben' به معنای داشتن.\nاین عبارت به معنای 'زمان داشتن' است.\nمترادف آلمانی: Zeit besitzen (زمان داشتن)\nمتضاد آلمانی: keine Zeit haben (زمان نداشتن)"
+  },
+  {
+    "Sound_de": "Zeitung lesen",
+    "root": "اجزای تشکیل‌دهنده: 'Zeitung' به معنای روزنامه، 'lesen' به معنای خواندن.\nاین عبارت به معنای 'روزنامه خواندن' است.\nمترادف آلمانی: Zeitung durchblättern (روزنامه ورق زدن)"
+  },
+  {
+    "Sound_de": "zu Abend essen",
+    "root": "اجزای تشکیل‌دهنده: 'zu' به معنای برای، 'Abend' به معنای عصر، 'essen' به معنای خوردن.\nاین عبارت به معنای 'شام خوردن' است.\nمترادف آلمانی: Abendessen haben (شام داشتن)"
+  },
+  {
+    "Sound_de": "zu einer Messe gehen",
+    "root": "اجزای تشکیل‌دهنده: 'zu' به معنای به، 'einer Messe' به معنای یک نمایشگاه، 'gehen' به معنای رفتن.\nاین عبارت به معنای 'به یک نمایشگاه رفتن' است.\nمترادف آلمانی: eine Messe besuchen (نمایشگاه بازدید کردن)"
+  },
+  {
+    "Sound_de": "zu früh sein",
+    "root": "اجزای تشکیل‌دهنده: 'zu' به معنای خیلی، 'früh' به معنای زود، 'sein' به معنای بودن.\nاین عبارت به معنای 'خیلی زود بودن' است.\nمترادف آلمانی: zu früh kommen (زود آمدن)\nمتضاد آلمانی: zu spät sein (دیر بودن)"
+  },
+  {
+    "Sound_de": "zu Fuß gehen",
+    "root": "اجزای تشکیل‌دهنده: 'zu' به معنای با، 'Fuß' به معنای پا، 'gehen' به معنای رفتن.\nاین عبارت به معنای 'پیاده رفتن' است.\nمترادف آلمانی: laufen (دویدن)\nمتضاد آلمانی: mit dem Auto fahren (با ماشین رفتن)"
+  },
+  {
+    "Sound_de": "zu Hause bleiben",
+    "root": "اجزای تشکیل‌دهنده: 'zu Hause' به معنای در خانه، 'bleiben' به معنای ماندن.\nاین عبارت به معنای 'در خانه ماندن' است.\nمترادف آلمانی: daheim bleiben (در خانه ماندن)\nمتضاد آلمانی: ausgehen (بیرون رفتن)"
+  },
+  {
+    "Sound_de": "zu Hause sein",
+    "root": "اجزای تشکیل‌دهنده: 'zu Hause' به معنای در خانه، 'sein' به معنای بودن.\nاین عبارت به معنای 'در خانه بودن' است.\nمترادف آلمانی: zuhause sein (در خانه بودن)\nمتضاد آلمانی: unterwegs sein (در راه بودن)"
+  },
+  {
+    "Sound_de": "zu Mittag essen",
+    "root": "اجزای تشکیل‌دهنده: 'zu' به معنای برای، 'Mittag' به معنای ظهر، 'essen' به معنای خوردن.\nاین عبارت به معنای 'ناهار خوردن' است.\nمترادف آلمانی: Mittagessen haben (ناهار داشتن)"
+  },
+  {
+    "Sound_de": "zu spät kommen",
+    "root": "اجزای تشکیل‌دهنده: 'zu' به معنای خیلی، 'spät' به معنای دیر، 'kommen' به معنای آمدن.\nاین عبارت به معنای 'دیر آمدن' است.\nمترادف آلمانی: verspätet ankommen (دیر رسیدن)\nمتضاد آلمانی: pünktlich kommen (به موقع آمدن)"
+  },
+  {
+    "Sound_de": "zu süß sein",
+    "root": "اجزای تشکیل‌دهنده: 'zu' به معنای خیلی، 'süß' به معنای شیرین، 'sein' به معنای بودن.\nاین عبارت به معنای 'خیلی شیرین بودن' است.\nمترادف آلمانی: zu zuckerig sein (خیلی شیرین بودن)\nمتضاد آلمانی: bitter sein (تلخ بودن)"
+  },
+  {
+    "Sound_de": "zu teuer sein",
+    "root": "اجزای تشکیل‌دهنده: 'zu' به معنای خیلی، 'teuer' به معنای گران، 'sein' به معنای بودن.\nاین عبارت به معنای 'خیلی گران بودن' است.\nمترادف آلمانی: überteuert sein (بیش از حد گران بودن)\nمتضاد آلمانی: billig sein (ارزان بودن)"
+  },
+  {
+    "Sound_de": "zufrieden sein mit",
+    "root": "اجزای تشکیل‌دهنده: 'zufrieden' به معنای راضی، 'sein' به معنای بودن، 'mit' به معنای با.\nاین عبارت به معنای 'راضی بودن از' است.\nمترادف آلمانی: zufrieden sein über (راضی بودن از)\nمتضاد آلمانی: unzufrieden sein mit (ناراضی بودن از)"
+  },
+  {
+    "Sound_de": "zufrieden sein",
+    "root": "اجزای تشکیل‌دهنده: 'zufrieden' به معنای راضی، 'sein' به معنای بودن.\nاین عبارت به معنای 'راضی بودن' است.\nمترادف آلمانی: glücklich sein (خوشحال بودن)\nمتضاد آلمانی: unzufrieden sein (ناراضی بودن)"
+  },
+  {
+    "Sound_de": "zuletzt gesehen",
+    "root": "اجزای تشکیل‌دهنده: 'zuletzt' به معنای آخرین بار، 'gesehen' به معنای دیده شده.\nاین عبارت به معنای 'آخرین بار دیده شده' است.\nمترادف آلمانی: letztens gesehen (اخیراً دیده شده)"
+  },
+  {
+    "Sound_de": "zum Bahnhof fahren",
+    "root": "اجزای تشکیل‌دهنده: 'zum' به معنای به، 'Bahnhof' به معنای ایستگاه قطار، 'fahren' به معنای رفتن.\nاین عبارت به معنای 'به ایستگاه قطار رفتن' است.\nمترادف آلمانی: zum Bahnhof reisen (به ایستگاه سفر کردن)"
+  },
+  {
+    "Sound_de": "zum Beispiel",
+    "root": "اجزای تشکیل‌دهنده: 'zum' به معنای برای، 'Beispiel' به معنای مثال.\nاین عبارت به معنای 'برای مثال' است.\nمترادف آلمانی: beispielsweise (برای مثال)"
+  },
+  {
+    "Sound_de": "zum Essen ein Bier",
+    "root": "اجزای تشکیل‌دهنده: 'zum' به معنای برای، 'Essen' به معنای غذا، 'ein Bier' به معنای یک آبجو.\nاین عبارت به معنای 'برای غذا یک آبجو' است."
+  },
+  {
+    "Sound_de": "zum Essen einladen",
+    "root": "اجزای تشکیل‌دهنده: 'zum' به معنای برای، 'Essen' به معنای غذا، 'einladen' به معنای دعوت کردن.\nاین عبارت به معنای 'برای غذا دعوت کردن' است.\nمترادف آلمانی: zum Dinner einladen (برای شام دعوت کردن)"
+  },
+  {
+    "Sound_de": "zum Geburtstag gratulieren",
+    "root": "اجزای تشکیل‌دهنده: 'zum' به معنای به، 'Geburtstag' به معنای تولد، 'gratulieren' به معنای تبریک گفتن.\nاین عبارت به معنای 'تبریک تولد گفتن' است.\nمترادف آلمانی: zum Geburtstag wünschen (تولدت مبارک گفتن)"
+  },
+  {
+    "Sound_de": "zum Glück",
+    "root": "اجزای تشکیل‌دهنده: 'zum' به معنای به، 'Glück' به معنای خوشبختی.\nاین عبارت به معنای 'خوشبختانه' است.\nمترادف آلمانی: glücklicherweise (خوشبختانه)\nمتضاد آلمانی: zum Unglück (متأسفانه)"
+  },
+  {
+    "Sound_de": "zum Schalter gehen",
+    "root": "اجزای تشکیل‌دهنده: 'zum' به معنای به، 'Schalter' به معنای باجه، 'gehen' به معنای رفتن.\nاین عبارت به معنای 'به باجه رفتن' است.\nمترادف آلمانی: zum Counter gehen (به کانتر رفتن)"
+  },
+  {
+    "Sound_de": "zum Schluss",
+    "root": "اجزای تشکیل‌دهنده: 'zum' به معنای به، 'Schluss' به معنای پایان.\nاین عبارت به معنای 'در پایان' است.\nمترادف آلمانی: am Ende (در انتها)\nمتضاد آلمانی: am Anfang (در ابتدا)"
+  },
+  {
+    "Sound_de": "zur Hochzeit kommen",
+    "root": "اجزای تشکیل‌دهنده: 'zur' به معنای به، 'Hochzeit' به معنای عروسی، 'kommen' به معنای آمدن.\nاین عبارت به معنای 'به عروسی آمدن' است.\nمترادف آلمانی: zur Trauung kommen (به مراسم ازدواج آمدن)"
+  },
+  {
+    "Sound_de": "zur Krankenkasse gehen",
+    "root": "اجزای تشکیل‌دهنده: 'zur' به معنای به، 'Krankenkasse' به معنای صندوق بیمه سلامت، 'gehen' به معنای رفتن.\nاین عبارت به معنای 'به صندوق بیمه رفتن' است."
+  },
+  {
+    "Sound_de": "zur Post gehen",
+    "root": "اجزای تشکیل‌دهنده: 'zur' به معنای به، 'Post' به معنای پست، 'gehen' به معنای رفتن.\nاین عبارت به معنای 'به پست رفتن' است.\nمترادف آلمانی: zum Postamt gehen (به اداره پست رفتن)"
+  },
+  {
+    "Sound_de": "zusammen essen",
+    "root": "اجزای تشکیل‌دهنده: 'zusammen' به معنای با هم، 'essen' به معنای خوردن.\nاین عبارت به معنای 'با هم خوردن' است.\nمترادف آلمانی: gemeinsam essen (با هم خوردن)\nمتضاد آلمانی: allein essen (تنها خوردن)"
+  },
+  {
+    "Sound_de": "zusammen zahlen",
+    "root": "اجزای تشکیل‌دهنده: 'zusammen' به معنای با هم، 'zahlen' به معنای پرداخت کردن.\nاین عبارت به معنای 'با هم پرداخت کردن' است.\nمترادف آلمانی: gemeinsam bezahlen (با هم پرداخت کردن)\nمتضاد آلمانی: getrennt zahlen (جدا پرداخت کردن)"
+  }
+  
 ]

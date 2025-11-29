@@ -668,6 +668,8 @@ Kollegin haben
 komisch sein
 Kontakt haben
 Kopf tut weh
+
+
 Kosmetik kaufen
 kostenlos sein
 krank sein
@@ -826,6 +828,8 @@ Schlüssel abgeben
 Schlüssel in der Tasche haben
 Schmerzen haben
 schmutzig sein
+
+
 Schnee liegen
 schnell fahren
 Schokolade lieben
@@ -933,6 +937,9 @@ typisch sein für
 über uns wohnen
 überall suchen
 übermorgen kommen
+
+
+
 Uhr geht richtig
 um die Welt reisen
 um etwas bitten

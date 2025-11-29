@@ -59,10 +59,10 @@ const levelConfig = {
     audioPath: "../audio-A2",
   },
   "A1 VERBEN": {
-    audioPath: "../audio-A1",
+    audioPath: "../audio-A1-Verben",
   },
   "A2 VERBEN": {
-    audioPath: "../audio-A2",
+    audioPath: "../audio-A2-Verben",
   },
   "A1 Kollokationen": {
     audioPath: "../audio-A1-Kollokationen",

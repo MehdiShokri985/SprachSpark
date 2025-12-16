@@ -21,6 +21,12 @@ const levelConfig = {
     headerText: "A2 WORTLISTE",
     headerClass: "color-a2",
   },
+  B1: {
+    jsonFile: "../json/json-B1.json",
+    audioPath: "../audio-B1",
+    headerText: "B1 WORTLISTE",
+    headerClass: "color-a2",
+  },
   "A1 VERBEN": {
     jsonFile: "../json/json-verb-A1.json",
     audioPath: "../audio-A1-Verben",

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fa" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نقشه راه پروژه - ۱۰ فاز، ۵۰ مرحله</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background: #688199;
+      color: #bcdbdf;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* هدر */
+    header {
+      background: #010b13;
+      border-bottom: 3px solid #40a8c4;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 16px 0;
+    }
+    .header-content {
+      max-width: 95%;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: #f7aa00;
+      font-weight: bold;
+    }
+    .logo span { font-size: 44px; }
+    .logo-title { font-size: 28px; color: #f7aa00; }
+    .logo-subtitle { font-size: 18px; color: #bcdbdf; }
+    .date-box {
+      background: #40a8c4;
+      color: #235784;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    main { padding: 40px 20px 80px; }
+    #roadmap-container { width: 100%; }
+
+    /* فازها */
+    .phase {
+      background: rgba(255, 255, 255, 0.08);
+      border: 2px solid #40a8c4;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+    .phase-header {
+      background: #062641;
+      color: white;
+      padding: 20px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+      border-bottom: 1px solid #40a8c4;
+    }
+    .phase-header:hover {
+      background: #1e496d;
+    }
+    .phase-info {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .phase-number {
+      background: #f7aa00;
+      color: #235784;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .phase-title {
+      font-size: 26px;
+      font-weight: bold;
+      color: #9fa0a8;
+    }
+
+    /* آیکون + و - */
+    .toggle-icon {
+      width: 36px;
+      height: 36px;
+      background: #40a8c4;
+      color: #235784;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 22px;
+      transition: all 0.3s ease;
+    }
+    .toggle-icon.open {
+      background: #f7aa00;
+      color: #235784;
+    }
+
+    /* محتوای فاز */
+    .phase-content {
+      max-height: 5000px;
+      overflow: hidden;
+      transition: max-height 0.7s ease, padding 0.7s ease;
+      padding: 24px;
+      background: rgb(24 53 78)
+    }
+    .phase-content.collapsed {
+      max-height: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    /* شبکه ریسپانسیو */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+    @media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+    @media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 900px)  { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px)  { .grid { grid-template-columns: 1fr; } }
+
+    /* مرحله L */
+    .stage {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #40a8c4;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      margin-bottom:10px;
+    }
+    .stage:hover {
+      border-color: #f7aa00;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .stage-header {
+      background: #235784;
+      color: white;
+      padding: 16px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+    .stage-info h4 {
+      color: #40a8c4;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .stage-info h3 {
+      font-size: 16px;
+      font-weight: bold;
+      color: #f7aa00;
+      line-height: 1.4;
+    }
+
+    .stage-body {
+      max-height: 1000px;
+      overflow: hidden;
+      transition: max-height 0.5s ease, padding 0.5s ease;
+      padding: 0 16px 16px;
+    }
+    .stage-body.collapsed {
+      max-height: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    /* زیروظیفه */
+    .subtask {
+      background: rgba(64, 168, 196, 0.15);
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin-top: 12px;
+      border-left: 4px solid #f7aa00;
+    }
+    .subtask:hover {
+      background: rgba(64, 168, 196, 0.25);
+      transform: translateX(6px);
+    }
+    .subtask-text {
+      font-size: 14.5px;
+      color: #bcdbdf;
+      font-weight: 500;
+    }
+    .subtask-time {
+      font-size: 12.5px;
+      color: #bcdbdf;
+      opacity: 0.8;
+      margin-top: 4px;
+    }
+    .check-icon {
+      color: #f7aa00;
+      font-weight: bold;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+
+    /* موبایل */
+    @media (max-width: 480px) {
+      .phase-title { font-size: 22px; }
+      .phase-header { padding: 16px; }
+      .stage-info h3 { font-size: 15px; }
+      .subtask-text { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <span>Roadmap</span>
+        <div>
+          <div class="logo-title">نقشه راه پروژه بزرگ</div>
+          <div class="logo-subtitle">۱۰ فاز • ۵۰ مرحله • از ایده تا متاورس</div>
+        </div>
+      </div>
+      <div class="date-box">
+        <div>۱ آذر ۱۴۰۴</div>
+        <div>→ ۱۰ آذر ۱۴۰۴</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="roadmap-container"></div>
+  </main>
+
+  <script>
+    async function loadRoadmap() {
+      try {
+        const response = await fetch('narges.json');
+        const data = await response.json();
+
+        const columnKeys = [];
+        const seenKeys = new Set();
+
+        Object.values(data).forEach(phase => {
+          ['L1','L2','L3','L4','L5'].forEach(key => {
+            const level = phase[key];
+            if (level?.turnKey && !seenKeys.has(level.turnKey)) {
+              seenKeys.add(level.turnKey);
+              columnKeys.push(level.turnKey);
+            }
+          });
+        });
+
+        const container = document.getElementById('roadmap-container');
+        container.innerHTML = '';
+
+        const phases = Object.keys(data).sort((a, b) => 
+          parseInt(a.replace('S', '')) - parseInt(b.replace('S', ''))
+        );
+
+        phases.forEach(key => {
+          const phase = data[key];
+          if (!phase.title) return;
+
+          const phaseDiv = document.createElement('div');
+          phaseDiv.className = 'phase';
+
+          phaseDiv.innerHTML = `
+            <div class="phase-header">
+              <div class="phase-info">
+       
+                <div class="phase-title">${phase.title}</div>
+              </div>
+              <div class="toggle-icon open">-</div>
+            </div>
+
+            <div class="phase-content">
+              <div class="grid">
+                ${columnKeys.map(turnKey => {
+                  const levels = [];
+                  ['L1','L2','L3','L4','L5'].forEach(lKey => {
+                    if (phase[lKey]?.turnKey === turnKey) levels.push(phase[lKey]);
+                  });
+
+                  if (levels.length === 0) return null;
+
+                  return `
+                    <div>
+                      ${levels.map(level => `
+                        <div class="stage">
+                          <div class="stage-header">
+                            <div class="stage-info">
+                              <h4>مرحله ${level.turnNumber}</h4>
+                              <h3>${level.title}</h3>
+                            </div>
+                            <div class="toggle-icon">+</div>
+                          </div>
+                          <div class="stage-body collapsed">
+                            ${['Sub1','Sub2','Sub3'].map(subKey => {
+                              const sub = level[subKey];
+                              if (!sub) return '';
+                              const d = new Date(sub.timestamp);
+                              const day = d.toLocaleDateString('fa-IR');
+                              const time = d.toLocaleTimeString('fa-IR', {hour:'2-digit', minute:'2-digit'});
+                              return `
+                                <div class="subtask">
+                                  <div style="display:flex; align-items:start; gap:8px;">
+                                    <span class="check-icon">Check</span>
+                                    <div>
+                                      <div class="subtask-text">${sub.text}</div>
+                                      <div class="subtask-time">${day} • ${time}</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              `;
+                            }).join('')}
+                          </div>
+                        </div>
+                      `).join('')}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `;
+
+          container.appendChild(phaseDiv);
+        });
+
+        // کنترل فازها
+        document.querySelectorAll('.phase-header').forEach(header => {
+          header.addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            const icon = this.querySelector('.toggle-icon');
+            content.classList.toggle('collapsed');
+            icon.textContent = content.classList.contains('collapsed') ? '+' : '-';
+            icon.classList.toggle('open', !content.classList.contains('collapsed'));
+          });
+        });
+
+        // کنترل مراحل
+        document.querySelectorAll('.stage-header').forEach(header => {
+          header.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const body = this.nextElementSibling;
+            const icon = this.querySelector('.toggle-icon');
+            body.classList.toggle('collapsed');
+            icon.textContent = body.classList.contains('collapsed') ? '+' : '-';
+            icon.classList.toggle('open', !body.classList.contains('collapsed'));
+          });
+        });
+
+      } catch (err) {
+        document.getElementById('roadmap-container').innerHTML = 
+          `<div style="text-align:center; padding:60px; background:rgba(35,87,132,0.3); border:2px solid #f7aa00; border-radius:12px; color:#f7aa00; margin:40px 0; font-size:18px;">
+             خطا در بارگذاری: ${err.message}
+           </div>`;
+      }
+    }
+
+    loadRoadmap();
+  </script>
+</body>
+</html>

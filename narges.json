@@ -1,0 +1,1111 @@
+{
+  "S1": {
+    "id": "S_001",
+    "syncKey": "S2",
+    "title": "فاز اول - راه‌اندازی پروژه",
+    "L1": {
+      "id": "L_001",
+      "turnKey": "1",
+      "turnNumber": 1,
+      "title": "تحلیل نیازمندی‌ها",
+      "Sub1": {
+        "id": "SUB_001",
+        "text": "جمع‌آوری نیازهای مشتری",
+        "timestamp": "2025-12-01T08:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_002",
+        "text": "تهیه سند SRS",
+        "timestamp": "2025-12-01T08:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_003",
+        "text": "بررسی و تأیید نیازمندی‌ها",
+        "timestamp": "2025-12-01T09:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "1",
+      "turnKey": "1",
+      "turnNumber": 2,
+      "title": "طراحی معماری سیستم",
+      "Sub1": {
+        "id": "SUB_004",
+        "text": "انتخاب تکنولوژی استک",
+        "timestamp": "2025-12-01T09:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_005",
+        "text": "طراحی دیتابیس",
+        "timestamp": "2025-12-01T10:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_006",
+        "text": "طراحی APIها",
+        "timestamp": "2025-12-01T10:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "1",
+      "turnKey": "1",
+      "turnNumber": 3,
+      "title": "توسعه ماژول احراز هویت",
+      "Sub1": {
+        "id": "SUB_007",
+        "text": "پیاده‌سازی JWT",
+        "timestamp": "2025-12-01T11:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_008",
+        "text": "سیستم ثبت‌نام و ورود",
+        "timestamp": "2025-12-01T11:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_009",
+        "text": "بازیابی رمز عبور",
+        "timestamp": "2025-12-01T12:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "2",
+      "turnKey": "2",
+      "turnNumber": 4,
+      "title": "تست واحد و یکپارچه‌سازی",
+      "Sub1": {
+        "id": "SUB_010",
+        "text": "نوشتن Unit Testها",
+        "timestamp": "2025-12-01T13:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_011",
+        "text": "اجرای Integration Test",
+        "timestamp": "2025-12-01T13:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_012",
+        "text": "رفع باگ‌های اولیه",
+        "timestamp": "2025-12-01T14:00:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_005",
+      "turnKey": "3",
+      "turnNumber": 5,
+      "title": "استقرار اولیه",
+      "Sub1": {
+        "id": "SUB_013",
+        "text": "راه‌اندازی سرور Staging",
+        "timestamp": "2025-12-01T14:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_014",
+        "text": "پیکربندی CI/CD",
+        "timestamp": "2025-12-01T15:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_015",
+        "text": "دپلوی نسخه بتا",
+        "timestamp": "2025-12-01T15:30:00Z"
+      }
+    }
+  },
+
+  "S2": {
+    "id": "S_002",
+    "syncKey": "S1",
+    "title": "فاز دوم - توسعه هسته سیستم",
+    "L1": {
+      "id": "L_006",
+      "turnKey": "1",
+      "turnNumber": 6,
+      "title": "ماژول مدیریت کاربران",
+      "Sub1": {
+        "id": "SUB_016",
+        "text": "پروفایل کاربری",
+        "timestamp": "2025-12-02T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_017",
+        "text": "سطوح دسترسی (Role-Based)",
+        "timestamp": "2025-12-02T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_018",
+        "text": "لاگ فعالیت‌ها",
+        "timestamp": "2025-12-02T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_007",
+      "turnKey": "2",
+      "turnNumber": 7,
+      "title": "ماژول داشبورد تحلیلی",
+      "Sub1": {
+        "id": "SUB_019",
+        "text": "گراف‌های زنده",
+        "timestamp": "2025-12-02T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_020",
+        "text": "گزارش‌گیری سفارشی",
+        "timestamp": "2025-12-02T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_021",
+        "text": "هشدارهای هوشمند",
+        "timestamp": "2025-12-02T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_008",
+      "turnKey": "2",
+      "turnNumber": 8,
+      "title": "اتصال به درگاه پرداخت",
+      "Sub1": {
+        "id": "SUB_022",
+        "text": "درگاه زرین‌پال",
+        "timestamp": "2025-12-02T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_023",
+        "text": "درگاه ملت",
+        "timestamp": "2025-12-02T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_024",
+        "text": "سیستم بازگشت تراکنش",
+        "timestamp": "2025-12-02T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_009",
+      "turnKey": "3",
+      "turnNumber": 9,
+      "title": "بهینه‌سازی عملکرد",
+      "Sub1": {
+        "id": "SUB_025",
+        "text": "کش کردن داده‌ها",
+        "timestamp": "2025-12-02T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_026",
+        "text": "Lazy Loading",
+        "timestamp": "2025-12-02T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_027",
+        "text": "فشرده‌سازی تصاویر",
+        "timestamp": "2025-12-02T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_010",
+      "turnKey": "4",
+      "turnNumber": 10,
+      "title": "تست امنیتی",
+      "Sub1": {
+        "id": "SUB_028",
+        "text": "اسکن نفوذ",
+        "timestamp": "2025-12-02T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_029",
+        "text": "تست XSS و CSRF",
+        "timestamp": "2025-12-02T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_030",
+        "text": "رفع آسیب‌پذیری‌ها",
+        "timestamp": "2025-12-02T16:00:00Z"
+      }
+    }
+  },
+
+  "S3": {
+    "id": "S_003",
+    "syncKey": "S4",
+    "title": "فاز سوم - توسعه اپلیکیشن موبایل",
+    "L1": {
+      "id": "L_011",
+      "turnKey": "TURN_011",
+      "turnNumber": 11,
+      "title": "راه‌اندازی React Native",
+      "Sub1": {
+        "id": "SUB_031",
+        "text": "تنظیم محیط توسعه",
+        "timestamp": "2025-12-03T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_032",
+        "text": "ساخت پروژه جدید",
+        "timestamp": "2025-12-03T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_033",
+        "text": "اتصال به بک‌اند",
+        "timestamp": "2025-12-03T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_012",
+      "turnKey": "TURN_012",
+      "turnNumber": 12,
+      "title": "صفحات اصلی اپ",
+      "Sub1": {
+        "id": "SUB_034",
+        "text": "صفحه ورود و ثبت‌نام",
+        "timestamp": "2025-12-03T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_035",
+        "text": "داشبورد کاربر",
+        "timestamp": "2025-12-03T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_036",
+        "text": "منوی ناوبری",
+        "timestamp": "2025-12-03T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_013",
+      "turnKey": "TURN_013",
+      "turnNumber": 13,
+      "title": "ادغام Push Notification",
+      "Sub1": {
+        "id": "SUB_037",
+        "text": "Firebase Cloud Messaging",
+        "timestamp": "2025-12-03T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_038",
+        "text": "ارسال نوتیفیکیشن تست",
+        "timestamp": "2025-12-03T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_039",
+        "text": "مدیریت توکن‌ها",
+        "timestamp": "2025-12-03T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_014",
+      "turnKey": "TURN_014",
+      "turnNumber": 14,
+      "title": "تست روی دستگاه واقعی",
+      "Sub1": {
+        "id": "SUB_040",
+        "text": "تست اندروید",
+        "timestamp": "2025-12-03T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_041",
+        "text": "تست iOS",
+        "timestamp": "2025-12-03T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_042",
+        "text": "رفع باگ‌های کرش",
+        "timestamp": "2025-12-03T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_015",
+      "turnKey": "TURN_015",
+      "turnNumber": 15,
+      "title": "آماده‌سازی برای انتشار",
+      "Sub1": {
+        "id": "SUB_043",
+        "text": "ساخت APK و AAB",
+        "timestamp": "2025-12-03T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_044",
+        "text": "آپلود در گوگل‌پلی",
+        "timestamp": "2025-12-03T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_045",
+        "text": "درخواست بررسی اپ",
+        "timestamp": "2025-12-03T16:00:00Z"
+      }
+    }
+  },
+
+  "S4": {
+    "id": "S_004",
+    "syncKey": "S4_SYNC_004",
+    "title": "فاز چهارم - هوش مصنوعی و تحلیل داده",
+    "L1": {
+      "id": "L_016",
+      "turnKey": "TURN_016",
+      "turnNumber": 16,
+      "title": "جمع‌آوری دیتاست",
+      "Sub1": {
+        "id": "SUB_046",
+        "text": "استخراج داده کاربران",
+        "timestamp": "2025-12-04T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_047",
+        "text": "پاک‌سازی داده",
+        "timestamp": "2025-12-04T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_048",
+        "text": "ذخیره در Data Lake",
+        "timestamp": "2025-12-04T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_017",
+      "turnKey": "TURN_017",
+      "turnNumber": 17,
+      "title": "آموزش مدل پیش‌بینی",
+      "Sub1": {
+        "id": "SUB_049",
+        "text": "انتخاب الگوریتم",
+        "timestamp": "2025-12-04T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_050",
+        "text": "آموزش با TensorFlow",
+        "timestamp": "2025-12-04T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_051",
+        "text": "ارزیابی دقت مدل",
+        "timestamp": "2025-12-04T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_018",
+      "turnKey": "TURN_018",
+      "turnNumber": 18,
+      "title": "پیشنهاد هوشمند محصولات",
+      "Sub1": {
+        "id": "SUB_052",
+        "text": "Recommendation Engine",
+        "timestamp": "2025-12-04T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_053",
+        "text": "تست A/B",
+        "timestamp": "2025-12-04T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_054",
+        "text": "به‌روزرسانی زنده",
+        "timestamp": "2025-12-04T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_019",
+      "turnKey": "TURN_019",
+      "turnNumber": 19,
+      "title": "چت‌بات هوشمند",
+      "Sub1": {
+        "id": "SUB_055",
+        "text": "اتصال به LLM",
+        "timestamp": "2025-12-04T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_056",
+        "text": "Fine-tuning مدل",
+        "timestamp": "2025-12-04T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_057",
+        "text": "ادغام در اپ",
+        "timestamp": "2025-12-04T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_020",
+      "turnKey": "TURN_020",
+      "turnNumber": 20,
+      "title": "مانیتورینگ مدل",
+      "Sub1": {
+        "id": "SUB_058",
+        "text": "داشبورد MLflow",
+        "timestamp": "2025-12-04T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_059",
+        "text": "هشدار Drift",
+        "timestamp": "2025-12-04T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_060",
+        "text": "بازآموزی دوره‌ای",
+        "timestamp": "2025-12-04T16:00:00Z"
+      }
+    }
+  },
+
+  "S5": {
+    "id": "S_005",
+    "syncKey": "S5_SYNC_005",
+    "title": "فاز پنجم - امنیت و پشتیبان‌گیری",
+    "L1": {
+      "id": "L_021",
+      "turnKey": "TURN_021",
+      "turnNumber": 21,
+      "title": "رمزنگاری داده‌ها",
+      "Sub1": {
+        "id": "SUB_061",
+        "text": "AES-256 برای دیتابیس",
+        "timestamp": "2025-12-05T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_062",
+        "text": "HTTPS اجباری",
+        "timestamp": "2025-12-05T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_063",
+        "text": "رمزنگاری فایل‌ها",
+        "timestamp": "2025-12-05T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_022",
+      "turnKey": "TURN_022",
+      "turnNumber": 22,
+      "title": "سیستم پشتیبان‌گیری",
+      "Sub1": {
+        "id": "SUB_064",
+        "text": "بکاپ روزانه",
+        "timestamp": "2025-12-05T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_065",
+        "text": "ذخیره در S3",
+        "timestamp": "2025-12-05T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_066",
+        "text": "تست بازیابی",
+        "timestamp": "2025-12-05T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_023",
+      "turnKey": "TURN_023",
+      "turnNumber": 23,
+      "title": "تشخیص تقلب",
+      "Sub1": {
+        "id": "SUB_067",
+        "text": "قوانین ضد تقلب",
+        "timestamp": "2025-12-05T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_068",
+        "text": "مدل ML برای تقلب",
+        "timestamp": "2025-12-05T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_069",
+        "text": "قفل خودکار حساب",
+        "timestamp": "2025-12-05T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_024",
+      "turnKey": "TURN_024",
+      "turnNumber": 24,
+      "title": "گواهینامه SSL و GDPR",
+      "Sub1": {
+        "id": "SUB_070",
+        "text": "نصب Let's Encrypt",
+        "timestamp": "2025-12-05T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_071",
+        "text": "سیاست حریم خصوصی",
+        "timestamp": "2025-12-05T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_072",
+        "text": "حذف داده کاربر",
+        "timestamp": "2025-12-05T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_025",
+      "turnKey": "TURN_025",
+      "turnNumber": 25,
+      "title": "تست نفوذ نهایی",
+      "Sub1": {
+        "id": "SUB_073",
+        "text": "استخدام تیم Red Team",
+        "timestamp": "2025-12-05T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_074",
+        "text": "گزارش آسیب‌پذیری",
+        "timestamp": "2025-12-05T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_075",
+        "text": "رفع نهایی باگ‌ها",
+        "timestamp": "2025-12-05T16:00:00Z"
+      }
+    }
+  },
+
+  "S6": {
+    "id": "S_006",
+    "syncKey": "S6_SYNC_006",
+    "title": "فاز ششم - بهینه‌سازی و مقیاس‌پذیری",
+    "L1": {
+      "id": "L_026",
+      "turnKey": "TURN_026",
+      "turnNumber": 26,
+      "title": "مهاجرت به میکروسرویس",
+      "Sub1": {
+        "id": "SUB_076",
+        "text": "جداسازی سرویس‌ها",
+        "timestamp": "2025-12-06T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_077",
+        "text": "Kubernetes Cluster",
+        "timestamp": "2025-12-06T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_078",
+        "text": "Service Mesh",
+        "timestamp": "2025-12-06T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_027",
+      "turnKey": "TURN_027",
+      "turnNumber": 27,
+      "title": "Load Balancer و Auto Scaling",
+      "Sub1": {
+        "id": "SUB_079",
+        "text": "تنظیم AWS ALB",
+        "timestamp": "2025-12-06T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_080",
+        "text": "Horizontal Pod Autoscaler",
+        "timestamp": "2025-12-06T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_081",
+        "text": "تست بار ۱۰۰K کاربر",
+        "timestamp": "2025-12-06T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_028",
+      "turnKey": "TURN_028",
+      "turnNumber": 28,
+      "title": "کش توزیع‌شده",
+      "Sub1": {
+        "id": "SUB_082",
+        "text": "Redis Cluster",
+        "timestamp": "2025-12-06T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_083",
+        "text": "Cache Invalidation",
+        "timestamp": "2025-12-06T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_084",
+        "text": "Cache Warm-up",
+        "timestamp": "2025-12-06T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_029",
+      "turnKey": "TURN_029",
+      "turnNumber": 29,
+      "title": "مانیتورینگ پیشرفته",
+      "Sub1": {
+        "id": "SUB_085",
+        "text": "Prometheus + Grafana",
+        "timestamp": "2025-12-06T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_086",
+        "text": "Alertmanager",
+        "timestamp": "2025-12-06T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_087",
+        "text": "داشبورد زنده",
+        "timestamp": "2025-12-06T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_030",
+      "turnKey": "TURN_030",
+      "turnNumber": 30,
+      "title": "بهینه‌سازی هزینه",
+      "Sub1": {
+        "id": "SUB_088",
+        "text": "Reserved Instances",
+        "timestamp": "2025-12-06T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_089",
+        "text": "Spot Instances",
+        "timestamp": "2025-12-06T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_090",
+        "text": "کاهش ۳۰٪ هزینه",
+        "timestamp": "2025-12-06T16:00:00Z"
+      }
+    }
+  },
+
+  "S7": {
+    "id": "S_007",
+    "syncKey": "S7_SYNC_007",
+    "title": "فاز هفتم - نسخه بین‌المللی",
+    "L1": {
+      "id": "L_031",
+      "turnKey": "TURN_031",
+      "turnNumber": 31,
+      "title": "چندزبانه کردن",
+      "Sub1": {
+        "id": "SUB_091",
+        "text": "اضافه کردن انگلیسی",
+        "timestamp": "2025-12-07T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_092",
+        "text": "فارسی RTL",
+        "timestamp": "2025-12-07T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_093",
+        "text": "سیستم ترجمه خودکار",
+        "timestamp": "2025-12-07T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_032",
+      "turnKey": "TURN_032",
+      "turnNumber": 32,
+      "title": "پشتیبانی از ارزهای مختلف",
+      "Sub1": {
+        "id": "SUB_094",
+        "text": "دلار، یورو، درهم",
+        "timestamp": "2025-12-07T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_095",
+        "text": "نرخ تبدیل زنده",
+        "timestamp": "2025-12-07T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_096",
+        "text": "درگاه‌های بین‌المللی",
+        "timestamp": "2025-12-07T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_033",
+      "turnKey": "TURN_033",
+      "turnNumber": 33,
+      "title": "سرورهای منطقه‌ای",
+      "Sub1": {
+        "id": "SUB_097",
+        "text": "فرانکفورت",
+        "timestamp": "2025-12-07T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_098",
+        "text": "سنگاپور",
+        "timestamp": "2025-12-07T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_099",
+        "text": "آمریکا",
+        "timestamp": "2025-12-07T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_034",
+      "turnKey": "TURN_034",
+      "turnNumber": 34,
+      "title": "تطبیق با قوانین محلی",
+      "Sub1": {
+        "id": "SUB_100",
+        "text": "GDPR اروپا",
+        "timestamp": "2025-12-07T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_101",
+        "text": "قوانین امارات",
+        "timestamp": "2025-12-07T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_102",
+        "text": "گزارش مالیاتی",
+        "timestamp": "2025-12-07T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_035",
+      "turnKey": "TURN_035",
+      "turnNumber": 35,
+      "title": "لانچ جهانی",
+      "Sub1": {
+        "id": "SUB_103",
+        "text": "کمپین تبلیغاتی",
+        "timestamp": "2025-12-07T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_104",
+        "text": "همکاری با اینفلوئنسرها",
+        "timestamp": "2025-12-07T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_105",
+        "text": "نهایی‌سازی نسخه ۱.۰",
+        "timestamp": "2025-12-07T16:00:00Z"
+      }
+    }
+  },
+
+  "S8": {
+    "id": "S_008",
+    "syncKey": "S8_SYNC_008",
+    "title": "فاز هشتم - پشتیبانی و نگهداری",
+    "L1": {
+      "id": "L_036",
+      "turnKey": "TURN_036",
+      "turnNumber": 36,
+      "title": "تیم پشتیبانی ۲۴/۷",
+      "Sub1": {
+        "id": "SUB_106",
+        "text": "چت آنلاین",
+        "timestamp": "2025-12-08T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_107",
+        "text": "تیکتینگ سیستم",
+        "timestamp": "2025-12-08T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_108",
+        "text": "پایگاه دانش",
+        "timestamp": "2025-12-08T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_037",
+      "turnKey": "TURN_037",
+      "turnNumber": 37,
+      "title": "به‌روزرسانی‌های ماهانه",
+      "Sub1": {
+        "id": "SUB_109",
+        "text": "فیچرهای جدید",
+        "timestamp": "2025-12-08T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_110",
+        "text": "رفع باگ‌ها",
+        "timestamp": "2025-12-08T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_111",
+        "text": "به‌روزرسانی امنیتی",
+        "timestamp": "2025-12-08T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_038",
+      "turnKey": "TURN_038",
+      "turnNumber": 38,
+      "title": "نظرسنجی کاربران",
+      "Sub1": {
+        "id": "SUB_112",
+        "text": "NPS Score",
+        "timestamp": "2025-12-08T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_113",
+        "text": "تحلیل فیدبک",
+        "timestamp": "2025-12-08T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_114",
+        "text": "بهبود تجربه کاربری",
+        "timestamp": "2025-12-08T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_039",
+      "turnKey": "TURN_039",
+      "turnNumber": 39,
+      "title": "مانیتورینگ SLA",
+      "Sub1": {
+        "id": "SUB_115",
+        "text": "Uptime 99.99%",
+        "timestamp": "2025-12-08T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_116",
+        "text": "گزارش ماهانه",
+        "timestamp": "2025-12-08T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_117",
+        "text": "جریمه در صورت نقض",
+        "timestamp": "2025-12-08T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_040",
+      "turnKey": "TURN_040",
+      "turnNumber": 40,
+      "title": "برنامه توسعه سال آینده",
+      "Sub1": {
+        "id": "SUB_118",
+        "text": "Roadmap 2026",
+        "timestamp": "2025-12-08T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_119",
+        "text": "جذب سرمایه جدید",
+        "timestamp": "2025-12-08T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_120",
+        "text": "گسترش تیم",
+        "timestamp": "2025-12-08T16:00:00Z"
+      }
+    }
+  },
+
+  "S9": {
+    "id": "S_009",
+    "syncKey": "S9_SYNC_009",
+    "title": "فاز نهم - بلاکچین و Web3",
+    "L1": {
+      "id": "L_041",
+      "turnKey": "TURN_041",
+      "turnNumber": 41,
+      "title": "اتصال به والت",
+      "Sub1": {
+        "id": "SUB_121",
+        "text": "MetaMask Integration",
+        "timestamp": "2025-12-09T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_122",
+        "text": "WalletConnect",
+        "timestamp": "2025-12-09T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_123",
+        "text": "احراز هویت بدون رمز",
+        "timestamp": "2025-12-09T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_042",
+      "turnKey": "TURN_042",
+      "turnNumber": 42,
+      "title": "توکنومیکس",
+      "Sub1": {
+        "id": "SUB_124",
+        "text": "طراحی توکن",
+        "timestamp": "2025-12-09T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_125",
+        "text": "Smart Contract",
+        "timestamp": "2025-12-09T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_126",
+        "text": "Audit توسط CertiK",
+        "timestamp": "2025-12-09T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_043",
+      "turnKey": "TURN_043",
+      "turnNumber": 43,
+      "title": "NFT Marketplace",
+      "Sub1": {
+        "id": "SUB_127",
+        "text": "ساخت NFTها",
+        "timestamp": "2025-12-09T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_128",
+        "text": "بازار خرید و فروش",
+        "timestamp": "2025-12-09T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_129",
+        "text": "Royalty سیستم",
+        "timestamp": "2025-12-09T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_044",
+      "turnKey": "TURN_044",
+      "turnNumber": 44,
+      "title": "Staking و Yield Farming",
+      "Sub1": {
+        "id": "SUB_130",
+        "text": "قرارداد استیکینگ",
+        "timestamp": "2025-12-09T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_131",
+        "text": "APY پویا",
+        "timestamp": "2025-12-09T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_132",
+        "text": "صفحه داشبورد استیک",
+        "timestamp": "2025-12-09T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_045",
+      "turnKey": "TURN_045",
+      "turnNumber": 45,
+      "title": "لانچ توکن",
+      "Sub1": {
+        "id": "SUB_133",
+        "text": "Fair Launch",
+        "timestamp": "2025-12-09T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_134",
+        "text": "لیست شدن در Uniswap",
+        "timestamp": "2025-12-09T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_135",
+        "text": "کمپین ایردراپ",
+        "timestamp": "2025-12-09T16:00:00Z"
+      }
+    }
+  },
+
+  "S10": {
+    "id": "S_010",
+    "syncKey": "S10_SYNC_010",
+    "title": "فاز دهم - متاورس و آینده",
+    "L1": {
+      "id": "L_046",
+      "turnKey": "TURN_046",
+      "turnNumber": 46,
+      "title": "ورود به متاورس",
+      "Sub1": {
+        "id": "SUB_136",
+        "text": "ساخت آواتار ۳D",
+        "timestamp": "2025-12-10T09:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_137",
+        "text": "فضای مجازی اختصاصی",
+        "timestamp": "2025-12-10T09:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_138",
+        "text": "رویدادهای مجازی",
+        "timestamp": "2025-12-10T10:00:00Z"
+      }
+    },
+    "L2": {
+      "id": "L_047",
+      "turnKey": "TURN_047",
+      "turnNumber": 47,
+      "title": "واقعیت افزوده (AR)",
+      "Sub1": {
+        "id": "SUB_139",
+        "text": "فیلترهای AR",
+        "timestamp": "2025-12-10T10:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_140",
+        "text": "اسکن محصولات",
+        "timestamp": "2025-12-10T11:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_141",
+        "text": "تجربه خرید AR",
+        "timestamp": "2025-12-10T11:30:00Z"
+      }
+    },
+    "L3": {
+      "id": "L_048",
+      "turnKey": "TURN_048",
+      "turnNumber": 48,
+      "title": "هوش مصنوعی مولد",
+      "Sub1": {
+        "id": "SUB_142",
+        "text": "تولید تصویر با AI",
+        "timestamp": "2025-12-10T12:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_143",
+        "text": "ساخت ویدیو خودکار",
+        "timestamp": "2025-12-10T12:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_144",
+        "text": "دستیار صوتی پیشرفته",
+        "timestamp": "2025-12-10T13:00:00Z"
+      }
+    },
+    "L4": {
+      "id": "L_049",
+      "turnKey": "TURN_049",
+      "turnNumber": 49,
+      "title": "پروتکل‌های غیرمتمرکز",
+      "Sub1": {
+        "id": "SUB_145",
+        "text": "IPFS برای ذخیره",
+        "timestamp": "2025-12-10T13:30:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_146",
+        "text": "DAO برای تصمیم‌گیری",
+        "timestamp": "2025-12-10T14:00:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_147",
+        "text": "حاکمیت جامعه",
+        "timestamp": "2025-12-10T14:30:00Z"
+      }
+    },
+    "L5": {
+      "id": "L_050",
+      "turnKey": "TURN_050",
+      "turnNumber": 50,
+      "title": "آینده‌نما و خداحافظی",
+      "Sub1": {
+        "id": "SUB_148",
+        "text": "جشن پایان پروژه",
+        "timestamp": "2025-12-10T15:00:00Z"
+      },
+      "Sub2": {
+        "id": "SUB_149",
+        "text": "مستندسازی کامل",
+        "timestamp": "2025-12-10T15:30:00Z"
+      },
+      "Sub3": {
+        "id": "SUB_150",
+        "text": "شروع پروژه بعدی!",
+        "timestamp": "2025-12-10T16:00:00Z"
+      }
+    }
+  }
+}

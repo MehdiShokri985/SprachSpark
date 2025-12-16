@@ -45,7 +45,7 @@ levelButtons.forEach((button) => {
       "worter_A1_game",
       "worter_A2_game",
     ];
-    const grammarLevels = ["A1 GRAMMATIK", "A2 GRAMMATIK"];
+    const grammarLevels = ["A1 GRAMMATIK", "A2 GRAMMATIK" , "B1 GRAMMATIK"];
     let targetPage;
     // console.log(grammarLevels);
 

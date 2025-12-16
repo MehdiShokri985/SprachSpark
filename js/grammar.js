@@ -14,7 +14,13 @@ const levelConfig = {
     headerText: "A2 GRAMMATIK",
     headerClass: "color-a2",
   },
+    "B1 GRAMMATIK": {
+    jsonFile: "../json/json-B1-Grammatik.json",
+    headerText: "B1 GRAMMATIK",
+    headerClass: "color-a2",
+  },
 };
+
 
 // بررسی پارامترهای URL هنگام بارگذاری صفحه
 let colorclass = "";
@@ -31,6 +37,7 @@ window.addEventListener("load", () => {
     localStorage.setItem("selectedLevel", level);
 
     fetch(config.jsonFile)
+
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to load JSON file");

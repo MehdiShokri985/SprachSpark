@@ -1,7 +1,7 @@
 import json
 
 # مسیر فایل ورودی JSON
-input_file = "json/json-A2-Kollokationen.json"
+input_file = "json/json-B1.json"
 
 # مسیر فایل خروجی txt
 output_file = "non_sentences.txt"

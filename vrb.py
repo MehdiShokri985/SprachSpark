@@ -1,7 +1,7 @@
 import json
 
 # مسیر فایل ورودی JSON
-input_file = "json/json-B1.json"
+input_file = "json.json"
 
 # مسیر فایل خروجی txt
 output_file = "non_sentences.txt"

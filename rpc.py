@@ -26,4 +26,4 @@ def replace_root_by_sound_de(file1_path, file2_path, output_path):
 
 
 # مثال استفاده:
-replace_root_by_sound_de("first.json", "t.json", "output.json")
+replace_root_by_sound_de("json.json", "t.json", "output.json")

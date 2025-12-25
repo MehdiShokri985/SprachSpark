@@ -1,697 +1,151 @@
-parken, parkt, parkte, hat geparkt
-parkieren, parkiert, parkierte, hat parkiert
-die Treppe - die Treppen
-die Stiege - die Stiegen
-das Abo - die Abos
-der Akku - die Akkus
-der Azubi - die Azubis
-die DVD - die DVDs
-das EG, OG, UG - die EGs, OGs, UGs
-der ICE - die ICEs
-das Kfz - die Kfzs
-der Lkw - die Lkws
-der PC - die PCs
-der Pkw - die Pkws
-das (CH) SMS - die SMS
-das TV - die TVs
-das WC - die WCs
-die WG - die WGs
-das Baby - die Babys
-der Babysitter - die Babysitter
-die Babysitterin - die Babysitterinnen
-die Band - die Bands
-die Bar - die Bars
-der Bikini - die Bikinis
-der Blog - die Blogs
-bloggen, bloggt, bloggte, hat gebloggt
-das Camp - die Camps
-campen, campt, campte, hat gecampt
-die Castingshow - die Castingshows
-der CD-Player - die CD-Player
-der Chat(room) - die Chats/Chaträume
-chatten, chattet, chattete, hat gechattet
-checken, checkt, checkte, hat gecheckt
-der Chip - die Chips
-die City - die Citys
-der Club - die Clubs
-die/das Cola - die Colas
-der/das Comic - die Comics
-der Computer - die Computer
-cool
-das E-Bike - die E-Bikes
-das E-Book - die E-Books
-der Fan - die Fans
-das Fax - die Faxe
-faxen, faxt, faxte, hat gefaxt
-das Festival - die Festivals
-fit
-die Fitness -
-global
-googeln, googelt, googelte, hat gegoogelt
-der Hamburger - die Hamburger
-der Hit - die Hits
-die Homepage - die Homepages
-das Internet -
-der Jazz -
-der Job - die Jobs
-jobben, jobbt, jobbte, hat gejobbt
-joggen, joggt, joggte, ist/hat gejoggt
-der/das Ketchup/Ketschup - die Ketchups
-der Killer - die Killer
-die Killerin - die Killerinnen
-der Laptop - die Laptops
-der Link - die Links
-live
-die Mailbox - die Mailboxen
-mailen, mailt, mailte, hat gemailt
-der Manager - die Manager
-die Managerin - die Managerinnen
-die Mobilbox - die Mobilboxen
-das Mountainbike - die Mountainbikes
-online
-die Plattform - die Plattformen
-das Poster - die Poster
-das Puzzle - die Puzzles
-das/der Sandwich - die Sandwiches
-die Show - die Shows
-das Smartphone - die Smartphones
-der Snack - die Snacks
-die Software - die Softwares
-der Song - die Songs
-der Spot - die Spots
-das Steak - die Steaks
-surfen, surft, surfte, ist/hat gesurft
-der Swimmingpool - die Swimmingpools
-das Taxi - die Taxis
-das Team - die Teams
-der Terminal - die Terminals
-die Tour - die Touren
-der Trend - die Trends
-das T-Shirt - die T-Shirts
-twittern, twittert, twitterte, hat getwittert
-der User - die User
-die Userin - die Userinnen
-die Aufgabe - die Aufgaben
-ankreuzen, kreuzt an, kreuzte an, hat angekreuzt
-der Antwortbogen - die Antwortbögen
-die Anzeige - die Anzeigen
-die Aussage - die Aussagen
-die Durchsage - die Durchsagen
-die Einleitung - die Einleitungen
-die Folie - die Folien
-das Hilfsmittel - die Hilfsmittel
-der Kommentar - die Kommentare
-lösen, löst, löste, hat gelöst
-die Lösung - die Lösungen
-der Moderator - die Moderatoren
-die Moderatorin - die Moderatorinnen
-das Modul - die Module
-die Präsentation - die Präsentationen
-der Punkt - die Punkte
-die Rückmeldung - die Rückmeldungen
-die Struktur - die Strukturen
-der Textaufbau - die Textaufbauten
-übertragen, überträgt, übertrug, hat übertragen
-zuordnen, ordnet zu, ordnete zu, hat zugeordnet
-Biologie
-Chemie
-Geografie
-Geschichte
-Mathe(matik)
-Musik
-Philosophie
-Physik
-Sport
-hell-, dunkel-
-blau
-braun
-gelb
-grau
-grün
-lila
-orange
-rosa
-rot
-schwarz
-violett
-weiß
-der Norden - Nord-/nördlich
-der Osten - Ost-/östlich
-der Süden - Süd-/südlich
-der Westen - West-/westlich
-Deutschland
-der Deutsche - die Deutschen
-die Deutsche - die Deutschen
-deutsch
-Deutsch
-Europa
-der Europäer - die Europäer
-die Europäerin - die Europäerinnen
-europäisch
-Österreich
-der Österreicher - die Österreicher
-die Österreicherin - die Österreicherinnen
-österreichisch
-die Schweiz
-der Schweizer - die Schweizer
-die Schweizerin - die Schweizerinnen
-Schweizer
-schweizerisch
-Griechenland
-der Grieche - die Griechen
-die Griechin - die Griechinnen
-griechisch
-Griechisch
-die Türkei
-der Türke - die Türken
-die Türkin - die Türkinnen
-türkisch
-Türkisch
-die Ukraine
-der Ukrainer - die Ukrainer
-die Ukrainerin - die Ukrainerinnen
-ukrainisch
-Ukrainisch
-der Bund - die Bünde
-Bundes
-der Bundeskanzler - die Bundeskanzler
-die Bundeskanzlerin - die Bundeskanzlerinnen
-der Bundespräsident - die Bundespräsidenten
-die Bundespräsidentin - die Bundespräsidentinnen
-der Bürgermeister - die Bürgermeister
-die Bürgermeisterin - die Bürgermeisterinnen
-die Demokratie - die Demokratien
-demokratisch
-die Europäische Union = die EU
-die Gemeinde - die Gemeinden
-konservativ
-liberal
-der Minister - die Minister
-die Ministerin - die Ministerinnen
-das Parlament - die Parlamente
-das Europäische Parlament
-die Partei - die Parteien
-die Regierung - die Regierungen
-der Staat - die Staaten
-staatlich
-Deutschland
-das Bundesland - die Bundesländer
-Bundesrepublik Deutschland
-der Bundestag
-Österreich
-das Bundesland
-der Nationalrat - die Nationalräte
-Republik Österreich
-der Ammann - die Ammänner
-die Ammännin - die Ammänninnen
-der Bundesrat - die Bundesräte
-die Bundesrätin - die Bundesrätinnen
-Confoederatio Helvetica
-die Schweizerische Eidgenossenschaft
-der Kanton - die Kantone
-der Nationalrat - die Nationalräte
-der Regierungsrat - die Regierungsräte
-die Regierungsrätin - die Regierungsrätinnen
-der Stadtpräsident - die Stadtpräsidenten
-die Stadtpräsidentin - die Stadtpräsidentinnen
-der Ständerat - die Ständeräte
-der Affe - die Affen
-der Bär - die Bären
-die Biene - die Bienen
-der Elefant - die Elefanten
-die Ente - die Enten
-der Fisch - die Fische
-die Fliege - die Fliegen
-die Giraffe - die Giraffen
-der Hase - die Hasen
-der Hund - die Hunde
-das Insekt - die Insekten
-die Katze - die Katzen
-das Krokodil - die Krokodile
-die Kuh - die Kühe
-der Löwe - die Löwen
-die Maus - die Mäuse
-die Mücke - die Mücken
-das Pferd - die Pferde
-der Pinguin - die Pinguine
-das Schaf - die Schafe
-die Schildkröte - die Schildkröten
-die Schlange - die Schlangen
-das Schwein - die Schweine
-der Vogel - die Vögel
-(+) 4°C = vier Grad über Null/ plus vier Grad
-1 % = ein Prozent
-1 l = ein Liter
-1 g = ein Gramm
-500 g = ein Pfund/ein halbes Kilo
-1 kg = ein Kilo(gramm)
-1 dkg oder dag (= 10g) = ein Deka(gramm) (A)
-1 km/h = ein Kilometer pro Stunde
-1 = eins
-zwei
-drei
-vier
-fünf
-sechs
-sieben
-acht
-neun
-zehn
-elf
-zwölf
-dreizehn
-einundzwanzig
-dreißig
-(ein)hundert
-(ein)hundert(und)eins
-zweihundert
-(ein)tausend
-eine Million
-eine Milliarde
-der/die/das erste
-zweite
-dritte
-vierte
-erstens
-zweitens
-drittens
-viertens
-einmal
-zweimal
-dreimal
-viermal
-einfach
-zweifach/doppelt
-plus
-minus
-ein halb; halb
-ein Drittel, drittel
-ein Viertel; Viertel
-neunzehnhundertneunundneunzig
-zweitausend(und)vier
-heute ist der 1. März = heute ist der erste März/der erste Dritte
-Berlin, 10. April 2012 = Berlin, zehnter April/zehnter Vierter zweitausendundzwölf/zweitausendzwölf
-Neujahr - die Neujahre
-Ostern - die Ostern
-Pfingsten - die Pfingsten
-Weihnachten - die Weihnachten
-Silvester - die Silvester
-Nationalfeiertag - die Nationalfeiertage
-der Frühling/das Frühjahr - die Frühlinge/Frühjahre
-der Sommer - die Sommer
-der Herbst - die Herbste
-der Winter - die Winter
-der Januar - die Januare
-der Februar - die Februare
-der März - die Märze
-der April - die Aprile
-der Mai - die Maie
-der Juni - die Junis
-der Juli - die Julis
-der August - die Auguste
-der September - die September
-der Oktober - die Oktober
-der November - die November
-der Dezember - die Dezember
-der Tag - die Tage
-täglich
-tagsüber
-der Morgen - die Morgen
-in der Früh
-morgens
-am Morgen
-der Vormittag - die Vormittage
-vormittags
-am Vormittag
-der Mittag - die Mittage
-mittags
-zu Mittag
-am Mittag
-der Nachmittag - die Nachmittage
-nachmittags
-am Nachmittag
-der Abend - die Abende
-abends
-am Abend
-die Nacht - die Nächte
-nachts
-in der Nacht
-die Mitternacht - die Mitternächte
-um Mitternacht
-null Uhr drei
-sieben Uhr fünfzehn
-dreizehn Uhr siebzehn
-vierundzwanzig Uhr
-ein Uhr
-fünf Minuten vor/nach eins
-viertel vor/nach zwei A: auch viertel drei (14:15); auch dreiviertel drei (14:45)
-halb drei
-der Wochentag - die Wochentage
-wochentags
-werktags
-das Wochenende - die Wochenenden
-am Wochenende
-der Montag - die Montage
-montags
-am Montag
-der Dienstag - die Dienstage
-dienstags
-am Dienstag
-der Mittwoch - die Mittwoche
-mittwochs
-am Mittwoch
-der Donnerstag - die Donnerstage
-donnerstags
-am Donnerstag
-der Freitag - die Freitage
-freitags
-am Freitag
-der Samstag - die Samstage
-der Sonnabend - die Sonnabende
-samstags
-sonnabends
-am Samstag
-der Sonntag - die Sonntage
-sonntags
-am Sonntag
-die Sekunde - die Sekunden
-die Minute - die Minuten
-die Stunde - die Stunden
-stündlich
-der Tag - die Tage
-täglich
-die Woche - die Wochen
-wöchentlich
-der Monat - die Monate
-monatlich
-das Jahr - die Jahre
-jährlich
-das Jahrzehnt - die Jahrzehnte
-das Jahrhundert - die Jahrhunderte
-das Jahrtausend - die Jahrtausende
-ab
-abbiegen, biegt ab, bog ab, ist abgebogen
-die Abbildung - die Abbildungen
-das Abenteuer - die Abenteuer
-aber
-abfahren, fährt ab, fuhr ab, ist abgefahren
-die Abfahrt - die Abfahrten
-der Abfall - die Abfälle
-der Abfalleimer - die Abfalleimer
-Abgase
-abgeben, gibt ab, gab ab, hat abgegeben
-abhängen, hängt ab, hing ab, hat abgehangen
-abhängig
-abheben, hebt ab, hob ab, hat abgehoben
-abholen, holt ab, holte ab, hat abgeholt
-abschreiben, schreibt ab, schrieb ab, hat abgeschrieben
-das Abitur ,Matura
-ablehnen, lehnt ab, lehnte ab, hat abgelehnt
-abmachen, macht ab, machte ab, hat abgemacht
-abnehmen, nimmt ab, nahm ab, hat abgenommen
-abonnieren, abonniert, abonnierte, hat abonniert
-das Abonnement - die Abonnements
-absagen, sagt ab, sagte ab, hat abgesagt
-der Abschluss - die Abschlüsse
-der Abschnitt - die Abschnitte
-der Absender - die Absenderin
-die Absicht - die Absichten
-absolut
-abstimmen, stimmt ab, stimmte ab,hat abgestimmt
-die Abteilung - die Abteilungen
-der Abwart - die Abwartin - Hausmeister
-abwärts
-abwaschen, wäscht ab, wusch ab,hat abgewaschen
-abwesend
-achten, achtet, achtete, hat geachtet (auf)
-die Adresse - die Adressen
-ähnlich
-die Ahnung - die Ahnungen
-die Aktion - die Aktionen
-aktiv
-die Aktivität - die Aktivitäten
-aktuell
-akzeptieren, akzeptiert,akzeptierte, hat akzeptiert
-der Alarm - die Alarme
-der Alkohol - die Alkohole
-all-
-allein
-aller-
-allerdings
-allgemein
-der Alltag - die Alltage
-alltäglich
-das Alphabet - die Alphabete
-als
-als ob
-also
-alt - die Alten
-das Alter
-Alter: 26 Jahre
-das Altenheim - die Altenheime
-das Altersheim - die Altersheime
-alternativ
-die Alternative - die Alternativen
-die Ampel - die Ampeln
-das Amt - die Ämter
-sich amüsieren, amüsiert sich, amüsierte sich, hat sich amüsiert
-an
-analysieren, analysiert, analysierte, hat analysiert
-anbieten, bietet an, bot an, hat angeboten
-der Anbieter - die Anbieter
-das Angebot - die Angebote
-ander-
-andererseits
-ändern, ändert, änderte, hat geändert
-die Änderung - die Änderungen
-anders
-anerkennen, erkennt an, erkannte an, hat anerkannt
-anfangen, fängt an, fing an, hat angefangen
-der Anfang - die Anfänge
-anfangs
-angeben, gibt an, gab an, hat angegeben
-die Angabe - die Angaben
-der Angehörige - die Angehörigen
-angenehm
-die Angst - die Ängste
-ängstlich
-anhaben, hat an, hatte an, hat angehabt
-anklicken, klickt an, klickte an, hat angeklickt
-ankommen, kommt an, kam an, ist angekommen
-die Ankunft - die Ankünfte
-ankündigen, kündigt an, kündigte an, hat angekündigt
-die Anlage - die Anlagen
-die Anleitung - die Anleitungen
-anmelden, meldet an, meldete an, hat angemeldet
-die Anmeldung - die Anmeldungen
-annehmen, nimmt an, nahm an, hat angenommen
-die Annonce - die Annoncen
-die Anrede - die Anreden
-anrufen, ruft an, rief an, hat angerufen
-der Anruf - die Anrufe
-der Anrufbeantworter - die Anrufbeantworter
-die Ansage - die Ansagen
-anschaffen, schafft an, schaffte an, hat angeschafft
-anschließen, schließt an, schloss an, hat angeschlossen
-der Anschluss - die Anschlüsse
-anschnallen, schnallt an, schnallte an, hat angeschnallt
-ansehen, sieht an, sah an, hat angesehen
-ansprechen, spricht an, sprach an, hat angesprochen
-der Anspruch - die Ansprüche
-anstellen, stellt an, stellte an, hat angestellt
-der Angestellte - die Angestellten
-sich anstrengen, strengt sich an, strengte sich an, hat sich angestrengt
-anstrengend
-der Antrag - die Anträge
-anwenden, wendet an, wandte an, hat angewandt/angewendet
-anwesend
-antworten, antwortet, antwortete, hat geantwortet
-die Antwort - die Antworten
-der Anwalt - die Anwälte
-die Anwältin - die Anwältinnen
-anzeigen, zeigt an, zeigte an, hat angezeigt
-die Anzeige - die Anzeigen
-(sich) anziehen, zieht an, zog an, hat angezogen
-der Anzug - die Anzüge
-das Apartment - die Apartments
-der Apfel - die Äpfel
-die Apotheke - die Apotheken
-der Apparat - die Apparate
-der Appetit - die Appetits (به ندرت جمع)
-die Aprikose - die Aprikosen
-arbeiten, arbeitet, arbeitete, hat gearbeitet
-die Arbeit - die Arbeiten
-der Arbeiter - die Arbeiter
-die Arbeiterin - die Arbeiterinnen
-die Arbeitserlaubnis - die Arbeitserlaubnisse
-arbeitslos
-die Arbeitslosigkeit
-der Arbeitsplatz - die Arbeitsplätze
-die Arbeitsstelle - die Arbeitsstellen
-der Architekt - die Architekten
-die Architektin - die Architektinnen
-(sich) ärgern, ärgert, ärgerte, hat geärgert
-der Ärger - die Ärger (به ندرت جمع)
-ärgerlich
-arm
-der Arm - die Arme
-die Art - die Arten
-der Artikel - die Artikel
-der Arzt - die Ärzte
-die Ärztin - die Ärztinnen
-das Asyl - die Asyle
-atmen, atmet, atmete, hat geatmet
-der Atem
-auch
-auf
-der Aufenthalt - die Aufenthalte
-auffallen, fällt auf, fiel auf, ist aufgefallen
-auffordern, fordert auf, forderte auf, hat aufgefordert
-die Aufforderung - die Aufforderungen
-aufführen, führt auf, führte auf, hat aufgeführt
-die Aufgabe - die Aufgaben
-aufgeben, gibt auf, gab auf, hat aufgegeben
-aufhalten, hält auf, hielt auf, hat aufgehalten
-aufheben, hebt auf, hob auf, hat aufgehoben
-aufhören, hört auf, hörte auf, hat aufgehört
-aufladen, lädt auf, lud auf, hat aufgeladen
-auflösen, löst auf, löste auf, hat aufgelöst
-aufmerksam
-aufnehmen, nimmt auf, nahm auf, hat aufgenommen
-die Aufnahme - die Aufnahmen
-aufpassen, passt auf, passte auf, hat aufgepasst
-aufräumen, räumt auf, räumte auf, hat aufgeräumt
-aufregen, regt auf, regte auf, hat aufgeregt
-aufstehen, steht auf, stand auf, ist aufgestanden
-der Auftrag - die Aufträge
-auftreten, tritt auf, trat auf, ist aufgetreten
-der Auftritt - die Auftritte
-aufwachen, wacht auf, wachte auf, ist aufgewacht
-aufwärts
-der Aufzug - die Aufzüge - Lift
-das Auge - die Augen
-der Augenblick - die Augenblicke
-aus
-die Ausbildung - die Ausbildungen
-ausgebildet
-ausdrucken, druckt aus, druckte aus, hat ausgedruckt
-der Ausdruck - die Ausdrücke
-auseinander
-die Ausfahrt - die Ausfahrten
-ausfallen, fällt aus, fiel aus, ist ausgefallen
-der Ausflug - die Ausflüge
-ausfüllen, füllt aus, füllte aus, hat ausgefüllt
-die Ausgabe - die Ausgaben
-der Ausgang - die Ausgänge
-ausgeben, gibt aus, gab aus, hat ausgegeben
-ausgehen, geht aus, ging aus, ist ausgegangen
-ausgezeichnet
-die Aushilfe - die Aushilfen
-die Auskunft - die Auskünfte
-das Ausland
-der Ausländer - die Ausländer,die Ausländerin - die Ausländerinnen,ausländisch
-ausmachen, macht aus, machte aus, hat ausgemacht
-die Ausnahme - die Ausnahmen
-ausreichen, reicht aus, reichte aus, hat ausgereicht
-ausreichend
-ausrichten, richtet aus, richtete aus, hat ausgerichtet
-(sich) ausruhen, ruht aus, ruhte aus, hat ausgeruht
-ausschließen, schließt aus, schloss aus, hat ausgeschlossen
-ausschließlich
-aussehen, sieht aus, sah aus, hat ausgesehen
-außen
-außerhalb
-äußerlich
-außer
-außerdem
-die Aussicht - die Aussichten
-aussprechen, spricht aus, sprach aus, hat ausgesprochen
-die Aussprache - die Aussprachen
-ausstellen, stellt aus, stellte aus, hat ausgestellt
-die Ausstellung - die Ausstellungen
-(sich etwas) aussuchen, sucht aus, suchte aus, hat ausgesucht
-auswählen, wählt aus, wählte aus, hat ausgewählt
-die Auswahl - die Auswahlen
-der Ausweis - die Ausweise
-ausziehen, zieht aus, zog aus, hat/ist ausgezogen
-das Auto - die Autos
-die Autobahn - die Autobahnen
-der Automat - die Automaten
-automatisch
-der Autor - die Autorin
-backen, bäckt/backt, backte, hat gebacken
-die Bäckerei - die Bäckereien
-baden, badet, badete, hat gebadet
-das Bad - die Bäder
-die Badewanne - die Badewannen
-die Bahn - die Bahnen
-S-Bahn
-die Straßenbahn - die Straßenbahnen
-die U-Bahn - die U-Bahnen
-der Bahnhof - die Bahnhöfe
-der Bahnsteig - die Bahnsteige
-bald
-der Balkon - die Balkone
-der Ball - die Bälle
-das Ballett - die Ballette
-die Banane - die Bananen
-die Bank - die Bänke
-der Bancomat/Bankomat, Geldautomat - die Geldautomaten
-die Bankleitzahl - die Bankleitzahlen
-die Bankomat-Karte - ec-Karte/EC-Karte - die EC-Karten
-die Bar - die Bars
-bar
-das Bargeld
-der Bart - die Bärte
-der Basketball - die Basketbälle
-basteln, bastelt, bastelte, hat gebastelt
-Ich arbeite gern mit natürlichen Bastelmaterialien
-die Batterie - die Batterien
-der Bauch - die Bäuche
-bauen, baut, baute, hat gebaut
-der Bau, Bauten - die Bauten
-die Baustelle - die Baustellen
-der Bauer - die Bauern
-der Baum - die Bäume
-beachten, beachtet, beachtete, hat beachtet
-der Beamte - die Beamtin - die Beamten
-beantragen, beantragt, beantragte, hat beantragt
-beantworten, beantwortet, beantwortete, hat beantwortet
-sich bedanken, bedankt, bedankte, hat bedankt
-der Bedarf
-bedeuten, bedeutet, bedeutete, hat bedeutet
-die Bedeutung - die Bedeutungen
-bedienen, bedient, bediente, hat bedient
-die Bedienungsanleitung - die Bedienungsanleitungen
-die Bedingung - die Bedingungen
-sich beeilen, beeilt sich, beeilte sich, hat sich beeilt
-beenden, beendet, beendete, hat beendet
-sich befinden, befindet sich, befand sich, hat sich befunden
-befreit
-befriedigend
-begegnen, begegnet, begegnete, ist begegnet
-begeistert
-beginnen, beginnt, begann, hat begonnen
-der Beginn - die Beginne
-begleiten, begleitet, begleitete, hat begleitet
-begrenzt
-begründen, begründet, begründete, hat begründet
-die Begründung - die Begründungen
-begrüßen, begrüßt, begrüßte, hat begrüßt
-behalten, behält, behielt, hat behalten
-behandeln, behandelt, behandelte, hat behandelt
-behaupten, behauptet, behauptete, hat behauptet
-behindern, behindert, behinderte, hat behindert
-behindert
-die Behörde - die Behörden
-bei
-beid-
-das Bein - die Beine
-beinahe
-das Beispiel
-beißen, beißt, biss, hat gebissen
-der Beitrag - die Beiträge
-bekannt
-der Bekannte - die Bekannten
-bekannt geben, gibt bekannt, gab bekannt, hat bekannt gegeben
-bekommen, bekommt, bekam, hat bekommen
+der Beleg - die Belege
+beleidigen, beleidigt,beleidigte, hat beleidigt
+beliebt
+bemerken, bemerkt,bemerkte, hat bemerkt
+sich bemühen, bemüht,bemühte, hat bemüht
+benötigen, benötigt,benötigte, hat benötigt
+benutzen, benutzt,benutzte, hat benutzt
+das Benzin - die Benzine
+beobachten, beobachtet,beobachtete,hat beobachtet
+bequem
+beraten, berät, beriet,hat beraten
+die Beratung - die Beratungen
+berechnen, berechnet,berechnete, hat berechnet
+der Bereich - die Bereiche
+bereit
+bereits
+der Berg - die Berge
+berichten, berichtet, berichtete, hat berichtet
+der Bericht - die Berichte
+der Beruf - die Berufe
+beruflich
+berufstätig
+beruhigen, beruhigt, beruhigte, hat beruhigt
+berühmt
+beschädigen, beschädigt, beschädigte,hat beschädigt
+beschäftigen, beschäftigt, beschäftigte,hat beschäftigt
+die Beschäftigung - die Beschäftigungen
+der Bescheid - die Bescheide
+Bescheid sagen
+Bescheid geben
+beschließen, beschließt, beschloss,hat beschlossen
+beschränken
+beschreiben, beschreibt, beschrieb,hat beschrieben
+die Beschreibung - die Beschreibungen
+sich beschweren, beschwert sich, beschwerte sich, hat sich beschwert
+besetzt
+besichtigen, besichtigt, besichtigte, hat besichtigt
+besitzen, besitzt, besaß, hat besessen
+besonder
+besonders
+besorgen, besorgt, besorgte, hat besorgt
+besprechen, bespricht, besprach, hat besprochen
+die Besprechung - die Besprechungen
+die Besserung - die Besserungen
+bestätigen, bestätigt, bestätigte, hat bestätigt
+die Bestätigung - die Bestätigungen
+bestehen, besteht, bestand, hat bestanden
+bestellen, bestellt, bestellte, hat bestellt
+bestimmt
+bestrafen, bestraft, bestrafte, hat bestraft
+besuchen, besucht, besuchte, hat besucht
+der Besuch - die Besuche
+sich beteiligen, beteiligt sich, beteiligte sich, hat sich beteiligt
+der Betrag - die Beträge
+betreuen, betreut, betreute, hat betreut
+der Betreuer, die Betreuerin - die Betreuer, die Betreuerinnen
+die Betreuung - die Betreuungen
+der Betrieb - die Betriebe
+der Betriebsrat, die Betriebsrätin - die Betriebsräte, die Betriebsrätinnen
+betrügen, betrügt, betrog, hat betrogen
+betrunken
+das Bett - die Betten
+die Bevölkerung - die Bevölkerungen
+bevor
+bewegen, bewegt, bewegte, hat bewegt
+die Bewegung - die Bewegungen
+beweisen, beweist, bewies, hat bewiesen
+der Beweis - die Beweise
+sich bewerben, bewirbt sich, bewarb sich, hat sich beworben
+die Bewerbung - die Bewerbungen
+der Bewohner, die Bewohnerin - die Bewohner, die Bewohnerinnen
+bezahlen, bezahlt, bezahlte, hat bezahlt
+die Beziehung - die Beziehungen
+die Bibliothek - die Bibliotheken
+das Bier, die Biere
+bieten, bietet, bot, hat geboten
+das Bild, die Bilder
+der Bildschirm, die Bildschirme
+das Billett, die Billetts - die Fahrkarte, die Fahrkarten
+billig
+die Biologie
+Bio
+biologisch
+die Birne, die Birnen
+bis
+bisher
+ein bisschen
+bitten, bittet, bat, hat gebeten
+die Bitte, die Bitten
+bitte
+bitter
+blass
+das Blatt, die Blätter
+bleiben, bleibt, blieb, ist geblieben
+der Bleistift, die Bleistifte
+der Blick, die Blicke
+blind
+blitzen, blitzt, blitzte, hat geblitzt
+der Blitz, die Blitze
+blond
+bloß
+blühen, blüht, blühte, hat geblüht
+die Blume, die Blumen
+die Bluse, die Blusen
+bluten, blutet, blutete, hat geblutet
+das Blut
+der Boden, die Böden
+der Bogen, die Bögen
+die Bohne, die Bohnen
+das Boot, die Boote
+die Botschaft, die Botschaften
+böse
+braten, brät, briet, hat gebraten
+der Braten, die Braten
+brauchen, braucht, brauchte, hat gebraucht
+brechen, bricht, brach, hat gebrochen
+breit
+die Breite, die Breiten
+bremsen, bremst, bremste, hat gebremst
+die Bremse, die Bremsen
+brennen, brennt, brannte, hat gebrannt
+der Brief, die Briefe
+der Briefkasten, die Briefkästen
+die Briefmarke, die Briefmarken
+der Briefträger, die Briefträger - die Briefträgerin, die Briefträgerinnen
+der Briefumschlag, die Briefumschläge - Kuvert - Couvert
+die Brieftasche, die Brieftaschen
+die Brille, die Brillen
+bringen, bringt, brachte, hat gebracht
+die Broschüre, die Broschüren
+das Brot, die Brote
+das Brötchen, die Brötchen
+das Brötli, die Brötli - Brötchen
+der Bruder, die Brüder
+die Brust, die Brüste
+der Bub, die Buben - Junge
+das Buch, die Bücher
+die Buchhandlung, die Buchhandlungen
+buchen, bucht, buchte, hat gebucht
+buchstabieren, buchstabiert, buchstabierte, hat buchstabiert
+der Buchstabe, die Buchstaben
+die Büchse, die Büchsen - Dose
+das Buffet, die Buffets
+die Bühne, die Bühnen
+bunt
+die Burg, die Burgen
+der Bürger, die Bürger - die Bürgerin, die Bürgerinnen - das Büro
+die Bürste, die Bürsten
+die Zahnbürste, die Zahnbürsten
+der Bus, die Busse
+die Butter, die Butter

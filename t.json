@@ -1,2790 +1,606 @@
 [
   {
-    "Sound_de": "parken, parkt, parkte, hat geparkt",
-    "root": "اجزای تشکیل‌دهنده:\npark (از انگلیسی park) + فعل‌سازی با -en\nمعنی کلی: پارک کردن (ماشین)\nمترادف‌ها:\n- abstellen (پارک کردن، قرار دادن)\n- einparken (پارک کردن در جای مشخص)\nمتضادها:\n- abfahren (رفتن، حرکت کردن)\n- starten (شروع کردن حرکت)"
+    "Sound_de": "der Beleg - die Belege",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند تأکیدی) + Leg (از legen: گذاشتن، قرار دادن)\nمعنی کلی: مدرک، رسید، گواهی = چیزی که چیزی را ثابت یا تأیید می‌کند\nمترادف‌ها:\n- der Nachweis (مدرک، گواهی)\n- die Quittung (رسید)\n- der Beweis (اثبات، مدرک)\nمتضادها:\n- die Vermutung (حدس، گمان)\n- der Zweifel (شک)"
   },
   {
-    "Sound_de": "parkieren, parkiert, parkierte, hat parkiert",
-    "root": "اجزای تشکیل‌دهنده:\nparkier (از فرانسوی parquer) + فعل‌سازی\nمعنی کلی: پارک کردن (رسمی‌تر، بیشتر در سوئیس و اتریش)\nمترادف‌ها:\n- parken (پارک کردن)\n- abstellen (قرار دادن، پارک کردن)\nمتضادها:\n- fahren (راندن)\n- losfahren (حرکت کردن)"
+    "Sound_de": "beleidigen, beleidigt,beleidigte, hat beleidigt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند تأکیدی) + Leid (رنج، درد) + -igen (فعل‌ساز)\nمعنی کلی: توهین کردن، اهانت کردن\nمترادف‌ها:\n- verletzen (آزار دادن، جریحه‌دار کردن)\n- kränken (رنجاندن)\n- beschimpfen (فحاشی کردن)\nمتضادها:\n- loben (ستایش کردن)\n- ehren (احترام گذاشتن)\n- respektieren (احترام کردن)"
   },
   {
-    "Sound_de": "die Treppe - die Treppen",
-    "root": "اجزای تشکیل‌دهنده:\nTreppe (ریشه ژرمنی قدیمی، مرتبط با treten به معنی قدم زدن)\nمعنی کلی: پله، راه‌پله\nمترادف‌ها:\n- die Stiege (پله، بیشتر در اتریش)\nمتضادها:\n- der Aufzug (آسانسور)\n- die Rolltreppe (پله برقی، اما نه دقیقاً متضاد)"
+    "Sound_de": "beliebt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + liebt (از lieben: دوست داشتن)\nمعنی کلی: محبوب، پرطرفدار\nمترادف‌ها:\n- populär (محبوب، عام‌پسند)\n- gefragt (پرطرفدار)\n- angesagt (مد روز، محبوب)\nمتضادها:\n- unbeliebt (نامحبوب)\n- verhasst (مورد نفرت)\n- unpopulär (نامحبوب)"
   },
   {
-    "Sound_de": "die Stiege - die Stiegen",
-    "root": "اجزای تشکیل‌دهنده:\nStiege (ریشه ژرمنی، مرتبط با steigen به معنی بالا رفتن)\nمعنی کلی: پله، راه‌پله (بیشتر در اتریش و جنوب آلمان)\nمترادف‌ها:\n- die Treppe (پله)\nمتضادها:\n- der Lift (آسانسور)\n- der Fahrstuhl (آسانسور)"
+    "Sound_de": "bemerken, bemerkt,bemerkte, hat bemerkt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + merken (توجه کردن، به خاطر سپردن)\nمعنی کلی: متوجه شدن، مشاهده کردن\nمترادف‌ها:\n- wahrnehmen (درک کردن، متوجه شدن)\n- erkennen (تشخیص دادن)\n- feststellen (مشاهده کردن)\nمتضادها:\n- übersehen (غفلت کردن)\n- ignorieren (نادیده گرفتن)"
   },
   {
-    "Sound_de": "das Abo - die Abos",
-    "root": "اجزای تشکیل‌دهنده:\nAbo (کوتاه‌شده Abonnement از فرانسوی)\nمعنی کلی: اشتراک\nمترادف‌ها:\n- das Abonnement (اشتراک)\n- die Mitgliedschaft (عضویت، اشتراک)\nمتضادها:\n- der Einzelkauf (خرید تک)\n- die Eintrittskarte (بلیت تک)"
+    "Sound_de": "sich bemühen, bemüht,bemühte, hat bemüht",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + Mühe (زحمت، تلاش)\nمعنی کلی: تلاش کردن، کوشش کردن\nمترادف‌ها:\n- sich anstrengen (تلاش کردن)\n- streben (سعی کردن)\n- sich abmühen (زحمت کشیدن)\nمتضادها:\n- faulenzen (تنبلی کردن)\n- ruhen (استراحت کردن)"
   },
   {
-    "Sound_de": "der Akku - die Akkus",
-    "root": "اجزای تشکیل‌دهنده:\nAkku (کوتاه‌شده Akkumulator)\nمعنی کلی: باتری قابل شارژ\nمترادف‌ها:\n- der Akkumulator (باتری قابل شارژ)\n- die Batterie (باتری، گاهی به جای هم)\nمتضادها:\n- die Einwegbatterie (باتری یک‌بار مصرف)"
+    "Sound_de": "benötigen, benötigt,benötigte, hat benötigt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + nötig (لازم)\nمعنی کلی: نیاز داشتن، احتیاج داشتن\nمترادف‌ها:\n- brauchen (نیاز داشتن)\n- erfordern (مورد نیاز بودن)\n- bedürfen (نیازمند بودن)\nمتضادها:\n- entbehren können (بی‌نیاز بودن)\n- verzichten (چشم‌پوشی کردن)"
   },
   {
-    "Sound_de": "der Azubi - die Azubis",
-    "root": "اجزای تشکیل‌دهنده:\nAzubi (کوتاه‌شده Auszubildende/r)\nمعنی کلی: کارآموز\nمترادف‌ها:\n- der Auszubildende (کارآموز)\n- der Lehrling (شاگرد، بیشتر در اتریش)\nمتضادها:\n- der Ausbilder (مربی)\n- der Meister (استادکار)"
+    "Sound_de": "benutzen, benutzt,benutzte, hat benutzt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + nutzen (استفاده کردن)\nمعنی کلی: استفاده کردن، به کار بردن\nمترادف‌ها:\n- verwenden (به کار بردن)\n- gebrauchen (استفاده کردن)\n- nutzen (بهره بردن)\nمتضادها:\n- liegen lassen (رها کردن)\n- ignorieren (نادیده گرفتن)"
   },
   {
-    "Sound_de": "die DVD - die DVDs",
-    "root": "اجزای تشکیل‌دهنده:\nDVD (مخفف Digital Versatile Disc)\nمعنی کلی: دی‌وی‌دی\nمترادف‌ها:\n- die Digital Versatile Disc (نام کامل)\nمتضادها:\n- die CD (سی‌دی)\n- die Blu-ray (بلوری)"
+    "Sound_de": "das Benzin - die Benzine",
+    "root": "اجزای تشکیل‌دهنده:\nاز Benz(oe) + -in (پسوند شیمیایی)\nمعنی کلی: بنزین، سوخت خودرو\nمترادف‌ها:\n- der Kraftstoff (سوخت)\n- das Petrol (بنزین - در برخی مناطق)\nمتضادها:\n- der Diesel (دیزل)\n- die Elektrizität (برق - برای خودروهای الکتریکی)"
   },
   {
-    "Sound_de": "das EG, OG, UG - die EGs, OGs, UGs",
-    "root": "اجزای تشکیل‌دهنده:\nEG (Erdgeschoss)، OG (Obergeschoss)، UG (Untergeschoss)\nمعنی کلی: طبقه همکف، طبقه بالا، طبقه زیرین\nمترادف‌ها:\n- Erdgeschoss (همکف)\n- Stockwerk (طبقه)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "beobachten, beobachtet,beobachtete,hat beobachtet",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + obachten (از acht: توجه)\nمعنی کلی: مشاهده کردن، نظاره کردن\nمترادف‌ها:\n- betrachten (نگاه کردن)\n- anschauen (تماشا کردن)\n- überwachen (نظارت کردن)\nمتضادها:\n- ignorieren (نادیده گرفتن)\n- abwenden (رو گرداندن)"
   },
   {
-    "Sound_de": "der ICE - die ICEs",
-    "root": "اجزای تشکیل‌دهنده:\nICE (مخفف InterCityExpress)\nمعنی کلی: قطار سریع‌السیر آلمان\nمترادف‌ها:\n- der Hochgeschwindigkeitszug (قطار پرسرعت)\nمتضادها:\n- der Regionalzug (قطار محلی)\n- die S-Bahn (قطار شهری)"
+    "Sound_de": "bequem",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + quem (از kommen: آمدن - به معنای راحت آمدن)\nمعنی کلی: راحت، آسان\nمترادف‌ها:\n- komfortabel (راحت)\n- gemütlich (دنج، راحت)\n- angenehm (خوشایند)\nمتضادها:\n- unbequem (ناراحت)\n- beschwerlich (سخت)\n- anstrengend (خسته‌کننده)"
   },
   {
-    "Sound_de": "das Kfz - die Kfzs",
-    "root": "اجزای تشکیل‌دهنده:\nKfz (مخفف Kraftfahrzeug)\nمعنی کلی: وسیله نقلیه موتوری\nمترادف‌ها:\n- das Kraftfahrzeug (وسیله نقلیه موتوری)\n- das Auto (اتومبیل)\nمتضادها:\n- das Fahrrad (دوچرخه)\n- der Fußgänger (عابر پیاده)"
+    "Sound_de": "beraten, berät, beriet,hat beraten",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + raten (مشورت دادن)\nمعنی کلی: مشاوره دادن، راهنمایی کردن\nمترادف‌ها:\n- konsultieren (مشاوره کردن)\n- empfehlen (توصیه کردن)\n- ratgeben (نصیحت کردن)\nمتضادها:\n- irreführen (گمراه کردن)\n- täuschen (فریب دادن)"
   },
   {
-    "Sound_de": "der Lkw - die Lkws",
-    "root": "اجزای تشکیل‌دهنده:\nLkw (مخفف Lastkraftwagen)\nمعنی کلی: کامیون\nمترادف‌ها:\n- der Lastwagen (کامیون)\n- der Truck (کامیون، از انگلیسی)\nمتضادها:\n- der Pkw (خودروی سواری)"
+    "Sound_de": "die Beratung - die Beratungen",
+    "root": "اجزای تشکیل‌دهنده:\nBerat (از beraten) + -ung (اسم‌ساز)\nمعنی کلی: مشاوره، راهنمایی\nمترادف‌ها:\n- die Konsultation (مشاوره)\n- die Besprechung (گفتگو)\n- der Rat (نصیحت)\nمتضادها:\n- die Irreführung (گمراهی)\n- die Täuschung (فریب)"
   },
   {
-    "Sound_de": "der PC - die PCs",
-    "root": "اجزای تشکیل‌دهنده:\nPC (مخفف Personal Computer)\nمعنی کلی: کامپیوتر شخصی\nمترادف‌ها:\n- der Computer (کامپیوتر)\n- der Rechner (کامپیوتر)\nمتضادها:\n- der Laptop (لپ‌تاپ، اما نه دقیق متضاد)\n- das Tablet (تبلت)"
+    "Sound_de": "berechnen, berechnet,berechnete, hat berechnet",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + rechnen (حساب کردن)\nمعنی کلی: محاسبه کردن، حساب کردن\nمترادف‌ها:\n- kalkulieren (محاسبه کردن)\n- ausrechnen (حساب کردن)\n- ermitteln (تعیین کردن)\nمتضادها:\n- schätzen (تخمین زدن)\n- raten (حدس زدن)"
   },
   {
-    "Sound_de": "der Pkw - die Pkws",
-    "root": "اجزای تشکیل‌دهنده:\nPkw (مخفف Personenkraftwagen)\nمعنی کلی: خودروی سواری\nمترادف‌ها:\n- das Auto (اتومبیل)\n- der Wagen (خودرو)\nمتضادها:\n- der Lkw (کامیون)\n- der Bus (اتوبوس)"
+    "Sound_de": "der Bereich - die Bereiche",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + Reich (دامنه، محدوده)\nمعنی کلی: حوزه، زمینه، منطقه\nمترادف‌ها:\n- das Gebiet (منطقه)\n- das Feld (زمینه)\n- der Sektor (بخش)\nمتضادها:\n- das Außergebiet (خارج از حوزه)\n- die Grenze (مرز - به معنای خارج)"
   },
   {
-    "Sound_de": "das (CH) SMS - die SMS",
-    "root": "اجزای تشکیل‌دهنده:\nSMS (مخفف Short Message Service)\nمعنی کلی: پیامک (بیشتر در سوئیس)\nمترادف‌ها:\n- die Textnachricht (پیام متنی)\n- die Kurznachricht (پیام کوتاه)\nمتضادها:\n- der Anruf (تماس تلفنی)\n- die E-Mail (ایمیل)"
+    "Sound_de": "bereit",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + reit (از bereit - آماده)\nمعنی کلی: آماده\nمترادف‌ها:\n- fertig (آماده)\n- parat (آماده)\n- gewillt (مایل، آماده)\nمتضادها:\n- unbereit (ناآماده)\n- zögernd (مردد)"
   },
   {
-    "Sound_de": "das TV - die TVs",
-    "root": "اجزای تشکیل‌دهنده:\nTV (مخفف Television)\nمعنی کلی: تلویزیون\nمترادف‌ها:\n- der Fernseher (تلویزیون)\n- das Fernsehen (تلویزیون)\nمتضادها:\n- das Radio (رادیو)"
+    "Sound_de": "bereits",
+    "root": "اجزای تشکیل‌دهنده:\nBereit (آماده) + -s (قیدساز)\nمعنی کلی: قبلاً، از قبل\nمترادف‌ها:\n- schon (قبلاً)\n- bereits (تکراری)\n- vorab (از پیش)\nمتضادها:\n- noch nicht (هنوز نه)\n- später (بعداً)"
   },
   {
-    "Sound_de": "das WC - die WCs",
-    "root": "اجزای تشکیل‌دهنده:\nWC (مخفف Water Closet)\nمعنی کلی: توالت\nمترادف‌ها:\n- die Toilette (توالت)\n- das Klo (توالت، عامیانه)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "der Berg - die Berge",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه از ریشه ژرمنی bergan (بالا رفتن)\nمعنی کلی: کوه\nمترادف‌ها:\n- der Hügel (تپه - کوچکتر)\n- das Gebirge (رشته‌کوه)\nمتضادها:\n- das Tal (دره)\n- die Ebene (دشت)\n- die Tiefebene (دشت پایین)"
   },
   {
-    "Sound_de": "die WG - die WGs",
-    "root": "اجزای تشکیل‌دهنده:\nWG (مخفف Wohngemeinschaft)\nمعنی کلی: خانه اشتراکی\nمترادف‌ها:\n- die Wohngemeinschaft (خانه اشتراکی)\n- die Kommune (کمون، خانه مشترک)\nمتضادها:\n- die Einzelwohnung (آپارتمان تک‌نفره)"
+    "Sound_de": "berichten, berichtet, berichtete, hat berichtet",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + richten (جهت دادن)\nمعنی کلی: گزارش دادن، خبر دادن\nمترادف‌ها:\n- melden (گزارش کردن)\n- erzählen (گفتن)\n- referieren (گزارش دادن)\nمتضادها:\n- verschweigen (پنهان کردن)\n- verheimlichen (مخفی کردن)"
   },
   {
-    "Sound_de": "das Baby - die Babys",
-    "root": "اجزای تشکیل‌دهنده:\nBaby (از انگلیسی)\nمعنی کلی: نوزاد\nمترادف‌ها:\n- das Kleinkind (کودک کوچک)\n- der Säugling (نوزاد شیرخوار)\nمتضادها:\n- der Erwachsene (بزرگسال)"
+    "Sound_de": "der Bericht - die Berichte",
+    "root": "اجزای تشکیل‌دهنده:\nBericht (از berichten) \nمعنی کلی: گزارش\nمترادف‌ها:\n- die Meldung (خبر)\n- der Report (گزارش)\n- die Mitteilung (اطلاعیه)\nمتضادها:\n- das Geheimnis (راز)\n- die Verschwiegenheit (سکوت)"
   },
   {
-    "Sound_de": "der Babysitter - die Babysitter",
-    "root": "اجزای تشکیل‌دهنده:\nBaby + sitter (از انگلیسی)\nمعنی کلی: پرستار کودک (مرد)\nمترادف‌ها:\n- der Kinderbetreuer (پرستار کودک)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "der Beruf - die Berufe",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + ruf (از rufen: صدا زدن - به معنای حرفه‌ای که صدا زده می‌شود)\nمعنی کلی: شغل، حرفه\nمترادف‌ها:\n- die Arbeit (کار)\n- der Job (شغل)\n- die Tätigkeit (فعالیت)\nمتضادها:\n- die Freizeit (اوقات فراغت)\n- die Arbeitslosigkeit (بیکاری)"
   },
   {
-    "Sound_de": "die Babysitterin - die Babysitterinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBaby + sitter + in (زن)\nمعنی کلی: پرستار کودک (زن)\nمترادف‌ها:\n- die Kinderbetreuerin (پرستار کودک زن)\n- das Kindermädchen (دختر پرستار کودک)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "beruflich",
+    "root": "اجزای تشکیل‌دهنده:\nBeruf (شغل) + -lich (صفت‌ساز)\nمعنی کلی: شغلی، حرفه‌ای\nمترادف‌ها:\n- dienstlich (کاری)\n- geschäftlich (تجاری)\nمتضادها:\n- privat (شخصی)\n- freizeitlich (در اوقات فراغت)"
   },
   {
-    "Sound_de": "die Band - die Bands",
-    "root": "اجزای تشکیل‌دهنده:\nBand (از انگلیسی، گروه موسیقی)\nمعنی کلی: گروه موسیقی\nمترادف‌ها:\n- die Musikgruppe (گروه موسیقی)\n- die Combo (گروه کوچک موسیقی)\nمتضادها:\n- der Solokünstler (هنرمند تک‌نفره)"
+    "Sound_de": "berufstätig",
+    "root": "اجزای تشکیل‌دهنده:\nBeruf (شغل) + tätig (فعال)\nمعنی کلی: شاغل، دارای شغل\nمترادف‌ها:\n- erwerbstätig (شاغل)\n- beschäftigt (مشغول کار)\nمتضادها:\n- arbeitslos (بیکار)\n- rentner (بازنشسته)"
   },
   {
-    "Sound_de": "die Bar - die Bars",
-    "root": "اجزای تشکیل‌دهنده:\nBar (از انگلیسی)\nمعنی کلی: بار (محل نوشیدنی)\nمترادف‌ها:\n- die Kneipe (میخانه)\n- die Gaststätte (رستوران-بار)\nمتضادها:\n- das Restaurant (رستوران)"
+    "Sound_de": "beruhigen, beruhigt, beruhigte, hat beruhigt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + ruhen (آرام بودن)\nمعنی کلی: آرام کردن\nمترادف‌ها:\n- besänftigen (آرام کردن)\n- trösten (تسلی دادن)\n- entspannen (آرام کردن)\nمتضادها:\n- aufregen (عصبانی کردن)\n- beunruhigen (نگران کردن)"
   },
   {
-    "Sound_de": "der Bikini - die Bikinis",
-    "root": "اجزای تشکیل‌دهنده:\nBikini (نام جزیره، نام تجاری)\nمعنی کلی: بیکینی (مایو دوتکه)\nمترادف‌ها:\n- der Zweiteiler (دوتکه)\nمتضادها:\n- der Badeanzug (مایو یک‌تکه)"
+    "Sound_de": "berühmt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + rühmen (ستایش)\nمعنی کلی: مشهور\nمترادف‌ها:\n- bekannt (معروف)\n- famous (مشهور - انگلیسی در آلمانی هم استفاده می‌شود)\n- prominent (برجسته)\nمتضادها:\n- unbekannt (ناشناخته)\n- anonym (ناشناس)"
   },
   {
-    "Sound_de": "der Blog - die Blogs",
-    "root": "اجزای تشکیل‌دهنده:\nBlog (کوتاه‌شده Weblog)\nمعنی کلی: وبلاگ\nمترادف‌ها:\n- das Weblog (وبلاگ)\n- die Website (وب‌سایت، گسترده‌تر)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "beschädigen, beschädigt, beschädigte,hat beschädigt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schaden (آسیب) + -igen\nمعنی کلی: آسیب زدن\nمترادف‌ها:\n- verletzen (آسیب رساندن)\n- zerstören (نابود کردن)\n- kaputtmachen (خراب کردن)\nمتضادها:\n- reparieren (تعمیر کردن)\n- pflegen (مراقبت کردن)"
   },
   {
-    "Sound_de": "bloggen, bloggt, bloggte, hat gebloggt",
-    "root": "اجزای تشکیل‌دهنده:\nblog + en (فعل‌سازی از انگلیسی)\nمعنی کلی: وبلاگ‌نویسی کردن\nمترادف‌ها:\n- blog schreiben (نوشتن وبلاگ)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "beschäftigen, beschäftigt, beschäftigte,hat beschäftigt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schäftigen (از schaffen: ایجاد کردن)\nمعنی کلی: مشغول کردن، استخدام کردن\nمترادف‌ها:\n- beschäftigen (تکراری)\n- einstellen (استخدام کردن)\n- engagieren (به کار گماردن)\nمتضادها:\n- entlassen (اخراج کردن)\n- freistellen (مرخص کردن)"
   },
   {
-    "Sound_de": "das Camp - die Camps",
-    "root": "اجزای تشکیل‌دهنده:\nCamp (از انگلیسی/لاتین campus)\nمعنی کلی: کمپ، اردو\nمترادف‌ها:\n- das Lager (اردوگاه)\n- das Zeltlager (اردوی چادری)\nمتضادها:\n- das Hotel (هتل)"
+    "Sound_de": "die Beschäftigung - die Beschäftigungen",
+    "root": "اجزای تشکیل‌دهنده:\nBeschäftig (از beschäftigen) + -ung\nمعنی کلی: اشتغال، شغل، فعالیت\nمترادف‌ها:\n- die Arbeit (کار)\n- die Tätigkeit (فعالیت)\n- der Job (شغل)\nمتضادها:\n- die Arbeitslosigkeit (بیکاری)\n- die Freizeit (اوقات فراغت)"
   },
   {
-    "Sound_de": "campen, campt, campte, hat gecampt",
-    "root": "اجزای تشکیل‌دهنده:\ncamp + en (فعل‌سازی)\nمعنی کلی: کمپ زدن، اردو زدن\nمترادف‌ها:\n- zelten (چادر زدن)\n- lagern (اردو زدن)\nمتضادها:\n- im Hotel übernachten (در هتل اقامت کردن)"
+    "Sound_de": "der Bescheid - die Bescheide",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + scheiden (جدا کردن، تصمیم)\nمعنی کلی: اطلاع، پاسخ رسمی\nمترادف‌ها:\n- die Mitteilung (اطلاعیه)\n- die Antwort (پاسخ)\n- die Benachrichtigung (اعلام)\nمتضادها:\n- die Ungewissheit (عدم اطمینان)\n- das Schweigen (سکوت)"
   },
   {
-    "Sound_de": "die Castingshow - die Castingshows",
-    "root": "اجزای تشکیل‌دهنده:\nCasting (انتخاب بازیگر) + Show (نمایش)\nمعنی کلی: برنامه انتخاب استعداد\nمترادف‌ها:\n- die Talentshow (برنامه استعداد)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "Bescheid sagen",
+    "root": "اجزای تشکیل‌دهنده:\nBescheid (اطلاع) + sagen (گفتن)\nمعنی کلی: اطلاع دادن، خبر دادن\nمترادف‌ها:\n- mitteilen (اطلاع دادن)\n- benachrichtigen (خبر دادن)\nمتضادها:\n- verschweigen (پنهان کردن)"
   },
   {
-    "Sound_de": "der CD-Player - die CD-Player",
-    "root": "اجزای تشکیل‌دهنده:\nCD (Compact Disc) + Player\nمعنی کلی: پخش‌کننده سی‌دی\nمترادف‌ها:\n- der CD-Spieler (پخش‌کننده سی‌دی)\nمتضادها:\n- der Plattenspieler (گرامافون)"
+    "Sound_de": "Bescheid geben",
+    "root": "اجزای تشکیل‌دهنده:\nBescheid (اطلاع) + geben (دادن)\nمعنی کلی: اطلاع دادن، پاسخ دادن\nمترادف‌ها:\n- antworten (پاسخ دادن)\n- mitteilen (اطلاع دادن)\nمتضادها:\n- ignorieren (نادیده گرفتن)"
   },
   {
-    "Sound_de": "der Chat(room) - die Chats/Chaträume",
-    "root": "اجزای تشکیل‌دهنده:\nChat (از انگلیسی chatter) + room\nمعنی کلی: چت، اتاق چت\nمترادف‌ها:\n- der Chatraum (اتاق چت)\n- die Chatgruppe (گروه چت)\nمتضادها:\n- das Forum (انجمن)"
+    "Sound_de": "beschließen, beschließt, beschloss,hat beschlossen",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schließen (بستن)\nمعنی کلی: تصمیم گرفتن، به پایان رساندن\nمترادف‌ها:\n- entscheiden (تصمیم گرفتن)\n- vereinbaren (توافق کردن)\nمتضادها:\n- offen lassen (باز گذاشتن)\n- zögern (تردید کردن)"
   },
   {
-    "Sound_de": "chatten, chattet, chattete, hat gechattet",
-    "root": "اجزای تشکیل‌دهنده:\nchat + en\nمعنی کلی: چت کردن\nمترادف‌ها:\n- online schreiben (آنلاین نوشتن)\nمتضادها:\n- telefonieren (تلفنی حرف زدن)"
+    "Sound_de": "beschränken",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schränken (از Schranke: مانع)\nمعنی کلی: محدود کردن\nمترادف‌ها:\n- einschränken (محدود کردن)\n- begrenzen (مرزبندی کردن)\nمتضادها:\n- erweitern (گسترش دادن)\n- freigeben (آزاد کردن)"
   },
   {
-    "Sound_de": "checken, checkt, checkte, hat gecheckt",
-    "root": "اجزای تشکیل‌دهنده:\ncheck (از انگلیسی) + en\nمعنی کلی: چک کردن، بررسی کردن\nمترادف‌ها:\n- prüfen (بررسی کردن)\n- kontrollieren (کنترل کردن)\nمتضادها:\n- ignorieren (نادیده گرفتن)"
+    "Sound_de": "beschreiben, beschreibt, beschrieb,hat beschrieben",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schreiben (نوشتن)\nمعنی کلی: توصیف کردن، شرح دادن\nمترادف‌ها:\n- darstellen (به تصویر کشیدن)\n- schildern (توصیف کردن)\nمتضادها:\n- verschweigen (پنهان کردن)\n- verbergen (مخفی کردن)"
   },
   {
-    "Sound_de": "der Chip - die Chips",
-    "root": "اجزای تشکیل‌دهنده:\nChip (از انگلیسی، برش کوچک)\nمعنی کلی: چیپ (الکترونیک یا سیب‌زمینی)\nمترادف‌ها:\n- der Mikrochip (میکروچیپ)\n- die Pommes chips (چیپس سیب‌زمینی)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Beschreibung - die Beschreibungen",
+    "root": "اجزای تشکیل‌دهنده:\nBeschreib (از beschreiben) + -ung\nمعنی کلی: توصیف، شرح\nمترادف‌ها:\n- die Darstellung (به تصویر کشیدن)\n- die Schilderung (توصیف)\nمتضادها:\n- die Verschwiegenheit (سکوت)"
   },
   {
-    "Sound_de": "die City - die Citys",
-    "root": "اجزای تشکیل‌دهنده:\nCity (از انگلیسی city)\nمعنی کلی: مرکز شهر\nمترادف‌ها:\n- die Innenstadt (مرکز شهر)\n- das Zentrum (مرکز)\nمتضادها:\n- der Vorort (حومه)"
+    "Sound_de": "sich beschweren, beschwert sich, beschwerte sich, hat sich beschwert",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schwer (سنگین) - به معنای سنگین کردن دل\nمعنی کلی: شکایت کردن\nمترادف‌ها:\n- klagen (شکایت کردن)\n- reklamieren (اعتراض کردن)\nمتضادها:\n- loben (ستایش کردن)\n- danken (تشکر کردن)"
   },
   {
-    "Sound_de": "der Club - die Clubs",
-    "root": "اجزای تشکیل‌دهنده:\nClub (از انگلیسی)\nمعنی کلی: باشگاه، کلوپ\nمترادف‌ها:\n- der Verein (انجمن، باشگاه)\n- die Disco (دیسکو)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "besetzt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + setzen (گذاشتن)\nمعنی کلی: اشغال شده، مشغول\nمترادف‌ها:\n- belegt (اشغال)\n- vergeben (رزرو شده)\nمتضادها:\n- frei (آزاد)\n- verfügbar (در دسترس)"
   },
   {
-    "Sound_de": "die/das Cola - die Colas",
-    "root": "اجزای تشکیل‌دهنده:\nCola (نام تجاری Coca-Cola)\nمعنی کلی: کولا\nمترادف‌ها:\n- die Limonade (نوشابه)\nمتضادها:\n- das Wasser (آب)"
+    "Sound_de": "besichtigen, besichtigt, besichtigte, hat besichtigt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sichtigen (از Sicht: دید)\nمعنی کلی: بازدید کردن، دیدن\nمترادف‌ها:\n- anschauen (تماشا کردن)\n- besuchen (بازدید کردن)\n- betrachten (نگاه کردن)\nمتضادها:\n- meiden (اجتناب کردن)"
   },
   {
-    "Sound_de": "der/das Comic - die Comics",
-    "root": "اجزای تشکیل‌دهنده:\nComic (از انگلیسی comic strip)\nمعنی کلی: کمیک، کتاب مصور\nمترادف‌ها:\n- der Bilderbogen (کتاب مصور)\n- die Graphic Novel (رمان گرافیکی)\nمتضادها:\n- der Roman (رمان متنی)"
+    "Sound_de": "besitzen, besitzt, besaß, hat besessen",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sitzen (نشستن - به معنای مالک بودن)\nمعنی کلی: داشتن، مالک بودن\nمترادف‌ها:\n- haben (داشتن)\n- verfügen über (در اختیار داشتن)\nمتضادها:\n- entbehren (فاقد بودن)\n- fehlen (کم داشتن)"
   },
   {
-    "Sound_de": "der Computer - die Computer",
-    "root": "اجزای تشکیل‌دهنده:\nComputer (از لاتین computare به معنی محاسبه)\nمعنی کلی: کامپیوتر\nمترادف‌ها:\n- der PC (کامپیوتر شخصی)\n- der Rechner (محاسبه‌گر)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "besonder",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sonder (جدا)\nمعنی کلی: خاص\nمترادف‌ها:\n- speziell (ویژه)\n- spezifisch (خاص)\nمتضادها:\n- allgemein (عمومی)\n- normal (عادی)"
   },
   {
-    "Sound_de": "cool",
-    "root": "اجزای تشکیل‌دهنده:\ncool (از انگلیسی)\nمعنی کلی: باحال، خنک\nمترادف‌ها:\n- toll (عالی)\n- super (سوپر)\nمتضادها:\n- uncool (بی‌کلاس)\n- langweilig (خسته‌کننده)"
+    "Sound_de": "besonders",
+    "root": "اجزای تشکیل‌دهنده:\nBesonder (خاص) + -s (قید)\nمعنی کلی: به ویژه، خصوصاً\nمترادف‌ها:\n- insbesondere (به ویژه)\n- speziell (به طور خاص)\n- vor allem (بالاخص)\nمتضادها:\n- generell (به طور کلی)\n- allgemein (عموماً)"
   },
   {
-    "Sound_de": "das E-Bike - die E-Bikes",
-    "root": "اجزای تشکیل‌دهنده:\nE (elektrisch) + Bike (دوچرخه)\nمعنی کلی: دوچرخه برقی\nمترادف‌ها:\n- das Elektrofahrrad (دوچرخه الکتریکی)\nمتضادها:\n- das normale Fahrrad (دوچرخه معمولی)"
+    "Sound_de": "besorgen, besorgt, besorgte, hat besorgt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sorgen (نگرانی/تهیه)\nمعنی کلی: تهیه کردن، فراهم کردن\nمترادف‌ها:\n- holen (آوردن)\n- kaufen (خریدن)\n- erledigen (انجام دادن)\nمتضادها:\n- vernachlässigen (غفلت کردن)"
   },
   {
-    "Sound_de": "das E-Book - die E-Books",
-    "root": "اجزای تشکیل‌دهنده:\nE (electronic) + Book\nمعنی کلی: کتاب الکترونیکی\nمترادف‌ها:\n- das elektronische Buch (کتاب الکترونیکی)\nمتضادها:\n- das gedruckte Buch (کتاب چاپی)"
+    "Sound_de": "besprechen, bespricht, besprach, hat besprochen",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sprechen (صحبت کردن)\nمعنی کلی: بحث کردن، گفتگو کردن\nمترادف‌ها:\n- diskutieren (بحث کردن)\n- erörtern (بررسی کردن)\nمتضادها:\n- schweigen (سکوت کردن)"
   },
   {
-    "Sound_de": "der Fan - die Fans",
-    "root": "اجزای تشکیل‌دهنده:\nFan (کوتاه‌شده fanatic از انگلیسی)\nمعنی کلی: طرفدار\nمترادف‌ها:\n- der Anhänger (طرفدار)\n- der Supporter (حامی)\nمتضادها:\n- der Gegner (حریف، مخالف)"
+    "Sound_de": "die Besprechung - die Besprechungen",
+    "root": "اجزای تشکیل‌دهنده:\nBesprech (از besprechen) + -ung\nمعنی کلی: جلسه، گفتگو\nمترادف‌ها:\n- die Sitzung (جلسه)\n- das Meeting (جلسه)\n- die Diskussion (بحث)\nمتضادها:\n- die Stille (سکوت)"
   },
   {
-    "Sound_de": "das Fax - die Faxe",
-    "root": "اجزای تشکیل‌دهنده:\nFax (کوتاه‌شده facsimile)\nمعنی کلی: فکس\nمترادف‌ها:\n- die Telekopie (تلکپی)\nمتضادها:\n- die E-Mail (ایمیل)"
+    "Sound_de": "die Besserung - die Besserungen",
+    "root": "اجزای تشکیل‌دهنده:\nBesser (بهتر) + -ung\nمعنی کلی: بهبود، بهبودی\nمترادف‌ها:\n- die Verbesserung (بهبود)\n- die Heilung (شفا)\nمتضادها:\n- die Verschlechterung (بدتر شدن)\n- der Rückfall (عود کردن بیماری)"
   },
   {
-    "Sound_de": "faxen, faxt, faxte, hat gefaxt",
-    "root": "اجزای تشکیل‌دهنده:\nfax + en\nمعنی کلی: فکس کردن\nمترادف‌ها:\n- fax schicken (فکس فرستادن)\nمتضادها:\n- mailen (ایمیل کردن)"
+    "Sound_de": "bestätigen, bestätigt, bestätigte, hat bestätigt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + stätigen (از fest: محکم)\nمعنی کلی: تأیید کردن\nمترادف‌ها:\n- bestätigen (تکراری)\n- verifizieren (تأیید کردن)\n- bekräftigen (تأکید کردن)\nمتضادها:\n- widerlegen (رد کردن)\n- leugnen (انکار کردن)"
   },
   {
-    "Sound_de": "das Festival - die Festivals",
-    "root": "اجزای تشکیل‌دهنده:\nFestival (از لاتین festum)\nمعنی کلی: فستیوال\nمترادف‌ها:\n- das Fest (جشن)\n- die Veranstaltung (رویداد)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Bestätigung - die Bestätigungen",
+    "root": "اجزای تشکیل‌دهنده:\nBestätig (از bestätigen) + -ung\nمعنی کلی: تأیید\nمترادف‌ها:\n- die Bestätigung (تکراری)\n- die Verifizierung (تأیید)\nمتضادها:\n- die Widerlegung (رد)\n- die Ablehnung (رد کردن)"
   },
   {
-    "Sound_de": "fit",
-    "root": "اجزای تشکیل‌دهنده:\nfit (از انگلیسی fit)\nمعنی کلی: آماده، سرحال، در فرم\nمترادف‌ها:\n- sportlich (ورزشی)\n- gesund (سالم)\nمتضادها:\n- unfit (نامناسب)\n- krank (بیمار)"
+    "Sound_de": "bestehen, besteht, bestand, hat bestanden",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + stehen (ایستادن)\nمعنی کلی: وجود داشتن، گذراندن (امتحان)\nمترادف‌ها:\n- existieren (وجود داشتن)\n- bestehen aus (تشکیل شدن از)\n- bestehen (گذراندن امتحان)\nمتضادها:\n- scheitern (شکست خوردن)\n- untergehen (نابود شدن)"
   },
   {
-    "Sound_de": "die Fitness -",
-    "root": "اجزای تشکیل‌دهنده:\nFitness (از انگلیسی)\nمعنی کلی: تناسب اندام\nمترادف‌ها:\n- die Kondition (آمادگی جسمانی)\n- der Sport (ورزش)\nمتضادها:\n- die Faulheit (تنبلی)"
+    "Sound_de": "bestellen, bestellt, bestellte, hat bestellt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + stellen (گذاشتن)\nمعنی کلی: سفارش دادن، رزرو کردن\nمترادف‌ها:\n- ordern (سفارش دادن)\n- reservieren (رزرو کردن)\nمتضادها:\n- stornieren (لغو کردن)"
   },
   {
-    "Sound_de": "global",
-    "root": "اجزای تشکیل‌دهنده:\nglobal (از لاتین globus)\nمعنی کلی: جهانی\nمترادف‌ها:\n- weltweit (جهان‌شمول)\n- international (بین‌المللی)\nمتضادها:\n- lokal (محلی)\n- regional (منطقه‌ای)"
+    "Sound_de": "bestimmt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + stimmt (از stimmen: درست بودن)\nمعنی کلی: مشخص، قطعی\nمترادف‌ها:\n- sicher (قطعی)\n- festgelegt (تعیین شده)\n- gewiss (یقیناً)\nمتضادها:\n- unbestimmt (نامشخص)\n- unsicher (نامطمئن)"
   },
   {
-    "Sound_de": "googeln, googelt, googelte, hat gegoogelt",
-    "root": "اجزای تشکیل‌دهنده:\nGoogle (نام شرکت) + en\nمعنی کلی: گوگل کردن، جستجو در اینترنت\nمترادف‌ها:\n- suchen im Internet (جستجو در اینترنت)\n- im Netz recherchieren (تحقیق آنلاین)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "bestrafen, bestraft, bestrafte, hat bestraft",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + strafen (مجازات)\nمعنی کلی: مجازات کردن\nمترادف‌ها:\n- ahnden (مجازات کردن)\n- sanktionieren (تنبیه کردن)\nمتضادها:\n- belohnen (پاداش دادن)\n- loben (ستایش کردن)"
   },
   {
-    "Sound_de": "der Hamburger - die Hamburger",
-    "root": "اجزای تشکیل‌دهنده:\nHamburger (از شهر Hamburg)\nمعنی کلی: همبرگر\nمترادف‌ها:\n- der Burger (برگر)\nمتضادها:\n- der Salat (سالاد)"
+    "Sound_de": "besuchen, besucht, besuchte, hat besucht",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + suchen (جستجو کردن - به معنای رفتن به دیدن)\nمعنی کلی: بازدید کردن، دیدن\nمترادف‌ها:\n- aufsuchen (مراجعه کردن)\n- besichtigen (دیدن مکان)\nمتضادها:\n- meiden (اجتناب کردن)"
   },
   {
-    "Sound_de": "der Hit - die Hits",
-    "root": "اجزای تشکیل‌دهنده:\nHit (از انگلیسی hit)\nمعنی کلی: موفقیت بزرگ، آهنگ پرطرفدار\nمترادف‌ها:\n- der Erfolg (موفقیت)\n- der Schlager (آهنگ محبوب)\nمتضادها:\n- der Flop (شکست)"
+    "Sound_de": "der Besuch - die Besuche",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + such (از suchen)\nمعنی کلی: بازدید، مهمان\nمترادف‌ها:\n- die Visite (بازدید)\n- der Gast (مهمان)\nمتضادها:\n- die Abwesenheit (غیبت)"
   },
   {
-    "Sound_de": "die Homepage - die Homepages",
-    "root": "اجزای تشکیل‌دهنده:\nHome + page (از انگلیسی)\nمعنی کلی: صفحه اصلی وب‌سایت\nمترادف‌ها:\n- die Startseite (صفحه شروع)\nمتضادها:\n- die Unterseite (زیرصفحه)"
+    "Sound_de": "sich beteiligen, beteiligt sich, beteiligte sich, hat sich beteiligt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + teiligen (از Teil: قسمت)\nمعنی کلی: شرکت کردن، مشارکت کردن\nمترادف‌ها:\n- mitmachen (شرکت کردن)\n- teilnehmen (شرکت کردن)\nمتضادها:\n- sich enthalten (خودداری کردن)\n- abseits stehen (کنار ماندن)"
   },
   {
-    "Sound_de": "das Internet -",
-    "root": "اجزای تشکیل‌دهنده:\nInter + net (شبکه بین‌المللی)\nمعنی کلی: اینترنت\nمترادف‌ها:\n- das Netz (شبکه)\n- das World Wide Web (وب جهانی)\nمتضادها:\n- das Intranet (شبکه داخلی)"
+    "Sound_de": "der Betrag - die Beträge",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + trag (از tragen: حمل کردن)\nمعنی کلی: مبلغ، مقدار\nمترادف‌ها:\n- die Summe (جمع)\n- der Preis (قیمت)\n- die Menge (مقدار)\nمتضادها:\n- der Restbetrag (باقیمانده)"
   },
   {
-    "Sound_de": "der Jazz -",
-    "root": "اجزای تشکیل‌دهنده:\nJazz (از انگلیسی، ریشه آفریقایی)\nمعنی کلی: جاز (سبک موسیقی)\nمترادف‌ها:\n- ندارد مترادف دقیق\nمتضادها:\n- die Klassik (کلاسیک)\n- der Rock (راک)"
+    "Sound_de": "betreuen, betreut, betreute, hat betreut",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + treuen (از treu: وفادار)\nمعنی کلی: مراقبت کردن، سرپرستی کردن\nمترادف‌ها:\n- pflegen (مراقبت کردن)\n- versorgen (تأمین کردن)\nمتضادها:\n- vernachlässigen (غفلت کردن)"
   },
   {
-    "Sound_de": "der Job - die Jobs",
-    "root": "اجزای تشکیل‌دهنده:\nJob (از انگلیسی)\nمعنی کلی: شغل، کار\nمترادف‌ها:\n- die Arbeit (کار)\n- die Stelle (سمت شغلی)\nمتضادها:\n- die Arbeitslosigkeit (بیکاری)"
+    "Sound_de": "der Betreuer, die Betreuerin - die Betreuer, die Betreuerinnen",
+    "root": "اجزای تشکیل‌دهنده:\nBetreu (از betreuen) + -er\nمعنی کلی: سرپرست، مراقب\nمترادف‌ها:\n- der Pfleger (پرستار)\n- der Aufseher (ناظر)\nمتضادها:\n- der Vernachlässiger (غافل)"
   },
   {
-    "Sound_de": "jobben, jobbt, jobbte, hat gejobbt",
-    "root": "اجزای تشکیل‌دهنده:\njob + en\nمعنی کلی: کار پاره‌وقت کردن\nمترادف‌ها:\n- nebenbei arbeiten (کار جانبی کردن)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Betreuung - die Betreuungen",
+    "root": "اجزای تشکیل‌دهنده:\nBetreu (از betreuen) + -ung\nمعنی کلی: مراقبت، سرپرستی\nمترادف‌ها:\n- die Pflege (مراقبت)\n- die Versorgung (تأمین)\nمتضادها:\n- die Vernachlässigung (غفلت)"
   },
   {
-    "Sound_de": "joggen, joggt, joggte, ist/hat gejoggt",
-    "root": "اجزای تشکیل‌دهنده:\njog (از انگلیسی jog) + en\nمعنی کلی: دویدن آرام\nمترادف‌ها:\n- laufen (دویدن)\n- traben (دویدن آرام)\nمتضادها:\n- gehen (راه رفتن)"
+    "Sound_de": "der Betrieb - die Betriebe",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + trieb (از treiben: راندن)\nمعنی کلی: شرکت، کارخانه، بهره‌برداری\nمترادف‌ها:\n- die Firma (شرکت)\n- das Unternehmen (بنگاه)\nمتضادها:\n- die Schließung (تعطیلی)"
   },
   {
-    "Sound_de": "der/das Ketchup/Ketschup - die Ketchups",
-    "root": "اجزای تشکیل‌دهنده:\nKetchup (از چینی)\nمعنی کلی: کچاپ\nمترادف‌ها:\n- die Tomatensoße (سس گوجه)\nمتضادها:\n- die Mayonnaise (مایونز)"
+    "Sound_de": "der Betriebsrat, die Betriebsrätin - die Betriebsräte, die Betriebsrätinnen",
+    "root": "اجزای تشکیل‌دهنده:\nBetrieb (شرکت) + Rat (شورا)\nمعنی کلی: شورای کارگری\nمترادف‌ها:\n- die Arbeitnehmervertretung (نمایندگی کارگران)\nمتضادها:\n- die Geschäftsführung (مدیریت)"
   },
   {
-    "Sound_de": "der Killer - die Killer",
-    "root": "اجزای تشکیل‌دهنده:\nKiller (از انگلیسی kill)\nمعنی کلی: قاتل\nمترادف‌ها:\n- der Mörder (قاتل)\n- der Assassine (آدم‌کش)\nمتضادها:\n- der Retter (نجات‌دهنده)"
+    "Sound_de": "betrügen, betrügt, betrog, hat betrogen",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + trügen (از trügen: فریب)\nمعنی کلی: فریب دادن، تقلب کردن\nمترادف‌ها:\n- täuschen (فریب دادن)\n- hintergehen (خیانت کردن)\nمتضادها:\n- ehrlich sein (راستگو بودن)\n- die Wahrheit sagen (حقیقت گفتن)"
   },
   {
-    "Sound_de": "die Killerin - die Killerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nKiller + in (زن)\nمعنی کلی: قاتل زن\nمترادف‌ها:\n- die Mörderin (قاتل زن)\nمتضادها:\n- die Retterin (نجات‌دهنده زن)"
+    "Sound_de": "betrunken",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + trunken (از trinken: نوشیدن)\nمعنی کلی: مست\nمترادف‌ها:\n- alkoholisiert (مست)\n- besoffen (مست - عامیانه)\nمتضادها:\n- nüchtern (هوشیار)\n- trocken (بدون الکل)"
   },
   {
-    "Sound_de": "der Laptop - die Laptops",
-    "root": "اجزای تشکیل‌دهنده:\nLap (دامان) + top (بالا)\nمعنی کلی: لپ‌تاپ\nمترادف‌ها:\n- das Notebook (نوت‌بوک)\nمتضادها:\n- der Desktop (کامپیوتر رومیزی)"
+    "Sound_de": "das Bett - die Betten",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه از ریشه ژرمنی برای محل خواب\nمعنی کلی: تختخواب\nمترادف‌ها:\n- das Schlafsofa (کاناپه تختخواب‌شو)\nمتضادها:\n- der Stuhl (صندلی)\n- der Boden (زمین)"
   },
   {
-    "Sound_de": "der Link - die Links",
-    "root": "اجزای تشکیل‌دهنده:\nLink (از انگلیسی link)\nمعنی کلی: لینک\nمترادف‌ها:\n- die Verknüpfung (پیوند)\n- der Hyperlink (هایپرلینک)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Bevölkerung - die Bevölkerungen",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + Völker (مردم) + -ung\nمعنی کلی: جمعیت\nمترادف‌ها:\n- die Einwohner (ساکنان)\n- die Bürger (شهروندان)\nمتضادها:\n- die Leere (خالی بودن)"
   },
   {
-    "Sound_de": "live",
-    "root": "اجزای تشکیل‌دهنده:\nlive (از انگلیسی)\nمعنی کلی: زنده، مستقیم\nمترادف‌ها:\n- direkt (مستقیم)\n- in Echtzeit (در زمان واقعی)\nمتضادها:\n- aufgezeichnet (ضبط‌شده)"
+    "Sound_de": "bevor",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + vor (قبل)\nمعنی کلی: قبل از اینکه\nمترادف‌ها:\n- ehe (قبل از)\n- vor (قبل از)\nمتضادها:\n- nachdem (بعد از اینکه)\n- danach (بعد از آن)"
   },
   {
-    "Sound_de": "die Mailbox - die Mailboxen",
-    "root": "اجزای تشکیل‌دهنده:\nMail + box\nمعنی کلی: صندوق صوتی\nمترادف‌ها:\n- der Anrufbeantworter (پیام‌گیر)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "bewegen, bewegt, bewegte, hat bewegt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + wegen (از weg: راه - حرکت)\nمعنی کلی: حرکت دادن، تحریک کردن\nمترادف‌ها:\n- rühren (تکان دادن)\n- motivieren (انگیزه دادن)\nمتضادها:\n- stillstehen (ایستادن)\n- ruhen (آرام بودن)"
   },
   {
-    "Sound_de": "mailen, mailt, mailte, hat gemailt",
-    "root": "اجزای تشکیل‌دهنده:\nmail + en\nمعنی کلی: ایمیل کردن\nمترادف‌ها:\n- E-Mail schicken (ایمیل فرستادن)\nمتضادها:\n- anrufen (تلفن زدن)"
+    "Sound_de": "die Bewegung - die Bewegungen",
+    "root": "اجزای تشکیل‌دهنده:\nBeweg (از bewegen) + -ung\nمعنی کلی: حرکت، جنبش\nمترادف‌ها:\n- die Motion (حرکت)\n- die Aktivität (فعالیت)\nمتضادها:\n- die Ruhe (آرامش)\n- die Stille (سکوت)"
   },
   {
-    "Sound_de": "der Manager - die Manager",
-    "root": "اجزای تشکیل‌دهنده:\nManager (از لاتین manus به معنی دست)\nمعنی کلی: مدیر\nمترادف‌ها:\n- der Leiter (رهبر)\n- der Direktor (مدیر)\nمتضادها:\n- der Mitarbeiter (کارمند)"
+    "Sound_de": "beweisen, beweist, bewies, hat bewiesen",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + weisen (نشان دادن)\nمعنی کلی: اثبات کردن\nمترادف‌ها:\n- nachweisen (اثبات کردن)\n- demonstrieren (نشان دادن)\nمتضادها:\n- widerlegen (رد کردن)\n- bezweifeln (شک کردن)"
   },
   {
-    "Sound_de": "die Managerin - die Managerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nManager + in\nمعنی کلی: مدیر زن\nمترادف‌ها:\n- die Leiterin (مدیر زن)\n- die Direktorin (مدیر زن)\nمتضادها:\n- die Mitarbeiterin (کارمند زن)"
+    "Sound_de": "der Beweis - die Beweise",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + weis (از weisen)\nمعنی کلی: مدرک، اثبات\nمترادف‌ها:\n- der Nachweis (مدرک)\n- das Argument (استدلال)\nمتضادها:\n- der Zweifel (شک)\n- die Vermutung (گمان)"
   },
   {
-    "Sound_de": "die Mobilbox - die Mobilboxen",
-    "root": "اجزای تشکیل‌دهنده:\nMobil (موبایل) + box\nمعنی کلی: صندوق صوتی موبایل\nمترادف‌ها:\n- die Voicemail (پیام صوتی)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "sich bewerben, bewirbt sich, bewarb sich, hat sich beworben",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + werben (جذب کردن)\nمعنی کلی: درخواست شغل دادن، اپلای کردن\nمترادف‌ها:\n- sich melden (درخواست دادن)\n- kandidieren (کاندید شدن)\nمتضادها:\n- ablehnen (رد کردن)"
   },
   {
-    "Sound_de": "das Mountainbike - die Mountainbikes",
-    "root": "اجزای تشکیل‌دهنده:\nMountain + bike\nمعنی کلی: دوچرخه کوهستان\nمترادف‌ها:\n- das MTB (مخفف)\nمتضادها:\n- das Rennrad (دوچرخه مسابقه‌ای)"
+    "Sound_de": "die Bewerbung - die Bewerbungen",
+    "root": "اجزای تشکیل‌دهنده:\nBewerb (از bewerben) + -ung\nمعنی کلی: درخواست شغل، اپلیکیشن\nمترادف‌ها:\n- die Application (درخواست)\n- die Kandidatur (کاندیداتوری)\nمتضادها:\n- die Absage (رد درخواست)"
   },
   {
-    "Sound_de": "online",
-    "root": "اجزای تشکیل‌دهنده:\non + line\nمعنی کلی: آنلاین\nمترادف‌ها:\n- im Internet (در اینترنت)\nمتضادها:\n- offline (آفلاین)"
+    "Sound_de": "der Bewohner, die Bewohnerin - die Bewohner, die Bewohnerinnen",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + wohnen (زندگی کردن)\nمعنی کلی: ساکن، resident\nمترادف‌ها:\n- der Einwohner (ساکن)\n- der Mieter (مستأجر)\nمتضادها:\n- der Besucher (بازدیدکننده)\n- der Tourist (گردشگر)"
   },
   {
-    "Sound_de": "die Plattform - die Plattformen",
-    "root": "اجزای تشکیل‌دهنده:\nPlatt + form (از لاتین)\nمعنی کلی: پلتفرم، سکو\nمترادف‌ها:\n- die Basis (پایه)\n- die Bühne (صحنه)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "bezahlen, bezahlt, bezahlte, hat bezahlt",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + zahlen (پرداخت کردن)\nمعنی کلی: پرداخت کردن\nمترادف‌ها:\n- begleichen (تسویه کردن)\n- löhnen (پرداخت کردن)\nمتضادها:\n- schulden (بدهکار بودن)\n- nicht zahlen (پرداخت نکردن)"
   },
   {
-    "Sound_de": "das Poster - die Poster",
-    "root": "اجزای تشکیل‌دهنده:\nPoster (از لاتین ponere)\nمعنی کلی: پوستر\nمترادف‌ها:\n- das Plakat (پوستر بزرگ)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Beziehung - die Beziehungen",
+    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + ziehung (از ziehen: کشیدن)\nمعنی کلی: رابطه\nمترادف‌ها:\n- die Verbindung (ارتباط)\n- der Kontakt (تماس)\nمتضادها:\n- die Trennung (جدایی)\n- die Isolation (انزوا)"
   },
   {
-    "Sound_de": "das Puzzle - die Puzzles",
-    "root": "اجزای تشکیل‌دهنده:\nPuzzle (از انگلیسی puzzle)\nمعنی کلی: پازل\nمترادف‌ها:\n- das Legespiel (بازی چیدن)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Bibliothek - die Bibliotheken",
+    "root": "اجزای تشکیل‌دهنده:\nاز یونانی biblio (کتاب) + thek (محل نگهداری)\nمعنی کلی: کتابخانه\nمترادف‌ها:\n- die Bücherei (کتابخانه)\nمتضادها:\n- der Buchladen (کتابفروشی)"
   },
   {
-    "Sound_de": "das/der Sandwich - die Sandwiches",
-    "root": "اجزای تشکیل‌دهنده:\nSandwich (نام شخص)\nمعنی کلی: ساندویچ\nمترادف‌ها:\n- das belegte Brot (نان پرشده)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "das Bier, die Biere",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه قدیمی ژرمنی برای نوشیدنی تخمیری\nمعنی کلی: آبجو\nمترادف‌ها:\n- das Pils (نوع آبجو)\n- der Gerstensaft (عامیانه)\nمتضادها:\n- das Wasser (آب)\n- der Wein (شراب)"
   },
   {
-    "Sound_de": "die Show - die Shows",
-    "root": "اجزای تشکیل‌دهنده:\nShow (از انگلیسی)\nمعنی کلی: نمایش، شو\nمترادف‌ها:\n- die Vorstellung (نمایش)\n- die Sendung (برنامه)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "bieten, bietet, bot, hat geboten",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای پیشنهاد دادن\nمعنی کلی: پیشنهاد کردن، ارائه دادن\nمترادف‌ها:\n- anbieten (پیشنهاد کردن)\n- offerieren (عرضه کردن)\nمتضادها:\n- ablehnen (رد کردن)\n- verweigern (امتناع کردن)"
   },
   {
-    "Sound_de": "das Smartphone - die Smartphones",
-    "root": "اجزای تشکیل‌دهنده:\nSmart + phone\nمعنی کلی: گوشی هوشمند\nمترادف‌ها:\n- das Handy (موبایل)\nمتضادها:\n- das Festnetztelefon (تلفن ثابت)"
+    "Sound_de": "das Bild, die Bilder",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای تصویر\nمعنی کلی: تصویر، عکس\nمترادف‌ها:\n- das Foto (عکس)\n- die Abbildung (تصویر)\nمتضادها:\n- die Realität (واقعیت)"
   },
   {
-    "Sound_de": "der Snack - die Snacks",
-    "root": "اجزای تشکیل‌دهنده:\nSnack (از انگلیسی snap)\nمعنی کلی: میان‌وعده\nمترادف‌ها:\n- der Imbiss (میان‌وعده)\nمتضادها:\n- die Hauptmahlzeit (وعده اصلی)"
+    "Sound_de": "der Bildschirm, die Bildschirme",
+    "root": "اجزای تشکیل‌دهنده:\nBild (تصویر) + Schirm (پرده)\nمعنی کلی: صفحه نمایش\nمترادف‌ها:\n- der Monitor (مانیتور)\n- das Display (نمایشگر)\nمتضادها:\n- das Papier (کاغذ)"
   },
   {
-    "Sound_de": "die Software - die Softwares",
-    "root": "اجزای تشکیل‌دهنده:\nSoft + ware\nمعنی کلی: نرم‌افزار\nمترادف‌ها:\n- das Programm (برنامه)\nمتضادها:\n- die Hardware (سخت‌افزار)"
+    "Sound_de": "das Billett, die Billetts - die Fahrkarte, die Fahrkarten",
+    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی billet\nمعنی کلی: بلیت، بلیط\nمترادف‌ها:\n- die Fahrkarte (بلیت سفر)\n- das Ticket (تیکت)\nمتضادها:\n- die Freikarte (بلیت رایگان - نه دقیقاً متضاد)"
   },
   {
-    "Sound_de": "der Song - die Songs",
-    "root": "اجزای تشکیل‌دهنده:\nSong (از انگلیسی)\nمعنی کلی: آهنگ\nمترادف‌ها:\n- das Lied (آهنگ)\n- der Titel (قطعه)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "billig",
+    "root": "اجزای تشکیل‌دهنده:\nاز ریشه قدیمی برای مناسب بودن\nمعنی کلی: ارزان\nمترادف‌ها:\n- günstig (ارزان)\n- preiswert (با ارزش قیمت)\nمتضادها:\n- teuer (گران)\n- kostspielig (پرخرج)"
   },
   {
-    "Sound_de": "der Spot - die Spots",
-    "root": "اجزای تشکیل‌دهنده:\nSpot (از انگلیسی)\nمعنی کلی: تبلیغ کوتاه، نقطه\nمترادف‌ها:\n- der Werbespot (تبلیغ تلویزیونی)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Biologie",
+    "root": "اجزای تشکیل‌دهنده:\nاز یونانی bio (زندگی) + logie (علم)\nمعنی کلی: زیست‌شناسی\nمترادف‌ها:\n- die Lebenswissenschaft (علوم زندگی)\nمتضادها:\n- die Physik (فیزیک)\n- die Chemie (شیمی)"
   },
   {
-    "Sound_de": "das Steak - die Steaks",
-    "root": "اجزای تشکیل‌دهنده:\nSteak (از انگلیسی)\nمعنی کلی: استیک\nمترادف‌ها:\n- das Beefsteak (استیک گوشت گاو)\nمتضادها:\n- das Gemüse (سبزیجات)"
+    "Sound_de": "Bio",
+    "root": "اجزای تشکیل‌دهنده:\nکوتاه شده Biologie یا biologisch\nمعنی کلی: ارگانیک، زیست\nمترادف‌ها:\n- ökologisch (اکولوژیک)\n- organisch (ارگانیک)\nمتضادها:\n- konventionell (معمولی)\n- chemisch (شیمیایی)"
   },
   {
-    "Sound_de": "surfen, surft, surfte, ist/hat gesurft",
-    "root": "اجزای تشکیل‌دهنده:\nsurf (از انگلیسی) + en\nمعنی کلی: موج‌سواری یا وب‌گردی\nمترادف‌ها:\n- im Internet surfen (وب‌گردی)\n- wellenreiten (موج‌سواری)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "biologisch",
+    "root": "اجزای تشکیل‌دهنده:\nBio (زیست) + logisch (مرتبط با علم)\nمعنی کلی: بیولوژیکی، ارگانیک\nمترادف‌ها:\n- ökologisch (اکولوژیک)\n- natürlich (طبیعی)\nمتضادها:\n- chemisch (شیمیایی)\n- synthetisch (سنتتیک)"
   },
   {
-    "Sound_de": "der Swimmingpool - die Swimmingpools",
-    "root": "اجزای تشکیل‌دهنده:\nSwimming + pool\nمعنی کلی: استخر شنا\nمترادف‌ها:\n- das Schwimmbad (استخر)\n- der Pool (پول)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Birne, die Birnen",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای میوه\nمعنی کلی: گلابی\nمترادف‌ها:\n- die Perry (نوعی)\nمتضادها:\n- der Apfel (سیب)"
   },
   {
-    "Sound_de": "das Taxi - die Taxis",
-    "root": "اجزای تشکیل‌دهنده:\nTaxi (کوتاه‌شده Taximeter)\nمعنی کلی: تاکسی\nمترادف‌ها:\n- der Taxiwagen (تاکسی)\nمتضادها:\n- der Bus (اتوبوس)"
+    "Sound_de": "bis",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای تا\nمعنی کلی: تا، تا زمانی که\nمترادف‌ها:\n- bis zu (تا)\n- bis auf (به جز)\nمتضادها:\n- von (از)\n- ab (از)"
   },
   {
-    "Sound_de": "das Team - die Teams",
-    "root": "اجزای تشکیل‌دهنده:\nTeam (از انگلیسی)\nمعنی کلی: تیم\nمترادف‌ها:\n- die Mannschaft (تیم)\n- die Gruppe (گروه)\nمتضادها:\n- der Einzelspieler (بازیکن تک)"
+    "Sound_de": "bisher",
+    "root": "اجزای تشکیل‌دهنده:\nBis (تا) + her (تا اینجا)\nمعنی کلی: تا کنون، تاکنون\nمترادف‌ها:\n- bis jetzt (تا حالا)\n- bisherig (تاکنون)\nمتضادها:\n- zukünftig (آینده)\n- künftig (بعدی)"
   },
   {
-    "Sound_de": "der Terminal - die Terminals",
-    "root": "اجزای تشکیل‌دهنده:\nTerminal (از لاتین terminus)\nمعنی کلی: ترمینال\nمترادف‌ها:\n- der Bahnhof (ایستگاه، برای قطار)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "ein bisschen",
+    "root": "اجزای تشکیل‌دهنده:\nEin (یک) + bisschen (کمی)\nمعنی کلی: کمی، یک ذره\nمترادف‌ها:\n- etwas (کمی)\n- ein wenig (کمی)\nمتضادها:\n- viel (زیاد)\n- sehr (خیلی)"
   },
   {
-    "Sound_de": "die Tour - die Touren",
-    "root": "اجزای تشکیل‌دهنده:\nTour (از فرانسوی)\nمعنی کلی: تور، سفر\nمترادف‌ها:\n- die Reise (سفر)\n- die Fahrt (مسیر)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "bitten, bittet, bat, hat gebeten",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای درخواست\nمعنی کلی: درخواست کردن، خواهش کردن\nمترادف‌ها:\n- ersuchen (درخواست کردن)\n- flehen (التماس کردن)\nمتضادها:\n- befehlen (دستور دادن)\n- verlangen (مطالبه کردن)"
   },
   {
-    "Sound_de": "der Trend - die Trends",
-    "root": "اجزای تشکیل‌دهنده:\nTrend (از انگلیسی)\nمعنی کلی: روند، مد\nمترادف‌ها:\n- die Mode (مد)\n- die Entwicklung (توسعه)\nمتضادها:\n- der Anti-Trend (ضد مد)"
+    "Sound_de": "die Bitte, die Bitten",
+    "root": "اجزای تشکیل‌دهنده:\nBitte (از bitten)\nمعنی کلی: درخواست، خواهش\nمترادف‌ها:\n- die Bitte (تکراری)\n- die Anfrage (درخواست)\nمتضادها:\n- der Befehl (دستور)"
   },
   {
-    "Sound_de": "das T-Shirt - die T-Shirts",
-    "root": "اجزای تشکیل‌دهنده:\nT + Shirt (شکل T)\nمعنی کلی: تی‌شرت\nمترادف‌ها:\n- das Shirt (پیراهن کوتاه)\nمتضادها:\n- das Hemd (پیراهن بلند)"
+    "Sound_de": "bitte",
+    "root": "اجزای تشکیل‌دهنده:\nاز bitten\nمعنی کلی: لطفاً، بفرمایید\nمترادف‌ها:\n- bitte schön (بفرمایید)\nمتضادها:\n- danke (تشکر - در پاسخ)"
   },
   {
-    "Sound_de": "twittern, twittert, twitterte, hat getwittert",
-    "root": "اجزای تشکیل‌دهنده:\nTwitter (نام سایت) + en\nمعنی کلی: توییت کردن\nمترادف‌ها:\n- posten (پست کردن)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "bitter",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای طعم\nمعنی کلی: تلخ\nمترادف‌ها:\n- herb (تلخ)\nمتضادها:\n- süß (شیرین)\n- mild (ملایم)"
   },
   {
-    "Sound_de": "der User - die User",
-    "root": "اجزای تشکیل‌دهنده:\nUser (از انگلیسی use)\nمعنی کلی: کاربر\nمترادف‌ها:\n- der Benutzer (کاربر)\nمتضادها:\n- der Administrator (مدیر)"
+    "Sound_de": "blass",
+    "root": "اجزای تشکیل‌دهنده:\nاز ریشه برای رنگ پریده\nمعنی کلی: رنگ‌پریده\nمترادف‌ها:\n- fahl (کم‌رنگ)\n- bleich (رنگ‌پریده)\nمتضادها:\n- rot (سرخ)\n- gebräunt (برنزه)"
   },
   {
-    "Sound_de": "die Userin - die Userinnen",
-    "root": "اجزای تشکیل‌دهنده:\nUser + in\nمعنی کلی: کاربر زن\nمترادف‌ها:\n- die Benutzerin (کاربر زن)\nمتضادها:\n- die Administratorin (مدیر زن)"
+    "Sound_de": "das Blatt, die Blätter",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای برگ و ورق\nمعنی کلی: برگ، ورق کاغذ\nمترادف‌ها:\n- die Seite (صفحه)\n- das Papier (کاغذ)\nمتضادها:\n- der Stamm (ساقه)"
   },
   {
-    "Sound_de": "die Aufgabe - die Aufgaben",
-    "root": "اجزای تشکیل‌دهنده:\nauf + geben (دادن به بالا)\nمعنی کلی: وظیفه، تکلیف\nمترادف‌ها:\n- die Aufgabe (تکلیف)\n- die Pflicht (وظیفه)\nمتضادها:\n- die Freizeit (اوقات فراغت)"
+    "Sound_de": "bleiben, bleibt, blieb, ist geblieben",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای ماندن\nمعنی کلی: ماندن، باقی ماندن\nمترادف‌ها:\n- verweilen (ماندن)\n- bleiben (تکراری)\nمتضادها:\n- gehen (رفتن)\n- verlassen (ترک کردن)"
   },
   {
-    "Sound_de": "ankreuzen, kreuzt an, kreuzte an, hat angekreuzt",
-    "root": "اجزای تشکیل‌دهنده:\nan + kreuzen (علامت زدن)\nمعنی کلی: علامت زدن (در کادر)\nمترادف‌ها:\n- anmarkieren (علامت‌گذاری)\nمتضادها:\n- löschen (پاک کردن)"
+    "Sound_de": "der Bleistift, die Bleistifte",
+    "root": "اجزای تشکیل‌دهنده:\nBlei (سربی) + Stift (قلم)\nمعنی کلی: مداد\nمترادف‌ها:\n- der Graphitstift (مداد گرافیتی)\nمتضادها:\n- der Kugelschreiber (خودکار)"
   },
   {
-    "Sound_de": "der Antwortbogen - die Antwortbögen",
-    "root": "اجزای تشکیل‌دهنده:\nAntwort + Bogen (ورقه)\nمعنی کلی: ورقه پاسخ\nمترادف‌ها:\n- das Antwortblatt (برگه پاسخ)\nمتضادها:\n- der Fragebogen (پرسشنامه)"
+    "Sound_de": "der Blick, die Blicke",
+    "root": "اجزای تشکیل‌دهنده:\nاز blicken (نگاه کردن)\nمعنی کلی: نگاه، منظره\nمترادف‌ها:\n- die Ansicht (منظره)\n- der Anblick (دید)\nمتضادها:\n- die Blindheit (کوری)"
   },
   {
-    "Sound_de": "die Anzeige - die Anzeigen",
-    "root": "اجزای تشکیل‌دهنده:\nan + zeigen (نشان دادن)\nمعنی کلی: آگهی، نمایش\nمترادف‌ها:\n- die Werbung (تبلیغ)\n- die Annonce (آگهی)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "blind",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای ندیدن\nمعنی کلی: کور\nمترادف‌ها:\n- sehbehindert (کم‌بینا)\nمتضادها:\n- sehend (بینا)\n- scharfsichtig (تیزبین)"
   },
   {
-    "Sound_de": "die Aussage - die Aussagen",
-    "root": "اجزای تشکیل‌دهنده:\naus + sagen (گفتن بیرون)\nمعنی کلی: اظهار، بیان\nمترادف‌ها:\n- die Äußerung (بیان)\n- die Stellungnahme (نظر)\nمتضادها:\n- das Schweigen (سکوت)"
+    "Sound_de": "blitzen, blitzt, blitzte, hat geblitzt",
+    "root": "اجزای تشکیل‌دهنده:\nاز Blitz (صاعقه)\nمعنی کلی: برق زدن، فلش زدن\nمترادف‌ها:\n- leuchten (درخشیدن)\nمتضادها:\n- dunkel sein (تاریک بودن)"
   },
   {
-    "Sound_de": "die Durchsage - die Durchsagen",
-    "root": "اجزای تشکیل‌دهنده:\ndurch + sagen\nمعنی کلی: اعلام عمومی\nمترادف‌ها:\n- die Ansage (اعلام)\n- die Lautsprecherdurchsage (اعلام بلندگو)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "der Blitz, die Blitze",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای نور ناگهانی\nمعنی کلی: صاعقه، فلش\nمترادف‌ها:\n- der Donnerblitz (صاعقه)\nمتضادها:\n- die Dunkelheit (تاریکی)"
   },
   {
-    "Sound_de": "die Einleitung - die Einleitungen",
-    "root": "اجزای تشکیل‌دهنده:\nein + leiten (راهنمایی کردن)\nمعنی کلی: مقدمه\nمترادف‌ها:\n- die Einführung (مقدمه)\n- der Prolog (پرولوگ)\nمتضادها:\n- der Schluss (نتیجه‌گیری)"
+    "Sound_de": "blond",
+    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی blond\nمعنی کلی: بلوند\nمترادف‌ها:\n- hellhaarig (مو روشن)\nمتضادها:\n- dunkelhaarig (مو تیره)\n- brünett (سبزه)"
   },
   {
-    "Sound_de": "die Folie - die Folien",
-    "root": "اجزای تشکیل‌دهنده:\nFolie (از لاتین folium برگ)\nمعنی کلی: اسلاید، ورق شفاف\nمترادف‌ها:\n- der Overheadfolie (اسلاید قدیمی)\n- die PowerPoint-Folie (اسلاید پاورپوینت)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "bloß",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای فقط یا لخت\nمعنی کلی: فقط، صرفاً / عریان\nمترادف‌ها:\n- nur (فقط)\n- nackt (لخت)\nمتضادها:\n- bekleidet (پوشیده)\n- zusätzlich (اضافی)"
   },
   {
-    "Sound_de": "das Hilfsmittel - die Hilfsmittel",
-    "root": "اجزای تشکیل‌دهنده:\nHilfs + Mittel (ابزار کمک)\nمعنی کلی: وسیله کمکی\nمترادف‌ها:\n- das Werkzeug (ابزار)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "blühen, blüht, blühte, hat geblüht",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای گل دادن\nمعنی کلی: شکوفه زدن، گل دادن\nمترادف‌ها:\n- erblühen (شکوفا شدن)\nمتضادها:\n- welken (پژمرده شدن)\n- absterben (مردن گیاه)"
   },
   {
-    "Sound_de": "der Kommentar - die Kommentare",
-    "root": "اجزای تشکیل‌دهنده:\nKommentar (از لاتین)\nمعنی کلی: نظر، توضیح\nمترادف‌ها:\n- die Bemerkung (remark)\n- die Anmerkung (یادداشت)\nمتضادها:\n- die Frage (سؤال)"
+    "Sound_de": "die Blume, die Blumen",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای گل\nمعنی کلی: گل\nمترادف‌ها:\n- die Blüte (شکوفه)\nمتضادها:\n- der Dorn (خار)"
   },
   {
-    "Sound_de": "lösen, löst, löste, hat gelöst",
-    "root": "اجزای تشکیل‌دهنده:\nlösen (از loose شل کردن)\nمعنی کلی: حل کردن، جدا کردن\nمترادف‌ها:\n- beheben (حل کردن مشکل)\n- auflösen (حل کردن)\nمتضادها:\n- knüpfen (گره زدن)"
+    "Sound_de": "die Bluse, die Blusen",
+    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی blouse\nمعنی کلی: بلوز\nمترادف‌ها:\n- das Oberteil (بالاتنه)\nمتضادها:\n- die Hose (شلوار)"
   },
   {
-    "Sound_de": "die Lösung - die Lösungen",
-    "root": "اجزای تشکیل‌دهنده:\nlös + ung\nمعنی کلی: راه‌حل\nمترادف‌ها:\n- die Antwort (پاسخ)\n- der Schlüssel (کلید)\nمتضادها:\n- das Problem (مشکل)"
+    "Sound_de": "bluten, blutet, blutete, hat geblutet",
+    "root": "اجزای تشکیل‌دهنده:\nاز Blut (خون)\nمعنی کلی: خونریزی کردن\nمترادف‌ها:\n- verbluten (خونریزی شدید)\nمتضادها:\n- heilen (بهبود یافتن)"
   },
   {
-    "Sound_de": "der Moderator - die Moderatoren",
-    "root": "اجزای تشکیل‌دهنده:\nModerator (از لاتین moderari)\nمعنی کلی: مجری (مرد)\nمترادف‌ها:\n- der Presenter (ارائه‌دهنده)\nمتضادها:\n- der Zuschauer (تماشاگر)"
+    "Sound_de": "das Blut",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای مایع قرمز بدن\nمعنی کلی: خون\nمترادف‌ها:\n- das Lebenssaft (عامیانه)\nمتضادها:\n- das Wasser (آب)"
   },
   {
-    "Sound_de": "die Moderatorin - die Moderatorinnen",
-    "root": "اجزای تشکیل‌دهنده:\nModerator + in\nمعنی کلی: مجری (زن)\nمترادف‌ها:\n- die Presenterin (ارائه‌دهنده زن)\nمتضادها:\n- die Zuschauerin (تماشاگر زن)"
+    "Sound_de": "der Boden, die Böden",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای زمین\nمعنی کلی: زمین، کف\nمترادف‌ها:\n- der Fußboden (کف)\n- die Erde (خاک)\nمتضادها:\n- die Decke (سقف)\n- der Himmel (آسمان)"
   },
   {
-    "Sound_de": "das Modul - die Module",
-    "root": "اجزای تشکیل‌دهنده:\nModul (از لاتین modulus)\nمعنی کلی: ماژول، واحد درسی\nمترادف‌ها:\n- der Kurs (دوره)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "der Bogen, die Bögen",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای خمیدگی\nمعنی کلی: کمان، قوس، ورق\nمترادف‌ها:\n- der Bogen (تکراری)\n- das Blatt (ورق)\nمتضادها:\n- die Gerade (خط مستقیم)"
   },
   {
-    "Sound_de": "die Präsentation - die Präsentationen",
-    "root": "اجزای تشکیل‌دهنده:\nPräsentation (از لاتین praesens)\nمعنی کلی: ارائه\nمترادف‌ها:\n- der Vortrag (سخنرانی)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Bohne, die Bohnen",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای دانه\nمعنی کلی: لوبیا\nمترادف‌ها:\n- die Kidneybohne (لوبیا قرمز)\nمتضادها:\n- der Reis (برنج)"
   },
   {
-    "Sound_de": "der Punkt - die Punkte",
-    "root": "اجزای تشکیل‌دهنده:\nPunkt (از لاتین punctum)\nمعنی کلی: نقطه، امتیاز\nمترادف‌ها:\n- der Score (امتیاز)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "das Boot, die Boote",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای قایق\nمعنی کلی: قایق\nمترادف‌ها:\n- das Schiffchen (قایق کوچک)\nمتضادها:\n- das Schiff (کشتی بزرگ)"
   },
   {
-    "Sound_de": "die Rückmeldung - die Rückmeldungen",
-    "root": "اجزای تشکیل‌دهنده:\nrück + Meldung\nمعنی کلی: بازخورد\nمترادف‌ها:\n- das Feedback (بازخورد)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "die Botschaft, die Botschaften",
+    "root": "اجزای تشکیل‌دهنده:\nBot (پیام‌رسان) + schaft\nمعنی کلی: پیام، سفارت\nمترادف‌ها:\n- die Nachricht (پیام)\n- die Ambasade (سفارت)\nمتضادها:\n- die Lüge (دروغ)"
   },
   {
-    "Sound_de": "die Struktur - die Strukturen",
-    "root": "اجزای تشکیل‌دهنده:\nStruktur (از لاتین struere)\nمعنی کلی: ساختار\nمترادف‌ها:\n- der Aufbau (ساختار)\nمتضادها:\n- das Chaos (آشفتگی)"
+    "Sound_de": "böse",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای خشمگین\nمعنی کلی: عصبانی، بد\nمترادف‌ها:\n- wütend (خشمگین)\n- schlecht (بد)\nمتضادها:\n- freundlich (مهربان)\n- gut (خوب)"
   },
   {
-    "Sound_de": "der Textaufbau - die Textaufbauten",
-    "root": "اجزای تشکیل‌دهنده:\nText + Aufbau\nمعنی کلی: ساختار متن\nمترادف‌ها:\n- die Textstruktur (ساختار متن)\nمتضادها:\n- ندارد متضاد مستقیم"
+    "Sound_de": "braten, brät, briet, hat gebraten",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای سرخ کردن\nمعنی کلی: کباب کردن، سرخ کردن\nمترادف‌ها:\n- grillen (گریل کردن)\n- rösten (برشته کردن)\nمتضادها:\n- kochen (جوشاندن)"
   },
   {
-    "Sound_de": "übertragen, überträgt, übertrug, hat übertragen",
-    "root": "اجزای تشکیل‌دهنده:\nüber + tragen\nمعنی کلی: انتقال دادن، پخش کردن\nمترادف‌ها:\n- senden (فرستادن)\n- übermitteln (انتقال)\nمتضادها:\n- empfangen (دریافت کردن)"
+    "Sound_de": "der Braten, die Braten",
+    "root": "اجزای تشکیل‌دهنده:\nاز braten\nمعنی کلی: کباب\nمترادف‌ها:\n- das Roastbeef (رست بیف)\nمتضادها:\n- das Gemüse (سبزیجات)"
   },
   {
-    "Sound_de": "zuordnen, ordnet zu, ordnete zu, hat zugeordnet",
-    "root": "اجزای تشکیل‌دهنده:\nzu + ordnen\nمعنی کلی: اختصاص دادن، دسته‌بندی\nمترادف‌ها:\n- zuweisen (اختصاص دادن)\n- einordnen (دسته‌بندی)\nمتضادها:\n- trennen (جدا کردن)"
+    "Sound_de": "brauchen, braucht, brauchte, hat gebraucht",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای نیاز\nمعنی کلی: نیاز داشتن\nمترادف‌ها:\n- benötigen (نیاز داشتن)\n- müssen (باید)\nمتضادها:\n- entbehren (بی‌نیاز بودن)"
   },
   {
-    "Sound_de": "Biologie",
-    "root": "اجزای تشکیل‌دهنده:\nBio (زندگی) + logie (علم، از یونانی)\nمعنی کلی: زیست‌شناسی\nمترادف‌ها:\n- ندارد مترادف دقیق\nمتضادها:\n- Physik (فیزیک)\n- Chemie (شیمی)"
+    "Sound_de": "brechen, bricht, brach, hat gebrochen",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای شکستن\nمعنی کلی: شکستن، استفراغ کردن\nمترادف‌ها:\n- zerbrechen (شکستن)\n- erbrechen (استفراغ)\nمتضادها:\n- heilen (بهبود یافتن)\n- reparieren (تعمیر)"
   },
   {
-    "Sound_de": "Chemie",
-    "root": "اجزای تشکیل‌دهنده:\nChemie (از عربی کیمیا)\nمعنی کلی: شیمی\nمترادف‌ها:\n- ندارد مترادف\nمتضادها:\n- Biologie (زیست)\n- Physik (فیزیک)"
+    "Sound_de": "breit",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای عرض\nمعنی کلی: پهن، وسیع\nمترادف‌ها:\n- weit (گسترده)\n- großflächig (وسیع)\nمتضادها:\n- schmal (باریک)\n- eng (تنگ)"
   },
   {
-    "Sound_de": "Geografie",
-    "root": "اجزای تشکیل‌دهنده:\nGeo (زمین) + grafie (نوشتن)\nمعنی کلی: جغرافیا\nمترادف‌ها:\n- ندارد مترادف\nمتضادها:\n- Geschichte (تاریخ)"
+    "Sound_de": "die Breite, die Breiten",
+    "root": "اجزای تشکیل‌دهنده:\nBreit (پهن) + -e\nمعنی کلی: عرض\nمترادف‌ها:\n- die Weite (گستردگی)\nمتضادها:\n- die Länge (طول)\n- die Enge (تنگی)"
   },
   {
-    "Sound_de": "Geschichte",
-    "root": "اجزای تشکیل‌دهنده:\nGeschichte (از geschehen اتفاق افتادن)\nمعنی کلی: تاریخ\nمترادف‌ها:\n- die Historie (تاریخ)\nمتضادها:\n- Geografie (جغرافیا)\n- Zukunft (آینده)"
+    "Sound_de": "bremsen, bremst, bremste, hat gebremst",
+    "root": "اجزای تشکیل‌دهنده:\nاز Bremse\nمعنی کلی: ترمز کردن\nمترادف‌ها:\n- abbremsen (کند کردن)\nمتضادها:\n- beschleunigen (شتاب دادن)"
   },
   {
-    "Sound_de": "Mathe(matik)",
-    "root": "اجزای تشکیل‌دهنده:\nMathe (کوتاه‌شده Mathematik از یونانی)\nمعنی کلی: ریاضیات\nمترادف‌ها:\n- die Mathematik (ریاضیات)\nمتضادها:\n- Sprache (زبان)"
+    "Sound_de": "die Bremse, die Bremsen",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای مانع\nمعنی کلی: ترمز\nمترادف‌ها:\n- die Bremsvorrichtung (دستگاه ترمز)\nمتضادها:\n- das Gaspedal (پدال گاز)"
   },
   {
-    "Sound_de": "Musik",
-    "root": "اجزای تشکیل‌دهنده:\nMusik (از یونانی mousike)\nمعنی کلی: موسیقی\nمترادف‌ها:\n- ندارد مترادف\nمتضادها:\n- Stille (سکوت)"
+    "Sound_de": "brennen, brennt, brannte, hat gebrannt",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای سوختن\nمعنی کلی: سوزاندن، سوختن\nمترادف‌ها:\n- verbrennen (سوزاندن)\n- leuchten (درخشیدن)\nمتضادها:\n- löschen (خاموش کردن)"
   },
   {
-    "Sound_de": "Philosophie",
-    "root": "اجزای تشکیل‌دهنده:\nPhilo (دوست داشتن) + sophia (دانش)\nمعنی کلی: فلسفه\nمترادف‌ها:\n- ندارد مترادف\nمتضادها:\n- Naturwissenschaft (علوم طبیعی)"
+    "Sound_de": "der Brief, die Briefe",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای نامه\nمعنی کلی: نامه\nمترادف‌ها:\n- die Post (نامه)\n- der Schreiben (نامه رسمی)\nمتضادها:\n- die E-Mail (ایمیل)"
   },
   {
-    "Sound_de": "Physik",
-    "root": "اجزای تشکیل‌دهنده:\nPhysik (از یونانی physis طبیعت)\nمعنی کلی: فیزیک\nمترادف‌ها:\n- ندارد مترادف\nمتضادها:\n- Biologie (زیست)"
+    "Sound_de": "der Briefkasten, die Briefkästen",
+    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Kasten (جعبه)\nمعنی کلی: صندوق پستی\nمترادف‌ها:\n- der Postkasten (صندوق پست)\nمتضادها:\n- der Computer (برای ایمیل)"
   },
   {
-    "Sound_de": "Sport",
-    "root": "اجزای تشکیل‌دهنده:\nSport (از انگلیسی disport)\nمعنی کلی: ورزش\nمترادف‌ها:\n- der Turnsport (ورزش ژیمناستیک)\nمتضادها:\n- Faulheit (تنبلی)"
+    "Sound_de": "die Briefmarke, die Briefmarken",
+    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Marke (تمبر)\nمعنی کلی: تمبر\nمترادف‌ها:\n- die Postmarke (تمبر پستی)\nمتضادها:\n- die Freimarke (نه دقیق)"
   },
   {
-    "Sound_de": "hell-, dunkel-",
-    "root": "اجزای تشکیل‌دهنده:\nhell (روشن) و dunkel (تیره)\nمعنی کلی: روشن-، تیره-\nمترادف‌ها:\n- licht- (روشن)\n- finster- (تیره)\nمتضادها:\nhell متضاد dunkel و برعکس"
+    "Sound_de": "der Briefträger, die Briefträger - die Briefträgerin, die Briefträgerinnen",
+    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Träger (حامل)\nمعنی کلی: پستچی\nمترادف‌ها:\n- der Postbote (پستچی)\nمتضادها:\n- der Empfänger (گیرنده)"
   },
   {
-    "Sound_de": "blau",
-    "root": "اجزای تشکیل‌دهنده:\nblau (ریشه ژرمنی)\nمعنی کلی: آبی\nمترادف‌ها:\n- azur (آبی آسمانی)\nمتضادها:\n- rot (قرمز)"
+    "Sound_de": "der Briefumschlag, die Briefumschläge - Kuvert - Couvert",
+    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Umschlag (پوشش)\nمعنی کلی: پاکت نامه\nمترادف‌ها:\n- das Kuvert (پاکت)\n- das Couvert (در سوئیس)\nمتضادها:\n- die Postkarte (کارت پستال)"
   },
   {
-    "Sound_de": "braun",
-    "root": "اجزای تشکیل‌دهنده:\nbraun (ریشه ژرمنی)\nمعنی کلی: قهوه‌ای\nمترادف‌ها:\n- ندارد مترادف دقیق\nمتضادها:\n- weiß (سفید)"
+    "Sound_de": "die Brieftasche, die Brieftaschen",
+    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Tasche (کیف - قبلاً برای حمل نامه)\nمعنی کلی: کیف پول\nمترادف‌ها:\n- das Portemonnaie (کیف پول)\n- der Geldbeutel (کیف پول)\nمتضادها:\n- die Handtasche (کیف دستی بزرگ)"
   },
   {
-    "Sound_de": "gelb",
-    "root": "اجزای تشکیل‌دهنده:\ngelb (ریشه ژرمنی)\nمعنی کلی: زرد\nمترادف‌ها:\n- ندارد\nمتضادها:\n- violett (بنفش)"
+    "Sound_de": "die Brille, die Brillen",
+    "root": "اجزای تشکیل‌دهنده:\nاز Beryll (سنگ شفاف)\nمعنی کلی: عینک\nمترادف‌ها:\n- die Sehhilfe (وسیله کمک بینایی)\nمتضادها:\n- die Kontaktlinse (لنز تماسی)"
   },
   {
-    "Sound_de": "grau",
-    "root": "اجزای تشکیل‌دهنده:\ngrau (ریشه ژرمنی)\nمعنی کلی: خاکستری\nمترادف‌ها:\n- ندارد\nمتضادها:\n- bunt (رنگی)"
+    "Sound_de": "bringen, bringt, brachte, hat gebracht",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای آوردن\nمعنی کلی: آوردن\nمترادف‌ها:\n- mitbringen (همراه آوردن)\n- liefern (تحویل دادن)\nمتضادها:\n- nehmen (بردن)\n- wegbringen (بردن دور)"
   },
   {
-    "Sound_de": "grün",
-    "root": "اجزای تشکیل‌دهنده:\ngrün (ریشه ژرمنی)\nمعنی کلی: سبز\nمترادف‌ها:\n- ندارد\nمتضادها:\n- rot (قرمز)"
+    "Sound_de": "die Broschüre, die Broschüren",
+    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی brochure\nمعنی کلی: بروشور\nمترادف‌ها:\n- das Prospekt (بروشور)\n- der Flyer (فلایر)\nمتضادها:\n- das Buch (کتاب کامل)"
   },
   {
-    "Sound_de": "lila",
-    "root": "اجزای تشکیل‌دهنده:\nlila (از فرانسوی lilac)\nمعنی کلی: یاسی\nمترادف‌ها:\n- violett (بنفش)\nمتضادها:\n- gelb (زرد)"
+    "Sound_de": "das Brot, die Brote",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای نان\nمعنی کلی: نان\nمترادف‌ها:\n- das Gebäck (نانوایی)\nمتضادها:\n- das Kuchen (کیک)"
   },
   {
-    "Sound_de": "orange",
-    "root": "اجزای تشکیل‌دهنده:\norange (از فرانسوی، میوه پرتقال)\nمعنی کلی: نارنجی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- blau (آبی)"
+    "Sound_de": "das Brötchen, die Brötchen",
+    "root": "اجزای تشکیل‌دهنده:\nBrot (نان) + chen (کوچک)\nمعنی کلی: نان کوچک، رول\nمترادف‌ها:\n- das Semmel (در جنوب)\n- das Weck (در برخی مناطق)\nمتضادها:\n- das Brot (نان بزرگ)"
   },
   {
-    "Sound_de": "rosa",
-    "root": "اجزای تشکیل‌دهنده:\nrosa (از لاتین rose)\nمعنی کلی: صورتی\nمترادف‌ها:\n- pink (صورتی)\nمتضادها:\n- grün (سبز)"
+    "Sound_de": "das Brötli, die Brötli - Brötchen",
+    "root": "اجزای تشکیل‌دهنده:\nدر سوئیس برای Brötchen\nمعنی کلی: نان کوچک (در سوئیس)\nمترادف‌ها:\n- das Brötchen (در آلمان)\nمتضادها:\n- das Brot (نان بزرگ)"
   },
   {
-    "Sound_de": "rot",
-    "root": "اجزای تشکیل‌دهنده:\nrot (ریشه ژرمنی)\nمعنی کلی: قرمز\nمترادف‌ها:\n- ندارد\nمتضادها:\n- grün (سبز)"
+    "Sound_de": "der Bruder, die Brüder",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای برادر\nمعنی کلی: برادر\nمترادف‌ها:\n- der Geschwister (خواهر و برادر)\nمتضادها:\n- die Schwester (خواهر)"
   },
   {
-    "Sound_de": "schwarz",
-    "root": "اجزای تشکیل‌دهنده:\nschwarz (ریشه ژرمنی)\nمعنی کلی: سیاه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- weiß (سفید)"
+    "Sound_de": "die Brust, die Brüste",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای سینه\nمعنی کلی: سینه\nمترادف‌ها:\n- der Busen (سینه)\nمتضادها:\n- der Rücken (پشت)"
   },
   {
-    "Sound_de": "violett",
-    "root": "اجزای تشکیل‌دهنده:\nviolett (از لاتین viola)\nمعنی کلی: بنفش\nمترادف‌ها:\n- lila (یاسی)\nمتضادها:\n- gelb (زرد)"
+    "Sound_de": "der Bub, die Buben - Junge",
+    "root": "اجزای تشکیل‌دهنده:\nدر گویش جنوبی برای Junge\nمعنی کلی: پسر، بچه پسر\nمترادف‌ها:\n- der Junge (پسر)\n- der Knabe (پسر)\nمتضادها:\n- das Mädchen (دختر)"
   },
   {
-    "Sound_de": "weiß",
-    "root": "اجزای تشکیل‌دهنده:\nweiß (ریشه ژرمنی)\nمعنی کلی: سفید\nمترادف‌ها:\n- ندارد\nمتضادها:\n- schwarz (سیاه)"
+    "Sound_de": "das Buch, die Bücher",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای کتاب\nمعنی کلی: کتاب\nمترادف‌ها:\n- der Roman (رمان)\n- das Heft (دفتر)\nمتضادها:\n- die Zeitung (روزنامه)"
   },
   {
-    "Sound_de": "der Norden - Nord-/nördlich",
-    "root": "اجزای تشکیل‌دهنده:\nNorden (شمال)\nمعنی کلی: شمال\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Süden (جنوب)"
+    "Sound_de": "die Buchhandlung, die Buchhandlungen",
+    "root": "اجزای تشکیل‌دهنده:\nBuch (کتاب) + Handlung (فروشگاه)\nمعنی کلی: کتابفروشی\nمترادف‌ها:\n- der Buchladen (کتابفروشی)\nمتضادها:\n- die Bibliothek (کتابخانه)"
   },
   {
-    "Sound_de": "der Osten - Ost-/östlich",
-    "root": "اجزای تشکیل‌دهنده:\nOsten (شرق)\nمعنی کلی: شرق\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Westen (غرب)"
+    "Sound_de": "buchen, bucht, buchte, hat gebucht",
+    "root": "اجزای تشکیل‌دهنده:\nاز Buch (کتاب - قبلاً رزرو در کتاب)\nمعنی کلی: رزرو کردن\nمترادف‌ها:\n- reservieren (رزرو کردن)\nمتضادها:\n- stornieren (لغو کردن)"
   },
   {
-    "Sound_de": "der Süden - Süd-/südlich",
-    "root": "اجزای تشکیل‌دهنده:\nSüden (جنوب)\nمعنی کلی: جنوب\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Norden (شمال)"
+    "Sound_de": "buchstabieren, buchstabiert, buchstabierte, hat buchstabiert",
+    "root": "اجزای تشکیل‌دهنده:\nBuchstabe (حرف) + -ieren\nمعنی کلی: هجی کردن\nمترادف‌ها:\n- spellieren (هجی کردن)\nمتضادها:\n- aussprechen (تلفظ کردن کامل)"
   },
   {
-    "Sound_de": "der Westen - West-/westlich",
-    "root": "اجزای تشکیل‌دهنده:\nWesten (غرب)\nمعنی کلی: غرب\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Osten (شرق)"
+    "Sound_de": "der Buchstabe, die Buchstaben",
+    "root": "اجزای تشکیل‌دهنده:\nBuch (کتاب) + Stabe (چوب - قبلاً حروف چوبی)\nمعنی کلی: حرف الفبا\nمترادف‌ها:\n- der Letter (حرف)\nمتضادها:\n- das Wort (کلمه)"
   },
   {
-    "Sound_de": "Deutschland",
-    "root": "اجزای تشکیل‌دهنده:\nDeutsch + Land\nمعنی کلی: آلمان\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
+    "Sound_de": "die Büchse, die Büchsen - Dose",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای قوطی\nمعنی کلی: قوطی، کنسرو\nمترادف‌ها:\n- die Dose (قوطی)\n- der Kanister (قوطی بزرگ)\nمتضادها:\n- die Flasche (بطری)"
   },
   {
-    "Sound_de": "der Deutsche - die Deutschen",
-    "root": "اجزای تشکیل‌دهنده:\nDeutsch + e\nمعنی کلی: آلمانی (مرد)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Ausländer (خارجی)"
+    "Sound_de": "das Buffet, die Buffets",
+    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی buffet\nمعنی کلی: بوفه\nمترادف‌ها:\n- das Selbstbedienungsrestaurant (سلف سرویس)\nمتضادها:\n- das À-la-carte-Restaurant (منو دار)"
   },
   {
-    "Sound_de": "die Deutsche - die Deutschen",
-    "root": "اجزای تشکیل‌دهنده:\nDeutsch + e\nمعنی کلی: آلمانی (زن)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Ausländerin (خارجی زن)"
+    "Sound_de": "die Bühne, die Bühnen",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای صحنه\nمعنی کلی: صحنه تئاتر\nمترادف‌ها:\n- das Podium (سکو)\n- die Stage (صحنه)\nمتضادها:\n- das Publikum (تماشاگران)"
   },
   {
-    "Sound_de": "deutsch",
-    "root": "اجزای تشکیل‌دهنده:\ndeutsch (ریشه ژرمنی diutisc به معنی مردم)\nمعنی کلی: آلمانی (صفت)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- fremdsprachig (زبان خارجی)"
+    "Sound_de": "bunt",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای رنگارنگ\nمعنی کلی: رنگارنگ\nمترادف‌ها:\n- farbig (رنگی)\n- vielfarbig (چندرنگ)\nمتضادها:\n- einfarbig (تک رنگ)\n- grau (خاکستری)"
   },
   {
-    "Sound_de": "Deutsch",
-    "root": "اجزای تشکیل‌دهنده:\nDeutsch (زبان)\nمعنی کلی: زبان آلمانی\nمترادف‌ها:\n- die deutsche Sprache (زبان آلمانی)\nمتضادها:\n- Englisch (انگلیسی)"
+    "Sound_de": "die Burg, die Burgen",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای قلعه\nمعنی کلی: قلعه\nمترادف‌ها:\n- das Schloss (کاخ/قلعه)\nمتضادها:\n- die Hütte (کلبه)"
   },
   {
-    "Sound_de": "Europa",
-    "root": "اجزای تشکیل‌دهنده:\nEuropa (از اسطوره یونانی)\nمعنی کلی: اروپا\nمترادف‌ها:\n- ندارد\nمتضادها:\n- Asien (آسیا)"
+    "Sound_de": "der Bürger, die Bürger - die Bürgerin, die Bürgerinnen - das Büro",
+    "root": "اجزای تشکیل‌دهنده:\nBürger از Burg (شهر محصور)\nمعنی کلی: شهروند / توجه: das Büro اشتباه تایپی است، جداگانه\nمترادف‌ها:\n- der Einwohner (ساکن)\n- der Staatsbürger (تبعه)\nمتضادها:\n- der Ausländer (خارجی)"
   },
   {
-    "Sound_de": "der Europäer - die Europäer",
-    "root": "اجزای تشکیل‌دهنده:\nEuropa + äer\nمعنی کلی: اروپایی (مرد)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Asiate (آسیایی)"
+    "Sound_de": "die Bürste, die Bürsten",
+    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای برس\nمعنی کلی: برس\nمترادف‌ها:\n- der Pinsel (قلم‌مو)\nمتضادها:\n- der Kamm (شانه)"
   },
   {
-    "Sound_de": "die Europäerin - die Europäerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nEuropa + äerin\nمعنی کلی: اروپایی (زن)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Asiatin (آسیایی زن)"
+    "Sound_de": "die Zahnbürste, die Zahnbürsten",
+    "root": "اجزای تشکیل‌دهنده:\nZahn (دندان) + Bürste (برس)\nمعنی کلی: مسواک\nمترادف‌ها:\n- die Toothbrush (مسواک)\nمتضادها:\n- die Zahnpasta (خمیر دندان - مکمل)"
   },
   {
-    "Sound_de": "europäisch",
-    "root": "اجزای تشکیل‌دهنده:\nEuropa + isch\nمعنی کلی: اروپایی (صفت)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- asiatisch (آسیایی)"
+    "Sound_de": "der Bus, die Busse",
+    "root": "اجزای تشکیل‌دهنده:\nکوتاه شده Omnibus\nمعنی کلی: اتوبوس\nمترادف‌ها:\n- der Autobus (اتوبوس)\nمتضادها:\n- die Bahn (قطار)\n- das Auto (ماشین شخصی)"
   },
   {
-    "Sound_de": "Österreich",
-    "root": "اجزای تشکیل‌دهنده:\nÖster + Reich (امپراتوری شرقی)\nمعنی کلی: اتریش\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Österreicher - die Österreicher",
-    "root": "اجزای تشکیل‌دهنده:\nÖsterreich + er\nمعنی کلی: اتریشی (مرد)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Deutsche (آلمانی)"
-  },
-  {
-    "Sound_de": "die Österreicherin - die Österreicherinnen",
-    "root": "اجزای تشکیل‌دهنده:\nÖsterreich + erin\nمعنی کلی: اتریشی (زن)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Deutsche (آلمانی زن)"
-  },
-  {
-    "Sound_de": "österreichisch",
-    "root": "اجزای تشکیل‌دهنده:\nÖsterreich + isch\nمعنی کلی: اتریشی (صفت)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- deutsch (آلمانی)"
-  },
-  {
-    "Sound_de": "die Schweiz",
-    "root": "اجزای تشکیل‌دهنده:\nSchweiz (از Schwyz نام کانتون)\nمعنی کلی: سوئیس\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Schweizer - die Schweizer",
-    "root": "اجزای تشکیل‌دهنده:\nSchweiz + er\nمعنی کلی: سوئیسی (مرد)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Deutsche (آلمانی)"
-  },
-  {
-    "Sound_de": "die Schweizerin - die Schweizerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nSchweiz + erin\nمعنی کلی: سوئیسی (زن)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Deutsche (آلمانی زن)"
-  },
-  {
-    "Sound_de": "Schweizer",
-    "root": "اجزای تشکیل‌دهنده:\nSchweizer (صفت یا اسم)\nمعنی کلی: سوئیسی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ausländisch (خارجی)"
-  },
-  {
-    "Sound_de": "schweizerisch",
-    "root": "اجزای تشکیل‌دهنده:\nSchweiz + erisch\nمعنی کلی: سوئیسی (صفت رسمی)\nمترادف‌ها:\n- Schweizer (سوئیسی)\nمتضادها:\n- deutsch (آلمانی)"
-  },
-  {
-    "Sound_de": "Griechenland",
-    "root": "اجزای تشکیل‌دهنده:\nGriechen + Land\nمعنی کلی: یونان\nمترادف‌ها:\n- Hellas (یونان، نام یونانی)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Grieche - die Griechen",
-    "root": "اجزای تشکیل‌دهنده:\nGrieche\nمعنی کلی: یونانی (مرد)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Türke (ترک)"
-  },
-  {
-    "Sound_de": "die Griechin - die Griechinnen",
-    "root": "اجزای تشکیل‌دهنده:\nGriech + in\nمعنی کلی: یونانی (زن)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Türkin (ترک زن)"
-  },
-  {
-    "Sound_de": "griechisch",
-    "root": "اجزای تشکیل‌دهنده:\ngriech + isch\nمعنی کلی: یونانی\nمترادف‌ها:\n- hellenisch (یونانی)\nمتضادها:\n- türkisch (ترکی)"
-  },
-  {
-    "Sound_de": "Griechisch",
-    "root": "اجزای تشکیل‌دهنده:\ngriechisch (زبان)\nمعنی کلی: زبان یونانی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- Türkisch (ترکی)"
-  },
-  {
-    "Sound_de": "die Türkei",
-    "root": "اجزای تشکیل‌دهنده:\nTürkei (از Türk)\nمعنی کلی: ترکیه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Türke - die Türken",
-    "root": "اجزای تشکیل‌دهنده:\nTürke\nمعنی کلی: ترک (مرد)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Grieche (یونانی)"
-  },
-  {
-    "Sound_de": "die Türkin - die Türkinnen",
-    "root": "اجزای تشکیل‌دهنده:\nTürk + in\nمعنی کلی: ترک (زن)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Griechin (یونانی زن)"
-  },
-  {
-    "Sound_de": "türkisch",
-    "root": "اجزای تشکیل‌دهنده:\ntürk + isch\nمعنی کلی: ترکی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- griechisch (یونانی)"
-  },
-  {
-    "Sound_de": "Türkisch",
-    "root": "اجزای تشکیل‌دهنده:\ntürkisch (زبان)\nمعنی کلی: زبان ترکی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- Griechisch (یونانی)"
-  },
-  {
-    "Sound_de": "die Ukraine",
-    "root": "اجزای تشکیل‌دهنده:\nUkraine (از اسلاوی به معنی مرز)\nمعنی کلی: اوکراین\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Ukrainer - die Ukrainer",
-    "root": "اجزای تشکیل‌دهنده:\nUkraine + r\nمعنی کلی: اوکراینی (مرد)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Russe (روسی)"
-  },
-  {
-    "Sound_de": "die Ukrainerin - die Ukrainerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nUkraine + rin\nمعنی کلی: اوکراینی (زن)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Russin (روسی زن)"
-  },
-  {
-    "Sound_de": "ukrainisch",
-    "root": "اجزای تشکیل‌دهنده:\nukrain + isch\nمعنی کلی: اوکراینی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- russisch (روسی)"
-  },
-  {
-    "Sound_de": "Ukrainisch",
-    "root": "اجزای تشکیل‌دهنده:\nukrainisch (زبان)\nمعنی کلی: زبان اوکراینی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- Russisch (روسی)"
-  },
-  {
-    "Sound_de": "der Bund - die Bünde",
-    "root": "اجزای تشکیل‌دهنده:\nBund (اتحاد)\nمعنی کلی: اتحادیه، بوند (در سیاست)\nمترادف‌ها:\n- die Föderation (فدراسیون)\nمتضادها:\n- der Einzelstaat (ایالت مستقل)"
-  },
-  {
-    "Sound_de": "Bundes",
-    "root": "اجزای تشکیل‌دهنده:\nBund + es (صفت)\nمعنی کلی: فدرال\nمترادف‌ها:\n- föderal (فدرال)\nمتضادها:\n- landes- (ایالتی)"
-  },
-  {
-    "Sound_de": "der Bundeskanzler - die Bundeskanzler",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Kanzler\nمعنی کلی: صدراعظم فدرال\nمترادف‌ها:\n- der Regierungschef (رئیس دولت)\nمتضادها:\n- der Präsident (رئیس‌جمهور)"
-  },
-  {
-    "Sound_de": "die Bundeskanzlerin - die Bundeskanzlerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Kanzlerin\nمعنی کلی: صدراعظم زن\nمترادف‌ها:\n- die Regierungschefin (رئیس دولت زن)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Bundespräsident - die Bundespräsidenten",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Präsident\nمعنی کلی: رئیس‌جمهور فدرال\nمترادف‌ها:\n- der Staatspräsident (رئیس کشور)\nمتضادها:\n- der Ministerpräsident (نخست‌وزیر)"
-  },
-  {
-    "Sound_de": "die Bundespräsidentin - die Bundespräsidentinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Präsidentin\nمعنی کلی: رئیس‌جمهور زن\nمترادف‌ها:\n- die Staatspräsidentin (رئیس کشور زن)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Bürgermeister - die Bürgermeister",
-    "root": "اجزای تشکیل‌دهنده:\nBürger + Meister\nمعنی کلی: شهردار\nمترادف‌ها:\n- der Oberbürgermeister (در شهرهای بزرگ)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Bürgermeisterin - die Bürgermeisterinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBürger + Meisterin\nمعنی کلی: شهردار زن\nمترادف‌ها:\n- die Oberbürgermeisterin (شهردار زن بزرگ)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Demokratie - die Demokratien",
-    "root": "اجزای تشکیل‌دهنده:\nDemo (مردم) + kratie (حکومت، یونانی)\nمعنی کلی: دموکراسی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Diktatur (دیکتاتوری)"
-  },
-  {
-    "Sound_de": "demokratisch",
-    "root": "اجزای تشکیل‌دهنده:\ndemokrat + isch\nمعنی کلی: دموکراتیک\nمترادف‌ها:\n- volksherrschaftlich (حکومت مردم)\nمتضادها:\n- diktatorisch (دیکتاتوری)"
-  },
-  {
-    "Sound_de": "die Europäische Union = die EU",
-    "root": "اجزای تشکیل‌دهنده:\nEuropäisch + Union\nمعنی کلی: اتحادیه اروپا\nمترادف‌ها:\n- die EU (مخفف)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Gemeinde - die Gemeinden",
-    "root": "اجزای تشکیل‌دهنده:\nGemeinde (جامعه)\nمعنی کلی: شهرداری، جامعه محلی\nمترادف‌ها:\n- die Kommune (کمون)\nمتضادها:\n- der Staat (دولت)"
-  },
-  {
-    "Sound_de": "konservativ",
-    "root": "اجزای تشکیل‌دهنده:\nkonservativ (از لاتین conservare حفظ کردن)\nمعنی کلی: محافظه‌کار\nمترادف‌ها:\n- traditionsbewusst (سنت‌گرا)\nمتضادها:\n- progressiv (پیشرو)"
-  },
-  {
-    "Sound_de": "liberal",
-    "root": "اجزای تشکیل‌دهنده:\nliberal (از لاتین liber آزاد)\nمعنی کلی: لیبرال\nمترادف‌ها:\n- freiheitlich (آزادی‌خواه)\nمتضادها:\n- konservativ (محافظه‌کار)"
-  },
-  {
-    "Sound_de": "der Minister - die Minister",
-    "root": "اجزای تشکیل‌دهنده:\nMinister (از لاتین minister خدمتکار)\nمعنی کلی: وزیر\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Ministerin - die Ministerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nMinister + in\nمعنی کلی: وزیر زن\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Parlament - die Parlamente",
-    "root": "اجزای تشکیل‌دهنده:\nParlament (از فرانسوی parler حرف زدن)\nمعنی کلی: پارلمان\nمترادف‌ها:\n- die Volksvertretung (نمایندگی مردم)\nمتضادها:\n- die Regierung (دولت)"
-  },
-  {
-    "Sound_de": "das Europäische Parlament",
-    "root": "اجزای تشکیل‌دهنده:\nEuropäisch + Parlament\nمعنی کلی: پارلمان اروپا\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Partei - die Parteien",
-    "root": "اجزای تشکیل‌دهنده:\nPartei (از لاتین pars بخش)\nمعنی کلی: حزب\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Regierung - die Regierungen",
-    "root": "اجزای تشکیل‌دهنده:\nregier + ung\nمعنی کلی: دولت\nمترادف‌ها:\n- die Administration (اداره)\nمتضادها:\n- die Opposition (اپوزیسیون)"
-  },
-  {
-    "Sound_de": "der Staat - die Staaten",
-    "root": "اجزای تشکیل‌دهنده:\nStaat (از لاتین status)\nمعنی کلی: دولت، کشور\nمترادف‌ها:\n- das Land (کشور)\nمتضادها:\n- die Privatsphäre (خصوصی)"
-  },
-  {
-    "Sound_de": "staatlich",
-    "root": "اجزای تشکیل‌دهنده:\nstaat + lich\nمعنی کلی: دولتی\nمترادف‌ها:\n- öffentlich (عمومی)\nمتضادها:\n- privat (خصوصی)"
-  },
-  {
-    "Sound_de": "Deutschland",
-    "root": "اجزای تشکیل‌دهنده:\nDeutsch + Land\nمعنی کلی: آلمان (تکرار)\nمترادف‌ها:\n- die Bundesrepublik Deutschland (جمهوری فدرال آلمان)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Bundesland - die Bundesländer",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Land\nمعنی کلی: ایالت فدرال\nمترادف‌ها:\n- der Staat (در آمریکا)\n- das Land (ایالت)\nمتضادها:\n- der Bund (فدرال)"
-  },
-  {
-    "Sound_de": "Bundesrepublik Deutschland",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Republik + Deutschland\nمعنی کلی: جمهوری فدرال آلمان\nمترادف‌ها:\n- Deutschland (آلمان)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Bundestag",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Tag (روز نشست)\nمعنی کلی: مجلس فدرال آلمان\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Bundesrat (مجلس ایالتی)"
-  },
-  {
-    "Sound_de": "Österreich",
-    "root": "اجزای تشکیل‌دهنده:\nÖster + Reich\nمعنی کلی: اتریش (تکرار)\nمترادف‌ها:\n- Republik Österreich (جمهوری اتریش)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Bundesland",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Land\nمعنی کلی: ایالت (در اتریش)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Nationalrat - die Nationalräte",
-    "root": "اجزای تشکیل‌دهنده:\nNational + Rat\nمعنی کلی: مجلس ملی (اتریش)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Bundesrat (مجلس فدرال اتریش)"
-  },
-  {
-    "Sound_de": "Republik Österreich",
-    "root": "اجزای تشکیل‌دهنده:\nRepublik + Österreich\nمعنی کلی: جمهوری اتریش\nمترادف‌ها:\n- Österreich (اتریش)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Ammann - die Ammänner",
-    "root": "اجزای تشکیل‌دهنده:\nAmmann (ریشه قدیمی، رئیس)\nمعنی کلی: رئیس شهر (در سوئیس)\nمترادف‌ها:\n- der Stadtpräsident (رئیس شهر)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Ammännin - die Ammänninnen",
-    "root": "اجزای تشکیل‌دهنده:\nAmmann + in\nمعنی کلی: رئیس شهر زن\nمترادف‌ها:\n- die Stadtpräsidentin (رئیس شهر زن)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Bundesrat - die Bundesräte",
-    "root": "اجزای تشکیل‌دهنده:\nBundes + Rat\nمعنی کلی: مجلس فدرال (سوئیس)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Nationalrat (مجلس ملی)"
-  },
-  {
-    "Sound_de": "die Bundesrätin - die Bundesrätinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBundesrat + in\nمعنی کلی: عضو مجلس فدرال زن\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Confoederatio Helvetica",
-    "root": "اجزای تشکیل‌دهنده:\nلاتین برای کنفدراسیون سوئیس\nمعنی کلی: کنفدراسیون هلوتیکا (نام رسمی سوئیس)\nمترادف‌ها:\n- die Schweiz (سوئیس)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Schweizerische Eidgenossenschaft",
-    "root": "اجزای تشکیل‌دهنده:\nSchweizerisch + Eidgenossenschaft (اتحاد سوگند)\nمعنی کلی: کنفدراسیون سوئیس\nمترادف‌ها:\n- die Schweiz (سوئیس)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Kanton - die Kantone",
-    "root": "اجزای تشکیل‌دهنده:\nKanton (از فرانسوی canton)\nمعنی کلی: کانتون (ایالت سوئیس)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Nationalrat - die Nationalräte",
-    "root": "اجزای تشکیل‌دهنده:\nNational + Rat\nمعنی کلی: مجلس ملی سوئیس\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Ständerat (مجلس کانتون‌ها)"
-  },
-  {
-    "Sound_de": "der Regierungsrat - die Regierungsräte",
-    "root": "اجزای تشکیل‌دهنده:\nRegierungs + Rat\nمعنی کلی: شورای دولتی (در کانتون)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Regierungsrätin - die Regierungsrätinnen",
-    "root": "اجزای تشکیل‌دهنده:\nRegierungsrat + in\nمعنی کلی: عضو شورای دولتی زن\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Stadtpräsident - die Stadtpräsidenten",
-    "root": "اجزای تشکیل‌دهنده:\nStadt + Präsident\nمعنی کلی: رئیس شهر\nمترادف‌ها:\n- der Bürgermeister (شهردار)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Stadtpräsidentin - die Stadtpräsidentinnen",
-    "root": "اجزای تشکیل‌دهنده:\nStadt + Präsidentin\nمعنی کلی: رئیس شهر زن\nمترادف‌ها:\n- die Bürgermeisterin (شهردار زن)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Ständerat - die Ständeräte",
-    "root": "اجزای تشکیل‌دهنده:\nStände + Rat (مجلس طبقات)\nمعنی کلی: مجلس کانتون‌ها (سوئیس)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Nationalrat (مجلس ملی)"
-  },
-  {
-    "Sound_de": "der Affe - die Affen",
-    "root": "اجزای تشکیل‌دهنده:\nAffe (ریشه ژرمنی)\nمعنی کلی: میمون\nمترادف‌ها:\n- der Primat (پریمات)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Bär - die Bären",
-    "root": "اجزای تشکیل‌دهنده:\nBär (ریشه ژرمنی)\nمعنی کلی: خرس\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Biene - die Bienen",
-    "root": "اجزای تشکیل‌دهنده:\nBiene (ریشه ژرمنی)\nمعنی کلی: زنبور عسل\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Elefant - die Elefanten",
-    "root": "اجزای تشکیل‌دهنده:\nElefant (از یونانی)\nمعنی کلی: فیل\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Ente - die Enten",
-    "root": "اجزای تشکیل‌دهنده:\nEnte (ریشه ژرمنی)\nمعنی کلی: اردک\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Fisch - die Fische",
-    "root": "اجزای تشکیل‌دهنده:\nFisch (ریشه ژرمنی)\nمعنی کلی: ماهی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Fliege - die Fliegen",
-    "root": "اجزای تشکیل‌دهنده:\nFliege (از fliegen پرواز کردن)\nمعنی کلی: مگس\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Giraffe - die Giraffen",
-    "root": "اجزای تشکیل‌دهنده:\nGiraffe (از عربی زرافة)\nمعنی کلی: زرافه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Hase - die Hasen",
-    "root": "اجزای تشکیل‌دهنده:\nHase (ریشه ژرمنی)\nمعنی کلی: خرگوش\nمترادف‌ها:\n- der Kaninchen (خرگوش خانگی)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Hund - die Hunde",
-    "root": "اجزای تشکیل‌دهنده:\nHund (ریشه ژرمنی)\nمعنی کلی: سگ\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Katze (گربه)"
-  },
-  {
-    "Sound_de": "das Insekt - die Insekten",
-    "root": "اجزای تشکیل‌دهنده:\nInsekt (از لاتین insectum بریده‌شده)\nمعنی کلی: حشره\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Katze - die Katzen",
-    "root": "اجزای تشکیل‌دهنده:\nKatze (ریشه ژرمنی)\nمعنی کلی: گربه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Hund (سگ)"
-  },
-  {
-    "Sound_de": "das Krokodil - die Krokodile",
-    "root": "اجزای تشکیل‌دهنده:\nKrokodil (از یونانی)\nمعنی کلی: تمساح\nمترادف‌ها:\n- der Alligator (آلیگاتور)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Kuh - die Kühe",
-    "root": "اجزای تشکیل‌دهنده:\nKuh (ریشه ژرمنی)\nمعنی کلی: گاو\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Stier (گاو نر)"
-  },
-  {
-    "Sound_de": "der Löwe - die Löwen",
-    "root": "اجزای تشکیل‌دهنده:\nLöwe (از لاتین leo)\nمعنی کلی: شیر\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Maus - die Mäuse",
-    "root": "اجزای تشکیل‌دهنده:\nMaus (ریشه ژرمنی)\nمعنی کلی: موش\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Katze (گربه)"
-  },
-  {
-    "Sound_de": "die Mücke - die Mücken",
-    "root": "اجزای تشکیل‌دهنده:\nMücke (ریشه ژرمنی)\nمعنی کلی: پشه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Pferd - die Pferde",
-    "root": "اجزای تشکیل‌دهنده:\nPferd (ریشه ژرمنی)\nمعنی کلی: اسب\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Pinguin - die Pinguine",
-    "root": "اجزای تشکیل‌دهنده:\nPinguin (از ولزی)\nمعنی کلی: پنگوئن\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Schaf - die Schafe",
-    "root": "اجزای تشکیل‌دهنده:\nSchaf (ریشه ژرمنی)\nمعنی کلی: گوسفند\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Schildkröte - die Schildkröten",
-    "root": "اجزای تشکیل‌دهنده:\nSchild (سپر) + Kröte (قورباغه)\nمعنی کلی: لاک‌پشت\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Schlange - die Schlangen",
-    "root": "اجزای تشکیل‌دهنده:\nSchlange (از schleichen خزیدن)\nمعنی کلی: مار\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Schwein - die Schweine",
-    "root": "اجزای تشکیل‌دهنده:\nSchwein (ریشه ژرمنی)\nمعنی کلی: خوک\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Vogel - die Vögel",
-    "root": "اجزای تشکیل‌دهنده:\nVogel (ریشه ژرمنی)\nمعنی کلی: پرنده\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "(+) 4°C = vier Grad über Null/ plus vier Grad",
-    "root": "اجزای تشکیل‌دهنده:\nGrad (درجه) + über Null (بالای صفر)\nمعنی کلی: درجه سانتی‌گراد مثبت\nمترادف‌ها:\n- plus ... Grad (پلاس درجه)\nمتضادها:\n- minus ... Grad (منفی)"
-  },
-  {
-    "Sound_de": "1 % = ein Prozent",
-    "root": "اجزای تشکیل‌دهنده:\nProzent (از لاتین per centum)\nمعنی کلی: درصد\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "1 l = ein Liter",
-    "root": "اجزای تشکیل‌دهنده:\nLiter (از یونانی litra)\nمعنی کلی: لیتر\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "1 g = ein Gramm",
-    "root": "اجزای تشکیل‌دهنده:\nGramm (از یونانی gramma)\nمعنی کلی: گرم\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "500 g = ein Pfund/ein halbes Kilo",
-    "root": "اجزای تشکیل‌دهنده:\nPfund (پوند) یا Kilo (کیلو)\nمعنی کلی: نیم کیلو\nمترادف‌ها:\n- ein halbes Kilogramm (نیم کیلوگرم)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "1 kg = ein Kilo(gramm)",
-    "root": "اجزای تشکیل‌دهنده:\nKilo (مخفف Kilogramm)\nمعنی کلی: کیلوگرم\nمترادف‌ها:\n- das Kilogramm (کیلوگرم)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "1 dkg oder dag (= 10g) = ein Deka(gramm) (A)",
-    "root": "اجزای تشکیل‌دهنده:\nDeka (ده) + gramm\nمعنی کلی: دکاگرم (۱۰ گرم، بیشتر در اتریش)\nمترادف‌ها:\n- 10 Gramm (۱۰ گرم)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "1 km/h = ein Kilometer pro Stunde",
-    "root": "اجزای تشکیل‌دهنده:\nKilometer pro Stunde\nمعنی کلی: کیلومتر در ساعت\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "1 = eins",
-    "root": "اجزای تشکیل‌دهنده:\neins (ریشه ژرمنی)\nمعنی کلی: یک\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "zwei",
-    "root": "اجزای تشکیل‌دهنده:\nzwei (ریشه ژرمنی)\nمعنی کلی: دو\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "drei",
-    "root": "اجزای تشکیل‌دهنده:\ndrei (ریشه ژرمنی)\nمعنی کلی: سه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "vier",
-    "root": "اجزای تشکیل‌دهنده:\nvier (ریشه ژرمنی)\nمعنی کلی: چهار\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "fünf",
-    "root": "اجزای تشکیل‌دهنده:\nfünf (ریشه ژرمنی)\nمعنی کلی: پنج\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "sechs",
-    "root": "اجزای تشکیل‌دهنده:\nsechs (ریشه ژرمنی)\nمعنی کلی: شش\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "sieben",
-    "root": "اجزای تشکیل‌دهنده:\nsieben (ریشه ژرمنی)\nمعنی کلی: هفت\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "acht",
-    "root": "اجزای تشکیل‌دهنده:\nacht (ریشه ژرمنی)\nمعنی کلی: هشت\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "neun",
-    "root": "اجزای تشکیل‌دهنده:\nneun (ریشه ژرمنی)\nمعنی کلی: نه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "zehn",
-    "root": "اجزای تشکیل‌دهنده:\nzehn (ریشه ژرمنی)\nمعنی کلی: ده\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "elf",
-    "root": "اجزای تشکیل‌دهنده:\nelf (ریشه ژرمنی)\nمعنی کلی: یازده\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "zwölf",
-    "root": "اجزای تشکیل‌دهنده:\nzwölf (ریشه ژرمنی)\nمعنی کلی: دوازده\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "dreizehn",
-    "root": "اجزای تشکیل‌دهنده:\ndrei + zehn\nمعنی کلی: سیزده\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "einundzwanzig",
-    "root": "اجزای تشکیل‌دهنده:\nein + und + zwanzig\nمعنی کلی: بیست و یک\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "dreißig",
-    "root": "اجزای تشکیل‌دهنده:\ndrei + zig\nمعنی کلی: سی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "(ein)hundert",
-    "root": "اجزای تشکیل‌دهنده:\nhundert (ریشه ژرمنی)\nمعنی کلی: صد\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "(ein)hundert(und)eins",
-    "root": "اجزای تشکیل‌دهنده:\nhundert + eins\nمعنی کلی: صد و یک\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "zweihundert",
-    "root": "اجزای تشکیل‌دهنده:\nzwei + hundert\nمعنی کلی: دویست\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "(ein)tausend",
-    "root": "اجزای تشکیل‌دهنده:\ntausend (ریشه ژرمنی)\nمعنی کلی: هزار\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "eine Million",
-    "root": "اجزای تشکیل‌دهنده:\nMillion (از ایتالیایی)\nمعنی کلی: میلیون\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "eine Milliarde",
-    "root": "اجزای تشکیل‌دهنده:\nMilliarde (از فرانسوی)\nمعنی کلی: میلیارد\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der/die/das erste",
-    "root": "اجزای تشکیل‌دهنده:\nerste (از ein)\nمعنی کلی: اول\nمترادف‌ها:\n- ندارد\nمتضادها:\n- letzte (آخر)"
-  },
-  {
-    "Sound_de": "zweite",
-    "root": "اجزای تشکیل‌دهنده:\nzweit (از zwei)\nمعنی کلی: دوم\nمترادف‌ها:\n- ندارد\nمتضادها:\n- erste (اول)"
-  },
-  {
-    "Sound_de": "dritte",
-    "root": "اجزای تشکیل‌دهنده:\ndritt (از drei)\nمعنی کلی: سوم\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "vierte",
-    "root": "اجزای تشکیل‌دهنده:\nviert (از vier)\nمعنی کلی: چهارم\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "erstens",
-    "root": "اجزای تشکیل‌دهنده:\nerst + ens\nمعنی کلی: اولاً\nمترادف‌ها:\n- zunächst (ابتدا)\nمتضادها:\n- zuletzt (آخرین)"
-  },
-  {
-    "Sound_de": "zweitens",
-    "root": "اجزای تشکیل‌دهنده:\nzweit + ens\nمعنی کلی: ثانیاً\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "drittens",
-    "root": "اجزای تشکیل‌دهنده:\ndritt + ens\nمعنی کلی: ثالثاً\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "viertens",
-    "root": "اجزای تشکیل‌دهنده:\nviert + ens\nمعنی کلی: رابعاً\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "einmal",
-    "root": "اجزای تشکیل‌دهنده:\nein + mal\nمعنی کلی: یک بار\nمترادف‌ها:\n- einmalig (یک‌بار)\nمتضادها:\n- mehrmals (چند بار)"
-  },
-  {
-    "Sound_de": "zweimal",
-    "root": "اجزای تشکیل‌دهنده:\nzwei + mal\nمعنی کلی: دو بار\nمترادف‌ها:\n- ندارد\nمتضادها:\n- einmal (یک بار)"
-  },
-  {
-    "Sound_de": "dreimal",
-    "root": "اجزای تشکیل‌دهنده:\ndrei + mal\nمعنی کلی: سه بار\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "viermal",
-    "root": "اجزای تشکیل‌دهنده:\nvier + mal\nمعنی کلی: چهار بار\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "einfach",
-    "root": "اجزای تشکیل‌دهنده:\nein + fach\nمعنی کلی: ساده، تک\nمترادف‌ها:\n- einfach (ساده)\nمتضادها:\n- doppelt (دوبل)"
-  },
-  {
-    "Sound_de": "zweifach/doppelt",
-    "root": "اجزای تشکیل‌دهنده:\nzwei + fach یا doppelt\nمعنی کلی: دوگانه، دابل\nمترادف‌ها:\n- doppelt (دوبل)\nمتضادها:\n- einfach (تک)"
-  },
-  {
-    "Sound_de": "plus",
-    "root": "اجزای تشکیل‌دهنده:\nplus (از لاتین)\nمعنی کلی: به علاوه\nمترادف‌ها:\n- und (و)\nمتضادها:\n- minus (منها)"
-  },
-  {
-    "Sound_de": "minus",
-    "root": "اجزای تشکیل‌دهنده:\nminus (از لاتین)\nمعنی کلی: منها\nمترادف‌ها:\n- ندارد\nمتضادها:\n- plus (به علاوه)"
-  },
-  {
-    "Sound_de": "ein halb; halb",
-    "root": "اجزای تشکیل‌دهنده:\nhalb (نیم)\nمعنی کلی: نیم\nمترادف‌ها:\n- eine Hälfte (نصف)\nمتضادها:\n- ganz (کامل)"
-  },
-  {
-    "Sound_de": "ein Drittel, drittel",
-    "root": "اجزای تشکیل‌دهنده:\nDrittel (از dritt سوم)\nمعنی کلی: یک سوم\nمترادف‌ها:\n- ندارد\nمتضادها:\n- zwei Drittel (دو سوم)"
-  },
-  {
-    "Sound_de": "ein Viertel; Viertel",
-    "root": "اجزای تشکیل‌دهنده:\nViertel (از viert چهارم)\nمعنی کلی: یک چهارم\nمترادف‌ها:\n- ندارد\nمتضادها:\n- drei Viertel (سه چهارم)"
-  },
-  {
-    "Sound_de": "neunzehnhundertneunundneunzig",
-    "root": "اجزای تشکیل‌دهنده:\nneunzehn + hundert + neunundneunzig\nمعنی کلی: ۱۹۹۹\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "zweitausend(und)vier",
-    "root": "اجزای تشکیل‌دهنده:\nzwei + tausend + vier\nمعنی کلی: ۲۰۰۴\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "heute ist der 1. März = heute ist der erste März/der erste Dritte",
-    "root": "اجزای تشکیل‌دهنده:\nerste + März یا Dritte (سومین ماه)\nمعنی کلی: اول مارس\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Berlin, 10. April 2012 = Berlin, zehnter April/zehnter Vierter zweitausendundzwölf/zweitausendzwölf",
-    "root": "اجزای تشکیل‌دهنده:\nzehnt + April + Jahr\nمعنی کلی: تاریخ نوشتاری\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Neujahr - die Neujahre",
-    "root": "اجزای تشکیل‌دهنده:\nneu + Jahr\nمعنی کلی: سال نو\nمترادف‌ها:\n- Silvester (شب سال نو)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Ostern - die Ostern",
-    "root": "اجزای تشکیل‌دهنده:\nOstern (از شرقی، ریشه قدیمی)\nمعنی کلی: عید پاک\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Pfingsten - die Pfingsten",
-    "root": "اجزای تشکیل‌دهنده:\nPfingsten (از یونانی pentekoste پنجاهمین)\nمعنی کلی: پنطیکاست\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Weihnachten - die Weihnachten",
-    "root": "اجزای تشکیل‌دهنده:\nweihe + Nacht (شب مقدس)\nمعنی کلی: کریسمس\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Silvester - die Silvester",
-    "root": "اجزای تشکیل‌دهنده:\nSilvester (نام قدیس)\nمعنی کلی: شب سال نو\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Nationalfeiertag - die Nationalfeiertage",
-    "root": "اجزای تشکیل‌دهنده:\nNational + Feiertag\nمعنی کلی: روز ملی\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Frühling/das Frühjahr - die Frühlinge/Frühjahre",
-    "root": "اجزای تشکیل‌دهنده:\nfrüh + ling/Jahr\nمعنی کلی: بهار\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Herbst (پاییز)"
-  },
-  {
-    "Sound_de": "der Sommer - die Sommer",
-    "root": "اجزای تشکیل‌دهنده:\nSommer (ریشه ژرمنی)\nمعنی کلی: تابستان\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Winter (زمستان)"
-  },
-  {
-    "Sound_de": "der Herbst - die Herbste",
-    "root": "اجزای تشکیل‌دهنده:\nHerbst (ریشه ژرمنی)\nمعنی کلی: پاییز\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Frühling (بهار)"
-  },
-  {
-    "Sound_de": "der Winter - die Winter",
-    "root": "اجزای تشکیل‌دهنده:\nWinter (ریشه ژرمنی)\nمعنی کلی: زمستان\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Sommer (تابستان)"
-  },
-  {
-    "Sound_de": "der Januar - die Januare",
-    "root": "اجزای تشکیل‌دهنده:\nJanuar (از لاتین Janus خدای دروازه)\nمعنی کلی: ژانویه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Februar - die Februare",
-    "root": "اجزای تشکیل‌دهنده:\nFebruar (از لاتین februa پاکسازی)\nمعنی کلی: فوریه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der März - die Märze",
-    "root": "اجزای تشکیل‌دهنده:\nMärz (از لاتین Mars خدای جنگ)\nمعنی کلی: مارس\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der April - die Aprile",
-    "root": "اجزای تشکیل‌دهنده:\nApril (از لاتین aperire باز کردن)\nمعنی کلی: آوریل\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Mai - die Maie",
-    "root": "اجزای تشکیل‌دهنده:\nMai (از لاتین Maia الهه)\nمعنی کلی: می\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Juni - die Junis",
-    "root": "اجزای تشکیل‌دهنده:\nJuni (از لاتین Juno الهه)\nمعنی کلی: ژوئن\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Juli - die Julis",
-    "root": "اجزای تشکیل‌دهنده:\nJuli (از Julius Caesar)\nمعنی کلی: ژوئیه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der August - die Auguste",
-    "root": "اجزای تشکیل‌دهنده:\nAugust (از Augustus امپراتور)\nمعنی کلی: اوت\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der September - die September",
-    "root": "اجزای تشکیل‌دهنده:\nSeptember (از لاتین septem هفت)\nمعنی کلی: سپتامبر\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Oktober - die Oktober",
-    "root": "اجزای تشکیل‌دهنده:\nOktober (از لاتین octo هشت)\nمعنی کلی: اکتبر\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der November - die November",
-    "root": "اجزای تشکیل‌دهنده:\nNovember (از لاتین novem نه)\nمعنی کلی: نوامبر\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Dezember - die Dezember",
-    "root": "اجزای تشکیل‌دهنده:\nDezember (از لاتین decem ده)\nمعنی کلی: دسامبر\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Tag - die Tage",
-    "root": "اجزای تشکیل‌دهنده:\nTag (ریشه ژرمنی)\nمعنی کلی: روز\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Nacht (شب)"
-  },
-  {
-    "Sound_de": "täglich",
-    "root": "اجزای تشکیل‌دهنده:\ntäg + lich\nمعنی کلی: روزانه\nمترادف‌ها:\n- jeden Tag (هر روز)\nمتضادها:\n- wöchentlich (هفتگی)"
-  },
-  {
-    "Sound_de": "tagsüber",
-    "root": "اجزای تشکیل‌دهنده:\nTag + s + über\nمعنی کلی: در طول روز\nمترادف‌ها:\n- am Tag (در روز)\nمتضادها:\n- nachts (در شب)"
-  },
-  {
-    "Sound_de": "der Morgen - die Morgen",
-    "root": "اجزای تشکیل‌دهنده:\nMorgen (ریشه ژرمنی)\nمعنی کلی: صبح\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Abend (عصر)"
-  },
-  {
-    "Sound_de": "in der Früh",
-    "root": "اجزای تشکیل‌دهنده:\nin + der + Früh (صبح زود، اتریش)\nمعنی کلی: صبح زود\nمترادف‌ها:\n- morgens (صبح‌ها)\nمتضادها:\n- abends (عصرها)"
-  },
-  {
-    "Sound_de": "morgens",
-    "root": "اجزای تشکیل‌دهنده:\nmorgen + s\nمعنی کلی: صبح‌ها\nمترادف‌ها:\n- am Morgen (در صبح)\nمتضادها:\n- abends (عصرها)"
-  },
-  {
-    "Sound_de": "am Morgen",
-    "root": "اجزای تشکیل‌دهنده:\nam + Morgen\nمعنی کلی: در صبح\nمترادف‌ها:\n- morgens (صبح‌ها)\nمتضادها:\n- am Abend (در عصر)"
-  },
-  {
-    "Sound_de": "der Vormittag - die Vormittage",
-    "root": "اجزای تشکیل‌دهنده:\nvor (قبل) + Mittag (ظهر)\nمعنی کلی: نیمه اول روز تا ظهر\nمترادف‌ها:\n- der Morgen (صبح)\nمتضادها:\n- der Nachmittag (بعدازظهر)\n- der Abend (عصر/شب)"
-  },
-  {
-    "Sound_de": "vormittags",
-    "root": "اجزای تشکیل‌دهنده:\nvor (قبل) + Mittag (ظهر) + s (قید)\nمعنی کلی: در طول صبح/قبل از ظهر\nمترادف‌ها:\n- morgens (صبح‌ها)\nمتضادها:\n- nachmittags (بعدازظهرها)\n- abends (عصرها)"
-  },
-  {
-    "Sound_de": "am Vormittag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + der Vormittag (صبح)\nمعنی کلی: در صبح/در نیمه اول روز\nمترادف‌ها:\n- am Morgen (صبح)\nمتضادها:\n- am Nachmittag (بعدازظهر)\n- am Abend (عصر)"
-  },
-  {
-    "Sound_de": "der Mittag - die Mittage",
-    "root": "اجزای تشکیل‌دهنده:\nmitte (میانه) + Tag (روز)\nمعنی کلی: ظهر، میانه روز\nمترادف‌ها:\n- der Noon (به انگلیسی، اما در آلمانی: die Mittagszeit)\nمتضادها:\n- der Morgen (صبح)\n- der Abend (عصر)"
-  },
-  {
-    "Sound_de": "mittags",
-    "root": "اجزای تشکیل‌دهنده:\nMittag (ظهر) + s (قید)\nمعنی کلی: در ظهر، موقع ناهار\nمترادف‌ها:\n- zur Mittagszeit (در زمان ظهر)\nمتضادها:\n- morgens (صبح‌ها)\n- abends (عصرها)"
-  },
-  {
-    "Sound_de": "zu Mittag",
-    "root": "اجزای تشکیل‌دهنده:\nzu (به/برای) + Mittag (ظهر)\nمعنی کلی: برای ناهار، موقع ناهار خوردن\nمترادف‌ها:\n- mittags essen (ناهار خوردن)\nمتضادها:\n- zu Abend (شام)\n- zum Frühstück (صبحانه)"
-  },
-  {
-    "Sound_de": "am Mittag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Mittag (ظهر)\nمعنی کلی: در ظهر\nمترادف‌ها:\n- zur Mittagszeit (در زمان ظهر)\nمتضادها:\n- am Morgen (صبح)\n- am Abend (عصر)"
-  },
-  {
-    "Sound_de": "der Nachmittag - die Nachmittage",
-    "root": "اجزای تشکیل‌دهنده:\nnach (بعد) + Mittag (ظهر)\nمعنی کلی: بعدازظهر\nمترادف‌ها:\n- der Afternoon (به انگلیسی، اما در آلمانی مشابهی ندارد)\nمتضادها:\n- der Vormittag (صبح)\n- der Morgen (صبح)"
-  },
-  {
-    "Sound_de": "nachmittags",
-    "root": "اجزای تشکیل‌دهنده:\nnach (بعد) + Mittag (ظهر) + s (قید)\nمعنی کلی: در بعدازظهرها\nمترادف‌ها:\n- am Nachmittag (در بعدازظهر)\nمتضادها:\n- vormittags (صبح‌ها)\n- abends (عصرها)"
-  },
-  {
-    "Sound_de": "am Nachmittag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Nachmittag (بعدازظهر)\nمعنی کلی: در بعدازظهر\nمترادف‌ها:\n- nachmittags (بعدازظهرها)\nمتضادها:\n- am Vormittag (صبح)\n- am Abend (عصر)"
-  },
-  {
-    "Sound_de": "der Abend - die Abende",
-    "root": "اجزای تشکیل‌دهنده:\nAbend (غروب/عصر)\nمعنی کلی: عصر، شب\nمترادف‌ها:\n- die Abendzeit (زمان عصر)\nمتضادها:\n- der Morgen (صبح)\n- der Vormittag (صبح)"
-  },
-  {
-    "Sound_de": "abends",
-    "root": "اجزای تشکیل‌دهنده:\nAbend (عصر) + s (قید)\nمعنی کلی: در عصرها/شب‌ها\nمترادف‌ها:\n- am Abend (در عصر)\nمتضادها:\n- morgens (صبح‌ها)\n- mittags (ظهرها)"
-  },
-  {
-    "Sound_de": "am Abend",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Abend (عصر)\nمعنی کلی: در عصر/شب\nمترادف‌ها:\n- abends (عصرها)\nمتضادها:\n- am Morgen (صبح)\n- am Mittag (ظهر)"
-  },
-  {
-    "Sound_de": "die Nacht - die Nächte",
-    "root": "اجزای تشکیل‌دهنده:\nNacht (شب)\nمعنی کلی: شب\nمترادف‌ها:\n- die Nachtzeit (زمان شب)\nمتضادها:\n- der Tag (روز)\n- der Morgen (صبح)"
-  },
-  {
-    "Sound_de": "nachts",
-    "root": "اجزای تشکیل‌دهنده:\nNacht (شب) + s (قید)\nمعنی کلی: در شب‌ها\nمترادف‌ها:\n- in der Nacht (در شب)\nمتضادها:\n- tags (روزها)\n- morgens (صبح‌ها)"
-  },
-  {
-    "Sound_de": "in der Nacht",
-    "root": "اجزای تشکیل‌دهنده:\nin (در) + der Nacht (شب)\nمعنی کلی: در شب\nمترادف‌ها:\n- nachts (شب‌ها)\nمتضادها:\n- am Tag (در روز)\n- tagsüber (در طول روز)"
-  },
-  {
-    "Sound_de": "die Mitternacht - die Mitternächte",
-    "root": "اجزای تشکیل‌دهنده:\nmitte (میانه) + Nacht (شب)\nمعنی کلی: نیمه‌شب\nمترادف‌ها:\n- die Midnight (به انگلیسی، اما در آلمانی: die zwölf Uhr nachts)\nمتضادها:\n- der Mittag (ظهر)\n- die Mittagszeit (زمان ظهر)"
-  },
-  {
-    "Sound_de": "um Mitternacht",
-    "root": "اجزای تشکیل‌دهنده:\num (در اطراف/حدود) + Mitternacht (نیمه‌شب)\nمعنی کلی: حدود نیمه‌شب\nمترادف‌ها:\n- um zwölf Uhr nachts (حدود ۱۲ شب)\nمتضادها:\n- um Mittag (حدود ظهر)"
-  },
-  {
-    "Sound_de": "null Uhr drei",
-    "root": "اجزای تشکیل‌دهنده:\nnull Uhr (صفر ساعت) + drei (سه دقیقه)\nمعنی کلی: ساعت ۰۰:۰۳\nمترادف‌ها:\n- drei Minuten nach Mitternacht\nمتضادها:\n- ندارد (عبارت زمانی خاص)"
-  },
-  {
-    "Sound_de": "sieben Uhr fünfzehn",
-    "root": "اجزای تشکیل‌دهنده:\nsieben Uhr (هفت ساعت) + fünfzehn (پانزده دقیقه)\nمعنی کلی: ساعت ۷:۱۵\nمترادف‌ها:\n- Viertel nach sieben (ربع گذشته هفت)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "dreizehn Uhr siebzehn",
-    "root": "اجزای تشکیل‌دهنده:\ndreizehn Uhr (سیزده ساعت) + siebzehn (هفده دقیقه)\nمعنی کلی: ساعت ۱۳:۱۷\nمترادف‌ها:\n- siebzehn Minuten nach eins (pm)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "vierundzwanzig Uhr",
-    "root": "اجزای تشکیل‌دهنده:\nvierundzwanzig (بیست و چهار) + Uhr (ساعت)\nمعنی کلی: ساعت ۲۴:۰۰ (نیمه‌شب)\nمترادف‌ها:\n- null Uhr (صفر ساعت)\n- Mitternacht (نیمه‌شب)\nمتضادها:\n- zwölf Uhr (ظهر)"
-  },
-  {
-    "Sound_de": "ein Uhr",
-    "root": "اجزای تشکیل‌دهنده:\nein (یک) + Uhr (ساعت)\nمعنی کلی: ساعت یک\nمترادف‌ها:\n- eins Uhr\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "fünf Minuten vor/nach eins",
-    "root": "اجزای تشکیل‌دهنده:\nfünf Minuten (پنج دقیقه) + vor/nach (قبل/بعد) + eins (یک)\nمعنی کلی: پنج دقیقه قبل یا بعد از یک\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "viertel vor/nach zwei A: auch viertel drei (14:15); auch dreiviertel drei (14:45)",
-    "root": "اجزای تشکیل‌دهنده:\nViertel (ربع) + vor/nach (قبل/بعد) + zwei (دو)؛ در برخی مناطق viertel drei = 14:15\nمعنی کلی: ربع قبل یا بعد از ساعت، با تفاوت‌های منطقه‌ای\nمترادف‌ها:\n- 15 Minuten vor/nach zwei\nمتضادها:\n- halb (نیم)"
-  },
-  {
-    "Sound_de": "halb drei",
-    "root": "اجزای تشکیل‌دهنده:\nhalb (نیم) + drei (سه)\nمعنی کلی: نیم گذشته دو (ساعت ۲:۳۰)\nمترادف‌ها:\n- halb drei Uhr\nمتضادها:\n- Viertel (ربع)"
-  },
-  {
-    "Sound_de": "der Wochentag - die Wochentage",
-    "root": "اجزای تشکیل‌دهنده:\nWoche (هفته) + Tag (روز)\nمعنی کلی: روز هفته\nمترادف‌ها:\n- der Werktag (روز کاری، اما نه دقیق)\nمتضادها:\n- das Wochenende (آخر هفته)"
-  },
-  {
-    "Sound_de": "wochentags",
-    "root": "اجزای تشکیل‌دهنده:\nWochentag (روز هفته) + s (قید)\nمعنی کلی: در روزهای هفته (دوشنبه تا جمعه)\nمترادف‌ها:\n- an Werktagen\nمتضادها:\n- am Wochenende (در آخر هفته)"
-  },
-  {
-    "Sound_de": "werktags",
-    "root": "اجزای تشکیل‌دهنده:\nWerk (کار) + Tag (روز) + s\nمعنی کلی: در روزهای کاری\nمترادف‌ها:\n- wochentags (روزهای هفته)\nمتضادها:\n- am Wochenende"
-  },
-  {
-    "Sound_de": "das Wochenende - die Wochenenden",
-    "root": "اجزای تشکیل‌دهنده:\nWoche (هفته) + Ende (پایان)\nمعنی کلی: آخر هفته\nمترادف‌ها:\n- das Weekend\nمتضادها:\n- der Wochentag (روز هفته)\n- die Werktage (روزهای کاری)"
-  },
-  {
-    "Sound_de": "am Wochenende",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Wochenende (آخر هفته)\nمعنی کلی: در آخر هفته\nمترادف‌ها:\n- Wochenende (به عنوان قید)\nمتضادها:\n- wochentags (روزهای هفته)"
-  },
-  {
-    "Sound_de": "der Montag - die Montage",
-    "root": "اجزای تشکیل‌دهنده:\nMond (ماه) + Tag (روز)\nمعنی کلی: دوشنبه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد (روز خاص)"
-  },
-  {
-    "Sound_de": "montags",
-    "root": "اجزای تشکیل‌دهنده:\nMontag (دوشنبه) + s\nمعنی کلی: دوشنبه‌ها\nمترادف‌ها:\n- an Montagen\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "am Montag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Montag (دوشنبه)\nمعنی کلی: در دوشنبه\nمترادف‌ها:\n- montags\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Dienstag - die Dienstage",
-    "root": "اجزای تشکیل‌دهنده:\nZiu (خدای قدیمی) + Tag (روز) یا Dienst (خدمت)\nمعنی کلی: سه‌شنبه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "dienstags",
-    "root": "اجزای تشکیل‌دهنده:\nDienstag (سه‌شنبه) + s\nمعنی کلی: سه‌شنبه‌ها\nمترادف‌ها:\n- an Diensten\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "am Dienstag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Dienstag (سه‌شنبه)\nمعنی کلی: در سه‌شنبه\nمترادف‌ها:\n- dienstags\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Mittwoch - die Mittwoche",
-    "root": "اجزای تشکیل‌دهنده:\nMitte (میانه) + Woche (هفته)\nمعنی کلی: چهارشنبه (میانه هفته)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "mittwochs",
-    "root": "اجزای تشکیل‌دهنده:\nMittwoch (چهارشنبه) + s\nمعنی کلی: چهارشنبه‌ها\nمترادف‌ها:\n- an Mittwochen\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "am Mittwoch",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Mittwoch (چهارشنبه)\nمعنی کلی: در چهارشنبه\nمترادف‌ها:\n- mittwochs\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Donnerstag - die Donnerstage",
-    "root": "اجزای تشکیل‌دهنده:\nDonner (رعد، خدای Thor) + Tag (روز)\nمعنی کلی: پنج‌شنبه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "donnerstags",
-    "root": "اجزای تشکیل‌دهنده:\nDonnerstag (پنج‌شنبه) + s\nمعنی کلی: پنج‌شنبه‌ها\nمترادف‌ها:\n- an Donnerstagen\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "am Donnerstag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Donnerstag (پنج‌شنبه)\nمعنی کلی: در پنج‌شنبه\nمترادف‌ها:\n- donnerstags\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Freitag - die Freitage",
-    "root": "اجزای تشکیل‌دهنده:\nFrei (آزاد، خدای Freya) + Tag (روز)\nمعنی کلی: جمعه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "freitags",
-    "root": "اجزای تشکیل‌دهنده:\nFreitag (جمعه) + s\nمعنی کلی: جمعه‌ها\nمترادف‌ها:\n- an Freitagen\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "am Freitag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Freitag (جمعه)\nمعنی کلی: در جمعه\nمترادف‌ها:\n- freitags\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Samstag - die Samstage",
-    "root": "اجزای تشکیل‌دهنده:\nSamstag (از Saturn یا Sabbat)\nمعنی کلی: شنبه\nمترادف‌ها:\n- der Sonnabend (در شمال آلمان)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Sonnabend - die Sonnabende",
-    "root": "اجزای تشکیل‌دهنده:\nSonne (خورشید) + Abend (غروب/شب قبل از یکشنبه)\nمعنی کلی: شنبه (در شمال آلمان)\nمترادف‌ها:\n- der Samstag\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "samstags",
-    "root": "اجزای تشکیل‌دهنده:\nSamstag (شنبه) + s\nمعنی کلی: شنبه‌ها\nمترادف‌ها:\n- sonnabends\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "sonnabends",
-    "root": "اجزای تشکیل‌دهنده:\nSonnabend (شنبه) + s\nمعنی کلی: شنبه‌ها (در شمال)\nمترادف‌ها:\n- samstags\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "am Samstag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Samstag (شنبه)\nمعنی کلی: در شنبه\nمترادف‌ها:\n- samstags\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Sonntag - die Sonntage",
-    "root": "اجزای تشکیل‌دهنده:\nSonne (خورشید) + Tag (روز)\nمعنی کلی: یکشنبه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "sonntags",
-    "root": "اجزای تشکیل‌دهنده:\nSonntag (یکشنبه) + s\nمعنی کلی: یکشنبه‌ها\nمترادف‌ها:\n- an Sonntagen\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "am Sonntag",
-    "root": "اجزای تشکیل‌دهنده:\nam (در) + Sonntag (یکشنبه)\nمعنی کلی: در یکشنبه\nمترادف‌ها:\n- sonntags\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Sekunde - die Sekunden",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین secunda\nمعنی کلی: ثانیه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Minute (دقیقه)\n- die Stunde (ساعت)"
-  },
-  {
-    "Sound_de": "die Minute - die Minuten",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین minuta\nمعنی کلی: دقیقه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Sekunde (ثانیه)\n- die Stunde (ساعت)"
-  },
-  {
-    "Sound_de": "die Stunde - die Stunden",
-    "root": "اجزای تشکیل‌دهنده:\nStunde (ساعت/زمان)\nمعنی کلی: ساعت\nمترادف‌ها:\n- die Uhr (ساعت به عنوان زمان)\nمتضادها:\n- die Minute (دقیقه)\n- die Sekunde (ثانیه)"
-  },
-  {
-    "Sound_de": "stündlich",
-    "root": "اجزای تشکیل‌دهنده:\nStunde (ساعت) + lich (به صورت)\nمعنی کلی: ساعتی، هر ساعت\nمترادف‌ها:\n- jede Stunde\nمتضادها:\n- täglich (روزانه)\n- wöchentlich (هفتگی)"
-  },
-  {
-    "Sound_de": "der Tag - die Tage",
-    "root": "اجزای تشکیل‌دهنده:\nTag (روز)\nمعنی کلی: روز\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Nacht (شب)"
-  },
-  {
-    "Sound_de": "täglich",
-    "root": "اجزای تشکیل‌دهنده:\nTag (روز) + lich\nمعنی کلی: روزانه\nمترادف‌ها:\n- jeden Tag\nمتضادها:\n- wöchentlich (هفتگی)\n- monatlich (ماهانه)"
-  },
-  {
-    "Sound_de": "die Woche - die Wochen",
-    "root": "اجزای تشکیل‌دهنده:\nWoche (هفته)\nمعنی کلی: هفته\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Monat (ماه)\n- das Jahr (سال)"
-  },
-  {
-    "Sound_de": "wöchentlich",
-    "root": "اجزای تشکیل‌دهنده:\nWoche (هفته) + lich\nمعنی کلی: هفتگی\nمترادف‌ها:\n- jede Woche\nمتضادها:\n- täglich (روزانه)\n- monatlich (ماهانه)"
-  },
-  {
-    "Sound_de": "der Monat - die Monate",
-    "root": "اجزای تشکیل‌دهنده:\nMond (ماه) + at\nمعنی کلی: ماه\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Woche (هفته)\n- das Jahr (سال)"
-  },
-  {
-    "Sound_de": "monatlich",
-    "root": "اجزای تشکیل‌دهنده:\nMonat (ماه) + lich\nمعنی کلی: ماهانه\nمترادف‌ها:\n- jeden Monat\nمتضادها:\n- wöchentlich (هفتگی)\n- jährlich (سالانه)"
-  },
-  {
-    "Sound_de": "das Jahr - die Jahre",
-    "root": "اجزای تشکیل‌دهنده:\nJahr (سال)\nمعنی کلی: سال\nمترادف‌ها:\n- ندارد\nمتضادها:\n- der Monat (ماه)\n- die Woche (هفته)"
-  },
-  {
-    "Sound_de": "jährlich",
-    "root": "اجزای تشکیل‌دهنده:\nJahr (سال) + lich\nمعنی کلی: سالانه\nمترادف‌ها:\n- jedes Jahr\nمتضادها:\n- monatlich (ماهانه)\n- täglich (روزانه)"
-  },
-  {
-    "Sound_de": "das Jahrzehnt - die Jahrzehnte",
-    "root": "اجزای تشکیل‌دهنده:\nJahr (سال) + Zehn (ده)\nمعنی کلی: دهه\nمترادف‌ها:\n- das Dekade\nمتضادها:\n- das Jahrhundert (قرن)"
-  },
-  {
-    "Sound_de": "das Jahrhundert - die Jahrhunderte",
-    "root": "اجزای تشکیل‌دهنده:\nJahr (سال) + hundert (صد)\nمعنی کلی: قرن\nمترادف‌ها:\n- ندارد\nمتضادها:\n- das Jahrzehnt (دهه)\n- das Jahrtausend (هزاره)"
-  },
-  {
-    "Sound_de": "das Jahrtausend - die Jahrtausende",
-    "root": "اجزای تشکیل‌دهنده:\nJahr (سال) + tausend (هزار)\nمعنی کلی: هزاره، millennium\nمترادف‌ها:\n- das Millennium\nمتضادها:\n- das Jahrhundert (قرن)"
-  },
-  {
-    "Sound_de": "ab",
-    "root": "اجزای تشکیل‌دهنده:\nابزار پیشوند جدا شونده\nمعنی کلی: از، پایین، جدا شدن\nمترادف‌ها:\n- von (از)\nمتضادها:\n- an (به/روی)\n- auf (بالا)"
-  },
-  {
-    "Sound_de": "abbiegen, biegt ab, bog ab, ist abgebogen",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + biegen (خم شدن)\nمعنی کلی: پیچیدن، تغییر جهت دادن\nمترادف‌ها:\n- einbiegen (پیچیدن به داخل)\nمتضادها:\n- geradeaus fahren (مستقیم رفتن)"
-  },
-  {
-    "Sound_de": "die Abbildung - die Abbildungen",
-    "root": "اجزای تشکیل‌دهنده:\nab (از) + Bild (تصویر) + ung\nمعنی کلی: تصویر، نگاره، illustration\nمترادف‌ها:\n- das Bild (تصویر)\n- die Illustration (تصویرسازی)\nمتضادها:\n- der Original (اصل)"
-  },
-  {
-    "Sound_de": "das Abenteuer - die Abenteuer",
-    "root": "اجزای تشکیل‌دهنده:\nab (به) + venire (آمدن لاتین) → ماجرا\nمعنی کلی: ماجرا، adventure\nمترادف‌ها:\n- die Adventure\n- das Erlebnis (تجربه)\nمتضادها:\n- die Routine (روتین)\n- der Alltag (روزمره)"
-  },
-  {
-    "Sound_de": "aber",
-    "root": "اجزای تشکیل‌دهنده:\nحرف ربط\nمعنی کلی: اما، ولی\nمترادف‌ها:\n- jedoch (با این حال)\n- allerdings (هرچند)\nمتضادها:\n- und (و)\n- weil (چون)"
-  },
-  {
-    "Sound_de": "abfahren, fährt ab, fuhr ab, ist abgefahren",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + fahren (راندن/رفتن)\nمعنی کلی: حرکت کردن (قطار/اتوبوس)،出发 کردن\nمترادف‌ها:\n- losfahren (شروع حرکت)\nمتضادها:\n- ankommen (رسیدن)"
-  },
-  {
-    "Sound_de": "die Abfahrt - die Abfahrten",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + Fahrt (سفر/حرکت)\nمعنی کلی: حرکت،出发، رمپ خروج\nمترادف‌ها:\n- die Abreise (خروج)\nمتضادها:\n- die Ankunft (ورود)"
-  },
-  {
-    "Sound_de": "der Abfall - die Abfälle",
-    "root": "اجزای تشکیل‌دهنده:\nab (پایین) + fall (افتادن)\nمعنی کلی: زباله، پسماند\nمترادف‌ها:\n- der Müll (زباله)\n- der Waste\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Abfalleimer - die Abfalleimer",
-    "root": "اجزای تشکیل‌دهنده:\nAbfall (زباله) + Eimer (سطل)\nمعنی کلی: سطل آشغال\nمترادف‌ها:\n- der Mülleimer (سطل زباله)\n- die Mülltonne (تون زباله)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "Abgase",
-    "root": "اجزای تشکیل‌دهنده:\nab (خارج) + Gas (گاز)\nمعنی کلی: گازهای اگزوز\nمترادف‌ها:\n- die Auspuffgase (گازهای اگزوز)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "abgeben, gibt ab, gab ab, hat abgegeben",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + geben (دادن)\nمعنی کلی: تحویل دادن، دادن\nمترادف‌ها:\n- übergeben (تحویل دادن)\n- einreichen (ارائه دادن)\nمتضادها:\n- behalten (نگه داشتن)"
-  },
-  {
-    "Sound_de": "abhängen, hängt ab, hing ab, hat abgehangen",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + hängen (آویزان بودن)\nمعنی کلی: بستگی داشتن به، وابسته بودن\nمترادف‌ها:\n- ankommen auf (بستگی به)\n- dependieren von\nمتضادها:\n- unabhängig sein (مستقل بودن)"
-  },
-  {
-    "Sound_de": "abhängig",
-    "root": "اجزای تشکیل‌دهنده:\nab (از) + hängen (آویزان)\nمعنی کلی: وابسته\nمترادف‌ها:\n- dependent\nمتضادها:\n- unabhängig (مستقل)\n- selbstständig (خودکفا)"
-  },
-  {
-    "Sound_de": "abheben, hebt ab, hob ab, hat abgehoben",
-    "root": "اجزای تشکیل‌دهنده:\nab (بالا) + heben (بلند کردن)\nمعنی کلی: بلند شدن (هواپیما)، برداشت پول\nمترادف‌ها:\n- starten (شروع پرواز)\n- Geld abheben (برداشت پول)\nمتضادها:\n- landen (فرود آمدن)"
-  },
-  {
-    "Sound_de": "abholen, holt ab, holte ab, hat abgeholt",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + holen (آوردن)\nمعنی کلی: استقبال کردن، بردن کسی\nمترادف‌ها:\n- abholen kommen\nمتضادها:\n- bringen (رساندن)"
-  },
-  {
-    "Sound_de": "abschreiben, schreibt ab, schrieb ab, hat abgeschrieben",
-    "root": "اجزای تشکیل‌دهنده:\nab (از) + schreiben (نوشتن)\nمعنی کلی: کپی کردن، تقلب کردن\nمترادف‌ها:\n- kopieren (کپی کردن)\n- spicken (تقلب)\nمتضادها:\n- selbst schreiben (خود نوشتن)"
-  },
-  {
-    "Sound_de": "das Abitur ,Matura",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین abire (رفتن)\nمعنی کلی: دیپلم دبیرستان (در آلمان)، ماتورا (در اتریش/سوئیس)\nمترادف‌ها:\n- die Matura (در اتریش)\n- das Baccalauréat (فرانسه)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "ablehnen, lehnt ab, lehnte ab, hat abgelehnt",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + lehnen (تکیه/رد)\nمعنی کلی: رد کردن، انکار کردن\nمترادف‌ها:\n- verweigern (امتناع)\n- reject\nمتضادها:\n- annehmen (پذیرفتن)\n- akzeptieren (قبول کردن)"
-  },
-  {
-    "Sound_de": "abmachen, macht ab, machte ab, hat abgemacht",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + machen (کردن)\nمعنی کلی: توافق کردن، قرار گذاشتن\nمترادف‌ها:\n- vereinbaren (توافق)\n- ausmachen\nمتضادها:\n- absagen (لغو کردن)"
-  },
-  {
-    "Sound_de": "abnehmen, nimmt ab, nahm ab, hat abgenommen",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + nehmen (گرفتن)\nمعنی کلی: کم شدن (وزن)، برداشتن گوشی\nمترادف‌ها:\n- Gewicht verlieren (کاهش وزن)\n- abheben (تلفن)\nمتضادها:\n- zunehmen (افزایش وزن)\n- auflegen (قطع تلفن)"
-  },
-  {
-    "Sound_de": "abonnieren, abonniert, abonnierte, hat abonniert",
-    "root": "اجزای تشکیل‌دهنده:\nab (برای) + onus (لاتین بار)\nمعنی کلی: اشتراک کردن\nمترادف‌ها:\n- subskribieren\nمتضادها:\n- kündigen (لغو اشتراک)"
-  },
-  {
-    "Sound_de": "das Abonnement - die Abonnements",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی abonnement\nمعنی کلی: اشتراک\nمترادف‌ها:\n- die Subscription\n- der Abo\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "absagen, sagt ab, sagte ab, hat abgesagt",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + sagen (گفتن)\nمعنی کلی: لغو کردن، کنسل کردن\nمترادف‌ها:\n- annullieren\n- canceln\nمتضادها:\n- zusagen (تایید کردن)\n- vereinbaren (توافق)"
-  },
-  {
-    "Sound_de": "der Abschluss - die Abschlüsse",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + Schluss (پایان)\nمعنی کلی: پایان، مدرک، قرارداد\nمترادف‌ها:\n- das Ende (پایان)\n- der Abschluss (مدرک)\nمتضادها:\n- der Anfang (شروع)"
-  },
-  {
-    "Sound_de": "der Abschnitt - die Abschnitte",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + schnitt (برش)\nمعنی کلی: بخش، قسمت\nمترادف‌ها:\n- der Teil (قسمت)\n- die Sektion\nمتضادها:\n- das Ganze (کل)"
-  },
-  {
-    "Sound_de": "der Absender - die Absenderin",
-    "root": "اجزای تشکیل‌دهنده:\nab (از) + sender (فرستنده)\nمعنی کلی: فرستنده\nمترادف‌ها:\n- der Sender\nمتضادها:\n- der Empfänger (گیرنده)"
-  },
-  {
-    "Sound_de": "die Absicht - die Absichten",
-    "root": "اجزای تشکیل‌دهنده:\nab (به) + sicht (دید)\nمعنی کلی: نیت، قصد\nمترادف‌ها:\n- die Intention\n- der Vorsatz\nمتضادها:\n- der Zufall (اتفاقی)"
-  },
-  {
-    "Sound_de": "absolut",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین absolutus (آزاد)\nمعنی کلی: مطلق، کاملاً\nمترادف‌ها:\n- total (کامل)\n- vollkommen\nمتضادها:\n- relativ (نسبی)"
-  },
-  {
-    "Sound_de": "abstimmen, stimmt ab, stimmte ab,hat abgestimmt",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + stimmen (رای/صدا)\nمعنی کلی: رای دادن، هماهنگ کردن\nمترادف‌ها:\n- voten\n- wählen\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Abteilung - die Abteilungen",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + Teilung (تقسیم)\nمعنی کلی: بخش، دپارتمان\nمترادف‌ها:\n- der Bereich (حوزه)\n- die Department\nمتضادها:\n- das Ganze (کل)"
-  },
-  {
-    "Sound_de": "der Abwart - die Abwartin - Hausmeister",
-    "root": "اجزای تشکیل‌دهنده:\nab (صبر) + warten (انتظار)\nمعنی کلی: سرایدار، نگهبان ساختمان (در سوئیس)\nمترادف‌ها:\n- der Hausmeister (سرایدار)\n- der Hauswart\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "abwärts",
-    "root": "اجزای تشکیل‌دهنده:\nab (پایین) + wärts (به سمت)\nمعنی کلی: به پایین\nمترادف‌ها:\n- nach unten\nمتضادها:\n- aufwärts (به بالا)"
-  },
-  {
-    "Sound_de": "abwaschen, wäscht ab, wusch ab,hat abgewaschen",
-    "root": "اجزای تشکیل‌دهنده:\nab (جدا) + waschen (شستن)\nمعنی کلی: ظرف شستن\nمترادف‌ها:\n- spülen (شستن ظروف)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "abwesend",
-    "root": "اجزای تشکیل‌دهنده:\nab (دور) + wesend (بودن)\nمعنی کلی: غایب\nمترادف‌ها:\n- nicht anwesend\nمتضادها:\n- anwesend (حاضر)\n- da (اینجا)"
-  },
-  {
-    "Sound_de": "achten, achtet, achtete, hat geachtet (auf)",
-    "root": "اجزای تشکیل‌دهنده:\nAcht (توجه)\nمعنی کلی: توجه کردن، رعایت کردن\nمترادف‌ها:\n- beachten\n- respektieren\nمتضادها:\n- ignorieren (نادیده گرفتن)\n- missachten (بی‌احترامی)"
-  },
-  {
-    "Sound_de": "die Adresse - die Adressen",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی adresse\nمعنی کلی: آدرس\nمترادف‌ها:\n- die Anschrift\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "ähnlich",
-    "root": "اجزای تشکیل‌دهنده:\näh (شبیه) + lich\nمعنی کلی: مشابه، شبیه\nمترادف‌ها:\n- gleich (مشابه)\n- similar\nمتضادها:\n- unterschiedlich (متفاوت)\n- verschieden (فرق دار)"
-  },
-  {
-    "Sound_de": "die Ahnung - die Ahnungen",
-    "root": "اجزای تشکیل‌دهنده:\nAhnen (حدس زدن)\nمعنی کلی: حدس، ایده\nمترادف‌ها:\n- die Vermutung (گمان)\n- der Verdacht\nمتضادها:\n- die Gewissheit (یقین)"
-  },
-  {
-    "Sound_de": "die Aktion - die Aktionen",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین actio\nمعنی کلی: عمل، اقدام، تخفیف\nمترادف‌ها:\n- die Handlung (عمل)\n- der Rabatt (تخفیف)\nمتضادها:\n- die Inaktivität (بی‌عملی)"
-  },
-  {
-    "Sound_de": "aktiv",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین activus\nمعنی کلی: فعال\nمترادف‌ها:\n- tätig (فعال)\nمتضادها:\n- passiv (منفعل)\n- inaktiv (غیرفعال)"
-  },
-  {
-    "Sound_de": "die Aktivität - die Aktivitäten",
-    "root": "اجزای تشکیل‌دهنده:\naktiv + ität\nمعنی کلی: فعالیت\nمترادف‌ها:\n- die Tätigkeit\nمتضادها:\n- die Ruhe (آرامش)\n- die Passivität (منفعل بودن)"
-  },
-  {
-    "Sound_de": "aktuell",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین actualis\nمعنی کلی: فعلی، به‌روز\nمترادف‌ها:\n- gegenwärtig (فعلی)\n- up-to-date\nمتضادها:\n- veraltet (قدیمی)\n- altmodisch (از مد افتاده)"
-  },
-  {
-    "Sound_de": "akzeptieren, akzeptiert,akzeptierte, hat akzeptiert",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین acceptare\nمعنی کلی: قبول کردن، پذیرفتن\nمترادف‌ها:\n- annehmen\n- hinnehmen\nمتضادها:\n- ablehnen (رد کردن)\n- verweigern (امتناع)"
-  },
-  {
-    "Sound_de": "der Alarm - die Alarme",
-    "root": "اجزای تشکیل‌دهنده:\nاز ایتالیایی all'arme\nمعنی کلی: آلارم، هشدار\nمترادف‌ها:\n- die Sirene (آژیر)\nمتضادها:\n- die Ruhe (آرامش)"
-  },
-  {
-    "Sound_de": "der Alkohol - die Alkohole",
-    "root": "اجزای تشکیل‌دهنده:\nاز عربی الکحل\nمعنی کلی: الکل\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد (ماده خاص)"
-  },
-  {
-    "Sound_de": "all-",
-    "root": "اجزای تشکیل‌دهنده:\nپیشوند all (همه)\nمعنی کلی: همه، کل\nمترادف‌ها:\n- gesamte (کل)\nمتضادها:\n- kein (هیچ)\n- teilweise (جزئی)"
-  },
-  {
-    "Sound_de": "allein",
-    "root": "اجزای تشکیل‌دهنده:\nall (همه) + ein (یکی)\nمعنی کلی: تنها، به تنهایی\nمترادف‌ها:\n- solo\n- einsam\nمتضادها:\n- zusammen (با هم)\n- gemeinsam (مشترک)"
-  },
-  {
-    "Sound_de": "aller-",
-    "root": "اجزای تشکیل‌دهنده:\nاز alle (همه)\nمعنی کلی: همه نوع، تمام\nمترادف‌ها:\n- sämtliche (تمام)\nمتضادها:\n- einige (بعضی)"
-  },
-  {
-    "Sound_de": "allerdings",
-    "root": "اجزای تشکیل‌دهنده:\naller (همه) + ding (چیز) + s\nمعنی کلی: هرچند، با این حال\nمترادف‌ها:\n- jedoch\n- aber\nمتضادها:\n- dennoch (با این وجود)"
-  },
-  {
-    "Sound_de": "allgemein",
-    "root": "اجزای تشکیل‌دهنده:\nall (همه) + gemein (مشترک)\nمعنی کلی: عمومی، کلی\nمترادف‌ها:\n- generell\n- öffentlich\nمتضادها:\n- speziell (خاص)\n- individuell (فردی)"
-  },
-  {
-    "Sound_de": "der Alltag - die Alltage",
-    "root": "اجزای تشکیل‌دهنده:\nall (هر) + Tag (روز)\nمعنی کلی: زندگی روزمره\nمترادف‌ها:\n- der Tagesablauf (روال روزانه)\nمتضادها:\n- das Abenteuer (ماجرا)\n- der Urlaub (تعطیلات)"
-  },
-  {
-    "Sound_de": "alltäglich",
-    "root": "اجزای تشکیل‌دهنده:\nAlltag (روزمره) + lich\nمعنی کلی: روزمره، عادی\nمترادف‌ها:\n- gewöhnlich\n- normal\nمتضادها:\n- außergewöhnlich (استثنایی)\n- besonders (خاص)"
-  },
-  {
-    "Sound_de": "das Alphabet - die Alphabete",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی alpha + beta\nمعنی کلی: الفبا\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "als",
-    "root": "اجزای تشکیل‌دهنده:\nحرف ربط مقایسه یا زمان\nمعنی کلی: وقتی، به عنوان، از\nمترادف‌ها:\n- wenn (وقتی)\n- wie (مانند)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "als ob",
-    "root": "اجزای تشکیل‌دهنده:\nals (مانند) + ob (اگر)\nمعنی کلی: انگار، گویی\nمترادف‌ها:\n- wie wenn\nمتضادها:\n- tatsächlich (در واقع)"
-  },
-  {
-    "Sound_de": "also",
-    "root": "اجزای تشکیل‌دهنده:\nall (همه) + so (اینطور)\nمعنی کلی: بنابراین، پس\nمترادف‌ها:\n- daher\n- somit\nمتضادها:\n- aber (اما)"
-  },
-  {
-    "Sound_de": "alt - die Alten",
-    "root": "اجزای تشکیل‌دهنده:\nalt (قدیمی)\nمعنی کلی: قدیمی، پیر\nمترادف‌ها:\n- bejahrt (سالخورده)\nمتضادها:\n- jung (جوان)\n- neu (جدید)"
-  },
-  {
-    "Sound_de": "das Alter",
-    "root": "اجزای تشکیل‌دهنده:\nalt + er\nمعنی کلی: سن، کهنسالی\nمترادف‌ها:\n- die Lebensjahre (سال‌های زندگی)\nمتضادها:\n- die Jugend (جوانی)"
-  },
-  {
-    "Sound_de": "Alter: 26 Jahre",
-    "root": "اجزای تشکیل‌دهنده:\nAlter (سن) + Jahre (سال‌ها)\nمعنی کلی: سن: ۲۶ سال\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Altenheim - die Altenheime",
-    "root": "اجزای تشکیل‌دهنده:\nalt (پیر) + Heim (خانه)\nمعنی کلی: خانه سالمندان\nمترادف‌ها:\n- das Pflegeheim (خانه مراقبت)\nمتضادها:\n- das Kinderheim (خانه کودکان)"
-  },
-  {
-    "Sound_de": "das Altersheim - die Altersheime",
-    "root": "اجزای تشکیل‌دهنده:\nAlter (سن) + Heim (خانه)\nمعنی کلی: خانه سالمندان\nمترادف‌ها:\n- das Seniorenheim\n- das Altenheim\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "alternativ",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین alternare\nمعنی کلی: جایگزین، آلترناتیو\nمترادف‌ها:\n- anders (دیگر)\nمتضادها:\n- konventionell (معمولی)"
-  },
-  {
-    "Sound_de": "die Alternative - die Alternativen",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین alternare (جایگزین)\nمعنی کلی: گزینه جایگزین\nمترادف‌ها:\n- die Option (گزینه)\n- die Wahl\nمتضادها:\n- die Pflicht (اجبار)"
-  },
-  {
-    "Sound_de": "die Ampel - die Ampeln",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین ampulla (لامپ)\nمعنی کلی: چراغ راهنمایی\nمترادف‌ها:\n- die Verkehrsampel\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Amt - die Ämter",
-    "root": "اجزای تشکیل‌دهنده:\nAmt (مقام/اداره)\nمعنی کلی: اداره، مقام\nمترادف‌ها:\n- die Behörde (اداره)\n- das Büro\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "sich amüsieren, amüsiert sich, amüsierte sich, hat sich amüsiert",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی amuser\nمعنی کلی: سرگرم شدن، خوش گذراندن\nمترادف‌ها:\n- sich vergnügen\n- Spaß haben\nمتضادها:\n- sich langweilen (خسته شدن)"
-  },
-  {
-    "Sound_de": "an",
-    "root": "اجزای تشکیل‌دهنده:\nپیشوند یا حرف اضافه\nمعنی کلی: به، روی، در\nمترادف‌ها:\n- bei (نزد)\nمتضادها:\n- ab (از)\n- aus (خارج)"
-  },
-  {
-    "Sound_de": "analysieren, analysiert, analysierte, hat analysiert",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی analysis\nمعنی کلی: تحلیل کردن\nمترادف‌ها:\n- untersuchen (بررسی)\n- auswerten\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "anbieten, bietet an, bot an, hat angeboten",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + bieten (پیشنهاد)\nمعنی کلی: پیشنهاد دادن\nمترادف‌ها:\n- offerieren\nمتضادها:\n- ablehnen (رد کردن)"
-  },
-  {
-    "Sound_de": "der Anbieter - die Anbieter",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + bieten (پیشنهاد)\nمعنی کلی: ارائه‌دهنده، supplier\nمترادف‌ها:\n- der Provider\nمتضادها:\n- der Nachfrager (تقاضاکننده)"
-  },
-  {
-    "Sound_de": "das Angebot - die Angebote",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Gebot (پیشنهاد)\nمعنی کلی: پیشنهاد، offer\nمترادف‌ها:\n- das Offerte\n- die Offer\nمتضادها:\n- die Nachfrage (تقاضا)"
-  },
-  {
-    "Sound_de": "ander-",
-    "root": "اجزای تشکیل‌دهنده:\nander (دیگر)\nمعنی کلی: دیگر، متفاوت\nمترادف‌ها:\n- verschieden (متفاوت)\nمتضادها:\n- gleich (مشابه)"
-  },
-  {
-    "Sound_de": "andererseits",
-    "root": "اجزای تشکیل‌دهنده:\nander (دیگر) + seits (سمت)\nمعنی کلی: از طرف دیگر\nمترادف‌ها:\n- hingegen\n- dagegen\nمتضادها:\n- einerseits (از یک طرف)"
-  },
-  {
-    "Sound_de": "ändern, ändert, änderte, hat geändert",
-    "root": "اجزای تشکیل‌دهنده:\nändern (تغییر)\nمعنی کلی: تغییر دادن\nمترادف‌ها:\n- verändern\n- modifizieren\nمتضادها:\n- beibehalten (نگه داشتن همان)"
-  },
-  {
-    "Sound_de": "die Änderung - die Änderungen",
-    "root": "اجزای تشکیل‌دهنده:\nändern + ung\nمعنی کلی: تغییر\nمترادف‌ها:\n- die Veränderung\n- die Modifikation\nمتضادها:\n- die Konstanz (ثبات)"
-  },
-  {
-    "Sound_de": "anders",
-    "root": "اجزای تشکیل‌دهنده:\nander + s\nمعنی کلی: متفاوت، به طور دیگر\nمترادف‌ها:\n- verschieden\nمتضادها:\n- gleich (همان)\n- ähnlich (مشابه)"
-  },
-  {
-    "Sound_de": "anerkennen, erkennt an, erkannte an, hat anerkannt",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + erkennen (شناختن)\nمعنی کلی: به رسمیت شناختن، قبول کردن\nمترادف‌ها:\n- akzeptieren\n- würdigen\nمتضادها:\n- leugnen (انکار)\n- verweigern (امتناع)"
-  },
-  {
-    "Sound_de": "anfangen, fängt an, fing an, hat angefangen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + fangen (گرفتن/شروع)\nمعنی کلی: شروع کردن\nمترادف‌ها:\n- beginnen\n- starten\nمتضادها:\n- aufhören (تمام کردن)\n- beenden (پایان)"
-  },
-  {
-    "Sound_de": "der Anfang - die Anfänge",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + fang (گرفتن)\nمعنی کلی: شروع، آغاز\nمترادف‌ها:\n- der Beginn\n- der Start\nمتضادها:\n- das Ende (پایان)\n- der Abschluss (تمام)"
-  },
-  {
-    "Sound_de": "anfangs",
-    "root": "اجزای تشکیل‌دهنده:\nan (در) + fang (شروع) + s\nمعنی کلی: در ابتدا\nمترادف‌ها:\n- zunächst\n- zuerst\nمتضادها:\n- am Ende (در پایان)\n- später (بعداً)"
-  },
-  {
-    "Sound_de": "angeben, gibt an, gab an, hat angegeben",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + geben (دادن)\nمعنی کلی: مشخص کردن، ادعا کردن، خودنمایی\nمترادف‌ها:\n- angeben (فخر فروشی)\n- spezifizieren\nمتضادها:\n- verschweigen (پنهان کردن)"
-  },
-  {
-    "Sound_de": "die Angabe - die Angaben",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Gabe (دادن)\nمعنی کلی: اطلاعات، مشخصات\nمترادف‌ها:\n- die Information\n- der Hinweis\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Angehörige - die Angehörigen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + gehören (تعلف داشتن)\nمعنی کلی: خویشاوند، عضو خانواده\nمترادف‌ها:\n- der Verwandte (خویشاوند)\nمتضادها:\n- der Fremde (غریبه)"
-  },
-  {
-    "Sound_de": "angenehm",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + genehm (خوشایند)\nمعنی کلی: خوشایند، دلپذیر\nمترادف‌ها:\n- pleasant\n- nett\nمتضادها:\n- unangenehm (ناخوشایند)\n- lästig (مزاحم)"
-  },
-  {
-    "Sound_de": "die Angst - die Ängste",
-    "root": "اجزای تشکیل‌دهنده:\nAngst (ترس)\nمعنی کلی: ترس\nمترادف‌ها:\n- die Furcht\nمتضادها:\n- die Mut (شجاعت)\n- die Sicherheit (امنیت)"
-  },
-  {
-    "Sound_de": "ängstlich",
-    "root": "اجزای تشکیل‌دهنده:\nAngst (ترس) + lich\nمعنی کلی: ترسو، مضطرب\nمترادف‌ها:\n- furchtsam\nمتضادها:\n- mutig (شجاع)\n- furchtlos (بی‌ترس)"
-  },
-  {
-    "Sound_de": "anhaben, hat an, hatte an, hat angehabt",
-    "root": "اجزای تشکیل‌دهنده:\nan (روی) + haben (داشتن)\nمعنی کلی: پوشیدن (لباس)\nمترادف‌ها:\n- tragen (پوشیدن)\nمتضادها:\n- ausziehen (درآوردن)"
-  },
-  {
-    "Sound_de": "anklicken, klickt an, klickte an, hat angeklickt",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + klicken (کلیک)\nمعنی کلی: کلیک کردن روی\nمترادف‌ها:\n- auswählen (انتخاب)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "ankommen, kommt an, kam an, ist angekommen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + kommen (آمدن)\nمعنی کلی: رسیدن\nمترادف‌ها:\n- eintreffen\nمتضادها:\n- abfahren (حرکت کردن)\n- abreisen (خروج)"
-  },
-  {
-    "Sound_de": "die Ankunft - die Ankünfte",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Kunft (آمدن)\nمعنی کلی: ورود، رسیدن\nمترادف‌ها:\n- die Arrival\nمتضادها:\n- die Abfahrt (خروج)"
-  },
-  {
-    "Sound_de": "ankündigen, kündigt an, kündigte an, hat angekündigt",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + kündigen (اعلام)\nمعنی کلی: اعلام کردن، پیش‌اعلام\nمترادف‌ها:\n- annoncieren\nمتضادها:\n- verschweigen (پنهان کردن)"
-  },
-  {
-    "Sound_de": "die Anlage - die Anlagen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Lage (موقعیت)\nمعنی کلی: تأسیسات، سرمایه‌گذاری، پیوست\nمترادف‌ها:\n- die Einrichtung (تأسیسات)\n- das Investment (سرمایه‌گذاری)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Anleitung - die Anleitungen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Leitung (راهنمایی)\nمعنی کلی: راهنما، دستورالعمل\nمترادف‌ها:\n- die Bedienungsanleitung\n- die Instruction\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "anmelden, meldet an, meldete an, hat angemeldet",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + melden (گزارش)\nمعنی کلی: ثبت‌نام کردن، اعلام کردن\nمترادف‌ها:\n- registrieren\nمتضادها:\n- abmelden (لغو ثبت)"
-  },
-  {
-    "Sound_de": "die Anmeldung - die Anmeldungen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Meldung (گزارش)\nمعنی کلی: ثبت‌نام\nمترادف‌ها:\n- die Registration\nمتضادها:\n- die Abmeldung (لغو)"
-  },
-  {
-    "Sound_de": "annehmen, nimmt an, nahm an, hat angenommen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + nehmen (گرفتن)\nمعنی کلی: قبول کردن، فرض کردن\nمترادف‌ها:\n- akzeptieren\n- vermuten\nمتضادها:\n- ablehnen (رد کردن)"
-  },
-  {
-    "Sound_de": "die Annonce - die Annoncen",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی annonce\nمعنی کلی: آگهی، تبلیغ\nمترادف‌ها:\n- die Anzeige (آگهی)\n- die Werbung\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Anrede - die Anreden",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Rede (سخن)\nمعنی کلی: خطاب، عنوان (در نامه)\nمترادف‌ها:\n- die Ansprache\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "anrufen, ruft an, rief an, hat angerufen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + rufen (صدا زدن)\nمعنی کلی: تلفن زدن\nمترادف‌ها:\n- telefonieren\n- callen\nمتضادها:\n- auflegen (قطع کردن)"
-  },
-  {
-    "Sound_de": "der Anruf - die Anrufe",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Ruf (صدا)\nمعنی کلی: تماس تلفنی\nمترادف‌ها:\n- der Call\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Anrufbeantworter - die Anrufbeantworter",
-    "root": "اجزای تشکیل‌دهنده:\nAnruf (تماس) + beantworter (پاسخ‌دهنده)\nمعنی کلی: پیغام‌گیر تلفنی\nمترادف‌ها:\n- das Answering Machine\n- der AB\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Ansage - die Ansagen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Sage (گفتن)\nمعنی کلی: اعلام، پیام صوتی\nمترادف‌ها:\n- die Durchsage\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "anschaffen, schafft an, schaffte an, hat angeschafft",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + schaffen (ایجاد/خریدن)\nمعنی کلی: تهیه کردن، خریدن\nمترادف‌ها:\n- kaufen (خریدن)\n- erwerben\nمتضادها:\n- verkaufen (فروختن)"
-  },
-  {
-    "Sound_de": "anschließen, schließt an, schloss an, hat angeschlossen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + schließen (بستن/اتصال)\nمعنی کلی: وصل کردن، پیوستن\nمترادف‌ها:\n- verbinden\nمتضادها:\n- abklemmen (قطع کردن)"
-  },
-  {
-    "Sound_de": "der Anschluss - die Anschlüsse",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Schluss (بستن)\nمعنی کلی: اتصال، خط تلفن، قطار بعدی\nمترادف‌ها:\n- die Verbindung (اتصال)\nمتضادها:\n- die Trennung (جدایی)"
-  },
-  {
-    "Sound_de": "anschnallen, schnallt an, schnallte an, hat angeschnallt",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + schnallen (بستن کمربند)\nمعنی کلی: بستن کمربند ایمنی\nمترادف‌ها:\n- sich anschnallen\nمتضادها:\n- abschnallen (باز کردن)"
-  },
-  {
-    "Sound_de": "ansehen, sieht an, sah an, hat angesehen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + sehen (دیدن)\nمعنی کلی: نگاه کردن به، تماشا کردن\nمترادف‌ها:\n- betrachten\n- schauen\nمتضادها:\n- wegschauen (نگاه کردن به جای دیگر)"
-  },
-  {
-    "Sound_de": "ansprechen, spricht an, sprach an, hat angesprochen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + sprechen (صحبت)\nمعنی کلی: صحبت کردن با کسی، جذاب بودن\nمترادف‌ها:\n- anreden\nمتضادها:\n- ignorieren (نادیده گرفتن)"
-  },
-  {
-    "Sound_de": "der Anspruch - die Ansprüche",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Spruch (حرف/ادعا)\nمعنی کلی: ادعا، حق، سطح بالا\nمترادف‌ها:\n- die Forderung (مطالبه)\nمتضادها:\n- die Bescheidenheit (فروتنی)"
-  },
-  {
-    "Sound_de": "anstellen, stellt an, stellte an, hat angestellt",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + stellen (قرار دادن)\nمعنی کلی: استخدام کردن، صف ایستادن\nمترادف‌ها:\n- einstellen (استخدام)\n- queue\nمتضادها:\n- entlassen (اخراج)"
-  },
-  {
-    "Sound_de": "der Angestellte - die Angestellten",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + gestellt (قرار داده)\nمعنی کلی: کارمند\nمترادف‌ها:\n- der Mitarbeiter (همکار)\n- der Employee\nمتضادها:\n- der Chef (رئیس)"
-  },
-  {
-    "Sound_de": "sich anstrengen, strengt sich an, strengte sich an, hat sich angestrengt",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + strengen (سخت کردن)\nمعنی کلی: تلاش کردن، زحمت کشیدن\nمترادف‌ها:\n- sich bemühen\nمتضادها:\n- sich entspannen (آرام شدن)"
-  },
-  {
-    "Sound_de": "anstrengend",
-    "root": "اجزای تشکیل‌دهنده:\nanstrengen + d\nمعنی کلی: خسته‌کننده، سخت\nمترادف‌ها:\n- ermüdend\n- strenuous\nمتضادها:\n- erholsam (آرامش‌بخش)\n- entspannend (آرام)"
-  },
-  {
-    "Sound_de": "der Antrag - die Anträge",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + trag (حمل/درخواست)\nمعنی کلی: درخواست، فرم\nمترادف‌ها:\n- die Bewerbung (درخواست شغلی)\n- die Application\nمتضادها:\n- die Ablehnung (رد)"
-  },
-  {
-    "Sound_de": "anwenden, wendet an, wandte an, hat angewandt/angewendet",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + wenden (چرخاندن/استفاده)\nمعنی کلی: به کار بردن، استفاده کردن\nمترادف‌ها:\n- benutzen\n- applizieren\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "anwesend",
-    "root": "اجزای تشکیل‌دهنده:\nan (در) + wesend (بودن)\nمعنی کلی: حاضر\nمترادف‌ها:\n- da (اینجا)\n- präsent\nمتضادها:\n- abwesend (غایب)\n- fehlend (غایب)"
-  },
-  {
-    "Sound_de": "antworten, antwortet, antwortete, hat geantwortet",
-    "root": "اجزای تشکیل‌دهنده:\nant (مقابل) + worten (کلمات)\nمعنی کلی: پاسخ دادن\nمترادف‌ها:\n- reagieren\nمتضادها:\n- fragen (سوال کردن)\n- schweigen (سکوت)"
-  },
-  {
-    "Sound_de": "die Antwort - die Antworten",
-    "root": "اجزای تشکیل‌دهنده:\nant (مقابل) + Wort (کلمه)\nمعنی کلی: پاسخ\nمترادف‌ها:\n- die Reaktion\n- die Response\nمتضادها:\n- die Frage (سوال)"
-  },
-  {
-    "Sound_de": "der Anwalt - die Anwälte",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + walt (حاکم)\nمعنی کلی: وکیل (مرد)\nمترادف‌ها:\n- der Rechtsanwalt\nمتضادها:\n- der Kläger (شاکی)"
-  },
-  {
-    "Sound_de": "die Anwältin - die Anwältinnen",
-    "root": "اجزای تشکیل‌دهنده:\nAnwalt + in (زن)\nمعنی کلی: وکیل (زن)\nمترادف‌ها:\n- die Rechtsanwältin\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "anzeigen, zeigt an, zeigte an, hat angezeigt",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + zeigen (نشان دادن)\nمعنی کلی: نشان دادن، گزارش دادن به پلیس\nمترادف‌ها:\n- melden (گزارش)\n- display\nمتضادها:\n- verbergen (پنهان کردن)"
-  },
-  {
-    "Sound_de": "die Anzeige - die Anzeigen",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Zeige (نشان)\nمعنی کلی: آگهی، گزارش پلیس، نمایش\nمترادف‌ها:\n- die Werbung (تبلیغ)\n- die Ad\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "(sich etwas) anziehen, zieht an, zog an, hat angezogen",
-    "root": "اجزای تشکیل‌دهنده:\nan (روی) + ziehen (کشیدن/پوشیدن)\nمعنی کلی: پوشیدن لباس\nمترادف‌ها:\n- sich kleiden\nمتضادها:\n- ausziehen (درآوردن)"
-  },
-  {
-    "Sound_de": "der Anzug - die Anzüge",
-    "root": "اجزای تشکیل‌دهنده:\nan (به) + Zug (کشش)\nمعنی کلی: کت و شلوار\nمترادف‌ها:\n- der Suit\nمتضادها:\n- die Freizeitkleidung (لباس راحتی)"
-  },
-  {
-    "Sound_de": "das Apartment - die Apartments",
-    "root": "اجزای تشکیل‌دهنده:\nاز انگلیسی apartment\nمعنی کلی: آپارتمان\nمترادف‌ها:\n- die Wohnung (آپارتمان)\nمتضادها:\n- das Haus (خانه)"
-  },
-  {
-    "Sound_de": "der Apfel - die Äpfel",
-    "root": "اجزای تشکیل‌دهنده:\nApfel (سیب)\nمعنی کلی: سیب\nمترادف‌ها:\n- ندارد\nمتضادها:\n- die Birne (گلابی)"
-  },
-  {
-    "Sound_de": "die Apotheke - die Apotheken",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی apotheke (انبار)\nمعنی کلی: داروخانه\nمترادف‌ها:\n- die Pharmacy\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Apparat - die Apparate",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین apparatus\nمعنی کلی: دستگاه، aparat\nمترادف‌ها:\n- das Gerät (دستگاه)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Appetit - die Appetits (به ندرت جمع)",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین appetitus\nمعنی کلی: اشتها\nمترادف‌ها:\n- der Hunger (گرسنگی)\nمتضادها:\n- der Ekel (نفرت از غذا)"
-  },
-  {
-    "Sound_de": "die Aprikose - die Aprikosen",
-    "root": "اجزای تشکیل‌دهنده:\nاز عربی via لاتین\nمعنی کلی: زردآلو\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "arbeiten, arbeitet, arbeitete, hat gearbeitet",
-    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار)\nمعنی کلی: کار کردن\nمترادف‌ها:\n- tätig sein\nمتضادها:\n- ruhen (استراحت)\n- feiern (تعطیل)"
-  },
-  {
-    "Sound_de": "die Arbeit - die Arbeiten",
-    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار)\nمعنی کلی: کار، شغل\nمترادف‌ها:\n- die Tätigkeit\n- der Job\nمتضادها:\n- die Freizeit (اوقات فراغت)\n- die Ruhe (استراحت)"
-  },
-  {
-    "Sound_de": "der Arbeiter - die Arbeiter",
-    "root": "اجزای تشکیل‌دهنده:\nArbeit + er\nمعنی کلی: کارگر (مرد)\nمترادف‌ها:\n- der Worker\nمتضادها:\n- der Arbeitgeber (کارفرما)"
-  },
-  {
-    "Sound_de": "die Arbeiterin - die Arbeiterinnen",
-    "root": "اجزای تشکیل‌دهنده:\nArbeit + erin\nمعنی کلی: کارگر (زن)\nمترادف‌ها:\n- die Workerin\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Arbeitserlaubnis - die Arbeitserlaubnisse",
-    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار) + Erlaubnis (اجازه)\nمعنی کلی: مجوز کار\nمترادف‌ها:\n- die Work Permit\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "arbeitslos",
-    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار) + los (بدون)\nمعنی کلی: بیکار\nمترادف‌ها:\n- unemployed\nمتضادها:\n- beschäftigt (شاغل)\n- angestellt (استخدام شده)"
-  },
-  {
-    "Sound_de": "die Arbeitslosigkeit",
-    "root": "اجزای تشکیل‌دهنده:\narbeitslos + igkeit\nمعنی کلی: بیکاری\nمترادف‌ها:\n- die Unemployment\nمتضادها:\n- die Beschäftigung (اشتغال)"
-  },
-  {
-    "Sound_de": "der Arbeitsplatz - die Arbeitsplätze",
-    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار) + Platz (محل)\nمعنی کلی: محل کار، شغل\nمترادف‌ها:\n- der Job\n- der Workplace\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Arbeitsstelle - die Arbeitsstellen",
-    "root": "اجزای تشکیل‌دهنده:\nArbeit (کار) + Stelle (موقعیت)\nمعنی کلی: موقعیت شغلی\nمترادف‌ها:\n- der Arbeitsplatz\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Architekt - die Architekten",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی architekton\nمعنی کلی: معمار (مرد)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Architektin - die Architektinnen",
-    "root": "اجزای تشکیل‌دهنده:\nArchitekt + in\nمعنی کلی: معمار (زن)\nمترادف‌ها:\n- ندارد\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "(sich) ärgern, ärgert, ärgerte, hat geärgert",
-    "root": "اجزای تشکیل‌دهنده:\nÄrger (عصبانیت)\nمعنی کلی: عصبانی شدن\nمترادف‌ها:\n- sich aufregen\nمتضادها:\n- sich freuen (خوشحال شدن)\n- beruhigen (آرام شدن)"
-  },
-  {
-    "Sound_de": "der Ärger - die Ärger (به ندرت جمع)",
-    "root": "اجزای تشکیل‌دهنده:\nÄrger (عصبانیت)\nمعنی کلی: عصبانیت، دردسر\nمترادف‌ها:\n- der Zorn (خشم)\n- der Trouble\nمتضادها:\n- die Freude (شادی)"
-  },
-  {
-    "Sound_de": "ärgerlich",
-    "root": "اجزای تشکیل‌دهنده:\nÄrger + lich\nمعنی کلی: عصبانی، آزاردهنده\nمترادف‌ها:\n- wütend (خشمگین)\n- annoying\nمتضادها:\n- erfreulich (خوشایند)\n- angenehm (دلپذیر)"
-  },
-  {
-    "Sound_de": "arm",
-    "root": "اجزای تشکیل‌دهنده:\narm (فقیر/بازو)\nمعنی کلی: فقیر، بیچاره\nمترادف‌ها:\n- poor\n- bedürftig\nمتضادها:\n- reich (ثروتمند)"
-  },
-  {
-    "Sound_de": "der Arm - die Arme",
-    "root": "اجزای تشکیل‌دهنده:\nArm (بازو)\nمعنی کلی: بازو\nمترادف‌ها:\n- ندارد\nمتضادها:\n- das Bein (پا)"
-  },
-  {
-    "Sound_de": "die Art - die Arten",
-    "root": "اجزای تشکیل‌دهنده:\nArt (نوع)\nمعنی کلی: نوع، گونه، نحوه\nمترادف‌ها:\n- die Sorte (نوع)\n- die Weise (نحوه)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Artikel - die Artikel",
-    "root": "اجزای تشکیل‌دهنده:\nاز لاتین articulus\nمعنی کلی: مقاله، کالا\nمترادف‌ها:\n- der Beitrag (مقاله)\n- der Item (کالا)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Arzt - die Ärzte",
-    "root": "اجزای تشکیل‌دهنده:\nArzt (پزشک)\nمعنی کلی: پزشک (مرد)\nمترادف‌ها:\n- der Doktor\nمتضادها:\n- der Patient (بیمار)"
-  },
-  {
-    "Sound_de": "die Ärztin - die Ärztinnen",
-    "root": "اجزای تشکیل‌دهنده:\nArzt + in\nمعنی کلی: پزشک (زن)\nمترادف‌ها:\n- die Doktorin\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Asyl - die Asyle",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی asylon (پناهگاه)\nمعنی کلی: پناهندگی\nمترادف‌ها:\n- die Zuflucht\nمتضادها:\n- die Abschiebung (اخراج)"
-  },
-  {
-    "Sound_de": "atmen, atmet, atmete, hat geatmet",
-    "root": "اجزای تشکیل‌دهنده:\nAtem (نفس)\nمعنی کلی: نفس کشیدن\nمترادف‌ها:\n- respirieren\nمتضادها:\n- die Luft anhalten (نفس حبس کردن)"
-  },
-  {
-    "Sound_de": "der Atem",
-    "root": "اجزای تشکیل‌دهنده:\nAtem (نفس)\nمعنی کلی: نفس\nمترادف‌ها:\n- die Atmung\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "auch",
-    "root": "اجزای تشکیل‌دهنده:\nauch (همچنین)\nمعنی کلی: همچنین، هم\nمترادف‌ها:\n- ebenfalls\n- ebenso\nمتضادها:\n- nur (فقط)\n- ausschließlich (فقط)"
-  },
-  {
-    "Sound_de": "auf",
-    "root": "اجزای تشکیل‌دهنده:\nحرف اضافه یا پیشوند\nمعنی کلی: روی، باز، بالا\nمترادف‌ها:\n- an (به)\nمتضادها:\n- zu (بسته)\n- ab (پایین)"
-  },
-  {
-    "Sound_de": "der Aufenthalt - die Aufenthalte",
-    "root": "اجزای تشکیل‌دهنده:\nauf (روی) + Halt (توقف)\nمعنی کلی: اقامت، توقف\nمترادف‌ها:\n- der Stay\nمتضادها:\n- die Abreise (خروج)"
-  },
-  {
-    "Sound_de": "auffallen, fällt auf, fiel auf, ist aufgefallen",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + fallen (افتادن)\nمعنی کلی: جلب توجه کردن، به چشم آمدن\nمترادف‌ها:\n- ins Auge fallen\nمتضادها:\n- unauffällig sein (نامحسوس بودن)"
-  },
-  {
-    "Sound_de": "auffordern, fordert auf, forderte auf, hat aufgefordert",
-    "root": "اجزای تشکیل‌دهنده:\nauf (به) + fordern (مطالبه)\nمعنی کلی: دعوت کردن، درخواست کردن\nمترادف‌ها:\n- einladen (دعوت)\n- bitten\nمتضادها:\n- verbieten (ممنوع کردن)"
-  },
-  {
-    "Sound_de": "die Aufforderung - die Aufforderungen",
-    "root": "اجزای تشکیل‌دهنده:\nauf (به) + Forderung (مطالبه)\nمعنی کلی: درخواست، دعوت\nمترادف‌ها:\n- die Einladung (دعوت)\nمتضادها:\n- das Verbot (ممنوعیت)"
-  },
-  {
-    "Sound_de": "aufführen, führt auf, führte auf, hat aufgeführt",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + führen (هدایت)\nمعنی کلی: اجرا کردن (نمایش)\nمترادف‌ها:\n- spielen (اجرا)\n- perform\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Aufgabe - die Aufgaben",
-    "root": "اجزای تشکیل‌دهنده:\nauf (به) + Gabe (دادن)\nمعنی کلی: وظیفه، تکلیف\nمترادف‌ها:\n- die Task\n- der Job\nمتضادها:\n- die Freizeit (فراغت)"
-  },
-  {
-    "Sound_de": "aufgeben, gibt auf, gab auf, hat aufgegeben",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + geben (دادن)\nمعنی کلی: تسلیم شدن، پست کردن\nمترادف‌ها:\n- kapitulieren (تسلیم)\nمتضادها:\n- weitermachen (ادامه دادن)"
-  },
-  {
-    "Sound_de": "aufhalten, hält auf, hielt auf, hat aufgehalten",
-    "root": "اجزای تشکیل‌دهنده:\nauf (باز) + halten (نگه داشتن)\nمعنی کلی: متوقف کردن، نگه داشتن\nمترادف‌ها:\n- stoppen\nمتضادها:\n- loslassen (رها کردن)"
-  },
-  {
-    "Sound_de": "aufheben, hebt auf, hob auf, hat aufgehoben",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + heben (بلند کردن)\nمعنی کلی: برداشتن، لغو کردن\nمترادف‌ها:\n- aufnehmen (برداشتن)\n- annullieren (لغو)\nمتضادها:\n- ablegen (گذاشتن پایین)"
-  },
-  {
-    "Sound_de": "aufhören, hört auf, hörte auf, hat aufgehört",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + hören (شنیدن)\nمعنی کلی: تمام کردن، متوقف شدن\nمترادف‌ها:\n- stoppen\n- enden\nمتضادها:\n- anfangen (شروع کردن)\n- beginnen"
-  },
-  {
-    "Sound_de": "aufladen, lädt auf, lud auf, hat aufgeladen",
-    "root": "اجزای تشکیل‌دهنده:\nauf (روی) + laden (بار کردن)\nمعنی کلی: شارژ کردن، بار کردن\nمترادف‌ها:\n- laden (شارژ)\nمتضادها:\n- entladen (تخلیه)"
-  },
-  {
-    "Sound_de": "auflösen, löst auf, löste auf, hat aufgelöst",
-    "root": "اجزای تشکیل‌دهنده:\nauf (باز) + lösen (حل کردن)\nمعنی کلی: حل کردن، منحل کردن\nمترادف‌ها:\n- dissolve\nمتضادها:\n- bilden (تشکیل دادن)"
-  },
-  {
-    "Sound_de": "aufmerksam",
-    "root": "اجزای تشکیل‌دهنده:\nauf (به) + merk (توجه) + sam\nمعنی کلی: внимательный، دقیق\nمترادف‌ها:\n- achtsam\nمتضادها:\n- unaufmerksam (بی‌توجه)\n- abgelenkt (حواس‌پرت)"
-  },
-  {
-    "Sound_de": "aufnehmen, nimmt auf, nahm auf, hat aufgenommen",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + nehmen (گرفتن)\nمعنی کلی: ضبط کردن، پذیرش، برداشتن\nمترادف‌ها:\n- recorden\n- akzeptieren\nمتضادها:\n- ablegen (گذاشتن)"
-  },
-  {
-    "Sound_de": "die Aufnahme - die Aufnahmen",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + Nahme (گرفتن)\nمعنی کلی: ضبط، عکس، پذیرش\nمترادف‌ها:\n- die Recording\n- die Foto\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "aufpassen, passt auf, passte auf, hat aufgepasst",
-    "root": "اجزای تشکیل‌دهنده:\nauf (به) + passen (مراقبت)\nمعنی کلی: مراقب بودن، توجه کردن\nمترادف‌ها:\n- achten auf\nمتضادها:\n- unaufpassen (بی‌احتیاطی)"
-  },
-  {
-    "Sound_de": "aufräumen, räumt auf, räumte auf, hat aufgeräumt",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + räumen (تمیز کردن)\nمعنی کلی: مرتب کردن، تمیز کردن\nمترادف‌ها:\n- ordnen\nمتضادها:\n- durcheinander bringen (به هم ریختن)"
-  },
-  {
-    "Sound_de": "aufregen, regt auf, regte auf, hat aufgeregt",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + regen (تحریک)\nمعنی کلی: عصبانی کردن\nمترادف‌ها:\n- nerven\nمتضادها:\n- beruhigen (آرام کردن)"
-  },
-  {
-    "Sound_de": "aufstehen, steht auf, stand auf, ist aufgestanden",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + stehen (ایستادن)\nمعنی کلی: بلند شدن، بیدار شدن\nمترادف‌ها:\n- aufwachen (بیدار شدن)\nمتضادها:\n- sich hinlegen (خوابیدن)"
-  },
-  {
-    "Sound_de": "der Auftrag - die Aufträge",
-    "root": "اجزای تشکیل‌دهنده:\nauf (به) + Trag (حمل/سفارش)\nمعنی کلی: سفارش، وظیفه\nمترادف‌ها:\n- die Order\n- die Aufgabe\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "auftreten, tritt auf, trat auf, ist aufgetreten",
-    "root": "اجزای تشکیل‌دهنده:\nauf (روی) + treten (قدم گذاشتن)\nمعنی کلی: ظاهر شدن، اجرا کردن\nمترادف‌ها:\n- performen\n- erscheinen\nمتضادها:\n- verschwinden (غیب شدن)"
-  },
-  {
-    "Sound_de": "der Auftritt - die Auftritte",
-    "root": "اجزای تشکیل‌دهنده:\nauf (روی) + Tritt (قدم)\nمعنی کلی: اجرا، ظاهر شدن\nمترادف‌ها:\n- die Performance\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "aufwachen, wacht auf, wachte auf, ist aufgewacht",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + wachen (بیدار بودن)\nمعنی کلی: بیدار شدن\nمترادف‌ها:\n- erwachen\nمتضادها:\n- einschlafen (خوابیدن)"
-  },
-  {
-    "Sound_de": "aufwärts",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + wärts (به سمت)\nمعنی کلی: به بالا\nمترادف‌ها:\n- nach oben\nمتضادها:\n- abwärts (به پایین)"
-  },
-  {
-    "Sound_de": "der Aufzug - die Aufzüge - Lift",
-    "root": "اجزای تشکیل‌دهنده:\nauf (بالا) + Zug (کشش)\nمعنی کلی: آسانسور\nمترادف‌ها:\n- der Lift\n- der Elevator\nمتضادها:\n- die Treppe (پله)"
-  },
-  {
-    "Sound_de": "das Auge - die Augen",
-    "root": "اجزای تشکیل‌دهنده:\nAuge (چشم)\nمعنی کلی: چشم\nمترادف‌ها:\n- ندارد\nمتضادها:\n- das Ohr (گوش)"
-  },
-  {
-    "Sound_de": "der Augenblick - die Augenblicke",
-    "root": "اجزای تشکیل‌دهنده:\nAugen (چشم) + Blick (نگاه)\nمعنی کلی: لحظه\nمترادف‌ها:\n- der Moment\nمتضادها:\n- die Ewigkeit (ابدیت)"
-  },
-  {
-    "Sound_de": "aus",
-    "root": "اجزای تشکیل‌دهنده:\nحرف اضافه یا پیشوند\nمعنی کلی: از، خارج، تمام\nمترادف‌ها:\n- von (از)\nمتضادها:\n- ein (داخل)\n- an (روی)"
-  },
-  {
-    "Sound_de": "die Ausbildung - die Ausbildungen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Bildung (آموزش)\nمعنی کلی: آموزش حرفه‌ای، تحصیلات\nمترادف‌ها:\n- die Lehre (کارآموزی)\n- die Training\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "ausgebildet",
-    "root": "اجزای تشکیل‌دهنده:\naus (کامل) + gebildet (آموزش دیده)\nمعنی کلی: آموزش دیده، qualified\nمترادف‌ها:\n- qualifiziert\nمتضادها:\n- ungeschult (بدون آموزش)"
-  },
-  {
-    "Sound_de": "ausdrucken, druckt aus, druckte aus, hat ausgedruckt",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + drucken (چاپ)\nمعنی کلی: پرینت گرفتن\nمترادف‌ها:\n- printen\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Ausdruck - die Ausdrücke",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Druck (فشار)\nمعنی کلی: عبارت، expression\nمترادف‌ها:\n- die Formulierung\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "auseinander",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + einander (همدیگر)\nمعنی کلی: از هم جدا، جدا از هم\nمترادف‌ها:\n- getrennt\nمتضادها:\n- zusammen (با هم)"
-  },
-  {
-    "Sound_de": "die Ausfahrt - die Ausfahrten",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Fahrt (حرکت)\nمعنی کلی: خروج (اتوبان)\nمترادف‌ها:\n- die Abfahrt (در برخی مناطق)\nمتضادها:\n- die Einfahrt (ورود)"
-  },
-  {
-    "Sound_de": "ausfallen, fällt aus, fiel aus, ist ausgefallen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + fallen (افتادن)\nمعنی کلی: لغو شدن، ریختن (مو)\nمترادف‌ها:\n- entfallen\nمتضادها:\n- stattfinden (برگزار شدن)"
-  },
-  {
-    "Sound_de": "der Ausflug - die Ausflüge",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Flug (پرواز/سفر)\nمعنی کلی: گردش، excursion\nمترادف‌ها:\n- die Tour\n- der Trip\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "ausfüllen, füllt aus, füllte aus, hat ausgefüllt",
-    "root": "اجزای تشکیل‌دهنده:\naus (کامل) + füllen (پر کردن)\nمعنی کلی: پر کردن (فرم)\nمترادف‌ها:\n- eintragen\nمتضادها:\n- leer lassen (خالی گذاشتن)"
-  },
-  {
-    "Sound_de": "die Ausgabe - die Ausgaben",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Gabe (دادن)\nمعنی کلی: هزینه، نسخه (کتاب)\nمترادف‌ها:\n- die Kosten (هزینه)\n- die Edition (نسخه)\nمتضادها:\n- die Einnahme (درآمد)"
-  },
-  {
-    "Sound_de": "der Ausgang - die Ausgänge",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Gang (رفتن)\nمعنی کلی: خروج، پایان\nمترادف‌ها:\n- die Exit\nمتضادها:\n- der Eingang (ورود)"
-  },
-  {
-    "Sound_de": "ausgeben, gibt aus, gab aus, hat ausgegeben",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + geben (دادن)\nمعنی کلی: خرج کردن، صادر کردن\nمترادف‌ها:\n- verausgaben (خرج)\nمتضادها:\n- sparen (پس‌انداز)"
-  },
-  {
-    "Sound_de": "ausgehen, geht aus, ging aus, ist ausgegangen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + gehen (رفتن)\nمعنی کلی: بیرون رفتن، تمام شدن\nمترادف‌ها:\n- weggehen\nمتضادها:\n- zu Hause bleiben (در خانه ماندن)"
-  },
-  {
-    "Sound_de": "ausgezeichnet",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + gezeichnet (علامت‌گذاری)\nمعنی کلی: عالی، برجسته\nمترادف‌ها:\n- hervorragend\n- excellent\nمتضادها:\n- schlecht (بد)\n- mittelmäßig (متوسط)"
-  },
-  {
-    "Sound_de": "die Aushilfe - die Aushilfen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Hilfe (کمک)\nمعنی کلی: کمک موقت، کارگر موقت\nمترادف‌ها:\n- der Aushilfsjob\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Auskunft - die Auskünfte",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Kunft (دانستن)\nمعنی کلی: اطلاعات، راهنمایی\nمترادف‌ها:\n- die Information\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "das Ausland",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Land (کشور)\nمعنی کلی: خارج از کشور\nمترادف‌ها:\n- das Foreign Country\nمتضادها:\n- das Inland (داخل کشور)"
-  },
-  {
-    "Sound_de": "der Ausländer - die Ausländer,die Ausländerin - die Ausländerinnen,ausländisch",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Länd (کشور) + er\nمعنی کلی: خارجی\nمترادف‌ها:\n- der Fremde (غریبه)\nمتضادها:\n- der Inländer (بومی)\n- der Einheimische (محلی)"
-  },
-  {
-    "Sound_de": "ausmachen, macht aus, machte aus, hat ausgemacht",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + machen (کردن)\nمعنی کلی: خاموش کردن، توافق کردن\nمترادف‌ها:\n- abschalten (خاموش)\n- vereinbaren (توافق)\nمتضادها:\n- anmachen (روشن کردن)"
-  },
-  {
-    "Sound_de": "die Ausnahme - die Ausnahmen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Nahme (گرفتن)\nمعنی کلی: استثنا\nمترادف‌ها:\n- die Exception\nمتضادها:\n- die Regel (قاعده)"
-  },
-  {
-    "Sound_de": "ausreichen, reicht aus, reichte aus, hat ausgereicht",
-    "root": "اجزای تشکیل‌دهنده:\naus (کامل) + reichen (رسیدن)\nمعنی کلی: کافی بودن\nمترادف‌ها:\n- genügen\nمتضادها:\n- mangeln (کم بودن)"
-  },
-  {
-    "Sound_de": "ausreichend",
-    "root": "اجزای تشکیل‌دهنده:\naus (کامل) + reichen + d\nمعنی کلی: کافی\nمترادف‌ها:\n- genügend\n- sufficient\nمتضادها:\n- unzureichend (ناکافی)"
-  },
-  {
-    "Sound_de": "ausrichten, richtet aus, richtete aus, hat ausgerichtet",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + richten (جهت دادن)\nمعنی کلی: برگزار کردن، انتقال پیام\nمترادف‌ها:\n- organisieren (برگزار)\n- bestellen (پیام)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "(sich) ausruhen, ruht aus, ruhte aus, hat ausgeruht",
-    "root": "اجزای تشکیل‌دهنده:\naus (کامل) + ruhen (استراحت)\nمعنی کلی: استراحت کردن\nمترادف‌ها:\n- sich erholen\nمتضادها:\n- arbeiten (کار کردن)"
-  },
-  {
-    "Sound_de": "ausschließen, schließt aus, schloss aus, hat ausgeschlossen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + schließen (بستن)\nمعنی کلی: حذف کردن، مستثنی کردن\nمترادف‌ها:\n- exclude\nمتضادها:\n- einschließen (شامل کردن)"
-  },
-  {
-    "Sound_de": "ausschließlich",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + schließen + lich\nمعنی کلی: منحصراً، فقط\nمترادف‌ها:\n- lediglich\n- exclusively\nمتضادها:\n- inklusive (شامل)"
-  },
-  {
-    "Sound_de": "aussehen, sieht aus, sah aus, hat ausgesehen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + sehen (دیدن)\nمعنی کلی: به نظر آمدن، ظاهر شدن\nمترادف‌ها:\n- wirken\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "außen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + en\nمعنی کلی: بیرون، خارجی\nمترادف‌ها:\n- draußen\nمتضادها:\n- innen (داخل)"
-  },
-  {
-    "Sound_de": "außerhalb",
-    "root": "اجزای تشکیل‌دهنده:\naußer (خارج از) + halb (نیمه)\nمعنی کلی: خارج از\nمترادف‌ها:\n- draußen vor\nمتضادها:\n- innerhalb (داخل)"
-  },
-  {
-    "Sound_de": "äußerlich",
-    "root": "اجزای تشکیل‌دهنده:\näußer (خارجی) + lich\nمعنی کلی: ظاهری، خارجی\nمترادف‌ها:\n- extern\nمتضادها:\n- innerlich (داخلی)"
-  },
-  {
-    "Sound_de": "außer",
-    "root": "اجزای تشکیل‌دهنده:\nau (خارج) + ser\nمعنی کلی: جز، به جز\nمترادف‌ها:\n- außerhalb\nمتضادها:\n- einschließlich (شامل)"
-  },
-  {
-    "Sound_de": "außerdem",
-    "root": "اجزای تشکیل‌دهنده:\nau (خارج) + ßer (بیشتر) + dem\nمعنی کلی: علاوه بر این\nمترادف‌ها:\n- zudem\n- darüber hinaus\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "die Aussicht - die Aussichten",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Sicht (دید)\nمعنی کلی: منظره، چشم‌انداز\nمترادف‌ها:\n- die View\n- die Perspektive (چشم‌انداز)\nمتضادها:\n- die Rücksicht (دید عقب)"
-  },
-  {
-    "Sound_de": "aussprechen, spricht aus, sprach aus, hat ausgesprochen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + sprechen (صحبت)\nمعنی کلی: تلفظ کردن، بیان کردن\nمترادف‌ها:\n- prononcieren\nمتضادها:\n- verschweigen (سکوت)"
-  },
-  {
-    "Sound_de": "die Aussprache - die Aussprachen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Sprache (زبان)\nمعنی کلی: تلفظ، pronunciation\nمترادف‌ها:\n- die Pronunciation\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "ausstellen, stellt aus, stellte aus, hat ausgestellt",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + stellen (قرار دادن)\nمعنی کلی: نمایش دادن، صادر کردن\nمترادف‌ها:\n- exhibit\nمتضادها:\n- einstellen (متوقف کردن)"
-  },
-  {
-    "Sound_de": "die Ausstellung - die Ausstellungen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Stellung (قرار)\nمعنی کلی: نمایشگاه\nمترادف‌ها:\n- die Exhibition\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "(sich etwas) aussuchen, sucht aus, suchte aus, hat ausgesucht",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + suchen (جستجو)\nمعنی کلی: انتخاب کردن\nمترادف‌ها:\n- wählen\nمتضادها:\n- nehmen müssen (اجبار به گرفتن)"
-  },
-  {
-    "Sound_de": "auswählen, wählt aus, wählte aus, hat ausgewählt",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + wählen (انتخاب)\nمعنی کلی: انتخاب کردن\nمترادف‌ها:\n- selektieren\nمتضادها:\n- ablehnen (رد کردن)"
-  },
-  {
-    "Sound_de": "die Auswahl - die Auswahlen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Wahl (انتخاب)\nمعنی کلی: انتخاب، assortment\nمترادف‌ها:\n- die Selection\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "der Ausweis - die Ausweise",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + Weis (نشان)\nمعنی کلی: کارت شناسایی\nمترادف‌ها:\n- die ID\n- der Personalausweis\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "ausziehen, zieht aus, zog aus, hat/ist ausgezogen",
-    "root": "اجزای تشکیل‌دهنده:\naus (خارج) + ziehen (کشیدن)\nمعنی کلی: درآوردن لباس، اسباب‌کشی\nمترادف‌ها:\n- umziehen (اسباب‌کشی)\nمتضادها:\n- anziehen (پوشیدن)"
-  },
-  {
-    "Sound_de": "das Auto - die Autos",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی autos (خود)\nمعنی کلی: اتومبیل\nمترادف‌ها:\n- der Wagen\n- der Pkw\nمتضادها:\n- das Fahrrad (دوچرخه)"
-  },
-  {
-    "Sound_de": "die Autobahn - die Autobahnen",
-    "root": "اجزای تشکیل‌دهنده:\nAuto (اتومبیل) + Bahn (مسیر)\nمعنی کلی: اتوبان\nمترادف‌ها:\n- die Highway\nمتضادها:\n- die Landstraße (جاده روستایی)"
-  },
-  {
-    "Sound_de": "der Automat - die Automaten",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی automatos\nمعنی کلی: دستگاه خودکار\nمترادف‌ها:\n- der Verkaufsautomat (دستگاه فروش)\nمتضادها:\n- ندارد"
-  },
-  {
-    "Sound_de": "automatisch",
-    "root": "اجزای تشکیل‌دهنده:\nautomat + isch\nمعنی کلی: خودکار\nمترادف‌ها:\n- automatisch\nمتضادها:\n- manuell (دستی)"
-  },
-  {
-    "Sound_de": "der Autor - die Autorin",
-    "root": "اجزای تشکیل‌دهنده:\nAutor (از لاتین auctor به معنی خالق یا نویسنده)\nمعنی کلی: نویسنده مرد - نویسنده زن\nمترادف‌ها:\nder Schriftsteller (نویسنده مرد)\n- die Schriftstellerin (نویسنده زن)\n- der Verfasser (تألیف‌کننده مرد)\n- die Verfasserin (تألیف‌کننده زن)\nمتضادها:\nder Leser (خواننده مرد)\n- die Leserin (خواننده زن)"
-  },
-  {
-    "Sound_de": "backen, bäckt/backt, backte, hat gebacken",
-    "root": "اجزای تشکیل‌دهنده:\nbacken (ریشه قدیمی آلمانی به معنی پختن در فر)\nمعنی کلی: پختن (نان، کیک و غیره)\nمترادف‌ها:\nbraten (سرخ کردن / کباب کردن)\n- grillen (کباب کردن روی گریل)\n- überbacken (با پنیر پوشاندن و پختن)\nمتضادها:\nroh essen (خام خوردن)\n- einfrieren (منجمد کردن)"
-  },
-  {
-    "Sound_de": "die Bäckerei - die Bäckereien",
-    "root": "اجزای تشکیل‌دهنده:\nBacken (پختن) + -erei (محل انجام کار)\nمعنی کلی: نانوایی\nمترادف‌ها:\nder Bäckerladen (فروشگاه نانوا)\n- die Konditorei (قنادی، برای شیرینی)\nمتضادها:\nkeine direkten Antonyme (هیچ متضاد مستقیمی ندارد)"
-  },
-  {
-    "Sound_de": "baden, badet, badete, hat gebadet",
-    "root": "اجزای تشکیل‌دهنده:\nbaden (ریشه قدیمی به معنی شنا کردن یا حمام کردن)\nمعنی کلی: حمام کردن / شنا کردن\nمترادف‌ها:\nschwimmen (شنا کردن)\n- duschen (دوش گرفتن)\nمتضادها:\ntrocken bleiben (خشک ماندن)"
-  },
-  {
-    "Sound_de": "das Bad - die Bäder",
-    "root": "اجزای تشکیل‌دهنده:\nBad (حمام، محل شستشو)\nمعنی کلی: حمام / استخر\nمترادف‌ها:\ndie Badeanstalt (حمام عمومی)\n- das Schwimmbad (استخر شنا)\nمتضادها:\ndie Dusche (دوش، در مقابل حمام کامل)"
-  },
-  {
-    "Sound_de": "die Badewanne - die Badewannen",
-    "root": "اجزای تشکیل‌دهنده:\nBad (حمام) + Wanne (وان، ظرف بزرگ)\nمعنی کلی: وان حمام\nمترادف‌ها:\ndie Wanne (وان)\n- die Badewanne (تکراری)\nمتضادها:\ndie Dusche (دوش ایستاده)"
-  },
-  {
-    "Sound_de": "die Bahn - die Bahnen",
-    "root": "اجزای تشکیل‌دهنده:\nBahn (مسیر، خط)\nمعنی کلی: مسیر / قطار / خط\nمترادف‌ها:\nder Weg (راه)\n- die Strecke (مسیر)\nمتضادها:\ndie Straße (خیابان، در مقابل ریل)"
-  },
-  {
-    "Sound_de": "S-Bahn",
-    "root": "اجزای تشکیل‌دهنده:\nS (از Stadtschnellbahn یا Schnellbahn) + Bahn (قطار)\nمعنی کلی: قطار شهری سریع\nمترادف‌ها:\ndie Stadtbahn (قطار شهری)\nمتضادها:\ndie U-Bahn (قطار زیرزمینی)"
-  },
-  {
-    "Sound_de": "die Straßenbahn - die Straßenbahnen",
-    "root": "اجزای تشکیل‌دهنده:\nStraße (خیابان) + Bahn (قطار)\nمعنی کلی: تراموا\nمترادف‌ها:\ndie Tram (ترام)\n- der Trambahn (تراموا)\nمتضادها:\ndie U-Bahn (مترو)\n- der Bus (اتوبوس)"
-  },
-  {
-    "Sound_de": "die U-Bahn - die U-Bahnen",
-    "root": "اجزای تشکیل‌دهنده:\nU (از Untergrundbahn) + Bahn (قطار)\nمعنی کلی: مترو، قطار زیرزمینی\nمترادف‌ها:\ndie U-Bahn (تکراری)\n- die Metro (مترو)\n- die Untergrundbahn (قطار زیرزمینی)\nمتضادها:\ndie S-Bahn (قطار شهری سطحی)\n- die Straßenbahn (تراموا)"
-  },
-  {
-    "Sound_de": "der Bahnhof - die Bahnhöfe",
-    "root": "اجزای تشکیل‌دهنده:\nBahn (قطار) + Hof (حیاط، محل)\nمعنی کلی: ایستگاه قطار\nمترادف‌ها:\nder Zugbahnhof (ایستگاه قطار)\nمتضادها:\nder Flughafen (فرودگاه)\n- der Busbahnhof (ترمینال اتوبوس)"
-  },
-  {
-    "Sound_de": "der Bahnsteig - die Bahnsteige",
-    "root": "اجزای تشکیل‌دهنده:\nBahn (قطار) + Steig (سکو، محل بالا رفتن)\nمعنی کلی: سکو (ایستگاه)\nمترادف‌ها:\nder Perron (سکو، فرانسوی‌المانی)\n- der Gleissteig (سکو کنار ریل)\nمتضادها:\nkeine direkten Antonyme"
-  },
-  {
-    "Sound_de": "bald",
-    "root": "اجزای تشکیل‌دهنده:\nbald (ریشه قدیمی به معنی زود)\nمعنی کلی: به زودی / تقریباً\nمترادف‌ها:\ndemnächst (به زودی)\n- in Kürze (در مدت کوتاه)\n- beinahe (تقریباً)\nمتضادها:\nspät (دیر)\n- später (بعداً)"
-  },
-  {
-    "Sound_de": "der Balkon - die Balkone",
-    "root": "اجزای تشکیل‌دهنده:\nBalkon (از ایتالیایی balcone)\nمعنی کلی: بالکن\nمترادف‌ها:\ndie Terrasse (تراس)\n- der Erker (پیش‌آمدگی پنجره)\nمتضادها:\nder Keller (زیرزمین)"
-  },
-  {
-    "Sound_de": "der Ball - die Bälle",
-    "root": "اجزای تشکیل‌دهنده:\nBall (توپ، کره)\nمعنی کلی: توپ / رقص رسمی\nمترادف‌ها:\ndie Kugel (کره، توپ)\n- der Tanzball (رقص رسمی)\nمتضادها:\nkeine direkten Antonyme برای توپ\n- die Alltagsfeier (جشن روزمره، برای رقص)"
-  },
-  {
-    "Sound_de": "das Ballett - die Ballette",
-    "root": "اجزای تشکیل‌دهنده:\nBallett (از فرانسوی ballet)\nمعنی کلی: باله\nمترادف‌ها:\nder Tanz (رقص)\n- die Tanzvorstellung (نمایش رقص)\nمتضادها:\nder Volkstanz (رقص فولکلور)"
-  },
-  {
-    "Sound_de": "die Banane - die Bananen",
-    "root": "اجزای تشکیل‌دهنده:\nBanane (از عربی banana)\nمعنی کلی: موز\nمترادف‌ها:\nkeine direkten Synonyme در آلمانی\nمتضادها:\nkeine direkten Antonyme"
-  },
-  {
-    "Sound_de": "die Bank - die Bänke",
-    "root": "اجزای تشکیل‌دهنده:\nBank (نیمکت یا موسسه مالی)\nمعنی کلی: نیمکت / بانک\nمترادف‌ها:\ndie Sitzbank (نیمکت نشستن)\n- das Geldinstitut (موسسه مالی)\nمتضادها:\nkeine direkten برای نیمکت\n- die Sparkasse (صندوق پس‌انداز، رقیب)"
-  },
-  {
-    "Sound_de": "der Bancomat/Bankomat, Geldautomat - die Geldautomaten",
-    "root": "اجزای تشکیل‌دهنده:\nBank + Automat (دستگاه خودکار بانک)\nمعنی کلی: دستگاه خودپرداز\nمترادف‌ها:\nder ATM (دستگاه خودپرداز)\n- der Geldautomat (دستگاه پول)\nمتضادها:\nder Bankschalter (کانتر بانک)"
-  },
-  {
-    "Sound_de": "die Bankleitzahl - die Bankleitzahlen",
-    "root": "اجزای تشکیل‌دهنده:\nBank (بانک) + Leitzahl (کد راهنما)\nمعنی کلی: کد بانکی (BLZ)\nمترادف‌ها:\ndie BIC (کد شناسایی بانک)\n- die IBAN (شماره حساب بین‌المللی)\nمتضادها:\nkeine direkten Antonyme"
-  },
-  {
-    "Sound_de": "die Bankomat-Karte - ec-Karte/EC-Karte - die EC-Karten",
-    "root": "اجزای تشکیل‌دهنده:\nBankomat + Karte یا EC (Electronic Cash)\nمعنی کلی: کارت بانکی / کارت بدهی\nمترادف‌ها:\ndie Debitkarte (کارت بدهی)\n- die Girokarte (کارت ژیرو)\nمتضادها:\ndie Kreditkarte (کارت اعتباری)"
-  },
-  {
-    "Sound_de": "die Bar - die Bars",
-    "root": "اجزای تشکیل‌دهنده:\nBar (از انگلیسی bar)\nمعنی کلی: بار (محل نوشیدنی)\nمترادف‌ها:\ndie Kneipe (میخانه)\n- die Gaststätte (رستوران-بار)\nمتضادها:\ndas Café (کافه، بدون الکل قوی)"
-  },
-  {
-    "Sound_de": "bar",
-    "root": "اجزای تشکیل‌دهنده:\nbar (نقدی)\nمعنی کلی: نقدی\nمترادف‌ها:\nin bar (به صورت نقدی)\n- in Cash (نقدی)\nمتضادها:\nauf Kredit (اعتباری)\n- per Überweisung (با انتقال بانکی)"
-  },
-  {
-    "Sound_de": "das Bargeld",
-    "root": "اجزای تشکیل‌دهنده:\nbar (نقدی) + Geld (پول)\nمعنی کلی: پول نقد\nمترادف‌ها:\ndas Cash (نقدی)\n- die Münzen und Scheine (سکه و اسکناس)\nمتضادها:\ndas Giralgeld (پول بانکی)\n- die Kreditkarte (کارت اعتباری)"
-  },
-  {
-    "Sound_de": "der Bart - die Bärte",
-    "root": "اجزای تشکیل‌دهنده:\nBart (ریشه قدیمی آلمانی)\nمعنی کلی: ریش\nمترادف‌ها:\nder Vollbart (ریش کامل)\n- der Schnurrbart (سیبیل)\nمتضادها:\nglattrasieren (تراشیده، بدون ریش)"
-  },
-  {
-    "Sound_de": "der Basketball - die Basketbälle",
-    "root": "اجزای تشکیل‌دهنده:\nBasket (سبد) + Ball (توپ)\nمعنی کلی: بسکتبال\nمترادف‌ها:\nder Korbball (توپ سبد)\nمتضادها:\nder Fußball (فوتبال)"
-  },
-  {
-    "Sound_de": "basteln, bastelt, bastelte, hat gebastelt",
-    "root": "اجزای تشکیل‌دهنده:\nBasteln (از Bast، پوست درخت برای ساخت)\nمعنی کلی: کاردستی ساختن\nمترادف‌ها:\nwerken (کار فنی)\n- handarbeiten (کار دستی)\nمتضادها:\nfertig kaufen (آماده خریدن)"
-  },
-  {
-    "Sound_de": "Ich arbeite gern mit natürlichen Bastelmaterialien",
-    "root": "اجزای تشکیل‌دهنده:\nجمله مثال برای basteln\nمعنی کلی: من دوست دارم با مواد کاردستی طبیعی کار کنم\nمترادف‌ها:\nkeine direkten Synonyme برای جمله\nمتضادها:\nkeine direkten Antonyme"
-  },
-  {
-    "Sound_de": "die Batterie - die Batterien",
-    "root": "اجزای تشکیل‌دهنده:\nBatterie (از فرانسوی batterie)\nمعنی کلی: باتری\nمترادف‌ها:\nder Akku (باتری قابل شارژ)\nمتضادها:\ndas Netzteil (آداپتور برق)"
-  },
-  {
-    "Sound_de": "der Bauch - die Bäuche",
-    "root": "اجزای تشکیل‌دهنده:\nBauch (ریشه قدیمی)\nمعنی کلی: شکم\nمترادف‌ها:\nder Magen (معده)\n- der Wanst (شکم بزرگ، عامیانه)\nمتضادها:\nder Rücken (پشت)"
-  },
-  {
-    "Sound_de": "bauen, baut, baute, hat gebaut",
-    "root": "اجزای تشکیل‌دهنده:\nbauen (ریشه قدیمی به معنی ساختن)\nمعنی کلی: ساختن / بنا کردن\nمترادف‌ها:\nerrichten (برپا کردن)\n- konstruieren (طراحی و ساخت)\nمتضادها:\nabreißen (تخریب کردن)\n- zerstören (نابود کردن)"
-  },
-  {
-    "Sound_de": "der Bau, Bauten - die Bauten",
-    "root": "اجزای تشکیل‌دهنده:\nBau (از bauen)\nمعنی کلی: ساختمان / ساخت\nمترادف‌ها:\ndie Konstruktion (ساختمان)\n- das Gebäude (ساختمان)\nمتضادها:\nder Abriss (تخریب)"
-  },
-  {
-    "Sound_de": "die Baustelle - die Baustellen",
-    "root": "اجزای تشکیل‌دهنده:\nBau (ساخت) + Stelle (محل)\nمعنی کلی: کارگاه ساختمانی\nمترادف‌ها:\nder Bauplatz (محل ساخت)\nمتضادها:\ndas fertige Gebäude (ساختمان تمام‌شده)"
-  },
-  {
-    "Sound_de": "der Bauer - die Bauern",
-    "root": "اجزای تشکیل‌دهنده:\nBauer (از bauen، کسی که زمین را می‌سازد/کشت می‌کند)\nمعنی کلی: کشاورز\nمترادف‌ها:\nder Landwirt (کشاورز)\n- der Farmer (فرمر)\nمتضادها:\nder Städter (شهری)"
-  },
-  {
-    "Sound_de": "der Baum - die Bäume",
-    "root": "اجزای تشکیل‌دهنده:\nBaum (ریشه قدیمی)\nمعنی کلی: درخت\nمترادف‌ها:\nder Stamm (تنه درخت)\nمتضادها:\nder Strauch (بوته)"
-  },
-  {
-    "Sound_de": "beachten, beachtet, beachtete, hat beachtet",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + achten (توجه کردن)\nمعنی کلی: توجه کردن / رعایت کردن\nمترادف‌ها:\nachten auf (توجه به)\n- berücksichtigen (در نظر گرفتن)\nمتضادها:\nignorieren (نادیده گرفتن)\n- vernachlässigen (غفلت کردن)"
-  },
-  {
-    "Sound_de": "der Beamte - die Beamtin - die Beamten",
-    "root": "اجزای تشکیل‌دهنده:\nBeamte (از Amt، مقام رسمی)\nمعنی کلی: کارمند دولتی\nمترادف‌ها:\nder Staatsdiener (خدمتگزار دولت)\n- der Angestellte im öffentlichen Dienst (کارمند بخش عمومی)\nمتضادها:\nder Privatangestellte (کارمند خصوصی)"
-  },
-  {
-    "Sound_de": "beantragen, beantragt, beantragte, hat beantragt",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + an + tragen (درخواست کردن)\nمعنی کلی: درخواست دادن\nمترادف‌ها:\nanfordern (درخواست کردن)\n- ersuchen (درخواست رسمی)\nمتضادها:\nablehnen (رد کردن)"
-  },
-  {
-    "Sound_de": "beantworten, beantwortet, beantwortete, hat beantwortet",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + antworten (پاسخ دادن)\nمعنی کلی: پاسخ دادن\nمترادف‌ها:\nantworten (پاسخ دادن)\n- erwidern (پاسخ گفتن)\nمتضادها:\nfragen (سؤال کردن)\n- schweigen (سکوت کردن)"
-  },
-  {
-    "Sound_de": "sich bedanken, bedankt, bedankte, hat bedankt",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + danken (تشکر کردن)\nمعنی کلی: تشکر کردن\nمترادف‌ها:\nDanke sagen (تشکر گفتن)\n- dankbar sein (سپاسگزار بودن)\nمتضادها:\nkeine direkten Antonyme"
-  },
-  {
-    "Sound_de": "der Bedarf",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + darf (نیاز)\nمعنی کلی: نیاز\nمترادف‌ها:\ndie Nachfrage (تقاضا)\n- der Bedürfnis (نیازمندی)\nمتضادها:\nder Überschuss (مازاد)"
-  },
-  {
-    "Sound_de": "bedeuten, bedeutet, bedeutete, hat bedeutet",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + deuten (معنی دادن)\nمعنی کلی: معنی داشتن / به معنای\nمترادف‌ها:\nheißen (به معنای)\n- besagen (گفتن، معنی دادن)\nمتضادها:\nbedeutungslos sein (بی‌معنی بودن)"
-  },
-  {
-    "Sound_de": "die Bedeutung - die Bedeutungen",
-    "root": "اجزای تشکیل‌دهنده:\nBedeutung (از bedeuten)\nمعنی کلی: معنی / اهمیت\nمترادف‌ها:\nder Sinn (معنی)\n- die Wichtigkeit (اهمیت)\nمتضادها:\ndie Bedeutungslosigkeit (بی‌اهمیتی)"
-  },
-  {
-    "Sound_de": "bedienen, bedient, bediente, hat bedient",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + dienen (خدمت کردن)\nمعنی کلی: خدمت کردن / اداره کردن (دستگاه)\nمترادف‌ها:\nbedienung (خدمت)\n- handhaben (کار کردن با)\nمتضادها:\nbedient werden (خدمت دریافت کردن)"
-  },
-  {
-    "Sound_de": "die Bedienungsanleitung - die Bedienungsanleitungen",
-    "root": "اجزای تشکیل‌دهنده:\nBedienung (اداره کردن) + Anleitung (راهنما)\nمعنی کلی: دفترچه راهنما\nمترادف‌ها:\ndie Gebrauchsanweisung (دستور استفاده)\n- das Handbuch (دفترچه)\nمتضادها:\nkeine direkten Antonyme"
-  },
-  {
-    "Sound_de": "die Bedingung - die Bedingungen",
-    "root": "اجزای تشکیل‌دهنده:\nBedingung (از bedingen)\nمعنی کلی: شرط\nمترادف‌ها:\ndie Voraussetzung (پیش‌نیاز)\n- die Auflage (شرط)\nمتضادها:\ndie Freiheit (آزادی، بدون شرط)"
-  },
-  {
-    "Sound_de": "sich beeilen, beeilt sich, beeilte sich, hat sich beeilt",
-    "root": "اجزای تشکیل‌دهنده:\neilen (عجله کردن) + sich be-\nمعنی کلی: عجله کردن\nمترادف‌ها:\neilen (عجله کردن)\n- hasten (شتاب کردن)\nمتضادها:\ntrödeln (آهسته رفتن)\n- warten (صبر کردن)"
-  },
-  {
-    "Sound_de": "beenden, beendet, beendete, hat beendet",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + enden (پایان دادن)\nمعنی کلی: پایان دادن\nمترادف‌ها:\nabschließen (تمام کردن)\n- aufhören (متوقف کردن)\nمتضادها:\nbeginnen (شروع کردن)\n- fortsetzen (ادامه دادن)"
-  },
-  {
-    "Sound_de": "sich befinden, befindet sich, befand sich, hat sich befunden",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + finden (یافتن)\nمعنی کلی: قرار داشتن / بودن\nمترادف‌ها:\nliegen (قرار داشتن)\n- sich aufhalten (اقامت داشتن)\nمتضادها:\nfehlen (غایب بودن)"
-  },
-  {
-    "Sound_de": "befreit",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + frei (آزاد کردن)\nمعنی کلی: آزاد شده\nمترادف‌ها:\nfrei (آزاد)\n- erlöst (رها شده)\nمتضادها:\ngefangen (اسیر)\n- besetzt (اشغال شده)"
-  },
-  {
-    "Sound_de": "befriedigend",
-    "root": "اجزای تشکیل‌دهنده:\nbefriedigen (راضی کردن)\nمعنی کلی: رضایت‌بخش\nمترادف‌ها:\nzufriedenstellend (راضی‌کننده)\n- ausreichend (کافی)\nمتضادها:\nunbefriedigend (ناراضی‌کننده)\n- mangelhaft (ناقص)"
-  },
-  {
-    "Sound_de": "begegnen, begegnet, begegnete, ist begegnet",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + gegen (روبرو شدن)\nمعنی کلی: برخورد کردن / ملاقات کردن\nمترادف‌ها:\ntreffen (ملاقات کردن)\n- stoßen auf (برخورد کردن با)\nمتضادها:\nvermeiden (اجتناب کردن)"
-  },
-  {
-    "Sound_de": "begeistert",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + Geist (روح، الهام)\nمعنی کلی: مشتاق / هیجان‌زده\nمترادف‌ها:\nenthusiastisch (پرشور)\n- begeistert (تکراری)\nمتضادها:\ngleichgültig (بی‌تفاوت)\n- desinteressiert (بی‌علاقه)"
-  },
-  {
-    "Sound_de": "beginnen, beginnt, begann, hat begonnen",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + ginnen (شروع کردن، قدیمی)\nمعنی کلی: شروع کردن\nمترادف‌ها:\nanfangen (شروع کردن)\n- starten (شروع کردن)\nمتضادها:\nbeenden (پایان دادن)\n- aufhören (متوقف شدن)"
-  },
-  {
-    "Sound_de": "der Beginn - die Beginne",
-    "root": "اجزای تشکیل‌دهنده:\nBeginn (از beginnen)\nمعنی کلی: آغاز\nمترادف‌ها:\nder Anfang (شروع)\n- der Start (شروع)\nمتضادها:\ndas Ende (پایان)"
-  },
-  {
-    "Sound_de": "begleiten, begleitet, begleitete, hat begleitet",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + gleiten (همراهی کردن)\nمعنی کلی: همراهی کردن\nمترادف‌ها:\neskortieren (اسکورت کردن)\n- mitgehen (همراه رفتن)\nمتضادها:\nallein gehen (تنها رفتن)"
-  },
-  {
-    "Sound_de": "begrenzt",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + Grenze (محدود کردن)\nمعنی کلی: محدود\nمترادف‌ها:\neingeschränkt (محدود شده)\n- limitiert (محدود)\nمتضادها:\nunbegrenzt (نامحدود)\n- unbeschränkt (بدون محدودیت)"
-  },
-  {
-    "Sound_de": "begründen, begründet, begründete, hat begründet",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + Grund (دلیل دادن)\nمعنی کلی: توجیه کردن / پایه‌گذاری\nمترادف‌ها:\nerklären (توضیح دادن)\n- rechtfertigen (توجیه کردن)\nمتضادها:\nwiderlegen (رد کردن)"
-  },
-  {
-    "Sound_de": "die Begründung - die Begründungen",
-    "root": "اجزای تشکیل‌دهنده:\nBegründung (از begründen)\nمعنی کلی: دلیل / توجیه\nمترادف‌ها:\ndie Erklärung (توضیح)\n- die Rechtfertigung (توجیه)\nمتضادها:\ndie Widerlegung (رد)"
-  },
-  {
-    "Sound_de": "begrüßen, begrüßt, begrüßte, hat begrüßt",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + grüßen (سلام کردن)\nمعنی کلی: سلام کردن / خوشامد گفتن\nمترادف‌ها:\ngrüßen (سلام کردن)\n- willkommen heißen (خوشامد گفتن)\nمتضادها:\nverabschieden (خداحافظی کردن)"
-  },
-  {
-    "Sound_de": "behalten, behält, behielt, hat behalten",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + halten (نگه داشتن)\nمعنی کلی: نگه داشتن / به یاد داشتن\nمترادف‌ها:\nbeibehalten (حفظ کردن)\n- erinnern (به یاد آوردن)\nمتضادها:\nverlieren (از دست دادن)\n- vergessen (فراموش کردن)"
-  },
-  {
-    "Sound_de": "behandeln, behandelt, behandelte, hat behandelt",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + handeln (رفتار کردن / درمان کردن)\nمعنی کلی: درمان کردن / رفتار کردن با\nمترادف‌ها:\ntherapieren (درمان کردن)\n- pflegen (مراقبت کردن)\nمتضادها:\nvernachlässigen (غفلت کردن)"
-  },
-  {
-    "Sound_de": "behaupten, behauptet, behauptete, hat behauptet",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + haupten (ادعا کردن)\nمعنی کلی: ادعا کردن\nمترادف‌ها:\nangeben (ادعا کردن)\n- versichern (تضمین کردن)\nمتضادها:\nzugeben (اقرار کردن)\n- leugnen (انکار کردن)"
-  },
-  {
-    "Sound_de": "behindern, behindert, behinderte, hat behindert",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + hindern (مانع شدن)\nمعنی کلی: مانع شدن\nمترادف‌ها:\nblockieren (مسدود کردن)\n- stören (مزاحمت کردن)\nمتضادها:\nfördern (ترویج کردن)\n- helfen (کمک کردن)"
-  },
-  {
-    "Sound_de": "behindert",
-    "root": "اجزای تشکیل‌دهنده:\nbehindert (از behindern)\nمعنی کلی: معلول\nمترادف‌ها:\ndisabled (معلول)\n- beeinträchtigt (آسیب‌دیده)\nمتضادها:\ngesund (سالم)\n- fit (تناسب اندام)"
-  },
-  {
-    "Sound_de": "die Behörde - die Behörden",
-    "root": "اجزای تشکیل‌دهنده:\nBehörde (از hören، اطاعت کردن)\nمعنی کلی: اداره دولتی\nمترادف‌ها:\ndie Amtsstelle (دفتر رسمی)\n- die Authority (مقام)\nمتضادها:\ndie Privatfirma (شرکت خصوصی)"
-  },
-  {
-    "Sound_de": "bei",
-    "root": "اجزای تشکیل‌دهنده:\nbei (حرف اضافه قدیمی)\nمعنی کلی: نزد / کنار / در\nمترادف‌ها:\nan (نزدیک)\n- neben (کنار)\nمتضادها:\nfern von (دور از)"
-  },
-  {
-    "Sound_de": "beid-",
-    "root": "اجزای تشکیل‌دهنده:\nbeid (هر دو)\nمعنی کلی: پیشوند برای هر دو\nمترادف‌ها:\nbeide (هر دو)\nمتضادها:\nein- (یک)"
-  },
-  {
-    "Sound_de": "das Bein - die Beine",
-    "root": "اجزای تشکیل‌دهنده:\nBein (ریشه قدیمی)\nمعنی کلی: پا\nمترادف‌ها:\nder Fuß (پای پایین)\n- die Extremität (اندام)\nمتضادها:\nder Arm (دست)"
-  },
-  {
-    "Sound_de": "beinahe",
-    "root": "اجزای تشکیل‌دهنده:\nbei + nahe (نزدیک به)\nمعنی کلی: تقریباً\nمترادف‌ها:\nfast (تقریباً)\n- annähernd (تقریباً)\nمتضادها:\ngenau (دقیقاً)\n- überhaupt nicht (اصلاً نه)"
-  },
-  {
-    "Sound_de": "das Beispiel",
-    "root": "اجزای تشکیل‌دهنده:\nBeispiel (از spielen، نشان دادن)\nمعنی کلی: مثال\nمترادف‌ها:\ndie Illustration (مثال تصویری)\n- das Muster (الگو)\nمتضادها:\ndie Regel (قاعده، در مقابل استثنا)"
-  },
-  {
-    "Sound_de": "beißen, beißt, biss, hat gebissen",
-    "root": "اجزای تشکیل‌دهنده:\nbeißen (ریشه قدیمی)\nمعنی کلی: گاز گرفتن\nمترادف‌ها:\nknabbern (جویدن کوچک)\n- anbeißen (گاز زدن)\nمتضادها:\nspucken (تف کردن)"
-  },
-  {
-    "Sound_de": "der Beitrag - die Beiträge",
-    "root": "اجزای تشکیل‌دهنده:\nbei + tragen (سهم آوردن)\nمعنی کلی: سهم / مقاله\nمترادف‌ها:\ndie Contribution (سهم)\n- der Artikel (مقاله)\nمتضادها:\ndie Entnahme (برداشت)"
-  },
-  {
-    "Sound_de": "bekannt",
-    "root": "اجزای تشکیل‌دهنده:\nbekannt (از kennen)\nمعنی کلی: شناخته‌شده / معروف\nمترادف‌ها:\nberühmt (معروف)\n- vertraut (آشنا)\nمتضادها:\nunbekannt (ناشناخته)\n- fremd (غریبه)"
-  },
-  {
-    "Sound_de": "der Bekannte - die Bekannten",
-    "root": "اجزای تشکیل‌دهنده:\nBekannte (از bekannt)\nمعنی کلی: آشنا\nمترادف‌ها:\nder Freund (دوست)\n- der Acquaintance (آشنا)\nمتضادها:\nder Fremde (غریبه)"
-  },
-  {
-    "Sound_de": "bekannt geben, gibt bekannt, gab bekannt, hat bekannt gegeben",
-    "root": "اجزای تشکیل‌دهنده:\nbekannt + geben\nمعنی کلی: اعلام کردن\nمترادف‌ها:\nankündigen (اعلان کردن)\n- veröffentlichen (منتشر کردن)\nمتضادها:\nverheimlichen (پنهان کردن)"
-  },
-  {
-    "Sound_de": "bekommen, bekommt, bekam, hat bekommen",
-    "root": "اجزای تشکیل‌دهنده:\nbe- + kommen (رسیدن به)\nمعنی کلی: دریافت کردن\nمترادف‌ها:\nerhalten (دریافت کردن)\n- kriegen (گرفتن، عامیانه)\nمتضادها:\ngeben (دادن)\n- verlieren (از دست دادن)"
+    "Sound_de": "die Butter, die Butter",
+    "root": "اجزای تشکیل‌دهنده:\nاز یونانی برای کره گاو\nمعنی کلی: کره\nمترادف‌ها:\n- die Margarine (مارگارین - جایگزین)\nمتضادها:\n- das Öl (روغن)\n- die Margarine (جایگزین مصنوعی)"
   }
 ]

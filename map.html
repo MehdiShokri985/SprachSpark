@@ -2,71 +2,181 @@
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 <title>SprachSpark Iran Map</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
-  #map { height: 100vh; width: 100%; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .leaflet-popup-content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    border-radius: 10px !important;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25) !important;
+  }
+
+  /* دکمه بستن popup */
+  .leaflet-popup-close-button {
+    font-size: 1.4rem !important;
+    color: #333 !important;
+    background: #fff !important;
+    border-radius: 50% !important;
+    width: 28px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    text-align: center !important;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2) !important;
+    right: 8px !important;
+    top: 8px !important;
+  }
+
+  .leaflet-popup-close-button:hover {
+    background: #f0f0f0 !important;
+    color: #000 !important;
+  }
+
   .popup {
     direction: rtl;
     font-family: sans-serif;
-    width: 300px;
     text-align: right;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    line-height: 1.45;
   }
+
   .city-name {
-    font-size: 17px;
+    font-size: 1.05rem;
     font-weight: bold;
     color: #222;
     text-align: center;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 6px;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.4rem;
   }
+
   .number {
-    color: #777;
-    font-size: 12px;
-    margin-bottom: 8px;
+    color: #666;
+    font-size: 0.78rem;
+    margin-bottom: 0.5rem;
     text-align: center;
   }
+
   .de {
-    font-size: 18px;
+    font-size: 1.15rem;
     font-weight: bold;
-    margin: 10px 0 6px;
+    margin: 0.5rem 0 0.3rem;
+    word-break: break-word;
   }
+
   .fa {
     color: #0a8a2a;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.4;
-    margin-bottom: 12px;
+    margin-bottom: 0.8rem;
   }
+
   .example-sentence {
-    font-size: 15px;
-    color: #333;
-    margin: 12px 0 16px;
+    font-size: 0.92rem;
+    color: #444;
+    margin: 0.8rem 0 1rem;
     line-height: 1.45;
-    border-left: 4px solid #0a8a2a;
-    padding-left: 12px;
+    border-left: 3px solid #0a8a2a;
+    padding-left: 0.8rem;
     font-style: italic;
   }
+
   .example-sentence a {
     color: #0066cc;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: 600;
   }
+
+  .example-sentence a:active,
   .example-sentence a:hover {
     color: #003366;
   }
+
   .vocab-img {
     width: 100%;
-    max-width: 300px;
     height: auto;
     display: block;
-    margin: 10px auto 14px;
+    margin: 0.6rem auto 0.9rem;
     border-radius: 6px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.12);
   }
+
   audio {
     width: 100%;
-    margin-top: 8px;
+    margin-top: 0.5rem;
+    height: 40px;
+  }
+
+  /* موبایل – عرض کمتر از قبل */
+  @media (max-width: 480px) {
+    .leaflet-popup {
+      width: 86vw !important;
+      max-width: 86vw !important;
+      min-width: 240px !important;
+    }
+
+    .leaflet-popup-content-wrapper {
+      min-width: 0 !important;
+    }
+
+    .popup {
+      width: 100% !important;
+      max-width: none !important;
+      min-width: 0 !important;
+      padding: 10px 12px !important;
+      font-size: 0.96rem !important;
+    }
+
+    .city-name   { font-size: 1.02rem !important; }
+    .de          { font-size: 1.14rem !important; }
+    .fa          { font-size: 0.97rem !important; }
+    .example-sentence { font-size: 0.9rem !important; }
+
+    .vocab-img {
+      margin: 8px auto 10px !important;
+    }
+
+    audio {
+      height: 42px !important;
+    }
+  }
+
+  /* تبلت و دسکتاپ – کمی کوچکتر */
+  @media (min-width: 481px) {
+    .leaflet-popup {
+      width: 340px !important;
+      max-width: 400px !important;
+      min-width: 300px !important;
+    }
+
+    .popup {
+      width: 340px !important;
+      padding: 12px 14px !important;
+    }
+
+    .city-name   { font-size: 1.18rem; }
+    .de          { font-size: 1.28rem; }
+    .fa          { font-size: 1.08rem; }
+    .example-sentence { font-size: 0.98rem; }
   }
 </style>
 </head>
@@ -76,7 +186,10 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 // مرکز نقشه ایران
-var map = L.map('map').setView([32.5, 53.5], 5);
+var map = L.map('map', {
+  zoomControl: true,
+  attributionControl: true
+}).setView([32.5, 53.5], 5);
 
 L.tileLayer('https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
   maxZoom: 20,
@@ -179,7 +292,7 @@ const cities = [
 
 let cityPoints = Array.from({length: cities.length}, () => []);
 
-// تابع رنگ و آیکون (بدون تغییر)
+// تابع رنگ و آیکون
 function getTextColor(soundDe) {
   if (!soundDe) return '#000000';
   const trimmed = soundDe.trim().toLowerCase();
@@ -199,9 +312,9 @@ function getCustomIcon(soundDe) {
   }
   return L.divIcon({
     className: '',
-    html: `<span style="font-size:19px; line-height:1;">${emoji}</span>`,
-    iconSize: [22, 22],
-    iconAnchor: [11, 11]
+    html: `<span style="font-size:20px; line-height:1;">${emoji}</span>`,
+    iconSize: [24, 24],
+    iconAnchor: [12, 12]
   });
 }
 
@@ -228,10 +341,8 @@ fetch('json/json-A2.json')
 
       const audioSrc = item.file ? `audio-A2/${item.file}` : `audio-A2/${item.Filename}.mp3`;
 
-      // جمله نمونه + لینک دیکشنری
-      // let exampleSentence = "Ich sehe das Wort heute.";
       let dictLink = "#";
-      let displayWord = "";
+      let displayWord = "دیکشنری";
 
       if (item.Sound_de && item.Sound_de.trim()) {
         const word = item.Sound_de.trim();
@@ -242,21 +353,7 @@ fetch('json/json-A2.json')
           searchTerm = word.substring(4).trim();
         }
 
-        // if (lower.startsWith('der ')) {
-        //   const noun = word.substring(4).trim();
-        //   exampleSentence = `Der ${noun} ist groß.`;
-        // } else if (lower.startsWith('die ')) {
-        //   const noun = word.substring(4).trim();
-        //   exampleSentence = `Die ${noun} ist schön.`;
-        // } else if (lower.startsWith('das ')) {
-        //   const noun = word.substring(4).trim();
-        //   exampleSentence = `Das ${noun} ist neu.`;
-        // } else {
-        //   exampleSentence = `${word} ist interessant.`;
-        // }
-
         dictLink = `https://www.linguee.com/german-english/search?source=auto&query=${encodeURIComponent(searchTerm)}`;
-        //  dictLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(searchTerm)}&op=translate`;
         displayWord = searchTerm || word;
       }
 
@@ -275,14 +372,14 @@ fetch('json/json-A2.json')
                loading="lazy">
 
           <div class="de" style="color:${getTextColor(item.Sound_de)};">
-            ${item.Sound_de || ''}
+            ${item.Sound_de || '—'}
           </div>
-          <div class="fa">${item.translate_fa || ''}</div>
+          <div class="fa">${item.translate_fa || '—'}</div>
           
-        
-            مثال‌های بیشتر:
+          <div class="example-sentence">
+            مثال‌های بیشتر: 
             <a href="${dictLink}" target="_blank" rel="noopener noreferrer">
-               ${displayWord}
+              ${displayWord}
             </a>
           </div>
           
@@ -293,12 +390,15 @@ fetch('json/json-A2.json')
         </div>
       `, {
         maxWidth: 420,
-        minWidth: 300,
+        minWidth: 240,
+        autoPan: true,
+        autoPanPadding: [30, 90],
+        closeButton: true,           // دکمه بستن فعال است
         className: 'custom-popup'
       });
     });
 
-    // رسم خطوط اتصال (مسیر nearest neighbor)
+    // رسم مسیر nearest neighbor
     let fullPath = [];
     let previousEnd = null;
 
@@ -326,7 +426,6 @@ fetch('json/json-A2.json')
     alert("فایل json/json-A2.json پیدا نشد یا مشکل دارد.");
   });
 
-// تابع nearest neighbor path
 function buildNNPath(group, forcedStart) {
   if (group.length === 0) return [];
   let points = group.slice();

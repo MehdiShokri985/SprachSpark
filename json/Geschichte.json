@@ -1,0 +1,6765 @@
+[
+    {
+        "Filename": "1",
+        "Sound_de": "Begegnung auf der Straße",
+        "translate_fa": "ملاقات در خیابان",
+        "file": "1_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "2",
+        "Sound_de": "Hallo!",
+        "translate_fa": "سلام!",
+        "file": "2_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "3",
+        "Sound_de": "Entschuldigung, sind Sie von hier?",
+        "translate_fa": "ببخشید، شما از اینجا هستید؟",
+        "file": "3_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "4",
+        "Sound_de": "Ja, ich wohne hier.",
+        "translate_fa": "بله، من اینجا زندگی می‌کنم.",
+        "file": "4_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "5",
+        "Sound_de": "Suchen Sie etwas?",
+        "translate_fa": "چیزی می‌گردید؟",
+        "file": "5_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "6",
+        "Sound_de": "Ja, ich suche die Oranienstraße.",
+        "translate_fa": "بله، من دنبال خیابان اورانین هستم.",
+        "file": "6_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "7",
+        "Sound_de": "Kennen Sie die?",
+        "translate_fa": "آن را می‌شناسید؟",
+        "file": "7_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "8",
+        "Sound_de": "Ja, klar.",
+        "translate_fa": "بله، البته.",
+        "file": "8_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "9",
+        "Sound_de": "Zwei Straßen weiter, dann links.",
+        "translate_fa": "دو خیابان جلوتر، سپس چپ.",
+        "file": "9_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "10",
+        "Sound_de": "Ah, super!",
+        "translate_fa": "آه، عالی!",
+        "file": "10_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "11",
+        "Sound_de": "Danke, ich bin heute angekommen.",
+        "translate_fa": "ممنون، من امروز رسیدم.",
+        "file": "11_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "12",
+        "Sound_de": "Willkommen in Berlin!",
+        "translate_fa": "به برلین خوش آمدید!",
+        "file": "12_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "13",
+        "Sound_de": "Das erste Mal hier?",
+        "translate_fa": "اولین بار اینجاست؟",
+        "file": "13_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "14",
+        "Sound_de": "Ja, genau.",
+        "translate_fa": "بله، دقیقاً.",
+        "file": "14_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "15",
+        "Sound_de": "Sehr schön hier.",
+        "translate_fa": "اینجا خیلی قشنگه.",
+        "file": "15_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "16",
+        "Sound_de": "Danke, woher kommen Sie?",
+        "translate_fa": "ممنون، شما از کجا می‌آیید؟",
+        "file": "16_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "17",
+        "Sound_de": "Aus Warschau, Polen.",
+        "translate_fa": "از ورشو، لهستان.",
+        "file": "17_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "18",
+        "Sound_de": "Ah, interessant.",
+        "translate_fa": "آه، جالب.",
+        "file": "18_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "19",
+        "Sound_de": "Ihr Deutsch ist gut.",
+        "translate_fa": "آلمانی‌تان خوب است.",
+        "file": "19_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "20",
+        "Sound_de": "Danke, ich lerne seit sechs Monaten.",
+        "translate_fa": "ممنون، من شش ماه است که یاد می‌گیرم.",
+        "file": "20_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "21",
+        "Sound_de": "Toll, wie lange bleiben Sie?",
+        "translate_fa": "عالی، چقدر می‌مانید؟",
+        "file": "21_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "22",
+        "Sound_de": "Drei Tage.",
+        "translate_fa": "سه روز.",
+        "file": "22_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "23",
+        "Sound_de": "Ich möchte das Brandenburger Tor sehen.",
+        "translate_fa": "می‌خواهم دروازه براندنبورگ را ببینم.",
+        "file": "23_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "24",
+        "Sound_de": "Und eine Currywurst essen.",
+        "translate_fa": "و یک کوری‌وورست بخورم.",
+        "file": "24_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "25",
+        "Sound_de": "Gute Idee.",
+        "translate_fa": "ایده خوبیه.",
+        "file": "25_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "26",
+        "Sound_de": "Sehr typisch für Berlin.",
+        "translate_fa": "خیلی مخصوص برلین است.",
+        "file": "26_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "27",
+        "Sound_de": "Haben Sie einen Tipp für eine gute Currywurst?",
+        "translate_fa": "نکته‌ای برای یک کوری‌وورست خوب دارید؟",
+        "file": "27_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "28",
+        "Sound_de": "Ja, Konopkes Imbiss.",
+        "translate_fa": "بله، ایمبیس کنوپکه.",
+        "file": "28_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "29",
+        "Sound_de": "Sehr lecker.",
+        "translate_fa": "خیلی خوشمزه.",
+        "file": "29_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "30",
+        "Sound_de": "Danke, da gehe ich morgen hin.",
+        "translate_fa": "ممنون، فردا آنجا می‌روم.",
+        "file": "30_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "31",
+        "Sound_de": "Gerne.",
+        "translate_fa": "خواهش می‌کنم.",
+        "file": "31_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "32",
+        "Sound_de": "Sind Sie allein hier?",
+        "translate_fa": "تنها اینجا هستید؟",
+        "file": "32_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "33",
+        "Sound_de": "Ja, ich möchte Deutsch sprechen",
+        "translate_fa": "بله، می‌خواهم آلمانی صحبت کنم",
+        "file": "33_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "34",
+        "Sound_de": "und viel laufen.",
+        "translate_fa": "و خیلی راه بروم.",
+        "file": "34_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "35",
+        "Sound_de": "Berlin ist schön zu Fuß.",
+        "translate_fa": "برلین پیاده‌روی قشنگی دارد.",
+        "file": "35_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "36",
+        "Sound_de": "Wohnen Sie in diesem Viertel?",
+        "translate_fa": "در این محله زندگی می‌کنید؟",
+        "file": "36_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "37",
+        "Sound_de": "Ja, seit zwei Jahren.",
+        "translate_fa": "بله، دو سال است.",
+        "file": "37_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "38",
+        "Sound_de": "Schön.",
+        "translate_fa": "قشنگ.",
+        "file": "38_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "39",
+        "Sound_de": "Und viele Cafés hier?",
+        "translate_fa": "و اینجا کافه‌های زیادی هست؟",
+        "file": "39_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "40",
+        "Sound_de": "Ja, mein Lieblingscafé ist Bonanza.",
+        "translate_fa": "بله، کافه مورد علاقه‌ام بونانزا است.",
+        "file": "40_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "41",
+        "Sound_de": "Der Kaffee ist gut.",
+        "translate_fa": "قهوه‌اش خوب است.",
+        "file": "41_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "42",
+        "Sound_de": "Super, danke.",
+        "translate_fa": "عالی، ممنون.",
+        "file": "42_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "43",
+        "Sound_de": "Arbeiten Sie hier?",
+        "translate_fa": "اینجا کار می‌کنید؟",
+        "file": "43_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "44",
+        "Sound_de": "Ja, ich bin Grafikerin.",
+        "translate_fa": "بله، من گرافیست هستم.",
+        "file": "44_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "45",
+        "Sound_de": "Ich bin Student.",
+        "translate_fa": "من دانشجو هستم.",
+        "file": "45_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "46",
+        "Sound_de": "Gefällt Ihnen Berlin?",
+        "translate_fa": "برلین به شما خوش می‌آید؟",
+        "file": "46_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "47",
+        "Sound_de": "Ja, sehr.",
+        "translate_fa": "بله، خیلی.",
+        "file": "47_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "48",
+        "Sound_de": "Nur der Verkehr ist laut.",
+        "translate_fa": "فقط ترافیکش پر سر و صدا است.",
+        "file": "48_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "49",
+        "Sound_de": "Haha, stimmt.",
+        "translate_fa": "هاها، درسته.",
+        "file": "49_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "50",
+        "Sound_de": "Viele Fahrräder.",
+        "translate_fa": "دوچرخه‌های زیاد.",
+        "file": "50_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "51",
+        "Sound_de": "Ja, heute fast ein Unfall.",
+        "translate_fa": "بله، امروز تقریباً تصادف کردم.",
+        "file": "51_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "52",
+        "Sound_de": "Oje, willkommen in Berlin.",
+        "translate_fa": "وای، خوش آمدید به برلین.",
+        "file": "52_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "53",
+        "Sound_de": "Danke für Ihre Hilfe.",
+        "translate_fa": "ممنون از کمکتان.",
+        "file": "53_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "54",
+        "Sound_de": "Gern geschehen.",
+        "translate_fa": "خواهش می‌کنم.",
+        "file": "54_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "55",
+        "Sound_de": "Viel Spaß in Berlin.",
+        "translate_fa": "لذت ببرید از برلین.",
+        "file": "55_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "56",
+        "Sound_de": "Danke, schönen Tag noch.",
+        "translate_fa": "ممنون، روز خوبی داشته باشید.",
+        "file": "56_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "57",
+        "Sound_de": "Ihnen auch.",
+        "translate_fa": "شما هم همین‌طور.",
+        "file": "57_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "58",
+        "Sound_de": "Tschüss.",
+        "translate_fa": "خداحافظ.",
+        "file": "58_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "59",
+        "Sound_de": "Wasser kaufen.",
+        "translate_fa": "خرید آب.",
+        "file": "59_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "60",
+        "Sound_de": "Guten Tag.",
+        "translate_fa": "روز بخیر.",
+        "file": "60_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "61",
+        "Sound_de": "Kann ich Ihnen helfen?",
+        "translate_fa": "می‌توانم کمکتان کنم؟",
+        "file": "61_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "62",
+        "Sound_de": "Ja, ich suche eine Flasche Wasser, bitte.",
+        "translate_fa": "بله، یک بطری آب می‌خواهم، لطفاً.",
+        "file": "62_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "63",
+        "Sound_de": "Still oder mit Kohlensäure?",
+        "translate_fa": "بدون گاز یا با گاز؟",
+        "file": "63_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "64",
+        "Sound_de": "Still, bitte.",
+        "translate_fa": "بدون گاز، لطفاً.",
+        "file": "64_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "65",
+        "Sound_de": "Hier, eine Liter Flasche.",
+        "translate_fa": "اینجا، یک بطری یک لیتری.",
+        "file": "65_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "66",
+        "Sound_de": "Ist das ok?",
+        "translate_fa": "این خوبه؟",
+        "file": "66_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "67",
+        "Sound_de": "Ja, perfekt.",
+        "translate_fa": "بله، عالی.",
+        "file": "67_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "68",
+        "Sound_de": "Es ist sehr heiß heute.",
+        "translate_fa": "امروز خیلی گرم است.",
+        "file": "68_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "69",
+        "Sound_de": "Oh ja, 35 Grad.",
+        "translate_fa": "اوه بله، ۳۵ درجه.",
+        "file": "69_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "70",
+        "Sound_de": "Man muss viel trinken.",
+        "translate_fa": "باید زیاد آب خورد.",
+        "file": "70_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "71",
+        "Sound_de": "Stimmt.",
+        "translate_fa": "درسته.",
+        "file": "71_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "72",
+        "Sound_de": "Haben Sie kaltes Wasser?",
+        "translate_fa": "آب سرد دارید؟",
+        "file": "72_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "73",
+        "Sound_de": "Ja, im Kühlschrank.",
+        "translate_fa": "بله، در یخچال.",
+        "file": "73_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "74",
+        "Sound_de": "Gleich da.",
+        "translate_fa": "همین آنجا.",
+        "file": "74_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "75",
+        "Sound_de": "Diese Flasche ist schön kalt.",
+        "translate_fa": "این بطری خیلی سرد است.",
+        "file": "75_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "76",
+        "Sound_de": "Möchten Sie noch etwas?",
+        "translate_fa": "چیزی دیگر می‌خواهید؟",
+        "file": "76_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "77",
+        "Sound_de": "Nein, nur das Wasser.",
+        "translate_fa": "نه، فقط آب.",
+        "file": "77_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "78",
+        "Sound_de": "Was kostet es?",
+        "translate_fa": "چقدر است؟",
+        "file": "78_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "79",
+        "Sound_de": "Ein Euro zwanzig, bitte.",
+        "translate_fa": "یک یورو و بیست سنت، لطفاً.",
+        "file": "79_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "80",
+        "Sound_de": "Hier, ich zahle bar.",
+        "translate_fa": "اینجا، نقدی پرداخت می‌کنم.",
+        "file": "80_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "81",
+        "Sound_de": "Danke, hier Ihr Rückgeld.",
+        "translate_fa": "ممنون، این هم پولتان.",
+        "file": "81_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "82",
+        "Sound_de": "Danke.",
+        "translate_fa": "ممنون.",
+        "file": "82_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "83",
+        "Sound_de": "Kann ich die leere Flasche hier wegwerfen?",
+        "translate_fa": "می‌توانم بطری خالی را اینجا بیندازم؟",
+        "file": "83_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "84",
+        "Sound_de": "Ja, daneben der Tür.",
+        "translate_fa": "بله، کنار در.",
+        "file": "84_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "85",
+        "Sound_de": "Perfekt.",
+        "translate_fa": "عالی.",
+        "file": "85_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "86",
+        "Sound_de": "Und haben Sie Toiletten hier?",
+        "translate_fa": "و توالت اینجا دارید؟",
+        "file": "86_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "87",
+        "Sound_de": "Nein, leider nicht.",
+        "translate_fa": "نه، متأسفانه نه.",
+        "file": "87_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "88",
+        "Sound_de": "Aber es gibt ein Café gegenüber.",
+        "translate_fa": "اما یک کافه روبه‌رو هست.",
+        "file": "88_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "89",
+        "Sound_de": "Alles klar, danke.",
+        "translate_fa": "همه چیز روشن، ممنون.",
+        "file": "89_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "90",
+        "Sound_de": "Gern.",
+        "translate_fa": "خواهش می‌کنم.",
+        "file": "90_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "91",
+        "Sound_de": "Sind Sie hier als Tourist?",
+        "translate_fa": "شما اینجا گردشگر هستید؟",
+        "file": "91_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "92",
+        "Sound_de": "Ja, ich mache Urlaub und gehe durch die Stadt.",
+        "translate_fa": "بله، تعطیلاتم و در شهر می‌گردم.",
+        "file": "92_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "93",
+        "Sound_de": "Berlin ist eine tolle Stadt, oder?",
+        "translate_fa": "برلین شهر فوق‌العاده‌ای است، مگر نه؟",
+        "file": "93_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "94",
+        "Sound_de": "Ja, sehr schön.",
+        "translate_fa": "بله، خیلی قشنگ.",
+        "file": "94_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "95",
+        "Sound_de": "Und die Leute sind freundlich.",
+        "translate_fa": "و مردمش دوستانه‌اند.",
+        "file": "95_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "96",
+        "Sound_de": "Danke, das ist nett.",
+        "translate_fa": "ممنون، این خیلی مهربونانه است.",
+        "file": "96_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "97",
+        "Sound_de": "Bleiben Sie lange?",
+        "translate_fa": "مدت طولانی می‌مانید؟",
+        "file": "97_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "98",
+        "Sound_de": "Nur zwei Tage, dann fahre ich nach Leipzig.",
+        "translate_fa": "فقط دو روز، بعد به لایپزیگ می‌روم.",
+        "file": "98_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "99",
+        "Sound_de": "Auch sehr schön.",
+        "translate_fa": "آن هم خیلی قشنگ است.",
+        "file": "99_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "100",
+        "Sound_de": "Gute Reise.",
+        "translate_fa": "سفر خوبی داشته باشید.",
+        "file": "100_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "101",
+        "Sound_de": "Kein Problem.",
+        "translate_fa": "مشکلی نیست.",
+        "file": "101_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "102",
+        "Sound_de": "Viel Spaß noch.",
+        "translate_fa": "باز هم لذت ببرید.",
+        "file": "102_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "103",
+        "Sound_de": "Danke, einen schönen Tag.",
+        "translate_fa": "ممنون، روز خوبی داشته باشید.",
+        "file": "103_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "104",
+        "Sound_de": "Auf Wiedersehen.",
+        "translate_fa": "خداحافظ.",
+        "file": "104_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "105",
+        "Sound_de": "Einen Kaffee bestellen.",
+        "translate_fa": "سفارش قهوه.",
+        "file": "105_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "106",
+        "Sound_de": "Guten Tag, kann ich Ihnen helfen?",
+        "translate_fa": "روز بخیر، می‌توانم کمک کنم؟",
+        "file": "106_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "107",
+        "Sound_de": "Ja, ich möchte einen Kaffee, bitte.",
+        "translate_fa": "بله، یک قهوه می‌خواهم، لطفاً.",
+        "file": "107_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "108",
+        "Sound_de": "Einen Espresso, einen verlängerten oder einen Cappuccino?",
+        "translate_fa": "اسپرسو، قهوه کشیده یا کاپوچینو؟",
+        "file": "108_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "109",
+        "Sound_de": "Ähm, einen Kaffee, bitte.",
+        "translate_fa": "اهم، یک قهوه، لطفاً.",
+        "file": "109_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "110",
+        "Sound_de": "Mit Zucker?",
+        "translate_fa": "با شکر؟",
+        "file": "110_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "111",
+        "Sound_de": "Ja, ein Päckchen Zucker, bitte.",
+        "translate_fa": "بله، یک پاکت شکر، لطفاً.",
+        "file": "111_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "112",
+        "Sound_de": "Und Milch dazu?",
+        "translate_fa": "و شیر هم؟",
+        "file": "112_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "113",
+        "Sound_de": "Nein, danke.",
+        "translate_fa": "نه، ممنون.",
+        "file": "113_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "114",
+        "Sound_de": "Schwarz.",
+        "translate_fa": "سیاه.",
+        "file": "114_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "115",
+        "Sound_de": "Möchten Sie den Kaffee hier trinken oder mitnehmen?",
+        "translate_fa": "قهوه را اینجا می‌خورید یا ببرید؟",
+        "file": "115_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "116",
+        "Sound_de": "Hier, danke.",
+        "translate_fa": "اینجا، ممنون.",
+        "file": "116_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "117",
+        "Sound_de": "Ich habe Urlaub und Zeit.",
+        "translate_fa": "تعطیلاتم و وقت دارم.",
+        "file": "117_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "118",
+        "Sound_de": "Besuchen Sie Berlin?",
+        "translate_fa": "برلین را بازدید می‌کنید؟",
+        "file": "118_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "119",
+        "Sound_de": "Ja, heute ist mein erster Tag hier.",
+        "translate_fa": "بله، امروز اولین روزم اینجاست.",
+        "file": "119_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "120",
+        "Sound_de": "Willkommen.",
+        "translate_fa": "خوش آمدید.",
+        "file": "120_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "121",
+        "Sound_de": "Wohnen Sie in der Nähe?",
+        "translate_fa": "نزدیک اینجا زندگی می‌کنید؟",
+        "file": "121_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "122",
+        "Sound_de": "Ja, im Hotel am Alexanderplatz.",
+        "translate_fa": "بله، در هتل نزدیک الکساندرپلاتز.",
+        "file": "122_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "123",
+        "Sound_de": "Ah, praktisch, gleich bei der S-Bahn.",
+        "translate_fa": "آه، عملی، درست کنار اس‌بahn.",
+        "file": "123_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "124",
+        "Sound_de": "Genau.",
+        "translate_fa": "دقیقاً.",
+        "file": "124_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "125",
+        "Sound_de": "Und Ihr Kaffee ist sehr schön.",
+        "translate_fa": "و قهوه‌تان خیلی خوب است.",
+        "file": "125_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "126",
+        "Sound_de": "Danke, es ist ein Familienkaffee.",
+        "translate_fa": "ممنون، قهوه خانوادگی است.",
+        "file": "126_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "127",
+        "Sound_de": "Das merkt man.",
+        "translate_fa": "این معلوم است.",
+        "file": "127_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "128",
+        "Sound_de": "Es riecht so gut hier.",
+        "translate_fa": "اینجا خیلی خوب بوی قهوه می‌آید.",
+        "file": "128_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "129",
+        "Sound_de": "Ja, wir haben heute Apfelkuchen.",
+        "translate_fa": "بله، امروز کیک سیب داریم.",
+        "file": "129_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "130",
+        "Sound_de": "Möchten Sie ein Stück?",
+        "translate_fa": "یک تکه می‌خواهید؟",
+        "file": "130_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "131",
+        "Sound_de": "Oh, ja, warum nicht?",
+        "translate_fa": "اوه، بله، چرا که نه؟",
+        "file": "131_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "132",
+        "Sound_de": "Sehr gut.",
+        "translate_fa": "خیلی خوب.",
+        "file": "132_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "133",
+        "Sound_de": "Warm oder kalt?",
+        "translate_fa": "گرم یا سرد؟",
+        "file": "133_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "134",
+        "Sound_de": "Warm, bitte.",
+        "translate_fa": "گرم، لطفاً.",
+        "file": "134_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "135",
+        "Sound_de": "Und mit ein bisschen Sahne.",
+        "translate_fa": "و با کمی خامه.",
+        "file": "135_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "136",
+        "Sound_de": "Hier Ihr Kaffee und Ihr Kuchen.",
+        "translate_fa": "اینجا قهوه و کیکتان.",
+        "file": "136_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "137",
+        "Sound_de": "Danke, das sieht lecker aus.",
+        "translate_fa": "ممنون، خیلی خوشمزه به نظر می‌رسد.",
+        "file": "137_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "138",
+        "Sound_de": "Sind Sie allein unterwegs?",
+        "translate_fa": "تنها سفر می‌کنید؟",
+        "file": "138_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "139",
+        "Sound_de": "Ja, ich reise, um Deutsch zu üben.",
+        "translate_fa": "بله، سفر می‌کنم تا آلمانی تمرین کنم.",
+        "file": "139_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "140",
+        "Sound_de": "Wirklich?",
+        "translate_fa": "واقعاً؟",
+        "file": "140_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "141",
+        "Sound_de": "Sie sprechen schon gut.",
+        "translate_fa": "شما خوب صحبت می‌کنید.",
+        "file": "141_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "142",
+        "Sound_de": "Danke, ich lerne mit Apps.",
+        "translate_fa": "ممنون، با اپ‌ها یاد می‌گیرم.",
+        "file": "142_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "143",
+        "Sound_de": "Und in Cafés.",
+        "translate_fa": "و در کافه‌ها.",
+        "file": "143_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "144",
+        "Sound_de": "Waren Sie schon am Brandenburger Tor?",
+        "translate_fa": "هنوز به دروازه براندنبورگ رفته‌اید؟",
+        "file": "144_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "145",
+        "Sound_de": "Noch nicht, das mache ich später.",
+        "translate_fa": "هنوز نه، بعداً این کار را می‌کنم.",
+        "file": "145_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "146",
+        "Sound_de": "Gehen Sie am Abend.",
+        "translate_fa": "شب بروید.",
+        "file": "146_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "147",
+        "Sound_de": "Bei Sonnenuntergang ist es sehr schön.",
+        "translate_fa": "در غروب آفتاب خیلی زیباست.",
+        "file": "147_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "148",
+        "Sound_de": "Danke für den Tipp.",
+        "translate_fa": "ممنون از نکته.",
+        "file": "148_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "149",
+        "Sound_de": "Und was kostet es?",
+        "translate_fa": "و چقدر می‌شود؟",
+        "file": "149_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "150",
+        "Sound_de": "3 Euro für den Kaffee, 4,50 mit Kuchen.",
+        "translate_fa": "۳ یورو برای قهوه، ۴٫۵۰ با کیک.",
+        "file": "150_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "151",
+        "Sound_de": "Hier 5 Euro.",
+        "translate_fa": "اینجا ۵ یورو.",
+        "file": "151_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "152",
+        "Sound_de": "Stimmt so.",
+        "translate_fa": "بقیه‌اش انعام.",
+        "file": "152_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "153",
+        "Sound_de": "Oh, vielen Dank.",
+        "translate_fa": "اوه، خیلی ممنون.",
+        "file": "153_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "154",
+        "Sound_de": "Alles perfekt.",
+        "translate_fa": "همه چیز عالی.",
+        "file": "154_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "155",
+        "Sound_de": "Kommen Sie gerne wieder.",
+        "translate_fa": "هر وقت خواستید بیایید.",
+        "file": "155_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "156",
+        "Sound_de": "Sehr gerne.",
+        "translate_fa": "خیلی مایلم.",
+        "file": "156_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "157",
+        "Sound_de": "Einen schönen Tag noch.",
+        "translate_fa": "روز خوبی داشته باشید.",
+        "file": "157_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "158",
+        "Sound_de": "Check-in im Hotel",
+        "translate_fa": "چک‌این در هتل",
+        "file": "158_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "159",
+        "Sound_de": "Guten Tag, herzlich willkommen im Hotel am Garten.",
+        "translate_fa": "روز بخیر، به هتل آم گارتن خوش آمدید.",
+        "file": "159_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "160",
+        "Sound_de": "Ich habe eine Reservierung für zwei Nächte.",
+        "translate_fa": "من رزرو برای دو شب دارم.",
+        "file": "160_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "161",
+        "Sound_de": "Auf welchen Namen bitte?",
+        "translate_fa": "به نام کی؟",
+        "file": "161_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "162",
+        "Sound_de": "Auf Kowalski.",
+        "translate_fa": "به نام کووالسکی.",
+        "file": "162_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "163",
+        "Sound_de": "Ja, ich sehe es.",
+        "translate_fa": "بله، می‌بینم.",
+        "file": "163_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "164",
+        "Sound_de": "Einzelzimmer mit Frühstück, richtig?",
+        "translate_fa": "اتاق تک‌نفره با صبحانه، درست؟",
+        "file": "164_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "165",
+        "Sound_de": "Darf ich bitte Ihren Ausweis sehen?",
+        "translate_fa": "می‌توانم لطفاً کارت شناسایی‌تان را ببینم؟",
+        "file": "165_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "166",
+        "Sound_de": "Natürlich, hier ist mein Pass.",
+        "translate_fa": "البته، اینجا پاسپورتم.",
+        "file": "166_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "167",
+        "Sound_de": "Danke, alles in Ordnung.",
+        "translate_fa": "ممنون، همه چیز مرتب است.",
+        "file": "167_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "168",
+        "Sound_de": "Wann gibt es Frühstück?",
+        "translate_fa": "صبحانه کی است؟",
+        "file": "168_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "169",
+        "Sound_de": "Von 7 bis 10 Uhr im Erdgeschoss.",
+        "translate_fa": "از ۷ تا ۱۰ صبح در طبقه همکف.",
+        "file": "169_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "170",
+        "Sound_de": "Alles klar.",
+        "translate_fa": "همه چیز روشن.",
+        "file": "170_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "171",
+        "Sound_de": "Und das WLAN, ist es gratis?",
+        "translate_fa": "و وای‌فای، رایگان است؟",
+        "file": "171_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "172",
+        "Sound_de": "Ja, natürlich.",
+        "translate_fa": "بله، البته.",
+        "file": "172_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "173",
+        "Sound_de": "Vielen Dank.",
+        "translate_fa": "خیلی ممنون.",
+        "file": "173_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "174",
+        "Sound_de": "Ist das Zimmer schon fertig?",
+        "translate_fa": "اتاق آماده است؟",
+        "file": "174_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "175",
+        "Sound_de": "Ja, Sie können gleich hochgehen.",
+        "translate_fa": "بله، می‌توانید مستقیم بروید بالا.",
+        "file": "175_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "176",
+        "Sound_de": "Zimmer 203 im zweiten Stock.",
+        "translate_fa": "اتاق ۲۰۳ در طبقه دوم.",
+        "file": "176_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "177",
+        "Sound_de": "Gibt es einen Aufzug?",
+        "translate_fa": "آسانسور هست؟",
+        "file": "177_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "178",
+        "Sound_de": "Ja, links nach der Lobby.",
+        "translate_fa": "بله، سمت چپ بعد از لابی.",
+        "file": "178_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "179",
+        "Sound_de": "Super!",
+        "translate_fa": "عالی!",
+        "file": "179_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "180",
+        "Sound_de": "Sind Handtücher im Zimmer?",
+        "translate_fa": "حوله در اتاق هست؟",
+        "file": "180_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "181",
+        "Sound_de": "Ja, und Seife auch.",
+        "translate_fa": "بله، و صابون هم.",
+        "file": "181_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "182",
+        "Sound_de": "Und wenn ich etwas brauche?",
+        "translate_fa": "و اگر چیزی نیاز داشتم؟",
+        "file": "182_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "183",
+        "Sound_de": "Sie können immer anrufen an der Rezeption.",
+        "translate_fa": "می‌توانید همیشه به پذیرش زنگ بزنید.",
+        "file": "183_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "184",
+        "Sound_de": "Ähm, gibt es auch einen Parkplatz?",
+        "translate_fa": "اهم، پارکینگ هم هست؟",
+        "file": "184_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "185",
+        "Sound_de": "Ja, aber er ist klein.",
+        "translate_fa": "بله، اما کوچک است.",
+        "file": "185_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "186",
+        "Sound_de": "Haben Sie ein Auto?",
+        "translate_fa": "ماشین دارید؟",
+        "file": "186_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "187",
+        "Sound_de": "Nein, ich bin mit dem Zug gekommen.",
+        "translate_fa": "نه، با قطار آمدم.",
+        "file": "187_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "188",
+        "Sound_de": "Sehr praktisch, der Bahnhof ist ganz nah.",
+        "translate_fa": "خیلی عملی، ایستگاه قطار خیلی نزدیک است.",
+        "file": "188_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "189",
+        "Sound_de": "Ja, 10 Minuten zu Fuß.",
+        "translate_fa": "بله، ۱۰ دقیقه پیاده.",
+        "file": "189_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "190",
+        "Sound_de": "Sind Sie das erste Mal in Straßburg?",
+        "translate_fa": "اولین بار در استراسبورگ هستید؟",
+        "file": "190_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "191",
+        "Sound_de": "Ja, ich möchte den Dom sehen und Flammkuchen essen.",
+        "translate_fa": "بله، می‌خواهم کلیسای جامع را ببینم و فلام‌کوخن بخورم.",
+        "file": "191_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "192",
+        "Sound_de": "Sehr gute Idee.",
+        "translate_fa": "ایده خیلی خوبی است.",
+        "file": "192_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "193",
+        "Sound_de": "Der Dom ist nur 15 Minuten von hier.",
+        "translate_fa": "کلیسای جامع فقط ۱۵ دقیقه از اینجا فاصله دارد.",
+        "file": "193_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "194",
+        "Sound_de": "Haben Sie einen Stadtplan?",
+        "translate_fa": "نقشه شهر دارید؟",
+        "file": "194_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "195",
+        "Sound_de": "Bitte sehr.",
+        "translate_fa": "لطفاً.",
+        "file": "195_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "196",
+        "Sound_de": "Und noch eine letzte Frage.",
+        "translate_fa": "و یک سوال آخر.",
+        "file": "196_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "197",
+        "Sound_de": "Ist es nachts ruhig?",
+        "translate_fa": "شب‌ها آرام است؟",
+        "file": "197_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "198",
+        "Sound_de": "Ja, das Hotel liegt in einer ruhigen Straße.",
+        "translate_fa": "بله، هتل در خیابانی آرام است.",
+        "file": "198_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "199",
+        "Sound_de": "Ich bin ein bisschen müde.",
+        "translate_fa": "کمی خسته‌ام.",
+        "file": "199_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "200",
+        "Sound_de": "Ruhen Sie sich aus.",
+        "translate_fa": "استراحت کنید.",
+        "file": "200_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "201",
+        "Sound_de": "Hier ist Ihre Schlüsselkarte.",
+        "translate_fa": "اینجا کارت کلیدتان.",
+        "file": "201_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "202",
+        "Sound_de": "Vielen Dank für den freundlichen Empfang.",
+        "translate_fa": "خیلی ممنون از پذیرش دوستانه.",
+        "file": "202_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "203",
+        "Sound_de": "Einen schönen Aufenthalt in Straßburg.",
+        "translate_fa": "اقامت خوبی در استراسبورگ داشته باشید.",
+        "file": "203_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "204",
+        "Sound_de": "Ihnen auch, Herr Kowalski.",
+        "translate_fa": "شما هم، آقای کووالسکی.",
+        "file": "204_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "205",
+        "Sound_de": "Ein Andenken kaufen.",
+        "translate_fa": "خرید سوغاتی.",
+        "file": "205_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "206",
+        "Sound_de": "Herzlich willkommen.",
+        "translate_fa": "به گرمی خوش آمدید.",
+        "file": "206_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "207",
+        "Sound_de": "Suchen Sie etwas Bestimmtes?",
+        "translate_fa": "چیزی خاص می‌گردید؟",
+        "file": "207_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "208",
+        "Sound_de": "Ja, ich möchte ein kleines Souvenir aus Berlin kaufen.",
+        "translate_fa": "بله، یک سوغاتی کوچک از برلین می‌خواهم بخرم.",
+        "file": "208_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "209",
+        "Sound_de": "Sehr schön.",
+        "translate_fa": "خیلی خوب.",
+        "file": "209_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "210",
+        "Sound_de": "Für Sie selbst oder als Geschenk?",
+        "translate_fa": "برای خودتان یا هدیه؟",
+        "file": "210_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "211",
+        "Sound_de": "Für meine Schwester.",
+        "translate_fa": "برای خواهرم.",
+        "file": "211_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "212",
+        "Sound_de": "Sie mag Berlin sehr.",
+        "translate_fa": "او برلین را خیلی دوست دارد.",
+        "file": "212_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "213",
+        "Sound_de": "Was mag Sie?",
+        "translate_fa": "چه چیزی دوست دارد؟",
+        "file": "213_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "214",
+        "Sound_de": "Magnete?",
+        "translate_fa": "مگنت؟",
+        "file": "214_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "215",
+        "Sound_de": "Schlüsselanhänger?",
+        "translate_fa": "آویز کلید؟",
+        "file": "215_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "216",
+        "Sound_de": "Vielleicht einen Schlüsselanhänger oder ein kleines Brandenburger Tor.",
+        "translate_fa": "شاید یک آویز کلید یا یک دروازه براندنبورگ کوچک.",
+        "file": "216_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "217",
+        "Sound_de": "Schauen Sie hier.",
+        "translate_fa": "اینجا ببینید.",
+        "file": "217_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "218",
+        "Sound_de": "Wir haben viele Modelle.",
+        "translate_fa": "مدل‌های زیادی داریم.",
+        "file": "218_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "219",
+        "Sound_de": "Oh ja, das goldene ist schön.",
+        "translate_fa": "اوه بله، طلایی‌اش قشنگ است.",
+        "file": "219_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "220",
+        "Sound_de": "Ja, das ist sehr beliebt und günstig.",
+        "translate_fa": "بله، خیلی محبوب و ارزان است.",
+        "file": "220_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "221",
+        "Sound_de": "Zwei Euro.",
+        "translate_fa": "دو یورو.",
+        "file": "221_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "222",
+        "Sound_de": "Haben Sie auch Postkarten?",
+        "translate_fa": "پست‌کارت هم دارید؟",
+        "file": "222_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "223",
+        "Sound_de": "Ja, direkt hier neben der Kasse.",
+        "translate_fa": "بله، دقیقاً اینجا کنار صندوق.",
+        "file": "223_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "224",
+        "Sound_de": "Ich nehme auch eine Karte.",
+        "translate_fa": "یک کارت هم می‌گیرم.",
+        "file": "224_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "225",
+        "Sound_de": "Möchten Sie einen Umschlag dazu?",
+        "translate_fa": "پاکت هم می‌خواهید؟",
+        "file": "225_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "226",
+        "Sound_de": "Ja, das wäre gut.",
+        "translate_fa": "بله، خوب می‌شود.",
+        "file": "226_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "227",
+        "Sound_de": "Bitteschön.",
+        "translate_fa": "لطفاً.",
+        "file": "227_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "228",
+        "Sound_de": "Schreiben Sie die Karte hier?",
+        "translate_fa": "کارت را اینجا می‌نویسید؟",
+        "file": "228_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "229",
+        "Sound_de": "Ich mache das im Hotel.",
+        "translate_fa": "این کار را در هتل انجام می‌دهم.",
+        "file": "229_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "230",
+        "Sound_de": "Dieser kleine Beutel mit Meend Berlin ist süß.",
+        "translate_fa": "این کیف کوچک با نوشته من برلین را دوست دارم خیلی cute است.",
+        "file": "230_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "231",
+        "Sound_de": "Was kostet er?",
+        "translate_fa": "چقدر است؟",
+        "file": "231_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "232",
+        "Sound_de": "Fünf Euro.",
+        "translate_fa": "پنج یورو.",
+        "file": "232_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "233",
+        "Sound_de": "Er ist aus Baumwolle, sehr stabil.",
+        "translate_fa": "از پنبه است، خیلی محکم.",
+        "file": "233_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "234",
+        "Sound_de": "Den nehme ich auch.",
+        "translate_fa": "این را هم می‌گیرم.",
+        "file": "234_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "235",
+        "Sound_de": "Da wird sich meine Schwester freuen.",
+        "translate_fa": "خواهرم خیلی خوشحال می‌شود.",
+        "file": "235_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "236",
+        "Sound_de": "Sie hat Glück mit so einem Bruder.",
+        "translate_fa": "خیلی خوش به حالش با چنین برادری.",
+        "file": "236_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "237",
+        "Sound_de": "Zahlen Sie bar oder mit Karte?",
+        "translate_fa": "نقدی یا با کارت پرداخت می‌کنید؟",
+        "file": "237_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "238",
+        "Sound_de": "Bar bitte.",
+        "translate_fa": "نقدی لطفاً.",
+        "file": "238_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "239",
+        "Sound_de": "Hier sind zehn Euro.",
+        "translate_fa": "اینجا ده یورو.",
+        "file": "239_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "240",
+        "Sound_de": "Haben Sie eine Tüte dafür?",
+        "translate_fa": "کیسه دارید؟",
+        "file": "240_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "241",
+        "Sound_de": "Natürlich, hier bitte.",
+        "translate_fa": "البته، اینجا لطفاً.",
+        "file": "241_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "242",
+        "Sound_de": "Vielen Dank für Ihre Hilfe.",
+        "translate_fa": "خیلی ممنون از کمکتان.",
+        "file": "242_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "243",
+        "Sound_de": "Sehr gern.",
+        "translate_fa": "خواهش می‌کنم.",
+        "file": "243_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "244",
+        "Sound_de": "Bleiben Sie noch lange in Berlin?",
+        "translate_fa": "هنوز مدت طولانی در برلین می‌مانید؟",
+        "file": "244_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "245",
+        "Sound_de": "Noch zwei Tage.",
+        "translate_fa": "هنوز دو روز.",
+        "file": "245_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "246",
+        "Sound_de": "Viel Spaß.",
+        "translate_fa": "لذت ببرید.",
+        "file": "246_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "247",
+        "Sound_de": "Danke, auf Wiedersehen.",
+        "translate_fa": "ممنون، خداحافظ.",
+        "file": "247_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "248",
+        "Sound_de": "Auf Wiedersehen und einen schönen Aufenthalt in Berlin.",
+        "translate_fa": "خداحافظ و اقامت خوبی در برلین داشته باشید.",
+        "file": "248_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "249",
+        "Sound_de": "Ein Gespräch",
+        "translate_fa": "یک گفتگو",
+        "file": "249_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "250",
+        "Sound_de": "Guten Tag",
+        "translate_fa": "روز بخیر",
+        "file": "250_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "251",
+        "Sound_de": "Ja, ich habe ein kleines Problem.",
+        "translate_fa": "بله، یک مشکل کوچک دارم.",
+        "file": "251_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "252",
+        "Sound_de": "Ich habe Halsschmerzen.",
+        "translate_fa": "گلویم درد می‌کند.",
+        "file": "252_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "253",
+        "Sound_de": "Verstehe, seit wann?",
+        "translate_fa": "می‌فهمم، از کی؟",
+        "file": "253_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "254",
+        "Sound_de": "Seit gestern Abend.",
+        "translate_fa": "از دیشب.",
+        "file": "254_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "255",
+        "Sound_de": "Ich huste auch ein bisschen.",
+        "translate_fa": "کمی هم سرفه می‌کنم.",
+        "file": "255_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "256",
+        "Sound_de": "Haben Sie Fieber?",
+        "translate_fa": "تب دارید؟",
+        "file": "256_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "257",
+        "Sound_de": "Nein, ich glaube nicht.",
+        "translate_fa": "نه، فکر نمی‌کنم.",
+        "file": "257_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "258",
+        "Sound_de": "Nur Hals und ein bisschen Schnupfen.",
+        "translate_fa": "فقط گلو و کمی آبریزش بینی.",
+        "file": "258_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "259",
+        "Sound_de": "Möchten Sie Sirup oder Lutschtabletten?",
+        "translate_fa": "شربت می‌خواهید یا قرص مکیدنی؟",
+        "file": "259_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "260",
+        "Sound_de": "Lutschtabletten, das ist praktischer für mich.",
+        "translate_fa": "قرص مکیدنی، برای من عملی‌تر است.",
+        "file": "260_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "261",
+        "Sound_de": "Hier, mit Honig und Zitrone.",
+        "translate_fa": "اینجا، با عسل و لیمو.",
+        "file": "261_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "262",
+        "Sound_de": "Sehr gut für den Hals.",
+        "translate_fa": "خیلی خوب برای گلو.",
+        "file": "262_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "263",
+        "Sound_de": "Wie viele pro Tag?",
+        "translate_fa": "چند تا در روز؟",
+        "file": "263_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "264",
+        "Sound_de": "Vier bis fünf, nicht mehr.",
+        "translate_fa": "چهار تا پنج تا، بیشتر نه.",
+        "file": "264_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "265",
+        "Sound_de": "Und nicht auf leeren Magen.",
+        "translate_fa": "و با شکم خالی نه.",
+        "file": "265_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "266",
+        "Sound_de": "In Ordnung.",
+        "translate_fa": "درسته.",
+        "file": "266_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "267",
+        "Sound_de": "Haben Sie auch etwas für die verstopfte Nase?",
+        "translate_fa": "برای بینی گرفته هم چیزی دارید؟",
+        "file": "267_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "268",
+        "Sound_de": "Ja, ein Nasenspray.",
+        "translate_fa": "بله، اسپری بینی.",
+        "file": "268_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "269",
+        "Sound_de": "Ganz mild.",
+        "translate_fa": "کاملاً ملایم.",
+        "file": "269_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "270",
+        "Sound_de": "Ohne Rezept.",
+        "translate_fa": "بدون نسخه.",
+        "file": "270_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "271",
+        "Sound_de": "Ist das einfach zu benutzen?",
+        "translate_fa": "استفاده‌اش ساده است؟",
+        "file": "271_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "272",
+        "Sound_de": "Ja, sehr einfach.",
+        "translate_fa": "بله، خیلی ساده.",
+        "file": "272_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "273",
+        "Sound_de": "Zwei Sprühstöße pro Nasenloch, morgens und abends.",
+        "translate_fa": "دو پاف در هر سوراخ بینی، صبح و شب.",
+        "file": "273_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "274",
+        "Sound_de": "Brennt das?",
+        "translate_fa": "می‌سوزد؟",
+        "file": "274_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "275",
+        "Sound_de": "Ein bisschen, aber nur kurz.",
+        "translate_fa": "کمی، اما فقط کوتاه.",
+        "file": "275_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "276",
+        "Sound_de": "Gut, das nehme ich auch.",
+        "translate_fa": "خوب، این را هم می‌گیرم.",
+        "file": "276_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "277",
+        "Sound_de": "Noch etwas?",
+        "translate_fa": "چیزی دیگر؟",
+        "file": "277_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "278",
+        "Sound_de": "Ja, ich habe meine Zahnbürste im Hotel vergessen.",
+        "translate_fa": "بله، مسواکم را در هتل جا گذاشتم.",
+        "file": "278_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "279",
+        "Sound_de": "Kein Problem, hier sind Reisezahnbürsten.",
+        "translate_fa": "مشکلی نیست، اینجا مسواک مسافرتی هست.",
+        "file": "279_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "280",
+        "Sound_de": "Und die Zahnpasta, ist die mit Menthol?",
+        "translate_fa": "و خمیر دندان، با منتول است؟",
+        "file": "280_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "281",
+        "Sound_de": "Ja, mit Menthol und ohne Zucker.",
+        "translate_fa": "بله، با منتول و بدون شکر.",
+        "file": "281_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "282",
+        "Sound_de": "Prima, ich nehme die kleine Tube.",
+        "translate_fa": "عالی، لوله کوچک را می‌گیرم.",
+        "file": "282_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "283",
+        "Sound_de": "Also, Lutschtabletten, Nasenspray,",
+        "translate_fa": "پس، قرص مکیدنی، اسپری بینی،",
+        "file": "283_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "284",
+        "Sound_de": "Zahnbürste und Zahnpasta.",
+        "translate_fa": "مسواک و خمیر دندان.",
+        "file": "284_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "285",
+        "Sound_de": "Ja, das ist alles.",
+        "translate_fa": "بله، همین است.",
+        "file": "285_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "286",
+        "Sound_de": "Ich zahle mit Karte.",
+        "translate_fa": "با کارت پرداخت می‌کنم.",
+        "file": "286_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "287",
+        "Sound_de": "So, bitte.",
+        "translate_fa": "اینجا، لطفاً.",
+        "file": "287_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "288",
+        "Sound_de": "Möchten Sie eine Tüte?",
+        "translate_fa": "کیسه می‌خواهید؟",
+        "file": "288_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "289",
+        "Sound_de": "Ja, bitte.",
+        "translate_fa": "بله، لطفاً.",
+        "file": "289_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "290",
+        "Sound_de": "Hier ist die Tüte und Ihr Bon.",
+        "translate_fa": "اینجا کیسه و رسیدتان.",
+        "file": "290_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "291",
+        "Sound_de": "Trinken Sie viel Wasser und ruhen Sie sich aus.",
+        "translate_fa": "زیاد آب بخورید و استراحت کنید.",
+        "file": "291_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "292",
+        "Sound_de": "Ja, mache ich.",
+        "translate_fa": "بله، انجام می‌دهم.",
+        "file": "292_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "293",
+        "Sound_de": "Gute Besserung und einen schönen Tag.",
+        "translate_fa": "بهبودی سریع و روز خوبی داشته باشید.",
+        "file": "293_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "294",
+        "Sound_de": "Danke, Ihnen auch.",
+        "translate_fa": "ممنون، شما هم همین‌طور.",
+        "file": "294_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "295",
+        "Sound_de": "Nach der Toilette fragen.",
+        "translate_fa": "پرسیدن برای توالت.",
+        "file": "295_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "296",
+        "Sound_de": "Möchten Sie etwas bestellen?",
+        "translate_fa": "چیزی سفارش می‌دهید؟",
+        "file": "296_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "297",
+        "Sound_de": "Ja, eine kleine Frage.",
+        "translate_fa": "بله، یک سوال کوچک.",
+        "file": "297_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "298",
+        "Sound_de": "Ein bisschen dringend.",
+        "translate_fa": "کمی فوری.",
+        "file": "298_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "299",
+        "Sound_de": "Kann ich die Toilette benutzen?",
+        "translate_fa": "می‌توانم توالت استفاده کنم؟",
+        "file": "299_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "300",
+        "Sound_de": "Die Toiletten sind eigentlich nur für Gäste.",
+        "translate_fa": "توالت‌ها فقط برای مشتریان است.",
+        "file": "300_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "301",
+        "Sound_de": "Verstehe.",
+        "translate_fa": "می‌فهمم.",
+        "file": "301_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "302",
+        "Sound_de": "Dann nehme ich einen Kaffee.",
+        "translate_fa": "پس یک قهوه می‌گیرم.",
+        "file": "302_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "303",
+        "Sound_de": "Einen Espresso?",
+        "translate_fa": "اسپرسو؟",
+        "file": "303_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "304",
+        "Sound_de": "Einen Espresso.",
+        "translate_fa": "یک اسپرسو.",
+        "file": "304_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "305",
+        "Sound_de": "Kommt sofort.",
+        "translate_fa": "فوراً می‌آید.",
+        "file": "305_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "306",
+        "Sound_de": "Die Toiletten sind hinten rechts nach der Treppe.",
+        "translate_fa": "توالت‌ها پشت راست بعد از پله.",
+        "file": "306_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "307",
+        "Sound_de": "Darf ich gleich gehen?",
+        "translate_fa": "می‌توانم همین حالا بروم؟",
+        "file": "307_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "308",
+        "Sound_de": "Ich mache den Kaffee fertig.",
+        "translate_fa": "قهوه را آماده می‌کنم.",
+        "file": "308_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "309",
+        "Sound_de": "Das ist nett von Ihnen.",
+        "translate_fa": "این خیلی مهربانانه از شماست.",
+        "file": "309_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "310",
+        "Sound_de": "Ein paar Minuten später.",
+        "translate_fa": "چند دقیقه بعد.",
+        "file": "310_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "311",
+        "Sound_de": "Hier ist Ihr Espresso.",
+        "translate_fa": "اینجا اسپرسوتان.",
+        "file": "311_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "312",
+        "Sound_de": "Haben Sie Zucker?",
+        "translate_fa": "شکر دارید؟",
+        "file": "312_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "313",
+        "Sound_de": "Ja, vorne auf dem Tresen,",
+        "translate_fa": "بله، جلو روی پیشخوان،",
+        "file": "313_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "314",
+        "Sound_de": "neben den Servietten.",
+        "translate_fa": "کنار دستمال‌ها.",
+        "file": "314_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "315",
+        "Sound_de": "Die Toilette war sauber.",
+        "translate_fa": "توالت تمیز بود.",
+        "file": "315_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "316",
+        "Sound_de": "Danke, wir achten darauf.",
+        "translate_fa": "ممنون، مراقب هستیم.",
+        "file": "316_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "317",
+        "Sound_de": "Schönes Viertel hier.",
+        "translate_fa": "محله قشنگی اینجا.",
+        "file": "317_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "318",
+        "Sound_de": "Und der Kaffee schmeckt sehr gut.",
+        "translate_fa": "و قهوه خیلی خوشمزه است.",
+        "file": "318_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "319",
+        "Sound_de": "Danke, wir machen ihn frisch.",
+        "translate_fa": "ممنون، تازه درست می‌کنیم.",
+        "file": "319_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "320",
+        "Sound_de": "Haben Sie jeden Tag geöffnet?",
+        "translate_fa": "هر روز باز هستید؟",
+        "file": "320_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "321",
+        "Sound_de": "Nein, sonntags haben wir zu.",
+        "translate_fa": "نه، یکشنبه‌ها بسته‌ایم.",
+        "file": "321_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "322",
+        "Sound_de": "Ein bisschen Pause.",
+        "translate_fa": "کمی استراحت.",
+        "file": "322_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "323",
+        "Sound_de": "Sehr verständlich.",
+        "translate_fa": "خیلی قابل درک.",
+        "file": "323_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "324",
+        "Sound_de": "Was kostet der Kaffee?",
+        "translate_fa": "قهوه چقدر است؟",
+        "file": "324_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "325",
+        "Sound_de": "Ein Euro fünfzig, bitte.",
+        "translate_fa": "یک یورو و پنجاه سنت، لطفاً.",
+        "file": "325_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "326",
+        "Sound_de": "Hier, bitte.",
+        "translate_fa": "اینجا، لطفاً.",
+        "file": "326_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "327",
+        "Sound_de": "Und nochmal vielen Dank.",
+        "translate_fa": "و باز هم خیلی ممنون.",
+        "file": "327_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "328",
+        "Sound_de": "Danke Ihnen auch.",
+        "translate_fa": "ممنون از شما هم.",
+        "file": "328_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "329",
+        "Sound_de": "Ein Ticket kaufen",
+        "translate_fa": "خرید بلیط",
+        "file": "329_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "330",
+        "Sound_de": "Ich möchte bitte ein Ticket nach München.",
+        "translate_fa": "لطفاً یک بلیط به مونیخ می‌خواهم.",
+        "file": "330_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "331",
+        "Sound_de": "Für heute?",
+        "translate_fa": "برای امروز؟",
+        "file": "331_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "332",
+        "Sound_de": "Ja, für heute Nachmittag.",
+        "translate_fa": "بله، برای امروز بعدازظهر.",
+        "file": "332_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "333",
+        "Sound_de": "Es gibt einen Zug um 14.10 Uhr",
+        "translate_fa": "قطاری ساعت ۱۴:۱۰ هست",
+        "file": "333_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "334",
+        "Sound_de": "und einen um 16.45 Uhr.",
+        "translate_fa": "و یکی ساعت ۱۶:۴۵.",
+        "file": "334_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "335",
+        "Sound_de": "Der Zug um 14.10 Uhr ist perfekt.",
+        "translate_fa": "قطار ساعت ۱۴:۱۰ عالی است.",
+        "file": "335_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "336",
+        "Sound_de": "In der zweiten Klasse?",
+        "translate_fa": "کلاس دوم؟",
+        "file": "336_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "337",
+        "Sound_de": "Ja, zweite Klasse, bitte.",
+        "translate_fa": "بله، کلاس دوم، لطفاً.",
+        "file": "337_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "338",
+        "Sound_de": "Haben Sie eine Bahncard?",
+        "translate_fa": "کارت بahn دارید؟",
+        "file": "338_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "339",
+        "Sound_de": "Nein, ich bin Tourist.",
+        "translate_fa": "نه، من گردشگرم.",
+        "file": "339_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "340",
+        "Sound_de": "Das kostet 29 Euro.",
+        "translate_fa": "۲۹ یورو می‌شود.",
+        "file": "340_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "341",
+        "Sound_de": "Einfach?",
+        "translate_fa": "یک‌طرفه؟",
+        "file": "341_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "342",
+        "Sound_de": "Ja, nur Hinfahrt.",
+        "translate_fa": "بله، فقط رفت.",
+        "file": "342_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "343",
+        "Sound_de": "Ich komme morgen zurück vielleicht.",
+        "translate_fa": "شاید فردا برگردم.",
+        "file": "343_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "344",
+        "Sound_de": "Gut, Fensterplatz oder Gang?",
+        "translate_fa": "خوب، جای پنجره یا راهرو؟",
+        "file": "344_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "345",
+        "Sound_de": "Fenster, bitte.",
+        "translate_fa": "پنجره، لطفاً.",
+        "file": "345_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "346",
+        "Sound_de": "Hier ist das Ticket.",
+        "translate_fa": "اینجا بلیط.",
+        "file": "346_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "347",
+        "Sound_de": "Der Zug fährt von Gleis 7.",
+        "translate_fa": "قطار از سکو ۷ حرکت می‌کند.",
+        "file": "347_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "348",
+        "Sound_de": "Muss ich das Ticket entwerten?",
+        "translate_fa": "باید بلیط را پانچ کنم؟",
+        "file": "348_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "349",
+        "Sound_de": "Nein, das ist ein Online-Ticket.",
+        "translate_fa": "نه، این بلیط آنلاین است.",
+        "file": "349_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "350",
+        "Sound_de": "Zeigen Sie es einfach im Zug.",
+        "translate_fa": "فقط در قطار نشان دهید.",
+        "file": "350_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "351",
+        "Sound_de": "Wie lange dauert die Fahrt?",
+        "translate_fa": "سفر چقدر طول می‌کشد؟",
+        "file": "351_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "352",
+        "Sound_de": "Etwa zweieinhalb Stunden.",
+        "translate_fa": "حدود دو ساعت و نیم.",
+        "file": "352_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "353",
+        "Sound_de": "Super, ich fahre gern mit dem Zug.",
+        "translate_fa": "عالی، دوست دارم با قطار بروم.",
+        "file": "353_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "354",
+        "Sound_de": "München ist eine schöne Stadt.",
+        "translate_fa": "مونیخ شهر زیبایی است.",
+        "file": "354_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "355",
+        "Sound_de": "Sind Sie zum ersten Mal dort?",
+        "translate_fa": "اولین بار آنجا هستید؟",
+        "file": "355_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "356",
+        "Sound_de": "Ja, ich möchte das Zentrum sehen",
+        "translate_fa": "بله، می‌خواهم مرکز را ببینم",
+        "file": "356_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "357",
+        "Sound_de": "und Bier probieren.",
+        "translate_fa": "و آبجو امتحان کنم.",
+        "file": "357_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "358",
+        "Sound_de": "Der Marienplatz ist sehr schön.",
+        "translate_fa": "ماریِن‌پلاتز خیلی قشنگ است.",
+        "file": "358_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "359",
+        "Sound_de": "Gibt es hier Schließfächer?",
+        "translate_fa": "اینجا قفل‌دار هست؟",
+        "file": "359_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "360",
+        "Sound_de": "Ja, gleich rechts nach dem Kiosk.",
+        "translate_fa": "بله، درست راست بعد از کیوسک.",
+        "file": "360_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "361",
+        "Sound_de": "Und kann man hier Wasser kaufen?",
+        "translate_fa": "و اینجا آب می‌توان خرید؟",
+        "file": "361_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "362",
+        "Sound_de": "Ja, im kleinen Laden beim Eingang.",
+        "translate_fa": "بله، در فروشگاه کوچک کنار ورودی.",
+        "file": "362_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "363",
+        "Sound_de": "Kann ich mit Karte zahlen?",
+        "translate_fa": "می‌توانم با کارت پرداخت کنم؟",
+        "file": "363_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "364",
+        "Sound_de": "Hier meine Karte.",
+        "translate_fa": "اینجا کارت من.",
+        "file": "364_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "365",
+        "Sound_de": "So, hier ist Ihr Ticket.",
+        "translate_fa": "اینجا، بلیطتان.",
+        "file": "365_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "366",
+        "Sound_de": "Gute Reise und viel Spaß in München.",
+        "translate_fa": "سفر خوب و لذت ببرید در مونیخ.",
+        "file": "366_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "367",
+        "Sound_de": "Mitbewohner in einer Wohngemeinschaft",
+        "translate_fa": "همخانه در آپارتمان مشترک",
+        "file": "367_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "368",
+        "Sound_de": "Hallo, bist du mein neuer Mitbewohner?",
+        "translate_fa": "سلام، تو همخانه جدیدم هستی؟",
+        "file": "368_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "369",
+        "Sound_de": "Ja, hallo.",
+        "translate_fa": "بله، سلام.",
+        "file": "369_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "370",
+        "Sound_de": "Ich heiße Adam.",
+        "translate_fa": "اسم من آدام است.",
+        "file": "370_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "371",
+        "Sound_de": "Und du?",
+        "translate_fa": "و تو؟",
+        "file": "371_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "372",
+        "Sound_de": "Ich bin Julien.",
+        "translate_fa": "من ژولین هستم.",
+        "file": "372_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "373",
+        "Sound_de": "Willkommen in Berlin.",
+        "translate_fa": "به برلین خوش آمدی.",
+        "file": "373_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "374",
+        "Sound_de": "Ich bin gerade aus Polen angekommen.",
+        "translate_fa": "من تازه از لهستان رسیدم.",
+        "file": "374_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "375",
+        "Sound_de": "Warst du schon mal in Deutschland?",
+        "translate_fa": "قبلاً به آلمان آمده بودی؟",
+        "file": "375_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "376",
+        "Sound_de": "Nein, das ist das erste Mal.",
+        "translate_fa": "نه، اولین باره.",
+        "file": "376_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "377",
+        "Sound_de": "Alles ist neu für mich.",
+        "translate_fa": "همه چیز برای من جدید است.",
+        "file": "377_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "378",
+        "Sound_de": "Du wirst es mögen.",
+        "translate_fa": "دوستش خواهی داشت.",
+        "file": "378_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "379",
+        "Sound_de": "Das Viertel ist wirklich schön.",
+        "translate_fa": "محله واقعاً قشنگ است.",
+        "file": "379_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "380",
+        "Sound_de": "Ja, ich habe schon einen Park, eine Bäckerei und einen kleinen Markt gesehen.",
+        "translate_fa": "بله، قبلاً یک پارک، یک نانوایی و یک بازار کوچک دیدم.",
+        "file": "380_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "381",
+        "Sound_de": "Und die Tram ist nur zwei Minuten von hier.",
+        "translate_fa": "و تراموا فقط دو دقیقه از اینجا فاصله دارد.",
+        "file": "381_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "382",
+        "Sound_de": "Sehr praktisch.",
+        "translate_fa": "خیلی عملی.",
+        "file": "382_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "383",
+        "Sound_de": "Sag mal, teilen wir das Bad?",
+        "translate_fa": "بگو ببینم، حمام را شریکیم؟",
+        "file": "383_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "384",
+        "Sound_de": "Ja, wir teilen alles außer den Zimmern.",
+        "translate_fa": "بله، همه چیز را جز اتاق‌ها شریکیم.",
+        "file": "384_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "385",
+        "Sound_de": "Und die Küche?",
+        "translate_fa": "و آشپزخانه؟",
+        "file": "385_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "386",
+        "Sound_de": "Auch gemeinsam.",
+        "translate_fa": "هم مشترک.",
+        "file": "386_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "387",
+        "Sound_de": "Kannst du kochen?",
+        "translate_fa": "می‌توانی آشپزی کنی؟",
+        "file": "387_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "388",
+        "Sound_de": "Ein bisschen.",
+        "translate_fa": "کمی.",
+        "file": "388_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "389",
+        "Sound_de": "Ich mache gern Pasta.",
+        "translate_fa": "دوست دارم پاستا درست کنم.",
+        "file": "389_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "390",
+        "Sound_de": "Perfekt, ich esse gern.",
+        "translate_fa": "عالی، من دوست دارم بخورم.",
+        "file": "390_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "391",
+        "Sound_de": "Haha, dann verstehen wir uns bestimmt gut.",
+        "translate_fa": "هاها، پس حتماً با هم خوب کنار می‌آییم.",
+        "file": "391_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "392",
+        "Sound_de": "Arbeitest du oder studierst du?",
+        "translate_fa": "کار می‌کنی یا درس می‌خوانی؟",
+        "file": "392_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "393",
+        "Sound_de": "Ich studiere an der Uni Germanistik.",
+        "translate_fa": "من در دانشگاه آلمانی‌شناسی می‌خوانم.",
+        "file": "393_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "394",
+        "Sound_de": "Ich auch, aber Wirtschaft.",
+        "translate_fa": "من هم، اما اقتصاد.",
+        "file": "394_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "395",
+        "Sound_de": "Cool!",
+        "translate_fa": "باحال!",
+        "file": "395_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "396",
+        "Sound_de": "Wir können uns mit Deutsch helfen.",
+        "translate_fa": "می‌توانیم با آلمانی به هم کمک کنیم.",
+        "file": "396_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "397",
+        "Sound_de": "Du sprichst schon ziemlich gut.",
+        "translate_fa": "تو قبلاً خیلی خوب صحبت می‌کنی.",
+        "file": "397_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "398",
+        "Sound_de": "Ich lerne mit Filmen und Liedern.",
+        "translate_fa": "با فیلم و آهنگ یاد می‌گیرم.",
+        "file": "398_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "399",
+        "Sound_de": "Hier wirst du schnell besser.",
+        "translate_fa": "اینجا سریع بهتر می‌شوی.",
+        "file": "399_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "400",
+        "Sound_de": "Habt ihr Regeln in der WG?",
+        "translate_fa": "در WG قانون دارید؟",
+        "file": "400_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "401",
+        "Sound_de": "Nur Respekt.",
+        "translate_fa": "فقط احترام.",
+        "file": "401_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "402",
+        "Sound_de": "Putzen und nicht zu laut sein.",
+        "translate_fa": "تمیز کردن و خیلی بلند نبودن.",
+        "file": "402_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "403",
+        "Sound_de": "Ich bin ruhig.",
+        "translate_fa": "من آرام هستم.",
+        "file": "403_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "404",
+        "Sound_de": "Super.",
+        "translate_fa": "عالی.",
+        "file": "404_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "405",
+        "Sound_de": "Und machen wir Einkäufe zusammen?",
+        "translate_fa": "و خریدها را با هم انجام می‌دهیم؟",
+        "file": "405_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "406",
+        "Sound_de": "Ja, warum nicht?",
+        "translate_fa": "بله، چرا که نه؟",
+        "file": "406_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "407",
+        "Sound_de": "Billiger und einfacher.",
+        "translate_fa": "ارزان‌تر و ساده‌تر.",
+        "file": "407_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "408",
+        "Sound_de": "Einverstanden.",
+        "translate_fa": "موافقم.",
+        "file": "408_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "409",
+        "Sound_de": "Und heute Abend?",
+        "translate_fa": "و امشب؟",
+        "file": "409_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "410",
+        "Sound_de": "Wollen wir zusammen essen?",
+        "translate_fa": "می‌خواهیم با هم غذا بخوریم؟",
+        "file": "410_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "411",
+        "Sound_de": "Ich habe Reis und Gemüse.",
+        "translate_fa": "من برنج و سبزیجات دارم.",
+        "file": "411_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "412",
+        "Sound_de": "Dann mache ich einen Salat.",
+        "translate_fa": "پس سالاد درست می‌کنم.",
+        "file": "412_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "413",
+        "Sound_de": "Klasse.",
+        "translate_fa": "عالی.",
+        "file": "413_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "414",
+        "Sound_de": "Ich freue mich, hier zu sein.",
+        "translate_fa": "خوشحالم که اینجام.",
+        "file": "414_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "415",
+        "Sound_de": "Ich auch.",
+        "translate_fa": "من هم.",
+        "file": "415_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "416",
+        "Sound_de": "Willkommen zu Hause.",
+        "translate_fa": "به خانه خوش آمدی.",
+        "file": "416_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "417",
+        "Sound_de": "Danke, Julian.",
+        "translate_fa": "ممنون، ژولین.",
+        "file": "417_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "418",
+        "Sound_de": "Bis später in der Küche.",
+        "translate_fa": "بعداً در آشپزخانه.",
+        "file": "418_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "419",
+        "Sound_de": "Bis später, Adam.",
+        "translate_fa": "بعداً، آدام.",
+        "file": "419_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "420",
+        "Sound_de": "An der Bushaltestelle.",
+        "translate_fa": "در ایستگاه اتوبوس.",
+        "file": "420_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "421",
+        "Sound_de": "Guten Tag, Entschuldigung.",
+        "translate_fa": "روز بخیر، ببخشید.",
+        "file": "421_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "422",
+        "Sound_de": "Guten Tag, ja bitte?",
+        "translate_fa": "روز بخیر، بله؟",
+        "file": "422_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "423",
+        "Sound_de": "Wo ist die nächste Bushaltestelle, wissen Sie das?",
+        "translate_fa": "ایستگاه اتوبوس بعدی کجاست، می‌دانید؟",
+        "file": "423_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "424",
+        "Sound_de": "Wohin möchten Sie fahren?",
+        "translate_fa": "به کجا می‌خواهید بروید؟",
+        "file": "424_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "425",
+        "Sound_de": "In die Innenstadt.",
+        "translate_fa": "به مرکز شهر.",
+        "file": "425_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "426",
+        "Sound_de": "Ah, dann nehmen Sie die Buslinie 12.",
+        "translate_fa": "آه، پس خط اتوبوس ۱۲ را بگیرید.",
+        "file": "426_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "427",
+        "Sound_de": "Fährt der Bus oft?",
+        "translate_fa": "اتوبوس اغلب می‌آید؟",
+        "file": "427_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "428",
+        "Sound_de": "Ja, ungefähr alle 10 Minuten.",
+        "translate_fa": "بله، تقریباً هر ۱۰ دقیقه.",
+        "file": "428_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "429",
+        "Sound_de": "Ist die Haltestelle weit?",
+        "translate_fa": "ایستگاه دور است؟",
+        "file": "429_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "430",
+        "Sound_de": "Nein, gar nicht.",
+        "translate_fa": "نه، اصلاً.",
+        "file": "430_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "431",
+        "Sound_de": "Gehen Sie geradeaus und dann",
+        "translate_fa": "راست بروید و سپس",
+        "file": "431_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "432",
+        "Sound_de": "links nach der Bäckerei.",
+        "translate_fa": "چپ بعد از نانوایی.",
+        "file": "432_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "433",
+        "Sound_de": "Die Bäckerei Schmidt?",
+        "translate_fa": "نانوایی اشمیت؟",
+        "file": "433_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "434",
+        "Sound_de": "Die Haltestelle ist gleich dahinter.",
+        "translate_fa": "ایستگاه درست پشت آن است.",
+        "file": "434_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "435",
+        "Sound_de": "Super, danke schön.",
+        "translate_fa": "عالی، خیلی ممنون.",
+        "file": "435_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "436",
+        "Sound_de": "Ist sie gut zu sehen?",
+        "translate_fa": "خوب دیده می‌شود؟",
+        "file": "436_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "437",
+        "Sound_de": "Ja, da ist ein blaues Schild und eine Bank.",
+        "translate_fa": "بله، تابلوی آبی و یک نیمکت آنجا هست.",
+        "file": "437_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "438",
+        "Sound_de": "Ich glaube, ich sehe es schon.",
+        "translate_fa": "فکر کنم همین حالا می‌بینمش.",
+        "file": "438_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "439",
+        "Sound_de": "Haben Sie ein Ticket?",
+        "translate_fa": "بلیط دارید؟",
+        "file": "439_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "440",
+        "Sound_de": "Nein, ich muss eins kaufen.",
+        "translate_fa": "نه، باید یکی بخرم.",
+        "file": "440_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "441",
+        "Sound_de": "Sie können im Bus kaufen,",
+        "translate_fa": "می‌توانید در اتوبوس بخرید،",
+        "file": "441_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "442",
+        "Sound_de": "aber das ist ein bisschen teurer.",
+        "translate_fa": "اما کمی گران‌تر است.",
+        "file": "442_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "443",
+        "Sound_de": "Ach so.",
+        "translate_fa": "آها.",
+        "file": "443_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "444",
+        "Sound_de": "Wo kann ich vorher ein Ticket kaufen?",
+        "translate_fa": "قبلش کجا می‌توانم بلیط بخرم؟",
+        "file": "444_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "445",
+        "Sound_de": "Im Kiosk hier rechts.",
+        "translate_fa": "در کیوسک اینجا سمت راست.",
+        "file": "445_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "446",
+        "Sound_de": "Danke, ich gehe gleich hin.",
+        "translate_fa": "ممنون، همین حالا می‌روم.",
+        "file": "446_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "447",
+        "Sound_de": "Aber Achtung!",
+        "translate_fa": "اما توجه!",
+        "file": "447_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "448",
+        "Sound_de": "Der Kiosk macht Mittagspause um 12.",
+        "translate_fa": "کیوسک ساعت ۱۲ ناهار تعطیل می‌شود.",
+        "file": "448_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "449",
+        "Sound_de": "Oh, dann beeile ich mich.",
+        "translate_fa": "اوه، پس عجله می‌کنم.",
+        "file": "449_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "450",
+        "Sound_de": "Haben Sie Kleingeld?",
+        "translate_fa": "سکه دارید؟",
+        "file": "450_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "451",
+        "Sound_de": "Ja, ich habe Münzen.",
+        "translate_fa": "بله، سکه دارم.",
+        "file": "451_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "452",
+        "Sound_de": "Und im Bus bitte entwerten.",
+        "translate_fa": "و در اتوبوس لطفاً پانچ کنید.",
+        "file": "452_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "453",
+        "Sound_de": "In der kleinen gelben Maschine.",
+        "translate_fa": "در دستگاه زرد کوچک.",
+        "file": "453_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "454",
+        "Sound_de": "Wie in der U-Bahn?",
+        "translate_fa": "مثل مترو؟",
+        "file": "454_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "455",
+        "Sound_de": "Danke, ich bin hier noch etwas orientierungslos.",
+        "translate_fa": "ممنون، من اینجا هنوز کمی گمراهم.",
+        "file": "455_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "456",
+        "Sound_de": "Die Stadt ist schön.",
+        "translate_fa": "شهر قشنگ است.",
+        "file": "456_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "457",
+        "Sound_de": "Man braucht nur ein bisschen Zeit.",
+        "translate_fa": "فقط کمی زمان نیاز است.",
+        "file": "457_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "458",
+        "Sound_de": "Wohnen Sie hier?",
+        "translate_fa": "اینجا زندگی می‌کنید؟",
+        "file": "458_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "459",
+        "Sound_de": "Ja, seit zehn Jahren.",
+        "translate_fa": "بله، ده سال است.",
+        "file": "459_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "460",
+        "Sound_de": "Sie haben Glück.",
+        "translate_fa": "شما خوش‌شانس هستید.",
+        "file": "460_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "461",
+        "Sound_de": "Die Stadt gefällt mir sehr.",
+        "translate_fa": "شهر خیلی به من خوش می‌آید.",
+        "file": "461_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "462",
+        "Sound_de": "Danke, das freut mich.",
+        "translate_fa": "ممنون، خوشحالم.",
+        "file": "462_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "463",
+        "Sound_de": "Nur zwei Tage.",
+        "translate_fa": "فقط دو روز.",
+        "file": "463_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "464",
+        "Sound_de": "Dann viel Spaß.",
+        "translate_fa": "پس لذت ببرید.",
+        "file": "464_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "465",
+        "Sound_de": "Vielen Dank für alle Informationen.",
+        "translate_fa": "خیلی ممنون از همه اطلاعات.",
+        "file": "465_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "466",
+        "Sound_de": "Viel Erfolg mit dem Bus.",
+        "translate_fa": "موفق باشید با اتوبوس.",
+        "file": "466_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "467",
+        "Sound_de": "Unerwartetes Treffen",
+        "translate_fa": "ملاقات غیرمنتظره",
+        "file": "467_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "468",
+        "Sound_de": "Oh, hallo!",
+        "translate_fa": "اوه، سلام!",
+        "file": "468_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "469",
+        "Sound_de": "Entschuldigung, kennen wir uns?",
+        "translate_fa": "ببخشید، ما همدیگر را می‌شناسیم؟",
+        "file": "469_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "470",
+        "Sound_de": "Hm, vielleicht.",
+        "translate_fa": "هم، شاید.",
+        "file": "470_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "471",
+        "Sound_de": "Bist du aus Polen?",
+        "translate_fa": "تو از لهستان هستی؟",
+        "file": "471_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "472",
+        "Sound_de": "Ja!",
+        "translate_fa": "بله!",
+        "file": "472_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "473",
+        "Sound_de": "Und du warst doch im Deutschkurs",
+        "translate_fa": "و تو که در دوره آلمانی",
+        "file": "473_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "474",
+        "Sound_de": "in Leipzig, oder?",
+        "translate_fa": "در لایپزیگ بودی، مگه نه؟",
+        "file": "474_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "475",
+        "Sound_de": "Genau, im April, in der gleichen Gruppe.",
+        "translate_fa": "دقیقاً، در آوریل، در همان گروه.",
+        "file": "475_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "476",
+        "Sound_de": "Wahnsinn!",
+        "translate_fa": "دیوانه‌کننده!",
+        "file": "476_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "477",
+        "Sound_de": "Und jetzt treffen wir uns hier in Berlin!",
+        "translate_fa": "و حالا اینجا در برلین همدیگر را می‌بینیم!",
+        "file": "477_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "478",
+        "Sound_de": "Ja, echt verrückt.",
+        "translate_fa": "بله، واقعاً دیوانه‌وار.",
+        "file": "478_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "479",
+        "Sound_de": "Die Welt ist klein.",
+        "translate_fa": "دنیا کوچیکه.",
+        "file": "479_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "480",
+        "Sound_de": "Bist du hier im Urlaub?",
+        "translate_fa": "تو اینجا در تعطیلات هستی؟",
+        "file": "480_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "481",
+        "Sound_de": "Ja, für drei Tage.",
+        "translate_fa": "بله، برای سه روز.",
+        "file": "481_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "482",
+        "Sound_de": "Und du?",
+        "translate_fa": "و تو؟",
+        "file": "482_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "483",
+        "Sound_de": "Ich auch.",
+        "translate_fa": "من هم.",
+        "file": "483_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "484",
+        "Sound_de": "Ich bin gestern angekommen.",
+        "translate_fa": "من دیروز رسیدم.",
+        "file": "484_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "485",
+        "Sound_de": "Mein Hostel ist am Alexanderplatz.",
+        "translate_fa": "هاستلم در میدان الکساندر است.",
+        "file": "485_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "486",
+        "Sound_de": "Ach echt?",
+        "translate_fa": "واقعاً؟",
+        "file": "486_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "487",
+        "Sound_de": "Meins auch, ganz in der Nähe vom Fernsehturm.",
+        "translate_fa": "مال من هم، خیلی نزدیک به برج تلویزیون.",
+        "file": "487_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "488",
+        "Sound_de": "Super, dann sind wir fast Nachbarn!",
+        "translate_fa": "عالی، پس تقریباً همساییم!",
+        "file": "488_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "489",
+        "Sound_de": "Haha, stimmt.",
+        "translate_fa": "هاها، درسته.",
+        "file": "489_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "490",
+        "Sound_de": "Was machst du heute?",
+        "translate_fa": "امروز چیکار می‌کنی؟",
+        "file": "490_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "491",
+        "Sound_de": "Heute Vormittag Museumsinsel,",
+        "translate_fa": "امروز صبح جزیره موزه‌ها،",
+        "file": "491_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "492",
+        "Sound_de": "später Prenzlauer Berg.",
+        "translate_fa": "بعداً پرنتسلر برگ.",
+        "file": "492_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "493",
+        "Sound_de": "Oh, Prenzlauer Berg?",
+        "translate_fa": "اوه، پرنتسلر برگ؟",
+        "file": "493_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "494",
+        "Sound_de": "Da gehe ich auch hin.",
+        "translate_fa": "من هم آنجا می‌رم.",
+        "file": "494_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "495",
+        "Sound_de": "Ich mag den Kiez sehr.",
+        "translate_fa": "من محله رو خیلی دوست دارم.",
+        "file": "495_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "496",
+        "Sound_de": "Kennst du ihn schon?",
+        "translate_fa": "تو قبلاً اونجا رو دیدی؟",
+        "file": "496_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "497",
+        "Sound_de": "Nein, zum ersten Mal.",
+        "translate_fa": "نه، اولین باره.",
+        "file": "497_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "498",
+        "Sound_de": "Dann wirst du ihn mögen, sehr schön dort.",
+        "translate_fa": "پس خوشت میاد، اونجا خیلی قشنگه.",
+        "file": "498_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "499",
+        "Sound_de": "Sollen wir zusammen gehen?",
+        "translate_fa": "بریم با هم؟",
+        "file": "499_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "500",
+        "Sound_de": "Ja, gern.",
+        "translate_fa": "بله، حتماً.",
+        "file": "500_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "501",
+        "Sound_de": "Aber zuerst ein Kaffee?",
+        "translate_fa": "ولی اول یه قهوه؟",
+        "file": "501_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "502",
+        "Sound_de": "Gute Idee.",
+        "translate_fa": "ایده خوبیه.",
+        "file": "502_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "503",
+        "Sound_de": "Da vorne ist ein Café mit Terrasse.",
+        "translate_fa": "اون جلو یه کافه با تراس هست.",
+        "file": "503_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "504",
+        "Sound_de": "Perfekt.",
+        "translate_fa": "عالی.",
+        "file": "504_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "505",
+        "Sound_de": "Ich lade dich ein.",
+        "translate_fa": "من مهمونت می‌کنم.",
+        "file": "505_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "506",
+        "Sound_de": "Danke, sehr nett.",
+        "translate_fa": "ممنون، خیلی مهربونی.",
+        "file": "506_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "507",
+        "Sound_de": "Dein Deutsch ist immer noch gut.",
+        "translate_fa": "آلمانی‌ت هنوز خوبه.",
+        "file": "507_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "508",
+        "Sound_de": "Danke, ich übe viel.",
+        "translate_fa": "ممنون، زیاد تمرین می‌کنم.",
+        "file": "508_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "509",
+        "Sound_de": "Und du sprichst auch super.",
+        "translate_fa": "و تو هم خیلی عالی حرف می‌زنی.",
+        "file": "509_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "510",
+        "Sound_de": "Danke, ich höre oft deutsche Musik.",
+        "translate_fa": "ممنون، من اغلب موسیقی آلمانی گوش می‌دم.",
+        "file": "510_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "511",
+        "Sound_de": "Wie lange bleibst du hier?",
+        "translate_fa": "چقدر اینجا می‌مونی؟",
+        "file": "511_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "512",
+        "Sound_de": "Bis Sonntag.",
+        "translate_fa": "تا یکشنبه.",
+        "file": "512_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "513",
+        "Sound_de": "Auch bis Sonntag.",
+        "translate_fa": "من هم تا یکشنبه.",
+        "file": "513_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "514",
+        "Sound_de": "Wollen wir morgen Kreuzberg",
+        "translate_fa": "می‌خوای فردا کرویزبرگ",
+        "file": "514_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "515",
+        "Sound_de": "zusammen besuchen?",
+        "translate_fa": "با هم بریم؟",
+        "file": "515_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "516",
+        "Sound_de": "Klar, warum nicht?",
+        "translate_fa": "البته، چرا که نه؟",
+        "file": "516_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "517",
+        "Sound_de": "Da gibt's viel zu sehen.",
+        "translate_fa": "اونجا کلی چیز برای دیدن هست.",
+        "file": "517_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "518",
+        "Sound_de": "Also, erst Kaffee und dann los?",
+        "translate_fa": "پس اول قهوه و بعد بریم؟",
+        "file": "518_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "519",
+        "Sound_de": "Ja, ich bin bereit.",
+        "translate_fa": "بله، آماده‌ام.",
+        "file": "519_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "520",
+        "Sound_de": "Schön, dich hier wiederzusehen.",
+        "translate_fa": "خوشحالم که اینجا دوباره می‌بینمت.",
+        "file": "520_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "521",
+        "Sound_de": "Ich freue mich auch.",
+        "translate_fa": "من هم خوشحالم.",
+        "file": "521_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "522",
+        "Sound_de": "Berlin bringt uns zusammen.",
+        "translate_fa": "برلین ما رو با هم جمع کرده.",
+        "file": "522_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "523",
+        "Sound_de": "Los geht's!",
+        "translate_fa": "بزن بریم!",
+        "file": "523_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "524",
+        "Sound_de": "Ja.",
+        "translate_fa": "بله.",
+        "file": "524_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "525",
+        "Sound_de": "Einen schönen Tag für uns.",
+        "translate_fa": "روز خوبی برای ما.",
+        "file": "525_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "526",
+        "Sound_de": "Dir auch.",
+        "translate_fa": "برای تو هم.",
+        "file": "526_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "527",
+        "Sound_de": "Ein Eis kaufen am Strand",
+        "translate_fa": "خرید بستنی در ساحل",
+        "file": "527_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "528",
+        "Sound_de": "Guten Tag, mein Herr.",
+        "translate_fa": "روز بخیر، آقا.",
+        "file": "528_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "529",
+        "Sound_de": "Guten Tag.",
+        "translate_fa": "روز بخیر.",
+        "file": "529_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "530",
+        "Sound_de": "Es ist so heiß heute.",
+        "translate_fa": "امروز خیلی گرمه.",
+        "file": "530_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "531",
+        "Sound_de": "Ich möchte ein Eis, bitte.",
+        "translate_fa": "می‌خوام یه بستنی، لطفاً.",
+        "file": "531_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "532",
+        "Sound_de": "Gerne.",
+        "translate_fa": "با کمال میل.",
+        "file": "532_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "533",
+        "Sound_de": "Im Hörnchen oder im Becher?",
+        "translate_fa": "تو قیف یا تو لیوان؟",
+        "file": "533_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "534",
+        "Sound_de": "Im Hörnchen, bitte.",
+        "translate_fa": "تو قیف، لطفاً.",
+        "file": "534_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "535",
+        "Sound_de": "Eine Kugel oder zwei?",
+        "translate_fa": "یه اسکوپ یا دو تا؟",
+        "file": "535_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "536",
+        "Sound_de": "Zwei Kugeln.",
+        "translate_fa": "دو اسکوپ.",
+        "file": "536_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "537",
+        "Sound_de": "Das habe ich mir verdient.",
+        "translate_fa": "اینو لایقش بودم.",
+        "file": "537_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "538",
+        "Sound_de": "Haha, sehr gut.",
+        "translate_fa": "هاها، خیلی خوبه.",
+        "file": "538_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "539",
+        "Sound_de": "Welche Sorten?",
+        "translate_fa": "چه طعم‌هایی؟",
+        "file": "539_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "540",
+        "Sound_de": "Erdbeere und Vanille.",
+        "translate_fa": "توت‌فرنگی و وانیل.",
+        "file": "540_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "541",
+        "Sound_de": "Tolle Wahl.",
+        "translate_fa": "انتخاب عالی.",
+        "file": "541_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "542",
+        "Sound_de": "Erdbeere ist hausgemacht, Vanille",
+        "translate_fa": "توت‌فرنگی دست‌ساز هست، وانیل",
+        "file": "542_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "543",
+        "Sound_de": "aus Madagaskar.",
+        "translate_fa": "از ماداگاسکار.",
+        "file": "543_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "544",
+        "Sound_de": "Klingt lecker.",
+        "translate_fa": "صداش خوشمزه میاد.",
+        "file": "544_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "545",
+        "Sound_de": "Möchten Sie Sahne dazu?",
+        "translate_fa": "کرم روش می‌خواید؟",
+        "file": "545_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "546",
+        "Sound_de": "Warum nicht?",
+        "translate_fa": "چرا که نه؟",
+        "file": "546_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "547",
+        "Sound_de": "Ja, ein bisschen Sahne, bitte.",
+        "translate_fa": "بله، یه کم کرم، لطفاً.",
+        "file": "547_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "548",
+        "Sound_de": "In Ordnung.",
+        "translate_fa": "ممنون.",
+        "file": "548_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "549",
+        "Sound_de": "Kostet 50 Cent extra, ok?",
+        "translate_fa": "۵۰ سنت اضافه می‌شه، اوکی؟",
+        "file": "549_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "550",
+        "Sound_de": "Kein Problem.",
+        "translate_fa": "مشکلی نیست.",
+        "file": "550_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "551",
+        "Sound_de": "Hier ist Ihr Eis.",
+        "translate_fa": "این بستنیتون.",
+        "file": "551_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "552",
+        "Sound_de": "Vorsicht, es schmilzt schnell.",
+        "translate_fa": "مواظب باش، زود آب می‌شه.",
+        "file": "552_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "553",
+        "Sound_de": "Danke.",
+        "translate_fa": "ممنون.",
+        "file": "553_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "554",
+        "Sound_de": "Es riecht super.",
+        "translate_fa": "بوی فوق‌العاده‌ای داره.",
+        "file": "554_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "555",
+        "Sound_de": "Möchten Sie eine Serviette?",
+        "translate_fa": "دستمال می‌خواید؟",
+        "file": "555_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "556",
+        "Sound_de": "Ja, bitte.",
+        "translate_fa": "بله، لطفاً.",
+        "file": "556_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "557",
+        "Sound_de": "Ich bin manchmal etwas ungeschickt.",
+        "translate_fa": "گاهی اوقات کمی دست‌وپاچلفتی‌ام.",
+        "file": "557_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "558",
+        "Sound_de": "Haha, kein Problem.",
+        "translate_fa": "هاها، مشکلی نیست.",
+        "file": "558_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "559",
+        "Sound_de": "Hier, bitte.",
+        "translate_fa": "اینجا، بفرمایید.",
+        "file": "559_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "560",
+        "Sound_de": "Haben Sie noch andere Sorten?",
+        "translate_fa": "طعم‌های دیگه هم دارین؟",
+        "file": "560_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "561",
+        "Sound_de": "Ja, Karamell mit Salz, Zitrone-Basilikum, Zartbitterschokolade.",
+        "translate_fa": "بله، کارامل با نمک، لیمو-ریحان، شکلات تلخ.",
+        "file": "561_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "562",
+        "Sound_de": "Zitrone-Basilikum?",
+        "translate_fa": "لیمو-ریحان؟",
+        "file": "562_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "563",
+        "Sound_de": "Das klingt spannend.",
+        "translate_fa": "جالبه به نظر می‌رسه.",
+        "file": "563_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "564",
+        "Sound_de": "Ja, sehr frisch.",
+        "translate_fa": "بله، خیلی تازه.",
+        "file": "564_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "565",
+        "Sound_de": "Möchten Sie probieren?",
+        "translate_fa": "می‌خواید امتحان کنید؟",
+        "file": "565_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "566",
+        "Sound_de": "Nur einen kleinen Löffel?",
+        "translate_fa": "فقط یه قاشق کوچیک؟",
+        "file": "566_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "567",
+        "Sound_de": "Natürlich, bitte schön.",
+        "translate_fa": "البته، بفرمایید.",
+        "file": "567_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "568",
+        "Sound_de": "Sehr gut.",
+        "translate_fa": "خیلی خوبه.",
+        "file": "568_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "569",
+        "Sound_de": "Vielleicht morgen.",
+        "translate_fa": "شاید فردا.",
+        "file": "569_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "570",
+        "Sound_de": "Wir sind jeden Tag von elf bis zwanzig Uhr hier.",
+        "translate_fa": "ما هر روز از یازده تا هشت شب اینجاییم.",
+        "file": "570_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "571",
+        "Sound_de": "Super.",
+        "translate_fa": "عالی.",
+        "file": "571_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "572",
+        "Sound_de": "Ich komme morgen mit meinen Kindern.",
+        "translate_fa": "فردا با بچه‌هام میام.",
+        "file": "572_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "573",
+        "Sound_de": "Mögen Sie Schokolade?",
+        "translate_fa": "شکلات دوست دارین؟",
+        "file": "573_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "574",
+        "Sound_de": "Oh ja, vor allem meine Tochter.",
+        "translate_fa": "اوه بله، مخصوصاً دخترم.",
+        "file": "574_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "575",
+        "Sound_de": "Dann werden sie glücklich.",
+        "translate_fa": "پس خوشحال می‌شن.",
+        "file": "575_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "576",
+        "Sound_de": "Unsere Schokolade ist sehr beliebt.",
+        "translate_fa": "شکلات ما خیلی محبوبه.",
+        "file": "576_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "577",
+        "Sound_de": "Das glaube ich.",
+        "translate_fa": "باورم می‌شه.",
+        "file": "577_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "578",
+        "Sound_de": "Was macht das?",
+        "translate_fa": "چقدر می‌شه؟",
+        "file": "578_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "579",
+        "Sound_de": "3,50 Euro mit Sahne.",
+        "translate_fa": "۳٫۵۰ یورو با کرم.",
+        "file": "579_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "580",
+        "Sound_de": "Stimmt so.",
+        "translate_fa": "درست حساب شد.",
+        "file": "580_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "581",
+        "Sound_de": "Vielen Dank, das ist nett.",
+        "translate_fa": "خیلی ممنون، خیلی مهربونی.",
+        "file": "581_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "582",
+        "Sound_de": "Danke auch.",
+        "translate_fa": "ممنون از شما هم.",
+        "file": "582_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "583",
+        "Sound_de": "Einen schönen Tag und bis morgen vielleicht.",
+        "translate_fa": "روز خوبی داشته باشین و شاید فردا ببینمتون.",
+        "file": "583_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "584",
+        "Sound_de": "Sehr gern.",
+        "translate_fa": "با کمال میل.",
+        "file": "584_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "585",
+        "Sound_de": "Auf Wiedersehen.",
+        "translate_fa": "تا دیدار.",
+        "file": "585_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "586",
+        "Sound_de": "Nach einem Handtuch fragen am Strand",
+        "translate_fa": "پرسیدن حوله در ساحل",
+        "file": "586_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "587",
+        "Sound_de": "Hallo, Entschuldigung.",
+        "translate_fa": "سلام، ببخشید.",
+        "file": "587_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "588",
+        "Sound_de": "Hallo.",
+        "translate_fa": "سلام.",
+        "file": "588_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "589",
+        "Sound_de": "Ja, brauchst du etwas?",
+        "translate_fa": "بله، چیزی لازم داری؟",
+        "file": "589_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "590",
+        "Sound_de": "Ja, oh Mann, ich habe mein",
+        "translate_fa": "بله، وای، من",
+        "file": "590_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "591",
+        "Sound_de": "Handtuch im Hotel vergessen.",
+        "translate_fa": "حوله‌مو تو هتل فراموش کردم.",
+        "file": "591_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "592",
+        "Sound_de": "Bist du ohne Handtuch schwimmen gegangen?",
+        "translate_fa": "بدون حوله رفتی شنا؟",
+        "file": "592_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "593",
+        "Sound_de": "Ja, ich war ein bisschen zu schnell.",
+        "translate_fa": "بله، یه کم عجله کردم.",
+        "file": "593_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "594",
+        "Sound_de": "Haha, das passiert.",
+        "translate_fa": "هاها، این اتفاق می‌افته.",
+        "file": "594_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "595",
+        "Sound_de": "Bist du jetzt ganz nass?",
+        "translate_fa": "حالا کامل خیسی؟",
+        "file": "595_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "596",
+        "Sound_de": "Ja und voller Sand auch.",
+        "translate_fa": "بله و پر از شن هم.",
+        "file": "596_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "597",
+        "Sound_de": "Ich habe ein Handtuch extra.",
+        "translate_fa": "من یه حوله اضافه دارم.",
+        "file": "597_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "598",
+        "Sound_de": "Willst du es benutzen?",
+        "translate_fa": "می‌خوای استفاده کنی؟",
+        "file": "598_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "599",
+        "Sound_de": "Wirklich?",
+        "translate_fa": "واقعاً؟",
+        "file": "599_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "600",
+        "Sound_de": "Das wäre super nett.",
+        "translate_fa": "این خیلی مهربونانه‌ست.",
+        "file": "600_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "601",
+        "Sound_de": "Es ist sauber.",
+        "translate_fa": "تمیزه.",
+        "file": "601_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "602",
+        "Sound_de": "Ich habe es noch nicht benutzt.",
+        "translate_fa": "هنوز استفاده نکردم.",
+        "file": "602_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "603",
+        "Sound_de": "Vielen Dank.",
+        "translate_fa": "خیلی ممنون.",
+        "file": "603_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "604",
+        "Sound_de": "Ich gebe es dir nachher zurück.",
+        "translate_fa": "بعداً پس می‌دم.",
+        "file": "604_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "605",
+        "Sound_de": "Musst du nicht.",
+        "translate_fa": "لازم نیست.",
+        "file": "605_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "606",
+        "Sound_de": "Es ist alt.",
+        "translate_fa": "قدیمیه.",
+        "file": "606_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "607",
+        "Sound_de": "Du kannst es behalten.",
+        "translate_fa": "می‌تونی نگهش داری.",
+        "file": "607_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "608",
+        "Sound_de": "Oh nein, das ist zu viel.",
+        "translate_fa": "اوه نه، این زیادیه.",
+        "file": "608_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "609",
+        "Sound_de": "Doch, doch, kein Problem.",
+        "translate_fa": "چرا، چرا، مشکلی نیست.",
+        "file": "609_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "610",
+        "Sound_de": "Bist du im Urlaub hier?",
+        "translate_fa": "تو اینجا در تعطیلات هستی؟",
+        "file": "610_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "611",
+        "Sound_de": "Ja, für eine Woche.",
+        "translate_fa": "بله، برای یک هفته.",
+        "file": "611_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "612",
+        "Sound_de": "Das ist mein erstes Mal in Biarritz.",
+        "translate_fa": "این اولین باره که بیاریتز میام.",
+        "file": "612_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "613",
+        "Sound_de": "Dann willkommen.",
+        "translate_fa": "پس خوش اومدی.",
+        "file": "613_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "614",
+        "Sound_de": "Gefällt dir der Strand?",
+        "translate_fa": "ساحل خوشت اومده؟",
+        "file": "614_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "615",
+        "Sound_de": "Ja, sehr.",
+        "translate_fa": "بله، خیلی.",
+        "file": "615_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "616",
+        "Sound_de": "Das Wasser ist kalt, aber schön.",
+        "translate_fa": "آب سرد هست ولی قشنگه.",
+        "file": "616_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "617",
+        "Sound_de": "Ja, hier ist es immer so, auch im Sommer.",
+        "translate_fa": "بله، اینجا همیشه اینطوریه، حتی تابستون.",
+        "file": "617_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "618",
+        "Sound_de": "Kommst du oft hierher?",
+        "translate_fa": "اغلب اینجا میای؟",
+        "file": "618_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "619",
+        "Sound_de": "Ja, fast jedes Wochenende.",
+        "translate_fa": "بله، تقریباً هر آخر هفته.",
+        "file": "619_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "620",
+        "Sound_de": "Ich wohne ganz in der Nähe.",
+        "translate_fa": "من خیلی نزدیک اینجا زندگی می‌کنم.",
+        "file": "620_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "621",
+        "Sound_de": "Wow, Glück gehabt!",
+        "translate_fa": "وای، چه شانسی!",
+        "file": "621_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "622",
+        "Sound_de": "Ich wohne weit weg vom Meer.",
+        "translate_fa": "من خیلی دور از دریا زندگی می‌کنم.",
+        "file": "622_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "623",
+        "Sound_de": "Dann genieß es richtig.",
+        "translate_fa": "پس خوب لذت ببر.",
+        "file": "623_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "624",
+        "Sound_de": "Und danke nochmal für das Handtuch.",
+        "translate_fa": "و بازم ممنون بابت حوله.",
+        "file": "624_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "625",
+        "Sound_de": "Brauchst du auch Sonnencreme?",
+        "translate_fa": "کرم ضدآفتاب هم لازم داری؟",
+        "file": "625_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "626",
+        "Sound_de": "Nein, danke.",
+        "translate_fa": "نه، ممنون.",
+        "file": "626_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "627",
+        "Sound_de": "Ich habe im Hotel schon genommen.",
+        "translate_fa": "تو هتل قبلاً زدم.",
+        "file": "627_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "628",
+        "Sound_de": "Gut.",
+        "translate_fa": "خوب.",
+        "file": "628_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "629",
+        "Sound_de": "Pass trotzdem auf.",
+        "translate_fa": "با این حال مواظب باش.",
+        "file": "629_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "630",
+        "Sound_de": "Die Sonne ist heute stark.",
+        "translate_fa": "امروز آفتاب قویه.",
+        "file": "630_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "631",
+        "Sound_de": "Ja, ich merke es schon auf meinen Schultern.",
+        "translate_fa": "بله، روی شونه‌هام حسش می‌کنم.",
+        "file": "631_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "632",
+        "Sound_de": "Zieh lieber ein T-Shirt an, wenn du länger bleibst.",
+        "translate_fa": "بهتره تی‌شرت بپوشی اگه بیشتر می‌مونی.",
+        "file": "632_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "633",
+        "Sound_de": "Ich mache gleich ein Nickerchen im Schatten.",
+        "translate_fa": "الان یه چرت تو سایه می‌زنم.",
+        "file": "633_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "634",
+        "Sound_de": "Gute Pause.",
+        "translate_fa": "استراحت خوب.",
+        "file": "634_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "635",
+        "Sound_de": "Danke nochmal.",
+        "translate_fa": "باز ممنون.",
+        "file": "635_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "636",
+        "Sound_de": "Du hast mich gerettet.",
+        "translate_fa": "نجاتم دادی.",
+        "file": "636_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "637",
+        "Sound_de": "Schönen Nachmittag.",
+        "translate_fa": "بعدازظهر خوبی داشته باش.",
+        "file": "637_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "638",
+        "Sound_de": "Tschüss.",
+        "translate_fa": "خدانگهدار.",
+        "file": "638_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "639",
+        "Sound_de": "Nach einem Freizeitpark fragen.",
+        "translate_fa": "پرسیدن درباره پارک تفریحی",
+        "file": "639_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "640",
+        "Sound_de": "Guten Tag, junge Frau.",
+        "translate_fa": "روز بخیر، خانم جوان.",
+        "file": "640_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "641",
+        "Sound_de": "Kann ich Ihnen helfen?",
+        "translate_fa": "می‌تونم کمک کنم؟",
+        "file": "641_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "642",
+        "Sound_de": "Ich suche einen Freizeitpark für meine Kinder.",
+        "translate_fa": "یه پارک تفریحی برای بچه‌هام می‌گردم.",
+        "file": "642_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "643",
+        "Sound_de": "Natürlich.",
+        "translate_fa": "البته.",
+        "file": "643_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "644",
+        "Sound_de": "Sind Sie im Urlaub hier in München?",
+        "translate_fa": "شما اینجا در مونیخ در تعطیلاتین؟",
+        "file": "644_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "645",
+        "Sound_de": "Ja, mit meinen zwei Kindern.",
+        "translate_fa": "بله، با دو تا بچه‌م.",
+        "file": "645_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "646",
+        "Sound_de": "Sie lieben Karussells.",
+        "translate_fa": "اونا چرخ‌وفلک دوست دارن.",
+        "file": "646_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "647",
+        "Sound_de": "Dann empfehle ich Ihnen den Kinderpark.",
+        "translate_fa": "پس پارک کودکان رو پیشنهاد می‌کنم.",
+        "file": "647_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "648",
+        "Sound_de": "Er ist nur 20 Minuten von hier.",
+        "translate_fa": "فقط ۲۰ دقیقه از اینجا فاصله داره.",
+        "file": "648_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "649",
+        "Sound_de": "Klingt gut.",
+        "translate_fa": "خوب به نظر می‌رسه.",
+        "file": "649_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "650",
+        "Sound_de": "Was gibt es dort?",
+        "translate_fa": "اونجا چی داره؟",
+        "file": "650_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "651",
+        "Sound_de": "Viele Attraktionen für Kinder, ein Riesenrad, Rutschen und eine kleine Bahn.",
+        "translate_fa": "کلی جاذبه برای بچه‌ها، چرخ‌وفلک بزرگ، سرسره و قطار کوچیک.",
+        "file": "651_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "652",
+        "Sound_de": "Gibt es auch Shows?",
+        "translate_fa": "نمایش هم داره؟",
+        "file": "652_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "653",
+        "Sound_de": "Ja, um 14 Uhr eine Clownshow",
+        "translate_fa": "بله، ساعت ۱۴ نمایش دلقک",
+        "file": "653_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "654",
+        "Sound_de": "und um 16 Uhr ein kleiner Zirkus.",
+        "translate_fa": "و ساعت ۱۶ سیرک کوچیک.",
+        "file": "654_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "655",
+        "Sound_de": "Wo kann man die Tickets kaufen?",
+        "translate_fa": "بلیت‌ها رو از کجا می‌شه خرید؟",
+        "file": "655_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "656",
+        "Sound_de": "Direkt am Eingang oder online.",
+        "translate_fa": "مستقیم از ورودی یا آنلاین.",
+        "file": "656_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "657",
+        "Sound_de": "Online ist ein bisschen billiger.",
+        "translate_fa": "آنلاین یه کم ارزون‌تره.",
+        "file": "657_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "658",
+        "Sound_de": "Aha, und wie viel kostet es?",
+        "translate_fa": "آها، و چقدر هزینه داره؟",
+        "file": "658_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "659",
+        "Sound_de": "12 Euro für Erwachsene, 8 Euro für Kinder.",
+        "translate_fa": "۱۲ یورو برای بزرگسال، ۸ یورو برای بچه.",
+        "file": "659_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "660",
+        "Sound_de": "Und für die Kleinen?",
+        "translate_fa": "و برای کوچولوها؟",
+        "file": "660_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "661",
+        "Sound_de": "Mein Sohn ist zwei Jahre alt.",
+        "translate_fa": "پسرم دو سالشه.",
+        "file": "661_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "662",
+        "Sound_de": "Unter drei Jahren ist es gratis.",
+        "translate_fa": "زیر سه سال رایگانه.",
+        "file": "662_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "663",
+        "Sound_de": "Und gibt es etwas zu essen dort?",
+        "translate_fa": "و اونجا چیزی برای خوردن هست؟",
+        "file": "663_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "664",
+        "Sound_de": "Ja, eine Pizzeria, einen Krebsstand",
+        "translate_fa": "بله، پیتزا فروشی، غرفه خرچنگ",
+        "file": "664_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "665",
+        "Sound_de": "und einen Picknickbereich.",
+        "translate_fa": "و فضای پیک‌نیک.",
+        "file": "665_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "666",
+        "Sound_de": "Kann man eigenes Essen mitbringen?",
+        "translate_fa": "می‌شه غذای خودمون رو ببریم؟",
+        "file": "666_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "667",
+        "Sound_de": "Ja, natürlich.",
+        "translate_fa": "بله، البته.",
+        "file": "667_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "668",
+        "Sound_de": "Es gibt Tische im Schatten.",
+        "translate_fa": "میز تو سایه هست.",
+        "file": "668_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "669",
+        "Sound_de": "Ist es meistens voll?",
+        "translate_fa": "معمولاً شلوغه؟",
+        "file": "669_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "670",
+        "Sound_de": "Am Wochenende ja.",
+        "translate_fa": "آخر هفته‌ها بله.",
+        "file": "670_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "671",
+        "Sound_de": "Morgens ist es ruhiger.",
+        "translate_fa": "صبح‌ها آروم‌تره.",
+        "file": "671_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "672",
+        "Sound_de": "Dann kommen wir morgen früh.",
+        "translate_fa": "پس فردا صبح میایم.",
+        "file": "672_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "673",
+        "Sound_de": "Der Park öffnet um 9.30 Uhr.",
+        "translate_fa": "پارک ساعت ۹:۳۰ باز می‌شه.",
+        "file": "673_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "674",
+        "Sound_de": "Und wann schließt er?",
+        "translate_fa": "و کی بسته می‌شه؟",
+        "file": "674_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "675",
+        "Sound_de": "Um 18 Uhr.",
+        "translate_fa": "ساعت ۱۸.",
+        "file": "675_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "676",
+        "Sound_de": "Der Eingang macht um 17 Uhr zu.",
+        "translate_fa": "ورودی ساعت ۱۷ بسته می‌شه.",
+        "file": "676_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "677",
+        "Sound_de": "Gut zu wissen.",
+        "translate_fa": "خوب بدونم.",
+        "file": "677_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "678",
+        "Sound_de": "Kann man mit dem Bus hinfahren?",
+        "translate_fa": "با اتوبوس می‌شه رفت؟",
+        "file": "678_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "679",
+        "Sound_de": "Ja, nehmen Sie den Bus 35 Richtung Sommerpark.",
+        "translate_fa": "بله، اتوبوس ۳۵ به سمت سامرپارک سوار شید.",
+        "file": "679_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "680",
+        "Sound_de": "Steigen Sie bei Am Blumenweg aus.",
+        "translate_fa": "در ایستگاه آم بلومن‌ورگ پیاده شید.",
+        "file": "680_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "681",
+        "Sound_de": "Ist die Haltestelle weit vom Park?",
+        "translate_fa": "ایستگاه دور از پارکه؟",
+        "file": "681_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "682",
+        "Sound_de": "Nein, direkt davor.",
+        "translate_fa": "نه، دقیقاً جلوش.",
+        "file": "682_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "683",
+        "Sound_de": "Es gibt Schilder.",
+        "translate_fa": "تابلو هست.",
+        "file": "683_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "684",
+        "Sound_de": "Vielen Dank, Sie haben mir sehr geholfen.",
+        "translate_fa": "خیلی ممنون، خیلی کمکم کردین.",
+        "file": "684_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "685",
+        "Sound_de": "Ihre Kinder werden es lieben.",
+        "translate_fa": "بچه‌هاتون عاشقش می‌شن.",
+        "file": "685_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "686",
+        "Sound_de": "Hoffentlich.",
+        "translate_fa": "امیدوارم.",
+        "file": "686_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "687",
+        "Sound_de": "Sie freuen sich schon.",
+        "translate_fa": "از حالا هیجان‌زده‌ن.",
+        "file": "687_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "688",
+        "Sound_de": "Viel Spaß im Park und einen schönen Tag.",
+        "translate_fa": "تفریح خوبی تو پارک و روز خوبی داشته باشین.",
+        "file": "688_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "689",
+        "Sound_de": "Danke, sehr freundlich.",
+        "translate_fa": "ممنون، خیلی مهربونین.",
+        "file": "689_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "690",
+        "Sound_de": "Einen schönen Tag auch für Sie.",
+        "translate_fa": "روز خوبی برای شما هم.",
+        "file": "690_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "691",
+        "Sound_de": "Danke, auf Wiedersehen.",
+        "translate_fa": "ممنون، تا دیدار.",
+        "file": "691_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "692",
+        "Sound_de": "Ein Gespräch auf dem Markt",
+        "translate_fa": "گفتگو در بازار",
+        "file": "692_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "693",
+        "Sound_de": "Guten Morgen.",
+        "translate_fa": "صبح بخیر.",
+        "file": "693_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "694",
+        "Sound_de": "Ihre Tomaten sehen toll aus.",
+        "translate_fa": "گوجه‌هاتون عالی به نظر می‌رسن.",
+        "file": "694_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "695",
+        "Sound_de": "Dankeschön.",
+        "translate_fa": "ممنون.",
+        "file": "695_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "696",
+        "Sound_de": "Sie sind aus meinem Garten, richtig reif.",
+        "translate_fa": "از باغ خودمه، کاملاً رسیده.",
+        "file": "696_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "697",
+        "Sound_de": "Sind die gut für einen Salat?",
+        "translate_fa": "برای سالاد خوبه؟",
+        "file": "697_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "698",
+        "Sound_de": "Perfekt, schön saftig.",
+        "translate_fa": "عالی، خیلی آبدار.",
+        "file": "698_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "699",
+        "Sound_de": "Dann nehme ich bitte fünf Stück.",
+        "translate_fa": "پس لطفاً پنج تا بردارم.",
+        "file": "699_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "700",
+        "Sound_de": "Gerne, noch etwas?",
+        "translate_fa": "با کمال میل، چیز دیگه؟",
+        "file": "700_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "701",
+        "Sound_de": "Ja, haben Sie Erdbeeren?",
+        "translate_fa": "بله، توت‌فرنگی دارین؟",
+        "file": "701_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "702",
+        "Sound_de": "Natürlich, ganz süß.",
+        "translate_fa": "البته، خیلی شیرین.",
+        "file": "702_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "703",
+        "Sound_de": "Oh ja, gern.",
+        "translate_fa": "اوه بله، حتماً.",
+        "file": "703_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "704",
+        "Sound_de": "Bitte sehr.",
+        "translate_fa": "بفرمایید.",
+        "file": "704_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "705",
+        "Sound_de": "Lecker.",
+        "translate_fa": "خوشمزه.",
+        "file": "705_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "706",
+        "Sound_de": "Ich nehme eine Schale.",
+        "translate_fa": "یه ظرف برمی‌دارم.",
+        "file": "706_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "707",
+        "Sound_de": "Sehr gute Wahl.",
+        "translate_fa": "انتخاب خیلی خوبیه.",
+        "file": "707_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "708",
+        "Sound_de": "Vielleicht auch eine Melone?",
+        "translate_fa": "شاید یه خربزه هم؟",
+        "file": "708_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "709",
+        "Sound_de": "Die duftet wunderbar.",
+        "translate_fa": "عطرش فوق‌العاده‌ست.",
+        "file": "709_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "710",
+        "Sound_de": "Ist sie reif?",
+        "translate_fa": "رسیده؟",
+        "file": "710_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "711",
+        "Sound_de": "Ja, riechen Sie mal.",
+        "translate_fa": "بله، بو کنید.",
+        "file": "711_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "712",
+        "Sound_de": "Oh ja, sehr gut.",
+        "translate_fa": "اوه بله، خیلی خوبه.",
+        "file": "712_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "713",
+        "Sound_de": "Ich nehme sie.",
+        "translate_fa": "اینو برمی‌دارم.",
+        "file": "713_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "714",
+        "Sound_de": "Prima.",
+        "translate_fa": "عالی.",
+        "file": "714_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "715",
+        "Sound_de": "Kochen Sie heute?",
+        "translate_fa": "امروز آشپزی می‌کنین؟",
+        "file": "715_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "716",
+        "Sound_de": "Ja, ich mache ein Picknick mit Freunden.",
+        "translate_fa": "بله، پیک‌نیک با دوستان می‌کنم.",
+        "file": "716_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "717",
+        "Sound_de": "Tolle Idee.",
+        "translate_fa": "ایده عالی.",
+        "file": "717_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "718",
+        "Sound_de": "Und das Wetter passt auch.",
+        "translate_fa": "و هوا هم جوره.",
+        "file": "718_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "719",
+        "Sound_de": "Genau.",
+        "translate_fa": "دقیقاً.",
+        "file": "719_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "720",
+        "Sound_de": "Deshalb bin ich hier auf dem Markt.",
+        "translate_fa": "به همین دلیل اینجا در بازاره.",
+        "file": "720_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "721",
+        "Sound_de": "Möchten Sie auch etwas Brot?",
+        "translate_fa": "نون هم می‌خواین؟",
+        "file": "721_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "722",
+        "Sound_de": "Die Bäckerei ist gleich da hinten.",
+        "translate_fa": "نانوایی همون پشت هست.",
+        "file": "722_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "723",
+        "Sound_de": "Danke für den Tipp.",
+        "translate_fa": "ممنون از نکته.",
+        "file": "723_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "724",
+        "Sound_de": "Und welchen Käse empfehlen Sie?",
+        "translate_fa": "و چه پنیر پیشنهاد می‌کنین؟",
+        "file": "724_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "725",
+        "Sound_de": "Den kleinen Ziegenkäse dort beim Nachbarn.",
+        "translate_fa": "اون پنیر بز کوچیک پیش همسایه.",
+        "file": "725_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "726",
+        "Sound_de": "Sehr mild.",
+        "translate_fa": "خیلی ملایم.",
+        "file": "726_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "727",
+        "Sound_de": "Super, da gehe ich gleich hin.",
+        "translate_fa": "عالی، همین الان می‌رم اونجا.",
+        "file": "727_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "728",
+        "Sound_de": "Was bekomme ich bei Ihnen?",
+        "translate_fa": "از شما چی می‌گیرم؟",
+        "file": "728_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "729",
+        "Sound_de": "Für die Tomaten, die Erdbeeren und die Melone sechs Euro.",
+        "translate_fa": "برای گوجه‌ها، توت‌فرنگی‌ها و خربزه شش یورو.",
+        "file": "729_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "730",
+        "Sound_de": "Hier bitte, stimmt so.",
+        "translate_fa": "اینجا بفرمایید، درست حساب شد.",
+        "file": "730_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "731",
+        "Sound_de": "Alles sieht sehr frisch aus.",
+        "translate_fa": "همه چیز خیلی تازه به نظر می‌رسه.",
+        "file": "731_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "732",
+        "Sound_de": "Kommen Sie öfter auf den Markt?",
+        "translate_fa": "اغلب به بازار میاین؟",
+        "file": "732_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "733",
+        "Sound_de": "Nein, das ist mein erstes Mal.",
+        "translate_fa": "نه، این اولین باره.",
+        "file": "733_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "734",
+        "Sound_de": "Wir sind jeden Samstagmorgen hier.",
+        "translate_fa": "ما هر شنبه صبح اینجاییم.",
+        "file": "734_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "735",
+        "Sound_de": "Ich komme bestimmt wieder.",
+        "translate_fa": "حتماً دوباره میام.",
+        "file": "735_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "736",
+        "Sound_de": "Sehr schön.",
+        "translate_fa": "خیلی خوبه.",
+        "file": "736_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "737",
+        "Sound_de": "Schönen Tag und viel Spaß beim Picknick.",
+        "translate_fa": "روز خوبی و تفریح خوب تو پیک‌نیک.",
+        "file": "737_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "738",
+        "Sound_de": "Vielen Dank Ihnen auch.",
+        "translate_fa": "خیلی ممنون از شما هم.",
+        "file": "738_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "739",
+        "Sound_de": "Bis bald, auf Wiedersehen.",
+        "translate_fa": "تا زود، خدانگهدار.",
+        "file": "739_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "740",
+        "Sound_de": "Ein Sandwich ohne Käse bestellen.",
+        "translate_fa": "سفارش ساندویچ بدون پنیر",
+        "file": "740_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "741",
+        "Sound_de": "Ich hätte gern ein Sandwich, bitte.",
+        "translate_fa": "یه ساندویچ می‌خوام، لطفاً.",
+        "file": "741_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "742",
+        "Sound_de": "Gerne, welches möchten Sie?",
+        "translate_fa": "با کمال میل، کدومو می‌خواین؟",
+        "file": "742_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "743",
+        "Sound_de": "Das mit Schinken.",
+        "translate_fa": "اون با ژامبون.",
+        "file": "743_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "744",
+        "Sound_de": "Aber ist da Käse drin?",
+        "translate_fa": "ولی پنیر داخلش هست؟",
+        "file": "744_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "745",
+        "Sound_de": "Ja, das ist Schinkenkäse mit Butter.",
+        "translate_fa": "بله، این ژامبون و پنیر با کره‌ست.",
+        "file": "745_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "746",
+        "Sound_de": "Ah, ich esse keinen Käse.",
+        "translate_fa": "آه، من پنیر نمی‌خورم.",
+        "file": "746_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "747",
+        "Sound_de": "Kein Problem, ich mache eins ohne Käse.",
+        "translate_fa": "مشکلی نیست، یکی بدون پنیر درست می‌کنم.",
+        "file": "747_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "748",
+        "Sound_de": "Mit Butter, aber ohne Käse, bitte.",
+        "translate_fa": "با کره، ولی بدون پنیر، لطفاً.",
+        "file": "748_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "749",
+        "Sound_de": "Möchten Sie auch Salat dazu?",
+        "translate_fa": "کاهو هم روش می‌خواین؟",
+        "file": "749_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "750",
+        "Sound_de": "Ja, warum nicht?",
+        "translate_fa": "بله، چرا که نه؟",
+        "file": "750_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "751",
+        "Sound_de": "Und ein bisschen Tomate?",
+        "translate_fa": "و یه کم گوجه؟",
+        "file": "751_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "752",
+        "Sound_de": "Natürlich, ich bereite es gleich vor.",
+        "translate_fa": "البته، همین الان آماده می‌کنم.",
+        "file": "752_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "753",
+        "Sound_de": "Haben Sie auch vegetarische Sandwiches?",
+        "translate_fa": "ساندویچ گیاهی هم دارین؟",
+        "file": "753_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "754",
+        "Sound_de": "Ja, mit Gemüse und Ei.",
+        "translate_fa": "بله، با سبزیجات و تخم‌مرغ.",
+        "file": "754_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "755",
+        "Sound_de": "Das probiere ich nächstes Mal.",
+        "translate_fa": "دفعه بعد امتحان می‌کنم.",
+        "file": "755_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "756",
+        "Sound_de": "Heute habe ich großen Hunger.",
+        "translate_fa": "امروز خیلی گرسنه‌ام.",
+        "file": "756_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "757",
+        "Sound_de": "Hier ist Ihr Sandwich.",
+        "translate_fa": "این ساندویچتونه.",
+        "file": "757_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "758",
+        "Sound_de": "Danke, sieht lecker aus.",
+        "translate_fa": "ممنون، خوشمزه به نظر می‌رسه.",
+        "file": "758_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "759",
+        "Sound_de": "Möchten Sie ein Getränk dazu?",
+        "translate_fa": "نوشیدنی هم می‌خواین؟",
+        "file": "759_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "760",
+        "Sound_de": "Ja, eine kleine Flasche Wasser, bitte.",
+        "translate_fa": "بله، یه بطری کوچیک آب، لطفاً.",
+        "file": "760_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "761",
+        "Sound_de": "Mit oder ohne Sprudel?",
+        "translate_fa": "با گاز یا بدون؟",
+        "file": "761_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "762",
+        "Sound_de": "Ohne, danke.",
+        "translate_fa": "بدون، ممنون.",
+        "file": "762_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "763",
+        "Sound_de": "Und ein Dessert, vielleicht ein Stück Kuchen?",
+        "translate_fa": "و دسر، شاید یه تیکه کیک؟",
+        "file": "763_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "764",
+        "Sound_de": "Sehr verlockend.",
+        "translate_fa": "خیلی وسوسه‌کننده.",
+        "file": "764_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "765",
+        "Sound_de": "Aber nein, heute nicht.",
+        "translate_fa": "ولی نه، امروز نه.",
+        "file": "765_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "766",
+        "Sound_de": "Alles klar, dann beim nächsten Mal.",
+        "translate_fa": "اوکی، پس دفعه بعد.",
+        "file": "766_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "767",
+        "Sound_de": "Was macht das, bitte?",
+        "translate_fa": "چقدر می‌شه، لطفاً؟",
+        "file": "767_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "768",
+        "Sound_de": "5,50 Euro.",
+        "translate_fa": "۵٫۵۰ یورو.",
+        "file": "768_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "769",
+        "Sound_de": "Kann ich hier essen?",
+        "translate_fa": "می‌تونم اینجا بخورم؟",
+        "file": "769_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "770",
+        "Sound_de": "Hinten gibt es einen Tisch.",
+        "translate_fa": "عقب یه میز هست.",
+        "file": "770_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "771",
+        "Sound_de": "Ich muss mich setzen,",
+        "translate_fa": "باید بشینم،",
+        "file": "771_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "772",
+        "Sound_de": "ich bin schon viel gelaufen.",
+        "translate_fa": "خیلی راه رفتم.",
+        "file": "772_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "773",
+        "Sound_de": "Besuchen Sie Nürnberg?",
+        "translate_fa": "نورنبرگ رو بازدید می‌کنین؟",
+        "file": "773_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "774",
+        "Sound_de": "Ja, ich bin heute Morgen angekommen.",
+        "translate_fa": "بله، امروز صبح رسیدم.",
+        "file": "774_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "775",
+        "Sound_de": "Eine sehr schöne Stadt.",
+        "translate_fa": "شهر خیلی قشنگیه.",
+        "file": "775_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "776",
+        "Sound_de": "Danke, ja, das stimmt.",
+        "translate_fa": "ممنون، بله، درسته.",
+        "file": "776_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "777",
+        "Sound_de": "Und die Leute sind freundlich, das gefällt mir.",
+        "translate_fa": "و مردم مهربونن، این خوشم میاد.",
+        "file": "777_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "778",
+        "Sound_de": "Das freut mich.",
+        "translate_fa": "خوشحالم.",
+        "file": "778_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "779",
+        "Sound_de": "Dann guten Appetit und eine schöne Pause.",
+        "translate_fa": "پس نوش جان و استراحت خوب.",
+        "file": "779_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "780",
+        "Sound_de": "Vielen Dank für das Sandwich ohne Käse.",
+        "translate_fa": "خیلی ممنون بابت ساندویچ بدون پنیر.",
+        "file": "780_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "781",
+        "Sound_de": "Schönen Tag noch.",
+        "translate_fa": "روز خوبی داشته باش.",
+        "file": "781_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "782",
+        "Sound_de": "Danke, ebenso.",
+        "translate_fa": "ممنون، همین‌طور.",
+        "file": "782_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "783",
+        "Sound_de": "Nach einer SIM-Karte fragen.",
+        "translate_fa": "پرسیدن درباره سیم‌کارت",
+        "file": "783_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "784",
+        "Sound_de": "Suchen Sie etwas Bestimmtes?",
+        "translate_fa": "چیزی خاص دنبال می‌کنین؟",
+        "file": "784_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "785",
+        "Sound_de": "Ja, ich bin Tourist.",
+        "translate_fa": "بله، من گردشگرم.",
+        "file": "785_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "786",
+        "Sound_de": "Ich brauche eine SIM-Karte.",
+        "translate_fa": "به یه سیم‌کارت نیاز دارم.",
+        "file": "786_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "787",
+        "Sound_de": "Ah, ok.",
+        "translate_fa": "آه، اوکی.",
+        "file": "787_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "788",
+        "Sound_de": "Für Ihr Handy?",
+        "translate_fa": "برای گوشی‌تون؟",
+        "file": "788_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "789",
+        "Sound_de": "Ja, ich brauche Internet und",
+        "translate_fa": "بله، اینترنت و",
+        "file": "789_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "790",
+        "Sound_de": "Telefon in Deutschland.",
+        "translate_fa": "تلفن در آلمان نیاز دارم.",
+        "file": "790_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "791",
+        "Sound_de": "Alles klar.",
+        "translate_fa": "اوکی.",
+        "file": "791_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "792",
+        "Sound_de": "Es gibt verschiedene Möglichkeiten.",
+        "translate_fa": "گزینه‌های مختلفی هست.",
+        "file": "792_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "793",
+        "Sound_de": "Wo kann ich eine SIM-Karte kaufen?",
+        "translate_fa": "سیم‌کارت رو از کجا می‌تونم بخرم؟",
+        "file": "793_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "794",
+        "Sound_de": "Da vorne gibt es einen Telekom-Laden, 5 Minuten zu Fuß.",
+        "translate_fa": "اون جلو یه فروشگاه تلکوم هست، ۵ دقیقه پیاده.",
+        "file": "794_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "795",
+        "Sound_de": "Ah, gut.",
+        "translate_fa": "آه، خوبه.",
+        "file": "795_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "796",
+        "Sound_de": "In welcher Straße ist das?",
+        "translate_fa": "تو کدوم خیابونه؟",
+        "file": "796_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "797",
+        "Sound_de": "In der Bahnhofstraße.",
+        "translate_fa": "تو خیابان ایستگاه.",
+        "file": "797_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "798",
+        "Sound_de": "Gehen Sie hier raus, dann rechts",
+        "translate_fa": "اینجا بیرون برین، بعد راست",
+        "file": "798_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "799",
+        "Sound_de": "und immer geradeaus.",
+        "translate_fa": "و همیشه مستقیم.",
+        "file": "799_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "800",
+        "Sound_de": "Ist das weit?",
+        "translate_fa": "دور هست؟",
+        "file": "800_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "801",
+        "Sound_de": "Nein, nur 3 Minuten.",
+        "translate_fa": "نه، فقط ۳ دقیقه.",
+        "file": "801_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "802",
+        "Sound_de": "Direkt neben der Apotheke.",
+        "translate_fa": "دقیقاً کنار داروخانه.",
+        "file": "802_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "803",
+        "Sound_de": "Muss ich meinen Pass zeigen?",
+        "translate_fa": "باید پاسپورتم رو نشون بدم؟",
+        "file": "803_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "804",
+        "Sound_de": "Ja, für eine SIM-Karte ist das Pflicht.",
+        "translate_fa": "بله، برای سیم‌کارت اجباریه.",
+        "file": "804_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "805",
+        "Sound_de": "Kann ich bar bezahlen?",
+        "translate_fa": "می‌تونم نقدی پرداخت کنم؟",
+        "file": "805_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "806",
+        "Sound_de": "Ja, aber mit Karte ist es einfacher.",
+        "translate_fa": "بله، ولی با کارت راحت‌تره.",
+        "file": "806_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "807",
+        "Sound_de": "Wissen Sie, was es ungefähr kostet?",
+        "translate_fa": "تقریباً چقدر هزینه داره می‌دونین؟",
+        "file": "807_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "808",
+        "Sound_de": "Meistens so um die 10 Euro.",
+        "translate_fa": "معمولاً حدود ۱۰ یورو.",
+        "file": "808_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "809",
+        "Sound_de": "Und danach muss ich aufladen?",
+        "translate_fa": "و بعد باید شارژ کنم؟",
+        "file": "809_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "810",
+        "Sound_de": "Sie können Guthaben mit Internet und Telefon kaufen.",
+        "translate_fa": "می‌تونین اعتبار با اینترنت و تلفن بخرین.",
+        "file": "810_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "811",
+        "Sound_de": "Sprechen die dort Englisch?",
+        "translate_fa": "اونجا انگلیسی حرف می‌زنن؟",
+        "file": "811_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "812",
+        "Sound_de": "Ein bisschen, ja.",
+        "translate_fa": "یه کم، بله.",
+        "file": "812_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "813",
+        "Sound_de": "Die haben viele Touristen.",
+        "translate_fa": "خیلی گردشگر دارن.",
+        "file": "813_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "814",
+        "Sound_de": "Mein Handy ist entsperrt, geht das?",
+        "translate_fa": "گوشیم آنلاکه، اوکیه؟",
+        "file": "814_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "815",
+        "Sound_de": "Ja, das passt.",
+        "translate_fa": "بله، مناسبه.",
+        "file": "815_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "816",
+        "Sound_de": "Und kann ich die SIM-Karte selbst einsetzen?",
+        "translate_fa": "و می‌تونم سیم‌کارت رو خودم بذارم؟",
+        "file": "816_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "817",
+        "Sound_de": "Ja, das ist ganz einfach.",
+        "translate_fa": "بله، خیلی ساده‌ست.",
+        "file": "817_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "818",
+        "Sound_de": "Aber sie helfen Ihnen auch.",
+        "translate_fa": "ولی اونا هم کمکتون می‌کنن.",
+        "file": "818_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "819",
+        "Sound_de": "Ich bin nicht so gut mit Technik.",
+        "translate_fa": "من زیاد با تکنولوژی خوب نیستم.",
+        "file": "819_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "820",
+        "Sound_de": "Kein Problem, die sind dort sehr freundlich.",
+        "translate_fa": "مشکلی نیست، اونجا خیلی مهربونن.",
+        "file": "820_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "821",
+        "Sound_de": "Haben Sie selbst schon mal dort gekauft?",
+        "translate_fa": "شما خودتون اونجا خریدین؟",
+        "file": "821_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "822",
+        "Sound_de": "Ja, für meinen Cousin.",
+        "translate_fa": "بله، برای پسرعموم.",
+        "file": "822_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "823",
+        "Sound_de": "Es hat super geklappt.",
+        "translate_fa": "عالی کار کرد.",
+        "file": "823_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "824",
+        "Sound_de": "Vielen Dank für alle Informationen.",
+        "translate_fa": "خیلی ممنون از همه اطلاعات.",
+        "file": "824_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "825",
+        "Sound_de": "Gern geschehen.",
+        "translate_fa": "خواهش می‌کنم.",
+        "file": "825_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "826",
+        "Sound_de": "Viel Erfolg.",
+        "translate_fa": "موفق باشی.",
+        "file": "826_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "827",
+        "Sound_de": "Danke, ich gehe gleich hin.",
+        "translate_fa": "ممنون، همین الان می‌رم.",
+        "file": "827_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "828",
+        "Sound_de": "Einen schönen Tag und viel Spaß in Deutschland.",
+        "translate_fa": "روز خوبی و تفریح خوب در آلمان.",
+        "file": "828_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "829",
+        "Sound_de": "Ihnen auch.",
+        "translate_fa": "برای شما هم.",
+        "file": "829_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "830",
+        "Sound_de": "Nach dem Weg zum Museum fragen.",
+        "translate_fa": "پرسیدن راه موزه",
+        "file": "830_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "831",
+        "Sound_de": "Guten Tag, Entschuldigung.",
+        "translate_fa": "روز بخیر، ببخشید.",
+        "file": "831_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "832",
+        "Sound_de": "Wo ist das Kunstmuseum?",
+        "translate_fa": "موزه هنر کجاست؟",
+        "file": "832_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "833",
+        "Sound_de": "Ah, das Museum ist ganz in der Nähe.",
+        "translate_fa": "آه، موزه خیلی نزدیکه.",
+        "file": "833_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "834",
+        "Sound_de": "Sehr gut, ich laufe schon eine halbe Stunde.",
+        "translate_fa": "خیلی خوبه، نیم ساعته راه می‌رم.",
+        "file": "834_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "835",
+        "Sound_de": "Sie sind fast da.",
+        "translate_fa": "تقریباً رسیدین.",
+        "file": "835_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "836",
+        "Sound_de": "Sehen Sie die Kirche dort?",
+        "translate_fa": "اون کلیسا رو می‌بینین؟",
+        "file": "836_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "837",
+        "Sound_de": "Ja, die mit dem hohen Turm?",
+        "translate_fa": "بله، اون با برج بلند؟",
+        "file": "837_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "838",
+        "Sound_de": "Gehen Sie an der Kirche vorbei und dann rechts.",
+        "translate_fa": "از کنار کلیسا رد شید و بعد راست.",
+        "file": "838_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "839",
+        "Sound_de": "Und dann?",
+        "translate_fa": "و بعد؟",
+        "file": "839_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "840",
+        "Sound_de": "Dann einfach geradeaus, ungefähr zwei Minuten.",
+        "translate_fa": "بعد مستقیم، حدود دو دقیقه.",
+        "file": "840_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "841",
+        "Sound_de": "Gibt es ein Schild?",
+        "translate_fa": "تابلو هست؟",
+        "file": "841_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "842",
+        "Sound_de": "Ja, ein großes Schild mit Museum.",
+        "translate_fa": "بله، یه تابلوی بزرگ با موزه.",
+        "file": "842_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "843",
+        "Sound_de": "Sie können es nicht verfehlen.",
+        "translate_fa": "نمی‌تونین گم کنین.",
+        "file": "843_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "844",
+        "Sound_de": "Ist es weit vom Bahnhof?",
+        "translate_fa": "از ایستگاه دور هست؟",
+        "file": "844_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "845",
+        "Sound_de": "Nein, nur zehn Minuten zu Fuß.",
+        "translate_fa": "نه، فقط ده دقیقه پیاده.",
+        "file": "845_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "846",
+        "Sound_de": "Ich bin mit der Tram bis Hauptbahnhof gefahren.",
+        "translate_fa": "با تراموا تا ایستگاه اصلی اومدم.",
+        "file": "846_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "847",
+        "Sound_de": "Perfekt, dann sind Sie auf dem richtigen Weg.",
+        "translate_fa": "عالی، پس راه درستی اومدین.",
+        "file": "847_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "848",
+        "Sound_de": "Wissen Sie, ob das Museum heute offen ist?",
+        "translate_fa": "می‌دونین امروز موزه بازه؟",
+        "file": "848_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "849",
+        "Sound_de": "Ja, es ist nur am Montag geschlossen.",
+        "translate_fa": "بله، فقط دوشنبه‌ها بسته‌ست.",
+        "file": "849_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "850",
+        "Sound_de": "Heute ist Mittwoch, also offen.",
+        "translate_fa": "امروز چهارشنبه‌ست، پس بازه.",
+        "file": "850_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "851",
+        "Sound_de": "Ich habe von einer Sonderausstellung gehört.",
+        "translate_fa": "از یه نمایشگاه ویژه شنیدم.",
+        "file": "851_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "852",
+        "Sound_de": "Ja, über Impressionisten.",
+        "translate_fa": "بله، درباره امپرسیونیست‌ها.",
+        "file": "852_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "853",
+        "Sound_de": "Waren Sie schon da?",
+        "translate_fa": "شما قبلاً رفتین؟",
+        "file": "853_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "854",
+        "Sound_de": "Ja, gestern.",
+        "translate_fa": "بله، دیروز.",
+        "file": "854_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "855",
+        "Sound_de": "Es gibt Bilder von Monet und Degas.",
+        "translate_fa": "تصاویر مونه و دگا اونجاست.",
+        "file": "855_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "856",
+        "Sound_de": "Oh, toll!",
+        "translate_fa": "اوه، عالی!",
+        "file": "856_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "857",
+        "Sound_de": "Muss man reservieren?",
+        "translate_fa": "باید رزرو کرد؟",
+        "file": "857_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "858",
+        "Sound_de": "Nein, Sie können die Karten",
+        "translate_fa": "نه، بلیت‌ها رو",
+        "file": "858_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "859",
+        "Sound_de": "an der Kasse kaufen.",
+        "translate_fa": "از صندوق می‌تونین بخرین.",
+        "file": "859_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "860",
+        "Sound_de": "Wissen Sie, was der Eintritt kostet?",
+        "translate_fa": "می‌دونین ورودی چقدره؟",
+        "file": "860_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "861",
+        "Sound_de": "Ich glaube, neun Euro.",
+        "translate_fa": "فکر کنم نه یورو.",
+        "file": "861_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "862",
+        "Sound_de": "Das ist günstig.",
+        "translate_fa": "ارزونه.",
+        "file": "862_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "863",
+        "Sound_de": "Ja, und am Vormittag ist es nicht so voll.",
+        "translate_fa": "بله، و صبح‌ها شلوغ نیست.",
+        "file": "863_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "864",
+        "Sound_de": "Genau deswegen gehe ich jetzt hin.",
+        "translate_fa": "دقیقاً به همین دلیل حالا می‌رم.",
+        "file": "864_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "865",
+        "Sound_de": "Es gibt auch ein Café im Museum.",
+        "translate_fa": "یه کافه هم تو موزه هست.",
+        "file": "865_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "866",
+        "Sound_de": "Perfekt, ich habe Hunger!",
+        "translate_fa": "عالی، گرسنه‌ام!",
+        "file": "866_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "867",
+        "Sound_de": "Probieren Sie den Schokokuchen, der ist super.",
+        "translate_fa": "کیک شکلاتی رو امتحان کنین، عالیه.",
+        "file": "867_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "868",
+        "Sound_de": "Jetzt bekomme ich Appetit.",
+        "translate_fa": "حالا اشتها اومد.",
+        "file": "868_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "869",
+        "Sound_de": "Haha, tut mir leid, aber es lohnt sich.",
+        "translate_fa": "هاها، ببخشید، ولی ارزشش رو داره.",
+        "file": "869_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "870",
+        "Sound_de": "Viel Spaß im Museum.",
+        "translate_fa": "تفریح خوب تو موزه.",
+        "file": "870_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "871",
+        "Sound_de": "Danke, Ihnen auch einen schönen Tag.",
+        "translate_fa": "ممنون، روز خوبی برای شما هم.",
+        "file": "871_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "872",
+        "Sound_de": "Ein Ticket im Museum kaufen.",
+        "translate_fa": "خرید بلیت در موزه",
+        "file": "872_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "873",
+        "Sound_de": "Willkommen im Museum.",
+        "translate_fa": "به موزه خوش اومدین.",
+        "file": "873_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "874",
+        "Sound_de": "Möchten Sie eine Eintrittskarte?",
+        "translate_fa": "بلیت ورود می‌خواین؟",
+        "file": "874_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "875",
+        "Sound_de": "Ja bitte, das ist mein erster Besuch hier.",
+        "translate_fa": "بله لطفاً، این اولین بازدیدمه اینجا.",
+        "file": "875_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "876",
+        "Sound_de": "Möchten Sie ein Ticket für die Dauerausstellung",
+        "translate_fa": "بلیت نمایشگاه دائمی می‌خواین",
+        "file": "876_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "877",
+        "Sound_de": "oder für die Sonderausstellung?",
+        "translate_fa": "یا نمایشگاه ویژه؟",
+        "file": "877_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "878",
+        "Sound_de": "Was ist der Unterschied?",
+        "translate_fa": "تفاوتش چیه؟",
+        "file": "878_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "879",
+        "Sound_de": "Die Dauerausstellung ist unsere feste Sammlung.",
+        "translate_fa": "نمایشگاه دائمی مجموعه ثابت ماست.",
+        "file": "879_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "880",
+        "Sound_de": "Die Sonderausstellung heißt Kunst in Bewegung",
+        "translate_fa": "نمایشگاه ویژه اسمش هنر در حرکت",
+        "file": "880_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "881",
+        "Sound_de": "und läuft nur bis Sonntag.",
+        "translate_fa": "و فقط تا یکشنبه ادامه داره.",
+        "file": "881_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "882",
+        "Sound_de": "Aha, kann ich beides sehen.",
+        "translate_fa": "آها، می‌تونم هر دو رو ببینم.",
+        "file": "882_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "883",
+        "Sound_de": "Es gibt ein Kombiticket.",
+        "translate_fa": "یه بلیت ترکیبی هست.",
+        "file": "883_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "884",
+        "Sound_de": "Perfekt, ich nehme das.",
+        "translate_fa": "عالی، اینو می‌گیرم.",
+        "file": "884_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "885",
+        "Sound_de": "Haben Sie Anspruch auf Ermäßigung?",
+        "translate_fa": "تخفیف دارین؟",
+        "file": "885_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "886",
+        "Sound_de": "Nein, ich bin Touristin.",
+        "translate_fa": "نه، من گردشگرم.",
+        "file": "886_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "887",
+        "Sound_de": "Alles klar, das Ticket kostet 10 Euro.",
+        "translate_fa": "اوکی، بلیت ۱۰ یورو می‌شه.",
+        "file": "887_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "888",
+        "Sound_de": "Kann ich mit Karte zahlen?",
+        "translate_fa": "می‌تونم با کارت پرداخت کنم؟",
+        "file": "888_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "889",
+        "Sound_de": "Bitte hier die Karte einstecken.",
+        "translate_fa": "لطفاً اینجا کارت رو بذارین.",
+        "file": "889_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "890",
+        "Sound_de": "So, danke.",
+        "translate_fa": "اینطوری، ممنون.",
+        "file": "890_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "891",
+        "Sound_de": "Muss ich das Ticket aufbewahren?",
+        "translate_fa": "باید بلیت رو نگه دارم؟",
+        "file": "891_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "892",
+        "Sound_de": "Ja bitte, zeigen Sie es am Eingang vor.",
+        "translate_fa": "بله لطفاً، موقع ورود نشون بدین.",
+        "file": "892_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "893",
+        "Sound_de": "Verstanden.",
+        "translate_fa": "فهمیدم.",
+        "file": "893_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "894",
+        "Sound_de": "Gibt es auch einen Plan vom Museum?",
+        "translate_fa": "نقشه موزه هم دارین؟",
+        "file": "894_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "895",
+        "Sound_de": "Ja, hier bitte.",
+        "translate_fa": "بله، اینجا بفرمایید.",
+        "file": "895_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "896",
+        "Sound_de": "Auf Deutsch oder auf Englisch?",
+        "translate_fa": "به آلمانی یا انگلیسی؟",
+        "file": "896_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "897",
+        "Sound_de": "Auf Englisch wäre gut, danke.",
+        "translate_fa": "انگلیسی خوبه، ممنون.",
+        "file": "897_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "898",
+        "Sound_de": "Die Führung dauert ungefähr anderthalb Stunden.",
+        "translate_fa": "تور حدود یک ساعت و نیم طول می‌کشه.",
+        "file": "898_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "899",
+        "Sound_de": "Gibt es Toiletten hier?",
+        "translate_fa": "توالت اینجا هست؟",
+        "file": "899_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "900",
+        "Sound_de": "Ja, gleich rechts nach dem Museumsshop.",
+        "translate_fa": "بله، بلافاصله راست بعد از فروشگاه موزه.",
+        "file": "900_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "901",
+        "Sound_de": "Super, und eine Garderobe?",
+        "translate_fa": "عالی، و رختکن؟",
+        "file": "901_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "902",
+        "Sound_de": "Ja, dort vorne.",
+        "translate_fa": "بله، اون جلو.",
+        "file": "902_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "903",
+        "Sound_de": "Sie können Ihre Tasche kostenlos abgeben.",
+        "translate_fa": "می‌تونین کیف‌تون رو رایگان بدین.",
+        "file": "903_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "904",
+        "Sound_de": "Sehr praktisch.",
+        "translate_fa": "خیلی عملی.",
+        "file": "904_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "905",
+        "Sound_de": "Darf ich Fotos machen?",
+        "translate_fa": "می‌تونم عکس بگیرم؟",
+        "file": "905_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "906",
+        "Sound_de": "Ja, aber bitte ohne Blitz.",
+        "translate_fa": "بله، ولی لطفاً بدون فلاش.",
+        "file": "906_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "907",
+        "Sound_de": "In Ordnung, mache ich.",
+        "translate_fa": "اوکی، انجام می‌دم.",
+        "file": "907_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "908",
+        "Sound_de": "Um 15 Uhr gibt es auch eine Führung.",
+        "translate_fa": "ساعت ۱۵ یه تور هم هست.",
+        "file": "908_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "909",
+        "Sound_de": "Vielleicht interessant für Sie?",
+        "translate_fa": "شاید براتون جالب باشه؟",
+        "file": "909_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "910",
+        "Sound_de": "Oh, auf Deutsch?",
+        "translate_fa": "اوه، به آلمانی؟",
+        "file": "910_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "911",
+        "Sound_de": "Ja, aber ganz einfach.",
+        "translate_fa": "بله، ولی خیلی ساده.",
+        "file": "911_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "912",
+        "Sound_de": "Der Guide spricht langsam.",
+        "translate_fa": "راهنما آهسته حرف می‌زنه.",
+        "file": "912_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "913",
+        "Sound_de": "Sehr gut für mich.",
+        "translate_fa": "برای من خیلی خوبه.",
+        "file": "913_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "914",
+        "Sound_de": "Dann komme ich um 15 Uhr.",
+        "translate_fa": "پس ساعت ۱۵ میام.",
+        "file": "914_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "915",
+        "Sound_de": "Der Eingang ist gleich durch diese Tür.",
+        "translate_fa": "ورودی همین از این در.",
+        "file": "915_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "916",
+        "Sound_de": "Vielen Dank für die Information.",
+        "translate_fa": "خیلی ممنون از اطلاعات.",
+        "file": "916_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "917",
+        "Sound_de": "Danke, Sie sind sehr freundlich.",
+        "translate_fa": "ممنون، شما خیلی مهربونین.",
+        "file": "917_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "918",
+        "Sound_de": "Danke Ihnen.",
+        "translate_fa": "ممنون از شما.",
+        "file": "918_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "919",
+        "Sound_de": "Einen schönen Tag noch.",
+        "translate_fa": "روز خوبی داشته باشین.",
+        "file": "919_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "920",
+        "Sound_de": "Ebenfalls.",
+        "translate_fa": "شما هم.",
+        "file": "920_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "921",
+        "Sound_de": "Was kann man in Berlin sehen.",
+        "translate_fa": "در برلین چی می‌شه دید.",
+        "file": "921_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "922",
+        "Sound_de": "Hey, bist du neu in Berlin?",
+        "translate_fa": "هی، تو تازه به برلین اومدی؟",
+        "file": "922_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "923",
+        "Sound_de": "Ja, ich bin gestern angekommen.",
+        "translate_fa": "بله، دیروز رسیدم.",
+        "file": "923_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "924",
+        "Sound_de": "Willkommen.",
+        "translate_fa": "خوش اومدی.",
+        "file": "924_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "925",
+        "Sound_de": "Bleibst du lange?",
+        "translate_fa": "خیلی می‌مونی؟",
+        "file": "925_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "926",
+        "Sound_de": "Nur drei Tage.",
+        "translate_fa": "فقط سه روز.",
+        "file": "926_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "927",
+        "Sound_de": "Ich will viel sehen.",
+        "translate_fa": "می‌خوام کلی چیز ببینم.",
+        "file": "927_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "928",
+        "Sound_de": "Dann fang mit dem Brandenburger Tor an.",
+        "translate_fa": "پس از دروازه براندنبورگ شروع کن.",
+        "file": "928_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "929",
+        "Sound_de": "Klar, das ist berühmt.",
+        "translate_fa": "البته، معروفه.",
+        "file": "929_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "930",
+        "Sound_de": "Und geh zum Reichstag.",
+        "translate_fa": "و به رایشتاگ برو.",
+        "file": "930_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "931",
+        "Sound_de": "Da ist die Glaskuppel.",
+        "translate_fa": "اونجا گنبد شیشه‌ای هست.",
+        "file": "931_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "932",
+        "Sound_de": "Super Aussicht.",
+        "translate_fa": "نمای فوق‌العاده.",
+        "file": "932_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "933",
+        "Sound_de": "Brauche ich ein Ticket?",
+        "translate_fa": "بلیت لازم دارم؟",
+        "file": "933_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "934",
+        "Sound_de": "Ja, aber es ist gratis.",
+        "translate_fa": "بله، ولی رایگانه.",
+        "file": "934_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "935",
+        "Sound_de": "Einfach online reservieren.",
+        "translate_fa": "فقط آنلاین رزرو کن.",
+        "file": "935_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "936",
+        "Sound_de": "Und was noch?",
+        "translate_fa": "و چی دیگه؟",
+        "file": "936_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "937",
+        "Sound_de": "Auf jeden Fall den Alexanderplatz.",
+        "translate_fa": "به هر حال میدان الکساندر.",
+        "file": "937_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "938",
+        "Sound_de": "Da ist der Fernsehturm.",
+        "translate_fa": "اونجا برج تلویزیون هست.",
+        "file": "938_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "939",
+        "Sound_de": "Ah, cool.",
+        "translate_fa": "آه، باحاله.",
+        "file": "939_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "940",
+        "Sound_de": "Kann man da hoch?",
+        "translate_fa": "می‌شه بالا بره؟",
+        "file": "940_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "941",
+        "Sound_de": "Ja, man sieht die ganze Stadt.",
+        "translate_fa": "بله، کل شهر رو می‌بینی.",
+        "file": "941_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "942",
+        "Sound_de": "Und abends?",
+        "translate_fa": "و شب‌ها؟",
+        "file": "942_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "943",
+        "Sound_de": "Geh nach Kreuzberg.",
+        "translate_fa": "به کرویزبرگ برو.",
+        "file": "943_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "944",
+        "Sound_de": "Viele Bars, gute Stimmung.",
+        "translate_fa": "کلی بار، جو خوب.",
+        "file": "944_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "945",
+        "Sound_de": "Klingt super.",
+        "translate_fa": "صداش عالیه.",
+        "file": "945_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "946",
+        "Sound_de": "Gibt es auch typisches Essen?",
+        "translate_fa": "غذای محلی هم هست؟",
+        "file": "946_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "947",
+        "Sound_de": "Klar.",
+        "translate_fa": "البته.",
+        "file": "947_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "948",
+        "Sound_de": "Probier unbedingt Currywurst.",
+        "translate_fa": "حتماً کاری‌وورست امتحان کن.",
+        "file": "948_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "949",
+        "Sound_de": "Das ist typisch Berlin.",
+        "translate_fa": "این مخصوص برلینه.",
+        "file": "949_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "950",
+        "Sound_de": "Und Döner?",
+        "translate_fa": "و دونر؟",
+        "file": "950_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "951",
+        "Sound_de": "Man sagt, der kommt aus Berlin.",
+        "translate_fa": "می‌گن از برلین اومده.",
+        "file": "951_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "952",
+        "Sound_de": "Ein Döner gehört auch dazu.",
+        "translate_fa": "یه دونر هم جزوشه.",
+        "file": "952_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "953",
+        "Sound_de": "Und was trinkt man dazu?",
+        "translate_fa": "و چی باهاش می‌خورن؟",
+        "file": "953_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "954",
+        "Sound_de": "Ein Berliner Bier, zum Beispiel Berliner Pilsner.",
+        "translate_fa": "یه آبجو برلینی، مثلاً برلینر پیلزنر.",
+        "file": "954_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "955",
+        "Sound_de": "Haha, das probiere ich.",
+        "translate_fa": "هاها، اینو امتحان می‌کنم.",
+        "file": "955_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "956",
+        "Sound_de": "Und wenn du Zeit hast, geh auch in den Tiergarten.",
+        "translate_fa": "و اگه وقت داری، به تیرگارتن هم برو.",
+        "file": "956_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "957",
+        "Sound_de": "Das ist der große Park.",
+        "translate_fa": "این پارک بزرگه.",
+        "file": "957_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "958",
+        "Sound_de": "Mach ich.",
+        "translate_fa": "انجام می‌دم.",
+        "file": "958_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "959",
+        "Sound_de": "Danke für die ganzen Tipps.",
+        "translate_fa": "ممنون از همه نکته‌ها.",
+        "file": "959_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "960",
+        "Sound_de": "Viel Spaß in Berlin.",
+        "translate_fa": "تفریح خوب در برلین.",
+        "file": "960_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "961",
+        "Sound_de": "Dir auch noch einen schönen Tag.",
+        "translate_fa": "برای تو هم روز خوبی.",
+        "file": "961_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "962",
+        "Sound_de": "Wenn dir dieses Video gefallen hat,",
+        "translate_fa": "اگه این ویدیو خوشت اومد،",
+        "file": "962_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "963",
+        "Sound_de": "abonniere den Kanal",
+        "translate_fa": "کانال رو سابسکریپ کن",
+        "file": "963_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "964",
+        "Sound_de": "und schreibe in die Kommentare,",
+        "translate_fa": "و تو کامنت‌ها بنویس",
+        "file": "964_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "965",
+        "Sound_de": "welche Situationen du gerne sehen würdest.",
+        "translate_fa": "چه موقعیت‌هایی دوست داری ببینی.",
+        "file": "965_de.mp3",
+        "type": "جمله"
+    },
+    {
+        "Filename": "966",
+        "Sound_de": "Auf Wiedersehen!",
+        "translate_fa": "خدانگهدار!",
+        "file": "966_de.mp3",
+        "type": "جمله"
+    }
+
+]

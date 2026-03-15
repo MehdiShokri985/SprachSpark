@@ -19,7 +19,9 @@
         height: 100%;
         width: 100%;
         overflow: hidden;
+        font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
       }
+
       #map {
         height: 100vh;
         width: 100vw;
@@ -79,11 +81,9 @@
         font-weight: bold;
         margin: 0.5rem 0 0.3rem;
         word-break: break-word;
-
-        /* تغییرات جدید برای چپ‌چین کردن و جهت درست آلمانی */
         direction: ltr;
         text-align: left;
-        unicode-bidi: plaintext; /* اختیاری اما خیلی کمک می‌کند در موارد پیچیده */
+        unicode-bidi: plaintext;
       }
       .fa {
         color: #1f204b;
@@ -99,19 +99,13 @@
         border-left: 3px solid #0a8a2a;
         padding-left: 0.8rem;
         font-style: italic;
-
-        /* تغییرات جدید برای چپ‌چین کردن */
-        direction: ltr; /* مهم‌ترین تغییر */
-        text-align: left; /* یا start */
+        direction: ltr;
+        text-align: left;
       }
       .example-sentence a {
         color: #0066cc;
         text-decoration: underline;
         font-weight: 600;
-      }
-      .example-sentence a:hover,
-      .example-sentence a:active {
-        color: #003366;
       }
       .vocab-img {
         width: 100%;
@@ -129,7 +123,7 @@
 
       .header-row {
         display: flex;
-        justify-content: space-between; /* شهر راست، شماره چپ */
+        justify-content: space-between;
         align-items: center;
         margin-bottom: 0.8rem;
         padding-bottom: 0.4rem;
@@ -140,10 +134,9 @@
         font-size: 1.05rem;
         font-weight: bold;
         color: #222;
-        text-align: right; /* برای اطمینان */
-      
+        text-align: right;
         margin: 0;
-          margin-right: 30px;
+        margin-right: 30px;
       }
 
       .number {
@@ -152,7 +145,52 @@
         font-weight: 500;
         white-space: nowrap;
         margin: 0;
-        text-align: left; /* برای اطمینان */
+        text-align: left;
+      }
+
+      /* Modal */
+      #start-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.75);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+      }
+      .modal-content {
+        background: white;
+        padding: 30px 25px;
+        border-radius: 12px;
+        width: 200px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+         font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
+      }
+      .modal-content h2 {
+        margin: 0 0 10px;
+        color: #182236;
+      }
+      .modal-content input {
+        width: 100%;
+        padding: 5px 0px 5px 0px;
+        font-size: 1.2rem;
+        border: 2px solid #182236;
+        border-radius: 8px;
+        text-align: center;
+      }
+      .modal-content button {
+        margin-top: 20px;
+        padding: 12px 40px;
+        background: #182236;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        cursor: pointer;
       }
 
       @media (max-width: 480px) {
@@ -171,57 +209,42 @@
           padding: 10px 12px !important;
           font-size: 0.96rem !important;
         }
-        .city-name {
-          font-size: 1.02rem !important;
-        }
-        .de {
-          font-size: 1.14rem !important;
-        }
-        .fa {
-          font-size: 0.97rem !important;
-        }
-        .example-sentence {
-          font-size: 0.9rem !important;
-        }
-        .vocab-img {
-          margin: 8px auto 10px !important;
-        }
-        audio {
-          height: 42px !important;
-        }
-      }
-
-      @media (min-width: 481px) {
-        .leaflet-popup {
-          width: 340px !important;
-          max-width: 400px !important;
-          min-width: 300px !important;
-        }
-        .popup {
-          width: 340px !important;
-          padding: 12px 14px !important;
-        }
-        .city-name {
-          font-size: 1.18rem;
-        }
-        .de {
-          font-size: 1.28rem;
-        }
-        .fa {
-          font-size: 1.08rem;
-        }
-        .example-sentence {
-          font-size: 0.98rem;
-        }
       }
     </style>
   </head>
   <body>
     <div id="map"></div>
 
+    <!-- Modal شروع -->
+    <div id="start-modal">
+      <div class="modal-content">
+        <h2>شماره جمله شروع</h2>
+      
+        <input
+          id="sentence-input"
+          type="number"
+          min="1"
+          value="1"
+          placeholder="شماره جمله"
+        />
+        <br />
+        <button onclick="startApp()">تایید</button>
+      </div>
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-      // مرکز نقشه ایران
+      // تنظیمات جهانی
+      const SENTENCES_PER_CITY = 6;
+      let allCities = [];
+      let sortedItems = [];
+      let precomputedCityPoints = [];
+      let cityMarkers = [];               // ←←← جدید: ذخیره مارکرهای هر شهر
+      let currentCityIndex = 0;
+      let pathPolyline = null;
+      let fullPathPoints = [];
+
+      // نقشه
       var map = L.map("map", {
         zoomControl: true,
         attributionControl: true,
@@ -233,155 +256,7 @@
         attribution: "© Google Maps",
       }).addTo(map);
 
-      const cities = [
-        { name: "تهران", lat: 35.6892, lng: 51.389 },
-        { name: "ورامین", lat: 35.3242, lng: 51.6457 },
-        { name: "کرج", lat: 35.8292, lng: 50.9675 },
-        { name: "طالقان", lat: 36.25, lng: 50.77 },
-        { name: "کلاردشت", lat: 36.65, lng: 51.02 },
-        { name: "چالوس", lat: 36.655, lng: 51.42 },
-        { name: "نور", lat: 36.57, lng: 51.82 },
-        { name: "آمل", lat: 36.469, lng: 52.35 },
-        { name: "بابل", lat: 36.702, lng: 52.653 },
-        { name: "بابلسر", lat: 36.702, lng: 52.653 },
-        { name: "ساری", lat: 36.5633, lng: 53.0601 },
-        { name: "گرگان", lat: 36.8417, lng: 54.4378 },
-        { name: "آق‌قلا", lat: 37.01, lng: 54.46 },
-        { name: "گنبدکاووس", lat: 37.25, lng: 55.167 },
-        { name: "سمنان", lat: 35.5729, lng: 53.3971 },
-        { name: "دامغان", lat: 36.1683, lng: 54.3429 },
-        { name: "شاهرود", lat: 36.4182, lng: 54.9763 },
-        { name: "بجنورد", lat: 37.4747, lng: 57.329 },
-        { name: "اسفراین", lat: 37.0767, lng: 57.5101 },
-        { name: "سبزوار", lat: 36.213, lng: 57.682 },
-        { name: "نیشابور", lat: 36.2133, lng: 58.7957 },
-        { name: "چناران", lat: 36.645, lng: 59.121 },
-        { name: "مشهد", lat: 36.2605, lng: 59.6168 },
-        { name: "تربت جام", lat: 35.243, lng: 60.622 },
-        { name: "بجستان", lat: 35.64, lng: 57.99 },
-        { name: "کاشمر", lat: 35.238, lng: 58.465 },
-        { name: "تربت حیدریه", lat: 35.273, lng: 59.219 },
-        { name: "تایباد", lat: 34.74, lng: 60.25 },
-        { name: "خواف", lat: 34.57, lng: 60.14 },
-
-        { name: "فردوس", lat: 34.02, lng: 58.17 },
-        { name: "طبس", lat: 33.5941, lng: 56.9223 },
-        { name: "قائن", lat: 33.73, lng: 59.18 },
-        { name: "بیرجند", lat: 32.8649, lng: 59.2262 },
-        { name: "زابل", lat: 31.0287, lng: 61.5012 },
-        { name: "زاهدان", lat: 29.4963, lng: 60.8629 },
-        { name: "سراوان", lat: 27.37, lng: 62.33 },
-        { name: "سرباز", lat: 26.07, lng: 61.22 },
-        { name: "چابهار", lat: 25.2919, lng: 60.643 },
-        { name: "کنارک", lat: 25.36, lng: 60.4 },
-        { name: "نیک‌شهر", lat: 26.22, lng: 60.21 },
-        { name: "ایرانشهر", lat: 27.202, lng: 60.684 },
-        { name: "بزمان", lat: 27.85, lng: 60.17 },
-
-        { name: "بندر جاسک", lat: 25.6445, lng: 57.7756 },
-        { name: "میناب", lat: 27.1467, lng: 57.0801 },
-
-        { name: "بندر عباس", lat: 27.1832, lng: 56.2666 },
-        { name: "کیش", lat: 26.5578, lng: 54.0194 },
-        { name: "لاوان", lat: 26.79, lng: 53.36 },
-        { name: "عسلویه", lat: 27.4761, lng: 52.6074 },
-        { name: "بوشهر", lat: 28.9234, lng: 50.8333 },
-
-        { name: "شیراز", lat: 29.6103, lng: 52.5311 },
-
-        { name: "جهرم", lat: 28.5006, lng: 53.5606 },
-        { name: "فسا", lat: 28.9383, lng: 53.6482 },
-        { name: "جیرفت", lat: 28.678, lng: 57.74 },
-        { name: "کرمان", lat: 30.2832, lng: 57.0788 },
-
-        { name: "رفسنجان", lat: 30.4067, lng: 55.9939 },
-        { name: "مهریز", lat: 31.5833, lng: 54.4333 },
-
-        { name: "یزد", lat: 31.8974, lng: 54.3569 },
-        { name: "انارک", lat: 33.3792, lng: 54.9464 },
-        { name: "یاسوج", lat: 30.6682, lng: 51.5879 },
-        { name: "دولت‌آباد", lat: 31.15, lng: 51.28 },
-        { name: "دهدشت", lat: 30.7944, lng: 50.5644 },
-        { name: "بهبهان", lat: 30.6, lng: 50.23 },
-
-        { name: "آغاجاری", lat: 30.7, lng: 49.83 },
-        { name: "رامهرمز", lat: 31.27, lng: 49.603 },
-        { name: "بندر ماهشهر", lat: 30.556, lng: 49.188 },
-        { name: "شادگان", lat: 30.65, lng: 48.67 },
-        { name: "آبادان", lat: 30.3392, lng: 48.3043 },
-        { name: "خرمشهر", lat: 30.44, lng: 48.166 },
-        { name: "اهواز", lat: 31.3183, lng: 48.6706 },
-        { name: "بستان", lat: 31.72, lng: 48.0 },
-
-        { name: "دزفول", lat: 32.3811, lng: 48.4058 },
-        { name: "شوشتر", lat: 32.0455, lng: 48.8567 },
-        { name: "ایذه", lat: 31.83, lng: 49.87 },
-
-        { name: "شهرضا", lat: 32.0172, lng: 51.5725 },
-        { name: "اصفهان", lat: 32.6539, lng: 51.666 },
-        { name: "شاهین‌شهر", lat: 32.86, lng: 51.55 },
-
-        { name: "نجف‌آباد", lat: 32.6142, lng: 51.3668 },
-        { name: "شهرکرد", lat: 32.325, lng: 50.859 },
-        { name: "فریدون‌شهر", lat: 32.938, lng: 50.138 },
-        { name: "خوانسار", lat: 33.22, lng: 50.315 },
-        { name: "دلیجان", lat: 33.637, lng: 50.683 },
-        { name: "نطنز", lat: 33.513, lng: 51.438 },
-        { name: "کاشان", lat: 33.99, lng: 51.41 },
-        { name: "قم", lat: 34.6399, lng: 50.8758 },
-        { name: "ساوه", lat: 35.0214, lng: 50.3566 },
-        { name: "تفرش", lat: 34.693, lng: 50.016 },
-        { name: "اراک", lat: 34.0917, lng: 49.6895 },
-        { name: "بروجرد", lat: 33.8944, lng: 48.7515 },
-        { name: "خرم‌آباد", lat: 33.4878, lng: 48.3558 },
-        { name: "پل دختر", lat: 33.1532, lng: 47.7133 },
-        { name: "آبدانان", lat: 32.993, lng: 47.4184 },
-        { name: "کوهدشت", lat: 33.5353, lng: 47.6061 },
-        { name: "ملایر", lat: 34.3006, lng: 48.8172 },
-
-        { name: "همدان", lat: 34.7992, lng: 48.5146 },
-        { name: "کنگاور", lat: 34.5036, lng: 47.9694 },
-        { name: "کرمانشاه", lat: 34.3277, lng: 47.0778 },
-        { name: "ایلام", lat: 33.6374, lng: 46.4224 },
-        { name: "سرپل ذهاب", lat: 34.4614, lng: 45.8626 },
-        { name: "پاوه", lat: 34.3208, lng: 46.3319 },
-        { name: "سنندج", lat: 35.3149, lng: 46.9988 },
-        { name: "بانه", lat: 35.998, lng: 45.8853 },
-        { name: "بوکان", lat: 36.521, lng: 46.2089 },
-        { name: "مهاباد", lat: 36.7631, lng: 45.7222 },
-        { name: "پیرانشهر", lat: 36.6961, lng: 45.1403 },
-        { name: "اشنویه", lat: 37.121, lng: 45.098 },
-        { name: "ارومیه", lat: 37.5527, lng: 45.076 },
-
-        { name: "سلماس", lat: 38.197, lng: 44.765 },
-        { name: "خوی", lat: 38.55, lng: 44.952 },
-        { name: "ماکو", lat: 39.2903, lng: 44.5 },
-        { name: "جلفا", lat: 38.936, lng: 45.63 },
-        { name: "مرند", lat: 38.432, lng: 45.775 },
-        { name: "آذرشهر", lat: 37.759, lng: 45.978 },
-        { name: "باسمنج", lat: 37.982, lng: 46.236 },
-        { name: "تبریز", lat: 38.0962, lng: 46.2738 },
-
-        { name: "مراغه", lat: 37.483, lng: 46.193 },
-        { name: "اهر", lat: 38.482, lng: 47.068 },
-        { name: "اردبیل", lat: 38.2498, lng: 48.2933 },
-        { name: "آستارا", lat: 38.429, lng: 48.87 },
-        { name: "میانه", lat: 37.421, lng: 47.715 },
-
-        { name: "زنجان", lat: 36.6743, lng: 48.4845 },
-        { name: "رودبار", lat: 36.82, lng: 49.42 },
-        { name: "رشت", lat: 37.2807, lng: 49.5832 },
-        { name: "لاهیجان", lat: 37.207, lng: 50.003 },
-        { name: "رودسر", lat: 37.14, lng: 50.29 },
-        { name: "رامسر", lat: 36.92, lng: 50.67 },
-        { name: "قزوین", lat: 36.2694, lng: 50.004 },
-      ];
-
-      const SENTENCES_PER_CITY = 5; // ← تعداد جمله‌ای که می‌خواهید هر شهر بگیرد (قابل تغییر)
-
-      let cityPoints = Array.from({ length: cities.length }, () => []);
-
-      // توابع کمکی (بدون تغییر)
+      // توابع کمکی
       function getTextColor(soundDe) {
         if (!soundDe) return "#000000";
         const trimmed = soundDe.trim().toLowerCase();
@@ -391,24 +266,217 @@
         return "#000000";
       }
 
-      function getCustomIcon(soundDe) {
-        let emoji = "⚫";
-        if (soundDe) {
-          const trimmed = soundDe.trim().toLowerCase();
-          if (trimmed.startsWith("der ")) emoji = "🔵";
-          else if (trimmed.startsWith("die ")) emoji = "🟥";
-          else if (trimmed.startsWith("das ")) emoji = "🟩";
-        }
+      // آیکون معمولی (سفید با حاشیه تیره)
+      function getCustomIcon(filename) {
+        const num = String(filename || "?").padStart(2, "0");
         return L.divIcon({
           className: "",
-          html: `<span style="font-size:20px; line-height:1;">${emoji}</span>`,
-          iconSize: [24, 24],
-          iconAnchor: [12, 12],
+          html: `
+            <div style="
+              background: #ffffff;
+              color: #182236;
+              font-size: 13px;
+              font-weight: bold;
+              width: 26px;
+              height: 26px;
+              border: 3px solid #182236;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+              line-height: 1;
+            ">${num}</div>`,
+          iconSize: [28, 28],
+          iconAnchor: [14, 14],
         });
       }
 
-      // بارگذاری و پردازش
-      fetch("json/Geschichte.json")
+      // آیکون سبز (برای شهرهای قبلی) ←←← جدید
+      function getGreenIcon(filename) {
+        const num = String(filename || "?").padStart(2, "0");
+        return L.divIcon({
+          className: "",
+          html: `
+            <div style="
+              background: #0a8a2a;
+              color: #ffffff;
+              font-size: 13px;
+              font-weight: bold;
+              width: 26px;
+              height: 26px;
+              border: 3px solid #0a8a2a;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+              line-height: 1;
+            ">${num}</div>`,
+          iconSize: [28, 28],
+          iconAnchor: [14, 14],
+        });
+      }
+
+      // تابع اضافه کردن یک شهر (فقط ۶ جمله آن شهر)
+      function addCity(idx) {
+        if (idx >= allCities.length || idx < 0) return;
+
+        const city = allCities[idx];
+        const points = precomputedCityPoints[idx];
+        const cityItems = sortedItems.slice(
+          idx * SENTENCES_PER_CITY,
+          (idx + 1) * SENTENCES_PER_CITY,
+        );
+
+        if (cityItems.length === 0) return;
+
+        // اضافه کردن مارکرها
+        cityItems.forEach((item, k) => {
+          const pos = points[k];
+          const audioSrc = item.file
+            ? `audio-Geschichte/${item.file}`
+            : `audio-Geschichte/${item.Filename}.mp3`;
+
+          let dictLink = "#";
+          let displayWord = "دیکشنری";
+          if (item.Sound_de && item.Sound_de.trim()) {
+            const word = item.Sound_de.trim();
+            const lower = word.toLowerCase();
+            let searchTerm = word;
+            if (
+              lower.startsWith("der ") ||
+              lower.startsWith("die ") ||
+              lower.startsWith("das ")
+            ) {
+              searchTerm = word.substring(4).trim();
+            }
+            dictLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(searchTerm)}&op=translate`;
+            displayWord = searchTerm || word;
+          }
+
+          // HTML پاپ‌آپ
+          let popupHTML = `
+            <div class="popup">
+              <div class="header-row">
+                <div class="city-name">${city.name}</div>
+                <div class="number">${item.Filename}</div>
+              </div>
+              
+              <img class="vocab-img" src="https://picsum.photos/seed/${item.Filename}/300/225" alt="تصویر واژه" loading="lazy">
+
+              <div class="de" style="color:${getTextColor(item.Sound_de)};">
+                ${item.Sound_de || "—"}
+              </div>
+              <div class="fa">${item.translate_fa || "—"}</div>
+              
+              <div class="example-sentence">
+                <a href="${dictLink}" target="_blank" rel="noopener noreferrer">
+                  In google translate
+                </a>
+              </div>
+              
+              <audio controls preload="metadata">
+                <source src="${audioSrc}" type="audio/mpeg">
+              </audio>
+          `;
+
+          // فقط برای جمله ششم (آخرین) دکمه «شهر بعدی» اضافه شود
+          if (k === cityItems.length - 1) {
+            popupHTML += `
+              <button onclick="loadNextCity()" 
+                      style="width:100%; padding:4px; background:#0a8a2a; color:white; border:none; border-radius:4px; margin-top:2px; font-size:1rem;">
+                شهر بعدی 
+              </button>
+            `;
+          }
+
+          popupHTML += `</div>`;
+
+          const marker = L.marker([pos[0], pos[1]], {
+            icon: getCustomIcon(item.Filename),   // همیشه معمولی برای شهر جدید
+          }).addTo(map);
+
+          marker.filename = item.Filename;        // ←←← ذخیره شماره برای تغییر آیکون بعدی
+
+          // ذخیره مارکر در آرایه شهر
+          cityMarkers[idx].push(marker);
+
+          marker.bindPopup(popupHTML, {
+            maxWidth: 420,
+            minWidth: 240,
+            autoPan: true,
+            autoPanPadding: [30, 90],
+          });
+        });
+
+        // اضافه کردن نقاط به مسیر
+        fullPathPoints = fullPathPoints.concat(points);
+
+        // ایجاد یا به‌روزرسانی خط مسیر
+        if (!pathPolyline) {
+          pathPolyline = L.polyline(fullPathPoints, {
+            color: "#182236",
+            weight: 2,
+            opacity: 0.7,
+          }).addTo(map);
+        } else {
+          pathPolyline.setLatLngs(fullPathPoints);
+        }
+      }
+
+      // تابع شهر بعدی (فراخوانی از دکمه داخل پاپ‌آپ) ←←← تغییر اصلی
+      window.loadNextCity = function () {
+        // سبز کردن شماره تمام شهرهای قبلی (تا شهر فعلی)
+        for (let i = 0; i <= currentCityIndex; i++) {
+          if (cityMarkers[i]) {
+            cityMarkers[i].forEach((marker) => {
+              if (marker.filename) {
+                marker.setIcon(getGreenIcon(marker.filename));
+              }
+            });
+          }
+        }
+
+        // رفتن به شهر بعدی
+        currentCityIndex++;
+        if (currentCityIndex < allCities.length) {
+          addCity(currentCityIndex);
+        }
+      };
+
+      // شروع برنامه بعد از وارد کردن شماره
+      window.startApp = function () {
+        let num =
+          parseInt(document.getElementById("sentence-input").value) || 1;
+        let globalStart = num - 1;
+        currentCityIndex = Math.floor(globalStart / SENTENCES_PER_CITY);
+        if (currentCityIndex >= allCities.length)
+          currentCityIndex = allCities.length - 1;
+
+        // مخفی کردن مدال
+        document.getElementById("start-modal").style.display = "none";
+
+        // نمایش اولین شهر انتخاب‌شده
+        addCity(currentCityIndex);
+      };
+
+      // بارگذاری داده‌ها (در پس‌زمینه)
+      fetch("json/cities.json")
+        .then((res) => {
+          if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+          return res.json();
+        })
+        .then((cities) => {
+          allCities = cities;
+          precomputedCityPoints = Array.from(
+            { length: cities.length },
+            () => [],
+          );
+          cityMarkers = Array.from({ length: cities.length }, () => []); // ←←← جدید
+
+          return fetch("json/Geschichte.json");
+        })
         .then((res) => {
           if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
           return res.json();
@@ -416,30 +484,21 @@
         .then((data) => {
           let items = data.filter((item) => item.type === "جمله");
 
-          // ۱. مرتب‌سازی دقیق بر اساس شماره Filename
+          // مرتب‌سازی بر اساس Filename
           items.sort((a, b) => {
             const numA = parseInt(a.Filename, 10) || 9999999;
             const numB = parseInt(b.Filename, 10) || 9999999;
             return numA - numB;
           });
 
-          // ۲. حالا به صورت گروهی و متوالی به شهرها اختصاص می‌دهیم
-          let currentCityIndex = 0;
+          sortedItems = items;
 
-          items.forEach((item, globalIndex) => {
-            // هر SENTENCES_PER_CITY جمله → شهر بعدی
-            if (globalIndex > 0 && globalIndex % SENTENCES_PER_CITY === 0) {
-              currentCityIndex++;
-            }
+          // محاسبه موقعیت‌های ثابت همه جملات
+          sortedItems.forEach((item, globalIndex) => {
+            let cityIdx = Math.floor(globalIndex / SENTENCES_PER_CITY);
+            if (cityIdx >= allCities.length) return;
 
-            // اگر از تعداد شهرها بیشتر شد → متوقف شو یا دور بزن (اینجا متوقف می‌کنیم)
-            if (currentCityIndex >= cities.length) {
-              return; // یا می‌توانید currentCityIndex %= cities.length; کنید اگر می‌خواهید دور بزند
-            }
-
-            const city = cities[currentCityIndex];
-
-            // offset همان الگوی قبلی
+            const city = allCities[cityIdx];
             const offsetLat =
               Math.sin(globalIndex * 1.234567) * 0.04 +
               Math.cos(globalIndex * 2.345678) * 0.03;
@@ -450,129 +509,16 @@
             let lat = city.lat + offsetLat;
             let lng = city.lng + offsetLng;
 
-            cityPoints[currentCityIndex].push([lat, lng]);
-
-            const audioSrc = item.file
-              ? `audio-Geschichte/${item.file}`
-              : `audio-Geschichte/${item.Filename}.mp3`;
-
-            let dictLink = "#";
-            let displayWord = "دیکشنری";
-
-            if (item.Sound_de && item.Sound_de.trim()) {
-              const word = item.Sound_de.trim();
-              const lower = word.toLowerCase();
-              let searchTerm = word;
-              if (
-                lower.startsWith("der ") ||
-                lower.startsWith("die ") ||
-                lower.startsWith("das ")
-              ) {
-                searchTerm = word.substring(4).trim();
-              }
-              dictLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(searchTerm)}&op=translate`;
-              displayWord = searchTerm || word;
-            }
-
-            let marker = L.marker([lat, lng], {
-              icon: getCustomIcon(item.Sound_de),
-            }).addTo(map);
-
-            marker.bindPopup(
-              `
-                  <div class="popup">
-                    <div class="header-row">
-                      <div class="city-name">${city.name}</div>
-                      <div class="number"> ${item.Filename}</div>
-                    </div>
-                    
-                    <img class="vocab-img"
-                        src="https://picsum.photos/seed/${item.Filename}/300/225"
-                        alt="تصویر واژه ${item.Filename}"
-                        loading="lazy">
-
-                    <div class="de" style="color:${getTextColor(item.Sound_de)};">
-                      ${item.Sound_de || "—"}
-                    </div>
-                    <div class="fa">${item.translate_fa || "—"}</div>
-                    
-                    <div class="example-sentence">
-                      <a href="${dictLink}" target="_blank" rel="noopener noreferrer">
-                        In google translate
-                      </a>
-                    </div>
-                    
-                    <audio controls preload="metadata">
-                      <source src="${audioSrc}" type="audio/mpeg">
-                      مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
-                    </audio>
-                  </div>
-                  `,
-              {
-                maxWidth: 420,
-                minWidth: 240,
-                autoPan: true,
-                autoPanPadding: [30, 90],
-                closeButton: true,
-                className: "custom-popup",
-              },
-            );
+            precomputedCityPoints[cityIdx].push([lat, lng]);
           });
 
-          // رسم خطوط به ترتیب واقعی جمله‌ها (به ترتیب Filename داخل هر شهر)
-          let fullPath = [];
-
-          cityPoints.forEach((group) => {
-            if (group.length === 0) return;
-
-            // مستقیم به همان ترتیبی که نقاط اضافه شدند وصل می‌کنیم
-            // یعنی ترتیب Filename صعودی داخل هر شهر
-            fullPath = fullPath.concat(group);
-          });
-
-          if (fullPath.length > 1) {
-            L.polyline(fullPath, {
-              color: "#182236",
-              weight: 2,
-              opacity: 0.7,
-            }).addTo(map);
-          }
+          // نمایش مدال شروع
+          document.getElementById("start-modal").style.display = "flex";
         })
         .catch((err) => {
-          console.error("خطا در بارگذاری JSON:", err);
-          alert("فایل json/Geschichte.json پیدا نشد یا مشکل دارد.");
+          console.error("خطا در بارگذاری فایل‌ها:", err);
+          alert("فایل json/cities.json یا json/Geschichte.json پیدا نشد!");
         });
-
-      function buildNNPath(group, forcedStart) {
-        if (group.length === 0) return [];
-        let points = group.slice();
-        let startIdx = points.findIndex(
-          (p) =>
-            Math.abs(p[0] - forcedStart[0]) < 1e-9 &&
-            Math.abs(p[1] - forcedStart[1]) < 1e-9,
-        );
-        if (startIdx === -1) startIdx = 0;
-
-        let path = [points.splice(startIdx, 1)[0]];
-
-        while (points.length > 0) {
-          let last = path[path.length - 1];
-          let minDist = Infinity,
-            closestIdx = 0;
-          for (let i = 0; i < points.length; i++) {
-            let dist = Math.hypot(
-              points[i][0] - last[0],
-              points[i][1] - last[1],
-            );
-            if (dist < minDist) {
-              minDist = dist;
-              closestIdx = i;
-            }
-          }
-          path.push(points.splice(closestIdx, 1)[0]);
-        }
-        return path;
-      }
     </script>
   </body>
 </html>

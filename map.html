@@ -91,10 +91,46 @@
         line-height: 1.4;
         margin-bottom: 0.8rem;
       }
+      .word-by-word {
+        /* margin: 0.9rem 0 1rem; */
+        padding: 0px 4px 0px 4px;
+        background: #f8f9fa;
+        border-radius: 6px;
+        border: 1px solid #e0e0e0;
+      }
+      .word-by-word strong {
+        display: block;
+        color: #0a8a2a;
+        margin-bottom: 8px;
+        font-size: 0.7rem;
+      }
+      .word-by-word div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+        font-size: 0.7rem;
+        line-height: 1;
+      }
+      .word-by-word .de-word {
+        color: #1a3cff;
+        font-weight: 600;
+        direction: ltr;
+        min-width: 90px;
+      }
+      .word-by-word .arrow {
+        color: #666;
+        margin: 0 8px;
+        font-size: 1.1rem;
+      }
+      .word-by-word .fa-word {
+        color: #1f204b;
+        flex: 1;
+      }
+
       .example-sentence {
-        font-size: 0.92rem;
+        font-size: 0.8rem;
         color: #444;
-        margin: 0.8rem 0 1rem;
+        margin: 0.6rem 0 0.5rem;
         line-height: 1.45;
         border-left: 3px solid #0a8a2a;
         padding-left: 0.8rem;
@@ -117,7 +153,7 @@
       }
       audio {
         width: 100%;
-        margin-top: 0.5rem;
+        /* margin-top: 0.5rem; */
         height: 40px;
       }
 
@@ -224,7 +260,7 @@
           id="sentence-input"
           type="number"
           min="1"
-          value="1"
+          value=""
           placeholder="شماره جمله"
         />
         <br />
@@ -239,7 +275,7 @@
       let allCities = [];
       let sortedItems = [];
       let precomputedCityPoints = [];
-      let cityMarkers = [];               // ←←← جدید: ذخیره مارکرهای هر شهر
+      let cityMarkers = [];
       let currentCityIndex = 0;
       let pathPolyline = null;
       let fullPathPoints = [];
@@ -266,7 +302,6 @@
         return "#000000";
       }
 
-      // آیکون معمولی (سفید با حاشیه تیره)
       function getCustomIcon(filename) {
         const num = String(filename || "?").padStart(2, "0");
         return L.divIcon({
@@ -292,7 +327,6 @@
         });
       }
 
-      // آیکون سبز (برای شهرهای قبلی) ←←← جدید
       function getGreenIcon(filename) {
         const num = String(filename || "?").padStart(2, "0");
         return L.divIcon({
@@ -318,7 +352,7 @@
         });
       }
 
-      // تابع اضافه کردن یک شهر (فقط ۶ جمله آن شهر)
+      // تابع اضافه کردن یک شهر
       function addCity(idx) {
         if (idx >= allCities.length || idx < 0) return;
 
@@ -331,7 +365,6 @@
 
         if (cityItems.length === 0) return;
 
-        // اضافه کردن مارکرها
         cityItems.forEach((item, k) => {
           const pos = points[k];
           const audioSrc = item.file
@@ -339,23 +372,33 @@
             : `audio-Geschichte/${item.Filename}.mp3`;
 
           let dictLink = "#";
-          let displayWord = "دیکشنری";
           if (item.Sound_de && item.Sound_de.trim()) {
             const word = item.Sound_de.trim();
             const lower = word.toLowerCase();
             let searchTerm = word;
-            if (
-              lower.startsWith("der ") ||
-              lower.startsWith("die ") ||
-              lower.startsWith("das ")
-            ) {
+            if (lower.startsWith("der ") || lower.startsWith("die ") || lower.startsWith("das ")) {
               searchTerm = word.substring(4).trim();
             }
             dictLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(searchTerm)}&op=translate`;
-            displayWord = searchTerm || word;
           }
 
-          // HTML پاپ‌آپ
+          // ساخت بخش کلمه به کلمه
+          let wordByWordHTML = "";
+          if (item.word_by_word && Array.isArray(item.word_by_word) && item.word_by_word.length > 0) {
+            wordByWordHTML = `
+              <div class="word-by-word">
+               
+                ${item.word_by_word.map(w => `
+                  <div>
+                    <span class="de-word">${w.de}</span>
+                    <span class="arrow">→</span>
+                    <span class="fa-word">${w.fa}</span>
+                  </div>
+                `).join('')}
+              </div>
+            `;
+          }
+
           let popupHTML = `
             <div class="popup">
               <div class="header-row">
@@ -370,6 +413,8 @@
               </div>
               <div class="fa">${item.translate_fa || "—"}</div>
               
+              ${wordByWordHTML}
+              
               <div class="example-sentence">
                 <a href="${dictLink}" target="_blank" rel="noopener noreferrer">
                   In google translate
@@ -381,7 +426,6 @@
               </audio>
           `;
 
-          // فقط برای جمله ششم (آخرین) دکمه «شهر بعدی» اضافه شود
           if (k === cityItems.length - 1) {
             popupHTML += `
               <button onclick="loadNextCity()" 
@@ -394,12 +438,10 @@
           popupHTML += `</div>`;
 
           const marker = L.marker([pos[0], pos[1]], {
-            icon: getCustomIcon(item.Filename),   // همیشه معمولی برای شهر جدید
+            icon: getCustomIcon(item.Filename),
           }).addTo(map);
 
-          marker.filename = item.Filename;        // ←←← ذخیره شماره برای تغییر آیکون بعدی
-
-          // ذخیره مارکر در آرایه شهر
+          marker.filename = item.Filename;
           cityMarkers[idx].push(marker);
 
           marker.bindPopup(popupHTML, {
@@ -410,10 +452,8 @@
           });
         });
 
-        // اضافه کردن نقاط به مسیر
         fullPathPoints = fullPathPoints.concat(points);
 
-        // ایجاد یا به‌روزرسانی خط مسیر
         if (!pathPolyline) {
           pathPolyline = L.polyline(fullPathPoints, {
             color: "#182236",
@@ -425,9 +465,7 @@
         }
       }
 
-      // تابع شهر بعدی (فراخوانی از دکمه داخل پاپ‌آپ) ←←← تغییر اصلی
       window.loadNextCity = function () {
-        // سبز کردن شماره تمام شهرهای قبلی (تا شهر فعلی)
         for (let i = 0; i <= currentCityIndex; i++) {
           if (cityMarkers[i]) {
             cityMarkers[i].forEach((marker) => {
@@ -438,73 +476,45 @@
           }
         }
 
-        // رفتن به شهر بعدی
         currentCityIndex++;
         if (currentCityIndex < allCities.length) {
           addCity(currentCityIndex);
         }
       };
 
-      // شروع برنامه بعد از وارد کردن شماره
       window.startApp = function () {
-        let num =
-          parseInt(document.getElementById("sentence-input").value) || 1;
+        let num = parseInt(document.getElementById("sentence-input").value) || 1;
         let globalStart = num - 1;
         currentCityIndex = Math.floor(globalStart / SENTENCES_PER_CITY);
-        if (currentCityIndex >= allCities.length)
-          currentCityIndex = allCities.length - 1;
+        if (currentCityIndex >= allCities.length) currentCityIndex = allCities.length - 1;
 
-        // مخفی کردن مدال
         document.getElementById("start-modal").style.display = "none";
-
-        // نمایش اولین شهر انتخاب‌شده
         addCity(currentCityIndex);
       };
 
-      // بارگذاری داده‌ها (در پس‌زمینه)
+      // بارگذاری داده‌ها
       fetch("json/cities.json")
-        .then((res) => {
-          if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-          return res.json();
-        })
+        .then((res) => res.json())
         .then((cities) => {
           allCities = cities;
-          precomputedCityPoints = Array.from(
-            { length: cities.length },
-            () => [],
-          );
-          cityMarkers = Array.from({ length: cities.length }, () => []); // ←←← جدید
+          precomputedCityPoints = Array.from({ length: cities.length }, () => []);
+          cityMarkers = Array.from({ length: cities.length }, () => []);
 
           return fetch("json/Geschichte.json");
         })
-        .then((res) => {
-          if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-          return res.json();
-        })
+        .then((res) => res.json())
         .then((data) => {
           let items = data.filter((item) => item.type === "جمله");
-
-          // مرتب‌سازی بر اساس Filename
-          items.sort((a, b) => {
-            const numA = parseInt(a.Filename, 10) || 9999999;
-            const numB = parseInt(b.Filename, 10) || 9999999;
-            return numA - numB;
-          });
-
+          items.sort((a, b) => parseInt(a.Filename, 10) - parseInt(b.Filename, 10));
           sortedItems = items;
 
-          // محاسبه موقعیت‌های ثابت همه جملات
           sortedItems.forEach((item, globalIndex) => {
             let cityIdx = Math.floor(globalIndex / SENTENCES_PER_CITY);
             if (cityIdx >= allCities.length) return;
 
             const city = allCities[cityIdx];
-            const offsetLat =
-              Math.sin(globalIndex * 1.234567) * 0.04 +
-              Math.cos(globalIndex * 2.345678) * 0.03;
-            const offsetLng =
-              Math.sin(globalIndex * 0.987654) * 0.04 +
-              Math.cos(globalIndex * 3.456789) * 0.03;
+            const offsetLat = Math.sin(globalIndex * 1.234567) * 0.04 + Math.cos(globalIndex * 2.345678) * 0.03;
+            const offsetLng = Math.sin(globalIndex * 0.987654) * 0.04 + Math.cos(globalIndex * 3.456789) * 0.03;
 
             let lat = city.lat + offsetLat;
             let lng = city.lng + offsetLng;
@@ -512,11 +522,10 @@
             precomputedCityPoints[cityIdx].push([lat, lng]);
           });
 
-          // نمایش مدال شروع
           document.getElementById("start-modal").style.display = "flex";
         })
         .catch((err) => {
-          console.error("خطا در بارگذاری فایل‌ها:", err);
+          console.error("خطا در بارگذاری:", err);
           alert("فایل json/cities.json یا json/Geschichte.json پیدا نشد!");
         });
     </script>

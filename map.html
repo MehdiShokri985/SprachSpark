@@ -1,533 +1,274 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <title>SprachSpark Iran Map</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    />
-    <style>
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-        font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
-      }
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>SprachSpark Iran Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    html, body { margin:0; padding:0; height:100%; width:100%; overflow:hidden; font-family:"iranyekanwebregular",Arial,sans-serif; }
+    #map { height:100vh; width:100vw; }
+    .leaflet-popup-content { margin:0 !important; padding:0 !important; }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip { border-radius:10px !important; box-shadow:0 4px 14px rgba(0,0,0,0.25) !important; }
+    .leaflet-popup-close-button { font-size:1.4rem !important; color:#333 !important; background:#fff !important; border-radius:50% !important; width:28px !important; height:28px !important; line-height:28px !important; text-align:center !important; box-shadow:0 1px 4px rgba(0,0,0,0.2) !important; right:8px !important; top:8px !important; }
+    .leaflet-popup-close-button:hover { background:#f0f0f0 !important; color:#000 !important; }
 
-      #map {
-        height: 100vh;
-        width: 100vw;
-      }
+    .popup { direction:rtl; font-family:sans-serif; text-align:right; box-sizing:border-box; padding:12px 14px; line-height:1.45; }
+    .city-name { font-size:1.05rem; font-weight:bold; color:#222; text-align:center; margin-bottom:0.5rem; border-bottom:1px solid #eee; padding-bottom:0.4rem; }
+    .number { color:#666; font-size:0.78rem; margin-bottom:0.5rem; text-align:center; }
+    .de { font-weight:bold; margin:0.5rem 0 0.3rem; word-break:break-word; direction:ltr; text-align:left; unicode-bidi:plaintext; }
+    .fa { color:#837da3; font-size:0.6rem; line-height:1.4; margin-bottom:0.8rem; }
 
-      .leaflet-popup-content {
-        margin: 0 !important;
-        padding: 0 !important;
-      }
-      .leaflet-popup-content-wrapper,
-      .leaflet-popup-tip {
-        border-radius: 10px !important;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25) !important;
-      }
-      .leaflet-popup-close-button {
-        font-size: 1.4rem !important;
-        color: #333 !important;
-        background: #fff !important;
-        border-radius: 50% !important;
-        width: 28px !important;
-        height: 28px !important;
-        line-height: 28px !important;
-        text-align: center !important;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
-        right: 8px !important;
-        top: 8px !important;
-      }
-      .leaflet-popup-close-button:hover {
-        background: #f0f0f0 !important;
-        color: #000 !important;
-      }
+    .word-by-word { padding:0 4px; background:#f8f9fa; border-radius:6px; border:1px solid #e0e0e0; }
+    .word-by-word strong { display:block; color:#0a8a2a; margin-bottom:8px; font-size:0.7rem; }
+    .word-by-word div { display:flex; align-items:center; margin-bottom:4px; font-size:0.6rem; line-height:1; }
+    .word-by-word .de-word { color:#1a3cff; font-weight:600; direction:ltr; min-width:90px; }
+    .word-by-word .arrow { color:#666; margin:0 8px; font-size:1.1rem; }
+    .word-by-word .fa-word { color:#808a98; flex:1; }
 
-      .popup {
-        direction: rtl;
-        font-family: sans-serif;
-        text-align: right;
-        box-sizing: border-box;
-        padding: 12px 14px;
-        line-height: 1.45;
-      }
-      .city-name {
-        font-size: 1.05rem;
-        font-weight: bold;
-        color: #222;
-        text-align: center;
-        margin-bottom: 0.5rem;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 0.4rem;
-      }
-      .number {
-        color: #666;
-        font-size: 0.78rem;
-        margin-bottom: 0.5rem;
-        text-align: center;
-      }
-      .de {
-        font-weight: bold;
-        margin: 0.5rem 0 0.3rem;
-        word-break: break-word;
-        direction: ltr;
-        text-align: left;
-        unicode-bidi: plaintext;
-      }
-      .fa {
-        color: #1f204b;
-        font-size: 1rem;
-        line-height: 1.4;
-        margin-bottom: 0.8rem;
-      }
-      .word-by-word {
-        /* margin: 0.9rem 0 1rem; */
-        padding: 0px 4px 0px 4px;
-        background: #f8f9fa;
-        border-radius: 6px;
-        border: 1px solid #e0e0e0;
-      }
-      .word-by-word strong {
-        display: block;
-        color: #0a8a2a;
-        margin-bottom: 8px;
-        font-size: 0.7rem;
-      }
-      .word-by-word div {
-        display: flex;
-        align-items: center;
-        margin-bottom: 4px;
-        font-size: 0.7rem;
-        line-height: 1;
-      }
-      .word-by-word .de-word {
-        color: #1a3cff;
-        font-weight: 600;
-        direction: ltr;
-        min-width: 90px;
-      }
-      .word-by-word .arrow {
-        color: #666;
-        margin: 0 8px;
-        font-size: 1.1rem;
-      }
-      .word-by-word .fa-word {
-        color: #1f204b;
-        flex: 1;
-      }
+    .example-sentence { font-size:0.8rem; color:#444; margin:0.6rem 0 0.5rem; line-height:1.45; border-left:3px solid #0a8a2a; padding-left:0.8rem; font-style:italic; direction:ltr; text-align:left; }
+    .example-sentence a { color:#0066cc; text-decoration:underline; font-weight:600; }
+    .vocab-img { width:100%; height:auto; display:block; margin:0.6rem auto 0.9rem; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.12); }
+    audio { width:100%; height:40px; }
 
-      .example-sentence {
-        font-size: 0.8rem;
-        color: #444;
-        margin: 0.6rem 0 0.5rem;
-        line-height: 1.45;
-        border-left: 3px solid #0a8a2a;
-        padding-left: 0.8rem;
-        font-style: italic;
-        direction: ltr;
-        text-align: left;
-      }
-      .example-sentence a {
-        color: #0066cc;
-        text-decoration: underline;
-        font-weight: 600;
-      }
-      .vocab-img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0.6rem auto 0.9rem;
-        border-radius: 6px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
-      }
-      audio {
-        width: 100%;
-        /* margin-top: 0.5rem; */
-        height: 40px;
-      }
+    .header-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:0.8rem; padding-bottom:0.4rem; border-bottom:1px solid #eee; }
+    .city-name { font-size:1.05rem; font-weight:bold; color:#222; text-align:right; margin:0; margin-right:30px; }
+    .number { color:#666; font-size:0.9rem; font-weight:500; white-space:nowrap; margin:0; text-align:left; }
 
-      .header-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 0.8rem;
-        padding-bottom: 0.4rem;
-        border-bottom: 1px solid #eee;
-      }
+    #start-modal { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.75); display:none; align-items:center; justify-content:center; z-index:10000; }
+    .modal-content { background:white; padding:30px 25px; border-radius:12px; width:200px; text-align:center; box-shadow:0 10px 30px rgba(0,0,0,0.3); font-family:"iranyekanwebregular",Arial,sans-serif; }
+    .modal-content h2 { margin:0 0 10px; color:#182236; }
+    .modal-content input { width:100%; padding:5px 0; font-size:1.2rem; border:2px solid #182236; border-radius:8px; text-align:center; }
+    .modal-content button { margin-top:20px; padding:12px 40px; background:#182236; color:white; border:none; border-radius:8px; font-size:1.1rem; cursor:pointer; }
 
-      .city-name {
-        font-size: 1.05rem;
-        font-weight: bold;
-        color: #222;
-        text-align: right;
-        margin: 0;
-        margin-right: 30px;
-      }
+    @media (max-width:480px) {
+      .leaflet-popup { width:86vw !important; max-width:86vw !important; min-width:240px !important; }
+      .leaflet-popup-content-wrapper { min-width:0 !important; }
+      .popup { width:100% !important; max-width:none !important; min-width:0 !important; padding:10px 12px !important; font-size:0.96rem !important; }
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
 
-      .number {
-        color: #666;
-        font-size: 0.9rem;
-        font-weight: 500;
-        white-space: nowrap;
-        margin: 0;
-        text-align: left;
-      }
+<div id="start-modal">
+  <div class="modal-content">
+    <h2>شماره جمله شروع</h2>
+    <input id="sentence-input" type="number" min="1" value="" placeholder="شماره جمله" />
+    <br />
+    <button onclick="startApp()">تایید</button>
+  </div>
+</div>
 
-      /* Modal */
-      #start-modal {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.75);
-        display: none;
-        align-items: center;
-        justify-content: center;
-        z-index: 10000;
-      }
-      .modal-content {
-        background: white;
-        padding: 30px 25px;
-        border-radius: 12px;
-        width: 200px;
-        text-align: center;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-         font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
-      }
-      .modal-content h2 {
-        margin: 0 0 10px;
-        color: #182236;
-      }
-      .modal-content input {
-        width: 100%;
-        padding: 5px 0px 5px 0px;
-        font-size: 1.2rem;
-        border: 2px solid #182236;
-        border-radius: 8px;
-        text-align: center;
-      }
-      .modal-content button {
-        margin-top: 20px;
-        padding: 12px 40px;
-        background: #182236;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        font-size: 1.1rem;
-        cursor: pointer;
-      }
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// تنظیمات جهانی
+const SENTENCES_PER_CITY = 6;
+let allCities = [];
+let sortedItems = [];
+let precomputedCityPoints = [];
+let cityMarkers = [];
+let currentCityIndex = 0;
+let pathPolyline = null;
+let fullPathPoints = [];
+let nextSentenceToShow = 1;  // شماره جمله بعدی که باید نمایش داده شود
 
-      @media (max-width: 480px) {
-        .leaflet-popup {
-          width: 86vw !important;
-          max-width: 86vw !important;
-          min-width: 240px !important;
-        }
-        .leaflet-popup-content-wrapper {
-          min-width: 0 !important;
-        }
-        .popup {
-          width: 100% !important;
-          max-width: none !important;
-          min-width: 0 !important;
-          padding: 10px 12px !important;
-          font-size: 0.96rem !important;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
+// نقشه
+var map = L.map("map", { zoomControl: true, attributionControl: true }).setView([32.5, 53.5], 5);
+L.tileLayer("https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}", {
+  maxZoom: 20,
+  subdomains: ["mt0","mt1","mt2","mt3"],
+  attribution: "© Google Maps"
+}).addTo(map);
 
-    <!-- Modal شروع -->
-    <div id="start-modal">
-      <div class="modal-content">
-        <h2>شماره جمله شروع</h2>
-      
-        <input
-          id="sentence-input"
-          type="number"
-          min="1"
-          value=""
-          placeholder="شماره جمله"
-        />
-        <br />
-        <button onclick="startApp()">تایید</button>
-      </div>
-    </div>
+// توابع آیکون - با className غیرخالی برای جلوگیری از خطای createIcon
+function getCustomIcon(filename) {
+  const num = String(filename || "?").padStart(2, "0");
+  return L.divIcon({
+    className: "custom-number-marker",
+    html: `<div style="background:#ffffff;color:#182236;font-size:13px;font-weight:bold;width:26px;height:26px;border:3px solid #182236;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.25);">${num}</div>`,
+    iconSize: [28, 28],
+    iconAnchor: [14, 14]
+  });
+}
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script>
-      // تنظیمات جهانی
-      const SENTENCES_PER_CITY = 6;
-      let allCities = [];
-      let sortedItems = [];
-      let precomputedCityPoints = [];
-      let cityMarkers = [];
-      let currentCityIndex = 0;
-      let pathPolyline = null;
-      let fullPathPoints = [];
+function getGreenIcon(filename) {
+  const num = String(filename || "?").padStart(2, "0");
+  return L.divIcon({
+    className: "custom-green-marker",
+    html: `<div style="background:#0a8a2a;color:#ffffff;font-size:13px;font-weight:bold;width:26px;height:26px;border:3px solid #0a8a2a;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.25);">${num}</div>`,
+    iconSize: [28, 28],
+    iconAnchor: [14, 14]
+  });
+}
 
-      // نقشه
-      var map = L.map("map", {
-        zoomControl: true,
-        attributionControl: true,
-      }).setView([32.5, 53.5], 5);
+function getTextColor(soundDe) {
+  if (!soundDe) return "#000000";
+  const trimmed = soundDe.trim().toLowerCase();
+  if (trimmed.startsWith("der ")) return "#1a3cff";
+  if (trimmed.startsWith("die ")) return "#e91e63";
+  if (trimmed.startsWith("das ")) return "#0a8a2a";
+  return "#000000";
+}
 
-      L.tileLayer("https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}", {
-        maxZoom: 20,
-        subdomains: ["mt0", "mt1", "mt2", "mt3"],
-        attribution: "© Google Maps",
-      }).addTo(map);
+// اضافه کردن شهر
+function addCity(idx) {
+  if (idx < 0 || idx >= allCities.length) return;
 
-      // توابع کمکی
-      function getTextColor(soundDe) {
-        if (!soundDe) return "#000000";
-        const trimmed = soundDe.trim().toLowerCase();
-        if (trimmed.startsWith("der ")) return "#1a3cff";
-        if (trimmed.startsWith("die ")) return "#e91e63";
-        if (trimmed.startsWith("das ")) return "#0a8a2a";
-        return "#000000";
-      }
+  const city = allCities[idx];
+  const points = precomputedCityPoints[idx];
+  const cityItems = sortedItems.slice(idx * SENTENCES_PER_CITY, (idx + 1) * SENTENCES_PER_CITY);
 
-      function getCustomIcon(filename) {
-        const num = String(filename || "?").padStart(2, "0");
-        return L.divIcon({
-          className: "",
-          html: `
-            <div style="
-              background: #ffffff;
-              color: #182236;
-              font-size: 13px;
-              font-weight: bold;
-              width: 26px;
-              height: 26px;
-              border: 3px solid #182236;
-              border-radius: 50%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-              line-height: 1;
-            ">${num}</div>`,
-          iconSize: [28, 28],
-          iconAnchor: [14, 14],
-        });
-      }
+  if (cityItems.length === 0) return;
 
-      function getGreenIcon(filename) {
-        const num = String(filename || "?").padStart(2, "0");
-        return L.divIcon({
-          className: "",
-          html: `
-            <div style="
-              background: #0a8a2a;
-              color: #ffffff;
-              font-size: 13px;
-              font-weight: bold;
-              width: 26px;
-              height: 26px;
-              border: 3px solid #0a8a2a;
-              border-radius: 50%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-              line-height: 1;
-            ">${num}</div>`,
-          iconSize: [28, 28],
-          iconAnchor: [14, 14],
-        });
-      }
+  cityItems.forEach((item, k) => {
+    const pos = points[k];
+    const audioSrc = item.file ? `audio-Geschichte/${item.file}` : `audio-Geschichte/${item.Filename}.mp3`;
 
-      // تابع اضافه کردن یک شهر
-      function addCity(idx) {
-        if (idx >= allCities.length || idx < 0) return;
+    let dictLink = "#";
+    if (item.Sound_de?.trim()) {
+      let term = item.Sound_de.trim();
+      if (/^(der|die|das)\s/i.test(term)) term = term.substring(4).trim();
+      dictLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(term)}&op=translate`;
+    }
 
-        const city = allCities[idx];
-        const points = precomputedCityPoints[idx];
-        const cityItems = sortedItems.slice(
-          idx * SENTENCES_PER_CITY,
-          (idx + 1) * SENTENCES_PER_CITY,
-        );
+    let wordByWordHTML = "";
+    if (item.word_by_word?.length) {
+      wordByWordHTML = `<div class="word-by-word">${item.word_by_word.map(w => `
+        <div><span class="de-word">${w.de}</span><span class="arrow">→</span><span class="fa-word">${w.fa}</span></div>
+      `).join("")}</div>`;
+    }
 
-        if (cityItems.length === 0) return;
+    let popupHTML = `
+      <div class="popup">
+        <div class="header-row">
+          <div class="city-name">${city.name}</div>
+          <div class="number">${item.Filename}</div>
+        </div>
+        <img class="vocab-img" src="https://picsum.photos/seed/${item.Filename}/300/225" loading="lazy">
+        <div class="de" style="color:${getTextColor(item.Sound_de)};">${item.Sound_de || "—"}</div>
+        <div class="fa">${item.translate_fa || "—"}</div>
+        ${wordByWordHTML}
+        <div class="example-sentence"><a href="${dictLink}" target="_blank">In google translate</a></div>
+        <audio controls><source src="${audioSrc}" type="audio/mpeg"></audio>
+    `;
 
-        cityItems.forEach((item, k) => {
-          const pos = points[k];
-          const audioSrc = item.file
-            ? `audio-Geschichte/${item.file}`
-            : `audio-Geschichte/${item.Filename}.mp3`;
+    if (k === cityItems.length - 1) {
+      popupHTML += `<button onclick="loadNextCity()" style="width:100%;padding:6px;background:#0a8a2a;color:white;border:none;border-radius:4px;margin-top:4px;font-size:1rem;">شهر بعدی</button>`;
+    }
+    popupHTML += `</div>`;
 
-          let dictLink = "#";
-          if (item.Sound_de && item.Sound_de.trim()) {
-            const word = item.Sound_de.trim();
-            const lower = word.toLowerCase();
-            let searchTerm = word;
-            if (lower.startsWith("der ") || lower.startsWith("die ") || lower.startsWith("das ")) {
-              searchTerm = word.substring(4).trim();
-            }
-            dictLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(searchTerm)}&op=translate`;
-          }
+    const icon = getCustomIcon(item.Filename);
+    const marker = L.marker(pos, { icon }).addTo(map);
+    marker.filename = item.Filename;
+    (cityMarkers[idx] = cityMarkers[idx] || []).push(marker);
 
-          // ساخت بخش کلمه به کلمه
-          let wordByWordHTML = "";
-          if (item.word_by_word && Array.isArray(item.word_by_word) && item.word_by_word.length > 0) {
-            wordByWordHTML = `
-              <div class="word-by-word">
-               
-                ${item.word_by_word.map(w => `
-                  <div>
-                    <span class="de-word">${w.de}</span>
-                    <span class="arrow">→</span>
-                    <span class="fa-word">${w.fa}</span>
-                  </div>
-                `).join('')}
-              </div>
-            `;
-          }
+    marker.bindPopup(popupHTML, { maxWidth: 420, minWidth: 240 });
+  });
 
-          let popupHTML = `
-            <div class="popup">
-              <div class="header-row">
-                <div class="city-name">${city.name}</div>
-                <div class="number">${item.Filename}</div>
-              </div>
-              
-              <img class="vocab-img" src="https://picsum.photos/seed/${item.Filename}/300/225" alt="تصویر واژه" loading="lazy">
+  fullPathPoints.push(...points);
+  if (!pathPolyline) {
+    pathPolyline = L.polyline(fullPathPoints, { color: "#182236", weight: 2, opacity: 0.7 }).addTo(map);
+  } else {
+    pathPolyline.setLatLngs(fullPathPoints);
+  }
+}
 
-              <div class="de" style="color:${getTextColor(item.Sound_de)};">
-                ${item.Sound_de || "—"}
-              </div>
-              <div class="fa">${item.translate_fa || "—"}</div>
-              
-              ${wordByWordHTML}
-              
-              <div class="example-sentence">
-                <a href="${dictLink}" target="_blank" rel="noopener noreferrer">
-                  In google translate
-                </a>
-              </div>
-              
-              <audio controls preload="metadata">
-                <source src="${audioSrc}" type="audio/mpeg">
-              </audio>
-          `;
+// شهر بعدی - ادامه از جمله بعدی
+window.loadNextCity = function () {
+  // سبز کردن مارکرهای شهرهای قبلی
+  for (let i = 0; i <= currentCityIndex; i++) {
+    cityMarkers[i]?.forEach(m => {
+      if (m.filename) m.setIcon(getGreenIcon(m.filename));
+    });
+  }
 
-          if (k === cityItems.length - 1) {
-            popupHTML += `
-              <button onclick="loadNextCity()" 
-                      style="width:100%; padding:4px; background:#0a8a2a; color:white; border:none; border-radius:4px; margin-top:2px; font-size:1rem;">
-                شهر بعدی 
-              </button>
-            `;
-          }
+  // محاسبه شهر بعدی
+  const nextCityIndex = currentCityIndex + 1;
+  if (nextCityIndex >= allCities.length) {
+    alert("به آخرین شهر رسیدید!");
+    return;
+  }
 
-          popupHTML += `</div>`;
+  currentCityIndex = nextCityIndex;
 
-          const marker = L.marker([pos[0], pos[1]], {
-            icon: getCustomIcon(item.Filename),
-          }).addTo(map);
+  // لود شهر جدید (اگر قبلاً لود نشده باشد)
+  if (!cityMarkers[currentCityIndex]?.length) {
+    addCity(currentCityIndex);
+  }
 
-          marker.filename = item.Filename;
-          cityMarkers[idx].push(marker);
+  // اولین مارکر شهر جدید
+  const firstMarker = cityMarkers[currentCityIndex][0];
+  if (firstMarker) {
+    // به‌روزرسانی nextSentenceToShow (اختیاری - برای هماهنگی)
+    const firstItem = sortedItems[currentCityIndex * SENTENCES_PER_CITY];
+    nextSentenceToShow = parseInt(firstItem.Filename);
 
-          marker.bindPopup(popupHTML, {
-            maxWidth: 420,
-            minWidth: 240,
-            autoPan: true,
-            autoPanPadding: [30, 90],
-          });
-        });
+    map.flyTo(firstMarker.getLatLng(), 12, { duration: 1.5 });
+    setTimeout(() => firstMarker.openPopup(), 900);
+  }
+};
+// شروع برنامه
+window.startApp = function () {
+  let num = parseInt(document.getElementById("sentence-input").value) || 1;
 
-        fullPathPoints = fullPathPoints.concat(points);
+  const targetItem = sortedItems.find(item => parseInt(item.Filename) === num);
+  if (!targetItem) {
+    alert(`جمله ${num} یافت نشد!`);
+    return;
+  }
 
-        if (!pathPolyline) {
-          pathPolyline = L.polyline(fullPathPoints, {
-            color: "#182236",
-            weight: 2,
-            opacity: 0.7,
-          }).addTo(map);
-        } else {
-          pathPolyline.setLatLngs(fullPathPoints);
-        }
-      }
+  const globalIndex = sortedItems.indexOf(targetItem);
+  currentCityIndex = Math.floor(globalIndex / SENTENCES_PER_CITY);
+  if (currentCityIndex >= allCities.length) currentCityIndex = allCities.length - 1;
 
-      window.loadNextCity = function () {
-        for (let i = 0; i <= currentCityIndex; i++) {
-          if (cityMarkers[i]) {
-            cityMarkers[i].forEach((marker) => {
-              if (marker.filename) {
-                marker.setIcon(getGreenIcon(marker.filename));
-              }
-            });
-          }
-        }
+  nextSentenceToShow = num;
 
-        currentCityIndex++;
-        if (currentCityIndex < allCities.length) {
-          addCity(currentCityIndex);
-        }
-      };
+  document.getElementById("start-modal").style.display = "none";
 
-      window.startApp = function () {
-        let num = parseInt(document.getElementById("sentence-input").value) || 1;
-        let globalStart = num - 1;
-        currentCityIndex = Math.floor(globalStart / SENTENCES_PER_CITY);
-        if (currentCityIndex >= allCities.length) currentCityIndex = allCities.length - 1;
+  addCity(currentCityIndex);
 
-        document.getElementById("start-modal").style.display = "none";
-        addCity(currentCityIndex);
-      };
+  setTimeout(() => {
+    const localIndex = globalIndex % SENTENCES_PER_CITY;
+    const marker = cityMarkers[currentCityIndex]?.[localIndex];
+    if (marker) {
+      map.flyTo(marker.getLatLng(), 12, { duration: 1.5 });
+      marker.openPopup();
+    }
+  }, 800);
+};
 
-      // بارگذاری داده‌ها
-      fetch("json/cities.json")
-        .then((res) => res.json())
-        .then((cities) => {
-          allCities = cities;
-          precomputedCityPoints = Array.from({ length: cities.length }, () => []);
-          cityMarkers = Array.from({ length: cities.length }, () => []);
+// بارگذاری داده‌ها
+fetch("json/cities.json")
+  .then(res => res.json())
+  .then(cities => {
+    allCities = cities;
+    precomputedCityPoints = Array(cities.length).fill().map(() => []);
+    cityMarkers = Array(cities.length).fill().map(() => []);
 
-          return fetch("json/Geschichte.json");
-        })
-        .then((res) => res.json())
-        .then((data) => {
-          let items = data.filter((item) => item.type === "جمله");
-          items.sort((a, b) => parseInt(a.Filename, 10) - parseInt(b.Filename, 10));
-          sortedItems = items;
+    return fetch("json/Geschichte.json");
+  })
+  .then(res => res.json())
+  .then(data => {
+    sortedItems = data
+      .filter(item => item.type === "جمله")
+      .sort((a, b) => parseInt(a.Filename) - parseInt(b.Filename));
 
-          sortedItems.forEach((item, globalIndex) => {
-            let cityIdx = Math.floor(globalIndex / SENTENCES_PER_CITY);
-            if (cityIdx >= allCities.length) return;
+    sortedItems.forEach((item, i) => {
+      let cityIdx = Math.floor(i / SENTENCES_PER_CITY);
+      if (cityIdx >= allCities.length) return;
+      const city = allCities[cityIdx];
+      const lat = city.lat + Math.sin(i * 1.234567) * 0.04 + Math.cos(i * 2.345678) * 0.03;
+      const lng = city.lng + Math.sin(i * 0.987654) * 0.04 + Math.cos(i * 3.456789) * 0.03;
+      precomputedCityPoints[cityIdx].push([lat, lng]);
+    });
 
-            const city = allCities[cityIdx];
-            const offsetLat = Math.sin(globalIndex * 1.234567) * 0.04 + Math.cos(globalIndex * 2.345678) * 0.03;
-            const offsetLng = Math.sin(globalIndex * 0.987654) * 0.04 + Math.cos(globalIndex * 3.456789) * 0.03;
-
-            let lat = city.lat + offsetLat;
-            let lng = city.lng + offsetLng;
-
-            precomputedCityPoints[cityIdx].push([lat, lng]);
-          });
-
-          document.getElementById("start-modal").style.display = "flex";
-        })
-        .catch((err) => {
-          console.error("خطا در بارگذاری:", err);
-          alert("فایل json/cities.json یا json/Geschichte.json پیدا نشد!");
-        });
-    </script>
-  </body>
+    document.getElementById("start-modal").style.display = "flex";
+  })
+  .catch(err => {
+    console.error(err);
+    alert("خطا در بارگذاری فایل‌های JSON");
+  });
+</script>
+</body>
 </html>

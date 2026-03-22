@@ -441,6 +441,8 @@
 
         const icon = getCustomIcon(item.Filename);
         const marker = L.marker(pos, { icon }).addTo(map);
+        marker.globalIndex = globalIdx;
+
         marker.bindPopup(popupHTML, { maxWidth: 440, minWidth: 280 });
 
         currentMarkers.set(globalIdx, marker);
@@ -459,6 +461,15 @@
           updatePath();
         }
       }
+
+      map.on("popupopen", function (e) {
+        const marker = e.popup._source; // مارکر مرتبط با این پاپ‌آپ
+        if (marker && typeof marker.globalIndex === "number") {
+          currentGlobalIndex = marker.globalIndex;
+          // اختیاری: می‌توانید اینجا مسیر را هم به‌روز کنید اگر لازم بود
+          // updatePath();   ← معمولاً لازم نیست
+        }
+      });
 
       function updatePath() {
         if (pathPolyline) {

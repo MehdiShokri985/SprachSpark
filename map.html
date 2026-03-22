@@ -88,6 +88,73 @@
         animation: fadeIn 0.4s ease-out;
       }
 
+      /* ====================== استوانه پیشرفت جدید ====================== */
+      #progress-cylinder {
+        position: fixed;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9998;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        user-select: none;
+      }
+
+      .cylinder-label {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #64748b;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+      }
+
+      .cylinder {
+        width: 28px;
+        height: 320px;
+        background: linear-gradient(to bottom, #e2e8f0, #f1f5f9);
+        border: 3px solid #64748b;
+        border-radius: 999px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+      }
+
+      #progress-fill {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to top, #22d3ee, #67e8f9, #0ea5e9);
+        border-radius: 999px;
+        transition: height 0.6s ease-in-out;
+        box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.6);
+      }
+
+      #progress-counter {
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--primary);
+        background: white;
+        padding: 4px 10px;
+        border-radius: 999px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        min-width: 68px;
+        text-align: center;
+      }
+
+      @media (max-width: 480px) {
+        #progress-cylinder {
+          right: 12px;
+        }
+        .cylinder {
+          height: 260px;
+          width: 24px;
+        }
+      }
+      /* ====================== پایان استوانه ====================== */
+
       @keyframes fadeIn {
         from {
           opacity: 0;
@@ -286,6 +353,61 @@
         background: #166534;
       }
 
+      #progress-cylinder {
+        position: fixed;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9998;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        user-select: none;
+      }
+
+      .cylinder-label {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #64748b;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+      }
+
+      .cylinder {
+        width: 28px;
+        height: 320px;
+        background: linear-gradient(to bottom, #00000073, #00000069);
+        border: 1px solid #629f7af7;
+        border-radius: 50px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+      }
+
+      #progress-fill {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to top, #22ee4ac2, #80f967fa, #0ee929b3);
+        border-radius: 1px;
+        transition: height 0.6s ease-in-out;
+        box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.6);
+      }
+
+      #progress-counter {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--primary);
+        background: white;
+        padding: 5px 1px 1px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        min-width: 68px;
+        text-align: center;
+      }
+
       @media (max-width: 480px) {
         .leaflet-popup {
           max-width: 88vw !important;
@@ -328,6 +450,16 @@
       <button id="prev-btn" onclick="showPrevious()">Vorheriger</button>
       <button id="next-btn" onclick="showNext()">Nächster</button>
     </div>
+
+    <!-- ==================== استوانه جدید ==================== -->
+    <div id="progress-cylinder">
+      <div class="cylinder-label">Sätze</div>
+      <div class="cylinder">
+        <div id="progress-fill"></div>
+      </div>
+      <div id="progress-counter">01 / 72</div>
+    </div>
+    <!-- ==================================================== -->
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
@@ -372,6 +504,17 @@
           iconSize: [34, 34],
           iconAnchor: [17, 17],
         });
+      }
+
+      function updateProgress() {
+        if (!sortedItems.length) return;
+        const current = currentGlobalIndex + 1;
+        const total = sortedItems.length;
+        const percent = (current / total) * 100;
+
+        document.getElementById("progress-fill").style.height = percent + "%";
+        document.getElementById("progress-counter").textContent =
+          String(current).padStart(2, "0") + " / " + total;
       }
 
       function showSentence(globalIdx, smooth = true) {
@@ -453,12 +596,14 @@
             marker.openPopup();
             fullPathPoints.push(pos);
             updatePath();
+            updateProgress();
           }, 900);
         } else {
           map.setView(pos, 12);
           marker.openPopup();
           fullPathPoints.push(pos);
           updatePath();
+          updateProgress();
         }
       }
 
@@ -466,6 +611,7 @@
         const marker = e.popup._source; // مارکر مرتبط با این پاپ‌آپ
         if (marker && typeof marker.globalIndex === "number") {
           currentGlobalIndex = marker.globalIndex;
+          updateProgress();
           // اختیاری: می‌توانید اینجا مسیر را هم به‌روز کنید اگر لازم بود
           // updatePath();   ← معمولاً لازم نیست
         }
@@ -487,6 +633,7 @@
       window.showNext = function () {
         if (currentGlobalIndex + 1 < sortedItems.length) {
           showSentence(currentGlobalIndex + 1, true);
+          updateProgress();
         } else {
           alert("Ende der Sätze erreicht!");
         }
@@ -495,6 +642,7 @@
       window.showPrevious = function () {
         if (currentGlobalIndex > 0) {
           showSentence(currentGlobalIndex - 1, true);
+          updateProgress();
         } else {
           alert("Dies ist der erste Satz!");
         }
@@ -518,6 +666,7 @@
         showSentence(globalIndex, true);
 
         document.getElementById("prev-next").style.display = "flex";
+        updateProgress();
       };
 
       // بارگذاری داده‌ها

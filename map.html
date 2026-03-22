@@ -189,8 +189,8 @@
         text-align: left;
       }
       .example-sentence a {
-        color: var(--primary);
-        font-weight: 600;
+        color: #1e53ff;
+        font-weight: 400;
         text-decoration: underline;
       }
 
@@ -435,7 +435,7 @@
       <div class="de" style="color:${getTextColor(item.Sound_de)};">${item.Sound_de || "—"}</div>
       <div class="fa">${item.translate_fa || "—"}</div>
       ${wordByWordHTML}
-      <div class="example-sentence"><a href="${dictLink}" target="_blank">In Google Translate öffnen</a></div>
+      <div class="example-sentence"><a href="${dictLink}" target="_blank">Google Translate</a></div>
       <audio controls><source src="${audioSrc}" type="audio/mpeg"></audio>
     </div>`;
 

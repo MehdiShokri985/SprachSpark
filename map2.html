@@ -452,6 +452,7 @@
           html: `<div style="background:white;color:#1e40af;font-size:14px;font-weight:700;width:32px;height:32px;border:3px solid #1e40af;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,0.2);">${num}</div>`,
           iconSize: [34, 34],
           iconAnchor: [17, 17],
+          popupAnchor: [0, -15]
         });
       }
 
@@ -585,8 +586,16 @@
         const icon = getCustomIcon(item.Filename);
         const marker = L.marker(pos, { icon }).addTo(map);
         marker.globalIndex = globalIdx;
-        marker.bindPopup(popupHTML, { maxWidth: 460, minWidth: 280 });
-
+        // marker.bindPopup(popupHTML, { maxWidth: 460, minWidth: 280 });
+marker.bindPopup(popupHTML, {
+            maxWidth: 460,
+            minWidth: 280,
+            autoPan: true,
+            autoPanPadding: [20, 60],           // فاصله از لبه‌ها
+            autoPanPaddingTopLeft: [20, 200],   // فاصله بیشتر از بالای صفحه (مهم‌ترین قسمت)
+            keepInView: false,
+            offset: [0, -1]
+        });
         currentMarkers.set(globalIdx, marker);
 
         if (smooth) {

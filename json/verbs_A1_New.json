@@ -1,0 +1,2706 @@
+[
+  {
+    "Filename": "1",
+    "Sound_de": "Ich wohne.",
+    "fa": "من زندگی می‌کنم.",
+    "Negativ": "Ich wohne nicht.",
+    "fragend": "Wohne ich?",
+    "file": "1_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich wohnte." },
+      { "Perfekt": "Ich habe gewohnt." },
+      { "Futur_I": "Ich werde wohnen." }
+    ]
+  },
+  {
+    "Filename": "2",
+    "Sound_de": "Du wohnst.",
+    "fa": "تو زندگی می‌کنی.",
+    "Negativ": "Du wohnst nicht.",
+    "fragend": "Wohnst du?",
+    "file": "2_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du wohntest." },
+      { "Perfekt": "Du hast gewohnt." },
+      { "Futur_I": "Du wirst wohnen." }
+    ]
+  },
+  {
+    "Filename": "3",
+    "Sound_de": "Er wohnt.",
+    "fa": "او زندگی می‌کند.",
+    "Negativ": "Er wohnt nicht.",
+    "fragend": "Wohnt er?",
+    "file": "3_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er wohnte." },
+      { "Perfekt": "Er hat gewohnt." },
+      { "Futur_I": "Er wird wohnen." }
+    ]
+  },
+  {
+    "Filename": "4",
+    "Sound_de": "Sie wohnt.",
+    "fa": "او زندگی می‌کند.",
+    "Negativ": "Sie wohnt nicht.",
+    "fragend": "Wohnt sie?",
+    "file": "4_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie wohnte." },
+      { "Perfekt": "Sie hat gewohnt." },
+      { "Futur_I": "Sie wird wohnen." }
+    ]
+  },
+  {
+    "Filename": "5",
+    "Sound_de": "Es wohnt.",
+    "fa": "آن زندگی می‌کند.",
+    "Negativ": "Es wohnt nicht.",
+    "fragend": "Wohnt es?",
+    "file": "5_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es wohnte." },
+      { "Perfekt": "Es hat gewohnt." },
+      { "Futur_I": "Es wird wohnen." }
+    ]
+  },
+  {
+    "Filename": "6",
+    "Sound_de": "Wir wohnen.",
+    "fa": "ما زندگی می‌کنیم.",
+    "Negativ": "Wir wohnen nicht.",
+    "fragend": "Wohnen wir?",
+    "file": "6_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir wohnten." },
+      { "Perfekt": "Wir haben gewohnt." },
+      { "Futur_I": "Wir werden wohnen." }
+    ]
+  },
+  {
+    "Filename": "7",
+    "Sound_de": "Ihr wohnt.",
+    "fa": "شما زندگی می‌کنید.",
+    "Negativ": "Ihr wohnt nicht.",
+    "fragend": "Wohnt ihr?",
+    "file": "7_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr wohntet." },
+      { "Perfekt": "Ihr habt gewohnt." },
+      { "Futur_I": "Ihr werdet wohnen." }
+    ]
+  },
+  {
+    "Filename": "8",
+    "Sound_de": "Sie wohnen.",
+    "fa": "آنها / شما (رسمی) زندگی می‌کنند.",
+    "Negativ": "Sie wohnen nicht.",
+    "fragend": "Wohnen Sie?",
+    "file": "8_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie wohnten." },
+      { "Perfekt": "Sie haben gewohnt." },
+      { "Futur_I": "Sie werden wohnen." }
+    ]
+  },
+  {
+    "Filename": "9",
+    "Sound_de": "Ich bezahle.",
+    "fa": "من پرداخت می‌کنم.",
+    "Negativ": "Ich bezahle nicht.",
+    "fragend": "Bezahle ich?",
+    "file": "9_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich bezahlte." },
+      { "Perfekt": "Ich habe bezahlt." },
+      { "Futur_I": "Ich werde bezahlen." }
+    ]
+  },
+  {
+    "Filename": "10",
+    "Sound_de": "Du bezahlst.",
+    "fa": "تو پرداخت می‌کنی.",
+    "Negativ": "Du bezahlst nicht.",
+    "fragend": "Bezahlst du?",
+    "file": "10_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du bezahltest." },
+      { "Perfekt": "Du hast bezahlt." },
+      { "Futur_I": "Du wirst bezahlen." }
+    ]
+  },
+  {
+    "Filename": "11",
+    "Sound_de": "Er bezahlt.",
+    "fa": "او پرداخت می‌کند.",
+    "Negativ": "Er bezahlt nicht.",
+    "fragend": "Bezahlt er?",
+    "file": "11_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er bezahlte." },
+      { "Perfekt": "Er hat bezahlt." },
+      { "Futur_I": "Er wird bezahlen." }
+    ]
+  },
+  {
+    "Filename": "12",
+    "Sound_de": "Sie bezahlt.",
+    "fa": "او پرداخت می‌کند.",
+    "Negativ": "Sie bezahlt nicht.",
+    "fragend": "Bezahlt sie?",
+    "file": "12_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie bezahlte." },
+      { "Perfekt": "Sie hat bezahlt." },
+      { "Futur_I": "Sie wird bezahlen." }
+    ]
+  },
+  {
+    "Filename": "13",
+    "Sound_de": "Es bezahlt.",
+    "fa": "آن پرداخت می‌کند.",
+    "Negativ": "Es bezahlt nicht.",
+    "fragend": "Bezahlt es?",
+    "file": "13_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es bezahlte." },
+      { "Perfekt": "Es hat bezahlt." },
+      { "Futur_I": "Es wird bezahlen." }
+    ]
+  },
+  {
+    "Filename": "14",
+    "Sound_de": "Wir bezahlen.",
+    "fa": "ما پرداخت می‌کنیم.",
+    "Negativ": "Wir bezahlen nicht.",
+    "fragend": "Bezahlen wir?",
+    "file": "14_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir bezahlten." },
+      { "Perfekt": "Wir haben bezahlt." },
+      { "Futur_I": "Wir werden bezahlen." }
+    ]
+  },
+  {
+    "Filename": "15",
+    "Sound_de": "Ihr bezahlt.",
+    "fa": "شما پرداخت می‌کنید.",
+    "Negativ": "Ihr bezahlt nicht.",
+    "fragend": "Bezahlt ihr?",
+    "file": "15_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr bezahltet." },
+      { "Perfekt": "Ihr habt bezahlt." },
+      { "Futur_I": "Ihr werdet bezahlen." }
+    ]
+  },
+  {
+    "Filename": "16",
+    "Sound_de": "Sie bezahlen.",
+    "fa": "آنها / شما (رسمی) پرداخت می‌کنند.",
+    "Negativ": "Sie bezahlen nicht.",
+    "fragend": "Bezahlen Sie?",
+    "file": "16_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie bezahlten." },
+      { "Perfekt": "Sie haben bezahlt." },
+      { "Futur_I": "Sie werden bezahlen." }
+    ]
+  },
+  {
+    "Filename": "17",
+    "Sound_de": "Ich zahle.",
+    "fa": "من پرداخت می‌کنم.",
+    "Negativ": "Ich zahle nicht.",
+    "fragend": "Zahle ich?",
+    "file": "17_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich zahlte." },
+      { "Perfekt": "Ich habe gezahlt." },
+      { "Futur_I": "Ich werde zahlen." }
+    ]
+  },
+  {
+    "Filename": "18",
+    "Sound_de": "Du zahlst.",
+    "fa": "تو پرداخت می‌کنی.",
+    "Negativ": "Du zahlst nicht.",
+    "fragend": "Zahlst du?",
+    "file": "18_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du zahltest." },
+      { "Perfekt": "Du hast gezahlt." },
+      { "Futur_I": "Du wirst zahlen." }
+    ]
+  },
+  {
+    "Filename": "19",
+    "Sound_de": "Er zahlt.",
+    "fa": "او پرداخت می‌کند.",
+    "Negativ": "Er zahlt nicht.",
+    "fragend": "Zahlt er?",
+    "file": "19_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er zahlte." },
+      { "Perfekt": "Er hat gezahlt." },
+      { "Futur_I": "Er wird zahlen." }
+    ]
+  },
+  {
+    "Filename": "20",
+    "Sound_de": "Sie zahlt.",
+    "fa": "او پرداخت می‌کند.",
+    "Negativ": "Sie zahlt nicht.",
+    "fragend": "Zahlt sie?",
+    "file": "20_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie zahlte." },
+      { "Perfekt": "Sie hat gezahlt." },
+      { "Futur_I": "Sie wird zahlen." }
+    ]
+  },
+  {
+    "Filename": "21",
+    "Sound_de": "Es zahlt.",
+    "fa": "آن پرداخت می‌کند.",
+    "Negativ": "Es zahlt nicht.",
+    "fragend": "Zahlt es?",
+    "file": "21_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es zahlte." },
+      { "Perfekt": "Es hat gezahlt." },
+      { "Futur_I": "Es wird zahlen." }
+    ]
+  },
+  {
+    "Filename": "22",
+    "Sound_de": "Wir zahlen.",
+    "fa": "ما پرداخت می‌کنیم.",
+    "Negativ": "Wir zahlen nicht.",
+    "fragend": "Zahlen wir?",
+    "file": "22_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir zahlten." },
+      { "Perfekt": "Wir haben gezahlt." },
+      { "Futur_I": "Wir werden zahlen." }
+    ]
+  },
+  {
+    "Filename": "23",
+    "Sound_de": "Ihr zahlt.",
+    "fa": "شما پرداخت می‌کنید.",
+    "Negativ": "Ihr zahlt nicht.",
+    "fragend": "Zahlt ihr?",
+    "file": "23_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr zahltet." },
+      { "Perfekt": "Ihr habt gezahlt." },
+      { "Futur_I": "Ihr werdet zahlen." }
+    ]
+  },
+  {
+    "Filename": "24",
+    "Sound_de": "Sie zahlen.",
+    "fa": "آنها / شما (رسمی) پرداخت می‌کنند.",
+    "Negativ": "Sie zahlen nicht.",
+    "fragend": "Zahlen Sie?",
+    "file": "24_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie zahlten." },
+      { "Perfekt": "Sie haben gezahlt." },
+      { "Futur_I": "Sie werden zahlen." }
+    ]
+  },
+  {
+    "Filename": "25",
+    "Sound_de": "Ich fahre ab.",
+    "fa": "من حرکت می‌کنم (وسایل نقلیه).",
+    "Negativ": "Ich fahre nicht ab.",
+    "fragend": "Fahre ich ab?",
+    "file": "25_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich fuhr ab." },
+      { "Perfekt": "Ich bin abgefahren." },
+      { "Futur_I": "Ich werde abfahren." }
+    ]
+  },
+  {
+    "Filename": "26",
+    "Sound_de": "Du fährst ab.",
+    "fa": "تو حرکت می‌کنی (وسایل نقلیه).",
+    "Negativ": "Du fährst nicht ab.",
+    "fragend": "Fährst du ab?",
+    "file": "26_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du fuhrst ab." },
+      { "Perfekt": "Du bist abgefahren." },
+      { "Futur_I": "Du wirst abfahren." }
+    ]
+  },
+  {
+    "Filename": "27",
+    "Sound_de": "Er fährt ab.",
+    "fa": "او حرکت می‌کند (وسایل نقلیه).",
+    "Negativ": "Er fährt nicht ab.",
+    "fragend": "Fährt er ab?",
+    "file": "27_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er fuhr ab." },
+      { "Perfekt": "Er ist abgefahren." },
+      { "Futur_I": "Er wird abfahren." }
+    ]
+  },
+  {
+    "Filename": "28",
+    "Sound_de": "Sie fährt ab.",
+    "fa": "او حرکت می‌کند (وسایل نقلیه).",
+    "Negativ": "Sie fährt nicht ab.",
+    "fragend": "Fährt sie ab?",
+    "file": "28_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie fuhr ab." },
+      { "Perfekt": "Sie ist abgefahren." },
+      { "Futur_I": "Sie wird abfahren." }
+    ]
+  },
+  {
+    "Filename": "29",
+    "Sound_de": "Es fährt ab.",
+    "fa": "آن حرکت می‌کند (وسایل نقلیه).",
+    "Negativ": "Es fährt nicht ab.",
+    "fragend": "Fährt es ab?",
+    "file": "29_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es fuhr ab." },
+      { "Perfekt": "Es ist abgefahren." },
+      { "Futur_I": "Es wird abfahren." }
+    ]
+  },
+  {
+    "Filename": "30",
+    "Sound_de": "Wir fahren ab.",
+    "fa": "ما حرکت می‌کنیم (وسایل نقلیه).",
+    "Negativ": "Wir fahren nicht ab.",
+    "fragend": "Fahren wir ab?",
+    "file": "30_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir fuhren ab." },
+      { "Perfekt": "Wir sind abgefahren." },
+      { "Futur_I": "Wir werden abfahren." }
+    ]
+  },
+  {
+    "Filename": "31",
+    "Sound_de": "Ihr fahrt ab.",
+    "fa": "شما حرکت می‌کنید (وسایل نقلیه).",
+    "Negativ": "Ihr fahrt nicht ab.",
+    "fragend": "Fahrt ihr ab?",
+    "file": "31_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr fuhrt ab." },
+      { "Perfekt": "Ihr seid abgefahren." },
+      { "Futur_I": "Ihr werdet abfahren." }
+    ]
+  },
+  {
+    "Filename": "32",
+    "Sound_de": "Sie fahren ab.",
+    "fa": "آنها / شما (رسمی) حرکت می‌کنند (وسایل نقلیه).",
+    "Negativ": "Sie fahren nicht ab.",
+    "fragend": "Fahren Sie ab?",
+    "file": "32_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie fuhren ab." },
+      { "Perfekt": "Sie sind abgefahren." },
+      { "Futur_I": "Sie werden abfahren." }
+    ]
+  },
+  {
+    "Filename": "33",
+    "Sound_de": "Ich gebe ab.",
+    "fa": "من تحویل می‌دهم / تسلیم می‌کنم.",
+    "Negativ": "Ich gebe nicht ab.",
+    "fragend": "Gebe ich ab?",
+    "file": "33_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich gab ab." },
+      { "Perfekt": "Ich habe abgegeben." },
+      { "Futur_I": "Ich werde abgeben." }
+    ]
+  },
+  {
+    "Filename": "34",
+    "Sound_de": "Du gibst ab.",
+    "fa": "تو تحویل می‌دهی / تسلیم می‌کنی.",
+    "Negativ": "Du gibst nicht ab.",
+    "fragend": "Gibst du ab?",
+    "file": "34_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du gabst ab." },
+      { "Perfekt": "Du hast abgegeben." },
+      { "Futur_I": "Du wirst abgeben." }
+    ]
+  },
+  {
+    "Filename": "35",
+    "Sound_de": "Er gibt ab.",
+    "fa": "او تحویل می‌دهد / تسلیم می‌کند.",
+    "Negativ": "Er gibt nicht ab.",
+    "fragend": "Gibt er ab?",
+    "file": "35_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er gab ab." },
+      { "Perfekt": "Er hat abgegeben." },
+      { "Futur_I": "Er wird abgeben." }
+    ]
+  },
+  {
+    "Filename": "36",
+    "Sound_de": "Sie gibt ab.",
+    "fa": "او تحویل می‌دهد / تسلیم می‌کند.",
+    "Negativ": "Sie gibt nicht ab.",
+    "fragend": "Gibt sie ab?",
+    "file": "36_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie gab ab." },
+      { "Perfekt": "Sie hat abgegeben." },
+      { "Futur_I": "Sie wird abgeben." }
+    ]
+  },
+  {
+    "Filename": "37",
+    "Sound_de": "Es gibt ab.",
+    "fa": "آن تحویل می‌دهد / تسلیم می‌کند.",
+    "Negativ": "Es gibt nicht ab.",
+    "fragend": "Gibt es ab?",
+    "file": "37_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es gab ab." },
+      { "Perfekt": "Es hat abgegeben." },
+      { "Futur_I": "Es wird abgeben." }
+    ]
+  },
+  {
+    "Filename": "38",
+    "Sound_de": "Wir geben ab.",
+    "fa": "ما تحویل می‌دهیم / تسلیم می‌کنیم.",
+    "Negativ": "Wir geben nicht ab.",
+    "fragend": "Geben wir ab?",
+    "file": "38_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir gaben ab." },
+      { "Perfekt": "Wir haben abgegeben." },
+      { "Futur_I": "Wir werden abgeben." }
+    ]
+  },
+  {
+    "Filename": "39",
+    "Sound_de": "Ihr gebt ab.",
+    "fa": "شما تحویل می‌دهید / تسلیم می‌کنید.",
+    "Negativ": "Ihr gebt nicht ab.",
+    "fragend": "Gebt ihr ab?",
+    "file": "39_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr gabt ab." },
+      { "Perfekt": "Ihr habt abgegeben." },
+      { "Futur_I": "Ihr werdet abgeben." }
+    ]
+  },
+  {
+    "Filename": "40",
+    "Sound_de": "Sie geben ab.",
+    "fa": "آنها / شما (رسمی) تحویل می‌دهند / تسلیم می‌کنند.",
+    "Negativ": "Sie geben nicht ab.",
+    "fragend": "Geben Sie ab?",
+    "file": "40_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie gaben ab." },
+      { "Perfekt": "Sie haben abgegeben." },
+      { "Futur_I": "Sie werden abgeben." }
+    ]
+  },
+  {
+    "Filename": "41",
+    "Sound_de": "Ich hole ab.",
+    "fa": "من تحویل می‌گیرم / می‌روم دنبال چیزی.",
+    "Negativ": "Ich hole nicht ab.",
+    "fragend": "Hole ich ab?",
+    "file": "41_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich holte ab." },
+      { "Perfekt": "Ich habe abgeholt." },
+      { "Futur_I": "Ich werde abholen." }
+    ]
+  },
+  {
+    "Filename": "42",
+    "Sound_de": "Du holst ab.",
+    "fa": "تو تحویل می‌گیری / می‌روی دنبال چیزی.",
+    "Negativ": "Du holst nicht ab.",
+    "fragend": "Holst du ab?",
+    "file": "42_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du holtest ab." },
+      { "Perfekt": "Du hast abgeholt." },
+      { "Futur_I": "Du wirst abholen." }
+    ]
+  },
+  {
+    "Filename": "43",
+    "Sound_de": "Er holt ab.",
+    "fa": "او تحویل می‌گیرد / می‌رود دنبال چیزی.",
+    "Negativ": "Er holt nicht ab.",
+    "fragend": "Holt er ab?",
+    "file": "43_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er holte ab." },
+      { "Perfekt": "Er hat abgeholt." },
+      { "Futur_I": "Er wird abholen." }
+    ]
+  },
+  {
+    "Filename": "44",
+    "Sound_de": "Sie holt ab.",
+    "fa": "او تحویل می‌گیرد / می‌رود دنبال چیزی.",
+    "Negativ": "Sie holt nicht ab.",
+    "fragend": "Holt sie ab?",
+    "file": "44_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie holte ab." },
+      { "Perfekt": "Sie hat abgeholt." },
+      { "Futur_I": "Sie wird abholen." }
+    ]
+  },
+  {
+    "Filename": "45",
+    "Sound_de": "Es holt ab.",
+    "fa": "آن تحویل می‌گیرد / می‌رود دنبال چیزی.",
+    "Negativ": "Es holt nicht ab.",
+    "fragend": "Holt es ab?",
+    "file": "45_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es holte ab." },
+      { "Perfekt": "Es hat abgeholt." },
+      { "Futur_I": "Es wird abholen." }
+    ]
+  },
+  {
+    "Filename": "46",
+    "Sound_de": "Wir holen ab.",
+    "fa": "ما تحویل می‌گیریم / می‌رویم دنبال چیزی.",
+    "Negativ": "Wir holen nicht ab.",
+    "fragend": "Holen wir ab?",
+    "file": "46_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir holten ab." },
+      { "Perfekt": "Wir haben abgeholt." },
+      { "Futur_I": "Wir werden abholen." }
+    ]
+  },
+  {
+    "Filename": "47",
+    "Sound_de": "Ihr holt ab.",
+    "fa": "شما تحویل می‌گیرید / می‌روید دنبال چیزی.",
+    "Negativ": "Ihr holt nicht ab.",
+    "fragend": "Holt ihr ab?",
+    "file": "47_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr holtet ab." },
+      { "Perfekt": "Ihr habt abgeholt." },
+      { "Futur_I": "Ihr werdet abholen." }
+    ]
+  },
+  {
+    "Filename": "48",
+    "Sound_de": "Sie holen ab.",
+    "fa": "آنها / شما (رسمی) تحویل می‌گیرند / می‌روند دنبال چیزی.",
+    "Negativ": "Sie holen nicht ab.",
+    "fragend": "Holen Sie ab?",
+    "file": "48_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie holten ab." },
+      { "Perfekt": "Sie haben abgeholt." },
+      { "Futur_I": "Sie werden abholen." }
+    ]
+  },
+  {
+    "Filename": "49",
+    "Sound_de": "Ich fange an.",
+    "fa": "من شروع می‌کنم.",
+    "Negativ": "Ich fange nicht an.",
+    "fragend": "Fange ich an?",
+    "file": "49_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich fing an." },
+      { "Perfekt": "Ich habe angefangen." },
+      { "Futur_I": "Ich werde anfangen." }
+    ]
+  },
+  {
+    "Filename": "50",
+    "Sound_de": "Du fängst an.",
+    "fa": "تو شروع می‌کنی.",
+    "Negativ": "Du fängst nicht an.",
+    "fragend": "Fängst du an?",
+    "file": "50_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du fingst an." },
+      { "Perfekt": "Du hast angefangen." },
+      { "Futur_I": "Du wirst anfangen." }
+    ]
+  },
+  {
+    "Filename": "51",
+    "Sound_de": "Er fängt an.",
+    "fa": "او شروع می‌کند.",
+    "Negativ": "Er fängt nicht an.",
+    "fragend": "Fängt er an?",
+    "file": "51_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er fing an." },
+      { "Perfekt": "Er hat angefangen." },
+      { "Futur_I": "Er wird anfangen." }
+    ]
+  },
+  {
+    "Filename": "52",
+    "Sound_de": "Sie fängt an.",
+    "fa": "او شروع می‌کند.",
+    "Negativ": "Sie fängt nicht an.",
+    "fragend": "Fängt sie an?",
+    "file": "52_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie fing an." },
+      { "Perfekt": "Sie hat angefangen." },
+      { "Futur_I": "Sie wird anfangen." }
+    ]
+  },
+  {
+    "Filename": "53",
+    "Sound_de": "Es fängt an.",
+    "fa": "آن شروع می‌کند.",
+    "Negativ": "Es fängt nicht an.",
+    "fragend": "Fängt es an?",
+    "file": "53_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es fing an." },
+      { "Perfekt": "Es hat angefangen." },
+      { "Futur_I": "Es wird anfangen." }
+    ]
+  },
+  {
+    "Filename": "54",
+    "Sound_de": "Wir fangen an.",
+    "fa": "ما شروع می‌کنیم.",
+    "Negativ": "Wir fangen nicht an.",
+    "fragend": "Fangen wir an?",
+    "file": "54_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir fingen an." },
+      { "Perfekt": "Wir haben angefangen." },
+      { "Futur_I": "Wir werden anfangen." }
+    ]
+  },
+  {
+    "Filename": "55",
+    "Sound_de": "Ihr fangt an.",
+    "fa": "شما شروع می‌کنید.",
+    "Negativ": "Ihr fangt nicht an.",
+    "fragend": "Fangt ihr an?",
+    "file": "55_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr fingt an." },
+      { "Perfekt": "Ihr habt angefangen." },
+      { "Futur_I": "Ihr werdet anfangen." }
+    ]
+  },
+  {
+    "Filename": "56",
+    "Sound_de": "Sie fangen an.",
+    "fa": "آنها / شما (رسمی) شروع می‌کنند.",
+    "Negativ": "Sie fangen nicht an.",
+    "fragend": "Fangen Sie an?",
+    "file": "56_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie fingen an." },
+      { "Perfekt": "Sie haben angefangen." },
+      { "Futur_I": "Sie werden anfangen." }
+    ]
+  },
+  {
+    "Filename": "57",
+    "Sound_de": "Ich klicke an.",
+    "fa": "من کلیک می‌کنم.",
+    "Negativ": "Ich klicke nicht an.",
+    "fragend": "Klicke ich an?",
+    "file": "57_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich klickte an." },
+      { "Perfekt": "Ich habe angeklickt." },
+      { "Futur_I": "Ich werde anklicken." }
+    ]
+  },
+  {
+    "Filename": "58",
+    "Sound_de": "Du klickst an.",
+    "fa": "تو کلیک می‌کنی.",
+    "Negativ": "Du klickst nicht an.",
+    "fragend": "Klickst du an?",
+    "file": "58_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du klicktest an." },
+      { "Perfekt": "Du hast angeklickt." },
+      { "Futur_I": "Du wirst anklicken." }
+    ]
+  },
+  {
+    "Filename": "59",
+    "Sound_de": "Er klickt an.",
+    "fa": "او کلیک می‌کند.",
+    "Negativ": "Er klickt nicht an.",
+    "fragend": "Klickt er an?",
+    "file": "59_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er klickte an." },
+      { "Perfekt": "Er hat angeklickt." },
+      { "Futur_I": "Er wird anklicken." }
+    ]
+  },
+  {
+    "Filename": "60",
+    "Sound_de": "Sie klickt an.",
+    "fa": "او کلیک می‌کند.",
+    "Negativ": "Sie klickt nicht an.",
+    "fragend": "Klickt sie an?",
+    "file": "60_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie klickte an." },
+      { "Perfekt": "Sie hat angeklickt." },
+      { "Futur_I": "Sie wird anklicken." }
+    ]
+  },
+  {
+    "Filename": "61",
+    "Sound_de": "Es klickt an.",
+    "fa": "آن کلیک می‌کند.",
+    "Negativ": "Es klickt nicht an.",
+    "fragend": "Klickt es an?",
+    "file": "61_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es klickte an." },
+      { "Perfekt": "Es hat angeklickt." },
+      { "Futur_I": "Es wird anklicken." }
+    ]
+  },
+  {
+    "Filename": "62",
+    "Sound_de": "Wir klicken an.",
+    "fa": "ما کلیک می‌کنیم.",
+    "Negativ": "Wir klicken nicht an.",
+    "fragend": "Klicken wir an?",
+    "file": "62_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir klickten an." },
+      { "Perfekt": "Wir haben angeklickt." },
+      { "Futur_I": "Wir werden anklicken." }
+    ]
+  },
+  {
+    "Filename": "63",
+    "Sound_de": "Ihr klickt an.",
+    "fa": "شما کلیک می‌کنید.",
+    "Negativ": "Ihr klickt nicht an.",
+    "fragend": "Klickt ihr an?",
+    "file": "63_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr klicktet an." },
+      { "Perfekt": "Ihr habt angeklickt." },
+      { "Futur_I": "Ihr werdet anklicken." }
+    ]
+  },
+  {
+    "Filename": "64",
+    "Sound_de": "Sie klicken an.",
+    "fa": "آنها / شما (رسمی) کلیک می‌کنند.",
+    "Negativ": "Sie klicken nicht an.",
+    "fragend": "Klicken Sie an?",
+    "file": "64_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie klickten an." },
+      { "Perfekt": "Sie haben angeklickt." },
+      { "Futur_I": "Sie werden anklicken." }
+    ]
+  },
+  {
+    "Filename": "65",
+    "Sound_de": "Ich komme an.",
+    "fa": "من می‌رسم.",
+    "Negativ": "Ich komme nicht an.",
+    "fragend": "Komme ich an?",
+    "file": "65_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich kam an." },
+      { "Perfekt": "Ich bin angekommen." },
+      { "Futur_I": "Ich werde ankommen." }
+    ]
+  },
+  {
+    "Filename": "66",
+    "Sound_de": "Du kommst an.",
+    "fa": "تو می‌رسی.",
+    "Negativ": "Du kommst nicht an.",
+    "fragend": "Kommst du an?",
+    "file": "66_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du kamst an." },
+      { "Perfekt": "Du bist angekommen." },
+      { "Futur_I": "Du wirst ankommen." }
+    ]
+  },
+  {
+    "Filename": "67",
+    "Sound_de": "Er kommt an.",
+    "fa": "او می‌رسد.",
+    "Negativ": "Er kommt nicht an.",
+    "fragend": "Kommt er an?",
+    "file": "67_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er kam an." },
+      { "Perfekt": "Er ist angekommen." },
+      { "Futur_I": "Er wird ankommen." }
+    ]
+  },
+  {
+    "Filename": "68",
+    "Sound_de": "Sie kommt an.",
+    "fa": "او می‌رسد.",
+    "Negativ": "Sie kommt nicht an.",
+    "fragend": "Kommt sie an?",
+    "file": "68_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie kam an." },
+      { "Perfekt": "Sie ist angekommen." },
+      { "Futur_I": "Sie wird ankommen." }
+    ]
+  },
+  {
+    "Filename": "69",
+    "Sound_de": "Es kommt an.",
+    "fa": "آن می‌رسد.",
+    "Negativ": "Es kommt nicht an.",
+    "fragend": "Kommt es an?",
+    "file": "69_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es kam an." },
+      { "Perfekt": "Es ist angekommen." },
+      { "Futur_I": "Es wird ankommen." }
+    ]
+  },
+  {
+    "Filename": "70",
+    "Sound_de": "Wir kommen an.",
+    "fa": "ما می‌رسیم.",
+    "Negativ": "Wir kommen nicht an.",
+    "fragend": "Kommen wir an?",
+    "file": "70_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir kamen an." },
+      { "Perfekt": "Wir sind angekommen." },
+      { "Futur_I": "Wir werden ankommen." }
+    ]
+  },
+  {
+    "Filename": "71",
+    "Sound_de": "Ihr kommt an.",
+    "fa": "شما می‌رسید.",
+    "Negativ": "Ihr kommt nicht an.",
+    "fragend": "Kommt ihr an?",
+    "file": "71_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr kamt an." },
+      { "Perfekt": "Ihr seid angekommen." },
+      { "Futur_I": "Ihr werdet ankommen." }
+    ]
+  },
+  {
+    "Filename": "72",
+    "Sound_de": "Sie kommen an.",
+    "fa": "آنها / شما (رسمی) می‌رسند.",
+    "Negativ": "Sie kommen nicht an.",
+    "fragend": "Kommen Sie an?",
+    "file": "72_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie kamen an." },
+      { "Perfekt": "Sie sind angekommen." },
+      { "Futur_I": "Sie werden ankommen." }
+    ]
+  },
+  {
+    "Filename": "73",
+    "Sound_de": "Ich kreuze an.",
+    "fa": "من علامت می‌زنم (با ضربدر).",
+    "Negativ": "Ich kreuze nicht an.",
+    "fragend": "Kreuze ich an?",
+    "file": "73_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich kreuzte an." },
+      { "Perfekt": "Ich habe angekreuzt." },
+      { "Futur_I": "Ich werde ankreuzen." }
+    ]
+  },
+  {
+    "Filename": "74",
+    "Sound_de": "Du kreuzt an.",
+    "fa": "تو علامت می‌زنی (با ضربدر).",
+    "Negativ": "Du kreuzt nicht an.",
+    "fragend": "Kreuzt du an?",
+    "file": "74_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du kreuztest an." },
+      { "Perfekt": "Du hast angekreuzt." },
+      { "Futur_I": "Du wirst ankreuzen." }
+    ]
+  },
+  {
+    "Filename": "75",
+    "Sound_de": "Er kreuzt an.",
+    "fa": "او علامت می‌زند (با ضربدر).",
+    "Negativ": "Er kreuzt nicht an.",
+    "fragend": "Kreuzt er an?",
+    "file": "75_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er kreuzte an." },
+      { "Perfekt": "Er hat angekreuzt." },
+      { "Futur_I": "Er wird ankreuzen." }
+    ]
+  },
+  {
+    "Filename": "76",
+    "Sound_de": "Sie kreuzt an.",
+    "fa": "او علامت می‌زند (با ضربدر).",
+    "Negativ": "Sie kreuzt nicht an.",
+    "fragend": "Kreuzt sie an?",
+    "file": "76_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie kreuzte an." },
+      { "Perfekt": "Sie hat angekreuzt." },
+      { "Futur_I": "Sie wird ankreuzen." }
+    ]
+  },
+  {
+    "Filename": "77",
+    "Sound_de": "Es kreuzt an.",
+    "fa": "آن علامت می‌زند (با ضربدر).",
+    "Negativ": "Es kreuzt nicht an.",
+    "fragend": "Kreuzt es an?",
+    "file": "77_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es kreuzte an." },
+      { "Perfekt": "Es hat angekreuzt." },
+      { "Futur_I": "Es wird ankreuzen." }
+    ]
+  },
+  {
+    "Filename": "78",
+    "Sound_de": "Wir kreuzen an.",
+    "fa": "ما علامت می‌زنیم (با ضربدر).",
+    "Negativ": "Wir kreuzen nicht an.",
+    "fragend": "Kreuzen wir an?",
+    "file": "78_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir kreuzten an." },
+      { "Perfekt": "Wir haben angekreuzt." },
+      { "Futur_I": "Wir werden ankreuzen." }
+    ]
+  },
+  {
+    "Filename": "79",
+    "Sound_de": "Ihr kreuzt an.",
+    "fa": "شما علامت می‌زنید (با ضربدر).",
+    "Negativ": "Ihr kreuzt nicht an.",
+    "fragend": "Kreuzt ihr an?",
+    "file": "79_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr kreuztet an." },
+      { "Perfekt": "Ihr habt angekreuzt." },
+      { "Futur_I": "Ihr werdet ankreuzen." }
+    ]
+  },
+  {
+    "Filename": "80",
+    "Sound_de": "Sie kreuzen an.",
+    "fa": "آنها / شما (رسمی) علامت می‌زنند (با ضربدر).",
+    "Negativ": "Sie kreuzen nicht an.",
+    "fragend": "Kreuzen Sie an?",
+    "file": "80_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie kreuzten an." },
+      { "Perfekt": "Sie haben angekreuzt." },
+      { "Futur_I": "Sie werden ankreuzen." }
+    ]
+  },
+  {
+    "Filename": "81",
+    "Sound_de": "Ich mache an.",
+    "fa": "من روشن می‌کنم.",
+    "Negativ": "Ich mache nicht an.",
+    "fragend": "Mache ich an?",
+    "file": "81_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich machte an." },
+      { "Perfekt": "Ich habe angemacht." },
+      { "Futur_I": "Ich werde anmachen." }
+    ]
+  },
+  {
+    "Filename": "82",
+    "Sound_de": "Du machst an.",
+    "fa": "تو روشن می‌کنی.",
+    "Negativ": "Du machst nicht an.",
+    "fragend": "Machst du an?",
+    "file": "82_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du machtest an." },
+      { "Perfekt": "Du hast angemacht." },
+      { "Futur_I": "Du wirst anmachen." }
+    ]
+  },
+  {
+    "Filename": "83",
+    "Sound_de": "Er macht an.",
+    "fa": "او روشن می‌کند.",
+    "Negativ": "Er macht nicht an.",
+    "fragend": "Macht er an?",
+    "file": "83_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er machte an." },
+      { "Perfekt": "Er hat angemacht." },
+      { "Futur_I": "Er wird anmachen." }
+    ]
+  },
+  {
+    "Filename": "84",
+    "Sound_de": "Sie macht an.",
+    "fa": "او روشن می‌کند.",
+    "Negativ": "Sie macht nicht an.",
+    "fragend": "Macht sie an?",
+    "file": "84_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie machte an." },
+      { "Perfekt": "Sie hat angemacht." },
+      { "Futur_I": "Sie wird anmachen." }
+    ]
+  },
+  {
+    "Filename": "85",
+    "Sound_de": "Es macht an.",
+    "fa": "آن روشن می‌کند.",
+    "Negativ": "Es macht nicht an.",
+    "fragend": "Macht es an?",
+    "file": "85_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es machte an." },
+      { "Perfekt": "Es hat angemacht." },
+      { "Futur_I": "Es wird anmachen." }
+    ]
+  },
+  {
+    "Filename": "86",
+    "Sound_de": "Wir machen an.",
+    "fa": "ما روشن می‌کنیم.",
+    "Negativ": "Wir machen nicht an.",
+    "fragend": "Machen wir an?",
+    "file": "86_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir machten an." },
+      { "Perfekt": "Wir haben angemacht." },
+      { "Futur_I": "Wir werden anmachen." }
+    ]
+  },
+  {
+    "Filename": "87",
+    "Sound_de": "Ihr macht an.",
+    "fa": "شما روشن می‌کنید.",
+    "Negativ": "Ihr macht nicht an.",
+    "fragend": "Macht ihr an?",
+    "file": "87_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr machtet an." },
+      { "Perfekt": "Ihr habt angemacht." },
+      { "Futur_I": "Ihr werdet anmachen." }
+    ]
+  },
+  {
+    "Filename": "88",
+    "Sound_de": "Sie machen an.",
+    "fa": "آنها / شما (رسمی) روشن می‌کنند.",
+    "Negativ": "Sie machen nicht an.",
+    "fragend": "Machen Sie an?",
+    "file": "88_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie machten an." },
+      { "Perfekt": "Sie haben angemacht." },
+      { "Futur_I": "Sie werden anmachen." }
+    ]
+  },
+  {
+    "Filename": "89",
+    "Sound_de": "Ich melde an.",
+    "fa": "من ثبت‌نام می‌کنم.",
+    "Negativ": "Ich melde nicht an.",
+    "fragend": "Melde ich an?",
+    "file": "89_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich meldete an." },
+      { "Perfekt": "Ich habe angemeldet." },
+      { "Futur_I": "Ich werde anmelden." }
+    ]
+  },
+  {
+    "Filename": "90",
+    "Sound_de": "Du meldest an.",
+    "fa": "تو ثبت‌نام می‌کنی.",
+    "Negativ": "Du meldest nicht an.",
+    "fragend": "Meldest du an?",
+    "file": "90_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du meldetest an." },
+      { "Perfekt": "Du hast angemeldet." },
+      { "Futur_I": "Du wirst anmelden." }
+    ]
+  },
+  {
+    "Filename": "91",
+    "Sound_de": "Er meldet an.",
+    "fa": "او ثبت‌نام می‌کند.",
+    "Negativ": "Er meldet nicht an.",
+    "fragend": "Meldet er an?",
+    "file": "91_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er meldete an." },
+      { "Perfekt": "Er hat angemeldet." },
+      { "Futur_I": "Er wird anmelden." }
+    ]
+  },
+  {
+    "Filename": "92",
+    "Sound_de": "Sie meldet an.",
+    "fa": "او ثبت‌نام می‌کند.",
+    "Negativ": "Sie meldet nicht an.",
+    "fragend": "Meldet sie an?",
+    "file": "92_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie meldete an." },
+      { "Perfekt": "Sie hat angemeldet." },
+      { "Futur_I": "Sie wird anmelden." }
+    ]
+  },
+  {
+    "Filename": "93",
+    "Sound_de": "Es meldet an.",
+    "fa": "آن ثبت‌نام می‌کند.",
+    "Negativ": "Es meldet nicht an.",
+    "fragend": "Meldet es an?",
+    "file": "93_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es meldete an." },
+      { "Perfekt": "Es hat angemeldet." },
+      { "Futur_I": "Es wird anmelden." }
+    ]
+  },
+  {
+    "Filename": "94",
+    "Sound_de": "Wir melden an.",
+    "fa": "ما ثبت‌نام می‌کنیم.",
+    "Negativ": "Wir melden nicht an.",
+    "fragend": "Melden wir an?",
+    "file": "94_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir meldeten an." },
+      { "Perfekt": "Wir haben angemeldet." },
+      { "Futur_I": "Wir werden anmelden." }
+    ]
+  },
+  {
+    "Filename": "95",
+    "Sound_de": "Ihr meldet an.",
+    "fa": "شما ثبت‌نام می‌کنید.",
+    "Negativ": "Ihr meldet nicht an.",
+    "fragend": "Meldet ihr an?",
+    "file": "95_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr meldetet an." },
+      { "Perfekt": "Ihr habt angemeldet." },
+      { "Futur_I": "Ihr werdet anmelden." }
+    ]
+  },
+  {
+    "Filename": "96",
+    "Sound_de": "Sie melden an.",
+    "fa": "آنها / شما (رسمی) ثبت‌نام می‌کنند.",
+    "Negativ": "Sie melden nicht an.",
+    "fragend": "Melden Sie an?",
+    "file": "96_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie meldeten an." },
+      { "Perfekt": "Sie haben angemeldet." },
+      { "Futur_I": "Sie werden anmelden." }
+    ]
+  },
+  {
+    "Filename": "97",
+    "Sound_de": "Ich rufe an.",
+    "fa": "من تلفن می‌کنم.",
+    "Negativ": "Ich rufe nicht an.",
+    "fragend": "Rufe ich an?",
+    "file": "97_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich rief an." },
+      { "Perfekt": "Ich habe angerufen." },
+      { "Futur_I": "Ich werde anrufen." }
+    ]
+  },
+  {
+    "Filename": "98",
+    "Sound_de": "Du rufst an.",
+    "fa": "تو تلفن می‌کنی.",
+    "Negativ": "Du rufst nicht an.",
+    "fragend": "Rufst du an?",
+    "file": "98_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du riefst an." },
+      { "Perfekt": "Du hast angerufen." },
+      { "Futur_I": "Du wirst anrufen." }
+    ]
+  },
+  {
+    "Filename": "99",
+    "Sound_de": "Er ruft an.",
+    "fa": "او تلفن می‌کند.",
+    "Negativ": "Er ruft nicht an.",
+    "fragend": "Ruft er an?",
+    "file": "99_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er rief an." },
+      { "Perfekt": "Er hat angerufen." },
+      { "Futur_I": "Er wird anrufen." }
+    ]
+  },
+  {
+    "Filename": "100",
+    "Sound_de": "Sie ruft an.",
+    "fa": "او تلفن می‌کند.",
+    "Negativ": "Sie ruft nicht an.",
+    "fragend": "Ruft sie an?",
+    "file": "100_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie rief an." },
+      { "Perfekt": "Sie hat angerufen." },
+      { "Futur_I": "Sie wird anrufen." }
+    ]
+  },
+  {
+    "Filename": "101",
+    "Sound_de": "Es ruft an.",
+    "fa": "آن تلفن می‌کند.",
+    "Negativ": "Es ruft nicht an.",
+    "fragend": "Ruft es an?",
+    "file": "101_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es rief an." },
+      { "Perfekt": "Es hat angerufen." },
+      { "Futur_I": "Es wird anrufen." }
+    ]
+  },
+  {
+    "Filename": "102",
+    "Sound_de": "Wir rufen an.",
+    "fa": "ما تلفن می‌کنیم.",
+    "Negativ": "Wir rufen nicht an.",
+    "fragend": "Rufen wir an?",
+    "file": "102_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir riefen an." },
+      { "Perfekt": "Wir haben angerufen." },
+      { "Futur_I": "Wir werden anrufen." }
+    ]
+  },
+  {
+    "Filename": "103",
+    "Sound_de": "Ihr ruft an.",
+    "fa": "شما تلفن می‌کنید.",
+    "Negativ": "Ihr ruft nicht an.",
+    "fragend": "Ruft ihr an?",
+    "file": "103_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr ruftet an." },
+      { "Perfekt": "Ihr habt angerufen." },
+      { "Futur_I": "Ihr werdet anrufen." }
+    ]
+  },
+  {
+    "Filename": "104",
+    "Sound_de": "Sie rufen an.",
+    "fa": "آنها / شما (رسمی) تلفن می‌کنند.",
+    "Negativ": "Sie rufen nicht an.",
+    "fragend": "Rufen Sie an?",
+    "file": "104_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie riefen an." },
+      { "Perfekt": "Sie haben angerufen." },
+      { "Futur_I": "Sie werden anrufen." }
+    ]
+  },
+  {
+    "Filename": "105",
+    "Sound_de": "Ich antworte.",
+    "fa": "من جواب می‌دهم.",
+    "Negativ": "Ich antworte nicht.",
+    "fragend": "Antworte ich?",
+    "file": "105_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich antwortete." },
+      { "Perfekt": "Ich habe geantwortet." },
+      { "Futur_I": "Ich werde antworten." }
+    ]
+  },
+  {
+    "Filename": "106",
+    "Sound_de": "Du antwortest.",
+    "fa": "تو جواب می‌دهی.",
+    "Negativ": "Du antwortest nicht.",
+    "fragend": "Antwortest du?",
+    "file": "106_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du antwortetest." },
+      { "Perfekt": "Du hast geantwortet." },
+      { "Futur_I": "Du wirst antworten." }
+    ]
+  },
+  {
+    "Filename": "107",
+    "Sound_de": "Er antwortet.",
+    "fa": "او جواب می‌دهد.",
+    "Negativ": "Er antwortet nicht.",
+    "fragend": "Antwortet er?",
+    "file": "107_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er antwortete." },
+      { "Perfekt": "Er hat geantwortet." },
+      { "Futur_I": "Er wird antworten." }
+    ]
+  },
+  {
+    "Filename": "108",
+    "Sound_de": "Sie antwortet.",
+    "fa": "او جواب می‌دهد.",
+    "Negativ": "Sie antwortet nicht.",
+    "fragend": "Antwortet sie?",
+    "file": "108_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie antwortete." },
+      { "Perfekt": "Sie hat geantwortet." },
+      { "Futur_I": "Sie wird antworten." }
+    ]
+  },
+  {
+    "Filename": "109",
+    "Sound_de": "Es antwortet.",
+    "fa": "آن جواب می‌دهد.",
+    "Negativ": "Es antwortet nicht.",
+    "fragend": "Antwortet es?",
+    "file": "109_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es antwortete." },
+      { "Perfekt": "Es hat geantwortet." },
+      { "Futur_I": "Es wird antworten." }
+    ]
+  },
+  {
+    "Filename": "110",
+    "Sound_de": "Wir antworten.",
+    "fa": "ما جواب می‌دهیم.",
+    "Negativ": "Wir antworten nicht.",
+    "fragend": "Antworten wir?",
+    "file": "110_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir antworteten." },
+      { "Perfekt": "Wir haben geantwortet." },
+      { "Futur_I": "Wir werden antworten." }
+    ]
+  },
+  {
+    "Filename": "111",
+    "Sound_de": "Ihr antwortet.",
+    "fa": "شما جواب می‌دهید.",
+    "Negativ": "Ihr antwortet nicht.",
+    "fragend": "Antwortet ihr?",
+    "file": "111_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr antwortetet." },
+      { "Perfekt": "Ihr habt geantwortet." },
+      { "Futur_I": "Ihr werdet antworten." }
+    ]
+  },
+  {
+    "Filename": "112",
+    "Sound_de": "Sie antworten.",
+    "fa": "آنها / شما (رسمی) جواب می‌دهند.",
+    "Negativ": "Sie antworten nicht.",
+    "fragend": "Antworten Sie?",
+    "file": "112_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie antworteten." },
+      { "Perfekt": "Sie haben geantwortet." },
+      { "Futur_I": "Sie werden antworten." }
+    ]
+  },
+  {
+    "Filename": "113",
+    "Sound_de": "Ich ziehe an.",
+    "fa": "من می‌پوشم (لباس).",
+    "Negativ": "Ich ziehe nicht an.",
+    "fragend": "Ziehe ich an?",
+    "file": "113_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich zog an." },
+      { "Perfekt": "Ich habe angezogen." },
+      { "Futur_I": "Ich werde anziehen." }
+    ]
+  },
+  {
+    "Filename": "114",
+    "Sound_de": "Du ziehst an.",
+    "fa": "تو می‌پوشی (لباس).",
+    "Negativ": "Du ziehst nicht an.",
+    "fragend": "Ziehst du an?",
+    "file": "114_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du zogst an." },
+      { "Perfekt": "Du hast angezogen." },
+      { "Futur_I": "Du wirst anziehen." }
+    ]
+  },
+  {
+    "Filename": "115",
+    "Sound_de": "Er zieht an.",
+    "fa": "او می‌پوشد (لباس).",
+    "Negativ": "Er zieht nicht an.",
+    "fragend": "Zieht er an?",
+    "file": "115_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er zog an." },
+      { "Perfekt": "Er hat angezogen." },
+      { "Futur_I": "Er wird anziehen." }
+    ]
+  },
+  {
+    "Filename": "116",
+    "Sound_de": "Sie zieht an.",
+    "fa": "او می‌پوشد (لباس).",
+    "Negativ": "Sie zieht nicht an.",
+    "fragend": "Zieht sie an?",
+    "file": "116_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie zog an." },
+      { "Perfekt": "Sie hat angezogen." },
+      { "Futur_I": "Sie wird anziehen." }
+    ]
+  },
+  {
+    "Filename": "117",
+    "Sound_de": "Es zieht an.",
+    "fa": "آن می‌پوشد (لباس).",
+    "Negativ": "Es zieht nicht an.",
+    "fragend": "Zieht es an?",
+    "file": "117_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es zog an." },
+      { "Perfekt": "Es hat angezogen." },
+      { "Futur_I": "Es wird anziehen." }
+    ]
+  },
+  {
+    "Filename": "118",
+    "Sound_de": "Wir ziehen an.",
+    "fa": "ما می‌پوشیم (لباس).",
+    "Negativ": "Wir ziehen nicht an.",
+    "fragend": "Ziehen wir an?",
+    "file": "118_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir zogen an." },
+      { "Perfekt": "Wir haben angezogen." },
+      { "Futur_I": "Wir werden anziehen." }
+    ]
+  },
+  {
+    "Filename": "119",
+    "Sound_de": "Ihr zieht an.",
+    "fa": "شما می‌پوشید (لباس).",
+    "Negativ": "Ihr zieht nicht an.",
+    "fragend": "Zieht ihr an?",
+    "file": "119_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr zogt an." },
+      { "Perfekt": "Ihr habt angezogen." },
+      { "Futur_I": "Ihr werdet anziehen." }
+    ]
+  },
+  {
+    "Filename": "120",
+    "Sound_de": "Sie ziehen an.",
+    "fa": "آنها / شما (رسمی) می‌پوشند (لباس).",
+    "Negativ": "Sie ziehen nicht an.",
+    "fragend": "Ziehen Sie an?",
+    "file": "120_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie zogen an." },
+      { "Perfekt": "Sie haben angezogen." },
+      { "Futur_I": "Sie werden anziehen." }
+    ]
+  },
+  {
+    "Filename": "121",
+    "Sound_de": "Ich arbeite.",
+    "fa": "من کار می‌کنم.",
+    "Negativ": "Ich arbeite nicht.",
+    "fragend": "Arbeite ich?",
+    "file": "121_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich arbeitete." },
+      { "Perfekt": "Ich habe gearbeitet." },
+      { "Futur_I": "Ich werde arbeiten." }
+    ]
+  },
+  {
+    "Filename": "122",
+    "Sound_de": "Du arbeitest.",
+    "fa": "تو کار می‌کنی.",
+    "Negativ": "Du arbeitest nicht.",
+    "fragend": "Arbeitest du?",
+    "file": "122_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du arbeitetest." },
+      { "Perfekt": "Du hast gearbeitet." },
+      { "Futur_I": "Du wirst arbeiten." }
+    ]
+  },
+  {
+    "Filename": "123",
+    "Sound_de": "Er arbeitet.",
+    "fa": "او کار می‌کند.",
+    "Negativ": "Er arbeitet nicht.",
+    "fragend": "Arbeitet er?",
+    "file": "123_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er arbeitete." },
+      { "Perfekt": "Er hat gearbeitet." },
+      { "Futur_I": "Er wird arbeiten." }
+    ]
+  },
+  {
+    "Filename": "124",
+    "Sound_de": "Sie arbeitet.",
+    "fa": "او کار می‌کند.",
+    "Negativ": "Sie arbeitet nicht.",
+    "fragend": "Arbeitet sie?",
+    "file": "124_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie arbeitete." },
+      { "Perfekt": "Sie hat gearbeitet." },
+      { "Futur_I": "Sie wird arbeiten." }
+    ]
+  },
+  {
+    "Filename": "125",
+    "Sound_de": "Es arbeitet.",
+    "fa": "آن کار می‌کند.",
+    "Negativ": "Es arbeitet nicht.",
+    "fragend": "Arbeitet es?",
+    "file": "125_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es arbeitete." },
+      { "Perfekt": "Es hat gearbeitet." },
+      { "Futur_I": "Es wird arbeiten." }
+    ]
+  },
+  {
+    "Filename": "126",
+    "Sound_de": "Wir arbeiten.",
+    "fa": "ما کار می‌کنیم.",
+    "Negativ": "Wir arbeiten nicht.",
+    "fragend": "Arbeiten wir?",
+    "file": "126_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir arbeiteten." },
+      { "Perfekt": "Wir haben gearbeitet." },
+      { "Futur_I": "Wir werden arbeiten." }
+    ]
+  },
+  {
+    "Filename": "127",
+    "Sound_de": "Ihr arbeitet.",
+    "fa": "شما کار می‌کنید.",
+    "Negativ": "Ihr arbeitet nicht.",
+    "fragend": "Arbeitet ihr?",
+    "file": "127_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr arbeitetet." },
+      { "Perfekt": "Ihr habt gearbeitet." },
+      { "Futur_I": "Ihr werdet arbeiten." }
+    ]
+  },
+  {
+    "Filename": "128",
+    "Sound_de": "Sie arbeiten.",
+    "fa": "آنها / شما (رسمی) کار می‌کنند.",
+    "Negativ": "Sie arbeiten nicht.",
+    "fragend": "Arbeiten Sie?",
+    "file": "128_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie arbeiteten." },
+      { "Perfekt": "Sie haben gearbeitet." },
+      { "Futur_I": "Sie werden arbeiten." }
+    ]
+  },
+  {
+    "Filename": "129",
+    "Sound_de": "Ich höre auf.",
+    "fa": "من متوقف می‌شوم / تمام می‌کنم.",
+    "Negativ": "Ich höre nicht auf.",
+    "fragend": "Höre ich auf?",
+    "file": "129_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich hörte auf." },
+      { "Perfekt": "Ich habe aufgehört." },
+      { "Futur_I": "Ich werde aufhören." }
+    ]
+  },
+  {
+    "Filename": "130",
+    "Sound_de": "Du hörst auf.",
+    "fa": "تو متوقف می‌شوی / تمام می‌کنی.",
+    "Negativ": "Du hörst nicht auf.",
+    "fragend": "Hörst du auf?",
+    "file": "130_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du hörtest auf." },
+      { "Perfekt": "Du hast aufgehört." },
+      { "Futur_I": "Du wirst aufhören." }
+    ]
+  },
+  {
+    "Filename": "131",
+    "Sound_de": "Er hört auf.",
+    "fa": "او متوقف می‌شود / تمام می‌کند.",
+    "Negativ": "Er hört nicht auf.",
+    "fragend": "Hört er auf?",
+    "file": "131_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er hörte auf." },
+      { "Perfekt": "Er hat aufgehört." },
+      { "Futur_I": "Er wird aufhören." }
+    ]
+  },
+  {
+    "Filename": "132",
+    "Sound_de": "Sie hört auf.",
+    "fa": "او متوقف می‌شود / تمام می‌کند.",
+    "Negativ": "Sie hört nicht auf.",
+    "fragend": "Hört sie auf?",
+    "file": "132_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie hörte auf." },
+      { "Perfekt": "Sie hat aufgehört." },
+      { "Futur_I": "Sie wird aufhören." }
+    ]
+  },
+  {
+    "Filename": "133",
+    "Sound_de": "Es hört auf.",
+    "fa": "آن متوقف می‌شود / تمام می‌کند.",
+    "Negativ": "Es hört nicht auf.",
+    "fragend": "Hört es auf?",
+    "file": "133_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es hörte auf." },
+      { "Perfekt": "Es hat aufgehört." },
+      { "Futur_I": "Es wird aufhören." }
+    ]
+  },
+  {
+    "Filename": "134",
+    "Sound_de": "Wir hören auf.",
+    "fa": "ما متوقف می‌شویم / تمام می‌کنیم.",
+    "Negativ": "Wir hören nicht auf.",
+    "fragend": "Hören wir auf?",
+    "file": "134_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir hörten auf." },
+      { "Perfekt": "Wir haben aufgehört." },
+      { "Futur_I": "Wir werden aufhören." }
+    ]
+  },
+  {
+    "Filename": "135",
+    "Sound_de": "Ihr hört auf.",
+    "fa": "شما متوقف می‌شوید / تمام می‌کنید.",
+    "Negativ": "Ihr hört nicht auf.",
+    "fragend": "Hört ihr auf?",
+    "file": "135_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr hörtet auf." },
+      { "Perfekt": "Ihr habt aufgehört." },
+      { "Futur_I": "Ihr werdet aufhören." }
+    ]
+  },
+  {
+    "Filename": "136",
+    "Sound_de": "Sie hören auf.",
+    "fa": "آنها / شما (رسمی) متوقف می‌شوند / تمام می‌کنند.",
+    "Negativ": "Sie hören nicht auf.",
+    "fragend": "Hören Sie auf?",
+    "file": "136_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie hörten auf." },
+      { "Perfekt": "Sie haben aufgehört." },
+      { "Futur_I": "Sie werden aufhören." }
+    ]
+  },
+  {
+    "Filename": "137",
+    "Sound_de": "Ich stehe auf.",
+    "fa": "من از خواب بیدار می‌شوم / بلند می‌شوم.",
+    "Negativ": "Ich stehe nicht auf.",
+    "fragend": "Stehe ich auf?",
+    "file": "137_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich stand auf." },
+      { "Perfekt": "Ich bin aufgestanden." },
+      { "Futur_I": "Ich werde aufstehen." }
+    ]
+  },
+  {
+    "Filename": "138",
+    "Sound_de": "Du stehst auf.",
+    "fa": "تو از خواب بیدار می‌شوی / بلند می‌شوی.",
+    "Negativ": "Du stehst nicht auf.",
+    "fragend": "Stehst du auf?",
+    "file": "138_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du standest auf." },
+      { "Perfekt": "Du bist aufgestanden." },
+      { "Futur_I": "Du wirst aufstehen." }
+    ]
+  },
+  {
+    "Filename": "139",
+    "Sound_de": "Er steht auf.",
+    "fa": "او از خواب بیدار می‌شود / بلند می‌شود.",
+    "Negativ": "Er steht nicht auf.",
+    "fragend": "Steht er auf?",
+    "file": "139_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er stand auf." },
+      { "Perfekt": "Er ist aufgestanden." },
+      { "Futur_I": "Er wird aufstehen." }
+    ]
+  },
+  {
+    "Filename": "140",
+    "Sound_de": "Sie steht auf.",
+    "fa": "او از خواب بیدار می‌شود / بلند می‌شود.",
+    "Negativ": "Sie steht nicht auf.",
+    "fragend": "Steht sie auf?",
+    "file": "140_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie stand auf." },
+      { "Perfekt": "Sie ist aufgestanden." },
+      { "Futur_I": "Sie wird aufstehen." }
+    ]
+  },
+  {
+    "Filename": "141",
+    "Sound_de": "Es steht auf.",
+    "fa": "آن از خواب بیدار می‌شود / بلند می‌شود.",
+    "Negativ": "Es steht nicht auf.",
+    "fragend": "Steht es auf?",
+    "file": "141_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es stand auf." },
+      { "Perfekt": "Es ist aufgestanden." },
+      { "Futur_I": "Es wird aufstehen." }
+    ]
+  },
+  {
+    "Filename": "142",
+    "Sound_de": "Wir stehen auf.",
+    "fa": "ما از خواب بیدار می‌شویم / بلند می‌شویم.",
+    "Negativ": "Wir stehen nicht auf.",
+    "fragend": "Stehen wir auf?",
+    "file": "142_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir standen auf." },
+      { "Perfekt": "Wir sind aufgestanden." },
+      { "Futur_I": "Wir werden aufstehen." }
+    ]
+  },
+  {
+    "Filename": "143",
+    "Sound_de": "Ihr steht auf.",
+    "fa": "شما از خواب بیدار می‌شوید / بلند می‌شوید.",
+    "Negativ": "Ihr steht nicht auf.",
+    "fragend": "Steht ihr auf?",
+    "file": "143_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr standet auf." },
+      { "Perfekt": "Ihr seid aufgestanden." },
+      { "Futur_I": "Ihr werdet aufstehen." }
+    ]
+  },
+  {
+    "Filename": "144",
+    "Sound_de": "Sie stehen auf.",
+    "fa": "آنها / شما (رسمی) از خواب بیدار می‌شوند / بلند می‌شوند.",
+    "Negativ": "Sie stehen nicht auf.",
+    "fragend": "Stehen Sie auf?",
+    "file": "144_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie standen auf." },
+      { "Perfekt": "Sie sind aufgestanden." },
+      { "Futur_I": "Sie werden aufstehen." }
+    ]
+  },
+  {
+    "Filename": "145",
+    "Sound_de": "Ich fülle aus.",
+    "fa": "من پر می‌کنم (فرم).",
+    "Negativ": "Ich fülle nicht aus.",
+    "fragend": "Fülle ich aus?",
+    "file": "145_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich füllte aus." },
+      { "Perfekt": "Ich habe ausgefüllt." },
+      { "Futur_I": "Ich werde ausfüllen." }
+    ]
+  },
+  {
+    "Filename": "146",
+    "Sound_de": "Du füllst aus.",
+    "fa": "تو پر می‌کنی (فرم).",
+    "Negativ": "Du füllst nicht aus.",
+    "fragend": "Füllst du aus?",
+    "file": "146_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du fülltest aus." },
+      { "Perfekt": "Du hast ausgefüllt." },
+      { "Futur_I": "Du wirst ausfüllen." }
+    ]
+  },
+  {
+    "Filename": "147",
+    "Sound_de": "Er füllt aus.",
+    "fa": "او پر می‌کند (فرم).",
+    "Negativ": "Er füllt nicht aus.",
+    "fragend": "Füllt er aus?",
+    "file": "147_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er füllte aus." },
+      { "Perfekt": "Er hat ausgefüllt." },
+      { "Futur_I": "Er wird ausfüllen." }
+    ]
+  },
+  {
+    "Filename": "148",
+    "Sound_de": "Sie füllt aus.",
+    "fa": "او پر می‌کند (فرم).",
+    "Negativ": "Sie füllt nicht aus.",
+    "fragend": "Füllt sie aus?",
+    "file": "148_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie füllte aus." },
+      { "Perfekt": "Sie hat ausgefüllt." },
+      { "Futur_I": "Sie wird ausfüllen." }
+    ]
+  },
+  {
+    "Filename": "149",
+    "Sound_de": "Es füllt aus.",
+    "fa": "آن پر می‌کند (فرم).",
+    "Negativ": "Es füllt nicht aus.",
+    "fragend": "Füllt es aus?",
+    "file": "149_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es füllte aus." },
+      { "Perfekt": "Es hat ausgefüllt." },
+      { "Futur_I": "Es wird ausfüllen." }
+    ]
+  },
+  {
+    "Filename": "150",
+    "Sound_de": "Wir füllen aus.",
+    "fa": "ما پر می‌کنیم (فرم).",
+    "Negativ": "Wir füllen nicht aus.",
+    "fragend": "Füllen wir aus?",
+    "file": "150_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir füllten aus." },
+      { "Perfekt": "Wir haben ausgefüllt." },
+      { "Futur_I": "Wir werden ausfüllen." }
+    ]
+  },
+  {
+    "Filename": "151",
+    "Sound_de": "Ihr füllt aus.",
+    "fa": "شما پر می‌کنید (فرم).",
+    "Negativ": "Ihr füllt nicht aus.",
+    "fragend": "Füllt ihr aus?",
+    "file": "151_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr fülltet aus." },
+      { "Perfekt": "Ihr habt ausgefüllt." },
+      { "Futur_I": "Ihr werdet ausfüllen." }
+    ]
+  },
+  {
+    "Filename": "152",
+    "Sound_de": "Sie füllen aus.",
+    "fa": "آنها / شما (رسمی) پر می‌کنند (فرم).",
+    "Negativ": "Sie füllen nicht aus.",
+    "fragend": "Füllen Sie aus?",
+    "file": "152_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie füllten aus." },
+      { "Perfekt": "Sie haben ausgefüllt." },
+      { "Futur_I": "Sie werden ausfüllen." }
+    ]
+  },
+  {
+    "Filename": "153",
+    "Sound_de": "Ich mache aus.",
+    "fa": "من خاموش می‌کنم.",
+    "Negativ": "Ich mache nicht aus.",
+    "fragend": "Mache ich aus?",
+    "file": "153_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich machte aus." },
+      { "Perfekt": "Ich habe ausgemacht." },
+      { "Futur_I": "Ich werde ausmachen." }
+    ]
+  },
+  {
+    "Filename": "154",
+    "Sound_de": "Du machst aus.",
+    "fa": "تو خاموش می‌کنی.",
+    "Negativ": "Du machst nicht aus.",
+    "fragend": "Machst du aus?",
+    "file": "154_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du machtest aus." },
+      { "Perfekt": "Du hast ausgemacht." },
+      { "Futur_I": "Du wirst ausmachen." }
+    ]
+  },
+  {
+    "Filename": "155",
+    "Sound_de": "Er macht aus.",
+    "fa": "او خاموش می‌کند.",
+    "Negativ": "Er macht nicht aus.",
+    "fragend": "Macht er aus?",
+    "file": "155_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er machte aus." },
+      { "Perfekt": "Er hat ausgemacht." },
+      { "Futur_I": "Er wird ausmachen." }
+    ]
+  },
+  {
+    "Filename": "156",
+    "Sound_de": "Sie macht aus.",
+    "fa": "او خاموش می‌کند.",
+    "Negativ": "Sie macht nicht aus.",
+    "fragend": "Macht sie aus?",
+    "file": "156_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie machte aus." },
+      { "Perfekt": "Sie hat ausgemacht." },
+      { "Futur_I": "Sie wird ausmachen." }
+    ]
+  },
+  {
+    "Filename": "157",
+    "Sound_de": "Es macht aus.",
+    "fa": "آن خاموش می‌کند.",
+    "Negativ": "Es macht nicht aus.",
+    "fragend": "Macht es aus?",
+    "file": "157_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es machte aus." },
+      { "Perfekt": "Es hat ausgemacht." },
+      { "Futur_I": "Es wird ausmachen." }
+    ]
+  },
+  {
+    "Filename": "158",
+    "Sound_de": "Wir machen aus.",
+    "fa": "ما خاموش می‌کنیم.",
+    "Negativ": "Wir machen nicht aus.",
+    "fragend": "Machen wir aus?",
+    "file": "158_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir machten aus." },
+      { "Perfekt": "Wir haben ausgemacht." },
+      { "Futur_I": "Wir werden ausmachen." }
+    ]
+  },
+  {
+    "Filename": "159",
+    "Sound_de": "Ihr macht aus.",
+    "fa": "شما خاموش می‌کنید.",
+    "Negativ": "Ihr macht nicht aus.",
+    "fragend": "Macht ihr aus?",
+    "file": "159_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr machtet aus." },
+      { "Perfekt": "Ihr habt ausgemacht." },
+      { "Futur_I": "Ihr werdet ausmachen." }
+    ]
+  },
+  {
+    "Filename": "160",
+    "Sound_de": "Sie machen aus.",
+    "fa": "آنها / شما (رسمی) خاموش می‌کنند.",
+    "Negativ": "Sie machen nicht aus.",
+    "fragend": "Machen Sie aus?",
+    "file": "160_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie machten aus." },
+      { "Perfekt": "Sie haben ausgemacht." },
+      { "Futur_I": "Sie werden ausmachen." }
+    ]
+  },
+  {
+    "Filename": "161",
+    "Sound_de": "Ich sehe aus.",
+    "fa": "من به نظر می‌رسم.",
+    "Negativ": "Ich sehe nicht aus.",
+    "fragend": "Sehe ich aus?",
+    "file": "161_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich sah aus." },
+      { "Perfekt": "Ich habe ausgesehen." },
+      { "Futur_I": "Ich werde aussehen." }
+    ]
+  },
+  {
+    "Filename": "162",
+    "Sound_de": "Du siehst aus.",
+    "fa": "تو به نظر می‌رسی.",
+    "Negativ": "Du siehst nicht aus.",
+    "fragend": "Siehst du aus?",
+    "file": "162_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du sahst aus." },
+      { "Perfekt": "Du hast ausgesehen." },
+      { "Futur_I": "Du wirst aussehen." }
+    ]
+  },
+  {
+    "Filename": "163",
+    "Sound_de": "Er sieht aus.",
+    "fa": "او به نظر می‌رسد.",
+    "Negativ": "Er sieht nicht aus.",
+    "fragend": "Sieht er aus?",
+    "file": "163_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er sah aus." },
+      { "Perfekt": "Er hat ausgesehen." },
+      { "Futur_I": "Er wird aussehen." }
+    ]
+  },
+  {
+    "Filename": "164",
+    "Sound_de": "Sie sieht aus.",
+    "fa": "او به نظر می‌رسد.",
+    "Negativ": "Sie sieht nicht aus.",
+    "fragend": "Sieht sie aus?",
+    "file": "164_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie sah aus." },
+      { "Perfekt": "Sie hat ausgesehen." },
+      { "Futur_I": "Sie wird aussehen." }
+    ]
+  },
+  {
+    "Filename": "165",
+    "Sound_de": "Es sieht aus.",
+    "fa": "آن به نظر می‌رسد.",
+    "Negativ": "Es sieht nicht aus.",
+    "fragend": "Sieht es aus?",
+    "file": "165_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es sah aus." },
+      { "Perfekt": "Es hat ausgesehen." },
+      { "Futur_I": "Es wird aussehen." }
+    ]
+  },
+  {
+    "Filename": "166",
+    "Sound_de": "Wir sehen aus.",
+    "fa": "ما به نظر می‌رسیم.",
+    "Negativ": "Wir sehen nicht aus.",
+    "fragend": "Sehen wir aus?",
+    "file": "166_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir sahen aus." },
+      { "Perfekt": "Wir haben ausgesehen." },
+      { "Futur_I": "Wir werden aussehen." }
+    ]
+  },
+  {
+    "Filename": "167",
+    "Sound_de": "Ihr seht aus.",
+    "fa": "شما به نظر می‌رسید.",
+    "Negativ": "Ihr seht nicht aus.",
+    "fragend": "Seht ihr aus?",
+    "file": "167_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr saht aus." },
+      { "Perfekt": "Ihr habt ausgesehen." },
+      { "Futur_I": "Ihr werdet aussehen." }
+    ]
+  },
+  {
+    "Filename": "168",
+    "Sound_de": "Sie sehen aus.",
+    "fa": "آنها / شما (رسمی) به نظر می‌رسند.",
+    "Negativ": "Sie sehen nicht aus.",
+    "fragend": "Sehen Sie aus?",
+    "file": "168_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie sahen aus." },
+      { "Perfekt": "Sie haben ausgesehen." },
+      { "Futur_I": "Sie werden aussehen." }
+    ]
+  },
+  {
+    "Filename": "169",
+    "Sound_de": "Ich steige aus.",
+    "fa": "من پیاده می‌شوم.",
+    "Negativ": "Ich steige nicht aus.",
+    "fragend": "Steige ich aus?",
+    "file": "169_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich stieg aus." },
+      { "Perfekt": "Ich bin ausgestiegen." },
+      { "Futur_I": "Ich werde aussteigen." }
+    ]
+  },
+  {
+    "Filename": "170",
+    "Sound_de": "Du steigst aus.",
+    "fa": "تو پیاده می‌شوی.",
+    "Negativ": "Du steigst nicht aus.",
+    "fragend": "Steigst du aus?",
+    "file": "170_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du stiegst aus." },
+      { "Perfekt": "Du bist ausgestiegen." },
+      { "Futur_I": "Du wirst aussteigen." }
+    ]
+  },
+  {
+    "Filename": "171",
+    "Sound_de": "Er steigt aus.",
+    "fa": "او پیاده می‌شود.",
+    "Negativ": "Er steigt nicht aus.",
+    "fragend": "Steigt er aus?",
+    "file": "171_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er stieg aus." },
+      { "Perfekt": "Er ist ausgestiegen." },
+      { "Futur_I": "Er wird aussteigen." }
+    ]
+  },
+  {
+    "Filename": "172",
+    "Sound_de": "Sie steigt aus.",
+    "fa": "او پیاده می‌شود.",
+    "Negativ": "Sie steigt nicht aus.",
+    "fragend": "Steigt sie aus?",
+    "file": "172_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie stieg aus." },
+      { "Perfekt": "Sie ist ausgestiegen." },
+      { "Futur_I": "Sie wird aussteigen." }
+    ]
+  },
+  {
+    "Filename": "173",
+    "Sound_de": "Es steigt aus.",
+    "fa": "آن پیاده می‌شود.",
+    "Negativ": "Es steigt nicht aus.",
+    "fragend": "Steigt es aus?",
+    "file": "173_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es stieg aus." },
+      { "Perfekt": "Es ist ausgestiegen." },
+      { "Futur_I": "Es wird aussteigen." }
+    ]
+  },
+  {
+    "Filename": "174",
+    "Sound_de": "Wir steigen aus.",
+    "fa": "ما پیاده می‌شویم.",
+    "Negativ": "Wir steigen nicht aus.",
+    "fragend": "Steigen wir aus?",
+    "file": "174_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir stiegen aus." },
+      { "Perfekt": "Wir sind ausgestiegen." },
+      { "Futur_I": "Wir werden aussteigen." }
+    ]
+  },
+  {
+    "Filename": "175",
+    "Sound_de": "Ihr steigt aus.",
+    "fa": "شما پیاده می‌شوید.",
+    "Negativ": "Ihr steigt nicht aus.",
+    "fragend": "Steigt ihr aus?",
+    "file": "175_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr stiegt aus." },
+      { "Perfekt": "Ihr seid ausgestiegen." },
+      { "Futur_I": "Ihr werdet aussteigen." }
+    ]
+  },
+  {
+    "Filename": "176",
+    "Sound_de": "Sie steigen aus.",
+    "fa": "آنها / شما (رسمی) پیاده می‌شوند.",
+    "Negativ": "Sie steigen nicht aus.",
+    "fragend": "Steigen Sie aus?",
+    "file": "176_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie stiegen aus." },
+      { "Perfekt": "Sie sind ausgestiegen." },
+      { "Futur_I": "Sie werden aussteigen." }
+    ]
+  },
+  {
+    "Filename": "177",
+    "Sound_de": "Ich ziehe aus.",
+    "fa": "من درمی‌آورم (لباس) / نقل مکان می‌کنم.",
+    "Negativ": "Ich ziehe nicht aus.",
+    "fragend": "Ziehe ich aus?",
+    "file": "177_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich zog aus." },
+      { "Perfekt": "Ich habe ausgezogen." },
+      { "Futur_I": "Ich werde ausziehen." }
+    ]
+  },
+  {
+    "Filename": "178",
+    "Sound_de": "Du ziehst aus.",
+    "fa": "تو درمی‌آوری (لباس) / نقل مکان می‌کنی.",
+    "Negativ": "Du ziehst nicht aus.",
+    "fragend": "Ziehst du aus?",
+    "file": "178_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du zogst aus." },
+      { "Perfekt": "Du hast ausgezogen." },
+      { "Futur_I": "Du wirst ausziehen." }
+    ]
+  },
+  {
+    "Filename": "179",
+    "Sound_de": "Er zieht aus.",
+    "fa": "او درمی‌آورد (لباس) / نقل مکان می‌کند.",
+    "Negativ": "Er zieht nicht aus.",
+    "fragend": "Zieht er aus?",
+    "file": "179_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er zog aus." },
+      { "Perfekt": "Er hat ausgezogen." },
+      { "Futur_I": "Er wird ausziehen." }
+    ]
+  },
+  {
+    "Filename": "180",
+    "Sound_de": "Sie zieht aus.",
+    "fa": "او درمی‌آورد (لباس) / نقل مکان می‌کند.",
+    "Negativ": "Sie zieht nicht aus.",
+    "fragend": "Zieht sie aus?",
+    "file": "180_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie zog aus." },
+      { "Perfekt": "Sie hat ausgezogen." },
+      { "Futur_I": "Sie wird ausziehen." }
+    ]
+  },
+  {
+    "Filename": "181",
+    "Sound_de": "Es zieht aus.",
+    "fa": "آن درمی‌آورد (لباس) / نقل مکان می‌کند.",
+    "Negativ": "Es zieht nicht aus.",
+    "fragend": "Zieht es aus?",
+    "file": "181_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es zog aus." },
+      { "Perfekt": "Es hat ausgezogen." },
+      { "Futur_I": "Es wird ausziehen." }
+    ]
+  },
+  {
+    "Filename": "182",
+    "Sound_de": "Wir ziehen aus.",
+    "fa": "ما درمی‌آوریم (لباس) / نقل مکان می‌کنیم.",
+    "Negativ": "Wir ziehen nicht aus.",
+    "fragend": "Ziehen wir aus?",
+    "file": "182_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir zogen aus." },
+      { "Perfekt": "Wir haben ausgezogen." },
+      { "Futur_I": "Wir werden ausziehen." }
+    ]
+  },
+  {
+    "Filename": "183",
+    "Sound_de": "Ihr zieht aus.",
+    "fa": "شما درمی‌آورید (لباس) / نقل مکان می‌کنید.",
+    "Negativ": "Ihr zieht nicht aus.",
+    "fragend": "Zieht ihr aus?",
+    "file": "183_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr zogt aus." },
+      { "Perfekt": "Ihr habt ausgezogen." },
+      { "Futur_I": "Ihr werdet ausziehen." }
+    ]
+  },
+  {
+    "Filename": "184",
+    "Sound_de": "Sie ziehen aus.",
+    "fa": "آنها / شما (رسمی) درمی‌آورند (لباس) / نقل مکان می‌کنند.",
+    "Negativ": "Sie ziehen nicht aus.",
+    "fragend": "Ziehen Sie aus?",
+    "file": "184_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie zogen aus." },
+      { "Perfekt": "Sie haben ausgezogen." },
+      { "Futur_I": "Sie werden ausziehen." }
+    ]
+  },
+  {
+    "Filename": "185",
+    "Sound_de": "Ich bade.",
+    "fa": "من حمام می‌کنم (وان).",
+    "Negativ": "Ich bade nicht.",
+    "fragend": "Bade ich?",
+    "file": "185_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich badete." },
+      { "Perfekt": "Ich habe gebadet." },
+      { "Futur_I": "Ich werde baden." }
+    ]
+  },
+  {
+    "Filename": "186",
+    "Sound_de": "Du badest.",
+    "fa": "تو حمام می‌کنی (وان).",
+    "Negativ": "Du badest nicht.",
+    "fragend": "Badest du?",
+    "file": "186_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du badetest." },
+      { "Perfekt": "Du hast gebadet." },
+      { "Futur_I": "Du wirst baden." }
+    ]
+  },
+  {
+    "Filename": "187",
+    "Sound_de": "Er badet.",
+    "fa": "او حمام می‌کند (وان).",
+    "Negativ": "Er badet nicht.",
+    "fragend": "Badet er?",
+    "file": "187_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er badete." },
+      { "Perfekt": "Er hat gebadet." },
+      { "Futur_I": "Er wird baden." }
+    ]
+  },
+  {
+    "Filename": "188",
+    "Sound_de": "Sie badet.",
+    "fa": "او حمام می‌کند (وان).",
+    "Negativ": "Sie badet nicht.",
+    "fragend": "Badet sie?",
+    "file": "188_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie badete." },
+      { "Perfekt": "Sie hat gebadet." },
+      { "Futur_I": "Sie wird baden." }
+    ]
+  },
+  {
+    "Filename": "189",
+    "Sound_de": "Es badet.",
+    "fa": "آن حمام می‌کند (وان).",
+    "Negativ": "Es badet nicht.",
+    "fragend": "Badet es?",
+    "file": "189_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es badete." },
+      { "Perfekt": "Es hat gebadet." },
+      { "Futur_I": "Es wird baden." }
+    ]
+  },
+  {
+    "Filename": "190",
+    "Sound_de": "Wir baden.",
+    "fa": "ما حمام می‌کنیم (وان).",
+    "Negativ": "Wir baden nicht.",
+    "fragend": "Baden wir?",
+    "file": "190_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir badeten." },
+      { "Perfekt": "Wir haben gebadet." },
+      { "Futur_I": "Wir werden baden." }
+    ]
+  },
+  {
+    "Filename": "191",
+    "Sound_de": "Ihr badet.",
+    "fa": "شما حمام می‌کنید (وان).",
+    "Negativ": "Ihr badet nicht.",
+    "fragend": "Badet ihr?",
+    "file": "191_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr badetet." },
+      { "Perfekt": "Ihr habt gebadet." },
+      { "Futur_I": "Ihr werdet baden." }
+    ]
+  },
+  {
+    "Filename": "192",
+    "Sound_de": "Sie baden.",
+    "fa": "آنها / شما (رسمی) حمام می‌کنند (وان).",
+    "Negativ": "Sie baden nicht.",
+    "fragend": "Baden Sie?",
+    "file": "192_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie badeten." },
+      { "Perfekt": "Sie haben gebadet." },
+      { "Futur_I": "Sie werden baden." }
+    ]
+  },
+  {
+    "Filename": "193",
+    "Sound_de": "Ich bedeute.",
+    "fa": "من معنی می‌دهم.",
+    "Negativ": "Ich bedeute nicht.",
+    "fragend": "Bedeute ich?",
+    "file": "193_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich bedeutete." },
+      { "Perfekt": "Ich habe bedeutet." },
+      { "Futur_I": "Ich werde bedeuten." }
+    ]
+  },
+  {
+    "Filename": "194",
+    "Sound_de": "Du bedeutest.",
+    "fa": "تو معنی می‌دهی.",
+    "Negativ": "Du bedeutest nicht.",
+    "fragend": "Bedeutest du?",
+    "file": "194_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du bedeutetest." },
+      { "Perfekt": "Du hast bedeutet." },
+      { "Futur_I": "Du wirst bedeuten." }
+    ]
+  },
+  {
+    "Filename": "195",
+    "Sound_de": "Er bedeutet.",
+    "fa": "او معنی می‌دهد.",
+    "Negativ": "Er bedeutet nicht.",
+    "fragend": "Bedeutet er?",
+    "file": "195_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er bedeutete." },
+      { "Perfekt": "Er hat bedeutet." },
+      { "Futur_I": "Er wird bedeuten." }
+    ]
+  },
+  {
+    "Filename": "196",
+    "Sound_de": "Sie bedeutet.",
+    "fa": "او معنی می‌دهد.",
+    "Negativ": "Sie bedeutet nicht.",
+    "fragend": "Bedeutet sie?",
+    "file": "196_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie bedeutete." },
+      { "Perfekt": "Sie hat bedeutet." },
+      { "Futur_I": "Sie wird bedeuten." }
+    ]
+  },
+  {
+    "Filename": "197",
+    "Sound_de": "Es bedeutet.",
+    "fa": "آن معنی می‌دهد.",
+    "Negativ": "Es bedeutet nicht.",
+    "fragend": "Bedeutet es?",
+    "file": "197_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es bedeutete." },
+      { "Perfekt": "Es hat bedeutet." },
+      { "Futur_I": "Es wird bedeuten." }
+    ]
+  },
+  {
+    "Filename": "198",
+    "Sound_de": "Wir bedeuten.",
+    "fa": "ما معنی می‌دهیم.",
+    "Negativ": "Wir bedeuten nicht.",
+    "fragend": "Bedeuten wir?",
+    "file": "198_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir bedeuteten." },
+      { "Perfekt": "Wir haben bedeutet." },
+      { "Futur_I": "Wir werden bedeuten." }
+    ]
+  },
+  {
+    "Filename": "199",
+    "Sound_de": "Ihr bedeutet.",
+    "fa": "شما معنی می‌دهید.",
+    "Negativ": "Ihr bedeutet nicht.",
+    "fragend": "Bedeutet ihr?",
+    "file": "199_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr bedeutetet." },
+      { "Perfekt": "Ihr habt bedeutet." },
+      { "Futur_I": "Ihr werdet bedeuten." }
+    ]
+  },
+  {
+    "Filename": "200",
+    "Sound_de": "Sie bedeuten.",
+    "fa": "آنها / شما (رسمی) معنی می‌دهند.",
+    "Negativ": "Sie bedeuten nicht.",
+    "fragend": "Bedeuten Sie?",
+    "file": "200_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie bedeuteten." },
+      { "Perfekt": "Sie haben bedeutet." },
+      { "Futur_I": "Sie werden bedeuten." }
+    ]
+  },
+  {
+    "Filename": "201",
+    "Sound_de": "Ich beginne.",
+    "fa": "من شروع می‌کنم.",
+    "Negativ": "Ich beginne nicht.",
+    "fragend": "Beginne ich?",
+    "file": "201_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ich begann." },
+      { "Perfekt": "Ich habe begonnen." },
+      { "Futur_I": "Ich werde beginnen." }
+    ]
+  },
+  {
+    "Filename": "202",
+    "Sound_de": "Du beginnst.",
+    "fa": "تو شروع می‌کنی.",
+    "Negativ": "Du beginnst nicht.",
+    "fragend": "Beginnst du?",
+    "file": "202_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Du begannst." },
+      { "Perfekt": "Du hast begonnen." },
+      { "Futur_I": "Du wirst beginnen." }
+    ]
+  },
+  {
+    "Filename": "203",
+    "Sound_de": "Er beginnt.",
+    "fa": "او شروع می‌کند.",
+    "Negativ": "Er beginnt nicht.",
+    "fragend": "Beginnt er?",
+    "file": "203_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Er begann." },
+      { "Perfekt": "Er hat begonnen." },
+      { "Futur_I": "Er wird beginnen." }
+    ]
+  },
+  {
+    "Filename": "204",
+    "Sound_de": "Sie beginnt.",
+    "fa": "او شروع می‌کند.",
+    "Negativ": "Sie beginnt nicht.",
+    "fragend": "Beginnt sie?",
+    "file": "204_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie begann." },
+      { "Perfekt": "Sie hat begonnen." },
+      { "Futur_I": "Sie wird beginnen." }
+    ]
+  },
+  {
+    "Filename": "205",
+    "Sound_de": "Es beginnt.",
+    "fa": "آن شروع می‌کند.",
+    "Negativ": "Es beginnt nicht.",
+    "fragend": "Beginnt es?",
+    "file": "205_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Es begann." },
+      { "Perfekt": "Es hat begonnen." },
+      { "Futur_I": "Es wird beginnen." }
+    ]
+  },
+  {
+    "Filename": "206",
+    "Sound_de": "Wir beginnen.",
+    "fa": "ما شروع می‌کنیم.",
+    "Negativ": "Wir beginnen nicht.",
+    "fragend": "Beginnen wir?",
+    "file": "206_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Wir begannen." },
+      { "Perfekt": "Wir haben begonnen." },
+      { "Futur_I": "Wir werden beginnen." }
+    ]
+  },
+  {
+    "Filename": "207",
+    "Sound_de": "Ihr beginnt.",
+    "fa": "شما شروع می‌کنید.",
+    "Negativ": "Ihr beginnt nicht.",
+    "fragend": "Beginnt ihr?",
+    "file": "207_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Ihr begannet." },
+      { "Perfekt": "Ihr habt begonnen." },
+      { "Futur_I": "Ihr werdet beginnen." }
+    ]
+  },
+  {
+    "Filename": "208",
+    "Sound_de": "Sie beginnen.",
+    "fa": "آنها / شما (رسمی) شروع می‌کنند.",
+    "Negativ": "Sie beginnen nicht.",
+    "fragend": "Beginnen Sie?",
+    "file": "208_de.mp3",
+    "Zeitmodi": [
+      { "Präteritum": "Sie begannen." },
+      { "Perfekt": "Sie haben begonnen." },
+      { "Futur_I": "Sie werden beginnen." }
+    ]
+  }
+]

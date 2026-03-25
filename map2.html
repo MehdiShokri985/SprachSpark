@@ -21,7 +21,7 @@
       :root {
         --primary: #1e40af;
         --primary-dark: #1e3a8a;
-        --success: #15803d;
+        --success: #524a81;
         --gray-100: #f8fafc;
         --gray-200: #e2e8f0;
         --gray-600: #475569;
@@ -219,7 +219,7 @@
         align-items: flex-start;
         gap: 10px;
         /* margin-bottom: 3px; */
-        font-size: 0.75rem;
+        font-size: 0.77rem;
       }
       .grammar-label {
         /* font-weight: 600; */
@@ -516,9 +516,9 @@
             const negLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.Negativ)}&op=translate`;
             grammarHTML += `
               <div class="grammar-item">
-                <span class="grammar-label">Negativ</span>
+              
                 <span class="grammar-text">
-                  <a href="${negLink}" target="_blank" style="color:#1e53ff; text-decoration:none;">${item.Negativ}</a>
+                  <a href="${negLink}" target="_blank" style="color:#ff5f65; text-decoration:none;">${item.Negativ}</a>
                 </span>
               </div>`;
           }
@@ -527,9 +527,9 @@
             const fragLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.fragend)}&op=translate`;
             grammarHTML += `
               <div class="grammar-item">
-                <span class="grammar-label">Fragend</span>
+               
                 <span class="grammar-text">
-                  <a href="${fragLink}" target="_blank" style="color:#1e53ff; text-decoration:none;">${item.fragend}</a>
+                  <a href="${fragLink}" target="_blank" style="color:##58a1ff; text-decoration:none;">${item.fragend}</a>
                 </span>
               </div>`;
           }
@@ -552,7 +552,7 @@
                 <div class="zeit-item">
                   <span class="zeit-label">${key} :</span>
                   <span class="grammar-text">
-                    <a href="${zeitLink}" target="_blank" style="color:#1e53ff; text-decoration:none;">${value}</a>
+                    <a href="${zeitLink}" target="_blank" style="color:#3d5ab7; text-decoration:none;">${value}</a>
                   </span>
                 </div>`;
             }

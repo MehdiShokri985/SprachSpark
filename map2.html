@@ -232,6 +232,7 @@
         direction: ltr;
         text-align: left;
         flex: 1;
+        font-weight: 600;
       }
       .zeitmodi-grid {
         display: grid;
@@ -251,8 +252,8 @@
       .zeit-label {
         font-size: 0.65rem;
         color: var(--success);
-        /* font-weight: 600; */
-        /* display: block; */
+        font-weight: 600;
+        display: block;
         margin-bottom: 2px;
         text-align: left;
       }
@@ -493,9 +494,9 @@
         const pos = precomputedPositions[globalIdx];
         if (!pos) return;
 
-        const audioSrc = item.file
-          ? `audio-verb-A1-New/${item.file}`
-          : `audio-verb-A1-New/${item.Filename}.mp3`;
+        // const audioSrc = item.file
+        //   ? `audio-verb-A1-New/${item.file}`
+        //   : `audio-verb-A1-New/${item.Filename}.mp3`;
 
         let dictLink = "#";
         if (item.Sound_de?.trim()) {
@@ -507,41 +508,52 @@
         // ساخت HTML جدید برای popup با توجه به ساختار JSON جدید
         let grammarHTML = "";
 
-        // بخش منفی و سؤالی (fragend)
+  // بخش منفی و سؤالی
         if (item.Negativ || item.fragend) {
           grammarHTML += `<div class="grammar-section">`;
+
           if (item.Negativ) {
+            const negLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.Negativ)}&op=translate`;
             grammarHTML += `
               <div class="grammar-item">
                 <span class="grammar-label">Negativ</span>
-                <span class="grammar-text">${item.Negativ}</span>
+                <span class="grammar-text">
+                  <a href="${negLink}" target="_blank" style="color:#1e53ff; text-decoration:none;">${item.Negativ}</a>
+                </span>
               </div>`;
           }
+
           if (item.fragend) {
+            const fragLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.fragend)}&op=translate`;
             grammarHTML += `
               <div class="grammar-item">
                 <span class="grammar-label">Fragend</span>
-                <span class="grammar-text">${item.fragend}</span>
+                <span class="grammar-text">
+                  <a href="${fragLink}" target="_blank" style="color:#1e53ff; text-decoration:none;">${item.fragend}</a>
+                </span>
               </div>`;
           }
+
           grammarHTML += `</div>`;
         }
 
-        // بخش Zeitmodi (Präteritum, Perfekt, Futur I)
-        if (
-          item.Zeitmodi &&
-          Array.isArray(item.Zeitmodi) &&
-          item.Zeitmodi.length > 0
-        ) {
+ // بخش Zeitmodi (Präteritum, Perfekt, Futur_I)
+        if (item.Zeitmodi && Array.isArray(item.Zeitmodi) && item.Zeitmodi.length > 0) {
           let zeitItems = "";
+
           item.Zeitmodi.forEach((z) => {
-            const key = Object.keys(z)[0];
+            const key = Object.keys(z)[0];   // مثلاً "Präteritum"
             const value = z[key];
+
             if (key && value) {
+              const zeitLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(value)}&op=translate`;
+
               zeitItems += `
                 <div class="zeit-item">
-                  <span class="zeit-label">${key} : </span>
-                  <span class="grammar-text">${value}</span>
+                  <span class="zeit-label">${key} :</span>
+                  <span class="grammar-text">
+                    <a href="${zeitLink}" target="_blank" style="color:#1e53ff; text-decoration:none;">${value}</a>
+                  </span>
                 </div>`;
             }
           });
@@ -549,7 +561,6 @@
           if (zeitItems) {
             grammarHTML += `
               <div class="grammar-section">
-                <div class="grammar-title"></div>
                 <div class="zeitmodi-grid">
                   ${zeitItems}
                 </div>
@@ -557,9 +568,19 @@
           }
         }
 
-        const cityName =
-          allCities[Math.floor(globalIdx / SENTENCES_PER_CITY)]?.name ||
-          "نامشخص";
+        // لینک گوگل ترنسلیت برای متن اصلی (class="de")
+        let deText = item.Sound_de || "—";
+        let deLink = "#";
+        if (deText && deText.trim() !== "—") {
+          // اگر با der/die/das شروع شود، برای ترجمه بهتر آن را حذف می‌کنیم
+          let translateTerm = deText.trim();
+          if (/^(der|die|das)\s/i.test(translateTerm)) {
+            translateTerm = translateTerm.substring(4).trim();
+          }
+          deLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(translateTerm)}&op=translate`;
+        }
+
+        const cityName = allCities[Math.floor(globalIdx / SENTENCES_PER_CITY)]?.name || "نامشخص";
 
         let popupHTML = `
     <div class="popup">
@@ -569,18 +590,20 @@
       </div>
       <img class="vocab-img" src="https://picsum.photos/seed/${item.Filename}/600/450" loading="lazy" alt="Bild zum Satz">
       
-      <div class="de" style="color:${getTextColor(item.Sound_de)};">${item.Sound_de || "—"}</div>
+      <!-- متن اصلی حالا لینک گوگل ترنسلیت است -->
+      <div class="de" style="color:${getTextColor(item.Sound_de)};">
+        <a href="${deLink}" target="_blank" style="color:#110c82; text-decoration:none; font-weight:inherit;">
+          ${deText}
+        </a>
+      </div>
+      
       <div class="fa">${item.fa || "—"}</div>
 
       ${grammarHTML}
 
-      <div class="example-sentence">
-        <a href="${dictLink}" target="_blank">Google Translate</a>
-      </div>
+    
       
-      <audio controls>
-        <source src="${audioSrc}" type="audio/mpeg">
-      </audio>
+    
     </div>`;
 
         const icon = getCustomIcon(item.Filename);

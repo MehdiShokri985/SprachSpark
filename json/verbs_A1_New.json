@@ -42,7 +42,7 @@
     "Sound_de": "Er/Sie/Es wohnt.",
     "fa": "او زندگی می‌کند.",
     "Negativ": "Er/Sie/Es wohnt nicht.",
-    "fragend": "Wohnt er?",
+    "fragend": "Wohnt er/sie/es?",
     "file": "3_de.mp3",
     "Zeitmodi": [
       {
@@ -152,7 +152,7 @@
     "Sound_de": "Er/Sie/Es bezahlt.",
     "fa": "او پرداخت می‌کند.",
     "Negativ": "Er/Sie/Es bezahlt nicht.",
-    "fragend": "Bezahlt er?",
+    "fragend": "Bezahlt er/sie/es?",
     "Zeitmodi": [
       {
         "Präteritum": "Er/Sie/Es bezahlte."
@@ -263,7 +263,7 @@
     "Sound_de": "Er/Sie/Es zahlt.",
     "fa": "او پرداخت می‌کند.",
     "Negativ": "Er/Sie/Es zahlt nicht.",
-    "fragend": "Zahlt er?",
+    "fragend": "Zahlt er/sie/es?",
     "file": "19_de.mp3",
     "Zeitmodi": [
       {
@@ -1517,7 +1517,7 @@
     "Sound_de": "Er/Sie/Es antwortet.",
     "fa": "او جواب می‌دهد.",
     "Negativ": "Er/Sie/Es antwortet nicht.",
-    "fragend": "Antwortet er?",
+    "fragend": "Antwortet er/sie/es?",
     "file": "107_de.mp3",
     "Zeitmodi": [
       {
@@ -1745,7 +1745,7 @@
     "Sound_de": "Er/Sie/Es arbeitet.",
     "fa": "او کار می‌کند.",
     "Negativ": "Er/Sie/Es arbeitet nicht.",
-    "fragend": "Arbeitet er?",
+    "fragend": "Arbeitet er/sie/es?",
     "file": "123_de.mp3",
     "Zeitmodi": [
       {
@@ -2657,7 +2657,7 @@
     "Sound_de": "Er/Sie/Es badet.",
     "fa": "او حمام می‌کند (وان).",
     "Negativ": "Er/Sie/Es badet nicht.",
-    "fragend": "Badet er?",
+    "fragend": "Badet er/sie/es?",
     "file": "187_de.mp3",
     "Zeitmodi": [
       {
@@ -2771,7 +2771,7 @@
     "Sound_de": "Er/Sie/Es bedeutet.",
     "fa": "او معنی می‌دهد.",
     "Negativ": "Er/Sie/Es bedeutet nicht.",
-    "fragend": "Bedeutet er?",
+    "fragend": "Bedeutet er/sie/es?",
     "file": "195_de.mp3",
     "Zeitmodi": [
       {
@@ -2885,7 +2885,7 @@
     "Sound_de": "Er/Sie/Es beginnt.",
     "fa": "او شروع می‌کند.",
     "Negativ": "Er/Sie/Es beginnt nicht.",
-    "fragend": "Beginnt er?",
+    "fragend": "Beginnt er/sie/es?",
     "file": "203_de.mp3",
     "Zeitmodi": [
       {

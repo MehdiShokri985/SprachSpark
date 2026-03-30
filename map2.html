@@ -47,8 +47,6 @@
       /* بهبود ظاهر پاپ‌آپ */
       .leaflet-popup-content-wrapper,
       .leaflet-popup-tip {
-        /* border-radius: var(--radius-lg) !important; */
-        /* box-shadow: var(--shadow-md) !important; */
         background: white;
         border: none !important;
       }
@@ -119,16 +117,14 @@
         left: 0;
         width: 100%;
         background: linear-gradient(to top, #2fee22, #67f984, #0ee919);
-        /* border-radius: 999px; */
         transition: height 0.6s ease-in-out;
         box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.6);
       }
       #progress-counter {
         font-size: 1rem;
-        /* font-weight: 700; */
         color: var(--primary);
         background: white;
-        padding:4px 5px 0px 5px;
+        padding: 4px 5px 0px 5px;
         border-radius: 999px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         min-width: 27px;
@@ -210,7 +206,6 @@
         font-size: 0.82rem;
         font-weight: 600;
         color: #64748b;
-        /* margin-bottom: 0.4rem; */
         text-transform: uppercase;
         letter-spacing: 0.5px;
       }
@@ -218,11 +213,9 @@
         display: flex;
         align-items: flex-start;
         gap: 10px;
-        /* margin-bottom: 3px; */
         font-size: 0.77rem;
       }
       .grammar-label {
-        /* font-weight: 600; */
         color: var(--primary);
         min-width: 78px;
         flex-shrink: 0;
@@ -238,7 +231,6 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
         gap: 0.2rem;
-        /* margin-top: 0.4rem; */
         direction: ltr;
       }
       .zeit-item {
@@ -275,7 +267,6 @@
       audio {
         width: 100%;
         height: 44px;
-        /* margin-top: 0.8rem; */
         border-radius: var(--radius-md);
       }
       /* مودال شروع */
@@ -304,13 +295,11 @@
         font-weight: 700;
       }
       .modal-content input {
-        /* padding: 0.8rem; */
         font-size: 1.3rem;
         border: 2px solid var(--primary);
         border-radius: var(--radius-md);
         text-align: center;
         font-family: "Vazirmatn", sans-serif;
-        /* width: 100%; */
       }
       .modal-content button {
         margin-top: 1.5rem;
@@ -350,16 +339,16 @@
         transition: all 0.2s;
       }
       #prev-btn {
-        background: var(--gray-600);
+        background: #9c4343;
       }
       #prev-btn:hover {
-        background: #334155;
+        background: #672222;
       }
       #next-btn {
-        background: var(--success);
+        background: #439c4b;
       }
       #next-btn:hover {
-        background: #166534;
+        background: #1e5013;
       }
       @media (max-width: 480px) {
         .leaflet-popup {
@@ -371,7 +360,7 @@
           font-size: 0.94rem !important;
         }
         #prev-next {
-          bottom: 60px;
+          bottom: 70px;
           gap: 0.9rem;
         }
         #prev-next button {
@@ -423,6 +412,10 @@
       let pathPolyline = null;
       let fullPathPoints = [];
 
+      // ←←← اضافه شده برای کنترل نمایش فعل‌ها
+      let verbMarkers = [];
+      const VERB_SHOW_ZOOM = 7.5; // از زوم ۹ به بالا فعل‌ها ظاهر شوند (می‌توانید تغییر دهید)
+
       // نقشه
       var map = L.map("map", {
         zoomControl: true,
@@ -453,7 +446,7 @@
           html: `<div style="background:white;color:#1e40af;font-size:14px;font-weight:700;width:32px;height:32px;border:3px solid #1e40af;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,0.2);">${num}</div>`,
           iconSize: [34, 34],
           iconAnchor: [17, 17],
-          popupAnchor: [0, -15]
+          popupAnchor: [0, -15],
         });
       }
 
@@ -463,11 +456,9 @@
         const total = sortedItems.length;
         const percent = (current / total) * 100;
         document.getElementById("progress-fill").style.height = percent + "%";
-        document.getElementById("progress-counter").textContent =
-          String(current).padStart(2, "0") 
-        //   +
-        //   " / " +
-        //   String(total).padStart(2, "0");
+        document.getElementById("progress-counter").textContent = String(
+          current,
+        ).padStart(2, "0");
       }
 
       function showSentence(globalIdx, smooth = true) {
@@ -494,10 +485,6 @@
         const pos = precomputedPositions[globalIdx];
         if (!pos) return;
 
-        // const audioSrc = item.file
-        //   ? `audio-verb-A1-New/${item.file}`
-        //   : `audio-verb-A1-New/${item.Filename}.mp3`;
-
         let dictLink = "#";
         if (item.Sound_de?.trim()) {
           let term = item.Sound_de.trim();
@@ -508,7 +495,7 @@
         // ساخت HTML جدید برای popup با توجه به ساختار JSON جدید
         let grammarHTML = "";
 
-  // بخش منفی و سؤالی
+        // بخش منفی و سؤالی
         if (item.Negativ || item.fragend) {
           grammarHTML += `<div class="grammar-section">`;
 
@@ -516,7 +503,6 @@
             const negLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.Negativ)}&op=translate`;
             grammarHTML += `
               <div class="grammar-item">
-              
                 <span class="grammar-text">
                   <a href="${negLink}" target="_blank" style="color:#ff5f65; text-decoration:none;">${item.Negativ}</a>
                 </span>
@@ -527,9 +513,8 @@
             const fragLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.fragend)}&op=translate`;
             grammarHTML += `
               <div class="grammar-item">
-               
                 <span class="grammar-text">
-                  <a href="${fragLink}" target="_blank" style="color:##58a1ff; text-decoration:none;">${item.fragend}</a>
+                  <a href="${fragLink}" target="_blank" style="color:#58a1ff; text-decoration:none;">${item.fragend}</a>
                 </span>
               </div>`;
           }
@@ -537,12 +522,16 @@
           grammarHTML += `</div>`;
         }
 
- // بخش Zeitmodi (Präteritum, Perfekt, Futur_I)
-        if (item.Zeitmodi && Array.isArray(item.Zeitmodi) && item.Zeitmodi.length > 0) {
+        // بخش Zeitmodi (Präteritum, Perfekt, Futur_I)
+        if (
+          item.Zeitmodi &&
+          Array.isArray(item.Zeitmodi) &&
+          item.Zeitmodi.length > 0
+        ) {
           let zeitItems = "";
 
           item.Zeitmodi.forEach((z) => {
-            const key = Object.keys(z)[0];   // مثلاً "Präteritum"
+            const key = Object.keys(z)[0];
             const value = z[key];
 
             if (key && value) {
@@ -572,7 +561,6 @@
         let deText = item.Sound_de || "—";
         let deLink = "#";
         if (deText && deText.trim() !== "—") {
-          // اگر با der/die/das شروع شود، برای ترجمه بهتر آن را حذف می‌کنیم
           let translateTerm = deText.trim();
           if (/^(der|die|das)\s/i.test(translateTerm)) {
             translateTerm = translateTerm.substring(4).trim();
@@ -580,7 +568,9 @@
           deLink = `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(translateTerm)}&op=translate`;
         }
 
-        const cityName = allCities[Math.floor(globalIdx / SENTENCES_PER_CITY)]?.name || "نامشخص";
+        const cityName =
+          allCities[Math.floor(globalIdx / SENTENCES_PER_CITY)]?.name ||
+          "نامشخص";
 
         let popupHTML = `
     <div class="popup">
@@ -600,24 +590,20 @@
       <div class="fa">${item.fa || "—"}</div>
 
       ${grammarHTML}
-
-    
-      
     
     </div>`;
 
         const icon = getCustomIcon(item.Filename);
         const marker = L.marker(pos, { icon }).addTo(map);
         marker.globalIndex = globalIdx;
-        // marker.bindPopup(popupHTML, { maxWidth: 460, minWidth: 280 });
-marker.bindPopup(popupHTML, {
-            maxWidth: 460,
-            minWidth: 280,
-            autoPan: true,
-            autoPanPadding: [20, 60],           // فاصله از لبه‌ها
-            autoPanPaddingTopLeft: [20, 200],   // فاصله بیشتر از بالای صفحه (مهم‌ترین قسمت)
-            keepInView: false,
-            offset: [0, -1]
+        marker.bindPopup(popupHTML, {
+          maxWidth: 460,
+          minWidth: 280,
+          autoPan: true,
+          autoPanPadding: [20, 60],
+          autoPanPaddingTopLeft: [20, 200],
+          keepInView: false,
+          offset: [0, -1],
         });
         currentMarkers.set(globalIdx, marker);
 
@@ -697,11 +683,13 @@ marker.bindPopup(popupHTML, {
         .then((res) => res.json())
         .then((cities) => {
           allCities = cities;
-          return fetch("json/verbs_A1_New.json");
+          return Promise.all([
+            fetch("json/verbs_A1_New.json").then((r) => r.json()),
+            fetch("json/verbs.json").then((r) => r.json()),
+          ]);
         })
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
+        .then(([data, verbs]) => {
+          // console.log(data);
           // دیگر نیازی به فیلتر type نیست (type حذف شده)
           sortedItems = data.sort(
             (a, b) => parseInt(a.Filename) - parseInt(b.Filename),
@@ -722,6 +710,75 @@ marker.bindPopup(popupHTML, {
             precomputedPositions.push([lat, lng]);
           });
 
+          // فعل‌ها را دقیقاً در موقعیت هر شهر (از ابتدا و بدون تغییر در بقیه کد) به صورت بزرگ نمایش می‌دهیم
+          verbs.forEach((verb, cityIdx) => {
+            if (cityIdx >= allCities.length) return;
+            const city = allCities[cityIdx];
+            const cityPos = [city.lat, city.lng];
+
+            const verbIcon = L.divIcon({
+              className: "large-verb-marker",
+              html: `
+                <div style="
+                  background: rgb(199 187 255 / 96%);
+                  color: #5200c6;
+                  font-size: 22px;
+                  padding: 5px 0px;
+                  border-radius: 50px;
+                  box-shadow: 0 6px 20px rgba(30,64,175,0.3);
+                  white-space: nowrap;
+                  direction: ltr;
+                  text-align: center;
+                  letter-spacing: 1px;
+                  min-width: 130px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: solid 1px #9f8cf;
+                ">
+                  ${verb}
+                </div>
+              `,
+              iconSize: [null, null],
+              iconAnchor: [75, 35],
+              popupAnchor: [0, -55],
+            });
+
+            const verbMarker = L.marker(cityPos, {
+              icon: verbIcon,
+              zIndexOffset: 1000,
+            }).addTo(map);
+
+            verbMarkers.push(verbMarker); // ذخیره می‌کنیم، فعلاً اضافه نمی‌کنیم
+            //   verbMarker.bindPopup(
+            //     `
+            //     <div style="text-align:center; padding:12px; font-size:1.5rem; font-weight:700; direction:ltr; color:#1e40af;">
+            //       ${verb}
+            //     </div>
+            //   `,
+            //     {
+            //       maxWidth: 320,
+            //       className: "verb-popup",
+            //     },
+            //   );
+          });
+          // تابع نمایش/مخفی کردن فعل‌ها بر اساس زوم
+          function updateVerbMarkersVisibility() {
+            const currentZoom = map.getZoom();
+            verbMarkers.forEach((marker) => {
+              if (currentZoom >= VERB_SHOW_ZOOM) {
+                if (!map.hasLayer(marker)) marker.addTo(map);
+              } else {
+                if (map.hasLayer(marker)) map.removeLayer(marker);
+              }
+            });
+          }
+
+          // فراخوانی اولیه + گوش دادن به تغییر زوم
+          updateVerbMarkersVisibility();
+          map.on("zoomend", updateVerbMarkersVisibility);
+
+          // نمایش مودال شروع
           document.getElementById("start-modal").style.display = "flex";
         })
         .catch((err) => {
@@ -731,3 +788,5 @@ marker.bindPopup(popupHTML, {
     </script>
   </body>
 </html>
+
+

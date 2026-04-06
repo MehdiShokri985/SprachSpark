@@ -20,7 +20,7 @@
     "id": "2",
     "title-id": "ساختار جملات خبری",
     "title": "ساختار کلی جملات خبری (Hauptsatz)",
-    "description": "در جملات خبری ساده آلمانی، ترتیب کلمات معمولاً به این شکل است:\n\n1. فاعل (Subjekt)\n2. فعل صرف‌شده (konjugiertes Verb)\n3. بقیه جمله (متمم، قیدها و ...)",
+    "description": "در جملات خبری ساده آلمانی، ترتیب کلمات معمولاً به این شکل است:\n1. فاعل (Subjekt)\n2. فعل صرف‌شده (konjugiertes Verb)\n3. بقیه جمله (متمم، قیدها و ...)",
     "examples": [
       {
         "de": "Ich lese ein Buch.",
@@ -37,7 +37,7 @@
     "id": "3",
     "title-id": "ساختار جملات خبری",
     "title": "جملات خبری منفی",
-    "description": "برای منفی کردن جمله خبری از «nicht» یا «kein/keine/keinen» استفاده می‌شود.\n\n• nicht: برای نفی فعل یا کل جمله\n• kein: برای نفی اسم (به جای ein/eine/einen)",
+    "description": "برای منفی کردن جمله خبری از «nicht» یا «kein/keine/keinen» استفاده می‌شود.\n• nicht: برای نفی فعل یا کل جمله\n• kein: برای نفی اسم (به جای ein/eine/einen)",
     "examples": [
       {
         "de": "Ich lese nicht ein Buch.",
@@ -92,7 +92,7 @@
     "id": "6",
     "title-id": "ساختار جملات پرسشی",
     "title": "تعریف جملات پرسشی (Fragesätze)",
-    "description": "جملات پرسشی (Fragesätze) در زبان آلمانی برای پرسیدن سؤال استفاده می‌شوند. این جملات به دو دسته اصلی تقسیم می‌شوند:\n\n1. جملات پرسشی بله/خیر (Ja/Nein-Fragen)\n2. جملات پرسشی با کلمات پرسشی (W-Fragen)",
+    "description": "جملات پرسشی (Fragesätze) در زبان آلمانی برای پرسیدن سؤال استفاده می‌شوند. این جملات به دو دسته اصلی تقسیم می‌شوند:\n1. جملات پرسشی بله/خیر (Ja/Nein-Fragen)\n2. جملات پرسشی با کلمات پرسشی (W-Fragen)",
     "examples": [],
     "note": "همه جملات پرسشی در آلمانی با علامت سؤال (?) تمام می‌شوند."
   },
@@ -158,7 +158,7 @@
     "id": "9",
     "title-id": "ساختار جملات پرسشی",
     "title": "کلمات پرسشی مهم در آلمانی (W-Wörter)",
-    "description": "مهم‌ترین کلمات پرسشی در سطح A1:\n\n• wer → کی؟ (برای افراد)\n• was → چه؟ / چه چیزی؟\n• wann → کی؟ / چه زمانی؟\n• wo → کجا؟\n• warum → چرا؟\n• wie → چطور؟ / چگونه؟\n• welcher/welche/welches → کدام؟\n• wie viel / wie viele → چقدر؟ / چند تا؟",
+    "description": "مهم‌ترین کلمات پرسشی  :\n• wer → کی؟ (برای افراد)\n• was → چه؟ / چه چیزی؟\n• wann → کی؟ / چه زمانی؟\n• wo → کجا؟\n• warum → چرا؟\n• wie → چطور؟ / چگونه؟\n• welcher/welche/welches → کدام؟\n• wie viel / wie viele → چقدر؟ / چند تا؟",
     "examples": [
       {
         "de": "Welche Bücher liest du gern?",
@@ -402,6 +402,10 @@
     "description": "جدول کامل ضمایر شخصی در سه حالت اصلی برای سطح A1:",
     "examples": [
       {
+        "de": "Nominativ - Akkusativ - Dativ",
+        "fa": ""
+      },
+      {
         "de": "ich – mich – mir",
         "fa": "من – مرا – به من"
       },
@@ -493,7 +497,7 @@
   {
     "id": "26",
     "title-id": " Personalpronomen",
-    "description": "ضمایر Dativ به عنوان مفعول غیرمستقیم استفاده می‌شوند (معمولاً به معنای «به ...» یا «برای ...»). افعالی مثل geben, helfen, schenken, sagen و ... Dativ می‌گیرند.",
+    "description": "ضمایر Dativ به عنوان مفعول غیرمستقیم استفاده می‌شوند (معمولاً به معنای «به ...» یا «برای ...»). \nافعالی مثل geben, helfen, schenken, sagen و ... Dativ می‌گیرند.",
     "examples": [
       {
         "de": "Ich gebe dir ein Buch.",
@@ -526,7 +530,7 @@
     "id": "28",
     "title-id": "صرف افعال با قاعده (Regelmäßige Verben)",
     "title": "صرف افعال با قاعده در زمان حال (Präsens)",
-    "description": "در زمان حال، ریشه فعل ثابت می‌ماند و فقط پسوندهای شخصی به آن اضافه می‌شود.\n\nساختار: ریشه فعل + پسوند",
+    "description": "در زمان حال، ریشه فعل ثابت می‌ماند و فقط پسوندهای شخصی به آن اضافه می‌شود.\nساختار: ریشه فعل + پسوند",
     "examples": [
       {
         "de": "ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen",
@@ -696,7 +700,7 @@
     "title": "صرف افعال بی‌قاعده در زمان حال (Präsens)",
     "description": "مثال فعل: «sehen» (دیدن)\nich sehe = من می‌بینم\ndu siehst = تو می‌بینی\ner/sie/es sieht = او می‌بیند\nwir sehen = ما می‌بینیم\nihr seht = شما می‌بینید (جمع)\nsie/Sie sehen = آن‌ها / شما (محترمانه) می‌بینند\nنکته: در افعال بی‌قاعده، معمولاً تغییر در ریشه فعل برای «du» و «er/sie/es» رخ می‌دهد.",
     "examples": [],
-    "note": "نمونه‌های دیگر:\nlesen (خواندن): ich lese, du liest, er liest, wir lesen, ihr lest, sie/Sie lesen\nlaufen (دویدن): ich laufe, du läufst, er läuft, wir laufen, ihr lauft, sie/Sie laufen"
+    "note": "نمونه‌های دیگر:\nlesen (خواندن): \nich lese, du liest, er liest, wir lesen, ihr lest, sie/Sie lesen\nlaufen (دویدن): \nich laufe, du läufst, er läuft, wir laufen, ihr lauft, sie/Sie laufen"
   },
   {
     "id": "38",
@@ -729,7 +733,7 @@
     "title": "گذشته ساده (Präteritum) افعال بی‌قاعده",
     "description": "بسیاری از افعال بی‌قاعده ریشه‌شان در گذشته تغییر می‌کند.",
     "examples": [],
-    "note": "sein (بودن): ich war, du warst, er war, wir waren, ihr wart, sie/Sie waren\nhaben (داشتن): ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie/Sie hatten\ngehen (رفتن): ich ging, du gingst, er ging, wir gingen, ihr gingt, sie gingen\nsehen (دیدن): ich sah, du sahst, er sah, wir sahen, ihr saht, sie sahen"
+    "note": "sein (بودن):\nich war, du warst, er war, wir waren, ihr wart, sie/Sie waren\nhaben (داشتن):\n ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie/Sie hatten\ngehen (رفتن):\n ich ging, du gingst, er ging, wir gingen, ihr gingt, sie gingen\nsehen (دیدن): \nich sah, du sahst, er sah, wir sahen, ihr saht, sie sahen"
   },
   {
     "id": "40",
@@ -773,7 +777,7 @@
     "id": "42",
     "title-id": "صرف افعال بی‌قاعده (Unregelmäßige Verben)",
     "title": "آینده ساده (Futur I) افعال بی‌قاعده",
-    "description": "ساختار: werden + Infinitiv\nsehen: ich werde sehen, du wirst sehen, er wird sehen, wir werden sehen, ihr werdet sehen, sie/Sie werden sehen",
+    "description": "ساختار: werden + Infinitiv\nsehen:\n ich werde sehen\n du wirst sehen\n er wird sehen\n wir werden sehen\nihr werdet sehen\n sie/Sie werden sehen",
     "examples": [
       {
         "de": "Ich werde den Film morgen sehen.",
@@ -943,7 +947,7 @@
     "title": "نکات مهم در جملات امری",
     "description": "نکات کلیدی برای ساخت صحیح جملات امری در سطح A1:",
     "examples": [],
-    "note": "1. استفاده از Bitte: برای مودب‌تر کردن از bitte استفاده می‌کنیم (مثال: Komm bitte hierher!).\n2. ترتیب کلمات: فعل همیشه در ابتدای جمله قرار می‌گیرد.\n3. منفی کردن: از nicht یا kein استفاده می‌کنیم.\n4. ضمیرها: du و ihr معمولاً حذف می‌شوند؛ Sie و wir باید ذکر شوند.\n5. افعال بازتابی: ضمیر بازتابی بعد از فعل قرار می‌گیرد (مثال: Setz dich!).\n6. افعال جدایی‌پذیر: پیشوند جداشونده در آخر جمله قرار می‌گیرد (مثال: Steh bitte früh auf!)."
+    "note": "1. استفاده از Bitte:\n برای مودب‌تر کردن از bitte استفاده می‌کنیم (مثال: Komm bitte hierher!).\n2. ترتیب کلمات:\n فعل همیشه در ابتدای جمله قرار می‌گیرد.\n3. منفی کردن:\n از nicht یا kein استفاده می‌کنیم.\n4. ضمیرها:\n du و ihr معمولاً حذف می‌شوند؛ Sie و wir باید ذکر شوند.\n5. افعال بازتابی:\n ضمیر بازتابی بعد از فعل قرار می‌گیرد (مثال: Setz dich!).\n6. افعال جدایی‌پذیر:\n پیشوند جداشونده در آخر جمله قرار می‌گیرد (مثال: Steh bitte früh auf!)."
   },
   {
     "id": "52",
@@ -1328,7 +1332,7 @@
     "id": "66",
     "title-id": "حروف تعریف نامعین (unbestimmte Artikel)",
     "title": "حالت‌های مثبت (Positive Formen) - Nominativ",
-    "description": "حالت Nominativ برای فاعل جمله استفاده می‌شود. در این حالت، شکل صفت نامعین (ein/eine/ein) به صورت زیر است:\n\n• مذکر: ein\n• مؤنث: eine\n• خنثی: ein",
+    "description": "حالت Nominativ برای فاعل جمله استفاده می‌شود. در این حالت، شکل صفت نامعین (ein/eine/ein) به صورت زیر است:\n• مذکر: ein\n• مؤنث: eine\n• خنثی: ein",
     "examples": [
       {
         "de": "Ein Mann liest.",
@@ -1349,7 +1353,7 @@
     "id": "67",
     "title-id": "حروف تعریف نامعین (unbestimmte Artikel)",
     "title": "حالت Akkusativ (مفعول مستقیم)",
-    "description": "حالت Akkusativ برای مفعول مستقیم فعل استفاده می‌شود. در این حالت، شکل صفت نامعین تغییر می‌کند:\n\n• مذکر: einen\n• مؤنث: eine\n• خنثی: ein",
+    "description": "حالت Akkusativ برای مفعول مستقیم فعل استفاده می‌شود. در این حالت، شکل صفت نامعین تغییر می‌کند:\n• مذکر: einen\n• مؤنث: eine\n• خنثی: ein",
     "examples": [
       {
         "de": "Ich sehe einen Mann.",
@@ -1370,7 +1374,7 @@
     "id": "68",
     "title-id": "حروف تعریف نامعین (unbestimmte Artikel)",
     "title": "حالت Dativ (مفعول غیرمستقیم)",
-    "description": "حالت Dativ برای مفعول غیرمستقیم (معمولاً شخص دریافت‌کننده) استفاده می‌شود. شکل صفت نامعین در این حالت:\n\n• مذکر: einem\n• مؤنث: einer\n• خنثی: einem",
+    "description": "حالت Dativ برای مفعول غیرمستقیم (معمولاً شخص دریافت‌کننده) استفاده می‌شود. شکل صفت نامعین در این حالت:\n• مذکر: einem\n• مؤنث: einer\n• خنثی: einem",
     "examples": [
       {
         "de": "Ich gebe einem Mann das Buch.",
@@ -1391,7 +1395,7 @@
     "id": "69",
     "title-id": "حروف تعریف نامعین (unbestimmte Artikel)",
     "title": "حالت Genitiv (مالکیت / مضاف الیه)",
-    "description": "حالت Genitiv برای نشان دادن مالکیت یا رابطه «از ...» استفاده می‌شود. شکل صفت نامعین در Genitiv:\n\n• مذکر: eines\n• مؤنث: einer\n• خنثی: eines",
+    "description": "حالت Genitiv برای نشان دادن مالکیت یا رابطه «از ...» استفاده می‌شود. شکل صفت نامعین در Genitiv:\n• مذکر: eines\n• مؤنث: einer\n• خنثی: eines",
     "examples": [
       {
         "de": "Das Auto eines Mannes ist neu.",
@@ -1913,7 +1917,7 @@
     "title": "حروف تعریف (Artikel) در حالت داتیو",
     "description": "حروف تعریف معین در حالت داتیو به شکل زیر تغییر می‌کنند:",
     "examples": [],
-    "note": "حالت\tمذکر (der)\tمؤنث (die)\tخنثی (das)\tجمع (die)\nداتیو\tdem\tder\tdem\tden + n به اسم جمع\n\nنکته: در جمع، به اسم n اضافه می‌کنیم اگر اسم جمع n نگیرد، همان‌طور باقی می‌ماند."
+    "note": "مذکر (der) \tdem \nمؤنث (die)\tder\nخنثی (das)\tdem\nجمع (die)\t den + n \nنکته: در جمع، به اسم n اضافه می‌کنیم اگر اسم جمع n نگیرد، همان‌طور باقی می‌ماند."
   },
   {
     "id": "92",
@@ -2153,7 +2157,7 @@
     "id": 101,
     "title-id": "افعال جداشدنی (Trennbare Verben)",
     "title": "نکات مهم افعال جداشدنی",
-    "description": "۱. در زمان گذشته ساده (Perfekt): haben/sein + Partizip II (پیش‌وند به ابتدای Partizip II می‌چسبد). ۲. در جملات امری (Imperativ): پیش‌وند به آخر جمله می‌رود. ۳. در جملات سوالی (Ja/Nein-Fragen): فعل در ابتدا، پیش‌وند در آخر.",
+    "description": "۱. در زمان گذشته ساده (Perfekt):\n haben/sein + Partizip II (پیش‌وند به ابتدای Partizip II می‌چسبد).\n ۲. در جملات امری (Imperativ):\n پیش‌وند به آخر جمله می‌رود.\n ۳. در جملات سوالی (Ja/Nein-Fragen):\n فعل در ابتدا، پیش‌وند در آخر.",
     "examples": [
       {
         "de": "Ich bin früh aufgestanden.",
@@ -2223,7 +2227,7 @@
     "id": 103,
     "title-id": "افعال جداشدنی (Trennbare Verben)",
     "title": "خلاصه قواعد افعال جداشدنی",
-    "description": "خلاصه تمام قواعد مهم: ۱. پیش‌وند همیشه به آخر جمله می‌رود. ۲. در جملات منفی، nicht قبل از بخش نفی‌شده و پیش‌وند آخر می‌ماند. ۳. در Perfekt پیش‌وند به Partizip II می‌چسبد. ۴. در امری و سوالی پیش‌وند جدا و در پایان جمله است.",
+    "description": "۱. در زمان گذشته ساده (Perfekt):\n haben/sein + Partizip II (پیش‌وند به ابتدای Partizip II می‌چسبد).\n ۲. در جملات امری (Imperativ):\n پیش‌وند به آخر جمله می‌رود.\n ۳. در جملات سوالی (Ja/Nein-Fragen):\n فعل در ابتدا، پیش‌وند در آخر.",
     "examples": [],
     "note": "این خلاصه برای مرور سریع تمام بخش‌های قبلی است."
   },
@@ -2232,7 +2236,7 @@
     "id": 104,
     "title-id": "منفی کردن با nicht",
     "title": "تعریف منفی کردن جملات با nicht",
-    "description": "در زبان آلمانی برای منفی کردن جملات ساده معمولاً از «nicht» استفاده می‌شود. محل قرار گرفتن «nicht» بسته به نوع جمله و آنچه می‌خواهیم منفی کنیم متفاوت است. «nicht» معمولاً قبل از قسمتی که می‌خواهیم منفی کنیم قرار می‌گیرد یا در انتهای جمله می‌آید.",
+    "description": "در زبان آلمانی برای منفی کردن جملات ساده معمولاً از «nicht» استفاده می‌شود\n. محل قرار گرفتن «nicht» بسته به نوع جمله و آنچه می‌خواهیم منفی کنیم متفاوت است.\n «nicht» معمولاً قبل از قسمتی که می‌خواهیم منفی کنیم قرار می‌گیرد یا در انتهای جمله می‌آید.",
     "examples": [
       {
         "de": "Ich spiele Fußball.",
@@ -2341,7 +2345,7 @@
     "id": 109,
     "title-id": "منفی کردن با nicht",
     "title": "قواعد مهم موقعیت nicht",
-    "description": "۱. منفی کردن کل جمله → nicht معمولاً در پایان جمله. ۲. منفی کردن بخش خاص (مفعول، صفت، قید) → nicht قبل از آن بخش. ۳. در زمان‌های مرکب → nicht قبل از فعل دوم. ۴. برای اسم بدون مقاله → kein.",
+    "description": "۱. منفی کردن کل جمله - nicht معمولاً در پایان جمله.\n ۲. منفی کردن بخش خاص (مفعول، صفت، قید) - nicht قبل از آن بخش.\n ۳. در زمان‌های مرکب - nicht قبل از فعل دوم.\n ۴. برای اسم بدون مقاله - kein.",
     "examples": [
       {
         "de": "Ich gehe nicht.",
@@ -2399,9 +2403,9 @@
     "id": 111,
     "title-id": "منفی کردن با nicht",
     "title": "جمع‌بندی قواعد nicht و kein",
-    "description": "nicht برای منفی کردن فعل، صفت و جملات کلی استفاده می‌شود. موقعیت nicht بستگی به بخش منفی‌شده دارد. برای اسم بدون مقاله از kein استفاده کنید.",
+    "description": "nicht برای منفی کردن فعل، صفت و جملات کلی استفاده می‌شود.\n موقعیت nicht بستگی به بخش منفی‌شده دارد.\n برای اسم بدون مقاله از kein استفاده کنید.",
     "examples": [],
-    "note": "nicht = منفی افعال و صفات | kein = منفی اسم‌های بدون مقاله"
+    "note": "nicht = منفی افعال و صفات \n kein = منفی اسم‌های بدون مقاله"
   },
 
   {
@@ -2425,7 +2429,7 @@
     "id": 113,
     "title-id": "منفی کردن با kein",
     "title": "ساختار کلی جملات با kein",
-    "description": "kein جایگزین ein/eine در جملات منفی می‌شود و قبل از اسم قرار می‌گیرد. ساختار کلی: جمله مثبت با ein → جمله منفی با kein (بدون تغییر در بقیه جمله).",
+    "description": "kein جایگزین ein/eine در جملات منفی می‌شود و قبل از اسم قرار می‌گیرد.\n ساختار کلی: جمله مثبت با ein → جمله منفی با kein (بدون تغییر در بقیه جمله).",
     "examples": [
       {
         "de": "Das ist ein Hund.",
@@ -2473,13 +2477,13 @@
         "fa": "این‌ها کتاب نیستند."
       }
     ],
-    "note": "Maskulin: kein / keinen | Feminin: keine / keine | Neutrum: kein / kein | Plural: keine / keine"
+    "note": "Maskulin: kein / keinen \n Feminin: keine / keine \n Neutrum: kein / kein \n Plural: keine / keine"
   },
   {
     "id": 115,
     "title-id": "منفی کردن با kein",
     "title": "نکات مهم استفاده از kein",
-    "description": "kein مخصوص منفی کردن اسم‌هاست و همیشه قبل از اسم می‌آید. اگر اسم بدون ein باشد هم از kein استفاده می‌شود. برای منفی کردن فعل یا سایر بخش‌های جمله از nicht استفاده کنید.",
+    "description": "kein مخصوص منفی کردن اسم‌هاست و همیشه قبل از اسم می‌آید.\n اگر اسم بدون ein باشد هم از kein استفاده می‌شود.\n برای منفی کردن فعل یا سایر بخش‌های جمله از nicht استفاده کنید.",
     "examples": [
       {
         "de": "Ich habe Geld. → Ich habe kein Geld.",
@@ -2525,7 +2529,7 @@
     "id": 117,
     "title-id": "منفی کردن با kein",
     "title": "مثال‌ها در جملات مختلف و جمع‌بندی",
-    "description": "کاربرد kein در زمان حال (Präsens)، با صفت، و در جملات سوالی. نکته کاربردی: هرگاه اسم با ein/eine یا جمع/غیرقابل شمارش باشد، از kein/keine استفاده کنید.",
+    "description": "کاربرد kein در زمان حال (Präsens)، با صفت، و در جملات سوالی.\n نکته کاربردی:\n هرگاه اسم با ein/eine یا جمع/غیرقابل شمارش باشد، از kein/keine استفاده کنید.",
     "examples": [
       {
         "de": "Das ist kein schöner Tag.",
@@ -2544,7 +2548,7 @@
         "fa": "این مشکلی نیست؟"
       }
     ],
-    "note": "جمع‌بندی: Maskulin (kein/keinen) | Feminin (keine/keine) | Neutrum (kein/kein) | Plural (keine/keine)"
+    "note": "جمع‌بندی: Maskulin (kein/keinen) \n Feminin (keine/keine) \n Neutrum (kein/kein) \n Plural (keine/keine)"
   },
 
   {
@@ -2581,7 +2585,7 @@
     "id": 119,
     "title-id": " افعال وجهی (Modalverben)",
     "title": "تعریف افعال مدال (Modalverben)",
-    "description": "Modalverben یا افعال مدال، افعالی هستند که نیت، توانایی، اجازه، الزام یا تمایل انجام کاری را بیان می‌کنند. این افعال همیشه با یک فعل اصلی در انتهای جمله (به صورت مصدر/Infinitiv) می‌آیند.",
+    "description": "Modalverben یا افعال مدال، افعالی هستند که نیت، توانایی، اجازه، الزام یا تمایل انجام کاری را بیان می‌کنند.\n این افعال همیشه با یک فعل اصلی در انتهای جمله (به صورت مصدر/Infinitiv) می‌آیند.",
     "examples": [
       {
         "de": "Ich kann Deutsch sprechen.",
@@ -2629,13 +2633,13 @@
     "title": "صرف افعال مدال در زمان حال (Präsens)",
     "description": "جدول صرف کامل افعال مدال در زمان حال ساده (Präsens):",
     "examples": [],
-    "note": "فعل\tich\tdu\ter/sie/es\twir\tihr\tsie/Sie\ndürfen\tdarf\tdarfst\tdarf\tdürfen\tdürft\tdürfen\nkönnen\tkann\tkannst\tkann\tkönnen\tkönnt\tkönnen\nmögen\tmag\tmagst\tmag\tmögen\tmögt\tmögen\nmüssen\tmuss\tmusst\tmuss\tmüssen\tmüsst\tmüssen\nsollen\tsoll\tsollst\tsoll\tsollen\tsollt\tsollen\nwollen\twill\twillst\twill\twollen\twollt\twollen"
+    "note": "فعل-  ich - du - er/sie/es - wir - ihr- sie/Sie\ndürfen - darf - darfst - darf - dürfen - dürft-dürfen\nkönnen-kann-kannst-kann-können-könnt-können\nmögen -mag -magst -mag -mögen -mögt -mögen\nmüssen - muss - musst - muss - müssen - müsst - müssen\nsollen - soll - sollst - soll - sollen - sollt - sollen\nwollen - will - willst - will - wollen - wollt - wollen"
   },
   {
     "id": 122,
     "title-id": " افعال وجهی (Modalverben)",
     "title": "ساختار جملات مثبت با Modalverben",
-    "description": "ساختار جمله مثبت: Modalverb + فاعل + ... + فعل اصلی (Infinitiv) در انتهای جمله.",
+    "description": "ساختار جمله مثبت:\n Modalverb + فاعل + ... + فعل اصلی (Infinitiv) در انتهای جمله.",
     "examples": [
       {
         "de": "Ich kann Deutsch sprechen.",
@@ -2668,7 +2672,7 @@
     "id": 123,
     "title-id": " افعال وجهی (Modalverben)",
     "title": "ساختار جملات منفی با Modalverben",
-    "description": "ساختار جمله منفی: Modalverb + nicht + فعل اصلی (Infinitiv) در انتها. اگر اسم وجود داشته باشد، از kein/keine استفاده کنید.",
+    "description": "ساختار جمله منفی:\n Modalverb + nicht + فعل اصلی (Infinitiv) در انتها. اگر اسم وجود داشته باشد، از kein/keine استفاده کنید.",
     "examples": [
       {
         "de": "Ich kann nicht Deutsch sprechen.",
@@ -2701,7 +2705,7 @@
     "id": 124,
     "title-id": " افعال وجهی (Modalverben)",
     "title": "نکات مهم افعال مدال",
-    "description": "نکات کلیدی در استفاده از Modalverben: ۱. فعل اصلی همیشه به صورت مصدر (Infinitiv) در انتهای جمله می‌آید. ۲. منفی کردن: nicht قبل از Infinitiv یا kein/keine برای اسم. ۳. سؤالی کردن: Modalverb در ابتدا + فاعل + ... + Infinitiv؟",
+    "description": "نکات کلیدی در استفاده از Modalverben:\n ۱. فعل اصلی همیشه به صورت مصدر (Infinitiv) در انتهای جمله می‌آید.\n ۲. منفی کردن: nicht قبل از Infinitiv یا kein/keine برای اسم.\n ۳. سؤالی کردن: Modalverb در ابتدا + فاعل + ... + Infinitiv؟",
     "examples": [
       {
         "de": "Kannst du Deutsch sprechen?",
@@ -2824,7 +2828,7 @@
     "id": 131,
     "title-id": "حروف ربط ساده (Einfache Konjunktionen)",
     "title": "حرف ربط Sondern (بلکه)",
-    "description": "معنی: بلکه\nکاربرد: وقتی جمله اول منفی است و می‌خواهیم جمله دوم را به عنوان جایگزین بیاوریم. قانون مهم: جمله اول باید منفی باشد.",
+    "description": "معنی: بلکه\nکاربرد: وقتی جمله اول منفی است و می‌خواهیم جمله دوم را به عنوان جایگزین بیاوریم.\n قانون مهم: جمله اول باید منفی باشد.",
     "examples": [
       {
         "de": "Ich trinke nicht Kaffee, sondern Tee.",
@@ -2881,23 +2885,23 @@
     "description": "خلاصه تمام حروف ربط با معنی، مثال مثبت و مثال منفی:",
     "examples": [
       {
-        "de": "und = و\nIch lese, und ich höre Musik.\nIch lese, und ich höre nicht Radio.",
-        "fa": "و\nمن می‌خوانم و موسیقی گوش می‌کنم.\nمن می‌خوانم و رادیو گوش نمی‌دهم."
+        "de": "und = و - Ich lese, und ich höre Musik. - Ich lese, und ich höre nicht Radio.",
+        "fa": "و\nمن می‌خوانم و موسیقی گوش می‌کنم. - من می‌خوانم و رادیو گوش نمی‌دهم."
       },
       {
-        "de": "aber = اما\nIch mag Eis, aber ich esse Kuchen.\nIch mag Eis, aber nicht Schokolade.",
+        "de": "aber = اما - Ich mag Eis, aber ich esse Kuchen. - Ich mag Eis, aber nicht Schokolade.",
         "fa": "اما\nمن بستنی دوست دارم، اما کیک می‌خورم.\nمن بستنی دوست دارم، اما شکلات نه."
       },
       {
-        "de": "oder = یا\nWillst du Tee oder Kaffee?\nIch trinke nicht Tee oder Kaffee.",
+        "de": "oder = یا - Willst du Tee oder Kaffee? - Ich trinke nicht Tee oder Kaffee.",
         "fa": "یا\nچای می‌خواهی یا قهوه؟\nمن نه چای می‌نوشم و نه قهوه."
       },
       {
-        "de": "denn = زیرا\nIch gehe früh ins Bett, denn ich bin müde.\nIch gehe nicht spät raus, denn morgen ist Schule.",
+        "de": "denn = زیرا - Ich gehe früh ins Bett, denn ich bin müde. - Ich gehe nicht spät raus, denn morgen ist Schule.",
         "fa": "زیرا\nزود می‌روم بخوابم، زیرا خسته‌ام.\nدیر بیرون نمی‌روم، زیرا فردا مدرسه دارم."
       },
       {
-        "de": "sondern = بلکه\nIch trinke nicht Kaffee, sondern Tee.\nIch esse nicht Brot, sondern Brötchen.",
+        "de": "sondern = بلکه - Ich trinke nicht Kaffee, sondern Tee. - Ich esse nicht Brot, sondern Brötchen.",
         "fa": "بلکه\nقهوه نمی‌نوشم، بلکه چای.\nنان نمی‌خورم، بلکه بروتشن."
       }
     ],
@@ -2908,7 +2912,7 @@
     "id": 135,
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
     "title": "تعریف حروف اضافه مکانی",
-    "description": "حروف اضافه مکانی (Wechselpräpositionen) برای نشان دادن مکان و جهت استفاده می‌شوند. این حروف بسته به موقعیت و فعل جمله، با حالت چهارم (Akkusativ) یا حالت سوم (Dativ) به کار می‌روند.",
+    "description": "حروف اضافه مکانی (Wechselpräpositionen) برای نشان دادن مکان و جهت استفاده می‌شوند.\n این حروف بسته به موقعیت و فعل جمله، با حالت چهارم (Akkusativ) یا حالت سوم (Dativ) به کار می‌روند.",
     "examples": [],
     "note": ""
   },
@@ -2927,14 +2931,14 @@
         "fa": "من در مدرسه هستم."
       }
     ],
-    "note": "حروف اضافه مهم مکانی (Wechselpräpositionen) در سطح A1: in, an, auf, vor, hinter, über, unter, neben, zwischen"
+    "note": "حروف اضافه مهم مکانی (Wechselpräpositionen) در سطح A1:\n in, an, auf, vor, hinter, über, unter, neben, zwischen"
   },
 
   {
     "id": "137",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
     "title": "حروف اضافه مکانی رایج در آلمانی",
-    "description": "حروف اضافه مکانی (Präpositionen des Ortes) که هم با Akkusativ (جهت حرکت) و هم با Dativ (مکان ثابت) استفاده می‌شوند: in → داخل، به داخل | auf → روی (سطح صاف) | an → کنار، روی (سطح عمودی) | unter → زیر | über → بالای، روی | neben → کنار | vor → جلو | hinter → پشت | zwischen → بین",
+    "description": "حروف اضافه مکانی (Präpositionen des Ortes) که هم با Akkusativ (جهت حرکت)\n و هم با Dativ (مکان ثابت) استفاده می‌شوند:\n in → داخل، به داخل \n auf → روی (سطح صاف) \n an → کنار، روی (سطح عمودی) \n unter → زیر \n über → بالای، روی \n neben → کنار \n vor → جلو \n hinter → پشت \n zwischen → بین",
     "examples": [],
     "note": "این حروف اضافه دو حالتی هستند: Akkusativ برای حرکت به سمت، Dativ برای بودن در مکان."
   },
@@ -2942,7 +2946,7 @@
     "id": "138",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
     "title": "in (داخل / به داخل)",
-    "description": "in + Akkusativ = حرکت به داخل | in + Dativ = بودن داخل",
+    "description": "in + Akkusativ = حرکت به داخل \n in + Dativ = بودن داخل",
     "examples": [
       {
         "de": "Ich gehe in die Küche.",
@@ -2976,7 +2980,7 @@
     "id": "140",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
     "title": "auf (روی سطح صاف)",
-    "description": "auf + Akkusativ = حرکت به روی | auf + Dativ = بودن روی",
+    "description": "auf + Akkusativ = حرکت به روی \n auf + Dativ = بودن روی",
     "examples": [
       {
         "de": "Ich lege das Buch auf den Tisch.",
@@ -3010,7 +3014,7 @@
     "id": "142",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
     "title": "unter (زیر)",
-    "description": "unter + Akkusativ = حرکت به زیر | unter + Dativ = بودن زیر",
+    "description": "unter + Akkusativ = حرکت به زیر \n unter + Dativ = بودن زیر",
     "examples": [
       {
         "de": "Ich lege die Tasche unter den Stuhl.",
@@ -3044,7 +3048,7 @@
     "id": "144",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
     "title": "über (بالای)",
-    "description": "über + Akkusativ = حرکت به بالا | über + Dativ = بودن بالا",
+    "description": "über + Akkusativ = حرکت به بالا \n über + Dativ = بودن بالا",
     "examples": [
       {
         "de": "Ich hänge das Bild über das Sofa.",
@@ -3078,7 +3082,7 @@
     "id": "146",
     "title": "neben (کنار)",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
-    "description": "neben + Akkusativ = حرکت به کنار | neben + Dativ = بودن کنار",
+    "description": "neben + Akkusativ = حرکت به کنار \n neben + Dativ = بودن کنار",
     "examples": [
       {
         "de": "Ich stelle den Stuhl neben den Tisch.",
@@ -3112,7 +3116,7 @@
     "id": "148",
     "title": "vor (جلو)",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
-    "description": "vor + Akkusativ = حرکت به جلو | vor + Dativ = بودن جلو",
+    "description": "vor + Akkusativ = حرکت به جلو \n vor + Dativ = بودن جلو",
     "examples": [
       {
         "de": "Ich stelle das Auto vor die Garage.",
@@ -3146,7 +3150,7 @@
     "id": "150",
     "title": "hinter (پشت)",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
-    "description": "hinter + Akkusativ = حرکت به پشت | hinter + Dativ = بودن پشت",
+    "description": "hinter + Akkusativ = حرکت به پشت \n hinter + Dativ = بودن پشت",
     "examples": [
       {
         "de": "Ich gehe hinter das Haus.",
@@ -3180,7 +3184,7 @@
     "id": "152",
     "title": "zwischen (بین)",
     "title-id": "حروف اضافه مکانی (Lokale Präpositionen)",
-    "description": "zwischen + Akkusativ = حرکت به بین | zwischen + Dativ = بودن بین",
+    "description": "zwischen + Akkusativ = حرکت به بین \n zwischen + Dativ = بودن بین",
     "examples": [
       {
         "de": "Ich setze mich zwischen die Kinder.",
@@ -3208,21 +3212,21 @@
         "fa": "من بین بچه‌ها نشسته نیستم."
       }
     ],
-    "note": "تمام حروف اضافه بالا در سطح A1 بسیار مهم هستند. همیشه به حالت (Akkusativ/Dativ) توجه کنید."
+    "note": "  همیشه به حالت (Akkusativ/Dativ) توجه کنید."
   },
   {
     "id": "154",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "حروف اضافه زمانی رایج در آلمانی",
-    "description": "حروف اضافه زمانی (Präpositionen der Zeit) برای بیان زمان وقوع عمل استفاده می‌شوند. بیشتر آن‌ها با Dativ و برخی با Akkusativ می‌آیند: am, im, um, seit, ab, vor, nach, bis, von…bis",
+    "description": "حروف اضافه زمانی (Präpositionen der Zeit) برای بیان زمان وقوع عمل استفاده می‌شوند.\n بیشتر آن‌ها با Dativ و برخی با Akkusativ می‌آیند: am, im, um, seit, ab, vor, nach, bis, von…bis",
     "examples": [],
-    "note": "اکثر حروف اضافه زمانی با Dativ هستند. um و bis معمولاً با Akkusativ استفاده می‌شوند."
+    "note": "اکثر حروف اضافه زمانی با Dativ هستند.\n um و bis معمولاً با Akkusativ استفاده می‌شوند."
   },
   {
     "id": "155",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "am (در - برای روز و ساعت روز)",
-    "description": "am + Dativ → برای روزهای هفته، تاریخ و صبح/عصر/شب",
+    "description": "am + Dativ \n برای روزهای هفته - تاریخ - صبح - عصر- شب",
     "examples": [
       {
         "de": "Ich gehe am Montag ins Kino.",
@@ -3256,7 +3260,7 @@
     "id": "157",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "im (در - برای ماه، فصل، سال)",
-    "description": "im + Dativ → برای ماه‌ها، فصل‌ها، سال و قرن",
+    "description": "im + Dativ\n برای ماه‌ها - فصل‌ها - سال - قرن",
     "examples": [
       {
         "de": "Ich fahre im Juli nach Berlin.",
@@ -3290,7 +3294,7 @@
     "id": "159",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "um (ساعت ...)",
-    "description": "um + Akkusativ → برای بیان ساعت دقیق",
+    "description": "um + Akkusativ \n برای بیان ساعت دقیق",
     "examples": [
       {
         "de": "Das Treffen beginnt um 10 Uhr.",
@@ -3320,7 +3324,7 @@
     "id": "161",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "von ... bis (از ... تا)",
-    "description": "von + Dativ ... bis + Dativ → برای بازه زمانی",
+    "description": "von + Dativ ... bis + Dativ \n برای بازه زمانی",
     "examples": [
       {
         "de": "Ich arbeite von 9 bis 17 Uhr.",
@@ -3350,7 +3354,7 @@
     "id": "163",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "seit (از ... / مدتی است که)",
-    "description": "seit + Dativ → از زمانی در گذشته تا حالا",
+    "description": "seit + Dativ \n از زمانی در گذشته تا حالا",
     "examples": [
       {
         "de": "Ich lerne Deutsch seit 2 Jahren.",
@@ -3380,7 +3384,7 @@
     "id": "165",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "ab (از ... به بعد)",
-    "description": "ab + Dativ → از زمانی در آینده یا حال",
+    "description": "ab + Dativ \n از زمانی در آینده یا حال",
     "examples": [
       {
         "de": "Der Kurs beginnt ab Montag.",
@@ -3410,7 +3414,7 @@
     "id": "167",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "vor (قبل از / ... پیش)",
-    "description": "vor + Dativ → قبل از یک زمان",
+    "description": "vor + Dativ \n قبل از یک زمان",
     "examples": [
       {
         "de": "Ich habe ihn vor einer Woche getroffen.",
@@ -3440,7 +3444,7 @@
     "id": "169",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "nach (بعد از)",
-    "description": "nach + Dativ → بعد از یک زمان",
+    "description": "nach + Dativ \n بعد از یک زمان",
     "examples": [
       {
         "de": "Nach dem Essen gehe ich spazieren.",
@@ -3470,7 +3474,7 @@
     "id": "171",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "bis (تا)",
-    "description": "bis + Akkusativ → تا یک زمان معین",
+    "description": "bis + Akkusativ \n تا یک زمان معین",
     "examples": [
       {
         "de": "Ich bleibe bis Montag hier.",
@@ -3500,7 +3504,7 @@
     "id": "173",
     "title-id": "حروف اضافه زمانی (Temporale Präpositionen)",
     "title": "نکات مهم حروف اضافه زمانی (Zeitpräpositionen)",
-    "description": "بیشتر حروف اضافه زمانی در آلمانی با Dativ استفاده می‌شوند: am, im, seit, vor, nach. فقط少数ی با Akkusativ هستند: um, bis.",
+    "description": " 1. بیشتر حروف اضافه زمانی با Dativ هستند (am, im, seit, vor, nach) و با Akkusativ (um, bis) ترکیب می‌شوند.  \n  2. حالت منفی معمولاً با <code>nicht</code> بعد از حروف اضافه یا فعل اصلی می‌آید.  \n  3. ترکیب با <code>von … bis …</code> برای بازه زمانی بسیار رایج است",
     "examples": [],
     "note": "این قانون بسیار مهم است و در سطح A1 باید خوب بلد باشید."
   },
@@ -3517,9 +3521,9 @@
     "id": "175",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "Wechselpräpositionen - حروف اضافه دوطرفه",
-    "description": "Wechselpräpositionen (حروف اضافه دوطرفه) حروفی هستند که بسته به معنای جمله می‌توانند با Akkusativ (برای حرکت و جهت) یا Dativ (برای مکان ثابت) استفاده شوند. لیست رایج: an, auf, hinter, in, neben, über, unter, vor, zwischen",
+    "description": "Wechselpräpositionen (حروف اضافه دوطرفه) حروفی هستند که بسته به معنای جمله می‌توانند با Akkusativ (برای حرکت و جهت) یا Dativ (برای مکان ثابت) استفاده شوند.\n لیست رایج: an, auf, hinter, in, neben, über, unter, vor, zwischen",
     "examples": [],
-    "note": "سوال Akkusativ: Wohin? (به کجا؟) | سوال Dativ: Wo? (کجا؟)"
+    "note": "سوال Akkusativ: Wohin? (به کجا؟) \n سوال Dativ: Wo? (کجا؟)"
   },
   {
     "id": "176",
@@ -3542,7 +3546,7 @@
     "id": "177",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "an (کنار / روی سطح عمودی)",
-    "description": "an + Akkusativ = حرکت به سمت | an + Dativ = بودن کنار / روی",
+    "description": "an + Akkusativ = حرکت به سمت \n an + Dativ = بودن کنار / روی",
     "examples": [
       {
         "de": "Ich hänge das Bild an die Wand.",
@@ -3572,7 +3576,7 @@
     "id": "179",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "auf (روی سطح صاف)",
-    "description": "auf + Akkusativ = حرکت به روی | auf + Dativ = بودن روی",
+    "description": "auf + Akkusativ = حرکت به روی \n auf + Dativ = بودن روی",
     "examples": [
       {
         "de": "Ich lege das Buch auf den Tisch.",
@@ -3602,7 +3606,7 @@
     "id": "181",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "hinter (پشت)",
-    "description": "hinter + Akkusativ = حرکت به پشت | hinter + Dativ = بودن پشت",
+    "description": "hinter + Akkusativ = حرکت به پشت \n hinter + Dativ = بودن پشت",
     "examples": [
       {
         "de": "Er stellt den Stuhl hinter die Tür.",
@@ -3632,7 +3636,7 @@
     "id": "183",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "in (داخل)",
-    "description": "in + Akkusativ = حرکت به داخل | in + Dativ = بودن داخل",
+    "description": "in + Akkusativ = حرکت به داخل \n in + Dativ = بودن داخل",
     "examples": [
       {
         "de": "Ich gehe in das Zimmer.",
@@ -3662,7 +3666,7 @@
     "id": "185",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "neben (کنار)",
-    "description": "neben + Akkusativ = حرکت به کنار | neben + Dativ = بودن کنار",
+    "description": "neben + Akkusativ = حرکت به کنار \n neben + Dativ = بودن کنار",
     "examples": [
       {
         "de": "Ich stelle die Lampe neben das Bett.",
@@ -3692,7 +3696,7 @@
     "id": "187",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "über (بالای)",
-    "description": "über + Akkusativ = حرکت به بالا | über + Dativ = بودن بالا",
+    "description": "über + Akkusativ = حرکت به بالا \n über + Dativ = بودن بالا",
     "examples": [
       {
         "de": "Ich hänge die Lampe über den Tisch.",
@@ -3722,7 +3726,7 @@
     "id": "189",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "unter (زیر)",
-    "description": "unter + Akkusativ = حرکت به زیر | unter + Dativ = بودن زیر",
+    "description": "unter + Akkusativ = حرکت به زیر \n unter + Dativ = بودن زیر",
     "examples": [
       {
         "de": "Ich lege die Schuhe unter das Bett.",
@@ -3752,7 +3756,7 @@
     "id": "191",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "vor (جلو)",
-    "description": "vor + Akkusativ = حرکت به جلو | vor + Dativ = بودن جلو",
+    "description": "vor + Akkusativ = حرکت به جلو \n vor + Dativ = بودن جلو",
     "examples": [
       {
         "de": "Ich stelle das Auto vor das Haus.",
@@ -3782,7 +3786,7 @@
     "id": "193",
     "title-id": "حروف اضافه دوطرفه (Wechselpräpositionen)",
     "title": "zwischen (بین)",
-    "description": "zwischen + Akkusativ = حرکت به بین | zwischen + Dativ = بودن بین",
+    "description": "zwischen + Akkusativ = حرکت به بین \n zwischen + Dativ = بودن بین",
     "examples": [
       {
         "de": "Ich stelle den Stuhl zwischen die Tische.",
@@ -3879,7 +3883,7 @@
     "title": "صفت‌های ملکی پایه",
     "description": "لیست صفت‌های ملکی برای هر شخص:",
     "examples": [],
-    "note": "ich → mein/meine | du → dein/deine | er/es → sein/seine | sie → ihr/ihre | wir → unser/unsere | ihr → euer/eure | Sie → Ihr/Ihre | sie → ihr/ihre"
+    "note": "ich → mein/meine \n du → dein/deine \n er/es → sein/seine \n sie → ihr/ihre \n wir → unser/unsere \n ihr → euer/eure \n Sie → Ihr/Ihre \n sie → ihr/ihre"
   },
   {
     "id": "200",
@@ -3887,7 +3891,7 @@
     "title": "تطبیق صفت ملکی با جنس و شمار (Nominativ)",
     "description": "جدول تطبیق صفت ملکی در حالت Nominativ:",
     "examples": [],
-    "note": "Maskulin: mein/dein/sein/ihr/sein/unser/euer/Ihr/ihr\nFeminin: meine/deine/seine/ihre/seine/unsere/eure/Ihre/ihre\nNeutrum: mein/dein/sein/ihr/sein/unser/euer/Ihr/ihr\nPlural: meine/deine/seine/ihre/seine/unsere/eure/Ihre/ihre"
+    "note": "Maskulin:\n mein-dein-sein-ihr-sein-unser-euer-Ihr-ihr\nFeminin: \nmeine-deine-seine-ihre-seine-unsere-eure-Ihre-ihre\nNeutrum: \nmein-dein-sein-ihr-sein-unser-euer-Ihr-ihr\nPlural:\nmeine-deine-seine-ihre-seine-unsere-eure-Ihre-ihre"
   },
   {
     "id": "201",
@@ -4067,7 +4071,7 @@
     "title": "ضمایر بازتابی (Reflexivpronomen)",
     "description": "ضمایر بازتابی بر اساس فاعل تغییر می‌کنند:",
     "examples": [],
-    "note": "ich → mich | du → dich | er/sie/es → sich | wir → uns | ihr → euch | sie/Sie → sich"
+    "note": "ich → mich \n du → dich \n er/sie/es → sich \n wir → uns \n ihr → euch \n sie/Sie → sich"
   },
   {
     "id": "210",
@@ -4271,7 +4275,7 @@
     "id": "219",
     "title-id": "زمان گذشته ساده (Präteritum)",
     "title": "تعریف Präteritum (گذشته ساده)",
-    "description": "Präteritum زمان گذشته ساده در زبان آلمانی است. بیشتر در نوشتار، داستان‌ها، گزارش‌ها، کتاب‌ها و نامه‌ها استفاده می‌شود. در مکالمه روزمره معمولاً از Perfekt استفاده می‌کنند.",
+    "description": "Präteritum زمان گذشته ساده در زبان آلمانی است.\n بیشتر در نوشتار، داستان‌ها، گزارش‌ها، کتاب‌ها و نامه‌ها استفاده می‌شود.\n در مکالمه روزمره معمولاً از Perfekt استفاده می‌کنند.",
     "examples": [
       {
         "de": "Ich ging gestern nach Hause.",
@@ -4286,7 +4290,7 @@
     "title": "صرف افعال منظم (Regelmäßige Verben) در Präteritum",
     "description": "برای افعال منظم: ریشه فعل + te + پسوند شخصی. مثال: machen → machte",
     "examples": [],
-    "note": "جدول صرف:\nich machte | du machtest | er/sie/es machte | wir machten | ihr machtet | sie/Sie machten"
+    "note": "جدول صرف:\nich machte \n du machtest \n er/sie/es machte \n wir machten \n ihr machtet \n sie/Sie machten"
   },
   {
     "id": "221",
@@ -4311,7 +4315,7 @@
     "title": "صرف افعال نامنظم (Unregelmäßige Verben) در Präteritum",
     "description": "افعال نامنظم در گذشته تغییر ریشه دارند و پسوندهای خاصی می‌گیرند.",
     "examples": [],
-    "note": "مثال با gehen: ich ging | du gingst | er/sie/es ging | wir gingen | ihr gingt | sie/Sie gingen"
+    "note": "مثال با gehen:\n ich ging \n du gingst \n er/sie/es ging \n wir gingen \n ihr gingt \n sie/Sie gingen"
   },
   {
     "id": "223",
@@ -4336,7 +4340,7 @@
     "title": "صرف فعل sein در Präteritum",
     "description": "فعل sein (بودن) در گذشته ساده کاملاً نامنظم است.",
     "examples": [],
-    "note": "ich war | du warst | er/sie/es war | wir waren | ihr wart | sie/Sie waren"
+    "note": "ich war \n du warst \n er/sie/es war \n wir waren \n ihr wart \n sie/Sie waren"
   },
   {
     "id": "225",
@@ -4357,7 +4361,7 @@
     "title": "صرف فعل haben در Präteritum",
     "description": "فعل haben (داشتن) در گذشته ساده.",
     "examples": [],
-    "note": "ich hatte | du hattest | er/sie/es hatte | wir hatten | ihr hattet | sie/Sie hatten"
+    "note": "ich hatte \n du hattest \n er/sie/es hatte \n wir hatten \n ihr hattet \n sie/Sie hatten"
   },
   {
     "id": "227",
@@ -4448,7 +4452,7 @@
     "id": "232",
     "title-id": "افعال کمکی (Hilfsverben)",
     "title": "تعریف Hilfsverben (افعال کمکی)",
-    "description": "Hilfsverben افعالی هستند که به تنهایی معنای اصلی ندارند و برای ساخت زمان‌های مختلف (Perfekt, Futur)، حالت مجهول (Passiv) و جملات شرطی به فعل اصلی کمک می‌کنند. سه فعل کمکی اصلی در آلمانی: haben, sein, werden.",
+    "description": "Hilfsverben افعالی هستند که به تنهایی معنای اصلی ندارند و برای ساخت زمان‌های مختلف (Perfekt, Futur)، حالت مجهول (Passiv) و جملات شرطی به فعل اصلی کمک می‌کنند.\n سه فعل کمکی اصلی در آلمانی: haben, sein, werden.",
     "examples": [],
     "note": "افعال کمکی پایه‌ای‌ترین بخش گرامر آلمانی در سطح A1-A2 هستند."
   },
@@ -4711,7 +4715,7 @@
     "id": "245",
     "title-id": "افعال کمکی (Hilfsverben)",
     "title": "جمع‌بندی Hilfsverben",
-    "description": "سه فعل کمکی اصلی: haben, sein, werden. این افعال برای ساخت اکثر زمان‌ها و حالت‌های گرامری ضروری هستند.",
+    "description": "سه فعل کمکی اصلی: haben, sein, werden.\n این افعال برای ساخت اکثر زمان‌ها و حالت‌های گرامری ضروری هستند.",
     "examples": [],
     "note": "تمرین زیاد مثال‌های مثبت و منفی برای تسلط کامل توصیه می‌شود."
   },
@@ -4853,7 +4857,7 @@
     "id": "256",
     "title-id": "زمان گذشته کامل (Perfekt)",
     "title": "نکات مهم Perfekt",
-    "description": "1. اکثر افعال حرکتی و تغییر حالت → sein (gehen, fahren, kommen, aufstehen, bleiben)\n2. افعال دیگر → haben\n3. افعال با پیشوند جداشدنی: پیشوند به ابتدای Partizip II می‌آید (aufstehen → aufgestanden)\n4. جملات منفی و سوالی همان قواعد را رعایت می‌کنند.",
+    "description": "1. اکثر افعال حرکتی و تغییر حالت \n sein (gehen, fahren, kommen, aufstehen, bleiben)\n2. افعال دیگر \n haben\n3. افعال با پیشوند جداشدنی:\n پیشوند به ابتدای Partizip II می‌آید (aufstehen → aufgestanden)\n4. جملات منفی و سوالی همان قواعد را رعایت می‌کنند.",
     "examples": [],
     "note": ""
   },

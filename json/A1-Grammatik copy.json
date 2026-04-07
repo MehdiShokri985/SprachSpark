@@ -1,0 +1,2623 @@
+[
+  {
+    "id": "1",
+    "title-id": "A1-1",
+    "title": "سلام کردن و معرفی نام (Begrüßung und Vorstellung)",
+    "description": "در آلمانی برای سلام و معرفی نام، بسته به رسمی یا غیررسمی بودن از عبارات متفاوت استفاده می‌شود:\n\n1. رسمی (Sie formell):\nWie heißen Sie?\nGuten Tag, mein Name ist [Nachname], [Vorname] [Nachname].\n\n2. غیررسمی (du informell):\nWie heißt du?\nHallo! Mein Name ist [Vorname].\n\nیا\nHi, ich heiße [Vorname].",
+    "examples": [
+      {
+        "de": "Guten Tag, Wie heißen Sie?\nGuten Tag, mein Name ist Decker, Martha Decker.",
+        "fa": "روز بخیر، نام شما چیست؟\nروز بخیر، نام من دکر، مارتا دکر است."
+      },
+      {
+        "de": "Hallo! Wie heißt du?\nMein Name ist Fabio.",
+        "fa": "هالو! اسم تو چیست؟\nنام من فابیو است."
+      },
+      {
+        "de": "Hi, Wie heißt du?\nHi, ich heiße Martha.",
+        "fa": "های، اسم تو چیست؟\nهای، اسم من مارتا است."
+      }
+    ],
+    "note": "du + informell\nSie formell\nVorname (نام کوچک): David, Nina\nNachname (نام خانوادگی): Bond, Vettel\n\nاین عبارات برای سطح A1 بسیار مهم هستند و تفاوت رسمی/غیررسمی را نشان می‌دهند."
+  },
+  {
+    "id": "2",
+    "title-id": "A1-1",
+    "title": "احوالپرسی‌های پایه‌ای آلمانی (Guten Morgen / Guten Tag / Guten Abend)",
+    "description": "در زبان آلمانی، سلام و احوالپرسی بسته به زمان روز متفاوت است:\n1. Guten Morgen → صبح تا حدود ظهر\n2. Guten Tag → طول روز (ظهر تا غروب)\n3. Guten Abend → عصر و شب (از حدود ساعت ۱۷ به بعد)",
+    "examples": [
+      {
+        "de": "Guten Morgen!",
+        "fa": "صبح بخیر!"
+      },
+      {
+        "de": "Guten Tag! Wie geht es Ihnen?",
+        "fa": "روز بخیر! حال شما چطور است؟"
+      },
+      {
+        "de": "Guten Abend.",
+        "fa": "عصر بخیر."
+      }
+    ],
+    "note": "این عبارات همیشه با حرف بزرگ شروع می‌شوند و «Guten» شکل مفعولی (Akkusativ) از «guter» است. برای شب دیروقت از «Gute Nacht» استفاده کنید."
+  },
+  {
+    "id": "3",
+    "title-id": "A1-1",
+    "title": "معرفی افراد با Das ist (Vorstellen)",
+    "description": "در مکالمات رسمی آلمانی برای سلام و معرفی افراد از ساختار زیر استفاده می‌شود:\n1. سلام: Guten Tag, [Herr/Frau] [نام خانوادگی].\n2. معرفی: Das ist [Herr/Frau] [نام خانوادگی].\n\nHerr → برای آقایان\nFrau → برای خانم‌ها",
+    "examples": [
+      {
+        "de": "Guten Tag, Frau Decker. Das ist Herr Kopp.",
+        "fa": "روز بخیر، خانم دکر. این آقای کاپ است."
+      },
+      {
+        "de": "Guten Tag, Herr Kopp.",
+        "fa": "روز بخیر، آقای کاپ."
+      }
+    ],
+    "note": "این ساختار در سطح A1 بسیار مهم است.\nهمیشه عنوان Herr یا Frau را قبل از نام خانوادگی بنویسید.\nDas ist ... Frau / Herr → جای خالی را با عنوان مناسب پر کنید."
+  },
+  {
+    "id": "4",
+    "title-id": "A1-1",
+    "title": "عبارات مودبانه برای پرسیدن نام و درخواست املا",
+    "description": "در مکالمات روزمره آلمانی برای پرسیدن نام شخص به صورت مودبانه از این ساختار استفاده می‌شود:\n1. Entschuldigung, wie heißen Sie?\n\nاگر نام را متوجه نشدید:\n2. Wie bitte?\n\nبرای درخواست املای نام (غیررسمی):\n3. Buchstabiere!",
+    "examples": [
+      {
+        "de": "Entschuldigung, wie heißen Sie?",
+        "fa": "ببخشید، نام شما چیست؟"
+      },
+      {
+        "de": "Wie bitte?",
+        "fa": "چی گفتید؟ (ببخشید؟)"
+      },
+      {
+        "de": "Buchstabiere!",
+        "fa": "املا کن!"
+      }
+    ],
+    "note": "این عبارات در سطح A1 برای شروع مکالمه و شفاف‌سازی بسیار مهم هستند. «Wie heißen Sie?» رسمی است و «buchstabiere» شکل imperative غیررسمی فعل «buchstabieren» (املا کردن) است."
+  },
+  {
+    "id": "5",
+    "title-id": "A1-1",
+    "title": "der, das, die (مقاله‌های معین و واژگان)",
+    "description": "در آلمانی هر اسم (Substantiv) جنسیت دارد و مقاله معین (bestimmter Artikel) همیشه با آن می‌آید:\n1. der → اسم‌های مذکر (maskulin)\n2. das → اسم‌های خنثی (neutrum)\n3. die → اسم‌های مؤنث (feminin)\n\nاین مقاله‌ها در حالت فاعلی (Nominativ) استفاده می‌شوند و باید همراه هر واژه حفظ شوند.",
+    "examples": [
+      {
+        "de": "Der Apfel ist rot.",
+        "fa": "سیب قرمز است."
+      },
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "fa": "کتاب روی میز است."
+      },
+      {
+        "de": "Die Katze schläft.",
+        "fa": "گربه خوابیده است."
+      }
+    ],
+    "note": "همیشه مقاله را با واژه حفظ کنید (Vokabel + Artikel). جنس اسم‌ها را نمی‌توان از معنی حدس زد. این قانون پایه‌ای سطح A1 است."
+  },
+
+  {
+    "id": "6",
+    "title-id": "A1-1",
+    "title": "ساختار سوالات W (W-Fragen)",
+    "description": "در سوالات W آلمانی (سوالات با کلمات پرسشی مانند wo, woher, wann, wie, warum و ...)، ترتیب کلمات به این شکل است:\n1. کلمه پرسشی (W-Wort) در موقعیت اول\n2. فعل صرف‌شده (konjugiertes Verb) در موقعیت دوم\n3. فاعل (Subjekt)\n4. بقیه جمله (متمم، قیدها و ...)",
+    "examples": [
+      {
+        "de": "Woher kommst du?",
+        "fa": "تو از کجا می‌آیی؟"
+      },
+      {
+        "de": "Ich komme aus Italien.",
+        "fa": "من از ایتالیا می‌آیم."
+      },
+      {
+        "de": "Wo wohnen Sie?",
+        "fa": "شما کجا زندگی می‌کنید؟"
+      },
+      {
+        "de": "Ich wohne in Berlin.",
+        "fa": "من در برلین زندگی می‌کنم."
+      }
+    ],
+    "note": "این ساختار نیز بر اساس قانون «موقعیت فعل دوم» (Verbzweitstellung) است. کلمه W همیشه اول می‌آید و فعل بلافاصله بعد از آن قرار می‌گیرد. این قانون در سطح A1 بسیار مهم است و تفاوت اصلی با جملات خبری (Subject-Verb) را نشان می‌دهد."
+  },
+  {
+    "id": "7",
+    "title-id": "A1-1",
+    "title": "ساختار جملات معرفی افراد (Wer ist das? / Das ist ...)",
+    "description": "در آلمانی برای معرفی افراد یا اشخاص از ساختار «Das ist ...» استفاده می‌شود.\n\n- پرسش: Wer ist das?\n- پاسخ: Das ist [نام شخص].\n\nدر جملات خبری ساده:\n1. فاعل (Subjekt: Das)\n2. فعل صرف‌شده (konjugiertes Verb: ist)\n3. بقیه جمله (نام شخص / Prädikatsnomen)\n\nاین ساختار دقیقاً از قانون «موقعیت فعل دوم» (Verbzweitstellung) پیروی می‌کند.",
+    "examples": [
+      {
+        "de": "Wer ist das?",
+        "fa": "این کیست؟"
+      },
+      {
+        "de": "Das ist Mehdi.",
+        "fa": "این مهدی است."
+      },
+      {
+        "de": "Das ist Mehdi und das ist Narges.",
+        "fa": "این مهدی است و این نرگس است."
+      }
+    ],
+    "note": "این ترتیب را «موقعیت فعل دوم» (Verbzweitstellung) می‌نامند که یکی از مهم‌ترین قوانین گرامر آلمانی در سطح A1 است. نام‌های خاص همیشه با حرف بزرگ شروع می‌شوند (Mehdi, Narges). «Das» در اینجا ضمیر اشاره است و به معنای «این» یا «آن» می‌آید."
+  },
+  {
+    "id": "8",
+    "title-id": "A1-1",
+    "title": "معرفی افراد: نام، محل سکونت و منشأ (Er/Sie heißt..., wohnt in..., kommt aus...)",
+    "description": "در جملات معرفی افراد (Hauptsatz) در آلمانی، از فعل‌های heißen، wohnen و kommen استفاده می‌شود و ترتیب کلمات همیشه Verbzweitstellung است:\n1. نام: Er/Sie heißt + [نام].\n2. محل سکونت: Er/Sie wohnt in + [شهر/منطقه].\n3. منشأ: Er/Sie kommt aus + [کشور/شهر].\n\nسؤالات:\n- Wer ist das?\n- Woher kommt er/sie?\n\nتوجه: «Er» = او (مذکر)، «sie» (با s کوچک) = او (مؤنث). «Sie» (با S بزرگ) = شما (رسمی) و فعل آن جمع صرف می‌شود.",
+    "examples": [
+      {
+        "de": "Er heißt Max.",
+        "fa": "اسم او ماکس است."
+      },
+      {
+        "de": "Sie wohnt in Stuttgart.",
+        "fa": "او در اشتوتگارت زندگی می‌کند."
+      },
+      {
+        "de": "Er kommt aus Iran.",
+        "fa": "او از ایران می‌آید."
+      },
+      {
+        "de": "Wer ist das?",
+        "fa": "این کیست؟"
+      },
+      {
+        "de": "Woher kommt sie?",
+        "fa": "او از کجا می‌آید؟"
+      },
+      {
+        "de": "Sie heißt Anna. Sie wohnt in Berlin und kommt aus Österreich.",
+        "fa": "اسم او آنا است. او در برلین زندگی می‌کند و از اتریش می‌آید."
+      }
+    ],
+    "note": "این جملات ساده خبری (Hauptsatz) هستند و قانون «موقعیت فعل دوم» (Verbzweitstellung) در آن‌ها رعایت می‌شود: فاعل اول → فعل دوم → بقیه جمله. در سؤالات wh- (Wer / Woher) هم کلمه سؤالی اول است و فعل بلافاصله دوم. این ساختارها در سطح A1 برای معرفی خود و دیگران ضروری هستند."
+  },
+  {
+    "id": "9",
+    "title-id": "A1-1",
+    "title": "ساختار جملات سؤالی Ja-/Nein-Fragen",
+    "description": "در جملات سؤالی بله/خیر (Ja-/Nein-Fragen) در زبان آلمانی، ترتیب کلمات متفاوت از جملات خبری است.\n\nقانون اصلی:\n1. فعل صرف‌شده (konjugiertes Verb) در موقعیت اول (Position 1)\n2. فاعل (Subjekt) در موقعیت دوم (Position 2)\n3. بقیه جمله (متمم، قیدها و ...)\n\nاین ساختار را «فعل اول» (Verb-Erststellung) می‌نامند. برخلاف جملات خبری که فعل در موقعیت دوم است (Verbzweitstellung)، اینجا فعل جمله را شروع می‌کند.\n\nبرای ساخت سؤال بله/خیر، کافی است فعل جمله خبری را به اول جمله ببرید و فاعل را بعد از آن قرار دهید. در انتها علامت سؤال (?) بگذارید.",
+    "examples": [
+      {
+        "de": "Kommst du morgen?",
+        "fa": "آیا فردا می‌آیی؟"
+      },
+      {
+        "de": "Kommt er aus Deutschland?",
+        "fa": "آیا او از آلمان می‌آید؟"
+      },
+      {
+        "de": "Kommt ihr heute Abend?",
+        "fa": "آیا امشب می‌آیید؟"
+      },
+      {
+        "de": "Sprichst du Deutsch?",
+        "fa": "آیا آلمانی صحبت می‌کنی؟"
+      }
+    ],
+    "note": "پاسخ به این سؤالات معمولاً با «Ja» (بله) یا «Nein» (خیر) است. اگر سؤال منفی باشد و بخواهید مخالفت کنید، از «Doch» استفاده کنید (مثلاً: Kommst du nicht? → Doch, ich komme.).\n\nمثال کامل با فعل «kommen» (در زمان حال):\n\n- Ich komme. → Kommst du? (تو می‌آیی؟)\n- Er kommt. → Kommt er? (او می‌آید؟)\n- Wir kommen. → Kommen wir? (ما می‌آییم؟)\n\nاین قانون برای همه افعال در جملات اصلی (Hauptsatz) در سطح A1 صدق می‌کند."
+  },
+  {
+    "id": "10",
+    "title-id": "A1-1",
+    "title": "پاسخ‌های کوتاه به سؤالات بله/خیر (ja <> nein)",
+    "description": "در آلمانی برای پاسخ به سؤالات بله/خیر (Ja/Nein-Fragen) می‌توانیم از پاسخ‌های کوتاه و ساده استفاده کنیم.\n\nساختار پاسخ‌های کوتاه:\n\n1. **ja** → بله (برای پاسخ مثبت)\n2. **nein** → خیر / نه (برای پاسخ منفی)\n\nبرای پاسخ‌های کمی دقیق‌تر و مودبانه‌تر از عبارات زیر استفاده می‌شود:\n\n• **ein bisschen** → کمی / یک کم\n• **gut** → خوب\n• **sehr gut** → خیلی خوب / بسیار خوب\n\nاین عبارات معمولاً در مکالمات روزمره، به‌خصوص وقتی کسی از حال شما می‌پرسد یا درباره چیزی نظر می‌خواهد، به کار می‌روند.\n\nنکته مهم:\nدر آلمانی پاسخ کوتاه معمولاً فقط با «ja» یا «nein» شروع می‌شود و بعد از آن می‌توان توضیح کوتاهی داد. همچنین بعد از «ja» و «nein» معمولاً کاما (,) گذاشته می‌شود.",
+    "examples": [
+      {
+        "de": "Bist du müde?\nJa.",
+        "fa": "خسته‌ای؟\nبله."
+      },
+      {
+        "de": "Hast du Hunger?\nNein.",
+        "fa": "گرسنه‌ای؟\nنه."
+      },
+      {
+        "de": "Wie geht es dir?\nGut.",
+        "fa": "حالت چطوره؟\nخوب."
+      },
+      {
+        "de": "Sprichst du Deutsch?\nEin bisschen.",
+        "fa": "آلمانی حرف می‌زنی؟\nکمی."
+      },
+      {
+        "de": "War der Film gut?\nSehr gut!",
+        "fa": "فیلم خوب بود؟\nخیلی خوب!"
+      },
+      {
+        "de": "Möchtest du Kaffee?\nJa, gern.",
+        "fa": "قهوه می‌خوای؟\nبله، با کمال میل."
+      }
+    ],
+    "note": "• «Ja» و «Nein» همیشه با حرف بزرگ نوشته می‌شوند.\n• در مکالمات روزمره آلمانی‌زبان‌ها اغلب فقط «Ja.» یا «Nein.» می‌گویند و توضیح بیشتری نمی‌دهند.\n• «Sehr gut» بسیار رایج است و برای ابراز رضایت قوی استفاده می‌شود.\n• «Ein bisschen» نشان‌دهنده سطح متوسط یا کم است و خیلی مودبانه به نظر می‌رسد."
+  },
+  {
+    "id": "11",
+    "title-id": "A1-1",
+    "title": "در رابطه با تماس گرفتن و ایمیل دادن به کسی",
+    "description": "در این درس با عبارات پایه‌ای آلمانی برای مکالمات تلفنی آشنا می‌شوید. یاد می‌گیرید چگونه بپرسید آیا کسی آنجا هست، چگونه شماره تلفن همراه (Handynummer) را درخواست کنید یا پیشنهاد دهید، و چطور در مورد تماس تلفنی و دادن ایمیل صحبت کنید.\n\nنکات مهم:\n- در مکالمات غیررسمی (با دوستان) از «du» و «Hallo» استفاده می‌شود.\n- وقتی کسی را می‌خواهید: «Ist ... da?» یعنی «آیا ... آنجا هست؟»\n- پیشنهاد شماره: «Möchtest du die Handynummer?» یعنی «آیا شماره موبایل را می‌خواهی؟»\n- دادن شماره: شماره‌ها را اغلب گروهی و آهسته می‌گویند، مثلاً «null eins sieben sechs» برای 0176.\n- برای ایمیل: «Meine E-Mail-Adresse ist ...» و علائم را این‌طور می‌گویند: @ = «ätt», . = «Punkt», de = «Punkt de».\n\nاین عبارات برای موقعیت‌های روزمره و سطح A1 مناسب هستند.",
+    "examples": [
+      {
+        "de": "Hallo, hier ist Tom. Ist Emma da?",
+        "fa": "سلام، اینجا تام است. آیا اما آنجا هست؟"
+      },
+      {
+        "de": "Hallo, Tom. Nein, Emma ist nicht da. Möchtest du die Handynummer?",
+        "fa": "سلام، تام. نه، اما اینجا نیست. آیا شماره موبایل را می‌خواهی؟"
+      },
+      {
+        "de": "Ja, bitte. Wie ist ihre Handynummer?",
+        "fa": "بله، لطفاً. شماره موبایل او چیست؟"
+      },
+      {
+        "de": "Ihre Handynummer ist null eins sieben sechs zwei drei vier fünf sechs sieben acht.",
+        "fa": "شماره موبایل او ۰۱۷۶۲۳۴۵۶۷۸ است."
+      },
+      {
+        "de": "Meine E-Mail-Adresse ist tom@beispiel.de",
+        "fa": "آدرس ایمیل من tom@beispiel.de است. (تلفظ: tom ätt beispiel Punkt de)"
+      },
+      {
+        "de": "Kann ich eine Nachricht hinterlassen?",
+        "fa": "آیا می‌توانم پیغامی بگذارم؟"
+      }
+    ],
+    "note": "نکته: در مکالمات تلفنی آلمانی، اغلب با «Hallo» شروع می‌شود. برای شماره‌ها از کلمات «null» (صفر)، «eins» (یک)، «zwei» (دو) و غیره استفاده کنید. وقتی ایمیل را می‌گویید، @ را «ätt» و نقطه را «Punkt» تلفظ کنید. این عبارات را آهسته و واضح تمرین کنید تا در تماس واقعی راحت باشید.\n\nمثال کامل مکالمه:\nTom: Hallo, hier ist Tom. Ist Emma da?\nAnna: Hallo, Tom. Nein, sie ist nicht da. Möchtest du ihre Handynummer?\nTom: Ja, gerne.\nAnna: Okay, die Nummer ist null eins sieben sechs ..."
+  },
+  {
+    "id": "12",
+    "title-id": "A1-1",
+    "title": "علاقه‌مندی‌ها (Interessen und Hobbys)",
+    "description": "در این مبحث با جملات ساده در سطح A1 آشنا می‌شوید که چطور علاقه‌مندی‌ها و فعالیت‌های روزمره خود را به آلمانی بیان کنید. تمرکز روی فعل‌های حال ساده (Präsens) است. \n\nنکات مهم:\n- فعل «studieren» برای تحصیل در دانشگاه استفاده می‌شود (ich studiere = من تحصیل می‌کنم / دانشجو هستم).\n- «joggen» یک فعل جدا شونده نیست و مستقیم صرف می‌شود.\n- برای فعالیت‌هایی مثل یوگا و ورزش از «machen» استفاده می‌کنیم.\n- «gerne» به معنای «با لذت» یا «دوست دارم» است و بعد از فعل اصلی قرار می‌گیرد تا علاقه را نشان دهد.\n\nساختار کلی: Ich + فعل صرف‌شده + بقیه جمله.",
+    "examples": [
+      {
+        "de": "Ich studiere.",
+        "fa": "من تحصیل می‌کنم. (دانشجو هستم)"
+      },
+      {
+        "de": "Ich jogge.",
+        "fa": "من می‌دوم. (دویدن آهسته / جاگرینگ می‌کنم)"
+      },
+      {
+        "de": "Ich mache Yoga.",
+        "fa": "من یوگا انجام می‌دهم."
+      },
+      {
+        "de": "Ich mache gerne Sport.",
+        "fa": "من دوست دارم ورزش کنم. / من از ورزش کردن لذت می‌برم."
+      },
+      {
+        "de": "Ich studiere Medizin an der Universität.",
+        "fa": "من پزشکی در دانشگاه تحصیل می‌کنم."
+      },
+      {
+        "de": "Ich jogge jeden Morgen im Park.",
+        "fa": "من هر صبح در پارک می‌دوم."
+      },
+      {
+        "de": "Ich mache Yoga zweimal pro Woche.",
+        "fa": "من دو بار در هفته یوگا انجام می‌دهم."
+      },
+      {
+        "de": "Ich mache gerne Sport, besonders Fußball.",
+        "fa": "من دوست دارم ورزش کنم، به خصوص فوتبال."
+      }
+    ],
+    "note": "در آلمانی برای صحبت درباره علاقه‌مندی‌ها اغلب از «gerne» + فعل استفاده می‌شود: Ich mache gerne ... \n\nبرای تنوع بیشتر می‌توانید بگویید: \n- Ich treibe Sport. (من ورزش می‌کنم - رسمی‌تر)\n- Ich gehe joggen. (من می‌روم دویدن)\n\nاین جملات برای سطح A1 بسیار مفید هستند و در مکالمات روزمره درباره خودتان (Über mich) کاربرد دارند. "
+  },
+  {
+    "id": "13",
+    "title-id": "A1-1",
+    "title": "صرف فعل heißen (به نام بودن / نام داشتن)",
+    "description": "فعل heißen یک فعل نامنظم (starkes Verb) در زبان آلمانی است و به معنای «نام داشتن»، «به نام ... بودن» یا «نامیدن» می‌آید. این فعل بیشتر برای معرفی نام افراد یا چیزها استفاده می‌شود.\n\nدر زمان حال (Präsens) صرف آن به این شکل است:\n\n- ich heiße\n- du heißt\n- er/sie/es heißt\n- wir heißen\n- ihr heißt\n- sie/Sie heißen\n\nنکته مهم: در سوم شخص مفرد (er/sie/es) و دوم شخص مفرد غیررسمی (du) به جای e، فقط t اضافه می‌شود و ss به همان شکل باقی می‌ماند. این فعل در سطح A1 بسیار مهم است چون برای سلام و احوالپرسی و معرفی خود استفاده می‌شود.",
+    "examples": [
+      {
+        "de": "Ich heiße Anna.",
+        "fa": "نام من آنا است. / من آنا هستم."
+      },
+      {
+        "de": "Wie heißt du?",
+        "fa": "اسمت چیست؟"
+      },
+      {
+        "de": "Er heißt Tom.",
+        "fa": "نام او تام است."
+      },
+      {
+        "de": "Wie heißen Sie?",
+        "fa": "نام شما چیست؟ (رسمی)"
+      },
+      {
+        "de": "Wir heißen Müller.",
+        "fa": "نام خانوادگی ما مولر است."
+      }
+    ],
+    "note": "فعل heißen همیشه با نام شخص یا شیء مستقیماً بدون حرف اضافه استفاده می‌شود. مثلاً: Ich heiße ... (نه Ich bin heißen ...)\n\nبرای سؤال کردن نام:\n- غیررسمی: Wie heißt du?\n- رسمی: Wie heißen Sie?\n\nاین فعل در Präteritum (گذشته ساده) به شکل hieß صرف می‌شود (مثلاً: Ich hieß früher ...). اما در سطح A1 بیشتر روی Präsens تمرکز داریم."
+  },
+  {
+    "id": "14",
+    "title-id": "A1-1",
+    "title": "Verb \"sein\" – صرف فعل بودن (در حال حاضر)",
+    "description": "فعل \"sein\" به معنای \"بودن\" یکی از مهم‌ترین افعال کمکی و اصلی در زبان آلمانی است. این فعل کاملاً نامنظم (unregelmäßig) صرف می‌شود و در زمان حال (Präsens) شکل‌های متفاوتی برای هر شخص دارد.\n\nنکته مهم: در آلمانی، بعد از \"sein\" معمولاً از صفت (Adjektiv) یا اسم بدون مقاله (برای معرفی شغل، ملیت و ...) استفاده می‌شود. همچنین برای معرفی مکان یا وضعیت به کار می‌رود.\n\nصرف کامل در زمان حال (Präsens):\n\n• ich → bin\n• du → bist\n• er / sie / es → ist\n• wir → sind\n• ihr → seid\n• sie / Sie → sind\n\nتوجه: \"Sie\" (با حرف بزرگ) شکل مودبانه (höflich) برای \"شما\" است و همیشه با \"sind\" صرف می‌شود (هم برای مفرد و هم جمع).",
+    "examples": [
+      {
+        "de": "Ich bin Lehrer.",
+        "fa": "من معلم هستم."
+      },
+      {
+        "de": "Du bist sehr nett.",
+        "fa": "تو خیلی مهربانی."
+      },
+      {
+        "de": "Er ist Arzt. Sie ist Ärztin.",
+        "fa": "او (مذکر) پزشک است. او (مونث) پزشک است."
+      },
+      {
+        "de": "Es ist kalt heute.",
+        "fa": "امروز سرد است."
+      },
+      {
+        "de": "Wir sind in Berlin.",
+        "fa": "ما در برلین هستیم."
+      },
+      {
+        "de": "Ihr seid Freunde.",
+        "fa": "شما (جمع غیررسمی) دوست هستید."
+      },
+      {
+        "de": "Sie sind Studenten. / Sind Sie Herr Müller?",
+        "fa": "آنها دانشجو هستند. / آیا شما آقای مولر هستید؟ (مودبانه)"
+      }
+    ],
+    "note": "نکات اضافی:\n• برای سؤال کردن، فعل \"sein\" در اول جمله می‌آید: Bist du müde? (آیا خسته‌ای؟)\n• برای منفی کردن، از \"nicht\" بعد از فعل استفاده کنید: Ich bin nicht glücklich. (من خوشحال نیستم.)\n• \"sein\" برای معرفی خود (Ich bin ... )، شغل، ملیت، سن، وضعیت و مکان بسیار پرکاربرد است.\n• در مکالمات روزمره A1، این فعل را زیاد تمرین کنید چون پایه بسیاری از جملات است.\n\nمثال‌های بیشتر برای تمرین:\n• Ich bin 25 Jahre alt. (من ۲۵ ساله‌ام.)\n• Du bist aus Iran. (تو از ایران هستی.)\n• Wir sind glücklich. (ما خوشحال هستیم.)"
+  },
+  {
+    "id": "15",
+    "title-id": "A1-1",
+    "title": "صرف فعل kommen (آمدن)",
+    "description": "فعل kommen یکی از فعل‌های مهم و پرکاربرد در زبان آلمانی است و به معنای «آمدن» می‌باشد. این فعل یک فعل قوی (starkes Verb / unregelmäßig) است و در زمان حال (Präsens) صرف آن به صورت زیر می‌باشد:\n\n• Stamm: komm-\n• در سوم شخص مفرد (er/sie/es) و دوم شخص مفرد غیررسمی (du) تغییری در مصوت رخ می‌دهد (a → ö در برخی گویش‌ها یا فرم‌های قدیمی، اما فرم استاندارد kommt و kommst است).\n• فعل kommen با فعل کمکی sein صرف می‌شود (برای زمان کامل Perfekt: ich bin gekommen).\n\nصرف کامل در زمان حال (Präsens) برای تمام اشخاص:\n\nich komme\ndu kommst\ner/sie/es kommt\nwir kommen\nihr kommt\nsie/Sie kommen\n\nنکته مهم: این فعل برای بیان حرکت به سمت گوینده استفاده می‌شود. در جملات روزمره بسیار رایج است.",
+    "examples": [
+      {
+        "de": "Ich komme gleich.",
+        "fa": "من الان می‌آیم. / همین الان می‌رسم."
+      },
+      {
+        "de": "Du kommst morgen, oder?",
+        "fa": "تو فردا می‌آیی، مگه نه؟"
+      },
+      {
+        "de": "Er kommt aus Deutschland.",
+        "fa": "او از آلمان می‌آید. (منشأ او آلمان است)"
+      },
+      {
+        "de": "Wir kommen mit dem Zug.",
+        "fa": "ما با قطار می‌آییم."
+      },
+      {
+        "de": "Ihr kommt zu spät!",
+        "fa": "شما دیر می‌آیید!"
+      },
+      {
+        "de": "Sie kommen aus Iran.",
+        "fa": "آنها / شما (رسمی) از ایران می‌آیند."
+      }
+    ],
+    "note": "• kommen اغلب با حروف اضافه مانند aus (از ... آمدن)، nach (به ... آمدن)، zu (به سمت ... آمدن) یا mit (با ... آمدن) استفاده می‌شود.\n• در زمان گذشته کامل (Perfekt): ich bin gekommen (من آمده‌ام).\n• مثال اضافی: Kommst du mit? → آیا با من/ما می‌آیی؟"
+  },
+  {
+    "id": "16",
+    "title-id": "A1-1",
+    "title": "صرف فعل wohnen (زندگی کردن / اقامت داشتن) در زمان حال (Präsens)",
+    "description": "فعل «wohnen» یک فعل منظم (regelmäßiges Verb) در زبان آلمانی است و به معنای «زندگی کردن»، «ساکن بودن» یا «اقامت داشتن» در جایی است.\n\nدر زمان حال (Präsens) این فعل به صورت زیر صرف می‌شود:\n\n- Stamm (ریشه فعل): wohn-\n- برای ich: -e اضافه می‌شود → wohne\n- برای du: -st اضافه می‌شود → wohnst\n- برای er/sie/es: -t اضافه می‌شود → wohnt\n- برای wir/ihr/sie/Sie: همان ریشه + -en → wohnen (برای ihr فقط -t)\n\nتوجه: چون ریشه فعل با «n» تمام می‌شود، هیچ تغییری در تلفظ ایجاد نمی‌شود و قاعده معمولی اعمال می‌گردد.",
+    "examples": [
+      {
+        "de": "Ich wohne in Berlin.",
+        "fa": "من در برلین زندگی می‌کنم."
+      },
+      {
+        "de": "Du wohnst in München, oder?",
+        "fa": "تو در مونیخ زندگی می‌کنی، مگر نه؟"
+      },
+      {
+        "de": "Er wohnt bei seinen Eltern.",
+        "fa": "او نزد والدینش زندگی می‌کند."
+      },
+      {
+        "de": "Sie wohnt in einer kleinen Wohnung.",
+        "fa": "او (مونث) در یک آپارتمان کوچک زندگی می‌کند."
+      },
+      {
+        "de": "Wir wohnen in einem Haus.",
+        "fa": "ما در یک خانه زندگی می‌کنیم."
+      },
+      {
+        "de": "Ihr wohnt in der Stadtmitte.",
+        "fa": "شما (جمع غیررسمی) در مرکز شهر زندگی می‌کنید."
+      },
+      {
+        "de": "Sie wohnen in Deutschland.",
+        "fa": "آنها در آلمان زندگی می‌کنند."
+      },
+      {
+        "de": "Wo wohnen Sie?",
+        "fa": "شما (رسمی) کجا زندگی می‌کنید؟"
+      }
+    ],
+    "note": "نکات مهم:\n- «wohnen» همیشه با حرف اضافه «in» + داتیو (برای شهر یا کشور) یا «bei» (نزد کسی) یا «in» + داتیو (در خانه/آپارتمان) استفاده می‌شود.\n- این فعل در سطح A1 بسیار پرکاربرد است و برای معرفی محل زندگی استفاده می‌شود.\n- در جملات سؤالی: Wo wohnst du? / Wo wohnt er? / Wo wohnen Sie?\n- شکل رسمی (Sie) همیشه مانند «sie» (آنها) صرف می‌شود: Sie wohnen."
+  },
+  {
+    "id": "17",
+    "title-id": "A1-1",
+    "title": "Verb: möchten (صرف فعل möchten)",
+    "description": "فعل «möchten» یکی از مهم‌ترین افعال کمکی (Modalverb) در زبان آلمانی است و به معنای «خواستن» یا «میل داشتن» (would like) به کار می‌رود. این فعل در واقع شکل Konjunktiv II از فعل «mögen» (دوست داشتن) است، اما امروزه به صورت مستقل و بسیار مودبانه برای بیان آرزو یا درخواست استفاده می‌شود.\n\nدر مقایسه با «wollen» (خواستن قوی و مستقیم)، «möchten» بسیار مودبانه‌تر و نرم‌تر است و در موقعیت‌های رسمی، رستوران، فروشگاه یا صحبت با افراد غریبه ترجیح داده می‌شود.\n\nنکته مهم: «möchten» همیشه با فعل اصلی در شکل Infinitiv (مصدر) همراه است و فعل اصلی در آخر جمله قرار می‌گیرد.\n\nصرف در زمان حال (Präsens) برای تمام اشخاص:\n\nich          möchte\n\ndu           möchtest\n\ner/sie/es    möchte\n\nwir          möchten\n\nihr          möchtet\n\nsie/Sie      möchten\n\nتوجه: در سوم شخص مفرد و اول شخص مفرد شکل یکسان است (möchte).",
+    "examples": [
+      {
+        "de": "Ich möchte einen Kaffee trinken.",
+        "fa": "من دوست دارم یک قهوه بنوشم. / من می‌خواهم یک قهوه بنوشم."
+      },
+      {
+        "de": "Möchtest du mitkommen?",
+        "fa": "آیا دوست داری با ما بیایی؟"
+      },
+      {
+        "de": "Er möchte nach Deutschland reisen.",
+        "fa": "او دوست دارد به آلمان سفر کند."
+      },
+      {
+        "de": "Wir möchten zwei Tickets kaufen.",
+        "fa": "ما دوست داریم دو بلیط بخریم."
+      },
+      {
+        "de": "Möchtet ihr ein Eis essen?",
+        "fa": "آیا شما (دوستانه) دوست دارید بستنی بخورید؟"
+      },
+      {
+        "de": "Möchten Sie etwas trinken?",
+        "fa": "آیا شما (مودبانه/رسمی) دوست دارید چیزی بنوشید؟"
+      }
+    ],
+    "note": "نکات اضافی:\n• «möchten» مودبانه‌تر از «wollen» است. مثال: «Ich will ein Bier» (مستقیم و کمی بی‌ادب) در مقابل «Ich möchte ein Bier» (مودبانه).\n• در رستوران یا فروشگاه همیشه از «möchten» استفاده کنید.\n• در گذشته از «wollte» (از wollen) استفاده می‌شود، نه شکل گذشته möchten.\n• این فعل در سطح A1 بسیار مهم است و در مکالمات روزمره زیاد به کار می‌رود."
+  },
+  {
+    "id": "18",
+    "title-id": "A1-1",
+    "title": "صرف فعل sprechen (صحبت کردن / حرف زدن) در زمان حال ساده (Präsens)",
+    "description": "فعل «sprechen» یک فعل نامنظم (starkes Verb) است. در زمان حال ساده (Präsens)، ریشه فعل در اشخاص du و er/sie/es تغییر می‌کند: e به i تبدیل می‌شود (Vokalwechsel). \\n\\nصرف کامل در Präsens:\\n\\nich spreche\\ndu sprichst\\ner/sie/es spricht\\nwir sprechen\\nihr sprecht\\nsie/Sie sprechen\\n\\nتوجه: این فعل برای بیان صحبت کردن به یک زبان، حرف زدن با کسی یا صحبت کردن در مورد موضوعی استفاده می‌شود. در آلمانی، Präsens هم برای حال ساده و هم برای حال استمراری به کار می‌رود.",
+    "examples": [
+      {
+        "de": "Ich spreche Deutsch.",
+        "fa": "من آلمانی صحبت می‌کنم."
+      },
+      {
+        "de": "Sprichst du Englisch?",
+        "fa": "آیا انگلیسی صحبت می‌کنی؟"
+      },
+      {
+        "de": "Er spricht sehr schnell.",
+        "fa": "او خیلی سریع حرف می‌زند."
+      },
+      {
+        "de": "Wir sprechen mit unseren Freunden.",
+        "fa": "ما با دوستانمان صحبت می‌کنیم."
+      },
+      {
+        "de": "Sprecht ihr Spanisch?",
+        "fa": "آیا شما اسپانیایی صحبت می‌کنید؟ (غیررسمی جمع)"
+      },
+      {
+        "de": "Sprechen Sie bitte langsam.",
+        "fa": "لطفاً آهسته صحبت کنید. (رسمی)"
+      }
+    ],
+    "note": "نکته مهم: \n- در اشخاص du و er/sie/es، مصوت e به i تغییر می‌کند (sprechen → sprichst / spricht). این تغییر فقط در Präsens اتفاق می‌افتد. \n- فعل sprechen اغلب با حرف اضافه «mit» (با کسی) یا مستقیماً با نام زبان استفاده می‌شود (Deutsch sprechen). \n- شکل گذشته ساده (Präteritum): ich sprach, du sprachst, er sprach ... \n- شکل کامل (Perfekt): ich habe gesprochen."
+  },
+  {
+    "id": "19",
+    "title-id": "A1-1",
+    "title": "Fragewörter: Wie, Woher, Wohin, Wo, Wer",
+    "description": "در زبان آلمانی، این کلمات سؤالی (Fragewörter یا W-Fragen) برای پرسیدن اطلاعات خاص استفاده می‌شوند. این کلمات همیشه در موقعیت ۱ جمله قرار می‌گیرند و فعل صرف‌شده بلافاصله بعد از آن (موقعیت ۲) می‌آید. \n\n• Wie → چطور / چگونه (پرسش از نحوه یا کیفیت) \n• Woher → از کجا (پرسش از مبدأ یا منشأ) \n• Wohin → به کجا (پرسش از مقصد یا جهت حرکت) \n• Wo → کجا (پرسش از مکان ثابت) \n• Wer → کی / چه کسی (پرسش از شخص - فاعل) \n\nاین کلمات تغییر شکل نمی‌دهند (به جز Wer که بسته به حالت دستوری می‌تواند Wen، Wem، Wessen شود، اما در سطح پایه معمولاً Wer استفاده می‌شود). \n\nتوجه: در آلمانی، ترتیب جمله در سؤال W-Frage این است: \nFragewort + Verb (صرف‌شده) + فاعل + بقیه جمله",
+    "examples": [
+      {
+        "de": "Wie heißt du?",
+        "fa": "اسمت چیه؟ (چطور صدا می‌شوی؟)"
+      },
+      {
+        "de": "Wie geht es dir?",
+        "fa": "حالت چطوره؟"
+      },
+      {
+        "de": "Woher kommst du?",
+        "fa": "از کجا می‌آیی؟"
+      },
+      {
+        "de": "Woher bist du?",
+        "fa": "اهل کجایی؟ (از کجا هستی؟)"
+      },
+      {
+        "de": "Wohin gehst du?",
+        "fa": "به کجا می‌روی؟"
+      },
+      {
+        "de": "Wohin fährst du?",
+        "fa": "به کجا می‌روی؟ (با وسیله نقلیه)"
+      },
+      {
+        "de": "Wo wohnst du?",
+        "fa": "کجا زندگی می‌کنی؟"
+      },
+      {
+        "de": "Wo ist die Toilette?",
+        "fa": "توالت کجاست؟"
+      },
+      {
+        "de": "Wer bist du?",
+        "fa": "تو کی هستی؟"
+      },
+      {
+        "de": "Wer ist das?",
+        "fa": "این کیه؟"
+      }
+    ],
+    "note": "نکات مهم:\n• Wo = مکان ثابت (بدون حرکت)\n• Wohin = جهت حرکت به سمت مقصد\n• Woher = جهت حرکت از مبدأ\n• Wie اغلب با فعل‌هایی مثل heißen، gehen، machen ترکیب می‌شود.\n• Wer برای اشخاص است و در حالت فاعلی (Nominativ) استفاده می‌شود. برای مفعول مستقیم: Wen، برای مفعول غیرمستقیم: Wem.\n• مثال‌های اضافی برای تمرین:\nWie alt bist du? → چند سالته؟\nWoher kommst du wirklich? → واقعاً از کجا می‌آیی؟\nWohin soll ich gehen? → به کجا باید بروم؟"
+  },
+  {
+    "id": "20",
+    "title-id": "A1-2",
+    "title": "چگونه حال شما را بپرسیم؟ (رسمی و غیررسمی)",
+    "description": "در آلمانی دو شکل اصلی برای پرسیدن «حال شما چطور است؟» وجود دارد:\n\n• رسمی (با Sie): Wie geht es Ihnen?\nاین شکل برای افراد غریبه، بزرگ‌ترها، رئیس، معلم یا موقعیت‌های رسمی استفاده می‌شود.\n\n• غیررسمی (با du): Wie geht es dir?\nاین شکل برای دوستان، خانواده، هم‌سن‌ها یا افراد آشنا استفاده می‌شود.\n\nهمچنین شکل کوتاه و روزمره: Wie geht’s? (که بیشتر غیررسمی است اما گاهی در موقعیت‌های نیمه‌رسمی هم شنیده می‌شود).\n\nدر پاسخ معمولاً اول حال خود را می‌گوییم و سپس حال طرف مقابل را می‌پرسیم (Und Ihnen? / Und dir?).\n\nپاسخ‌های رایج:\n- خیلی خوب / عالی → Es geht mir sehr gut. / Super.\n- خوب → Es geht mir gut. / Gut, danke.\n- معمولی / متوسط → Es geht. / So lala.\n- بد → Es geht mir schlecht.",
+    "examples": [
+      {
+        "de": "Guten Tag, Herr Müller. Wie geht es Ihnen?",
+        "fa": "روز بخیر، آقای مولر. حال شما چطور است؟ (رسمی)"
+      },
+      {
+        "de": "Hallo Anna! Wie geht es dir?",
+        "fa": "سلام آنا! حالت چطوره؟ (غیررسمی)"
+      },
+      {
+        "de": "Wie geht’s?",
+        "fa": "چطوری؟ (کوتاه و روزمره)"
+      },
+      {
+        "de": "Es geht mir sehr gut, danke. Und Ihnen?",
+        "fa": "حال من خیلی خوب است، ممنون. حال شما چطور است؟ (رسمی)"
+      },
+      {
+        "de": "Gut, danke. Und dir?",
+        "fa": "خوب، ممنون. تو چطوری؟ (غیررسمی)"
+      },
+      {
+        "de": "Es geht mir schlecht.",
+        "fa": "حال من بد است."
+      },
+      {
+        "de": "Es geht so lala.",
+        "fa": "مخصوصاً خوب نیست / معمولی است."
+      }
+    ],
+    "note": "در آلمان، «Wie geht es dir/Ihnen?» معمولاً فقط یک سلام ساده نیست و ممکن است طرف مقابل واقعاً انتظار پاسخ صادقانه داشته باشد (به خصوص در شکل غیررسمی). همیشه با «Danke» یا «Danke, und ...» جواب را کامل کنید. "
+  },
+  {
+    "id": "21",
+    "title-id": "A1-2",
+    "title": "ein / eine – kein / keine\n(Indefinitartikel und Negativartikel)",
+    "description": "در آلمانی برای معرفی یک چیز نامشخص (یکی از خیلی‌ها) از «ein» یا «eine» استفاده می‌کنیم.\n\n- ein → برای اسم‌های مذکر (der) و خنثی (das)\n- eine → برای اسم‌های مؤنث (die)\n\nبرای منفی کردن آن‌ها (یعنی «نه یک ...» یا «هیچ ...») از «kein» یا «keine» استفاده می‌شود که دقیقاً همان الگوی ein/eine را دارد.\n\nنکته مهم: این قواعد در حالت Nominativ (فاعلی) استفاده می‌شود که در درس‌های اولیه خیلی رایج است.\n\nمثال‌های ورودی:\nein Laptop (مذکر)\nkein Laptop\nein Handy (خنثی)\nkein Handy\neine Stadt (مؤنث)\nkeine Stadt",
+    "examples": [
+      {
+        "de": "Das ist ein Laptop.",
+        "fa": "این یک لپ‌تاپ است."
+      },
+      {
+        "de": "Das ist kein Laptop.",
+        "fa": "این لپ‌تاپ نیست."
+      },
+      {
+        "de": "Das ist ein Handy.",
+        "fa": "این یک گوشی است."
+      },
+      {
+        "de": "Das ist kein Handy.",
+        "fa": "این گوشی نیست."
+      },
+      {
+        "de": "Das ist eine Stadt.",
+        "fa": "این یک شهر است."
+      },
+      {
+        "de": "Das ist keine Stadt.",
+        "fa": "این شهر نیست."
+      },
+      {
+        "de": "Das ist der Bus.",
+        "fa": "این همان اتوبوس است. (معین)"
+      },
+      {
+        "de": "Das ist ein Bus.",
+        "fa": "این یک اتوبوس است."
+      },
+      {
+        "de": "Das ist kein Bus.",
+        "fa": "این اتوبوس نیست."
+      },
+      {
+        "de": "Na, was ist denn das?",
+        "fa": "خب، این دیگه چیه؟"
+      },
+      {
+        "de": "Ein Hund?",
+        "fa": "یک سگ؟"
+      },
+      {
+        "de": "Nein, das ist doch kein Hund.",
+        "fa": "نه، این که سگ نیست."
+      }
+    ],
+    "note": "قاعده ساده:\n• اسم مذکر یا خنثی → ein / kein\n• اسم مؤنث → eine / keine\n\nدر جملات شناسایی (Das ist ...) معمولاً Nominativ استفاده می‌شود.\n\n«der/die/das» برای چیز مشخص و شناخته‌شده است، اما «ein/eine» برای معرفی چیزی جدید یا نامشخص.\n\n«kein/keine» دقیقاً منفی همان «ein/eine» است."
+  },
+  {
+    "id": "22",
+    "title-id": "A1-2",
+    "title": "خداحافظی در آلمانی: Auf Wiedersehen - Tschüss - Bis",
+    "description": "در این درس با رایج‌ترین روش‌های خداحافظی در زبان آلمانی آشنا می‌شوید.\n\nAuf Wiedersehen: رسمی و مودبانه (معنی تحت‌اللفظی: تا دیدار دوباره). مناسب برای موقعیت‌های رسمی، فروشگاه‌ها، افراد غریبه یا بزرگترها.\n\nTschüss: غیررسمی و روزمره (معادل «بای» یا «خداحافظ» دوستانه). رایج‌ترین خداحافظی در مکالمات روزمره با دوستان، همکاران و افراد آشنا.\n\nBis ...: گروهی از عبارات غیررسمی که به معنی «تا ...» هستند و زمان دیدار بعدی را مشخص می‌کنند:\n- Bis bald → تا به زودی (زمان دقیق مشخص نیست)\n- Bis später → تا بعداً (معمولاً همان روز)\n- Bis dann → تا آن موقع (وقتی قرار قبلی دارید)",
+    "examples": [
+      {
+        "de": "Auf Wiedersehen, Frau Schmidt.",
+        "fa": "خداحافظ، خانم اشمیت."
+      },
+      {
+        "de": "Tschüss, bis morgen!",
+        "fa": "بای، تا فردا!"
+      },
+      {
+        "de": "Auf Wiedersehen und einen schönen Tag noch.",
+        "fa": "خداحافظ و روز خوبی داشته باشید."
+      },
+      {
+        "de": "Tschüss, bis bald!",
+        "fa": "بای، تا به زودی!"
+      },
+      {
+        "de": "Bis später, wir sehen uns nach dem Mittagessen.",
+        "fa": "تا بعداً، بعد از ناهار می‌بینمت."
+      },
+      {
+        "de": "Tschüss! Bis dann.",
+        "fa": "بای! تا آن موقع."
+      }
+    ],
+    "note": "نکته مهم: در موقعیت‌های خیلی رسمی (مثل مصاحبه یا با مشتریان) از «Auf Wiedersehen» استفاده کنید. در مکالمات دوستانه و روزمره «Tschüss» خیلی طبیعی‌تر است. عبارات «Bis ...» همیشه غیررسمی هستند و می‌توانید آن‌ها را بعد از Tschüss اضافه کنید (مثل: Tschüss, bis bald!).\n\nتلفظ:\n- Auf Wiedersehen → آوف ویدِرزِهِن\n- Tschüss → چوس (با صدای «چ» تند)\n- Bis bald → بیس بالت"
+  },
+  {
+    "id": "23",
+    "title-id": "A1-2",
+    "title": "Possessivartikel: mein, dein, sein, ihr, unser, euer, Ihr",
+    "description": "در آلمانی برای نشان دادن مالکیت (my, your, his, her, its, our, your, their) از **Possessivartikel** استفاده می‌شود.\n\nاین کلمات مثل صفت قبل از اسم می‌آیند و باید با جنس (مذکر، مؤنث، خنثی) و تعداد (مفرد یا جمع) اسم هماهنگ شوند.\n\nتوجه: در Nominativ (فاعلی) و برای اسم‌های مفرد مذکر/خنثی معمولاً بدون پایان یا با -e/-er/-es هستند.\n\nلیست پایه:\n• ich → mein (من)\n• du → dein (تو غیررسمی)\n• er/es → sein (او مذکر / آن)\n• sie → ihr (او مؤنث)\n• wir → unser (ما)\n• ihr → euer (شما جمع غیررسمی)\n• sie → ihr (آنها)\n• Sie → Ihr (شما رسمی)\n\nنکته مهم: euer در مؤنث و جمع به eure تغییر می‌کند.",
+    "examples": [
+      {
+        "de": "Mein Vater ist Lehrer.",
+        "fa": "پدر من معلم است."
+      },
+      {
+        "de": "Dein Pony ist süß.",
+        "fa": "پونی تو خیلی ناز است."
+      },
+      {
+        "de": "Seine Mutter heißt Anna.",
+        "fa": "مادر او (مذکر) آنا نام دارد."
+      },
+      {
+        "de": "Ihre Eltern wohnen in Berlin.",
+        "fa": "والدین او (مؤنث) یا آنها در برلین زندگی می‌کنند."
+      },
+      {
+        "de": "Unser Haus ist groß.",
+        "fa": "خانه ما بزرگ است."
+      },
+      {
+        "de": "Euer Hund spielt im Garten.",
+        "fa": "سگ شما (جمع غیررسمی) در باغ بازی می‌کند."
+      },
+      {
+        "de": "Ihr Auto ist neu.",
+        "fa": "ماشین آنها جدید است."
+      },
+      {
+        "de": "Ihr Name, bitte?",
+        "fa": "نام شما (رسمی) لطفاً؟"
+      }
+    ],
+    "note": "این فرم‌ها در Nominativ هستند (موضوع درس). در موارد دیگر (Accusativ, Dativ) پایان‌ها تغییر می‌کنند.\n\nمثال‌های ارائه‌شده دقیقاً مطابق درخواست شما:\nmein/dein Vater (er) → Mein Vater / Dein Vater\nmein/dein Pony (es) → Mein Pony / Dein Pony\nmeine/deine Mutter (sie) → Meine Mutter / Deine Mutter\nmeine/deine Eltern (sie) → Meine Eltern / Deine Eltern\n\nبرای تمرین: همیشه جنس اسم را چک کنید (der Vater → mein, die Mutter → meine, das Pony → mein, die Eltern → meine)."
+  },
+  {
+    "id": "24",
+    "title-id": "A1-2",
+    "title": "Possessivartikel: mein, meine, mein, es, sie + heißen",
+    "description": "در این درس یاد می‌گیریم چطور به آلمانی بگوییم «این مال من است» یا «اسمش چیست». \n\nقواعد ساده:\n- برای اسم مذکر (der) و خنثی (das) → mein\n- برای اسم مؤنث (die) → meine\n- برای جمع (die) → meine\n\nضمیرهای اشاره:\n- Das ist ... (برای یک چیز) \n- Das sind ... (برای چند چیز)\n\nبرای پرسیدن اسم: Er heißt ... / Sie heißt ... / Es heißt ... / Sie heißen ...\n\nنکته مهم: بعد از «ist» و «sind» همیشه حالت nominative استفاده می‌شود.",
+    "examples": [
+      {
+        "de": "Das ist mein Vater. Er heißt Ben.",
+        "fa": "این پدر من است. اسمش بن است."
+      },
+      {
+        "de": "Das ist mein Pony. Es heißt Jo.",
+        "fa": "این پونی من است. اسمش جو است."
+      },
+      {
+        "de": "Das ist meine Katze. Sie heißt Bea.",
+        "fa": "این گربه من است. اسمش بئا است."
+      },
+      {
+        "de": "Das sind meine Eltern. Sie heißen Ben und Eva.",
+        "fa": "این والدین من هستند. اسمشان بن و اوا است."
+      },
+      {
+        "de": "Wer ist das? – Das ist mein Bruder. Er heißt Max.",
+        "fa": "این کیست؟ – این برادر من است. اسمش ماکس است."
+      },
+      {
+        "de": "Wer sind die? – Das sind meine Geschwister. Sie heißen Anna und Tom.",
+        "fa": "این‌ها کی هستند؟ – این‌ها خواهر و برادرهای من هستند. اسمشان آنا و تام است."
+      }
+    ],
+    "note": "توجه به جنسیت اسم خیلی مهم است:\n- Vater (مذکر) → mein Vater\n- Katze (مؤنث) → meine Katze\n- Pony (خنثی) → mein Pony\n- Eltern (جمع) → meine Eltern\n\nبرای جمع همیشه «Sie heißen ...» استفاده می‌شود (حتی اگر اسم‌ها متفاوت باشند).\n\nتمرین: سعی کنید درباره خانواده یا حیوانات خانگی خودتان جمله بسازید."
+  },
+  {
+    "id": "25",
+    "title-id": "A1-2",
+    "title": "Wie alt ist ... ? – سن پرسیدن (برای افراد)",
+    "description": "در این درس یاد می‌گیریم چطور سن کسی را به آلمانی بپرسیم و جواب دهیم.\n\nساختار اصلی:\n- سؤال: Wie alt ist + فاعل؟\n- جواب: Mein(e) + عضو خانواده / Er / Sie ist + عدد + Jahre alt.\n\nنکته مهم: بعد از عدد «Jahre alt» همیشه می‌آید (حتی برای یک سال هم «Jahr alt» درست است ولی در عمل معمولاً «Jahre» استفاده می‌شود).\n\nبرای «او»:\n- اگر مذکر باشد (der Bruder) → Er ist ...\n- اگر مؤنث باشد (die Schwester) → Sie ist ...\n\nاین ساختار خیلی ساده و پرکاربرد است و در مکالمات روزمره A1 استفاده می‌شود.",
+    "examples": [
+      {
+        "de": "Wie alt ist dein Bruder?",
+        "fa": "برادرت چند سال دارد؟"
+      },
+      {
+        "de": "Mein Bruder ist 35 Jahre alt.",
+        "fa": "برادرم ۳۵ سال دارد."
+      },
+      {
+        "de": "Wie alt ist deine Schwester?",
+        "fa": "خواهرت چند سال دارد؟"
+      },
+      {
+        "de": "Meine Schwester ist 20 Jahre alt.",
+        "fa": "خواهرم ۲۰ سال دارد."
+      },
+      {
+        "de": "Wie alt ist er?",
+        "fa": "او (مذکر) چند سال دارد؟"
+      },
+      {
+        "de": "Er ist 35 Jahre alt.",
+        "fa": "او ۳۵ سال دارد."
+      },
+      {
+        "de": "Wie alt ist sie?",
+        "fa": "او (مؤنث) چند سال دارد؟"
+      },
+      {
+        "de": "Sie ist 20 Jahre alt.",
+        "fa": "او ۲۰ سال دارد."
+      }
+    ],
+    "note": "نکات کاربردی:\n• «Jahre alt» بعد از عدد می‌آید و «alt» همیشه آخر جمله است.\n• برای اعداد ۱ تا ۲۰ معمولاً «Jahre» استفاده می‌شود (مثلاً ۱ Jahr alt هم ممکن است ولی در مکالمه «Jahre» رایج‌تر است).\n• می‌توانی بگویی: «Er ist 35.» (بدون «Jahre alt») ولی کامل‌تر این است که «Jahre alt» بگویی.\n• این درس را با واژگان خانواده ترکیب کن: der Bruder, die Schwester, der Vater, die Mutter و غیره."
+  },
+  {
+    "id": "26",
+    "title-id": "A1-2",
+    "title": "Possessivartikel\n(صفت‌های ملکی)",
+    "description": "در آلمانی برای نشان دادن مالکیت از Possessivartikel استفاده می‌شود.\n\nآن‌ها قبل از اسم می‌آیند و مثل der/das/die تغییر می‌کنند.\n\nفرم پایه:\n\nDer/Das → mein, dein, Ihr, sein, ihr\nDie/Die → meine, deine, Ihre, seine, ihre",
+    "examples": [
+      {
+        "de": "Das ist mein Buch.",
+        "fa": "این کتاب من است."
+      },
+      {
+        "de": "Wo ist deine Tasche?",
+        "fa": "کیف تو کجاست؟"
+      },
+      {
+        "de": "Ihr Auto ist neu.",
+        "fa": "ماشین او (زن) / آن‌ها / شما (مودب) نو است."
+      },
+      {
+        "de": "Sein Hund ist klein.",
+        "fa": "سگ او (مرد) کوچک است."
+      },
+      {
+        "de": "Meine Freunde kommen heute.",
+        "fa": "دوستان من امروز می‌آیند."
+      }
+    ],
+    "note": "نکته مهم:\n• Ihr (با I بزرگ) = شما (مودبانه، مفرد و جمع)\n• ihr (با i کوچک) = او (زن) یا آن‌ها\n• sein = او (مرد) یا آن (خنثی)\n• در جمع همیشه -e اضافه می‌شود (meine, deine, seine, ihre, Ihre)"
+  },
+  {
+    "id": "27",
+    "title-id": "A1-2",
+    "title": "Possessivartikel: sein / seine und ihr / ihre",
+    "description": "در آلمانی برای نشان دادن مالکیت از Possessivartikel استفاده می‌شود.\n\n• er (او مذکر) → sein (مال او)\n• sie (او مؤنث) → ihr (مال او)\n\nاین کلمات مثل ein تغییر می‌کنند و بسته به جنس، تعداد و حالت اسم، انتهای آن‌ها عوض می‌شود (در Nominativ):\n\n- Masculine (der): sein / ihr\n- Feminine (die): seine / ihre\n- Neuter (das): sein / ihr\n- Plural (die): seine / ihre",
+    "examples": [
+      {
+        "de": "Er hat einen Freund. Das ist sein Freund.",
+        "fa": "او یک دوست (مذکر) دارد. این دوست اوست."
+      },
+      {
+        "de": "Sie hat eine Freundin. Das ist ihre Freundin.",
+        "fa": "او یک دوست (مؤنث) دارد. این دوست اوست."
+      },
+      {
+        "de": "Das ist sein Kollege.",
+        "fa": "این همکار او (مذکر) است."
+      },
+      {
+        "de": "Das ist ihr Kollege.",
+        "fa": "این همکار او (مؤنث) است."
+      },
+      {
+        "de": "Sein Hobby ist Fußball.",
+        "fa": "سرگرمی او فوتبال است."
+      },
+      {
+        "de": "Ihr Hobby ist Tanzen.",
+        "fa": "سرگرمی او رقص است."
+      },
+      {
+        "de": "Seine Familie ist groß.",
+        "fa": "خانواده او بزرگ است."
+      },
+      {
+        "de": "Ihre Familie ist klein.",
+        "fa": "خانواده او کوچک است."
+      },
+      {
+        "de": "Seine Hobbys sind Musik und Sport.",
+        "fa": "سرگرمی‌های او موسیقی و ورزش هستند."
+      },
+      {
+        "de": "Ihre Hobbys sind Lesen und Reisen.",
+        "fa": "سرگرمی‌های او خواندن و سفر هستند."
+      }
+    ],
+    "note": "نکته مهم:\n• sein → برای er و es (مذکر و خنثی)\n• ihr → برای sie (مؤنث)\n• در جمع همیشه -e اضافه می‌شود: seine / ihre\n• این درس فقط Nominativ است. در درس‌های بعدی Akkusativ و Dativ را یاد می‌گیریم.\n\nمثال کامل:\nEr ist Lehrer. Sein Kollege ist nett. Seine Familie wohnt in Berlin."
+  },
+  {
+    "id": "28",
+    "title-id": "A1-2",
+    "title": "Possessivartikel: sein / ihr (sein / ihre)",
+    "description": "در این مبحث، Possessivartikel برای سوم شخص مفرد آموزش داده می‌شود. برای افراد مذکر (er) از «sein / seine» و برای افراد مؤنث (sie) از «ihr / ihre» استفاده می‌کنیم. این کلمات قبل از اسم می‌آیند و بر اساس جنس و تعداد اسم تغییر شکل می‌دهند (مثل der/die/das). اینجا تمرکز روی Nominativ است. مثال‌ها بر اساس اطلاعات داده‌شده ساخته شده‌اند.",
+    "examples": [
+      {
+        "de": "Ihr Name ist Lara.",
+        "fa": "نام او لارا است."
+      },
+      {
+        "de": "Ihre Familie kommt aus Rom.",
+        "fa": "خانواده او از رم می‌آید."
+      },
+      {
+        "de": "Ihre Chefin heißt Sue.",
+        "fa": "رئیس او (زن) سو نام دارد."
+      },
+      {
+        "de": "Ihre Kollegin wohnt in London.",
+        "fa": "همکار زن او در لندن زندگی می‌کند."
+      },
+      {
+        "de": "Ihr Hobby ist Musik.",
+        "fa": "سرگرمی او موسیقی است."
+      },
+      {
+        "de": "Ihre Freundin ist Architektin.",
+        "fa": "دوست دختر او معمار است."
+      },
+      {
+        "de": "Sein Name ist Christos.",
+        "fa": "نام او کریستوس است."
+      },
+      {
+        "de": "Seine Familie kommt aus Athen.",
+        "fa": "خانواده او از آتن می‌آید."
+      },
+      {
+        "de": "Seine Chefin heißt Brigitte.",
+        "fa": "رئیس او (زن) بریجیت نام دارد."
+      },
+      {
+        "de": "Sein Kollege wohnt in Wien.",
+        "fa": "همکار او در وین زندگی می‌کند."
+      },
+      {
+        "de": "Sein Hobby ist Sport.",
+        "fa": "سرگرمی او ورزش است."
+      },
+      {
+        "de": "Sein Freund ist Architekt.",
+        "fa": "دوست پسر او معمار است."
+      }
+    ],
+    "note": "نکات مهم:\n• برای «او» مذکر (Christos): sein (قبل از اسم مذکر یا خنثی) / seine (قبل از اسم مؤنث).\n• برای «او» مؤنث (Lara): ihr (قبل از اسم مذکر یا خنثی) / ihre (قبل از اسم مؤنث).\n• «ihr» برای سوم شخص مؤنث و همچنین برای جمع «آنها» استفاده می‌شود (از زمینه جمله مشخص می‌شود).\n• در Nominativ:\n  - اسم مذکر: sein / ihr\n  - اسم مؤنث: seine / ihre\n  - اسم خنثی: sein / ihr\n  - جمع: seine / ihre\nمثال اضافی: Das ist sein Auto. (این ماشین اوست.) / Das ist ihre Tasche. (این کیف اوست.)"
+  },
+  {
+    "id": "29",
+    "title-id": "A1-2",
+    "title": "Andi – Informationen über eine Person",
+    "description": "در این مبحث، سؤال‌های پایه‌ای درباره یک شخص به زبان آلمانی یاد می‌گیریم:\n\nWoher kommt ... ? → از کجا آمده است؟ (محل تولد یا مبدأ)\nWo wohnt ... ? → کجا زندگی می‌کند؟ (محل سکونت فعلی)\nWie heißt ... ? → اسمش چیست؟ (برای اسم یا نام وسیله)\nWas sind ... ? → چه هستند؟ (برای جمع)\nWer ist ... ? → کیست؟ (برای شناسایی شخص)\n\nاین سؤالات برای معرفی افراد، خواندن متون ساده و مکالمه روزمره در سطح A1 بسیار کاربردی هستند.\n\nنکته مهم: در آلمانی، فعل معمولاً در جایگاه دوم جمله قرار می‌گیرد.",
+    "examples": [
+      {
+        "de": "Woher kommt Andi?",
+        "fa": "آندی از کجا آمده است؟"
+      },
+      {
+        "de": "Andi kommt aus Hamburg.",
+        "fa": "آندی اهل هامبورگ است."
+      },
+      {
+        "de": "Wo wohnt er?",
+        "fa": "او کجا زندگی می‌کند؟"
+      },
+      {
+        "de": "Er wohnt in Monaco.",
+        "fa": "او در موناکو زندگی می‌کند."
+      },
+      {
+        "de": "Wie heißt sein Lieblingsauto?",
+        "fa": "نام ماشین مورد علاقه‌اش چیست؟"
+      },
+      {
+        "de": "Sein Lieblingsauto heißt Mercedes.",
+        "fa": "ماشین مورد علاقه‌اش مرسدس نام دارد."
+      },
+      {
+        "de": "Was sind seine Hobbys?",
+        "fa": "سرگرمی‌های او چیست؟"
+      },
+      {
+        "de": "Seine Hobbys sind Musik und Sport.",
+        "fa": "سرگرمی‌های او موسیقی و ورزش هستند."
+      },
+      {
+        "de": "Wer ist sein Manager?",
+        "fa": "مدیر او کیست؟"
+      },
+      {
+        "de": "Sein Manager ist Herr Müller.",
+        "fa": "مدیر او آقای مولر است."
+      },
+      {
+        "de": "Wie heißt seine Frau?",
+        "fa": "نام همسرش چیست؟"
+      },
+      {
+        "de": "Seine Frau heißt Anna.",
+        "fa": "همسرش آنا نام دارد."
+      }
+    ],
+    "note": "در متون درسی (مانند Starten Wir A1)، آندی یک قهرمان فرمول ۱ است:\n- Woher kommt Andi? → Aus Hamburg.\n- Wo wohnt er? → In Monaco.\n- Lieblingsauto → Mercedes.\n- Hobbys → Musik und Sport.\n- Manager و Frau در تمرین‌ها معمولاً با اطلاعات فرضی تکمیل می‌شوند.\n\nبرای نمایش در صفحه با اندازه 280x460:\nاز \n فقط برای جداسازی خطوط اصلی استفاده کنید تا متن خوانا بماند و بیش از حد فشرده نشود."
+  },
+  {
+    "id": "30",
+    "title-id": "A1-3",
+    "title": "صرف فعل essen (خوردن) در زمان حال (Präsens)",
+    "description": "فعل \"essen\" به معنای \"خوردن\" است و یک فعل قوی (starkes Verb) و نامنظم محسوب می‌شود.\n\nدر زمان حال (Präsens)، ریشه فعل تغییر می‌کند: حرف \"e\" به \"i\" تبدیل می‌شود.\nاین تغییر فقط در ضمیرهای du و er/sie/es اتفاق می‌افتد.\n\nبرای بقیه ضمیرها، صرف مثل افعال معمولی -en است.\n\nنکته مهم: این فعل برای انسان‌ها استفاده می‌شود (برای حیوانات معمولاً \"fressen\" به کار می‌رود).",
+    "examples": [
+      {
+        "de": "Ich esse gerne Pizza.",
+        "fa": "من پیتزا را دوست دارم (می‌خورم)."
+      },
+      {
+        "de": "Du isst zu schnell!",
+        "fa": "تو خیلی سریع می‌خوری!"
+      },
+      {
+        "de": "Er isst einen Apfel.",
+        "fa": "او یک سیب می‌خورد."
+      },
+      {
+        "de": "Wir essen zusammen zu Mittag.",
+        "fa": "ما با هم ناهار می‌خوریم."
+      },
+      {
+        "de": "Ihr esst viel Gemüse.",
+        "fa": "شما سبزیجات زیادی می‌خورید."
+      },
+      {
+        "de": "Sie essen im Restaurant.",
+        "fa": "آنها در رستوران غذا می‌خورند."
+      }
+    ],
+    "note": "تغییر صدادار (Vokalwechsel e → i) فقط در du و er/sie/es اعمال می‌شود.\n\nمثال‌های کاربردی:\n- Was isst du gerne? (چیزی که دوست داری می‌خوری؟)\n- Ich esse kein Fleisch. (من گوشت نمی‌خورم.)\n\nاین فعل در مکالمات روزمره بسیار پرکاربرد است و یادگیری آن به درک افعال قوی کمک می‌کند.\n\nبرای Sie (شما مودبانه) و sie (آنها) شکل یکسان است: essen"
+  },
+  {
+    "id": "31",
+    "title-id": "A1-3",
+    "title": "صرف فعل trinken (نوشیدن)",
+    "description": "فعل trinken یک فعل نامنظم (unregelmäßig) است. در زمان حال (Präsens) به این شکل صرف می‌شود:\n\nich          trinke\ndu           trinkst\ner/sie/es    trinkt\nwir          trinken\nihr          trinkt\nSie/sie      trinken\n\nنکته: در سوم شخص مفرد (er/sie/es) مصوت i به ie تغییر نمی‌کند و فقط -t اضافه می‌شود.",
+    "examples": [
+      {
+        "de": "Ich trinke Wasser.",
+        "fa": "من آب می‌نوشم."
+      },
+      {
+        "de": "Du trinkst Tee.",
+        "fa": "تو چای می‌نوشی."
+      },
+      {
+        "de": "Er trinkt Kaffee.",
+        "fa": "او (مذکر) قهوه می‌نوشد."
+      },
+      {
+        "de": "Wir trinken Saft.",
+        "fa": "ما آبمیوه می‌نوشیم."
+      },
+      {
+        "de": "Ihr trinkt Bier.",
+        "fa": "شما (جمع غیررسمی) آبجو می‌نوشید."
+      },
+      {
+        "de": "Sie trinken Wein.",
+        "fa": "آنها / شما (رسمی) شراب می‌نوشند."
+      }
+    ],
+    "note": "ترجمه: trinken = نوشیدن (مایعات)\n\nمثال‌های کاربردی:\n- Was trinkst du? → چی می‌نوشی؟\n- Ich trinke gern Milch. → من دوست دارم شیر بنوشم.\n\nاین فعل همیشه با haben در زمان کامل (Perfekt) صرف می‌شود: ich habe getrunken."
+  },
+  {
+    "id": "32",
+    "title-id": "A1-3",
+    "title": "einkaufen (trennbares Verb)",
+    "description": "فعل «einkaufen» به معنای «خرید کردن» یا «خرید مواد غذایی رفتن» است.\n\nاین یک فعل جدایی‌پذیر (trennbares Verb) است. در جملات اصلی (Hauptsatz) در زمان حال:\n- بخش اصلی فعل (kauf-) طبق قاعده صرف می‌شود.\n- پیشوند «ein» جدا شده و به انتهای جمله می‌رود.\n\nصرف در زمان حال (Präsens):\nich kaufe ein\ndu kaufst ein\ner/sie/es kauft ein\nwir kaufen ein\nihr kauft ein\nSie/sie kaufen ein",
+    "examples": [
+      {
+        "de": "Ich kaufe heute ein.",
+        "fa": "امروز خرید می‌کنم."
+      },
+      {
+        "de": "Du kaufst im Supermarkt ein.",
+        "fa": "تو در سوپرمارکت خرید می‌کنی."
+      },
+      {
+        "de": "Er kauft Brot und Milch ein.",
+        "fa": "او نان و شیر خرید می‌کند."
+      },
+      {
+        "de": "Wir kaufen am Samstag ein.",
+        "fa": "ما روز شنبه خرید می‌کنیم."
+      },
+      {
+        "de": "Ihr kauft viel Obst ein.",
+        "fa": "شما میوه‌های زیادی خرید می‌کنید."
+      },
+      {
+        "de": "Sie kaufen im Einkaufszentrum ein.",
+        "fa": "آنها در مرکز خرید خرید می‌کنند."
+      }
+    ],
+    "note": "نکته مهم:\nدر جملات فرعی (Nebensatz) پیشوند جدا نمی‌شود:\n«... weil ich heute einkaufe.»\n\nمعمولاً با «gehen» ترکیب می‌شود:\n«Ich gehe einkaufen.» = می‌روم خرید.\n\nدر گذشته کامل (Perfekt): «hat eingekauft» (پیشوند به participle می‌چسبد)."
+  },
+  {
+    "id": "33",
+    "title-id": "A1-3",
+    "title": "چگونه به آلمانی بگوییم؟\n«Wie heißt das auf Deutsch?»\n«Noch einmal, bitte.»\n«Und wie schreibt man das?»",
+    "description": "در این درس سه عبارت خیلی کاربردی و رایج آلمانی در سطح A1 را یاد می‌گیریم:\n\n• Wie heißt das auf Deutsch؟ → برای پرسیدن نام یا ترجمه چیزی به آلمانی\n• Noch einmal, bitte. → برای درخواست تکرار چیزی که نشنیده‌ایم\n• Und wie schreibt man das؟ → برای پرسیدن املای کلمه\n\nاین عبارات در مکالمات روزمره، کلاس زبان و وقتی با آلمانی‌زبان‌ها صحبت می‌کنید بسیار مفید هستند. تلفظ را با دقت تمرین کنید.",
+    "examples": [
+      {
+        "de": "Wie heißt das auf Deutsch?",
+        "fa": "این به آلمانی چه نام دارد؟ / این به آلمانی چی می‌شه؟"
+      },
+      {
+        "de": "Wie heißt „apple“ auf Deutsch?",
+        "fa": "«apple» به آلمانی چه می‌شود؟"
+      },
+      {
+        "de": "Noch einmal, bitte.",
+        "fa": "یک بار دیگر، لطفاً. / دوباره بگید، لطفاً."
+      },
+      {
+        "de": "Können Sie das noch einmal sagen, bitte?",
+        "fa": "می‌توانید این را یک بار دیگر بگویید، لطفاً؟"
+      },
+      {
+        "de": "Und wie schreibt man das?",
+        "fa": "و این را چگونه می‌نویسند؟ / املایش چطور است؟"
+      },
+      {
+        "de": "Wie schreibt man „Entschuldigung“?",
+        "fa": "«Entschuldigung» را چگونه می‌نویسند؟"
+      }
+    ],
+    "note": "نکات مهم:\n• «Noch einmal, bitte.» بسیار مودبانه و رایج است. در محاوره روزمره اغلب «Noch mal, bitte.» هم گفته می‌شود.\n• بعد از شنیدن کلمه جدید، معمولاً این سه جمله را پشت سر هم استفاده می‌کنند:\n  Wie heißt das auf Deutsch? – Noch einmal, bitte. – Und wie schreibt man das?\n• برای املا می‌توانید بگویید: «Buchstabieren Sie das bitte.» (لطفاً املا کنید.)"
+  },
+  {
+    "id": "34",
+    "title-id": "A1-3",
+    "title": "Ich möchte ... (من می‌خواهم ...)",
+    "description": "برای گفتن چیزی که دوست داریم یا می‌خواهیم، از فعل «möchten» استفاده می‌کنیم.\n\nمثل: Ich möchte Tomaten, Eier und Äpfel.\n\nاین فعل مودال است و بعد از آن اسم یا فعل می‌آید.\n\nنکته: در رستوران یا فروشگاه خیلی مودبانه به نظر می‌رسد.",
+    "examples": [
+      {
+        "de": "Ich möchte Tomaten.",
+        "fa": "من گوجه‌فرنگی می‌خواهم."
+      },
+      {
+        "de": "Ich möchte Eier und einen Apfel.",
+        "fa": "من تخم‌مرغ و یک سیب می‌خواهم."
+      },
+      {
+        "de": "Ich möchte drei Tomaten, bitte.",
+        "fa": "سه تا گوجه‌فرنگی می‌خواهم، لطفاً."
+      },
+      {
+        "de": "Möchtest du einen Apfel?",
+        "fa": "آیا یک سیب می‌خواهی؟"
+      }
+    ],
+    "note": "• möchten + اسم (بدون مقاله اگر کلی باشد)\n• در جمله سؤالی: Möchtest du ... ?\n• برای مودب بودن همیشه «bitte» اضافه کنید."
+  },
+  {
+    "id": "35",
+    "title-id": "A1-3",
+    "title": "Mengenangaben beim Einkaufen",
+    "description": "در این درس یاد می‌گیریم چطور مقدار مواد غذایی را به آلمانی بگوییم.\n\nاز کلماتی مثل «ein Kilo»، «zwei Liter»، «sechs Stück» و «hundert Gramm» استفاده می‌کنیم.\n\nاین عبارات برای نوشتن لیست خرید یا صحبت در سوپرمارکت خیلی کاربردی هستند.\n\nنکته گرامری: بعد از عدد معمولاً اسم بدون مقاله می‌آید (مثل ein Kilo Tomaten).",
+    "examples": [
+      {
+        "de": "Ein Kilo Tomaten.",
+        "fa": "یک کیلو گوجه‌فرنگی."
+      },
+      {
+        "de": "Ein Kilo Möhren.",
+        "fa": "یک کیلو هویج."
+      },
+      {
+        "de": "Zwei Liter Milch.",
+        "fa": "دو لیتر شیر."
+      },
+      {
+        "de": "Sechs Eier.",
+        "fa": "شش عدد تخم‌مرغ."
+      },
+      {
+        "de": "Eine Flasche Orangensaft.",
+        "fa": "یک بطری آب پرتقال."
+      },
+      {
+        "de": "Hundert Gramm Käse.",
+        "fa": "صد گرم پنیر."
+      }
+    ],
+    "note": "نکات مهم:\n• Kilo / Liter / Gramm / Flasche / Stück واحدهای رایج هستند.\n• Möhren = Karotten (هویج)\n• در سوپرمارکت می‌توانی بگویی: «Ich hätte gern ein Kilo Tomaten.» یعنی «دوست دارم یک کیلو گوجه‌فرنگی.»\n• تمرین: لیست خرید خودت را به آلمانی بنویس!"
+  },
+  {
+    "id": "36",
+    "title-id": "A1-3",
+    "title": "آکوزاتیو (Akkusativ) با فعل essen و gern",
+    "description": "در این مبحث یاد می‌گیریم چطور بعد از فعل «essen» (خوردن) از مفعول مستقیم (آکوزاتیو) استفاده کنیم. همچنین «gern» برای گفتن «دوست دارم ... بخورم» (با لذت می‌خورم) به کار می‌رود. نکته مهم: فقط مقاله معین مذکر (der → den) و مقاله نامعین مذکر (ein → einen) در آکوزاتیو تغییر می‌کنند. مؤنث، خنثی و جمع تغییر نمی‌کنند.\n\nکلمات کلیدی:\n- der Käse (مذکر) → den Käse / keinen Käse\n- das Braten (خنثی، roast) → das Braten / kein Braten\n- der Fisch (مذکر) → den Fisch / keinen Fisch\n\nساختار جمله:\n- Ich esse gern + مفعول آکوزاتیو.\n- Isst du gern + مفعول آکوزاتیو؟\n\nتوضیح کوتاه: «gern» بعد از فعل می‌آید و نشان‌دهنده علاقه است. برای منفی از «nicht gern» یا «kein» استفاده کنید.",
+    "examples": [
+      {
+        "de": "Ich esse gern Käse.",
+        "fa": "من دوست دارم پنیر بخورم."
+      },
+      {
+        "de": "Ich esse gern den Käse.",
+        "fa": "من دوست دارم این پنیر را بخورم. (مخصوصاً همان پنیر مشخص)"
+      },
+      {
+        "de": "Ich esse keinen Käse.",
+        "fa": "من پنیر نمی‌خورم."
+      },
+      {
+        "de": "Isst du gern Fisch?",
+        "fa": "دوست داری ماهی بخوری؟"
+      },
+      {
+        "de": "Isst du gern den Fisch?",
+        "fa": "دوست داری این ماهی را بخوری؟"
+      },
+      {
+        "de": "Ich esse gern Braten.",
+        "fa": "من دوست دارم گوشت کبابی بخورم."
+      },
+      {
+        "de": "Ich esse kein Braten.",
+        "fa": "من گوشت کبابی نمی‌خورم."
+      },
+      {
+        "de": "Wir essen gern Käse und Fisch.",
+        "fa": "ما دوست داریم پنیر و ماهی بخوریم."
+      }
+    ],
+    "note": "نکته کاربردی: برای غذاهای عمومی (بدون مقاله) مستقیم بنویسید: Ich esse gern Käse. اگر غذا مشخص باشد از den/das/die استفاده کنید. در سؤال هم همین قانون آکوزاتیو اعمال می‌شود. تمرین: جمله بسازید و مقاله را درست تغییر دهید."
+  },
+  {
+    "id": "37",
+    "title-id": "A1-3",
+    "title": "Was isst du gerne? / Was trinkst du gerne?",
+    "description": "در این مبحث یاد می‌گیریم چطور در آلمانی از غذاها و نوشیدنی‌های مورد علاقه‌مان صحبت کنیم. ساختار اصلی: سؤال با «Was ... gerne?» و جواب با «Ich ... gerne». کلمه «gerne» (یا «gern») بعد از فعل می‌آید و معنی «با لذت» یا «دوست دارم» می‌دهد. این ساختار برای بیان سلیقه غذایی در سطح A1 بسیار کاربردی است.",
+    "examples": [
+      {
+        "de": "Was isst du gerne?",
+        "fa": "چه چیزی را دوست داری بخوری؟"
+      },
+      {
+        "de": "Ich esse gerne Pizza.",
+        "fa": "من دوست دارم پیتزا بخورم."
+      },
+      {
+        "de": "Was trinkst du gerne?",
+        "fa": "چه چیزی را دوست داری بنوشی؟"
+      },
+      {
+        "de": "Ich trinke gerne Cola.",
+        "fa": "من دوست دارم کولا بنوشم."
+      },
+      {
+        "de": "Isst du gerne Reis?",
+        "fa": "آیا دوست داری برنج بخوری؟"
+      },
+      {
+        "de": "Nein, ich esse gerne Müsli.",
+        "fa": "نه، من دوست دارم موسلی بخورم."
+      },
+      {
+        "de": "Trinkst du gerne Wein?",
+        "fa": "آیا دوست داری شراب بنوشی؟"
+      },
+      {
+        "de": "Ja, ich trinke gerne Wein.",
+        "fa": "بله، من دوست دارم شراب بنوشم."
+      },
+      {
+        "de": "Ich esse nicht gerne Gemüse.",
+        "fa": "من دوست ندارم سبزیجات بخورم."
+      },
+      {
+        "de": "Ich trinke sehr gerne Tee.",
+        "fa": "من خیلی دوست دارم چای بنوشم."
+      }
+    ],
+    "note": "نکته مهم: «gern» یا «gerne» بعد از فعل (esse / trinke) قرار می‌گیرد و فعل تغییر نمی‌کند. برای منفی کردن از «nicht gerne» استفاده کنید. این ساختار ساده و روزمره است و در مکالمات واقعی خیلی به کار می‌آید."
+  },
+  {
+    "id": "38",
+    "title-id": "A1-3",
+    "title": "nie, manchmal, oft, immer",
+    "description": "این قیدها نشان می‌دهند که یک کار **چند بار** یا **با چه تکراری** انجام می‌شود.\n\nاز کمترین تکرار به بیشترین:\nnie (هرگز) → manchmal (گاهی) → oft (اغلب) → immer (همیشه)\n\nمعمولاً بعد از فعل صرف‌شده قرار می‌گیرند (موقعیت میانی طبیعی).",
+    "examples": [
+      {
+        "de": "Ich gehe nie ins Kino.",
+        "fa": "من هرگز به سینما نمی‌روم."
+      },
+      {
+        "de": "Manchmal esse ich Schokolade.",
+        "fa": "گاهی شکلات می‌خورم."
+      },
+      {
+        "de": "Wir spielen oft Fußball.",
+        "fa": "ما اغلب فوتبال بازی می‌کنیم."
+      },
+      {
+        "de": "Er ist immer pünktlich.",
+        "fa": "او همیشه به موقع است."
+      },
+      {
+        "de": "Sie liest manchmal Bücher.",
+        "fa": "او گاهی کتاب می‌خواند."
+      },
+      {
+        "de": "Ich trinke nie Kaffee.",
+        "fa": "من هرگز قهوه نمی‌خورم."
+      }
+    ],
+    "note": "نکته مهم:\n• این قیدها بیشتر بعد از فعل می‌آیند: Subjekt + Verb + Adverb + ...\n• برای تأکید می‌توان آن‌ها را در ابتدای جمله گذاشت (فعل بعد از آن می‌آید):\n  Oft gehe ich spazieren. (اغلب پیاده‌روی می‌کنم.)\n• nie و immer قوی‌ترین معنی را دارند."
+  },
+  {
+    "id": "39",
+    "title-id": "A1-3",
+    "title": "Braucht ihr Milch?",
+    "description": "این دیالوگ کوتاه برای تمرین فعل‌های «haben» (داشتن) و «brauchen» (نیاز داشتن) در سطح A1 طراحی شده است.\n\nدر آلمانی:\n- فعل «haben» برای بیان داشتن چیزی استفاده می‌شود و مفعول آن همیشه در حالت Akkusativ (مفعولی) است.\n- فعل «brauchen» هم به معنای «نیاز داشتن» است و مانند haben، مفعول مستقیم (Akkusativ) می‌گیرد.\n- ساختار جمله: فاعل + فعل (در جایگاه دوم) + مفعول در Akkusativ.\n- در سؤال‌ها، فعل به اول جمله می‌آید (Inversion).",
+    "examples": [
+      {
+        "de": "Braucht ihr Milch?",
+        "fa": "آیا به شیر نیاز دارید؟ (خطاب به جمع غیررسمی)"
+      },
+      {
+        "de": "Nein, wir haben Milch.",
+        "fa": "نه، ما شیر داریم."
+      },
+      {
+        "de": "Aber wir brauchen Butter.",
+        "fa": "اما ما به کره نیاز داریم."
+      },
+      {
+        "de": "Ich brauche einen Kaffee.",
+        "fa": "من به یک قهوه نیاز دارم."
+      },
+      {
+        "de": "Hast du Brot?",
+        "fa": "آیا نان داری؟"
+      },
+      {
+        "de": "Wir haben kein Geld.",
+        "fa": "ما هیچ پولی نداریم."
+      }
+    ],
+    "note": "نکات مهم:\n• «ihr» = شما (جمع غیررسمی)\n• «wir» = ما\n• در جملات منفی با «kein» (هیچ)، مقاله منفی به حالت Akkusativ تغییر می‌کند (keine Milch / keinen Kaffee).\n• فعل brauchen در حال حاضر:\n  - ich brauche\n  - du brauchst\n  - er/sie/es braucht\n  - wir/ihr/sie brauchen\n\nاین دیالوگ را می‌توانید برای تمرین مکالمه خرید یا آشپزخانه استفاده کنید."
+  },
+  {
+    "id": "40",
+    "title-id": "A1-3",
+    "title": "Was ist das Thema?",
+    "description": "این عبارت برای پرسیدن «موضوع چیست؟» یا «درباره چه چیزی صحبت می‌شود؟» استفاده می‌شود. در سطح A1، یاد می‌گیریم با این سؤال موضوع یک متن، عکس، گفتگو یا درس را بپرسیم. خیلی کاربردی برای درک بهتر شنیداری و خواندنی است. \n\nدر موقعیت‌های کلاس یا آزمون‌های آلمانی (مثل Start Deutsch 1) اغلب از شما می‌پرسند: «Was ist das Thema?» یعنی اول موضوع را شناسایی کنید.",
+    "examples": [
+      {
+        "de": "Was ist das Thema?",
+        "fa": "موضوع چیست؟"
+      },
+      {
+        "de": "Was ist das Thema des Gesprächs?",
+        "fa": "موضوع گفتگو چیست؟"
+      },
+      {
+        "de": "Was ist das Thema des Textes?",
+        "fa": "موضوع متن چیست؟"
+      },
+      {
+        "de": "Was ist das Thema des Bildes?",
+        "fa": "موضوع عکس چیست؟"
+      },
+      {
+        "de": "Ich verstehe nicht. Was ist das Thema?",
+        "fa": "نمی‌فهمم. موضوع چیست؟"
+      }
+    ],
+    "note": "نکته: بعد از این سؤال معمولاً با عباراتی مثل «Das Thema ist ...» یا «Es geht um ...» (درباره ... است) جواب می‌دهیم. \nدر آزمون‌ها اول به سؤال «Was ist das Thema?» فکر کنید، سپس جزئیات را گوش کنید یا بخوانید. \nاین ساختار ساده است و با فعل «sein» (ist) ساخته می‌شود."
+  },
+  {
+    "id": "41",
+    "title-id": "A1-3",
+    "title": "Die Farben (رنگ‌ها)",
+    "description": "در این مبحث رنگ‌های اصلی آلمانی را یاد می‌گیریم. رنگ‌ها در آلمانی صفت هستند و بسته به جنس، تعداد و حالت جمله تغییر می‌کنند (مثل rote، blaues). همچنین می‌توانیم بگوییم `Meine Lieblingsfarbe ist ...` (رنگ مورد علاقه‌ام ... است). رنگ نارنجی هم مثل انگلیسی `orange` گفته می‌شود و چون کاربر گفته `Meine Lieblingsfarbe ist orange`، آن را در مثال‌ها استفاده کردیم.",
+    "examples": [
+      {
+        "de": "Meine Lieblingsfarbe ist orange.",
+        "fa": "رنگ مورد علاقه‌ام نارنجی است."
+      },
+      {
+        "de": "Der Apfel ist rot.",
+        "fa": "سیب قرمز است."
+      },
+      {
+        "de": "Der Himmel ist blau.",
+        "fa": "آسمان آبی است."
+      },
+      {
+        "de": "Die Banane ist gelb.",
+        "fa": "موز زرد است."
+      },
+      {
+        "de": "Das Gras ist grün.",
+        "fa": "چمن سبز است."
+      },
+      {
+        "de": "Das Auto ist schwarz.",
+        "fa": "ماشین سیاه است."
+      },
+      {
+        "de": "Die Blume ist rosa.",
+        "fa": "گل صورتی است."
+      },
+      {
+        "de": "Das Kleid ist lila.",
+        "fa": "لباس بنفش است."
+      }
+    ],
+    "note": "برای روشن کردن رنگ از hell (مثل hellblau = آبی روشن) و برای تیره کردن از dunkel (مثل dunkelgrün = سبز تیره) استفاده کنید. رنگ‌ها معمولاً با حرف کوچک نوشته می‌شوند مگر اینکه اسم باشند (die Farbe = رنگ). سؤال رایج: Welche Farbe ist das? (این چه رنگی است؟) و جواب: Das ist rot. (این قرمز است.)"
+  },
+  {
+    "id": "42",
+    "title-id": "A1-3",
+    "title": "Brot mit Marmelade – Wer frühstückt was?",
+    "description": "در این مبحث با واژگان صبحانه آلمانی آشنا می‌شوید:\n\n• das Brot (نان)\n• die Marmelade (مرمالاد / مربا)\n• das Frühstück (صبحانه)\n• frühstücken (صبحانه خوردن)\n\nیاد می‌گیریم چطور بگوییم چه کسی چه چیزی برای صبحانه می‌خورد. این ساختار برای مکالمات روزمره صبحگاهی بسیار کاربردی است.\n\nنکته گرامری: فعل frühstücken در حال ساده (Präsens) صرف می‌شود.",
+    "examples": [
+      {
+        "de": "Ich frühstücke Brot mit Marmelade.",
+        "fa": "من نان با مربا صبحانه می‌خورم."
+      },
+      {
+        "de": "Was frühstückst du?",
+        "fa": "تو چه صبحانه‌ای می‌خوری؟"
+      },
+      {
+        "de": "Er frühstückt Brötchen mit Butter.",
+        "fa": "او نان کوچک با کره صبحانه می‌خورد."
+      },
+      {
+        "de": "Wir frühstücken zusammen.",
+        "fa": "ما با هم صبحانه می‌خوریم."
+      },
+      {
+        "de": "Sie isst Brot mit Marmelade zum Frühstück.",
+        "fa": "او نان با مربا برای صبحانه می‌خورد."
+      },
+      {
+        "de": "Frühstückst du gern süß oder herzhaft?",
+        "fa": "صبحانه شیرین دوست داری یا شور؟"
+      }
+    ],
+    "note": "نکات مهم:\n• Brot mit Marmelade = نان با مربا (ترکیب خیلی رایج صبحانه آلمانی)\n• zum Frühstück = برای صبحانه\n• ساختار: Wer frühstückt was? → چه کسی چه چیزی صبحانه می‌خورد؟\n• فعل frühstücken: ich frühstücke, du frühstückst, er/sie/es frühstückt, wir frühstücken, ihr frühstückt, sie frühstücken."
+  },
+  {
+    "id": "43",
+    "title-id": "A1-3",
+    "title": "موقعیت قید «oft» در جمله آلمانی",
+    "description": "در آلمانی قیدهای تکرار مثل «oft» (اغلب) می‌توانند در دو موقعیت اصلی قرار بگیرند:\n\n۱. بعد از فعل صرف‌شده (موقعیت خنثی و طبیعی):\nSubject + Verb + oft + ...\n\n۲. در ابتدای جمله (موقعیت تأکید):\nOft + Verb + Subject + ...\n\nوقتی «oft» در اول جمله می‌آید، فعل به موقعیت دوم می‌رود و فاعل بعد از فعل قرار می‌گیرد (وارونگی جمله). این ساختار برای تأکید روی تکرار استفاده می‌شود.\n\nنکته مهم: هرگز «oft» را بین فاعل و فعل نگذارید.",
+    "examples": [
+      {
+        "de": "Wir essen oft Eier.",
+        "fa": "ما اغلب تخم‌مرغ می‌خوریم. (جمله خنثی و طبیعی)"
+      },
+      {
+        "de": "Oft essen wir Eier.",
+        "fa": "اغلب ما تخم‌مرغ می‌خوریم. (با تأکید روی «اغلب»)"
+      },
+      {
+        "de": "Ich gehe oft ins Kino.",
+        "fa": "من اغلب به سینما می‌روم."
+      },
+      {
+        "de": "Oft gehe ich ins Kino.",
+        "fa": "اغلب من به سینما می‌روم. (تأکید روی تکرار)"
+      },
+      {
+        "de": "Sie trinkt oft Kaffee.",
+        "fa": "او اغلب قهوه می‌نوشد."
+      },
+      {
+        "de": "Oft trinkt sie Kaffee am Morgen.",
+        "fa": "اغلب او صبح‌ها قهوه می‌نوشد."
+      }
+    ],
+    "note": "این قانون برای بیشتر قیدهای تکرار (immer, manchmal, selten, nie و ...) هم صدق می‌کند. موقعیت اول جمله برای تأکید یا شروع مکالمه مناسب‌تر است. در مکالمات روزمره معمولاً از ساختار خنثی (oft بعد از فعل) استفاده می‌شود."
+  },
+  {
+    "id": "44",
+    "title-id": "A1-3",
+    "title": "Gerne + Verb – بیان علاقه به انجام کاری",
+    "description": "در آلمانی برای گفتن اینکه از انجام کاری لذت می‌بریم یا آن را دوست داریم (I like doing something)، از قید «gerne» (یا gern) بعد از فعل استفاده می‌کنیم. این کلمه به معنای «با لذت» یا «دوست دارم» است و همیشه با فعل همراه می‌شود.\n\nنکته مهم: «gerne» بعد از فعل صرف‌شده قرار می‌گیرد. قیدهای تکرار مثل «immer» (همیشه) و «oft» (اغلب) معمولاً قبل از فعل دوم یا در موقعیت مناسب در جمله می‌آیند.\n\nدر مثال اصلی:\nGerne trinken wir immer Tee und essen oft Brot mit Käse.\n→ ما همیشه با لذت چای می‌نوشیم و اغلب نان با پنیر می‌خوریم.",
+    "examples": [
+      {
+        "de": "Ich trinke gerne Tee.",
+        "fa": "من چای را با لذت می‌نوشم. / من دوست دارم چای بنوشم."
+      },
+      {
+        "de": "Wir essen gerne Brot mit Käse.",
+        "fa": "ما نان با پنیر را با لذت می‌خوریم. / ما دوست داریم نان با پنیر بخوریم."
+      },
+      {
+        "de": "Sie liest gerne Bücher.",
+        "fa": "او کتاب خواندن را دوست دارد."
+      },
+      {
+        "de": "Er spielt gerne Fußball.",
+        "fa": "او فوتبال بازی کردن را دوست دارد."
+      },
+      {
+        "de": "Gerne trinken wir immer Tee.",
+        "fa": "ما همیشه با لذت چای می‌نوشیم."
+      },
+      {
+        "de": "Ich esse oft Brot mit Käse.",
+        "fa": "من اغلب نان با پنیر می‌خورم."
+      }
+    ],
+    "note": "• «gerne» و «gern» هر دو درست هستند و معنی یکسانی دارند (gerne کمی رسمی‌تر به نظر می‌رسد).\n• برای بیان ترجیح بیشتر از «lieber» استفاده می‌شود (مثال: Ich trinke lieber Kaffee als Tee).\n• در جملات منفی: Ich trinke nicht gerne Tee. (من چای را دوست ندارم)\n• این ساختار برای سطح A1 بسیار پرکاربرد است و در مکالمات روزمره درباره غذا، نوشیدنی و سرگرمی‌ها استفاده می‌شود."
+  },
+  {
+    "id": "45",
+    "title-id": "A1-3",
+    "title": "Mit, Oder, Und",
+    "description": "در آلمانی:\n\n• Mit = با (همراهی یا وسیله)\n• Und = و (اضافه کردن)\n• Oder = یا (انتخاب)\n\nMit همیشه با حالت داتیو (Dativ) استفاده می‌شود.\nUnd و Oder جملات یا کلمات را بدون تغییر ترتیب فعل وصل می‌کنند.",
+    "examples": [
+      {
+        "de": "Ich gehe mit meinem Freund ins Kino.",
+        "fa": "من با دوستِم به سینما می‌روم."
+      },
+      {
+        "de": "Wir fahren mit dem Bus zur Schule.",
+        "fa": "ما با اتوبوس به مدرسه می‌رویم."
+      },
+      {
+        "de": "Ich trinke Kaffee und Tee.",
+        "fa": "من قهوه و چای می‌نوشم."
+      },
+      {
+        "de": "Möchtest du Tee oder Kaffee?",
+        "fa": "چای می‌خوای یا قهوه؟"
+      },
+      {
+        "de": "Anna und Tom kommen mit dem Zug.",
+        "fa": "آنا و تام با قطار می‌آیند."
+      },
+      {
+        "de": "Ich lerne Deutsch oder Englisch.",
+        "fa": "من آلمانی یا انگلیسی یاد می‌گیرم."
+      }
+    ],
+    "note": "نکته مهم:\n• Mit + داتیو (dem, der, dem, den)\nمثال: mit dem Auto, mit der Bahn, mit meinen Freunden\n• Und و Oder ترتیب جمله را تغییر نمی‌دهند.\n• در سؤال‌ها Oder خیلی رایج است: Ja oder Nein?"
+  },
+  {
+    "id": "46",
+    "title-id": "A1-3",
+    "title": "Hm, das schmeckt mir!",
+    "description": "این عبارت یعنی «هوم، این مزه‌اش را دوست دارم!» یا «این خیلی خوشمزه است برای من!»\n\nفعل «schmecken» وقتی با «mir» (داتیو) استفاده شود، نشان می‌دهد که غذا یا نوشیدنی برای شخص خاص «خوشمزه است».\n\nساختار جمله: چیز + schmeckt + mir (داتیو)",
+    "examples": [
+      {
+        "de": "Hm, das schmeckt mir!",
+        "fa": "هوم، این خیلی خوشمزه است!"
+      },
+      {
+        "de": "Der Kuchen schmeckt mir sehr gut.",
+        "fa": "کیک خیلی خوشمزه است (برای من)."
+      },
+      {
+        "de": "Das Bier schmeckt mir nicht.",
+        "fa": "این آبجو مزه‌اش را دوست ندارم."
+      },
+      {
+        "de": "Schmeckt es dir?",
+        "fa": "مزه‌اش چطوره؟ خوشت میاد؟"
+      }
+    ],
+    "note": "نکته مهم:\n• «schmeckt mir» = من مزه‌اش را دوست دارم (داتیو)\n• «schmeckt gut» بدون «mir» یعنی به طور کلی خوشمزه است.\n• «Hm» صدای تأیید و لذت است، مثل «هوم» یا «mmm» در فارسی.\n\nبرای منفی: «Das schmeckt mir nicht.»"
+  },
+  {
+    "id": "47",
+    "title-id": "A1-3",
+    "title": "Mengen und Geld",
+    "description": "در این مبحث یاد می‌گیریم چطور قیمت چیزها را بپرسیم و بگوییم.\n\nقانون مهم:\n- برای اسم مفرد: Wie viel kostet ...? یا Was kostet ...?\n- برای اسم جمع: Wie viel kosten ...?\n\nپاسخ معمول: Es kostet ... Euro. / Die ... kosten ... Euro.",
+    "examples": [
+      {
+        "de": "Was kosten die Hähnchen?",
+        "fa": "قیمت مرغ‌ها چقدر است؟"
+      },
+      {
+        "de": "Wie viel kosten die Eier?",
+        "fa": "قیمت تخم‌مرغ‌ها چقدر است؟"
+      },
+      {
+        "de": "Was kosten denn die Kartoffeln?",
+        "fa": "قیمت سیب‌زمینی‌ها چقدر است؟"
+      },
+      {
+        "de": "Wie viel kostet denn der Wein?",
+        "fa": "قیمت شراب چقدر است؟"
+      },
+      {
+        "de": "Wie viel kostet das Hähnchen?",
+        "fa": "یک مرغ چقدر هزینه دارد؟"
+      },
+      {
+        "de": "Die Eier kosten 2,50 Euro.",
+        "fa": "تخم‌مرغ‌ها ۲٫۵۰ یورو هزینه دارند."
+      },
+      {
+        "de": "Die Kartoffeln kosten 1,99 Euro das Kilo.",
+        "fa": "سیب‌زمینی‌ها کیلویی ۱٫۹۹ یورو هستند."
+      }
+    ],
+    "note": "نکته‌های کاربردی:\n• «denn» برای نرم‌تر و طبیعی‌تر کردن سؤال استفاده می‌شود.\n• قیمت را با «kostet» (مفرد) یا «kosten» (جمع) می‌گوییم.\n• واحدهای رایج: das Kilo, das Pfund (۵۰۰ گرم), die Packung, das Stück.\n• مثال کامل: «Entschuldigung, wie viel kostet das Brot?» = ببخشید، نان چقدر است؟"
+  },
+  {
+    "id": "48",
+    "title-id": "A1-3",
+    "title": "billig – günstig – teuer",
+    "description": "این سه صفت مهم برای صحبت درباره قیمت‌ها در آلمانی هستند:\n\n• billig: ارزان (معمولاً با حس منفی، یعنی کیفیت پایین یا بی‌ارزش)\n• günstig: ارزان و مناسب (حس مثبت، ارزش خرید خوب، مقرون‌به‌صرفه)\n• teuer: گران (قیمت بالا)\n\nbillig اغلب برای چیزهایی استفاده می‌شود که هم ارزان هستند و هم کیفیت پایینی دارند. günstig بیشتر مثبت است و نشان‌دهنده «ارزش خوب در برابر قیمت» است. teuer مستقیماً به معنای گران بودن است و می‌تواند خنثی یا منفی باشد.",
+    "examples": [
+      {
+        "de": "Das T-Shirt ist sehr billig.",
+        "fa": "این تی‌شرت خیلی ارزان است. (احتمالاً کیفیت پایینی دارد)"
+      },
+      {
+        "de": "Die Äpfel sind heute günstig.",
+        "fa": "سیب‌ها امروز ارزان و مناسب هستند."
+      },
+      {
+        "de": "Das Hotel ist zu teuer.",
+        "fa": "این هتل خیلی گران است."
+      },
+      {
+        "de": "Das ist ein günstiges Angebot.",
+        "fa": "این یک پیشنهاد خوب و مقرون‌به‌صرفه است."
+      },
+      {
+        "de": "Die Schuhe sehen billig aus.",
+        "fa": "این کفش‌ها ظاهر ارزان و بی‌کیفیتی دارند."
+      }
+    ],
+    "note": "نکته مهم:\n- billig را برای توصیف کار افراد یا نتیجه کارشان استفاده نکنید (ممکن است توهین‌آمیز باشد).\n- günstig هم برای قیمت و هم برای موقعیت/زمان مناسب به کار می‌رود (z. B. günstige Gelegenheit).\n- مقایسه: billiger (ارزان‌تر)، günstiger (مناسب‌تر)، teurer (گران‌تر).\n- superlativ: am billigsten / am günstigsten / am teuersten.\n\nدر مکالمات روزمره، برای احترام بیشتر از günstig یا preiswert به جای billig استفاده کنید."
+  },
+  {
+    "id": "49",
+    "title-id": "A1-3",
+    "title": "Imperativ (Befehlsform) mit hören, kaufen, kommen",
+    "description": "در آلمانی برای دادن دستور، پیشنهاد یا درخواست به صورت غیررسمی و مفرد (du) از شکل Imperativ استفاده می‌کنیم.\n\nقانون کلی:\n- فعل را در حالت du (حال ساده) می‌گیریم و پسوند -st را حذف می‌کنیم.\n- ضمیر du حذف می‌شود.\n- برای بسیاری از افعال (مخصوصاً اگر ساقه با d/t تمام شود) می‌توانیم -e اضافه کنیم (در گفتار روزمره اختیاری است).\n\nمثال‌های داده‌شده:\nDu machst Sport. → Mach Sport!\nDu hörst Musik. → Hör Musik!\nDu kommst nach Deutschland. → Komm nach Deutschland!\n\nتوجه: این شکل فقط برای du (غیررسمی، یک نفر) است. برای ihr و Sie شکل‌های جداگانه دارد.",
+    "examples": [
+      {
+        "de": "Du hörst Musik.",
+        "fa": "تو موسیقی گوش می‌دهی."
+      },
+      {
+        "de": "Hör Musik!",
+        "fa": "موسیقی گوش بده!"
+      },
+      {
+        "de": "Du kaufst ein Buch.",
+        "fa": "تو یک کتاب می‌خری."
+      },
+      {
+        "de": "Kauf ein Buch!",
+        "fa": "یک کتاب بخر!"
+      },
+      {
+        "de": "Du kommst nach Hause.",
+        "fa": "تو به خانه می‌آیی."
+      },
+      {
+        "de": "Komm nach Hause!",
+        "fa": "به خانه بیا!"
+      },
+      {
+        "de": "Du hörst gut zu.",
+        "fa": "تو خوب گوش می‌دهی."
+      },
+      {
+        "de": "Hör gut zu!",
+        "fa": "خوب گوش بده!"
+      },
+      {
+        "de": "Du kaufst Brot.",
+        "fa": "تو نان می‌خری."
+      },
+      {
+        "de": "Kauf Brot!",
+        "fa": "نان بخر!"
+      }
+    ],
+    "note": "نکات مهم:\n• برای hören: هِر (بدون -st) → Hör!\n• برای kaufen: ساقه kauf (بدون -st) → Kauf! (گاهی Kaufe! در متون رسمی یا برای تلفظ بهتر)\n• برای kommen: Komm! (ساقه بدون -st)\n• در جملات کامل: فعل Imperativ در اول جمله می‌آید و علامت تعجب (!) دارد.\n• برای مودبانه کردن: Bitte اضافه کن، مثلاً: Hör bitte Musik!\n• این درس برای سطح A1 است و فقط شکل du را پوشش می‌دهد."
+  },
+  {
+  "id": "50",
+  "title-id": "A1-3",
+  "title": "Wie viele? / Wie viel?",
+  "description": "در آلمانی برای پرسیدن «چند تا؟» یا «چقدر؟» از «Wie viele?» و «Wie viel?» استفاده می‌شود.\n\n• Wie viele؟ → برای اسم‌های قابل شمارش (زائل‌بار) در جمع به کار می‌رود. یعنی تعداد دقیق اشیاء یا افراد را می‌پرسد.\n• Wie viel؟ → برای اسم‌های غیرقابل شمارش (مثل آب، پول، زمان) یا مقدار کلی به کار می‌رود. یعنی «چقدر» یا «چه مقدار».\n\nنکته مهم: همیشه «wie viel» و «wie viele» جدا نوشته می‌شوند (نه wieviel).",
+  "examples": [
+    {
+      "de": "Wie viele Bücher hast du?",
+      "fa": "چند تا کتاب داری؟"
+    },
+    {
+      "de": "Wie viel Wasser trinkst du am Tag?",
+      "fa": "چقدر آب در روز می‌نوشی؟"
+    },
+    {
+      "de": "Wie viele Freunde kommen zur Party?",
+      "fa": "چند تا دوست به مهمانی می‌آیند؟"
+    },
+    {
+      "de": "Wie viel Geld kostet das Ticket?",
+      "fa": "بلیت چقدر پول می‌گیرد؟ (چقدر هزینه دارد؟)"
+    },
+    {
+      "de": "Wie viel Zeit brauchst du?",
+      "fa": "چقدر زمان نیاز داری؟"
+    },
+    {
+      "de": "Wie viele Äpfel möchtest du?",
+      "fa": "چند تا سیب می‌خواهی؟"
+    }
+  ],
+  "note": "• Wie viele همیشه با اسم جمع قابل شمارش استفاده می‌شود و صفت را در حالت جمع نگه می‌دارد.\n• Wie viel با اسم مفرد غیرقابل شمارش یا برای قیمت/مقدار کلی به کار می‌رود.\n• در مکالمات روزمره: Wie viel Uhr ist es? (ساعت چند است؟) — اینجا «Uhr» استثنا است و با Wie viel می‌آید.\n\nنکته کاربردی: اگر می‌توانی آن را بشماری (one, two, three...) از «Wie viele» استفاده کن. اگر نمی‌توانی (water, money, time) از «Wie viel» استفاده کن."
+},
+{
+    "id": "51",
+    "title-id": "A1-3",
+    "title": "Imperativ (Sie-Form) – Gesunde Tipps",
+    "description": "در سطح A1 آلمانی، برای دادن **نصیحت‌ها و دستورهای مودبانه** (به افراد بزرگسال، غریبه یا در موقعیت‌های رسمی) از فرم Imperativ با «Sie» استفاده می‌شود.\n\nساختار کلی:\nفعل در شکل سوم شخص جمع (Sie-Form حال ساده) + Sie!\n\nاین فرم بسیار مودبانه است و اغلب با «bitte» همراه می‌شود. فعل همیشه با حرف بزرگ شروع می‌شود.\n\nنکته مهم: برای فعل‌های با تغییر مصوت (مانند essen → isst) در Imperativ Sie-Form، مصوت تغییر نمی‌کند و شکل عادی Sie استفاده می‌شود.",
+    "examples": [
+        {
+            "de": "Kauen Sie viel Obst!",
+            "fa": "میوه زیاد بجوید! (میوه زیاد بخورید!)"
+        },
+        {
+            "de": "Kochen Sie wenig Fleisch!",
+            "fa": "گوشت کم بپزید!"
+        },
+        {
+            "de": "Machen Sie viel Sport!",
+            "fa": "ورزش زیاد انجام دهید!"
+        },
+        {
+            "de": "Trinken Sie Milch!",
+            "fa": "شیر بنوشید!"
+        },
+        {
+            "de": "Essen Sie Joghurt und Käse!",
+            "fa": "ماست و پنیر بخورید!"
+        },
+        {
+            "de": "Essen Sie viel Gemüse!",
+            "fa": "سبزیجات زیاد بخورید!"
+        },
+        {
+            "de": "Trinken Sie viel Wasser!",
+            "fa": "آب زیاد بنوشید!"
+        }
+    ],
+    "note": "در این درس معمولاً این جملات برای توصیه‌های سلامتی (gesunde Ernährung und Bewegung) استفاده می‌شوند.\n\nنکات کاربردی:\n- برای مودبانه‌تر کردن: «bitte» اضافه کنید → «Essen Sie bitte viel Obst!»\n- برای منفی کردن: «nicht» بعد از فعل و قبل از Sie قرار می‌گیرد → «Essen Sie nicht zu viel Fleisch!»\n- مثال‌های مشابه رایج: Gehen Sie zu Fuß! / Schlafen Sie genug! / Rauchen Sie nicht!\n\nاین ساختار در مکالمات روزمره، کتاب‌های درسی A1 و توصیه‌های پزشکی بسیار پرکاربرد است."
+},
+{
+    "id": "52",
+    "title-id": "A1-3",
+    "title": "wenig - viel",
+    "description": "در آلمانی، «viel» و «wenig» برای بیان مقدار استفاده می‌شوند.\n\n• viel = زیاد / خیلی (much / a lot)\n• wenig = کم / اندک (little / not much)\n\nنکته مهم:\n- وقتی با اسم غیرقابل شمارش (uncountable) مثل آب، زمان، پول استفاده می‌شوند، شکل پایه (viel / wenig) بدون تغییر پایان می‌گیرند.\n- وقتی با اسم قابل شمارش در جمع (countable plural) استفاده می‌شوند، به صورت viele / wenige درمی‌آیند.\n\nviel و wenig می‌توانند به عنوان قید (adverb) هم بیایند و فعل را توصیف کنند (بدون تغییر).\n\nاین کلمات در سطح A1 خیلی پرکاربرد هستند و برای صحبت درباره مقدار غذا، زمان، پول و افراد استفاده می‌شوند.",
+    "examples": [
+      {
+        "de": "Ich trinke viel Wasser.",
+        "fa": "من آب زیاد می‌نوشم."
+      },
+      {
+        "de": "Ich habe wenig Zeit.",
+        "fa": "من زمان کمی دارم."
+      },
+      {
+        "de": "Er hat viele Freunde.",
+        "fa": "او دوستان زیادی دارد."
+      },
+      {
+        "de": "Sie hat wenige Bücher.",
+        "fa": "او کتاب‌های کمی دارد."
+      },
+      {
+        "de": "Ich arbeite viel.",
+        "fa": "من زیاد کار می‌کنم."
+      },
+      {
+        "de": "Er schläft wenig.",
+        "fa": "او کم می‌خوابد."
+      },
+      {
+        "de": "Viel Erfolg!",
+        "fa": "موفقیت زیاد! (موفق باشی!)"
+      },
+      {
+        "de": "Wenig Geld ist besser als kein Geld.",
+        "fa": "پول کم بهتر از هیچ پولی است."
+      }
+    ],
+    "note": "• viel / wenig + اسم غیرقابل شمارش → بدون پایان (مثل viel Wasser، wenig Geld)\n• viele / wenige + اسم قابل شمارش جمع → با پایان -e (مثل viele Menschen، wenige Autos)\n• به عنوان قید: viel arbeiten، wenig essen (بدون تغییر)\n• در جملات منفی یا سؤالی هم رایج است: Hast du viel Hunger? – Nein, nur wenig."
+  },
+  {
+  "id": "53",
+  "title-id": "A1-3",
+  "title": "haben – فعل داشتن",
+  "description": "فعل «haben» یعنی «داشتن». این فعل خیلی مهم است و برای صحبت درباره مالکیت، خانواده، اشیا و سن استفاده می‌شود.\n\nکنجुगاسیون (صرف) در زمان حال (Präsens):",
+  "examples": [
+    {
+      "de": "ich habe",
+      "fa": "من دارم / دارم"
+    },
+    {
+      "de": "du hast",
+      "fa": "تو داری (غیررسمی)"
+    },
+    {
+      "de": "er / sie / es hat",
+      "fa": "او دارد (مذکر / مؤنث / خنثی)"
+    },
+    {
+      "de": "wir haben",
+      "fa": "ما داریم"
+    },
+    {
+      "de": "ihr habt",
+      "fa": "شما دارید (غیررسمی جمع)"
+    },
+    {
+      "de": "sie / Sie haben",
+      "fa": "آنها دارند / شما دارید (رسمی)"
+    }
+  ],
+  "note": "نکته مهم:\n- در du و er/sie/es حرف «b» حذف می‌شود: hast و hat\n- haben هم فعل اصلی (برای داشتن) است و هم فعل کمکی برای ساخت زمان کامل (Perfekt).\n\nمثال‌های کاربردی:"
+},
+{
+    "id": "54",
+    "title-id": "A1-3",
+    "title": "Konjugation des Verbs „wissen“ im Präsens",
+    "description": "فعل wissen به معنای «دانستن» (دانستن یک факт یا اطلاعات) است و در زمان حال (Präsens) به صورت نامنظم صرف می‌شود.\n\nصرف کامل:\nIch weiß\nDu weißt\nEr/Sie/Es weiß\nWir wissen\nIhr wisst\nSie/sie wissen\n\nتوجه مهم: در سوم شخص مفرد (er/sie/es) و اول شخص مفرد (ich) به جای i از ei استفاده می‌شود (weiß). این فعل برای دانستن اطلاعات، حقایق یا جواب سؤالات به کار می‌رود (نه برای شناخت افراد یا مکان‌ها که از kennen استفاده می‌شود).",
+    "examples": [
+        {
+            "de": "Ich weiß die Antwort.",
+            "fa": "من جواب را می‌دانم."
+        },
+        {
+            "de": "Weißt du, wo der Bahnhof ist?",
+            "fa": "می‌دانی ایستگاه قطار کجاست؟"
+        },
+        {
+            "de": "Er weiß nicht, wie spät es ist.",
+            "fa": "او نمی‌داند ساعت چند است."
+        },
+        {
+            "de": "Wir wissen, dass du kommst.",
+            "fa": "ما می‌دانیم که تو می‌آیی."
+        },
+        {
+            "de": "Wisst ihr die Telefonnummer?",
+            "fa": "شما شماره تلفن را می‌دانید؟"
+        },
+        {
+            "de": "Sie wissen alles über Deutschland.",
+            "fa": "آنها همه چیز را درباره آلمان می‌دانند."
+        }
+    ],
+    "note": "نکته مهم:\n- wissen + جمله (Nebensatz): برای دانستن اطلاعات دقیق (مثل اینکه، کجا، کی، چطور...)\n- تفاوت با kennen: wissen برای facts و اطلاعات → kennen برای شناخت افراد، مکان‌ها یا چیزها (مثال: Ich kenne Berlin = من برلین را می‌شناسم / Ich weiß, wo Berlin liegt = من می‌دانم برلین کجاست)\n- در جملات منفی: Ich weiß nicht. (من نمی‌دانم.)\n\nاین صرف فقط برای Präsens است. در گذشته: ich wusste, wir wussten."
+},
+{
+    "id": "55",
+    "title-id": "A1-3",
+    "title": "Frageanhängsel mit „oder?“",
+    "description": "در آلمانی برای تأیید یک جمله یا سؤال کردن به صورت غیرمستقیم (مثل «درست است؟» یا «نه؟» در فارسی) از کلمه «oder?» در انتهای جمله استفاده می‌شود. این ساختار خیلی رایج و ساده است و نشان‌دهنده این است که گوینده تقریباً مطمئن است اما می‌خواهد تأیید بگیرد. لحن آن دوستانه و محاوره‌ای است. توجه: بعد از «oder» همیشه علامت سؤال (?) می‌آید و جمله اصلی بدون تغییر می‌ماند.",
+    "examples": [
+      {
+        "de": "Du bist Lehrer, oder?",
+        "fa": "تو معلمی، مگه نه؟ / تو معلمی، درسته؟"
+      },
+      {
+        "de": "Sie kommt morgen, oder?",
+        "fa": "او فردا می‌آید، مگه نه؟"
+      },
+      {
+        "de": "Wir gehen ins Kino, oder?",
+        "fa": "ما به سینما می‌رویم، درسته؟"
+      },
+      {
+        "de": "Das ist dein Buch, oder?",
+        "fa": "این کتاب توست، مگه نه؟"
+      },
+      {
+        "de": "Du sprichst Deutsch, oder?",
+        "fa": "تو آلمانی حرف می‌زنی، درسته؟"
+      }
+    ],
+    "note": "این ساختار در مکالمات روزمره بسیار پرکاربرد است. می‌توانید به جای «oder?» از «nicht wahr?» یا «stimmt’s?» هم استفاده کنید، اما «oder?» ساده‌ترین و رایج‌ترین گزینه در سطح A1 است. همیشه با صدای بالا (intonation rising) گفته می‌شود تا سؤال بودن آن مشخص شود."
+  },
+{
+  "id": "56",
+  "title-id": "A1-4",
+  "title": "arbeiten",
+  "description": "فعل «arbeiten» به معنای «کار کردن» است. این فعل منظم (regelmäßig) است و برای صحبت درباره شغل، محل کار یا فعالیت روزانه استفاده می‌شود.\n\nصرف فعل در زمان حال (Präsens):\nich arbeite\ndu arbeitest\ner/sie/es arbeitet\nwir arbeiten\nihr arbeitet\nsie/Sie arbeiten\n\nنکته: چون فعل به «-t» ختم می‌شود، در du، er/sie/es و ihr یک «e» اضافه می‌شود تا تلفظ آسان‌تر شود.",
+  "examples": [
+    {
+      "de": "Ich arbeite in Stuttgart.",
+      "fa": "من در اشتوتگارت کار می‌کنم."
+    },
+    {
+      "de": "Du arbeitest bei einer Firma.",
+      "fa": "تو در یک شرکت کار می‌کنی."
+    },
+    {
+      "de": "Er arbeitet als Ingenieur.",
+      "fa": "او به عنوان مهندس کار می‌کند."
+    },
+    {
+      "de": "Wir arbeiten zusammen.",
+      "fa": "ما با هم کار می‌کنیم."
+    },
+    {
+      "de": "Arbeitest du heute?",
+      "fa": "امروز کار می‌کنی؟"
+    },
+    {
+      "de": "Wo arbeitest du?",
+      "fa": "کجا کار می‌کنی؟"
+    }
+  ],
+  "note": "• فعل arbeiten همیشه با حرف اضافه «bei» (برای شرکت) یا «in» (برای محل) یا «als» (برای شغل) استفاده می‌شود.\n• برای سؤال: «Wo arbeitest du?» یا «Was arbeitest du?» (چه شغلی داری؟)\n• Past: Ich habe gearbeitet (Perfekt) / Ich arbeitete (Präteritum)\nاین فعل برای سطح A1 بسیار مهم است و در موضوع «Arbeit und Beruf» زیاد به کار می‌رود."
+},
+{
+  "id": "57",
+  "title-id": "A1-4",
+  "title": "Das ist Paul. / Das ist doch nicht Paul.",
+  "description": "این ساختار برای معرفی شخص یا چیز (Das ist ...) و سپس انکار یا اصلاح آن با تأکید استفاده می‌شود. کلمه «doch» یک ذره modal (Modalpartikel) است که در جملات منفی، حس تعجب، اصلاح یا تأکید بر خلاف انتظار را اضافه می‌کند. یعنی «اینکه ... نیست» با لحن قوی‌تر و اغلب برای تصحیح یک فرض اشتباه.",
+  "examples": [
+    {
+      "de": "Das ist Paul.",
+      "fa": "این پاول است."
+    },
+    {
+      "de": "Das ist doch nicht Paul.",
+      "fa": "این که پاول نیست. / این اصلاً پاول نیست."
+    },
+    {
+      "de": "Das ist doch nicht so schwer.",
+      "fa": "این که خیلی سخت نیست. (با تأکید و تعجب)"
+    },
+    {
+      "de": "Das ist doch nicht möglich!",
+      "fa": "این که ممکن نیست! (تعجب و انکار قوی)"
+    }
+  ],
+  "note": "«Doch» در این ساختار معمولاً بدون استرس تلفظ می‌شود و احساس اعتراض ملایم یا تصحیح را می‌دهد. در سطح A1 برای تمرین معرفی و否定 ساده بسیار مفید است. نکته مهم: «nicht» بعد از «doch» می‌آید و قبل از چیزی که انکار می‌شود."
+},
+{
+  "id": "58",
+  "title-id": "A1-4",
+  "title": "Was bist du von Beruf?",
+  "description": "در این مبحث یاد می‌گیریم چطور شغل خودمان و دیگران را به آلمانی بپرسیم و جواب دهیم. دو ساختار اصلی وجود دارد:\n\n1. «Was bist du von Beruf?» (برای افراد آشنا و غیررسمی)\n2. «Was machen Sie beruflich?» (برای افراد غریبه یا رسمی)\n\nپاسخ معمولاً با «Ich bin ...» یا «Ich arbeite als ...» شروع می‌شود.\n\nنکته مهم: در آلمانی شغل بدون مقاله می‌آید (Ich bin Ingenieur).",
+  "examples": [
+    {
+      "de": "Was bist du von Beruf?",
+      "fa": "شغلت چیست؟ (غیررسمی)"
+    },
+    {
+      "de": "Ich bin IT-Ingenieur.",
+      "fa": "من مهندس آی‌تی هستم."
+    },
+    {
+      "de": "Was machst du so?",
+      "fa": "چه کار می‌کنی؟ (روزمره و غیررسمی)"
+    },
+    {
+      "de": "Ich arbeite als Koch.",
+      "fa": "من به عنوان آشپز کار می‌کنم."
+    },
+    {
+      "de": "Was sind Sie von Beruf?",
+      "fa": "شغل شما چیست؟ (رسمی)"
+    },
+    {
+      "de": "Ich bin Lehrerin.",
+      "fa": "من معلم (زن) هستم."
+    }
+  ],
+  "note": "برای مرد از شکل ساده (Ingenieur, Koch) و برای زن از شکل مؤنث (Ingenieurin, Köchin) استفاده کنید.\n\nمثال کامل مکالمه:\nA: Hallo! Was bist du von Beruf?\nB: Ich bin IT-Ingenieur. Und du?\nA: Ich arbeite als Koch."
+},
+{
+    "id": "59",
+    "title-id": "A1-4",
+    "title": "Meinung ausdrücken mit \"finden\"",
+    "description": "در این مبحث یاد می‌گیریم چطور نظر خودمان را درباره چیزی یا کسی بیان کنیم. ساختار اصلی: \n\nWie findest du + Akkusativ? (چطور ... را پیدا می‌کنی؟ / نظرت درباره ... چیه؟ - غیررسمی)\n\nپاسخ: Ich finde + Akkusativ + Adjektiv.\n\nفعل \"finden\" در اینجا به معنی \"نظر داشتن\" یا \"پیدا کردن (به عنوان)\" است و مفعول آن همیشه Accusativ می‌گیرد. صفت بعد از مفعول می‌آید و نظر مثبت یا منفی را نشان می‌دهد.\n\nنکته مهم: \"nicht gut\" یعنی \"خوب نیست\" (منفی ملایم).",
+    "examples": [
+      {
+        "de": "Ich finde das Auto schön.",
+        "fa": "من ماشین را زیبا پیدا می‌کنم. (ماشین را دوست دارم / به نظرم قشنگه)"
+      },
+      {
+        "de": "Wie findest du Emma?",
+        "fa": "نظرت درباره اما چیه؟"
+      },
+      {
+        "de": "Ich finde Emma nicht gut.",
+        "fa": "اما را خوب پیدا نمی‌کنم. (اما را دوست ندارم / به نظرم خوب نیست)"
+      },
+      {
+        "de": "Wie findest du den Film?",
+        "fa": "نظرت درباره فیلم چیه؟"
+      },
+      {
+        "de": "Ich finde den Film langweilig.",
+        "fa": "فیلم را خسته‌کننده پیدا می‌کنم."
+      }
+    ],
+    "note": "توضیحات اضافی:\n- برای افراد یا اسم‌های مؤنث/مذکر/خنثی، از Akkusativ درست استفاده کن (den, die, das).\n- در پاسخ، می‌توانی صفت‌های مختلف بگذاری: schön (زیبا)، gut (خوب)، toll (عالی)، schlecht (بد)، interessant (جالب) و غیره.\n- ساختار جمله همیشه: Subject + finde/findest + مفعول (Akk.) + صفت.\n- این ساختار در سطح A1 خیلی رایج است و برای صحبت درباره فیلم، غذا، افراد یا اشیاء استفاده می‌شود."
+  },
+  {
+    "id": "60",
+    "title-id": "A1-4",
+    "title": "اربایتن (arbeiten) و کوخن (kochen) - فعل‌های حال ساده",
+    "description": "در این مبحث یاد می‌گیریم چطور فعل‌های منظم «arbeiten» (کار کردن) و «kochen» (پختن) را در زمان حال (Präsens) صرف کنیم.\n\nقانون کلی فعل‌های منظم آلمانی:\n- مصدر (Infinitiv) را بدون -en بگیریم تا ساقه (Stamm) به دست آید.\n- سپس پایان‌های شخصی را اضافه کنیم:\n  ich → -e\n  du → -st\n  er/sie/es → -t\n  wir → -en\n  ihr → -t\n  sie/Sie → -en\n\nبرای «arbeiten» (ساقه: arbeit-) چون به t ختم می‌شود، برای راحتی تلفظ در برخی صیغه‌ها e اضافه می‌شود: du arbeitest، er arbeitet، ihr arbeitet.\n\nبرای «kochen» (ساقه: koch-) کاملاً منظم است.\n\nجمله منفی: فعل مثبت + nicht (معمولاً در انتهای جمله یا بعد از فعل اصلی).\n\nکاربرد: این فعل‌ها برای معرفی شغل، فعالیت روزانه و عادت‌ها استفاده می‌شوند.",
+    "examples": [
+        {
+            "de": "Er arbeitet.",
+            "fa": "او کار می‌کند."
+        },
+        {
+            "de": "Er arbeitet nicht.",
+            "fa": "او کار نمی‌کند."
+        },
+        {
+            "de": "Ich arbeite als Koch.",
+            "fa": "من به عنوان آشپز کار می‌کنم."
+        },
+        {
+            "de": "Ich koche für Firmen.",
+            "fa": "من برای شرکت‌ها غذا می‌پزم."
+        },
+        {
+            "de": "Ich arbeite jeden Tag.",
+            "fa": "من هر روز کار می‌کنم."
+        },
+        {
+            "de": "Du kochst sehr gut.",
+            "fa": "تو خیلی خوب غذا می‌پزی."
+        },
+        {
+            "de": "Sie kocht nicht zu Hause.",
+            "fa": "او در خانه غذا نمی‌پزد."
+        },
+        {
+            "de": "Wir arbeiten in Stuttgart.",
+            "fa": "ما در اشتوتگارت کار می‌کنیم."
+        },
+        {
+            "de": "Arbeitest du als Koch?",
+            "fa": "آیا تو به عنوان آشپز کار می‌کنی؟"
+        },
+        {
+            "de": "Kocht er für die Familie?",
+            "fa": "آیا او برای خانواده غذا می‌پزد؟"
+        }
+    ],
+    "note": "نکته مهم:\n• در جملات منفی، «nicht» معمولاً بعد از فعل یا در انتهای جمله قرار می‌گیرد (مثال: Er arbeitet nicht.).\n• برای معرفی شغل از «als + شغل» استفاده می‌شود (Ich arbeite als Koch.).\n• فعل «arbeiten» به خاطر t نهایی، e اضافی می‌گیرد: arbeitest / arbeitet.\n• این مبحث برای سطح A1 بسیار مهم است چون برای صحبت درباره شغل و فعالیت‌های روزانه ضروری است.\n\nمثال‌های اضافی برای تمرین:\n- Ich koche gerne italienisches Essen. (من دوست دارم غذای ایتالیایی بپزم.)\n- Er arbeitet nicht am Wochenende. (او آخر هفته کار نمی‌کند.)"
+},
+{
+    "id": "61",
+    "title-id": "A1-4",
+    "title": "Rentner / Rentnerin – Ich bin Rentner / arbeitslos",
+    "description": "در این مبحث با کلمات و عبارات مربوط به بازنشستگی (Rentner/Rentnerin) و بیکاری (arbeitslos) آشنا می‌شوید. این عبارات برای معرفی وضعیت شغلی و سنی در مکالمات روزمره سطح A1 بسیار کاربردی هستند. \n\nRentner (مذکر): مرد بازنشسته\nRentnerin (مونث): زن بازنشسته\n\narbeitslos: بیکار\nkeine Arbeit haben: کار نداشتن",
+    "examples": [
+      {
+        "de": "Ich bin Rentner.",
+        "fa": "من بازنشسته‌ام. (مذکر)"
+      },
+      {
+        "de": "Ich bin Rentnerin.",
+        "fa": "من بازنشسته‌ام. (مونث)"
+      },
+      {
+        "de": "Ich bin 65 und Rentner.",
+        "fa": "من ۶۵ ساله‌ام و بازنشسته‌ام."
+      },
+      {
+        "de": "Ich bin arbeitslos.",
+        "fa": "من بیکارم."
+      },
+      {
+        "de": "Ich habe keine Arbeit.",
+        "fa": "من کار ندارم."
+      },
+      {
+        "de": "Ich bin schon lange arbeitslos.",
+        "fa": "من مدت‌هاست که بیکارم."
+      }
+    ],
+    "note": "نکته: در آلمانی برای معرفی خود از \"Ich bin ...\" استفاده کنید. \nبرای جنسیت: Rentner (مرد) و Rentnerin (زن). \nدر مکالمات رسمی می‌توانید بگویید: \"Ich bin Rentnerin und 65 Jahre alt.\" \nاین عبارات را با صدای بلند تمرین کنید تا تلفظ درست شود (Rentner: رِنت‌نِر / arbeitslos: آرْبایتس‌لوس)."
+  },
+{
+  "id": "62",
+  "title-id": "A1-4",
+  "title": "Wie spät ist es? – Die Uhrzeit auf Deutsch sagen",
+  "description": "در این مبحث یاد می‌گیریم چطور ساعت را به آلمانی بپرسیم و بگوییم.\n\nروش‌های اصلی:\n\n• پرسیدن ساعت: Wie spät ist es? یا Wie viel Uhr ist es?\n\n• جواب: همیشه با «Es ist ...» شروع می‌شود.\n\nدو روش اصلی وجود دارد:\n\n۱. روش دقیق (رسمی یا دیجیتال):\n   ساعت + Uhr + دقیقه (مثلاً: Es ist vierzehn Uhr fünfzehn.)\n\n۲. روش محاوره‌ای (روزمره):\n   - Viertel nach ... → ربع بعد از ساعت (۱۵ دقیقه)\n   - Viertel vor ... → ربع به ساعت بعدی (۴۵ دقیقه)\n   - Halb ... → نیم به ساعت بعدی (۳۰ دقیقه)\n   - دقیقه + nach + ساعت → دقیقه بعد از ساعت\n   - دقیقه + vor + ساعت بعدی → دقیقه به ساعت بعدی\n\nنکته مهم: در آلمانی «halb» همیشه به ساعت بعدی اشاره دارد (مثلاً halb zwei = ۱:۳۰، نه ۲:۳۰).\n\nبرای دقیقه‌های دیگر از nach (بعد) یا vor (قبل) استفاده می‌شود.\n\nدر آخر روز یا شب می‌توان از morgens / nachmittags / abends / nachts استفاده کرد، ولی در سطح A1 معمولاً لازم نیست.",
+  "examples": [
+    {
+      "de": "Wie spät ist es?",
+      "fa": "ساعت چند است؟ (رایج‌ترین سوال)"
+    },
+    {
+      "de": "Wie viel Uhr ist es?",
+      "fa": "ساعت چند است؟ (کمی رسمی‌تر)"
+    },
+    {
+      "de": "Es ist Viertel nach zwei.",
+      "fa": "ساعت دو و ربع است. (۱۴:۱۵)"
+    },
+    {
+      "de": "Es ist Viertel vor zwei.",
+      "fa": "ربع به دو است. (۱۳:۴۵)"
+    },
+    {
+      "de": "Es ist halb neun.",
+      "fa": "نیم به نه است. (۲۰:۳۰ یا ۸:۳۰ شب)"
+    },
+    {
+      "de": "Es ist halb eins.",
+      "fa": "نیم به یک است. (۱۲:۳۰)"
+    },
+    {
+      "de": "Es ist fünf nach halb sechs.",
+      "fa": "پنج دقیقه بعد از نیم به شش است. (۱۷:۳۵)"
+    },
+    {
+      "de": "Es ist zwölf nach eins.",
+      "fa": "دوازده دقیقه بعد از یک است. (۱۳:۱۲)"
+    },
+    {
+      "de": "Es ist fünf vor zehn.",
+      "fa": "پنج دقیقه به ده است. (۲۱:۵۵)"
+    },
+    {
+      "de": "Es ist dreiundzwanzig Uhr fünfzehn.",
+      "fa": "ساعت بیست و سه و پانزده دقیقه است. (۲۳:۱۵)"
+    },
+    {
+      "de": "Es ist zehn Uhr vierzehn.",
+      "fa": "ساعت ده و چهارده دقیقه است. (۱۰:۱۴)"
+    },
+    {
+      "de": "Es ist zwanzig Uhr zwei.",
+      "fa": "ساعت بیست و دو دقیقه است. (۲۰:۰۲)"
+    },
+    {
+      "de": "Es ist gegen vier. / Es ist circa vier.",
+      "fa": "تقریباً چهار است. (۱۵:۵۸)"
+    }
+  ],
+  "note": ""
+},
+{
+  "id": "63",
+  "title-id": "A1-4",
+  "title": "Zeitangaben mit „um“ – Wann ist die Party?",
+  "description": "در این مبحث یاد می‌گیریم که چطور زمان دقیق یک رویداد را با پیشوند «um» بیان کنیم. «um» برای گفتن «در ساعت ...» یا «ساعت ...» استفاده می‌شود. بعد از «um» همیشه ساعت را می‌گوییم و اگر لازم باشد کلمه «Uhr» را اضافه می‌کنیم. این ساختار خیلی ساده و پرکاربرد است و در مکالمات روزمره برای قرارها، مهمانی‌ها و برنامه‌ها استفاده می‌شود.\n\nقوانین مهم:\n• um + ساعت دقیق (مثلاً um acht)\n• um + Viertel nach + ساعت (مثلاً um Viertel nach sieben)\n• همیشه بعد از عدد ساعت می‌توان «Uhr» اضافه کرد (um acht Uhr).\n• «Viertel nach» یعنی ربع ساعت بعد از ساعت کامل (۱۵ دقیقه بعد).\n\nنکته: در آلمانی رسمی یا مکالمه، «Uhr» را اغلب بعد از ساعت کامل می‌گویند.",
+  "examples": [
+    {
+      "de": "Wann ist die Party? – Um acht.",
+      "fa": "مهمانی کی است؟ – ساعت هشت."
+    },
+    {
+      "de": "Und wann kommt er? – Um Viertel nach sieben.",
+      "fa": "و او کی می‌آید؟ – ساعت هفت و ربع."
+    },
+    {
+      "de": "Die Party ist um acht Uhr.",
+      "fa": "مهمانی ساعت هشت است."
+    },
+    {
+      "de": "Ich komme um Viertel nach sieben.",
+      "fa": "من ساعت هفت و ربع می‌آیم."
+    },
+    {
+      "de": "Der Film beginnt um halb acht.",
+      "fa": "فیلم ساعت هفت و نیم شروع می‌شود."
+    },
+    {
+      "de": "Wir treffen uns um zehn nach acht.",
+      "fa": "ما ساعت هشت و ده دقیقه همدیگر را می‌بینیم."
+    }
+  ],
+  "note": "• «um» همیشه با ساعت خاص استفاده می‌شود (نه با روز یا ماه).\n• برای ربع ساعت: Viertel nach (بعد) یا Viertel vor (قبل).\n• در مکالمات عادی اغلب «Uhr» را حذف می‌کنند: um acht (به جای um acht Uhr).\n• تلفظ: «um» مثل «اوم»، «Viertel» مثل «فیرتل»، «nach» مثل «ناخ»."
+},
+{
+  "id": "64",
+  "title-id": "A1-4",
+  "title": "Langsamer, bitte",
+  "description": "وقتی صحبت طرف مقابل خیلی سریع است، می‌توانید مودبانه درخواست کنید آهسته‌تر صحبت کند.\nاین عبارت خیلی کاربردی است برای کلاس، مکالمه یا وقتی چیزی را متوجه نمی‌شوید.",
+  "examples": [
+    {
+      "de": "Langsamer, bitte.",
+      "fa": "آهسته‌تر، لطفاً."
+    },
+    {
+      "de": "Können Sie bitte langsamer sprechen?",
+      "fa": "می‌توانید لطفاً آهسته‌تر صحبت کنید؟"
+    },
+    {
+      "de": "Ein bisschen langsamer, bitte.",
+      "fa": "کمی آهسته‌تر، لطفاً."
+    },
+    {
+      "de": "Bitte sprechen Sie etwas langsamer.",
+      "fa": "لطفاً کمی آهسته‌تر صحبت کنید."
+    }
+  ],
+  "note": "کلمه «langsamer» صفت/قید مقایسه‌ای از «langsam» (آهسته) است.\nمعمولاً با «bitte» همراه می‌شود تا مودبانه باشد.\nمی‌توانید از «ein bisschen» یا «etwas» برای نرم‌تر کردن درخواست استفاده کنید."
+},
+{
+  "id": "65",
+  "title-id": "A1-4",
+  "title": "مثل der Laptop > er | das Büro > es | die Küche > sie",
+  "description": "در زبان آلمانی، هر اسم (Nomen) جنسیت دستوری (Genus) دارد: مذکر (maskulin)، مؤنث (feminin) یا خنثی (neutrum). این جنسیت با حروف تعریف (Artikel) مشخص می‌شود:\n\nder = مذکر (maskulin)\ndie = مؤنث (feminin)\ndas = خنثی (neutrum)\n\nضمیرهای جایگزین (Personalpronomen) برای این اسم‌ها در حالت فاعلی (Nominativ) به این شکل است:\n\nder → er (او - برای مذکر)\ndie → sie (او - برای مؤنث)\ndas → es (آن - برای خنثی)\n\nاین قانون خیلی مهم است چون در جملات، به جای تکرار اسم، از ضمیر استفاده می‌کنیم.",
+  "examples": [
+    {
+      "de": "Der Laptop ist neu. Er ist sehr schnell.",
+      "fa": "لپ‌تاپ جدید است. آن خیلی سریع است."
+    },
+    {
+      "de": "Das Büro ist groß. Es ist im ersten Stock.",
+      "fa": "دفتر بزرگ است. آن در طبقه اول است."
+    },
+    {
+      "de": "Die Küche ist modern. Sie ist sehr hell.",
+      "fa": "آشپزخانه مدرن است. آن خیلی روشن است."
+    },
+    {
+      "de": "Wo ist der Laptop? Er liegt auf dem Tisch.",
+      "fa": "لپ‌تاپ کجاست؟ آن روی میز است."
+    },
+    {
+      "de": "Das Büro ist geschlossen. Es öffnet morgen wieder.",
+      "fa": "دفتر بسته است. آن فردا دوباره باز می‌شود."
+    },
+    {
+      "de": "Die Küche ist sauber. Sie riecht gut.",
+      "fa": "آشپزخانه تمیز است. آن بوی خوبی می‌دهد."
+    }
+  ],
+  "note": "نکته مهم:\n- جنسیت اسم‌ها را باید حفظ کنید (هیچ قانون ۱۰۰٪ وجود ندارد، اما الگوهایی مثل پایان کلمات کمک می‌کند).\n- ضمیر همیشه با جنسیت اسم اصلی مطابقت دارد، نه با معنای طبیعی آن.\n- مثال: Laptop (مذکر) → er\n  Büro (خنثی) → es\n  Küche (مؤنث) → sie\n\nاین مبحث پایه‌ای برای ساخت جملات ساده در سطح A1 است. همیشه اسم را با Artikel یاد بگیرید!"
+},
+{
+  "id": "66",
+  "title-id": "A1-4",
+  "title": "Schau mal! / schauen",
+  "description": "فعل \"schauen\" یعنی نگاه کردن (معمولاً با تمرکز و عمدی). \n\n\"Schau mal!\" عبارت خیلی رایج روزمره است و به معنای \"نگاه کن!\" یا \"ببین!\" می‌باشد. کلمه \"mal\" جمله را دوستانه‌تر و نرم‌تر می‌کند (مثل \"یه نگاه بنداز\").",
+  "examples": [
+    {
+      "de": "Schau mal!",
+      "fa": "نگاه کن! / ببین!"
+    },
+    {
+      "de": "Schau mal hier!",
+      "fa": "اینجا رو نگاه کن!"
+    },
+    {
+      "de": "Schau mal das Auto an!",
+      "fa": "به ماشین نگاه کن!"
+    },
+    {
+      "de": "Schau mal, wie schön!",
+      "fa": "ببین چقدر قشنگه!"
+    }
+  ],
+  "note": "• \"schauen\" در جنوب آلمان و اتریش خیلی رایج است (در شمال گاهی \"gucken\" بیشتر استفاده می‌شود).\n• برای دوستانه‌تر کردن دستور از \"mal\" استفاده می‌کنیم: Schau mal! = یه نگاه بنداز!\n• شکل رسمی: Schauen Sie mal!"
+},
+{
+    "id": "67",
+    "title-id": "A1-4",
+    "title": "Nominativ vs. Akkusativ (مفعول مستقیم)",
+    "description": "در آلمانی دو حالت اصلی Nominativ (فاعل جمله) و Akkusativ (مفعول مستقیم جمله) داریم.\n\nفقط در حالت مذکر (masculine) مقاله‌ها تغییر می‌کنند:\n- der → den\n- ein → einen\n- mein → meinen\n- kein → keinen\n\nبرای مؤنث (feminine)، خنثی (neuter) و جمع (plural) هیچ تغییری در مقاله‌ها رخ نمی‌دهد.\n\nAkkusativ برای مفعول مستقیم فعل‌هایی مثل brauchen, haben, sehen, essen, trinken و ... استفاده می‌شود.",
+    "examples": [
+        {
+            "de": "Nominativ:\nder Bruder\ndas Haus\ndie Pizza\ndie Autos",
+            "fa": "فاعل: برادر، خانه، پیتزا، ماشین‌ها"
+        },
+        {
+            "de": "Akkusativ:\nden Bruder\ndas Haus\ndie Pizza\ndie Autos",
+            "fa": "مفعول مستقیم: برادر را، خانه را، پیتزا را، ماشین‌ها را"
+        },
+        {
+            "de": "Ich brauche einen Laptop.",
+            "fa": "من به یک لپ‌تاپ نیاز دارم. (لپ‌تاپ جدید، نامعلوم)"
+        },
+        {
+            "de": "Ich brauche den Laptop.",
+            "fa": "من به آن لپ‌تاپ نیاز دارم. (لپ‌تاپ خاص، معلوم)"
+        },
+        {
+            "de": "Ich brauche keinen Laptop.",
+            "fa": "من به هیچ لپ‌تاپی نیاز ندارم."
+        },
+        {
+            "de": "Ich brauche deinen Laptop.",
+            "fa": "من به لپ‌تاپ تو نیاز دارم."
+        },
+        {
+            "de": "Der Mann sieht den Hund.",
+            "fa": "مرد سگ را می‌بیند."
+        },
+        {
+            "de": "Ich esse eine Pizza.",
+            "fa": "من یک پیتزا می‌خورم."
+        },
+        {
+            "de": "Wir kaufen das Haus.",
+            "fa": "ما خانه را می‌خریم."
+        },
+        {
+            "de": "Sie haben die Autos.",
+            "fa": "آن‌ها ماشین‌ها را دارند."
+        }
+    ],
+    "note": "نکته مهم: فقط masculine در Akkusativ تغییر می‌کند (der → den / ein → einen).\n\nبرای possessive (مالکیتی) مثل mein, dein, sein هم همان قانون masculine اعمال می‌شود: meinen, deinen, seinen.\n\nفعل‌هایی که Akkusativ می‌گیرند: brauchen, haben, sehen, hören, essen, trinken, kaufen, machen و ..."
+},
+{
+  "id": "68",
+  "title-id": "A1-4",
+  "title": "فعل nehmen (گرفتن/برداشتن)",
+  "description": "فعل nehmen به معنای «گرفتن»، «برداشتن» یا «انتخاب کردن چیزی» است. این فعل قوی (stark) است و در حال حاضر (Präsens) برای du و er/sie/es تغییر مصوت دارد (e → i).\n\nصرف کامل در حال حاضر:\nich nehme\ndu nimmst\ner/sie/es nimmt\nwir nehmen\nihr nehmt\nSie/sie nehmen\n\nنکته مهم: بعد از nehmen مفعول مستقیم (Akkusativ) می‌آید و مقاله آن بر اساس جنس و تعداد تغییر می‌کند (den, die, das, einen, eine, ein).",
+  "examples": [
+    {
+      "de": "Brauchst du eine Maus? Ja, ich nehme die Maus hier.",
+      "fa": "به موس نیاز داری؟ بله، من این موس را می‌گیرم."
+    },
+    {
+      "de": "Brauchst du einen Laptop? Ja, ich nehme den Laptop hier.",
+      "fa": "به لپ‌تاپ نیاز داری؟ بله، من این لپ‌تاپ را می‌گیرم."
+    },
+    {
+      "de": "Brauchst du einen Drucker? Ja, ich nehme den Drucker hier.",
+      "fa": "به پرینتر نیاز داری؟ بله، من این پرینتر را می‌گیرم."
+    },
+    {
+      "de": "Brauchst du einen USB-Stick? Ja, ich nehme den USB-Stick hier.",
+      "fa": "به فلش USB نیاز داری؟ بله، من این فلش USB را می‌گیرم."
+    },
+    {
+      "de": "Ich nehme den Bus zur Arbeit.",
+      "fa": "من برای رفتن به سر کار اتوبوس را می‌گیرم."
+    },
+    {
+      "de": "Nimmst du einen Kaffee?",
+      "fa": "یک قهوه می‌گیری (می‌خوری)؟"
+    }
+  ],
+  "note": "در مکالمات روزمره، «ich nehme ...» برای انتخاب یا برداشتن چیزی (مثل غذا، وسیله، وسایل الکترونیکی) خیلی رایج است. همیشه به جنس اسم توجه کن: der → den / einen، die → die / eine، das → das / ein."
+},{
+  "id": "69",
+  "title-id": "A1-4",
+  "title": "فعل Aufstehen",
+  "description": "فعل **aufstehen** یک فعل جدایی‌پذیر (trennbares Verb) و نامنظم است و به معنای «بلند شدن از خواب، بیدار شدن و از تخت بیرون آمدن» یا «از جا بلند شدن» می‌باشد.\n\nدر زمان حال (Präsens) پیشوند «auf» جدا شده و به آخر جمله می‌رود.\n\nدر زمان گذشته کامل (Perfekt) از فعل کمکی «sein» استفاده می‌شود چون فعل حرکت است.\n\nصرف مهم در حال ساده:\n- ich stehe auf\n- du stehst auf\n- er/sie/es steht auf\n- wir stehen auf\n- ihr steht auf\n- sie/Sie stehen auf",
+  "examples": [
+    {
+      "de": "Ich stehe jeden Morgen um 7 Uhr auf.",
+      "fa": "من هر صبح ساعت ۷ از خواب بیدار می‌شوم (بلند می‌شوم)."
+    },
+    {
+      "de": "Wann stehst du normalerweise auf?",
+      "fa": "معمولاً کی از خواب بیدار می‌شوی؟"
+    },
+    {
+      "de": "Gestern bin ich sehr früh aufgestanden.",
+      "fa": "دیروز خیلی زود از خواب بیدار شدم."
+    },
+    {
+      "de": "Steh bitte auf! Der Unterricht beginnt.",
+      "fa": "لطفاً بلند شو! کلاس شروع می‌شود."
+    },
+    {
+      "de": "Tom ist noch nicht aufgestanden.",
+      "fa": "تام هنوز از خواب بیدار نشده است."
+    }
+  ],
+  "note": "نکته مهم:\n- aufstehen فعل جدایی‌پذیر است → در جمله اصلی پیشوند «auf» به آخر می‌رود.\n- در Perfekt: bin/bist/ist ... aufgestanden (با sein)\n- معنی دوم: گاهی به معنای «ایستادن در برابر چیزی» یا «از جا بلند شدن برای اعتراض» هم استفاده می‌شود، اما در سطح A1 بیشتر معنی «بیدار شدن از خواب» مد نظر است.\n\nمثال اضافی: Ich muss morgen um 5 Uhr aufstehen. (باید فردا ساعت ۵ بیدار شوم.)"
+},
+{
+    "id": "70",
+    "title-id": "A1-4",
+    "title": "mit <> ohne",
+    "description": "«mit» به معنای «با» است و همیشه با **داتیو (Dativ)** استفاده می‌شود.\n\n«ohne» به معنای «بدون» است و همیشه با **آکوزاتیو (Akkusativ)** استفاده می‌شود.\n\nاین دو پیشوند مقابل هم هستند و برای بیان همراهی یا نبود چیزی به کار می‌روند.\n\nنکته مهم: هرگز نگویید «mit kein» برای معنای بدون! همیشه از «ohne» استفاده کنید.",
+    "examples": [
+      {
+        "de": "Ich trinke Kaffee mit Milch.",
+        "fa": "من قهوه را با شیر می‌نوشم."
+      },
+      {
+        "de": "Ich trinke Kaffee ohne Milch.",
+        "fa": "من قهوه را بدون شیر می‌نوشم."
+      },
+      {
+        "de": "Ich gehe mit meinem Freund ins Kino.",
+        "fa": "من با دوستِم به سینما می‌روم."
+      },
+      {
+        "de": "Ich gehe ohne meinen Freund ins Kino.",
+        "fa": "من بدون دوستِم به سینما می‌روم."
+      },
+      {
+        "de": "Möchtest du den Tee mit oder ohne Zucker?",
+        "fa": "چای را با شکر می‌خواهی یا بدون شکر؟"
+      },
+      {
+        "de": "Sie fährt mit dem Auto zur Arbeit.",
+        "fa": "او با ماشین به سر کار می‌رود."
+      },
+      {
+        "de": "Er geht nie ohne sein Handy aus dem Haus.",
+        "fa": "او هرگز بدون گوشی موبایلش از خانه بیرون نمی‌رود."
+      },
+      {
+        "de": "Wir essen Brot mit Butter, aber ohne Käse.",
+        "fa": "ما نان را با کره می‌خوریم، اما بدون پنیر."
+      }
+    ],
+    "note": "• mit + Dativ (مثال: mit dem Freund, mit Milch, mit dem Bus)\n• ohne + Akkusativ (مثال: ohne den Freund, ohne Milch, ohne das Handy)\n\nدر جملات روزمره خیلی پرکاربرد هستند. برای تمرین، سعی کنید جمله‌های خودتان بسازید و کیس درست را چک کنید.\n\nاشتباه رایج: «mit kein» نگویید! درستش «ohne» است."
+  },
+  {
+  "id": "71",
+  "title-id": "A1-4",
+  "title": "der Tag kommt. der Tag geht.",
+  "description": "عبارت ساده برای گفتن آمدن و رفتن روز.\n\n• der Tag kommt = روز می‌آید (صبح می‌شود، روز شروع می‌شود)\n• der Tag geht = روز می‌رود (روز تمام می‌شود، شب می‌آید)\n\nاین عبارات برای صحبت درباره شروع و پایان روز خیلی کاربردی هستند.",
+  "examples": [
+    {
+      "de": "Der Tag kommt.",
+      "fa": "روز می‌آید. (صبح شده)"
+    },
+    {
+      "de": "Der Tag geht.",
+      "fa": "روز می‌رود. (روز تموم شد)"
+    },
+    {
+      "de": "Der Tag kommt und der Tag geht.",
+      "fa": "روز می‌آید و روز می‌رود."
+    },
+    {
+      "de": "Morgens kommt der Tag langsam.",
+      "fa": "صبح‌ها روز آرام آرام می‌آید."
+    },
+    {
+      "de": "Abends geht der Tag schnell.",
+      "fa": "شب‌ها روز سریع می‌رود."
+    }
+  ],
+  "note": "نکته:\n- der Tag = روز (مذکر)\n- kommt = می‌آید (از فعل kommen)\n- geht = می‌رود (از فعل gehen)\n\nاین ساختار خیلی ساده است و در مکالمات روزمره برای توصیف گذر زمان استفاده می‌شود."
+},
+{
+  "id": "72",
+  "title-id": "A1-4",
+  "title": "Nominativ und Akkusativ",
+  "description": "در زبان آلمانی چهار حالت (Kasus) وجود دارد. اینجا دو حالت مهم اول را یاد می‌گیریم:\n\n• Nominativ: جواب سؤال «Wer?» (کی؟) یا «Was?» (چی؟) است. این حالت برای فاعل جمله (کسی یا چیزی که کار را انجام می‌دهد) استفاده می‌شود.\n\n• Akkusativ: جواب سؤال «Wen?» (کی را؟) یا «Was?» (چی را؟) است. این حالت برای مفعول مستقیم (کسی یا چیزی که کار روی آن انجام می‌شود) استفاده می‌شود.\n\nنکته مهم: در Nominativ مقاله‌ها به شکل پایه هستند (der, die, das). در Akkusativ فقط برای اسم مذکر (maskulin) تغییر می‌کند: der → den.",
+  "examples": [
+    {
+      "de": "Der Mann liest ein Buch.",
+      "fa": "مرد کتاب می‌خواند. (Der Mann = Nominativ / فاعل)"
+    },
+    {
+      "de": "Ich sehe den Mann.",
+      "fa": "من مرد را می‌بینم. (den Mann = Akkusativ / مفعول مستقیم)"
+    },
+    {
+      "de": "Die Frau trinkt einen Kaffee.",
+      "fa": "زن قهوه می‌نوشد. (Die Frau = Nominativ / einen Kaffee = Akkusativ)"
+    },
+    {
+      "de": "Das Kind spielt mit dem Ball.",
+      "fa": "کودک با توپ بازی می‌کند. (Das Kind = Nominativ)"
+    },
+    {
+      "de": "Wer ist das? Das ist der Lehrer.",
+      "fa": "این کیست؟ این معلم است. (Nominativ بعد از sein)"
+    },
+    {
+      "de": "Ich habe einen Hund.",
+      "fa": "من یک سگ دارم. (einen Hund = Akkusativ)"
+    }
+  ],
+  "note": "• برای تشخیص Nominativ بپرس: Wer oder was macht etwas?\n• برای تشخیص Akkusativ بپرس: Wen oder was? (بعد از فعل‌هایی مثل haben, sehen, essen, trinken, lesen...)\n• در Akkusativ فقط مقاله مذکر تغییر می‌کند: der → den / ein → einen\n• اسم‌های مؤنث (die) و خنثی (das) در Nominativ و Akkusativ یکسان هستند.\n• این مبحث پایه‌ای برای ساختن جملات درست در سطح A1 است."
+},
+{
+    "id": "73",
+    "title-id": "A1-4",
+    "title": "ضمایر شخصی (Personalpronomen) - Nominativ و Akkusativ",
+    "description": "در زبان آلمانی ضمایر شخصی (ich, du, er و ...) بسته به نقش‌شان در جمله تغییر می‌کنند.\n\n• **Nominativ**: ضمیر فاعلی (کسی که کار را انجام می‌دهد).\nمثال: Ich lese. (من می‌خوانم.)\n\n• **Akkusativ**: ضمیر مفعولی مستقیم (چیزی که کار روی آن انجام می‌شود).\nمثال: Ich sehe dich. (من تو را می‌بینم.)\n\nجدول کامل ضمایر در دو حالت:\n\n| شخص          | Nominativ | Akkusativ |\n|---------------|-----------|-----------|\n| من (ich)     | ich      | mich     |\n| تو (du)      | du       | dich     |\n| او مذکر (er) | er       | ihn      |\n| او مؤنث (sie)| sie      | sie      |\n| آن (es)      | es       | es       |\n| ما (wir)     | wir      | uns      |\n| شما جمع غیررسمی (ihr) | ihr | euch |\n| آنها / شما رسمی (sie/Sie) | sie/Sie | sie/Sie |",
+    "examples": [
+        {
+            "de": "Ich sehe einen Film.",
+            "fa": "من یک فیلم می‌بینم."
+        },
+        {
+            "de": "Du hilfst mir.",
+            "fa": "تو به من کمک می‌کنی."
+        },
+        {
+            "de": "Er kennt sie.",
+            "fa": "او او را (زن) می‌شناسد."
+        },
+        {
+            "de": "Wir lieben euch.",
+            "fa": "ما شما را دوست داریم."
+        },
+        {
+            "de": "Siehst du mich?",
+            "fa": "آیا مرا می‌بینی؟"
+        },
+        {
+            "de": "Ich rufe ihn an.",
+            "fa": "من به او (مذکر) زنگ می‌زنم."
+        }
+    ],
+    "note": "نکته مهم: در Akkusativ، برخی ضمایر تغییر می‌کنند (ich → mich، du → dich، er → ihn، wir → uns، ihr → euch). اما sie و es و Sie در Nominativ و Akkusativ یکسان هستند.\n\nحالت Nominativ همیشه برای فاعل جمله استفاده می‌شود. Akkusativ بعد از افعالی مثل sehen, haben, lieben, kennen و ... می‌آید."
+},
+{
+  "id": "74",
+  "title-id": "A1-5",
+  "title": "Rad fahren",
+  "description": "فعل «Rad fahren» به معنی دوچرخه‌سواری کردن است.\n\nاین فعل جداپذیر (trennbar) است. در حال ساده:\n- ich fahre Rad\n- du fährst Rad\n- er/sie/es fährt Rad\n- wir/ihr/sie fahren Rad\n\nبرای رفتن با دوچرخه به جایی: «mit dem Fahrrad fahren» هم استفاده می‌شود.",
+  "examples": [
+    {
+      "de": "Ich fahre gerne Rad.",
+      "fa": "من دوست دارم دوچرخه‌سواری کنم."
+    },
+    {
+      "de": "Fährst du oft Rad?",
+      "fa": "آیا اغلب دوچرخه‌سواری می‌کنی؟"
+    },
+    {
+      "de": "Wir fahren am Wochenende Rad.",
+      "fa": "ما آخر هفته دوچرخه‌سواری می‌کنیم."
+    },
+    {
+      "de": "Er fährt jeden Tag zur Arbeit Rad.",
+      "fa": "او هر روز با دوچرخه به سر کار می‌رود."
+    },
+    {
+      "de": "Fahren wir zusammen Rad!",
+      "fa": "بیایید با هم دوچرخه‌سواری کنیم!"
+    }
+  ],
+  "note": "نکته: در جملات، «Rad» بعد از صرف فعل «fahren» می‌آید.\nدر Perfekt: Ich bin Rad gefahren.\n\nعبارت جایگزین: Fahrrad fahren یا mit dem Fahrrad fahren."
+},
+{
+  "id": "75",
+  "title-id": "A1-5",
+  "title": "Spaß machen",
+  "description": "عبارت «Spaß machen» برای گفتن اینکه یک فعالیت یا چیزی «سرگرم‌کننده است» یا «لذت‌بخش است» استفاده می‌شود.\n\nساختار اصلی:\n- موضوع (فعالیت) + macht + (مفعول غیرمستقیم dative) + Spaß\n- بیشتر در سوم شخص استفاده می‌شود (es macht Spaß / Das macht Spaß).\n- برای شخص: «کسی Spaß machen» یعنی «شوخی کردن» یا «بامزه بودن» (نه لذت بردن).\n\nنکته مهم: برای «من لذت می‌برم» از «Spaß haben» استفاده کنید، نه machen.",
+  "examples": [
+    {
+      "de": "Tanzen macht Spaß.",
+      "fa": "رقصیدن سرگرم‌کننده است."
+    },
+    {
+      "de": "Deutsch lernen macht mir viel Spaß.",
+      "fa": "یادگیری آلمانی خیلی برایم لذت‌بخش است."
+    },
+    {
+      "de": "Das Spiel macht Spaß.",
+      "fa": "این بازی سرگرم‌کننده است."
+    },
+    {
+      "de": "Die Party macht viel Spaß.",
+      "fa": "مهمانی خیلی لذت‌بخش است."
+    },
+    {
+      "de": "Du machst nur Spaß!",
+      "fa": "تو فقط شوخی می‌کنی!"
+    }
+  ],
+  "note": "• Spaß machen فقط برای فعالیت‌ها یا چیزها به معنی «لذت‌بخش بودن» است.\n• برای افراد: «Er macht Spaß» یعنی «او شوخی می‌کند» یا «او بامزه است».\n• برای بیان لذت شخصی: «Ich habe Spaß.» یا «Es macht mir Spaß.»\n• در جملات طولانی از \n برای خط جدید استفاده کنید تا در صفحه 280x460 نمایش خوبی داشته باشد."
+},
+{
+  "id": "76",
+  "title-id": "A1-5",
+  "title": "Was macht Spaß? Was ist Stress?",
+  "description": "در آلمانی برای گفتن اینکه «چیزی سرگرم‌کننده یا لذت‌بخش است» نمی‌توانیم بگوییم «Es ist Spaß». باید از ساختار «etwas macht (jemandem) Spaß» استفاده کنیم. یعنی چیزی برای کسی «Spaß» (لذت) ایجاد می‌کند.\n\nSpaß machen = لذت‌بخش بودن یک فعالیت\nSpaß haben = لذت بردن، خوش‌گذراندن\n\nبرای «استرس» هم کلمه مستقیماً Stress است و عبارات رایج مثل «Stress haben» یا «gestresst sein» به کار می‌رود. این مبحث برای صحبت درباره علایق و احساسات روزمره خیلی کاربردی است.",
+  "examples": [
+    {
+      "de": "Lesen macht mir Spaß.",
+      "fa": "خواندن برای من لذت‌بخش است."
+    },
+    {
+      "de": "Tanzen macht Spaß.",
+      "fa": "رقصیدن لذت‌بخش است."
+    },
+    {
+      "de": "Was macht dir Spaß?",
+      "fa": "چیزی که تو را خوشحال می‌کند چیست؟ / چه چیزی برایت لذت‌بخش است؟"
+    },
+    {
+      "de": "Ich habe viel Spaß im Urlaub.",
+      "fa": "من در تعطیلات خیلی خوش می‌گذرانم."
+    },
+    {
+      "de": "Kochen macht mir keinen Spaß.",
+      "fa": "آشپزی برای من لذت‌بخش نیست."
+    },
+    {
+      "de": "Ich habe Stress in der Arbeit.",
+      "fa": "من در کار استرس دارم."
+    },
+    {
+      "de": "Bist du gestresst?",
+      "fa": "استرس داری؟"
+    },
+    {
+      "de": "Der Test macht mir Stress.",
+      "fa": "امتحان برای من استرس ایجاد می‌کند."
+    }
+  ],
+  "note": "نکته مهم: Spaß همیشه با machen برای توصیف فعالیت‌ها استفاده می‌شود (مثل Es macht Spaß). در جملات منفی از «keinen Spaß» استفاده کنید. برای Stress هم می‌توانید بگویید: Ich bin gestresst / Ich stehe unter Stress / Ich habe viel Stress. این عبارات در سطح A1-A2 بسیار پرکاربرد هستند."
+}
+
+]

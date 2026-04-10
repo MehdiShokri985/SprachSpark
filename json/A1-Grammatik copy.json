@@ -999,7 +999,7 @@
         "fa": "همسرش آنا نام دارد."
       }
     ],
-    "note": "در متون درسی (مانند Starten Wir A1)، آندی یک قهرمان فرمول ۱ است:\n- Woher kommt Andi? → Aus Hamburg.\n- Wo wohnt er? → In Monaco.\n- Lieblingsauto → Mercedes.\n- Hobbys → Musik und Sport.\n- Manager و Frau در تمرین‌ها معمولاً با اطلاعات فرضی تکمیل می‌شوند.\n\nبرای نمایش در صفحه با اندازه 280x460:\nاز \n فقط برای جداسازی خطوط اصلی استفاده کنید تا متن خوانا بماند و بیش از حد فشرده نشود."
+    "note": "در متون درسی (مانند Starten Wir A1)، آندی یک قهرمان فرمول ۱ است:\n- Woher kommt Andi? → Aus Hamburg.\n- Wo wohnt er? → In Monaco.\n- Lieblingsauto → Mercedes.\n- Hobbys → Musik und Sport.\n- Manager و Frau در تمرین‌ها معمولاً با اطلاعات فرضی تکمیل می‌شوند."
   },
   {
     "id": "30",
@@ -2577,7 +2577,7 @@
         "fa": "تو فقط شوخی می‌کنی!"
       }
     ],
-    "note": "• Spaß machen فقط برای فعالیت‌ها یا چیزها به معنی «لذت‌بخش بودن» است.\n• برای افراد: «Er macht Spaß» یعنی «او شوخی می‌کند» یا «او بامزه است».\n• برای بیان لذت شخصی: «Ich habe Spaß.» یا «Es macht mir Spaß.»\n• در جملات طولانی از \n برای خط جدید استفاده کنید تا در صفحه 280x460 نمایش خوبی داشته باشد."
+    "note": "• Spaß machen فقط برای فعالیت‌ها یا چیزها به معنی «لذت‌بخش بودن» است.\n• برای افراد: «Er macht Spaß» یعنی «او شوخی می‌کند» یا «او بامزه است».\n• برای بیان لذت شخصی: «Ich habe Spaß.» یا «Es macht mir Spaß.»"
   },
   {
     "id": "76",
@@ -2682,237 +2682,3144 @@
     ],
     "note": "در فعل‌های جداشدنی:\n- feiern → feiert ... (پیشوند ندارد)\n- fahren → fährt ... Rad\n- surfen → surft ... am Eisbach\n\nقید **gerne** و **gut** و **nie** مستقیماً بعد از فعل اصلی و قبل از پیشوند جدا شده می‌آیند.\n\nEisbach: موج معروف رودخانه در مونیخ برای موج‌سواری شهری (river surfing)."
   },
-{
-  "id": "79",
-  "title-id": "A1-5",
-  "title": "in den – ins – in die (Wohin? – Richtung mit 'in')",
-  "description": "در آلمانی، حرف اضافه «in» یکی از Wechselpräpositionen (حروف اضافه دوطرفه) است. وقتی سؤال «Wohin?» (به کجا؟ / به سمت کجا؟) پرسیده شود و حرکت/رفتن به داخل چیزی نشان داده شود، از حالت Akkusativ استفاده می‌کنیم. \n\n- در مورد اسم مذکر (der): in + den → in den \n- در مورد اسم خنثی (das): in + das → ins (قراردادی و رایج) \n- در مورد اسم مؤنث (die): in + die → in die \n\nاین فرم‌ها برای نشان دادن «رفتن به داخل» مکان‌ها (مثل کافه، دیسکو، پارک) به کار می‌روند. اگر فقط مکان فعلی را بگوییم (Wo? – کجا؟) از حالت Dativ استفاده می‌شود (im, in der).",
+  {
+    "id": "79",
+    "title-id": "A1-5",
+    "title": "in den – ins – in die (Wohin? – Richtung mit 'in')",
+    "description": "در آلمانی، حرف اضافه «in» یکی از Wechselpräpositionen (حروف اضافه دوطرفه) است. وقتی سؤال «Wohin?» (به کجا؟ / به سمت کجا؟) پرسیده شود و حرکت/رفتن به داخل چیزی نشان داده شود، از حالت Akkusativ استفاده می‌کنیم. \n\n- در مورد اسم مذکر (der): in + den → in den \n- در مورد اسم خنثی (das): in + das → ins (قراردادی و رایج) \n- در مورد اسم مؤنث (die): in + die → in die \n\nاین فرم‌ها برای نشان دادن «رفتن به داخل» مکان‌ها (مثل کافه، دیسکو، پارک) به کار می‌روند. اگر فقط مکان فعلی را بگوییم (Wo? – کجا؟) از حالت Dativ استفاده می‌شود (im, in der).",
+    "examples": [
+      {
+        "de": "Wohin gehst du? – Ich gehe ins Café.",
+        "fa": "به کجا می‌روی؟ – من به کافه می‌روم."
+      },
+      {
+        "de": "Und ihr? Was macht ihr? – Wir gehen in die Disko.",
+        "fa": "و شما؟ شما چه کار می‌کنید؟ – ما به دیسکو می‌رویم."
+      },
+      {
+        "de": "Ich gehe in den Park.",
+        "fa": "من به پارک می‌روم."
+      },
+      {
+        "de": "Wir fahren ins Kino.",
+        "fa": "ما به سینما می‌رویم."
+      },
+      {
+        "de": "Sie geht in die Schule.",
+        "fa": "او به مدرسه می‌رود."
+      }
+    ],
+    "note": "نکته مهم: \n- ins = in das (فقط برای اسم‌های خنثی در Akkusativ) \n- in den (مذکر) و in die (مؤنث) بدون قراردادن. \n- این ساختار فقط برای حرکت (gehen, fahren, kommen و ...) به کار می‌رود. برای موقعیت ثابت از im / in der استفاده کن (مثلاً: Ich bin im Café.). \n- همیشه سؤال Wohin? را چک کن تا Akkusativ را انتخاب کنی."
+  },
+  {
+    "id": "80",
+    "title-id": "A1-5",
+    "title": "Die Wochentage (روزهای هفته)",
+    "description": "در آلمانی همه روزهای هفته مذکر هستند و همیشه با حرف بزرگ نوشته می‌شوند. قبل از هر روز معمولاً از مقالهٔ «der» استفاده می‌شود.\n\nنکته مهم: برای گفتن «در روز ...» از «am + روز» استفاده کنید (مثلاً am Montag = دوشنبه).\n\nهفته در آلمان از دوشنبه شروع می‌شود.\n\nلیست کامل با تلفظ تقریبی:",
+    "examples": [
+      {
+        "de": "Der Montag",
+        "fa": "دوشنبه (مون‌تاک)"
+      },
+      {
+        "de": "Der Dienstag",
+        "fa": "سه‌شنبه (دینس‌تاک)"
+      },
+      {
+        "de": "Der Mittwoch",
+        "fa": "چهارشنبه (میت‌وخ)"
+      },
+      {
+        "de": "Der Donnerstag",
+        "fa": "پنج‌شنبه (دونرزتاک)"
+      },
+      {
+        "de": "Der Freitag",
+        "fa": "جمعه (فرای‌تاک)"
+      },
+      {
+        "de": "Der Samstag",
+        "fa": "شنبه (زامزتاک)"
+      },
+      {
+        "de": "Der Sonntag",
+        "fa": "یکشنبه (زونتاک)"
+      }
+    ],
+    "note": "نکات کاربردی:\n• همه روزهای هفته با «der» می‌آیند: der Montag, der Dienstag و ...\n• برای روز خاص: Am Montag habe ich Deutschkurs. (دوشنبه کلاس آلمانی دارم.)\n• برای تکرار (هر دوشنبه): Montags arbeite ich. (هر دوشنبه کار می‌کنم.)\n• آخر هفته: das Wochenende (زامن‌انده) = Samstag + Sonntag\n\nمثال‌های جمله:\n• Heute ist Montag. → امروز دوشنبه است.\n• Am Freitag gehe ich ins Kino. → جمعه به سینما می‌روم.\n• Der Sonntag ist mein Ruhetag. → یکشنبه روز استراحت من است.\n• Morgen ist Mittwoch. → فردا چهارشنبه است."
+  },
+  {
+    "id": "81",
+    "title-id": "A1-5",
+    "title": "treffen",
+    "description": "فعل treffen به معنی «دیدن کسی»، «ملاقات کردن» یا «برخورد کردن/زدن» است.\n\nاین فعل قوی (starkes Verb) است و در حال حاضر (Präsens) تغییر مصوت دارد: e → i.\n\nترجمه اصلی: treffen + Akkusativ (کسی را ملاقات کردن)\n\nنکته مهم: برای «با هم ملاقات کردن» از sich treffen استفاده می‌شود.",
+    "examples": [
+      {
+        "de": "Ich treffe meinen Freund morgen.",
+        "fa": "من فردا دوست خودم را ملاقات می‌کنم."
+      },
+      {
+        "de": "Du triffst Anna heute Abend.",
+        "fa": "تو امشب آنا را ملاقات می‌کنی."
+      },
+      {
+        "de": "Er trifft den Lehrer um 10 Uhr.",
+        "fa": "او ساعت ۱۰ معلم را ملاقات می‌کند."
+      },
+      {
+        "de": "Wir treffen uns um 15 Uhr im Café.",
+        "fa": "ما ساعت ۱۵ در کافه با هم ملاقات می‌کنیم."
+      },
+      {
+        "de": "Ihr trefft eure Familie am Wochenende.",
+        "fa": "شما آخر هفته خانواده‌تان را ملاقات می‌کنید."
+      },
+      {
+        "de": "Sie treffen den Chef nächste Woche.",
+        "fa": "آنها هفته آینده رئیس را ملاقات می‌کنند."
+      }
+    ],
+    "note": "صرف کامل در Präsens:\nich treffe\ndu triffst\ner/sie/es trifft\nwir treffen\nihr trefft\nsie/Sie treffen\n\n• treffen + Akkusativ (Wen triffst du?)\n• sich treffen = با هم ملاقات کردن (reflexiv)\n• مثال اضافی: Der Ball trifft das Tor. (توپ به دروازه می‌خورد)"
+  },
+  {
+    "id": "82",
+    "title-id": "A1-5",
+    "title": "فعل fahren (رفتن با وسیله نقلیه / رانندگی کردن)",
+    "description": "فعل «fahren» به معنی رفتن با وسیله نقلیه (ماشین، قطار، دوچرخه، اتوبوس و ...) یا رانندگی کردن است. این فعل قوی (starkes Verb) است و در حال حاضر (Präsens) تغییر مصوت دارد: a → ä در du و er/sie/es.\n\nصرف کامل در زمان حال (Präsens):\n\nich fahre\n\ndu fährst\n\ner/sie/es fährt\n\nwir fahren\n\nihr fahrt\n\nsie/Sie fahren\n\nنکته مهم: برای حرکت از جایی به جایی معمولاً با sein صرف می‌شود (ich bin gefahren).",
+    "examples": [
+      {
+        "de": "Ich fahre mit dem Auto zur Arbeit.",
+        "fa": "من با ماشین به سر کار می‌روم."
+      },
+      {
+        "de": "Du fährst zu schnell!",
+        "fa": "تو خیلی سریع رانندگی می‌کنی!"
+      },
+      {
+        "de": "Er fährt mit dem Zug nach Berlin.",
+        "fa": "او با قطار به برلین می‌رود."
+      },
+      {
+        "de": "Wir fahren morgen in den Urlaub.",
+        "fa": "ما فردا به تعطیلات می‌رویم."
+      },
+      {
+        "de": "Fahrt ihr mit dem Bus?",
+        "fa": "شما با اتوبوس می‌روید؟"
+      },
+      {
+        "de": "Sie fährt Fahrrad.",
+        "fa": "او دوچرخه‌سواری می‌کند."
+      }
+    ],
+    "note": "• fahren برای وسایل نقلیه زمینی و دریایی استفاده می‌شود (نه پیاده‌روی → gehen).\n• در گذشته کامل (Perfekt): ich bin gefahren / du bist gefahren / er ist gefahren ...\n• مثال اضافی: Ich bin gestern nach München gefahren. (دیروز با وسیله به مونیخ رفتم.)"
+  },
+  {
+    "id": "83",
+    "title-id": "A1-5",
+    "title": "صرف فعل lesen (خواندن) در زمان حال (Präsens)",
+    "description": "فعل lesen یک فعل قوی (starkes Verb) و نامنظم است. در زمان حال (Präsens) برای ضمیرهای du و er/sie/es تغییر واکه دارد: e → ie. \n\nصرف کامل در Präsens:\n\nich lese\n\ndu liest\n\ner/sie/es liest\n\nwir lesen\n\nihr lest\n\nsie/Sie lesen\n\nنکته مهم: در سوم شخص مفرد (er/sie/es) و دوم شخص مفرد غیررسمی (du) شکل ie می‌گیرد. بقیه اشخاص مانند فعل‌های منظم هستند.",
+    "examples": [
+      {
+        "de": "Ich lese ein Buch.",
+        "fa": "من یک کتاب می‌خوانم."
+      },
+      {
+        "de": "Du liest die Zeitung jeden Morgen.",
+        "fa": "تو هر صبح روزنامه می‌خوانی."
+      },
+      {
+        "de": "Er liest einen Roman.",
+        "fa": "او (مذکر) یک رمان می‌خواند."
+      },
+      {
+        "de": "Wir lesen gerne Comics.",
+        "fa": "ما از خواندن کمیک‌ها لذت می‌بریم."
+      },
+      {
+        "de": "Ihr lest im Unterricht.",
+        "fa": "شما (چند نفر غیررسمی) در کلاس درس می‌خوانید."
+      },
+      {
+        "de": "Sie lesen viele Bücher.",
+        "fa": "آنها کتاب‌های زیادی می‌خوانند. / شما (رسمی) کتاب‌های زیادی می‌خوانید."
+      }
+    ],
+    "note": "lesen فعل قوی است و در گذشته (Präteritum) به las تغییر می‌کند، اما اینجا فقط Präsens آموزش داده شد. همیشه به موقعیت جمله توجه کنید (رسمی/غیررسمی). مثال‌ها برای تمرین هر شخص جداگانه انتخاب شده‌اند."
+  },
+  {
+    "id": "84",
+    "title-id": "A1-5",
+    "title": "einladen",
+    "description": "فعل «einladen» به معنای «دعوت کردن» است.\n\nاین فعل جدا شونده (trennbares Verb) و نامنظم است.\n\nدر حال حاضر (Präsens):\n- قسمت اصلی فعل «laden» تغییر می‌کند و «ein» جدا می‌شود و به آخر جمله می‌رود.\n\nصرف کامل در Präsens:\nich lade ... ein\n\ndu lädst ... ein\n\ner/sie/es lädt ... ein\n\nwir laden ... ein\n\nihr ladet ... ein\n\nsie/Sie laden ... ein\n\nمعمولاً با «zu + Dativ» برای رویداد (zu einer Party) یا «zu + Essen/Getränk» (به معنای مهمان کردن و پرداخت هزینه) استفاده می‌شود.\n\nمفعول مستقیم (کسی که دعوت می‌شود) همیشه Akkusativ است.",
+    "examples": [
+      {
+        "de": "Ich lade dich zu meiner Geburtstagsfeier ein.",
+        "fa": "من تو را به جشن تولدم دعوت می‌کنم."
+      },
+      {
+        "de": "Du lädst deine Freunde zum Essen ein.",
+        "fa": "تو دوستانت را به غذا دعوت می‌کنی."
+      },
+      {
+        "de": "Er lädt sie zu einem Kaffee ein.",
+        "fa": "او او را به یک قهوه دعوت می‌کند. (معمولاً یعنی او هزینه را می‌پردازد)"
+      },
+      {
+        "de": "Wir laden euch zur Party ein.",
+        "fa": "ما شما را به مهمانی دعوت می‌کنیم."
+      },
+      {
+        "de": "Ihr ladet die Nachbarn zum Grillen ein.",
+        "fa": "شما همسایه‌ها را به کباب‌پزی دعوت می‌کنید."
+      },
+      {
+        "de": "Sie laden ihre Familie zu Weihnachten ein.",
+        "fa": "آنها خانواده‌شان را به کریسمس دعوت می‌کنند."
+      }
+    ],
+    "note": "نکته مهم:\n• «einladen» همیشه جدا می‌شود → در جمله اصلی «ein» به آخر می‌رود.\n• برای دعوت به مکان یا رویداد: zu + داتیو (zur Party, zum Essen).\n• وقتی به معنای «مهمان کردن» است (مثل پرداخت قهوه)، هم «zu» و هم مفعول Akkusativ استفاده می‌شود.\n• در گذشته: ich habe ... eingeladen (با haben)."
+  },
+  {
+    "id": "85",
+    "title-id": "A1-5",
+    "title": "fernsehen (صرف فعل تماشای تلویزیون)",
+    "description": "فعل «fernsehen» یک فعل جدایی‌پذیر (trennbares Verb) است. یعنی در جملات اصلی، پیشوند «fern» جدا شده و به آخر جمله می‌رود. فعل اصلی «sehen» است که در زمان حال (Präsens) برای du و er/sie/es تغییر حروف صدادار (e → ie) دارد.\n\nصرف کامل در زمان حال (Präsens):\nich sehe fern\ndu siehst fern\ner/sie/es sieht fern\nwir sehen fern\nihr seht fern\nsie/Sie sehen fern\n\nتوجه: در جملات فرعی (Nebensatz) پیشوند جدا نمی‌شود و فعل کامل در آخر جمله می‌آید (z. B. weil ich fernsehe).",
+    "examples": [
+      {
+        "de": "Ich sehe jeden Abend fern.",
+        "fa": "من هر شب تلویزیون تماشا می‌کنم."
+      },
+      {
+        "de": "Du siehst zu viel fern.",
+        "fa": "تو خیلی زیاد تلویزیون تماشا می‌کنی."
+      },
+      {
+        "de": "Er sieht gern Fußball im Fernsehen.",
+        "fa": "او دوست دارد فوتبال را از تلویزیون تماشا کند."
+      },
+      {
+        "de": "Wir sehen heute Abend einen Film.",
+        "fa": "ما امشب یک فیلم تماشا می‌کنیم."
+      },
+      {
+        "de": "Seht ihr oft Nachrichten?",
+        "fa": "آیا شما اغلب اخبار تماشا می‌کنید؟"
+      },
+      {
+        "de": "Sie sehen nie fern.",
+        "fa": "آنها هرگز تلویزیون تماشا نمی‌کنند."
+      }
+    ],
+    "note": "این فعل برای سطح A1 بسیار مهم است. همیشه به جدایی پیشوند «fern» در جملات اصلی توجه کنید. مثال اضافی: Gestern haben wir lange ferngesehen. (دیروز مدت طولانی تلویزیون تماشا کردیم.)"
+  },
+  {
+    "id": "86",
+    "title-id": "A1-5",
+    "title": "Freunde treffen. Ins Kino gehen.",
+    "description": "در این مبحث ترکیب دو فعالیت رایج در سطح A1 را یاد می‌گیریم: ملاقات با دوستان (Freunde treffen) و رفتن به سینما (ins Kino gehen).\n\nاین دو عبارت برای صحبت درباره برنامه‌های آزاد و دعوت کردن دوستان خیلی کاربردی هستند.\n\nتوجه: «treffen» در اینجا یعنی ملاقات کردن یا قرار گذاشتن با دوستان.\n«ins Kino gehen» یک عبارت ثابت است که با حرف اضافه «ins» (in + das) ساخته شده و به معنای رفتن به داخل سینما برای تماشای فیلم است.",
+    "examples": [
+      {
+        "de": "Ich treffe meine Freunde am Samstag.",
+        "fa": "من روز شنبه دوستانم را ملاقات می‌کنم."
+      },
+      {
+        "de": "Wir gehen heute Abend ins Kino.",
+        "fa": "امشب به سینما می‌رویم."
+      },
+      {
+        "de": "Möchtest du mit mir ins Kino gehen?",
+        "fa": "آیا دوست داری با من به سینما بروی؟"
+      },
+      {
+        "de": "Lass uns Freunde treffen und dann ins Kino gehen.",
+        "fa": "بیا دوستانمان را ملاقات کنیم و بعد به سینما برویم."
+      },
+      {
+        "de": "Treffen wir uns um 19 Uhr vor dem Kino?",
+        "fa": "ساعت ۱۹ جلوی سینما همدیگر را ملاقات کنیم؟"
+      },
+      {
+        "de": "Gehen wir ins Kino oder treffen wir nur Freunde?",
+        "fa": "به سینما برویم یا فقط دوستانمان را ملاقات کنیم؟"
+      }
+    ],
+    "note": "نکات مهم:\n• «ins Kino gehen» همیشه با «ins» نوشته می‌شود (نه «in das Kino» در گفتار روزمره).\n• «treffen» در زمان حال به صورت «treffe / triffst / trifft» صرف می‌شود.\n• برای پیشنهاد دادن از «Lass uns ...» یا «Gehen wir ...?» استفاده کنید.\n• این ترکیب‌ها برای مکالمه‌های ساده درباره Freizeit (اوقات فراغت) عالی هستند."
+  },
+  {
+    "id": "87",
+    "title-id": "A1-5",
+    "title": "Hobbys und Freizeitaktivitäten",
+    "description": "در این مبحث با عبارات و جملات رایج آلمانی برای توصیف سرگرمی‌ها و فعالیت‌های اوقات فراغت آشنا می‌شوید. تمرکز روی ساختار «gerne + فعل» برای بیان «دوست دارم ... انجام دهم» است. این جملات برای سطح A1 بسیار کاربردی هستند و به شما کمک می‌کنند درباره علاقه‌مندی‌های خود صحبت کنید.\n\nنکات مهم:\n- «gerne» بعد از فعل کمکی یا در انتهای جمله قرار می‌گیرد.\n- برای ورزش کلی از «Sport machen» یا «Sport treiben» استفاده کنید.\n- «Klavier spielen» برای نواختن پیانو ثابت است.\n- «ins Kino gehen» همیشه با «ins» نوشته می‌شود.",
+    "examples": [
+      {
+        "de": "Ich spiele gerne Klavier.",
+        "fa": "من دوست دارم پیانو بنوازم."
+      },
+      {
+        "de": "Ich höre gerne Musik.",
+        "fa": "من دوست دارم موسیقی گوش کنم."
+      },
+      {
+        "de": "Ich lese gerne Bücher.",
+        "fa": "من دوست دارم کتاب بخوانم."
+      },
+      {
+        "de": "Ich gehe gerne ins Kino.",
+        "fa": "من دوست دارم به سینما بروم."
+      },
+      {
+        "de": "Ich mache viel Sport.",
+        "fa": "من ورزش زیادی انجام می‌دهم."
+      },
+      {
+        "de": "Ich treffe gerne Freunde.",
+        "fa": "من دوست دارم با دوستانم ملاقات کنم."
+      },
+      {
+        "de": "In meiner Freizeit spiele ich gerne Klavier und höre Musik.",
+        "fa": "در اوقات فراغتم دوست دارم پیانو بنوازم و موسیقی گوش کنم."
+      },
+      {
+        "de": "Am Wochenende lese ich gerne und gehe ins Kino.",
+        "fa": "در آخر هفته دوست دارم کتاب بخوانم و به سینما بروم."
+      }
+    ],
+    "note": "برای تنوع بیشتر می‌توانید از عبارات زیر استفاده کنید:\n- Ich mag es, ... (من دوست دارم ...)\n- Ich interessiere mich für ... (من به ... علاقه‌مندم)\n- Mein Lieblingshobby ist ... (سرگرمی مورد علاقه‌ام ... است)\n\nنکته گرامری: فعل بعد از «gerne» همیشه در شکل پایه (Infinitiv) می‌آید. مثلاً: spielen, hören, lesen."
+  },
+  {
+    "id": "88",
+    "title-id": "A1-5",
+    "title": "Was sind ...?",
+    "description": "«Was sind ...?» یعنی «چیستند ...؟» یا «چه هستند ...؟»\n\nاین سؤال برای پرسیدن دربارهٔ چند چیز (جمع) استفاده می‌شود.\n\nساختار: Was sind + فاعل جمع؟\n\nجواب معمولاً با «Sie sind ...» یا «Es sind ...» شروع می‌شود.",
+    "examples": [
+      {
+        "de": "Was sind das?",
+        "fa": "این‌ها چیستند؟"
+      },
+      {
+        "de": "Was sind das für Bücher?",
+        "fa": "این چه کتاب‌هایی هستند؟"
+      },
+      {
+        "de": "Was sind deine Hobbys?",
+        "fa": "سرگرمی‌های تو چیست؟"
+      },
+      {
+        "de": "Was sind das für Leute?",
+        "fa": "این چه نوع افرادی هستند؟"
+      }
+    ],
+    "note": "نکته مهم:\n- برای جمع از «sind» استفاده می‌شود (نه «ist»).\n- «Was sind ...?» خیلی رایج است برای معرفی اشیاء، افراد یا مفاهیم.\n- در جواب می‌توان گفت: «Das sind ...» یا «Sie sind ...»"
+  },
+  {
+    "id": "89",
+    "title-id": "A1-5",
+    "title": "Wann? | Am Wochenende",
+    "description": "برای پرسیدن زمان یک فعالیت از «Wann?» استفاده می‌شود.\n\nبرای روزهای هفته و آخر هفته از حرف اضافه «am» + داتیو استفاده کنید.\n\n«Am Wochenende» یعنی «در آخر هفته» (شنبه و یکشنبه).\n\nنکته مهم: «Wochenende» اسم خنثی است و همیشه با «am» می‌آید. می‌توانید آن را در ابتدای، وسط یا انتهای جمله بگذارید.",
+    "examples": [
+      {
+        "de": "Wann gehst du ins Kino?",
+        "fa": "کی به سینما می‌روی؟"
+      },
+      {
+        "de": "Am Wochenende gehe ich ins Kino.",
+        "fa": "در آخر هفته به سینما می‌روم."
+      },
+      {
+        "de": "Was machst du am Wochenende?",
+        "fa": "در آخر هفته چه کار می‌کنی؟"
+      },
+      {
+        "de": "Am Samstag spiele ich Fußball.",
+        "fa": "روز شنبه فوتبال بازی می‌کنم."
+      },
+      {
+        "de": "Ich lese am Sonntag ein Buch.",
+        "fa": "روز یکشنبه یک کتاب می‌خوانم."
+      },
+      {
+        "de": "Am Wochenende habe ich frei.",
+        "fa": "در آخر هفته تعطیل هستم."
+      }
+    ],
+    "note": "• «am Wochenende» برای آخر هفته‌های کلی استفاده می‌شود.\n• برای روزهای خاص: am Montag, am Dienstag, am Samstag ...\n• موقعیت جمله: «Am Wochenende» می‌تواند اول جمله باشد (تأکید بیشتر روی زمان) یا آخر جمله.\n• مثال کامل: Am Wochenende besuche ich meine Freunde. (در آخر هفته دوستانم را ملاقات می‌کنم.)"
+  },
+  {
+    "id": "90",
+    "title-id": "A1-5",
+    "title": "richtig <> falsch",
+    "description": "در زبان آلمانی، «richtig» به معنای درست، صحیح یا واقعی است و «falsch» به معنای غلط، نادرست یا اشتباه. این دو کلمه برای بیان صحت یا اشتباه بودن چیزی (مانند جواب، جمله یا عمل) استفاده می‌شوند. \n\n«richtig» همچنین می‌تواند به عنوان قید به معنای «واقعاً» یا «خیلی» (intensifier) به کار رود.",
+    "examples": [
+      {
+        "de": "Das ist richtig.",
+        "fa": "این درست است."
+      },
+      {
+        "de": "Deine Antwort ist falsch.",
+        "fa": "جواب تو غلط است."
+      },
+      {
+        "de": "Ist das richtig oder falsch?",
+        "fa": "این درست است یا غلط؟"
+      },
+      {
+        "de": "Du hast es richtig gemacht.",
+        "fa": "تو آن را درست انجام دادی."
+      },
+      {
+        "de": "Das ist völlig falsch.",
+        "fa": "این کاملاً اشتباه است."
+      },
+      {
+        "de": "Die Information ist falsch.",
+        "fa": "اطلاعات غلط است."
+      }
+    ],
+    "note": "توجه: وقتی «richtig» قبل از صفت یا قید دیگری می‌آید، اغلب به معنای «واقعاً / خیلی» است، نه «درست».\nمثال: Das ist richtig gut. (= خیلی خوب است)\n\nدر تمرین‌های درست/غلط (Richtig oder falsch?) معمولاً از این ساختار برای چک کردن درک مطلب استفاده می‌شود."
+  },
+  {
+    "id": "91",
+    "title-id": "A1-5",
+    "title": "صرف فعل benutzen (در زمان حال - Präsens)",
+    "description": "فعل «benutzen» به معنی «استفاده کردن» یا «به کار بردن» است.\n\nاین فعل منظم (regelmäßig) است و در زمان حال (Präsens) فقط به آخر آن پسوندهای معمولی اضافه می‌شود.\n\nتوجه: چون فعل با -t تمام می‌شود، در برخی اشخاص حرف e اضافه می‌شود تا تلفظ راحت‌تر باشد.",
+    "examples": [
+      {
+        "de": "ich benutze den Computer.",
+        "fa": "من از کامپیوتر استفاده می‌کنم."
+      },
+      {
+        "de": "Du benutzt das Handy jeden Tag.",
+        "fa": "تو هر روز از گوشی استفاده می‌کنی."
+      },
+      {
+        "de": "Er benutzt den Stift zum Schreiben.",
+        "fa": "او از خودکار برای نوشتن استفاده می‌کند."
+      },
+      {
+        "de": "Wir benutzen den Bus zur Arbeit.",
+        "fa": "ما از اتوبوس برای رفتن به سر کار استفاده می‌کنیم."
+      },
+      {
+        "de": "Ihr benutzt die App sehr oft.",
+        "fa": "شما (چند نفر) خیلی اغلب از این اپلیکیشن استفاده می‌کنید."
+      },
+      {
+        "de": "Sie benutzen den Schlüssel für die Tür.",
+        "fa": "آنها / شما (مودبانه) از کلید برای در استفاده می‌کنند."
+      }
+    ],
+    "note": "• بنوتزن معمولاً برای اشیاء واقعی و روزمره به کار می‌رود (مثل ابزار، وسایل).\n• تفاوت کوتاه: benutzen (روزمره و عملی) - verwenden (رسمی‌تر) - nutzen (بیشتر برای سود بردن).\n• در جملات منفی: Ich benutze ... nicht.\n• سؤالی: Benutzt du ... ?"
+  },
+  {
+    "id": "92",
+    "title-id": "A1-5",
+    "title": "plus + | minus -",
+    "description": "در ریاضیات آلمانی از کلمات «plus» و «minus» برای جمع و تفریق استفاده می‌شود.\n\n• plus (+) = جمع (addieren)\n• minus (-) = تفریق (subtrahieren)\n\nدر جملات محاسباتی این کلمات بدون تغییر استفاده می‌شوند و بعد از آن‌ها عدد می‌آید.",
+    "examples": [
+      {
+        "de": "Zwei plus drei ist fünf.",
+        "fa": "دو به علاوه سه مساوی پنج است."
+      },
+      {
+        "de": "Fünf minus zwei ist drei.",
+        "fa": "پنج منهای دو مساوی سه است."
+      },
+      {
+        "de": "Zehn plus acht ist achtzehn.",
+        "fa": "ده به علاوه هشت مساوی هجده است."
+      },
+      {
+        "de": "Sieben minus vier ist drei.",
+        "fa": "هفت منهای چهار مساوی سه است."
+      },
+      {
+        "de": "Eins plus eins ist zwei.",
+        "fa": "یک به علاوه یک مساوی دو است."
+      }
+    ],
+    "note": "نکته:\nدر محاسبات شفاهی آلمانی اغلب می‌گویند:\n«ist» یا «ist gleich» به معنی «مساوی است».\n\nمثال کامل: «Drei plus vier ist sieben.»\n\nبرای تمرین: اعداد کوچک را با plus و minus ترکیب کنید و بلند بخوانید."
+  },
+  {
+    "id": "93",
+    "title-id": "A1-5",
+    "title": "kurz <> lang",
+    "description": "kurz و lang صفت‌های مقابل هم هستند و برای توصیف طول (فضا یا زمان) استفاده می‌شوند.\n\nkurz = کوتاه\nlang = بلند / طولانی\n\nاین صفت‌ها قبل از اسم تغییر می‌کنند (Deklination) و بعد از فعل (sein) بدون تغییر می‌مانند.",
+    "examples": [
+      {
+        "de": "Der Film ist kurz.",
+        "fa": "فیلم کوتاه است."
+      },
+      {
+        "de": "Die Hose ist zu lang.",
+        "fa": "شلوار خیلی بلند است."
+      },
+      {
+        "de": "Sie hat kurze Haare.",
+        "fa": "او موهای کوتاه دارد."
+      },
+      {
+        "de": "Wir warten eine lange Zeit.",
+        "fa": "ما مدت طولانی منتظر می‌مانیم."
+      },
+      {
+        "de": "Das ist ein kurzer Weg.",
+        "fa": "این مسیر کوتاهی است."
+      },
+      {
+        "de": "Der Sommer ist lang.",
+        "fa": "تابستان طولانی است."
+      }
+    ],
+    "note": "نکته:\n• قبل از اسم: kurze Haare / lange Beine (با پایان مناسب)\n• بعد از sein: Der Film ist kurz. (بدون تغییر)\n• مقایسه: kürzer / länger (کوتاه‌تر / طولانی‌تر)"
+  },
+  {
+    "id": "94",
+    "title-id": "A1-5",
+    "title": "Zeiteinheiten: Eine Sekunde | Eine Minute | Eine Stunde | Ein Tag | Eine Woche | Ein Monat | Ein Jahr",
+    "description": "در این درس با واحدهای زمانی پایه در آلمانی آشنا می‌شوید. هر واحد جنسیت (Artikel) خاص خود را دارد و برای بیان مدت زمان (Dauer) استفاده می‌شود. \n\nنکته مهم: \n- die Sekunde, die Minute, die Stunde, die Woche (مؤنث) \n- der Tag, der Monat (مذکر) \n- das Jahr (خنثی) \n\nدر جملات، معمولاً با عدد + واحد + فعل استفاده می‌شود. برای یک واحد از «ein/eine» و برای چند واحد از شکل جمع (Sekunden, Minuten و غیره) استفاده کنید.",
+    "examples": [
+      {
+        "de": "Eine Sekunde.",
+        "fa": "یک ثانیه."
+      },
+      {
+        "de": "Warte eine Minute!",
+        "fa": "یک دقیقه صبر کن!"
+      },
+      {
+        "de": "Ich brauche eine Stunde.",
+        "fa": "به یک ساعت نیاز دارم."
+      },
+      {
+        "de": "Ein Tag hat 24 Stunden.",
+        "fa": "یک روز ۲۴ ساعت دارد."
+      },
+      {
+        "de": "In einer Woche fahre ich nach Berlin.",
+        "fa": "یک هفته دیگر به برلین می‌روم."
+      },
+      {
+        "de": "Ein Monat hat ungefähr 30 Tage.",
+        "fa": "یک ماه تقریباً ۳۰ روز دارد."
+      },
+      {
+        "de": "Ich lerne Deutsch seit einem Jahr.",
+        "fa": "از یک سال پیش آلمانی یاد می‌گیرم."
+      },
+      {
+        "de": "Das dauert nur Sekunden.",
+        "fa": "این فقط چند ثانیه طول می‌کشد."
+      },
+      {
+        "de": "Ich arbeite 8 Stunden am Tag.",
+        "fa": "روزانه ۸ ساعت کار می‌کنم."
+      },
+      {
+        "de": "In zwei Wochen ist Weihnachten.",
+        "fa": "دو هفته دیگر کریسمس است."
+      }
+    ],
+    "note": "نکته‌های کاربردی:\n• برای مدت زمان کوتاه: Sekunde / Minute / Stunde\n• برای برنامه‌ریزی: Tag / Woche / Monat / Jahr\n• ساختار رایج: in + Dativ (در/پس از ...) یا seit + Dativ (از ... پیش)\n• مثال: in einer Stunde (یک ساعت دیگر) / seit einem Monat (از یک ماه پیش)\n\nاین واحدها در سطح A1 بسیار مهم هستند و در مکالمات روزانه، برنامه‌ریزی و توصیف زمان استفاده می‌شوند."
+  },
+  {
+    "id": "95",
+    "title-id": "A1-5",
+    "title": "Die Monate des Jahres (Monate)",
+    "description": "در آلمانی نام ماه‌ها (Monate) همیشه با حرف بزرگ شروع می‌شود و جنس آن‌ها مذکر (maskulin) است، یعنی همیشه با مقالهٔ \"der\" همراه هستند.\n\nبرای گفتن «در ماه ...» از پیشوند \"im\" (در + der) استفاده می‌کنیم.\n\nمثال: im Januar = در ژانویه\n\nنام ماه‌ها در جملات بدون مقاله هم می‌آیند (مثلاً: Januar ist kalt).",
+    "examples": [
+      {
+        "de": "Ich habe im Januar Geburtstag.",
+        "fa": "تولدم در ژانویه است."
+      },
+      {
+        "de": "Im Februar ist es oft kalt.",
+        "fa": "در فوریه اغلب هوا سرد است."
+      },
+      {
+        "de": "Der März ist der dritte Monat.",
+        "fa": "مارس سومین ماه است."
+      },
+      {
+        "de": "Im April regnet es viel.",
+        "fa": "در آوریل زیاد باران می‌بارد."
+      },
+      {
+        "de": "Mai ist mein Lieblingsmonat.",
+        "fa": "مه ماه مورد علاقهٔ من است."
+      },
+      {
+        "de": "Im Juni ist Sommeranfang.",
+        "fa": "در ژوئن آغاز تابستان است."
+      },
+      {
+        "de": "Juli und August sind heiß.",
+        "fa": "ژوئیه و اوت گرم هستند."
+      },
+      {
+        "de": "Im September beginnen die Schulen.",
+        "fa": "در سپتامبر مدارس شروع می‌شوند."
+      },
+      {
+        "de": "Oktober ist der zehnte Monat.",
+        "fa": "اکتبر دهمین ماه است."
+      },
+      {
+        "de": "Im November wird es dunkel früh.",
+        "fa": "در نوامبر زود تاریک می‌شود."
+      },
+      {
+        "de": "Dezember ist der letzte Monat.",
+        "fa": "دسامبر آخرین ماه است."
+      },
+      {
+        "de": "Von Juni bis August ist Ferienzeit.",
+        "fa": "از ژوئن تا اوت زمان تعطیلات است."
+      }
+    ],
+    "note": "نکته مهم:\n- همه ماه‌ها مذکر هستند: der Januar, der Februar, ...\n- برای «در ماه» همیشه می‌گوییم: im Januar / im Februar / ...\n- وقتی ماه با صفت همراه باشد، مقاله می‌آید: der kalte Januar\n- برای تاریخ دقیق: am 15. Mai (در ۱۵ مه)\n\nلیست کامل ماه‌ها:\nJanuar - Februar - März - April - Mai - Juni - Juli - August - September - Oktober - November - Dezember"
+  },
+  {
+    "id": "96",
+    "title-id": "A1-5",
+    "title": "Wochentage (روزهای هفته)",
+    "description": "در آلمانی روزهای هفته به این صورت هستند:\n\nMontag\nDienstag\nMittwoch\nDonnerstag\nFreitag\nSamstag\nSonntag\n\nهمه روزهای هفته در آلمانی اسم مذکر هستند (der Montag). برای گفتن «در روز ...» از «am + روز هفته» استفاده می‌شود (am Montag = دوشنبه). اگر بخواهیم بگوییم «هر دوشنبه» یا به صورت عادی، به آخر روز «s» اضافه می‌کنیم (montags = دوشنبه‌ها).",
+    "examples": [
+      {
+        "de": "Heute ist Montag.",
+        "fa": "امروز دوشنبه است."
+      },
+      {
+        "de": "Am Dienstag habe ich Deutschunterricht.",
+        "fa": "سه‌شنبه کلاس آلمانی دارم."
+      },
+      {
+        "de": "Wir treffen uns am Mittwoch um 15 Uhr.",
+        "fa": "چهارشنبه ساعت ۱۵ با هم دیدار می‌کنیم."
+      },
+      {
+        "de": "Am Donnerstag gehe ich einkaufen.",
+        "fa": "پنج‌شنبه می‌روم خرید."
+      },
+      {
+        "de": "Freitagabend gehe ich ins Kino.",
+        "fa": "جمعه شب به سینما می‌روم."
+      },
+      {
+        "de": "Samstags arbeite ich nicht.",
+        "fa": "شنبه‌ها کار نمی‌کنم."
+      },
+      {
+        "de": "Sonntags schlafe ich lange.",
+        "fa": "یکشنبه‌ها دیر بیدار می‌شوم."
+      },
+      {
+        "de": "Am Wochenende fahre ich nach Berlin.",
+        "fa": "آخر هفته به برلین می‌روم."
+      }
+    ],
+    "note": "نکته مهم:\n• am Montag = در دوشنبه (یک دوشنبه خاص)\n• montags = دوشنبه‌ها (هر دوشنبه)\n• روزهای هفته همیشه با حرف بزرگ شروع می‌شوند.\n• Samstag در جنوب آلمان رایج‌تر است و Sonnabend در شمال.\n•"
+  },
+  {
+    "id": "97",
+    "title-id": "A1-5",
+    "title": "Schwimmen | Rad fahren | Golf spielen | Wandern | Joggen | Walken",
+    "description": "در این مبحث با فعل‌ها و عبارات رایج برای فعالیت‌های ورزشی و حرکتی در آلمانی آشنا می‌شوید. این فعالیت‌ها معمولاً با فعل infinitive (مصدر) بیان می‌شوند. توجه کنید که در آلمانی اغلب از ساختار «ich gehe + infinitive» برای گفتن «می‌روم ... انجام دهم» استفاده می‌شود. توضیح هر کدام کوتاه و کاربردی است:\n\n• schwimmen: شنا کردن (در استخر یا دریا)\n• Rad fahren: دوچرخه‌سواری کردن (توجه: «Rad» با حرف بزرگ نوشته می‌شود)\n• Golf spielen: گلف بازی کردن (فعل spielen برای بازی‌های توپی یا راکتی استفاده می‌شود)\n• wandern: پیاده‌روی در طبیعت / کوهنوردی سبک (معمولاً در جنگل یا کوه)\n• joggen: دویدن آهسته برای ورزش (جوکینگ)\n• walken: پیاده‌روی سریع برای تناسب اندام (نوعی ورزش پیاده‌روی، شبیه Nordic Walking)",
+    "examples": [
+      {
+        "de": "Ich schwimme gern im Sommer.",
+        "fa": "من در تابستان دوست دارم شنا کنم."
+      },
+      {
+        "de": "Am Wochenende fahre ich Rad.",
+        "fa": "در آخر هفته دوچرخه‌سواری می‌کنم."
+      },
+      {
+        "de": "Spielst du Golf?",
+        "fa": "گلف بازی می‌کنی؟"
+      },
+      {
+        "de": "Wir gehen am Sonntag wandern.",
+        "fa": "یکشنبه می‌رویم پیاده‌روی در طبیعت."
+      },
+      {
+        "de": "Ich jogge jeden Morgen im Park.",
+        "fa": "هر صبح در پارک جوگینگ می‌کنم."
+      },
+      {
+        "de": "Sie walkt dreimal pro Woche.",
+        "fa": "او سه بار در هفته پیاده‌روی سریع انجام می‌دهد."
+      },
+      {
+        "de": "Gehst du schwimmen oder Rad fahren?",
+        "fa": "می‌روی شنا کنی یا دوچرخه‌سواری؟"
+      },
+      {
+        "de": "Ich spiele nicht gern Golf, aber ich wandere sehr gern.",
+        "fa": "من دوست ندارم گلف بازی کنم، اما خیلی دوست دارم پیاده‌روی در طبیعت بروم."
+      }
+    ],
+    "note": "نکته مهم: برای فعالیت‌های ورزشی اغلب می‌گوییم «ich gehe + infinitive» (مثل Ich gehe schwimmen = می‌روم شنا کنم). فعل «fahren» در «Rad fahren» جدا نوشته می‌شود. «Walken» بیشتر به معنای پیاده‌روی ورزشی سریع است و کمتر از «spazieren gehen» (پیاده‌روی تفریحی) استفاده می‌شود. این عبارات برای سطح A1-A2 بسیار کاربردی هستند."
+  },
+  {
+    "id": "98",
+    "title-id": "A1-5",
+    "title": "Rückfahrt ab 16:00 Uhr",
+    "description": "این عبارت برای اعلام زمان شروع **بازگشت** (رفت و برگشت) استفاده می‌شود. «Rückfahrt» یعنی سفر برگشتی یا بازگشت (معمولاً با ماشین، قطار یا اتوبوس). «ab» به معنی «از ... به بعد» است و زمان دقیق شروع حرکت بازگشت را نشان می‌دهد.\n\nدر برنامه‌های سفر، تورها، برنامه‌ریزی حمل‌ونقل و اطلاعیه‌ها خیلی رایج است. زمان همیشه با فرمت ۲۴ ساعته (Uhr) نوشته می‌شود.",
+    "examples": [
+      {
+        "de": "Rückfahrt ab 16:00 Uhr.",
+        "fa": "بازگشت از ساعت ۱۶:۰۰ به بعد."
+      },
+      {
+        "de": "Die Rückfahrt ab Berlin ist um 16:00 Uhr.",
+        "fa": "سفر برگشتی از برلین ساعت ۱۶:۰۰ است."
+      },
+      {
+        "de": "Rückfahrt ab München Hauptbahnhof um 16:30 Uhr.",
+        "fa": "بازگشت از ایستگاه مرکزی مونیخ ساعت ۱۶:۳۰."
+      },
+      {
+        "de": "Bitte seien Sie pünktlich zur Rückfahrt ab 16:00 Uhr.",
+        "fa": "لطفاً برای بازگشت از ساعت ۱۶:۰۰ به موقع باشید."
+      },
+      {
+        "de": "Die Hin- und Rückfahrt: Abfahrt 9:00 Uhr, Rückfahrt ab 16:00 Uhr.",
+        "fa": "رفت و برگشت: حرکت رفت ساعت ۹:۰۰، بازگشت از ساعت ۱۶:۰۰."
+      }
+    ],
+    "note": "• «ab» + زمان = از آن ساعت به بعد (حرکت شروع می‌شود).\n• در مکالمه روزمره اغلب می‌گویند: «Wir fahren um 16 Uhr zurück.»\n• در جدول زمان‌بندی تورها یا بلیت‌ها دقیقاً به همین شکل نوشته می‌شود.\n• «Uhr» همیشه بعد از زمان می‌آید و نقطه (.) بعد از دقیقه الزامی است (۱۶:۰۰ Uhr)."
+  },
+  {
+    "id": "99",
+    "title-id": "A1-5",
+    "title": "Modalverb können",
+    "description": "Modalverb «können» یکی از مهم‌ترین فعل‌های کمکی در آلمانی است.\n\nمعانی اصلی:\n• توانایی (Fähigkeit): چیزی را بلد بودن یا مهارت داشتن\n• امکان (Möglichkeit): ممکن بودن از نظر شرایط\n• اجازه (Erlaubnis): اجازه دادن (مشابه dürfen، اما غیررسمی‌تر)\n\nدر جملات: können + Infinitiv فعل اصلی (در آخر جمله)\n\nکنژوگاسیون در حال حاضر (Präsens):\nich kann – du kannst – er/sie/es kann – wir können – ihr könnt – sie/Sie können\n\nدر گذشته ساده (Präteritum):\nich konnte – du konntest – er/sie/es konnte – wir konnten – ihr konntet – sie konnten\n\nنکته مهم: در سوم شخص مفرد (er/sie/es) هیچ «-t» اضافه نمی‌شود و شکل «kann» است.",
+    "examples": [
+      {
+        "de": "Ich kann schwimmen.",
+        "fa": "من می‌توانم شنا کنم. (توانایی)"
+      },
+      {
+        "de": "Kannst du Deutsch sprechen?",
+        "fa": "آیا می‌توانی آلمانی صحبت کنی؟"
+      },
+      {
+        "de": "Er kann nicht kommen, weil er krank ist.",
+        "fa": "او نمی‌تواند بیاید، چون بیمار است. (امکان)"
+      },
+      {
+        "de": "Du kannst hier parken.",
+        "fa": "می‌توانی اینجا پارک کنی. (اجازه)"
+      },
+      {
+        "de": "Wir konnten gestern nicht ins Kino gehen.",
+        "fa": "دیروز نتوانستیم به سینما برویم. (گذشته)"
+      },
+      {
+        "de": "Können Sie mir bitte helfen?",
+        "fa": "لطفاً می‌توانید به من کمک کنید؟ (درخواست مودبانه)"
+      }
+    ],
+    "note": "• برای اجازه غیررسمی از können استفاده می‌شود، برای اجازه رسمی‌تر از dürfen.\n• در منفی: «nicht können» = نمی‌توانم / غیرممکن است.\n• در سؤال: Kannst du ...? خیلی رایج است.\n• شکل مودبانه (Konjunktiv II): Könnten Sie ...? = آیا می‌توانید ...؟ (مودبانه‌تر)"
+  },
+  {
+    "id": "100",
+    "title-id": "A1-5",
+    "title": "صرف فعل wissen (دانستن - دانستن یک واقعیت)",
+    "description": "فعل wissen یک فعل نامنظم (unregelmäßig) است و به معنای «دانستن یک اطلاعات یا واقعیت» (know a fact) استفاده می‌شود.\n\nتوجه مهم: wissen برای دانستن «اطلاعات» (مثل اینکه ... ، کجا ... ، چطور ...) به کار می‌رود.\nدر مقابل، فعل kennen برای «شناختن افراد یا اشیاء» (be familiar with) است.\n\nصرف در زمان حال (Präsens):\n\nich weiß\ndu weißt\ner/sie/es weiß\nwir wissen\nihr wisst\nsie/Sie wissen\n\nنکته: در ich, er, sie, es حرف i به ei تغییر می‌کند (Stammvokalwechsel).",
+    "examples": [
+      {
+        "de": "Ich weiß, wo der Bahnhof ist.",
+        "fa": "من می‌دانم ایستگاه قطار کجاست."
+      },
+      {
+        "de": "Weißt du, wie spät es ist?",
+        "fa": "می‌دانی ساعت چند است؟"
+      },
+      {
+        "de": "Er weiß nicht, dass ich hier bin.",
+        "fa": "او نمی‌داند که من اینجا هستم."
+      },
+      {
+        "de": "Wir wissen die Antwort nicht.",
+        "fa": "ما جواب را نمی‌دانیم."
+      },
+      {
+        "de": "Wisst ihr, wann der Film anfängt?",
+        "fa": "شما (چند نفر) می‌دانید فیلم کی شروع می‌شود؟"
+      },
+      {
+        "de": "Sie wissen sehr viel über Geschichte.",
+        "fa": "آنها اطلاعات زیادی درباره تاریخ می‌دانند."
+      }
+    ],
+    "note": "نکته کاربردی:\n• wissen + جمله وابسته (Nebensatz) خیلی رایج است: Ich weiß, dass ...\n• شکل منفی: Ich weiß nicht ...\n• در محاوره اغلب: Weißt du? = می‌دونی؟\n• گذشته ساده (Präteritum): ich wusste, du wusstest, er wusste ...\nاین فعل برای سطح A1 بسیار مهم است."
+  },
+  {
+    "id": "101",
+    "title-id": "A1-5",
+    "title": "Ich weiß noch nicht.",
+    "description": "این عبارت یعنی «من هنوز نمی‌دانم.» یا «هنوز بلد نیستم.»\n\nبرای وقتی استفاده می‌شود که:\n- سؤالی پرسیده شده و جواب را نمی‌دانید.\n- چیزی را هنوز یاد نگرفته‌اید.\n\nساختار ساده:\nIch weiß ... + noch nicht.\n\n«noch nicht» یعنی «هنوز نه» و تأکید می‌کند که بعداً ممکن است بدانید.",
+    "examples": [
+      {
+        "de": "Wie heißt du?",
+        "fa": "اسم تو چیست؟"
+      },
+      {
+        "de": "Ich weiß noch nicht.",
+        "fa": "من هنوز نمی‌دانم."
+      },
+      {
+        "de": "Woher kommst du?",
+        "fa": "از کجا هستی؟"
+      },
+      {
+        "de": "Ich weiß noch nicht. Ich bin neu hier.",
+        "fa": "من هنوز نمی‌دانم. من اینجا جدیدم."
+      },
+      {
+        "de": "Sprichst du Deutsch?",
+        "fa": "آلمانی حرف می‌زنی؟"
+      },
+      {
+        "de": "Ja, ein bisschen. Aber ich weiß noch nicht alles.",
+        "fa": "بله، کمی. ولی هنوز همه چیز را نمی‌دانم."
+      },
+      {
+        "de": "Wann kommst du?",
+        "fa": "کی می‌آیی؟"
+      },
+      {
+        "de": "Ich weiß noch nicht genau.",
+        "fa": "دقیق هنوز نمی‌دانم."
+      }
+    ],
+    "note": "نکته مهم:\n• «Ich weiß nicht.» = «نمی‌دانم» (قطعی)\n• «Ich weiß noch nicht.» = «هنوز نمی‌دانم» (موقتی، بعداً ممکن است بدانم)\n\nدر مکالمه روزمره خیلی مفید است و مودبانه جواب «نمی‌دانم» را می‌دهد.\n\nمی‌توانید بگویید:\n«Ich weiß es noch nicht.» (با «es» برای تأکید روی موضوع)"
+  },
+  {
+    "id": "102",
+    "title-id": "A1-5",
+    "title": "Am Wochenende lade ich gerne Freunde ein",
+    "description": "این مبحث درباره بیان علاقه به دعوت دوستان در آخر هفته است. فعل 'einladen' (دعوت کردن) یک فعل جدایی‌پذیر است و در جملات با 'gerne' برای نشان دادن علاقه استفاده می‌شود. ساختار جمله معمولاً: فاعل + زمان + فعل اصلی + مفعول + فعل جدا شده (ein). این عبارت برای صحبت درباره برنامه‌های آخر هفته و فعالیت‌های اجتماعی در سطح A1 بسیار کاربردی است.",
+    "examples": [
+      {
+        "de": "Am Wochenende lade ich gerne Freunde ein.",
+        "fa": "در آخر هفته دوست دارم دوستان را دعوت کنم."
+      },
+      {
+        "de": "Ich lade meine Freunde am Samstagabend ein.",
+        "fa": "من دوستانم را عصر شنبه دعوت می‌کنم."
+      },
+      {
+        "de": "Wir laden Freunde zum Abendessen ein.",
+        "fa": "ما دوستان را برای شام دعوت می‌کنیم."
+      },
+      {
+        "de": "Lade ich dich am Wochenende ein?",
+        "fa": "آیا تو را در آخر هفته دعوت کنم؟"
+      },
+      {
+        "de": "Er lädt seine Freunde gerne ein.",
+        "fa": "او دوست دارد دوستانش را دعوت کند."
+      },
+      {
+        "de": "Am Wochenende laden wir immer Freunde ein.",
+        "fa": "در آخر هفته همیشه دوستان را دعوت می‌کنیم."
+      }
+    ],
+    "note": "نکته: فعل 'einladen' جدایی‌پذیر است. در حال ساده: ich lade ... ein / du lädst ... ein / er lädt ... ein. از 'gerne' برای بیان علاقه استفاده کنید. برای دعوت مستقیم:'Ich lade dich ein.' (من تو را دعوت می‌کنم / من هزینه را می‌پردازم). در موقعیت‌های دوستانه، اغلب به معنای پرداخت هزینه است."
+  },
+  {
+    "id": "103",
+    "title-id": "A1-5",
+    "title": "Wann? – Am Wochenende / Am Samstag / Am Sonntag",
+    "description": "برای گفتن «کی؟» از «am» استفاده می‌کنیم.\n\n• am + روز هفته (مثل am Samstag)\n• am Wochenende = آخر هفته (شنبه و یکشنبه)\n\nقانون: am = an + dem (برای روزهای هفته و آخر هفته همیشه am می‌آید).",
+    "examples": [
+      {
+        "de": "Wann gehst du einkaufen?",
+        "fa": "کی خرید می‌کنی؟"
+      },
+      {
+        "de": "Ich gehe am Samstag einkaufen.",
+        "fa": "من شنبه خرید می‌کنم."
+      },
+      {
+        "de": "Was machst du am Sonntag?",
+        "fa": "یکشنبه چیکار می‌کنی؟"
+      },
+      {
+        "de": "Am Sonntag schlafe ich lange.",
+        "fa": "یکشنبه دیر بیدار می‌شوم."
+      },
+      {
+        "de": "Wir treffen uns am Wochenende.",
+        "fa": "آخر هفته همدیگه رو می‌بینیم."
+      },
+      {
+        "de": "Am Wochenende fahre ich nach Berlin.",
+        "fa": "آخر هفته به برلین می‌روم."
+      }
+    ],
+    "note": "• همیشه «am» قبل از روز هفته یا Wochenende می‌آید.\n• Samstag = شنبه\n• Sonntag = یکشنبه\n• Wochenende = شنبه + یکشنبه\n\nنکته: در مکالمه روزمره خیلی از «am Wochenende» استفاده می‌شود."
+  },
+  {
+    "id": "104",
+    "title-id": "A1-5",
+    "title": "صرف فعل aufräumen (در زمان حال - Präsens)",
+    "description": "فعل aufräumen یک فعل جداسازی‌پذیر (trennbares Verb) است و به معنای «تمیز کردن، مرتب کردن، جمع و جور کردن» می‌باشد.\n\nدر زمان حال (Präsens) بخش اصلی فعل (räum) طبق قاعده صرف می‌شود و پیشوند «auf» همیشه جدا شده و در آخر جمله قرار می‌گیرد.\n\nتوجه: در جملات اصلی (Hauptsatz) پیشوند جدا می‌شود، اما در جملات وابسته (Nebensatz) فعل کامل در انتها می‌آید.",
+    "examples": [
+      {
+        "de": "Ich räume mein Zimmer auf.",
+        "fa": "من اتاقم را تمیز می‌کنم."
+      },
+      {
+        "de": "Du räumst die Küche auf.",
+        "fa": "تو آشپزخانه را مرتب می‌کنی."
+      },
+      {
+        "de": "Er räumt den Tisch auf.",
+        "fa": "او میز را جمع و جور می‌کند."
+      },
+      {
+        "de": "Wir räumen das Wohnzimmer auf.",
+        "fa": "ما اتاق نشیمن را تمیز می‌کنیم."
+      },
+      {
+        "de": "Ihr räumt die Schule auf.",
+        "fa": "شما (جمع) مدرسه را مرتب می‌کنید."
+      },
+      {
+        "de": "Sie räumen das Büro auf.",
+        "fa": "آنها دفتر را تمیز می‌کنند. / شما (رسمی) دفتر را تمیز می‌کنید."
+      },
+      {
+        "de": "Räum dein Zimmer auf!",
+        "fa": "اتاقت را تمیز کن! (دستور برای du)"
+      }
+    ],
+    "note": "نکته مهم:\n• فعل aufräumen فعل منظم (regelmäßig) است.\n• در Imperativ (دستور): Räum ... auf! (برای du) / Räumt ... auf! (برای ihr) / Räumen Sie ... auf! (برای Sie)\n• مثال کامل: Morgen räume ich die Wohnung auf. (فردا آپارتمان را تمیز می‌کنم.)\n\nاین ساختار"
+  },
+  {
+    "id": "105",
+    "title-id": "A1-5",
+    "title": "تفاوت صبح / صبح‌ها و زمان‌های روز در آلمانی",
+    "description": "در آلمانی دو شکل اصلی برای زمان‌های روز وجود دارد:\n\n۱. شکل اسم (Noun): der Morgen, der Vormittag و غیره → با حرف بزرگ نوشته می‌شود و معمولاً با حروف اضافه مثل am / zu / in استفاده می‌شود. برای یک زمان خاص (امروز صبح، دیروز بعدازظهر).\n\n۲. شکل قید (Adverb): morgens, vormittags و غیره → با حرف کوچک نوشته می‌شود و برای عادت‌ها و کارهای تکراری روزانه استفاده می‌شود (هر صبح، معمولاً ظهر).\n\nتقسیم تقریبی زمان‌ها:\n- Morgen / morgens: حدود ۶ تا ۱۰ صبح\n- Vormittag / vormittags: حدود ۱۰ تا ۱۲\n- Mittag / mittags: حدود ۱۲ تا ۱۴ (ظهر)\n- Nachmittag / nachmittags: حدود ۱۴ تا ۱۸ (بعدازظهر)\n- Abend / abends: حدود ۱۸ تا ۲۳ (عصر و شب اولیه)\n- Nacht / nachts: از ۲۳ شب تا صبح زود (شب عمیق)",
+    "examples": [
+      {
+        "de": "Ich trinke morgens immer Kaffee.",
+        "fa": "من همیشه صبح‌ها قهوه می‌خورم. (عادت تکراری)"
+      },
+      {
+        "de": "Am Morgen gehe ich joggen.",
+        "fa": "صبح (امروز/یک صبح خاص) می‌روم دویدن."
+      },
+      {
+        "de": "Vormittags habe ich Unterricht.",
+        "fa": "معمولاً صبح‌ها (۱۰ تا ۱۲) کلاس دارم."
+      },
+      {
+        "de": "Wir essen mittags zu Mittag.",
+        "fa": "ما ظهر ناهار می‌خوریم."
+      },
+      {
+        "de": "Nachmittags trinke ich Tee.",
+        "fa": "بعدازظهرها چای می‌خورم. (عادت)"
+      },
+      {
+        "de": "Abends sehe ich fern.",
+        "fa": "عصرها تلویزیون تماشا می‌کنم."
+      },
+      {
+        "de": "Nachts schlafe ich gut.",
+        "fa": "شب‌ها خوب می‌خوابم."
+      },
+      {
+        "de": "Heute Morgen war es kalt.",
+        "fa": "امروز صبح هوا سرد بود. (زمان خاص)"
+      },
+      {
+        "de": "In der Nacht hat es geregnet.",
+        "fa": "در طول شب باران بارید. (برای Nacht معمولاً in der)"
+      },
+      {
+        "de": "Morgens dusche ich, abends lese ich.",
+        "fa": "صبح‌ها دوش می‌گیرم، عصرها کتاب می‌خوانم."
+      }
+    ],
+    "note": "نکته مهم:\n- برای عادت و تکرار → از شکل قید با s کوچک استفاده کنید (morgens, abends).\n- برای یک زمان مشخص → از شکل اسم با am / zu / heute / gestern استفاده کنید (am Morgen, zu Mittag).\n- Nacht استثنا است: معمولاً «in der Nacht» گفته می‌شود نه «nachts» برای زمان خاص.\n- این قیدها خیلی در صحبت روزمره و توصیف روتین زندگی استفاده می‌شوند."
+  },
+  {
+    "id": "106",
+    "title-id": "A1-5",
+    "title": "Wann stehst du am Samstag auf? Was machst du vormittags?",
+    "description": "در این مبحث یاد می‌گیریم چطور درباره زمان بیدار شدن (aufstehen) و برنامه‌های صبحگاهی (vormittags) در روزهای تعطیل مثل شنبه (am Samstag) سؤال بپرسیم و جواب دهیم. از زمان حال (Präsens) برای صحبت درباره برنامه‌های آینده نزدیک استفاده می‌شود. کلمات کلیدی: am Samstag (در روز شنبه)، vormittags (در صبح/قبل از ظهر)، aufstehen (از خواب بیدار شدن/بلند شدن).",
+    "examples": [
+      {
+        "de": "Wann stehst du am Samstag auf?",
+        "fa": "کی شنبه از خواب بیدار می‌شوی؟"
+      },
+      {
+        "de": "Ich stehe am Samstag um neun Uhr auf.",
+        "fa": "شنبه ساعت نه از خواب بیدار می‌شوم."
+      },
+      {
+        "de": "Was machst du vormittags?",
+        "fa": "صبح‌ها چه کار می‌کنی؟"
+      },
+      {
+        "de": "Vormittags frühstücke ich und lese die Zeitung.",
+        "fa": "صبح‌ها صبحانه می‌خورم و روزنامه می‌خوانم."
+      },
+      {
+        "de": "Stehst du am Samstag früh auf?",
+        "fa": "شنبه زود از خواب بیدار می‌شوی؟"
+      },
+      {
+        "de": "Nein, am Samstag schlafe ich länger und stehe erst um halb elf auf.",
+        "fa": "نه، شنبه بیشتر می‌خوابم و تازه ساعت یازده و نیم بیدار می‌شوم."
+      }
+    ],
+    "note": "نکته مهم: \n• «am Samstag» برای روزهای خاص هفته استفاده می‌شود. \n• «vormittags» یعنی در طول صبح (معمولاً تا ساعت ۱۲). \n• فعل «aufstehen» همیشه با «auf» جدا می‌شود: ich stehe ... auf. \n• برای برنامه‌های آینده نزدیک از زمان حال استفاده کنید، نه Futur. \n\nمثال کامل مکالمه: \nA: Wann stehst du am Samstag auf? \nB: Um zehn Uhr. Und was machst du vormittags? \nA: Vormittags gehe ich einkaufen."
+  },
+  {
+    "id": "107",
+    "title-id": "A1-5",
+    "title": "Modalverb müssen",
+    "description": "مؤسِّن (müssen) برای بیان **الزام**، **ضرورت** یا **اجبار** استفاده می‌شود.\n\nیعنی کاری که «باید» انجام شود و چاره‌ای جز آن نیست (نه فقط توصیه).\n\nساختار جمله:\nمؤسِّن (صرف‌شده) + فاعل + ... + فعل اصلی (در انتها به صورت Infinitiv بدون zu).\n\nنکته مهم: در زمان حال، سوم شخص مفرد (er/sie/es/man) مثل ich است (muss).",
+    "examples": [
+      {
+        "de": "Ich muss morgen arbeiten.",
+        "fa": "من فردا باید کار کنم."
+      },
+      {
+        "de": "Du musst deine Hausaufgaben machen.",
+        "fa": "تو باید تکالیفت را انجام دهی."
+      },
+      {
+        "de": "Er muss zum Arzt gehen.",
+        "fa": "او باید به پزشک برود."
+      },
+      {
+        "de": "Wir müssen früh aufstehen.",
+        "fa": "ما باید زود بیدار شویم."
+      },
+      {
+        "de": "Ihr müsst die Regeln befolgen.",
+        "fa": "شما باید قوانین را رعایت کنید."
+      },
+      {
+        "de": "Sie müssen den Vertrag unterschreiben.",
+        "fa": "آنها باید قرارداد را امضا کنند."
+      }
+    ],
+    "note": "منفی کردن: nicht müssen = «لازم نیست» (نه ممنوعیت).\nمثال: Du musst nicht kommen. → لازم نیست بیایی.\n\nگذشته: musste / mussten\nمثال: Ich musste gestern lernen. → دیروز باید درس می‌خواندم.\n\nKonjunktiv II (برای شرط یا مودبانه): müsste\nمثال: Ich müsste mehr Deutsch lernen. → باید بیشتر آلمانی یاد بگیرم (ای کاش)."
+  },
+  {
+    "id": "108",
+    "title-id": "A1-5",
+    "title": "صرف فعل posten (در زمان حال - Präsens)",
+    "description": "فعل posten یک فعل منظم (regelmäßig) است و به معنای «پست کردن» (در شبکه‌های اجتماعی)، «ارسال کردن» یا «گذاشتن» به کار می‌رود.\n\nبرای صرف در زمان حال (Präsens):\n- بن فعل: post-\n- پایان‌های شخصی اضافه می‌شود.\n- در شخص ich می‌توان e را حذف کرد (poste یا post).\n\nتوجه: این فعل بیشتر در زمینه اینترنت و رسانه‌های اجتماعی استفاده می‌شود.",
+    "examples": [
+      {
+        "de": "Ich poste ein Foto auf Instagram.",
+        "fa": "من یک عکس در اینستاگرام پست می‌کنم."
+      },
+      {
+        "de": "Du postest jeden Tag eine Story.",
+        "fa": "تو هر روز یک استوری پست می‌کنی."
+      },
+      {
+        "de": "Er postet ein Video auf YouTube.",
+        "fa": "او یک ویدیو در یوتیوب پست می‌کند."
+      },
+      {
+        "de": "Wir posten die Neuigkeiten auf Facebook.",
+        "fa": "ما اخبار را در فیسبوک پست می‌کنیم."
+      },
+      {
+        "de": "Ihr postet zu viele Kommentare.",
+        "fa": "شما (چند نفر) نظرات زیادی پست می‌کنید."
+      },
+      {
+        "de": "Sie posten immer lustige Bilder.",
+        "fa": "آنها همیشه عکس‌های بامزه پست می‌کنند."
+      }
+    ],
+    "note": "نکته مهم:\n• posten فعل transitiv است و معمولاً با مفعول مستقیم ( Akkusativ ) به کار می‌رود.\n• در جملات منفی: Ich poste nichts. (من چیزی پست نمی‌کنم.)\n• شکل مجهول (Passiv): Das Foto wird gepostet. (عکس پست می‌شود.)"
+  },
+  {
+    "id": "109",
+    "title-id": "A1-5",
+    "title": "صرف فعل einkaufen (خرید کردن)",
+    "description": "فعل einkaufen یک فعل جداسازی‌پذیر (trennbares Verb) و منظم (regelmäßig) است. به معنی «خرید کردن» یا «خرید رفتن» می‌باشد.\n\nدر زمان حال (Präsens):\n- پیشوند «ein» جدا شده و در انتهای جمله قرار می‌گیرد.\n- صرف مثل فعل kaufen است (با پایان‌های معمولی).\n\nنکته مهم: در جملات اصلی، فعل اصلی در جایگاه دوم و پیشوند در آخر جمله می‌آید.",
+    "examples": [
+      {
+        "de": "Ich kaufe ein.",
+        "fa": "من خرید می‌کنم."
+      },
+      {
+        "de": "Du kaufst ein.",
+        "fa": "تو خرید می‌کنی."
+      },
+      {
+        "de": "Er kauft ein.",
+        "fa": "او (مذکر) خرید می‌کند."
+      },
+      {
+        "de": "Wir kaufen ein.",
+        "fa": "ما خرید می‌کنیم."
+      },
+      {
+        "de": "Ihr kauft ein.",
+        "fa": "شما (جمع غیررسمی) خرید می‌کنید."
+      },
+      {
+        "de": "Sie kaufen ein.",
+        "fa": "آنها / شما (رسمی) خرید می‌کنند."
+      },
+      {
+        "de": "Gestern habe ich eingekauft.",
+        "fa": "دیروز خرید کردم."
+      }
+    ],
+    "note": "در جملات فرعی (Nebensatz) پیشوند جدا نمی‌شود: ... dass ich einkaufe.\n\nصرف کامل Präsens:\nich kaufe ein\ndu kaufst ein\ner/sie/es kauft ein\nwir kaufen ein\nihr kauft ein\nsie/Sie kaufen ein\n\nPerfekt: haben + eingekauft (ich habe eingekauft)\n\nمثال کاربردی: Ich gehe jetzt einkaufen. (حالا می‌روم خرید کنم.)"
+  },
+  {
+    "id": "110",
+    "title-id": "A1-5",
+    "title": "صرف فعل schreiben (نوشتن) در زمان حال (Präsens)",
+    "description": "فعل schreiben یک فعل نامنظم (unregelmäßig) است. در زمان حال (Präsens) برای بیشتر اشخاص مانند فعل‌های منظم صرف می‌شود، اما در صیغه ich به جای -e معمولی، گاهی شکل کوتاه schreib(e) دیده می‌شود (e اختیاری است). \n\nجدول صرف کامل برای تمام اشخاص:\n\nich schreibe\n\ndu schreibst\n\ner/sie/es schreibt\n\nwir schreiben\n\nihr schreibt\n\nsie/Sie schreiben\n\nنکته: schreiben همیشه با haben صرف می‌شود (ich habe geschrieben).",
+    "examples": [
+      {
+        "de": "Ich schreibe einen Brief.",
+        "fa": "من یک نامه می‌نویسم."
+      },
+      {
+        "de": "Du schreibst eine E-Mail.",
+        "fa": "تو یک ایمیل می‌نویسی."
+      },
+      {
+        "de": "Er schreibt einen Text.",
+        "fa": "او (مذکر) یک متن می‌نویسد."
+      },
+      {
+        "de": "Wir schreiben ein Buch.",
+        "fa": "ما یک کتاب می‌نویسیم."
+      },
+      {
+        "de": "Ihr schreibt die Hausaufgaben.",
+        "fa": "شما (جمع غیررسمی) تکالیف را می‌نویسید."
+      },
+      {
+        "de": "Sie schreiben einen Roman.",
+        "fa": "آنها / شما (رسمی) یک رمان می‌نویسند."
+      }
+    ],
+    "note": "در مکالمه روزمره، ich schreibe خیلی رایج است. برای sie (آنها) و Sie (شما رسمی) شکل یکسان است. این فعل برای نوشتن نامه، پیام، کتاب و غیره استفاده می‌شود."
+  },
+  {
+    "id": "111",
+    "title-id": "A1-5",
+    "title": "صرف فعل joggen (دویدن آهسته / جُگینگ کردن)",
+    "description": "فعل joggen یک فعل منظم (regelmäßig) آلمانی است و به معنای «دویدن آهسته» یا «جُگینگ کردن» می‌باشد.\n\nدر زمان حال (Präsens) و گذشته ساده (Präteritum) به صورت منظم صرف می‌شود.\n\nدر زمان کامل (Perfekt) معمولاً با haben + gejoggt استفاده می‌شود (گاهی با sein هم ممکن است).\n\nتوجه: چون فعل با -g شروع می‌شود، در برخی اشخاص «ge-» به «gejoggt» تبدیل می‌شود.",
+    "examples": [
+      {
+        "de": "Ich jogge jeden Morgen im Park.",
+        "fa": "من هر صبح در پارک جُگینگ می‌کنم."
+      },
+      {
+        "de": "Du joggst zu schnell!",
+        "fa": "تو خیلی سریع می‌دوی!"
+      },
+      {
+        "de": "Er joggt dreimal pro Woche.",
+        "fa": "او هفته‌ای سه بار جُگینگ می‌کند."
+      },
+      {
+        "de": "Wir joggen zusammen.",
+        "fa": "ما با هم جُگینگ می‌کنیم."
+      },
+      {
+        "de": "Gestern bin ich eine Stunde gejoggt.",
+        "fa": "دیروز یک ساعت جُگینگ کردم."
+      },
+      {
+        "de": "Sie joggte früher sehr viel.",
+        "fa": "او قبلاً خیلی جُگینگ می‌کرد."
+      }
+    ],
+    "note": "نکته مهم:\n• joggen فعل جدا نشدنی است.\n• Partizip Perfekt: gejoggt\n• در جملات: Ich habe gejoggt. / Ich bin gejoggt. (هر دو قابل قبول است، اما haben رایج‌تر است)"
+  },
+  {
+    "id": "112",
+    "title-id": "A1-5",
+    "title": "صرف فعل besuchen (دیدن، بازدید کردن)",
+    "description": "فعل besuchen یک فعل منظم (regelmäßig) و جدایی‌ناپذیر است.\n\nدر زمان حال (Präsens) به این صورت صرف می‌شود:\n\n• ich besuche\n• du besuchst\n• er/sie/es besucht\n• wir besuchen\n• ihr besucht\n• sie/Sie besuchen\n\nنکته: چون فعل جدایی‌ناپذیر است، پیشوند be- همیشه به فعل چسبیده می‌ماند و جدا نمی‌شود.",
+    "examples": [
+      {
+        "de": "Ich besuche meinen Freund.",
+        "fa": "من دوست خودم را ملاقات می‌کنم / بازدید می‌کنم."
+      },
+      {
+        "de": "Du besuchst die Schule jeden Tag.",
+        "fa": "تو هر روز به مدرسه می‌روی (حضور پیدا می‌کنی)."
+      },
+      {
+        "de": "Er besucht seine Familie am Wochenende.",
+        "fa": "او آخر هفته خانواده‌اش را ملاقات می‌کند."
+      },
+      {
+        "de": "Wir besuchen das Museum morgen.",
+        "fa": "ما فردا موزه را بازدید می‌کنیم."
+      },
+      {
+        "de": "Besucht ihr eure Großeltern oft?",
+        "fa": "آیا شما اغلب به دیدن پدربزرگ و مادربزرگتان می‌روید؟"
+      },
+      {
+        "de": "Sie besuchen uns nächste Woche.",
+        "fa": "آنها هفته آینده به دیدن ما می‌آیند."
+      }
+    ],
+    "note": "• besuchen + Akkusativ (مفعول مستقیم)\n• معنی اصلی: بازدید کردن، ملاقات کردن، رفتن به جایی (مثل موزه، مدرسه، دوست)\n• در مکالمه روزمره خیلی پرکاربرد است."
+  },
+  {
+    "id": "113",
+    "title-id": "A1-5",
+    "title": "صرف فعل waschen (شستن) در زمان حال (Präsens)",
+    "description": "فعل waschen یک فعل قوی (starkes Verb) و تغییردهنده ساقه (Vokalwechsel) است.\n\nدر زمان حال (Präsens):\n- برای du و er/sie/es، حروف a به ä تغییر می‌کند.\n- برای ich، e اضافه می‌شود (wasche).\n- برای wir، ihr و sie/Sie، شکل معمولی بدون تغییر است.\n\nاین فعل برای شستن لباس، ظرف، بدن یا ماشین استفاده می‌شود.\n\nجدول صرف کامل:\n\nich          → wasche\n\ndu           → wäschst\n\ner/sie/es    → wäscht\n\nwir          → waschen\n\nihr          → wascht\n\nsie/Sie      → waschen",
+    "examples": [
+      {
+        "de": "Ich wasche meine Hände.",
+        "fa": "من دست‌هایم را می‌شویم."
+      },
+      {
+        "de": "Du wäschst das Auto am Wochenende.",
+        "fa": "تو ماشین را آخر هفته می‌شوری."
+      },
+      {
+        "de": "Er wäscht seine Kleidung.",
+        "fa": "او لباس‌هایش را می‌شوید."
+      },
+      {
+        "de": "Wir waschen das Geschirr zusammen.",
+        "fa": "ما ظرف‌ها را با هم می‌شوییم."
+      },
+      {
+        "de": "Ihr wascht euch jeden Morgen.",
+        "fa": "شما هر صبح خودتان را می‌شویید."
+      },
+      {
+        "de": "Sie waschen die Wäsche in der Maschine.",
+        "fa": "آنها لباس‌ها را در ماشین لباسشویی می‌شویند."
+      }
+    ],
+    "note": "نکته مهم:\n- waschen همیشه با haben صرف می‌شود (Perfekt: ich habe gewaschen).\n- وقتی به معنای «شستن بدن خود» است، از reflexive pronoun (mich, dich, sich و ...) استفاده کنید: Ich wasche mich.\n- تلفظ: ä در wäschst و wäscht مثل «اِ» کشیده (vesht) است."
+  },
+  {
+    "id": "114",
+    "title-id": "A1-5",
+    "title": "صرف فعل schließen (بستن / بسته شدن)",
+    "description": "فعل schließen یک فعل قوی (unregelmäßig) و با تغییر مصوت است. در زمان حال (Präsens) برای ich به صورت schließe صرف می‌شود (با افزودن e اضافی). برای du، er/sie/es و ihr به دلیل ie در پایان ساقه، حرف s دوبار تکرار می‌شود (schließt). معنی اصلی: بستن در، پنجره، فروشگاه و غیره. همچنین می‌تواند به معنی «نتیجه‌گیری کردن» یا «پایان دادن» باشد.\n\nنکته مهم: این فعل همیشه با haben صرف می‌شود (حتی وقتی معنی بسته شدن دارد).",
+    "examples": [
+      {
+        "de": "Ich schließe die Tür.",
+        "fa": "من در را می‌بندم."
+      },
+      {
+        "de": "Du schließt das Fenster.",
+        "fa": "تو پنجره را می‌بندی."
+      },
+      {
+        "de": "Er schließt den Laden um 18 Uhr.",
+        "fa": "او فروشگاه را ساعت ۱۸ می‌بندد."
+      },
+      {
+        "de": "Wir schließen die Augen.",
+        "fa": "ما چشمانمان را می‌بندیم."
+      },
+      {
+        "de": "Ihr schließt die Bücher.",
+        "fa": "شما کتاب‌ها را می‌بندید."
+      },
+      {
+        "de": "Sie schließen die Vertrag.",
+        "fa": "آنها قرارداد را منعقد می‌کنند (یا می‌بندند)."
+      }
+    ],
+    "note": "در زمان حال:\nich schließe\ndu schließt\ner/sie/es schließt\nwir schließen\nihr schließt\nsie/Sie schließen\n\nمثال اضافی: Das Geschäft schließt um 20 Uhr. (فروشگاه ساعت ۲۰ بسته می‌شود.)"
+  },
+  {
+    "id": "115",
+    "title-id": "A1-5",
+    "title": "صرف فعل öffnen (باز کردن) در زمان حال (Präsens)",
+    "description": "فعل «öffnen» یک فعل منظم (regelmäßig) است و به معنای «باز کردن» می‌باشد. \n\nدر زمان حال (Präsens) صرف آن به این شکل است:\n\n• ich öffne\n• du öffnest\n• er/sie/es öffnet\n• wir öffnen\n• ihr öffnet\n• sie/Sie öffnen\n\nنکته مهم: چون فعل با «-fn» تمام می‌شود، در شخص دوم مفرد (du) و سوم مفرد (er/sie/es) و دوم جمع (ihr) یک «e» اضافی قبل از «t» یا «st» اضافه می‌شود تا تلفظ آسان‌تر شود.",
+    "examples": [
+      {
+        "de": "Ich öffne die Tür.",
+        "fa": "من در را باز می‌کنم."
+      },
+      {
+        "de": "Du öffnest das Fenster.",
+        "fa": "تو پنجره را باز می‌کنی."
+      },
+      {
+        "de": "Er öffnet das Buch.",
+        "fa": "او کتاب را باز می‌کند."
+      },
+      {
+        "de": "Wir öffnen den Laden um 9 Uhr.",
+        "fa": "ما مغازه را ساعت ۹ باز می‌کنیم."
+      },
+      {
+        "de": "Ihr öffnet die Geschenke.",
+        "fa": "شما هدایا را باز می‌کنید."
+      },
+      {
+        "de": "Sie öffnen die Tür bitte.",
+        "fa": "لطفاً در را باز کنید. (مودبانه یا برای جمع)"
+      }
+    ],
+    "note": "فعل öffnen همیشه با haben صرف می‌شود (ich habe geöffnet). \nاین فعل در سطح A1 بسیار پرکاربرد است و برای صحبت درباره باز کردن در، پنجره، کتاب، فروشگاه و غیره استفاده می‌شود.\n\nمثال اضافی:\nDie Tür öffnet sich automatisch. (در به طور خودکار باز می‌شود - حالت بازتابی)"
+  },
+  {
+    "id": "116",
+    "title-id": "A1-5",
+    "title": "صرف فعل tanken (در زمان حال - Präsens)",
+    "description": "فعل tanken یک فعل منظم (regelmäßig) است و به معنای «سوخت‌گیری کردن»، «بنزین زدن» یا «پر کردن باک» می‌باشد. در زمان حال (Präsens) به ساقه فعل (tank-) پسوندهای استاندارد اضافه می‌شود:\n\n• ich → -e\n• du → -st\n• er/sie/es → -t\n• wir → -en\n• ihr → -t\n• sie/Sie → -en\n\nتوجه: چون ساقه با «k» تمام می‌شود، هیچ تغییری در املا ایجاد نمی‌شود.",
+    "examples": [
+      {
+        "de": "Ich tanke mein Auto jeden Freitag.",
+        "fa": "من هر جمعه ماشینم را سوخت‌گیری می‌کنم."
+      },
+      {
+        "de": "Du tankst zu viel Benzin.",
+        "fa": "تو بنزین زیادی می‌زنی."
+      },
+      {
+        "de": "Er tankt das Motorrad an der Tankstelle.",
+        "fa": "او موتورسیکلت را در پمپ بنزین سوخت‌گیری می‌کند."
+      },
+      {
+        "de": "Wir tanken den Wagen voll.",
+        "fa": "ما ماشین را کامل پر می‌کنیم."
+      },
+      {
+        "de": "Ihr tankt immer zu spät.",
+        "fa": "شما همیشه دیر سوخت‌گیری می‌کنید."
+      },
+      {
+        "de": "Sie tanken das Flugzeug vor dem Flug.",
+        "fa": "آنها هواپیما را قبل از پرواز سوخت‌گیری می‌کنند."
+      }
+    ],
+    "note": "فعل tanken همیشه با haben صرف می‌شود (Perfekt: hat getankt). در مکالمه روزمره اغلب به معنای بنزین زدن به خودرو استفاده می‌شود. مثال اضافی: «Wo kann ich hier tanken?» = «اینجا کجا می‌توانم بنزین بزنم؟»"
+  },
+  {
+    "id": "117",
+    "title-id": "A1-5",
+    "title": "rund um die Uhr",
+    "description": "این عبارت به معنای «۲۴ ساعته» یا «شبانه‌روزی» است. یعنی چیزی بدون وقفه و در تمام ساعات روز و شب انجام می‌شود یا در دسترس است. معادل دقیق آن در انگلیسی «around the clock» یا «24/7» است.",
+    "examples": [
+      {
+        "de": "Der Supermarkt hat rund um die Uhr geöffnet.",
+        "fa": "سوپرمارکت شبانه‌روزی باز است."
+      },
+      {
+        "de": "Die Ärzte arbeiten rund um die Uhr in der Notaufnahme.",
+        "fa": "پزشکان در اورژانس ۲۴ ساعته کار می‌کنند."
+      },
+      {
+        "de": "Letzte Woche habe ich rund um die Uhr gearbeitet.",
+        "fa": "هفته گذشته ۲۴ ساعته کار کردم."
+      },
+      {
+        "de": "Der Kundenservice ist rund um die Uhr erreichbar.",
+        "fa": "خدمات مشتریان شبانه‌روزی در دسترس است."
+      }
+    ],
+    "note": "این عبارت معمولاً با فعل‌هایی مثل «geöffnet haben»، «arbeiten»، «erreichbar sein» یا «überwachen» استفاده می‌شود."
+  },
+  {
+    "id": "118",
+    "title-id": "A1-5",
+    "title": "im Notfall",
+    "description": "عبارت «im Notfall» به معنای «در صورت اضطراری» یا «در مواقع ضروری» است.\n\nاین عبارت را وقتی استفاده می‌کنیم که می‌خواهیم بگوییم در شرایط اضطراری یا در صورت نیاز فوری چه کاری انجام دهیم.\n\nمعمولاً برای برنامه‌ریزی اقدامات احتیاطی به کار می‌رود.",
+    "examples": [
+      {
+        "de": "Im Notfall rufen Sie die Polizei.",
+        "fa": "در صورت اضطراری با پلیس تماس بگیرید."
+      },
+      {
+        "de": "Im Notfall können Sie diese Nummer anrufen.",
+        "fa": "در مواقع ضروری می‌توانید این شماره را بگیرید."
+      },
+      {
+        "de": "Im Notfall brechen Sie das Glas.",
+        "fa": "در شرایط اضطراری شیشه را بشکنید."
+      },
+      {
+        "de": "Welche Nummer muss ich im Notfall anrufen?",
+        "fa": "در صورت اضطراری کدام شماره را باید بگیرم؟"
+      },
+      {
+        "de": "Im Notfall helfe ich dir sofort.",
+        "fa": "در مواقع ضروری فوراً به تو کمک می‌کنم."
+      }
+    ],
+    "note": "نکته: «im Notfall» همیشه با فعل در زمان حال یا آینده ساده استفاده می‌شود.\n\nدر موقعیت‌های واقعی (مانند تابلوهای خروج اضطراری یا دستورالعمل‌های ایمنی) بسیار پرکاربرد است.\n\nمثال‌های مشابه: «im Ernstfall» یا «bei Gefahr»."
+  },
+  {
+    "id": "119",
+    "title-id": "A1-5",
+    "title": "schließen ↔ öffnen",
+    "description": "دو فعل متضاد مهم در آلمانی:\n\n• schließen = بستن (در، پنجره، فروشگاه و ...)\n• öffnen = باز کردن\n\nهر دو فعل منظم هستند و با accusative (مفعول مستقیم) استفاده می‌شوند.\n\nنکته: در مکالمه روزمره اغلب از aufmachen (باز کردن) و zumachen (بستن) به جای این دو استفاده می‌شود.",
+    "examples": [
+      {
+        "de": "Ich schließe die Tür.",
+        "fa": "من در را می‌بندم."
+      },
+      {
+        "de": "Öffne bitte das Fenster!",
+        "fa": "لطفاً پنجره را باز کن!"
+      },
+      {
+        "de": "Das Geschäft schließt um 20 Uhr.",
+        "fa": "فروشگاه ساعت ۲۰ بسته می‌شود."
+      },
+      {
+        "de": "Sie öffnet die Flasche.",
+        "fa": "او بطری را باز می‌کند."
+      },
+      {
+        "de": "Ich habe die Augen geschlossen.",
+        "fa": "چشمانم را بستم."
+      },
+      {
+        "de": "Öffnen Sie Ihren Koffer bitte.",
+        "fa": "لطفاً چمدانتان را باز کنید."
+      }
+    ],
+    "note": "• schließen → Präteritum: schloss | Partizip II: geschlossen\n• öffnen → Präteritum: öffnete | Partizip II: geöffnet\n\nدر موقعیت‌های رسمی یا نوشته‌ها از schließen/öffnen استفاده کنید. در گفتار روزمره aufmachen/zumachen رایج‌تر است."
+  },
+  {
+    "id": "120",
+    "title-id": "A1-5",
+    "title": "Arzt = Doktor",
+    "description": "در زبان آلمانی:\n\n• **Arzt** (مذکر) / **Ärztin** (مؤنث): به معنای پزشک یا دکتر پزشکی است. این کلمه به **شغل** و حرفه پزشکی اشاره دارد. کسی که پزشکی خوانده، آزمون‌های لازم را گذرانده و مجوز کار (Approbation) گرفته است.\n\n• **Doktor**: یک **عنوان تحصیلی** (دکترا یا PhD) است که بعد از نوشتن پایان‌نامه علمی (Promotion) به فرد داده می‌شود. این عنوان فقط مربوط به پزشکی نیست و در رشته‌های مختلف (حقوق، فیزیک، زیست‌شناسی و ...) وجود دارد.\n\nبسیاری از پزشکان آلمانی عنوان Doktor هم دارند، به همین دلیل در گفتگوی روزمره مردم اغلب «Doktor» را به جای «Arzt» استفاده می‌کنند (مثل «Ich gehe zum Doktor»). اما از نظر دقیق، Arzt = پزشک (شغل) و Doktor = دارنده مدرک دکترا (عنوان) است.",
+    "examples": [
+      {
+        "de": "Er ist Arzt.",
+        "fa": "او پزشک است. (شغل او پزشکی است)"
+      },
+      {
+        "de": "Sie ist Ärztin.",
+        "fa": "او پزشک زن است."
+      },
+      {
+        "de": "Ich muss zum Arzt gehen.",
+        "fa": "باید پیش پزشک بروم."
+      },
+      {
+        "de": "Herr Dr. Müller ist Doktor der Physik.",
+        "fa": "آقای دکتر مولر دارای مدرک دکترای فیزیک است. (نه لزوماً پزشک)"
+      },
+      {
+        "de": "Gehen wir zum Doktor?",
+        "fa": "بریم پیش دکتر؟ (در محاوره یعنی پیش پزشک)"
+      }
+    ],
+    "note": "در آلمان برای مراجعه به پزشک می‌توانید بگویید: «Ich gehe zum Arzt» یا غیررسمی «zum Doktor». اما وقتی می‌خواهید شغل کسی را بگویید، همیشه از «Arzt / Ärztin» استفاده کنید. داشتن عنوان Doktor برای کار به عنوان پزشک الزامی نیست."
+  },
+  {
+    "id": "121",
+    "title-id": "A1-5",
+    "title": "die Krankenschwester – der Krankenpfleger",
+    "description": "در زبان آلمانی برای اشاره به پرستار زن از «die Krankenschwester» (مونث) و برای پرستار مرد از «der Krankenpfleger» (مذکر) استفاده می‌شود.\n\nهر دو کلمه به معنای پرستار در بیمارستان یا مراکز درمانی هستند. این کلمات جنسیت‌دار (geschlechtsspezifisch) هستند و در مکالمات روزمره هنوز خیلی رایج‌اند.\n\nنکته مهم: در حال حاضر در آلمان عنوان رسمی و خنثی «Pflegefachfrau» (برای زن) و «Pflegefachmann» (برای مرد) یا «Pflegefachperson» است، اما «Krankenschwester» و «Krankenpfleger» همچنان به‌طور گسترده استفاده می‌شوند.",
+    "examples": [
+      {
+        "de": "Die Krankenschwester hilft dem Patienten.",
+        "fa": "پرستار (زن) به بیمار کمک می‌کند."
+      },
+      {
+        "de": "Der Krankenpfleger arbeitet in der Nachtschicht.",
+        "fa": "پرستار (مرد) در شیفت شب کار می‌کند."
+      },
+      {
+        "de": "Ich möchte mit der Krankenschwester sprechen.",
+        "fa": "می‌خواهم با پرستار (زن) صحبت کنم."
+      },
+      {
+        "de": "Die Krankenschwestern und Krankenpfleger sind sehr freundlich.",
+        "fa": "پرستاران زن و مرد بسیار مهربان هستند."
+      }
+    ],
+    "note": "جمع:\n• die Krankenschwester → die Krankenschwestern\n• der Krankenpfleger → die Krankenpfleger\n\nدر مکالمه روزمره می‌توانید بگویید:\n«Die Schwester» (کوتاه برای Krankenschwester) یا «Der Pfleger» (کوتاه برای Krankenpfleger)."
+  },
+  {
+    "id": "122",
+    "title-id": "A1-5",
+    "title": "pro Woche | pro Tag",
+    "description": "عبارت‌های «pro Woche» و «pro Tag» برای بیان **میزان یا تکرار در هر هفته یا هر روز** استفاده می‌شوند.\n\n«pro» به معنی «به ازای» یا «در هر» است و بعد از آن واحد زمان می‌آید.\nاین ساختار خیلی کاربردی است برای صحبت درباره حقوق، مصرف، ورزش، یادگیری و برنامه روزانه.",
+    "examples": [
+      {
+        "de": "Ich trinke zwei Liter Wasser pro Tag.",
+        "fa": "من روزانه دو لیتر آب می‌نوشم."
+      },
+      {
+        "de": "Er arbeitet 40 Stunden pro Woche.",
+        "fa": "او هفته‌ای ۴۰ ساعت کار می‌کند."
+      },
+      {
+        "de": "Wie oft gehst du pro Woche ins Fitnessstudio?",
+        "fa": "هفته‌ای چند بار به باشگاه ورزشی می‌روی؟"
+      },
+      {
+        "de": "Das kostet 5 Euro pro Tag.",
+        "fa": "این روزی ۵ یورو هزینه دارد."
+      },
+      {
+        "de": "Sie lernt drei Stunden Deutsch pro Tag.",
+        "fa": "او روزانه سه ساعت آلمانی یاد می‌گیرد."
+      }
+    ],
+    "note": "نکته مهم:\n• بعد از «pro» معمولاً از اسم بدون حرف تعریف استفاده می‌شود (pro Tag, pro Woche).\n• می‌توانید عدد + واحد زمان + pro + واحد بزرگ‌تر بگویید: zweimal pro Woche (دو بار در هفته).\n• در مکالمات روزمره، گاهی «am Tag» یا «in der Woche» هم شنیده می‌شود، اما «pro» دقیق‌تر و رسمی‌تر است."
+  },
+  {
+    "id": "123",
+    "title-id": "A1-6",
+    "title": "Was ist wichtig für Oli und Anna?",
+    "description": "در این بخش با زندگی دو نفر آشنا می‌شویم: Oli که متأهل است و دو فرزند کوچک دارد، و Anna که مجرد است و در شهر کار می‌کند. ما یاد می‌گیریم چطور بگوییم چه چیزهایی برای هر کدام مهم است (با استفاده از ساختار «Wichtig für ... sind ...»). این کمک می‌کند تفاوت‌های سبک زندگی در شهر و روستا یا خانواده و تنهایی را توصیف کنیم.",
+    "examples": [
+      {
+        "de": "Wichtig für Oli sind Kindergärten und Schulen.",
+        "fa": "برای Oli مهدکودک‌ها و مدارس مهم هستند."
+      },
+      {
+        "de": "Für Anna sind Kinos und Cafés wichtig.",
+        "fa": "برای Anna سینما‌ها و کافه‌ها مهم هستند."
+      },
+      {
+        "de": "Oli hat eine Frau und zwei Kinder. Die Kinder sind vier und zwölf.",
+        "fa": "Oli یک همسر و دو فرزند دارد. بچه‌ها چهار و دوازده ساله هستند."
+      },
+      {
+        "de": "Anna ist Single und arbeitet in der Stadt.",
+        "fa": "Anna مجرد است و در شهر کار می‌کند."
+      }
+    ],
+    "note": "نکته مهم: از ساختار «Wichtig für + Akkusativ + sind + Nominativ» استفاده کنید. برای Oli (خانواده‌دار) چیزهایی مثل مهدکودک، پارک و سکوت مهم است. برای Anna (مجرد در شهر) تفریح، سینما، رستوران و حمل‌ونقل عمومی مهم است. این درس معمولاً در درس ۶ کتاب‌های A1 مثل «Starten wir!» آمده است."
+  },
+  {
+    "id": "124",
+    "title-id": "A1-6",
+    "title": "Gegensatzpaare – Adjektive",
+    "description": "این مبحث به جفت‌های متضاد صفت‌های رایج آلمانی می‌پردازد:\n\n• schön <> hässlich\n• interessant <> langweilig\n• ruhig <> laut\n• neu <> alt\n\nاین صفت‌ها برای توصیف ظاهر، کیفیت، صدا و سن/تازگی چیزها بسیار پرکاربرد هستند. در آلمانی، این صفت‌ها بعد از فعل «sein» (بودن) بدون تغییر استفاده می‌شوند و برای تمرین مکالمه روزمره عالی‌اند.",
+    "examples": [
+      {
+        "de": "Das Kleid ist sehr schön, aber das andere ist ziemlich hässlich.",
+        "fa": "این لباس خیلی زیبا است، اما لباس دیگر خیلی زشت است."
+      },
+      {
+        "de": "Der Film war interessant. Der Unterricht war leider langweilig.",
+        "fa": "فیلم جالب بود. کلاس متأسفانه خسته‌کننده بود."
+      },
+      {
+        "de": "Bitte sei ruhig! Die Musik ist zu laut.",
+        "fa": "لطفاً ساکت باش! موسیقی خیلی بلند است."
+      },
+      {
+        "de": "Mein Handy ist neu, aber dein Computer ist schon alt.",
+        "fa": "گوشی من نو است، اما کامپیوتر تو دیگر قدیمی شده است."
+      },
+      {
+        "de": "Die Stadt ist schön und ruhig, nicht laut und hässlich.",
+        "fa": "شهر زیبا و آرام است، نه پرسر و صدا و زشت."
+      },
+      {
+        "de": "Das Buch ist interessant und neu. Das alte Buch ist langweilig.",
+        "fa": "این کتاب جالب و جدید است. کتاب قدیمی خسته‌کننده است."
+      }
+    ],
+    "note": "نکته: در جملات، صفت‌ها معمولاً بعد از «ist» یا «war» می‌آیند. برای تأکید می‌توانید از کلماتی مثل «sehr» (خیلی)، «zu» (بیش از حد) یا «ziemlich» (نسبتاً) استفاده کنید. این جفت‌ها در سطح A1 برای توصیف اشیاء، فیلم‌ها، مکان‌ها و افراد مفید هستند."
+  },
+  {
+    "id": "125",
+    "title-id": "A1-6",
+    "title": "teuer <> billig\ngrün\nSuper",
+    "description": "این مبحث چهار واژه مهم صفت در آلمانی را پوشش می‌دهد:\n\n• teuer = گران\n• billig = ارزان (اغلب با حس کیفیت پایین)\n• grün = سبز (رنگ)\n• super = عالی، فوق‌العاده (غیررسمی)\n\nteuer و billig متضاد هم هستند و برای صحبت درباره قیمت استفاده می‌شوند. grün رنگ است و super برای بیان تحسین به کار می‌رود.",
+    "examples": [
+      {
+        "de": "Das Auto ist sehr teuer.",
+        "fa": "این ماشین خیلی گران است."
+      },
+      {
+        "de": "Die Schuhe sind billig, aber gut.",
+        "fa": "این کفش‌ها ارزان هستند اما خوب‌اند."
+      },
+      {
+        "de": "Der Apfel ist grün.",
+        "fa": "سیب سبز است."
+      },
+      {
+        "de": "Das Essen ist super!",
+        "fa": "غذا عالی است!"
+      },
+      {
+        "de": "Das Hotel war zu teuer.",
+        "fa": "هتل خیلی گران بود."
+      },
+      {
+        "de": "Ich suche eine billige Tasche.",
+        "fa": "دنبال یک کیف ارزان می‌گردم."
+      }
+    ],
+    "note": "نکته: billig گاهی منفی است (کیفیت پایین). برای «ارزان و خوب» بهتر است از «günstig» یا «preiswert» استفاده کنید.\ngrün هم رنگ است و هم به معنی «نابالغ/خام» (z.B. grüner Junge = پسر تازه‌کار).\nsuper خیلی غیررسمی و محبوب در صحبت روزمره است."
+  },
+  {
+    "id": "126",
+    "title-id": "A1-6",
+    "title": "Ortsangaben: Stadt – Land – Dorf",
+    "description": "در زبان آلمانی برای بیان مکان (Wo؟) از حروف اضافه خاصی استفاده می‌شود که بسته به نوع مکان تغییر می‌کنند:\n\n• **Stadt** (شهر): همیشه «in der Stadt» چون شهر را مثل فضای بسته در نظر می‌گیریم.\n• **Land** (روستا/حومه/طبیعت): «auf dem Land» چون فضای باز و سطحی است.\n• **Dorf** (دهکده): «im Dorf» چون دهکده را مثل فضای کوچک‌تر و بسته می‌بینیم.\n\nاین قاعده برای موقعیت ثابت (dative) است. برای حرکت (wohin؟) از accusative استفاده کنید (مثلاً in die Stadt, aufs Land, ins Dorf).",
+    "examples": [
+      {
+        "de": "Ich wohne in der Stadt.",
+        "fa": "من در شهر زندگی می‌کنم."
+      },
+      {
+        "de": "Das Leben auf dem Land ist ruhiger.",
+        "fa": "زندگی در حومه/روستا آرام‌تر است."
+      },
+      {
+        "de": "Im Dorf kennen sich alle.",
+        "fa": "در دهکده همه همدیگر را می‌شناسند."
+      },
+      {
+        "de": "Wir gehen oft in der Stadt einkaufen.",
+        "fa": "ما اغلب در شهر خرید می‌کنیم."
+      },
+      {
+        "de": "Auf dem Land gibt es viele Tiere.",
+        "fa": "در حومه حیوانات زیادی وجود دارد."
+      },
+      {
+        "de": "Sie arbeitet im Dorf als Lehrerin.",
+        "fa": "او در دهکده به عنوان معلم کار می‌کند."
+      }
+    ],
+    "note": "نکته مهم:\n- «in der Stadt» و «im Dorf» از «in + dem» (im) یا «in + der» می‌آیند.\n- «auf dem Land» از «auf + dem» است و برای فضاهای باز مثل طبیعت یا حومه استفاده می‌شود.\n- این عبارات خیلی رایج هستند و در مکالمات روزمره زیاد به کار می‌روند. برای حرکت: Ich fahre in die Stadt / aufs Land / ins Dorf."
+  },
+  {
+    "id": "127",
+    "title-id": "A1-6",
+    "title": "Es gibt",
+    "description": "از «Es gibt» برای گفتن وجود چیزی استفاده می‌کنیم.\nمعنی آن «there is» یا «there are» است.\n\nهمیشه با مفعول (Akkusativ) به کار می‌رود و شکل آن همیشه مفرد است (es gibt).\n\nبرای وجود کلی، در دسترس بودن یا موجود بودن چیزی به کار می‌رود.",
+    "examples": [
+      {
+        "de": "Es gibt einen Park in der Stadt.",
+        "fa": "در شهر یک پارک وجود دارد."
+      },
+      {
+        "de": "Es gibt viele Äpfel im Kühlschrank.",
+        "fa": "در یخچال سیب‌های زیادی وجود دارد."
+      },
+      {
+        "de": "Gibt es hier ein Café?",
+        "fa": "آیا اینجا یک کافه وجود دارد؟"
+      },
+      {
+        "de": "Es gibt keine Milch mehr.",
+        "fa": "دیگر شیری وجود ندارد."
+      },
+      {
+        "de": "In Berlin gibt es viele Museen.",
+        "fa": "در برلین موزه‌های زیادی وجود دارد."
+      }
+    ],
+    "note": "نکته مهم:\n• همیشه Akkusativ: einen Park / viele Äpfel\n• برای سؤال: Gibt es ...؟\n• با «es ist / da ist» فرق دارد:\n  Es gibt = وجود کلی / در دسترس بودن\n  Da ist = مکان دقیق چیزی که می‌بینیم"
+  },
+  {
+    "id": "128",
+    "title-id": "A1-6",
+    "title": "es gibt = da ist",
+    "description": "در زبان آلمانی، «es gibt» و «da ist / da sind» هر دو به معنای «وجود دارد» یا «there is / there are» هستند، اما کاربردشان متفاوت است.\n\n• es gibt: برای بیان وجود کلی، عمومی یا در دسترس بودن چیزی (مثل وجود در جهان، در یک مکان به صورت کلی، یا موجود بودن گزینه‌ها). همیشه با مفعول در حالت Akkusativ (مفعولی) استفاده می‌شود و فعل همیشه مفرد است (es gibt).\n\n• da ist / da sind: برای اشاره به وجود چیزی خاص و قابل مشاهده در یک مکان دقیق (مثل نشان دادن با انگشت یا اشاره به موقعیت فعلی). با فاعل در حالت Nominativ (فاعلی) و فعل مطابق با تعداد (ist برای مفرد، sind برای جمع) استفاده می‌شود.\n\nنکته مهم: اگر مکان مشخصی وجود داشته باشد و بخواهیم به چیزی خاص اشاره کنیم، معمولاً «da ist/sind» مناسب‌تر است. «es gibt» بیشتر برای اطلاعات کلی و وجود انتزاعی به کار می‌رود.",
+    "examples": [
+      {
+        "de": "Es gibt viele schöne Städte in Deutschland.",
+        "fa": "بسیاری از شهرهای زیبا در آلمان وجود دارد."
+      },
+      {
+        "de": "In diesem Restaurant gibt es vegetarisches Essen.",
+        "fa": "در این رستوران غذای گیاهی وجود دارد."
+      },
+      {
+        "de": "Gibt es hier einen Bahnhof?",
+        "fa": "آیا اینجا ایستگاه قطار وجود دارد؟"
+      },
+      {
+        "de": "Da ist ein Buch auf dem Tisch.",
+        "fa": "یک کتاب روی میز هست (اشاره به کتاب خاصی که می‌بینیم)."
+      },
+      {
+        "de": "Da sind zwei Äpfel im Korb.",
+        "fa": "دو تا سیب داخل سبد هست (اشاره به سیب‌های خاصی در مکان مشخص)."
+      },
+      {
+        "de": "Es gibt keinen Zucker mehr.",
+        "fa": "دیگر شکر وجود ندارد (به معنای تمام شدن یا موجود نبودن کلی)."
+      }
+    ],
+    "note": "• es gibt همیشه Akkusativ می‌گیرد (einen, eine, ein, keine و ...).\n• da ist/sind با Nominativ است و برای اشاره دقیق به موقعیت فعلی استفاده می‌شود.\n• در سوالات: Gibt es ...؟ (آیا وجود دارد؟) \n• اگر بخواهید وجود کلی بگویید: es gibt\n• اگر بخواهید چیزی را نشان دهید: da ist / da sind\nاین تفاوت برای سطح A1-A2 خیلی مهم است و با تمرین مثال‌ها راحت‌تر متوجه می‌شوید."
+  },
+  {
+    "id": "129",
+    "title-id": "A1-6",
+    "title": "die Miete",
+    "description": "«die Miete» اسم مؤنث آلمانی به معنی «اجاره‌بها» یا «کرایه» است. این کلمه برای مبلغی که هر ماه برای اجاره آپارتمان، خانه یا اتاق پرداخت می‌شود، استفاده می‌شود. جنسیت آن «die» است و جمع آن «die Mieten» می‌شود.\n\nنکته مهم: کلمه «mieten» فعل است و به معنی «اجاره کردن» (to rent) می‌باشد. اما «die Miete» اسم است و فقط به مبلغ اجاره اشاره دارد.\n\nدر مکالمات روزمره مسکن، این کلمه بسیار پرکاربرد است.",
+    "examples": [
+      {
+        "de": "Die Miete ist zu hoch.",
+        "fa": "اجاره‌بها خیلی بالاست."
+      },
+      {
+        "de": "Ich bezahle die Miete am Ersten.",
+        "fa": "من اجاره را اول هر ماه پرداخت می‌کنم."
+      },
+      {
+        "de": "Wie hoch ist die Miete?",
+        "fa": "اجاره‌بها چقدر است؟"
+      },
+      {
+        "de": "Die Miete beträgt 850 Euro warm.",
+        "fa": "اجاره‌بها ۸۵۰ یورو با هزینه‌های جانبی (گرم) است."
+      },
+      {
+        "de": "Ich kann mir die Miete nicht leisten.",
+        "fa": "نمی‌توانم اجاره را پرداخت کنم."
+      },
+      {
+        "de": "Die Miete muss bis zum 3. des Monats überwiesen werden.",
+        "fa": "اجاره باید تا روز سوم ماه به حساب واریز شود."
+      }
+    ],
+    "note": "«die Kaltmiete» = اجاره بدون هزینه‌های جانبی (فقط کرایه خانه)\n«die Warmmiete» = اجاره با هزینه‌های جانبی (شامل آب، برق، گرمایش و غیره)\n«die Kaution» = ودیعه یا تضمین اجاره (معمولاً ۲ یا ۳ ماه اجاره)\n\nدر مکالمه: «Wohnst du zur Miete?» یعنی «آیا خانه‌ات اجاره‌ای است؟» (نه مال خودت)"
+  },
+  {
+    "id": "130",
+    "title-id": "A1-6",
+    "title": "weit <> nicht weit",
+    "description": "«weit» به معنای «دور» یا «فاصله زیاد» است و معمولاً برای بیان فاصله مکانی به کار می‌رود. «nicht weit» یعنی «نزدیک» یا «دور نیست» و خیلی رایج‌تر از «nah» در مکالمات روزمره است. این عبارت اغلب با «von» یا «bis» همراه می‌شود. توجه: «weit» به تنهایی برای فاصله مکانی کمی رسمی یا ادبی است و معمولاً با «weg» یا «entfernt» کامل‌تر می‌شود.",
+    "examples": [
+      {
+        "de": "Ist es weit bis zum Bahnhof?",
+        "fa": "تا ایستگاه راه‌آهن دور است؟"
+      },
+      {
+        "de": "Nein, es ist nicht weit. Nur fünf Minuten zu Fuß.",
+        "fa": "نه، دور نیست. فقط پنج دقیقه پیاده."
+      },
+      {
+        "de": "Das Museum ist nicht weit von hier.",
+        "fa": "موزه از اینجا دور نیست."
+      },
+      {
+        "de": "Er wohnt weit weg von uns.",
+        "fa": "او خیلی دور از ما زندگی می‌کند."
+      },
+      {
+        "de": "Es ist weit bis zum nächsten Dorf.",
+        "fa": "تا روستای بعدی فاصله زیادی است."
+      },
+      {
+        "de": "Die Schule ist nicht weit entfernt.",
+        "fa": "مدرسه دور نیست."
+      }
+    ],
+    "note": "نکته مهم:\n• در مکالمات روزمره آلمانی، «nicht weit» بسیار طبیعی‌تر و پرکاربردتر از «nah» است.\n• برای تأکید روی دور بودن: «sehr weit», «ziemlich weit», «gar nicht weit» (اصلاً دور نیست).\n• «weit» می‌تواند معنای «گشاد» (برای لباس) هم داشته باشد، اما در مبحث فاصله مکانی، روی «دور» تمرکز کنید.\n"
+  },
+  {
+    "id": "131",
+    "title-id": "A1-6",
+    "title": "Wo? + Dativ – Ortsangaben mit auf dem / auf der / im / in der",
+    "description": "در آلمانی برای پاسخ به سؤال «Wo?» (کجا؟) که مکان ثابت را نشان می‌دهد، از حروف اضافه دوطرفه (Wechselpräpositionen) مانند auf و in همراه با حالت داتیو (Dativ) استفاده می‌شود.\n\n• auf + dem/der → برای مکان‌های باز، سطح افقی، رویدادها یا مناطق روستایی (مثل ایستگاه، زمین، مهمانی).\n• in + dem/der → برای مکان‌های داخل ساختمان، فضای بسته یا شهر (مثل پارک، مرکز، شهر).\n\nاین ساختارها بسیار رایج هستند و باید مقاله (dem/der) و داتیو را درست به کار ببریم. توضیحات کوتاه و کاربردی: همیشه «Wo?» = Dativ.",
+    "examples": [
+      {
+        "de": "Ich warte auf dem Bahnhof.",
+        "fa": "من روی ایستگاه قطار منتظر هستم. (معمولاً منظورش روی سکو یا محوطه ایستگاه است)"
+      },
+      {
+        "de": "Wir wohnen auf dem Land.",
+        "fa": "ما در روستا / حومه زندگی می‌کنیم. (برخلاف شهر)"
+      },
+      {
+        "de": "Sie tanzt auf der Party.",
+        "fa": "او روی مهمانی می‌رقصد. (در حال رقصیدن در مهمانی)"
+      },
+      {
+        "de": "Die Kinder spielen im Stadtpark.",
+        "fa": "کودکان در پارک شهری بازی می‌کنند. (داخل پارک)"
+      },
+      {
+        "de": "Das Café ist im Zentrum.",
+        "fa": "کافه در مرکز شهر است. (داخل منطقه مرکزی)"
+      },
+      {
+        "de": "Ich lebe in der Stadt.",
+        "fa": "من در شهر زندگی می‌کنم. (داخل شهر)"
+      }
+    ],
+    "note": "نکته مهم:\n• auf dem Bahnhof = روی محوطه/سکوهای ایستگاه\n  (im Bahnhof = داخل ساختمان ایستگاه)\n• auf dem Land = در حومه/روستا (برخلاف in der Stadt)\n• auf der Party = در مهمانی (رویداد باز)\n• im / in der → برای فضاهای بسته یا شهری بیشتر استفاده می‌شود.\n\nهمیشه برای مکان ثابت از Dativ استفاده کن: auf dem, auf der, im (=in dem), in der."
+  },
+  {
+    "id": "132",
+    "title-id": "A1-6",
+    "title": "Was ist Ihr Traumort? | Es ist schön. | Da ist schön.",
+    "description": "این مبحث به سؤال پرسیدن درباره «رویای مکان» یا «مکان مورد علاقه/رویایی» می‌پردازد. «Traumort» به معنای مکان رویایی یا آرمانی است. همچنین یاد می‌گیریم چگونه از عبارات «Es ist schön.» (زیباست / خوب است) و «Da ist schön.» (آنجا زیباست) برای توصیف مکان‌ها یا موقعیت‌ها استفاده کنیم. این ساختارها در سطح A1 برای صحبت درباره سفر، تعطیلات و توصیف ساده مکان‌ها بسیار کاربردی هستند.",
+    "examples": [
+      {
+        "de": "Was ist Ihr Traumort?",
+        "fa": "مکان رویایی شما کدام است؟"
+      },
+      {
+        "de": "Mein Traumort ist die Insel Bali.",
+        "fa": "مکان رویایی من جزیره بالی است."
+      },
+      {
+        "de": "Was ist dein Traumort zum Reisen?",
+        "fa": "مکان رویایی تو برای سفر کدام است؟"
+      },
+      {
+        "de": "Es ist schön hier.",
+        "fa": "اینجا زیباست."
+      },
+      {
+        "de": "Es ist schön am Strand.",
+        "fa": "کنار ساحل زیباست."
+      },
+      {
+        "de": "Da ist schön!",
+        "fa": "آنجا زیباست!"
+      },
+      {
+        "de": "Da ist es sehr schön im Sommer.",
+        "fa": "آنجا در تابستان خیلی زیباست."
+      },
+      {
+        "de": "Paris ist mein Traumort. Es ist schön dort.",
+        "fa": "پاریس مکان رویایی من است. آنجا زیباست."
+      }
+    ],
+    "note": "نکته: در آلمانی عامیانه، «Da ist schön.» اغلب به صورت «Da ist es schön.» کامل‌تر گفته می‌شود. «Es ist schön.» برای توصیف کلی موقعیت و «Da ist schön.» برای اشاره به مکان خاص (آنجا) استفاده می‌شود. برای سؤال مودبانه از «Ihr» (شما رسمی) و برای دوستانه از «dein» استفاده کنید. این عبارات را می‌توانید با کلماتی مثل «sehr» (خیلی)، «wunderschön» (بسیار زیبا) یا نام فصل‌ها ترکیب کنید."
+  },
+  {
+    "id": "133",
+    "title-id": "A1-6",
+    "title": "bei = nicht weit (in der Nähe von)",
+    "description": "پیشوند «bei» یکی از مهم‌ترین حروف اضافه آلمانی است که وقتی به معنای «نزدیک بودن» یا «نه خیلی دور» استفاده می‌شود، همیشه با داتیو (Dativ) همراه است. این معنی بیشتر برای نشان دادن موقعیت جغرافیایی نزدیک به یک مکان، شهر، شخص یا نقطه خاص به کار می‌رود. تفاوت آن با «neben» یا «an» این است که «bei» فاصله دقیق و خیلی نزدیک را نشان نمی‌دهد، بلکه به طور کلی «در حوالی» یا «نه دور از» را بیان می‌کند. اغلب قبل از نام شهرها یا مکان‌ها برای گفتن «نزدیک فلان جا» استفاده می‌شود.",
+    "examples": [
+      {
+        "de": "Tutzing liegt bei München.",
+        "fa": "توتزینگ نزدیک مونیخ قرار دارد."
+      },
+      {
+        "de": "Wir wohnen bei Berlin.",
+        "fa": "ما نزدیک برلین زندگی می‌کنیم."
+      },
+      {
+        "de": "Der Parkplatz ist beim Rathaus.",
+        "fa": "پارکینگ نزدیک شهرداری است."
+      },
+      {
+        "de": "Sie steht bei ihren Freunden.",
+        "fa": "او نزدیک دوستانش ایستاده است."
+      },
+      {
+        "de": "Das Hotel liegt bei der Brücke.",
+        "fa": "هتل نزدیک پل قرار دارد."
+      },
+      {
+        "de": "Ich warte bei der Bushaltestelle.",
+        "fa": "من نزدیک ایستگاه اتوبوس منتظر هستم."
+      }
+    ],
+    "note": "نکته مهم: «bei» همیشه داتیو می‌گیرد. برای فاصله خیلی نزدیک‌تر معمولاً از «neben»، «an» یا «in der Nähe von» استفاده می‌شود. این معنی «bei» بیشتر در موقعیت‌های جغرافیایی و روزمره کاربرد دارد و با معنی «در خانه کسی» یا «در شرکت» متفاوت است."
+  },
+  {
+    "id": "134",
+    "title-id": "A1-6",
+    "title": "Was gibt es? = Was gibt's?",
+    "description": "این عبارت خیلی رایج و غیررسمی در آلمانی است.\n\nمعنای اصلی:\n- «چی هست؟» یا «چی خبره؟»\n- به معنای «چه خبر؟» یا «چی شده؟» استفاده می‌شود.\n\nفرم کامل: Was gibt es?\nفرم کوتاه و محاوره‌ای: Was gibt's? (با آپاستروف)\n\nمعمولاً وقتی می‌خواهید از دوست یا آشنا بپرسید که چه خبر است یا چرا چیزی اتفاق افتاده، از آن استفاده کنید.",
+    "examples": [
+      {
+        "de": "Hallo! Was gibt's?",
+        "fa": "سلام! چی خبره؟"
+      },
+      {
+        "de": "Was gibt's Neues?",
+        "fa": "چه خبر جدیدی هست؟"
+      },
+      {
+        "de": "Was gibt es denn?",
+        "fa": "چی شده؟ / چه خبره؟"
+      },
+      {
+        "de": "Hast du Zeit? — Was gibt's?",
+        "fa": "وقت داری؟ — چی هست؟ / چی می‌خوای بگی؟"
+      },
+      {
+        "de": "Was gibt's zum Essen?",
+        "fa": "برای غذا چی داریم؟ / چی برای خوردن هست؟"
+      }
+    ],
+    "note": "نکته مهم:\n- این عبارت خیلی دوستانه و روزمره است.\n- در موقعیت‌های رسمی بهتر است از «Wie geht es Ihnen?» یا «Was ist los?» استفاده کنید.\n- «Was gibt's?» گاهی کمی بی‌صبرانه هم به نظر می‌رسد (مثل «چی شده دیگه؟»)."
+  },
+  {
+    "id": "135",
+    "title-id": "A1-6",
+    "title": "Kleindorf und Großdorf",
+    "description": "در زبان آلمانی، از ترکیب «Klein» (کوچک) و «Groß» (بزرگ) با «Dorf» (روستا) برای مقایسه مکان‌های کوچک و بزرگ استفاده می‌شود.\nKleindorf به روستای کوچک اشاره دارد که معمولاً امکانات محدودی مانند مدرسه، مهدکودک، کلیسا و سینما دارد.\nGroßdorf به روستای بزرگ یا شهری کوچک اشاره دارد که امکانات بیشتری مانند رستوران‌ها، کافه‌ها، مغازه‌ها، بیمارستان‌ها، سینما و بانک دارد.\nاین ساختار برای توصیف تفاوت امکانات در نقاط مختلف مفید است.",
+    "examples": [
+      {
+        "de": "In Kleindorf gibt es eine Schule, einen Kindergarten, eine Kirche und ein Kino.",
+        "fa": "در روستای کوچک یک مدرسه، یک مهدکودک، یک کلیسا و یک سینما وجود دارد."
+      },
+      {
+        "de": "Kleindorf hat eine Schule, eine Kirche, ein Kino und einen Kindergarten.",
+        "fa": "روستای کوچک دارای یک مدرسه، یک کلیسا، یک سینما و یک مهدکودک است."
+      },
+      {
+        "de": "In Großdorf gibt es Restaurants, Cafés, Geschäfte, Krankenhäuser, Kinos und Banken.",
+        "fa": "در روستای بزرگ رستوران‌ها، کافه‌ها، مغازه‌ها، بیمارستان‌ها، سینما‌ها و بانک‌ها وجود دارد."
+      },
+      {
+        "de": "Großdorf hat viele Geschäfte und Krankenhäuser, aber Kleindorf nicht.",
+        "fa": "روستای بزرگ مغازه‌ها و بیمارستان‌های زیادی دارد، اما روستای کوچک ندارد."
+      },
+      {
+        "de": "Ich wohne in Kleindorf, aber ich gehe zum Einkaufen nach Großdorf.",
+        "fa": "من در روستای کوچک زندگی می‌کنم، اما برای خرید به روستای بزرگ می‌روم."
+      }
+    ],
+    "note": "نکته: در این ساختارها از فعل «es gibt» برای بیان وجود چیزی استفاده می‌شود. لیست امکانات را با کاما جدا کنید و قبل از آخرین مورد از «und» استفاده کنید. این الگو برای توصیف شهرها و روستاها در سطح A1 بسیار کاربردی است."
+  },
+  {
+    "id": "136",
+    "title-id": "A1-6",
+    "title": "und so weiter / usw.",
+    "description": "عبارت «und so weiter» به معنای «و غیره»، «و امثال آن» یا «الی آخر» است. این عبارت برای کوتاه کردن لیست‌ها و ادامه دادن یک سری موارد بدون ذکر همه آن‌ها استفاده می‌شود. شکل کوتاه آن «usw.» است که همیشه با نقطه تمام می‌شود.\n\nدر لیست‌های خرید، توضیحات، مثال‌ها یا شمارش موارد مشابه به کار می‌رود و نشان می‌دهد که لیست ادامه دارد.",
+    "examples": [
+      {
+        "de": "Ich kaufe Äpfel, Bananen, Orangen usw.",
+        "fa": "من سیب، موز، پرتقال و غیره می‌خرم."
+      },
+      {
+        "de": "In der Schule lernen wir Mathe, Deutsch, Englisch usw.",
+        "fa": "در مدرسه ریاضی، آلمانی، انگلیسی و غیره یاد می‌گیریم."
+      },
+      {
+        "de": "Wir brauchen Papier, Stifte, Hefte usw.",
+        "fa": "ما به کاغذ، خودکار، دفتر و غیره نیاز داریم."
+      },
+      {
+        "de": "Er sammelt Briefmarken, Münzen, Bücher usw.",
+        "fa": "او تمبر، سکه، کتاب و غیره جمع می‌کند."
+      }
+    ],
+    "note": "• همیشه بعد از usw. نقطه بگذارید (usw.).\n• در زبان محاوره‌ای و نوشتاری روزمره خیلی رایج است.\n• معادل‌های مشابه: und so fort (usf.), und vieles mehr (u.v.m.), etc.\n• از آن برای جلوگیری از طولانی شدن لیست استفاده کنید."
+  },
+  {
+    "id": "137",
+    "title-id": "A1-6",
+    "title": "مقایسه Artikel معین در حالات Nominativ، Akkusativ و Dativ",
+    "description": "در زبان آلمانی، حرف تعریف معین (der, das, die) بر اساس جنسیت اسم (مذکر، خنثی، مؤنث، جمع) و حالت دستوری (Nominativ = فاعلی، Akkusativ = مفعولی مستقیم، Dativ = مفعولی غیرمستقیم) تغییر می‌کند.\n\nجدول مقایسه:\n\n          Nom \t  |  Akk \t |   Dativ\nMännlich    |  der     |      den    |    dem\nNeutral  |  das      |     das     |      dem\nWeiblich |  die      |     die      |     der\nPlural  |  die       |    die      |     den\n\nنکته مهم: فقط در حالت مذکر Nominativ به Akkusativ تغییر می‌کند (der → den). در بقیه موارد Akkusativ همان Nominativ است. در Dativ، شکل‌ها متفاوت می‌شوند و در جمع به den + n (اگر اسم n نگیرد) تغییر می‌کند.",
+    "examples": [
+      {
+        "de": "Der Mann sieht den Hund.",
+        "fa": "مرد سگ را می‌بیند. (Mann = فاعل Nominativ، Hund = مفعول Akkusativ)"
+      },
+      {
+        "de": "Ich gebe dem Kind das Buch.",
+        "fa": "من به کودک کتاب را می‌دهم. (Kind = مفعول غیرمستقیم Dativ، Buch = مفعول مستقیم Akkusativ)"
+      },
+      {
+        "de": "Die Frau hilft der Freundin.",
+        "fa": "زن به دوست (زن) کمک می‌کند. (Frau = فاعل Nominativ، Freundin = مفعول غیرمستقیم Dativ)"
+      },
+      {
+        "de": "Die Kinder spielen mit den Bällen.",
+        "fa": "کودکان با توپ‌ها بازی می‌کنند. (Kinder = فاعل Nominativ، Bällen = مفعول غیرمستقیم Dativ + n در جمع)"
+      }
+    ],
+    "note": "برای به خاطر سپردن: در Akkusativ فقط der به den تغییر می‌کند. در Dativ همه به dem/der/den تبدیل می‌شوند. همیشه پیشوندهای حروف اضافه را چک کنید (مثل mit, bei, von → Dativ؛ durch, für, ohne → Akkusativ). این جدول فقط برای Artikel معین است و اسم‌ها هم ممکن است در Dativ جمع n بگیرند."
+  },
+  {
+    "id": "138",
+    "title-id": "A1-6",
+    "title": "Akkusativ mit Wechselpräpositionen (z. B. auf)",
+    "description": "در آلمانی برخی حروف اضافه (مانند auf، in، an) دو حالتی هستند و بسته به جمله، Akkusativ یا Dativ می‌گیرند.\n\nقانون ساده:\n- سؤال «Wohin?» (به کجا؟ - حرکت/جهت) → Akkusativ\n- سؤال «Wo?» (کجا؟ - موقعیت ثابت) → Dativ\n\nمثال‌های کاربر:\n• auf dem Baum. (Dativ - موقعیت ثابت: روی درخت نشسته)\n• auf dem Land. (Dativ - موقعیت: در روستا/زمین زندگی کردن)\n• auf der Parkbank. (Dativ - موقعیت: روی نیمکت پارک نشستن)\n\nحالا بیایید Akkusativ را با auf تمرین کنیم (حرکت به سمت چیزی).",
+    "examples": [
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "fa": "کتاب را روی میز می‌گذارم. (حرکت → Akkusativ)"
+      },
+      {
+        "de": "Der Vogel fliegt auf den Baum.",
+        "fa": "پرنده روی درخت پرواز می‌کند. (حرکت به سمت درخت → Akkusativ)"
+      },
+      {
+        "de": "Sie setzt sich auf die Parkbank.",
+        "fa": "او روی نیمکت پارک می‌نشیند. (حرکت به روی نیمکت → Akkusativ)"
+      },
+      {
+        "de": "Wir fahren aufs Land.",
+        "fa": "ما به روستا/زمین می‌رویم. (حرکت → Akkusativ)"
+      },
+      {
+        "de": "Der Affe klettert auf den Baum.",
+        "fa": "میمون روی درخت بالا می‌رود. (حرکت → Akkusativ)"
+      }
+    ],
+    "note": "نکته مهم:\n- اگر فعل نشان‌دهنده حرکت یا تغییر مکان باشد (legen, setzen, stellen, gehen, fahren, klettern و ...) → Akkusativ\n- اگر فعل نشان‌دهنده موقعیت ثابت باشد (liegen, sitzen, stehen, wohnen و ...) → Dativ\n\nمقایسه:\nIch sitze auf der Parkbank. (Dativ - من روی نیمکت نشسته‌ام)\nIch setze mich auf die Parkbank. (Akkusativ - من روی نیمکت می‌نشینم)\n\nاین قانون برای auf، in، an، über، unter، vor، hinter، neben و zwischen هم صدق می‌کند."
+  },
+  {
+    "id": "139",
+    "title-id": "A1-6",
+    "title": "in / im + Dativ (Ort)",
+    "description": "برای بیان **مکان** (Wo? = کجا؟) از حرف اضافه \"in\" با حالت داتیو (Dativ) استفاده می‌شود. این ساختار نشان‌دهنده موقعیت ثابت بدون حرکت است. \n\nنکته مهم: \n- اگر اسم مذکر یا خنثی باشد، \"in + dem\" به صورت \"im\" کوتاه می‌شود. \n- اگر اسم مؤنث باشد، \"in der\" بدون کوتاه‌سازی می‌ماند. \n\nاین ساختار برای فعل‌هایی مثل wohnen (زندگی کردن)، sein (بودن)، arbeiten (کار کردن) و غیره خیلی رایج است.",
+    "examples": [
+      {
+        "de": "Ich wohne im Park.",
+        "fa": "من در پارک زندگی می‌کنم."
+      },
+      {
+        "de": "Ich wohne im Zentrum.",
+        "fa": "من در مرکز شهر زندگی می‌کنم."
+      },
+      {
+        "de": "Ich wohne in der Stadt.",
+        "fa": "من در شهر زندگی می‌کنم."
+      },
+      {
+        "de": "Sie arbeitet im Zentrum.",
+        "fa": "او در مرکز کار می‌کند."
+      },
+      {
+        "de": "Wir sind im Park.",
+        "fa": "ما در پارک هستیم."
+      },
+      {
+        "de": "Er wohnt in der Stadt.",
+        "fa": "او در شهر زندگی می‌کند."
+      }
+    ],
+    "note": "تفاوت با Akkusativ: \nاگر حرکت و جهت باشد (Wohin? = به کجا؟) از حالت اتهامی استفاده می‌شود:\n→ Ich gehe in den Park. (به پارک می‌روم) \n\nاما برای مکان ثابت: Ich bin im Park. (در پارک هستم) \n\nنکته کاربردی: همیشه اول \"Wo?\" را چک کن؛ اگر جواب مکان ثابت بود → Dativ."
+  },
+  {
+    "id": "140",
+    "title-id": "A1-6",
+    "title": "in der ... Straße",
+    "description": "از پیشوند «in der ... Straße» برای بیان **مکان آدرس** یا **واقع بودن در یک خیابان خاص** استفاده می‌شود. این ساختار معمولاً با فعل‌هایی مثل wohnen (زندگی کردن)، sich befinden (واقع بودن) یا sein (بودن) به کار می‌رود. توجه: «in der Straße» بیشتر به فضای خیابان به عنوان یک منطقه یا آدرس اشاره دارد (نه روی سطح جاده). برای سطح جاده معمولاً از «auf der Straße» استفاده می‌شود.",
+    "examples": [
+      {
+        "de": "Ich wohne in der Hauptstraße.",
+        "fa": "من در خیابان اصلی زندگی می‌کنم."
+      },
+      {
+        "de": "Das Geschäft befindet sich in der Bahnhofstraße.",
+        "fa": "فروشگاه در خیابان ایستگاه راه‌آهن واقع شده است."
+      },
+      {
+        "de": "Wir leben in der Goethestraße Nummer 15.",
+        "fa": "ما در خیابان گوته شماره ۱۵ زندگی می‌کنیم."
+      },
+      {
+        "de": "Die Schule ist in der Schillerstraße.",
+        "fa": "مدرسه در خیابان شیلر است."
+      },
+      {
+        "de": "Er arbeitet in der Müllerstraße.",
+        "fa": "او در خیابان مولر کار می‌کند."
+      }
+    ],
+    "note": "نکته مهم:\n• برای آدرس و مکان ساختمان‌ها از «in der ...straße» استفاده کنید.\n• برای حرکت روی سطح جاده (مثل راه رفتن یا رانندگی) اغلب «auf der Straße» درست است.\n• نام خیابان همیشه با حرف بزرگ شروع می‌شود (Hauptstraße).\n• در مکالمه روزمره، گاهی فقط «in der Hauptstraße» کافی است و شماره خانه جدا گفته می‌شود."
+  },
+  {
+    "id": "141",
+    "title-id": "A1-6",
+    "title": "Ich wohne auf dem Land",
+    "description": "در این مبحث یاد می‌گیریم چطور زندگی در روستا یا حومه (auf dem Land) را به آلمانی توصیف کنیم. این موضوع شامل مزایا (مانند طبیعت زیبا، آرامش، م rent ارزان) و معایب (مانند گاهی کسل‌کننده بودن، امکانات کمتر) است. می‌توانید مکان زندگی‌تان، فعالیت‌ها، امکانات اطراف و فاصله تا شهر را توضیح دهید. جملات ساده با فعل‌های wohnen، leben، geben و können مفید هستند. توضیحات کوتاه و کاربردی برای سطح A1.",
+    "examples": [
+      {
+        "de": "Ich wohne auf dem Land.",
+        "fa": "من در روستا زندگی می‌کنم."
+      },
+      {
+        "de": "Da ist es grün und sehr schön.",
+        "fa": "آنجا سبز و خیلی زیبا است."
+      },
+      {
+        "de": "Es ist manchmal langweilig.",
+        "fa": "گاهی اوقات کسل‌کننده است."
+      },
+      {
+        "de": "Es gibt zwei Geschäfte, eine Bank, ein Café und eine Schule.",
+        "fa": "دو فروشگاه، یک بانک، یک کافه و یک مدرسه وجود دارد."
+      },
+      {
+        "de": "Man kann hier einfach leben, Sport machen und wandern.",
+        "fa": "می‌توان اینجا ساده زندگی کرد، ورزش کرد و پیاده‌روی کرد."
+      },
+      {
+        "de": "Die Mieten sind günstig.",
+        "fa": "اجاره‌ها ارزان هستند."
+      },
+      {
+        "de": "Ich bin in 15 Minuten in der Stadt.",
+        "fa": "من در ۱۵ دقیقه به شهر می‌رسم."
+      },
+      {
+        "de": "Auf dem Land ist es ruhig und es gibt viel Natur.",
+        "fa": "در روستا آرام است و طبیعت زیادی وجود دارد."
+      }
+    ],
+    "note": "نکته: برای توصیف کامل از کلماتی مثل 'ruhig' (آرام)، 'grün' (سبز)، 'langweilig' (کسل‌کننده)، 'günstig' (ارزان) و 'nah' (نزدیک) استفاده کنید. می‌توانید بگویید: \"Ich wohne auf dem Land. Es ist schön, aber manchmal langweilig. Die Mieten sind günstig und ich bin schnell in der Stadt.\" این ساختار برای صحبت یا نوشتن در آزمون‌های A1 بسیار کاربردی است. فاصله زمانی را با \"in ... Minuten\" بیان کنید."
+  },
+  {
+    "id": "142",
+    "title-id": "A1-6",
+    "title": "Doch!",
+    "description": "کلمه «doch» یکی از پرکاربردترین و چندمعناترین کلمات آلمانی است. وقتی کسی جمله منفی می‌گوید یا فرض منفی دارد، با «Doch!» به آن پاسخ مثبت می‌دهیم و آن را رد می‌کنیم (یعنی «چرا نه، هست!» یا «البته که هست!»). همچنین به عنوان ذره modal برای تأکید، نرم کردن دستور، یا بیان تعجب و اصرار استفاده می‌شود. همیشه با لحن مناسب و تأکید تلفظ شود.",
+    "examples": [
+      {
+        "de": "Du hast kein Geld.",
+        "fa": "تو هیچ پولی نداری."
+      },
+      {
+        "de": "Doch, ich habe Geld.",
+        "fa": "چرا، من پول دارم. (رد جمله منفی)"
+      },
+      {
+        "de": "Kannst du nicht schwimmen?",
+        "fa": "نمی‌توانی شنا کنی؟"
+      },
+      {
+        "de": "Doch! Ich kann schwimmen.",
+        "fa": "چرا که می‌توانم! من می‌توانم شنا کنم."
+      },
+      {
+        "de": "Das ist doch klar!",
+        "fa": "این که واضحه! (با تأکید)"
+      },
+      {
+        "de": "Probier doch mal!",
+        "fa": "یک بار امتحان کن ببین! (نرم کردن دستور)"
+      },
+      {
+        "de": "Du kommst doch morgen?",
+        "fa": "فردا می‌آیی، مگه نه؟ (انتظار تأیید)"
+      },
+      {
+        "de": "Ich habe es doch gesagt.",
+        "fa": "من که گفتم! (تأکید یا «بالاخره»)"
+      }
+    ],
+    "note": "نکته مهم:\n• در پاسخ به جمله منفی، به جای «Ja» از «Doch» استفاده کن.\n• «Doch» در نقش پاسخ همیشه با صدای بلند و تأکید گفته می‌شود.\n• به عنوان ذره modal، جمله را دوستانه‌تر، اصرارآمیزتر یا تعجبی می‌کند."
+  },
+  {
+    "id": "143",
+    "title-id": "A1-6",
+    "title": "ganz oben <> ganz unten",
+    "description": "«ganz oben» یعنی دقیقاً در بالاترین نقطه یا رتبه.\n«ganz unten» یعنی دقیقاً در پایین‌ترین نقطه یا رتبه.\nاین دو عبارت برای نشان دادن موقعیت فیزیکی، ترتیب در لیست یا رتبه اجتماعی استفاده می‌شوند.",
+    "examples": [
+      {
+        "de": "Das Buch liegt ganz oben auf dem Regal.",
+        "fa": "کتاب دقیقاً بالای قفسه قرار دارد."
+      },
+      {
+        "de": "Ich wohne ganz oben im fünften Stock.",
+        "fa": "من در بالاترین طبقه، طبقه پنجم زندگی می‌کنم."
+      },
+      {
+        "de": "Ihr Name steht ganz oben auf der Liste.",
+        "fa": "اسم او دقیقاً در بالای لیست نوشته شده است."
+      },
+      {
+        "de": "Die Preise sind ganz unten auf der Seite.",
+        "fa": "قیمت‌ها در پایین‌ترین قسمت صفحه هستند."
+      },
+      {
+        "de": "Er ist ganz unten in der Firma angefangen.",
+        "fa": "او از پایین‌ترین سطح در شرکت شروع کرده است."
+      },
+      {
+        "de": "Das Wichtigste steht ganz oben.",
+        "fa": "مهم‌ترین چیز در بالاترین قسمت قرار دارد."
+      }
+    ],
+    "note": "«ganz» اینجا برای تأکید بیشتر (کاملاً بالا/پایین) استفاده می‌شود.\nدر لیست‌ها و رتبه‌بندی‌ها خیلی رایج است.\nبرای موقعیت فیزیکی: ganz oben = روی بالاترین قسمت، ganz unten = روی پایین‌ترین قسمت.\nدر زندگی روزمره: «von ganz unten nach ganz oben» یعنی از صفر به اوج رسیدن."
+  },
+  {
+    "id": "144",
+    "title-id": "A1-6",
+    "title": "hell <> dunkel",
+    "description": "hell = روشن / پرنور / روشن (رنگ)\n\ndunkel = تاریک / تیره (رنگ)\n\nاین دو صفت متضاد برای توصیف میزان نور محیط یا روشنایی رنگ‌ها استفاده می‌شوند.",
+    "examples": [
+      {
+        "de": "Am Morgen ist es schon hell.",
+        "fa": "صبح‌ها هوا دیگر روشن است."
+      },
+      {
+        "de": "Nachts wird es sehr dunkel.",
+        "fa": "شب‌ها خیلی تاریک می‌شود."
+      },
+      {
+        "de": "Das Zimmer ist zu dunkel.",
+        "fa": "اتاق خیلی تاریک است."
+      },
+      {
+        "de": "Sie hat ein helles Kleid.",
+        "fa": "او یک لباس روشن پوشیده است."
+      },
+      {
+        "de": "Ich mag dunkle Farben nicht.",
+        "fa": "رنگ‌های تیره را دوست ندارم."
+      },
+      {
+        "de": "Hellblau oder Dunkelblau?",
+        "fa": "آبی روشن یا آبی تیره؟"
+      }
+    ],
+    "note": "نکته:\n• hell و dunkel اغلب با فعل \"sein\" استفاده می‌شوند.\n• برای رنگ‌ها: hell- (روشن) و dunkel- (تیره) به صورت پیشوند به رنگ وصل می‌شوند.\nمثال: hellgrün (سبز روشن) – dunkelrot (قرمز تیره)"
+  },
+  {
+    "id": "145",
+    "title-id": "A1-6",
+    "title": "auf dem Balkon | im Garten\nauf dem Haus | im Bett\nauf der Couch | in der Küche",
+    "description": "در آلمانی از «auf» برای موقعیت روی سطح افقی (مثل سقف، مبل یا بالکن) استفاده می‌شود.\nاز «in» برای داخل فضا یا محوطه (مثل باغ، تخت یا آشپزخانه) استفاده کنید.\n\nنکته کلیدی:\n- auf = روی / بالای (سطح)\n- in = داخل (فضا)",
+    "examples": [
+      {
+        "de": "Ich sitze auf dem Balkon.",
+        "fa": "من روی بالکن نشسته‌ام."
+      },
+      {
+        "de": "Die Kinder spielen im Garten.",
+        "fa": "بچه‌ها در باغ بازی می‌کنند."
+      },
+      {
+        "de": "Die Katze ist auf dem Haus.",
+        "fa": "گربه روی خانه (سقف) است."
+      },
+      {
+        "de": "Ich liege im Bett.",
+        "fa": "من در تخت دراز کشیده‌ام (زیر پتو)."
+      },
+      {
+        "de": "Er schläft auf der Couch.",
+        "fa": "او روی کاناپه می‌خوابد."
+      },
+      {
+        "de": "Wir kochen in der Küche.",
+        "fa": "ما در آشپزخانه غذا می‌پزیم."
+      }
+    ],
+    "note": "توجه: «im Bett» یعنی داخل تخت (خوابیدن طبیعی)، اما «auf dem Bett» یعنی روی تخت (نشستن یا دراز کشیدن روی ملافه). همین تفاوت برای مکان‌های دیگر هم مهم است.\n\nسؤال تست: Wo bist du? → auf dem Balkon / im Garten"
+  },
+  {
+    "id": "146",
+    "title-id": "A1-6",
+    "title": "Antworten auf Ja/Nein-Fragen: ja, nein, doch",
+    "description": "در زبان آلمانی برای پاسخ به سؤالات بله/خیر (Entscheidungsfragen) از کلمات ja، nein و doch استفاده می‌شود. \n\n- اگر سؤال مثبت باشد (بدون nicht یا kein):\n  • Ja برای پاسخ مثبت\n  • Nein برای پاسخ منفی\n\n- اگر سؤال منفی باشد (با nicht یا kein):\n  • Doch برای پاسخ مثبت (یعنی مخالفت با بخش منفی سؤال)\n  • Nein برای پاسخ منفی\n  • Ja معمولاً کمتر استفاده می‌شود و می‌تواند به معنای تأیید بخش منفی باشد (بهتر است از doch استفاده کنید).\n\nاین ساختار برای جلوگیری از ابهام در مکالمه بسیار مهم است.",
+    "examples": [
+      {
+        "de": "Ist das Bad groß? Ja.",
+        "fa": "آیا حمام بزرگ است؟ بله."
+      },
+      {
+        "de": "Wohnst du auf dem Land? Nein.",
+        "fa": "آیا در روستا زندگی می‌کنی؟ خیر."
+      },
+      {
+        "de": "Schlafe ich nicht auf der Couch? Doch.",
+        "fa": "آیا روی کاناپه نمی‌خوابم؟ چرا (چرا که بله، می‌خوابم)."
+      },
+      {
+        "de": "Hast du kein Auto? Doch, ich habe ein Auto.",
+        "fa": "آیا ماشین نداری؟ چرا، من ماشین دارم."
+      },
+      {
+        "de": "Kommst du nicht mit? Nein, ich komme nicht mit.",
+        "fa": "با ما نمی‌آیی؟ نه، با شما نمی‌آیم."
+      },
+      {
+        "de": "Bist du nicht müde? Doch, ich bin sehr müde.",
+        "fa": "خسته نیستی؟ چرا، خیلی خسته‌ام."
+      }
+    ],
+    "note": "توجه: «Doch» همیشه برای مخالفت با بخش منفی سؤال یا جمله استفاده می‌شود و معادل «چرا» یا «البته که بله» است. در مکالمات روزمره، بهتر است بعد از doch یا nein توضیح کوتاهی اضافه کنید تا واضح‌تر شود. \n\nمثال اضافی: \n- «Magst du keine Schokolade? Doch!» یعنی «چرا، عاشق شکلاتم!»"
+  },
+  {
+    "id": "147",
+    "title-id": "A1-6",
+    "title": "gratis = kostet kein Geld",
+    "description": "کلمهٔ «gratis» به معنای «رایگان» یا «بدون هزینه» است. این کلمه اغلب در تبلیغات، پیشنهادهای ویژه و موقعیت‌های تبلیغاتی استفاده می‌شود و حس هدیه یا جایزه بودن را منتقل می‌کند. برخلاف «kostenlos» که کاملاً خنثی و عمومی است، «gratis» کمی رسمی‌تر یا تبلیغاتی به نظر می‌رسد و معمولاً قابل صرف نیست (یعنی نمی‌توان گفت «gratise Ausgabe»).",
+    "examples": [
+      {
+        "de": "Der Eintritt ist gratis.",
+        "fa": "ورودیه رایگان است."
+      },
+      {
+        "de": "Zum Kaffee gibt es einen Keks gratis dazu.",
+        "fa": "به همراه قهوه، یک بیسکویت رایگان هم می‌دهند."
+      },
+      {
+        "de": "Ich habe das Buch gratis bekommen.",
+        "fa": "این کتاب را رایگان گرفتم."
+      },
+      {
+        "de": "Die App kann man gratis herunterladen.",
+        "fa": "می‌توان اپلیکیشن را رایگان دانلود کرد."
+      },
+      {
+        "de": "Sie erhalten eine Probe gratis.",
+        "fa": "یک نمونهٔ آزمایشی رایگان دریافت می‌کنید."
+      }
+    ],
+    "note": "نکته: «gratis» و «kostenlos» تقریباً هم‌معنی هستند، اما «gratis» بیشتر در تبلیغات و موقعیت‌های promotional به کار می‌رود. این کلمه ثابت است و تغییر شکل نمی‌دهد (مثلاً نمی‌گوییم gratise). در مکالمات روزمره، «kostenlos» یا «umsonst» هم رایج هستند."
+  },
+  {
+    "id": "148",
+    "title-id": "A1-6",
+    "title": "Wetter – Sonne, Wolke, Regen, Schnee",
+    "description": "در این مبحث واژگان و عبارات مهم آب و هوا (Wetter) در سطح A1 را یاد می‌گیریم. \n\n• برای توصیف وضعیت کلی هوا از ساختار «Es ist + صفت» استفاده می‌شود. \n• برای باران و برف از فعل‌های بی‌فاعل «es regnet» و «es schneit» استفاده می‌شود. \n• فعل «scheinen» مخصوص خورشید است: Die Sonne scheint. \n\nتمام توضیحات کوتاه، کاربردی و مناسب نمایش در صفحه هستند.",
+    "examples": [
+      {
+        "de": "Es ist sonnig.",
+        "fa": "هوا آفتابی است."
+      },
+      {
+        "de": "Die Sonne scheint.",
+        "fa": "خورشید می‌تابد."
+      },
+      {
+        "de": "Es ist bewölkt.",
+        "fa": "هوا ابری است."
+      },
+      {
+        "de": "Es ist kühl und bewölkt.",
+        "fa": "هوا خنک و ابری است."
+      },
+      {
+        "de": "Es regnet.",
+        "fa": "باران می‌بارد."
+      },
+      {
+        "de": "Es regnet und ist kalt.",
+        "fa": "باران می‌بارد و هوا سرد است."
+      },
+      {
+        "de": "Es schneit.",
+        "fa": "برف می‌بارد."
+      },
+      {
+        "de": "Es schneit und ist sehr kalt.",
+        "fa": "برف می‌بارد و هوا خیلی سرد است."
+      }
+    ],
+    "note": "نکات مهم:\n• sonnig / bewölkt = صفت (با Es ist ...)\n• regnen / schneien = فعل (Es regnet / Es schneit)\n• scheinen → فقط برای خورشید: Die Sonne scheint.\n• در مکالمه روزمره: Wie ist das Wetter? → Es ist sonnig. / Es regnet."
+  },
+  {
+    "id": "149",
+    "title-id": "A1-6",
+    "title": "Wie ist das Wetter? – Temperatur auf Deutsch sagen",
+    "description": "در زبان آلمانی برای بیان دمای هوا از کلمه «Grad» (درجه) استفاده می‌شود. برای دماهای مثبت معمولاً فقط عدد + «Grad» گفته می‌شود (مثلاً ۵ درجه). برای دماهای زیر صفر از «minus» قبل از عدد استفاده می‌کنیم. کلمه «Celsius» اغلب حذف می‌شود چون در آلمان همیشه منظور درجه سلسیوس است. توجه: بعد از عدد همیشه «Grad» به صورت جمع یا مفرد درست به کار می‌رود.",
+    "examples": [
+      {
+        "de": "Es sind 5 Grad.",
+        "fa": "۵ درجه است."
+      },
+      {
+        "de": "Es ist minus 2 Grad.",
+        "fa": "منهای ۲ درجه است."
+      },
+      {
+        "de": "Wie viel Grad sind es heute?",
+        "fa": "امروز چند درجه است؟"
+      },
+      {
+        "de": "Es sind plus 12 Grad.",
+        "fa": "۱۲ درجه مثبت است."
+      },
+      {
+        "de": "Die Temperatur liegt bei minus 8 Grad.",
+        "fa": "دما منهای ۸ درجه است."
+      },
+      {
+        "de": "Es sind 0 Grad.",
+        "fa": "صفر درجه است."
+      }
+    ],
+    "note": "نکته مهم:\n• برای مثبت: فقط عدد + Grad (یا plus Grad در موارد رسمی)\n• برای منفی: همیشه minus + عدد + Grad\n• در مکالمه روزمره «Celsius» را حذف کنید.\n• سؤال رایج: «Wie viel Grad sind es?» یا «Wie ist die Temperatur?»\n\nمثال کامل:\n- Wie ist das Wetter heute?\n- Es sind 18 Grad. Sehr angenehm!"
+  },
+  {
+    "id": "150",
+    "title-id": "A1-6",
+    "title": "Ordnungszahlen – عددهای ترتیبی (erste, zweite, dritte ... zwanzigste)",
+    "description": "عددهای ترتیبی در آلمانی برای نشان دادن ترتیب، رتبه، تاریخ و موقعیت استفاده می‌شوند.\n\nقانون کلی:\n• از ۱ تا ۱۹: به عدد پایه + «-te» اضافه کنید (با استثناها).\n• از ۲۰ به بالا: به عدد پایه + «-ste» اضافه کنید.\n\nاستثناها مهم:\nerste (اول)، dritte (سوم)، siebte (هفتم)، achte (هشتم).\n\nعددهای ترتیبی مثل صفت رفتار می‌کنند و با der/die/das و پایان‌های صفتی تغییر می‌کنند.\nدر تاریخ: am ersten Mai (در اول ماه مه).",
+    "examples": [
+      {
+        "de": "Der erste Tag der Woche ist Montag.",
+        "fa": "اولین روز هفته دوشنبه است."
+      },
+      {
+        "de": "Heute ist der dritte Oktober.",
+        "fa": "امروز سوم اکتبر است."
+      },
+      {
+        "de": "Ich wohne im zweiten Stock.",
+        "fa": "من در طبقه دوم زندگی می‌کنم."
+      },
+      {
+        "de": "Sie hat am fünften Mai Geburtstag.",
+        "fa": "او پنجم ماه مه تولد دارد."
+      },
+      {
+        "de": "Das ist mein zwanzigstes Buch.",
+        "fa": "این بیستمین کتاب من است."
+      },
+      {
+        "de": "Am siebzehnten Januar fliege ich nach Berlin.",
+        "fa": "هفدهم ژانویه به برلین پرواز می‌کنم."
+      }
+    ],
+    "note": "نکته مهم: در نوشتن تاریخ از نقطه استفاده کنید (۱. Mai = am ersten Mai).\nدر جمله کامل، پایان صفتی اضافه می‌شود: der erste → am ersten، die zweite → die zweite Frau.\nبرای رتبه‌بندی: Ich bin der Erste. (من اول هستم.)"
+  },
+  {
+    "id": "151",
+    "title-id": "A1-6",
+    "title": "Datum mit Ordnungszahlen: am ersten, am zweiten, ...",
+    "description": "در زبان آلمانی برای گفتن تاریخ (مثلاً روز اول، دوم، سوم ماه) از «عدد ترتیبی» (Ordnungszahlen) استفاده می‌شود. وقتی می‌خواهیم بگوییم «در روز ...» از حرف اضافه «am» (ترکیب an + dem) + عدد ترتیبی در حالت داتیو استفاده می‌کنیم. عدد ترتیبی همیشه با پسوند مناسب (معمولاً -en بعد از am) می‌آید.\n\nقوانین مهم:\n• عدد اول: erste → ersten\n• عدد سوم: dritte → dritten\n• عدد هفتم: siebte → siebten (نه siebente)\n• بقیه اعداد ۴ تا ۱۰: پسوند -te می‌گیرند و بعد از am به -ten تبدیل می‌شوند.\n• ساختار: am + عدد ترتیبی (داتیو) + ماه (مثلاً Mai, Juni)",
+    "examples": [
+      {
+        "de": "am ersten Mai",
+        "fa": "در اول ماه مه"
+      },
+      {
+        "de": "am dritten Juni",
+        "fa": "در سوم ژوئن"
+      },
+      {
+        "de": "am fünften April",
+        "fa": "در پنجم آوریل"
+      },
+      {
+        "de": "am siebten März",
+        "fa": "در هفتم مارس"
+      },
+      {
+        "de": "am neunten Oktober",
+        "fa": "در نهم اکتبر"
+      },
+      {
+        "de": "am zweiten Februar",
+        "fa": "در دوم فوریه"
+      },
+      {
+        "de": "am vierten Juli",
+        "fa": "در چهارم ژوئیه"
+      },
+      {
+        "de": "am sechsten August",
+        "fa": "در ششم اوت"
+      },
+      {
+        "de": "am achten Dezember",
+        "fa": "در هشتم دسامبر"
+      },
+      {
+        "de": "am zehnten Januar",
+        "fa": "در دهم ژانویه"
+      },
+      {
+        "de": "Ich habe am ersten Mai Geburtstag.",
+        "fa": "تولدم در اول ماه مه است."
+      },
+      {
+        "de": "Das Meeting ist am dritten Juni um 10 Uhr.",
+        "fa": "جلسه در سوم ژوئن ساعت ۱۰ است."
+      }
+    ],
+    "note": "نکته: بعد از «am» همیشه شکل داتیو عدد ترتیبی (با -n) استفاده می‌شود. برای تاریخ کامل می‌توانید ماه را هم اضافه کنید. این ساختار در مکالمات روزمره خیلی پرکاربرد است (مثل گفتن تولد، قرار ملاقات یا تعطیلات)."
+  },
+  {
+  "id": "152",
+  "title-id": "A1-6",
+  "title": "Himmelsrichtungen: der Norden, der Süden, der Westen, der Osten",
+  "description": "در زبان آلمانی، چهار جهت اصلی جغرافیایی (Himmelsrichtungen) به صورت اسم با حرف تعریف معین استفاده می‌شوند:\n\nder Norden (شمال)\nder Süden (جنوب)\nder Westen (غرب)\nder Osten (شرق)\n\nاین کلمات همیشه مذکر هستند و با der همراه می‌شوند. برای بیان موقعیت مکانی از پیشوند in + dem = im استفاده می‌کنیم (im Norden = در شمال). برای حرکت به سمت جهت از nach + جهت بدون مقاله استفاده می‌شود (nach Norden = به سمت شمال). این مبحث برای توصیف مکان شهرها، کشورها یا مناطق بسیار کاربردی است.",
   "examples": [
     {
-      "de": "Wohin gehst du? – Ich gehe ins Café.",
-      "fa": "به کجا می‌روی؟ – من به کافه می‌روم."
+      "de": "Ich wohne im Norden von Deutschland.",
+      "fa": "من در شمال آلمان زندگی می‌کنم."
     },
     {
-      "de": "Und ihr? Was macht ihr? – Wir gehen in die Disko.",
-      "fa": "و شما؟ شما چه کار می‌کنید؟ – ما به دیسکو می‌رویم."
+      "de": "Der Urlaub im Süden war sehr schön.",
+      "fa": "تعطیلات در جنوب خیلی زیبا بود."
     },
     {
-      "de": "Ich gehe in den Park.",
-      "fa": "من به پارک می‌روم."
+      "de": "Wir fahren nach Osten.",
+      "fa": "ما به سمت شرق می‌رویم."
     },
     {
-      "de": "Wir fahren ins Kino.",
-      "fa": "ما به سینما می‌رویم."
+      "de": "Im Westen geht die Sonne unter.",
+      "fa": "در غرب خورشید غروب می‌کند."
     },
     {
-      "de": "Sie geht in die Schule.",
-      "fa": "او به مدرسه می‌رود."
+      "de": "Berlin liegt im Osten Deutschlands.",
+      "fa": "برلین در شرق آلمان قرار دارد."
+    },
+    {
+      "de": "Der Wind kommt aus dem Norden.",
+      "fa": "باد از شمال می‌آید."
     }
   ],
-  "note": "نکته مهم: \n- ins = in das (فقط برای اسم‌های خنثی در Akkusativ) \n- in den (مذکر) و in die (مؤنث) بدون قراردادن. \n- این ساختار فقط برای حرکت (gehen, fahren, kommen و ...) به کار می‌رود. برای موقعیت ثابت از im / in der استفاده کن (مثلاً: Ich bin im Café.). \n- همیشه سؤال Wohin? را چک کن تا Akkusativ را انتخاب کنی."
+  "note": "نکته مهم:\n- برای موقعیت ثابت: im Norden / im Süden / im Westen / im Osten\n- برای حرکت: nach Norden / nach Süden / nach Westen / nach Osten\n- در ترکیب با نام کشورها یا شهرها: im Norden von Iran یا im Norden Irans\nاین ساختارها در سطح A1 برای توصیف مکان و جهت ضروری هستند. همیشه به جنسیت مذکر (der) توجه کنید."
 },
 {
-  "id": "80",
-  "title-id": "A1-5",
-  "title": "Die Wochentage (روزهای هفته)",
-  "description": "در آلمانی همه روزهای هفته مذکر هستند و همیشه با حرف بزرگ نوشته می‌شوند. قبل از هر روز معمولاً از مقالهٔ «der» استفاده می‌شود.\n\nنکته مهم: برای گفتن «در روز ...» از «am + روز» استفاده کنید (مثلاً am Montag = دوشنبه).\n\nهفته در آلمان از دوشنبه شروع می‌شود.\n\nلیست کامل با تلفظ تقریبی:",
+  "id": "153",
+  "title-id": "A1-6",
+  "title": "Wann? Wo? – Zeit- und Ortsangaben",
+  "description": "در زبان آلمانی برای بیان زمان (Wann?) از پیشوندهای خاصی استفاده می‌شود:\n\n• برای بخش‌های روز مانند Vormittag از «am» استفاده می‌شود (am Vormittag).\n• برای Nacht از «in der» استفاده می‌شود (in der Nacht).\n\nبرای بیان جهت و مکان (Wo?) نیز:\n• برای Norden / Süden / Westen / Osten از «im» استفاده می‌شود (im Norden).\n\nاین عبارات معمولاً در ابتدای جمله یا بعد از فعل قرار می‌گیرند و به سؤال‌های Wann? (کی؟) و Wo? (کجا؟) پاسخ می‌دهند. توجه: این عبارات بدون مقاله اضافی و با حروف کوچک نوشته می‌شوند مگر در شروع جمله.",
   "examples": [
     {
-      "de": "Der Montag",
-      "fa": "دوشنبه (مون‌تاک)"
+      "de": "Am Vormittag habe ich Deutschkurs.",
+      "fa": "صبح‌ها (قبل از ظهر) کلاس آلمانی دارم."
     },
     {
-      "de": "Der Dienstag",
-      "fa": "سه‌شنبه (دینس‌تاک)"
+      "de": "In der Nacht schlafe ich nicht gut.",
+      "fa": "در شب خوب نمی‌خوابم."
     },
     {
-      "de": "Der Mittwoch",
-      "fa": "چهارشنبه (میت‌وخ)"
+      "de": "Im Norden Deutschlands ist es kälter.",
+      "fa": "در شمال آلمان هوا سردتر است."
     },
     {
-      "de": "Der Donnerstag",
-      "fa": "پنج‌شنبه (دونرزتاک)"
+      "de": "Wir wohnen im Süden von München.",
+      "fa": "ما در جنوب مونیخ زندگی می‌کنیم."
     },
     {
-      "de": "Der Freitag",
-      "fa": "جمعه (فرای‌تاک)"
+      "de": "Im Westen scheint die Sonne länger.",
+      "fa": "در غرب آفتاب بیشتر می‌تابد."
     },
     {
-      "de": "Der Samstag",
-      "fa": "شنبه (زامزتاک)"
-    },
-    {
-      "de": "Der Sonntag",
-      "fa": "یکشنبه (زونتاک)"
+      "de": "Der Flughafen liegt im Osten der Stadt.",
+      "fa": "فرودگاه در شرق شهر قرار دارد."
     }
   ],
-  "note": "نکات کاربردی:\n• همه روزهای هفته با «der» می‌آیند: der Montag, der Dienstag و ...\n• برای روز خاص: Am Montag habe ich Deutschkurs. (دوشنبه کلاس آلمانی دارم.)\n• برای تکرار (هر دوشنبه): Montags arbeite ich. (هر دوشنبه کار می‌کنم.)\n• آخر هفته: das Wochenende (زامن‌انده) = Samstag + Sonntag\n\nمثال‌های جمله:\n• Heute ist Montag. → امروز دوشنبه است.\n• Am Freitag gehe ich ins Kino. → جمعه به سینما می‌روم.\n• Der Sonntag ist mein Ruhetag. → یکشنبه روز استراحت من است.\n• Morgen ist Mittwoch. → فردا چهارشنبه است."
+  "note": "نکته مهم:\n- am Vormittag / am Nachmittag / am Abend (با am)\n- in der Nacht / in der Früh (با in der)\n- im Norden / im Süden / im Westen / im Osten (با im)\nاین عبارات ثابت هستند و مقاله (der/die/das) داخل آن‌ها تغییر نمی‌کند. برای نمایش در صفحه 280×460، خطوط را کوتاه نگه دارید و از \n فقط برای جداسازی بخش‌های اصلی استفاده کنید تا متن خوانا بماند."
 },
 {
-  "id": "81",
-  "title-id": "A1-5",
-  "title": "treffen",
-  "description": "فعل treffen به معنی «دیدن کسی»، «ملاقات کردن» یا «برخورد کردن/زدن» است.\n\nاین فعل قوی (starkes Verb) است و در حال حاضر (Präsens) تغییر مصوت دارد: e → i.\n\nترجمه اصلی: treffen + Akkusativ (کسی را ملاقات کردن)\n\nنکته مهم: برای «با هم ملاقات کردن» از sich treffen استفاده می‌شود.",
+  "id": "154",
+  "title-id": "A1-6",
+  "title": "فعل‌های regnen و schneien (باریدن باران و برف)",
+  "description": "فعل‌های regnen (باران باریدن) و schneien (برف باریدن) در آلمانی از نوع unpersönlich (غیرشخصی) هستند. یعنی فقط با ضمیر es (آن) استفاده می‌شوند و فاعل واقعی ندارند.\n\nهر دو فعل منظم (regelmäßig) هستند و با haben صرف می‌شوند.\n\nدر زمان حال (Präsens) فقط شکل سوم شخص مفرد مهم است: es regnet / es schneit.\nسایر اشکال کم‌استفاده هستند چون موضوع آب و هوا است.",
   "examples": [
     {
-      "de": "Ich treffe meinen Freund morgen.",
-      "fa": "من فردا دوست خودم را ملاقات می‌کنم."
+      "de": "Es regnet.",
+      "fa": "باران می‌بارد."
     },
     {
-      "de": "Du triffst Anna heute Abend.",
-      "fa": "تو امشب آنا را ملاقات می‌کنی."
+      "de": "Es regnet heute den ganzen Tag.",
+      "fa": "امروز تمام روز باران می‌بارد."
     },
     {
-      "de": "Er trifft den Lehrer um 10 Uhr.",
-      "fa": "او ساعت ۱۰ معلم را ملاقات می‌کند."
+      "de": "Gestern hat es stark geregnet.",
+      "fa": "دیروز باران شدیدی بارید."
     },
     {
-      "de": "Wir treffen uns um 15 Uhr im Café.",
-      "fa": "ما ساعت ۱۵ در کافه با هم ملاقات می‌کنیم."
+      "de": "Es schneit.",
+      "fa": "برف می‌بارد."
     },
     {
-      "de": "Ihr trefft eure Familie am Wochenende.",
-      "fa": "شما آخر هفته خانواده‌تان را ملاقات می‌کنید."
+      "de": "Im Winter schneit es oft in den Bergen.",
+      "fa": "در زمستان اغلب در کوهستان‌ها برف می‌بارد."
     },
     {
-      "de": "Sie treffen den Chef nächste Woche.",
-      "fa": "آنها هفته آینده رئیس را ملاقات می‌کنند."
+      "de": "Letzte Nacht hat es geschneit.",
+      "fa": "دیشب برف بارید."
+    },
+    {
+      "de": "Es regnet oder es schneit?",
+      "fa": "باران می‌بارد یا برف؟"
     }
   ],
-  "note": "صرف کامل در Präsens:\nich treffe\ndu triffst\ner/sie/es trifft\nwir treffen\nihr trefft\nsie/Sie treffen\n\n• treffen + Akkusativ (Wen triffst du?)\n• sich treffen = با هم ملاقات کردن (reflexiv)\n• مثال اضافی: Der Ball trifft das Tor. (توپ به دروازه می‌خورد)"
+  "note": "نکته مهم:\n• این فعل‌ها همیشه با es شروع می‌شوند.\n• در مکالمه روزمره فقط شکل سوم شخص (regnet / schneit) و Perfekt (hat geregnet / hat geschneit) خیلی استفاده می‌شود.\n• Präteritum (regnete / schneite) بیشتر در داستان‌ها یا نوشته‌ها به کار می‌رود.\n• برای آب و هوا می‌توانید بگویید: Es regnet in Berlin. یا Heute schneit es nicht."
 },
 {
-  "id": "82",
-  "title-id": "A1-5",
-  "title": "فعل fahren (رفتن با وسیله نقلیه / رانندگی کردن)",
-  "description": "فعل «fahren» به معنی رفتن با وسیله نقلیه (ماشین، قطار، دوچرخه، اتوبوس و ...) یا رانندگی کردن است. این فعل قوی (starkes Verb) است و در حال حاضر (Präsens) تغییر مصوت دارد: a → ä در du و er/sie/es.\n\nصرف کامل در زمان حال (Präsens):\n\nich fahre\n\ndu fährst\n\ner/sie/es fährt\n\nwir fahren\n\nihr fahrt\n\nsie/Sie fahren\n\nنکته مهم: برای حرکت از جایی به جایی معمولاً با sein صرف می‌شود (ich bin gefahren).",
+  "id": "155",
+  "title-id": "A1-6",
+  "title": "Wie ist das Wetter? schön <> schlecht",
+  "description": "این مبحث برای سطح A1 طراحی شده است. شما یاد می‌گیرید چطور به صورت ساده درباره وضعیت آب و هوا سؤال کنید و جواب دهید. تمرکز روی مقایسه «schön» (خوب و زیبا) در مقابل «schlecht» (بد) است. در آلمانی برای صحبت از آب و هوا اغلب از ساختار «Es ist ...» استفاده می‌شود. توضیحات کوتاه و کاربردی نگه داشته شده تا برای نمایش در صفحه مناسب باشد.",
   "examples": [
     {
-      "de": "Ich fahre mit dem Auto zur Arbeit.",
-      "fa": "من با ماشین به سر کار می‌روم."
+      "de": "Wie ist das Wetter?",
+      "fa": "آب و هوا چطور است؟"
     },
     {
-      "de": "Du fährst zu schnell!",
-      "fa": "تو خیلی سریع رانندگی می‌کنی!"
+      "de": "Wie ist das Wetter heute?",
+      "fa": "امروز آب و هوا چطور است؟"
     },
     {
-      "de": "Er fährt mit dem Zug nach Berlin.",
-      "fa": "او با قطار به برلین می‌رود."
+      "de": "Es ist schön.",
+      "fa": "هوا خوب است. / هوا زیباست."
     },
     {
-      "de": "Wir fahren morgen in den Urlaub.",
-      "fa": "ما فردا به تعطیلات می‌رویم."
+      "de": "Es ist schönes Wetter.",
+      "fa": "هوا خوب و زیباست."
     },
     {
-      "de": "Fahrt ihr mit dem Bus?",
-      "fa": "شما با اتوبوس می‌روید؟"
+      "de": "Es ist sehr schön.",
+      "fa": "هوا خیلی خوب است."
     },
     {
-      "de": "Sie fährt Fahrrad.",
-      "fa": "او دوچرخه‌سواری می‌کند."
+      "de": "Es ist schlecht.",
+      "fa": "هوا بد است."
+    },
+    {
+      "de": "Es ist schlechtes Wetter.",
+      "fa": "هوا بد است."
+    },
+    {
+      "de": "Es ist nicht schön.",
+      "fa": "هوا خوب نیست."
     }
   ],
-  "note": "• fahren برای وسایل نقلیه زمینی و دریایی استفاده می‌شود (نه پیاده‌روی → gehen).\n• در گذشته کامل (Perfekt): ich bin gefahren / du bist gefahren / er ist gefahren ...\n• مثال اضافی: Ich bin gestern nach München gefahren. (دیروز با وسیله به مونیخ رفتم.)"
+  "note": "نکته مهم:\n• برای سؤال همیشه از «Wie ist das Wetter?» شروع کنید.\n• جواب‌های مثبت: schön / sehr schön / wunderschön / angenehm\n• جواب‌های منفی: schlecht / nicht schön / schrecklich\n• در مکالمه روزمره آلمانی‌زبانان اغلب فقط می‌گویند: «Schön heute!» یا «Schlechtes Wetter, oder?»\nاین ساختارها برای نمایش در صفحه 280×460 عالی هستند چون خطوط کوتاه نگه داشته شده‌اند و با \\n جدا شده‌اند."
 },
 {
-  "id": "83",
-  "title-id": "A1-5",
-  "title": "صرف فعل lesen (خواندن) در زمان حال (Präsens)",
-  "description": "فعل lesen یک فعل قوی (starkes Verb) و نامنظم است. در زمان حال (Präsens) برای ضمیرهای du و er/sie/es تغییر واکه دارد: e → ie. \n\nصرف کامل در Präsens:\n\nich lese\n\ndu liest\n\ner/sie/es liest\n\nwir lesen\n\nihr lest\n\nsie/Sie lesen\n\nنکته مهم: در سوم شخص مفرد (er/sie/es) و دوم شخص مفرد غیررسمی (du) شکل ie می‌گیرد. بقیه اشخاص مانند فعل‌های منظم هستند.",
+  "id": "156",
+  "title-id": "A1-6",
+  "title": "Bei Wind und Wetter",
+  "description": "این عبارت آلمانی به معنای «در باد و هوا» یا «در هر شرایط آب و هوایی» است.\nیعنی کاری را بدون توجه به باران، برف، باد یا هوای بد انجام دادن.\nمعادل فارسی رایج آن: «در هر آب و هوایی» یا «چه باران ببارد چه آفتاب».",
   "examples": [
     {
-      "de": "Ich lese ein Buch.",
-      "fa": "من یک کتاب می‌خوانم."
+      "de": "Ich gehe bei Wind und Wetter joggen.",
+      "fa": "من در هر آب و هوایی می‌روم دویدن."
     },
     {
-      "de": "Du liest die Zeitung jeden Morgen.",
-      "fa": "تو هر صبح روزنامه می‌خوانی."
+      "de": "Der Briefträger kommt bei Wind und Wetter.",
+      "fa": "پستچی در هر شرایط آب و هوایی می‌آید."
     },
     {
-      "de": "Er liest einen Roman.",
-      "fa": "او (مذکر) یک رمان می‌خواند."
+      "de": "Die Kinder gehen bei Wind und Wetter zur Schule.",
+      "fa": "کودکان در باد و باران هم به مدرسه می‌روند."
     },
     {
-      "de": "Wir lesen gerne Comics.",
-      "fa": "ما از خواندن کمیک‌ها لذت می‌بریم."
-    },
-    {
-      "de": "Ihr lest im Unterricht.",
-      "fa": "شما (چند نفر غیررسمی) در کلاس درس می‌خوانید."
-    },
-    {
-      "de": "Sie lesen viele Bücher.",
-      "fa": "آنها کتاب‌های زیادی می‌خوانند. / شما (رسمی) کتاب‌های زیادی می‌خوانید."
+      "de": "Sie liefert die Zeitungen bei Wind und Wetter aus.",
+      "fa": "او روزنامه‌ها را در هر آب و هوایی تحویل می‌دهد."
     }
   ],
-  "note": "lesen فعل قوی است و در گذشته (Präteritum) به las تغییر می‌کند، اما اینجا فقط Präsens آموزش داده شد. همیشه به موقعیت جمله توجه کنید (رسمی/غیررسمی). مثال‌ها برای تمرین هر شخص جداگانه انتخاب شده‌اند."
+  "note": "این عبارت نشان‌دهنده استقامت و تعهد است. معمولاً برای فعالیت‌هایی استفاده می‌شود که هر روز یا مرتب انجام می‌شوند، حتی اگر هوا خیلی بد باشد.\nنکته: گاهی به صورت «Wind und Wetter trotzen» (در برابر باد و هوا ایستادگی کردن) هم به کار می‌رود."
 },
 {
-  "id": "84",
-  "title-id": "A1-5",
-  "title": "einladen",
-  "description": "فعل «einladen» به معنای «دعوت کردن» است.\n\nاین فعل جدا شونده (trennbares Verb) و نامنظم است.\n\nدر حال حاضر (Präsens):\n- قسمت اصلی فعل «laden» تغییر می‌کند و «ein» جدا می‌شود و به آخر جمله می‌رود.\n\nصرف کامل در Präsens:\nich lade ... ein\n\ndu lädst ... ein\n\ner/sie/es lädt ... ein\n\nwir laden ... ein\n\nihr ladet ... ein\n\nsie/Sie laden ... ein\n\nمعمولاً با «zu + Dativ» برای رویداد (zu einer Party) یا «zu + Essen/Getränk» (به معنای مهمان کردن و پرداخت هزینه) استفاده می‌شود.\n\nمفعول مستقیم (کسی که دعوت می‌شود) همیشه Akkusativ است.",
+  "id": "157",
+  "title-id": "A1-6",
+  "title": "Von A nach B",
+  "description": "عبارت «Von A nach B» در آلمانی برای بیان حرکت یا جابجایی از نقطه‌ای (A) به نقطه دیگر (B) استفاده می‌شود. این ساختار معمولاً با افعال حرکت مانند gehen، fahren، fliegen، bringen یا transportieren همراه است. «Von» نشان‌دهنده نقطه شروع (از ...) و «nach» نشان‌دهنده نقطه پایان (به ...) است. این عبارت ساده و کاربردی برای توصیف مسیرها، سفرها یا انتقال چیزها به کار می‌رود. نکته مهم: بعد از «von» و «nach» معمولاً اسم با حرف تعریف داتیو می‌آید (مثل von der Schule).",
   "examples": [
     {
-      "de": "Ich lade dich zu meiner Geburtstagsfeier ein.",
-      "fa": "من تو را به جشن تولدم دعوت می‌کنم."
+      "de": "Ich fahre von Berlin nach München.",
+      "fa": "من از برلین به مونیخ می‌روم (با ماشین/قطار)."
     },
     {
-      "de": "Du lädst deine Freunde zum Essen ein.",
-      "fa": "تو دوستانت را به غذا دعوت می‌کنی."
+      "de": "Der Bus fährt von A nach B.",
+      "fa": "اتوبوس از نقطه A به نقطه B می‌رود."
     },
     {
-      "de": "Er lädt sie zu einem Kaffee ein.",
-      "fa": "او او را به یک قهوه دعوت می‌کند. (معمولاً یعنی او هزینه را می‌پردازد)"
+      "de": "Kannst du das Paket von der Post nach Hause bringen?",
+      "fa": "می‌توانی این بسته را از پست به خانه بیاوری؟"
     },
     {
-      "de": "Wir laden euch zur Party ein.",
-      "fa": "ما شما را به مهمانی دعوت می‌کنیم."
+      "de": "Sie fliegt von Frankfurt nach New York.",
+      "fa": "او از فرانکفورت به نیویورک پرواز می‌کند."
     },
     {
-      "de": "Ihr ladet die Nachbarn zum Grillen ein.",
-      "fa": "شما همسایه‌ها را به کباب‌پزی دعوت می‌کنید."
-    },
-    {
-      "de": "Sie laden ihre Familie zu Weihnachten ein.",
-      "fa": "آنها خانواده‌شان را به کریسمس دعوت می‌کنند."
+      "de": "Wir gehen von der Schule nach Hause.",
+      "fa": "ما از مدرسه به خانه می‌رویم."
     }
   ],
-  "note": "نکته مهم:\n• «einladen» همیشه جدا می‌شود → در جمله اصلی «ein» به آخر می‌رود.\n• برای دعوت به مکان یا رویداد: zu + داتیو (zur Party, zum Essen).\n• وقتی به معنای «مهمان کردن» است (مثل پرداخت قهوه)، هم «zu» و هم مفعول Akkusativ استفاده می‌شود.\n• در گذشته: ich habe ... eingeladen (با haben)."
+  "note": "این عبارت بیشتر برای مسیرهای جغرافیایی یا انتقال فیزیکی استفاده می‌شود. برای «آمدن از جایی» بدون ذکر مقصد، اغلب فقط «von» کافی است (مثل Ich komme von der Arbeit). در موقعیت‌های کامپیوتری یا انتزاعی هم کاربرد دارد، مثل «Datei von A nach B verschieben» (انتقال فایل از A به B)."
 },
 {
-  "id": "85",
-  "title-id": "A1-5",
-  "title": "fernsehen (صرف فعل تماشای تلویزیون)",
-  "description": "فعل «fernsehen» یک فعل جدایی‌پذیر (trennbares Verb) است. یعنی در جملات اصلی، پیشوند «fern» جدا شده و به آخر جمله می‌رود. فعل اصلی «sehen» است که در زمان حال (Präsens) برای du و er/sie/es تغییر حروف صدادار (e → ie) دارد.\n\nصرف کامل در زمان حال (Präsens):\nich sehe fern\ndu siehst fern\ner/sie/es sieht fern\nwir sehen fern\nihr seht fern\nsie/Sie sehen fern\n\nتوجه: در جملات فرعی (Nebensatz) پیشوند جدا نمی‌شود و فعل کامل در آخر جمله می‌آید (z. B. weil ich fernsehe).",
+  "id": "158",
+  "title-id": "A1-6",
+  "title": "Ich bin kaputt | Ich bin sehr müde",
+  "description": "در زبان آلمانی:\n\n• «Ich bin müde» یعنی «من خسته‌ام» (خستگی معمولی، نیاز به استراحت یا خواب).\n• «Ich bin sehr müde» یعنی «من خیلی خسته‌ام» (شدت بیشتر از müde).\n• «Ich bin kaputt» یعنی «من کاملاً از کار افتاده‌ام / له شده‌ام» (خستگی شدید بعد از کار زیاد، ورزش سنگین یا روز طولانی؛ مثل اینکه بدن یا انرژی‌تان شکسته باشد). این عبارت غیررسمی و رایج در گفتگوی روزمره است و قوی‌تر از «müde» به حساب می‌آید.",
   "examples": [
     {
-      "de": "Ich sehe jeden Abend fern.",
-      "fa": "من هر شب تلویزیون تماشا می‌کنم."
+      "de": "Ich bin müde. Ich gehe jetzt schlafen.",
+      "fa": "من خسته‌ام. حالا می‌روم بخوابم."
     },
     {
-      "de": "Du siehst zu viel fern.",
-      "fa": "تو خیلی زیاد تلویزیون تماشا می‌کنی."
+      "de": "Ich bin sehr müde nach der Arbeit.",
+      "fa": "بعد از کار خیلی خسته‌ام."
     },
     {
-      "de": "Er sieht gern Fußball im Fernsehen.",
-      "fa": "او دوست دارد فوتبال را از تلویزیون تماشا کند."
+      "de": "Ich bin total kaputt. Der Tag war sehr lang.",
+      "fa": "کاملاً له شدم. روز خیلی طولانی بود."
     },
     {
-      "de": "Wir sehen heute Abend einen Film.",
-      "fa": "ما امشب یک فیلم تماشا می‌کنیم."
+      "de": "Nach dem Sport bin ich kaputt.",
+      "fa": "بعد از ورزش کاملاً از کار افتاده‌ام."
     },
     {
-      "de": "Seht ihr oft Nachrichten?",
-      "fa": "آیا شما اغلب اخبار تماشا می‌کنید؟"
-    },
-    {
-      "de": "Sie sehen nie fern.",
-      "fa": "آنها هرگز تلویزیون تماشا نمی‌کنند."
+      "de": "Ich bin kaputt, aber glücklich.",
+      "fa": "له شدم، ولی خوشحالم."
     }
   ],
-  "note": "این فعل برای سطح A1 بسیار مهم است. همیشه به جدایی پیشوند «fern» در جملات اصلی توجه کنید. مثال اضافی: Gestern haben wir lange ferngesehen. (دیروز مدت طولانی تلویزیون تماشا کردیم.)"
+  "note": "نکته: «kaputt» معمولاً برای اشیاء به معنی «شکسته» است (Das Handy ist kaputt)، اما وقتی برای انسان گفته می‌شود، یعنی خستگی شدید و فرسودگی. در موقعیت‌های رسمی بهتر است از «müde» یا «erschöpft» استفاده کنید."
+},
+{
+  "id": "159",
+  "title-id": "A1-6",
+  "title": "صرف فعل sein در زمان گذشته (Präteritum)",
+  "description": "فعل sein (بودن) در زمان گذشته ساده (Präteritum) به صورت نامنظم صرف می‌شود و شکل آن برای تمام اشخاص به این صورت است:\nich war\ndu warst\ner/sie/es war\nwir waren\nihr wart\nsie/Sie waren\nاین زمان برای توصیف وضعیت‌ها، مکان‌ها یا ویژگی‌ها در گذشته استفاده می‌شود و در مکالمات روزمره و داستان‌گویی بسیار رایج است.\n\nنکته مهم: برخلاف بسیاری از افعال، sein در Präteritum بسیار ساده‌تر از Perfekt به کار می‌رود.",
+  "examples": [
+    {
+      "de": "Ich war gestern zu Hause.",
+      "fa": "دیروز در خانه بودم."
+    },
+    {
+      "de": "Du warst sehr freundlich.",
+      "fa": "تو خیلی دوستانه بودی."
+    },
+    {
+      "de": "Er war in Berlin.",
+      "fa": "او در برلین بود."
+    },
+    {
+      "de": "Wir waren müde.",
+      "fa": "ما خسته بودیم."
+    },
+    {
+      "de": "Ihr wart im Kino.",
+      "fa": "شما (جمع) در سینما بودید."
+    },
+    {
+      "de": "Sie waren glücklich.",
+      "fa": "آن‌ها خوشحال بودند."
+    }
+  ],
+  "note": "در آلمانی، Präteritum فعل sein (war/waren) بیشتر از شکل Perfekt (bin gewesen) برای گذشته استفاده می‌شود، به خصوص در نوشتاری و داستان‌ها. برای سؤال: Warst du ...? (تو ... بودی؟) و برای منفی: war nicht / waren nicht."
+},
+{
+  "id": "160",
+  "title-id": "A1-6",
+  "title": "Es regnet | Es hat geregnet",
+  "description": "در زبان آلمانی برای صحبت درباره باران از فعل بی‌ شخصی «regnen» استفاده می‌شود.\n\n• «Es regnet» → زمان حال (Präsens): باران در حال باریدن است (الان می‌بارد یا معمولاً می‌بارد).\n• «Es hat geregnet» → زمان حال کامل (Perfekt): باران باریده است (باران تمام شده و به گذشته اشاره دارد).\n\nاین فعل همیشه با «es» شروع می‌شود و فاعل واقعی ندارد. در زمان حال ساده، فقط «regnet» استفاده می‌شود و در Perfekt از «hat geregnet» تشکیل می‌شود.",
+  "examples": [
+    {
+      "de": "Es regnet.",
+      "fa": "باران می‌بارد. / الان باران می‌بارد."
+    },
+    {
+      "de": "Es regnet gerade.",
+      "fa": "الان دقیقاً باران می‌بارد."
+    },
+    {
+      "de": "Heute regnet es den ganzen Tag.",
+      "fa": "امروز تمام روز باران می‌بارد."
+    },
+    {
+      "de": "Es hat geregnet.",
+      "fa": "باران باریده است. / باران بارید."
+    },
+    {
+      "de": "Gestern hat es stark geregnet.",
+      "fa": "دیروز باران شدیدی بارید."
+    },
+    {
+      "de": "Es hat die ganze Nacht geregnet.",
+      "fa": "تمام شب باران بارید."
+    }
+  ],
+  "note": "نکته مهم: در آلمانی برای توصیف آب و هوا از ساختار «Es + فعل» استفاده می‌شود. مثلاً: Es schneit (برف می‌بارد)، Es donnert (رعد و برق است).\nدر مکالمه روزمره، Perfekt («hat geregnet») خیلی بیشتر از Präteritum («es regnete») استفاده می‌شود."
+},
+{
+  "id": "161",
+  "title-id": "A1-6",
+  "title": "Fahrradkuriere",
+  "description": "Fahrradkurier (der Fahrradkurier / die Fahrradkuriere) به معنای پیک دوچرخه‌سوار یا پیام‌رسان دوچرخه‌ای است. این افراد بسته‌های کوچک، اسناد، غذا یا کالاهای سبک را با دوچرخه در شهرهای بزرگ مانند برلین حمل و تحویل می‌دهند. کار آن‌ها سریع، ارزان و دوستدار محیط زیست است. در برلین بیش از ۳۰۰ Fahrradkurier فعال وجود دارد که اغلب برای اپلیکیشن‌هایی مثل Lieferando، Wolt یا خدمات سنتی Kurierdienste کار می‌کنند. بسیاری از آن‌ها خوداشتغال (selbstständig) هستند و با دوچرخه در ترافیک شهری سریع حرکت می‌کنند.",
+  "examples": [
+    {
+      "de": "In Berlin gibt es über 300 Fahrradkuriere.",
+      "fa": "در برلین بیش از ۳۰۰ پیک دوچرخه‌سوار وجود دارد."
+    },
+    {
+      "de": "Der Fahrradkurier bringt das Paket in 20 Minuten.",
+      "fa": "پیک دوچرخه بسته را در ۲۰ دقیقه تحویل می‌دهد."
+    },
+    {
+      "de": "Viele Fahrradkuriere arbeiten für Lieferdienste wie Wolt oder Lieferando.",
+      "fa": "بسیاری از پیک‌های دوچرخه برای خدمات تحویل غذا مثل وولت یا لیفراندو کار می‌کنند."
+    },
+    {
+      "de": "Als Fahrradkurier in Berlin zu arbeiten, ist anstrengend aber flexibel.",
+      "fa": "کار کردن به عنوان پیک دوچرخه در برلین سخت است اما انعطاف‌پذیر."
+    }
+  ],
+  "note": "نکته: Fahrradkurier معمولاً برای تحویل‌های سریع درون‌شهری استفاده می‌شود (مثل اسناد حقوقی، نمونه‌های پزشکی یا سفارشات غذا). این شغل در شهرهای بزرگ مثل برلین محبوب است چون دوچرخه از ترافیک عبور می‌کند و آلودگی ایجاد نمی‌کند. کلمه در حالت جمع «Fahrradkuriere» است."
+},
+{
+  "id": "162",
+  "title-id": "A1-6",
+  "title": "Am Vormittag hat es noch geregnet.",
+  "description": "این جمله در زمان Perfekt (حال کامل) است و برای صحبت از باران در صبح (تا ظهر) استفاده می‌شود.\n\n• Am Vormittag = صبح / پیش از ظهر (تقریباً ۹ تا ۱۲)\n• hat ... geregnet = باریده است (از فعل regnen)\n• noch = هنوز (نشان‌دهنده ادامه تا لحظه‌ای خاص)\n\nساختار: زمان + فعل کمکی (hat) + فاعل (es) + هنوز + فعل اصلی در انتها (geregnet).",
+  "examples": [
+    {
+      "de": "Am Vormittag hat es noch geregnet.",
+      "fa": "صبح هنوز باران می‌بارید."
+    },
+    {
+      "de": "Am Vormittag hat es stark geregnet.",
+      "fa": "صبح باران شدید می‌بارید."
+    },
+    {
+      "de": "Heute Vormittag hat es geregnet, aber jetzt scheint die Sonne.",
+      "fa": "امروز صبح باران بارید، اما حالا آفتاب می‌تابد."
+    },
+    {
+      "de": "Gestern am Vormittag hat es noch geregnet.",
+      "fa": "دیروز صبح هنوز باران می‌بارید."
+    }
+  ],
+  "note": "• برای زمان‌های روز از «am Vormittag» یا «vormittags» استفاده کنید.\n• در Perfekt، فعل کمکی (hat) در جایگاه دوم و participle (geregnet) در آخر جمله می‌آید.\n• «noch» برای تأکید بر ادامه باران تا لحظه‌ای استفاده می‌شود.\n• فعل regnen همیشه با «es» (impersonal) به کار می‌رود."
+},
+{
+  "id": "163",
+  "title-id": "A1-6",
+  "title": "Es war richtig ...",
+  "description": "از کلمه «richtig» به عنوان تقویت‌کننده (intensifier) برای صفت‌ها استفاده می‌شود. معنی آن در این ساختار «واقعاً»، «خیلی» یا «به شدت» است و جمله را تأکید می‌کند. این ساختار خیلی رایج و طبیعی در مکالمات روزمره آلمانی است. بعد از «Es war richtig» معمولاً یک صفت می‌آید و برای توصیف حال و هوا، احساسات یا وضعیت استفاده می‌شود.\n\nنکته مهم: «richtig» اینجا به معنای «درست» نیست، بلکه برای قوی‌تر کردن صفت به کار می‌رود (مثل very/really در انگلیسی).",
+  "examples": [
+    {
+      "de": "Es war richtig kalt heute.",
+      "fa": "امروز واقعاً سرد بود."
+    },
+    {
+      "de": "Es war richtig schön gestern.",
+      "fa": "دیروز واقعاً قشنگ بود."
+    },
+    {
+      "de": "Der Film war richtig gut.",
+      "fa": "فیلم واقعاً خوب بود."
+    },
+    {
+      "de": "Es war richtig teuer.",
+      "fa": "واقعاً گران بود."
+    },
+    {
+      "de": "Ich war richtig müde nach der Arbeit.",
+      "fa": "بعد از کار واقعاً خسته بودم."
+    }
+  ],
+  "note": "این ساختار بیشتر در گذشته (war) یا حال (ist) به کار می‌رود. برای تأکید بیشتر گاهی «richtig richtig» گفته می‌شود (مثل really really). در سطح A1 برای توصیف آب و هوا و احساسات بسیار مفید است. از «\n» فقط در جایی که نیاز به خط جدید واقعی باشد استفاده کنید تا نمایش در صفحه 280x460 به هم نریزد."
+},
+{
+  "id": "164",
+  "title-id": "A1-6",
+  "title": "morgen – am Morgen\nDienstag – Mittwoch – Donnerstag\ngestern – heute – morgen",
+  "description": "در این مبحث تفاوت بین «morgen» (فردا) و «am Morgen» (صبح‌ها / در صبح) را یاد می‌گیریم. همچنین روزهای هفته (Dienstag, Mittwoch, Donnerstag) و کلمات مهم زمان مانند gestern (دیروز)، heute (امروز) و morgen (فردا) را بررسی می‌کنیم.\n\nنکته مهم:\n- morgen (با m کوچک): همیشه به معنی «فردا» است.\n- der Morgen (با M بزرگ): اسم است و به معنی «صبح» است.\n- am Morgen: به معنی «در صبح» یا «صبح‌ها» (یک بار یا مشخص).\n- morgens: معمولاً برای عادت و تکرار (هر صبح).\n\nبرای روزهای هفته از «am + روز» استفاده می‌شود: am Dienstag = روز سه‌شنبه.",
+  "examples": [
+    {
+      "de": "Morgen ist Mittwoch.",
+      "fa": "فردا چهارشنبه است."
+    },
+    {
+      "de": "Gestern war Dienstag.",
+      "fa": "دیروز سه‌شنبه بود."
+    },
+    {
+      "de": "Heute ist Donnerstag.",
+      "fa": "امروز پنج‌شنبه است."
+    },
+    {
+      "de": "Es war gestern schön hier.",
+      "fa": "دیروز اینجا قشنگ بود."
+    },
+    {
+      "de": "Am Morgen trinke ich Kaffee.",
+      "fa": "صبح‌ها قهوه می‌نوشم. (یا: در صبح قهوه می‌نوشم.)"
+    },
+    {
+      "de": "Morgen am Morgen habe ich einen Termin.",
+      "fa": "فردا صبح قرار ملاقات دارم."
+    },
+    {
+      "de": "Ich gehe am Mittwoch einkaufen.",
+      "fa": "روز چهارشنبه خرید می‌روم."
+    },
+    {
+      "de": "Morgens stehe ich früh auf.",
+      "fa": "هر صبح زود بیدار می‌شوم."
+    }
+  ],
+  "note": "برای «فردا صبح» بهتر است بگویید: morgen früh (نه morgen am Morgen، چون تکراری به نظر می‌رسد).\nروزهای هفته همیشه با حرف بزرگ نوشته می‌شوند: Dienstag, Mittwoch, Donnerstag.\nدر جملات، کلمات زمان معمولاً در اول یا نزدیک فعل قرار می‌گیرند."
+},
+{
+  "id": "165",
+  "title-id": "A1-6",
+  "title": "Wie war das Wetter gestern in Berlin?",
+  "description": "برای پرسیدن وضعیت آب و هوا در روز گذشته (دیروز) در شهر برلین از این ساختار استفاده می‌شود.\n\nابتدا با «Wie war» شروع می‌کنیم چون سؤال در مورد گذشته است. سپس «das Wetter gestern» برای «آب و هوای دیروز» و در نهایت مکان را با «in Berlin» مشخص می‌کنیم.\nاین جمله ساده و رایج برای گفتگوهای روزمره درباره آب و هوا است.",
+  "examples": [
+    {
+      "de": "Wie war das Wetter gestern in Berlin?",
+      "fa": "دیروز هوا در برلین چطور بود؟"
+    },
+    {
+      "de": "Wie war das Wetter gestern in Berlin? Es war sonnig und kalt.",
+      "fa": "دیروز هوا در برلین چطور بود؟ آفتابی و سرد بود."
+    },
+    {
+      "de": "Wie war das Wetter gestern in Berlin? Es hat geregnet.",
+      "fa": "دیروز هوا در برلین چطور بود؟ باران می‌بارید."
+    },
+    {
+      "de": "Wie war das Wetter gestern in Berlin? Es war bewölkt und windig.",
+      "fa": "دیروز هوا در برلین چطور بود؟ ابری و باد داشت."
+    }
+  ],
+  "note": "نکته: در پاسخ به این سؤال معمولاً از زمان گذشته (Perfekt یا Präteritum) استفاده می‌شود، مثل «Es war ...» یا «Es hat ...». برای توصیف دقیق‌تر می‌توانید از کلماتی مانند sonnig (آفتابی)، bewölkt (ابری)، regnerisch (بارانی)، kalt (سرد)، warm (گرم) یا windig (بادگیر) استفاده کنید.\n\nمثال پاسخ واقعی برای ۹ آوریل ۲۰۲۶: Es war sonnig mit Höchsttemperaturen um ۱۲ °C und Tiefsttemperaturen um ۰ °C."
+},
+{
+  "id": "166",
+  "title-id": "A1-6",
+  "title": "Ich war ... | Wie war dein Wochenende?",
+  "description": "در این درس یاد می‌گیریم چطور از فعل \"sein\" در زمان گذشته (war / warst) استفاده کنیم.\n\nبرای صحبت درباره جایی که بودیم یا چطور بودیم (مکان، وضعیت، تعطیلات).\n\nسوال رایج: \"Wie war dein Wochenende?\" یعنی \"آخر هفته‌ات چطور بود؟\"",
+  "examples": [
+    {
+      "de": "Ich war in Deutschland.",
+      "fa": "من در آلمان بودم."
+    },
+    {
+      "de": "Wie war dein Wochenende?",
+      "fa": "آخر هفته‌ات چطور بود؟"
+    },
+    {
+      "de": "Super, ich war in Deutschland.",
+      "fa": "عالی، من در آلمان بودم."
+    },
+    {
+      "de": "Wo warst du am Wochenende?",
+      "fa": "آخر هفته کجا بودی؟"
+    },
+    {
+      "de": "Ich war zu Hause.",
+      "fa": "من در خانه بودم."
+    },
+    {
+      "de": "Es war sehr schön.",
+      "fa": "خیلی خوب بود."
+    }
+  ],
+  "note": "نکته مهم:\n- \"war\" برای ich / er / sie / es\n- \"warst\" برای du\n- این زمان برای داستان‌گویی کوتاه و مکالمه روزمره خیلی پرکاربرد است.\n\nمثال کامل:\nA: Wie war dein Wochenende?\nB: Super! Ich war in Deutschland."
+},
+{
+  "id": "167",
+  "title-id": "A1-6",
+  "title": "تولد - Geboren",
+  "description": "برای گفتن تاریخ تولد از ساختار «Ich bin am ... geboren» استفاده می‌کنیم.\n\n«am» + تاریخ (با حروف بزرگ روز هفته یا عدد ترتیبی).\nبرای مکان تولد: «Ich bin in ... geboren».",
+  "examples": [
+    {
+      "de": "Ich bin am 15. Mai 1995 geboren.",
+      "fa": "من در ۱۵ مه ۱۹۹۵ متولد شده‌ام."
+    },
+    {
+      "de": "Er ist am ersten Januar geboren.",
+      "fa": "او در اول ژانویه متولد شده است."
+    },
+    {
+      "de": "Sie ist am 3. Oktober 2000 in Berlin geboren.",
+      "fa": "او در ۳ اکتبر ۲۰۰۰ در برلین متولد شده است."
+    },
+    {
+      "de": "Wer ist am 25. Dezember geboren?",
+      "fa": "چه کسی در ۲۵ دسامبر متولد شده است؟"
+    },
+    {
+      "de": "Wo bist du geboren?",
+      "fa": "تو کجا متولد شده‌ای؟"
+    },
+    {
+      "de": "Ich bin in Teheran geboren.",
+      "fa": "من در تهران متولد شده‌ام."
+    }
+  ],
+  "note": "نکات مهم:\n• «am» برای تاریخ خاص (روز + ماه + سال) استفاده می‌شود.\n• روزها را با عدد ترتیبی بنویسید: am ersten, am zweiten, am dritten ...\n• برای فقط ماه: «im Mai geboren».\n• برای فقط سال: «im Jahr 1995 geboren» یا «1995 geboren».\n• سؤال مکان: Wo bist du geboren? / Wo sind Sie geboren?"
+},
+{
+  "id": "168",
+  "title-id": "A1-6",
+  "title": "گفتن سال‌ها در آلمانی (۱۹۹۸ و ۲۰۱۷)",
+  "description": "در زبان آلمانی، نحوه خواندن سال‌ها (Jahreszahlen) بسته به قرن متفاوت است. برای سال‌های ۱۱۰۰ تا ۱۹۹۹ از ساختار «شماره قرن + hundert + دو رقم آخر» استفاده می‌شود. برای سال‌های ۲۰۰۰ به بعد، مانند اعداد معمولی با «zweitausend» شروع می‌شود. این قانون برای گفتار روزمره و رسمی مهم است.",
+  "examples": [
+    {
+      "de": "1998",
+      "fa": "نوزده صد نود و هشت"
+    },
+    {
+      "de": "neunzehnhundertachtundneunzig",
+      "fa": "نویْن‌تسِن‌هون‌دِرت‌آخت‌اوند‌نویْن‌تسیگ"
+    },
+    {
+      "de": "۲۰۱۷",
+      "fa": "دو هزار هفده"
+    },
+    {
+      "de": "zweitausendsiebzehn",
+      "fa": "تس‌وایْ‌تاوْزِند‌زیب‌تسِن"
+    }
+  ],
+  "note": "نکته مهم:\n• سال‌های ۱۱۰۰–۱۹۹۹: همیشه از «hundert» استفاده کنید (مثل neunzehnhundert...).\n• سال‌های ۲۰۰۰+: از «zweitausend» شروع کنید (بدون «und» اضافی در بیشتر موارد).\n• در گفتار محاوره‌ای گاهی سال ۱۹۹۸ را «neunzehnachtundneunzig» هم می‌گویند، اما شکل کامل neunzehnhundert... دقیق‌تر و رسمی‌تر است.\n\nمثال‌های کاربردی:\nIch bin neunzehnhundertachtundneunzig geboren. → من در سال ۱۹۹۸ متولد شدم.\nDas Konzert war zweitausendsiebzehn. → کنسرت در سال ۲۰۱۷ بود."
+},
+{
+  "id": "169",
+  "title-id": "A1-6",
+  "title": "Wo bist du denn geboren?",
+  "description": "این عبارت یک سؤال غیررسمی و روزمره در زبان آلمانی است که برای پرسیدن «کجا به دنیا آمدی؟» یا «محل تولدت کجاست؟» استفاده می‌شود.\n\nکلمه «denn» اینجا نقش تأکید و تعجب یا کنجکاوی ملایم را دارد و سؤال را طبیعی‌تر و گفتاری‌تر می‌کند (مثل «آخه کجا به دنیا اومدی؟» یا «خب کجا متولد شدی؟»).\nاین سؤال معمولاً در مکالمات دوستانه، آشنایی اولیه یا وقتی می‌خواهید اطلاعات شخصی بیشتری بدانید، به کار می‌رود.",
+  "examples": [
+    {
+      "de": "Wo bist du denn geboren?",
+      "fa": "خب، کجا به دنیا اومدی؟"
+    },
+    {
+      "de": "Wo bist du denn geboren? In Berlin?",
+      "fa": "کجا به دنیا اومدی؟ برلین؟"
+    },
+    {
+      "de": "Sag mal, wo bist du denn geboren?",
+      "fa": "بگو ببینم، کجا به دنیا اومدی؟"
+    },
+    {
+      "de": "Wo bist du denn geboren und wo aufgewachsen?",
+      "fa": "کجا به دنیا اومدی و کجا بزرگ شدی؟"
+    }
+  ],
+  "note": "پاسخ معمول:\n- «Ich bin in Teheran geboren.» (من در تهران به دنیا آمدم.)\n\nنکته: «denn» سؤال را نرم‌تر و گفتاری می‌کند. بدون «denn» هم درست است («Wo bist du geboren?») اما با «denn» طبیعی‌تر به نظر می‌رسد."
+},
+{
+  "id": "170",
+  "title-id": "A1-6",
+  "title": "Autobahn - ICE - Taxi",
+  "description": "در این مبحث با سه واژه مهم حمل‌ونقل آلمانی آشنا می‌شوید:\n\n• **Autobahn** (اتوبان آلمان): بزرگراه‌های معروف آلمان که در بسیاری از بخش‌ها محدودیت سرعت قانونی ندارد (فقط توصیه ۱۳۰ کیلومتر در ساعت). رانندگی سریع و ایمن در آن نیاز به رعایت قوانین خاص دارد.\n\n• **ICE** (InterCity Express): قطار سریع‌السیر آلمان که با سرعت تا ۳۰۰ کیلومتر در ساعت بین شهرهای بزرگ حرکت می‌کند. راحت، مدرن و مناسب سفرهای طولانی.\n\n• **Taxi** (تاکسی): وسیله نقلیه عمومی برای جابجایی کوتاه در شهر. همیشه با «das Taxi» گفته می‌شود و قیمت آن بر اساس تاکسیمتر محاسبه می‌گردد.",
+  "examples": [
+    {
+      "de": "Auf der Autobahn darf man auf vielen Strecken sehr schnell fahren.",
+      "fa": "در اتوبان می‌توان در بسیاری از مسیرها خیلی سریع رانندگی کرد."
+    },
+    {
+      "de": "Ich nehme den ICE von Berlin nach München.",
+      "fa": "من قطار ICE را از برلین به مونیخ می‌گیرم."
+    },
+    {
+      "de": "Können Sie mir bitte ein Taxi rufen?",
+      "fa": "لطفاً برای من یک تاکسی بگیرید؟"
+    },
+    {
+      "de": "Der ICE fährt mit bis zu 300 km/h.",
+      "fa": "قطار ICE با سرعت تا ۳۰۰ کیلومتر در ساعت حرکت می‌کند."
+    },
+    {
+      "de": "Wir fahren mit dem Taxi zum Flughafen.",
+      "fa": "ما با تاکسی به فرودگاه می‌رویم."
+    },
+    {
+      "de": "Auf der Autobahn gilt eine Richtgeschwindigkeit von 130 km/h.",
+      "fa": "در اتوبان سرعت توصیه‌شده ۱۳۰ کیلومتر در ساعت است."
+    }
+  ],
+  "note": "نکته مهم: در اتوبان همیشه سمت راست رانندگی کنید و چپ فقط برای سبقت باشد. بلیت ICE را بهتر است از قبل آنلاین بخرید. در تاکسی معمولاً انعام (Trinkgeld) حدود ۱۰٪ پرداخت می‌شود."
+},
+{
+  "id": "171",
+  "title-id": "A1-6",
+  "title": "zwischen...und...",
+  "description": "پیشوند «zwischen» به معنی «بین» است.\n\n- برای **مکان** (Wo? / Wohin?): همیشه با Dativ یا Akkusativ.\n- برای **زمان** (Wann?): معمولاً با Dativ.\n\nنشان می‌دهد چیزی یا کسی بین دو نقطه، دو نفر یا دو زمان قرار دارد.",
+  "examples": [
+    {
+      "de": "Der Zug fährt zwischen Hamburg und München.",
+      "fa": "قطار بین هامبورگ و مونیخ حرکت می‌کند."
+    },
+    {
+      "de": "München liegt zwischen den Alpen und dem Norden Deutschlands.",
+      "fa": "مونیخ بین آلپ‌ها و شمال آلمان قرار دارد."
+    },
+    {
+      "de": "Zwischen Hamburg und München gibt es viele schöne Städte.",
+      "fa": "بین هامبورگ و مونیخ شهرهای زیبای زیادی وجود دارد."
+    },
+    {
+      "de": "Ich fliege zwischen dem 15. und 20. Mai von Hamburg nach München.",
+      "fa": "من بین ۱۵ تا ۲۰ ماه مه از هامبورگ به مونیخ پرواز می‌کنم."
+    }
+  ],
+  "note": "نکته: \n• در مکان اگر حرکت باشد (Wohin?) → Akkusativ\n• اگر موقعیت ثابت باشد (Wo?) → Dativ\n• در زمان تقریباً همیشه Dativ است.\n\nمثال سریع: Zwischen dir und mir (بین تو و من)."
+},
+{
+  "id": "172",
+  "title-id": "A1-6",
+  "title": "zu Hause – nach Hause",
+  "description": "«zu Hause» یعنی «در خانه» یا «در منزل» (موقعیت و حالت بودن).\n«nach Hause» یعنی «به خانه» یا «به سمت خانه» (حرکت و جهت رفتن).\n\nنکته مهم: این دو عبارت ثابت هستند و همیشه به همین شکل نوشته می‌شوند.",
+  "examples": [
+    {
+      "de": "Ich bin zu Hause.",
+      "fa": "من در خانه‌ام."
+    },
+    {
+      "de": "Ich gehe nach Hause.",
+      "fa": "من به خانه می‌روم."
+    },
+    {
+      "de": "Bleibst du heute zu Hause?",
+      "fa": "امروز در خانه می‌مانی؟"
+    },
+    {
+      "de": "Wann kommst du nach Hause?",
+      "fa": "کی به خانه می‌آیی؟"
+    },
+    {
+      "de": "Er arbeitet zu Hause.",
+      "fa": "او در خانه کار می‌کند."
+    },
+    {
+      "de": "Wir fahren jetzt nach Hause.",
+      "fa": "ما حالا به خانه می‌رویم."
+    }
+  ],
+  "note": "خلاصه سریع:\n- wo? (کجا؟) → zu Hause\n- wohin? (به کجا؟) → nach Hause\n\nدر گفتار روزمره گاهی «zuhaus» یا «nachhaus» شنیده می‌شود، اما در نوشتن همیشه با فاصله و «H» بزرگ بنویسید."
+},
+{
+  "id": "173",
+  "title-id": "A1-6",
+  "title": "zum Glück",
+  "description": "عبارت «zum Glück» در آلمانی به معنای «خوشبختانه»، «خوب شد» یا «به لطف شانس» است. این عبارت برای بیان relief (تسکین و خوشحالی) وقتی چیزی خوب اتفاق می‌افتد یا از یک مشکل جلوگیری می‌شود، استفاده می‌شود. معمولاً در ابتدای جمله قرار می‌گیرد و بعد از آن کاما (،) می‌آید.",
+  "examples": [
+    {
+      "de": "Zum Glück war das Wetter gut.",
+      "fa": "خوشبختانه هوا خوب بود."
+    },
+    {
+      "de": "Zum Glück wurde niemand verletzt.",
+      "fa": "خوشبختانه کسی آسیب ندید."
+    },
+    {
+      "de": "Ich habe meinen Schlüssel vergessen, aber zum Glück war die Tür offen.",
+      "fa": "کلیدم را فراموش کردم، اما خوشبختانه در باز بود."
+    },
+    {
+      "de": "Zum Glück habe ich einen guten Job.",
+      "fa": "خوشبختانه شغل خوبی دارم."
+    }
+  ],
+  "note": "این عبارت همیشه با حرف کوچک شروع می‌شود مگر اینکه در ابتدای جمله باشد. معادل‌های نزدیک: glücklicherweise، zum Glück (رایج‌ترین)، Gott sei Dank (خدا را شکر). در مکالمات روزمره بسیار پرکاربرد است و حس مثبت و تسکین می‌دهد."
 }
-
 
 ]

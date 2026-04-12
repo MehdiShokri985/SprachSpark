@@ -726,11 +726,18 @@
 
       // فعال‌سازی قابلیت در کل صفحه (popupها، نقشه و همه جا)
       document.addEventListener("mouseup", showTranslateButton);
+      // پشتیبانی کامل از موبایل iOS و Android
+      document.addEventListener("touchend", showTranslateButton);
+      
       document.addEventListener("selectionchange", () => {
         if (window.getSelection().toString().trim() === "") hideTranslateButton();
       });
 
       document.addEventListener("mousedown", (e) => {
+        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+      });
+      // پشتیبانی از touchstart برای موبایل
+      document.addEventListener("touchstart", (e) => {
         if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
       });
 

@@ -1,0 +1,703 @@
+[
+  {
+    "id": "1",
+    "title-id": "Tag-5",
+    "title": "صرف فعل beachten (توجه کردن / رعایت کردن)",
+    "description": "فعل beachten یک فعل منظم (schwach) و جدا نشدنی است و با haben صرف می‌شود. معنی اصلی آن «توجه کردن به چیزی» یا «رعایت کردن چیزی» است. این فعل در مباحث روزمره مانند شبکه‌های اجتماعی بسیار پرکاربرد است و به معنای رعایت نکات ایمنی، قوانین یا موارد مهم می‌آید.\n\nصرف در زمان حال (Präsens):\nich beachte\ndu beachtest\ner/sie/es beachtet\nwir beachten\nihr beachtet\nsie/Sie beachten\n\nصرف در زمان گذشته ساده (Präteritum):\nich beachtete\ndu beachtetest\ner/sie/es beachtete\nwir beachteten\nihr beachtetet\nsie/Sie beachteten\n\nنکته مهم: چون فعل به «t» ختم می‌شود، در گذشته یک «e» اضافی قبل از پسوندها ظاهر می‌شود (beachtete).",
+    "examples": [
+      {
+        "de": "Was müssen wir als Nutzer der sozialen Medien beachten?",
+        "fa": "به عنوان کاربران شبکه‌های اجتماعی چه چیزهایی را باید رعایت کنیم؟"
+      },
+      {
+        "de": "Ich beachte immer die Datenschutzeinstellungen.",
+        "fa": "من همیشه تنظیمات حفظ حریم خصوصی را رعایت می‌کنم."
+      },
+      {
+        "de": "Gestern haben wir die Regeln nicht beachtet.",
+        "fa": "دیروز قوانین را رعایت نکردیم."
+      },
+      {
+        "de": "Du solltest die Privatsphäre anderer beachten.",
+        "fa": "باید به حریم خصوصی دیگران توجه کنی."
+      },
+      {
+        "de": "Beachte bitte die Tipps für sichere Nutzung!",
+        "fa": "لطفاً به نکات استفاده ایمن توجه کن!"
+      }
+    ],
+    "note": "در جملات پرسشی و دستوری مانند مثال‌های درس («Was müssen wir ... beachten?») این فعل برای بیان «رعایت کردن نکات مهم» استفاده می‌شود. در Präteritum برای داستان‌گویی یا گزارش گذشته کاربرد دارد. همیشه با accusative (مفعول مستقیم) به کار می‌رود: etwas beachten."
+  },
+  {
+    "id": "2",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA: Was kann man dort machen?",
+    "description": "Auf Social Media kann man mit Freunden und Familie in Kontakt bleiben, Fotos und Videos teilen, Meinungen austauschen, neue Leute kennenlernen, Nachrichten lesen und sich unterhalten.\n\nدر شبکه‌های اجتماعی می‌توان با دوستان و خانواده در ارتباط ماند، عکس و ویدیو به اشتراک گذاشت، نظرات را رد و بدل کرد، افراد جدید شناخت، اخبار خواند و سرگرم شد.",
+    "examples": [
+      {
+        "de": "Ich poste ein Foto von meinem Urlaub und meine Freunde liken und kommentieren es.",
+        "fa": "من عکسی از تعطیلاتم پست می‌کنم و دوستانم لایک می‌کنند و کامنت می‌گذارند."
+      },
+      {
+        "de": "Man kann in einer Gruppe diskutieren oder eine Umfrage starten.",
+        "fa": "می‌توان در یک گروه بحث کرد یا یک نظرسنجی راه انداخت."
+      },
+      {
+        "de": "Viele Nutzer schauen Reels oder TikToks und teilen lustige Videos.",
+        "fa": "بسیاری از کاربران ریلز یا تیک‌تاک‌ها را تماشا می‌کنند و ویدیوهای خنده‌دار به اشتراک می‌گذارند."
+      }
+    ],
+    "note": "Social Media dient der Kommunikation, Information und Unterhaltung – immer respektvoll und achtsam bleiben.\n\nشبکه‌های اجتماعی برای ارتباط، اطلاع‌رسانی و سرگرمی هستند – همیشه محترمانه و با دقت رفتار کنید."
+  },
+  {
+    "id": "2",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA: Spiele spielen",
+    "description": "فعل «spielen» به معنای «بازی کردن» است. در آلمانی برای گفتن «بازی کردن» (مثل بازی‌های کامپیوتری، موبایل یا آنلاین) از ساختار «Spiele spielen» استفاده می‌کنیم. این فعل در زمان حال (Präsens) صرف می‌شود و معمولاً با مفعول مستقیم (Akkusativ) همراه است. در سطح A2.1 تمرکز روی صرف ساده فعل در جملات روزمره است.",
+    "examples": [
+      {
+        "de": "Ich spiele oft Spiele auf dem Handy.",
+        "fa": "من اغلب روی گوشی بازی می‌کنم."
+      },
+      {
+        "de": "Wir spielen zusammen Online-Spiele.",
+        "fa": "ما با هم بازی‌های آنلاین بازی می‌کنیم."
+      },
+      {
+        "de": "Spielst du gerne Spiele auf Social Media?",
+        "fa": "آیا دوست داری روی شبکه‌های اجتماعی بازی کنی؟"
+      },
+      {
+        "de": "Er spielt jeden Abend Computerspiele.",
+        "fa": "او هر شب بازی‌های کامپیوتری بازی می‌کند."
+      }
+    ],
+    "note": "نکته: فعل spielen وقتی به معنای «بازی کردن» است، معمولاً با کلمه Spiele (بازی‌ها) همراه می‌شود تا واضح‌تر باشد. در جملات کوتاه اجتماعی مثل چت در شبکه‌های اجتماعی، مردم اغلب می‌گویند: „Lass uns Spiele spielen!“ (بیا بازی کنیم!). \n\nدر صرف Präsens:\nich spiele – du spielst – er/sie/es spielt – wir spielen – ihr spielt – sie spielen\n\nدر Social Media از عبارات کوتاه مثل „Wer spielt mit?“ (کی با من بازی می‌کنه؟) خیلی استفاده می‌شود."
+  },
+  {
+    "id": "4",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA: diskutieren über + ...",
+    "description": "فعل \"diskutieren\" وقتی به معنای بحث کردن درباره یک موضوع است، همیشه با حرف اضافه \"über\" + Akkusativ به کار می‌رود.\n\nتوضیح گرامری: \nفعل diskutieren (بحث کردن) + über + مفعول مستقیم (Akkusativ). \nحرف اضافه \"über\" در این ساختار همیشه Akkusativ می‌گیرد (نه Dativ). \nاین ساختار برای صحبت درباره موضوعات (مثل Politik، ein Video، ein Problem) استفاده می‌شود. \n\nنکته مهم: بعد از \"über\" باید اسم یا ضمیر را به حالت Akkusativ بیاوریم (مثلاً der Film → den Film، die Politik → die Politik، das Thema → das Thema).",
+    "examples": [
+      {
+        "de": "Man kann über Politik diskutieren.",
+        "fa": "می‌توان درباره سیاست بحث کرد."
+      },
+      {
+        "de": "Wir diskutieren über das neue Video.",
+        "fa": "ما درباره ویدیو جدید بحث می‌کنیم."
+      },
+      {
+        "de": "Sie diskutieren über ein Problem.",
+        "fa": "آن‌ها درباره یک مشکل بحث می‌کنند."
+      }
+    ],
+    "note": "نکات اضافه گرامری:\n- \"diskutieren über + Akkusativ\" برای موضوع بحث استفاده می‌شود.\n- اگر بخواهیم بگوییم \"با کسی درباره چیزی بحث کردن\" می‌شود: mit jemandem über etwas diskutieren (mit + Dativ + über + Akkusativ).\n- مثال: Ich diskutiere mit meiner Freundin über das Buch.\n- در سطح A2.1، روی ساختار ساده \"über + Akkusativ\" تمرکز کنید و Akkusativ مقاله‌ها را تمرین کنید (den, die, das، einen, eine, ein).\n- کلمه \"darüber\" هم رایج است: Wir diskutieren darüber. (ما درباره آن بحث می‌کنیم.)"
+  },
+  {
+    "id": "5",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA: Podcasts hören",
+    "description": "فعل \"hören\" به معنای شنیدن یا گوش دادن است. در زمینه \"Podcasts hören\" یعنی گوش دادن به پادکست‌ها. این فعل در آلمانی اغلب با مفعول مستقیم (Akkusativ) استفاده می‌شود. مثلاً وقتی می‌گوییم به چیزی گوش می‌دهیم، از ساختار \"etwas hören\" استفاده می‌کنیم. در سطح A2، تمرکز روی زمان حال (Präsens) و جملات ساده است. فعل hören منظم است و صرف آن آسان می‌باشد.",
+    "examples": [
+      {
+        "de": "Ich höre Podcasts.",
+        "fa": "من پادکست‌ها را گوش می‌دهم."
+      },
+      {
+        "de": "Hörst du gerne Podcasts?",
+        "fa": "آیا دوست داری پادکست گوش بدهی؟"
+      },
+      {
+        "de": "Wir hören einen Podcast über Deutschland.",
+        "fa": "ما یک پادکست درباره آلمان گوش می‌دهیم."
+      },
+      {
+        "de": "Sie hört Podcasts im Bus.",
+        "fa": "او در اتوبوس پادکست گوش می‌دهد."
+      }
+    ],
+    "note": "نکته مهم: فعل \"hören\" در جملات مثبت و منفی ساده استفاده می‌شود. در سؤال، فعل به اول جمله می‌آید (Inversion). برای بیان علاقه از \"gerne\" بعد از فعل استفاده کنید. اگر می‌خواهید بگویید \"به پادکست‌ها گوش دادن\"، می‌توانید بگویید \"Podcasts hören\" بدون مقاله. در سطح A2 از جملات کوتاه با فاعل + فعل + مفعول استفاده کنید. فعل hören در Präsens این‌گونه صرف می‌شود: ich höre, du hörst, er/sie/es hört, wir hören, ihr hört, sie/Sie hören."
+  },
+  {
+    "id": "6",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Sachen verkaufen/kaufen",
+    "description": "در این بخش گرامر و عبارات کاربردی برای خرید و فروش وسایل در شبکه‌های اجتماعی (مثل فیسبوک، اینستاگرام یا گروه‌ها) را یاد می‌گیریم.\n\nفعل «kaufen» (خریدن) و «verkaufen» (فروختن) در زمان حال ساده (Präsens) استفاده می‌شوند. ساختار جمله ساده است: فاعل + فعل + مفعول + بقیه جمله.\n\nبرای پیشنهاد خرید/فروش اغلب از «Ich suche…» یا «Ich verkaufe…» شروع می‌کنیم.",
+    "examples": [
+      {
+        "de": "Ich verkaufe mein altes Handy.",
+        "fa": "من گوشی قدیمی‌ام را می‌فروشم."
+      },
+      {
+        "de": "Ich suche ein gebrauchtes Fahrrad.",
+        "fa": "من به دنبال یک دوچرخه دست دوم هستم."
+      },
+      {
+        "de": "Wie viel kostet der Laptop?",
+        "fa": "این لپ‌تاپ چقدر قیمت دارد؟"
+      },
+      {
+        "de": "Ist der Preis verhandelbar?",
+        "fa": "آیا قیمت قابل مذاکره است؟"
+      }
+    ],
+    "note": "نکات گرامری مهم:\n\n• فعل kaufen و verkaufen در Präsens: ich kaufe / verkaufe - du kaufst / verkaufst - er/sie/es kauft / verkauft - wir kaufen / verkaufen.\n\n• برای سؤال از قیمت: «Wie viel kostet …?» یا «Was kostet …?»\n\n• صفت «gebraucht» یعنی دست دوم، «neu» یعنی نو.\n\n• در کامنت‌ها یا پیام‌ها اغلب از علامت سؤال (?) و علامت تعجب (!) استفاده کنید تا جمله واضح‌تر باشد.\n\n• عبارت مفید: «Interessiert?» یعنی «علاقه‌مندید؟»"
+  },
+  {
+    "id": "7",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Man sieht, was Freunde machen",
+    "description": "در این ساختار گرامری، از ضمیر نامعین \"man\" (به معنای \"انسان\" یا \"آدم\" به صورت کلی) استفاده می‌شود. فعل \"sehen\" (دیدن) در سوم شخص مفرد صرف می‌شود (sieht). بعد از کاما، یک جمله وابسته (Nebensatz) با \"was\" می‌آید که مثل یک سوال غیرمستقیم عمل می‌کند. در این جمله وابسته، فعل به آخر جمله می‌رود. این ساختار برای صحبت درباره چیزهایی که در شبکه‌های اجتماعی دیده می‌شود، بسیار کاربردی است. سطح: A2.1",
+    "examples": [
+      {
+        "de": "Man sieht, was Freunde machen.",
+        "fa": "آدم می‌بیند دوستان چه کار می‌کنند."
+      },
+      {
+        "de": "Man sieht, was sie in den Ferien machen.",
+        "fa": "آدم می‌بیند آن‌ها در تعطیلات چه کار می‌کنند."
+      },
+      {
+        "de": "Auf Instagram sieht man, was Freunde essen.",
+        "fa": "در اینستاگرام آدم می‌بیند دوستان چه می‌خورند."
+      }
+    ],
+    "note": "نکته مهم: در جمله وابسته بعد از \"was\"، فعل همیشه به آخر جمله می‌رود (مثل weil یا dass). \"Man\" همیشه با فعل سوم شخص مفرد استفاده می‌شود. این ساختار شبیه به جملات غیرمستقیم است و برای توصیف زندگی دیگران در شبکه‌های اجتماعی عالی است. \nنکته اضافی: می‌توانید از فعل‌های دیگر هم استفاده کنید، مثلاً: Man weiß, was Freunde machen. (آدم می‌داند دوستان چه کار می‌کنند.) \nدر سطح A2.1 روی حفظ ترتیب فعل در Nebensatz تمرکز کنید."
+  },
+  {
+    "id": "8",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Nachrichten lesen",
+    "description": "در این مبحث یاد می‌گیریم چطور در شبکه‌های اجتماعی (سوشال مدیا) اخبار (Nachrichten) بخوانیم. توضیح گرامری:\n\nفعل lesen (خواندن) در زمان حال (Präsens) برای فاعل‌های مختلف صرف می‌شود:\n- ich lese\n- du liest\n- er/sie/es liest\n- wir lesen\n- ihr lest\n- sie/Sie lesen\n\nکلمات مهم: die Nachrichten (اخبار)، die Neuigkeiten (خبرهای جدید)، der Beitrag (پست)، der Post، die App، posten (پست کردن)، scrollen (اسکرول کردن).\n\nساختار جمله ساده: Subjekt + Verb + Objekt.\nمثلاً: Ich lese Nachrichten auf Instagram.",
+    "examples": [
+      {
+        "de": "Ich lese Nachrichten auf Instagram.",
+        "fa": "من اخبار را در اینستاگرام می‌خوانم."
+      },
+      {
+        "de": "Was liest du auf TikTok?",
+        "fa": "در تیک‌تاک چه چیزی می‌خوانی؟"
+      },
+      {
+        "de": "Sie liest die Neuigkeiten jeden Morgen.",
+        "fa": "او هر صبح اخبار جدید را می‌خواند."
+      },
+      {
+        "de": "Wir scrollen und lesen Posts.",
+        "fa": "ما اسکرول می‌کنیم و پست‌ها را می‌خوانیم."
+      }
+    ],
+    "note": "نکات گرامری اضافی:\n\n۱. فعل lesen یک فعل قوی (starkes Verb) است و در سوم شخص مفرد (er/sie/es) به liest تغییر می‌کند.\n۲. برای سؤال از Was یا Wo + Verb استفاده کنید.\n۳. در سوشال مدیا اغلب از کلمات انگلیسی مثل Post, Feed, Story استفاده می‌شود.\n۴. زمان حال (Präsens) برای عادت‌ها و کارهای روزمره مناسب است.\n۵. حتماً از اپ‌هایی مثل Instagram یا TikTok برای تمرین واقعی استفاده کنید."
+  },
+  {
+    "id": "9",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Videos anschauen = schauen = sehen (umgangssprachlich: gucken)",
+    "description": "در زبان آلمانی برای گفتن «ویدیو تماشا کردن» در شبکه‌های اجتماعی، می‌توان از فعل‌های **anschauen**، **schauen** و **sehen** استفاده کرد. این فعل‌ها تقریباً معادل هم هستند. \n\n**sehen**: دیدن (عمومی و خنثی) \n**schauen**: نگاه کردن / تماشا کردن (فعال‌تر، خیلی رایج در جنوب آلمان و اتریش) \n**gucken** (یا kucken): نگاه کردن (کاملاً محاوره‌ای و عامیانه، بیشتر در شمال آلمان استفاده می‌شود). \n\nدر عمل برای ویدیوها اغلب می‌گویند: Videos anschauen / einen Film schauen / ein Video gucken.",
+    "examples": [
+      {
+        "de": "Ich schaue gerne Videos auf TikTok.",
+        "fa": "من دوست دارم ویدیوهای تیک‌تاک را تماشا کنم."
+      },
+      {
+        "de": "Hast du das neue Video gesehen?",
+        "fa": "اون ویدیو جدید رو دیدی؟"
+      },
+      {
+        "de": "Ich gucke gerade ein lustiges Reel.",
+        "fa": "الان دارم یک ریل بامزه نگاه می‌کنم."
+      }
+    ],
+    "note": "نکته: \n- «anschauen» و «ansehen» برای تماشای هدفمند (مثل فیلم یا ویدیو) خیلی طبیعی هستند. \n- «gucken» خیلی محاوره‌ای است و در نوشتار رسمی کمتر استفاده می‌شود. \n- در جنوب آلمان و اتریش بیشتر «schauen» می‌شنوند، در شمال «gucken». \n- فعل «sehen» برای دیدن اتفاقی مناسب‌تر است، اما برای ویدیو هم قابل استفاده است."
+  },
+  {
+    "id": "10",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA: in Kontakt bleiben mit + ...",
+    "description": "عبارت «in Kontakt bleiben mit + Dativ» به معنای «در تماس ماندن با کسی یا چیزی» است. این یک عبارت ثابت و پرکاربرد در آلمانی است که برای صحبت درباره حفظ ارتباط (به خصوص در شبکه‌های اجتماعی) استفاده می‌شود.\n\nساختار گرامری:\n- bleiben → فعل اصلی (در حال ساده: ich bleibe, du bleibst, er/sie/es bleibt, wir bleiben و ...)\n- in Kontakt bleiben → عبارت ثابت\n- mit + اسم یا ضمیر در حالت Dativ (با کسی)\n\nاین عبارت اغلب در زمینه اجتماعی و دیجیتال به کار می‌رود و نشان‌دهنده ادامه ارتباط است.",
+    "examples": [
+      {
+        "de": "Ich bleibe in Kontakt mit meiner Familie.",
+        "fa": "من با خانواده‌ام در تماس می‌مانم."
+      },
+      {
+        "de": "Wir bleiben über WhatsApp in Kontakt.",
+        "fa": "ما از طریق واتساپ در تماس می‌مانیم."
+      },
+      {
+        "de": "Bleibst du in Kontakt mit deinen Freunden aus der Schule?",
+        "fa": "آیا با دوستان مدرسه‌ات در تماس می‌مانی؟"
+      }
+    ],
+    "note": "نکات گرامری مهم:\n• بعد از «mit» همیشه حالت Dativ می‌آید (meiner Familie, meinen Freunden, ihm, ihr, ihnen).\n• فعل «bleiben» در زمان حال (Präsens) صرف می‌شود و «in Kontakt» بین فاعل و فعل قرار می‌گیرد.\n• در جملات پرسشی: Bleibst du ... ? / Bleiben Sie ... ?\n• عبارت مخالف: den Kontakt verlieren (ارتباط را از دست دادن).\n• در سطح A2.1 این عبارت خیلی کاربردی است چون در موضوعات «Freunde», «Soziale Medien» و «Alltag» زیاد استفاده می‌شود.\n\nنکته نمایش: تمام خطوط را طوری تنظیم کنید که در ابعاد 280x460 به خوبی نمایش داده شود (از \\n برای جداسازی خطوط استفاده شده است)."
+  },
+  {
+    "id": "11",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:neue Kontakte knüpfen",
+    "description": "عبارت «neue Kontakte knüpfen» یک عبارت رایج و idiomatic در زبان آلمانی است. به معنای «ایجاد تماس‌های جدید» یا «دوستی‌ها و ارتباط‌های تازه برقرار کردن» می‌باشد.\n\nفعل «knüpfen» به معنای گره زدن یا اتصال دادن است و در این عبارت به صورت جدایی‌پذیر (trennbar) استفاده می‌شود. در زمان حال (Präsens) پیشوند «an» جدا شده و در انتهای جمله قرار می‌گیرد.\n\nساختار اصلی: \nSubjekt + knüpft + ... + an\n\nاین عبارت معمولاً در زمینه شبکه‌های اجتماعی، اینترنت و روابط آنلاین به کار می‌رود.",
+    "examples": [
+      {
+        "de": "Man kann im Internet neue Kontakte knüpfen.",
+        "fa": "می‌توان در اینترنت تماس‌های جدید برقرار کرد."
+      },
+      {
+        "de": "Ich knüpfe auf Instagram neue Kontakte.",
+        "fa": "من در اینستاگرام تماس‌های جدید برقرار می‌کنم."
+      },
+      {
+        "de": "Viele Leute knüpfen über Facebook neue Kontakte an.",
+        "fa": "بسیاری از مردم از طریق فیسبوک تماس‌های جدید برقرار می‌کنند."
+      }
+    ],
+    "note": "نکته مهم: فعل «anknüpfen» (به صورت جدایی‌پذیر) است. در جملات:\n- زمان حال: Ich knüpfe ... an.\n- گذشته ساده (Präteritum): Ich knüpfte ... an.\n- حال کامل (Perfekt): Ich habe ... angeknüpft.\n\nدر سطح A2 فقط از شکل infinitive (knüpfen) و Präsens استفاده کنید. عبارت «Kontakte knüpfen» بسیار طبیعی و رایج است و به جای «Freunde finden» یا «neue Leute kennenlernen» در زمینه اجتماعی به کار می‌رود.\n\nکلمات مرتبط مفید: über Social Media, auf Instagram, im Internet, neue Freunde."
+  },
+  {
+    "id": "12",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Bilder posten",
+    "description": "برای صحبت کردن درباره پست کردن عکس در شبکه‌های اجتماعی از فعل «posten» استفاده می‌کنیم. این فعل مخلوط (schwach) است و در زمان حال (Präsens) به این شکل صرف می‌شود:\n\nich poste\ndu postest\ner/sie/es postet\nwir posten\nihr postet\nsie/Sie posten\n\nفعل «hochladen» (آپلود کردن) نیز خیلی رایج است و جدا شونده (trennbar) است: ich lade ... hoch.",
+    "examples": [
+      {
+        "de": "Ich poste ein schönes Bild auf Instagram.",
+        "fa": "من یک عکس قشنگ در اینستاگرام پست می‌کنم."
+      },
+      {
+        "de": "Wir laden die Fotos auf Facebook hoch.",
+        "fa": "ما عکس‌ها را در فیسبوک آپلود می‌کنیم."
+      },
+      {
+        "de": "Postest du das Bild heute?",
+        "fa": "آیا امروز آن عکس را پست می‌کنی؟"
+      }
+    ],
+    "note": "نکته مهم: فعل «posten» در آلمانی اغلب بدون مفعول مستقیم استفاده می‌شود یا با «ein Bild / Fotos» همراه است. برای آپلود کردن از «hochladen» (جدا شونده) استفاده کنید: «Ich lade das Bild hoch.»\n\nدر جملات منفی: «Ich poste kein Selfie.»\n\nبرای سؤال: «Was postest du heute?»\n\nکلمات مفید: das Bild (عکس)، das Foto (عکس)، das Selfie (سلفی)، die Story (استوری)، hochladen (آپلود کردن)، liken (لایک کردن)."
+  },
+  {
+    "id": "13",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Bilder teilen",
+    "description": "در این مبحث گرامر آلمانی، با فعل «teilen» (به اشتراک گذاشتن) و فعل‌های مرتبط مانند «posten» و «hochladen» آشنا می‌شوید. این فعل‌ها برای صحبت درباره به اشتراک گذاشتن عکس‌ها در شبکه‌های اجتماعی (اینستاگرام، فیسبوک و ...) استفاده می‌شوند.\n\n«teilen» یک فعل معمولی است و در زمان حال به این شکل صرف می‌شود:\nich teile, du teilst, er/sie/es teilt, wir teilen, ihr teilt, sie teilen.\n\nدر جملات کامل اغلب با «mit + Dativ» (با کسی) یا «auf + Dativ» (در شبکه اجتماعی) ترکیب می‌شود.",
+    "examples": [
+      {
+        "de": "Ich teile das Foto auf Instagram.",
+        "fa": "من این عکس را در اینستاگرام به اشتراک می‌گذارم."
+      },
+      {
+        "de": "Sie postet viele Bilder.",
+        "fa": "او عکس‌های زیادی پست می‌کند."
+      },
+      {
+        "de": "Wir laden das Foto hoch.",
+        "fa": "ما عکس را آپلود می‌کنیم."
+      },
+      {
+        "de": "Teilst du das Bild mit deinen Freunden?",
+        "fa": "آیا این تصویر را با دوستانت به اشتراک می‌گذاری؟"
+      }
+    ],
+    "note": "نکته مهم: فعل «teilen» در جملات با «mit» + شخص (داتیو) استفاده می‌شود، مثلاً: mit meinen Freunden.\n\nفعل «posten» و «hochladen» نیز بسیار رایج هستند. «hochladen» یک فعل جداسازی‌پذیر (trennbares Verb) است: Ich lade das Foto hoch.\n\nدر سطح A2.1 جملات را ساده نگه دارید و از ساختار Subject + Verb + Object + Ort استفاده کنید.\n\nکلمات مفید: das Bild / das Foto, auf Instagram, mit Freunden, viele Likes bekommen."
+  },
+  {
+    "id": "14",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Bilder liken",
+    "description": "در آلمانی برای گفتن «لایک کردن عکس» روی شبکه‌های اجتماعی، بیشتر از فعل «gefallen» استفاده می‌شود که به معنای «پسندیدن» یا «خوش آمدن» است.\n\nصرف فعل gefallen (در زمان حال):\n- mir gefällt ... (برای یک چیز مفرد)\n- mir gefallen ... (برای چند چیز)\n\nاین فعل همیشه با داتیو (mir, dir, ihm, uns و ...) همراه است و فاعل واقعی، خود «عکس» یا «پست» است. یعنی: «این عکس به من خوش می‌آید.»\n\nفعل liken هم در زبان روزمره استفاده می‌شود و مثل فعل‌های معمولی صرف می‌شود: ich like, du likest, er likt ...",
+    "examples": [
+      {
+        "de": "Das Bild gefällt mir.",
+        "fa": "این عکس را لایک می‌کنم. / این عکس خوشم می‌آید."
+      },
+      {
+        "de": "Dein Foto gefällt mir sehr!",
+        "fa": "عکس تو خیلی خوشم می‌آید!"
+      },
+      {
+        "de": "Ich like dein Bild.",
+        "fa": "عکس تو را لایک می‌کنم."
+      },
+      {
+        "de": "Die Bilder gefallen uns.",
+        "fa": "این عکس‌ها را لایک می‌کنیم."
+      }
+    ],
+    "note": "نکته: در شبکه‌های اجتماعی آلمانی‌زبان معمولاً دکمه «Gefällt mir» وجود دارد. در مکالمه روزمره هر دو شکل «gefällt mir» و «liken» رایج است. \n\nدر جملات منفی: Das gefällt mir nicht. (= این را لایک نمی‌کنم.)\n\nبرای تأکید بیشتر می‌توان گفت: Das gefällt mir total! یا Super!"
+  },
+  {
+    "id": "15",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Bilder kommentieren",
+    "description": "در این مبحث یاد می‌گیریم چطور زیر عکس‌ها در شبکه‌های اجتماعی (اینستاگرام، فیسبوک و غیره) کامنت بگذاریم.\n\nبرای کامنت گذاشتن روی عکس‌ها از فعل‌های ساده استفاده می‌کنیم:\n\n• sehen (دیدن) → ich sehe ... / ich sehe, dass ...\n• finden (پیدا کردن / فکر کردن) → ich finde ... / ich finde das ...\n• gefallen (خوش آمدن) → mir gefällt ... (داتيف)\n• denken / glauben / meinen (فکر کردن) → ich denke, dass ... / ich glaube, dass ...\n\nتوضیح گرامر:\n- فعل sehen در زمان حال: ich sehe, du siehst, er/sie/es sieht, wir sehen, ihr seht, sie sehen.\n- بعد از dass فعل به آخر جمله می‌رود (جمله وابسته).\n- mir gefällt + nominativ (چیزی که خوشمان می‌آید).\n- Adjektiv (صفت) قبل از اسم باید با توجه به جنس، تعداد و حالت جمله تغییر کند (مثلاً schönes Bild, schöne Fotos).",
+    "examples": [
+      {
+        "de": "Das Bild ist super schön!",
+        "fa": "این عکس خیلی قشنگه!"
+      },
+      {
+        "de": "Ich sehe einen Hund auf dem Foto.",
+        "fa": "من یک سگ روی عکس می‌بینم."
+      },
+      {
+        "de": "Mir gefällt dein Urlaubsfoto!",
+        "fa": "عکس تعطیلاتت خیلی بهم خوش اومد!"
+      },
+      {
+        "de": "Ich finde das lustig.",
+        "fa": "من اینو بامزه پیدا می‌کنم."
+      },
+      {
+        "de": "Wow, das sieht toll aus!",
+        "fa": "وای، این خیلی عالی به نظر می‌رسه!"
+      }
+    ],
+    "note": "نکات اضافی گرامری:\n- برای نظر دادن از عباراتی مثل «Ich finde ...», «Ich denke, dass ...» یا «Mir gefällt ...» استفاده کنید.\n- صفت‌ها در کامنت‌های کوتاه اغلب بدون مقاله می‌آیند (super schön, sehr lustig).\n- در سطح A2.1 فعل‌ها را در حال ساده (Präsens) نگه دارید و از جملات پیچیده زیاد اجتناب کنید.\n- می‌توانید کامنت را با ایموجی تمام کنید: 😍👍\n- مثال‌های کوتاه و کاربردی برای تمرین روزانه: عکس دوستتان را ببینید و سریع کامنت بگذارید."
+  },
+
+  {
+    "id": "16",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Erinnerungen sammeln",
+    "description": "در این مبحث با فعل «sammeln» (جمع‌آوری کردن) آشنا می‌شوید. این فعل برای صحبت درباره جمع‌آوری عکس‌ها، ویدیوها و خاطرات در شبکه‌های اجتماعی مانند اینستاگرام، فیسبوک یا تیک‌تاک خیلی کاربردی است.\n\nصرف فعل sammeln در زمان حال (Präsens):\nich sammle\ndu sammelst\ner/sie/es sammelt\nwir sammeln\nihr sammelt\nsie/Sie sammeln\n\nتوضیح گرامر: فعل sammeln یک فعل معمولی (regelmäßig) است و در زمان حال با افزودن پسوندهای معمولی صرف می‌شود. توجه کنید که در سوم شخص مفرد (er/sie/es) به جای «e» از «t» استفاده می‌شود: sammelt.",
+    "examples": [
+      {
+        "de": "Ich sammle schöne Erinnerungen auf Instagram.",
+        "fa": "من خاطرات قشنگ را در اینستاگرام جمع‌آوری می‌کنم."
+      },
+      {
+        "de": "Wir sammeln Fotos von unserer Reise.",
+        "fa": "ما عکس‌های سفرمان را جمع‌آوری می‌کنیم."
+      },
+      {
+        "de": "Sammelst du auch Stories?",
+        "fa": "تو هم استوری‌ها را جمع‌آوری می‌کنی؟"
+      },
+      {
+        "de": "Sie sammelt alte Bilder in einem Album.",
+        "fa": "او عکس‌های قدیمی را در یک آلبوم جمع می‌کند."
+      }
+    ],
+    "note": "نکته مهم: فعل «sammeln» در جمله‌های اصلی (Hauptsatz) همیشه در جایگاه دوم قرار می‌گیرد (مانند دیگر افعال). اگر جمله با فاعل شروع شود، فعل بلافاصله بعد از فاعل می‌آید.\n\nنکته اضافی: برای «یادآوری کردن» از فعل «erinnern» استفاده می‌شود (sich erinnern an + Akkusativ). مثلاً: Ich erinnere mich an den Urlaub. (من سفر را به یاد می‌آورم.)\n\nدر سطح A2.1 این ساختارها را تمرین کنید تا بتوانید درباره فعالیت‌های خود در شبکه‌های اجتماعی به راحتی صحبت کنید."
+  },
+  {
+    "id": "17",
+    "title-id": "Tag-5",
+    "title": "SOCIAL MEDIA:Information finden",
+    "description": "در این مبحث فعل‌های مهم برای پیدا کردن اطلاعات در شبکه‌های اجتماعی را یاد می‌گیریم.\n\nفعل «suchen» (جستجو کردن): \nصرف در حال ساده (Präsens):\nich suche, du suchst, er/sie/es sucht, wir suchen, ihr sucht, sie/Sie suchen.\n\nفعل «finden» (پیدا کردن): \nصرف در حال ساده:\nich finde, du findest, er/sie/es findet, wir finden, ihr findet, sie/Sie finden.\n\nاین فعل‌ها اغلب با حروف اضافه «nach» (برای suchen) و «in» یا «auf» (برای finden) استفاده می‌شوند. مثلاً: Informationen in sozialen Medien finden.\n\nتوضیح گرامر: فعل‌ها در موقعیت اول جمله قرار می‌گیرند و فاعل بعد از آن می‌آید. برای سؤال از «Wo» یا «Wie» استفاده می‌کنیم.",
+    "examples": [
+      {
+        "de": "Ich suche nach Informationen über das Wetter.",
+        "fa": "من به دنبال اطلاعات درباره آب و هوا می‌گردم."
+      },
+      {
+        "de": "Wo findest du aktuelle Nachrichten?",
+        "fa": "اخبار جدید را کجا پیدا می‌کنی؟"
+      },
+      {
+        "de": "Auf Instagram finde ich viele Bilder.",
+        "fa": "در اینستاگرام تصاویر زیادی پیدا می‌کنم."
+      },
+      {
+        "de": "Suchst du in TikTok nach Rezepten?",
+        "fa": "در تیک‌تاک به دنبال دستور غذا می‌گردی؟"
+      }
+    ],
+    "note": "نکته اضافی: فعل «suchen» همیشه با «nach» + اسم (داتیو) استفاده می‌شود. فعل «finden» مستقیماً با مفعول (آکوزاتیو) می‌آید. \nدر سطح A2 می‌توانید از ساختار ساده «Ich suche ...» یا «Man findet ...» برای جملات عمومی استفاده کنید. \nکلمات مفید: die Information (اطلاعات)، das Profil (پروفایل)، der Beitrag (پست)، soziale Medien (شبکه‌های اجتماعی)."
+  },
+{
+  "id": "18",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: informiert sein über + ...",
+  "description": "Die Struktur „informiert sein über + Akkusativ“ bedeutet: aktuelle Kenntnisse oder Informationen über ein Thema haben. \n\nGrammatik-Erklärung auf Persisch: \nاین ساختار برای بیان «آگاه بودن از چیزی» یا «اطلاع داشتن از موضوعی» استفاده می‌شود. فعل «sein» در زمان حال صرف می‌شود (ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind). بعد از «über» همیشه اسم یا ضمیر در حالت accusative (مفعولی) می‌آید. «über» در معنای «درباره» اینجا همیشه با accusative ترکیب می‌شود (نه dative).",
+  "examples": [
+    {
+      "de": "Man ist informiert über die neuesten Events.",
+      "fa": "کسی از جدیدترین رویدادها آگاه است."
+    },
+    {
+      "de": "Ich bin gut informiert über Social Media Trends.",
+      "fa": "من از روندهای رسانه‌های اجتماعی خوب آگاهم."
+    },
+    {
+      "de": "Bist du informiert über die neue App?",
+      "fa": "آیا از اپلیکیشن جدید آگاه هستی؟"
+    },
+    {
+      "de": "Wir sind immer informiert über aktuelle Nachrichten.",
+      "fa": "ما همیشه از اخبار فعلی آگاه هستیم."
+    }
+  ],
+  "note": "نکته مهم گرامری: \n- «informiert sein» یک حالت توصیفی (Adjektiv + sein) است و نه فعل کامل. \n- بعد از «über» در این معنای (درباره) همیشه accusative استفاده می‌شود (مثال: über die Trends, über das Event, über die Nachrichten). \n- می‌توانید از قیدهایی مثل gut, sehr, immer, nicht استفاده کنید: gut informiert sein. \n- در سطح A2.1 از زمان حال (Präsens) استفاده کنید و فاعل را تغییر دهید (ich, du, er, wir ...)."
+},
+{
+  "id": "19",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: Hacker",
+  "description": "کلمه «Hacker» در آلمانی به معنای هکر است. این واژه یک اسم مذکر (maskulin) است و با مقاله «der» همراه می‌شود.\n\nصرف فعل مرتبط: hacken (هک کردن)\n\nصرف در حال ساده (Präsens):\n- ich hacke\n- du hackst\n- er/sie/es hackt\n- wir hacken\n- ihr hackt\n- sie/Sie hacken\n\nتوضیح گرامر: فعل «hacken» یک فعل ضعیف (regelmäßig) است. برای ساختن صرف آن در زمان حال، به ساقه فعل «hack-» پسوندهای شخصی اضافه می‌کنیم. در سوم شخص مفرد (er/sie/es) و دوم شخص مفرد (du) همیشه «-t» یا «-st» اضافه می‌شود. این الگو برای اکثر افعال منظم در سطح A2 صدق می‌کند.",
+  "examples": [
+    {
+      "de": "Der Hacker hackt das Passwort.",
+      "fa": "هکر رمز عبور را هک می‌کند."
+    },
+    {
+      "de": "Ich hacke nicht in fremde Computer.",
+      "fa": "من در کامپیوترهای دیگران هک نمی‌کنم."
+    },
+    {
+      "de": "Der Hacker ist sehr gefährlich.",
+      "fa": "هکر خیلی خطرناک است."
+    }
+  ],
+  "note": "نکته اضافی: در آلمانی «Hacker» همیشه با «der» می‌آید چون اسم‌های پایان‌یافته با -er معمولاً مذکر هستند. فعل «hacken» در جملات منفی با «nicht» ساخته می‌شود. برای سطح A2.1 از جملات ساده با فاعل + فعل + مفعول استفاده کنید. کلمه «Passwort» (رمز عبور) نیز مفید است و neuter است (das Passwort)."
+},
+{
+  "id": "20",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: Fake Profile",
+  "description": "در این مبحث با واژگان و جملات مرتبط با «پروفایل جعلی» در شبکه‌های اجتماعی آشنا می‌شوید. \n\nتوضیح گرامر: در سطح A2.1 بیشتر جملات در زمان حال (Präsens) ساخته می‌شوند. صرف افعال منظم در Präsens به این صورت است: \nبرای فعل infinitive (مثلاً posten): \n- ich poste \n- du postest \n- er/sie/es postet \n- wir posten \n- ihr postet \n- sie/Sie posten \n\nافعال مهم اینجا: posten (پست کردن)، teilen (اشتراک‌گذاری)، liken (لایک کردن)، erstellen (ایجاد کردن)، benutzen (استفاده کردن). \nاین افعال معمولاً با قیدهای زمانی مثل heute, oft, manchmal ترکیب می‌شوند.",
+  "examples": [
+    {
+      "de": "Ich erstelle ein Fake-Profil.",
+      "fa": "من یک پروفایل جعلی ایجاد می‌کنم."
+    },
+    {
+      "de": "Er postet Fotos mit einem falschen Namen.",
+      "fa": "او با نام جعلی عکس پست می‌کند."
+    },
+    {
+      "de": "Wir liken und teilen Beiträge von Fake-Profilen nicht.",
+      "fa": "ما پست‌های پروفایل‌های جعلی را لایک و شیر نمی‌کنیم."
+    },
+    {
+      "de": "Du benutzt oft Social Media.",
+      "fa": "تو اغلب از شبکه‌های اجتماعی استفاده می‌کنی."
+    }
+  ],
+  "note": "نکته گرامری اضافی: در Präsens، افعال با حروف صدادار تغییر می‌کنند (مثل sprechen → du sprichst) اما افعال posten، liken، teilen و erstellen منظم هستند و تغییر خاصی ندارند. \n\nنکته کاربردی: برای شناسایی پروفایل جعلی می‌توانید بگویید: „Das Profil sieht falsch aus.“ (این پروفایل جعلی به نظر می‌رسد.) \n\nکلمات کلیدی: das Fake-Profil, der falsche Name, das Foto, der Beitrag, das Social Media."
+},
+{
+  "id": "21",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: schützen",
+  "description": "فعل schützen به معنای «محافظت کردن، حفاظت کردن» است. این فعل منظم (regelmäßig) است و در زمان حال (Präsens) صرف می‌شود.\n\nصرف فعل در زمان حال:\nich schütze\ndu schützt\ner/sie/es schützt\nwir schützen\nihr schützt\nsie/Sie schützen\n\nدر موضوع شبکه‌های اجتماعی، از این فعل برای صحبت درباره حفاظت از اطلاعات شخصی و حریم خصوصی استفاده می‌شود. مثلاً محافظت از عکس‌ها، شماره تلفن، موقعیت مکانی و داده‌های شخصی.",
+  "examples": [
+    {
+      "de": "Wir müssen unsere Privatsphäre schützen.",
+      "fa": "ما باید حریم خصوصی خود را محافظت کنیم."
+    },
+    {
+      "de": "Schütze deine Handynummer auf Social Media.",
+      "fa": "شماره تلفن خود را در شبکه‌های اجتماعی محافظت کن."
+    },
+    {
+      "de": "Ich schütze meine Bilder vor Fremden.",
+      "fa": "من عکس‌هایم را در برابر غریبه‌ها محافظت می‌کنم."
+    }
+  ],
+  "note": "نکته: فعل schützen اغلب با مفعول مستقیم (Akkusativ) استفاده می‌شود، مثلاً: etwas schützen (چیزی را محافظت کردن). در سطح A2.1 از زمان حال (Präsens) استفاده کنید. فعل با haben در زمان کامل (Perfekt) صرف می‌شود: ich habe geschützt. \n\nدر جملات دستوری (Imperativ) برای du: Schütze! (بدون e اضافی در برخی موارد محاوره‌ای)."
+},
+{
+  "id": "22",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: hate speech = negative Kommentare",
+  "description": "در این مبحث یاد می‌گیریم چطور در آلمانی بگوییم که یک مفهوم معادل یا همان چیز دیگری است. ساختار اصلی: \n\nSubjekt + Verb (sein/bedeutet) + Gleichsetzung. \n\nفعل «sein» (بودن) صرف می‌شود و برای تعریف یا معادل‌سازی استفاده می‌شود. مثلاً: Hate speech ist ... \n\nدر سطح A2 فعل «bedeuten» هم رایج است و به معنی «معنی دادن» یا «به معنای ... بودن» است. \n\nصرف فعل sein در حال حاضر (Präsens): \nich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. \n\nصرف فعل bedeuten (برای همه فاعل‌ها تقریباً یکسان است اما با es/ das بدین صورت: Das bedeutet ...).",
+  "examples": [
+    {
+      "de": "Hate speech ist negative Kommentare.",
+      "fa": "هیت اسپید یعنی کامنت‌های منفی."
+    },
+    {
+      "de": "Hassrede bedeutet negative Kommentare im Internet.",
+      "fa": "هاس‌رده به معنای کامنت‌های منفی در اینترنت است."
+    },
+    {
+      "de": "Das ist Hate Speech.",
+      "fa": "این هیت اسپید است."
+    },
+    {
+      "de": "Negative Kommentare sind oft Hate Speech.",
+      "fa": "کامنت‌های منفی اغلب هیت اسپید هستند."
+    }
+  ],
+  "note": "نکته مهم: در آلمانی برای معادل‌سازی از «ist» یا «sind» (از فعل sein) استفاده می‌کنیم. وقتی موضوع مفرد است «ist» و وقتی جمع است «sind» به کار می‌رود. \n\n«Bedeutet» بیشتر برای توضیح معنی یک کلمه به کار می‌رود و فاعل آن معمولاً «das» یا «es» است. \n\nدر جملات ساده A2 از «kein» برای منفی کردن استفاده کنید، مثلاً: Das ist kein Hate Speech. \n\nترتیب کلمات: فاعل اول، فعل دوم (موقعیت دوم فعل در جمله اصلی). \n\nاین ساختار خیلی کاربردی است برای توضیح واژگان در شبکه‌های اجتماعی."
+},
+{
+  "id": "23",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: mobben + ...",
+  "description": "فعل mobben به معنای «قلدری کردن، آزار دادن گروهی یا تحقیر کردن کسی (مثلاً در شبکه‌های اجتماعی)» است.\n\nاین فعل منظم (regelmäßig) است و با haben صرف می‌شود.\n\nصرف در حال ساده (Präsens):\nich mobbe\ndu mobbst\ner/sie/es mobbt\nwir mobben\nihr mobbt\nsie/Sie mobben\n\nصرف در گذشته ساده (Präteritum):\nich mobbte\ndu mobbtest\ner/sie/es mobbte\nwir mobbten\nihr mobbtet\nsie/Sie mobbten\n\nصرف کامل (Perfekt):\nich habe gemobbt\ndu hast gemobbt\ner/sie/es hat gemobbt\nwir haben gemobbt\nihr habt gemobbt\nsie/Sie haben gemobbt",
+  "examples": [
+    {
+      "de": "Er mobbt seine Mitschüler im Chat.",
+      "fa": "او همکلاسی‌هایش را در چت قلدری می‌کند."
+    },
+    {
+      "de": "Warum mobbst du mich immer online?",
+      "fa": "چرا همیشه مرا آنلاین آزار می‌دهی؟"
+    },
+    {
+      "de": "Sie hat ihre Kollegin lange gemobbt.",
+      "fa": "او مدت طولانی همکارش را آزار داده است."
+    },
+    {
+      "de": "Wir mobben niemanden in den sozialen Medien.",
+      "fa": "ما در شبکه‌های اجتماعی کسی را قلدری نمی‌کنیم."
+    }
+  ],
+  "note": "نکته: فعل mobben همیشه مفعول مستقیم (Akkusativ) می‌گیرد، مثلاً jemanden mobben.\n\nدر زمینه شبکه‌های اجتماعی خیلی رایج است و به معنای آزار روانی گروهی یا فردی آنلاین به کار می‌رود.\n\nاسم فاعل: der Mobber\nاسم مصدر: das Mobbing"
+},
+{
+  "id": "24",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: Vergleiche machen mit + ...",
+  "description": "در این مبحث یاد می‌گیریم چطور در آلمانی از فعل «vergleichen» (مقایسه کردن) برای ساخت جملات در مورد مقایسه افراد یا چیزها در شبکه‌های اجتماعی استفاده کنیم.\n\nصرف فعل vergleichen (در حال ساده - Präsens):\nich vergleiche\ndu vergleichst\ner/sie/es vergleicht\nwir vergleichen\nihr vergleicht\nsie/Sie vergleichen\n\nگرامر: فعل «vergleichen» همیشه با حرف اضافه «mit» + داتیو (Dativ) استفاده می‌شود. یعنی بعد از «mit» اسم یا ضمیر باید در حالت داتیو باشد. این ساختار برای گفتن «مقایسه کردن کسی/چیزی با کسی/چیزی دیگر» خیلی رایج است، مخصوصاً وقتی در مورد پست‌ها، عکس‌ها یا زندگی دیگران در اینستاگرام، تیک‌تاک و غیره صحبت می‌کنیم.",
+  "examples": [
+    {
+      "de": "Ich vergleiche mich oft mit meinen Freunden auf Instagram.",
+      "fa": "من اغلب خودم را با دوستانم در اینستاگرام مقایسه می‌کنم."
+    },
+    {
+      "de": "Sie vergleicht ihr Leben mit dem Leben der Influencer.",
+      "fa": "او زندگی خودش را با زندگی اینفلوئنسرها مقایسه می‌کند."
+    },
+    {
+      "de": "Vergleichst du dich mit anderen auf Social Media?",
+      "fa": "آیا خودت را با دیگران در شبکه‌های اجتماعی مقایسه می‌کنی؟"
+    },
+    {
+      "de": "Wir vergleichen unsere Fotos mit den Fotos von Stars.",
+      "fa": "ما عکس‌های خودمان را با عکس‌های ستاره‌ها مقایسه می‌کنیم."
+    }
+  ],
+  "note": "نکته مهم: بعد از «mit» همیشه داتیو می‌آید (مثلاً: mit meinen Freunden، mit dem Leben، mit anderen). \n\nدر سطح A2.1 از ضمیرهای داتیو ساده مثل mir, dir, ihm, ihr, uns, euch, ihnen استفاده کنید. \n\nاین ساختار خیلی کاربردی است برای صحبت کردن درباره تأثیرات منفی یا مثبت شبکه‌های اجتماعی (مثل حس حسادت یا انگیزه گرفتن). \n\nجملات را کوتاه نگه دارید و از کلماتی مثل oft (اغلب)، manchmal (گاهی) و immer (همیشه) برای طبیعی‌تر شدن استفاده کنید."
+},
+{
+  "id": "25",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: die Privatsphäre schützen",
+  "description": "در این مبحث با فعل‌های reflexive (بازتابی) آشنا می‌شوید که برای صحبت درباره حفاظت از حریم خصوصی در شبکه‌های اجتماعی بسیار کاربردی هستند. فعل‌های reflexive همیشه با ضمیر sich همراه‌اند و به معنای «خود را ... کردن» هستند. مثلاً sich schützen یعنی «خود را محافظت کردن». در زمان حال، sich معمولاً بعد از فاعل و قبل از فعل اصلی قرار می‌گیرد. همچنین از modal verbs مثل müssen (باید)، sollen (باید/بهتر است) و können (می‌توان) برای دادن توصیه و توضیح امکان استفاده می‌کنیم. ساختار جمله ساده است: فاعل + sich + فعل + بقیه جمله.",
+  "examples": [
+    {
+      "de": "Ich schütze mich auf Social Media.",
+      "fa": "من خودم را در شبکه‌های اجتماعی محافظت می‌کنم."
+    },
+    {
+      "de": "Du musst deine Privatsphäre einstellen.",
+      "fa": "تو باید حریم خصوصی‌ات را تنظیم کنی."
+    },
+    {
+      "de": "Wir sollen nicht zu viele Fotos posten.",
+      "fa": "ما نباید عکس‌های خیلی زیاد پست کنیم."
+    },
+    {
+      "de": "Man kann seine Daten schützen.",
+      "fa": "می‌توان داده‌های خود را محافظت کرد."
+    }
+  ],
+  "note": "نکته: در فعل‌های reflexive، ضمیر sich بسته به فاعل تغییر می‌کند (mich, dich, sich, uns, euch, sich). مثلاً: Ich schütze mich / Du schützt dich. در جملات با modal verb، فعل اصلی در انتهای جمله می‌آید (Ich muss mich schützen). همیشه تنظیمات حریم خصوصی (Privatsphäre-Einstellungen) را چک کنید و از پست کردن اطلاعات شخصی مثل آدرس یا شماره تلفن خودداری کنید. این ساختارها در سطح A2.1 برای صحبت‌های روزمره درباره اینترنت مفید هستند."
+},
+{
+  "id": "26",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: verschwenden + ...",
+  "description": "فعل \"verschwenden\" به معنی \"هدر دادن\" یا \"ضایع کردن\" است. این فعل همیشه با مفعول مستقیم (Akkusativ) استفاده می‌شود و نشان‌دهنده هدر دادن چیزی مثل زمان، پول یا انرژی است.\n\nصرف فعل در زمان حال (Präsens):\nich verschwende\ndu verschwendest\ner/sie/es verschwendet\nwir verschwenden\nihr verschwendet\nsie/Sie verschwenden\n\nتوضیح گرامر: فعل \"verschwenden\" یک فعل transitive است و بعد از آن مفعول چهارم (Akkusativ) می‌آید. مثلاً Zeit (زمان) به صورت die Zeit (در Akkusativ بدون تغییر برای اسم مؤنث) یا meine Zeit استفاده می‌شود.",
+  "examples": [
+    {
+      "de": "Man verschwendet Zeit.",
+      "fa": "آدم زمان را هدر می‌دهد."
+    },
+    {
+      "de": "Man kann auf Social Media viel Zeit verschwenden.",
+      "fa": "می‌توان در شبکه‌های اجتماعی خیلی زمان هدر داد."
+    },
+    {
+      "de": "Ich verschwende keine Zeit auf Instagram.",
+      "fa": "من در اینستاگرام زمان هدر نمی‌دهم."
+    },
+    {
+      "de": "Du verschwendest zu viel Zeit mit deinem Handy.",
+      "fa": "تو با گوشی‌ات زمان خیلی زیادی هدر می‌دهی."
+    }
+  ],
+  "note": "نکته: فعل \"verschwenden\" اغلب با کلماتی مثل Zeit، Geld، Energie یا Chance ترکیب می‌شود. در جملات منفی از \"keine\" یا \"nicht\" استفاده کنید. این ساختار در سطح A2 خیلی کاربردی است و برای صحبت درباره عادت‌های روزانه در شبکه‌های اجتماعی مناسب است.\n\nنکته اضافی: در جملات با \"man\" (آدم/یکی) شکل سوم شخص مفرد فعل (verschwendet) به کار می‌رود."
+},
+{
+  "id": "27",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: Zeit verbringen",
+  "description": "فعل «verbringen» به معنی «گذراندن زمان» است. \n\nصرف فعل در حال حاضر (Präsens): \nich verbringe \ndu verbringst \ner/sie/es verbringt \nwir verbringen \nihr verbringt \nsie/Sie verbringen \n\nبرای گفتن اینکه زمان را کجا یا با چه چیزی می‌گذرانیم، معمولاً از حرف اضافه «auf» + داتیو (auf Social Media) یا «mit» استفاده می‌کنیم. \nاین ساختار برای صحبت درباره عادت‌ها و فعالیت‌های روزانه در سطح A2 بسیار کاربردی است.",
+  "examples": [
+    {
+      "de": "Man verschwendet Zeit, wenn man zu viel Zeit auf Social Media verbringt.",
+      "fa": "وقت تلف می‌شود اگر زمان زیادی را در شبکه‌های اجتماعی بگذرانیم."
+    },
+    {
+      "de": "Wie viel Zeit verbringst du jeden Tag auf Social Media?",
+      "fa": "هر روز چقدر زمان را در شبکه‌های اجتماعی می‌گذرانی؟"
+    },
+    {
+      "de": "Ich verbringe nur eine Stunde am Tag auf Instagram.",
+      "fa": "من فقط یک ساعت در روز را در اینستاگرام می‌گذرانم."
+    },
+    {
+      "de": "Wir verbringen zu viel Zeit mit dem Handy.",
+      "fa": "ما زمان زیادی را با گوشی می‌گذرانیم."
+    }
+  ],
+  "note": "نکته گرامری: فعل verbringen همیشه با مفعول مستقیم (Zeit) به کار می‌رود و زمان را نشان می‌دهد (Accusative). \nحرف اضافه «auf» در این عبارت با داتیو می‌آید چون حالت حرکت ندارد (auf Social Media = روی/در شبکه‌های اجتماعی). \nبرای سؤال از «wie viel Zeit» استفاده کنید. \nدر سطح A2 از زمان حال (Präsens) برای عادت‌های روزانه کافی است. \nکلمه «verschwenden» یعنی «تلف کردن» و منفی‌تر از «verbringen» است."
+},
+{
+  "id": "28",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: abhängig sein von + ...",
+  "description": "عبارت «abhängig sein von + ...» برای بیان وابستگی به چیزی استفاده می‌شود.\n\nصرف فعل «sein» در زمان حال (Präsens):\n- ich bin abhängig von ...\n- du bist abhängig von ...\n- er/sie/es ist abhängig von ...\n- wir sind abhängig von ...\n- ihr seid abhängig von ...\n- sie/Sie sind abhängig von ...\n\nپس از «von» همیشه داتیو (Dativ) می‌آید. مثلاً: von dem Social Media → von dem Social Media (یا von Social Media).\nاین ساختار در سطح A2.1 برای صحبت درباره عادت‌ها و وابستگی‌ها خیلی کاربردی است.",
+  "examples": [
+    {
+      "de": "Kannst du ohne Social Media leben oder bist du von Social Media abhängig?",
+      "fa": "می‌توانی بدون شبکه‌های اجتماعی زندگی کنی یا به شبکه‌های اجتماعی وابسته‌ای؟"
+    },
+    {
+      "de": "Odette ist von Social Media abhängig.",
+      "fa": "اُدِت به شبکه‌های اجتماعی وابسته است."
+    },
+    {
+      "de": "Ich war früher von Zigaretten abhängig.",
+      "fa": "قبلاً به سیگار وابسته بودم."
+    },
+    {
+      "de": "Ich bin von Süßigkeiten abhängig.",
+      "fa": "من به شیرینی‌جات وابسته‌ام."
+    }
+  ],
+  "note": "نکته مهم: بعد از «von» حتماً از حالت داتیو استفاده کنید (مثلاً von meinem Handy, von den Likes).\n\nبرای گذشته از «war/waren» + abhängig استفاده می‌شود.\n\nاین عبارت را می‌توانید با کلمات دیگر هم ترکیب کنید: von meinem Handy, von Likes, von der App و غیره.\n\nدر جملات سؤالی خیلی طبیعی است: Bist du von ... abhängig?"
+},
+{
+  "id": "30",
+  "title-id": "Tag-5",
+  "title": "SOCIAL MEDIA: ab-lenken + ...",
+  "description": "فعل جداسازی‌پذیر ablenken به معنی «منحرف کردن» یا «پراکنده کردن توجه» است. \n\nصرف در حال ساده (Präsens): \nich lenke ab - du lenkst ab - er/sie/es lenkt ab \nwir lenken ab - ihr lenkt ab - sie/Sie lenken ab \n\nاین فعل معمولاً با مفعول مفعولی (Akkusativ) استفاده می‌شود و برای نشان دادن «از چه چیزی منحرف کردن» از حرف اضافه von + Dativ استفاده می‌شود. \nدر زمینه شبکه‌های اجتماعی: چیزهایی مثل TikTok، Instagram یا ویدیوها توجه را از کارهای مهم منحرف می‌کنند.",
+  "examples": [
+    {
+      "de": "TikTok lenkt sie ab.",
+      "fa": "تیک‌تاک او را منحرف می‌کند."
+    },
+    {
+      "de": "Das Video lenkt mich von der Arbeit ab.",
+      "fa": "این ویدیو مرا از کار منحرف می‌کند."
+    },
+    {
+      "de": "Die Benachrichtigungen lenken uns ab.",
+      "fa": "اعلان‌ها ما را منحرف می‌کنند."
+    },
+    {
+      "de": "Ich lenke mich mit Social Media ab.",
+      "fa": "من خودم را با شبکه‌های اجتماعی سرگرم/منحرف می‌کنم."
+    }
+  ],
+  "note": "نکته گرامری: \n- ablenken فعل جداسازی‌پذیر است؛ در جملات اصلی پیشوند ab در آخر جمله می‌رود (lenkt ... ab). \n- مفعول مستقیم (کسی که منحرف می‌شود) همیشه Akkusativ است. \n- برای نشان دادن موضوعی که از آن منحرف می‌شویم: von + Dativ (مثال: von der Arbeit). \n- شکل reflexive: sich ablenken = خود را سرگرم کردن / توجه خود را منحرف کردن. \nدر سطح A2 این فعل خیلی کاربردی است چون در مورد تأثیر شبکه‌های اجتماعی بر تمرکز صحبت می‌کنیم."
+}
+
+
+
+]

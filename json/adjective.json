@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "alt",
     "translation_fa": "پیر / قدیمی",
     "bestimmter_artikel": {
@@ -44,7 +44,7 @@
   },
   {
     "id": "2",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "jung",
     "translation_fa": "جوان",
     "bestimmter_artikel": {
@@ -87,7 +87,7 @@
   },
   {
     "id": "3",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "neu",
     "translation_fa": "جدید / نو",
     "bestimmter_artikel": {
@@ -130,7 +130,7 @@
   },
   {
     "id": "4",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "gut",
     "translation_fa": "خوب",
     "bestimmter_artikel": {
@@ -173,7 +173,7 @@
   },
   {
     "id": "5",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "schlecht",
     "translation_fa": "بد",
     "bestimmter_artikel": {
@@ -216,7 +216,7 @@
   },
   {
     "id": "6",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "groß",
     "translation_fa": "بزرگ",
     "bestimmter_artikel": {
@@ -259,7 +259,7 @@
   },
   {
     "id": "7",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "klein",
     "translation_fa": "کوچک",
     "bestimmter_artikel": {
@@ -302,7 +302,7 @@
   },
   {
     "id": "8",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "hoch",
     "translation_fa": "بلند / بالا",
     "bestimmter_artikel": {
@@ -345,7 +345,7 @@
   },
   {
     "id": "9",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "niedrig",
     "translation_fa": "پایین / کم",
     "bestimmter_artikel": {
@@ -387,7 +387,7 @@
   },
   {
     "id": "10",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "lang",
     "translation_fa": "بلند / طولانی",
     "bestimmter_artikel": {
@@ -429,7 +429,7 @@
   },
   {
     "id": "11",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "kurz",
     "translation_fa": "کوتاه",
     "bestimmter_artikel": {
@@ -471,7 +471,7 @@
   },
   {
     "id": "12",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "langsam",
     "translation_fa": "آهسته / کند",
     "bestimmter_artikel": {
@@ -513,7 +513,7 @@
   },
   {
     "id": "13",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "schwer",
     "translation_fa": "سنگین / سخت / دشوار",
     "bestimmter_artikel": {
@@ -555,7 +555,7 @@
   },
   {
     "id": "14",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "leicht",
     "translation_fa": "سبک / آسان",
     "bestimmter_artikel": {
@@ -597,7 +597,7 @@
   },
   {
     "id": "15",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "richtig",
     "translation_fa": "درست / صحیح",
     "bestimmter_artikel": {
@@ -639,7 +639,7 @@
   },
   {
     "id": "16",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "falsch",
     "translation_fa": "غلط / اشتباه",
     "bestimmter_artikel": {
@@ -681,7 +681,7 @@
   },
   {
     "id": "17",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "teuer",
     "translation_fa": "گران",
     "bestimmter_artikel": {
@@ -723,7 +723,7 @@
   },
   {
     "id": "18",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "billig",
     "translation_fa": "ارزان",
     "bestimmter_artikel": {
@@ -765,7 +765,7 @@
   },
   {
     "id": "19",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "warm",
     "translation_fa": "گرم",
     "bestimmter_artikel": {
@@ -808,7 +808,7 @@
 
   {
     "id": 20,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "kalt",
     "translation_fa": "سرد",
     "bestimmter_artikel": {
@@ -851,7 +851,7 @@
   },
   {
     "id": 21,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "heiß",
     "translation_fa": "داغ / گرم",
     "bestimmter_artikel": {
@@ -893,7 +893,7 @@
   },
   {
     "id": 22,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "kühl",
     "translation_fa": "خنک",
     "bestimmter_artikel": {
@@ -935,7 +935,7 @@
   },
   {
     "id": 23,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "laut",
     "translation_fa": "بلند / پرصدا",
     "bestimmter_artikel": {
@@ -977,7 +977,7 @@
   },
   {
     "id": 24,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "leise",
     "translation_fa": "آرام / کم‌صدا",
     "bestimmter_artikel": {
@@ -1019,7 +1019,7 @@
   },
   {
     "id": 25,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "schön",
     "translation_fa": "زیبا",
     "bestimmter_artikel": {
@@ -1061,7 +1061,7 @@
   },
   {
     "id": 26,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "hässlich",
     "translation_fa": "زشت",
     "bestimmter_artikel": {
@@ -1103,7 +1103,7 @@
   },
   {
     "id": 27,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "freundlich",
     "translation_fa": "دوستانه / مهربان",
     "bestimmter_artikel": {
@@ -1145,7 +1145,7 @@
   },
   {
     "id": 28,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "unfreundlich",
     "translation_fa": "نامهربان / بی‌ادب",
     "bestimmter_artikel": {
@@ -1187,7 +1187,7 @@
   },
   {
     "id": 29,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "glücklich",
     "translation_fa": "خوشحال",
     "bestimmter_artikel": {
@@ -1229,7 +1229,7 @@
   },
   {
     "id": 30,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "traurig",
     "translation_fa": "غمگین",
     "bestimmter_artikel": {
@@ -1271,7 +1271,7 @@
   },
   {
     "id": 31,
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "müde",
     "translation_fa": "خسته",
     "bestimmter_artikel": {
@@ -1314,7 +1314,7 @@
 
   {
     "id": "32",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "hungrig",
     "translation_fa": "گرسنه",
     "bestimmter_artikel": {
@@ -1356,7 +1356,7 @@
   },
   {
     "id": "33",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "durstig",
     "translation_fa": "تشنه",
     "bestimmter_artikel": {
@@ -1398,7 +1398,7 @@
   },
   {
     "id": "34",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "satt",
     "translation_fa": "سیر",
     "bestimmter_artikel": {
@@ -1440,7 +1440,7 @@
   },
   {
     "id": "35",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "krank",
     "translation_fa": "بیمار",
     "bestimmter_artikel": {
@@ -1482,7 +1482,7 @@
   },
   {
     "id": "36",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "gesund",
     "translation_fa": "سالم",
     "bestimmter_artikel": {
@@ -1524,7 +1524,7 @@
   },
   {
     "id": "37",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "voll",
     "translation_fa": "پر",
     "bestimmter_artikel": {
@@ -1566,7 +1566,7 @@
   },
   {
     "id": "38",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "leer",
     "translation_fa": "خالی",
     "bestimmter_artikel": {
@@ -1608,7 +1608,7 @@
   },
   {
     "id": "39",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "offen",
     "translation_fa": "باز",
     "bestimmter_artikel": {
@@ -1650,7 +1650,7 @@
   },
   {
     "id": "40",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "geschlossen",
     "translation_fa": "بسته",
     "bestimmter_artikel": {
@@ -1693,7 +1693,7 @@
 
   {
     "id": "41",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "frei",
     "translation_fa": "آزاد / خالی / رایگان",
     "bestimmter_artikel": {
@@ -1736,7 +1736,7 @@
   },
   {
     "id": "42",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "besetzt",
     "translation_fa": "مشغول / پر / اشغال",
     "bestimmter_artikel": {
@@ -1779,7 +1779,7 @@
   },
   {
     "id": "43",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "nah",
     "translation_fa": "نزدیک",
     "bestimmter_artikel": {
@@ -1822,7 +1822,7 @@
   },
   {
     "id": "44",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "weit",
     "translation_fa": "دور / وسیع",
     "bestimmter_artikel": {
@@ -1865,7 +1865,7 @@
   },
   {
     "id": "45",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "dick",
     "translation_fa": "ضخیم / چاق / کلفت",
     "bestimmter_artikel": {
@@ -1908,7 +1908,7 @@
   },
   {
     "id": "46",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "dünn",
     "translation_fa": "نازک / لاغر",
     "bestimmter_artikel": {
@@ -1951,7 +1951,7 @@
   },
   {
     "id": "47",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "stark",
     "translation_fa": "قوی / شدید",
     "bestimmter_artikel": {
@@ -1994,7 +1994,7 @@
   },
   {
     "id": "48",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "schwach",
     "translation_fa": "ضعیف",
     "bestimmter_artikel": {
@@ -2037,7 +2037,7 @@
   },
   {
     "id": "49",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "hell",
     "translation_fa": "روشن / روشن (رنگ) / پرنور",
     "bestimmter_artikel": {
@@ -2081,7 +2081,7 @@
 
   {
     "id": "50",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "dunkel",
     "translation_fa": "تاریک",
     "bestimmter_artikel": {
@@ -2124,7 +2124,7 @@
   },
   {
     "id": "51",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "nass",
     "translation_fa": "تر، خیس",
     "bestimmter_artikel": {
@@ -2167,7 +2167,7 @@
   },
   {
     "id": "52",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "trocken",
     "translation_fa": "خشک",
     "bestimmter_artikel": {
@@ -2210,7 +2210,7 @@
   },
   {
     "id": "52",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "hart",
     "translation_fa": "سخت، محکم",
     "bestimmter_artikel": {
@@ -2253,7 +2253,7 @@
   },
   {
     "id": "54",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "weich",
     "translation_fa": "نرم",
     "bestimmter_artikel": {
@@ -2296,7 +2296,7 @@
   },
   {
     "id": "55",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "sauber",
     "translation_fa": "تمیز",
     "bestimmter_artikel": {
@@ -2339,7 +2339,7 @@
   },
   {
     "id": "56",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "schmutzig",
     "translation_fa": "کثیف، آلوده",
     "bestimmter_artikel": {
@@ -2382,7 +2382,7 @@
   },
   {
     "id": "57",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "früh",
     "translation_fa": "زود، صبح زود",
     "bestimmter_artikel": {
@@ -2425,7 +2425,7 @@
   },
   {
     "id": "58",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "spät",
     "translation_fa": "دیر",
     "bestimmter_artikel": {
@@ -2468,7 +2468,7 @@
   },
   {
     "id": "59",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "wichtig",
     "translation_fa": "مهم",
     "bestimmter_artikel": {
@@ -2511,7 +2511,7 @@
   },
   {
     "id": "60",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "unwichtig",
     "translation_fa": "غیرمهم",
     "bestimmter_artikel": {
@@ -2555,7 +2555,7 @@
   },
   {
     "id": "61",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "einfach",
     "translation_fa": "ساده / آسان",
     "bestimmter_artikel": {
@@ -2599,7 +2599,7 @@
   },
   {
     "id": "62",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "schwierig",
     "translation_fa": "مشکل / دشوار",
     "bestimmter_artikel": {
@@ -2643,7 +2643,7 @@
   },
   {
     "id": "63",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "interessant",
     "translation_fa": "جالب",
     "bestimmter_artikel": {
@@ -2687,7 +2687,7 @@
   },
   {
     "id": "64",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "langweilig",
     "translation_fa": "خسته‌کننده / کسل‌کننده",
     "bestimmter_artikel": {
@@ -2731,7 +2731,7 @@
   },
   {
     "id": "65",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "möglich",
     "translation_fa": "ممکن",
     "bestimmter_artikel": {
@@ -2775,7 +2775,7 @@
   },
   {
     "id": "66",
-    "title-id": "A1",
+    "title_id": "A1",
     "adjective": "unmöglich",
     "translation_fa": "غیرممکن",
     "bestimmter_artikel": {
@@ -2820,7 +2820,7 @@
 
   {
     "id": "67",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "nett",
     "translation_fa": "مهربان / خوش‌اخلاق / دوست‌داشتنی",
     "bestimmter_artikel": {
@@ -2863,7 +2863,7 @@
   },
   {
     "id": "68",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "böse",
     "translation_fa": "بد / شرور / عصبانی",
     "bestimmter_artikel": {
@@ -2906,7 +2906,7 @@
   },
   {
     "id": "69",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "fröhlich",
     "translation_fa": "شاد / خوشحال",
     "bestimmter_artikel": {
@@ -2949,7 +2949,7 @@
   },
   {
     "id": "70",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "lustig",
     "translation_fa": "بامزه / خنده‌دار / سرگرم‌کننده",
     "bestimmter_artikel": {
@@ -2992,7 +2992,7 @@
   },
   {
     "id": "71",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "ernst",
     "translation_fa": "جدی",
     "bestimmter_artikel": {
@@ -3035,7 +3035,7 @@
   },
   {
     "id": "72",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "pünktlich",
     "translation_fa": "به‌موقع / دقیق (در زمان)",
     "bestimmter_artikel": {
@@ -3078,7 +3078,7 @@
   },
   {
     "id": "73",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unpünktlich",
     "translation_fa": "نا به‌موقع / دیرکردن",
     "bestimmter_artikel": {
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "74",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "fleißig",
     "translation_fa": "  سخت‌کوش",
     "bestimmter_artikel": {
@@ -3164,7 +3164,7 @@
   },
   {
     "id": "75",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "faul",
     "translation_fa": "تنبل",
     "bestimmter_artikel": {
@@ -3207,7 +3207,7 @@
   },
   {
     "id": "76",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "reich",
     "translation_fa": "ثروتمند / غنی",
     "bestimmter_artikel": {
@@ -3250,7 +3250,7 @@
   },
   {
     "id": "77",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "arm",
     "translation_fa": "فقیر / بیچاره",
     "bestimmter_artikel": {
@@ -3293,7 +3293,7 @@
   },
   {
     "id": "78",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "klug",
     "translation_fa": "باهوش / عاقل",
     "bestimmter_artikel": {
@@ -3337,7 +3337,7 @@
 
   {
     "id": "79",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "dumm",
     "translation_fa": "احمق ",
     "bestimmter_artikel": {
@@ -3380,7 +3380,7 @@
   },
   {
     "id": "80",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "ehrlich",
     "translation_fa": "صادق ",
     "bestimmter_artikel": {
@@ -3423,7 +3423,7 @@
   },
   {
     "id": "81",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unehrlich",
     "translation_fa": "غیرصادق ",
     "bestimmter_artikel": {
@@ -3466,7 +3466,7 @@
   },
   {
     "id": "82",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "höflich",
     "translation_fa": "مودب ",
     "bestimmter_artikel": {
@@ -3509,7 +3509,7 @@
   },
   {
     "id": "83",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unhöflich",
     "translation_fa": "بی‌ادب ",
     "bestimmter_artikel": {
@@ -3552,7 +3552,7 @@
   },
   {
     "id": "84",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "bequem",
     "translation_fa": "راحت (برای نشستن/پوشیدن) ",
     "bestimmter_artikel": {
@@ -3595,7 +3595,7 @@
   },
   {
     "id": "85",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unbequem",
     "translation_fa": "ناراحت (برای نشستن/پوشیدن) ",
     "bestimmter_artikel": {
@@ -3638,7 +3638,7 @@
   },
   {
     "id": "86",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "gemütlich",
     "translation_fa": "دل‌پذیر / دنج",
     "bestimmter_artikel": {
@@ -3681,7 +3681,7 @@
   },
   {
     "id": "87",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "ungemütlich",
     "translation_fa": "نادل‌پذیر ",
     "bestimmter_artikel": {
@@ -3724,7 +3724,7 @@
   },
   {
     "id": "88",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "bekannt",
     "translation_fa": "معروف / شناخته‌شده ",
     "bestimmter_artikel": {
@@ -3768,7 +3768,7 @@
 
   {
     "id": "89",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unbekannt",
     "translation_fa": "ناشناخته / ناشناس",
     "bestimmter_artikel": {
@@ -3810,7 +3810,7 @@
   },
   {
     "id": "90",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "lebendig",
     "translation_fa": "زنده / پرجنب‌وجوش",
     "bestimmter_artikel": {
@@ -3852,7 +3852,7 @@
   },
   {
     "id": "91",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "tot",
     "translation_fa": "مرده",
     "bestimmter_artikel": {
@@ -3894,7 +3894,7 @@
   },
   {
     "id": "92",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "lecker",
     "translation_fa": "خوشمزه / لذیذ",
     "bestimmter_artikel": {
@@ -3936,7 +3936,7 @@
   },
   {
     "id": "93",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "bitter",
     "translation_fa": "تلخ",
     "bestimmter_artikel": {
@@ -3978,7 +3978,7 @@
   },
   {
     "id": "94",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "süß",
     "translation_fa": "شیرین",
     "bestimmter_artikel": {
@@ -4020,7 +4020,7 @@
   },
   {
     "id": "95",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "sauer",
     "translation_fa": "ترش / عصبانی (در محاوره)",
     "bestimmter_artikel": {
@@ -4062,7 +4062,7 @@
   },
   {
     "id": "96",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "frisch",
     "translation_fa": "تازه",
     "bestimmter_artikel": {
@@ -4104,7 +4104,7 @@
   },
   {
     "id": "97",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "altmodisch",
     "translation_fa": "قدیمی‌مدل / از مد افتاده",
     "bestimmter_artikel": {
@@ -4146,7 +4146,7 @@
   },
   {
     "id": "98",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "modern",
     "translation_fa": "مدرن",
     "bestimmter_artikel": {
@@ -4188,7 +4188,7 @@
   },
   {
     "id": "99",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "sportlich",
     "translation_fa": "ورزشی، ورزشی، تناسب اندام",
     "bestimmter_artikel": {
@@ -4237,7 +4237,7 @@
   },
   {
     "id": "100",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unsportlich",
     "translation_fa": "غیرورزشی، تنبل در ورزش، بی‌تحرک",
     "bestimmter_artikel": {
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "101",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "optimistisch",
     "translation_fa": "خوش‌بین",
     "bestimmter_artikel": {
@@ -4333,7 +4333,7 @@
   },
   {
     "id": "102",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "pessimistisch",
     "translation_fa": "بدبین",
     "bestimmter_artikel": {
@@ -4381,7 +4381,7 @@
   },
   {
     "id": "103",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "neugierig",
     "translation_fa": "کنجکاو",
     "bestimmter_artikel": {
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "104",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "gleichgültig",
     "translation_fa": "بی‌تفاوت، بی‌علاقه",
     "bestimmter_artikel": {
@@ -4478,7 +4478,7 @@
   },
   {
     "id": "105",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "geduldig",
     "translation_fa": "صبور، با حوصله",
     "bestimmter_artikel": {
@@ -4526,7 +4526,7 @@
   },
   {
     "id": "106",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "ungeduldig",
     "translation_fa": "بی‌حوصله، ناشکیبا",
     "bestimmter_artikel": {
@@ -4574,7 +4574,7 @@
   },
   {
     "id": "107",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "mutig",
     "translation_fa": "شجاع، جسور",
     "bestimmter_artikel": {
@@ -4624,7 +4624,7 @@
 
   {
     "id": "108",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "ängstlich",
     "translation_fa": "ترسو، مضطرب، نگران",
     "bestimmter_artikel": {
@@ -4674,7 +4674,7 @@
   },
   {
     "id": "109",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "vorsichtig",
     "translation_fa": "محتاط، با احتیاط",
     "bestimmter_artikel": {
@@ -4723,7 +4723,7 @@
   },
   {
     "id": "110",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unvorsichtig",
     "translation_fa": "بی‌احتیاط، سهل‌انگار",
     "bestimmter_artikel": {
@@ -4771,7 +4771,7 @@
   },
   {
     "id": "111",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "ordentlich",
     "translation_fa": "مرتب، منظم، تمیز",
     "bestimmter_artikel": {
@@ -4820,7 +4820,7 @@
   },
   {
     "id": "112",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unordentlich",
     "translation_fa": "نامرتب، به‌هم‌ریخته",
     "bestimmter_artikel": {
@@ -4869,7 +4869,7 @@
   },
   {
     "id": "113",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "zufrieden",
     "translation_fa": "راضی، خشنود",
     "bestimmter_artikel": {
@@ -4918,7 +4918,7 @@
   },
   {
     "id": "114",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "unzufrieden",
     "translation_fa": "ناراضی، ناخشنود",
     "bestimmter_artikel": {
@@ -4966,7 +4966,7 @@
   },
   {
     "id": "115",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "entspannt",
     "translation_fa": "آرام، ریلکس",
     "bestimmter_artikel": {
@@ -5015,7 +5015,7 @@
   },
   {
     "id": "116",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "gestresst",
     "translation_fa": "تحت فشار، استرس‌دار",
     "bestimmter_artikel": {
@@ -5064,7 +5064,7 @@
   },
   {
     "id": "117",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "bunt",
     "translation_fa": "رنگی، رنگارنگ",
     "bestimmter_artikel": {
@@ -5113,7 +5113,7 @@
   },
   {
     "id": "118",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "schwarz",
     "translation_fa": "سیاه",
     "bestimmter_artikel": {
@@ -5160,7 +5160,7 @@
   },
   {
     "id": "119",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "weiß",
     "translation_fa": "سفید",
     "bestimmter_artikel": {
@@ -5207,7 +5207,7 @@
   },
   {
     "id": "120",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "rund",
     "translation_fa": "گرد",
     "bestimmter_artikel": {
@@ -5254,7 +5254,7 @@
   },
   {
     "id": "121",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "eckig",
     "translation_fa": "گوشه‌دار / مربعی",
     "bestimmter_artikel": {
@@ -5301,7 +5301,7 @@
   },
   {
     "id": "122",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "breit",
     "translation_fa": "پهن / عریض",
     "bestimmter_artikel": {
@@ -5349,7 +5349,7 @@
   },
   {
     "id": "123",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "eng",
     "translation_fa": "تنگ / باریک",
     "bestimmter_artikel": {
@@ -5397,7 +5397,7 @@
   },
   {
     "id": "124",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "flach",
     "translation_fa": "تخت / کم‌عمق",
     "bestimmter_artikel": {
@@ -5445,7 +5445,7 @@
   },
   {
     "id": "125",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "tief",
     "translation_fa": "عمیق",
     "bestimmter_artikel": {
@@ -5493,7 +5493,7 @@
   },
   {
     "id": "126",
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "hoch",
     "translation_fa": "بلند / مرتفع",
     "bestimmter_artikel": {
@@ -5542,7 +5542,7 @@
   
   {
     "id": 127,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "niedrig",
     "translation_fa": "پایین / کم",
     "bestimmter_artikel": {
@@ -5591,7 +5591,7 @@
   },
   {
     "id": 128,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "gerade",
     "translation_fa": "مستقیم / صاف",
     "bestimmter_artikel": {
@@ -5640,7 +5640,7 @@
   },
   {
     "id": 129,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "krumm",
     "translation_fa": "کج / خمیده",
     "bestimmter_artikel": {
@@ -5689,7 +5689,7 @@
   },
   {
     "id": 130,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "glatt",
     "translation_fa": "صاف / نرم",
     "bestimmter_artikel": {
@@ -5737,7 +5737,7 @@
   },
   {
     "id": 131,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "rau",
     "translation_fa": "زبر / خشن",
     "bestimmter_artikel": {
@@ -5786,7 +5786,7 @@
   },
   {
     "id": 132,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "spitz",
     "translation_fa": "تیز / نوک‌تیز",
     "bestimmter_artikel": {
@@ -5834,7 +5834,7 @@
   },
   {
     "id": 133,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "stumpf",
     "translation_fa": "کند / غیرتیز",
     "bestimmter_artikel": {
@@ -5884,7 +5884,7 @@
   
   {
     "id": 134,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "fest",
     "translation_fa": "محکم، ثابت، سفت",
     "bestimmter_artikel": {
@@ -5936,7 +5936,7 @@
   },
   {
     "id": 135,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "locker",
     "translation_fa": "شل، آزاد، راحت",
     "bestimmter_artikel": {
@@ -5988,7 +5988,7 @@
   },
   {
     "id": 136,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "riesig",
     "translation_fa": "عظیم، غول‌پیکر",
     "bestimmter_artikel": {
@@ -6040,7 +6040,7 @@
   },
   {
     "id": 137,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "winzig",
     "translation_fa": "کوچک، ریز",
     "bestimmter_artikel": {
@@ -6092,7 +6092,7 @@
   },
   {
     "id": 138,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "riesengroß",
     "translation_fa": "بسیار بزرگ، غول‌پیکر",
     "bestimmter_artikel": {
@@ -6144,7 +6144,7 @@
   },
   {
     "id": 139,
-    "title-id": "A2",
+    "title_id": "A2",
     "adjective": "winzigklein",
     "translation_fa": "بسیار کوچک، ریز و کوچک",
     "bestimmter_artikel": {
@@ -6196,7 +6196,7 @@
   },
   {
     "id": 140,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "sympathisch",
     "translation_fa": "دوست‌داشتنی، جذاب (از نظر شخصیت)",
     "bestimmter_artikel": {
@@ -6246,7 +6246,7 @@
   },
   {
     "id": 141,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unsympathisch",
     "translation_fa": "ناخوشایند، غیرجذاب (از نظر شخصیت)",
     "bestimmter_artikel": {
@@ -6295,7 +6295,7 @@
   },
   {
     "id": 142,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "hilfsbereit",
     "translation_fa": "کمک‌کننده، آماده کمک",
     "bestimmter_artikel": {
@@ -6345,7 +6345,7 @@
   },
   {
     "id": 143,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "geizig",
     "translation_fa": "خسیس، ممسک",
     "bestimmter_artikel": {
@@ -6394,7 +6394,7 @@
   },
   {
     "id": 144,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "großzügig",
     "translation_fa": "بخشنده، سخاوتمند",
     "bestimmter_artikel": {
@@ -6443,7 +6443,7 @@
   },
   {
     "id": 145,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "stolz",
     "translation_fa": "مغرور، افتخارمند",
     "bestimmter_artikel": {
@@ -6492,7 +6492,7 @@
   },
   {
     "id": 146,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "bescheiden",
     "translation_fa": "متواضع، ساده",
     "bestimmter_artikel": {
@@ -6542,7 +6542,7 @@
   },
   {
     "id": 147,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "eifersüchtig",
     "translation_fa": "حسود، غیرتی",
     "bestimmter_artikel": {
@@ -6590,7 +6590,7 @@
   },
   {
     "id": 148,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "neidisch",
     "translation_fa": "حسود",
     "bestimmter_artikel": {
@@ -6640,7 +6640,7 @@
   },
   {
     "id": 149,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "dankbar",
     "translation_fa": "سپاسگزار، قدردان",
     "bestimmter_artikel": {
@@ -6688,7 +6688,7 @@
   },
   {
     "id": 150,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "undankbar",
     "translation_fa": "ناسپاس، قدردان‌نشده",
     "bestimmter_artikel": {
@@ -6738,7 +6738,7 @@
 
   {
     "id": 151,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "verärgert",
     "translation_fa": "ناراحت / عصبانی / دلخور",
     "bestimmter_artikel": {
@@ -6788,7 +6788,7 @@
   },
   {
     "id": 152,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "wütend",
     "translation_fa": "خشمگین / عصبانی (شدید)",
     "bestimmter_artikel": {
@@ -6838,7 +6838,7 @@
   },
   {
     "id": 153,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "überrascht",
     "translation_fa": "متعجب / غافلگیرشده",
     "bestimmter_artikel": {
@@ -6886,7 +6886,7 @@
   },
   {
     "id": 154,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "erstaunt",
     "translation_fa": "شگفت‌زده / متحیر",
     "bestimmter_artikel": {
@@ -6935,7 +6935,7 @@
   },
   {
     "id": 155,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "beruhigt",
     "translation_fa": "آرام‌شده / آرامش‌یافته",
     "bestimmter_artikel": {
@@ -6985,7 +6985,7 @@
   },
   {
     "id": 156,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "aufgeregt",
     "translation_fa": "هیجان‌زده / برانگیخته",
     "bestimmter_artikel": {
@@ -7035,7 +7035,7 @@
   },
   {
     "id": 157,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "nervös",
     "translation_fa": "عصبی / مضطرب",
     "bestimmter_artikel": {
@@ -7085,7 +7085,7 @@
   },
   {
     "id": 158,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "entspannt",
     "translation_fa": "آرام / ریلکس",
     "bestimmter_artikel": {
@@ -7135,7 +7135,7 @@
   },
   {
     "id": 159,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "zuverlässig",
     "translation_fa": "قابل اعتماد / مطمئن",
     "bestimmter_artikel": {
@@ -7185,7 +7185,7 @@
   
   {
     "id": 160,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unzuverlässig",
     "translation_fa": "غیرقابل اعتماد، غیرمسئول",
     "bestimmter_artikel": {
@@ -7234,7 +7234,7 @@
   },
   {
     "id": 161,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "verantwortungsvoll",
     "translation_fa": "مسئولیت‌پذیر، با مسئولیت",
     "bestimmter_artikel": {
@@ -7283,7 +7283,7 @@
   },
   {
     "id": 162,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "verantwortungslos",
     "translation_fa": "غیرمسئول، بی‌مسئولیت",
     "bestimmter_artikel": {
@@ -7332,7 +7332,7 @@
   },
   {
     "id": 163,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "kreativ",
     "translation_fa": "خلاق",
     "bestimmter_artikel": {
@@ -7382,7 +7382,7 @@
   },
   {
     "id": 164,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "fantasievoll",
     "translation_fa": "پر از تخیل، خیال‌پرداز",
     "bestimmter_artikel": {
@@ -7432,7 +7432,7 @@
   },
   {
     "id": 165,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "praktisch",
     "translation_fa": "عملی، کاربردی",
     "bestimmter_artikel": {
@@ -7481,7 +7481,7 @@
   },
   {
     "id": 166,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unpraktisch",
     "translation_fa": "غیرعملی، نامناسب",
     "bestimmter_artikel": {
@@ -7530,7 +7530,7 @@
   },
   {
     "id": 167,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "sparsam",
     "translation_fa": "صرفه‌جو، اقتصادی",
     "bestimmter_artikel": {
@@ -7579,7 +7579,7 @@
   },
   {
     "id": 168,
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "verschwenderisch",
     "translation_fa": "ولخرج، اسراف‌کننده",
     "bestimmter_artikel": {
@@ -7628,7 +7628,7 @@
   },
   {
     "id": "169",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "tolerant",
     "translation_fa": "متساهل، با تحمل، بردبار",
     "bestimmter_artikel": {
@@ -7677,7 +7677,7 @@
   },
   {
     "id": "170",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "intolerant",
     "translation_fa": "غیرمتساهل، با عدم تحمل",
     "bestimmter_artikel": {
@@ -7725,7 +7725,7 @@
   },
   {
     "id": "171",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "offen",
     "translation_fa": "باز، صریح، گشوده",
     "bestimmter_artikel": {
@@ -7774,7 +7774,7 @@
   },
   {
     "id": "172",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "verschlossen",
     "translation_fa": "بسته، محافظه‌کار، درون‌گرا (در شخصیت)",
     "bestimmter_artikel": {
@@ -7822,7 +7822,7 @@
   },
   {
     "id": "173",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "extrovertiert",
     "translation_fa": "برون‌گرا",
     "bestimmter_artikel": {
@@ -7870,7 +7870,7 @@
   },
   {
     "id": "174",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "introvertiert",
     "translation_fa": "درون‌گرا",
     "bestimmter_artikel": {
@@ -7918,7 +7918,7 @@
   },
   {
     "id": "175",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "selbstbewusst",
     "translation_fa": "خودباور، با اعتماد به نفس",
     "bestimmter_artikel": {
@@ -7966,7 +7966,7 @@
   },
   {
     "id": "176",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unsicher",
     "translation_fa": "نامطمئن، بی‌اعتماد به نفس",
     "bestimmter_artikel": {
@@ -8014,7 +8014,7 @@
   },
   {
     "id": "177",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "erfolgreich",
     "translation_fa": "موفق",
     "bestimmter_artikel": {
@@ -8062,7 +8062,7 @@
   },
   {
     "id": "178",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "erfolglos",
     "translation_fa": "ناموفق",
     "bestimmter_artikel": {
@@ -8110,7 +8110,7 @@
   },
   {
     "id": "179",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "beliebt",
     "translation_fa": "محبوب",
     "bestimmter_artikel": {
@@ -8158,7 +8158,7 @@
   },
   {
     "id": "180",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unbeliebt",
     "translation_fa": "نامحبوب",
     "bestimmter_artikel": {
@@ -8206,7 +8206,7 @@
   },
   {
     "id": "181",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "typisch",
     "translation_fa": "معمولی، تیپیک، خاص",
     "bestimmter_artikel": {
@@ -8254,7 +8254,7 @@
   },
   {
     "id": "182",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "untypisch",
     "translation_fa": "غیرمعمولی، غیرتیپیک",
     "bestimmter_artikel": {
@@ -8300,7 +8300,7 @@
   },
   {
     "id": "183",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "normal",
     "translation_fa": "عادی، نرمال",
     "bestimmter_artikel": {
@@ -8347,7 +8347,7 @@
   },
   {
     "id": "184",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "ungewöhnlich",
     "translation_fa": "غیرعادی، غیرمعمول",
     "bestimmter_artikel": {
@@ -8394,7 +8394,7 @@
   },
   {
     "id": "185",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "selten",
     "translation_fa": "کم‌یاب، نادر، به‌ندرت",
     "bestimmter_artikel": {
@@ -8441,7 +8441,7 @@
   },
   {
     "id": "186",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "häufig",
     "translation_fa": "مکرر، frequent، زیاد",
     "bestimmter_artikel": {
@@ -8487,7 +8487,7 @@
   },
   {
     "id": "187",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "üblich",
     "translation_fa": "معمول، رایج",
     "bestimmter_artikel": {
@@ -8533,7 +8533,7 @@
   },
   {
     "id": "188",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unüblich",
     "translation_fa": "غیرمعمول، غیررایج",
     "bestimmter_artikel": {
@@ -8579,7 +8579,7 @@
   },
   {
     "id": "189",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "gefährlich",
     "translation_fa": "خطرناک",
     "bestimmter_artikel": {
@@ -8626,7 +8626,7 @@
   },
   {
     "id": "190",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "ungefährlich",
     "translation_fa": "بی‌خطر، غیرخطرناک",
     "bestimmter_artikel": {
@@ -8672,7 +8672,7 @@
   },
   {
     "id": "191",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "sicher",
     "translation_fa": "امن / مطمئن",
     "bestimmter_artikel": {
@@ -8719,7 +8719,7 @@
   },
   {
     "id": "192",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unsicher",
     "translation_fa": "نامطمئن / ناامن",
     "bestimmter_artikel": {
@@ -8766,7 +8766,7 @@
   },
   {
     "id": "193",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "wertvoll",
     "translation_fa": "ارزشمند / گران‌بها",
     "bestimmter_artikel": {
@@ -8813,7 +8813,7 @@
   },
   {
     "id": "194",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "wertlos",
     "translation_fa": "بی‌ارزش",
     "bestimmter_artikel": {
@@ -8859,7 +8859,7 @@
   },
   {
     "id": "195",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "nützlich",
     "translation_fa": "مفید",
     "bestimmter_artikel": {
@@ -8906,7 +8906,7 @@
   },
   {
     "id": "196",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unnütz",
     "translation_fa": "بی‌فایده / بی‌مصرف",
     "bestimmter_artikel": {
@@ -8952,7 +8952,7 @@
   },
   {
     "id": "197",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "notwendig",
     "translation_fa": "ضروری / لازم",
     "bestimmter_artikel": {
@@ -8999,7 +8999,7 @@
   },
   {
     "id": "198",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unnötig",
     "translation_fa": "غیرضروری / بی‌مورد",
     "bestimmter_artikel": {
@@ -9045,7 +9045,7 @@
   },
   {
     "id": "199",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "angenehm",
     "translation_fa": "دلپذیر / خوشایند",
     "bestimmter_artikel": {
@@ -9092,7 +9092,7 @@
   },
   {
     "id": "200",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unangenehm",
     "translation_fa": "ناخوشایند / آزاردهنده",
     "bestimmter_artikel": {
@@ -9139,7 +9139,7 @@
   },
   {
     "id": "201",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "wunderbar",
     "translation_fa": "عالی / شگفت‌انگیز / فوق‌العاده",
     "bestimmter_artikel": {
@@ -9192,7 +9192,7 @@
   },
   {
     "id": "202",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "schrecklich",
     "translation_fa": "وحشتناک / افتضاح / خیلی بد",
     "bestimmter_artikel": {
@@ -9244,7 +9244,7 @@
   },
   {
     "id": "203",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "fantastisch",
     "translation_fa": "فوق‌العاده / عالی / شگفت‌انگیز",
     "bestimmter_artikel": {
@@ -9297,7 +9297,7 @@
   },
   {
     "id": "204",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "furchtbar",
     "translation_fa": "وحشتناک / خیلی بد / افتضاح",
     "bestimmter_artikel": {
@@ -9349,7 +9349,7 @@
   },
   {
     "id": "205",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "perfekt",
     "translation_fa": "کامل / عالی / بی‌نقص",
     "bestimmter_artikel": {
@@ -9400,7 +9400,7 @@
   },
   {
     "id": "206",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unperfekt",
     "translation_fa": "ناکامل / ناقص / غیرکامل",
     "bestimmter_artikel": {
@@ -9451,7 +9451,7 @@
   },
   {
     "id": "207",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "ideal",
     "translation_fa": "ایده‌آل / کامل / مناسب‌ترین",
     "bestimmter_artikel": {
@@ -9502,7 +9502,7 @@
   },
   {
     "id": "208",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "realistisch",
     "translation_fa": "واقع‌بینانه / واقعی / عملی",
     "bestimmter_artikel": {
@@ -9553,7 +9553,7 @@
   },
   {
     "id": "209",
-    "title-id": "B1",
+    "title_id": "B1",
     "adjective": "unrealistisch",
     "translation_fa": "غیرواقعی / غیرعملی / خیالی",
     "bestimmter_artikel": {
@@ -9604,7 +9604,7 @@
   },
   {
     "id": "210",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "vernünftig",
     "translation_fa": "معقول، منطقی",
     "bestimmter_artikel": {
@@ -9651,7 +9651,7 @@
   },
   {
     "id": "211",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "unvernünftig",
     "translation_fa": "غیرمعقول، غیرمنطقی",
     "bestimmter_artikel": {
@@ -9698,7 +9698,7 @@
   },
   {
     "id": "212",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "intelligent",
     "translation_fa": "باهوش، هوشمند",
     "bestimmter_artikel": {
@@ -9746,7 +9746,7 @@
   },
   {
     "id": "213",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "intellektuell",
     "translation_fa": "فکری، روشنفکری، интеллектуальный",
     "bestimmter_artikel": {
@@ -9792,7 +9792,7 @@
   },
   {
     "id": "214",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "sensibel",
     "translation_fa": "حساس (مثبت، ظریف)",
     "bestimmter_artikel": {
@@ -9839,7 +9839,7 @@
   },
   {
     "id": "215",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "empfindlich",
     "translation_fa": "حساس (اغلب منفی، آسیب‌پذیر)",
     "bestimmter_artikel": {
@@ -9886,7 +9886,7 @@
   },
   {
     "id": "216",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "robust",
     "translation_fa": "مقاوم، محکم، استوار",
     "bestimmter_artikel": {
@@ -9934,7 +9934,7 @@
   },
   {
     "id": "217",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "zerbrechlich",
     "translation_fa": "شکننده، ظریف",
     "bestimmter_artikel": {
@@ -9980,7 +9980,7 @@
   },
   {
     "id": "218",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "dynamisch",
     "translation_fa": "پویا، دینامیک",
     "bestimmter_artikel": {
@@ -10027,7 +10027,7 @@
   },
   {
     "id": "219",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "statisch",
     "translation_fa": "ایستا، ثابت، استاتیک",
     "bestimmter_artikel": {
@@ -10073,7 +10073,7 @@
   },
   {
     "id": "220",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "aktiv",
     "translation_fa": "فعال",
     "bestimmter_artikel": {
@@ -10123,7 +10123,7 @@
   },
   {
     "id": "221",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "passiv",
     "translation_fa": "منفعل / غیرفعال",
     "bestimmter_artikel": {
@@ -10172,7 +10172,7 @@
   },
   {
     "id": "222",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "motiviert",
     "translation_fa": "باانگیزه / انگیزشی",
     "bestimmter_artikel": {
@@ -10222,7 +10222,7 @@
   },
   {
     "id": "223",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "demotiviert",
     "translation_fa": "بی‌انگیزه / دلسرد",
     "bestimmter_artikel": {
@@ -10272,7 +10272,7 @@
   },
   {
     "id": "224",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "engagiert",
     "translation_fa": "متعهد / مشتاق / فعال",
     "bestimmter_artikel": {
@@ -10322,7 +10322,7 @@
   },
   {
     "id": "225",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "desinteressiert",
     "translation_fa": "بی‌علاقه / بی‌توجه",
     "bestimmter_artikel": {
@@ -10372,7 +10372,7 @@
   },
   {
     "id": "226",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "kritisch",
     "translation_fa": "انتقادی / بحرانی",
     "bestimmter_artikel": {
@@ -10422,7 +10422,7 @@
   },
   {
     "id": "227",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "konstruktiv",
     "translation_fa": "سازنده",
     "bestimmter_artikel": {
@@ -10472,7 +10472,7 @@
   },
   {
     "id": "228",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "destruktiv",
     "translation_fa": "مخرب",
     "bestimmter_artikel": {
@@ -10522,7 +10522,7 @@
   },
   {
     "id": "229",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "analytisch",
     "translation_fa": "تحلیلی",
     "bestimmter_artikel": {
@@ -10572,7 +10572,7 @@
   },
   {
     "id": "230",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "emotional",
     "translation_fa": "احساسی",
     "bestimmter_artikel": {
@@ -10622,7 +10622,7 @@
   },
   {
     "id": "231",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "rational",
     "translation_fa": "عقلانی / منطقی",
     "bestimmter_artikel": {
@@ -10672,7 +10672,7 @@
   },
   {
     "id": "232",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "logisch",
     "translation_fa": "منطقی",
     "bestimmter_artikel": {
@@ -10722,7 +10722,7 @@
   },
   {
     "id": "233",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "illogisch",
     "translation_fa": "غیرمنطقی",
     "bestimmter_artikel": {
@@ -10771,7 +10771,7 @@
   },
   {
     "id": "234",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "objektiv",
     "translation_fa": "عینی / بی‌طرف",
     "bestimmter_artikel": {
@@ -10820,7 +10820,7 @@
   },
   {
     "id": "235",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "subjektiv",
     "translation_fa": "ذهنی / شخصی",
     "bestimmter_artikel": {
@@ -10869,7 +10869,7 @@
   },
   {
     "id": "236",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "tolerant",
     "translation_fa": "تحمل‌پذیر / مداراگر",
     "bestimmter_artikel": {
@@ -10919,7 +10919,7 @@
   },
   {
     "id": "237",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "vorurteilsfrei",
     "translation_fa": "بدون پیش‌داوری / بی‌طرف",
     "bestimmter_artikel": {
@@ -10969,7 +10969,7 @@
   },
   {
     "id": "238",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "vorurteilsvoll",
     "translation_fa": "با پیش‌داوری / متعصب",
     "bestimmter_artikel": {
@@ -11019,7 +11019,7 @@
   },
   {
     "id": "239",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "flexibel",
     "translation_fa": "انعطاف‌پذیر",
     "bestimmter_artikel": {
@@ -11070,7 +11070,7 @@
   },
   {
     "id": "240",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "starr",
     "translation_fa": "سخت / خشک / غیرانعطاف",
     "bestimmter_artikel": {
@@ -11120,7 +11120,7 @@
   },
   {
     "id": "241",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "kompliziert",
     "translation_fa": "پیچیده",
     "bestimmter_artikel": {
@@ -11170,7 +11170,7 @@
   },
   {
     "id": "242",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "einfach",
     "translation_fa": "ساده",
     "bestimmter_artikel": {
@@ -11220,7 +11220,7 @@
   },
   {
     "id": "243",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "detailliert",
     "translation_fa": "جزئی / مفصل",
     "bestimmter_artikel": {
@@ -11270,7 +11270,7 @@
   },
   {
     "id": "244",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "oberflächlich",
     "translation_fa": "سطحی",
     "bestimmter_artikel": {
@@ -11320,7 +11320,7 @@
   },
   {
     "id": "245",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "tiefgründig",
     "translation_fa": "عمیق / ژرف",
     "bestimmter_artikel": {
@@ -11370,7 +11370,7 @@
   },
   {
     "id": "246",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "authentisch",
     "translation_fa": "اصیل / واقعی",
     "bestimmter_artikel": {
@@ -11420,7 +11420,7 @@
   },
   {
     "id": "247",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "künstlich",
     "translation_fa": "مصنوعی / ساختگی",
     "bestimmter_artikel": {
@@ -11470,7 +11470,7 @@
   },
   {
     "id": "248",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "originell",
     "translation_fa": "اصیل / خلاقانه / نوآورانه",
     "bestimmter_artikel": {
@@ -11521,7 +11521,7 @@
   },
   {
     "id": "249",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "einzigartig",
     "translation_fa": "یگانه / منحصر به فرد",
     "bestimmter_artikel": {
@@ -11572,7 +11572,7 @@
   },
   {
     "id": "250",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "gewöhnlich",
     "translation_fa": "معمولی / عادی",
     "bestimmter_artikel": {
@@ -11623,7 +11623,7 @@
   },
   {
     "id": "251",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "außergewöhnlich",
     "translation_fa": "استثنایی / فوق‌العاده",
     "bestimmter_artikel": {
@@ -11675,7 +11675,7 @@
   },
   {
     "id": "252",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "beeindruckend",
     "translation_fa": "تأثیرگذار / چشمگیر",
     "bestimmter_artikel": {
@@ -11727,7 +11727,7 @@
   },
   {
     "id": "253",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "enttäuschend",
     "translation_fa": "ناامیدکننده",
     "bestimmter_artikel": {
@@ -11778,7 +11778,7 @@
   },
   {
     "id": "254",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "überzeugend",
     "translation_fa": "قانع‌کننده",
     "bestimmter_artikel": {
@@ -11828,7 +11828,7 @@
   },
   {
     "id": "255",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "unüberzeugend",
     "translation_fa": "غیرقانع‌کننده",
     "bestimmter_artikel": {
@@ -11878,7 +11878,7 @@
   },
   {
     "id": "256",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "relevant",
     "translation_fa": "مرتبط / مهم",
     "bestimmter_artikel": {
@@ -11928,7 +11928,7 @@
   },
   {
     "id": "257",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "irrelevant",
     "translation_fa": "نامرتبط / بی‌ربط",
     "bestimmter_artikel": {
@@ -11978,7 +11978,7 @@
   },
   {
     "id": "258",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "effektiv",
     "translation_fa": "موثر / کارآمد",
     "bestimmter_artikel": {
@@ -12028,7 +12028,7 @@
   },
   {
     "id": "259",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "ineffektiv",
     "translation_fa": "غیرمؤثر / ناکارآمد",
     "bestimmter_artikel": {
@@ -12078,7 +12078,7 @@
   },
   {
     "id": "260",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "effizient",
     "translation_fa": "کارآمد، با بازدهی بالا",
     "bestimmter_artikel": {
@@ -12127,7 +12127,7 @@
   },
   {
     "id": "261",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "ineffizient",
     "translation_fa": "ناکارآمد، بدون بازدهی",
     "bestimmter_artikel": {
@@ -12175,7 +12175,7 @@
   },
   {
     "id": "262",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "innovativ",
     "translation_fa": "نوآورانه، خلاقانه",
     "bestimmter_artikel": {
@@ -12224,7 +12224,7 @@
   },
   {
     "id": "263",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "traditionell",
     "translation_fa": "سنتی",
     "bestimmter_artikel": {
@@ -12274,7 +12274,7 @@
   },
   {
     "id": "264",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "fortschrittlich",
     "translation_fa": "پیشرو، پیشرفته",
     "bestimmter_artikel": {
@@ -12323,7 +12323,7 @@
   },
   {
     "id": "265",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "konservativ",
     "translation_fa": "محافظه‌کار، سنتی",
     "bestimmter_artikel": {
@@ -12372,7 +12372,7 @@
   },
   {
     "id": "266",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "liberal",
     "translation_fa": "لیبرال، آزاداندیش",
     "bestimmter_artikel": {
@@ -12421,7 +12421,7 @@
   },
   {
     "id": "267",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "radikal",
     "translation_fa": "رادیکال، افراطی",
     "bestimmter_artikel": {
@@ -12470,7 +12470,7 @@
   },
   {
     "id": "268",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "moderat",
     "translation_fa": "معتدل، میانه‌رو",
     "bestimmter_artikel": {
@@ -12519,7 +12519,7 @@
   },
   {
     "id": "269",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "extrem",
     "translation_fa": "افراطی، شدید",
     "bestimmter_artikel": {
@@ -12569,7 +12569,7 @@
   
   {
     "id": "270",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "global",
     "translation_fa": "جهانی",
     "bestimmter_artikel": {
@@ -12619,7 +12619,7 @@
   },
   {
     "id": "271",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "lokal",
     "translation_fa": "محلی",
     "bestimmter_artikel": {
@@ -12669,7 +12669,7 @@
   },
   {
     "id": "272",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "international",
     "translation_fa": "بین‌المللی",
     "bestimmter_artikel": {
@@ -12719,7 +12719,7 @@
   },
   {
     "id": "273",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "national",
     "translation_fa": "ملی",
     "bestimmter_artikel": {
@@ -12769,7 +12769,7 @@
   },
   {
     "id": "274",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "kulturell",
     "translation_fa": "فرهنگی",
     "bestimmter_artikel": {
@@ -12817,7 +12817,7 @@
   },
   {
     "id": "275",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "sozial",
     "translation_fa": "اجتماعی",
     "bestimmter_artikel": {
@@ -12866,7 +12866,7 @@
   },
   {
     "id": "276",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "politisch",
     "translation_fa": "سیاسی",
     "bestimmter_artikel": {
@@ -12914,7 +12914,7 @@
   },
   {
     "id": "277",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "wirtschaftlich",
     "translation_fa": "اقتصادی",
     "bestimmter_artikel": {
@@ -12962,7 +12962,7 @@
   },
   {
     "id": "278",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "technisch",
     "translation_fa": "فنی",
     "bestimmter_artikel": {
@@ -13012,7 +13012,7 @@
   },
   {
     "id": "279",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "wissenschaftlich",
     "translation_fa": "علمی",
     "bestimmter_artikel": {
@@ -13062,7 +13062,7 @@
   },
   {
     "id": "280",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "künstlerisch",
     "translation_fa": "هنری",
     "bestimmter_artikel": {
@@ -13111,7 +13111,7 @@
   },
   {
     "id": "281",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "musikalisch",
     "translation_fa": "موسیقایی",
     "bestimmter_artikel": {
@@ -13160,7 +13160,7 @@
   },
   {
     "id": "282",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "sportlich",
     "translation_fa": "ورزشی",
     "bestimmter_artikel": {
@@ -13209,7 +13209,7 @@
   },
   {
     "id": "283",
-    "title-id": "B2",
+    "title_id": "B2",
     "adjective": "akademisch",
     "translation_fa": "آکادمیک",
     "bestimmter_artikel": {

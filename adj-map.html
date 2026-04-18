@@ -108,6 +108,16 @@
         border-radius: 999px;
       }
 
+      .titleid {
+        font-size: 0.8rem;
+        /* font-weight: 700; */
+        color: #af1e1e;
+        background: #f4f8fc;
+        padding: 0.1rem 0.2rem;
+        border-radius: 5px;
+        text-align: right;
+      }
+
       .verb-section {
         text-align: center;
       }
@@ -119,14 +129,14 @@
         margin-bottom: 0.2rem;
         text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4);
         text-align: left;
-         padding-left: 5px;
+        padding-left: 5px;
       }
       .person {
-            font-size: 1rem;
-    color: #585759;
-    /* font-weight: 600; */
-    text-align: right;
-    padding-right: 5px;
+        font-size: 1rem;
+        color: #585759;
+        /* font-weight: 600; */
+        text-align: right;
+        padding-right: 5px;
       }
 
       .de {
@@ -153,7 +163,7 @@
       .grammar-title {
         font-size: 0.7rem;
         font-weight: 700;
-        color: #64748b;
+        color: #0788b1;
       }
       .example {
         font-size: 0.75rem;
@@ -494,63 +504,39 @@
             <div class="header-row">
               <div class="city-name">${cityName}</div>
               <div class="number">${item.id}</div>
+               
             </div>
 
             <!-- Adjektiv + ترجمه -->
             <div class="verb-section">
+              <div class="titleid">${item.title_id}</div>
               <div class="verb">
                 <a href="${createTranslateLink(item.adjective)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.adjective}</a>
               </div>
               <div class="person">${item.translation_fa}</div>
             </div>
 
-            <!-- Bestimmter Artikel (Nominativ) -->
-            <div class="grammar-section">
-              <div class="grammar-title">Bestimmter Artikel (Nominativ)</div>
-              <div style="font-size:0.85rem; line-height:1.45;">
-                <div><strong>Maskulin:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.bestimmter_artikel.nominativ.maskulin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.bestimmter_artikel.nominativ.maskulin}</a>
-                  </span>
-                </div>
-                <div><strong>Feminin:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.bestimmter_artikel.nominativ.feminin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.bestimmter_artikel.nominativ.feminin}</a>
-                  </span>
-                </div>
-                <div><strong>Neutral:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.bestimmter_artikel.nominativ.neutral)}" target="_blank" style="color:inherit;text-decoration:none;">${item.bestimmter_artikel.nominativ.neutral}</a>
-                  </span>
-                </div>
-                <div><strong>Plural:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.bestimmter_artikel.nominativ.plural)}" target="_blank" style="color:inherit;text-decoration:none;">${item.bestimmter_artikel.nominativ.plural}</a>
-                  </span>
-                </div>
-              </div>
-            </div>
 
             <!-- Unbestimmter Artikel (Nominativ) -->
             <div class="grammar-section">
               <div class="grammar-title">Unbestimmter Artikel (Nominativ)</div>
               <div style="font-size:0.85rem; line-height:1.45;">
-                <div><strong>Maskulin:</strong> 
+                <div><strong style="color:#435bf9">Maskulin:</strong> 
                   <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
                     <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.maskulin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.maskulin}</a>
                   </span>
                 </div>
-                <div><strong>Feminin:</strong> 
+                <div><strong >Feminin:</strong> 
                   <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
                     <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.feminin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.feminin}</a>
                   </span>
                 </div>
-                <div><strong>Neutral:</strong> 
+                <div><strong style="color:#2bd92f">Neutral:</strong> 
                   <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
                     <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.neutral)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.neutral}</a>
                   </span>
                 </div>
-                <div><strong>Plural:</strong> 
+                <div><strong style="color:#ff5151">Plural:</strong> 
                   <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
                     <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.plural)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.plural}</a>
                   </span>
@@ -559,24 +545,7 @@
             </div>
 
             <!-- Akkusativ Beispiele -->
-            ${
-              item.akkusativ && item.akkusativ.examples && item.akkusativ.examples.length
-                ? `
-            <div class="grammar-section">
-              <div class="grammar-title" style="color:#61b5f1">Akkusativ</div>
-              <div style="max-height:145px;overflow-y:auto;padding-right:8px;">
-                ${item.akkusativ.examples
-                  .map(
-                    (ex) => `
-                  <div class="example" style="margin-bottom:6px;">
-                    <a href="${createTranslateLink(ex)}" target="_blank" style="color:inherit;text-decoration:none;">${ex}</a>
-                  </div>`
-                  )
-                  .join("")}
-              </div>
-            </div>`
-                : ""
-            }
+         
 
             <!-- Komparativ -->
             ${
@@ -587,28 +556,13 @@
               <div class="de">
                 <a href="${createTranslateLink(item.komparativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.komparativ}</a>
               </div>
-            </div>`
-                : ""
-            }
-
-            <!-- Superlativ -->
-            ${
-              item.superlativ
-                ? `
-            <div class="grammar-section">
-              <div class="grammar-title">Superlativ</div>
-              <div style="font-size:0.85rem;line-height:1.45;">
-                <div><strong>Prädikativ:</strong> 
-                  <span class="example">
-                    <a href="${createTranslateLink(item.superlativ.praedikativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.superlativ.praedikativ}</a>
-                  </span>
-                </div>
-                <div><strong>Attributiv:</strong> 
-                  <span class="example">
-                    <a href="${createTranslateLink(item.superlativ.attributiv)}" target="_blank" style="color:inherit;text-decoration:none;">${item.superlativ.attributiv}</a>
-                  </span>
-                </div>
-              </div>
+                <div class="grammar-title">Superlativ</div>
+              
+                
+                  <div class="de">
+                   <a href="${createTranslateLink(item.superlativ.praedikativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.superlativ.praedikativ}</a>
+                  </div>
+             </div>
             </div>`
                 : ""
             }
@@ -618,7 +572,7 @@
               ${
                 item.antonyme && item.antonyme.length
                   ? `
-              <div style="flex:1;min-width:45%;">
+              <div style="flex:1;min-width:45%;direction: ltr;">
                 <div class="grammar-title" style="color:#ec8787">Antonyme</div>
                 <div style="display:flex;gap:6px;flex-wrap:wrap;">
                   ${item.antonyme
@@ -626,7 +580,7 @@
                       (ant) =>
                         `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
                           <a href="${createTranslateLink(ant)}" target="_blank" style="color:inherit;text-decoration:none;">${ant}</a>
-                        </span>`
+                        </span>`,
                     )
                     .join("")}
                 </div>
@@ -638,13 +592,13 @@
                   ? `
               <div style="flex:1;min-width:45%;">
                 <div class="grammar-title" style="color:#67f984">Synonyme</div>
-                <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                <div style="display:flex;gap:6px;flex-wrap:wrap;direction: ltr;">
                   ${item.synonyme
                     .map(
                       (syn) =>
                         `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
                           <a href="${createTranslateLink(syn)}" target="_blank" style="color:inherit;text-decoration:none;">${syn}</a>
-                        </span>`
+                        </span>`,
                     )
                     .join("")}
                 </div>
@@ -665,7 +619,7 @@
                     (ex) => `
                   <div class="example">
                     <a href="${createTranslateLink(ex)}" target="_blank" style="color:inherit;text-decoration:none;">${ex}</a>
-                  </div>`
+                  </div>`,
                   )
                   .join("")}
               </div>
@@ -743,9 +697,7 @@
           return fetch("json/adjective.json").then((r) => r.json());
         })
         .then((data) => {
-          sortedItems = data.sort(
-            (a, b) => parseInt(a.id) - parseInt(b.id),
-          );
+          sortedItems = data.sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
           sortedItems.forEach((item, i) => {
             const cityIdx = Math.floor(i / ADJECTIVES_PER_CITY);

@@ -90,6 +90,7 @@ unbequem
 gemütlich
 ungemütlich
 bekannt
+
 unbekannt
 lebendig
 tot
@@ -100,6 +101,7 @@ sauer
 frisch
 altmodisch
 modern
+
 sportlich
 unsportlich
 optimistisch
@@ -109,6 +111,7 @@ gleichgültig
 geduldig
 ungeduldig
 mutig
+
 ängstlich
 vorsichtig
 unvorsichtig
@@ -119,6 +122,8 @@ unzufrieden
 entspannt
 gestresst
 bunt
+
+
 schwarz
 weiß
 rund
@@ -128,6 +133,8 @@ eng
 flach
 tief
 hoch
+
+
 niedrig
 gerade
 krumm
@@ -135,6 +142,7 @@ glatt
 rau
 spitz
 stumpf
+
 fest
 locker
 riesig
@@ -155,6 +163,7 @@ eifersüchtig
 neidisch
 dankbar
 undankbar
+
 verärgert
 wütend
 überrascht
@@ -164,6 +173,7 @@ aufgeregt
 nervös
 entspannt
 zuverlässig
+
 unzuverlässig
 verantwortungsvoll
 verantwortungslos
@@ -173,6 +183,7 @@ praktisch
 unpraktisch
 sparsam
 verschwenderisch
+
 tolerant
 intolerant
 offen
@@ -184,6 +195,7 @@ unsicher
 erfolgreich
 erfolglos
 beliebt
+
 unbeliebt
 typisch
 untypisch
@@ -195,6 +207,7 @@ häufig
 unüblich
 gefährlich
 ungefährlich
+
 sicher
 unsicher
 wertvoll
@@ -205,6 +218,8 @@ notwendig
 unnötig
 angenehm
 unangenehm
+
+
 wunderbar
 schrecklich
 fantastisch
@@ -227,6 +242,7 @@ robust
 zerbrechlich
 dynamisch
 statisch
+
 aktiv
 passiv
 motiviert
@@ -237,6 +253,8 @@ kritisch
 konstruktiv
 destruktiv
 analytisch
+
+
 emotional
 rational
 logisch
@@ -248,6 +266,8 @@ vorurteilsfrei
 vorurteilsvoll
 flexibel
 starr
+
+
 kompliziert
 einfach
 detailliert
@@ -259,6 +279,7 @@ künstlich
 originell
 einzigartig
 gewöhnlich
+
 außergewöhnlich
 beeindruckend
 enttäuschend
@@ -268,6 +289,7 @@ relevant
 irrelevant
 effektiv
 ineffektiv
+
 effizient
 ineffizient
 innovativ
@@ -278,6 +300,7 @@ liberal
 radikal
 moderat
 extrem
+
 global
 lokal
 international
@@ -286,6 +309,7 @@ kulturell
 sozial
 politisch
 wirtschaftlich
+
 technisch
 wissenschaftlich
 künstlerisch

@@ -118,11 +118,15 @@
         direction: ltr;
         margin-bottom: 0.2rem;
         text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4);
+        text-align: left;
+         padding-left: 5px;
       }
       .person {
-        font-size: 1.05rem;
-        color: #6b21a8;
-        font-weight: 600;
+            font-size: 1rem;
+    color: #585759;
+    /* font-weight: 600; */
+    text-align: right;
+    padding-right: 5px;
       }
 
       .de {
@@ -736,7 +740,7 @@
         .then((res) => res.json())
         .then((cities) => {
           allCities = cities;
-          return fetch("json.json").then((r) => r.json());
+          return fetch("json/adjective.json").then((r) => r.json());
         })
         .then((data) => {
           sortedItems = data.sort(

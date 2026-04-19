@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <title>SprachSpark Iran Map</title>
+    <title>A1 Grammatik Map</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -375,7 +375,7 @@
 
     <div id="start-modal">
       <div class="modal-content">
-        <h2>Grammatiknummer starten</h2>
+        <h2>Grammatik Nummer - A2</h2>
         <input
           id="sentence-input"
           type="number"
@@ -603,11 +603,11 @@
         showSentence(globalIndex, true);
       };
 
-      fetch("json/cities.json")
+      fetch("../json/cities.json")
         .then((res) => res.json())
         .then((cities) => {
           allCities = cities;
-          return fetch("json/germaninstitute/Tag-5.json").then((r) => r.json());
+          return fetch("../json/germaninstitute/A2.json").then((r) => r.json());
         })
         .then((data) => {
           sortedItems = data.sort((a, b) => parseInt(a.id) - parseInt(b.id));

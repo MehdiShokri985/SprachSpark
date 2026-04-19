@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <title>SprachSpark Iran Map</title>
+    <title>A1 Grammatik Map</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -58,10 +58,7 @@
         width: 100% !important;
         max-width: none !important;
         line-height: 1.5;
-        max-height: 78vh !important;
-        overflow-y: auto !important;
       }
-
       .leaflet-popup-close-button {
         font-size: 1.5rem !important;
         color: var(--gray-600) !important;
@@ -77,11 +74,11 @@
       }
 
       .popup {
-        direction: ltr;
-        text-align: left;
+        direction: rtl;
+        text-align: right;
         padding: 0.5rem;
         min-width: 280px;
-        max-width: 420px;
+        max-width: 460px;
         font-size: 0.94rem;
         line-height: 1.55;
       }
@@ -91,7 +88,6 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 0.2rem;
-        border-bottom: 1px solid var(--gray-200);
       }
       .city-name {
         font-size: 1.12rem;
@@ -102,140 +98,101 @@
       .number {
         font-size: 1rem;
         font-weight: 700;
-        color: var(--primary);
-        background: var(--gray-100);
         padding: 0.25rem 0.7rem;
         border-radius: 999px;
+        margin-bottom: 2px;
       }
 
-      .titleid {
-        font-size: 0.8rem;
-        /* font-weight: 700; */
-        color: #af1e1e;
-        background: #f4f8fc;
-        padding: 0.1rem 0.2rem;
-        border-radius: 5px;
-        text-align: right;
-      }
-
-      .verb-section {
-        text-align: center;
-      }
-
-      .verb {
-        font-size: 1.3rem;
-        color: #5200c6;
-        direction: ltr;
-        margin-bottom: 0.2rem;
-        text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4);
+      .grammar-main-title {
+        font-size: 0.77rem;
+        font-weight: 700;
+        color: var(--gray-800);
+        margin: 0.4rem 0 0.2rem;
         text-align: left;
-        padding-left: 5px;
+        direction: ltr;
       }
-      .person {
-        font-size: 1rem;
-        color: #585759;
-        /* font-weight: 600; */
+
+      .grammar-description {
+        font-size: 0.75rem;
+        color: #334155;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+        white-space: pre-line;
+        background: #fffcee;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--gray-200);
+        max-height: 150px; /* ← اضافه شد */
+        overflow-y: auto;
+        padding: 5px;
+      }
+
+      .grammar-section {
+        margin: 0.1rem 0;
+        padding: 5px 5px;
+        background: var(--gray-100);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--gray-200);
+        max-height: 180px; /* ← اضافه شد */
+        overflow-y: auto;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+
+      .grammar-title {
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: #64748b;
+        margin-bottom: 0.4rem;
+      }
+
+      .example-item {
+        margin-bottom: 0.1rem;
+      }
+
+      /* اسکرول‌بار باریک برای توضیحات و بخش مثال‌ها */
+.grammar-description::-webkit-scrollbar,
+.grammar-section::-webkit-scrollbar {
+  width: 1px;                    /* عرض اسکرول‌بار (۴ پیکسل خیلی باریک است) */
+}
+
+.grammar-description::-webkit-scrollbar-thumb,
+.grammar-section::-webkit-scrollbar-thumb {
+  background-color: #a596ff;     /* رنگ نوار اسکرول (هماهنگ با تم) */
+  border-radius: 20px;
+}
+
+.grammar-description::-webkit-scrollbar-track,
+.grammar-section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* پشتیبانی از فایرفاکس */
+.grammar-description,
+.grammar-section {
+  scrollbar-width: thin;         /* باریک کردن در فایرفاکس */
+  scrollbar-color: #a596ff #f1f5f9;
+}
+
+      .note {
+        white-space: pre-wrap;
+        font-size: 0.75rem;
+        background: #eeffef;
+        direction: rtl;
         text-align: right;
-        padding-right: 5px;
+        line-height: 1.45;
       }
 
       .de {
         font-weight: 700;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         direction: ltr;
         text-align: left;
         color: #1e293b;
       }
       .fa {
         color: #334155;
-        font-size: 0.88rem;
-        line-height: 1.5;
-      }
-
-      .grammar-section {
-        margin: 0.1rem 0;
-        padding: 5px 10px;
-        background: var(--gray-100);
-        border-radius: var(--radius-md);
-        border: 1px solid var(--gray-200);
-      }
-
-      .grammar-title {
-        font-size: 0.7rem;
-        font-weight: 700;
-        color: #0788b1;
-      }
-      .example {
-        font-size: 0.75rem;
-        color: #334155;
-        background: white;
-        padding: 0px 3px;
-        border-radius: 8px;
-        direction: ltr;
-        text-align: left;
-      }
-
-      .zeit-item {
-        background: #e8f1fc;
-        padding: 3px 10px;
-        border-radius: var(--radius-md);
-        border: 1px solid var(--gray-200);
-        font-size: 0.8rem;
-        margin-bottom: 2px;
-      }
-      .zeit-label {
-        font-size: 0.72rem;
-        color: var(--success);
-        font-weight: 600;
-        display: block;
-      }
-
-      .zeit-main {
-        font-weight: 600;
-        direction: ltr;
-        text-align: left;
-        margin-bottom: 1px;
-        display: flex;
-        align-items: baseline;
-        gap: 6px;
-      }
-
-      .zeit-example {
-        font-size: 0.75rem;
-        color: #334155;
-        background: #f3f8fd;
-        padding: 0.1rem 0.1rem;
-        border-radius: 6px;
-        direction: ltr;
-        text-align: left;
-      }
-
-      /* ==================== SCROLLBAR STYLING ==================== */
-      /* WebKit (Chrome, Edge, Safari) */
-      ::-webkit-scrollbar {
-        width: 2px !important;
-        height: 2px !important;
-      }
-
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-
-      ::-webkit-scrollbar-thumb {
-        background: #1e40af !important; /* آبی پررنگ دقیقاً مطابق primary */
-        border-radius: 2px;
-      }
-
-      /* Firefox */
-      * {
-        scrollbar-width: thin;
-        scrollbar-color: #1e40af transparent;
-      }
-
-      /* مخصوص popup و بخش‌های اسکرول‌دار داخلی */
-      .leaflet-popup-content::-webkit-scrollbar,
-      .grammar-section > div[style*="overflow-y:auto"]::-webkit-scrollbar {
-        width: 2px !important;
+        font-size: 0.78rem;
+        line-height: 1.1;
       }
 
       #start-modal {
@@ -373,9 +330,33 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
       }
 
+      /* ================ دکمه شناور ترجمه (جدید) ================ */
+      #float-translate-btn {
+        position: fixed;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background: var(--primary);
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        box-shadow: var(--shadow-md);
+        z-index: 100000;
+        cursor: pointer;
+        font-size: 24px;
+        transition: all 0.2s ease;
+        user-select: none;
+        padding: 3px 1px 0px 1px;
+      }
+      #float-translate-btn:hover {
+        transform: scale(1.1);
+        background: var(--primary-dark);
+      }
+
       @media (max-width: 480px) {
         .popup {
-          max-width: 88vw !important;
+          max-width: 92vw !important;
           min-width: 260px !important;
         }
         #prev-next {
@@ -394,7 +375,7 @@
 
     <div id="start-modal">
       <div class="modal-content">
-        <h2>Adjektivnummer starten</h2>
+        <h2>Grammatik Nummer - A1</h2>
         <input
           id="sentence-input"
           type="number"
@@ -412,21 +393,34 @@
     </div>
 
     <div id="progress-cylinder">
-      <div class="cylinder-label">Adjektive</div>
+      <div class="cylinder-label">Grammatiken</div>
       <div class="cylinder"><div id="progress-fill"></div></div>
       <div id="progress-counter">0</div>
     </div>
 
+    <!-- دکمه شناور ترجمه (جدید - بدون تغییر در بقیه المان‌ها) -->
+    <div id="float-translate-btn" title="ترجمه با گوگل">
+      🌐
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-      const ADJECTIVES_PER_CITY = 6;
       let allCities = [];
       let sortedItems = [];
       let precomputedPositions = [];
+      let itemCityIdxs = []; // ← جدید: اندیس شهر برای هر جمله (بر اساس title-id)
       let currentMarkers = new Map();
       let currentGlobalIndex = -1;
       let pathPolyline = null;
       let fullPathPoints = [];
+      let titleIdToColor = {};
+
+      // ──────────────────────────────────────────────
+      // متغیر جدید برای رفع مشکل کلیک دکمه در موبایل
+      // متن انتخاب‌شده را یک‌بار ذخیره می‌کنیم تا در iOS/Android
+      // هنگام ضربه روی دکمه، انتخاب پاک نشود
+      // ──────────────────────────────────────────────
+      let currentSelectedText = "";
 
       var map = L.map("map", {
         zoomControl: true,
@@ -440,11 +434,11 @@
         attribution: "© Google Maps",
       }).addTo(map);
 
-      function getCustomIcon(id) {
+      function getCustomIcon(id, accentColor = "#1e40af") {
         const num = String(id || "?").padStart(2, "0");
         return L.divIcon({
           className: "custom-number-marker",
-          html: `<div style="background:white;color:#1e40af;font-size:14px;font-weight:700;width:32px;height:32px;border:1.5px solid #a3a8ea;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,0.2);">${num}</div>`,
+          html: `<div style="background:${accentColor};color:#ffffff;font-size:14px;font-weight:700;width:32px;height:32px;border:1.5px solid #ffffff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,0.25);">${num}</div>`,
           iconSize: [34, 34],
           iconAnchor: [17, 17],
           popupAnchor: [0, -15],
@@ -484,6 +478,9 @@
         currentGlobalIndex = globalIdx;
         const item = sortedItems[globalIdx];
 
+        const titleId = (item["title-id"] || "").trim() || "default";
+        const accentColor = titleIdToColor[titleId] || "#1e40af";
+
         if (currentMarkers.has(globalIdx)) {
           const marker = currentMarkers.get(globalIdx);
           map.flyTo(marker.getLatLng(), 12, { duration: 1 });
@@ -495,145 +492,62 @@
         const pos = precomputedPositions[globalIdx];
         if (!pos) return;
 
-        const cityName =
-          allCities[Math.floor(globalIdx / ADJECTIVES_PER_CITY)]?.name ||
-          "نامشخص";
+        const cityIdx = itemCityIdxs[globalIdx];
+        const cityName = allCities[cityIdx]?.name || "نامشخص";
 
         let popupHTML = `
           <div class="popup">
-            <div class="header-row">
+            <div class="header-row" style="border-bottom: 2px solid ${accentColor};">
               <div class="city-name">${cityName}</div>
-              <div class="number">${item.id}</div>
-               
+              <div class="number" style="background:${accentColor}; color:#ffffff;">${item.id}</div>
             </div>
 
-            <!-- Adjektiv + ترجمه -->
-            <div class="verb-section">
-              <div class="titleid">${item.title_id}</div>
-              <div class="verb">
-                <a href="${createTranslateLink(item.adjective)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.adjective}</a>
-              </div>
-              <div class="person">${item.translation_fa}</div>
-            </div>
+            <div style="font-size:0.92rem;font-weight:700;color:${accentColor};margin:0.4rem 0 0.1rem;text-align: center;text-shadow: 0 2px 4px rgba(0,0,0,0.2);">${item["title-id"] || ""}</div>
+            <div class="grammar-main-title">${item.title || ""}</div>
+            
+            <div class="grammar-description">${item.description || ""}</div>
 
-
-            <!-- Unbestimmter Artikel (Nominativ) -->
-            <div class="grammar-section">
-              <div class="grammar-title">Unbestimmter Artikel (Nominativ)</div>
-              <div style="font-size:0.85rem; line-height:1.45;">
-                <div><strong style="color:#435bf9">Maskulin:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.maskulin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.maskulin}</a>
-                  </span>
-                </div>
-                <div><strong >Feminin:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.feminin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.feminin}</a>
-                  </span>
-                </div>
-                <div><strong style="color:#2bd92f">Neutral:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.neutral)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.neutral}</a>
-                  </span>
-                </div>
-                <div><strong style="color:#ff5151">Plural:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.plural)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.plural}</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Akkusativ Beispiele -->
-         
-
-            <!-- Komparativ -->
             ${
-              item.komparativ
+              item.examples &&
+              Array.isArray(item.examples) &&
+              item.examples.length > 0
                 ? `
             <div class="grammar-section">
-              <div class="grammar-title">Komparativ</div>
-              <div class="de">
-                <a href="${createTranslateLink(item.komparativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.komparativ}</a>
-              </div>
-                <div class="grammar-title">Superlativ</div>
-              
-                
+              <div class="grammar-title">Beispiele / مثال‌ها</div>
+              ${item.examples
+                .map(
+                  (ex) => `
+                <div class="example-item">
                   <div class="de">
-                   <a href="${createTranslateLink(item.superlativ.praedikativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.superlativ.praedikativ}</a>
+                    <a href="${createTranslateLink(ex.de)}" target="_blank" style="color:inherit; text-decoration:none;">${ex.de || "—"}</a>
                   </div>
-             </div>
+                  <div class="fa">${ex.fa || "—"}</div>
+                </div>
+              `,
+                )
+                .join("")}
             </div>`
                 : ""
             }
 
-            <!-- Antonyme & Synonyme -->
-            <div class="grammar-section" style="display:flex;gap:16px;flex-wrap:wrap;">
-              ${
-                item.antonyme && item.antonyme.length
-                  ? `
-              <div style="flex:1;min-width:45%;direction: ltr;">
-                <div class="grammar-title" style="color:#ec8787">Antonyme</div>
-                <div style="display:flex;gap:6px;flex-wrap:wrap;">
-                  ${item.antonyme
-                    .map(
-                      (ant) =>
-                        `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
-                          <a href="${createTranslateLink(ant)}" target="_blank" style="color:inherit;text-decoration:none;">${ant}</a>
-                        </span>`,
-                    )
-                    .join("")}
-                </div>
-              </div>`
-                  : ""
-              }
-              ${
-                item.synonyme && item.synonyme.length
-                  ? `
-              <div style="flex:1;min-width:45%;">
-                <div class="grammar-title" style="color:#67f984">Synonyme</div>
-                <div style="display:flex;gap:6px;flex-wrap:wrap;direction: ltr;">
-                  ${item.synonyme
-                    .map(
-                      (syn) =>
-                        `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
-                          <a href="${createTranslateLink(syn)}" target="_blank" style="color:inherit;text-decoration:none;">${syn}</a>
-                        </span>`,
-                    )
-                    .join("")}
-                </div>
-              </div>`
-                  : ""
-              }
-            </div>
-
-            <!-- Beispiele (اسکرول) -->
             ${
-              item.examples && item.examples.length
+              item.note && item.note.trim() !== ""
                 ? `
             <div class="grammar-section">
-              <div class="grammar-title">Beispielsätze</div>
-              <div style="max-height:235px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding-right:10px;">
-                ${item.examples
-                  .map(
-                    (ex) => `
-                  <div class="example">
-                    <a href="${createTranslateLink(ex)}" target="_blank" style="color:inherit;text-decoration:none;">${ex}</a>
-                  </div>`,
-                  )
-                  .join("")}
-              </div>
+              <div class="grammar-title">Note / جدول</div>
+              <div class="note">${item.note}</div>
             </div>`
                 : ""
             }
+
           </div>`;
 
         const marker = L.marker(pos, {
-          icon: getCustomIcon(item.id),
+          icon: getCustomIcon(item.id, accentColor),
         }).addTo(map);
         marker.globalIndex = globalIdx;
         marker.bindPopup(popupHTML, {
-          maxWidth: 420,
+          maxWidth: 460,
           minWidth: 280,
           autoPan: true,
           autoPanPaddingTopLeft: [20, 100],
@@ -665,12 +579,12 @@
       window.showNext = function () {
         if (currentGlobalIndex + 1 < sortedItems.length)
           showSentence(currentGlobalIndex + 1, true);
-        else alert("Ende der Adjektive erreicht!");
+        else alert("Ende der Grammatiken erreicht!");
       };
 
       window.showPrevious = function () {
         if (currentGlobalIndex > 0) showSentence(currentGlobalIndex - 1, true);
-        else alert("Dies ist das erste Adjektiv!");
+        else alert("Dies ist der erste Eintrag!");
       };
 
       window.startApp = function () {
@@ -680,7 +594,7 @@
           (item) => parseInt(item.id) === num,
         );
         if (!targetItem) {
-          alert(`Adjektiv ${num} nicht gefunden!`);
+          alert(`Grammatik ${num} nicht gefunden!`);
           return;
         }
         const globalIndex = sortedItems.indexOf(targetItem);
@@ -689,20 +603,49 @@
         showSentence(globalIndex, true);
       };
 
-      // بارگذاری داده‌ها
-      fetch("json/cities.json")
+      fetch("../json/cities.json")
         .then((res) => res.json())
         .then((cities) => {
           allCities = cities;
-          return fetch("json/adjective.json").then((r) => r.json());
+          return fetch("../json/A1Grammatik.json").then((r) => r.json());
         })
         .then((data) => {
           sortedItems = data.sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
+          const uniqueTitleIds = [
+            ...new Set(
+              sortedItems
+                .map((item) => (item["title-id"] || "").trim())
+                .filter(Boolean),
+            ),
+          ];
+
+          titleIdToColor = {};
+          uniqueTitleIds.forEach((tid, index) => {
+            const hue = Math.round((index * 137.508) % 360);
+            titleIdToColor[tid] = `hsl(${hue}, 85%, 55%)`;
+          });
+          titleIdToColor["default"] = "#1e40af";
+
+          precomputedPositions = [];
+          itemCityIdxs = [];
+          let currentCityIdx = 0;
+          let prevTitleId = null;
+
           sortedItems.forEach((item, i) => {
-            const cityIdx = Math.floor(i / ADJECTIVES_PER_CITY);
-            if (cityIdx >= allCities.length) return;
+            const titleId = (item["title-id"] || "").trim() || "default";
+
+            if (i > 0 && titleId !== prevTitleId) {
+              currentCityIdx++;
+            }
+
+            prevTitleId = titleId;
+
+            const cityIdx = Math.min(currentCityIdx, allCities.length - 1);
+            itemCityIdxs.push(cityIdx);
+
             const city = allCities[cityIdx];
+
             const lat =
               city.lat +
               Math.sin(i * 1.234567) * 0.04 +
@@ -711,6 +654,7 @@
               city.lng +
               Math.sin(i * 0.987654) * 0.04 +
               Math.cos(i * 3.456789) * 0.03;
+
             precomputedPositions.push([lat, lng]);
           });
 
@@ -720,6 +664,96 @@
           console.error(err);
           alert("Fehler beim Laden der JSON-Dateien");
         });
+
+      /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
+      let translateBtn = null;
+      let hideTimeout = null;
+
+      function showTranslateButton() {
+        const selection = window.getSelection();
+        const selectedText = selection.toString().trim();
+        
+        if (selectedText.length === 0) {
+          hideTranslateButton();
+          return;
+        }
+
+        // متن انتخاب‌شده را ذخیره می‌کنیم (برای موبایل خیلی مهم است)
+        currentSelectedText = selectedText;
+
+        if (!translateBtn) {
+          translateBtn = document.getElementById("float-translate-btn");
+          if (!translateBtn) return;
+
+          // کلیک معمولی (دسکتاپ)
+          translateBtn.addEventListener("click", function (e) {
+            e.stopImmediatePropagation();
+            if (currentSelectedText) {
+              const url = `https://translate.google.com/?sl=auto&tl=fa&text=${encodeURIComponent(currentSelectedText)}&op=translate`;
+              window.open(url, "_blank");
+            }
+            hideTranslateButton();
+          });
+
+          // ضربه لمسی (iOS + Android) – مشکل قبلی دقیقاً اینجا بود
+          translateBtn.addEventListener("touchend", function (e) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            if (currentSelectedText) {
+              const url = `https://translate.google.com/?sl=auto&tl=fa&text=${encodeURIComponent(currentSelectedText)}&op=translate`;
+              window.open(url, "_blank");
+            }
+            hideTranslateButton();
+          });
+        }
+
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+
+        const btnSize = 48;
+        let left = rect.right + 12;
+        let top = rect.top - btnSize - 12;
+
+        if (left + btnSize > window.innerWidth) left = rect.left - btnSize - 12;
+        if (top < 10) top = rect.bottom + 12;
+
+        translateBtn.style.left = `${left}px`;
+        translateBtn.style.top = `${top}px`;
+        translateBtn.style.display = "flex";
+
+        if (hideTimeout) clearTimeout(hideTimeout);
+        hideTimeout = setTimeout(() => {
+          if (window.getSelection().toString().trim() === "") hideTranslateButton();
+        }, 8000);
+      }
+
+      function hideTranslateButton() {
+        if (translateBtn) translateBtn.style.display = "none";
+        currentSelectedText = "";               // پاک کردن متن ذخیره‌شده
+        if (hideTimeout) {
+          clearTimeout(hideTimeout);
+          hideTimeout = null;
+        }
+      }
+
+      // فعال‌سازی در همه جا
+      document.addEventListener("mouseup", showTranslateButton);
+      document.addEventListener("touchend", showTranslateButton);
+      
+      document.addEventListener("selectionchange", () => {
+        if (window.getSelection().toString().trim() === "") hideTranslateButton();
+      });
+
+      document.addEventListener("mousedown", (e) => {
+        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+      });
+      document.addEventListener("touchstart", (e) => {
+        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+      });
+
+      // مخفی کردن هنگام حرکت نقشه
+      map.on("zoomstart", hideTranslateButton);
+      map.on("movestart", hideTranslateButton);
     </script>
   </body>
 </html>

@@ -408,6 +408,30 @@
         text-align: center;
       }
 
+           /* ================ دکمه شناور ترجمه (جدید) ================ */
+      #float-translate-btn {
+        position: fixed;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background: var(--primary);
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        box-shadow: var(--shadow-md);
+        z-index: 100000;
+        cursor: pointer;
+        font-size: 24px;
+        transition: all 0.2s ease;
+        user-select: none;
+        padding: 3px 1px 0px 1px;
+      }
+      #float-translate-btn:hover {
+        transform: scale(1.1);
+        background: var(--primary-dark);
+      }
+
       @media (max-width: 480px) {
         .leaflet-popup {
           max-width: 88vw !important;
@@ -460,7 +484,9 @@
       <div id="progress-counter">01 / 72</div>
     </div>
     <!-- ==================================================== -->
-
+  <div id="float-translate-btn" title="ترجمه با گوگل">
+      🌐
+    </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
       // ثابت‌ها و متغیرها
@@ -703,6 +729,98 @@
           console.error(err);
           alert("Fehler beim Laden der JSON-Dateien");
         });
+
+                 /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
+      let translateBtn = null;
+      let hideTimeout = null;
+
+      function showTranslateButton() {
+        const selection = window.getSelection();
+        const selectedText = selection.toString().trim();
+        
+        if (selectedText.length === 0) {
+          hideTranslateButton();
+          return;
+        }
+
+        // متن انتخاب‌شده را ذخیره می‌کنیم (برای موبایل خیلی مهم است)
+        currentSelectedText = selectedText;
+
+        if (!translateBtn) {
+          translateBtn = document.getElementById("float-translate-btn");
+          if (!translateBtn) return;
+
+          // کلیک معمولی (دسکتاپ)
+          translateBtn.addEventListener("click", function (e) {
+            e.stopImmediatePropagation();
+            if (currentSelectedText) {
+              const url = `https://translate.google.com/?sl=auto&tl=fa&text=${encodeURIComponent(currentSelectedText)}&op=translate`;
+              window.open(url, "_blank");
+            }
+            hideTranslateButton();
+          });
+
+          // ضربه لمسی (iOS + Android) – مشکل قبلی دقیقاً اینجا بود
+          translateBtn.addEventListener("touchend", function (e) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            if (currentSelectedText) {
+              const url = `https://translate.google.com/?sl=auto&tl=fa&text=${encodeURIComponent(currentSelectedText)}&op=translate`;
+              window.open(url, "_blank");
+            }
+            hideTranslateButton();
+          });
+        }
+
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+
+        const btnSize = 48;
+        let left = rect.right + 12;
+        let top = rect.top - btnSize - 12;
+
+        if (left + btnSize > window.innerWidth) left = rect.left - btnSize - 12;
+        if (top < 10) top = rect.bottom + 12;
+
+        translateBtn.style.left = `${left}px`;
+        translateBtn.style.top = `${top}px`;
+        translateBtn.style.display = "flex";
+
+        if (hideTimeout) clearTimeout(hideTimeout);
+        hideTimeout = setTimeout(() => {
+          if (window.getSelection().toString().trim() === "") hideTranslateButton();
+        }, 8000);
+      }
+
+      function hideTranslateButton() {
+        if (translateBtn) translateBtn.style.display = "none";
+        currentSelectedText = "";               // پاک کردن متن ذخیره‌شده
+        if (hideTimeout) {
+          clearTimeout(hideTimeout);
+          hideTimeout = null;
+        }
+      }
+
+      // فعال‌سازی در همه جا
+      document.addEventListener("mouseup", showTranslateButton);
+      document.addEventListener("touchend", showTranslateButton);
+      
+      document.addEventListener("selectionchange", () => {
+        if (window.getSelection().toString().trim() === "") hideTranslateButton();
+      });
+
+      document.addEventListener("mousedown", (e) => {
+        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+      });
+      document.addEventListener("touchstart", (e) => {
+        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+      });
+
+      // مخفی کردن هنگام حرکت نقشه
+      map.on("zoomstart", hideTranslateButton);
+      map.on("movestart", hideTranslateButton);
+
+
     </script>
   </body>
 </html>

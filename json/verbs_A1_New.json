@@ -10837,4 +10837,1810 @@
   {"Verb":"mitmachen","Person":"Ihr","Filename":"599","Sound_de":"Ihr macht mit.","fa":"شما (جمع) شرکت می‌کنید.","Beispiel":"Ihr macht bei dem Spiel mit.","Negativ":"Ihr macht nicht mit.","Beispiel_Negativ":"Ihr macht bei dem Spiel nicht mit.","fragend":"Macht ihr mit?","Beispiel_fragend":"Macht ihr bei dem Spiel mit?","Zeitmodi":[{"Präteritum":"Ihr machtet mit.","Beispiel":"Ihr machtet bei dem Spiel mit."},{"Perfekt":"Ihr habt mitgemacht.","Beispiel":"Ihr habt bei dem Spiel mitgemacht."},{"Futur_I":"Ihr werdet mitmachen.","Beispiel":"Ihr werdet bei dem Spiel mitmachen."},{"Imperativ":"Macht mit!","Beispiel":"Macht bei dem Spiel mit!"}]},
   {"Verb":"mitmachen","Person":"Sie/sie","Filename":"600","Sound_de":"Sie machen mit.","fa":"آنها / شما (رسمی) شرکت می‌کنند.","Beispiel":"Sie machen bei dem Spiel mit.","Negativ":"Sie machen nicht mit.","Beispiel_Negativ":"Sie machen bei dem Spiel nicht mit.","fragend":"Machen Sie mit?","Beispiel_fragend":"Machen Sie bei dem Spiel mit?","Zeitmodi":[{"Präteritum":"Sie machten mit.","Beispiel":"Sie machten bei dem Spiel mit."},{"Perfekt":"Sie haben mitgemacht.","Beispiel":"Sie haben bei dem Spiel mitgemacht."},{"Futur_I":"Sie werden mitmachen.","Beispiel":"Sie werden bei dem Spiel mitmachen."},{"Imperativ":"Machen Sie mit!","Beispiel":"Machen Sie bei dem Spiel mit!"}]}
 
+  ,
+  
+  {
+    "Verb": "mitnehmen",
+    "Person": "Ich",
+    "Filename": "601",
+    "Sound_de": "Ich nehme mit.",
+    "fa": "من با خودم می‌برم.",
+    "Beispiel": "Ich nehme meine Kamera mit.",
+    "Negativ": "Ich nehme nicht mit.",
+    "Beispiel_Negativ": "Ich nehme meine Kamera nicht mit.",
+    "fragend": "Nehme ich mit?",
+    "Beispiel_fragend": "Nehme ich meine Kamera mit?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Ich nahm mit.",
+        "Beispiel": "Ich nahm meine Kamera mit."
+      },
+      {
+        "Perfekt": "Ich habe mitgenommen.",
+        "Beispiel": "Ich habe meine Kamera mitgenommen."
+      },
+      {
+        "Futur_I": "Ich werde mitnehmen.",
+        "Beispiel": "Ich werde meine Kamera mitnehmen."
+      },
+      {
+        "Imperativ": "Nimm mit!",
+        "Beispiel": "Nimm deine Kamera mit!"
+      }
+    ]
+  },
+  {
+    "Verb": "mitnehmen",
+    "Person": "Du",
+    "Filename": "602",
+    "Sound_de": "Du nimmst mit.",
+    "fa": "تو با خودت می‌بری.",
+    "Beispiel": "Du nimmst deinen Schirm mit.",
+    "Negativ": "Du nimmst nicht mit.",
+    "Beispiel_Negativ": "Du nimmst deinen Schirm nicht mit.",
+    "fragend": "Nimmst du mit?",
+    "Beispiel_fragend": "Nimmst du deinen Schirm mit?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Du nahmst mit.",
+        "Beispiel": "Du nahmst deinen Schirm mit."
+      },
+      {
+        "Perfekt": "Du hast mitgenommen.",
+        "Beispiel": "Du hast deinen Schirm mitgenommen."
+      },
+      {
+        "Futur_I": "Du wirst mitnehmen.",
+        "Beispiel": "Du wirst deinen Schirm mitnehmen."
+      },
+      {
+        "Imperativ": "Nimm mit!",
+        "Beispiel": "Nimm deinen Schirm mit!"
+      }
+    ]
+  },
+  {
+    "Verb": "mitnehmen",
+    "Person": "Er/Sie/Es",
+    "Filename": "603",
+    "Sound_de": "Er nimmt mit.",
+    "fa": "او با خودش می‌برد.",
+    "Beispiel": "Er nimmt seine Freunde mit.",
+    "Negativ": "Er nimmt nicht mit.",
+    "Beispiel_Negativ": "Er nimmt seine Freunde nicht mit.",
+    "fragend": "Nimmt er mit?",
+    "Beispiel_fragend": "Nimmt er seine Freunde mit?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Er nahm mit.",
+        "Beispiel": "Er nahm seine Freunde mit."
+      },
+      {
+        "Perfekt": "Er hat mitgenommen.",
+        "Beispiel": "Er hat seine Freunde mitgenommen."
+      },
+      {
+        "Futur_I": "Er wird mitnehmen.",
+        "Beispiel": "Er wird seine Freunde mitnehmen."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "mitnehmen",
+    "Person": "Wir",
+    "Filename": "604",
+    "Sound_de": "Wir nehmen mit.",
+    "fa": "ما با خودمان می‌بریم.",
+    "Beispiel": "Wir nehmen das Essen mit.",
+    "Negativ": "Wir nehmen nicht mit.",
+    "Beispiel_Negativ": "Wir nehmen das Essen nicht mit.",
+    "fragend": "Nehmen wir mit?",
+    "Beispiel_fragend": "Nehmen wir das Essen mit?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Wir nahmen mit.",
+        "Beispiel": "Wir nahmen das Essen mit."
+      },
+      {
+        "Perfekt": "Wir haben mitgenommen.",
+        "Beispiel": "Wir haben das Essen mitgenommen."
+      },
+      {
+        "Futur_I": "Wir werden mitnehmen.",
+        "Beispiel": "Wir werden das Essen mitnehmen."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "mitnehmen",
+    "Person": "Ihr",
+    "Filename": "605",
+    "Sound_de": "Ihr nehmt mit.",
+    "fa": "شما (جمع) با خودتان می‌برید.",
+    "Beispiel": "Ihr nehmt die Hunde mit.",
+    "Negativ": "Ihr nehmt nicht mit.",
+    "Beispiel_Negativ": "Ihr nehmt die Hunde nicht mit.",
+    "fragend": "Nehmt ihr mit?",
+    "Beispiel_fragend": "Nehmt ihr die Hunde mit?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Ihr nahmt mit.",
+        "Beispiel": "Ihr nahmt die Hunde mit."
+      },
+      {
+        "Perfekt": "Ihr habt mitgenommen.",
+        "Beispiel": "Ihr habt die Hunde mitgenommen."
+      },
+      {
+        "Futur_I": "Ihr werdet mitnehmen.",
+        "Beispiel": "Ihr werdet die Hunde mitnehmen."
+      },
+      {
+        "Imperativ": "Nehmt mit!",
+        "Beispiel": "Nehmt die Hunde mit!"
+      }
+    ]
+  },
+  {
+    "Verb": "mitnehmen",
+    "Person": "Sie/sie",
+    "Filename": "606",
+    "Sound_de": "Sie nehmen mit.",
+    "fa": "آنها / شما (رسمی) با خودشان می‌برند.",
+    "Beispiel": "Sie nehmen den Schlüssel mit.",
+    "Negativ": "Sie nehmen nicht mit.",
+    "Beispiel_Negativ": "Sie nehmen den Schlüssel nicht mit.",
+    "fragend": "Nehmen Sie mit?",
+    "Beispiel_fragend": "Nehmen Sie den Schlüssel mit?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Sie nahmen mit.",
+        "Beispiel": "Sie nahmen den Schlüssel mit."
+      },
+      {
+        "Perfekt": "Sie haben mitgenommen.",
+        "Beispiel": "Sie haben den Schlüssel mitgenommen."
+      },
+      {
+        "Futur_I": "Sie werden mitnehmen.",
+        "Beispiel": "Sie werden den Schlüssel mitnehmen."
+      },
+      {
+        "Imperativ": "Nehmen Sie mit!",
+        "Beispiel": "Nehmen Sie den Schlüssel mit!"
+      }
+    ]
+  },
+  {
+    "Verb": "möchten",
+    "Person": "Ich",
+    "Filename": "607",
+    "Sound_de": "Ich möchte.",
+    "fa": "من می‌خواهم (مودبانه).",
+    "Beispiel": "Ich möchte eine Pizza essen.",
+    "Negativ": "Ich möchte nicht.",
+    "Beispiel_Negativ": "Ich möchte keine Pizza essen.",
+    "fragend": "Möchte ich?",
+    "Beispiel_fragend": "Möchte ich eine Pizza essen?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Ich mochte.",
+        "Beispiel": "Ich mochte eine Pizza essen."
+      },
+      {
+        "Perfekt": "Ich habe gemocht.",
+        "Beispiel": "Ich habe eine Pizza essen gemocht."
+      },
+      {
+        "Futur_I": "Ich werde möchten.",
+        "Beispiel": "Ich werde eine Pizza essen möchten."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "möchten",
+    "Person": "Du",
+    "Filename": "608",
+    "Sound_de": "Du möchtest.",
+    "fa": "تو می‌خواهی (مودبانه).",
+    "Beispiel": "Du möchtest ins Kino gehen.",
+    "Negativ": "Du möchtest nicht.",
+    "Beispiel_Negativ": "Du möchtest nicht ins Kino gehen.",
+    "fragend": "Möchtest du?",
+    "Beispiel_fragend": "Möchtest du ins Kino gehen?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Du mochtest.",
+        "Beispiel": "Du mochtest ins Kino gehen."
+      },
+      {
+        "Perfekt": "Du hast gemocht.",
+        "Beispiel": "Du hast ins Kino gehen gemocht."
+      },
+      {
+        "Futur_I": "Du wirst möchten.",
+        "Beispiel": "Du wirst ins Kino gehen möchten."
+      },
+      {
+        "Imperativ": "Möchte!",
+        "Beispiel": "Möchte ins Kino gehen!"
+      }
+    ]
+  },
+  {
+    "Verb": "möchten",
+    "Person": "Er/Sie/Es",
+    "Filename": "609",
+    "Sound_de": "Er möchte.",
+    "fa": "او می‌خواهد (مودبانه).",
+    "Beispiel": "Er möchte ein Auto kaufen.",
+    "Negativ": "Er möchte nicht.",
+    "Beispiel_Negativ": "Er möchte kein Auto kaufen.",
+    "fragend": "Möchte er?",
+    "Beispiel_fragend": "Möchte er ein Auto kaufen?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Er mochte.",
+        "Beispiel": "Er mochte ein Auto kaufen."
+      },
+      {
+        "Perfekt": "Er hat gemocht.",
+        "Beispiel": "Er hat ein Auto kaufen gemocht."
+      },
+      {
+        "Futur_I": "Er wird möchten.",
+        "Beispiel": "Er wird ein Auto kaufen möchten."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "möchten",
+    "Person": "Wir",
+    "Filename": "610",
+    "Sound_de": "Wir möchten.",
+    "fa": "ما می‌خواهیم (مودبانه).",
+    "Beispiel": "Wir möchten nach London gehen.",
+    "Negativ": "Wir möchten nicht.",
+    "Beispiel_Negativ": "Wir möchten nicht nach London gehen.",
+    "fragend": "Möchten wir?",
+    "Beispiel_fragend": "Möchten wir nach London gehen?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Wir mochten.",
+        "Beispiel": "Wir mochten nach London gehen."
+      },
+      {
+        "Perfekt": "Wir haben gemocht.",
+        "Beispiel": "Wir haben nach London gehen gemocht."
+      },
+      {
+        "Futur_I": "Wir werden möchten.",
+        "Beispiel": "Wir werden nach London gehen möchten."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "möchten",
+    "Person": "Ihr",
+    "Filename": "611",
+    "Sound_de": "Ihr möchtet.",
+    "fa": "شما (جمع) می‌خواهید (مودبانه).",
+    "Beispiel": "Ihr möchtet eine Cola trinken.",
+    "Negativ": "Ihr möchtet nicht.",
+    "Beispiel_Negativ": "Ihr möchtet keine Cola trinken.",
+    "fragend": "Möchtet ihr?",
+    "Beispiel_fragend": "Möchtet ihr eine Cola trinken?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Ihr mochtet.",
+        "Beispiel": "Ihr mochtet eine Cola trinken."
+      },
+      {
+        "Perfekt": "Ihr habt gemocht.",
+        "Beispiel": "Ihr habt eine Cola trinken gemocht."
+      },
+      {
+        "Futur_I": "Ihr werdet möchten.",
+        "Beispiel": "Ihr werdet eine Cola trinken möchten."
+      },
+      {
+        "Imperativ": "Möchtet!",
+        "Beispiel": "Möchtet eine Cola trinken!"
+      }
+    ]
+  },
+  {
+    "Verb": "möchten",
+    "Person": "Sie/sie",
+    "Filename": "612",
+    "Sound_de": "Sie möchten.",
+    "fa": "آنها / شما (رسمی) می‌خواهند (مودبانه).",
+    "Beispiel": "Sie möchten ein Zimmer reservieren.",
+    "Negativ": "Sie möchten nicht.",
+    "Beispiel_Negativ": "Sie möchten kein Zimmer reservieren.",
+    "fragend": "Möchten Sie?",
+    "Beispiel_fragend": "Möchten Sie ein Zimmer reservieren?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Sie mochten.",
+        "Beispiel": "Sie mochten ein Zimmer reservieren."
+      },
+      {
+        "Perfekt": "Sie haben gemocht.",
+        "Beispiel": "Sie haben ein Zimmer reservieren gemocht."
+      },
+      {
+        "Futur_I": "Sie werden möchten.",
+        "Beispiel": "Sie werden ein Zimmer reservieren möchten."
+      },
+      {
+        "Imperativ": "Möchten Sie!",
+        "Beispiel": "Möchten Sie ein Zimmer reservieren!"
+      }
+    ]
+  },
+  {
+    "Verb": "mögen",
+    "Person": "Ich",
+    "Filename": "613",
+    "Sound_de": "Ich mag.",
+    "fa": "من دوست دارم.",
+    "Beispiel": "Ich mag Käse.",
+    "Negativ": "Ich mag nicht.",
+    "Beispiel_Negativ": "Ich mag keinen Käse.",
+    "fragend": "Mag ich?",
+    "Beispiel_fragend": "Mag ich Käse?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Ich mochte.",
+        "Beispiel": "Ich mochte Käse."
+      },
+      {
+        "Perfekt": "Ich habe gemocht.",
+        "Beispiel": "Ich habe Käse gemocht."
+      },
+      {
+        "Futur_I": "Ich werde mögen.",
+        "Beispiel": "Ich werde Käse mögen."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "mögen",
+    "Person": "Du",
+    "Filename": "614",
+    "Sound_de": "Du magst.",
+    "fa": "تو دوست داری.",
+    "Beispiel": "Du magst Obst.",
+    "Negativ": "Du magst nicht.",
+    "Beispiel_Negativ": "Du magst kein Obst.",
+    "fragend": "Magst du?",
+    "Beispiel_fragend": "Magst du Obst?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Du mochtest.",
+        "Beispiel": "Du mochtest Obst."
+      },
+      {
+        "Perfekt": "Du hast gemocht.",
+        "Beispiel": "Du hast Obst gemocht."
+      },
+      {
+        "Futur_I": "Du wirst mögen.",
+        "Beispiel": "Du wirst Obst mögen."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "mögen",
+    "Person": "Er/Sie/Es",
+    "Filename": "615",
+    "Sound_de": "Er mag.",
+    "fa": "او دوست دارد.",
+    "Beispiel": "Er mag Musik.",
+    "Negativ": "Er mag nicht.",
+    "Beispiel_Negativ": "Er mag keine Musik.",
+    "fragend": "Mag er?",
+    "Beispiel_fragend": "Mag er Musik?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Er mochte.",
+        "Beispiel": "Er mochte Musik."
+      },
+      {
+        "Perfekt": "Er hat gemocht.",
+        "Beispiel": "Er hat Musik gemocht."
+      },
+      {
+        "Futur_I": "Er wird mögen.",
+        "Beispiel": "Er wird Musik mögen."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "mögen",
+    "Person": "Wir",
+    "Filename": "616",
+    "Sound_de": "Wir mögen.",
+    "fa": "ما دوست داریم.",
+    "Beispiel": "Wir mögen den Film.",
+    "Negativ": "Wir mögen nicht.",
+    "Beispiel_Negativ": "Wir mögen den Film nicht.",
+    "fragend": "Mögen wir?",
+    "Beispiel_fragend": "Mögen wir den Film?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Wir mochten.",
+        "Beispiel": "Wir mochten den Film."
+      },
+      {
+        "Perfekt": "Wir haben gemocht.",
+        "Beispiel": "Wir haben den Film gemocht."
+      },
+      {
+        "Futur_I": "Wir werden mögen.",
+        "Beispiel": "Wir werden den Film mögen."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "mögen",
+    "Person": "Ihr",
+    "Filename": "617",
+    "Sound_de": "Ihr mögt.",
+    "fa": "شما (جمع) دوست دارید.",
+    "Beispiel": "Ihr mögt Schokolade.",
+    "Negativ": "Ihr mögt nicht.",
+    "Beispiel_Negativ": "Ihr mögt keine Schokolade.",
+    "fragend": "Mögt ihr?",
+    "Beispiel_fragend": "Mögt ihr Schokolade?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Ihr mochtet.",
+        "Beispiel": "Ihr mochtet Schokolade."
+      },
+      {
+        "Perfekt": "Ihr habt gemocht.",
+        "Beispiel": "Ihr habt Schokolade gemocht."
+      },
+      {
+        "Futur_I": "Ihr werdet mögen.",
+        "Beispiel": "Ihr werdet Schokolade mögen."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  {
+    "Verb": "mögen",
+    "Person": "Sie/sie",
+    "Filename": "618",
+    "Sound_de": "Sie mögen.",
+    "fa": "آنها / شما (رسمی) دوست دارند.",
+    "Beispiel": "Sie mögen Kaffee.",
+    "Negativ": "Sie mögen nicht.",
+    "Beispiel_Negativ": "Sie mögen keinen Kaffee.",
+    "fragend": "Mögen Sie?",
+    "Beispiel_fragend": "Mögen Sie Kaffee?",
+    "Zeitmodi": [
+      {
+        "Präteritum": "Sie mochten.",
+        "Beispiel": "Sie mochten Kaffee."
+      },
+      {
+        "Perfekt": "Sie haben gemocht.",
+        "Beispiel": "Sie haben Kaffee gemocht."
+      },
+      {
+        "Futur_I": "Sie werden mögen.",
+        "Beispiel": "Sie werden Kaffee mögen."
+      },
+      {
+        "Imperativ": "-",
+        "Beispiel": "-"
+      }
+    ]
+  },
+  
+  {
+    "Verb": "müssen",
+    "Person": "Ich",
+    "Filename": "619",
+    "Sound_de": "Ich muss.",
+    "fa": "من باید.",
+    "Beispiel": "Ich muss zur Arbeit gehen.",
+    "Negativ": "Ich muss nicht.",
+    "Beispiel_Negativ": "Ich muss heute nicht arbeiten.",
+    "fragend": "Muss ich?",
+    "Beispiel_fragend": "Muss ich zur Arbeit gehen?",
+    "Zeitmodi": [
+      {"Präteritum": "Ich musste.", "Beispiel": "Ich musste zur Arbeit gehen."},
+      {"Perfekt": "Ich habe gemusst.", "Beispiel": "Ich habe zur Arbeit gehen müssen."},
+      {"Futur_I": "Ich werde müssen.", "Beispiel": "Ich werde zur Arbeit gehen müssen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "müssen",
+    "Person": "Du",
+    "Filename": "620",
+    "Sound_de": "Du musst.",
+    "fa": "تو باید.",
+    "Beispiel": "Du musst zur Arbeit gehen.",
+    "Negativ": "Du musst nicht.",
+    "Beispiel_Negativ": "Du musst heute nicht arbeiten.",
+    "fragend": "Musst du?",
+    "Beispiel_fragend": "Musst du zur Arbeit gehen?",
+    "Zeitmodi": [
+      {"Präteritum": "Du musstest.", "Beispiel": "Du musstest zur Arbeit gehen."},
+      {"Perfekt": "Du hast gemusst.", "Beispiel": "Du hast zur Arbeit gehen müssen."},
+      {"Futur_I": "Du wirst müssen.", "Beispiel": "Du wirst zur Arbeit gehen müssen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "müssen",
+    "Person": "Er/Sie/Es",
+    "Filename": "621",
+    "Sound_de": "Er muss.",
+    "fa": "او باید.",
+    "Beispiel": "Er muss zur Arbeit gehen.",
+    "Negativ": "Er muss nicht.",
+    "Beispiel_Negativ": "Er muss heute nicht arbeiten.",
+    "fragend": "Muss er?",
+    "Beispiel_fragend": "Muss er zur Arbeit gehen?",
+    "Zeitmodi": [
+      {"Präteritum": "Er musste.", "Beispiel": "Er musste zur Arbeit gehen."},
+      {"Perfekt": "Er hat gemusst.", "Beispiel": "Er hat zur Arbeit gehen müssen."},
+      {"Futur_I": "Er wird müssen.", "Beispiel": "Er wird zur Arbeit gehen müssen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "müssen",
+    "Person": "Wir",
+    "Filename": "622",
+    "Sound_de": "Wir müssen.",
+    "fa": "ما باید.",
+    "Beispiel": "Wir müssen zur Arbeit gehen.",
+    "Negativ": "Wir müssen nicht.",
+    "Beispiel_Negativ": "Wir müssen heute nicht arbeiten.",
+    "fragend": "Müssen wir?",
+    "Beispiel_fragend": "Müssen wir zur Arbeit gehen?",
+    "Zeitmodi": [
+      {"Präteritum": "Wir mussten.", "Beispiel": "Wir mussten zur Arbeit gehen."},
+      {"Perfekt": "Wir haben gemusst.", "Beispiel": "Wir haben zur Arbeit gehen müssen."},
+      {"Futur_I": "Wir werden müssen.", "Beispiel": "Wir werden zur Arbeit gehen müssen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "müssen",
+    "Person": "Ihr",
+    "Filename": "623",
+    "Sound_de": "Ihr müsst.",
+    "fa": "شما (جمع) باید.",
+    "Beispiel": "Ihr müsst zur Arbeit gehen.",
+    "Negativ": "Ihr müsst nicht.",
+    "Beispiel_Negativ": "Ihr müsst heute nicht arbeiten.",
+    "fragend": "Müsst ihr?",
+    "Beispiel_fragend": "Müsst ihr zur Arbeit gehen?",
+    "Zeitmodi": [
+      {"Präteritum": "Ihr musstet.", "Beispiel": "Ihr musstet zur Arbeit gehen."},
+      {"Perfekt": "Ihr habt gemusst.", "Beispiel": "Ihr habt zur Arbeit gehen müssen."},
+      {"Futur_I": "Ihr werdet müssen.", "Beispiel": "Ihr werdet zur Arbeit gehen müssen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "müssen",
+    "Person": "Sie/sie",
+    "Filename": "624",
+    "Sound_de": "Sie müssen.",
+    "fa": "آنها / شما (رسمی) باید.",
+    "Beispiel": "Sie müssen zur Arbeit gehen.",
+    "Negativ": "Sie müssen nicht.",
+    "Beispiel_Negativ": "Sie müssen heute nicht arbeiten.",
+    "fragend": "Müssen Sie?",
+    "Beispiel_fragend": "Müssen Sie zur Arbeit gehen?",
+    "Zeitmodi": [
+      {"Präteritum": "Sie mussten.", "Beispiel": "Sie mussten zur Arbeit gehen."},
+      {"Perfekt": "Sie haben gemusst.", "Beispiel": "Sie haben zur Arbeit gehen müssen."},
+      {"Futur_I": "Sie werden müssen.", "Beispiel": "Sie werden zur Arbeit gehen müssen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "nehmen",
+    "Person": "Ich",
+    "Filename": "625",
+    "Sound_de": "Ich nehme.",
+    "fa": "من می‌گیرم.",
+    "Beispiel": "Ich nehme den Bus.",
+    "Negativ": "Ich nehme nicht.",
+    "Beispiel_Negativ": "Ich nehme den Bus nicht.",
+    "fragend": "Nehme ich?",
+    "Beispiel_fragend": "Nehme ich den Bus?",
+    "Zeitmodi": [
+      {"Präteritum": "Ich nahm.", "Beispiel": "Ich nahm den Bus."},
+      {"Perfekt": "Ich habe genommen.", "Beispiel": "Ich habe den Bus genommen."},
+      {"Futur_I": "Ich werde nehmen.", "Beispiel": "Ich werde den Bus nehmen."},
+      {"Imperativ": "Nimm!", "Beispiel": "Nimm den Bus!"}
+    ]
+  },
+  {
+    "Verb": "nehmen",
+    "Person": "Du",
+    "Filename": "626",
+    "Sound_de": "Du nimmst.",
+    "fa": "تو می‌گیری.",
+    "Beispiel": "Du nimmst den Bus.",
+    "Negativ": "Du nimmst nicht.",
+    "Beispiel_Negativ": "Du nimmst den Bus nicht.",
+    "fragend": "Nimmst du?",
+    "Beispiel_fragend": "Nimmst du den Bus?",
+    "Zeitmodi": [
+      {"Präteritum": "Du nahmst.", "Beispiel": "Du nahmst den Bus."},
+      {"Perfekt": "Du hast genommen.", "Beispiel": "Du hast den Bus genommen."},
+      {"Futur_I": "Du wirst nehmen.", "Beispiel": "Du wirst den Bus nehmen."},
+      {"Imperativ": "Nimm!", "Beispiel": "Nimm den Bus!"}
+    ]
+  },
+  {
+    "Verb": "nehmen",
+    "Person": "Er/Sie/Es",
+    "Filename": "627",
+    "Sound_de": "Er nimmt.",
+    "fa": "او می‌گیرد.",
+    "Beispiel": "Er nimmt den Bus.",
+    "Negativ": "Er nimmt nicht.",
+    "Beispiel_Negativ": "Er nimmt den Bus nicht.",
+    "fragend": "Nimmt er?",
+    "Beispiel_fragend": "Nimmt er den Bus?",
+    "Zeitmodi": [
+      {"Präteritum": "Er nahm.", "Beispiel": "Er nahm den Bus."},
+      {"Perfekt": "Er hat genommen.", "Beispiel": "Er hat den Bus genommen."},
+      {"Futur_I": "Er wird nehmen.", "Beispiel": "Er wird den Bus nehmen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "nehmen",
+    "Person": "Wir",
+    "Filename": "628",
+    "Sound_de": "Wir nehmen.",
+    "fa": "ما می‌گیریم.",
+    "Beispiel": "Wir nehmen den Bus.",
+    "Negativ": "Wir nehmen nicht.",
+    "Beispiel_Negativ": "Wir nehmen den Bus nicht.",
+    "fragend": "Nehmen wir?",
+    "Beispiel_fragend": "Nehmen wir den Bus?",
+    "Zeitmodi": [
+      {"Präteritum": "Wir nahmen.", "Beispiel": "Wir nahmen den Bus."},
+      {"Perfekt": "Wir haben genommen.", "Beispiel": "Wir haben den Bus genommen."},
+      {"Futur_I": "Wir werden nehmen.", "Beispiel": "Wir werden den Bus nehmen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "nehmen",
+    "Person": "Ihr",
+    "Filename": "629",
+    "Sound_de": "Ihr nehmt.",
+    "fa": "شما (جمع) می‌گیرید.",
+    "Beispiel": "Ihr nehmt den Bus.",
+    "Negativ": "Ihr nehmt nicht.",
+    "Beispiel_Negativ": "Ihr nehmt den Bus nicht.",
+    "fragend": "Nehmt ihr?",
+    "Beispiel_fragend": "Nehmt ihr den Bus?",
+    "Zeitmodi": [
+      {"Präteritum": "Ihr nahmt.", "Beispiel": "Ihr nahmt den Bus."},
+      {"Perfekt": "Ihr habt genommen.", "Beispiel": "Ihr habt den Bus genommen."},
+      {"Futur_I": "Ihr werdet nehmen.", "Beispiel": "Ihr werdet den Bus nehmen."},
+      {"Imperativ": "Nehmt!", "Beispiel": "Nehmt den Bus!"}
+    ]
+  },
+  {
+    "Verb": "nehmen",
+    "Person": "Sie/sie",
+    "Filename": "630",
+    "Sound_de": "Sie nehmen.",
+    "fa": "آنها / شما (رسمی) می‌گیرند.",
+    "Beispiel": "Sie nehmen den Bus.",
+    "Negativ": "Sie nehmen nicht.",
+    "Beispiel_Negativ": "Sie nehmen den Bus nicht.",
+    "fragend": "Nehmen Sie?",
+    "Beispiel_fragend": "Nehmen Sie den Bus?",
+    "Zeitmodi": [
+      {"Präteritum": "Sie nahmen.", "Beispiel": "Sie nahmen den Bus."},
+      {"Perfekt": "Sie haben genommen.", "Beispiel": "Sie haben den Bus genommen."},
+      {"Futur_I": "Sie werden nehmen.", "Beispiel": "Sie werden den Bus nehmen."},
+      {"Imperativ": "Nehmen Sie!", "Beispiel": "Nehmen Sie den Bus!"}
+    ]
+  },
+  {
+    "Verb": "öffnen",
+    "Person": "Ich",
+    "Filename": "631",
+    "Sound_de": "Ich öffne.",
+    "fa": "من باز می‌کنم.",
+    "Beispiel": "Ich öffne die Tür.",
+    "Negativ": "Ich öffne nicht.",
+    "Beispiel_Negativ": "Ich öffne die Tür nicht.",
+    "fragend": "Öffne ich?",
+    "Beispiel_fragend": "Öffne ich die Tür?",
+    "Zeitmodi": [
+      {"Präteritum": "Ich öffnete.", "Beispiel": "Ich öffnete die Tür."},
+      {"Perfekt": "Ich habe geöffnet.", "Beispiel": "Ich habe die Tür geöffnet."},
+      {"Futur_I": "Ich werde öffnen.", "Beispiel": "Ich werde die Tür öffnen."},
+      {"Imperativ": "Öffne!", "Beispiel": "Öffne die Tür!"}
+    ]
+  },
+  {
+    "Verb": "öffnen",
+    "Person": "Du",
+    "Filename": "632",
+    "Sound_de": "Du öffnest.",
+    "fa": "تو باز می‌کنی.",
+    "Beispiel": "Du öffnest die Tür.",
+    "Negativ": "Du öffnest nicht.",
+    "Beispiel_Negativ": "Du öffnest die Tür nicht.",
+    "fragend": "Öffnest du?",
+    "Beispiel_fragend": "Öffnest du die Tür?",
+    "Zeitmodi": [
+      {"Präteritum": "Du öffnetest.", "Beispiel": "Du öffnetest die Tür."},
+      {"Perfekt": "Du hast geöffnet.", "Beispiel": "Du hast die Tür geöffnet."},
+      {"Futur_I": "Du wirst öffnen.", "Beispiel": "Du wirst die Tür öffnen."},
+      {"Imperativ": "Öffne!", "Beispiel": "Öffne die Tür!"}
+    ]
+  },
+  {
+    "Verb": "öffnen",
+    "Person": "Er/Sie/Es",
+    "Filename": "633",
+    "Sound_de": "Er öffnet.",
+    "fa": "او باز می‌کند.",
+    "Beispiel": "Er öffnet die Tür.",
+    "Negativ": "Er öffnet nicht.",
+    "Beispiel_Negativ": "Er öffnet die Tür nicht.",
+    "fragend": "Öffnet er?",
+    "Beispiel_fragend": "Öffnet er die Tür?",
+    "Zeitmodi": [
+      {"Präteritum": "Er öffnete.", "Beispiel": "Er öffnete die Tür."},
+      {"Perfekt": "Er hat geöffnet.", "Beispiel": "Er hat die Tür geöffnet."},
+      {"Futur_I": "Er wird öffnen.", "Beispiel": "Er wird die Tür öffnen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "öffnen",
+    "Person": "Wir",
+    "Filename": "634",
+    "Sound_de": "Wir öffnen.",
+    "fa": "ما باز می‌کنیم.",
+    "Beispiel": "Wir öffnen die Tür.",
+    "Negativ": "Wir öffnen nicht.",
+    "Beispiel_Negativ": "Wir öffnen die Tür nicht.",
+    "fragend": "Öffnen wir?",
+    "Beispiel_fragend": "Öffnen wir die Tür?",
+    "Zeitmodi": [
+      {"Präteritum": "Wir öffneten.", "Beispiel": "Wir öffneten die Tür."},
+      {"Perfekt": "Wir haben geöffnet.", "Beispiel": "Wir haben die Tür geöffnet."},
+      {"Futur_I": "Wir werden öffnen.", "Beispiel": "Wir werden die Tür öffnen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "öffnen",
+    "Person": "Ihr",
+    "Filename": "635",
+    "Sound_de": "Ihr öffnet.",
+    "fa": "شما (جمع) باز می‌کنید.",
+    "Beispiel": "Ihr öffnet die Tür.",
+    "Negativ": "Ihr öffnet nicht.",
+    "Beispiel_Negativ": "Ihr öffnet die Tür nicht.",
+    "fragend": "Öffnet ihr?",
+    "Beispiel_fragend": "Öffnet ihr die Tür?",
+    "Zeitmodi": [
+      {"Präteritum": "Ihr öffnetet.", "Beispiel": "Ihr öffnetet die Tür."},
+      {"Perfekt": "Ihr habt geöffnet.", "Beispiel": "Ihr habt die Tür geöffnet."},
+      {"Futur_I": "Ihr werdet öffnen.", "Beispiel": "Ihr werdet die Tür öffnen."},
+      {"Imperativ": "Öffnet!", "Beispiel": "Öffnet die Tür!"}
+    ]
+  },
+  {
+    "Verb": "öffnen",
+    "Person": "Sie/sie",
+    "Filename": "636",
+    "Sound_de": "Sie öffnen.",
+    "fa": "آنها / شما (رسمی) باز می‌کنند.",
+    "Beispiel": "Sie öffnen die Tür.",
+    "Negativ": "Sie öffnen nicht.",
+    "Beispiel_Negativ": "Sie öffnen die Tür nicht.",
+    "fragend": "Öffnen Sie?",
+    "Beispiel_fragend": "Öffnen Sie die Tür?",
+    "Zeitmodi": [
+      {"Präteritum": "Sie öffneten.", "Beispiel": "Sie öffneten die Tür."},
+      {"Perfekt": "Sie haben geöffnet.", "Beispiel": "Sie haben die Tür geöffnet."},
+      {"Futur_I": "Sie werden öffnen.", "Beispiel": "Sie werden die Tür öffnen."},
+      {"Imperativ": "Öffnen Sie!", "Beispiel": "Öffnen Sie die Tür!"}
+    ]
+  },
+  {
+    "Verb": "Rad fahren",
+    "Person": "Ich",
+    "Filename": "637",
+    "Sound_de": "Ich fahre Rad.",
+    "fa": "من دوچرخه سواری می‌کنم.",
+    "Beispiel": "Ich fahre Rad in der Stadt.",
+    "Negativ": "Ich fahre nicht Rad.",
+    "Beispiel_Negativ": "Ich fahre heute nicht Rad.",
+    "fragend": "Fahre ich Rad?",
+    "Beispiel_fragend": "Fahre ich Rad in der Stadt?",
+    "Zeitmodi": [
+      {"Präteritum": "Ich fuhr Rad.", "Beispiel": "Ich fuhr Rad in der Stadt."},
+      {"Perfekt": "Ich bin Rad gefahren.", "Beispiel": "Ich bin Rad in der Stadt gefahren."},
+      {"Futur_I": "Ich werde Rad fahren.", "Beispiel": "Ich werde Rad in der Stadt fahren."},
+      {"Imperativ": "Fahr Rad!", "Beispiel": "Fahr Rad in der Stadt!"}
+    ]
+  },
+  {
+    "Verb": "Rad fahren",
+    "Person": "Du",
+    "Filename": "638",
+    "Sound_de": "Du fährst Rad.",
+    "fa": "تو دوچرخه سواری می‌کنی.",
+    "Beispiel": "Du fährst Rad in der Stadt.",
+    "Negativ": "Du fährst nicht Rad.",
+    "Beispiel_Negativ": "Du fährst heute nicht Rad.",
+    "fragend": "Fährst du Rad?",
+    "Beispiel_fragend": "Fährst du Rad in der Stadt?",
+    "Zeitmodi": [
+      {"Präteritum": "Du fuhrst Rad.", "Beispiel": "Du fuhrst Rad in der Stadt."},
+      {"Perfekt": "Du bist Rad gefahren.", "Beispiel": "Du bist Rad in der Stadt gefahren."},
+      {"Futur_I": "Du wirst Rad fahren.", "Beispiel": "Du wirst Rad in der Stadt fahren."},
+      {"Imperativ": "Fahr Rad!", "Beispiel": "Fahr Rad in der Stadt!"}
+    ]
+  },
+  {
+    "Verb": "Rad fahren",
+    "Person": "Er/Sie/Es",
+    "Filename": "639",
+    "Sound_de": "Er fährt Rad.",
+    "fa": "او دوچرخه سواری می‌کند.",
+    "Beispiel": "Er fährt Rad in der Stadt.",
+    "Negativ": "Er fährt nicht Rad.",
+    "Beispiel_Negativ": "Er fährt heute nicht Rad.",
+    "fragend": "Fährt er Rad?",
+    "Beispiel_fragend": "Fährt er Rad in der Stadt?",
+    "Zeitmodi": [
+      {"Präteritum": "Er fuhr Rad.", "Beispiel": "Er fuhr Rad in der Stadt."},
+      {"Perfekt": "Er ist Rad gefahren.", "Beispiel": "Er ist Rad in der Stadt gefahren."},
+      {"Futur_I": "Er wird Rad fahren.", "Beispiel": "Er wird Rad in der Stadt fahren."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "Rad fahren",
+    "Person": "Wir",
+    "Filename": "640",
+    "Sound_de": "Wir fahren Rad.",
+    "fa": "ما دوچرخه سواری می‌کنیم.",
+    "Beispiel": "Wir fahren Rad in der Stadt.",
+    "Negativ": "Wir fahren nicht Rad.",
+    "Beispiel_Negativ": "Wir fahren heute nicht Rad.",
+    "fragend": "Fahren wir Rad?",
+    "Beispiel_fragend": "Fahren wir Rad in der Stadt?",
+    "Zeitmodi": [
+      {"Präteritum": "Wir fuhren Rad.", "Beispiel": "Wir fuhren Rad in der Stadt."},
+      {"Perfekt": "Wir sind Rad gefahren.", "Beispiel": "Wir sind Rad in der Stadt gefahren."},
+      {"Futur_I": "Wir werden Rad fahren.", "Beispiel": "Wir werden Rad in der Stadt fahren."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "Rad fahren",
+    "Person": "Ihr",
+    "Filename": "641",
+    "Sound_de": "Ihr fahrt Rad.",
+    "fa": "شما (جمع) دوچرخه سواری می‌کنید.",
+    "Beispiel": "Ihr fahrt Rad in der Stadt.",
+    "Negativ": "Ihr fahrt nicht Rad.",
+    "Beispiel_Negativ": "Ihr fahrt heute nicht Rad.",
+    "fragend": "Fahrt ihr Rad?",
+    "Beispiel_fragend": "Fahrt ihr Rad in der Stadt?",
+    "Zeitmodi": [
+      {"Präteritum": "Ihr fuhrt Rad.", "Beispiel": "Ihr fuhrt Rad in der Stadt."},
+      {"Perfekt": "Ihr seid Rad gefahren.", "Beispiel": "Ihr seid Rad in der Stadt gefahren."},
+      {"Futur_I": "Ihr werdet Rad fahren.", "Beispiel": "Ihr werdet Rad in der Stadt fahren."},
+      {"Imperativ": "Fahrt Rad!", "Beispiel": "Fahrt Rad in der Stadt!"}
+    ]
+  },
+  {
+    "Verb": "Rad fahren",
+    "Person": "Sie/sie",
+    "Filename": "642",
+    "Sound_de": "Sie fahren Rad.",
+    "fa": "آنها / شما (رسمی) دوچرخه سواری می‌کنند.",
+    "Beispiel": "Sie fahren Rad in der Stadt.",
+    "Negativ": "Sie fahren nicht Rad.",
+    "Beispiel_Negativ": "Sie fahren heute nicht Rad.",
+    "fragend": "Fahren Sie Rad?",
+    "Beispiel_fragend": "Fahren Sie Rad in der Stadt?",
+    "Zeitmodi": [
+      {"Präteritum": "Sie fuhren Rad.", "Beispiel": "Sie fuhren Rad in der Stadt."},
+      {"Perfekt": "Sie sind Rad gefahren.", "Beispiel": "Sie sind Rad in der Stadt gefahren."},
+      {"Futur_I": "Sie werden Rad fahren.", "Beispiel": "Sie werden Rad in der Stadt fahren."},
+      {"Imperativ": "Fahren Sie Rad!", "Beispiel": "Fahren Sie Rad in der Stadt!"}
+    ]
+  },
+  {
+    "Verb": "rauchen",
+    "Person": "Ich",
+    "Filename": "643",
+    "Sound_de": "Ich rauche.",
+    "fa": "من سیگار می‌کشم.",
+    "Beispiel": "Ich rauche nicht im Haus.",
+    "Negativ": "Ich rauche nicht.",
+    "Beispiel_Negativ": "Ich rauche nicht im Haus.",
+    "fragend": "Rauche ich?",
+    "Beispiel_fragend": "Rauche ich im Haus?",
+    "Zeitmodi": [
+      {"Präteritum": "Ich rauchte.", "Beispiel": "Ich rauchte nicht im Haus."},
+      {"Perfekt": "Ich habe geraucht.", "Beispiel": "Ich habe nicht im Haus geraucht."},
+      {"Futur_I": "Ich werde rauchen.", "Beispiel": "Ich werde nicht im Haus rauchen."},
+      {"Imperativ": "Rauch(e)!", "Beispiel": "Rauch(e) nicht im Haus!"}
+    ]
+  },
+  {
+    "Verb": "rauchen",
+    "Person": "Du",
+    "Filename": "644",
+    "Sound_de": "Du rauchst.",
+    "fa": "تو سیگار می‌کشی.",
+    "Beispiel": "Du rauchst nicht im Haus.",
+    "Negativ": "Du rauchst nicht.",
+    "Beispiel_Negativ": "Du rauchst nicht im Haus.",
+    "fragend": "Rauchst du?",
+    "Beispiel_fragend": "Rauchst du im Haus?",
+    "Zeitmodi": [
+      {"Präteritum": "Du rauchtest.", "Beispiel": "Du rauchtest nicht im Haus."},
+      {"Perfekt": "Du hast geraucht.", "Beispiel": "Du hast nicht im Haus geraucht."},
+      {"Futur_I": "Du wirst rauchen.", "Beispiel": "Du wirst nicht im Haus rauchen."},
+      {"Imperativ": "Rauch(e)!", "Beispiel": "Rauch(e) nicht im Haus!"}
+    ]
+  },
+  {
+    "Verb": "rauchen",
+    "Person": "Er/Sie/Es",
+    "Filename": "645",
+    "Sound_de": "Er raucht.",
+    "fa": "او سیگار می‌کشد.",
+    "Beispiel": "Er raucht nicht im Haus.",
+    "Negativ": "Er raucht nicht.",
+    "Beispiel_Negativ": "Er raucht nicht im Haus.",
+    "fragend": "Raucht er?",
+    "Beispiel_fragend": "Raucht er im Haus?",
+    "Zeitmodi": [
+      {"Präteritum": "Er rauchte.", "Beispiel": "Er rauchte nicht im Haus."},
+      {"Perfekt": "Er hat geraucht.", "Beispiel": "Er hat nicht im Haus geraucht."},
+      {"Futur_I": "Er wird rauchen.", "Beispiel": "Er wird nicht im Haus rauchen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "rauchen",
+    "Person": "Wir",
+    "Filename": "646",
+    "Sound_de": "Wir rauchen.",
+    "fa": "ما سیگار می‌کشیم.",
+    "Beispiel": "Wir rauchen nicht im Haus.",
+    "Negativ": "Wir rauchen nicht.",
+    "Beispiel_Negativ": "Wir rauchen nicht im Haus.",
+    "fragend": "Rauchen wir?",
+    "Beispiel_fragend": "Rauchen wir im Haus?",
+    "Zeitmodi": [
+      {"Präteritum": "Wir rauchten.", "Beispiel": "Wir rauchten nicht im Haus."},
+      {"Perfekt": "Wir haben geraucht.", "Beispiel": "Wir haben nicht im Haus geraucht."},
+      {"Futur_I": "Wir werden rauchen.", "Beispiel": "Wir werden nicht im Haus rauchen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "rauchen",
+    "Person": "Ihr",
+    "Filename": "647",
+    "Sound_de": "Ihr raucht.",
+    "fa": "شما (جمع) سیگار می‌کشید.",
+    "Beispiel": "Ihr raucht nicht im Haus.",
+    "Negativ": "Ihr raucht nicht.",
+    "Beispiel_Negativ": "Ihr raucht nicht im Haus.",
+    "fragend": "Raucht ihr?",
+    "Beispiel_fragend": "Raucht ihr im Haus?",
+    "Zeitmodi": [
+      {"Präteritum": "Ihr rauchtet.", "Beispiel": "Ihr rauchtet nicht im Haus."},
+      {"Perfekt": "Ihr habt geraucht.", "Beispiel": "Ihr habt nicht im Haus geraucht."},
+      {"Futur_I": "Ihr werdet rauchen.", "Beispiel": "Ihr werdet nicht im Haus rauchen."},
+      {"Imperativ": "Raucht!", "Beispiel": "Raucht nicht im Haus!"}
+    ]
+  },
+  {
+    "Verb": "rauchen",
+    "Person": "Sie/sie",
+    "Filename": "648",
+    "Sound_de": "Sie rauchen.",
+    "fa": "آنها / شما (رسمی) سیگار می‌کشند.",
+    "Beispiel": "Sie rauchen nicht im Haus.",
+    "Negativ": "Sie rauchen nicht.",
+    "Beispiel_Negativ": "Sie rauchen nicht im Haus.",
+    "fragend": "Rauchen Sie?",
+    "Beispiel_fragend": "Rauchen Sie im Haus?",
+    "Zeitmodi": [
+      {"Präteritum": "Sie rauchten.", "Beispiel": "Sie rauchten nicht im Haus."},
+      {"Perfekt": "Sie haben geraucht.", "Beispiel": "Sie haben nicht im Haus geraucht."},
+      {"Futur_I": "Sie werden rauchen.", "Beispiel": "Sie werden nicht im Haus rauchen."},
+      {"Imperativ": "Rauchen Sie!", "Beispiel": "Rauchen Sie nicht im Haus!"}
+    ]
+  },
+  {
+    "Verb": "regnen",
+    "Person": "Ich",
+    "Filename": "649",
+    "Sound_de": "Es regnet.",
+    "fa": "باران می‌بارد.",
+    "Beispiel": "Es regnet draußen.",
+    "Negativ": "Es regnet nicht.",
+    "Beispiel_Negativ": "Es regnet heute nicht.",
+    "fragend": "Regnet es?",
+    "Beispiel_fragend": "Regnet es draußen?",
+    "Zeitmodi": [
+      {"Präteritum": "Es regnete.", "Beispiel": "Es regnete draußen."},
+      {"Perfekt": "Es hat geregnet.", "Beispiel": "Es hat draußen geregnet."},
+      {"Futur_I": "Es wird regnen.", "Beispiel": "Es wird draußen regnen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "regnen",
+    "Person": "Du",
+    "Filename": "650",
+    "Sound_de": "Es regnet.",
+    "fa": "باران می‌بارد.",
+    "Beispiel": "Es regnet draußen.",
+    "Negativ": "Es regnet nicht.",
+    "Beispiel_Negativ": "Es regnet heute nicht.",
+    "fragend": "Regnet es?",
+    "Beispiel_fragend": "Regnet es draußen?",
+    "Zeitmodi": [
+      {"Präteritum": "Es regnete.", "Beispiel": "Es regnete draußen."},
+      {"Perfekt": "Es hat geregnet.", "Beispiel": "Es hat draußen geregnet."},
+      {"Futur_I": "Es wird regnen.", "Beispiel": "Es wird draußen regnen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "regnen",
+    "Person": "Er/Sie/Es",
+    "Filename": "651",
+    "Sound_de": "Es regnet.",
+    "fa": "باران می‌بارد.",
+    "Beispiel": "Es regnet draußen.",
+    "Negativ": "Es regnet nicht.",
+    "Beispiel_Negativ": "Es regnet heute nicht.",
+    "fragend": "Regnet es?",
+    "Beispiel_fragend": "Regnet es draußen?",
+    "Zeitmodi": [
+      {"Präteritum": "Es regnete.", "Beispiel": "Es regnete draußen."},
+      {"Perfekt": "Es hat geregnet.", "Beispiel": "Es hat draußen geregnet."},
+      {"Futur_I": "Es wird regnen.", "Beispiel": "Es wird draußen regnen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "regnen",
+    "Person": "Wir",
+    "Filename": "652",
+    "Sound_de": "Es regnet.",
+    "fa": "باران می‌بارد.",
+    "Beispiel": "Es regnet draußen.",
+    "Negativ": "Es regnet nicht.",
+    "Beispiel_Negativ": "Es regnet heute nicht.",
+    "fragend": "Regnet es?",
+    "Beispiel_fragend": "Regnet es draußen?",
+    "Zeitmodi": [
+      {"Präteritum": "Es regnete.", "Beispiel": "Es regnete draußen."},
+      {"Perfekt": "Es hat geregnet.", "Beispiel": "Es hat draußen geregnet."},
+      {"Futur_I": "Es wird regnen.", "Beispiel": "Es wird draußen regnen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "regnen",
+    "Person": "Ihr",
+    "Filename": "653",
+    "Sound_de": "Es regnet.",
+    "fa": "باران می‌بارد.",
+    "Beispiel": "Es regnet draußen.",
+    "Negativ": "Es regnet nicht.",
+    "Beispiel_Negativ": "Es regnet heute nicht.",
+    "fragend": "Regnet es?",
+    "Beispiel_fragend": "Regnet es draußen?",
+    "Zeitmodi": [
+      {"Präteritum": "Es regnete.", "Beispiel": "Es regnete draußen."},
+      {"Perfekt": "Es hat geregnet.", "Beispiel": "Es hat draußen geregnet."},
+      {"Futur_I": "Es wird regnen.", "Beispiel": "Es wird draußen regnen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "regnen",
+    "Person": "Sie/sie",
+    "Filename": "654",
+    "Sound_de": "Es regnet.",
+    "fa": "باران می‌بارد.",
+    "Beispiel": "Es regnet draußen.",
+    "Negativ": "Es regnet nicht.",
+    "Beispiel_Negativ": "Es regnet heute nicht.",
+    "fragend": "Regnet es?",
+    "Beispiel_fragend": "Regnet es draußen?",
+    "Zeitmodi": [
+      {"Präteritum": "Es regnete.", "Beispiel": "Es regnete draußen."},
+      {"Perfekt": "Es hat geregnet.", "Beispiel": "Es hat draußen geregnet."},
+      {"Futur_I": "Es wird regnen.", "Beispiel": "Es wird draußen regnen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "reisen",
+    "Person": "Ich",
+    "Filename": "655",
+    "Sound_de": "Ich reise.",
+    "fa": "من سفر می‌کنم.",
+    "Beispiel": "Ich reise nach Deutschland.",
+    "Negativ": "Ich reise nicht.",
+    "Beispiel_Negativ": "Ich reise nicht nach Deutschland.",
+    "fragend": "Reise ich?",
+    "Beispiel_fragend": "Reise ich nach Deutschland?",
+    "Zeitmodi": [
+      {"Präteritum": "Ich reiste.", "Beispiel": "Ich reiste nach Deutschland."},
+      {"Perfekt": "Ich bin gereist.", "Beispiel": "Ich bin nach Deutschland gereist."},
+      {"Futur_I": "Ich werde reisen.", "Beispiel": "Ich werde nach Deutschland reisen."},
+      {"Imperativ": "Reis(e)!", "Beispiel": "Reis(e) nach Deutschland!"}
+    ]
+  },
+  {
+    "Verb": "reisen",
+    "Person": "Du",
+    "Filename": "656",
+    "Sound_de": "Du reist.",
+    "fa": "تو سفر می‌کنی.",
+    "Beispiel": "Du reist nach Deutschland.",
+    "Negativ": "Du reist nicht.",
+    "Beispiel_Negativ": "Du reist nicht nach Deutschland.",
+    "fragend": "Reist du?",
+    "Beispiel_fragend": "Reist du nach Deutschland?",
+    "Zeitmodi": [
+      {"Präteritum": "Du reistest.", "Beispiel": "Du reistest nach Deutschland."},
+      {"Perfekt": "Du bist gereist.", "Beispiel": "Du bist nach Deutschland gereist."},
+      {"Futur_I": "Du wirst reisen.", "Beispiel": "Du wirst nach Deutschland reisen."},
+      {"Imperativ": "Reis(e)!", "Beispiel": "Reis(e) nach Deutschland!"}
+    ]
+  },
+  {
+    "Verb": "reisen",
+    "Person": "Er/Sie/Es",
+    "Filename": "657",
+    "Sound_de": "Er reist.",
+    "fa": "او سفر می‌کند.",
+    "Beispiel": "Er reist nach Deutschland.",
+    "Negativ": "Er reist nicht.",
+    "Beispiel_Negativ": "Er reist nicht nach Deutschland.",
+    "fragend": "Reist er?",
+    "Beispiel_fragend": "Reist er nach Deutschland?",
+    "Zeitmodi": [
+      {"Präteritum": "Er reiste.", "Beispiel": "Er reiste nach Deutschland."},
+      {"Perfekt": "Er ist gereist.", "Beispiel": "Er ist nach Deutschland gereist."},
+      {"Futur_I": "Er wird reisen.", "Beispiel": "Er wird nach Deutschland reisen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "reisen",
+    "Person": "Wir",
+    "Filename": "658",
+    "Sound_de": "Wir reisen.",
+    "fa": "ما سفر می‌کنیم.",
+    "Beispiel": "Wir reisen nach Deutschland.",
+    "Negativ": "Wir reisen nicht.",
+    "Beispiel_Negativ": "Wir reisen nicht nach Deutschland.",
+    "fragend": "Reisen wir?",
+    "Beispiel_fragend": "Reisen wir nach Deutschland?",
+    "Zeitmodi": [
+      {"Präteritum": "Wir reisten.", "Beispiel": "Wir reisten nach Deutschland."},
+      {"Perfekt": "Wir sind gereist.", "Beispiel": "Wir sind nach Deutschland gereist."},
+      {"Futur_I": "Wir werden reisen.", "Beispiel": "Wir werden nach Deutschland reisen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "reisen",
+    "Person": "Ihr",
+    "Filename": "659",
+    "Sound_de": "Ihr reist.",
+    "fa": "شما (جمع) سفر می‌کنید.",
+    "Beispiel": "Ihr reist nach Deutschland.",
+    "Negativ": "Ihr reist nicht.",
+    "Beispiel_Negativ": "Ihr reist nicht nach Deutschland.",
+    "fragend": "Reist ihr?",
+    "Beispiel_fragend": "Reist ihr nach Deutschland?",
+    "Zeitmodi": [
+      {"Präteritum": "Ihr reistet.", "Beispiel": "Ihr reistet nach Deutschland."},
+      {"Perfekt": "Ihr seid gereist.", "Beispiel": "Ihr seid nach Deutschland gereist."},
+      {"Futur_I": "Ihr werdet reisen.", "Beispiel": "Ihr werdet nach Deutschland reisen."},
+      {"Imperativ": "Reist!", "Beispiel": "Reist nach Deutschland!"}
+    ]
+  },
+  {
+    "Verb": "reisen",
+    "Person": "Sie/sie",
+    "Filename": "660",
+    "Sound_de": "Sie reisen.",
+    "fa": "آنها / شما (رسمی) سفر می‌کنند.",
+    "Beispiel": "Sie reisen nach Deutschland.",
+    "Negativ": "Sie reisen nicht.",
+    "Beispiel_Negativ": "Sie reisen nicht nach Deutschland.",
+    "fragend": "Reisen Sie?",
+    "Beispiel_fragend": "Reisen Sie nach Deutschland?",
+    "Zeitmodi": [
+      {"Präteritum": "Sie reisten.", "Beispiel": "Sie reisten nach Deutschland."},
+      {"Perfekt": "Sie sind gereist.", "Beispiel": "Sie sind nach Deutschland gereist."},
+      {"Futur_I": "Sie werden reisen.", "Beispiel": "Sie werden nach Deutschland reisen."},
+      {"Imperativ": "Reisen Sie!", "Beispiel": "Reisen Sie nach Deutschland!"}
+    ]
+  },
+  {
+    "Verb": "reparieren",
+    "Person": "Ich",
+    "Filename": "661",
+    "Sound_de": "Ich repariere.",
+    "fa": "من تعمیر می‌کنم.",
+    "Beispiel": "Ich repariere das Fahrrad.",
+    "Negativ": "Ich repariere nicht.",
+    "Beispiel_Negativ": "Ich repariere das Fahrrad nicht.",
+    "fragend": "Repariere ich?",
+    "Beispiel_fragend": "Repariere ich das Fahrrad?",
+    "Zeitmodi": [
+      {"Präteritum": "Ich reparierte.", "Beispiel": "Ich reparierte das Fahrrad."},
+      {"Perfekt": "Ich habe repariert.", "Beispiel": "Ich habe das Fahrrad repariert."},
+      {"Futur_I": "Ich werde reparieren.", "Beispiel": "Ich werde das Fahrrad reparieren."},
+      {"Imperativ": "Reparier(e)!", "Beispiel": "Reparier(e) das Fahrrad!"}
+    ]
+  },
+  {
+    "Verb": "reparieren",
+    "Person": "Du",
+    "Filename": "662",
+    "Sound_de": "Du reparierst.",
+    "fa": "تو تعمیر می‌کنی.",
+    "Beispiel": "Du reparierst das Fahrrad.",
+    "Negativ": "Du reparierst nicht.",
+    "Beispiel_Negativ": "Du reparierst das Fahrrad nicht.",
+    "fragend": "Reparierst du?",
+    "Beispiel_fragend": "Reparierst du das Fahrrad?",
+    "Zeitmodi": [
+      {"Präteritum": "Du repariertest.", "Beispiel": "Du repariertest das Fahrrad."},
+      {"Perfekt": "Du hast repariert.", "Beispiel": "Du hast das Fahrrad repariert."},
+      {"Futur_I": "Du wirst reparieren.", "Beispiel": "Du wirst das Fahrrad reparieren."},
+      {"Imperativ": "Reparier(e)!", "Beispiel": "Reparier(e) das Fahrrad!"}
+    ]
+  },
+  {
+    "Verb": "reparieren",
+    "Person": "Er/Sie/Es",
+    "Filename": "663",
+    "Sound_de": "Er repariert.",
+    "fa": "او تعمیر می‌کند.",
+    "Beispiel": "Er repariert das Fahrrad.",
+    "Negativ": "Er repariert nicht.",
+    "Beispiel_Negativ": "Er repariert das Fahrrad nicht.",
+    "fragend": "Repariert er?",
+    "Beispiel_fragend": "Repariert er das Fahrrad?",
+    "Zeitmodi": [
+      {"Präteritum": "Er reparierte.", "Beispiel": "Er reparierte das Fahrrad."},
+      {"Perfekt": "Er hat repariert.", "Beispiel": "Er hat das Fahrrad repariert."},
+      {"Futur_I": "Er wird reparieren.", "Beispiel": "Er wird das Fahrrad reparieren."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "reparieren",
+    "Person": "Wir",
+    "Filename": "664",
+    "Sound_de": "Wir reparieren.",
+    "fa": "ما تعمیر می‌کنیم.",
+    "Beispiel": "Wir reparieren das Fahrrad.",
+    "Negativ": "Wir reparieren nicht.",
+    "Beispiel_Negativ": "Wir reparieren das Fahrrad nicht.",
+    "fragend": "Reparieren wir?",
+    "Beispiel_fragend": "Reparieren wir das Fahrrad?",
+    "Zeitmodi": [
+      {"Präteritum": "Wir reparierten.", "Beispiel": "Wir reparierten das Fahrrad."},
+      {"Perfekt": "Wir haben repariert.", "Beispiel": "Wir haben das Fahrrad repariert."},
+      {"Futur_I": "Wir werden reparieren.", "Beispiel": "Wir werden das Fahrrad reparieren."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "reparieren",
+    "Person": "Ihr",
+    "Filename": "665",
+    "Sound_de": "Ihr repariert.",
+    "fa": "شما (جمع) تعمیر می‌کنید.",
+    "Beispiel": "Ihr repariert das Fahrrad.",
+    "Negativ": "Ihr repariert nicht.",
+    "Beispiel_Negativ": "Ihr repariert das Fahrrad nicht.",
+    "fragend": "Repariert ihr?",
+    "Beispiel_fragend": "Repariert ihr das Fahrrad?",
+    "Zeitmodi": [
+      {"Präteritum": "Ihr repariertet.", "Beispiel": "Ihr repariertet das Fahrrad."},
+      {"Perfekt": "Ihr habt repariert.", "Beispiel": "Ihr habt das Fahrrad repariert."},
+      {"Futur_I": "Ihr werdet reparieren.", "Beispiel": "Ihr werdet das Fahrrad reparieren."},
+      {"Imperativ": "Repariert!", "Beispiel": "Repariert das Fahrrad!"}
+    ]
+  },
+  {
+    "Verb": "reparieren",
+    "Person": "Sie/sie",
+    "Filename": "666",
+    "Sound_de": "Sie reparieren.",
+    "fa": "آنها / شما (رسمی) تعمیر می‌کنند.",
+    "Beispiel": "Sie reparieren das Fahrrad.",
+    "Negativ": "Sie reparieren nicht.",
+    "Beispiel_Negativ": "Sie reparieren das Fahrrad nicht.",
+    "fragend": "Reparieren Sie?",
+    "Beispiel_fragend": "Reparieren Sie das Fahrrad?",
+    "Zeitmodi": [
+      {"Präteritum": "Sie reparierten.", "Beispiel": "Sie reparierten das Fahrrad."},
+      {"Perfekt": "Sie haben repariert.", "Beispiel": "Sie haben das Fahrrad repariert."},
+      {"Futur_I": "Sie werden reparieren.", "Beispiel": "Sie werden das Fahrrad reparieren."},
+      {"Imperativ": "Reparieren Sie!", "Beispiel": "Reparieren Sie das Fahrrad!"}
+    ]
+  },
+  {
+    "Verb": "riechen",
+    "Person": "Ich",
+    "Filename": "667",
+    "Sound_de": "Ich rieche.",
+    "fa": "من بو می‌کشم / بو می‌دهم.",
+    "Beispiel": "Ich rieche die Blumen.",
+    "Negativ": "Ich rieche nicht.",
+    "Beispiel_Negativ": "Ich rieche die Blumen nicht.",
+    "fragend": "Rieche ich?",
+    "Beispiel_fragend": "Rieche ich die Blumen?",
+    "Zeitmodi": [
+      {"Präteritum": "Ich roch.", "Beispiel": "Ich roch die Blumen."},
+      {"Perfekt": "Ich habe gerochen.", "Beispiel": "Ich habe die Blumen gerochen."},
+      {"Futur_I": "Ich werde riechen.", "Beispiel": "Ich werde die Blumen riechen."},
+      {"Imperativ": "Riech(e)!", "Beispiel": "Riech(e) die Blumen!"}
+    ]
+  },
+  {
+    "Verb": "riechen",
+    "Person": "Du",
+    "Filename": "668",
+    "Sound_de": "Du riechst.",
+    "fa": "تو بو می‌کشی / بو می‌دهی.",
+    "Beispiel": "Du riechst die Blumen.",
+    "Negativ": "Du riechst nicht.",
+    "Beispiel_Negativ": "Du riechst die Blumen nicht.",
+    "fragend": "Riechst du?",
+    "Beispiel_fragend": "Riechst du die Blumen?",
+    "Zeitmodi": [
+      {"Präteritum": "Du rochst.", "Beispiel": "Du rochst die Blumen."},
+      {"Perfekt": "Du hast gerochen.", "Beispiel": "Du hast die Blumen gerochen."},
+      {"Futur_I": "Du wirst riechen.", "Beispiel": "Du wirst die Blumen riechen."},
+      {"Imperativ": "Riech(e)!", "Beispiel": "Riech(e) die Blumen!"}
+    ]
+  },
+  {
+    "Verb": "riechen",
+    "Person": "Er/Sie/Es",
+    "Filename": "669",
+    "Sound_de": "Er riecht.",
+    "fa": "او بو می‌کشد / بو می‌دهد.",
+    "Beispiel": "Er riecht die Blumen.",
+    "Negativ": "Er riecht nicht.",
+    "Beispiel_Negativ": "Er riecht die Blumen nicht.",
+    "fragend": "Riecht er?",
+    "Beispiel_fragend": "Riecht er die Blumen?",
+    "Zeitmodi": [
+      {"Präteritum": "Er roch.", "Beispiel": "Er roch die Blumen."},
+      {"Perfekt": "Er hat gerochen.", "Beispiel": "Er hat die Blumen gerochen."},
+      {"Futur_I": "Er wird riechen.", "Beispiel": "Er wird die Blumen riechen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "riechen",
+    "Person": "Wir",
+    "Filename": "670",
+    "Sound_de": "Wir riechen.",
+    "fa": "ما بو می‌کشیم / بو می‌دهیم.",
+    "Beispiel": "Wir riechen die Blumen.",
+    "Negativ": "Wir riechen nicht.",
+    "Beispiel_Negativ": "Wir riechen die Blumen nicht.",
+    "fragend": "Riechen wir?",
+    "Beispiel_fragend": "Riechen wir die Blumen?",
+    "Zeitmodi": [
+      {"Präteritum": "Wir rochen.", "Beispiel": "Wir rochen die Blumen."},
+      {"Perfekt": "Wir haben gerochen.", "Beispiel": "Wir haben die Blumen gerochen."},
+      {"Futur_I": "Wir werden riechen.", "Beispiel": "Wir werden die Blumen riechen."},
+      {"Imperativ": "-", "Beispiel": "-"}
+    ]
+  },
+  {
+    "Verb": "riechen",
+    "Person": "Ihr",
+    "Filename": "671",
+    "Sound_de": "Ihr riecht.",
+    "fa": "شما (جمع) بو می‌کشید / بو می‌دهید.",
+    "Beispiel": "Ihr riecht die Blumen.",
+    "Negativ": "Ihr riecht nicht.",
+    "Beispiel_Negativ": "Ihr riecht die Blumen nicht.",
+    "fragend": "Riecht ihr?",
+    "Beispiel_fragend": "Riecht ihr die Blumen?",
+    "Zeitmodi": [
+      {"Präteritum": "Ihr rocht.", "Beispiel": "Ihr rocht die Blumen."},
+      {"Perfekt": "Ihr habt gerochen.", "Beispiel": "Ihr habt die Blumen gerochen."},
+      {"Futur_I": "Ihr werdet riechen.", "Beispiel": "Ihr werdet die Blumen riechen."},
+      {"Imperativ": "Riecht!", "Beispiel": "Riecht die Blumen!"}
+    ]
+  },
+  {
+    "Verb": "riechen",
+    "Person": "Sie/sie",
+    "Filename": "672",
+    "Sound_de": "Sie riechen.",
+    "fa": "آنها / شما (رسمی) بو می‌کشند / بو می‌دهند.",
+    "Beispiel": "Sie riechen die Blumen.",
+    "Negativ": "Sie riechen nicht.",
+    "Beispiel_Negativ": "Sie riechen die Blumen nicht.",
+    "fragend": "Riechen Sie?",
+    "Beispiel_fragend": "Riechen Sie die Blumen?",
+    "Zeitmodi": [
+      {"Präteritum": "Sie rochen.", "Beispiel": "Sie rochen die Blumen."},
+      {"Perfekt": "Sie haben gerochen.", "Beispiel": "Sie haben die Blumen gerochen."},
+      {"Futur_I": "Sie werden riechen.", "Beispiel": "Sie werden die Blumen riechen."},
+      {"Imperativ": "Riechen Sie!", "Beispiel": "Riechen Sie die Blumen!"}
+    ]
+  },
+  
+  {"Verb":"scheinen","Person":"Ich","Filename":"673","Sound_de":"Ich scheine.","fa":"من به نظر می‌رسم / می‌درخشم.","Beispiel":"Die Sonne scheint hell.","Negativ":"Ich scheine nicht.","Beispiel_Negativ":"Die Sonne scheint nicht hell.","fragend":"Scheine ich?","Beispiel_fragend":"Scheint die Sonne hell?","Zeitmodi":[{"Präteritum":"Ich schien.","Beispiel":"Die Sonne schien gestern hell."},{"Perfekt":"Ich habe geschienen.","Beispiel":"Die Sonne hat gestern hell geschienen."},{"Futur_I":"Ich werde scheinen.","Beispiel":"Die Sonne wird morgen hell scheinen."},{"Imperativ":"Schein(e)!","Beispiel":"Schein hell!"}]},
+  {"Verb":"scheinen","Person":"Du","Filename":"674","Sound_de":"Du scheinst.","fa":"تو به نظر می‌رسی / می‌درخشی.","Beispiel":"Du scheinst glücklich zu sein.","Negativ":"Du scheinst nicht.","Beispiel_Negativ":"Du scheinst nicht glücklich zu sein.","fragend":"Scheinst du?","Beispiel_fragend":"Scheinst du glücklich zu sein?","Zeitmodi":[{"Präteritum":"Du schienst.","Beispiel":"Du schienst gestern glücklich zu sein."},{"Perfekt":"Du hast geschienen.","Beispiel":"Du hast glücklich geschienen."},{"Futur_I":"Du wirst scheinen.","Beispiel":"Du wirst morgen glücklich scheinen."},{"Imperativ":"Schein(e)!","Beispiel":"Schein glücklich!"}]},
+  {"Verb":"scheinen","Person":"Er/Sie/Es","Filename":"675","Sound_de":"Er scheint.","fa":"او به نظر می‌رسد / می‌درخشد.","Beispiel":"Er scheint müde zu sein.","Negativ":"Er scheint nicht.","Beispiel_Negativ":"Er scheint nicht müde zu sein.","fragend":"Scheint er?","Beispiel_fragend":"Scheint er müde zu sein?","Zeitmodi":[{"Präteritum":"Er schien.","Beispiel":"Er schien gestern müde zu sein."},{"Perfekt":"Er hat geschienen.","Beispiel":"Er hat müde geschienen."},{"Futur_I":"Er wird scheinen.","Beispiel":"Er wird morgen müde scheinen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"scheinen","Person":"Wir","Filename":"676","Sound_de":"Wir scheinen.","fa":"ما به نظر می‌رسیم / می‌درخشیم.","Beispiel":"Wir scheinen erfolgreich zu sein.","Negativ":"Wir scheinen nicht.","Beispiel_Negativ":"Wir scheinen nicht erfolgreich zu sein.","fragend":"Scheinen wir?","Beispiel_fragend":"Scheinen wir erfolgreich zu sein?","Zeitmodi":[{"Präteritum":"Wir schienen.","Beispiel":"Wir schienen gestern erfolgreich zu sein."},{"Perfekt":"Wir haben geschienen.","Beispiel":"Wir haben erfolgreich geschienen."},{"Futur_I":"Wir werden scheinen.","Beispiel":"Wir werden morgen erfolgreich scheinen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"scheinen","Person":"Ihr","Filename":"677","Sound_de":"Ihr scheint.","fa":"شما (جمع) به نظر می‌رسید / می‌درخشید.","Beispiel":"Ihr scheint glücklich zu sein.","Negativ":"Ihr scheint nicht.","Beispiel_Negativ":"Ihr scheint nicht glücklich zu sein.","fragend":"Scheint ihr?","Beispiel_fragend":"Scheint ihr glücklich zu sein?","Zeitmodi":[{"Präteritum":"Ihr schient.","Beispiel":"Ihr schient gestern glücklich zu sein."},{"Perfekt":"Ihr habt geschienen.","Beispiel":"Ihr habt glücklich geschienen."},{"Futur_I":"Ihr werdet scheinen.","Beispiel":"Ihr werdet morgen glücklich scheinen."},{"Imperativ":"Scheint!","Beispiel":"Scheint glücklich!"}]},
+  {"Verb":"scheinen","Person":"Sie/sie","Filename":"678","Sound_de":"Sie scheinen.","fa":"آنها / شما (رسمی) به نظر می‌رسند / می‌درخشند.","Beispiel":"Sie scheinen zufrieden zu sein.","Negativ":"Sie scheinen nicht.","Beispiel_Negativ":"Sie scheinen nicht zufrieden zu sein.","fragend":"Scheinen Sie?","Beispiel_fragend":"Scheinen Sie zufrieden zu sein?","Zeitmodi":[{"Präteritum":"Sie schienen.","Beispiel":"Sie schienen gestern zufrieden zu sein."},{"Perfekt":"Sie haben geschienen.","Beispiel":"Sie haben zufrieden geschienen."},{"Futur_I":"Sie werden scheinen.","Beispiel":"Sie werden morgen zufrieden scheinen."},{"Imperativ":"Scheinen Sie!","Beispiel":"Scheinen Sie zufrieden!"}]},
+
+  {"Verb":"schicken","Person":"Ich","Filename":"679","Sound_de":"Ich schicke.","fa":"من می‌فرستم.","Beispiel":"Ich schicke einen Brief.","Negativ":"Ich schicke nicht.","Beispiel_Negativ":"Ich schicke keinen Brief.","fragend":"Schicke ich?","Beispiel_fragend":"Schicke ich einen Brief?","Zeitmodi":[{"Präteritum":"Ich schickte.","Beispiel":"Ich schickte gestern einen Brief."},{"Perfekt":"Ich habe geschickt.","Beispiel":"Ich habe einen Brief geschickt."},{"Futur_I":"Ich werde schicken.","Beispiel":"Ich werde morgen einen Brief schicken."},{"Imperativ":"Schick(e)!","Beispiel":"Schick einen Brief!"}]},
+  {"Verb":"schicken","Person":"Du","Filename":"680","Sound_de":"Du schickst.","fa":"تو می‌فرستی.","Beispiel":"Du schickst eine E-Mail.","Negativ":"Du schickst nicht.","Beispiel_Negativ":"Du schickst keine E-Mail.","fragend":"Schickst du?","Beispiel_fragend":"Schickst du eine E-Mail?","Zeitmodi":[{"Präteritum":"Du schicktest.","Beispiel":"Du schicktest gestern eine E-Mail."},{"Perfekt":"Du hast geschickt.","Beispiel":"Du hast eine E-Mail geschickt."},{"Futur_I":"Du wirst schicken.","Beispiel":"Du wirst morgen eine E-Mail schicken."},{"Imperativ":"Schick(e)!","Beispiel":"Schick eine E-Mail!"}]},
+  {"Verb":"schicken","Person":"Er/Sie/Es","Filename":"681","Sound_de":"Er schickt.","fa":"او می‌فرستد.","Beispiel":"Er schickt ein Paket.","Negativ":"Er schickt nicht.","Beispiel_Negativ":"Er schickt kein Paket.","fragend":"Schickt er?","Beispiel_fragend":"Schickt er ein Paket?","Zeitmodi":[{"Präteritum":"Er schickte.","Beispiel":"Er schickte gestern ein Paket."},{"Perfekt":"Er hat geschickt.","Beispiel":"Er hat ein Paket geschickt."},{"Futur_I":"Er wird schicken.","Beispiel":"Er wird morgen ein Paket schicken."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schicken","Person":"Wir","Filename":"682","Sound_de":"Wir schicken.","fa":"ما می‌فرستیم.","Beispiel":"Wir schicken eine Nachricht.","Negativ":"Wir schicken nicht.","Beispiel_Negativ":"Wir schicken keine Nachricht.","fragend":"Schicken wir?","Beispiel_fragend":"Schicken wir eine Nachricht?","Zeitmodi":[{"Präteritum":"Wir schickten.","Beispiel":"Wir schickten gestern eine Nachricht."},{"Perfekt":"Wir haben geschickt.","Beispiel":"Wir haben eine Nachricht geschickt."},{"Futur_I":"Wir werden schicken.","Beispiel":"Wir werden morgen eine Nachricht schicken."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schicken","Person":"Ihr","Filename":"683","Sound_de":"Ihr schickt.","fa":"شما (جمع) می‌فرستید.","Beispiel":"Ihr schickt Geschenke.","Negativ":"Ihr schickt nicht.","Beispiel_Negativ":"Ihr schickt keine Geschenke.","fragend":"Schickt ihr?","Beispiel_fragend":"Schickt ihr Geschenke?","Zeitmodi":[{"Präteritum":"Ihr schicktet.","Beispiel":"Ihr schicktet gestern Geschenke."},{"Perfekt":"Ihr habt geschickt.","Beispiel":"Ihr habt Geschenke geschickt."},{"Futur_I":"Ihr werdet schicken.","Beispiel":"Ihr werdet morgen Geschenke schicken."},{"Imperativ":"Schickt!","Beispiel":"Schickt Geschenke!"}]},
+  {"Verb":"schicken","Person":"Sie/sie","Filename":"684","Sound_de":"Sie schicken.","fa":"آنها / شما (رسمی) می‌فرستند.","Beispiel":"Sie schicken eine Einladung.","Negativ":"Sie schicken nicht.","Beispiel_Negativ":"Sie schicken keine Einladung.","fragend":"Schicken Sie?","Beispiel_fragend":"Schicken Sie eine Einladung?","Zeitmodi":[{"Präteritum":"Sie schickten.","Beispiel":"Sie schickten gestern eine Einladung."},{"Perfekt":"Sie haben geschickt.","Beispiel":"Sie haben eine Einladung geschickt."},{"Futur_I":"Sie werden schicken.","Beispiel":"Sie werden morgen eine Einladung schicken."},{"Imperativ":"Schicken Sie!","Beispiel":"Schicken Sie eine Einladung!"}]},
+
+  {"Verb":"schlafen","Person":"Ich","Filename":"685","Sound_de":"Ich schlafe.","fa":"من می‌خوابم.","Beispiel":"Ich schlafe acht Stunden.","Negativ":"Ich schlafe nicht.","Beispiel_Negativ":"Ich schlafe nicht acht Stunden.","fragend":"Schlafe ich?","Beispiel_fragend":"Schlafe ich acht Stunden?","Zeitmodi":[{"Präteritum":"Ich schlief.","Beispiel":"Ich schlief gestern acht Stunden."},{"Perfekt":"Ich habe geschlafen.","Beispiel":"Ich habe acht Stunden geschlafen."},{"Futur_I":"Ich werde schlafen.","Beispiel":"Ich werde morgen acht Stunden schlafen."},{"Imperativ":"Schlaf(e)!","Beispiel":"Schlaf gut!"}]},
+  {"Verb":"schlafen","Person":"Du","Filename":"686","Sound_de":"Du schläfst.","fa":"تو می‌خوابی.","Beispiel":"Du schläfst tief.","Negativ":"Du schläfst nicht.","Beispiel_Negativ":"Du schläfst nicht tief.","fragend":"Schläfst du?","Beispiel_fragend":"Schläfst du tief?","Zeitmodi":[{"Präteritum":"Du schliefst.","Beispiel":"Du schliefst gestern tief."},{"Perfekt":"Du hast geschlafen.","Beispiel":"Du hast tief geschlafen."},{"Futur_I":"Du wirst schlafen.","Beispiel":"Du wirst morgen tief schlafen."},{"Imperativ":"Schlaf(e)!","Beispiel":"Schlaf gut!"}]},
+  {"Verb":"schlafen","Person":"Er/Sie/Es","Filename":"687","Sound_de":"Er schläft.","fa":"او می‌خوابد.","Beispiel":"Er schläft ruhig.","Negativ":"Er schläft nicht.","Beispiel_Negativ":"Er schläft nicht ruhig.","fragend":"Schläft er?","Beispiel_fragend":"Schläft er ruhig?","Zeitmodi":[{"Präteritum":"Er schlief.","Beispiel":"Er schlief gestern ruhig."},{"Perfekt":"Er hat geschlafen.","Beispiel":"Er hat ruhig geschlafen."},{"Futur_I":"Er wird schlafen.","Beispiel":"Er wird morgen ruhig schlafen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schlafen","Person":"Wir","Filename":"688","Sound_de":"Wir schlafen.","fa":"ما می‌خوابیم.","Beispiel":"Wir schlafen lange.","Negativ":"Wir schlafen nicht.","Beispiel_Negativ":"Wir schlafen nicht lange.","fragend":"Schlafen wir?","Beispiel_fragend":"Schlafen wir lange?","Zeitmodi":[{"Präteritum":"Wir schliefen.","Beispiel":"Wir schliefen gestern lange."},{"Perfekt":"Wir haben geschlafen.","Beispiel":"Wir haben lange geschlafen."},{"Futur_I":"Wir werden schlafen.","Beispiel":"Wir werden morgen lange schlafen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schlafen","Person":"Ihr","Filename":"689","Sound_de":"Ihr schlaft.","fa":"شما (جمع) می‌خوابید.","Beispiel":"Ihr schlaft wenig.","Negativ":"Ihr schlaft nicht.","Beispiel_Negativ":"Ihr schlaft nicht wenig.","fragend":"Schlaft ihr?","Beispiel_fragend":"Schlaft ihr wenig?","Zeitmodi":[{"Präteritum":"Ihr schlieft.","Beispiel":"Ihr schlieft gestern wenig."},{"Perfekt":"Ihr habt geschlafen.","Beispiel":"Ihr habt wenig geschlafen."},{"Futur_I":"Ihr werdet schlafen.","Beispiel":"Ihr werdet morgen wenig schlafen."},{"Imperativ":"Schlaft!","Beispiel":"Schlaft gut!"}]},
+  {"Verb":"schlafen","Person":"Sie/sie","Filename":"690","Sound_de":"Sie schlafen.","fa":"آنها / شما (رسمی) می‌خوابند.","Beispiel":"Sie schlafen friedlich.","Negativ":"Sie schlafen nicht.","Beispiel_Negativ":"Sie schlafen nicht friedlich.","fragend":"Schlafen Sie?","Beispiel_fragend":"Schlafen Sie friedlich?","Zeitmodi":[{"Präteritum":"Sie schliefen.","Beispiel":"Sie schliefen gestern friedlich."},{"Perfekt":"Sie haben geschlafen.","Beispiel":"Sie haben friedlich geschlafen."},{"Futur_I":"Sie werden schlafen.","Beispiel":"Sie werden morgen friedlich schlafen."},{"Imperativ":"Schlafen Sie!","Beispiel":"Schlafen Sie gut!"}]},
+
+  {"Verb":"schließen","Person":"Ich","Filename":"691","Sound_de":"Ich schließe.","fa":"من می‌بندم.","Beispiel":"Ich schließe die Tür.","Negativ":"Ich schließe nicht.","Beispiel_Negativ":"Ich schließe die Tür nicht.","fragend":"Schließe ich?","Beispiel_fragend":"Schließe ich die Tür?","Zeitmodi":[{"Präteritum":"Ich schloss.","Beispiel":"Ich schloss gestern die Tür."},{"Perfekt":"Ich habe geschlossen.","Beispiel":"Ich habe die Tür geschlossen."},{"Futur_I":"Ich werde schließen.","Beispiel":"Ich werde morgen die Tür schließen."},{"Imperativ":"Schließ(e)!","Beispiel":"Schließ die Tür!"}]},
+  {"Verb":"schließen","Person":"Du","Filename":"692","Sound_de":"Du schließt.","fa":"تو می‌بندی.","Beispiel":"Du schließt das Fenster.","Negativ":"Du schließt nicht.","Beispiel_Negativ":"Du schließt das Fenster nicht.","fragend":"Schließt du?","Beispiel_fragend":"Schließt du das Fenster?","Zeitmodi":[{"Präteritum":"Du schlossest.","Beispiel":"Du schlossest gestern das Fenster."},{"Perfekt":"Du hast geschlossen.","Beispiel":"Du hast das Fenster geschlossen."},{"Futur_I":"Du wirst schließen.","Beispiel":"Du wirst morgen das Fenster schließen."},{"Imperativ":"Schließ(e)!","Beispiel":"Schließ das Fenster!"}]},
+  {"Verb":"schließen","Person":"Er/Sie/Es","Filename":"693","Sound_de":"Er schließt.","fa":"او می‌بندد.","Beispiel":"Er schließt den Laden.","Negativ":"Er schließt nicht.","Beispiel_Negativ":"Er schließt den Laden nicht.","fragend":"Schließt er?","Beispiel_fragend":"Schließt er den Laden?","Zeitmodi":[{"Präteritum":"Er schloss.","Beispiel":"Er schloss gestern den Laden."},{"Perfekt":"Er hat geschlossen.","Beispiel":"Er hat den Laden geschlossen."},{"Futur_I":"Er wird schließen.","Beispiel":"Er wird morgen den Laden schließen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schließen","Person":"Wir","Filename":"694","Sound_de":"Wir schließen.","fa":"ما می‌بندیم.","Beispiel":"Wir schließen das Geschäft.","Negativ":"Wir schließen nicht.","Beispiel_Negativ":"Wir schließen das Geschäft nicht.","fragend":"Schließen wir?","Beispiel_fragend":"Schließen wir das Geschäft?","Zeitmodi":[{"Präteritum":"Wir schlossen.","Beispiel":"Wir schlossen gestern das Geschäft."},{"Perfekt":"Wir haben geschlossen.","Beispiel":"Wir haben das Geschäft geschlossen."},{"Futur_I":"Wir werden schließen.","Beispiel":"Wir werden morgen das Geschäft schließen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schließen","Person":"Ihr","Filename":"695","Sound_de":"Ihr schließt.","fa":"شما (جمع) می‌بندید.","Beispiel":"Ihr schließt die Augen.","Negativ":"Ihr schließt nicht.","Beispiel_Negativ":"Ihr schließt die Augen nicht.","fragend":"Schließt ihr?","Beispiel_fragend":"Schließt ihr die Augen?","Zeitmodi":[{"Präteritum":"Ihr schlosst.","Beispiel":"Ihr schlosst gestern die Augen."},{"Perfekt":"Ihr habt geschlossen.","Beispiel":"Ihr habt die Augen geschlossen."},{"Futur_I":"Ihr werdet schließen.","Beispiel":"Ihr werdet morgen die Augen schließen."},{"Imperativ":"Schließt!","Beispiel":"Schließt die Augen!"}]},
+  {"Verb":"schließen","Person":"Sie/sie","Filename":"696","Sound_de":"Sie schließen.","fa":"آنها / شما (رسمی) می‌بندند.","Beispiel":"Sie schließen den Vertrag.","Negativ":"Sie schließen nicht.","Beispiel_Negativ":"Sie schließen den Vertrag nicht.","fragend":"Schließen Sie?","Beispiel_fragend":"Schließen Sie den Vertrag?","Zeitmodi":[{"Präteritum":"Sie schlossen.","Beispiel":"Sie schlossen gestern den Vertrag."},{"Perfekt":"Sie haben geschlossen.","Beispiel":"Sie haben den Vertrag geschlossen."},{"Futur_I":"Sie werden schließen.","Beispiel":"Sie werden morgen den Vertrag schließen."},{"Imperativ":"Schließen Sie!","Beispiel":"Schließen Sie den Vertrag!"}]},
+
+  {"Verb":"schmecken","Person":"Ich","Filename":"697","Sound_de":"Ich schmecke.","fa":"من مزه می‌کنم.","Beispiel":"Ich schmecke das Essen.","Negativ":"Ich schmecke nicht.","Beispiel_Negativ":"Ich schmecke das Essen nicht.","fragend":"Schmecke ich?","Beispiel_fragend":"Schmecke ich das Essen?","Zeitmodi":[{"Präteritum":"Ich schmeckte.","Beispiel":"Ich schmeckte gestern das Essen."},{"Perfekt":"Ich habe geschmeckt.","Beispiel":"Ich habe das Essen geschmeckt."},{"Futur_I":"Ich werde schmecken.","Beispiel":"Ich werde morgen das Essen schmecken."},{"Imperativ":"Schmeck(e)!","Beispiel":"Schmeck das Essen!"}]},
+  {"Verb":"schmecken","Person":"Du","Filename":"698","Sound_de":"Du schmeckst.","fa":"تو مزه می‌کنی.","Beispiel":"Du schmeckst die Suppe.","Negativ":"Du schmeckst nicht.","Beispiel_Negativ":"Du schmeckst die Suppe nicht.","fragend":"Schmeckst du?","Beispiel_fragend":"Schmeckst du die Suppe?","Zeitmodi":[{"Präteritum":"Du schmecktest.","Beispiel":"Du schmecktest gestern die Suppe."},{"Perfekt":"Du hast geschmeckt.","Beispiel":"Du hast die Suppe geschmeckt."},{"Futur_I":"Du wirst schmecken.","Beispiel":"Du wirst morgen die Suppe schmecken."},{"Imperativ":"Schmeck(e)!","Beispiel":"Schmeck die Suppe!"}]},
+  {"Verb":"schmecken","Person":"Er/Sie/Es","Filename":"699","Sound_de":"Es schmeckt.","fa":"آن مزه می‌دهد.","Beispiel":"Es schmeckt gut.","Negativ":"Es schmeckt nicht.","Beispiel_Negativ":"Es schmeckt nicht gut.","fragend":"Schmeckt es?","Beispiel_fragend":"Schmeckt es gut?","Zeitmodi":[{"Präteritum":"Es schmeckte.","Beispiel":"Es schmeckte gestern gut."},{"Perfekt":"Es hat geschmeckt.","Beispiel":"Es hat gut geschmeckt."},{"Futur_I":"Es wird schmecken.","Beispiel":"Es wird morgen gut schmecken."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schmecken","Person":"Wir","Filename":"700","Sound_de":"Wir schmecken.","fa":"ما مزه می‌کنیم.","Beispiel":"Wir schmecken den Kuchen.","Negativ":"Wir schmecken nicht.","Beispiel_Negativ":"Wir schmecken den Kuchen nicht.","fragend":"Schmecken wir?","Beispiel_fragend":"Schmecken wir den Kuchen?","Zeitmodi":[{"Präteritum":"Wir schmeckten.","Beispiel":"Wir schmeckten gestern den Kuchen."},{"Perfekt":"Wir haben geschmeckt.","Beispiel":"Wir haben den Kuchen geschmeckt."},{"Futur_I":"Wir werden schmecken.","Beispiel":"Wir werden morgen den Kuchen schmecken."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schmecken","Person":"Ihr","Filename":"701","Sound_de":"Ihr schmeckt.","fa":"شما (جمع) مزه می‌کنید.","Beispiel":"Ihr schmeckt die Soße.","Negativ":"Ihr schmeckt nicht.","Beispiel_Negativ":"Ihr schmeckt die Soße nicht.","fragend":"Schmeckt ihr?","Beispiel_fragend":"Schmeckt ihr die Soße?","Zeitmodi":[{"Präteritum":"Ihr schmecktet.","Beispiel":"Ihr schmecktet gestern die Soße."},{"Perfekt":"Ihr habt geschmeckt.","Beispiel":"Ihr habt die Soße geschmeckt."},{"Futur_I":"Ihr werdet schmecken.","Beispiel":"Ihr werdet morgen die Soße schmecken."},{"Imperativ":"Schmeckt!","Beispiel":"Schmeckt die Soße!"}]},
+  {"Verb":"schmecken","Person":"Sie/sie","Filename":"702","Sound_de":"Sie schmecken.","fa":"آنها / شما (رسمی) مزه می‌کنند.","Beispiel":"Sie schmecken den Wein.","Negativ":"Sie schmecken nicht.","Beispiel_Negativ":"Sie schmecken den Wein nicht.","fragend":"Schmecken Sie?","Beispiel_fragend":"Schmecken Sie den Wein?","Zeitmodi":[{"Präteritum":"Sie schmeckten.","Beispiel":"Sie schmeckten gestern den Wein."},{"Perfekt":"Sie haben geschmeckt.","Beispiel":"Sie haben den Wein geschmeckt."},{"Futur_I":"Sie werden schmecken.","Beispiel":"Sie werden morgen den Wein schmecken."},{"Imperativ":"Schmecken Sie!","Beispiel":"Schmecken Sie den Wein!"}]},
+
+  {"Verb":"sagen","Person":"Ich","Filename":"703","Sound_de":"Ich sage.","fa":"من می‌گویم.","Beispiel":"Ich sage die Wahrheit.","Negativ":"Ich sage nicht.","Beispiel_Negativ":"Ich sage die Wahrheit nicht.","fragend":"Sage ich?","Beispiel_fragend":"Sage ich die Wahrheit?","Zeitmodi":[{"Präteritum":"Ich sagte.","Beispiel":"Ich sagte gestern die Wahrheit."},{"Perfekt":"Ich habe gesagt.","Beispiel":"Ich habe die Wahrheit gesagt."},{"Futur_I":"Ich werde sagen.","Beispiel":"Ich werde morgen die Wahrheit sagen."},{"Imperativ":"Sag(e)!","Beispiel":"Sag die Wahrheit!"}]},
+  {"Verb":"sagen","Person":"Du","Filename":"704","Sound_de":"Du sagst.","fa":"تو می‌گویی.","Beispiel":"Du sagst Hallo.","Negativ":"Du sagst nicht.","Beispiel_Negativ":"Du sagst nicht Hallo.","fragend":"Sagst du?","Beispiel_fragend":"Sagst du Hallo?","Zeitmodi":[{"Präteritum":"Du sagtest.","Beispiel":"Du sagtest gestern Hallo."},{"Perfekt":"Du hast gesagt.","Beispiel":"Du hast Hallo gesagt."},{"Futur_I":"Du wirst sagen.","Beispiel":"Du wirst morgen Hallo sagen."},{"Imperativ":"Sag(e)!","Beispiel":"Sag Hallo!"}]},
+  {"Verb":"sagen","Person":"Er/Sie/Es","Filename":"705","Sound_de":"Er sagt.","fa":"او می‌گوید.","Beispiel":"Er sagt nichts.","Negativ":"Er sagt nicht.","Beispiel_Negativ":"Er sagt nichts.","fragend":"Sagt er?","Beispiel_fragend":"Sagt er nichts?","Zeitmodi":[{"Präteritum":"Er sagte.","Beispiel":"Er sagte gestern nichts."},{"Perfekt":"Er hat gesagt.","Beispiel":"Er hat nichts gesagt."},{"Futur_I":"Er wird sagen.","Beispiel":"Er wird morgen nichts sagen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sagen","Person":"Wir","Filename":"706","Sound_de":"Wir sagen.","fa":"ما می‌گوییم.","Beispiel":"Wir sagen Danke.","Negativ":"Wir sagen nicht.","Beispiel_Negativ":"Wir sagen nicht Danke.","fragend":"Sagen wir?","Beispiel_fragend":"Sagen wir Danke?","Zeitmodi":[{"Präteritum":"Wir sagten.","Beispiel":"Wir sagten gestern Danke."},{"Perfekt":"Wir haben gesagt.","Beispiel":"Wir haben Danke gesagt."},{"Futur_I":"Wir werden sagen.","Beispiel":"Wir werden morgen Danke sagen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sagen","Person":"Ihr","Filename":"707","Sound_de":"Ihr sagt.","fa":"شما (جمع) می‌گویید.","Beispiel":"Ihr sagt die Meinung.","Negativ":"Ihr sagt nicht.","Beispiel_Negativ":"Ihr sagt die Meinung nicht.","fragend":"Sagt ihr?","Beispiel_fragend":"Sagt ihr die Meinung?","Zeitmodi":[{"Präteritum":"Ihr sagtet.","Beispiel":"Ihr sagtet gestern die Meinung."},{"Perfekt":"Ihr habt gesagt.","Beispiel":"Ihr habt die Meinung gesagt."},{"Futur_I":"Ihr werdet sagen.","Beispiel":"Ihr werdet morgen die Meinung sagen."},{"Imperativ":"Sagt!","Beispiel":"Sagt die Meinung!"}]},
+  {"Verb":"sagen","Person":"Sie/sie","Filename":"708","Sound_de":"Sie sagen.","fa":"آنها / شما (رسمی) می‌گویند.","Beispiel":"Sie sagen die Wahrheit.","Negativ":"Sie sagen nicht.","Beispiel_Negativ":"Sie sagen die Wahrheit nicht.","fragend":"Sagen Sie?","Beispiel_fragend":"Sagen Sie die Wahrheit?","Zeitmodi":[{"Präteritum":"Sie sagten.","Beispiel":"Sie sagten gestern die Wahrheit."},{"Perfekt":"Sie haben gesagt.","Beispiel":"Sie haben die Wahrheit gesagt."},{"Futur_I":"Sie werden sagen.","Beispiel":"Sie werden morgen die Wahrheit sagen."},{"Imperativ":"Sagen Sie!","Beispiel":"Sagen Sie die Wahrheit!"}]},
+  
+  {"Verb":"schreiben","Person":"Ich","Filename":"709","Sound_de":"Ich schreibe.","fa":"من می‌نویسم.","Beispiel":"Ich schreibe einen Brief.","Negativ":"Ich schreibe nicht.","Beispiel_Negativ":"Ich schreibe keinen Brief.","fragend":"Schreibe ich?","Beispiel_fragend":"Schreibe ich einen Brief?","Zeitmodi":[{"Präteritum":"Ich schrieb.","Beispiel":"Ich schrieb einen Brief."},{"Perfekt":"Ich habe geschrieben.","Beispiel":"Ich habe einen Brief geschrieben."},{"Futur_I":"Ich werde schreiben.","Beispiel":"Ich werde einen Brief schreiben."},{"Imperativ":"Schreib(e)!","Beispiel":"Schreib einen Brief!"}]},
+  {"Verb":"schreiben","Person":"Du","Filename":"710","Sound_de":"Du schreibst.","fa":"تو می‌نویسی.","Beispiel":"Du schreibst einen Brief.","Negativ":"Du schreibst nicht.","Beispiel_Negativ":"Du schreibst keinen Brief.","fragend":"Schreibst du?","Beispiel_fragend":"Schreibst du einen Brief?","Zeitmodi":[{"Präteritum":"Du schriebst.","Beispiel":"Du schriebst einen Brief."},{"Perfekt":"Du hast geschrieben.","Beispiel":"Du hast einen Brief geschrieben."},{"Futur_I":"Du wirst schreiben.","Beispiel":"Du wirst einen Brief schreiben."},{"Imperativ":"Schreib(e)!","Beispiel":"Schreib einen Brief!"}]},
+  {"Verb":"schreiben","Person":"Er/Sie/Es","Filename":"711","Sound_de":"Er schreibt.","fa":"او می‌نویسد.","Beispiel":"Er schreibt einen Brief.","Negativ":"Er schreibt nicht.","Beispiel_Negativ":"Er schreibt keinen Brief.","fragend":"Schreibt er?","Beispiel_fragend":"Schreibt er einen Brief?","Zeitmodi":[{"Präteritum":"Er schrieb.","Beispiel":"Er schrieb einen Brief."},{"Perfekt":"Er hat geschrieben.","Beispiel":"Er hat einen Brief geschrieben."},{"Futur_I":"Er wird schreiben.","Beispiel":"Er wird einen Brief schreiben."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schreiben","Person":"Wir","Filename":"712","Sound_de":"Wir schreiben.","fa":"ما می‌نویسیم.","Beispiel":"Wir schreiben einen Brief.","Negativ":"Wir schreiben nicht.","Beispiel_Negativ":"Wir schreiben keinen Brief.","fragend":"Schreiben wir?","Beispiel_fragend":"Schreiben wir einen Brief?","Zeitmodi":[{"Präteritum":"Wir schrieben.","Beispiel":"Wir schrieben einen Brief."},{"Perfekt":"Wir haben geschrieben.","Beispiel":"Wir haben einen Brief geschrieben."},{"Futur_I":"Wir werden schreiben.","Beispiel":"Wir werden einen Brief schreiben."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schreiben","Person":"Ihr","Filename":"713","Sound_de":"Ihr schreibt.","fa":"شما (جمع) می‌نویسید.","Beispiel":"Ihr schreibt einen Brief.","Negativ":"Ihr schreibt nicht.","Beispiel_Negativ":"Ihr schreibt keinen Brief.","fragend":"Schreibt ihr?","Beispiel_fragend":"Schreibt ihr einen Brief?","Zeitmodi":[{"Präteritum":"Ihr schriebt.","Beispiel":"Ihr schriebt einen Brief."},{"Perfekt":"Ihr habt geschrieben.","Beispiel":"Ihr habt einen Brief geschrieben."},{"Futur_I":"Ihr werdet schreiben.","Beispiel":"Ihr werdet einen Brief schreiben."},{"Imperativ":"Schreibt!","Beispiel":"Schreibt einen Brief!"}]},
+  {"Verb":"schreiben","Person":"Sie/sie","Filename":"714","Sound_de":"Sie schreiben.","fa":"آنها / شما (رسمی) می‌نویسند.","Beispiel":"Sie schreiben einen Brief.","Negativ":"Sie schreiben nicht.","Beispiel_Negativ":"Sie schreiben keinen Brief.","fragend":"Schreiben Sie?","Beispiel_fragend":"Schreiben Sie einen Brief?","Zeitmodi":[{"Präteritum":"Sie schrieben.","Beispiel":"Sie schrieben einen Brief."},{"Perfekt":"Sie haben geschrieben.","Beispiel":"Sie haben einen Brief geschrieben."},{"Futur_I":"Sie werden schreiben.","Beispiel":"Sie werden einen Brief schreiben."},{"Imperativ":"Schreiben Sie!","Beispiel":"Schreiben Sie einen Brief!"}]},
+
+  {"Verb":"schwimmen","Person":"Ich","Filename":"715","Sound_de":"Ich schwimme.","fa":"من شنا می‌کنم.","Beispiel":"Ich schwimme im See.","Negativ":"Ich schwimme nicht.","Beispiel_Negativ":"Ich schwimme nicht im See.","fragend":"Schwimme ich?","Beispiel_fragend":"Schwimme ich im See?","Zeitmodi":[{"Präteritum":"Ich schwamm.","Beispiel":"Ich schwamm im See."},{"Perfekt":"Ich bin geschwommen.","Beispiel":"Ich bin im See geschwommen."},{"Futur_I":"Ich werde schwimmen.","Beispiel":"Ich werde im See schwimmen."},{"Imperativ":"Schwimm(e)!","Beispiel":"Schwimm im See!"}]},
+  {"Verb":"schwimmen","Person":"Du","Filename":"716","Sound_de":"Du schwimmst.","fa":"تو شنا می‌کنی.","Beispiel":"Du schwimmst im See.","Negativ":"Du schwimmst nicht.","Beispiel_Negativ":"Du schwimmst nicht im See.","fragend":"Schwimmst du?","Beispiel_fragend":"Schwimmst du im See?","Zeitmodi":[{"Präteritum":"Du schwammst.","Beispiel":"Du schwammst im See."},{"Perfekt":"Du bist geschwommen.","Beispiel":"Du bist im See geschwommen."},{"Futur_I":"Du wirst schwimmen.","Beispiel":"Du wirst im See schwimmen."},{"Imperativ":"Schwimm(e)!","Beispiel":"Schwimm im See!"}]},
+  {"Verb":"schwimmen","Person":"Er/Sie/Es","Filename":"717","Sound_de":"Er schwimmt.","fa":"او شنا می‌کند.","Beispiel":"Er schwimmt im See.","Negativ":"Er schwimmt nicht.","Beispiel_Negativ":"Er schwimmt nicht im See.","fragend":"Schwimmt er?","Beispiel_fragend":"Schwimmt er im See?","Zeitmodi":[{"Präteritum":"Er schwamm.","Beispiel":"Er schwamm im See."},{"Perfekt":"Er ist geschwommen.","Beispiel":"Er ist im See geschwommen."},{"Futur_I":"Er wird schwimmen.","Beispiel":"Er wird im See schwimmen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schwimmen","Person":"Wir","Filename":"718","Sound_de":"Wir schwimmen.","fa":"ما شنا می‌کنیم.","Beispiel":"Wir schwimmen im See.","Negativ":"Wir schwimmen nicht.","Beispiel_Negativ":"Wir schwimmen nicht im See.","fragend":"Schwimmen wir?","Beispiel_fragend":"Schwimmen wir im See?","Zeitmodi":[{"Präteritum":"Wir schwammen.","Beispiel":"Wir schwammen im See."},{"Perfekt":"Wir sind geschwommen.","Beispiel":"Wir sind im See geschwommen."},{"Futur_I":"Wir werden schwimmen.","Beispiel":"Wir werden im See schwimmen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"schwimmen","Person":"Ihr","Filename":"719","Sound_de":"Ihr schwimmt.","fa":"شما (جمع) شنا می‌کنید.","Beispiel":"Ihr schwimmt im See.","Negativ":"Ihr schwimmt nicht.","Beispiel_Negativ":"Ihr schwimmt nicht im See.","fragend":"Schwimmt ihr?","Beispiel_fragend":"Schwimmt ihr im See?","Zeitmodi":[{"Präteritum":"Ihr schwammt.","Beispiel":"Ihr schwammt im See."},{"Perfekt":"Ihr seid geschwommen.","Beispiel":"Ihr seid im See geschwommen."},{"Futur_I":"Ihr werdet schwimmen.","Beispiel":"Ihr werdet im See schwimmen."},{"Imperativ":"Schwimmt!","Beispiel":"Schwimmt im See!"}]},
+  {"Verb":"schwimmen","Person":"Sie/sie","Filename":"720","Sound_de":"Sie schwimmen.","fa":"آنها / شما (رسمی) شنا می‌کنند.","Beispiel":"Sie schwimmen im See.","Negativ":"Sie schwimmen nicht.","Beispiel_Negativ":"Sie schwimmen nicht im See.","fragend":"Schwimmen Sie?","Beispiel_fragend":"Schwimmen Sie im See?","Zeitmodi":[{"Präteritum":"Sie schwammen.","Beispiel":"Sie schwammen im See."},{"Perfekt":"Sie sind geschwommen.","Beispiel":"Sie sind im See geschwommen."},{"Futur_I":"Sie werden schwimmen.","Beispiel":"Sie werden im See schwimmen."},{"Imperativ":"Schwimmen Sie!","Beispiel":"Schwimmen Sie im See!"}]},
+
+  {"Verb":"sehen","Person":"Ich","Filename":"721","Sound_de":"Ich sehe.","fa":"من می‌بینم.","Beispiel":"Ich sehe den Film.","Negativ":"Ich sehe nicht.","Beispiel_Negativ":"Ich sehe den Film nicht.","fragend":"Sehe ich?","Beispiel_fragend":"Sehe ich den Film?","Zeitmodi":[{"Präteritum":"Ich sah.","Beispiel":"Ich sah den Film."},{"Perfekt":"Ich habe gesehen.","Beispiel":"Ich habe den Film gesehen."},{"Futur_I":"Ich werde sehen.","Beispiel":"Ich werde den Film sehen."},{"Imperativ":"Sieh(e)!","Beispiel":"Sieh den Film!"}]},
+  {"Verb":"sehen","Person":"Du","Filename":"722","Sound_de":"Du siehst.","fa":"تو می‌بینی.","Beispiel":"Du siehst den Film.","Negativ":"Du siehst nicht.","Beispiel_Negativ":"Du siehst den Film nicht.","fragend":"Siehst du?","Beispiel_fragend":"Siehst du den Film?","Zeitmodi":[{"Präteritum":"Du sahst.","Beispiel":"Du sahst den Film."},{"Perfekt":"Du hast gesehen.","Beispiel":"Du hast den Film gesehen."},{"Futur_I":"Du wirst sehen.","Beispiel":"Du wirst den Film sehen."},{"Imperativ":"Sieh(e)!","Beispiel":"Sieh den Film!"}]},
+  {"Verb":"sehen","Person":"Er/Sie/Es","Filename":"723","Sound_de":"Er sieht.","fa":"او می‌بیند.","Beispiel":"Er sieht den Film.","Negativ":"Er sieht nicht.","Beispiel_Negativ":"Er sieht den Film nicht.","fragend":"Sieht er?","Beispiel_fragend":"Sieht er den Film?","Zeitmodi":[{"Präteritum":"Er sah.","Beispiel":"Er sah den Film."},{"Perfekt":"Er hat gesehen.","Beispiel":"Er hat den Film gesehen."},{"Futur_I":"Er wird sehen.","Beispiel":"Er wird den Film sehen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sehen","Person":"Wir","Filename":"724","Sound_de":"Wir sehen.","fa":"ما می‌بینیم.","Beispiel":"Wir sehen den Film.","Negativ":"Wir sehen nicht.","Beispiel_Negativ":"Wir sehen den Film nicht.","fragend":"Sehen wir?","Beispiel_fragend":"Sehen wir den Film?","Zeitmodi":[{"Präteritum":"Wir sahen.","Beispiel":"Wir sahen den Film."},{"Perfekt":"Wir haben gesehen.","Beispiel":"Wir haben den Film gesehen."},{"Futur_I":"Wir werden sehen.","Beispiel":"Wir werden den Film sehen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sehen","Person":"Ihr","Filename":"725","Sound_de":"Ihr seht.","fa":"شما (جمع) می‌بینید.","Beispiel":"Ihr seht den Film.","Negativ":"Ihr seht nicht.","Beispiel_Negativ":"Ihr seht den Film nicht.","fragend":"Seht ihr?","Beispiel_fragend":"Seht ihr den Film?","Zeitmodi":[{"Präteritum":"Ihr saht.","Beispiel":"Ihr saht den Film."},{"Perfekt":"Ihr habt gesehen.","Beispiel":"Ihr habt den Film gesehen."},{"Futur_I":"Ihr werdet sehen.","Beispiel":"Ihr werdet den Film sehen."},{"Imperativ":"Seht!","Beispiel":"Seht den Film!"}]},
+  {"Verb":"sehen","Person":"Sie/sie","Filename":"726","Sound_de":"Sie sehen.","fa":"آنها / شما (رسمی) می‌بینند.","Beispiel":"Sie sehen den Film.","Negativ":"Sie sehen nicht.","Beispiel_Negativ":"Sie sehen den Film nicht.","fragend":"Sehen Sie?","Beispiel_fragend":"Sehen Sie den Film?","Zeitmodi":[{"Präteritum":"Sie sahen.","Beispiel":"Sie sahen den Film."},{"Perfekt":"Sie haben gesehen.","Beispiel":"Sie haben den Film gesehen."},{"Futur_I":"Sie werden sehen.","Beispiel":"Sie werden den Film sehen."},{"Imperativ":"Sehen Sie!","Beispiel":"Sehen Sie den Film!"}]},
+
+  {"Verb":"sein","Person":"Ich","Filename":"727","Sound_de":"Ich bin.","fa":"من هستم.","Beispiel":"Ich bin glücklich.","Negativ":"Ich bin nicht.","Beispiel_Negativ":"Ich bin nicht glücklich.","fragend":"Bin ich?","Beispiel_fragend":"Bin ich glücklich?","Zeitmodi":[{"Präteritum":"Ich war.","Beispiel":"Ich war glücklich."},{"Perfekt":"Ich bin gewesen.","Beispiel":"Ich bin glücklich gewesen."},{"Futur_I":"Ich werde sein.","Beispiel":"Ich werde glücklich sein."},{"Imperativ":"Sei!","Beispiel":"Sei glücklich!"}]},
+  {"Verb":"sein","Person":"Du","Filename":"728","Sound_de":"Du bist.","fa":"تو هستی.","Beispiel":"Du bist glücklich.","Negativ":"Du bist nicht.","Beispiel_Negativ":"Du bist nicht glücklich.","fragend":"Bist du?","Beispiel_fragend":"Bist du glücklich?","Zeitmodi":[{"Präteritum":"Du warst.","Beispiel":"Du warst glücklich."},{"Perfekt":"Du bist gewesen.","Beispiel":"Du bist glücklich gewesen."},{"Futur_I":"Du wirst sein.","Beispiel":"Du wirst glücklich sein."},{"Imperativ":"Sei!","Beispiel":"Sei glücklich!"}]},
+  {"Verb":"sein","Person":"Er/Sie/Es","Filename":"729","Sound_de":"Er ist.","fa":"او هست.","Beispiel":"Er ist glücklich.","Negativ":"Er ist nicht.","Beispiel_Negativ":"Er ist nicht glücklich.","fragend":"Ist er?","Beispiel_fragend":"Ist er glücklich?","Zeitmodi":[{"Präteritum":"Er war.","Beispiel":"Er war glücklich."},{"Perfekt":"Er ist gewesen.","Beispiel":"Er ist glücklich gewesen."},{"Futur_I":"Er wird sein.","Beispiel":"Er wird glücklich sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sein","Person":"Wir","Filename":"730","Sound_de":"Wir sind.","fa":"ما هستیم.","Beispiel":"Wir sind glücklich.","Negativ":"Wir sind nicht.","Beispiel_Negativ":"Wir sind nicht glücklich.","fragend":"Sind wir?","Beispiel_fragend":"Sind wir glücklich?","Zeitmodi":[{"Präteritum":"Wir waren.","Beispiel":"Wir waren glücklich."},{"Perfekt":"Wir sind gewesen.","Beispiel":"Wir sind glücklich gewesen."},{"Futur_I":"Wir werden sein.","Beispiel":"Wir werden glücklich sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sein","Person":"Ihr","Filename":"731","Sound_de":"Ihr seid.","fa":"شما (جمع) هستید.","Beispiel":"Ihr seid glücklich.","Negativ":"Ihr seid nicht.","Beispiel_Negativ":"Ihr seid nicht glücklich.","fragend":"Seid ihr?","Beispiel_fragend":"Seid ihr glücklich?","Zeitmodi":[{"Präteritum":"Ihr wart.","Beispiel":"Ihr wart glücklich."},{"Perfekt":"Ihr seid gewesen.","Beispiel":"Ihr seid glücklich gewesen."},{"Futur_I":"Ihr werdet sein.","Beispiel":"Ihr werdet glücklich sein."},{"Imperativ":"Seid!","Beispiel":"Seid glücklich!"}]},
+  {"Verb":"sein","Person":"Sie/sie","Filename":"732","Sound_de":"Sie sind.","fa":"آنها / شما (رسمی) هستند.","Beispiel":"Sie sind glücklich.","Negativ":"Sie sind nicht.","Beispiel_Negativ":"Sie sind nicht glücklich.","fragend":"Sind Sie?","Beispiel_fragend":"Sind Sie glücklich?","Zeitmodi":[{"Präteritum":"Sie waren.","Beispiel":"Sie waren glücklich."},{"Perfekt":"Sie sind gewesen.","Beispiel":"Sie sind glücklich gewesen."},{"Futur_I":"Sie werden sein.","Beispiel":"Sie werden glücklich sein."},{"Imperativ":"Seien Sie!","Beispiel":"Seien Sie glücklich!"}]},
+
+  {"Verb":"an sein","Person":"Ich","Filename":"733","Sound_de":"Ich bin an.","fa":"من روشن هستم (دستگاه).","Beispiel":"Das Licht ist an.","Negativ":"Ich bin nicht an.","Beispiel_Negativ":"Das Licht ist nicht an.","fragend":"Bin ich an?","Beispiel_fragend":"Ist das Licht an?","Zeitmodi":[{"Präteritum":"Ich war an.","Beispiel":"Das Licht war an."},{"Perfekt":"Ich bin an gewesen.","Beispiel":"Das Licht ist an gewesen."},{"Futur_I":"Ich werde an sein.","Beispiel":"Das Licht wird an sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"an sein","Person":"Du","Filename":"734","Sound_de":"Du bist an.","fa":"تو روشن هستی (دستگاه).","Beispiel":"Der Fernseher ist an.","Negativ":"Du bist nicht an.","Beispiel_Negativ":"Der Fernseher ist nicht an.","fragend":"Bist du an?","Beispiel_fragend":"Ist der Fernseher an?","Zeitmodi":[{"Präteritum":"Du warst an.","Beispiel":"Der Fernseher war an."},{"Perfekt":"Du bist an gewesen.","Beispiel":"Der Fernseher ist an gewesen."},{"Futur_I":"Du wirst an sein.","Beispiel":"Der Fernseher wird an sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"an sein","Person":"Er/Sie/Es","Filename":"735","Sound_de":"Er ist an.","fa":"آن روشن است (دستگاه).","Beispiel":"Das Radio ist an.","Negativ":"Er ist nicht an.","Beispiel_Negativ":"Das Radio ist nicht an.","fragend":"Ist er an?","Beispiel_fragend":"Ist das Radio an?","Zeitmodi":[{"Präteritum":"Er war an.","Beispiel":"Das Radio war an."},{"Perfekt":"Er ist an gewesen.","Beispiel":"Das Radio ist an gewesen."},{"Futur_I":"Er wird an sein.","Beispiel":"Das Radio wird an sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"an sein","Person":"Wir","Filename":"736","Sound_de":"Wir sind an.","fa":"ما روشن هستیم (دستگاه).","Beispiel":"Die Lichter sind an.","Negativ":"Wir sind nicht an.","Beispiel_Negativ":"Die Lichter sind nicht an.","fragend":"Sind wir an?","Beispiel_fragend":"Sind die Lichter an?","Zeitmodi":[{"Präteritum":"Wir waren an.","Beispiel":"Die Lichter waren an."},{"Perfekt":"Wir sind an gewesen.","Beispiel":"Die Lichter sind an gewesen."},{"Futur_I":"Wir werden an sein.","Beispiel":"Die Lichter werden an sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"an sein","Person":"Ihr","Filename":"737","Sound_de":"Ihr seid an.","fa":"شما (جمع) روشن هستید (دستگاه).","Beispiel":"Die Geräte sind an.","Negativ":"Ihr seid nicht an.","Beispiel_Negativ":"Die Geräte sind nicht an.","fragend":"Seid ihr an?","Beispiel_fragend":"Sind die Geräte an?","Zeitmodi":[{"Präteritum":"Ihr wart an.","Beispiel":"Die Geräte waren an."},{"Perfekt":"Ihr seid an gewesen.","Beispiel":"Die Geräte sind an gewesen."},{"Futur_I":"Ihr werdet an sein.","Beispiel":"Die Geräte werden an sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"an sein","Person":"Sie/sie","Filename":"738","Sound_de":"Sie sind an.","fa":"آنها / شما (رسمی) روشن هستند (دستگاه).","Beispiel":"Die Lampen sind an.","Negativ":"Sie sind nicht an.","Beispiel_Negativ":"Die Lampen sind nicht an.","fragend":"Sind Sie an?","Beispiel_fragend":"Sind die Lampen an?","Zeitmodi":[{"Präteritum":"Sie waren an.","Beispiel":"Die Lampen waren an."},{"Perfekt":"Sie sind an gewesen.","Beispiel":"Die Lampen sind an gewesen."},{"Futur_I":"Sie werden an sein.","Beispiel":"Die Lampen werden an sein."},{"Imperativ":"-","Beispiel":"-"}]},
+
+  {"Verb":"auf sein","Person":"Ich","Filename":"739","Sound_de":"Ich bin auf.","fa":"من بیدار هستم.","Beispiel":"Ich bin schon auf.","Negativ":"Ich bin nicht auf.","Beispiel_Negativ":"Ich bin noch nicht auf.","fragend":"Bin ich auf?","Beispiel_fragend":"Bin ich schon auf?","Zeitmodi":[{"Präteritum":"Ich war auf.","Beispiel":"Ich war schon auf."},{"Perfekt":"Ich bin auf gewesen.","Beispiel":"Ich bin schon auf gewesen."},{"Futur_I":"Ich werde auf sein.","Beispiel":"Ich werde morgen früh auf sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"auf sein","Person":"Du","Filename":"740","Sound_de":"Du bist auf.","fa":"تو بیدار هستی.","Beispiel":"Du bist schon auf.","Negativ":"Du bist nicht auf.","Beispiel_Negativ":"Du bist noch nicht auf.","fragend":"Bist du auf?","Beispiel_fragend":"Bist du schon auf?","Zeitmodi":[{"Präteritum":"Du warst auf.","Beispiel":"Du warst schon auf."},{"Perfekt":"Du bist auf gewesen.","Beispiel":"Du bist schon auf gewesen."},{"Futur_I":"Du wirst auf sein.","Beispiel":"Du wirst morgen früh auf sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"auf sein","Person":"Er/Sie/Es","Filename":"741","Sound_de":"Er ist auf.","fa":"او بیدار است.","Beispiel":"Er ist schon auf.","Negativ":"Er ist nicht auf.","Beispiel_Negativ":"Er ist noch nicht auf.","fragend":"Ist er auf?","Beispiel_fragend":"Ist er schon auf?","Zeitmodi":[{"Präteritum":"Er war auf.","Beispiel":"Er war schon auf."},{"Perfekt":"Er ist auf gewesen.","Beispiel":"Er ist schon auf gewesen."},{"Futur_I":"Er wird auf sein.","Beispiel":"Er wird morgen früh auf sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"auf sein","Person":"Wir","Filename":"742","Sound_de":"Wir sind auf.","fa":"ما بیدار هستیم.","Beispiel":"Wir sind schon auf.","Negativ":"Wir sind nicht auf.","Beispiel_Negativ":"Wir sind noch nicht auf.","fragend":"Sind wir auf?","Beispiel_fragend":"Sind wir schon auf?","Zeitmodi":[{"Präteritum":"Wir waren auf.","Beispiel":"Wir waren schon auf."},{"Perfekt":"Wir sind auf gewesen.","Beispiel":"Wir sind schon auf gewesen."},{"Futur_I":"Wir werden auf sein.","Beispiel":"Wir werden morgen früh auf sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"auf sein","Person":"Ihr","Filename":"743","Sound_de":"Ihr seid auf.","fa":"شما (جمع) بیدار هستید.","Beispiel":"Ihr seid schon auf.","Negativ":"Ihr seid nicht auf.","Beispiel_Negativ":"Ihr seid noch nicht auf.","fragend":"Seid ihr auf?","Beispiel_fragend":"Seid ihr schon auf?","Zeitmodi":[{"Präteritum":"Ihr wart auf.","Beispiel":"Ihr wart schon auf."},{"Perfekt":"Ihr seid auf gewesen.","Beispiel":"Ihr seid schon auf gewesen."},{"Futur_I":"Ihr werdet auf sein.","Beispiel":"Ihr werdet morgen früh auf sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"auf sein","Person":"Sie/sie","Filename":"744","Sound_de":"Sie sind auf.","fa":"آنها / شما (رسمی) بیدار هستند.","Beispiel":"Sie sind schon auf.","Negativ":"Sie sind nicht auf.","Beispiel_Negativ":"Sie sind noch nicht auf.","fragend":"Sind Sie auf?","Beispiel_fragend":"Sind Sie schon auf?","Zeitmodi":[{"Präteritum":"Sie waren auf.","Beispiel":"Sie waren schon auf."},{"Perfekt":"Sie sind auf gewesen.","Beispiel":"Sie sind schon auf gewesen."},{"Futur_I":"Sie werden auf sein.","Beispiel":"Sie werden morgen früh auf sein."},{"Imperativ":"-","Beispiel":"-"}]},
+
+  {"Verb":"weg sein","Person":"Ich","Filename":"745","Sound_de":"Ich bin weg.","fa":"من رفته‌ام / غایب هستم.","Beispiel":"Ich bin schon weg.","Negativ":"Ich bin nicht weg.","Beispiel_Negativ":"Ich bin noch nicht weg.","fragend":"Bin ich weg?","Beispiel_fragend":"Bin ich schon weg?","Zeitmodi":[{"Präteritum":"Ich war weg.","Beispiel":"Ich war schon weg."},{"Perfekt":"Ich bin weg gewesen.","Beispiel":"Ich bin schon weg gewesen."},{"Futur_I":"Ich werde weg sein.","Beispiel":"Ich werde bald weg sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"weg sein","Person":"Du","Filename":"746","Sound_de":"Du bist weg.","fa":"تو رفته‌ای / غایب هستی.","Beispiel":"Du bist schon weg.","Negativ":"Du bist nicht weg.","Beispiel_Negativ":"Du bist noch nicht weg.","fragend":"Bist du weg?","Beispiel_fragend":"Bist du schon weg?","Zeitmodi":[{"Präteritum":"Du warst weg.","Beispiel":"Du warst schon weg."},{"Perfekt":"Du bist weg gewesen.","Beispiel":"Du bist schon weg gewesen."},{"Futur_I":"Du wirst weg sein.","Beispiel":"Du wirst bald weg sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"weg sein","Person":"Er/Sie/Es","Filename":"747","Sound_de":"Er ist weg.","fa":"او رفته است / غایب است.","Beispiel":"Er ist schon weg.","Negativ":"Er ist nicht weg.","Beispiel_Negativ":"Er ist noch nicht weg.","fragend":"Ist er weg?","Beispiel_fragend":"Ist er schon weg?","Zeitmodi":[{"Präteritum":"Er war weg.","Beispiel":"Er war schon weg."},{"Perfekt":"Er ist weg gewesen.","Beispiel":"Er ist schon weg gewesen."},{"Futur_I":"Er wird weg sein.","Beispiel":"Er wird bald weg sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"weg sein","Person":"Wir","Filename":"748","Sound_de":"Wir sind weg.","fa":"ما رفته‌ایم / غایب هستیم.","Beispiel":"Wir sind schon weg.","Negativ":"Wir sind nicht weg.","Beispiel_Negativ":"Wir sind noch nicht weg.","fragend":"Sind wir weg?","Beispiel_fragend":"Sind wir schon weg?","Zeitmodi":[{"Präteritum":"Wir waren weg.","Beispiel":"Wir waren schon weg."},{"Perfekt":"Wir sind weg gewesen.","Beispiel":"Wir sind schon weg gewesen."},{"Futur_I":"Wir werden weg sein.","Beispiel":"Wir werden bald weg sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"weg sein","Person":"Ihr","Filename":"749","Sound_de":"Ihr seid weg.","fa":"شما (جمع) رفته‌اید / غایب هستید.","Beispiel":"Ihr seid schon weg.","Negativ":"Ihr seid nicht weg.","Beispiel_Negativ":"Ihr seid noch nicht weg.","fragend":"Seid ihr weg?","Beispiel_fragend":"Seid ihr schon weg?","Zeitmodi":[{"Präteritum":"Ihr wart weg.","Beispiel":"Ihr wart schon weg."},{"Perfekt":"Ihr seid weg gewesen.","Beispiel":"Ihr seid schon weg gewesen."},{"Futur_I":"Ihr werdet weg sein.","Beispiel":"Ihr werdet bald weg sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"weg sein","Person":"Sie/sie","Filename":"750","Sound_de":"Sie sind weg.","fa":"آنها / شما (رسمی) رفته‌اند / غایب هستند.","Beispiel":"Sie sind schon weg.","Negativ":"Sie sind nicht weg.","Beispiel_Negativ":"Sie sind noch nicht weg.","fragend":"Sind Sie weg?","Beispiel_fragend":"Sind Sie schon weg?","Zeitmodi":[{"Präteritum":"Sie waren weg.","Beispiel":"Sie waren schon weg."},{"Perfekt":"Sie sind weg gewesen.","Beispiel":"Sie sind schon weg gewesen."},{"Futur_I":"Sie werden weg sein.","Beispiel":"Sie werden bald weg sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  
+  {"Verb":"zu sein","Person":"Ich","Filename":"751","Sound_de":"Ich bin.","fa":"من هستم.","Beispiel":"Ich bin glücklich.","Negativ":"Ich bin nicht.","Beispiel_Negativ":"Ich bin nicht glücklich.","fragend":"Bin ich?","Beispiel_fragend":"Bin ich glücklich?","Zeitmodi":[{"Präteritum":"Ich war.","Beispiel":"Ich war glücklich."},{"Perfekt":"Ich bin gewesen.","Beispiel":"Ich bin glücklich gewesen."},{"Futur_I":"Ich werde sein.","Beispiel":"Ich werde glücklich sein."},{"Imperativ":"Sei!","Beispiel":"Sei glücklich!"}]},
+  {"Verb":"zu sein","Person":"Du","Filename":"752","Sound_de":"Du bist.","fa":"تو هستی.","Beispiel":"Du bist glücklich.","Negativ":"Du bist nicht.","Beispiel_Negativ":"Du bist nicht glücklich.","fragend":"Bist du?","Beispiel_fragend":"Bist du glücklich?","Zeitmodi":[{"Präteritum":"Du warst.","Beispiel":"Du warst glücklich."},{"Perfekt":"Du bist gewesen.","Beispiel":"Du bist glücklich gewesen."},{"Futur_I":"Du wirst sein.","Beispiel":"Du wirst glücklich sein."},{"Imperativ":"Sei!","Beispiel":"Sei glücklich!"}]},
+  {"Verb":"zu sein","Person":"Er/Sie/Es","Filename":"753","Sound_de":"Er ist.","fa":"او هست.","Beispiel":"Er ist glücklich.","Negativ":"Er ist nicht.","Beispiel_Negativ":"Er ist nicht glücklich.","fragend":"Ist er?","Beispiel_fragend":"Ist er glücklich?","Zeitmodi":[{"Präteritum":"Er war.","Beispiel":"Er war glücklich."},{"Perfekt":"Er ist gewesen.","Beispiel":"Er ist glücklich gewesen."},{"Futur_I":"Er wird sein.","Beispiel":"Er wird glücklich sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"zu sein","Person":"Wir","Filename":"754","Sound_de":"Wir sind.","fa":"ما هستیم.","Beispiel":"Wir sind glücklich.","Negativ":"Wir sind nicht.","Beispiel_Negativ":"Wir sind nicht glücklich.","fragend":"Sind wir?","Beispiel_fragend":"Sind wir glücklich?","Zeitmodi":[{"Präteritum":"Wir waren.","Beispiel":"Wir waren glücklich."},{"Perfekt":"Wir sind gewesen.","Beispiel":"Wir sind glücklich gewesen."},{"Futur_I":"Wir werden sein.","Beispiel":"Wir werden glücklich sein."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"zu sein","Person":"Ihr","Filename":"755","Sound_de":"Ihr seid.","fa":"شما (جمع) هستید.","Beispiel":"Ihr seid glücklich.","Negativ":"Ihr seid nicht.","Beispiel_Negativ":"Ihr seid nicht glücklich.","fragend":"Seid ihr?","Beispiel_fragend":"Seid ihr glücklich?","Zeitmodi":[{"Präteritum":"Ihr wart.","Beispiel":"Ihr wart glücklich."},{"Perfekt":"Ihr seid gewesen.","Beispiel":"Ihr seid glücklich gewesen."},{"Futur_I":"Ihr werdet sein.","Beispiel":"Ihr werdet glücklich sein."},{"Imperativ":"Seid!","Beispiel":"Seid glücklich!"}]},
+  {"Verb":"zu sein","Person":"Sie/sie","Filename":"756","Sound_de":"Sie sind.","fa":"آنها / شما (رسمی) هستند.","Beispiel":"Sie sind glücklich.","Negativ":"Sie sind nicht.","Beispiel_Negativ":"Sie sind nicht glücklich.","fragend":"Sind Sie?","Beispiel_fragend":"Sind Sie glücklich?","Zeitmodi":[{"Präteritum":"Sie waren.","Beispiel":"Sie waren glücklich."},{"Perfekt":"Sie sind gewesen.","Beispiel":"Sie sind glücklich gewesen."},{"Futur_I":"Sie werden sein.","Beispiel":"Sie werden glücklich sein."},{"Imperativ":"Seien Sie!","Beispiel":"Seien Sie glücklich!"}]},
+
+  {"Verb":"sitzen","Person":"Ich","Filename":"757","Sound_de":"Ich sitze.","fa":"من می‌نشینم.","Beispiel":"Ich sitze auf dem Stuhl.","Negativ":"Ich sitze nicht.","Beispiel_Negativ":"Ich sitze nicht auf dem Stuhl.","fragend":"Sitze ich?","Beispiel_fragend":"Sitze ich auf dem Stuhl?","Zeitmodi":[{"Präteritum":"Ich saß.","Beispiel":"Ich saß auf dem Stuhl."},{"Perfekt":"Ich habe gesessen.","Beispiel":"Ich habe auf dem Stuhl gesessen."},{"Futur_I":"Ich werde sitzen.","Beispiel":"Ich werde auf dem Stuhl sitzen."},{"Imperativ":"Sitz(e)!","Beispiel":"Sitz auf dem Stuhl!"}]},
+  {"Verb":"sitzen","Person":"Du","Filename":"758","Sound_de":"Du sitzt.","fa":"تو می‌نشینی.","Beispiel":"Du sitzt auf dem Stuhl.","Negativ":"Du sitzt nicht.","Beispiel_Negativ":"Du sitzt nicht auf dem Stuhl.","fragend":"Sitzt du?","Beispiel_fragend":"Sitzt du auf dem Stuhl?","Zeitmodi":[{"Präteritum":"Du saßest.","Beispiel":"Du saßest auf dem Stuhl."},{"Perfekt":"Du hast gesessen.","Beispiel":"Du hast auf dem Stuhl gesessen."},{"Futur_I":"Du wirst sitzen.","Beispiel":"Du wirst auf dem Stuhl sitzen."},{"Imperativ":"Sitz(e)!","Beispiel":"Sitz auf dem Stuhl!"}]},
+  {"Verb":"sitzen","Person":"Er/Sie/Es","Filename":"759","Sound_de":"Er sitzt.","fa":"او می‌نشیند.","Beispiel":"Er sitzt auf dem Stuhl.","Negativ":"Er sitzt nicht.","Beispiel_Negativ":"Er sitzt nicht auf dem Stuhl.","fragend":"Sitzt er?","Beispiel_fragend":"Sitzt er auf dem Stuhl?","Zeitmodi":[{"Präteritum":"Er saß.","Beispiel":"Er saß auf dem Stuhl."},{"Perfekt":"Er hat gesessen.","Beispiel":"Er hat auf dem Stuhl gesessen."},{"Futur_I":"Er wird sitzen.","Beispiel":"Er wird auf dem Stuhl sitzen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sitzen","Person":"Wir","Filename":"760","Sound_de":"Wir sitzen.","fa":"ما می‌نشینیم.","Beispiel":"Wir sitzen auf dem Stuhl.","Negativ":"Wir sitzen nicht.","Beispiel_Negativ":"Wir sitzen nicht auf dem Stuhl.","fragend":"Sitzen wir?","Beispiel_fragend":"Sitzen wir auf dem Stuhl?","Zeitmodi":[{"Präteritum":"Wir saßen.","Beispiel":"Wir saßen auf dem Stuhl."},{"Perfekt":"Wir haben gesessen.","Beispiel":"Wir haben auf dem Stuhl gesessen."},{"Futur_I":"Wir werden sitzen.","Beispiel":"Wir werden auf dem Stuhl sitzen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sitzen","Person":"Ihr","Filename":"761","Sound_de":"Ihr sitzt.","fa":"شما (جمع) می‌نشینید.","Beispiel":"Ihr sitzt auf dem Stuhl.","Negativ":"Ihr sitzt nicht.","Beispiel_Negativ":"Ihr sitzt nicht auf dem Stuhl.","fragend":"Sitzt ihr?","Beispiel_fragend":"Sitzt ihr auf dem Stuhl?","Zeitmodi":[{"Präteritum":"Ihr saßt.","Beispiel":"Ihr saßt auf dem Stuhl."},{"Perfekt":"Ihr habt gesessen.","Beispiel":"Ihr habt auf dem Stuhl gesessen."},{"Futur_I":"Ihr werdet sitzen.","Beispiel":"Ihr werdet auf dem Stuhl sitzen."},{"Imperativ":"Sitzt!","Beispiel":"Sitzt auf dem Stuhl!"}]},
+  {"Verb":"sitzen","Person":"Sie/sie","Filename":"762","Sound_de":"Sie sitzen.","fa":"آنها / شما (رسمی) می‌نشینند.","Beispiel":"Sie sitzen auf dem Stuhl.","Negativ":"Sie sitzen nicht.","Beispiel_Negativ":"Sie sitzen nicht auf dem Stuhl.","fragend":"Sitzen Sie?","Beispiel_fragend":"Sitzen Sie auf dem Stuhl?","Zeitmodi":[{"Präteritum":"Sie saßen.","Beispiel":"Sie saßen auf dem Stuhl."},{"Perfekt":"Sie haben gesessen.","Beispiel":"Sie haben auf dem Stuhl gesessen."},{"Futur_I":"Sie werden sitzen.","Beispiel":"Sie werden auf dem Stuhl sitzen."},{"Imperativ":"Sitzen Sie!","Beispiel":"Sitzen Sie auf dem Stuhl!"}]},
+
+  {"Verb":"sollen","Person":"Ich","Filename":"763","Sound_de":"Ich soll.","fa":"من باید.","Beispiel":"Ich soll kommen.","Negativ":"Ich soll nicht.","Beispiel_Negativ":"Ich soll nicht kommen.","fragend":"Soll ich?","Beispiel_fragend":"Soll ich kommen?","Zeitmodi":[{"Präteritum":"Ich sollte.","Beispiel":"Ich sollte kommen."},{"Perfekt":"Ich habe gesollt.","Beispiel":"Ich habe kommen gesollt."},{"Futur_I":"Ich werde sollen.","Beispiel":"Ich werde kommen sollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sollen","Person":"Du","Filename":"764","Sound_de":"Du sollst.","fa":"تو باید.","Beispiel":"Du sollst kommen.","Negativ":"Du sollst nicht.","Beispiel_Negativ":"Du sollst nicht kommen.","fragend":"Sollst du?","Beispiel_fragend":"Sollst du kommen?","Zeitmodi":[{"Präteritum":"Du solltest.","Beispiel":"Du solltest kommen."},{"Perfekt":"Du hast gesollt.","Beispiel":"Du hast kommen gesollt."},{"Futur_I":"Du wirst sollen.","Beispiel":"Du wirst kommen sollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sollen","Person":"Er/Sie/Es","Filename":"765","Sound_de":"Er soll.","fa":"او باید.","Beispiel":"Er soll kommen.","Negativ":"Er soll nicht.","Beispiel_Negativ":"Er soll nicht kommen.","fragend":"Soll er?","Beispiel_fragend":"Soll er kommen?","Zeitmodi":[{"Präteritum":"Er sollte.","Beispiel":"Er sollte kommen."},{"Perfekt":"Er hat gesollt.","Beispiel":"Er hat kommen gesollt."},{"Futur_I":"Er wird sollen.","Beispiel":"Er wird kommen sollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sollen","Person":"Wir","Filename":"766","Sound_de":"Wir sollen.","fa":"ما باید.","Beispiel":"Wir sollen kommen.","Negativ":"Wir sollen nicht.","Beispiel_Negativ":"Wir sollen nicht kommen.","fragend":"Sollen wir?","Beispiel_fragend":"Sollen wir kommen?","Zeitmodi":[{"Präteritum":"Wir sollten.","Beispiel":"Wir sollten kommen."},{"Perfekt":"Wir haben gesollt.","Beispiel":"Wir haben kommen gesollt."},{"Futur_I":"Wir werden sollen.","Beispiel":"Wir werden kommen sollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sollen","Person":"Ihr","Filename":"767","Sound_de":"Ihr sollt.","fa":"شما (جمع) باید.","Beispiel":"Ihr sollt kommen.","Negativ":"Ihr sollt nicht.","Beispiel_Negativ":"Ihr sollt nicht kommen.","fragend":"Sollt ihr?","Beispiel_fragend":"Sollt ihr kommen?","Zeitmodi":[{"Präteritum":"Ihr solltet.","Beispiel":"Ihr solltet kommen."},{"Perfekt":"Ihr habt gesollt.","Beispiel":"Ihr habt kommen gesollt."},{"Futur_I":"Ihr werdet sollen.","Beispiel":"Ihr werdet kommen sollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sollen","Person":"Sie/sie","Filename":"768","Sound_de":"Sie sollen.","fa":"آنها / شما (رسمی) باید.","Beispiel":"Sie sollen kommen.","Negativ":"Sie sollen nicht.","Beispiel_Negativ":"Sie sollen nicht kommen.","fragend":"Sollen Sie?","Beispiel_fragend":"Sollen Sie kommen?","Zeitmodi":[{"Präteritum":"Sie sollten.","Beispiel":"Sie sollten kommen."},{"Perfekt":"Sie haben gesollt.","Beispiel":"Sie haben kommen gesollt."},{"Futur_I":"Sie werden sollen.","Beispiel":"Sie werden kommen sollen."},{"Imperativ":"-","Beispiel":"-"}]},
+
+  {"Verb":"spielen","Person":"Ich","Filename":"769","Sound_de":"Ich spiele.","fa":"من بازی می‌کنم.","Beispiel":"Ich spiele Fußball.","Negativ":"Ich spiele nicht.","Beispiel_Negativ":"Ich spiele nicht Fußball.","fragend":"Spiele ich?","Beispiel_fragend":"Spiele ich Fußball?","Zeitmodi":[{"Präteritum":"Ich spielte.","Beispiel":"Ich spielte Fußball."},{"Perfekt":"Ich habe gespielt.","Beispiel":"Ich habe Fußball gespielt."},{"Futur_I":"Ich werde spielen.","Beispiel":"Ich werde Fußball spielen."},{"Imperativ":"Spiel(e)!","Beispiel":"Spiel Fußball!"}]},
+  {"Verb":"spielen","Person":"Du","Filename":"770","Sound_de":"Du spielst.","fa":"تو بازی می‌کنی.","Beispiel":"Du spielst Fußball.","Negativ":"Du spielst nicht.","Beispiel_Negativ":"Du spielst nicht Fußball.","fragend":"Spielst du?","Beispiel_fragend":"Spielst du Fußball?","Zeitmodi":[{"Präteritum":"Du spieltest.","Beispiel":"Du spieltest Fußball."},{"Perfekt":"Du hast gespielt.","Beispiel":"Du hast Fußball gespielt."},{"Futur_I":"Du wirst spielen.","Beispiel":"Du wirst Fußball spielen."},{"Imperativ":"Spiel(e)!","Beispiel":"Spiel Fußball!"}]},
+  {"Verb":"spielen","Person":"Er/Sie/Es","Filename":"771","Sound_de":"Er spielt.","fa":"او بازی می‌کند.","Beispiel":"Er spielt Fußball.","Negativ":"Er spielt nicht.","Beispiel_Negativ":"Er spielt nicht Fußball.","fragend":"Spielt er?","Beispiel_fragend":"Spielt er Fußball?","Zeitmodi":[{"Präteritum":"Er spielte.","Beispiel":"Er spielte Fußball."},{"Perfekt":"Er hat gespielt.","Beispiel":"Er hat Fußball gespielt."},{"Futur_I":"Er wird spielen.","Beispiel":"Er wird Fußball spielen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"spielen","Person":"Wir","Filename":"772","Sound_de":"Wir spielen.","fa":"ما بازی می‌کنیم.","Beispiel":"Wir spielen Fußball.","Negativ":"Wir spielen nicht.","Beispiel_Negativ":"Wir spielen nicht Fußball.","fragend":"Spielen wir?","Beispiel_fragend":"Spielen wir Fußball?","Zeitmodi":[{"Präteritum":"Wir spielten.","Beispiel":"Wir spielten Fußball."},{"Perfekt":"Wir haben gespielt.","Beispiel":"Wir haben Fußball gespielt."},{"Futur_I":"Wir werden spielen.","Beispiel":"Wir werden Fußball spielen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"spielen","Person":"Ihr","Filename":"773","Sound_de":"Ihr spielt.","fa":"شما (جمع) بازی می‌کنید.","Beispiel":"Ihr spielt Fußball.","Negativ":"Ihr spielt nicht.","Beispiel_Negativ":"Ihr spielt nicht Fußball.","fragend":"Spielt ihr?","Beispiel_fragend":"Spielt ihr Fußball?","Zeitmodi":[{"Präteritum":"Ihr spieltet.","Beispiel":"Ihr spieltet Fußball."},{"Perfekt":"Ihr habt gespielt.","Beispiel":"Ihr habt Fußball gespielt."},{"Futur_I":"Ihr werdet spielen.","Beispiel":"Ihr werdet Fußball spielen."},{"Imperativ":"Spielt!","Beispiel":"Spielt Fußball!"}]},
+  {"Verb":"spielen","Person":"Sie/sie","Filename":"774","Sound_de":"Sie spielen.","fa":"آنها / شما (رسمی) بازی می‌کنند.","Beispiel":"Sie spielen Fußball.","Negativ":"Sie spielen nicht.","Beispiel_Negativ":"Sie spielen nicht Fußball.","fragend":"Spielen Sie?","Beispiel_fragend":"Spielen Sie Fußball?","Zeitmodi":[{"Präteritum":"Sie spielten.","Beispiel":"Sie spielten Fußball."},{"Perfekt":"Sie haben gespielt.","Beispiel":"Sie haben Fußball gespielt."},{"Futur_I":"Sie werden spielen.","Beispiel":"Sie werden Fußball spielen."},{"Imperativ":"Spielen Sie!","Beispiel":"Spielen Sie Fußball!"}]},
+
+  {"Verb":"sprechen","Person":"Ich","Filename":"775","Sound_de":"Ich spreche.","fa":"من صحبت می‌کنم.","Beispiel":"Ich spreche Deutsch.","Negativ":"Ich spreche nicht.","Beispiel_Negativ":"Ich spreche nicht Deutsch.","fragend":"Spreche ich?","Beispiel_fragend":"Spreche ich Deutsch?","Zeitmodi":[{"Präteritum":"Ich sprach.","Beispiel":"Ich sprach Deutsch."},{"Perfekt":"Ich habe gesprochen.","Beispiel":"Ich habe Deutsch gesprochen."},{"Futur_I":"Ich werde sprechen.","Beispiel":"Ich werde Deutsch sprechen."},{"Imperativ":"Sprich!","Beispiel":"Sprich Deutsch!"}]},
+  {"Verb":"sprechen","Person":"Du","Filename":"776","Sound_de":"Du sprichst.","fa":"تو صحبت می‌کنی.","Beispiel":"Du sprichst Deutsch.","Negativ":"Du sprichst nicht.","Beispiel_Negativ":"Du sprichst nicht Deutsch.","fragend":"Sprichst du?","Beispiel_fragend":"Sprichst du Deutsch?","Zeitmodi":[{"Präteritum":"Du sprachst.","Beispiel":"Du sprachst Deutsch."},{"Perfekt":"Du hast gesprochen.","Beispiel":"Du hast Deutsch gesprochen."},{"Futur_I":"Du wirst sprechen.","Beispiel":"Du wirst Deutsch sprechen."},{"Imperativ":"Sprich!","Beispiel":"Sprich Deutsch!"}]},
+  {"Verb":"sprechen","Person":"Er/Sie/Es","Filename":"777","Sound_de":"Er spricht.","fa":"او صحبت می‌کند.","Beispiel":"Er spricht Deutsch.","Negativ":"Er spricht nicht.","Beispiel_Negativ":"Er spricht nicht Deutsch.","fragend":"Spricht er?","Beispiel_fragend":"Spricht er Deutsch?","Zeitmodi":[{"Präteritum":"Er sprach.","Beispiel":"Er sprach Deutsch."},{"Perfekt":"Er hat gesprochen.","Beispiel":"Er hat Deutsch gesprochen."},{"Futur_I":"Er wird sprechen.","Beispiel":"Er wird Deutsch sprechen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sprechen","Person":"Wir","Filename":"778","Sound_de":"Wir sprechen.","fa":"ما صحبت می‌کنیم.","Beispiel":"Wir sprechen Deutsch.","Negativ":"Wir sprechen nicht.","Beispiel_Negativ":"Wir sprechen nicht Deutsch.","fragend":"Sprechen wir?","Beispiel_fragend":"Sprechen wir Deutsch?","Zeitmodi":[{"Präteritum":"Wir sprachen.","Beispiel":"Wir sprachen Deutsch."},{"Perfekt":"Wir haben gesprochen.","Beispiel":"Wir haben Deutsch gesprochen."},{"Futur_I":"Wir werden sprechen.","Beispiel":"Wir werden Deutsch sprechen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"sprechen","Person":"Ihr","Filename":"779","Sound_de":"Ihr sprecht.","fa":"شما (جمع) صحبت می‌کنید.","Beispiel":"Ihr sprecht Deutsch.","Negativ":"Ihr sprecht nicht.","Beispiel_Negativ":"Ihr sprecht nicht Deutsch.","fragend":"Sprecht ihr?","Beispiel_fragend":"Sprecht ihr Deutsch?","Zeitmodi":[{"Präteritum":"Ihr spracht.","Beispiel":"Ihr spracht Deutsch."},{"Perfekt":"Ihr habt gesprochen.","Beispiel":"Ihr habt Deutsch gesprochen."},{"Futur_I":"Ihr werdet sprechen.","Beispiel":"Ihr werdet Deutsch sprechen."},{"Imperativ":"Sprecht!","Beispiel":"Sprecht Deutsch!"}]},
+  {"Verb":"sprechen","Person":"Sie/sie","Filename":"780","Sound_de":"Sie sprechen.","fa":"آنها / شما (رسمی) صحبت می‌کنند.","Beispiel":"Sie sprechen Deutsch.","Negativ":"Sie sprechen nicht.","Beispiel_Negativ":"Sie sprechen nicht Deutsch.","fragend":"Sprechen Sie?","Beispiel_fragend":"Sprechen Sie Deutsch?","Zeitmodi":[{"Präteritum":"Sie sprachen.","Beispiel":"Sie sprachen Deutsch."},{"Perfekt":"Sie haben gesprochen.","Beispiel":"Sie haben Deutsch gesprochen."},{"Futur_I":"Sie werden sprechen.","Beispiel":"Sie werden Deutsch sprechen."},{"Imperativ":"Sprechen Sie!","Beispiel":"Sprechen Sie Deutsch!"}]},
+
+  {"Verb":"stehen","Person":"Ich","Filename":"781","Sound_de":"Ich stehe.","fa":"من ایستاده‌ام.","Beispiel":"Ich stehe hier.","Negativ":"Ich stehe nicht.","Beispiel_Negativ":"Ich stehe nicht hier.","fragend":"Stehe ich?","Beispiel_fragend":"Stehe ich hier?","Zeitmodi":[{"Präteritum":"Ich stand.","Beispiel":"Ich stand hier."},{"Perfekt":"Ich habe gestanden.","Beispiel":"Ich habe hier gestanden."},{"Futur_I":"Ich werde stehen.","Beispiel":"Ich werde hier stehen."},{"Imperativ":"Steh(e)!","Beispiel":"Steh hier!"}]},
+  {"Verb":"stehen","Person":"Du","Filename":"782","Sound_de":"Du stehst.","fa":"تو ایستاده‌ای.","Beispiel":"Du stehst hier.","Negativ":"Du stehst nicht.","Beispiel_Negativ":"Du stehst nicht hier.","fragend":"Stehst du?","Beispiel_fragend":"Stehst du hier?","Zeitmodi":[{"Präteritum":"Du standest.","Beispiel":"Du standest hier."},{"Perfekt":"Du hast gestanden.","Beispiel":"Du hast hier gestanden."},{"Futur_I":"Du wirst stehen.","Beispiel":"Du wirst hier stehen."},{"Imperativ":"Steh(e)!","Beispiel":"Steh hier!"}]},
+  {"Verb":"stehen","Person":"Er/Sie/Es","Filename":"783","Sound_de":"Er steht.","fa":"او ایستاده است.","Beispiel":"Er steht hier.","Negativ":"Er steht nicht.","Beispiel_Negativ":"Er steht nicht hier.","fragend":"Steht er?","Beispiel_fragend":"Steht er hier?","Zeitmodi":[{"Präteritum":"Er stand.","Beispiel":"Er stand hier."},{"Perfekt":"Er hat gestanden.","Beispiel":"Er hat hier gestanden."},{"Futur_I":"Er wird stehen.","Beispiel":"Er wird hier stehen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"stehen","Person":"Wir","Filename":"784","Sound_de":"Wir stehen.","fa":"ما ایستاده‌ایم.","Beispiel":"Wir stehen hier.","Negativ":"Wir stehen nicht.","Beispiel_Negativ":"Wir stehen nicht hier.","fragend":"Stehen wir?","Beispiel_fragend":"Stehen wir hier?","Zeitmodi":[{"Präteritum":"Wir standen.","Beispiel":"Wir standen hier."},{"Perfekt":"Wir haben gestanden.","Beispiel":"Wir haben hier gestanden."},{"Futur_I":"Wir werden stehen.","Beispiel":"Wir werden hier stehen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"stehen","Person":"Ihr","Filename":"785","Sound_de":"Ihr steht.","fa":"شما (جمع) ایستاده‌اید.","Beispiel":"Ihr steht hier.","Negativ":"Ihr steht nicht.","Beispiel_Negativ":"Ihr steht nicht hier.","fragend":"Steht ihr?","Beispiel_fragend":"Steht ihr hier?","Zeitmodi":[{"Präteritum":"Ihr standet.","Beispiel":"Ihr standet hier."},{"Perfekt":"Ihr habt gestanden.","Beispiel":"Ihr habt hier gestanden."},{"Futur_I":"Ihr werdet stehen.","Beispiel":"Ihr werdet hier stehen."},{"Imperativ":"Steht!","Beispiel":"Steht hier!"}]},
+  {"Verb":"stehen","Person":"Sie/sie","Filename":"786","Sound_de":"Sie stehen.","fa":"آنها / شما (رسمی) ایستاده‌اند.","Beispiel":"Sie stehen hier.","Negativ":"Sie stehen nicht.","Beispiel_Negativ":"Sie stehen nicht hier.","fragend":"Stehen Sie?","Beispiel_fragend":"Stehen Sie hier?","Zeitmodi":[{"Präteritum":"Sie standen.","Beispiel":"Sie standen hier."},{"Perfekt":"Sie haben gestanden.","Beispiel":"Sie haben hier gestanden."},{"Futur_I":"Sie werden stehen.","Beispiel":"Sie werden hier stehen."},{"Imperativ":"Stehen Sie!","Beispiel":"Stehen Sie hier!"}]},
+
+  {"Verb":"tanzen","Person":"Ich","Filename":"787","Sound_de":"Ich tanze.","fa":"من می‌رقصم.","Beispiel":"Ich tanze gerne.","Negativ":"Ich tanze nicht.","Beispiel_Negativ":"Ich tanze nicht gerne.","fragend":"Tanzen ich?","Beispiel_fragend":"Tanzen ich gerne?","Zeitmodi":[{"Präteritum":"Ich tanzte.","Beispiel":"Ich tanzte gerne."},{"Perfekt":"Ich habe getanzt.","Beispiel":"Ich habe gerne getanzt."},{"Futur_I":"Ich werde tanzen.","Beispiel":"Ich werde gerne tanzen."},{"Imperativ":"Tanz(e)!","Beispiel":"Tanz gerne!"}]},
+  {"Verb":"tanzen","Person":"Du","Filename":"788","Sound_de":"Du tanzt.","fa":"تو می‌رقصی.","Beispiel":"Du tanzt gerne.","Negativ":"Du tanzt nicht.","Beispiel_Negativ":"Du tanzt nicht gerne.","fragend":"Tanzt du?","Beispiel_fragend":"Tanzt du gerne?","Zeitmodi":[{"Präteritum":"Du tanztest.","Beispiel":"Du tanztest gerne."},{"Perfekt":"Du hast getanzt.","Beispiel":"Du hast gerne getanzt."},{"Futur_I":"Du wirst tanzen.","Beispiel":"Du wirst gerne tanzen."},{"Imperativ":"Tanz(e)!","Beispiel":"Tanz gerne!"}]},
+  {"Verb":"tanzen","Person":"Er/Sie/Es","Filename":"789","Sound_de":"Er tanzt.","fa":"او می‌رقصد.","Beispiel":"Er tanzt gerne.","Negativ":"Er tanzt nicht.","Beispiel_Negativ":"Er tanzt nicht gerne.","fragend":"Tanzt er?","Beispiel_fragend":"Tanzt er gerne?","Zeitmodi":[{"Präteritum":"Er tanzte.","Beispiel":"Er tanzte gerne."},{"Perfekt":"Er hat getanzt.","Beispiel":"Er hat gerne getanzt."},{"Futur_I":"Er wird tanzen.","Beispiel":"Er wird gerne tanzen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"tanzen","Person":"Wir","Filename":"790","Sound_de":"Wir tanzen.","fa":"ما می‌رقصیم.","Beispiel":"Wir tanzen gerne.","Negativ":"Wir tanzen nicht.","Beispiel_Negativ":"Wir tanzen nicht gerne.","fragend":"Tanzen wir?","Beispiel_fragend":"Tanzen wir gerne?","Zeitmodi":[{"Präteritum":"Wir tanzten.","Beispiel":"Wir tanzten gerne."},{"Perfekt":"Wir haben getanzt.","Beispiel":"Wir haben gerne getanzt."},{"Futur_I":"Wir werden tanzen.","Beispiel":"Wir werden gerne tanzen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"tanzen","Person":"Ihr","Filename":"791","Sound_de":"Ihr tanzt.","fa":"شما (جمع) می‌رقصید.","Beispiel":"Ihr tanzt gerne.","Negativ":"Ihr tanzt nicht.","Beispiel_Negativ":"Ihr tanzt nicht gerne.","fragend":"Tanzt ihr?","Beispiel_fragend":"Tanzt ihr gerne?","Zeitmodi":[{"Präteritum":"Ihr tanztet.","Beispiel":"Ihr tanztet gerne."},{"Perfekt":"Ihr habt getanzt.","Beispiel":"Ihr habt gerne getanzt."},{"Futur_I":"Ihr werdet tanzen.","Beispiel":"Ihr werdet gerne tanzen."},{"Imperativ":"Tanzt!","Beispiel":"Tanzt gerne!"}]},
+  {"Verb":"tanzen","Person":"Sie/sie","Filename":"792","Sound_de":"Sie tanzen.","fa":"آنها / شما (رسمی) می‌رقصند.","Beispiel":"Sie tanzen gerne.","Negativ":"Sie tanzen nicht.","Beispiel_Negativ":"Sie tanzen nicht gerne.","fragend":"Tanzen Sie?","Beispiel_fragend":"Tanzen Sie gerne?","Zeitmodi":[{"Präteritum":"Sie tanzten.","Beispiel":"Sie tanzten gerne."},{"Perfekt":"Sie haben getanzt.","Beispiel":"Sie haben gerne getanzt."},{"Futur_I":"Sie werden tanzen.","Beispiel":"Sie werden gerne tanzen."},{"Imperativ":"Tanzen Sie!","Beispiel":"Tanzen Sie gerne!"}]},
+
+  {"Verb":"telefonieren","Person":"Ich","Filename":"793","Sound_de":"Ich telefoniere.","fa":"من تلفن می‌کنم.","Beispiel":"Ich telefoniere mit meinem Freund.","Negativ":"Ich telefoniere nicht.","Beispiel_Negativ":"Ich telefoniere nicht mit meinem Freund.","fragend":"Telefonieren ich?","Beispiel_fragend":"Telefonieren ich mit meinem Freund?","Zeitmodi":[{"Präteritum":"Ich telefonierte.","Beispiel":"Ich telefonierte mit meinem Freund."},{"Perfekt":"Ich habe telefoniert.","Beispiel":"Ich habe mit meinem Freund telefoniert."},{"Futur_I":"Ich werde telefonieren.","Beispiel":"Ich werde mit meinem Freund telefonieren."},{"Imperativ":"Telefonier(e)!","Beispiel":"Telefonier mit deinem Freund!"}]},
+  {"Verb":"telefonieren","Person":"Du","Filename":"794","Sound_de":"Du telefonierst.","fa":"تو تلفن می‌کنی.","Beispiel":"Du telefonierst mit deinem Freund.","Negativ":"Du telefonierst nicht.","Beispiel_Negativ":"Du telefonierst nicht mit deinem Freund.","fragend":"Telefonierst du?","Beispiel_fragend":"Telefonierst du mit deinem Freund?","Zeitmodi":[{"Präteritum":"Du telefoniertest.","Beispiel":"Du telefoniertest mit deinem Freund."},{"Perfekt":"Du hast telefoniert.","Beispiel":"Du hast mit deinem Freund telefoniert."},{"Futur_I":"Du wirst telefonieren.","Beispiel":"Du wirst mit deinem Freund telefonieren."},{"Imperativ":"Telefonier(e)!","Beispiel":"Telefonier mit deinem Freund!"}]},
+  {"Verb":"telefonieren","Person":"Er/Sie/Es","Filename":"795","Sound_de":"Er telefoniert.","fa":"او تلفن می‌کند.","Beispiel":"Er telefoniert mit seinem Freund.","Negativ":"Er telefoniert nicht.","Beispiel_Negativ":"Er telefoniert nicht mit seinem Freund.","fragend":"Telefoniert er?","Beispiel_fragend":"Telefoniert er mit seinem Freund?","Zeitmodi":[{"Präteritum":"Er telefonierte.","Beispiel":"Er telefonierte mit seinem Freund."},{"Perfekt":"Er hat telefoniert.","Beispiel":"Er hat mit seinem Freund telefoniert."},{"Futur_I":"Er wird telefonieren.","Beispiel":"Er wird mit seinem Freund telefonieren."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"telefonieren","Person":"Wir","Filename":"796","Sound_de":"Wir telefonieren.","fa":"ما تلفن می‌کنیم.","Beispiel":"Wir telefonieren mit unserem Freund.","Negativ":"Wir telefonieren nicht.","Beispiel_Negativ":"Wir telefonieren nicht mit unserem Freund.","fragend":"Telefonieren wir?","Beispiel_fragend":"Telefonieren wir mit unserem Freund?","Zeitmodi":[{"Präteritum":"Wir telefonierten.","Beispiel":"Wir telefonierten mit unserem Freund."},{"Perfekt":"Wir haben telefoniert.","Beispiel":"Wir haben mit unserem Freund telefoniert."},{"Futur_I":"Wir werden telefonieren.","Beispiel":"Wir werden mit unserem Freund telefonieren."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"telefonieren","Person":"Ihr","Filename":"797","Sound_de":"Ihr telefoniert.","fa":"شما (جمع) تلفن می‌کنید.","Beispiel":"Ihr telefoniert mit eurem Freund.","Negativ":"Ihr telefoniert nicht.","Beispiel_Negativ":"Ihr telefoniert nicht mit eurem Freund.","fragend":"Telefoniert ihr?","Beispiel_fragend":"Telefoniert ihr mit eurem Freund?","Zeitmodi":[{"Präteritum":"Ihr telefoniertet.","Beispiel":"Ihr telefoniertet mit eurem Freund."},{"Perfekt":"Ihr habt telefoniert.","Beispiel":"Ihr habt mit eurem Freund telefoniert."},{"Futur_I":"Ihr werdet telefonieren.","Beispiel":"Ihr werdet mit eurem Freund telefonieren."},{"Imperativ":"Telefoniert!","Beispiel":"Telefoniert mit eurem Freund!"}]},
+  {"Verb":"telefonieren","Person":"Sie/sie","Filename":"798","Sound_de":"Sie telefonieren.","fa":"آنها / شما (رسمی) تلفن می‌کنند.","Beispiel":"Sie telefonieren mit ihrem Freund.","Negativ":"Sie telefonieren nicht.","Beispiel_Negativ":"Sie telefonieren nicht mit ihrem Freund.","fragend":"Telefonieren Sie?","Beispiel_fragend":"Telefonieren Sie mit Ihrem Freund?","Zeitmodi":[{"Präteritum":"Sie telefonierten.","Beispiel":"Sie telefonierten mit ihrem Freund."},{"Perfekt":"Sie haben telefoniert.","Beispiel":"Sie haben mit ihrem Freund telefoniert."},{"Futur_I":"Sie werden telefonieren.","Beispiel":"Sie werden mit ihrem Freund telefonieren."},{"Imperativ":"Telefonieren Sie!","Beispiel":"Telefonieren Sie mit Ihrem Freund!"}]},
+
+  {"Verb":"treffen","Person":"Ich","Filename":"799","Sound_de":"Ich treffe.","fa":"من ملاقات می‌کنم.","Beispiel":"Ich treffe meinen Freund.","Negativ":"Ich treffe nicht.","Beispiel_Negativ":"Ich treffe meinen Freund nicht.","fragend":"Treffe ich?","Beispiel_fragend":"Treffe ich meinen Freund?","Zeitmodi":[{"Präteritum":"Ich traf.","Beispiel":"Ich traf meinen Freund."},{"Perfekt":"Ich habe getroffen.","Beispiel":"Ich habe meinen Freund getroffen."},{"Futur_I":"Ich werde treffen.","Beispiel":"Ich werde meinen Freund treffen."},{"Imperativ":"Triff!","Beispiel":"Triff deinen Freund!"}]},
+  {"Verb":"treffen","Person":"Du","Filename":"800","Sound_de":"Du triffst.","fa":"تو ملاقات می‌کنی.","Beispiel":"Du triffst deinen Freund.","Negativ":"Du triffst nicht.","Beispiel_Negativ":"Du triffst deinen Freund nicht.","fragend":"Triffst du?","Beispiel_fragend":"Triffst du deinen Freund?","Zeitmodi":[{"Präteritum":"Du trafst.","Beispiel":"Du trafst deinen Freund."},{"Perfekt":"Du hast getroffen.","Beispiel":"Du hast deinen Freund getroffen."},{"Futur_I":"Du wirst treffen.","Beispiel":"Du wirst deinen Freund treffen."},{"Imperativ":"Triff!","Beispiel":"Triff deinen Freund!"}]},
+  {"Verb":"treffen","Person":"Er/Sie/Es","Filename":"801","Sound_de":"Er trifft.","fa":"او ملاقات می‌کند.","Beispiel":"Er trifft seinen Freund.","Negativ":"Er trifft nicht.","Beispiel_Negativ":"Er trifft seinen Freund nicht.","fragend":"Trifft er?","Beispiel_fragend":"Trifft er seinen Freund?","Zeitmodi":[{"Präteritum":"Er traf.","Beispiel":"Er traf seinen Freund."},{"Perfekt":"Er hat getroffen.","Beispiel":"Er hat seinen Freund getroffen."},{"Futur_I":"Er wird treffen.","Beispiel":"Er wird seinen Freund treffen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"treffen","Person":"Wir","Filename":"802","Sound_de":"Wir treffen.","fa":"ما ملاقات می‌کنیم.","Beispiel":"Wir treffen unseren Freund.","Negativ":"Wir treffen nicht.","Beispiel_Negativ":"Wir treffen unseren Freund nicht.","fragend":"Treffen wir?","Beispiel_fragend":"Treffen wir unseren Freund?","Zeitmodi":[{"Präteritum":"Wir trafen.","Beispiel":"Wir trafen unseren Freund."},{"Perfekt":"Wir haben getroffen.","Beispiel":"Wir haben unseren Freund getroffen."},{"Futur_I":"Wir werden treffen.","Beispiel":"Wir werden unseren Freund treffen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"treffen","Person":"Ihr","Filename":"803","Sound_de":"Ihr trefft.","fa":"شما (جمع) ملاقات می‌کنید.","Beispiel":"Ihr trefft euren Freund.","Negativ":"Ihr trefft nicht.","Beispiel_Negativ":"Ihr trefft euren Freund nicht.","fragend":"Trefft ihr?","Beispiel_fragend":"Trefft ihr euren Freund?","Zeitmodi":[{"Präteritum":"Ihr traft.","Beispiel":"Ihr traft euren Freund."},{"Perfekt":"Ihr habt getroffen.","Beispiel":"Ihr habt euren Freund getroffen."},{"Futur_I":"Ihr werdet treffen.","Beispiel":"Ihr werdet euren Freund treffen."},{"Imperativ":"Trefft!","Beispiel":"Trefft euren Freund!"}]},
+  {"Verb":"treffen","Person":"Sie/sie","Filename":"804","Sound_de":"Sie treffen.","fa":"آنها / شما (رسمی) ملاقات می‌کنند.","Beispiel":"Sie treffen ihren Freund.","Negativ":"Sie treffen nicht.","Beispiel_Negativ":"Sie treffen ihren Freund nicht.","fragend":"Treffen Sie?","Beispiel_fragend":"Treffen Sie Ihren Freund?","Zeitmodi":[{"Präteritum":"Sie trafen.","Beispiel":"Sie trafen ihren Freund."},{"Perfekt":"Sie haben getroffen.","Beispiel":"Sie haben ihren Freund getroffen."},{"Futur_I":"Sie werden treffen.","Beispiel":"Sie werden ihren Freund treffen."},{"Imperativ":"Treffen Sie!","Beispiel":"Treffen Sie Ihren Freund!"}]},
+
+  {"Verb":"trinken","Person":"Ich","Filename":"805","Sound_de":"Ich trinke.","fa":"من می‌نوشم.","Beispiel":"Ich trinke Wasser.","Negativ":"Ich trinke nicht.","Beispiel_Negativ":"Ich trinke kein Wasser.","fragend":"Trinke ich?","Beispiel_fragend":"Trinke ich Wasser?","Zeitmodi":[{"Präteritum":"Ich trank.","Beispiel":"Ich trank Wasser."},{"Perfekt":"Ich habe getrunken.","Beispiel":"Ich habe Wasser getrunken."},{"Futur_I":"Ich werde trinken.","Beispiel":"Ich werde Wasser trinken."},{"Imperativ":"Trink(e)!","Beispiel":"Trink Wasser!"}]},
+  {"Verb":"trinken","Person":"Du","Filename":"806","Sound_de":"Du trinkst.","fa":"تو می‌نوشی.","Beispiel":"Du trinkst Wasser.","Negativ":"Du trinkst nicht.","Beispiel_Negativ":"Du trinkst kein Wasser.","fragend":"Trinkst du?","Beispiel_fragend":"Trinkst du Wasser?","Zeitmodi":[{"Präteritum":"Du trankst.","Beispiel":"Du trankst Wasser."},{"Perfekt":"Du hast getrunken.","Beispiel":"Du hast Wasser getrunken."},{"Futur_I":"Du wirst trinken.","Beispiel":"Du wirst Wasser trinken."},{"Imperativ":"Trink(e)!","Beispiel":"Trink Wasser!"}]},
+  {"Verb":"trinken","Person":"Er/Sie/Es","Filename":"807","Sound_de":"Er trinkt.","fa":"او می‌نوشد.","Beispiel":"Er trinkt Wasser.","Negativ":"Er trinkt nicht.","Beispiel_Negativ":"Er trinkt kein Wasser.","fragend":"Trinkt er?","Beispiel_fragend":"Trinkt er Wasser?","Zeitmodi":[{"Präteritum":"Er trank.","Beispiel":"Er trank Wasser."},{"Perfekt":"Er hat getrunken.","Beispiel":"Er hat Wasser getrunken."},{"Futur_I":"Er wird trinken.","Beispiel":"Er wird Wasser trinken."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"trinken","Person":"Wir","Filename":"808","Sound_de":"Wir trinken.","fa":"ما می‌نوشیم.","Beispiel":"Wir trinken Wasser.","Negativ":"Wir trinken nicht.","Beispiel_Negativ":"Wir trinken kein Wasser.","fragend":"Trinken wir?","Beispiel_fragend":"Trinken wir Wasser?","Zeitmodi":[{"Präteritum":"Wir tranken.","Beispiel":"Wir tranken Wasser."},{"Perfekt":"Wir haben getrunken.","Beispiel":"Wir haben Wasser getrunken."},{"Futur_I":"Wir werden trinken.","Beispiel":"Wir werden Wasser trinken."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"trinken","Person":"Ihr","Filename":"809","Sound_de":"Ihr trinkt.","fa":"شما (جمع) می‌نوشید.","Beispiel":"Ihr trinkt Wasser.","Negativ":"Ihr trinkt nicht.","Beispiel_Negativ":"Ihr trinkt kein Wasser.","fragend":"Trinkt ihr?","Beispiel_fragend":"Trinkt ihr Wasser?","Zeitmodi":[{"Präteritum":"Ihr trankt.","Beispiel":"Ihr trankt Wasser."},{"Perfekt":"Ihr habt getrunken.","Beispiel":"Ihr habt Wasser getrunken."},{"Futur_I":"Ihr werdet trinken.","Beispiel":"Ihr werdet Wasser trinken."},{"Imperativ":"Trinkt!","Beispiel":"Trinkt Wasser!"}]},
+  {"Verb":"trinken","Person":"Sie/sie","Filename":"810","Sound_de":"Sie trinken.","fa":"آنها / شما (رسمی) می‌نوشند.","Beispiel":"Sie trinken Wasser.","Negativ":"Sie trinken nicht.","Beispiel_Negativ":"Sie trinken kein Wasser.","fragend":"Trinken Sie?","Beispiel_fragend":"Trinken Sie Wasser?","Zeitmodi":[{"Präteritum":"Sie tranken.","Beispiel":"Sie tranken Wasser."},{"Perfekt":"Sie haben getrunken.","Beispiel":"Sie haben Wasser getrunken."},{"Futur_I":"Sie werden trinken.","Beispiel":"Sie werden Wasser trinken."},{"Imperativ":"Trinken Sie!","Beispiel":"Trinken Sie Wasser!"}]},
+
+  {"Verb":"tun","Person":"Ich","Filename":"811","Sound_de":"Ich tue.","fa":"من انجام می‌دهم.","Beispiel":"Ich tue das gerne.","Negativ":"Ich tue nicht.","Beispiel_Negativ":"Ich tue das nicht gerne.","fragend":"Tue ich?","Beispiel_fragend":"Tue ich das gerne?","Zeitmodi":[{"Präteritum":"Ich tat.","Beispiel":"Ich tat das gerne."},{"Perfekt":"Ich habe getan.","Beispiel":"Ich habe das gerne getan."},{"Futur_I":"Ich werde tun.","Beispiel":"Ich werde das gerne tun."},{"Imperativ":"Tu(e)!","Beispiel":"Tu das gerne!"}]},
+  {"Verb":"tun","Person":"Du","Filename":"812","Sound_de":"Du tust.","fa":"تو انجام می‌دهی.","Beispiel":"Du tust das gerne.","Negativ":"Du tust nicht.","Beispiel_Negativ":"Du tust das nicht gerne.","fragend":"Tust du?","Beispiel_fragend":"Tust du das gerne?","Zeitmodi":[{"Präteritum":"Du tatst.","Beispiel":"Du tatst das gerne."},{"Perfekt":"Du hast getan.","Beispiel":"Du hast das gerne getan."},{"Futur_I":"Du wirst tun.","Beispiel":"Du wirst das gerne tun."},{"Imperativ":"Tu(e)!","Beispiel":"Tu das gerne!"}]},
+  {"Verb":"tun","Person":"Er/Sie/Es","Filename":"813","Sound_de":"Er tut.","fa":"او انجام می‌دهد.","Beispiel":"Er tut das gerne.","Negativ":"Er tut nicht.","Beispiel_Negativ":"Er tut das nicht gerne.","fragend":"Tut er?","Beispiel_fragend":"Tut er das gerne?","Zeitmodi":[{"Präteritum":"Er tat.","Beispiel":"Er tat das gerne."},{"Perfekt":"Er hat getan.","Beispiel":"Er hat das gerne getan."},{"Futur_I":"Er wird tun.","Beispiel":"Er wird das gerne tun."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"tun","Person":"Wir","Filename":"814","Sound_de":"Wir tun.","fa":"ما انجام می‌دهیم.","Beispiel":"Wir tun das gerne.","Negativ":"Wir tun nicht.","Beispiel_Negativ":"Wir tun das nicht gerne.","fragend":"Tun wir?","Beispiel_fragend":"Tun wir das gerne?","Zeitmodi":[{"Präteritum":"Wir taten.","Beispiel":"Wir taten das gerne."},{"Perfekt":"Wir haben getan.","Beispiel":"Wir haben das gerne getan."},{"Futur_I":"Wir werden tun.","Beispiel":"Wir werden das gerne tun."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"tun","Person":"Ihr","Filename":"815","Sound_de":"Ihr tut.","fa":"شما (جمع) انجام می‌دهید.","Beispiel":"Ihr tut das gerne.","Negativ":"Ihr tut nicht.","Beispiel_Negativ":"Ihr tut das nicht gerne.","fragend":"Tut ihr?","Beispiel_fragend":"Tut ihr das gerne?","Zeitmodi":[{"Präteritum":"Ihr tatet.","Beispiel":"Ihr tatet das gerne."},{"Perfekt":"Ihr habt getan.","Beispiel":"Ihr habt das gerne getan."},{"Futur_I":"Ihr werdet tun.","Beispiel":"Ihr werdet das gerne tun."},{"Imperativ":"Tut!","Beispiel":"Tut das gerne!"}]},
+  {"Verb":"tun","Person":"Sie/sie","Filename":"816","Sound_de":"Sie tun.","fa":"آنها / شما (رسمی) انجام می‌دهند.","Beispiel":"Sie tun das gerne.","Negativ":"Sie tun nicht.","Beispiel_Negativ":"Sie tun das nicht gerne.","fragend":"Tun Sie?","Beispiel_fragend":"Tun Sie das gerne?","Zeitmodi":[{"Präteritum":"Sie taten.","Beispiel":"Sie taten das gerne."},{"Perfekt":"Sie haben getan.","Beispiel":"Sie haben das gerne getan."},{"Futur_I":"Sie werden tun.","Beispiel":"Sie werden das gerne tun."},{"Imperativ":"Tun Sie!","Beispiel":"Tun Sie das gerne!"}]},
+
+  {"Verb":"übernachten","Person":"Ich","Filename":"817","Sound_de":"Ich übernachte.","fa":"من شب را می‌گذرانم (شب می‌مانم).","Beispiel":"Ich übernachte im Hotel.","Negativ":"Ich übernachte nicht.","Beispiel_Negativ":"Ich übernachte nicht im Hotel.","fragend":"Übernachte ich?","Beispiel_fragend":"Übernachte ich im Hotel?","Zeitmodi":[{"Präteritum":"Ich übernachtete.","Beispiel":"Ich übernachtete im Hotel."},{"Perfekt":"Ich habe übernachtet.","Beispiel":"Ich habe im Hotel übernachtet."},{"Futur_I":"Ich werde übernachten.","Beispiel":"Ich werde im Hotel übernachten."},{"Imperativ":"Übernachte!","Beispiel":"Übernachte im Hotel!"}]},
+  {"Verb":"übernachten","Person":"Du","Filename":"818","Sound_de":"Du übernachtest.","fa":"تو شب را می‌گذرانی (شب می‌مانی).","Beispiel":"Du übernachtest im Hotel.","Negativ":"Du übernachtest nicht.","Beispiel_Negativ":"Du übernachtest nicht im Hotel.","fragend":"Übernachtest du?","Beispiel_fragend":"Übernachtest du im Hotel?","Zeitmodi":[{"Präteritum":"Du übernachtetest.","Beispiel":"Du übernachtetest im Hotel."},{"Perfekt":"Du hast übernachtet.","Beispiel":"Du hast im Hotel übernachtet."},{"Futur_I":"Du wirst übernachten.","Beispiel":"Du wirst im Hotel übernachten."},{"Imperativ":"Übernachte!","Beispiel":"Übernachte im Hotel!"}]},
+  {"Verb":"übernachten","Person":"Er/Sie/Es","Filename":"819","Sound_de":"Er übernachtet.","fa":"او شب را می‌گذراند (شب می‌ماند).","Beispiel":"Er übernachtet im Hotel.","Negativ":"Er übernachtet nicht.","Beispiel_Negativ":"Er übernachtet nicht im Hotel.","fragend":"Übernachtet er?","Beispiel_fragend":"Übernachtet er im Hotel?","Zeitmodi":[{"Präteritum":"Er übernachtete.","Beispiel":"Er übernachtete im Hotel."},{"Perfekt":"Er hat übernachtet.","Beispiel":"Er hat im Hotel übernachtet."},{"Futur_I":"Er wird übernachten.","Beispiel":"Er wird im Hotel übernachten."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"übernachten","Person":"Wir","Filename":"820","Sound_de":"Wir übernachten.","fa":"ما شب را می‌گذرانیم (شب می‌مانیم).","Beispiel":"Wir übernachten im Hotel.","Negativ":"Wir übernachten nicht.","Beispiel_Negativ":"Wir übernachten nicht im Hotel.","fragend":"Übernachten wir?","Beispiel_fragend":"Übernachten wir im Hotel?","Zeitmodi":[{"Präteritum":"Wir übernachteten.","Beispiel":"Wir übernachteten im Hotel."},{"Perfekt":"Wir haben übernachtet.","Beispiel":"Wir haben im Hotel übernachtet."},{"Futur_I":"Wir werden übernachten.","Beispiel":"Wir werden im Hotel übernachten."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"übernachten","Person":"Ihr","Filename":"821","Sound_de":"Ihr übernachtet.","fa":"شما (جمع) شب را می‌گذرانید (شب می‌مانید).","Beispiel":"Ihr übernachtet im Hotel.","Negativ":"Ihr übernachtet nicht.","Beispiel_Negativ":"Ihr übernachtet nicht im Hotel.","fragend":"Übernachtet ihr?","Beispiel_fragend":"Übernachtet ihr im Hotel?","Zeitmodi":[{"Präteritum":"Ihr übernachtetet.","Beispiel":"Ihr übernachtetet im Hotel."},{"Perfekt":"Ihr habt übernachtet.","Beispiel":"Ihr habt im Hotel übernachtet."},{"Futur_I":"Ihr werdet übernachten.","Beispiel":"Ihr werdet im Hotel übernachten."},{"Imperativ":"Übernachtet!","Beispiel":"Übernachtet im Hotel!"}]},
+  {"Verb":"übernachten","Person":"Sie/sie","Filename":"822","Sound_de":"Sie übernachten.","fa":"آنها / شما (رسمی) شب را می‌گذرانند (شب می‌مانند).","Beispiel":"Sie übernachten im Hotel.","Negativ":"Sie übernachten nicht.","Beispiel_Negativ":"Sie übernachten nicht im Hotel.","fragend":"Übernachten Sie?","Beispiel_fragend":"Übernachten Sie im Hotel?","Zeitmodi":[{"Präteritum":"Sie übernachteten.","Beispiel":"Sie übernachteten im Hotel."},{"Perfekt":"Sie haben übernachtet.","Beispiel":"Sie haben im Hotel übernachtet."},{"Futur_I":"Sie werden übernachten.","Beispiel":"Sie werden im Hotel übernachten."},{"Imperativ":"Übernachten Sie!","Beispiel":"Übernachten Sie im Hotel!"}]},
+
+  {"Verb":"überweisen","Person":"Ich","Filename":"823","Sound_de":"Ich überweise.","fa":"من انتقال می‌دهم (پول واریز می‌کنم).","Beispiel":"Ich überweise das Geld.","Negativ":"Ich überweise nicht.","Beispiel_Negativ":"Ich überweise das Geld nicht.","fragend":"Überweise ich?","Beispiel_fragend":"Überweise ich das Geld?","Zeitmodi":[{"Präteritum":"Ich überwies.","Beispiel":"Ich überwies das Geld."},{"Perfekt":"Ich habe überwiesen.","Beispiel":"Ich habe das Geld überwiesen."},{"Futur_I":"Ich werde überweisen.","Beispiel":"Ich werde das Geld überweisen."},{"Imperativ":"Überweise!","Beispiel":"Überweise das Geld!"}]},
+  {"Verb":"überweisen","Person":"Du","Filename":"824","Sound_de":"Du überweist.","fa":"تو انتقال می‌دهی (پول واریز می‌کنی).","Beispiel":"Du überweist das Geld.","Negativ":"Du überweist nicht.","Beispiel_Negativ":"Du überweist das Geld nicht.","fragend":"Überweist du?","Beispiel_fragend":"Überweist du das Geld?","Zeitmodi":[{"Präteritum":"Du überwiesest.","Beispiel":"Du überwiesest das Geld."},{"Perfekt":"Du hast überwiesen.","Beispiel":"Du hast das Geld überwiesen."},{"Futur_I":"Du wirst überweisen.","Beispiel":"Du wirst das Geld überweisen."},{"Imperativ":"Überweise!","Beispiel":"Überweise das Geld!"}]},
+  {"Verb":"überweisen","Person":"Er/Sie/Es","Filename":"825","Sound_de":"Er überweist.","fa":"او انتقال می‌دهد (پول واریز می‌کند).","Beispiel":"Er überweist das Geld.","Negativ":"Er überweist nicht.","Beispiel_Negativ":"Er überweist das Geld nicht.","fragend":"Überweist er?","Beispiel_fragend":"Überweist er das Geld?","Zeitmodi":[{"Präteritum":"Er überwies.","Beispiel":"Er überwies das Geld."},{"Perfekt":"Er hat überwiesen.","Beispiel":"Er hat das Geld überwiesen."},{"Futur_I":"Er wird überweisen.","Beispiel":"Er wird das Geld überweisen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"überweisen","Person":"Wir","Filename":"826","Sound_de":"Wir überweisen.","fa":"ما انتقال می‌دهیم (پول واریز می‌کنیم).","Beispiel":"Wir überweisen das Geld.","Negativ":"Wir überweisen nicht.","Beispiel_Negativ":"Wir überweisen das Geld nicht.","fragend":"Überweisen wir?","Beispiel_fragend":"Überweisen wir das Geld?","Zeitmodi":[{"Präteritum":"Wir überwiesen.","Beispiel":"Wir überwiesen das Geld."},{"Perfekt":"Wir haben überwiesen.","Beispiel":"Wir haben das Geld überwiesen."},{"Futur_I":"Wir werden überweisen.","Beispiel":"Wir werden das Geld überweisen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"überweisen","Person":"Ihr","Filename":"827","Sound_de":"Ihr überweist.","fa":"شما (جمع) انتقال می‌دهید (پول واریز می‌کنید).","Beispiel":"Ihr überweist das Geld.","Negativ":"Ihr überweist nicht.","Beispiel_Negativ":"Ihr überweist das Geld nicht.","fragend":"Überweist ihr?","Beispiel_fragend":"Überweist ihr das Geld?","Zeitmodi":[{"Präteritum":"Ihr überwieset.","Beispiel":"Ihr überwieset das Geld."},{"Perfekt":"Ihr habt überwiesen.","Beispiel":"Ihr habt das Geld überwiesen."},{"Futur_I":"Ihr werdet überweisen.","Beispiel":"Ihr werdet das Geld überweisen."},{"Imperativ":"Überweist!","Beispiel":"Überweist das Geld!"}]},
+  {"Verb":"überweisen","Person":"Sie/sie","Filename":"828","Sound_de":"Sie überweisen.","fa":"آنها / شما (رسمی) انتقال می‌دهند (پول واریز می‌کنند).","Beispiel":"Sie überweisen das Geld.","Negativ":"Sie überweisen nicht.","Beispiel_Negativ":"Sie überweisen das Geld nicht.","fragend":"Überweisen Sie?","Beispiel_fragend":"Überweisen Sie das Geld?","Zeitmodi":[{"Präteritum":"Sie überwiesen.","Beispiel":"Sie überwiesen das Geld."},{"Perfekt":"Sie haben überwiesen.","Beispiel":"Sie haben das Geld überwiesen."},{"Futur_I":"Sie werden überweisen.","Beispiel":"Sie werden das Geld überweisen."},{"Imperativ":"Überweisen Sie!","Beispiel":"Überweisen Sie das Geld!"}]},
+
+  {"Verb":"unterschreiben","Person":"Ich","Filename":"829","Sound_de":"Ich unterschreibe.","fa":"من امضا می‌کنم.","Beispiel":"Ich unterschreibe den Vertrag.","Negativ":"Ich unterschreibe nicht.","Beispiel_Negativ":"Ich unterschreibe den Vertrag nicht.","fragend":"Unterschreibe ich?","Beispiel_fragend":"Unterschreibe ich den Vertrag?","Zeitmodi":[{"Präteritum":"Ich unterschrieb.","Beispiel":"Ich unterschrieb den Vertrag."},{"Perfekt":"Ich habe unterschrieben.","Beispiel":"Ich habe den Vertrag unterschrieben."},{"Futur_I":"Ich werde unterschreiben.","Beispiel":"Ich werde den Vertrag unterschreiben."},{"Imperativ":"Unterschreibe!","Beispiel":"Unterschreibe den Vertrag!"}]},
+  {"Verb":"unterschreiben","Person":"Du","Filename":"830","Sound_de":"Du unterschreibst.","fa":"تو امضا می‌کنی.","Beispiel":"Du unterschreibst den Vertrag.","Negativ":"Du unterschreibst nicht.","Beispiel_Negativ":"Du unterschreibst den Vertrag nicht.","fragend":"Unterschreibst du?","Beispiel_fragend":"Unterschreibst du den Vertrag?","Zeitmodi":[{"Präteritum":"Du unterschriebst.","Beispiel":"Du unterschriebst den Vertrag."},{"Perfekt":"Du hast unterschrieben.","Beispiel":"Du hast den Vertrag unterschrieben."},{"Futur_I":"Du wirst unterschreiben.","Beispiel":"Du wirst den Vertrag unterschreiben."},{"Imperativ":"Unterschreibe!","Beispiel":"Unterschreibe den Vertrag!"}]},
+  {"Verb":"unterschreiben","Person":"Er/Sie/Es","Filename":"831","Sound_de":"Er unterschreibt.","fa":"او امضا می‌کند.","Beispiel":"Er unterschreibt den Vertrag.","Negativ":"Er unterschreibt nicht.","Beispiel_Negativ":"Er unterschreibt den Vertrag nicht.","fragend":"Unterschreibt er?","Beispiel_fragend":"Unterschreibt er den Vertrag?","Zeitmodi":[{"Präteritum":"Er unterschrieb.","Beispiel":"Er unterschrieb den Vertrag."},{"Perfekt":"Er hat unterschrieben.","Beispiel":"Er hat den Vertrag unterschrieben."},{"Futur_I":"Er wird unterschreiben.","Beispiel":"Er wird den Vertrag unterschreiben."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"unterschreiben","Person":"Wir","Filename":"832","Sound_de":"Wir unterschreiben.","fa":"ما امضا می‌کنیم.","Beispiel":"Wir unterschreiben den Vertrag.","Negativ":"Wir unterschreiben nicht.","Beispiel_Negativ":"Wir unterschreiben den Vertrag nicht.","fragend":"Unterschreiben wir?","Beispiel_fragend":"Unterschreiben wir den Vertrag?","Zeitmodi":[{"Präteritum":"Wir unterschrieben.","Beispiel":"Wir unterschrieben den Vertrag."},{"Perfekt":"Wir haben unterschrieben.","Beispiel":"Wir haben den Vertrag unterschrieben."},{"Futur_I":"Wir werden unterschreiben.","Beispiel":"Wir werden den Vertrag unterschreiben."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"unterschreiben","Person":"Ihr","Filename":"833","Sound_de":"Ihr unterschreibt.","fa":"شما (جمع) امضا می‌کنید.","Beispiel":"Ihr unterschreibt den Vertrag.","Negativ":"Ihr unterschreibt nicht.","Beispiel_Negativ":"Ihr unterschreibt den Vertrag nicht.","fragend":"Unterschreibt ihr?","Beispiel_fragend":"Unterschreibt ihr den Vertrag?","Zeitmodi":[{"Präteritum":"Ihr unterschriebt.","Beispiel":"Ihr unterschriebt den Vertrag."},{"Perfekt":"Ihr habt unterschrieben.","Beispiel":"Ihr habt den Vertrag unterschrieben."},{"Futur_I":"Ihr werdet unterschreiben.","Beispiel":"Ihr werdet den Vertrag unterschreiben."},{"Imperativ":"Unterschreibt!","Beispiel":"Unterschreibt den Vertrag!"}]},
+  {"Verb":"unterschreiben","Person":"Sie/sie","Filename":"834","Sound_de":"Sie unterschreiben.","fa":"آنها / شما (رسمی) امضا می‌کنند.","Beispiel":"Sie unterschreiben den Vertrag.","Negativ":"Sie unterschreiben nicht.","Beispiel_Negativ":"Sie unterschreiben den Vertrag nicht.","fragend":"Unterschreiben Sie?","Beispiel_fragend":"Unterschreiben Sie den Vertrag?","Zeitmodi":[{"Präteritum":"Sie unterschrieben.","Beispiel":"Sie unterschrieben den Vertrag."},{"Perfekt":"Sie haben unterschrieben.","Beispiel":"Sie haben den Vertrag unterschrieben."},{"Futur_I":"Sie werden unterschreiben.","Beispiel":"Sie werden den Vertrag unterschreiben."},{"Imperativ":"Unterschreiben Sie!","Beispiel":"Unterschreiben Sie den Vertrag!"}]},
+
+  {"Verb":"verdienen","Person":"Ich","Filename":"835","Sound_de":"Ich verdiene.","fa":"من درآمد دارم (کسب می‌کنم).","Beispiel":"Ich verdiene viel Geld.","Negativ":"Ich verdiene nicht.","Beispiel_Negativ":"Ich verdiene nicht viel Geld.","fragend":"Verdiene ich?","Beispiel_fragend":"Verdiene ich viel Geld?","Zeitmodi":[{"Präteritum":"Ich verdiente.","Beispiel":"Ich verdiente viel Geld."},{"Perfekt":"Ich habe verdient.","Beispiel":"Ich habe viel Geld verdient."},{"Futur_I":"Ich werde verdienen.","Beispiel":"Ich werde viel Geld verdienen."},{"Imperativ":"Verdiene!","Beispiel":"Verdiene viel Geld!"}]},
+  {"Verb":"verdienen","Person":"Du","Filename":"836","Sound_de":"Du verdienst.","fa":"تو درآمد داری (کسب می‌کنی).","Beispiel":"Du verdienst viel Geld.","Negativ":"Du verdienst nicht.","Beispiel_Negativ":"Du verdienst nicht viel Geld.","fragend":"Verdienst du?","Beispiel_fragend":"Verdienst du viel Geld?","Zeitmodi":[{"Präteritum":"Du verdientest.","Beispiel":"Du verdientest viel Geld."},{"Perfekt":"Du hast verdient.","Beispiel":"Du hast viel Geld verdient."},{"Futur_I":"Du wirst verdienen.","Beispiel":"Du wirst viel Geld verdienen."},{"Imperativ":"Verdiene!","Beispiel":"Verdiene viel Geld!"}]},
+  {"Verb":"verdienen","Person":"Er/Sie/Es","Filename":"837","Sound_de":"Er verdient.","fa":"او درآمد دارد (کسب می‌کند).","Beispiel":"Er verdient viel Geld.","Negativ":"Er verdient nicht.","Beispiel_Negativ":"Er verdient nicht viel Geld.","fragend":"Verdient er?","Beispiel_fragend":"Verdient er viel Geld?","Zeitmodi":[{"Präteritum":"Er verdiente.","Beispiel":"Er verdiente viel Geld."},{"Perfekt":"Er hat verdient.","Beispiel":"Er hat viel Geld verdient."},{"Futur_I":"Er wird verdienen.","Beispiel":"Er wird viel Geld verdienen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"verdienen","Person":"Wir","Filename":"838","Sound_de":"Wir verdienen.","fa":"ما درآمد داریم (کسب می‌کنیم).","Beispiel":"Wir verdienen viel Geld.","Negativ":"Wir verdienen nicht.","Beispiel_Negativ":"Wir verdienen nicht viel Geld.","fragend":"Verdienen wir?","Beispiel_fragend":"Verdienen wir viel Geld?","Zeitmodi":[{"Präteritum":"Wir verdienten.","Beispiel":"Wir verdienten viel Geld."},{"Perfekt":"Wir haben verdient.","Beispiel":"Wir haben viel Geld verdient."},{"Futur_I":"Wir werden verdienen.","Beispiel":"Wir werden viel Geld verdienen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"verdienen","Person":"Ihr","Filename":"839","Sound_de":"Ihr verdient.","fa":"شما (جمع) درآمد دارید (کسب می‌کنید).","Beispiel":"Ihr verdient viel Geld.","Negativ":"Ihr verdient nicht.","Beispiel_Negativ":"Ihr verdient nicht viel Geld.","fragend":"Verdient ihr?","Beispiel_fragend":"Verdient ihr viel Geld?","Zeitmodi":[{"Präteritum":"Ihr verdientet.","Beispiel":"Ihr verdientet viel Geld."},{"Perfekt":"Ihr habt verdient.","Beispiel":"Ihr habt viel Geld verdient."},{"Futur_I":"Ihr werdet verdienen.","Beispiel":"Ihr werdet viel Geld verdienen."},{"Imperativ":"Verdient!","Beispiel":"Verdient viel Geld!"}]},
+  {"Verb":"verdienen","Person":"Sie/sie","Filename":"840","Sound_de":"Sie verdienen.","fa":"آنها / شما (رسمی) درآمد دارند (کسب می‌کنند).","Beispiel":"Sie verdienen viel Geld.","Negativ":"Sie verdienen nicht.","Beispiel_Negativ":"Sie verdienen nicht viel Geld.","fragend":"Verdienen Sie?","Beispiel_fragend":"Verdienen Sie viel Geld?","Zeitmodi":[{"Präteritum":"Sie verdienten.","Beispiel":"Sie verdienten viel Geld."},{"Perfekt":"Sie haben verdient.","Beispiel":"Sie haben viel Geld verdient."},{"Futur_I":"Sie werden verdienen.","Beispiel":"Sie werden viel Geld verdienen."},{"Imperativ":"Verdienen Sie!","Beispiel":"Verdienen Sie viel Geld!"}]},
+
+  {"Verb":"verkaufen","Person":"Ich","Filename":"841","Sound_de":"Ich verkaufe.","fa":"من می‌فروشم.","Beispiel":"Ich verkaufe das Auto.","Negativ":"Ich verkaufe nicht.","Beispiel_Negativ":"Ich verkaufe das Auto nicht.","fragend":"Verkaufe ich?","Beispiel_fragend":"Verkaufe ich das Auto?","Zeitmodi":[{"Präteritum":"Ich verkaufte.","Beispiel":"Ich verkaufte das Auto."},{"Perfekt":"Ich habe verkauft.","Beispiel":"Ich habe das Auto verkauft."},{"Futur_I":"Ich werde verkaufen.","Beispiel":"Ich werde das Auto verkaufen."},{"Imperativ":"Verkaufe!","Beispiel":"Verkaufe das Auto!"}]},
+  {"Verb":"verkaufen","Person":"Du","Filename":"842","Sound_de":"Du verkaufst.","fa":"تو می‌فروشی.","Beispiel":"Du verkaufst das Auto.","Negativ":"Du verkaufst nicht.","Beispiel_Negativ":"Du verkaufst das Auto nicht.","fragend":"Verkaufst du?","Beispiel_fragend":"Verkaufst du das Auto?","Zeitmodi":[{"Präteritum":"Du verkauftest.","Beispiel":"Du verkauftest das Auto."},{"Perfekt":"Du hast verkauft.","Beispiel":"Du hast das Auto verkauft."},{"Futur_I":"Du wirst verkaufen.","Beispiel":"Du wirst das Auto verkaufen."},{"Imperativ":"Verkaufe!","Beispiel":"Verkaufe das Auto!"}]},
+  {"Verb":"verkaufen","Person":"Er/Sie/Es","Filename":"843","Sound_de":"Er verkauft.","fa":"او می‌فروشد.","Beispiel":"Er verkauft das Auto.","Negativ":"Er verkauft nicht.","Beispiel_Negativ":"Er verkauft das Auto nicht.","fragend":"Verkauft er?","Beispiel_fragend":"Verkauft er das Auto?","Zeitmodi":[{"Präteritum":"Er verkaufte.","Beispiel":"Er verkaufte das Auto."},{"Perfekt":"Er hat verkauft.","Beispiel":"Er hat das Auto verkauft."},{"Futur_I":"Er wird verkaufen.","Beispiel":"Er wird das Auto verkaufen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"verkaufen","Person":"Wir","Filename":"844","Sound_de":"Wir verkaufen.","fa":"ما می‌فروشیم.","Beispiel":"Wir verkaufen das Auto.","Negativ":"Wir verkaufen nicht.","Beispiel_Negativ":"Wir verkaufen das Auto nicht.","fragend":"Verkaufen wir?","Beispiel_fragend":"Verkaufen wir das Auto?","Zeitmodi":[{"Präteritum":"Wir verkauften.","Beispiel":"Wir verkauften das Auto."},{"Perfekt":"Wir haben verkauft.","Beispiel":"Wir haben das Auto verkauft."},{"Futur_I":"Wir werden verkaufen.","Beispiel":"Wir werden das Auto verkaufen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"verkaufen","Person":"Ihr","Filename":"845","Sound_de":"Ihr verkauft.","fa":"شما (جمع) می‌فروشید.","Beispiel":"Ihr verkauft das Auto.","Negativ":"Ihr verkauft nicht.","Beispiel_Negativ":"Ihr verkauft das Auto nicht.","fragend":"Verkauft ihr?","Beispiel_fragend":"Verkauft ihr das Auto?","Zeitmodi":[{"Präteritum":"Ihr verkauftet.","Beispiel":"Ihr verkauftet das Auto."},{"Perfekt":"Ihr habt verkauft.","Beispiel":"Ihr habt das Auto verkauft."},{"Futur_I":"Ihr werdet verkaufen.","Beispiel":"Ihr werdet das Auto verkaufen."},{"Imperativ":"Verkauft!","Beispiel":"Verkauft das Auto!"}]},
+  {"Verb":"verkaufen","Person":"Sie/sie","Filename":"846","Sound_de":"Sie verkaufen.","fa":"آنها / شما (رسمی) می‌فروشند.","Beispiel":"Sie verkaufen das Auto.","Negativ":"Sie verkaufen nicht.","Beispiel_Negativ":"Sie verkaufen das Auto nicht.","fragend":"Verkaufen Sie?","Beispiel_fragend":"Verkaufen Sie das Auto?","Zeitmodi":[{"Präteritum":"Sie verkauften.","Beispiel":"Sie verkauften das Auto."},{"Perfekt":"Sie haben verkauft.","Beispiel":"Sie haben das Auto verkauft."},{"Futur_I":"Sie werden verkaufen.","Beispiel":"Sie werden das Auto verkaufen."},{"Imperativ":"Verkaufen Sie!","Beispiel":"Verkaufen Sie das Auto!"}]},
+
+  {"Verb":"vermieten","Person":"Ich","Filename":"847","Sound_de":"Ich vermiete.","fa":"من اجاره می‌دهم.","Beispiel":"Ich vermiete die Wohnung.","Negativ":"Ich vermiete nicht.","Beispiel_Negativ":"Ich vermiete die Wohnung nicht.","fragend":"Vermiete ich?","Beispiel_fragend":"Vermiete ich die Wohnung?","Zeitmodi":[{"Präteritum":"Ich vermietete.","Beispiel":"Ich vermietete die Wohnung."},{"Perfekt":"Ich habe vermietet.","Beispiel":"Ich habe die Wohnung vermietet."},{"Futur_I":"Ich werde vermieten.","Beispiel":"Ich werde die Wohnung vermieten."},{"Imperativ":"Vermiete!","Beispiel":"Vermiete die Wohnung!"}]},
+  {"Verb":"vermieten","Person":"Du","Filename":"848","Sound_de":"Du vermietest.","fa":"تو اجاره می‌دهی.","Beispiel":"Du vermietest die Wohnung.","Negativ":"Du vermietest nicht.","Beispiel_Negativ":"Du vermietest die Wohnung nicht.","fragend":"Vermietest du?","Beispiel_fragend":"Vermietest du die Wohnung?","Zeitmodi":[{"Präteritum":"Du vermietetest.","Beispiel":"Du vermietetest die Wohnung."},{"Perfekt":"Du hast vermietet.","Beispiel":"Du hast die Wohnung vermietet."},{"Futur_I":"Du wirst vermieten.","Beispiel":"Du wirst die Wohnung vermieten."},{"Imperativ":"Vermiete!","Beispiel":"Vermiete die Wohnung!"}]},
+  {"Verb":"vermieten","Person":"Er/Sie/Es","Filename":"849","Sound_de":"Er vermietet.","fa":"او اجاره می‌دهد.","Beispiel":"Er vermietet die Wohnung.","Negativ":"Er vermietet nicht.","Beispiel_Negativ":"Er vermietet die Wohnung nicht.","fragend":"Vermietet er?","Beispiel_fragend":"Vermietet er die Wohnung?","Zeitmodi":[{"Präteritum":"Er vermietete.","Beispiel":"Er vermietete die Wohnung."},{"Perfekt":"Er hat vermietet.","Beispiel":"Er hat die Wohnung vermietet."},{"Futur_I":"Er wird vermieten.","Beispiel":"Er wird die Wohnung vermieten."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"vermieten","Person":"Wir","Filename":"850","Sound_de":"Wir vermieten.","fa":"ما اجاره می‌دهیم.","Beispiel":"Wir vermieten die Wohnung.","Negativ":"Wir vermieten nicht.","Beispiel_Negativ":"Wir vermieten die Wohnung nicht.","fragend":"Vermieten wir?","Beispiel_fragend":"Vermieten wir die Wohnung?","Zeitmodi":[{"Präteritum":"Wir vermieteten.","Beispiel":"Wir vermieteten die Wohnung."},{"Perfekt":"Wir haben vermietet.","Beispiel":"Wir haben die Wohnung vermietet."},{"Futur_I":"Wir werden vermieten.","Beispiel":"Wir werden die Wohnung vermieten."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"vermieten","Person":"Ihr","Filename":"851","Sound_de":"Ihr vermietet.","fa":"شما (جمع) اجاره می‌دهید.","Beispiel":"Ihr vermietet die Wohnung.","Negativ":"Ihr vermietet nicht.","Beispiel_Negativ":"Ihr vermietet die Wohnung nicht.","fragend":"Vermietet ihr?","Beispiel_fragend":"Vermietet ihr die Wohnung?","Zeitmodi":[{"Präteritum":"Ihr vermietetet.","Beispiel":"Ihr vermietetet die Wohnung."},{"Perfekt":"Ihr habt vermietet.","Beispiel":"Ihr habt die Wohnung vermietet."},{"Futur_I":"Ihr werdet vermieten.","Beispiel":"Ihr werdet die Wohnung vermieten."},{"Imperativ":"Vermietet!","Beispiel":"Vermietet die Wohnung!"}]},
+  {"Verb":"vermieten","Person":"Sie/sie","Filename":"852","Sound_de":"Sie vermieten.","fa":"آنها / شما (رسمی) اجاره می‌دهند.","Beispiel":"Sie vermieten die Wohnung.","Negativ":"Sie vermieten nicht.","Beispiel_Negativ":"Sie vermieten die Wohnung nicht.","fragend":"Vermieten Sie?","Beispiel_fragend":"Vermieten Sie die Wohnung?","Zeitmodi":[{"Präteritum":"Sie vermieteten.","Beispiel":"Sie vermieteten die Wohnung."},{"Perfekt":"Sie haben vermietet.","Beispiel":"Sie haben die Wohnung vermietet."},{"Futur_I":"Sie werden vermieten.","Beispiel":"Sie werden die Wohnung vermieten."},{"Imperativ":"Vermieten Sie!","Beispiel":"Vermieten Sie die Wohnung!"}]},
+
+  {"Verb":"verstehen","Person":"Ich","Filename":"853","Sound_de":"Ich verstehe.","fa":"من می‌فهمم.","Beispiel":"Ich verstehe die Frage.","Negativ":"Ich verstehe nicht.","Beispiel_Negativ":"Ich verstehe die Frage nicht.","fragend":"Verstehe ich?","Beispiel_fragend":"Verstehe ich die Frage?","Zeitmodi":[{"Präteritum":"Ich verstand.","Beispiel":"Ich verstand die Frage."},{"Perfekt":"Ich habe verstanden.","Beispiel":"Ich habe die Frage verstanden."},{"Futur_I":"Ich werde verstehen.","Beispiel":"Ich werde die Frage verstehen."},{"Imperativ":"Verstehe!","Beispiel":"Verstehe die Frage!"}]},
+  {"Verb":"verstehen","Person":"Du","Filename":"854","Sound_de":"Du verstehst.","fa":"تو می‌فهمی.","Beispiel":"Du verstehst die Frage.","Negativ":"Du verstehst nicht.","Beispiel_Negativ":"Du verstehst die Frage nicht.","fragend":"Verstehst du?","Beispiel_fragend":"Verstehst du die Frage?","Zeitmodi":[{"Präteritum":"Du verstandest.","Beispiel":"Du verstandest die Frage."},{"Perfekt":"Du hast verstanden.","Beispiel":"Du hast die Frage verstanden."},{"Futur_I":"Du wirst verstehen.","Beispiel":"Du wirst die Frage verstehen."},{"Imperativ":"Verstehe!","Beispiel":"Verstehe die Frage!"}]},
+  {"Verb":"verstehen","Person":"Er/Sie/Es","Filename":"855","Sound_de":"Er versteht.","fa":"او می‌فهمد.","Beispiel":"Er versteht die Frage.","Negativ":"Er versteht nicht.","Beispiel_Negativ":"Er versteht die Frage nicht.","fragend":"Versteht er?","Beispiel_fragend":"Versteht er die Frage?","Zeitmodi":[{"Präteritum":"Er verstand.","Beispiel":"Er verstand die Frage."},{"Perfekt":"Er hat verstanden.","Beispiel":"Er hat die Frage verstanden."},{"Futur_I":"Er wird verstehen.","Beispiel":"Er wird die Frage verstehen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"verstehen","Person":"Wir","Filename":"856","Sound_de":"Wir verstehen.","fa":"ما می‌فهمیم.","Beispiel":"Wir verstehen die Frage.","Negativ":"Wir verstehen nicht.","Beispiel_Negativ":"Wir verstehen die Frage nicht.","fragend":"Verstehen wir?","Beispiel_fragend":"Verstehen wir die Frage?","Zeitmodi":[{"Präteritum":"Wir verstanden.","Beispiel":"Wir verstanden die Frage."},{"Perfekt":"Wir haben verstanden.","Beispiel":"Wir haben die Frage verstanden."},{"Futur_I":"Wir werden verstehen.","Beispiel":"Wir werden die Frage verstehen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"verstehen","Person":"Ihr","Filename":"857","Sound_de":"Ihr versteht.","fa":"شما (جمع) می‌فهمید.","Beispiel":"Ihr versteht die Frage.","Negativ":"Ihr versteht nicht.","Beispiel_Negativ":"Ihr versteht die Frage nicht.","fragend":"Versteht ihr?","Beispiel_fragend":"Versteht ihr die Frage?","Zeitmodi":[{"Präteritum":"Ihr verstandet.","Beispiel":"Ihr verstandet die Frage."},{"Perfekt":"Ihr habt verstanden.","Beispiel":"Ihr habt die Frage verstanden."},{"Futur_I":"Ihr werdet verstehen.","Beispiel":"Ihr werdet die Frage verstehen."},{"Imperativ":"Versteht!","Beispiel":"Versteht die Frage!"}]},
+  {"Verb":"verstehen","Person":"Sie/sie","Filename":"858","Sound_de":"Sie verstehen.","fa":"آنها / شما (رسمی) می‌فهمند.","Beispiel":"Sie verstehen die Frage.","Negativ":"Sie verstehen nicht.","Beispiel_Negativ":"Sie verstehen die Frage nicht.","fragend":"Verstehen Sie?","Beispiel_fragend":"Verstehen Sie die Frage?","Zeitmodi":[{"Präteritum":"Sie verstanden.","Beispiel":"Sie verstanden die Frage."},{"Perfekt":"Sie haben verstanden.","Beispiel":"Sie haben die Frage verstanden."},{"Futur_I":"Sie werden verstehen.","Beispiel":"Sie werden die Frage verstehen."},{"Imperativ":"Verstehen Sie!","Beispiel":"Verstehen Sie die Frage!"}]},
+
+  {"Verb":"vorstellen","Person":"Ich","Filename":"859","Sound_de":"Ich stelle vor.","fa":"من معرفی می‌کنم (یا تصور می‌کنم).","Beispiel":"Ich stelle mich vor.","Negativ":"Ich stelle nicht vor.","Beispiel_Negativ":"Ich stelle mich nicht vor.","fragend":"Stelle ich vor?","Beispiel_fragend":"Stelle ich mich vor?","Zeitmodi":[{"Präteritum":"Ich stellte vor.","Beispiel":"Ich stellte mich vor."},{"Perfekt":"Ich habe vorgestellt.","Beispiel":"Ich habe mich vorgestellt."},{"Futur_I":"Ich werde vorstellen.","Beispiel":"Ich werde mich vorstellen."},{"Imperativ":"Stelle vor!","Beispiel":"Stelle dich vor!"}]},
+  {"Verb":"vorstellen","Person":"Du","Filename":"860","Sound_de":"Du stellst vor.","fa":"تو معرفی می‌کنی (یا تصور می‌کنی).","Beispiel":"Du stellst dich vor.","Negativ":"Du stellst nicht vor.","Beispiel_Negativ":"Du stellst dich nicht vor.","fragend":"Stellst du vor?","Beispiel_fragend":"Stellst du dich vor?","Zeitmodi":[{"Präteritum":"Du stelltest vor.","Beispiel":"Du stelltest dich vor."},{"Perfekt":"Du hast vorgestellt.","Beispiel":"Du hast dich vorgestellt."},{"Futur_I":"Du wirst vorstellen.","Beispiel":"Du wirst dich vorstellen."},{"Imperativ":"Stelle vor!","Beispiel":"Stelle dich vor!"}]},
+  {"Verb":"vorstellen","Person":"Er/Sie/Es","Filename":"861","Sound_de":"Er stellt vor.","fa":"او معرفی می‌کند (یا تصور می‌کند).","Beispiel":"Er stellt sich vor.","Negativ":"Er stellt nicht vor.","Beispiel_Negativ":"Er stellt sich nicht vor.","fragend":"Stellt er vor?","Beispiel_fragend":"Stellt er sich vor?","Zeitmodi":[{"Präteritum":"Er stellte vor.","Beispiel":"Er stellte sich vor."},{"Perfekt":"Er hat vorgestellt.","Beispiel":"Er hat sich vorgestellt."},{"Futur_I":"Er wird vorstellen.","Beispiel":"Er wird sich vorstellen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"vorstellen","Person":"Wir","Filename":"862","Sound_de":"Wir stellen vor.","fa":"ما معرفی می‌کنیم (یا تصور می‌کنیم).","Beispiel":"Wir stellen uns vor.","Negativ":"Wir stellen nicht vor.","Beispiel_Negativ":"Wir stellen uns nicht vor.","fragend":"Stellen wir vor?","Beispiel_fragend":"Stellen wir uns vor?","Zeitmodi":[{"Präteritum":"Wir stellten vor.","Beispiel":"Wir stellten uns vor."},{"Perfekt":"Wir haben vorgestellt.","Beispiel":"Wir haben uns vorgestellt."},{"Futur_I":"Wir werden vorstellen.","Beispiel":"Wir werden uns vorstellen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"vorstellen","Person":"Ihr","Filename":"863","Sound_de":"Ihr stellt vor.","fa":"شما (جمع) معرفی می‌کنید (یا تصور می‌کنید).","Beispiel":"Ihr stellt euch vor.","Negativ":"Ihr stellt nicht vor.","Beispiel_Negativ":"Ihr stellt euch nicht vor.","fragend":"Stellt ihr vor?","Beispiel_fragend":"Stellt ihr euch vor?","Zeitmodi":[{"Präteritum":"Ihr stelltet vor.","Beispiel":"Ihr stelltet euch vor."},{"Perfekt":"Ihr habt vorgestellt.","Beispiel":"Ihr habt euch vorgestellt."},{"Futur_I":"Ihr werdet vorstellen.","Beispiel":"Ihr werdet euch vorstellen."},{"Imperativ":"Stellt vor!","Beispiel":"Stellt euch vor!"}]},
+  {"Verb":"vorstellen","Person":"Sie/sie","Filename":"864","Sound_de":"Sie stellen vor.","fa":"آنها / شما (رسمی) معرفی می‌کنند (یا تصور می‌کنند).","Beispiel":"Sie stellen sich vor.","Negativ":"Sie stellen nicht vor.","Beispiel_Negativ":"Sie stellen sich nicht vor.","fragend":"Stellen Sie vor?","Beispiel_fragend":"Stellen Sie sich vor?","Zeitmodi":[{"Präteritum":"Sie stellten vor.","Beispiel":"Sie stellten sich vor."},{"Perfekt":"Sie haben vorgestellt.","Beispiel":"Sie haben sich vorgestellt."},{"Futur_I":"Sie werden vorstellen.","Beispiel":"Sie werden sich vorstellen."},{"Imperativ":"Stellen Sie vor!","Beispiel":"Stellen Sie sich vor!"}]}
+,
+  {"Verb":"wandern","Person":"Ich","Filename":"865","Sound_de":"Ich wandere.","fa":"من پیاده‌روی می‌کنم / کوهنوردی می‌کنم.","Beispiel":"Ich wandere gerne im Wald.","Negativ":"Ich wandere nicht.","Beispiel_Negativ":"Ich wandere heute nicht im Wald.","fragend":"Wandere ich?","Beispiel_fragend":"Wandere ich morgen im Wald?","Zeitmodi":[{"Präteritum":"Ich wanderte.","Beispiel":"Ich wanderte gestern im Wald."},{"Perfekt":"Ich bin gewandert.","Beispiel":"Ich bin im Wald gewandert."},{"Futur_I":"Ich werde wandern.","Beispiel":"Ich werde morgen wandern."},{"Imperativ":"Wandere!","Beispiel":"Wandere im Wald!"}]},
+  {"Verb":"wandern","Person":"Du","Filename":"866","Sound_de":"Du wanderst.","fa":"تو پیاده‌روی می‌کنی / کوهنوردی می‌کنی.","Beispiel":"Du wanderst gerne im Wald.","Negativ":"Du wanderst nicht.","Beispiel_Negativ":"Du wanderst heute nicht im Wald.","fragend":"Wanderst du?","Beispiel_fragend":"Wanderst du morgen im Wald?","Zeitmodi":[{"Präteritum":"Du wanderntest.","Beispiel":"Du wanderntest gestern im Wald."},{"Perfekt":"Du bist gewandert.","Beispiel":"Du bist im Wald gewandert."},{"Futur_I":"Du wirst wandern.","Beispiel":"Du wirst morgen wandern."},{"Imperativ":"Wandere!","Beispiel":"Wandere im Wald!"}]},
+  {"Verb":"wandern","Person":"Er/Sie/Es","Filename":"867","Sound_de":"Er wandert.","fa":"او پیاده‌روی می‌کند / کوهنوردی می‌کند.","Beispiel":"Er wandert gerne im Wald.","Negativ":"Er wandert nicht.","Beispiel_Negativ":"Er wandert heute nicht im Wald.","fragend":"Wandert er?","Beispiel_fragend":"Wandert er morgen im Wald?","Zeitmodi":[{"Präteritum":"Er wanderte.","Beispiel":"Er wanderte gestern im Wald."},{"Perfekt":"Er ist gewandert.","Beispiel":"Er ist im Wald gewandert."},{"Futur_I":"Er wird wandern.","Beispiel":"Er wird morgen wandern."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wandern","Person":"Wir","Filename":"868","Sound_de":"Wir wandern.","fa":"ما پیاده‌روی می‌کنیم / کوهنوردی می‌کنیم.","Beispiel":"Wir wandern gerne im Wald.","Negativ":"Wir wandern nicht.","Beispiel_Negativ":"Wir wandern heute nicht im Wald.","fragend":"Wandern wir?","Beispiel_fragend":"Wandern wir morgen im Wald?","Zeitmodi":[{"Präteritum":"Wir wanderten.","Beispiel":"Wir wanderten gestern im Wald."},{"Perfekt":"Wir sind gewandert.","Beispiel":"Wir sind im Wald gewandert."},{"Futur_I":"Wir werden wandern.","Beispiel":"Wir werden morgen wandern."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wandern","Person":"Ihr","Filename":"869","Sound_de":"Ihr wandert.","fa":"شما (جمع) پیاده‌روی می‌کنید / کوهنوردی می‌کنید.","Beispiel":"Ihr wandert gerne im Wald.","Negativ":"Ihr wandert nicht.","Beispiel_Negativ":"Ihr wandert heute nicht im Wald.","fragend":"Wandert ihr?","Beispiel_fragend":"Wandert ihr morgen im Wald?","Zeitmodi":[{"Präteritum":"Ihr wandertet.","Beispiel":"Ihr wandertet gestern im Wald."},{"Perfekt":"Ihr seid gewandert.","Beispiel":"Ihr seid im Wald gewandert."},{"Futur_I":"Ihr werdet wandern.","Beispiel":"Ihr werdet morgen wandern."},{"Imperativ":"Wandert!","Beispiel":"Wandert im Wald!"}]},
+  {"Verb":"wandern","Person":"Sie/sie","Filename":"870","Sound_de":"Sie wandern.","fa":"آنها / شما (رسمی) پیاده‌روی می‌کنند / کوهنوردی می‌کنند.","Beispiel":"Sie wandern gerne im Wald.","Negativ":"Sie wandern nicht.","Beispiel_Negativ":"Sie wandern heute nicht im Wald.","fragend":"Wandern Sie?","Beispiel_fragend":"Wandern Sie morgen im Wald?","Zeitmodi":[{"Präteritum":"Sie wanderten.","Beispiel":"Sie wanderten gestern im Wald."},{"Perfekt":"Sie sind gewandert.","Beispiel":"Sie sind im Wald gewandert."},{"Futur_I":"Sie werden wandern.","Beispiel":"Sie werden morgen wandern."},{"Imperativ":"Wandern Sie!","Beispiel":"Wandern Sie im Wald!"}]},
+
+  {"Verb":"warten","Person":"Ich","Filename":"871","Sound_de":"Ich warte.","fa":"من منتظر می‌مانم.","Beispiel":"Ich warte auf den Bus.","Negativ":"Ich warte nicht.","Beispiel_Negativ":"Ich warte nicht auf den Bus.","fragend":"Warte ich?","Beispiel_fragend":"Warte ich auf den Bus?","Zeitmodi":[{"Präteritum":"Ich wartete.","Beispiel":"Ich wartete auf den Bus."},{"Perfekt":"Ich habe gewartet.","Beispiel":"Ich habe auf den Bus gewartet."},{"Futur_I":"Ich werde warten.","Beispiel":"Ich werde auf den Bus warten."},{"Imperativ":"Warte!","Beispiel":"Warte auf den Bus!"}]},
+  {"Verb":"warten","Person":"Du","Filename":"872","Sound_de":"Du wartest.","fa":"تو منتظر می‌مانی.","Beispiel":"Du wartest auf den Bus.","Negativ":"Du wartest nicht.","Beispiel_Negativ":"Du wartest nicht auf den Bus.","fragend":"Wartest du?","Beispiel_fragend":"Wartest du auf den Bus?","Zeitmodi":[{"Präteritum":"Du wartetest.","Beispiel":"Du wartetest auf den Bus."},{"Perfekt":"Du hast gewartet.","Beispiel":"Du hast auf den Bus gewartet."},{"Futur_I":"Du wirst warten.","Beispiel":"Du wirst auf den Bus warten."},{"Imperativ":"Warte!","Beispiel":"Warte auf den Bus!"}]},
+  {"Verb":"warten","Person":"Er/Sie/Es","Filename":"873","Sound_de":"Er wartet.","fa":"او منتظر می‌ماند.","Beispiel":"Er wartet auf den Bus.","Negativ":"Er wartet nicht.","Beispiel_Negativ":"Er wartet nicht auf den Bus.","fragend":"Wartet er?","Beispiel_fragend":"Wartet er auf den Bus?","Zeitmodi":[{"Präteritum":"Er wartete.","Beispiel":"Er wartete auf den Bus."},{"Perfekt":"Er hat gewartet.","Beispiel":"Er hat auf den Bus gewartet."},{"Futur_I":"Er wird warten.","Beispiel":"Er wird auf den Bus warten."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"warten","Person":"Wir","Filename":"874","Sound_de":"Wir warten.","fa":"ما منتظر می‌مانیم.","Beispiel":"Wir warten auf den Bus.","Negativ":"Wir warten nicht.","Beispiel_Negativ":"Wir warten nicht auf den Bus.","fragend":"Warten wir?","Beispiel_fragend":"Warten wir auf den Bus?","Zeitmodi":[{"Präteritum":"Wir warteten.","Beispiel":"Wir warteten auf den Bus."},{"Perfekt":"Wir haben gewartet.","Beispiel":"Wir haben auf den Bus gewartet."},{"Futur_I":"Wir werden warten.","Beispiel":"Wir werden auf den Bus warten."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"warten","Person":"Ihr","Filename":"875","Sound_de":"Ihr wartet.","fa":"شما (جمع) منتظر می‌مانید.","Beispiel":"Ihr wartet auf den Bus.","Negativ":"Ihr wartet nicht.","Beispiel_Negativ":"Ihr wartet nicht auf den Bus.","fragend":"Wartet ihr?","Beispiel_fragend":"Wartet ihr auf den Bus?","Zeitmodi":[{"Präteritum":"Ihr wartetet.","Beispiel":"Ihr wartetet auf den Bus."},{"Perfekt":"Ihr habt gewartet.","Beispiel":"Ihr habt auf den Bus gewartet."},{"Futur_I":"Ihr werdet warten.","Beispiel":"Ihr werdet auf den Bus warten."},{"Imperativ":"Wartet!","Beispiel":"Wartet auf den Bus!"}]},
+  {"Verb":"warten","Person":"Sie/sie","Filename":"876","Sound_de":"Sie warten.","fa":"آنها / شما (رسمی) منتظر می‌مانند.","Beispiel":"Sie warten auf den Bus.","Negativ":"Sie warten nicht.","Beispiel_Negativ":"Sie warten nicht auf den Bus.","fragend":"Warten Sie?","Beispiel_fragend":"Warten Sie auf den Bus?","Zeitmodi":[{"Präteritum":"Sie warteten.","Beispiel":"Sie warteten auf den Bus."},{"Perfekt":"Sie haben gewartet.","Beispiel":"Sie haben auf den Bus gewartet."},{"Futur_I":"Sie werden warten.","Beispiel":"Sie werden auf den Bus warten."},{"Imperativ":"Warten Sie!","Beispiel":"Warten Sie auf den Bus!"}]},
+
+  {"Verb":"waschen","Person":"Ich","Filename":"877","Sound_de":"Ich wasche.","fa":"من می‌شویم.","Beispiel":"Ich wasche die Wäsche.","Negativ":"Ich wasche nicht.","Beispiel_Negativ":"Ich wasche die Wäsche nicht.","fragend":"Wasche ich?","Beispiel_fragend":"Wasche ich die Wäsche?","Zeitmodi":[{"Präteritum":"Ich wusch.","Beispiel":"Ich wusch die Wäsche."},{"Perfekt":"Ich habe gewaschen.","Beispiel":"Ich habe die Wäsche gewaschen."},{"Futur_I":"Ich werde waschen.","Beispiel":"Ich werde die Wäsche waschen."},{"Imperativ":"Wasche!","Beispiel":"Wasche die Wäsche!"}]},
+  {"Verb":"waschen","Person":"Du","Filename":"878","Sound_de":"Du wäschst.","fa":"تو می‌شویی.","Beispiel":"Du wäschst die Wäsche.","Negativ":"Du wäschst nicht.","Beispiel_Negativ":"Du wäschst die Wäsche nicht.","fragend":"Wäschst du?","Beispiel_fragend":"Wäschst du die Wäsche?","Zeitmodi":[{"Präteritum":"Du wuschst.","Beispiel":"Du wuschst die Wäsche."},{"Perfekt":"Du hast gewaschen.","Beispiel":"Du hast die Wäsche gewaschen."},{"Futur_I":"Du wirst waschen.","Beispiel":"Du wirst die Wäsche waschen."},{"Imperativ":"Wasche!","Beispiel":"Wasche die Wäsche!"}]},
+  {"Verb":"waschen","Person":"Er/Sie/Es","Filename":"879","Sound_de":"Er wäscht.","fa":"او می‌شوید.","Beispiel":"Er wäscht die Wäsche.","Negativ":"Er wäscht nicht.","Beispiel_Negativ":"Er wäscht die Wäsche nicht.","fragend":"Wäscht er?","Beispiel_fragend":"Wäscht er die Wäsche?","Zeitmodi":[{"Präteritum":"Er wusch.","Beispiel":"Er wusch die Wäsche."},{"Perfekt":"Er hat gewaschen.","Beispiel":"Er hat die Wäsche gewaschen."},{"Futur_I":"Er wird waschen.","Beispiel":"Er wird die Wäsche waschen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"waschen","Person":"Wir","Filename":"880","Sound_de":"Wir waschen.","fa":"ما می‌شوییم.","Beispiel":"Wir waschen die Wäsche.","Negativ":"Wir waschen nicht.","Beispiel_Negativ":"Wir waschen die Wäsche nicht.","fragend":"Waschen wir?","Beispiel_fragend":"Waschen wir die Wäsche?","Zeitmodi":[{"Präteritum":"Wir wuschen.","Beispiel":"Wir wuschen die Wäsche."},{"Perfekt":"Wir haben gewaschen.","Beispiel":"Wir haben die Wäsche gewaschen."},{"Futur_I":"Wir werden waschen.","Beispiel":"Wir werden die Wäsche waschen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"waschen","Person":"Ihr","Filename":"881","Sound_de":"Ihr wascht.","fa":"شما (جمع) می‌شویید.","Beispiel":"Ihr wascht die Wäsche.","Negativ":"Ihr wascht nicht.","Beispiel_Negativ":"Ihr wascht die Wäsche nicht.","fragend":"Wascht ihr?","Beispiel_fragend":"Wascht ihr die Wäsche?","Zeitmodi":[{"Präteritum":"Ihr wuschtet.","Beispiel":"Ihr wuschtet die Wäsche."},{"Perfekt":"Ihr habt gewaschen.","Beispiel":"Ihr habt die Wäsche gewaschen."},{"Futur_I":"Ihr werdet waschen.","Beispiel":"Ihr werdet die Wäsche waschen."},{"Imperativ":"Wascht!","Beispiel":"Wascht die Wäsche!"}]},
+  {"Verb":"waschen","Person":"Sie/sie","Filename":"882","Sound_de":"Sie waschen.","fa":"آنها / شما (رسمی) می‌شویند.","Beispiel":"Sie waschen die Wäsche.","Negativ":"Sie waschen nicht.","Beispiel_Negativ":"Sie waschen die Wäsche nicht.","fragend":"Waschen Sie?","Beispiel_fragend":"Waschen Sie die Wäsche?","Zeitmodi":[{"Präteritum":"Sie wuschen.","Beispiel":"Sie wuschen die Wäsche."},{"Perfekt":"Sie haben gewaschen.","Beispiel":"Sie haben die Wäsche gewaschen."},{"Futur_I":"Sie werden waschen.","Beispiel":"Sie werden die Wäsche waschen."},{"Imperativ":"Waschen Sie!","Beispiel":"Waschen Sie die Wäsche!"}]},
+
+  {"Verb":"weh tun","Person":"Ich","Filename":"883","Sound_de":"Ich tue weh.","fa":"من درد می‌کنم / آسیب می‌زنم.","Beispiel":"Ich tue mir weh.","Negativ":"Ich tue nicht weh.","Beispiel_Negativ":"Ich tue mir nicht weh.","fragend":"Tue ich weh?","Beispiel_fragend":"Tue ich mir weh?","Zeitmodi":[{"Präteritum":"Ich tat weh.","Beispiel":"Ich tat mir weh."},{"Perfekt":"Ich habe weh getan.","Beispiel":"Ich habe mir weh getan."},{"Futur_I":"Ich werde weh tun.","Beispiel":"Ich werde mir weh tun."},{"Imperativ":"Tu(e) weh!","Beispiel":"Tu dir nicht weh!"}]},
+  {"Verb":"weh tun","Person":"Du","Filename":"884","Sound_de":"Du tust weh.","fa":"تو درد می‌کنی / آسیب می‌زنی.","Beispiel":"Du tust dir weh.","Negativ":"Du tust nicht weh.","Beispiel_Negativ":"Du tust dir nicht weh.","fragend":"Tust du weh?","Beispiel_fragend":"Tust du dir weh?","Zeitmodi":[{"Präteritum":"Du tatest weh.","Beispiel":"Du tatest dir weh."},{"Perfekt":"Du hast weh getan.","Beispiel":"Du hast dir weh getan."},{"Futur_I":"Du wirst weh tun.","Beispiel":"Du wirst dir weh tun."},{"Imperativ":"Tu(e) weh!","Beispiel":"Tu dir nicht weh!"}]},
+  {"Verb":"weh tun","Person":"Er/Sie/Es","Filename":"885","Sound_de":"Er tut weh.","fa":"او درد می‌کند / آسیب می‌زند.","Beispiel":"Er tut sich weh.","Negativ":"Er tut nicht weh.","Beispiel_Negativ":"Er tut sich nicht weh.","fragend":"Tut er weh?","Beispiel_fragend":"Tut er sich weh?","Zeitmodi":[{"Präteritum":"Er tat weh.","Beispiel":"Er tat sich weh."},{"Perfekt":"Er hat weh getan.","Beispiel":"Er hat sich weh getan."},{"Futur_I":"Er wird weh tun.","Beispiel":"Er wird sich weh tun."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"weh tun","Person":"Wir","Filename":"886","Sound_de":"Wir tun weh.","fa":"ما درد می‌کنیم / آسیب می‌زنیم.","Beispiel":"Wir tun uns weh.","Negativ":"Wir tun nicht weh.","Beispiel_Negativ":"Wir tun uns nicht weh.","fragend":"Tun wir weh?","Beispiel_fragend":"Tun wir uns weh?","Zeitmodi":[{"Präteritum":"Wir taten weh.","Beispiel":"Wir taten uns weh."},{"Perfekt":"Wir haben weh getan.","Beispiel":"Wir haben uns weh getan."},{"Futur_I":"Wir werden weh tun.","Beispiel":"Wir werden uns weh tun."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"weh tun","Person":"Ihr","Filename":"887","Sound_de":"Ihr tut weh.","fa":"شما (جمع) درد می‌کنید / آسیب می‌زنید.","Beispiel":"Ihr tut euch weh.","Negativ":"Ihr tut nicht weh.","Beispiel_Negativ":"Ihr tut euch nicht weh.","fragend":"Tut ihr weh?","Beispiel_fragend":"Tut ihr euch weh?","Zeitmodi":[{"Präteritum":"Ihr tatet weh.","Beispiel":"Ihr tatet euch weh."},{"Perfekt":"Ihr habt weh getan.","Beispiel":"Ihr habt euch weh getan."},{"Futur_I":"Ihr werdet weh tun.","Beispiel":"Ihr werdet euch weh tun."},{"Imperativ":"Tut weh!","Beispiel":"Tut euch nicht weh!"}]},
+  {"Verb":"weh tun","Person":"Sie/sie","Filename":"888","Sound_de":"Sie tun weh.","fa":"آنها / شما (رسمی) درد می‌کنند / آسیب می‌زنند.","Beispiel":"Sie tun sich weh.","Negativ":"Sie tun nicht weh.","Beispiel_Negativ":"Sie tun sich nicht weh.","fragend":"Tun Sie weh?","Beispiel_fragend":"Tun Sie sich weh?","Zeitmodi":[{"Präteritum":"Sie taten weh.","Beispiel":"Sie taten sich weh."},{"Perfekt":"Sie haben weh getan.","Beispiel":"Sie haben sich weh getan."},{"Futur_I":"Sie werden weh tun.","Beispiel":"Sie werden sich weh tun."},{"Imperativ":"Tun Sie weh!","Beispiel":"Tun Sie sich nicht weh!"}]},
+
+  {"Verb":"wiederholen","Person":"Ich","Filename":"889","Sound_de":"Ich wiederhole.","fa":"من تکرار می‌کنم.","Beispiel":"Ich wiederhole die Wörter.","Negativ":"Ich wiederhole nicht.","Beispiel_Negativ":"Ich wiederhole die Wörter nicht.","fragend":"Wiederhole ich?","Beispiel_fragend":"Wiederhole ich die Wörter?","Zeitmodi":[{"Präteritum":"Ich wiederholte.","Beispiel":"Ich wiederholte die Wörter."},{"Perfekt":"Ich habe wiederholt.","Beispiel":"Ich habe die Wörter wiederholt."},{"Futur_I":"Ich werde wiederholen.","Beispiel":"Ich werde die Wörter wiederholen."},{"Imperativ":"Wiederhole!","Beispiel":"Wiederhole die Wörter!"}]},
+  {"Verb":"wiederholen","Person":"Du","Filename":"890","Sound_de":"Du wiederholst.","fa":"تو تکرار می‌کنی.","Beispiel":"Du wiederholst die Wörter.","Negativ":"Du wiederholst nicht.","Beispiel_Negativ":"Du wiederholst die Wörter nicht.","fragend":"Wiederholst du?","Beispiel_fragend":"Wiederholst du die Wörter?","Zeitmodi":[{"Präteritum":"Du wiederholtest.","Beispiel":"Du wiederholtest die Wörter."},{"Perfekt":"Du hast wiederholt.","Beispiel":"Du hast die Wörter wiederholt."},{"Futur_I":"Du wirst wiederholen.","Beispiel":"Du wirst die Wörter wiederholen."},{"Imperativ":"Wiederhole!","Beispiel":"Wiederhole die Wörter!"}]},
+  {"Verb":"wiederholen","Person":"Er/Sie/Es","Filename":"891","Sound_de":"Er wiederholt.","fa":"او تکرار می‌کند.","Beispiel":"Er wiederholt die Wörter.","Negativ":"Er wiederholt nicht.","Beispiel_Negativ":"Er wiederholt die Wörter nicht.","fragend":"Wiederholt er?","Beispiel_fragend":"Wiederholt er die Wörter?","Zeitmodi":[{"Präteritum":"Er wiederholte.","Beispiel":"Er wiederholte die Wörter."},{"Perfekt":"Er hat wiederholt.","Beispiel":"Er hat die Wörter wiederholt."},{"Futur_I":"Er wird wiederholen.","Beispiel":"Er wird die Wörter wiederholen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wiederholen","Person":"Wir","Filename":"892","Sound_de":"Wir wiederholen.","fa":"ما تکرار می‌کنیم.","Beispiel":"Wir wiederholen die Wörter.","Negativ":"Wir wiederholen nicht.","Beispiel_Negativ":"Wir wiederholen die Wörter nicht.","fragend":"Wiederholen wir?","Beispiel_fragend":"Wiederholen wir die Wörter?","Zeitmodi":[{"Präteritum":"Wir wiederholten.","Beispiel":"Wir wiederholten die Wörter."},{"Perfekt":"Wir haben wiederholt.","Beispiel":"Wir haben die Wörter wiederholt."},{"Futur_I":"Wir werden wiederholen.","Beispiel":"Wir werden die Wörter wiederholen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wiederholen","Person":"Ihr","Filename":"893","Sound_de":"Ihr wiederholt.","fa":"شما (جمع) تکرار می‌کنید.","Beispiel":"Ihr wiederholt die Wörter.","Negativ":"Ihr wiederholt nicht.","Beispiel_Negativ":"Ihr wiederholt die Wörter nicht.","fragend":"Wiederholt ihr?","Beispiel_fragend":"Wiederholt ihr die Wörter?","Zeitmodi":[{"Präteritum":"Ihr wiederholtet.","Beispiel":"Ihr wiederholtet die Wörter."},{"Perfekt":"Ihr habt wiederholt.","Beispiel":"Ihr habt die Wörter wiederholt."},{"Futur_I":"Ihr werdet wiederholen.","Beispiel":"Ihr werdet die Wörter wiederholen."},{"Imperativ":"Wiederholt!","Beispiel":"Wiederholt die Wörter!"}]},
+  {"Verb":"wiederholen","Person":"Sie/sie","Filename":"894","Sound_de":"Sie wiederholen.","fa":"آنها / شما (رسمی) تکرار می‌کنند.","Beispiel":"Sie wiederholen die Wörter.","Negativ":"Sie wiederholen nicht.","Beispiel_Negativ":"Sie wiederholen die Wörter nicht.","fragend":"Wiederholen Sie?","Beispiel_fragend":"Wiederholen Sie die Wörter?","Zeitmodi":[{"Präteritum":"Sie wiederholten.","Beispiel":"Sie wiederholten die Wörter."},{"Perfekt":"Sie haben wiederholt.","Beispiel":"Sie haben die Wörter wiederholt."},{"Futur_I":"Sie werden wiederholen.","Beispiel":"Sie werden die Wörter wiederholen."},{"Imperativ":"Wiederholen Sie!","Beispiel":"Wiederholen Sie die Wörter!"}]},
+
+  {"Verb":"wissen","Person":"Ich","Filename":"895","Sound_de":"Ich weiß.","fa":"من می‌دانم.","Beispiel":"Ich weiß die Antwort.","Negativ":"Ich weiß nicht.","Beispiel_Negativ":"Ich weiß die Antwort nicht.","fragend":"Weiß ich?","Beispiel_fragend":"Weiß ich die Antwort?","Zeitmodi":[{"Präteritum":"Ich wusste.","Beispiel":"Ich wusste die Antwort."},{"Perfekt":"Ich habe gewusst.","Beispiel":"Ich habe die Antwort gewusst."},{"Futur_I":"Ich werde wissen.","Beispiel":"Ich werde die Antwort wissen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wissen","Person":"Du","Filename":"896","Sound_de":"Du weißt.","fa":"تو می‌دانی.","Beispiel":"Du weißt die Antwort.","Negativ":"Du weißt nicht.","Beispiel_Negativ":"Du weißt die Antwort nicht.","fragend":"Weißt du?","Beispiel_fragend":"Weißt du die Antwort?","Zeitmodi":[{"Präteritum":"Du wusstest.","Beispiel":"Du wusstest die Antwort."},{"Perfekt":"Du hast gewusst.","Beispiel":"Du hast die Antwort gewusst."},{"Futur_I":"Du wirst wissen.","Beispiel":"Du wirst die Antwort wissen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wissen","Person":"Er/Sie/Es","Filename":"897","Sound_de":"Er weiß.","fa":"او می‌داند.","Beispiel":"Er weiß die Antwort.","Negativ":"Er weiß nicht.","Beispiel_Negativ":"Er weiß die Antwort nicht.","fragend":"Weiß er?","Beispiel_fragend":"Weiß er die Antwort?","Zeitmodi":[{"Präteritum":"Er wusste.","Beispiel":"Er wusste die Antwort."},{"Perfekt":"Er hat gewusst.","Beispiel":"Er hat die Antwort gewusst."},{"Futur_I":"Er wird wissen.","Beispiel":"Er wird die Antwort wissen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wissen","Person":"Wir","Filename":"898","Sound_de":"Wir wissen.","fa":"ما می‌دانیم.","Beispiel":"Wir wissen die Antwort.","Negativ":"Wir wissen nicht.","Beispiel_Negativ":"Wir wissen die Antwort nicht.","fragend":"Wissen wir?","Beispiel_fragend":"Wissen wir die Antwort?","Zeitmodi":[{"Präteritum":"Wir wussten.","Beispiel":"Wir wussten die Antwort."},{"Perfekt":"Wir haben gewusst.","Beispiel":"Wir haben die Antwort gewusst."},{"Futur_I":"Wir werden wissen.","Beispiel":"Wir werden die Antwort wissen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wissen","Person":"Ihr","Filename":"899","Sound_de":"Ihr wisst.","fa":"شما (جمع) می‌دانید.","Beispiel":"Ihr wisst die Antwort.","Negativ":"Ihr wisst nicht.","Beispiel_Negativ":"Ihr wisst die Antwort nicht.","fragend":"Wisst ihr?","Beispiel_fragend":"Wisst ihr die Antwort?","Zeitmodi":[{"Präteritum":"Ihr wusstet.","Beispiel":"Ihr wusstet die Antwort."},{"Perfekt":"Ihr habt gewusst.","Beispiel":"Ihr habt die Antwort gewusst."},{"Futur_I":"Ihr werdet wissen.","Beispiel":"Ihr werdet die Antwort wissen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wissen","Person":"Sie/sie","Filename":"900","Sound_de":"Sie wissen.","fa":"آنها / شما (رسمی) می‌دانند.","Beispiel":"Sie wissen die Antwort.","Negativ":"Sie wissen nicht.","Beispiel_Negativ":"Sie wissen die Antwort nicht.","fragend":"Wissen Sie?","Beispiel_fragend":"Wissen Sie die Antwort?","Zeitmodi":[{"Präteritum":"Sie wussten.","Beispiel":"Sie wussten die Antwort."},{"Perfekt":"Sie haben gewusst.","Beispiel":"Sie haben die Antwort gewusst."},{"Futur_I":"Sie werden wissen.","Beispiel":"Sie werden die Antwort wissen."},{"Imperativ":"-","Beispiel":"-"}]},
+
+  {"Verb":"wohnen","Person":"Ich","Filename":"901","Sound_de":"Ich wohne.","fa":"من زندگی می‌کنم / ساکن هستم.","Beispiel":"Ich wohne in Berlin.","Negativ":"Ich wohne nicht.","Beispiel_Negativ":"Ich wohne nicht in Berlin.","fragend":"Wohne ich?","Beispiel_fragend":"Wohne ich in Berlin?","Zeitmodi":[{"Präteritum":"Ich wohnte.","Beispiel":"Ich wohnte in Berlin."},{"Perfekt":"Ich habe gewohnt.","Beispiel":"Ich habe in Berlin gewohnt."},{"Futur_I":"Ich werde wohnen.","Beispiel":"Ich werde in Berlin wohnen."},{"Imperativ":"Wohne!","Beispiel":"Wohne in Berlin!"}]},
+  {"Verb":"wohnen","Person":"Du","Filename":"902","Sound_de":"Du wohnst.","fa":"تو زندگی می‌کنی / ساکن هستی.","Beispiel":"Du wohnst in Berlin.","Negativ":"Du wohnst nicht.","Beispiel_Negativ":"Du wohnst nicht in Berlin.","fragend":"Wohnst du?","Beispiel_fragend":"Wohnst du in Berlin?","Zeitmodi":[{"Präteritum":"Du wohntest.","Beispiel":"Du wohntest in Berlin."},{"Perfekt":"Du hast gewohnt.","Beispiel":"Du hast in Berlin gewohnt."},{"Futur_I":"Du wirst wohnen.","Beispiel":"Du wirst in Berlin wohnen."},{"Imperativ":"Wohne!","Beispiel":"Wohne in Berlin!"}]},
+  {"Verb":"wohnen","Person":"Er/Sie/Es","Filename":"903","Sound_de":"Er wohnt.","fa":"او زندگی می‌کند / ساکن است.","Beispiel":"Er wohnt in Berlin.","Negativ":"Er wohnt nicht.","Beispiel_Negativ":"Er wohnt nicht in Berlin.","fragend":"Wohnt er?","Beispiel_fragend":"Wohnt er in Berlin?","Zeitmodi":[{"Präteritum":"Er wohnte.","Beispiel":"Er wohnte in Berlin."},{"Perfekt":"Er hat gewohnt.","Beispiel":"Er hat in Berlin gewohnt."},{"Futur_I":"Er wird wohnen.","Beispiel":"Er wird in Berlin wohnen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wohnen","Person":"Wir","Filename":"904","Sound_de":"Wir wohnen.","fa":"ما زندگی می‌کنیم / ساکن هستیم.","Beispiel":"Wir wohnen in Berlin.","Negativ":"Wir wohnen nicht.","Beispiel_Negativ":"Wir wohnen nicht in Berlin.","fragend":"Wohnen wir?","Beispiel_fragend":"Wohnen wir in Berlin?","Zeitmodi":[{"Präteritum":"Wir wohnten.","Beispiel":"Wir wohnten in Berlin."},{"Perfekt":"Wir haben gewohnt.","Beispiel":"Wir haben in Berlin gewohnt."},{"Futur_I":"Wir werden wohnen.","Beispiel":"Wir werden in Berlin wohnen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wohnen","Person":"Ihr","Filename":"905","Sound_de":"Ihr wohnt.","fa":"شما (جمع) زندگی می‌کنید / ساکن هستید.","Beispiel":"Ihr wohnt in Berlin.","Negativ":"Ihr wohnt nicht.","Beispiel_Negativ":"Ihr wohnt nicht in Berlin.","fragend":"Wohnt ihr?","Beispiel_fragend":"Wohnt ihr in Berlin?","Zeitmodi":[{"Präteritum":"Ihr wohntet.","Beispiel":"Ihr wohntet in Berlin."},{"Perfekt":"Ihr habt gewohnt.","Beispiel":"Ihr habt in Berlin gewohnt."},{"Futur_I":"Ihr werdet wohnen.","Beispiel":"Ihr werdet in Berlin wohnen."},{"Imperativ":"Wohnt!","Beispiel":"Wohnt in Berlin!"}]},
+  {"Verb":"wohnen","Person":"Sie/sie","Filename":"906","Sound_de":"Sie wohnen.","fa":"آنها / شما (رسمی) زندگی می‌کنند / ساکن هستند.","Beispiel":"Sie wohnen in Berlin.","Negativ":"Sie wohnen nicht.","Beispiel_Negativ":"Sie wohnen nicht in Berlin.","fragend":"Wohnen Sie?","Beispiel_fragend":"Wohnen Sie in Berlin?","Zeitmodi":[{"Präteritum":"Sie wohnten.","Beispiel":"Sie wohnten in Berlin."},{"Perfekt":"Sie haben gewohnt.","Beispiel":"Sie haben in Berlin gewohnt."},{"Futur_I":"Sie werden wohnen.","Beispiel":"Sie werden in Berlin wohnen."},{"Imperativ":"Wohnen Sie!","Beispiel":"Wohnen Sie in Berlin!"}]},
+
+  {"Verb":"wollen","Person":"Ich","Filename":"907","Sound_de":"Ich will.","fa":"من می‌خواهم.","Beispiel":"Ich will lernen.","Negativ":"Ich will nicht.","Beispiel_Negativ":"Ich will nicht lernen.","fragend":"Will ich?","Beispiel_fragend":"Will ich lernen?","Zeitmodi":[{"Präteritum":"Ich wollte.","Beispiel":"Ich wollte lernen."},{"Perfekt":"Ich habe gewollt.","Beispiel":"Ich habe lernen gewollt."},{"Futur_I":"Ich werde wollen.","Beispiel":"Ich werde lernen wollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wollen","Person":"Du","Filename":"908","Sound_de":"Du willst.","fa":"تو می‌خواهی.","Beispiel":"Du willst lernen.","Negativ":"Du willst nicht.","Beispiel_Negativ":"Du willst nicht lernen.","fragend":"Willst du?","Beispiel_fragend":"Willst du lernen?","Zeitmodi":[{"Präteritum":"Du wolltest.","Beispiel":"Du wolltest lernen."},{"Perfekt":"Du hast gewollt.","Beispiel":"Du hast lernen gewollt."},{"Futur_I":"Du wirst wollen.","Beispiel":"Du wirst lernen wollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wollen","Person":"Er/Sie/Es","Filename":"909","Sound_de":"Er will.","fa":"او می‌خواهد.","Beispiel":"Er will lernen.","Negativ":"Er will nicht.","Beispiel_Negativ":"Er will nicht lernen.","fragend":"Will er?","Beispiel_fragend":"Will er lernen?","Zeitmodi":[{"Präteritum":"Er wollte.","Beispiel":"Er wollte lernen."},{"Perfekt":"Er hat gewollt.","Beispiel":"Er hat lernen gewollt."},{"Futur_I":"Er wird wollen.","Beispiel":"Er wird lernen wollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wollen","Person":"Wir","Filename":"910","Sound_de":"Wir wollen.","fa":"ما می‌خواهیم.","Beispiel":"Wir wollen lernen.","Negativ":"Wir wollen nicht.","Beispiel_Negativ":"Wir wollen nicht lernen.","fragend":"Wollen wir?","Beispiel_fragend":"Wollen wir lernen?","Zeitmodi":[{"Präteritum":"Wir wollten.","Beispiel":"Wir wollten lernen."},{"Perfekt":"Wir haben gewollt.","Beispiel":"Wir haben lernen gewollt."},{"Futur_I":"Wir werden wollen.","Beispiel":"Wir werden lernen wollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wollen","Person":"Ihr","Filename":"911","Sound_de":"Ihr wollt.","fa":"شما (جمع) می‌خواهید.","Beispiel":"Ihr wollt lernen.","Negativ":"Ihr wollt nicht.","Beispiel_Negativ":"Ihr wollt nicht lernen.","fragend":"Wollt ihr?","Beispiel_fragend":"Wollt ihr lernen?","Zeitmodi":[{"Präteritum":"Ihr wolltet.","Beispiel":"Ihr wolltet lernen."},{"Perfekt":"Ihr habt gewollt.","Beispiel":"Ihr habt lernen gewollt."},{"Futur_I":"Ihr werdet wollen.","Beispiel":"Ihr werdet lernen wollen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"wollen","Person":"Sie/sie","Filename":"912","Sound_de":"Sie wollen.","fa":"آنها / شما (رسمی) می‌خواهند.","Beispiel":"Sie wollen lernen.","Negativ":"Sie wollen nicht.","Beispiel_Negativ":"Sie wollen nicht lernen.","fragend":"Wollen Sie?","Beispiel_fragend":"Wollen Sie lernen?","Zeitmodi":[{"Präteritum":"Sie wollten.","Beispiel":"Sie wollten lernen."},{"Perfekt":"Sie haben gewollt.","Beispiel":"Sie haben lernen gewollt."},{"Futur_I":"Sie werden wollen.","Beispiel":"Sie werden lernen wollen."},{"Imperativ":"-","Beispiel":"-"}]},
+
+  {"Verb":"zahlen","Person":"Ich","Filename":"913","Sound_de":"Ich zahle.","fa":"من پرداخت می‌کنم.","Beispiel":"Ich zahle die Rechnung.","Negativ":"Ich zahle nicht.","Beispiel_Negativ":"Ich zahle die Rechnung nicht.","fragend":"Zahle ich?","Beispiel_fragend":"Zahle ich die Rechnung?","Zeitmodi":[{"Präteritum":"Ich zahlte.","Beispiel":"Ich zahlte die Rechnung."},{"Perfekt":"Ich habe gezahlt.","Beispiel":"Ich habe die Rechnung gezahlt."},{"Futur_I":"Ich werde zahlen.","Beispiel":"Ich werde die Rechnung zahlen."},{"Imperativ":"Zahle!","Beispiel":"Zahle die Rechnung!"}]},
+  {"Verb":"zahlen","Person":"Du","Filename":"914","Sound_de":"Du zahlst.","fa":"تو پرداخت می‌کنی.","Beispiel":"Du zahlst die Rechnung.","Negativ":"Du zahlst nicht.","Beispiel_Negativ":"Du zahlst die Rechnung nicht.","fragend":"Zahlst du?","Beispiel_fragend":"Zahlst du die Rechnung?","Zeitmodi":[{"Präteritum":"Du zahltest.","Beispiel":"Du zahltest die Rechnung."},{"Perfekt":"Du hast gezahlt.","Beispiel":"Du hast die Rechnung gezahlt."},{"Futur_I":"Du wirst zahlen.","Beispiel":"Du wirst die Rechnung zahlen."},{"Imperativ":"Zahle!","Beispiel":"Zahle die Rechnung!"}]},
+  {"Verb":"zahlen","Person":"Er/Sie/Es","Filename":"915","Sound_de":"Er zahlt.","fa":"او پرداخت می‌کند.","Beispiel":"Er zahlt die Rechnung.","Negativ":"Er zahlt nicht.","Beispiel_Negativ":"Er zahlt die Rechnung nicht.","fragend":"Zahlt er?","Beispiel_fragend":"Zahlt er die Rechnung?","Zeitmodi":[{"Präteritum":"Er zahlte.","Beispiel":"Er zahlte die Rechnung."},{"Perfekt":"Er hat gezahlt.","Beispiel":"Er hat die Rechnung gezahlt."},{"Futur_I":"Er wird zahlen.","Beispiel":"Er wird die Rechnung zahlen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"zahlen","Person":"Wir","Filename":"916","Sound_de":"Wir zahlen.","fa":"ما پرداخت می‌کنیم.","Beispiel":"Wir zahlen die Rechnung.","Negativ":"Wir zahlen nicht.","Beispiel_Negativ":"Wir zahlen die Rechnung nicht.","fragend":"Zahlen wir?","Beispiel_fragend":"Zahlen wir die Rechnung?","Zeitmodi":[{"Präteritum":"Wir zahlten.","Beispiel":"Wir zahlten die Rechnung."},{"Perfekt":"Wir haben gezahlt.","Beispiel":"Wir haben die Rechnung gezahlt."},{"Futur_I":"Wir werden zahlen.","Beispiel":"Wir werden die Rechnung zahlen."},{"Imperativ":"-","Beispiel":"-"}]},
+  {"Verb":"zahlen","Person":"Ihr","Filename":"917","Sound_de":"Ihr zahlt.","fa":"شما (جمع) پرداخت می‌کنید.","Beispiel":"Ihr zahlt die Rechnung.","Negativ":"Ihr zahlt nicht.","Beispiel_Negativ":"Ihr zahlt die Rechnung nicht.","fragend":"Zahlt ihr?","Beispiel_fragend":"Zahlt ihr die Rechnung?","Zeitmodi":[{"Präteritum":"Ihr zahltet.","Beispiel":"Ihr zahltet die Rechnung."},{"Perfekt":"Ihr habt gezahlt.","Beispiel":"Ihr habt die Rechnung gezahlt."},{"Futur_I":"Ihr werdet zahlen.","Beispiel":"Ihr werdet die Rechnung zahlen."},{"Imperativ":"Zahlt!","Beispiel":"Zahlt die Rechnung!"}]},
+  {"Verb":"zahlen","Person":"Sie/sie","Filename":"918","Sound_de":"Sie zahlen.","fa":"آنها / شما (رسمی) پرداخت می‌کنند.","Beispiel":"Sie zahlen die Rechnung.","Negativ":"Sie zahlen nicht.","Beispiel_Negativ":"Sie zahlen die Rechnung nicht.","fragend":"Zahlen Sie?","Beispiel_fragend":"Zahlen Sie die Rechnung?","Zeitmodi":[{"Präteritum":"Sie zahlten.","Beispiel":"Sie zahlten die Rechnung."},{"Perfekt":"Sie haben gezahlt.","Beispiel":"Sie haben die Rechnung gezahlt."},{"Futur_I":"Sie werden zahlen.","Beispiel":"Sie werden die Rechnung zahlen."},{"Imperativ":"Zahlen Sie!","Beispiel":"Zahlen Sie die Rechnung!"}]}
+
+
+
+
 ]

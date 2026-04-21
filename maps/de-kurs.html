@@ -240,24 +240,28 @@
         background: var(--primary-dark);
       }
 
-      #prev-next {
+     #prev-next {
         position: fixed;
-        bottom: 60px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 20px; /* فاصله از لبه چپ */
+        top: 70%;
+        transform: translateY(-50%);
         z-index: 9999;
         display: none;
-        gap: 1.2rem;
+        flex-direction: column; /* عمودی */
+        gap: 1rem; /* فاصله بین دو دکمه */
+        align-items: flex-start;
       }
+
       #prev-next button {
-        padding: 0.8rem 2.2rem;
-        font-size: 1.05rem;
-        font-weight: 600;
+        padding: 2.5rem 0rem;
+        font-size: 0.8rem;
+        /* font-weight: 600; */
         border: none;
         border-radius: var(--radius-md);
         color: white;
-        min-width: 130px;
+        min-width: 30px;
         cursor: pointer;
+        box-shadow: var(--shadow-md);
       }
       #prev-btn {
         background: #6c5d8f;
@@ -359,13 +363,14 @@
           max-width: 92vw !important;
           min-width: 260px !important;
         }
-        #prev-next {
-          bottom: 70px;
-          gap: 0.9rem;
+      #prev-next {
+          left: 12px;           /* نزدیک‌تر به لبه برای انگشت شست */
+          gap: 0.85rem;
         }
         #prev-next button {
-          padding: 0.7rem 1.6rem;
-          min-width: 110px;
+          padding: 2.5rem 0rem;
+          min-width: 30px;
+          font-size: 0.8rem;
         }
       }
     </style>
@@ -388,8 +393,8 @@
     </div>
 
     <div id="prev-next">
-      <button id="prev-btn" onclick="showPrevious()">Vorheriger</button>
-      <button id="next-btn" onclick="showNext()">Nächster</button>
+      <button id="prev-btn" onclick="showPrevious()"> </button>
+      <button id="next-btn" onclick="showNext()"> </button>
     </div>
 
     <div id="progress-cylinder">

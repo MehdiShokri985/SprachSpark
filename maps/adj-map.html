@@ -285,22 +285,26 @@
 
       #prev-next {
         position: fixed;
-        bottom: 60px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 20px; /* فاصله از لبه چپ */
+        top: 70%;
+        transform: translateY(-50%);
         z-index: 9999;
         display: none;
-        gap: 1.2rem;
+        flex-direction: column; /* عمودی */
+        gap: 1rem; /* فاصله بین دو دکمه */
+        align-items: flex-start;
       }
+
       #prev-next button {
-        padding: 0.8rem 2.2rem;
-        font-size: 1.05rem;
-        font-weight: 600;
+        padding: 2.5rem 0rem;
+        font-size: 0.8rem;
+        /* font-weight: 600; */
         border: none;
         border-radius: var(--radius-md);
         color: white;
-        min-width: 130px;
+        min-width: 30px;
         cursor: pointer;
+        box-shadow: var(--shadow-md);
       }
       #prev-btn {
         background: #6c5d8f;
@@ -373,7 +377,7 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
       }
 
-        /* ================ دکمه شناور ترجمه (جدید) ================ */
+      /* ================ دکمه شناور ترجمه (جدید) ================ */
       #float-translate-btn {
         position: fixed;
         display: none;
@@ -403,12 +407,13 @@
           min-width: 260px !important;
         }
         #prev-next {
-          bottom: 70px;
-          gap: 0.9rem;
+          left: 12px;           /* نزدیک‌تر به لبه برای انگشت شست */
+          gap: 0.85rem;
         }
         #prev-next button {
-          padding: 0.7rem 1.6rem;
-          min-width: 110px;
+          padding: 2.5rem 0rem;
+          min-width: 30px;
+          font-size: 0.8rem;
         }
       }
     </style>
@@ -431,8 +436,8 @@
     </div>
 
     <div id="prev-next">
-      <button id="prev-btn" onclick="showPrevious()">Vorheriger</button>
-      <button id="next-btn" onclick="showNext()">Nächster</button>
+      <button id="prev-btn" onclick="showPrevious()"> </button>
+      <button id="next-btn" onclick="showNext()"> </button>
     </div>
 
     <div id="progress-cylinder">
@@ -440,10 +445,8 @@
       <div class="cylinder"><div id="progress-fill"></div></div>
       <div id="progress-counter">0</div>
     </div>
- <!-- دکمه شناور ترجمه (جدید - بدون تغییر در بقیه المان‌ها) -->
-    <div id="float-translate-btn" title="ترجمه با گوگل">
-      🌐
-    </div>
+    <!-- دکمه شناور ترجمه (جدید - بدون تغییر در بقیه المان‌ها) -->
+    <div id="float-translate-btn" title="ترجمه با گوگل">🌐</div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
       const ADJECTIVES_PER_CITY = 6;
@@ -716,12 +719,6 @@
         showSentence(globalIndex, true);
       };
 
-
-      
-
-
-
-
       // بارگذاری داده‌ها
       fetch("../json/cities.json")
         .then((res) => res.json())
@@ -754,15 +751,14 @@
           alert("Fehler beim Laden der JSON-Dateien");
         });
 
-
-              /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
+      /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
       let translateBtn = null;
       let hideTimeout = null;
 
       function showTranslateButton() {
         const selection = window.getSelection();
         const selectedText = selection.toString().trim();
-        
+
         if (selectedText.length === 0) {
           hideTranslateButton();
           return;
@@ -813,13 +809,14 @@
 
         if (hideTimeout) clearTimeout(hideTimeout);
         hideTimeout = setTimeout(() => {
-          if (window.getSelection().toString().trim() === "") hideTranslateButton();
+          if (window.getSelection().toString().trim() === "")
+            hideTranslateButton();
         }, 8000);
       }
 
       function hideTranslateButton() {
         if (translateBtn) translateBtn.style.display = "none";
-        currentSelectedText = "";               // پاک کردن متن ذخیره‌شده
+        currentSelectedText = ""; // پاک کردن متن ذخیره‌شده
         if (hideTimeout) {
           clearTimeout(hideTimeout);
           hideTimeout = null;
@@ -829,24 +826,24 @@
       // فعال‌سازی در همه جا
       document.addEventListener("mouseup", showTranslateButton);
       document.addEventListener("touchend", showTranslateButton);
-      
+
       document.addEventListener("selectionchange", () => {
-        if (window.getSelection().toString().trim() === "") hideTranslateButton();
+        if (window.getSelection().toString().trim() === "")
+          hideTranslateButton();
       });
 
       document.addEventListener("mousedown", (e) => {
-        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+        if (translateBtn && !translateBtn.contains(e.target))
+          hideTranslateButton();
       });
       document.addEventListener("touchstart", (e) => {
-        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+        if (translateBtn && !translateBtn.contains(e.target))
+          hideTranslateButton();
       });
 
       // مخفی کردن هنگام حرکت نقشه
       map.on("zoomstart", hideTranslateButton);
       map.on("movestart", hideTranslateButton);
-
-
-
     </script>
   </body>
 </html>

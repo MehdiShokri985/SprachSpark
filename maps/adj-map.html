@@ -194,9 +194,14 @@
         }
       }
 
-      function createTranslateLink(text) {
+      function createTranslateLink1(text) {
         if (!text || text === "—") return "#";
         return `https://www.verbformen.de/deklination/adjektive/${encodeURIComponent(text.trim())}.htm#google_vignette`;
+      }
+
+     function createTranslateLink(text) {
+        if (!text || text === "—") return "#";
+        return `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(text.trim())}&op=translate`;
       }
 
       function createPopupHTML(item, cityName) {
@@ -210,7 +215,7 @@
             <div class="verb-section" style="margin: 12px 0 8px;">
               <div class="titleid">${item.title_id}</div>
               <div class="verb">
-                <a href="${createTranslateLink(item.adjective)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.adjective}</a>
+                <a href="${createTranslateLink1(item.adjective)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.adjective}</a>
               </div>
               <div class="person">${item.translation_fa}</div>
             </div>

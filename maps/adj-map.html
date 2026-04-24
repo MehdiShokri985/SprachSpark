@@ -2,27 +2,17 @@
 <html lang="fa" dir="rtl">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Adjective Map</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
     <style>
       :root {
         --primary: #1e40af;
         --primary-dark: #1e3a8a;
-        --success: #a596ff;
         --gray-100: #f8fafc;
         --gray-200: #e2e8f0;
         --gray-600: #64748b;
@@ -30,10 +20,8 @@
         --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
         --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
         --radius-md: 12px;
-        --radius-lg: 16px;
       }
-      html,
-      body {
+      html, body {
         margin: 0;
         padding: 0;
         height: 100%;
@@ -62,20 +50,6 @@
         overflow-y: auto !important;
       }
 
-      .leaflet-popup-close-button {
-        font-size: 1.5rem !important;
-        color: var(--gray-600) !important;
-        background: white !important;
-        border-radius: 50% !important;
-        width: 32px !important;
-        height: 32px !important;
-        line-height: 32px !important;
-        box-shadow: var(--shadow-sm) !important;
-        right: 12px !important;
-        top: 12px !important;
-        display: none;
-      }
-
       .popup {
         direction: ltr;
         text-align: left;
@@ -86,296 +60,57 @@
         line-height: 1.55;
       }
 
-      .header-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 0.2rem;
-        border-bottom: 1px solid var(--gray-200);
-      }
-      .city-name {
-        font-size: 1.12rem;
-        color: var(--gray-800);
-        font-weight: 600;
-        padding-right: 20px;
-      }
-      .number {
-        font-size: 1rem;
-        font-weight: 700;
-        color: var(--primary);
-        background: var(--gray-100);
-        padding: 0.25rem 0.7rem;
-        border-radius: 999px;
-      }
-
-      .titleid {
-        font-size: 0.8rem;
-        /* font-weight: 700; */
-        color: #af1e1e;
-        background: #f4f8fc;
-        padding: 0.1rem 0.2rem;
-        border-radius: 5px;
-        text-align: right;
-      }
-
-      .verb-section {
-        text-align: center;
-      }
-
-      .verb {
-        font-size: 1.3rem;
-        color: #5200c6;
-        direction: ltr;
-        margin-bottom: 0.2rem;
-        text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4);
-        text-align: left;
-        padding-left: 5px;
-      }
-      .person {
-        font-size: 1rem;
-        color: #585759;
-        /* font-weight: 600; */
-        text-align: right;
-        padding-right: 5px;
-      }
-
-      .de {
-        font-weight: 700;
-        font-size: 0.9rem;
-        direction: ltr;
-        text-align: left;
-        color: #1e293b;
-      }
-      .fa {
-        color: #334155;
-        font-size: 0.88rem;
-        line-height: 1.5;
-      }
-
-      .grammar-section {
-        margin: 0.1rem 0;
-        padding: 5px 10px;
-        background: var(--gray-100);
-        border-radius: var(--radius-md);
-        border: 1px solid var(--gray-200);
-      }
-
-      .grammar-title {
-        font-size: 0.7rem;
-        font-weight: 700;
-        color: #0788b1;
-      }
-      .example {
-        font-size: 0.75rem;
-        color: #334155;
+      /* ==================== استایل مارکر جدید ==================== */
+      .custom-adjective-marker {
         background: white;
-        padding: 0px 3px;
-        border-radius: 8px;
-        direction: ltr;
-        text-align: left;
-      }
-
-      .zeit-item {
-        background: #e8f1fc;
-        padding: 3px 10px;
-        border-radius: var(--radius-md);
-        border: 1px solid var(--gray-200);
-        font-size: 0.8rem;
-        margin-bottom: 2px;
-      }
-      .zeit-label {
-        font-size: 0.72rem;
-        color: var(--success);
+        color: #1e40af;
+        font-size: 11.5px;
         font-weight: 600;
-        display: block;
-      }
-
-      .zeit-main {
-        font-weight: 600;
-        direction: ltr;
-        text-align: left;
-        margin-bottom: 1px;
-        display: flex;
-        align-items: baseline;
-        gap: 6px;
-      }
-
-      .zeit-example {
-        font-size: 0.75rem;
-        color: #334155;
-        background: #f3f8fd;
-        padding: 0.1rem 0.1rem;
-        border-radius: 6px;
-        direction: ltr;
-        text-align: left;
-      }
-
-      /* ==================== SCROLLBAR STYLING ==================== */
-      /* WebKit (Chrome, Edge, Safari) */
-      ::-webkit-scrollbar {
-        width: 2px !important;
-        height: 2px !important;
-      }
-
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-
-      ::-webkit-scrollbar-thumb {
-        background: #1e40af !important; /* آبی پررنگ دقیقاً مطابق primary */
-        border-radius: 2px;
-      }
-
-      /* Firefox */
-      * {
-        scrollbar-width: thin;
-        scrollbar-color: #1e40af transparent;
-      }
-
-      /* مخصوص popup و بخش‌های اسکرول‌دار داخلی */
-      .leaflet-popup-content::-webkit-scrollbar,
-      .grammar-section > div[style*="overflow-y:auto"]::-webkit-scrollbar {
-        width: 2px !important;
-      }
-
-      #start-modal {
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.7);
-        display: none;
-        align-items: center;
-        justify-content: center;
-        z-index: 10000;
-      }
-      .modal-content {
-        background: white;
-        padding: 0.5rem;
-        border-radius: var(--radius-lg);
-        width: 320px;
-        max-width: 90%;
-        box-shadow: var(--shadow-md);
-        text-align: center;
-      }
-      .modal-content h2 {
-        margin: 0 0 1.2rem;
-        color: var(--gray-800);
-        font-size: 1.4rem;
-        font-weight: 700;
-      }
-      .modal-content input {
-        font-size: 1.3rem;
-        border: 2px solid var(--primary);
-        border-radius: var(--radius-md);
-        text-align: center;
-        padding: 8px;
-      }
-      .modal-content button {
-        margin-top: 1.5rem;
-        padding: 0.5rem 2rem;
-        background: var(--primary);
-        color: white;
-        border: none;
-        border-radius: var(--radius-md);
-        font-size: 1.1rem;
-        cursor: pointer;
-      }
-      .modal-content button:hover {
-        background: var(--primary-dark);
-      }
-
-      #prev-next {
-        position: fixed;
-        left: 20px; /* فاصله از لبه چپ */
-        top: 70%;
-        transform: translateY(-50%);
-        z-index: 9999;
-        display: none;
-        flex-direction: column; /* عمودی */
-        gap: 1rem; /* فاصله بین دو دکمه */
-        align-items: flex-start;
-      }
-
-      #prev-next button {
-        padding: 2.5rem 0rem;
-        font-size: 0.8rem;
-        /* font-weight: 600; */
-        border: none;
-        border-radius: var(--radius-md);
-        color: white;
-        min-width: 30px;
-        cursor: pointer;
-        box-shadow: var(--shadow-md);
-      }
-      #prev-btn {
-        background: #6c5d8f;
-      }
-      #prev-btn:hover {
-        background: #7d6ba7;
-      }
-      #next-btn {
-        background: #43395a;
-      }
-      #next-btn:hover {
-        background: #584c74;
-      }
-
-      #progress-cylinder {
-        position: fixed;
-        right: 5px;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 9998;
+        padding: 4px 8px;
+        border: 1.5px solid #a3a8ea;
+        border-radius: 20px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        white-space: nowrap;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 8px;
-        user-select: none;
-      }
-      .cylinder-label {
-        font-size: 0.85rem;
-        font-weight: 600;
-        color: #64748b;
-        writing-mode: vertical-rl;
-        transform: rotate(180deg);
-      }
-      .cylinder {
-        width: 28px;
-        height: 320px;
-        background: linear-gradient(to bottom, #e2e8f09e, #f1f5f9a8);
-        border: 1px solid #64748b;
-        border-radius: 999px;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-      }
-      #progress-fill {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: linear-gradient(to top, #2fee22, #67f984, #0ee919);
-        transition: height 0.6s ease-in-out;
-      }
-      #progress-counter {
-        font-size: 1rem;
-        color: var(--primary);
-        background: white;
-        padding: 4px 5px;
-        border-radius: 999px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        min-width: 27px;
+        justify-content: center;
+        line-height: 1.2;
+        min-width: 68px;
         text-align: center;
       }
 
-      .custom-popup .leaflet-popup-content-wrapper {
-        border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
+      .marker-id {
+        font-size: 17px;
+        font-weight: 700;
+        color: #1e40af;
       }
 
-      .custom-popup .leaflet-popup-tip {
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      .marker-fa {
+        font-size: 14px;
+        color: #334155;
+        margin-top: 1px;
+        direction: rtl;
       }
+
+      .titleid{
+            text-align: right;
+      }
+
+      /* بقیه استایل‌های قبلی بدون تغییر */
+      .header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.2rem; border-bottom: 1px solid var(--gray-200); }
+      .city-name { font-size: 1.12rem; color: var(--gray-800); font-weight: 600; }
+      .number { font-size: 1rem; font-weight: 700; color: var(--primary); background: var(--gray-100); padding: 0.25rem 0.7rem; border-radius: 999px; }
+
+      .verb { font-size: 1.3rem; color: #5200c6; direction: ltr; text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4); }
+      .person { font-size: 1rem; color: #585759; text-align: right; }
+      .grammar-section { margin: 0.1rem 0; padding: 5px 10px; background: var(--gray-100); border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
+      .grammar-title { font-size: 0.7rem; font-weight: 700; color: #0788b1; }
+      .example { font-size: 0.75rem; color: #334155; background: white; padding: 0px 3px; border-radius: 8px; direction: ltr; text-align: left; }
+
+      ::-webkit-scrollbar { width: 2px !important; height: 2px !important; }
+      ::-webkit-scrollbar-thumb { background: #84e0fa !important; border-radius: 2px; }
+      * { scrollbar-width: thin; scrollbar-color: #84e0fa transparent; }
 
       /* ================ دکمه شناور ترجمه (جدید) ================ */
       #float-translate-btn {
@@ -401,51 +136,13 @@
         background: var(--primary-dark);
       }
 
-      @media (max-width: 480px) {
-        .popup {
-          max-width: 88vw !important;
-          min-width: 260px !important;
-        }
-        #prev-next {
-          left: 12px;           /* نزدیک‌تر به لبه برای انگشت شست */
-          gap: 0.85rem;
-        }
-        #prev-next button {
-          padding: 2.5rem 0rem;
-          min-width: 30px;
-          font-size: 0.8rem;
-        }
-      }
     </style>
   </head>
   <body>
     <div id="map"></div>
 
-    <div id="start-modal">
-      <div class="modal-content">
-        <h2>Adjektivnummer starten</h2>
-        <input
-          id="sentence-input"
-          type="number"
-          min="1"
-          value=""
-          placeholder="nummer"
-        />
-        <button onclick="startApp()">Bestätigen</button>
-      </div>
-    </div>
-
-    <div id="prev-next">
-      <button id="prev-btn" onclick="showPrevious()"> </button>
-      <button id="next-btn" onclick="showNext()"> </button>
-    </div>
-
-    <div id="progress-cylinder">
-      <div class="cylinder-label">Adjektive</div>
-      <div class="cylinder"><div id="progress-fill"></div></div>
-      <div id="progress-counter">0</div>
-    </div>
-    <!-- دکمه شناور ترجمه (جدید - بدون تغییر در بقیه المان‌ها) -->
+    <!-- دکمه شناور ترجمه -->
+  
     <div id="float-translate-btn" title="ترجمه با گوگل">🌐</div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
@@ -454,7 +151,6 @@
       let sortedItems = [];
       let precomputedPositions = [];
       let currentMarkers = new Map();
-      let currentGlobalIndex = -1;
       let pathPolyline = null;
       let fullPathPoints = [];
 
@@ -470,24 +166,18 @@
         attribution: "© Google Maps",
       }).addTo(map);
 
-      function getCustomIcon(id) {
-        const num = String(id || "?").padStart(2, "0");
+      // آیکون جدید: شماره + ترجمه فارسی
+      function getCustomIcon(item) {
         return L.divIcon({
-          className: "custom-number-marker",
-          html: `<div style="background:white;color:#1e40af;font-size:14px;font-weight:700;width:32px;height:32px;border:1.5px solid #a3a8ea;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,0.2);">${num}</div>`,
-          iconSize: [34, 34],
-          iconAnchor: [17, 17],
-          popupAnchor: [0, -15],
+          className: "custom-adjective-marker",
+          html: `
+            <div class="marker-id">${String(item.id)}</div>
+            <div class="marker-fa">${item.translation_fa}</div>
+          `,
+          iconSize: [null, null],
+          iconAnchor: [39, 26],
+          popupAnchor: [0, -28],
         });
-      }
-
-      function updateProgress() {
-        if (!sortedItems.length) return;
-        const percent = ((currentGlobalIndex + 1) / sortedItems.length) * 100;
-        document.getElementById("progress-fill").style.height = percent + "%";
-        document.getElementById("progress-counter").textContent = String(
-          currentGlobalIndex + 1,
-        ).padStart(2, "0");
       }
 
       function updatePath() {
@@ -496,8 +186,8 @@
         } else if (fullPathPoints.length > 1) {
           pathPolyline = L.polyline(fullPathPoints, {
             color: "#6c5d8f",
-            weight: 1,
-            opacity: 0.75,
+            weight: 1.5,
+            opacity: 0.65,
             lineJoin: "round",
             lineCap: "round",
           }).addTo(map);
@@ -509,36 +199,15 @@
         return `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(text.trim())}&op=translate`;
       }
 
-      function showSentence(globalIdx, smooth = true) {
-        if (globalIdx < 0 || globalIdx >= sortedItems.length) return;
-        currentGlobalIndex = globalIdx;
-        const item = sortedItems[globalIdx];
-
-        if (currentMarkers.has(globalIdx)) {
-          const marker = currentMarkers.get(globalIdx);
-          map.flyTo(marker.getLatLng(), 12, { duration: 1 });
-          setTimeout(() => marker.openPopup(), 800);
-          updateProgress();
-          return;
-        }
-
-        const pos = precomputedPositions[globalIdx];
-        if (!pos) return;
-
-        const cityName =
-          allCities[Math.floor(globalIdx / ADJECTIVES_PER_CITY)]?.name ||
-          "نامشخص";
-
-        let popupHTML = `
+      function createPopupHTML(item, cityName) {
+        return `
           <div class="popup">
             <div class="header-row">
               <div class="city-name">${cityName}</div>
               <div class="number">${item.id}</div>
-               
             </div>
 
-            <!-- Adjektiv + ترجمه -->
-            <div class="verb-section">
+            <div class="verb-section" style="margin: 12px 0 8px;">
               <div class="titleid">${item.title_id}</div>
               <div class="verb">
                 <a href="${createTranslateLink(item.adjective)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.adjective}</a>
@@ -546,178 +215,99 @@
               <div class="person">${item.translation_fa}</div>
             </div>
 
-
             <!-- Unbestimmter Artikel (Nominativ) -->
             <div class="grammar-section">
               <div class="grammar-title">Unbestimmter Artikel (Nominativ)</div>
               <div style="font-size:0.85rem; line-height:1.45;">
                 <div><strong style="color:#435bf9">Maskulin:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.maskulin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.maskulin}</a>
-                  </span>
+                  <span class="example"><a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.maskulin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.maskulin}</a></span>
                 </div>
                 <div><strong style="color:#f343f9">Feminin:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.feminin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.feminin}</a>
-                  </span>
+                  <span class="example"><a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.feminin)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.feminin}</a></span>
                 </div>
                 <div><strong style="color:#2bd92f">Neutral:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.neutral)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.neutral}</a>
-                  </span>
+                  <span class="example"><a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.neutral)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.neutral}</a></span>
                 </div>
                 <div><strong style="color:#ff5151">Plural:</strong> 
-                  <span class="example" style="display:inline-block;padding:2px 8px;margin:2px 0;">
-                    <a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.plural)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.plural}</a>
-                  </span>
+                  <span class="example"><a href="${createTranslateLink(item.unbestimmter_artikel.nominativ.plural)}" target="_blank" style="color:inherit;text-decoration:none;">${item.unbestimmter_artikel.nominativ.plural}</a></span>
                 </div>
               </div>
             </div>
 
-            <!-- Akkusativ Beispiele -->
-         
-
-            <!-- Komparativ -->
-            ${
-              item.komparativ
-                ? `
+            ${item.komparativ ? `
             <div class="grammar-section">
               <div class="grammar-title">Komparativ</div>
-              <div class="de">
-                <a href="${createTranslateLink(item.komparativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.komparativ}</a>
-              </div>
-                <div class="grammar-title">Superlativ</div>
-              
-                
-                  <div class="de">
-                   <a href="${createTranslateLink(item.superlativ.praedikativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.superlativ.praedikativ}</a>
-                  </div>
-             </div>
-            </div>`
-                : ""
-            }
+              <div class="de"><a href="${createTranslateLink(item.komparativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.komparativ}</a></div>
+              <div class="grammar-title">Superlativ</div>
+              <div class="de"><a href="${createTranslateLink(item.superlativ.praedikativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.superlativ.praedikativ}</a></div>
+            </div>` : ""}
 
             <!-- Antonyme & Synonyme -->
             <div class="grammar-section" style="display:flex;gap:16px;flex-wrap:wrap;">
-              ${
-                item.antonyme && item.antonyme.length
-                  ? `
+              ${item.antonyme && item.antonyme.length ? `
               <div style="flex:1;min-width:45%;direction: ltr;">
                 <div class="grammar-title" style="color:#ec8787">Antonyme</div>
                 <div style="display:flex;gap:6px;flex-wrap:wrap;">
-                  ${item.antonyme
-                    .map(
-                      (ant) =>
-                        `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
-                          <a href="${createTranslateLink(ant)}" target="_blank" style="color:inherit;text-decoration:none;">${ant}</a>
-                        </span>`,
-                    )
-                    .join("")}
+                  ${item.antonyme.map(ant => 
+                    `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
+                      <a href="${createTranslateLink(ant)}" target="_blank" style="color:inherit;text-decoration:none;">${ant}</a>
+                    </span>`).join("")}
                 </div>
-              </div>`
-                  : ""
-              }
-              ${
-                item.synonyme && item.synonyme.length
-                  ? `
+              </div>` : ""}
+              ${item.synonyme && item.synonyme.length ? `
               <div style="flex:1;min-width:45%;">
                 <div class="grammar-title" style="color:#67f984">Synonyme</div>
                 <div style="display:flex;gap:6px;flex-wrap:wrap;direction: ltr;">
-                  ${item.synonyme
-                    .map(
-                      (syn) =>
-                        `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
-                          <a href="${createTranslateLink(syn)}" target="_blank" style="color:inherit;text-decoration:none;">${syn}</a>
-                        </span>`,
-                    )
-                    .join("")}
+                  ${item.synonyme.map(syn => 
+                    `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
+                      <a href="${createTranslateLink(syn)}" target="_blank" style="color:inherit;text-decoration:none;">${syn}</a>
+                    </span>`).join("")}
                 </div>
-              </div>`
-                  : ""
-              }
+              </div>` : ""}
             </div>
 
-            <!-- Beispiele (اسکرول) -->
-            ${
-              item.examples && item.examples.length
-                ? `
+            ${item.examples && item.examples.length ? `
             <div class="grammar-section">
               <div class="grammar-title">Beispielsätze</div>
               <div style="max-height:235px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding-right:10px;">
-                ${item.examples
-                  .map(
-                    (ex) => `
+                ${item.examples.map(ex => `
                   <div class="example">
                     <a href="${createTranslateLink(ex)}" target="_blank" style="color:inherit;text-decoration:none;">${ex}</a>
-                  </div>`,
-                  )
-                  .join("")}
+                  </div>`).join("")}
               </div>
-            </div>`
-                : ""
-            }
+            </div>` : ""}
           </div>`;
-
-        const marker = L.marker(pos, {
-          icon: getCustomIcon(item.id),
-        }).addTo(map);
-        marker.globalIndex = globalIdx;
-        marker.bindPopup(popupHTML, {
-          maxWidth: 420,
-          minWidth: 280,
-          autoPan: true,
-          autoPanPaddingTopLeft: [20, 100],
-          autoPanPaddingBottomRight: [20, 0],
-          offset: [0, -5],
-          closeButton: true,
-          className: "custom-popup",
-        });
-
-        currentMarkers.set(globalIdx, marker);
-
-        if (smooth) {
-          map.flyTo(pos, 12, { duration: 1.0 });
-          setTimeout(() => {
-            marker.openPopup();
-            fullPathPoints.push(pos);
-            updatePath();
-            updateProgress();
-          }, 900);
-        } else {
-          map.setView(pos, 12);
-          marker.openPopup();
-          fullPathPoints.push(pos);
-          updatePath();
-          updateProgress();
-        }
       }
 
-      window.showNext = function () {
-        if (currentGlobalIndex + 1 < sortedItems.length)
-          showSentence(currentGlobalIndex + 1, true);
-        else alert("Ende der Adjektive erreicht!");
-      };
+      // نمایش همه مارکرها از ابتدا
+      function showAllMarkers() {
+        fullPathPoints = [];
 
-      window.showPrevious = function () {
-        if (currentGlobalIndex > 0) showSentence(currentGlobalIndex - 1, true);
-        else alert("Dies ist das erste Adjektiv!");
-      };
+        sortedItems.forEach((item, globalIdx) => {
+          const pos = precomputedPositions[globalIdx];
+          if (!pos) return;
 
-      window.startApp = function () {
-        let num =
-          parseInt(document.getElementById("sentence-input").value) || 1;
-        const targetItem = sortedItems.find(
-          (item) => parseInt(item.id) === num,
-        );
-        if (!targetItem) {
-          alert(`Adjektiv ${num} nicht gefunden!`);
-          return;
-        }
-        const globalIndex = sortedItems.indexOf(targetItem);
-        document.getElementById("start-modal").style.display = "none";
-        document.getElementById("prev-next").style.display = "flex";
-        showSentence(globalIndex, true);
-      };
+          const cityName = allCities[Math.floor(globalIdx / ADJECTIVES_PER_CITY)]?.name || "نامشخص";
+
+          const marker = L.marker(pos, {
+            icon: getCustomIcon(item)
+          }).addTo(map);
+
+          marker.globalIndex = globalIdx;
+          marker.bindPopup(createPopupHTML(item, cityName), {
+            maxWidth: 420,
+            minWidth: 280,
+            autoPan: true,
+            autoPanPaddingTopLeft: [20, 100],
+            className: "custom-popup",
+          });
+
+          currentMarkers.set(globalIdx, marker);
+          fullPathPoints.push(pos);
+        });
+
+        updatePath();
+      }
 
       // بارگذاری داده‌ها
       fetch("../json/cities.json")
@@ -729,29 +319,30 @@
         .then((data) => {
           sortedItems = data.sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
+          // محاسبه موقعیت‌ها
           sortedItems.forEach((item, i) => {
             const cityIdx = Math.floor(i / ADJECTIVES_PER_CITY);
             if (cityIdx >= allCities.length) return;
             const city = allCities[cityIdx];
-            const lat =
-              city.lat +
-              Math.sin(i * 1.234567) * 0.04 +
-              Math.cos(i * 2.345678) * 0.03;
-            const lng =
-              city.lng +
-              Math.sin(i * 0.987654) * 0.04 +
-              Math.cos(i * 3.456789) * 0.03;
+            const lat = city.lat + Math.sin(i * 1.234567) * 0.04 + Math.cos(i * 2.345678) * 0.03;
+            const lng = city.lng + Math.sin(i * 0.987654) * 0.04 + Math.cos(i * 3.456789) * 0.03;
             precomputedPositions.push([lat, lng]);
           });
 
-          document.getElementById("start-modal").style.display = "flex";
+          // نمایش همه مارکرها
+          showAllMarkers();
+
+          // زوم اولیه مناسب
+          if (fullPathPoints.length > 0) {
+            map.fitBounds(fullPathPoints, { padding: [50, 50] });
+          }
         })
         .catch((err) => {
           console.error(err);
           alert("Fehler beim Laden der JSON-Dateien");
         });
 
-      /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
+       /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
       let translateBtn = null;
       let hideTimeout = null;
 

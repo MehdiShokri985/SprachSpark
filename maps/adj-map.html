@@ -2,12 +2,21 @@
 <html lang="fa" dir="rtl">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Adjective Map</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
       :root {
@@ -21,13 +30,14 @@
         --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
         --radius-md: 12px;
       }
-      html, body {
+      html,
+      body {
         margin: 0;
         padding: 0;
         height: 100%;
         width: 100%;
         overflow: hidden;
-        font-family: "Vazirmatn", "Inter", system-ui, sans-serif;
+        fontmily: "Vazirmatn", "Inter", system-ui, sans-serif;
       }
       #map {
         height: 100vh;
@@ -91,26 +101,83 @@
         color: #334155;
         margin-top: 1px;
         direction: rtl;
+         font-family: monospace !important;
       }
 
-      .titleid{
-            text-align: right;
+      .titleid {
+        text-align: right;
       }
 
       /* بقیه استایل‌های قبلی بدون تغییر */
-      .header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.2rem; border-bottom: 1px solid var(--gray-200); }
-      .city-name { font-size: 1.12rem; color: var(--gray-800); font-weight: 600; }
-      .number { font-size: 1rem; font-weight: 700; color: var(--primary); background: var(--gray-100); padding: 0.25rem 0.7rem; border-radius: 999px; }
+      .header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.2rem;
+        border-bottom: 1px solid var(--gray-200);
+        direction: rtl;
+      }
+      .city-name {
+        font-size: 1.12rem;
+        color: var(--gray-800);
+        font-weight: 600;
+        font-family: monospace !important;
+      }
+      .number {
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--primary);
+        background: var(--gray-100);
+        padding: 0.25rem 0.7rem;
+        border-radius: 999px;
+      }
 
-      .verb { font-size: 1.3rem; color: #5200c6; direction: ltr; text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4); }
-      .person { font-size: 1rem; color: #585759; text-align: right; }
-      .grammar-section { margin: 0.1rem 0; padding: 5px 10px; background: var(--gray-100); border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-      .grammar-title { font-size: 0.7rem; font-weight: 700; color: #0788b1; }
-      .example { font-size: 0.75rem; color: #334155; background: white; padding: 0px 3px; border-radius: 8px; direction: ltr; text-align: left; }
+      .verb {
+        font-size: 1.3rem;
+        color: #5200c6;
+        direction: ltr;
+        text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4);
+      }
+      .person {
+        font-size: 1rem;
+        color: #585759;
+        text-align: right;
+         font-family: monospace !important;
+      }
+      .grammar-section {
+        margin: 0.1rem 0;
+        padding: 5px 10px;
+        background: var(--gray-100);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--gray-200);
+      }
+      .grammar-title {
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: #0788b1;
+      }
+      .example {
+        font-size: 0.75rem;
+        color: #334155;
+        background: white;
+        padding: 0px 3px;
+        border-radius: 8px;
+        direction: ltr;
+        text-align: left;
+      }
 
-      ::-webkit-scrollbar { width: 2px !important; height: 2px !important; }
-      ::-webkit-scrollbar-thumb { background: #84e0fa !important; border-radius: 2px; }
-      * { scrollbar-width: thin; scrollbar-color: #84e0fa transparent; }
+      ::-webkit-scrollbar {
+        width: 2px !important;
+        height: 2px !important;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #84e0fa !important;
+        border-radius: 2px;
+      }
+      * {
+        scrollbar-width: thin;
+        scrollbar-color: #84e0fa transparent;
+      }
 
       /* ================ دکمه شناور ترجمه (جدید) ================ */
       #float-translate-btn {
@@ -135,14 +202,13 @@
         transform: scale(1.1);
         background: var(--primary-dark);
       }
-
     </style>
   </head>
   <body>
     <div id="map"></div>
 
     <!-- دکمه شناور ترجمه -->
-  
+
     <div id="float-translate-btn" title="ترجمه با گوگل">🌐</div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
@@ -199,7 +265,7 @@
         return `https://www.verbformen.de/deklination/adjektive/${encodeURIComponent(text.trim())}.htm#google_vignette`;
       }
 
-     function createTranslateLink(text) {
+      function createTranslateLink(text) {
         if (!text || text === "—") return "#";
         return `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(text.trim())}&op=translate`;
       }
@@ -239,48 +305,76 @@
               </div>
             </div>
 
-            ${item.komparativ ? `
+            ${
+              item.komparativ
+                ? `
             <div class="grammar-section">
               <div class="grammar-title">Komparativ</div>
               <div class="de"><a href="${createTranslateLink(item.komparativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.komparativ}</a></div>
               <div class="grammar-title">Superlativ</div>
               <div class="de"><a href="${createTranslateLink(item.superlativ.praedikativ)}" target="_blank" style="color:inherit;text-decoration:none;">${item.superlativ.praedikativ}</a></div>
-            </div>` : ""}
+            </div>`
+                : ""
+            }
 
             <!-- Antonyme & Synonyme -->
             <div class="grammar-section" style="display:flex;gap:16px;flex-wrap:wrap;">
-              ${item.antonyme && item.antonyme.length ? `
+              ${
+                item.antonyme && item.antonyme.length
+                  ? `
               <div style="flex:1;min-width:45%;direction: ltr;">
                 <div class="grammar-title" style="color:#ec8787">Antonyme</div>
                 <div style="display:flex;gap:6px;flex-wrap:wrap;">
-                  ${item.antonyme.map(ant => 
-                    `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
+                  ${item.antonyme
+                    .map(
+                      (ant) =>
+                        `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
                       <a href="${createTranslateLink(ant)}" target="_blank" style="color:inherit;text-decoration:none;">${ant}</a>
-                    </span>`).join("")}
+                    </span>`,
+                    )
+                    .join("")}
                 </div>
-              </div>` : ""}
-              ${item.synonyme && item.synonyme.length ? `
+              </div>`
+                  : ""
+              }
+              ${
+                item.synonyme && item.synonyme.length
+                  ? `
               <div style="flex:1;min-width:45%;">
                 <div class="grammar-title" style="color:#67f984">Synonyme</div>
                 <div style="display:flex;gap:6px;flex-wrap:wrap;direction: ltr;">
-                  ${item.synonyme.map(syn => 
-                    `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
+                  ${item.synonyme
+                    .map(
+                      (syn) =>
+                        `<span class="example" style="font-size:0.8rem;padding:3px 10px;">
                       <a href="${createTranslateLink(syn)}" target="_blank" style="color:inherit;text-decoration:none;">${syn}</a>
-                    </span>`).join("")}
+                    </span>`,
+                    )
+                    .join("")}
                 </div>
-              </div>` : ""}
+              </div>`
+                  : ""
+              }
             </div>
 
-            ${item.examples && item.examples.length ? `
+            ${
+              item.examples && item.examples.length
+                ? `
             <div class="grammar-section">
               <div class="grammar-title">Beispielsätze</div>
               <div style="max-height:235px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding-right:10px;">
-                ${item.examples.map(ex => `
+                ${item.examples
+                  .map(
+                    (ex) => `
                   <div class="example">
                     <a href="${createTranslateLink(ex)}" target="_blank" style="color:inherit;text-decoration:none;">${ex}</a>
-                  </div>`).join("")}
+                  </div>`,
+                  )
+                  .join("")}
               </div>
-            </div>` : ""}
+            </div>`
+                : ""
+            }
           </div>`;
       }
 
@@ -292,10 +386,12 @@
           const pos = precomputedPositions[globalIdx];
           if (!pos) return;
 
-          const cityName = allCities[Math.floor(globalIdx / ADJECTIVES_PER_CITY)]?.name || "نامشخص";
+          const cityName =
+            allCities[Math.floor(globalIdx / ADJECTIVES_PER_CITY)]?.name ||
+            "نامشخص";
 
           const marker = L.marker(pos, {
-            icon: getCustomIcon(item)
+            icon: getCustomIcon(item),
           }).addTo(map);
 
           marker.globalIndex = globalIdx;
@@ -329,8 +425,14 @@
             const cityIdx = Math.floor(i / ADJECTIVES_PER_CITY);
             if (cityIdx >= allCities.length) return;
             const city = allCities[cityIdx];
-            const lat = city.lat + Math.sin(i * 1.234567) * 0.04 + Math.cos(i * 2.345678) * 0.03;
-            const lng = city.lng + Math.sin(i * 0.987654) * 0.04 + Math.cos(i * 3.456789) * 0.03;
+            const lat =
+              city.lat +
+              Math.sin(i * 1.234567) * 0.04 +
+              Math.cos(i * 2.345678) * 0.03;
+            const lng =
+              city.lng +
+              Math.sin(i * 0.987654) * 0.04 +
+              Math.cos(i * 3.456789) * 0.03;
             precomputedPositions.push([lat, lng]);
           });
 
@@ -347,7 +449,7 @@
           alert("Fehler beim Laden der JSON-Dateien");
         });
 
-       /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
+      /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
       let translateBtn = null;
       let hideTimeout = null;
 

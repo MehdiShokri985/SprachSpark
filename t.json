@@ -1,606 +1,155 @@
 [
-  {
-    "Sound_de": "der Beleg - die Belege",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند تأکیدی) + Leg (از legen: گذاشتن، قرار دادن)\nمعنی کلی: مدرک، رسید، گواهی = چیزی که چیزی را ثابت یا تأیید می‌کند\nمترادف‌ها:\n- der Nachweis (مدرک، گواهی)\n- die Quittung (رسید)\n- der Beweis (اثبات، مدرک)\nمتضادها:\n- die Vermutung (حدس، گمان)\n- der Zweifel (شک)"
-  },
-  {
-    "Sound_de": "beleidigen, beleidigt,beleidigte, hat beleidigt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند تأکیدی) + Leid (رنج، درد) + -igen (فعل‌ساز)\nمعنی کلی: توهین کردن، اهانت کردن\nمترادف‌ها:\n- verletzen (آزار دادن، جریحه‌دار کردن)\n- kränken (رنجاندن)\n- beschimpfen (فحاشی کردن)\nمتضادها:\n- loben (ستایش کردن)\n- ehren (احترام گذاشتن)\n- respektieren (احترام کردن)"
-  },
-  {
-    "Sound_de": "beliebt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + liebt (از lieben: دوست داشتن)\nمعنی کلی: محبوب، پرطرفدار\nمترادف‌ها:\n- populär (محبوب، عام‌پسند)\n- gefragt (پرطرفدار)\n- angesagt (مد روز، محبوب)\nمتضادها:\n- unbeliebt (نامحبوب)\n- verhasst (مورد نفرت)\n- unpopulär (نامحبوب)"
-  },
-  {
-    "Sound_de": "bemerken, bemerkt,bemerkte, hat bemerkt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + merken (توجه کردن، به خاطر سپردن)\nمعنی کلی: متوجه شدن، مشاهده کردن\nمترادف‌ها:\n- wahrnehmen (درک کردن، متوجه شدن)\n- erkennen (تشخیص دادن)\n- feststellen (مشاهده کردن)\nمتضادها:\n- übersehen (غفلت کردن)\n- ignorieren (نادیده گرفتن)"
-  },
-  {
-    "Sound_de": "sich bemühen, bemüht,bemühte, hat bemüht",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + Mühe (زحمت، تلاش)\nمعنی کلی: تلاش کردن، کوشش کردن\nمترادف‌ها:\n- sich anstrengen (تلاش کردن)\n- streben (سعی کردن)\n- sich abmühen (زحمت کشیدن)\nمتضادها:\n- faulenzen (تنبلی کردن)\n- ruhen (استراحت کردن)"
-  },
-  {
-    "Sound_de": "benötigen, benötigt,benötigte, hat benötigt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + nötig (لازم)\nمعنی کلی: نیاز داشتن، احتیاج داشتن\nمترادف‌ها:\n- brauchen (نیاز داشتن)\n- erfordern (مورد نیاز بودن)\n- bedürfen (نیازمند بودن)\nمتضادها:\n- entbehren können (بی‌نیاز بودن)\n- verzichten (چشم‌پوشی کردن)"
-  },
-  {
-    "Sound_de": "benutzen, benutzt,benutzte, hat benutzt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + nutzen (استفاده کردن)\nمعنی کلی: استفاده کردن، به کار بردن\nمترادف‌ها:\n- verwenden (به کار بردن)\n- gebrauchen (استفاده کردن)\n- nutzen (بهره بردن)\nمتضادها:\n- liegen lassen (رها کردن)\n- ignorieren (نادیده گرفتن)"
-  },
-  {
-    "Sound_de": "das Benzin - die Benzine",
-    "root": "اجزای تشکیل‌دهنده:\nاز Benz(oe) + -in (پسوند شیمیایی)\nمعنی کلی: بنزین، سوخت خودرو\nمترادف‌ها:\n- der Kraftstoff (سوخت)\n- das Petrol (بنزین - در برخی مناطق)\nمتضادها:\n- der Diesel (دیزل)\n- die Elektrizität (برق - برای خودروهای الکتریکی)"
-  },
-  {
-    "Sound_de": "beobachten, beobachtet,beobachtete,hat beobachtet",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + obachten (از acht: توجه)\nمعنی کلی: مشاهده کردن، نظاره کردن\nمترادف‌ها:\n- betrachten (نگاه کردن)\n- anschauen (تماشا کردن)\n- überwachen (نظارت کردن)\nمتضادها:\n- ignorieren (نادیده گرفتن)\n- abwenden (رو گرداندن)"
-  },
-  {
-    "Sound_de": "bequem",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + quem (از kommen: آمدن - به معنای راحت آمدن)\nمعنی کلی: راحت، آسان\nمترادف‌ها:\n- komfortabel (راحت)\n- gemütlich (دنج، راحت)\n- angenehm (خوشایند)\nمتضادها:\n- unbequem (ناراحت)\n- beschwerlich (سخت)\n- anstrengend (خسته‌کننده)"
-  },
-  {
-    "Sound_de": "beraten, berät, beriet,hat beraten",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + raten (مشورت دادن)\nمعنی کلی: مشاوره دادن، راهنمایی کردن\nمترادف‌ها:\n- konsultieren (مشاوره کردن)\n- empfehlen (توصیه کردن)\n- ratgeben (نصیحت کردن)\nمتضادها:\n- irreführen (گمراه کردن)\n- täuschen (فریب دادن)"
-  },
-  {
-    "Sound_de": "die Beratung - die Beratungen",
-    "root": "اجزای تشکیل‌دهنده:\nBerat (از beraten) + -ung (اسم‌ساز)\nمعنی کلی: مشاوره، راهنمایی\nمترادف‌ها:\n- die Konsultation (مشاوره)\n- die Besprechung (گفتگو)\n- der Rat (نصیحت)\nمتضادها:\n- die Irreführung (گمراهی)\n- die Täuschung (فریب)"
-  },
-  {
-    "Sound_de": "berechnen, berechnet,berechnete, hat berechnet",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + rechnen (حساب کردن)\nمعنی کلی: محاسبه کردن، حساب کردن\nمترادف‌ها:\n- kalkulieren (محاسبه کردن)\n- ausrechnen (حساب کردن)\n- ermitteln (تعیین کردن)\nمتضادها:\n- schätzen (تخمین زدن)\n- raten (حدس زدن)"
-  },
-  {
-    "Sound_de": "der Bereich - die Bereiche",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + Reich (دامنه، محدوده)\nمعنی کلی: حوزه، زمینه، منطقه\nمترادف‌ها:\n- das Gebiet (منطقه)\n- das Feld (زمینه)\n- der Sektor (بخش)\nمتضادها:\n- das Außergebiet (خارج از حوزه)\n- die Grenze (مرز - به معنای خارج)"
-  },
-  {
-    "Sound_de": "bereit",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + reit (از bereit - آماده)\nمعنی کلی: آماده\nمترادف‌ها:\n- fertig (آماده)\n- parat (آماده)\n- gewillt (مایل، آماده)\nمتضادها:\n- unbereit (ناآماده)\n- zögernd (مردد)"
-  },
-  {
-    "Sound_de": "bereits",
-    "root": "اجزای تشکیل‌دهنده:\nBereit (آماده) + -s (قیدساز)\nمعنی کلی: قبلاً، از قبل\nمترادف‌ها:\n- schon (قبلاً)\n- bereits (تکراری)\n- vorab (از پیش)\nمتضادها:\n- noch nicht (هنوز نه)\n- später (بعداً)"
-  },
-  {
-    "Sound_de": "der Berg - die Berge",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه از ریشه ژرمنی bergan (بالا رفتن)\nمعنی کلی: کوه\nمترادف‌ها:\n- der Hügel (تپه - کوچکتر)\n- das Gebirge (رشته‌کوه)\nمتضادها:\n- das Tal (دره)\n- die Ebene (دشت)\n- die Tiefebene (دشت پایین)"
-  },
-  {
-    "Sound_de": "berichten, berichtet, berichtete, hat berichtet",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + richten (جهت دادن)\nمعنی کلی: گزارش دادن، خبر دادن\nمترادف‌ها:\n- melden (گزارش کردن)\n- erzählen (گفتن)\n- referieren (گزارش دادن)\nمتضادها:\n- verschweigen (پنهان کردن)\n- verheimlichen (مخفی کردن)"
-  },
-  {
-    "Sound_de": "der Bericht - die Berichte",
-    "root": "اجزای تشکیل‌دهنده:\nBericht (از berichten) \nمعنی کلی: گزارش\nمترادف‌ها:\n- die Meldung (خبر)\n- der Report (گزارش)\n- die Mitteilung (اطلاعیه)\nمتضادها:\n- das Geheimnis (راز)\n- die Verschwiegenheit (سکوت)"
-  },
-  {
-    "Sound_de": "der Beruf - die Berufe",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + ruf (از rufen: صدا زدن - به معنای حرفه‌ای که صدا زده می‌شود)\nمعنی کلی: شغل، حرفه\nمترادف‌ها:\n- die Arbeit (کار)\n- der Job (شغل)\n- die Tätigkeit (فعالیت)\nمتضادها:\n- die Freizeit (اوقات فراغت)\n- die Arbeitslosigkeit (بیکاری)"
-  },
-  {
-    "Sound_de": "beruflich",
-    "root": "اجزای تشکیل‌دهنده:\nBeruf (شغل) + -lich (صفت‌ساز)\nمعنی کلی: شغلی، حرفه‌ای\nمترادف‌ها:\n- dienstlich (کاری)\n- geschäftlich (تجاری)\nمتضادها:\n- privat (شخصی)\n- freizeitlich (در اوقات فراغت)"
-  },
-  {
-    "Sound_de": "berufstätig",
-    "root": "اجزای تشکیل‌دهنده:\nBeruf (شغل) + tätig (فعال)\nمعنی کلی: شاغل، دارای شغل\nمترادف‌ها:\n- erwerbstätig (شاغل)\n- beschäftigt (مشغول کار)\nمتضادها:\n- arbeitslos (بیکار)\n- rentner (بازنشسته)"
-  },
-  {
-    "Sound_de": "beruhigen, beruhigt, beruhigte, hat beruhigt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + ruhen (آرام بودن)\nمعنی کلی: آرام کردن\nمترادف‌ها:\n- besänftigen (آرام کردن)\n- trösten (تسلی دادن)\n- entspannen (آرام کردن)\nمتضادها:\n- aufregen (عصبانی کردن)\n- beunruhigen (نگران کردن)"
-  },
-  {
-    "Sound_de": "berühmt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + rühmen (ستایش)\nمعنی کلی: مشهور\nمترادف‌ها:\n- bekannt (معروف)\n- famous (مشهور - انگلیسی در آلمانی هم استفاده می‌شود)\n- prominent (برجسته)\nمتضادها:\n- unbekannt (ناشناخته)\n- anonym (ناشناس)"
-  },
-  {
-    "Sound_de": "beschädigen, beschädigt, beschädigte,hat beschädigt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schaden (آسیب) + -igen\nمعنی کلی: آسیب زدن\nمترادف‌ها:\n- verletzen (آسیب رساندن)\n- zerstören (نابود کردن)\n- kaputtmachen (خراب کردن)\nمتضادها:\n- reparieren (تعمیر کردن)\n- pflegen (مراقبت کردن)"
-  },
-  {
-    "Sound_de": "beschäftigen, beschäftigt, beschäftigte,hat beschäftigt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schäftigen (از schaffen: ایجاد کردن)\nمعنی کلی: مشغول کردن، استخدام کردن\nمترادف‌ها:\n- beschäftigen (تکراری)\n- einstellen (استخدام کردن)\n- engagieren (به کار گماردن)\nمتضادها:\n- entlassen (اخراج کردن)\n- freistellen (مرخص کردن)"
-  },
-  {
-    "Sound_de": "die Beschäftigung - die Beschäftigungen",
-    "root": "اجزای تشکیل‌دهنده:\nBeschäftig (از beschäftigen) + -ung\nمعنی کلی: اشتغال، شغل، فعالیت\nمترادف‌ها:\n- die Arbeit (کار)\n- die Tätigkeit (فعالیت)\n- der Job (شغل)\nمتضادها:\n- die Arbeitslosigkeit (بیکاری)\n- die Freizeit (اوقات فراغت)"
-  },
-  {
-    "Sound_de": "der Bescheid - die Bescheide",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + scheiden (جدا کردن، تصمیم)\nمعنی کلی: اطلاع، پاسخ رسمی\nمترادف‌ها:\n- die Mitteilung (اطلاعیه)\n- die Antwort (پاسخ)\n- die Benachrichtigung (اعلام)\nمتضادها:\n- die Ungewissheit (عدم اطمینان)\n- das Schweigen (سکوت)"
-  },
-  {
-    "Sound_de": "Bescheid sagen",
-    "root": "اجزای تشکیل‌دهنده:\nBescheid (اطلاع) + sagen (گفتن)\nمعنی کلی: اطلاع دادن، خبر دادن\nمترادف‌ها:\n- mitteilen (اطلاع دادن)\n- benachrichtigen (خبر دادن)\nمتضادها:\n- verschweigen (پنهان کردن)"
-  },
-  {
-    "Sound_de": "Bescheid geben",
-    "root": "اجزای تشکیل‌دهنده:\nBescheid (اطلاع) + geben (دادن)\nمعنی کلی: اطلاع دادن، پاسخ دادن\nمترادف‌ها:\n- antworten (پاسخ دادن)\n- mitteilen (اطلاع دادن)\nمتضادها:\n- ignorieren (نادیده گرفتن)"
-  },
-  {
-    "Sound_de": "beschließen, beschließt, beschloss,hat beschlossen",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schließen (بستن)\nمعنی کلی: تصمیم گرفتن، به پایان رساندن\nمترادف‌ها:\n- entscheiden (تصمیم گرفتن)\n- vereinbaren (توافق کردن)\nمتضادها:\n- offen lassen (باز گذاشتن)\n- zögern (تردید کردن)"
-  },
-  {
-    "Sound_de": "beschränken",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schränken (از Schranke: مانع)\nمعنی کلی: محدود کردن\nمترادف‌ها:\n- einschränken (محدود کردن)\n- begrenzen (مرزبندی کردن)\nمتضادها:\n- erweitern (گسترش دادن)\n- freigeben (آزاد کردن)"
-  },
-  {
-    "Sound_de": "beschreiben, beschreibt, beschrieb,hat beschrieben",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schreiben (نوشتن)\nمعنی کلی: توصیف کردن، شرح دادن\nمترادف‌ها:\n- darstellen (به تصویر کشیدن)\n- schildern (توصیف کردن)\nمتضادها:\n- verschweigen (پنهان کردن)\n- verbergen (مخفی کردن)"
-  },
-  {
-    "Sound_de": "die Beschreibung - die Beschreibungen",
-    "root": "اجزای تشکیل‌دهنده:\nBeschreib (از beschreiben) + -ung\nمعنی کلی: توصیف، شرح\nمترادف‌ها:\n- die Darstellung (به تصویر کشیدن)\n- die Schilderung (توصیف)\nمتضادها:\n- die Verschwiegenheit (سکوت)"
-  },
-  {
-    "Sound_de": "sich beschweren, beschwert sich, beschwerte sich, hat sich beschwert",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + schwer (سنگین) - به معنای سنگین کردن دل\nمعنی کلی: شکایت کردن\nمترادف‌ها:\n- klagen (شکایت کردن)\n- reklamieren (اعتراض کردن)\nمتضادها:\n- loben (ستایش کردن)\n- danken (تشکر کردن)"
-  },
-  {
-    "Sound_de": "besetzt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + setzen (گذاشتن)\nمعنی کلی: اشغال شده، مشغول\nمترادف‌ها:\n- belegt (اشغال)\n- vergeben (رزرو شده)\nمتضادها:\n- frei (آزاد)\n- verfügbar (در دسترس)"
-  },
-  {
-    "Sound_de": "besichtigen, besichtigt, besichtigte, hat besichtigt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sichtigen (از Sicht: دید)\nمعنی کلی: بازدید کردن، دیدن\nمترادف‌ها:\n- anschauen (تماشا کردن)\n- besuchen (بازدید کردن)\n- betrachten (نگاه کردن)\nمتضادها:\n- meiden (اجتناب کردن)"
-  },
-  {
-    "Sound_de": "besitzen, besitzt, besaß, hat besessen",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sitzen (نشستن - به معنای مالک بودن)\nمعنی کلی: داشتن، مالک بودن\nمترادف‌ها:\n- haben (داشتن)\n- verfügen über (در اختیار داشتن)\nمتضادها:\n- entbehren (فاقد بودن)\n- fehlen (کم داشتن)"
-  },
-  {
-    "Sound_de": "besonder",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sonder (جدا)\nمعنی کلی: خاص\nمترادف‌ها:\n- speziell (ویژه)\n- spezifisch (خاص)\nمتضادها:\n- allgemein (عمومی)\n- normal (عادی)"
-  },
-  {
-    "Sound_de": "besonders",
-    "root": "اجزای تشکیل‌دهنده:\nBesonder (خاص) + -s (قید)\nمعنی کلی: به ویژه، خصوصاً\nمترادف‌ها:\n- insbesondere (به ویژه)\n- speziell (به طور خاص)\n- vor allem (بالاخص)\nمتضادها:\n- generell (به طور کلی)\n- allgemein (عموماً)"
-  },
-  {
-    "Sound_de": "besorgen, besorgt, besorgte, hat besorgt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sorgen (نگرانی/تهیه)\nمعنی کلی: تهیه کردن، فراهم کردن\nمترادف‌ها:\n- holen (آوردن)\n- kaufen (خریدن)\n- erledigen (انجام دادن)\nمتضادها:\n- vernachlässigen (غفلت کردن)"
-  },
-  {
-    "Sound_de": "besprechen, bespricht, besprach, hat besprochen",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + sprechen (صحبت کردن)\nمعنی کلی: بحث کردن، گفتگو کردن\nمترادف‌ها:\n- diskutieren (بحث کردن)\n- erörtern (بررسی کردن)\nمتضادها:\n- schweigen (سکوت کردن)"
-  },
-  {
-    "Sound_de": "die Besprechung - die Besprechungen",
-    "root": "اجزای تشکیل‌دهنده:\nBesprech (از besprechen) + -ung\nمعنی کلی: جلسه، گفتگو\nمترادف‌ها:\n- die Sitzung (جلسه)\n- das Meeting (جلسه)\n- die Diskussion (بحث)\nمتضادها:\n- die Stille (سکوت)"
-  },
-  {
-    "Sound_de": "die Besserung - die Besserungen",
-    "root": "اجزای تشکیل‌دهنده:\nBesser (بهتر) + -ung\nمعنی کلی: بهبود، بهبودی\nمترادف‌ها:\n- die Verbesserung (بهبود)\n- die Heilung (شفا)\nمتضادها:\n- die Verschlechterung (بدتر شدن)\n- der Rückfall (عود کردن بیماری)"
-  },
-  {
-    "Sound_de": "bestätigen, bestätigt, bestätigte, hat bestätigt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + stätigen (از fest: محکم)\nمعنی کلی: تأیید کردن\nمترادف‌ها:\n- bestätigen (تکراری)\n- verifizieren (تأیید کردن)\n- bekräftigen (تأکید کردن)\nمتضادها:\n- widerlegen (رد کردن)\n- leugnen (انکار کردن)"
-  },
-  {
-    "Sound_de": "die Bestätigung - die Bestätigungen",
-    "root": "اجزای تشکیل‌دهنده:\nBestätig (از bestätigen) + -ung\nمعنی کلی: تأیید\nمترادف‌ها:\n- die Bestätigung (تکراری)\n- die Verifizierung (تأیید)\nمتضادها:\n- die Widerlegung (رد)\n- die Ablehnung (رد کردن)"
-  },
-  {
-    "Sound_de": "bestehen, besteht, bestand, hat bestanden",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + stehen (ایستادن)\nمعنی کلی: وجود داشتن، گذراندن (امتحان)\nمترادف‌ها:\n- existieren (وجود داشتن)\n- bestehen aus (تشکیل شدن از)\n- bestehen (گذراندن امتحان)\nمتضادها:\n- scheitern (شکست خوردن)\n- untergehen (نابود شدن)"
-  },
-  {
-    "Sound_de": "bestellen, bestellt, bestellte, hat bestellt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + stellen (گذاشتن)\nمعنی کلی: سفارش دادن، رزرو کردن\nمترادف‌ها:\n- ordern (سفارش دادن)\n- reservieren (رزرو کردن)\nمتضادها:\n- stornieren (لغو کردن)"
-  },
-  {
-    "Sound_de": "bestimmt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + stimmt (از stimmen: درست بودن)\nمعنی کلی: مشخص، قطعی\nمترادف‌ها:\n- sicher (قطعی)\n- festgelegt (تعیین شده)\n- gewiss (یقیناً)\nمتضادها:\n- unbestimmt (نامشخص)\n- unsicher (نامطمئن)"
-  },
-  {
-    "Sound_de": "bestrafen, bestraft, bestrafte, hat bestraft",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + strafen (مجازات)\nمعنی کلی: مجازات کردن\nمترادف‌ها:\n- ahnden (مجازات کردن)\n- sanktionieren (تنبیه کردن)\nمتضادها:\n- belohnen (پاداش دادن)\n- loben (ستایش کردن)"
-  },
-  {
-    "Sound_de": "besuchen, besucht, besuchte, hat besucht",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + suchen (جستجو کردن - به معنای رفتن به دیدن)\nمعنی کلی: بازدید کردن، دیدن\nمترادف‌ها:\n- aufsuchen (مراجعه کردن)\n- besichtigen (دیدن مکان)\nمتضادها:\n- meiden (اجتناب کردن)"
-  },
-  {
-    "Sound_de": "der Besuch - die Besuche",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + such (از suchen)\nمعنی کلی: بازدید، مهمان\nمترادف‌ها:\n- die Visite (بازدید)\n- der Gast (مهمان)\nمتضادها:\n- die Abwesenheit (غیبت)"
-  },
-  {
-    "Sound_de": "sich beteiligen, beteiligt sich, beteiligte sich, hat sich beteiligt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + teiligen (از Teil: قسمت)\nمعنی کلی: شرکت کردن، مشارکت کردن\nمترادف‌ها:\n- mitmachen (شرکت کردن)\n- teilnehmen (شرکت کردن)\nمتضادها:\n- sich enthalten (خودداری کردن)\n- abseits stehen (کنار ماندن)"
-  },
-  {
-    "Sound_de": "der Betrag - die Beträge",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + trag (از tragen: حمل کردن)\nمعنی کلی: مبلغ، مقدار\nمترادف‌ها:\n- die Summe (جمع)\n- der Preis (قیمت)\n- die Menge (مقدار)\nمتضادها:\n- der Restbetrag (باقیمانده)"
-  },
-  {
-    "Sound_de": "betreuen, betreut, betreute, hat betreut",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + treuen (از treu: وفادار)\nمعنی کلی: مراقبت کردن، سرپرستی کردن\nمترادف‌ها:\n- pflegen (مراقبت کردن)\n- versorgen (تأمین کردن)\nمتضادها:\n- vernachlässigen (غفلت کردن)"
-  },
-  {
-    "Sound_de": "der Betreuer, die Betreuerin - die Betreuer, die Betreuerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBetreu (از betreuen) + -er\nمعنی کلی: سرپرست، مراقب\nمترادف‌ها:\n- der Pfleger (پرستار)\n- der Aufseher (ناظر)\nمتضادها:\n- der Vernachlässiger (غافل)"
-  },
-  {
-    "Sound_de": "die Betreuung - die Betreuungen",
-    "root": "اجزای تشکیل‌دهنده:\nBetreu (از betreuen) + -ung\nمعنی کلی: مراقبت، سرپرستی\nمترادف‌ها:\n- die Pflege (مراقبت)\n- die Versorgung (تأمین)\nمتضادها:\n- die Vernachlässigung (غفلت)"
-  },
-  {
-    "Sound_de": "der Betrieb - die Betriebe",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + trieb (از treiben: راندن)\nمعنی کلی: شرکت، کارخانه، بهره‌برداری\nمترادف‌ها:\n- die Firma (شرکت)\n- das Unternehmen (بنگاه)\nمتضادها:\n- die Schließung (تعطیلی)"
-  },
-  {
-    "Sound_de": "der Betriebsrat, die Betriebsrätin - die Betriebsräte, die Betriebsrätinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBetrieb (شرکت) + Rat (شورا)\nمعنی کلی: شورای کارگری\nمترادف‌ها:\n- die Arbeitnehmervertretung (نمایندگی کارگران)\nمتضادها:\n- die Geschäftsführung (مدیریت)"
-  },
-  {
-    "Sound_de": "betrügen, betrügt, betrog, hat betrogen",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + trügen (از trügen: فریب)\nمعنی کلی: فریب دادن، تقلب کردن\nمترادف‌ها:\n- täuschen (فریب دادن)\n- hintergehen (خیانت کردن)\nمتضادها:\n- ehrlich sein (راستگو بودن)\n- die Wahrheit sagen (حقیقت گفتن)"
-  },
-  {
-    "Sound_de": "betrunken",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + trunken (از trinken: نوشیدن)\nمعنی کلی: مست\nمترادف‌ها:\n- alkoholisiert (مست)\n- besoffen (مست - عامیانه)\nمتضادها:\n- nüchtern (هوشیار)\n- trocken (بدون الکل)"
-  },
-  {
-    "Sound_de": "das Bett - die Betten",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه از ریشه ژرمنی برای محل خواب\nمعنی کلی: تختخواب\nمترادف‌ها:\n- das Schlafsofa (کاناپه تختخواب‌شو)\nمتضادها:\n- der Stuhl (صندلی)\n- der Boden (زمین)"
-  },
-  {
-    "Sound_de": "die Bevölkerung - die Bevölkerungen",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + Völker (مردم) + -ung\nمعنی کلی: جمعیت\nمترادف‌ها:\n- die Einwohner (ساکنان)\n- die Bürger (شهروندان)\nمتضادها:\n- die Leere (خالی بودن)"
-  },
-  {
-    "Sound_de": "bevor",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + vor (قبل)\nمعنی کلی: قبل از اینکه\nمترادف‌ها:\n- ehe (قبل از)\n- vor (قبل از)\nمتضادها:\n- nachdem (بعد از اینکه)\n- danach (بعد از آن)"
-  },
-  {
-    "Sound_de": "bewegen, bewegt, bewegte, hat bewegt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + wegen (از weg: راه - حرکت)\nمعنی کلی: حرکت دادن، تحریک کردن\nمترادف‌ها:\n- rühren (تکان دادن)\n- motivieren (انگیزه دادن)\nمتضادها:\n- stillstehen (ایستادن)\n- ruhen (آرام بودن)"
-  },
-  {
-    "Sound_de": "die Bewegung - die Bewegungen",
-    "root": "اجزای تشکیل‌دهنده:\nBeweg (از bewegen) + -ung\nمعنی کلی: حرکت، جنبش\nمترادف‌ها:\n- die Motion (حرکت)\n- die Aktivität (فعالیت)\nمتضادها:\n- die Ruhe (آرامش)\n- die Stille (سکوت)"
-  },
-  {
-    "Sound_de": "beweisen, beweist, bewies, hat bewiesen",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + weisen (نشان دادن)\nمعنی کلی: اثبات کردن\nمترادف‌ها:\n- nachweisen (اثبات کردن)\n- demonstrieren (نشان دادن)\nمتضادها:\n- widerlegen (رد کردن)\n- bezweifeln (شک کردن)"
-  },
-  {
-    "Sound_de": "der Beweis - die Beweise",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + weis (از weisen)\nمعنی کلی: مدرک، اثبات\nمترادف‌ها:\n- der Nachweis (مدرک)\n- das Argument (استدلال)\nمتضادها:\n- der Zweifel (شک)\n- die Vermutung (گمان)"
-  },
-  {
-    "Sound_de": "sich bewerben, bewirbt sich, bewarb sich, hat sich beworben",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + werben (جذب کردن)\nمعنی کلی: درخواست شغل دادن، اپلای کردن\nمترادف‌ها:\n- sich melden (درخواست دادن)\n- kandidieren (کاندید شدن)\nمتضادها:\n- ablehnen (رد کردن)"
-  },
-  {
-    "Sound_de": "die Bewerbung - die Bewerbungen",
-    "root": "اجزای تشکیل‌دهنده:\nBewerb (از bewerben) + -ung\nمعنی کلی: درخواست شغل، اپلیکیشن\nمترادف‌ها:\n- die Application (درخواست)\n- die Kandidatur (کاندیداتوری)\nمتضادها:\n- die Absage (رد درخواست)"
-  },
-  {
-    "Sound_de": "der Bewohner, die Bewohnerin - die Bewohner, die Bewohnerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + wohnen (زندگی کردن)\nمعنی کلی: ساکن، resident\nمترادف‌ها:\n- der Einwohner (ساکن)\n- der Mieter (مستأجر)\nمتضادها:\n- der Besucher (بازدیدکننده)\n- der Tourist (گردشگر)"
-  },
-  {
-    "Sound_de": "bezahlen, bezahlt, bezahlte, hat bezahlt",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + zahlen (پرداخت کردن)\nمعنی کلی: پرداخت کردن\nمترادف‌ها:\n- begleichen (تسویه کردن)\n- löhnen (پرداخت کردن)\nمتضادها:\n- schulden (بدهکار بودن)\n- nicht zahlen (پرداخت نکردن)"
-  },
-  {
-    "Sound_de": "die Beziehung - die Beziehungen",
-    "root": "اجزای تشکیل‌دهنده:\nBe- (پیشوند) + ziehung (از ziehen: کشیدن)\nمعنی کلی: رابطه\nمترادف‌ها:\n- die Verbindung (ارتباط)\n- der Kontakt (تماس)\nمتضادها:\n- die Trennung (جدایی)\n- die Isolation (انزوا)"
-  },
-  {
-    "Sound_de": "die Bibliothek - die Bibliotheken",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی biblio (کتاب) + thek (محل نگهداری)\nمعنی کلی: کتابخانه\nمترادف‌ها:\n- die Bücherei (کتابخانه)\nمتضادها:\n- der Buchladen (کتابفروشی)"
-  },
-  {
-    "Sound_de": "das Bier, die Biere",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه قدیمی ژرمنی برای نوشیدنی تخمیری\nمعنی کلی: آبجو\nمترادف‌ها:\n- das Pils (نوع آبجو)\n- der Gerstensaft (عامیانه)\nمتضادها:\n- das Wasser (آب)\n- der Wein (شراب)"
-  },
-  {
-    "Sound_de": "bieten, bietet, bot, hat geboten",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای پیشنهاد دادن\nمعنی کلی: پیشنهاد کردن، ارائه دادن\nمترادف‌ها:\n- anbieten (پیشنهاد کردن)\n- offerieren (عرضه کردن)\nمتضادها:\n- ablehnen (رد کردن)\n- verweigern (امتناع کردن)"
-  },
-  {
-    "Sound_de": "das Bild, die Bilder",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای تصویر\nمعنی کلی: تصویر، عکس\nمترادف‌ها:\n- das Foto (عکس)\n- die Abbildung (تصویر)\nمتضادها:\n- die Realität (واقعیت)"
-  },
-  {
-    "Sound_de": "der Bildschirm, die Bildschirme",
-    "root": "اجزای تشکیل‌دهنده:\nBild (تصویر) + Schirm (پرده)\nمعنی کلی: صفحه نمایش\nمترادف‌ها:\n- der Monitor (مانیتور)\n- das Display (نمایشگر)\nمتضادها:\n- das Papier (کاغذ)"
-  },
-  {
-    "Sound_de": "das Billett, die Billetts - die Fahrkarte, die Fahrkarten",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی billet\nمعنی کلی: بلیت، بلیط\nمترادف‌ها:\n- die Fahrkarte (بلیت سفر)\n- das Ticket (تیکت)\nمتضادها:\n- die Freikarte (بلیت رایگان - نه دقیقاً متضاد)"
-  },
-  {
-    "Sound_de": "billig",
-    "root": "اجزای تشکیل‌دهنده:\nاز ریشه قدیمی برای مناسب بودن\nمعنی کلی: ارزان\nمترادف‌ها:\n- günstig (ارزان)\n- preiswert (با ارزش قیمت)\nمتضادها:\n- teuer (گران)\n- kostspielig (پرخرج)"
-  },
-  {
-    "Sound_de": "die Biologie",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی bio (زندگی) + logie (علم)\nمعنی کلی: زیست‌شناسی\nمترادف‌ها:\n- die Lebenswissenschaft (علوم زندگی)\nمتضادها:\n- die Physik (فیزیک)\n- die Chemie (شیمی)"
-  },
-  {
-    "Sound_de": "Bio",
-    "root": "اجزای تشکیل‌دهنده:\nکوتاه شده Biologie یا biologisch\nمعنی کلی: ارگانیک، زیست\nمترادف‌ها:\n- ökologisch (اکولوژیک)\n- organisch (ارگانیک)\nمتضادها:\n- konventionell (معمولی)\n- chemisch (شیمیایی)"
-  },
-  {
-    "Sound_de": "biologisch",
-    "root": "اجزای تشکیل‌دهنده:\nBio (زیست) + logisch (مرتبط با علم)\nمعنی کلی: بیولوژیکی، ارگانیک\nمترادف‌ها:\n- ökologisch (اکولوژیک)\n- natürlich (طبیعی)\nمتضادها:\n- chemisch (شیمیایی)\n- synthetisch (سنتتیک)"
-  },
-  {
-    "Sound_de": "die Birne, die Birnen",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای میوه\nمعنی کلی: گلابی\nمترادف‌ها:\n- die Perry (نوعی)\nمتضادها:\n- der Apfel (سیب)"
-  },
-  {
-    "Sound_de": "bis",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای تا\nمعنی کلی: تا، تا زمانی که\nمترادف‌ها:\n- bis zu (تا)\n- bis auf (به جز)\nمتضادها:\n- von (از)\n- ab (از)"
-  },
-  {
-    "Sound_de": "bisher",
-    "root": "اجزای تشکیل‌دهنده:\nBis (تا) + her (تا اینجا)\nمعنی کلی: تا کنون، تاکنون\nمترادف‌ها:\n- bis jetzt (تا حالا)\n- bisherig (تاکنون)\nمتضادها:\n- zukünftig (آینده)\n- künftig (بعدی)"
-  },
-  {
-    "Sound_de": "ein bisschen",
-    "root": "اجزای تشکیل‌دهنده:\nEin (یک) + bisschen (کمی)\nمعنی کلی: کمی، یک ذره\nمترادف‌ها:\n- etwas (کمی)\n- ein wenig (کمی)\nمتضادها:\n- viel (زیاد)\n- sehr (خیلی)"
-  },
-  {
-    "Sound_de": "bitten, bittet, bat, hat gebeten",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای درخواست\nمعنی کلی: درخواست کردن، خواهش کردن\nمترادف‌ها:\n- ersuchen (درخواست کردن)\n- flehen (التماس کردن)\nمتضادها:\n- befehlen (دستور دادن)\n- verlangen (مطالبه کردن)"
-  },
-  {
-    "Sound_de": "die Bitte, die Bitten",
-    "root": "اجزای تشکیل‌دهنده:\nBitte (از bitten)\nمعنی کلی: درخواست، خواهش\nمترادف‌ها:\n- die Bitte (تکراری)\n- die Anfrage (درخواست)\nمتضادها:\n- der Befehl (دستور)"
-  },
-  {
-    "Sound_de": "bitte",
-    "root": "اجزای تشکیل‌دهنده:\nاز bitten\nمعنی کلی: لطفاً، بفرمایید\nمترادف‌ها:\n- bitte schön (بفرمایید)\nمتضادها:\n- danke (تشکر - در پاسخ)"
-  },
-  {
-    "Sound_de": "bitter",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای طعم\nمعنی کلی: تلخ\nمترادف‌ها:\n- herb (تلخ)\nمتضادها:\n- süß (شیرین)\n- mild (ملایم)"
-  },
-  {
-    "Sound_de": "blass",
-    "root": "اجزای تشکیل‌دهنده:\nاز ریشه برای رنگ پریده\nمعنی کلی: رنگ‌پریده\nمترادف‌ها:\n- fahl (کم‌رنگ)\n- bleich (رنگ‌پریده)\nمتضادها:\n- rot (سرخ)\n- gebräunt (برنزه)"
-  },
-  {
-    "Sound_de": "das Blatt, die Blätter",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای برگ و ورق\nمعنی کلی: برگ، ورق کاغذ\nمترادف‌ها:\n- die Seite (صفحه)\n- das Papier (کاغذ)\nمتضادها:\n- der Stamm (ساقه)"
-  },
-  {
-    "Sound_de": "bleiben, bleibt, blieb, ist geblieben",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای ماندن\nمعنی کلی: ماندن، باقی ماندن\nمترادف‌ها:\n- verweilen (ماندن)\n- bleiben (تکراری)\nمتضادها:\n- gehen (رفتن)\n- verlassen (ترک کردن)"
-  },
-  {
-    "Sound_de": "der Bleistift, die Bleistifte",
-    "root": "اجزای تشکیل‌دهنده:\nBlei (سربی) + Stift (قلم)\nمعنی کلی: مداد\nمترادف‌ها:\n- der Graphitstift (مداد گرافیتی)\nمتضادها:\n- der Kugelschreiber (خودکار)"
-  },
-  {
-    "Sound_de": "der Blick, die Blicke",
-    "root": "اجزای تشکیل‌دهنده:\nاز blicken (نگاه کردن)\nمعنی کلی: نگاه، منظره\nمترادف‌ها:\n- die Ansicht (منظره)\n- der Anblick (دید)\nمتضادها:\n- die Blindheit (کوری)"
-  },
-  {
-    "Sound_de": "blind",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای ندیدن\nمعنی کلی: کور\nمترادف‌ها:\n- sehbehindert (کم‌بینا)\nمتضادها:\n- sehend (بینا)\n- scharfsichtig (تیزبین)"
-  },
-  {
-    "Sound_de": "blitzen, blitzt, blitzte, hat geblitzt",
-    "root": "اجزای تشکیل‌دهنده:\nاز Blitz (صاعقه)\nمعنی کلی: برق زدن، فلش زدن\nمترادف‌ها:\n- leuchten (درخشیدن)\nمتضادها:\n- dunkel sein (تاریک بودن)"
-  },
-  {
-    "Sound_de": "der Blitz, die Blitze",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای نور ناگهانی\nمعنی کلی: صاعقه، فلش\nمترادف‌ها:\n- der Donnerblitz (صاعقه)\nمتضادها:\n- die Dunkelheit (تاریکی)"
-  },
-  {
-    "Sound_de": "blond",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی blond\nمعنی کلی: بلوند\nمترادف‌ها:\n- hellhaarig (مو روشن)\nمتضادها:\n- dunkelhaarig (مو تیره)\n- brünett (سبزه)"
-  },
-  {
-    "Sound_de": "bloß",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای فقط یا لخت\nمعنی کلی: فقط، صرفاً / عریان\nمترادف‌ها:\n- nur (فقط)\n- nackt (لخت)\nمتضادها:\n- bekleidet (پوشیده)\n- zusätzlich (اضافی)"
-  },
-  {
-    "Sound_de": "blühen, blüht, blühte, hat geblüht",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای گل دادن\nمعنی کلی: شکوفه زدن، گل دادن\nمترادف‌ها:\n- erblühen (شکوفا شدن)\nمتضادها:\n- welken (پژمرده شدن)\n- absterben (مردن گیاه)"
-  },
-  {
-    "Sound_de": "die Blume, die Blumen",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای گل\nمعنی کلی: گل\nمترادف‌ها:\n- die Blüte (شکوفه)\nمتضادها:\n- der Dorn (خار)"
-  },
-  {
-    "Sound_de": "die Bluse, die Blusen",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی blouse\nمعنی کلی: بلوز\nمترادف‌ها:\n- das Oberteil (بالاتنه)\nمتضادها:\n- die Hose (شلوار)"
-  },
-  {
-    "Sound_de": "bluten, blutet, blutete, hat geblutet",
-    "root": "اجزای تشکیل‌دهنده:\nاز Blut (خون)\nمعنی کلی: خونریزی کردن\nمترادف‌ها:\n- verbluten (خونریزی شدید)\nمتضادها:\n- heilen (بهبود یافتن)"
-  },
-  {
-    "Sound_de": "das Blut",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای مایع قرمز بدن\nمعنی کلی: خون\nمترادف‌ها:\n- das Lebenssaft (عامیانه)\nمتضادها:\n- das Wasser (آب)"
-  },
-  {
-    "Sound_de": "der Boden, die Böden",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای زمین\nمعنی کلی: زمین، کف\nمترادف‌ها:\n- der Fußboden (کف)\n- die Erde (خاک)\nمتضادها:\n- die Decke (سقف)\n- der Himmel (آسمان)"
-  },
-  {
-    "Sound_de": "der Bogen, die Bögen",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای خمیدگی\nمعنی کلی: کمان، قوس، ورق\nمترادف‌ها:\n- der Bogen (تکراری)\n- das Blatt (ورق)\nمتضادها:\n- die Gerade (خط مستقیم)"
-  },
-  {
-    "Sound_de": "die Bohne, die Bohnen",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای دانه\nمعنی کلی: لوبیا\nمترادف‌ها:\n- die Kidneybohne (لوبیا قرمز)\nمتضادها:\n- der Reis (برنج)"
-  },
-  {
-    "Sound_de": "das Boot, die Boote",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای قایق\nمعنی کلی: قایق\nمترادف‌ها:\n- das Schiffchen (قایق کوچک)\nمتضادها:\n- das Schiff (کشتی بزرگ)"
-  },
-  {
-    "Sound_de": "die Botschaft, die Botschaften",
-    "root": "اجزای تشکیل‌دهنده:\nBot (پیام‌رسان) + schaft\nمعنی کلی: پیام، سفارت\nمترادف‌ها:\n- die Nachricht (پیام)\n- die Ambasade (سفارت)\nمتضادها:\n- die Lüge (دروغ)"
-  },
-  {
-    "Sound_de": "böse",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای خشمگین\nمعنی کلی: عصبانی، بد\nمترادف‌ها:\n- wütend (خشمگین)\n- schlecht (بد)\nمتضادها:\n- freundlich (مهربان)\n- gut (خوب)"
-  },
-  {
-    "Sound_de": "braten, brät, briet, hat gebraten",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای سرخ کردن\nمعنی کلی: کباب کردن، سرخ کردن\nمترادف‌ها:\n- grillen (گریل کردن)\n- rösten (برشته کردن)\nمتضادها:\n- kochen (جوشاندن)"
-  },
-  {
-    "Sound_de": "der Braten, die Braten",
-    "root": "اجزای تشکیل‌دهنده:\nاز braten\nمعنی کلی: کباب\nمترادف‌ها:\n- das Roastbeef (رست بیف)\nمتضادها:\n- das Gemüse (سبزیجات)"
-  },
-  {
-    "Sound_de": "brauchen, braucht, brauchte, hat gebraucht",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای نیاز\nمعنی کلی: نیاز داشتن\nمترادف‌ها:\n- benötigen (نیاز داشتن)\n- müssen (باید)\nمتضادها:\n- entbehren (بی‌نیاز بودن)"
-  },
-  {
-    "Sound_de": "brechen, bricht, brach, hat gebrochen",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای شکستن\nمعنی کلی: شکستن، استفراغ کردن\nمترادف‌ها:\n- zerbrechen (شکستن)\n- erbrechen (استفراغ)\nمتضادها:\n- heilen (بهبود یافتن)\n- reparieren (تعمیر)"
-  },
-  {
-    "Sound_de": "breit",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای عرض\nمعنی کلی: پهن، وسیع\nمترادف‌ها:\n- weit (گسترده)\n- großflächig (وسیع)\nمتضادها:\n- schmal (باریک)\n- eng (تنگ)"
-  },
-  {
-    "Sound_de": "die Breite, die Breiten",
-    "root": "اجزای تشکیل‌دهنده:\nBreit (پهن) + -e\nمعنی کلی: عرض\nمترادف‌ها:\n- die Weite (گستردگی)\nمتضادها:\n- die Länge (طول)\n- die Enge (تنگی)"
-  },
-  {
-    "Sound_de": "bremsen, bremst, bremste, hat gebremst",
-    "root": "اجزای تشکیل‌دهنده:\nاز Bremse\nمعنی کلی: ترمز کردن\nمترادف‌ها:\n- abbremsen (کند کردن)\nمتضادها:\n- beschleunigen (شتاب دادن)"
-  },
-  {
-    "Sound_de": "die Bremse, die Bremsen",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای مانع\nمعنی کلی: ترمز\nمترادف‌ها:\n- die Bremsvorrichtung (دستگاه ترمز)\nمتضادها:\n- das Gaspedal (پدال گاز)"
-  },
-  {
-    "Sound_de": "brennen, brennt, brannte, hat gebrannt",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای سوختن\nمعنی کلی: سوزاندن، سوختن\nمترادف‌ها:\n- verbrennen (سوزاندن)\n- leuchten (درخشیدن)\nمتضادها:\n- löschen (خاموش کردن)"
-  },
-  {
-    "Sound_de": "der Brief, die Briefe",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای نامه\nمعنی کلی: نامه\nمترادف‌ها:\n- die Post (نامه)\n- der Schreiben (نامه رسمی)\nمتضادها:\n- die E-Mail (ایمیل)"
-  },
-  {
-    "Sound_de": "der Briefkasten, die Briefkästen",
-    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Kasten (جعبه)\nمعنی کلی: صندوق پستی\nمترادف‌ها:\n- der Postkasten (صندوق پست)\nمتضادها:\n- der Computer (برای ایمیل)"
-  },
-  {
-    "Sound_de": "die Briefmarke, die Briefmarken",
-    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Marke (تمبر)\nمعنی کلی: تمبر\nمترادف‌ها:\n- die Postmarke (تمبر پستی)\nمتضادها:\n- die Freimarke (نه دقیق)"
-  },
-  {
-    "Sound_de": "der Briefträger, die Briefträger - die Briefträgerin, die Briefträgerinnen",
-    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Träger (حامل)\nمعنی کلی: پستچی\nمترادف‌ها:\n- der Postbote (پستچی)\nمتضادها:\n- der Empfänger (گیرنده)"
-  },
-  {
-    "Sound_de": "der Briefumschlag, die Briefumschläge - Kuvert - Couvert",
-    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Umschlag (پوشش)\nمعنی کلی: پاکت نامه\nمترادف‌ها:\n- das Kuvert (پاکت)\n- das Couvert (در سوئیس)\nمتضادها:\n- die Postkarte (کارت پستال)"
-  },
-  {
-    "Sound_de": "die Brieftasche, die Brieftaschen",
-    "root": "اجزای تشکیل‌دهنده:\nBrief (نامه) + Tasche (کیف - قبلاً برای حمل نامه)\nمعنی کلی: کیف پول\nمترادف‌ها:\n- das Portemonnaie (کیف پول)\n- der Geldbeutel (کیف پول)\nمتضادها:\n- die Handtasche (کیف دستی بزرگ)"
-  },
-  {
-    "Sound_de": "die Brille, die Brillen",
-    "root": "اجزای تشکیل‌دهنده:\nاز Beryll (سنگ شفاف)\nمعنی کلی: عینک\nمترادف‌ها:\n- die Sehhilfe (وسیله کمک بینایی)\nمتضادها:\n- die Kontaktlinse (لنز تماسی)"
-  },
-  {
-    "Sound_de": "bringen, bringt, brachte, hat gebracht",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای آوردن\nمعنی کلی: آوردن\nمترادف‌ها:\n- mitbringen (همراه آوردن)\n- liefern (تحویل دادن)\nمتضادها:\n- nehmen (بردن)\n- wegbringen (بردن دور)"
-  },
-  {
-    "Sound_de": "die Broschüre, die Broschüren",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی brochure\nمعنی کلی: بروشور\nمترادف‌ها:\n- das Prospekt (بروشور)\n- der Flyer (فلایر)\nمتضادها:\n- das Buch (کتاب کامل)"
-  },
-  {
-    "Sound_de": "das Brot, die Brote",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای نان\nمعنی کلی: نان\nمترادف‌ها:\n- das Gebäck (نانوایی)\nمتضادها:\n- das Kuchen (کیک)"
-  },
-  {
-    "Sound_de": "das Brötchen, die Brötchen",
-    "root": "اجزای تشکیل‌دهنده:\nBrot (نان) + chen (کوچک)\nمعنی کلی: نان کوچک، رول\nمترادف‌ها:\n- das Semmel (در جنوب)\n- das Weck (در برخی مناطق)\nمتضادها:\n- das Brot (نان بزرگ)"
-  },
-  {
-    "Sound_de": "das Brötli, die Brötli - Brötchen",
-    "root": "اجزای تشکیل‌دهنده:\nدر سوئیس برای Brötchen\nمعنی کلی: نان کوچک (در سوئیس)\nمترادف‌ها:\n- das Brötchen (در آلمان)\nمتضادها:\n- das Brot (نان بزرگ)"
-  },
-  {
-    "Sound_de": "der Bruder, die Brüder",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای برادر\nمعنی کلی: برادر\nمترادف‌ها:\n- der Geschwister (خواهر و برادر)\nمتضادها:\n- die Schwester (خواهر)"
-  },
-  {
-    "Sound_de": "die Brust, die Brüste",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای سینه\nمعنی کلی: سینه\nمترادف‌ها:\n- der Busen (سینه)\nمتضادها:\n- der Rücken (پشت)"
-  },
-  {
-    "Sound_de": "der Bub, die Buben - Junge",
-    "root": "اجزای تشکیل‌دهنده:\nدر گویش جنوبی برای Junge\nمعنی کلی: پسر، بچه پسر\nمترادف‌ها:\n- der Junge (پسر)\n- der Knabe (پسر)\nمتضادها:\n- das Mädchen (دختر)"
-  },
-  {
-    "Sound_de": "das Buch, die Bücher",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای کتاب\nمعنی کلی: کتاب\nمترادف‌ها:\n- der Roman (رمان)\n- das Heft (دفتر)\nمتضادها:\n- die Zeitung (روزنامه)"
-  },
-  {
-    "Sound_de": "die Buchhandlung, die Buchhandlungen",
-    "root": "اجزای تشکیل‌دهنده:\nBuch (کتاب) + Handlung (فروشگاه)\nمعنی کلی: کتابفروشی\nمترادف‌ها:\n- der Buchladen (کتابفروشی)\nمتضادها:\n- die Bibliothek (کتابخانه)"
-  },
-  {
-    "Sound_de": "buchen, bucht, buchte, hat gebucht",
-    "root": "اجزای تشکیل‌دهنده:\nاز Buch (کتاب - قبلاً رزرو در کتاب)\nمعنی کلی: رزرو کردن\nمترادف‌ها:\n- reservieren (رزرو کردن)\nمتضادها:\n- stornieren (لغو کردن)"
-  },
-  {
-    "Sound_de": "buchstabieren, buchstabiert, buchstabierte, hat buchstabiert",
-    "root": "اجزای تشکیل‌دهنده:\nBuchstabe (حرف) + -ieren\nمعنی کلی: هجی کردن\nمترادف‌ها:\n- spellieren (هجی کردن)\nمتضادها:\n- aussprechen (تلفظ کردن کامل)"
-  },
-  {
-    "Sound_de": "der Buchstabe, die Buchstaben",
-    "root": "اجزای تشکیل‌دهنده:\nBuch (کتاب) + Stabe (چوب - قبلاً حروف چوبی)\nمعنی کلی: حرف الفبا\nمترادف‌ها:\n- der Letter (حرف)\nمتضادها:\n- das Wort (کلمه)"
-  },
-  {
-    "Sound_de": "die Büchse, die Büchsen - Dose",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای قوطی\nمعنی کلی: قوطی، کنسرو\nمترادف‌ها:\n- die Dose (قوطی)\n- der Kanister (قوطی بزرگ)\nمتضادها:\n- die Flasche (بطری)"
-  },
-  {
-    "Sound_de": "das Buffet, die Buffets",
-    "root": "اجزای تشکیل‌دهنده:\nاز فرانسوی buffet\nمعنی کلی: بوفه\nمترادف‌ها:\n- das Selbstbedienungsrestaurant (سلف سرویس)\nمتضادها:\n- das À-la-carte-Restaurant (منو دار)"
-  },
-  {
-    "Sound_de": "die Bühne, die Bühnen",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای صحنه\nمعنی کلی: صحنه تئاتر\nمترادف‌ها:\n- das Podium (سکو)\n- die Stage (صحنه)\nمتضادها:\n- das Publikum (تماشاگران)"
-  },
-  {
-    "Sound_de": "bunt",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای رنگارنگ\nمعنی کلی: رنگارنگ\nمترادف‌ها:\n- farbig (رنگی)\n- vielfarbig (چندرنگ)\nمتضادها:\n- einfarbig (تک رنگ)\n- grau (خاکستری)"
-  },
-  {
-    "Sound_de": "die Burg, die Burgen",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای قلعه\nمعنی کلی: قلعه\nمترادف‌ها:\n- das Schloss (کاخ/قلعه)\nمتضادها:\n- die Hütte (کلبه)"
-  },
-  {
-    "Sound_de": "der Bürger, die Bürger - die Bürgerin, die Bürgerinnen - das Büro",
-    "root": "اجزای تشکیل‌دهنده:\nBürger از Burg (شهر محصور)\nمعنی کلی: شهروند / توجه: das Büro اشتباه تایپی است، جداگانه\nمترادف‌ها:\n- der Einwohner (ساکن)\n- der Staatsbürger (تبعه)\nمتضادها:\n- der Ausländer (خارجی)"
-  },
-  {
-    "Sound_de": "die Bürste, die Bürsten",
-    "root": "اجزای تشکیل‌دهنده:\nکلمه پایه برای برس\nمعنی کلی: برس\nمترادف‌ها:\n- der Pinsel (قلم‌مو)\nمتضادها:\n- der Kamm (شانه)"
-  },
-  {
-    "Sound_de": "die Zahnbürste, die Zahnbürsten",
-    "root": "اجزای تشکیل‌دهنده:\nZahn (دندان) + Bürste (برس)\nمعنی کلی: مسواک\nمترادف‌ها:\n- die Toothbrush (مسواک)\nمتضادها:\n- die Zahnpasta (خمیر دندان - مکمل)"
-  },
-  {
-    "Sound_de": "der Bus, die Busse",
-    "root": "اجزای تشکیل‌دهنده:\nکوتاه شده Omnibus\nمعنی کلی: اتوبوس\nمترادف‌ها:\n- der Autobus (اتوبوس)\nمتضادها:\n- die Bahn (قطار)\n- das Auto (ماشین شخصی)"
-  },
-  {
-    "Sound_de": "die Butter, die Butter",
-    "root": "اجزای تشکیل‌دهنده:\nاز یونانی برای کره گاو\nمعنی کلی: کره\nمترادف‌ها:\n- die Margarine (مارگارین - جایگزین)\nمتضادها:\n- das Öl (روغن)\n- die Margarine (جایگزین مصنوعی)"
-  }
+  {"Verb": "wohnen", "Vfa": "زندگی کردن / ساکن بودن"},
+  {"Verb": "bezahlen", "Vfa": "پرداخت کردن"},
+  {"Verb": "zahlen", "Vfa": "پرداخت کردن"},
+  {"Verb": "abfahren", "Vfa": "حرکت کردن / عازم شدن"},
+  {"Verb": "abgeben", "Vfa": "تحویل دادن / سپردن"},
+  {"Verb": "abholen", "Vfa": "تحویل گرفتن / بردن"},
+  {"Verb": "anfangen", "Vfa": "شروع کردن"},
+  {"Verb": "anklicken", "Vfa": "کلیک کردن"},
+  {"Verb": "ankommen", "Vfa": "رسیدن"},
+  {"Verb": "ankreuzen", "Vfa": "علامت زدن / تیک زدن"},
+  {"Verb": "anmachen", "Vfa": "روشن کردن"},
+  {"Verb": "anmelden", "Vfa": "ثبت نام کردن"},
+  {"Verb": "anrufen", "Vfa": "تماس گرفتن / زنگ زدن"},
+  {"Verb": "antworten", "Vfa": "پاسخ دادن"},
+  {"Verb": "anziehen", "Vfa": "پوشیدن (لباس)"},
+  {"Verb": "arbeiten", "Vfa": "کار کردن"},
+  {"Verb": "aufhören", "Vfa": "متوقف کردن / تمام کردن"},
+  {"Verb": "aufstehen", "Vfa": "از خواب بیدار شدن / بلند شدن"},
+  {"Verb": "ausfüllen", "Vfa": "پر کردن (فرم)"},
+  {"Verb": "ausmachen", "Vfa": "خاموش کردن"},
+  {"Verb": "aussehen", "Vfa": "به نظر رسیدن"},
+  {"Verb": "aussteigen", "Vfa": "پیاده شدن"},
+  {"Verb": "ausziehen", "Vfa": "درآوردن (لباس) / نقل مکان کردن"},
+  {"Verb": "baden", "Vfa": "حمام کردن"},
+  {"Verb": "bedeuten", "Vfa": "معنی دادن"},
+  {"Verb": "beginnen", "Vfa": "شروع کردن"},
+  {"Verb": "bekommen", "Vfa": "دریافت کردن / گرفتن"},
+  {"Verb": "benutzen", "Vfa": "استفاده کردن"},
+  {"Verb": "besichtigen", "Vfa": "بازدید کردن / دیدن"},
+  {"Verb": "bestellen", "Vfa": "سفارش دادن"},
+  {"Verb": "besuchen", "Vfa": "دیدن / بازدید کردن"},
+  {"Verb": "bitten", "Vfa": "درخواست کردن / خواهش کردن"},
+  {"Verb": "bleiben", "Vfa": "ماندن"},
+  {"Verb": "brauchen", "Vfa": "نیاز داشتن"},
+  {"Verb": "bringen", "Vfa": "آوردن"},
+  {"Verb": "buchstabieren", "Vfa": "حرف به حرف گفتن / املا کردن"},
+  {"Verb": "danken", "Vfa": "تشکر کردن"},
+  {"Verb": "dauern", "Vfa": "طول کشیدن"},
+  {"Verb": "drucken", "Vfa": "چاپ کردن"},
+  {"Verb": "drücken", "Vfa": "فشار دادن"},
+  {"Verb": "dürfen", "Vfa": "اجازه داشتن"},
+  {"Verb": "duschen", "Vfa": "دوش گرفتن"},
+  {"Verb": "einkaufen", "Vfa": "خرید کردن"},
+  {"Verb": "einladen", "Vfa": "دعوت کردن"},
+  {"Verb": "einsteigen", "Vfa": "سوار شدن"},
+  {"Verb": "empfehlen", "Vfa": "توصیه کردن"},
+  {"Verb": "enden", "Vfa": "تمام شدن"},
+  {"Verb": "entschuldigen", "Vfa": "عذرخواهی کردن"},
+  {"Verb": "erklären", "Vfa": "توضیح دادن"},
+  {"Verb": "erlauben", "Vfa": "اجازه دادن"},
+  {"Verb": "erzählen", "Vfa": "داستان گفتن / تعریف کردن"},
+  {"Verb": "essen", "Vfa": "خوردن"},
+  {"Verb": "fahren", "Vfa": "رانندگی کردن / رفتن (با وسیله نقلیه)"},
+  {"Verb": "feiern", "Vfa": "جشن گرفتن"},
+  {"Verb": "fehlen", "Vfa": "کم بودن / غایب بودن"},
+  {"Verb": "fernsehen", "Vfa": "تلویزیون دیدن"},
+  {"Verb": "finden", "Vfa": "پیدا کردن"},
+  {"Verb": "fliegen", "Vfa": "پرواز کردن"},
+  {"Verb": "abfliegen", "Vfa": "پرواز کردن (از مبدا)"},
+  {"Verb": "fragen", "Vfa": "سؤال کردن"},
+  {"Verb": "freuen", "Vfa": "خوشحال شدن (sich freuen)"},
+  {"Verb": "frühstücken", "Vfa": "صبحانه خوردن"},
+  {"Verb": "geben", "Vfa": "دادن"},
+  {"Verb": "gefallen", "Vfa": "پسندیدن / خوش آمدن"},
+  {"Verb": "gehen", "Vfa": "رفتن"},
+  {"Verb": "gehören", "Vfa": "متعلق بودن"},
+  {"Verb": "sterben", "Vfa": "مردن"},
+  {"Verb": "gewinnen", "Vfa": "بردن (مسابقه)"},
+  {"Verb": "glauben", "Vfa": "باور کردن / فکر کردن"},
+  {"Verb": "gratulieren", "Vfa": "تبریک گفتن"},
+  {"Verb": "grillen", "Vfa": "کباب کردن / باربیکیو کردن"},
+  {"Verb": "haben", "Vfa": "داشتن"},
+  {"Verb": "halten", "Vfa": "نگه داشتن / نگه داشتن (اتوبوس)"},
+  {"Verb": "heiraten", "Vfa": "ازدواج کردن"},
+  {"Verb": "heißen", "Vfa": "نام داشتن / صدا زدن"},
+  {"Verb": "helfen", "Vfa": "کمک کردن"},
+  {"Verb": "holen", "Vfa": "آوردن / گرفتن"},
+  {"Verb": "hören", "Vfa": "شنیدن"},
+  {"Verb": "kaufen", "Vfa": "خریدن"},
+  {"Verb": "kennen", "Vfa": "شناختن"},
+  {"Verb": "kennenlernen", "Vfa": "آشنا شدن"},
+  {"Verb": "kochen", "Vfa": "پختن"},
+  {"Verb": "kommen", "Vfa": "آمدن"},
+  {"Verb": "können", "Vfa": "توانستن"},
+  {"Verb": "kosten", "Vfa": "هزینه داشتن / چشیدن"},
+  {"Verb": "kriegen", "Vfa": "گرفتن (غیررسمی)"},
+  {"Verb": "sich kümmern", "Vfa": "مراقبت کردن / رسیدگی کردن"},
+  {"Verb": "lachen", "Vfa": "خندیدن"},
+  {"Verb": "laufen", "Vfa": "دویدن / راه رفتن"},
+  {"Verb": "leben", "Vfa": "زندگی کردن"},
+  {"Verb": "legen", "Vfa": "خواباندن / گذاشتن"},
+  {"Verb": "lernen", "Vfa": "یاد گرفتن"},
+  {"Verb": "lesen", "Vfa": "خواندن"},
+  {"Verb": "lieben", "Vfa": "دوست داشتن / عاشق بودن"},
+  {"Verb": "liegen", "Vfa": "دراز کشیدن / قرار داشتن"},
+  {"Verb": "machen", "Vfa": "انجام دادن / کردن"},
+  {"Verb": "mieten", "Vfa": "اجاره کردن"},
+  {"Verb": "mitbringen", "Vfa": "با خود آوردن"},
+  {"Verb": "mitkommen", "Vfa": "همراه آمدن"},
+  {"Verb": "mitmachen", "Vfa": "شرکت کردن"},
+  {"Verb": "mitnehmen", "Vfa": "با خود بردن"},
+  {"Verb": "möchten", "Vfa": "میل داشتن / خواستن"},
+  {"Verb": "mögen", "Vfa": "دوست داشتن"},
+  {"Verb": "müssen", "Vfa": "باید / مجبور بودن"},
+  {"Verb": "nehmen", "Vfa": "گرفتن"},
+  {"Verb": "öffnen", "Vfa": "باز کردن"},
+  {"Verb": "Rad fahren", "Vfa": "دوچرخه سواری کردن"},
+  {"Verb": "rauchen", "Vfa": "سیگار کشیدن"},
+  {"Verb": "regnen", "Vfa": "باران باریدن"},
+  {"Verb": "reisen", "Vfa": "سفر کردن"},
+  {"Verb": "reparieren", "Vfa": "تعمیر کردن"},
+  {"Verb": "riechen", "Vfa": "بو کردن / بو دادن"},
+  {"Verb": "scheinen", "Vfa": "به نظر رسیدن"},
+  {"Verb": "schicken", "Vfa": "فرستادن"},
+  {"Verb": "schlafen", "Vfa": "خوابیدن"},
+  {"Verb": "schließen", "Vfa": "بستن"},
+  {"Verb": "schmecken", "Vfa": "مزه داشتن"},
+  {"Verb": "sagen", "Vfa": "گفتن"},
+  {"Verb": "schreiben", "Vfa": "نوشتن"},
+  {"Verb": "schwimmen", "Vfa": "شنا کردن"},
+  {"Verb": "sehen", "Vfa": "دیدن"},
+  {"Verb": "sein", "Vfa": "بودن"},
+  {"Verb": "an sein", "Vfa": "روشن بودن"},
+  {"Verb": "auf sein", "Vfa": "باز بودن"},
+  {"Verb": "weg sein", "Vfa": "رفته بودن"},
+  {"Verb": "zu sein", "Vfa": "بسته بودن"},
+  {"Verb": "sitzen", "Vfa": "نشستن"},
+  {"Verb": "sollen", "Vfa": "باید (توصیه)"},
+  {"Verb": "spielen", "Vfa": "بازی کردن"},
+  {"Verb": "sprechen", "Vfa": "صحبت کردن"},
+  {"Verb": "stehen", "Vfa": "ایستادن"},
+  {"Verb": "tanzen", "Vfa": "رقصیدن"},
+  {"Verb": "telefonieren", "Vfa": "تلفن کردن"},
+  {"Verb": "treffen", "Vfa": "ملاقات کردن"},
+  {"Verb": "trinken", "Vfa": "نوشیدن"},
+  {"Verb": "tun", "Vfa": "انجام دادن"},
+  {"Verb": "übernachten", "Vfa": "شب ماندن / اقامت کردن"},
+  {"Verb": "überweisen", "Vfa": "پول واریز کردن"},
+  {"Verb": "unterschreiben", "Vfa": "امضا کردن"},
+  {"Verb": "verdienen", "Vfa": "درآمد داشتن / شایسته بودن"},
+  {"Verb": "verkaufen", "Vfa": "فروختن"},
+  {"Verb": "vermieten", "Vfa": "اجاره دادن"},
+  {"Verb": "verstehen", "Vfa": "فهمیدن"},
+  {"Verb": "vorstellen", "Vfa": "معرفی کردن"},
+  {"Verb": "wandern", "Vfa": "پیاده‌روی کردن (طبیعت‌گردی)"},
+  {"Verb": "warten", "Vfa": "صبر کردن"},
+  {"Verb": "waschen", "Vfa": "شستن"},
+  {"Verb": "weh tun", "Vfa": "درد کردن"},
+  {"Verb": "wiederholen", "Vfa": "تکرار کردن"},
+  {"Verb": "wissen", "Vfa": "دانستن"},
+  {"Verb": "wohnen", "Vfa": "زندگی کردن / ساکن بودن"},
+  {"Verb": "wollen", "Vfa": "خواستن"},
+  {"Verb": "zahlen", "Vfa": "پرداخت کردن"}
 ]

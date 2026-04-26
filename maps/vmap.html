@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="fa" dir="rtl">
   <head>
     <meta charset="utf-8" />
@@ -21,7 +20,7 @@
     <style>
       :root {
         --primary: #1e40af;
-        --primary-dark: #1e3a8a;
+        --primary-dark: #5200c6;
         --success: #a596ff;
         --gray-100: #f8fafc;
         --gray-200: #e2e8f0;
@@ -46,31 +45,75 @@
         width: 100vw;
       }
 
+       .verb {
+        font-size: 1.3rem;
+        color: #5200c6 !important;
+        direction: ltr;
+        margin-bottom: 0.2rem;
+        text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4);
+        text-decoration:none;
+      }
+
+      /* استایل جدید برای مارکرهای غنی */
+      .rich-marker {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+        padding: 4px 5px;
+        text-align: center;
+        line-height: 1.3;
+        direction: rtl;
+        white-space: nowrap;
+        overflow: hidden;
+        border: solid 0.5px;
+        border-color: #515ccb;
+      }
+      .rich-marker .number {
+        background: #f0f4ff;
+        display: inline-block;
+        margin-bottom: 4px;
+      }
+      .rich-marker .verb {
+        font-size: 15px;
+        font-weight: 700;
+        color: #5200c6;
+        direction: ltr;
+        margin: 2px 0;
+      }
+      .rich-marker .person {
+        font-size: 12px;
+        color: #6b21a8;
+        font-weight: 600;
+      }
+      .rich-marker .fa {
+        font-size: 12.5px;
+        color: #334155;
+        margin-top: 3px;
+        display: block;
+      }
+
       .leaflet-popup-content-wrapper,
       .leaflet-popup-tip {
         background: white;
         border: none !important;
       }
-
       .leaflet-popup-content {
         margin: 0 !important;
         padding: 0 !important;
         width: 100% !important;
         max-width: none !important;
-        line-height: 1.5;
       }
       .leaflet-popup-close-button {
-        font-size: 1.5rem !important;
-        color: var(--gray-600) !important;
-        background: white !important;
+        font-size: 1.1rem !important;
+        color: #ff0000 !important;
+        background: #ffd3d3 !important;
         border-radius: 50% !important;
         width: 32px !important;
         height: 32px !important;
         line-height: 32px !important;
         box-shadow: var(--shadow-sm) !important;
-        right: 12px !important;
-        top: 12px !important;
-        display: none;
+         right: 6px !important;
+    top: 20px !important;
       }
 
       .popup {
@@ -82,67 +125,37 @@
         font-size: 0.94rem;
         line-height: 1.55;
       }
-
       .header-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 0.2rem;
-        /* padding-bottom: 0.6rem; */
         border-bottom: 1px solid var(--gray-200);
       }
       .city-name {
         font-size: 1.12rem;
         color: var(--gray-800);
         font-weight: 600;
-        padding-right: 20px;
-      }
-      .number {
-        font-size: 1rem;
-        font-weight: 700;
-        color: var(--primary);
-        background: var(--gray-100);
-        padding: 0.25rem 0.7rem;
-        border-radius: 999px;
+        padding-right: 40px;
+            font-family: monospace !important;
       }
 
-      /* بخش فعل و شخص */
       .verb-section {
-        /* background: linear-gradient(135deg, #f0e6ff12, #e0d4ffe6); */
-        /* border: 1px solid #d1b3ff9e; */
-        /* border-radius: 5px; */
-        /* padding: 0.9rem; */
-        /* margin: 0.7rem 0; */
         text-align: center;
       }
-
-      .verb {
-        font-size: 1.3rem;
-        /* font-weight: 700; */
-        color: #5200c6;
-        direction: ltr;
-        margin-bottom: 0.2rem;
-        text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4);
-      }
-      .person {
-        font-size: 1.05rem;
-        color: #6b21a8;
-        font-weight: 600;
-      }
-
+     
       .de {
         font-weight: 700;
         font-size: 0.9rem;
         direction: ltr;
         text-align: left;
         color: #1e293b;
-        /* margin: 0.6rem 0 0.4rem; */
       }
       .fa {
         color: #334155;
         font-size: 0.88rem;
         line-height: 1.5;
-        /* margin-bottom: 0.7rem; */
+        font-family: monospace !important;
       }
 
       .grammar-section {
@@ -152,20 +165,10 @@
         border-radius: var(--radius-md);
         border: 1px solid var(--gray-200);
       }
-
-      /* .grammar-section2 { */
-      /* margin: 0.2rem 0; */
-      /* padding: 0px 10px; */
-      /* background: var(--gray-100); */
-      /* border-radius: var(--radius-md); */
-      /* border: 1px solid var(--gray-200); */
-      /* } */
-
       .grammar-title {
         font-size: 0.7rem;
         font-weight: 700;
         color: #64748b;
-        /* margin-bottom: 0.45rem; */
       }
       .example {
         font-size: 0.75rem;
@@ -173,35 +176,24 @@
         background: white;
         padding: 0px 3px;
         border-radius: 8px;
-        /* border-right: 2px solid var(--success); */
-        /* margin: 0.35rem 0; */
         direction: ltr;
         text-align: left;
       }
 
-      /* .zeitmodi-grid { */
-      /* display: grid; */
-      /* grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); */
-      /* gap: 0.1rem; */
-      /* } */
       .zeit-item {
         background: #e8f1fc;
         padding: 3px 10px;
         border-radius: var(--radius-md);
         border: 1px solid var(--gray-200);
         font-size: 0.8rem;
-        /* text-align: left; */
         margin-bottom: 2px;
       }
       .zeit-label {
         font-size: 0.72rem;
         color: var(--success);
         font-weight: 600;
-        /* margin-bottom: 3px; */
-        /* text-align: right; */
         display: block;
       }
-
       .zeit-main {
         font-weight: 600;
         direction: ltr;
@@ -211,161 +203,17 @@
         align-items: baseline;
         gap: 6px;
       }
-
       .zeit-example {
         font-size: 0.75rem;
         color: #334155;
         background: #f3f8fd;
         padding: 0.1rem 0.1rem;
         border-radius: 6px;
-        /* border-right: 2px solid var(--success); */
         direction: ltr;
         text-align: left;
       }
 
-      /* مودال، دکمه‌ها و استوانه پیشرفت (از کد اصلی شما) */
-      #start-modal {
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.7);
-        display: none;
-        align-items: center;
-        justify-content: center;
-        z-index: 10000;
-      }
-      .modal-content {
-        background: white;
-        padding: 0.5rem;
-        border-radius: var(--radius-lg);
-        width: 320px;
-        max-width: 90%;
-        box-shadow: var(--shadow-md);
-        text-align: center;
-      }
-      .modal-content h2 {
-        margin: 0 0 1.2rem;
-        color: var(--gray-800);
-        font-size: 1.4rem;
-        font-weight: 700;
-      }
-      .modal-content input {
-        font-size: 1.3rem;
-        border: 2px solid var(--primary);
-        border-radius: var(--radius-md);
-        text-align: center;
-        /* width: 100%; */
-        padding: 8px;
-      }
-      .modal-content button {
-        margin-top: 1.5rem;
-        padding: 0.5rem 2rem;
-        background: var(--primary);
-        color: white;
-        border: none;
-        border-radius: var(--radius-md);
-        font-size: 1.1rem;
-        /* font-weight: 600; */
-        cursor: pointer;
-      }
-      .modal-content button:hover {
-        background: var(--primary-dark);
-      }
-
-     #prev-next {
-        position: fixed;
-        left: 20px; /* فاصله از لبه چپ */
-        top: 70%;
-        transform: translateY(-50%);
-        z-index: 9999;
-        display: none;
-        flex-direction: column; /* عمودی */
-        gap: 1rem; /* فاصله بین دو دکمه */
-        align-items: flex-start;
-      }
-
-      #prev-next button {
-        padding: 2.5rem 0rem;
-        font-size: 0.8rem;
-        /* font-weight: 600; */
-        border: none;
-        border-radius: var(--radius-md);
-        color: white;
-        min-width: 30px;
-        cursor: pointer;
-        box-shadow: var(--shadow-md);
-      }
-      #prev-btn {
-        background: #6c5d8f;
-      }
-      #prev-btn:hover {
-        background: #7d6ba7;
-      }
-      #next-btn {
-        background: #43395a;
-      }
-      #next-btn:hover {
-        background: #584c74;
-      }
-
-      #progress-cylinder {
-        position: fixed;
-        right: 5px;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 9998;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-        user-select: none;
-      }
-      .cylinder-label {
-        font-size: 0.85rem;
-        font-weight: 600;
-        color: #64748b;
-        writing-mode: vertical-rl;
-        transform: rotate(180deg);
-      }
-      .cylinder {
-        width: 28px;
-        height: 320px;
-        background: linear-gradient(to bottom, #e2e8f09e, #f1f5f9a8);
-        border: 1px solid #64748b;
-        border-radius: 999px;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-      }
-      #progress-fill {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: linear-gradient(to top, #2fee22, #67f984, #0ee919);
-        transition: height 0.6s ease-in-out;
-      }
-      #progress-counter {
-        font-size: 1rem;
-        color: var(--primary);
-        background: white;
-        padding: 4px 5px;
-        border-radius: 999px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        min-width: 27px;
-        text-align: center;
-      }
-
-      .custom-popup .leaflet-popup-content-wrapper {
-        border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-      }
-
-      .custom-popup .leaflet-popup-tip {
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      }
-
-           /* ================ دکمه شناور ترجمه (جدید) ================ */
+      /* دکمه شناور ترجمه */
       #float-translate-btn {
         position: fixed;
         display: none;
@@ -382,60 +230,19 @@
         font-size: 24px;
         transition: all 0.2s ease;
         user-select: none;
-        padding: 3px 1px 0px 1px;
       }
       #float-translate-btn:hover {
         transform: scale(1.1);
         background: var(--primary-dark);
       }
-
-      @media (max-width: 480px) {
-        .popup {
-          max-width: 88vw !important;
-          min-width: 260px !important;
-        }
-        #prev-next {
-          left: 12px;           /* نزدیک‌تر به لبه برای انگشت شست */
-          gap: 0.85rem;
-        }
-        #prev-next button {
-          padding: 2.5rem 0rem;
-          min-width: 30px;
-          font-size: 0.8rem;
-        }
-      }
     </style>
   </head>
   <body>
+    <!-- دکمه ترجمه شناور -->
+    <div id="float-translate-btn">🌐</div>
+
     <div id="map"></div>
 
-    <div id="start-modal">
-      <div class="modal-content">
-        <h2>Verbnummer</h2>
-        <input
-          id="sentence-input"
-          type="number"
-          min="1"
-          value=""
-          placeholder="nummer"
-        />
-        <button onclick="startApp()">Bestätigen</button>
-      </div>
-    </div>
-
-    <div id="prev-next">
-      <button id="prev-btn" onclick="showPrevious()"> </button>
-      <button id="next-btn" onclick="showNext()"> </button>
-    </div>
-
-    <div id="progress-cylinder">
-      <div class="cylinder-label">Sätze</div>
-      <div class="cylinder"><div id="progress-fill"></div></div>
-      <div id="progress-counter">0</div>
-    </div>
-  <div id="float-translate-btn" title="ترجمه با گوگل">
-      🌐
-    </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
       const SENTENCES_PER_CITY = 6;
@@ -453,7 +260,7 @@
         zoomControl: true,
         attributionControl: true,
         preferCanvas: true,
-      }).setView([32.5, 53.5], 5);
+      }).setView([32.5, 53.5], 6);
 
       L.tileLayer("https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}", {
         maxZoom: 20,
@@ -461,24 +268,24 @@
         attribution: "© Google Maps",
       }).addTo(map);
 
-      function getCustomIcon(filename) {
-        const num = String(filename || "?").padStart(2, "0");
-        return L.divIcon({
-          className: "custom-number-marker",
-          html: `<div style="background:white;color:#1e40af;font-size:14px;font-weight:700;width:32px;height:32px;border:1.5px solid #a3a8ea;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,0.2);">${num}</div>`,
-          iconSize: [34, 34],
-          iconAnchor: [17, 17],
-          popupAnchor: [0, -15],
-        });
-      }
+      // تابع جدید: ساخت آیکون غنی با Verb + Person + Fa
+      function getRichIcon(item) {
+        // console.log(item)
+        const num = String(item.Filename || "?").padStart(2, "0");
+        const person = item.Person || "";
+        const faText = item.Vfa || "";
 
-      function updateProgress() {
-        if (!sortedItems.length) return;
-        const percent = ((currentGlobalIndex + 1) / sortedItems.length) * 100;
-        document.getElementById("progress-fill").style.height = percent + "%";
-        document.getElementById("progress-counter").textContent = String(
-          currentGlobalIndex + 1,
-        ).padStart(2, "0");
+        return L.divIcon({
+          className: "rich-marker",
+          html: `
+                    <div class="number">${num}</div>
+                    ${person ? `<div class="person">${person}</div>` : ""}
+                    ${faText ? `<div class="fa">${faText}</div>` : ""}
+                `,
+          iconSize: [null, null], // اندازه خودکار
+          iconAnchor: [60, 45], // مرکز آیکون
+          popupAnchor: [0, -50],
+        });
       }
 
       function updatePath() {
@@ -487,8 +294,8 @@
         } else if (fullPathPoints.length > 1) {
           pathPolyline = L.polyline(fullPathPoints, {
             color: "#6c5d8f",
-            weight: 1,
-            opacity: 0.75,
+            weight: 1.5,
+            opacity: 0.7,
             lineJoin: "round",
             lineCap: "round",
           }).addTo(map);
@@ -500,6 +307,11 @@
         return `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(text.trim())}&op=translate`;
       }
 
+        function createTranslateLinkverb(verb) {
+        if (!verb || verb === "—") return "#";
+        return `https://www.verbformen.de/deklination/adjektive/?w=${encodeURIComponent(verb.trim())}`;
+      }
+
       function showSentence(globalIdx, smooth = true) {
         if (globalIdx < 0 || globalIdx >= sortedItems.length) return;
         currentGlobalIndex = globalIdx;
@@ -509,7 +321,6 @@
           const marker = currentMarkers.get(globalIdx);
           map.flyTo(marker.getLatLng(), 12, { duration: 1 });
           setTimeout(() => marker.openPopup(), 800);
-          updateProgress();
           return;
         }
 
@@ -521,181 +332,117 @@
           "نامشخص";
 
         let popupHTML = `
-          <div class="popup">
-            <div class="header-row">
-              <div class="city-name">${cityName}</div>
-              <div class="number">${item.Filename}</div>
-            </div>
+                <div class="popup">
+                    <div class="header-row">
+                        <div class="city-name">${cityName}</div>
+                        <div class="number">${item.Filename}</div>
+                    </div>
 
-            <!-- فعل و شخص -->
-            <div class="verb-section">
-              <div class="verb">
-                <a href="${createTranslateLink(item.Verb)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.Verb}</a>
-              </div>
-             
-            </div>
+                    <div class="verb-section">
+                        <a class="verb" target="_blank" href="${createTranslateLinkverb(item.Verb)}">${item.Verb}</a>
+                    </div>
 
-            <!-- جمله اصلی -->
-            <div class="de">
-              <a href="${createTranslateLink(item.Sound_de)}" target="_blank" style="color:#1e293b; text-decoration:none;">${item.Sound_de || "—"}</a>
-            </div>
-            <div class="fa">${item.fa || "—"}</div>
+                    <div class="de">${item.Sound_de || "—"}</div>
+                    <div class="fa">${item.fa || "—"}</div>
 
-            <!-- مثال اصلی -->
-            ${
-              item.Beispiel
-                ? `
-            <div class="grammar-section">
-              <div class="grammar-title">Beispiel</div>
-              <div class="example">
-                <a href="${createTranslateLink(item.Beispiel)}" target="_blank" style="color:inherit; text-decoration:none;">${item.Beispiel}</a>
-              </div>
-            </div>`
-                : ""
-            }
+                    ${
+                      item.Beispiel
+                        ? `
+                        <div class="grammar-section">
+                            <div class="grammar-title">Beispiel</div>
+                            <div class="example">
+                                <a href="${createTranslateLink(item.Beispiel)}" target="_blank" style="color:inherit; text-decoration:none;">${item.Beispiel}</a>
+                            </div>
+                        </div>
+                    `
+                        : ""
+                    }
 
-            <!-- منفی -->
-            ${
-              item.Negativ
-                ? `
-            <div class="grammar-section">
-              <div class="grammar-title" style="color: #ec8787">Negativ</div>
-              <div class="de">
-                <a href="${createTranslateLink(item.Negativ)}" target="_blank" style="color:inherit; text-decoration:none;">${item.Negativ}</a>
-              </div>
-              ${
-                item.Beispiel_Negativ
-                  ? `
-              <div class="example">
-                <a href="${createTranslateLink(item.Beispiel_Negativ)}" target="_blank" style="color:inherit; text-decoration:none;">${item.Beispiel_Negativ}</a>
-              </div>`
-                  : ""
-              }
-            </div>`
-                : ""
-            }
+                    ${
+                      item.Negativ
+                        ? `
+                        <div class="grammar-section">
+                            <div class="grammar-title" style="color: #ec8787">Negativ</div>
+                            <div class="de">
+                                <a href="${createTranslateLink(item.Negativ)}" target="_blank" style="color:inherit; text-decoration:none;">${item.Negativ}</a>
+                            </div>
+                            ${item.Beispiel_Negativ ? `<div class="example">${item.Beispiel_Negativ}</div>` : ""}
+                        </div>
+                    `
+                        : ""
+                    }
 
-            <!-- سؤالی -->
-            ${
-              item.fragend
-                ? `
-            <div class="grammar-section">
-              <div class="grammar-title" style="color: #61b5f1">Frage</div>
-              <div class="de">
-                <a href="${createTranslateLink(item.fragend)}" target="_blank" style="color:inherit; text-decoration:none;">${item.fragend}</a>
-              </div>
-              ${
-                item.Beispiel_fragend
-                  ? `
-              <div class="example">
-                <a href="${createTranslateLink(item.Beispiel_fragend)}" target="_blank" style="color:inherit; text-decoration:none;">${item.Beispiel_fragend}</a>
-              </div>`
-                  : ""
-              }
-            </div>`
-                : ""
-            }
+                    ${
+                      item.fragend
+                        ? `
+                        <div class="grammar-section">
+                            <div class="grammar-title" style="color: #61b5f1">Frage</div>
+                            <div class="de">
+                                <a href="${createTranslateLink(item.fragend)}" target="_blank" style="color:inherit; text-decoration:none;">${item.fragend}</a>
+                            </div>
+                            ${item.Beispiel_fragend ? `<div class="example">${item.Beispiel_fragend}</div>` : ""}
+                        </div>
+                    `
+                        : ""
+                    }
 
-            <!-- Zeitmodi -->
-            ${
-              item.Zeitmodi &&
-              Array.isArray(item.Zeitmodi) &&
-              item.Zeitmodi.length > 0
-                ? `
-            <div class="grammar-section2">
-              
-              <div class="zeitmodi-grid">
-                ${item.Zeitmodi.map((z) => {
-                  const key = Object.keys(z)[0];
-                  const value = z[key];
-                  const beispiel = z.Beispiel || "";
-                  return `
-                   <div class="zeit-item">
-  <div class="zeit-main">
-    <span class="zeit-label">${key}:</span>
-    <a href="${createTranslateLink(value)}" target="_blank" style="color:inherit; text-decoration:none;">
-      ${value}
-    </a>
-  </div>
-  ${
-    beispiel
-      ? `
-  <div class="zeit-example">
-    <a href="${createTranslateLink(beispiel)}" target="_blank" style="color:inherit; text-decoration:none;">
-      ${beispiel}
-    </a>
-  </div>`
-      : ""
-  }
-</div>`;
-                }).join("")}
-              </div>
-            </div>`
-                : ""
-            }
-
-          </div>`;
+                    ${
+                      item.Zeitmodi &&
+                      Array.isArray(item.Zeitmodi) &&
+                      item.Zeitmodi.length > 0
+                        ? `
+                        <div class="grammar-section">
+                            ${item.Zeitmodi.map((z) => {
+                              const key = Object.keys(z)[0];
+                              const value = z[key];
+                              const beispiel = z.Beispiel || "";
+                              return `
+                                    <div class="zeit-item">
+                                        <span class="zeit-label">${key}:</span>
+                                        <div class="zeit-main">${value}</div>
+                                        ${beispiel ? `<div class="zeit-example"><a href="${createTranslateLink(beispiel)}" target="_blank" style="color:inherit; text-decoration:none;">${beispiel}</a></div>` : ""}
+                                    </div>
+                                `;
+                            }).join("")}
+                        </div>
+                    `
+                        : ""
+                    }
+                </div>
+            `;
 
         const marker = L.marker(pos, {
-          icon: getCustomIcon(item.Filename),
+          icon: getRichIcon(item),
         }).addTo(map);
+
         marker.globalIndex = globalIdx;
+
         marker.bindPopup(popupHTML, {
-          maxWidth: 420, // کمی بزرگ‌تر هم می‌شود
+          maxWidth: 420,
           minWidth: 280,
           autoPan: true,
-          autoPanPaddingTopLeft: [20, 100], // ← مهم: فاصله از بالا
-          autoPanPaddingBottomRight: [20,0], // فاصله از پایین
-          offset: [0, -5], // کمی پاپ‌آپ را بالاتر بکشد
-          closeButton: true,
-          className: "custom-popup", // برای استایل‌دهی بیشتر
+          autoPanPaddingTopLeft: [20, 100],
+          autoPanPaddingBottomRight: [20, 0],
+          className: "custom-popup",
         });
 
         currentMarkers.set(globalIdx, marker);
 
+        marker.on("click", function () {
+          currentGlobalIndex = this.globalIndex;
+        });
+
         if (smooth) {
           map.flyTo(pos, 12, { duration: 1.0 });
           setTimeout(() => {
-            marker.openPopup();
-            fullPathPoints.push(pos); // ← اضافه شود
+            fullPathPoints.push(pos);
             updatePath();
-            updateProgress();
           }, 900);
         } else {
-          map.setView(pos, 12);
-          marker.openPopup();
-          fullPathPoints.push(pos); // ← اضافه شود
+          fullPathPoints.push(pos);
           updatePath();
-          updateProgress();
         }
       }
-
-      window.showNext = function () {
-        if (currentGlobalIndex + 1 < sortedItems.length)
-          showSentence(currentGlobalIndex + 1, true);
-        else alert("Ende der Sätze erreicht!");
-      };
-
-      window.showPrevious = function () {
-        if (currentGlobalIndex > 0) showSentence(currentGlobalIndex - 1, true);
-        else alert("Dies ist der erste Satz!");
-      };
-
-      window.startApp = function () {
-        let num =
-          parseInt(document.getElementById("sentence-input").value) || 1;
-        const targetItem = sortedItems.find(
-          (item) => parseInt(item.Filename) === num,
-        );
-        if (!targetItem) {
-          alert(`Satz ${num} nicht gefunden!`);
-          return;
-        }
-        const globalIndex = sortedItems.indexOf(targetItem);
-        document.getElementById("start-modal").style.display = "none";
-        document.getElementById("prev-next").style.display = "flex";
-        showSentence(globalIndex, true);
-      };
 
       // بارگذاری داده‌ها
       fetch("../json/cities.json")
@@ -712,6 +459,7 @@
             (a, b) => parseInt(a.Filename) - parseInt(b.Filename),
           );
 
+          // محاسبه موقعیت‌ها
           sortedItems.forEach((item, i) => {
             const cityIdx = Math.floor(i / SENTENCES_PER_CITY);
             if (cityIdx >= allCities.length) return;
@@ -727,62 +475,45 @@
             precomputedPositions.push([lat, lng]);
           });
 
-          // نمایش فعل‌های بزرگ روی نقشه
-          verbs.forEach((verb, cityIdx) => {
-            if (cityIdx >= allCities.length) return;
-            const city = allCities[cityIdx];
-            const verbIcon = L.divIcon({
-              className: "large-verb-marker",
-              html: `<div style="background:rgba(225,221,244,0.96);color:#5200c6;font-size:22px;padding:5px 12px;border-radius:10px;box-shadow:0 6px 20px rgba(30,64,175,0.3);white-space:nowrap;direction:ltr;text-align:center;min-width:130px;border:1px solid #c4b5ff;">${verb}</div>`,
-              iconSize: [null, null],
-              iconAnchor: [75, 35],
-            });
-            const verbMarker = L.marker([city.lat, city.lng], {
-              icon: verbIcon,
-              zIndexOffset: 1000,
-            }).addTo(map);
-            verbMarkers.push(verbMarker);
+          // نمایش همه مارکرها با اطلاعات کامل
+          sortedItems.forEach((item, i) => {
+            showSentence(i, false);
           });
 
-          function updateVerbMarkersVisibility() {
-            const zoom = map.getZoom();
-            verbMarkers.forEach((m) => {
-              if (zoom >= VERB_SHOW_ZOOM) m.addTo(map);
-              else if (map.hasLayer(m)) map.removeLayer(m);
-            });
-          }
-
-          updateVerbMarkersVisibility();
-          map.on("zoomend", updateVerbMarkersVisibility);
-
-          document.getElementById("start-modal").style.display = "flex";
+          // فعل‌های بزرگ روی شهرها (اختیاری)
+          // verbs.forEach((verb, cityIdx) => {
+          //     if (cityIdx >= allCities.length) return;
+          //     const city = allCities[cityIdx];
+          //     const verbIcon = L.divIcon({
+          //         html: `<div style="background:rgba(225,221,244,0.95);color:#5200c6;font-size:21px;padding:6px 14px;border-radius:10px;box-shadow:0 6px 20px rgba(30,64,175,0.3);white-space:nowrap;">${verb}</div>`,
+          //         iconAnchor: [75, 35],
+          //     });
+          //     L.marker([city.lat, city.lng], { icon: verbIcon, zIndexOffset: 1000 }).addTo(map);
+          // });
         })
         .catch((err) => {
           console.error(err);
           alert("Fehler beim Laden der JSON-Dateien");
         });
 
-                 /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
+      // قابلیت ترجمه متن انتخابی
       let translateBtn = null;
       let hideTimeout = null;
+      let currentSelectedText = "";
 
       function showTranslateButton() {
         const selection = window.getSelection();
         const selectedText = selection.toString().trim();
-        
         if (selectedText.length === 0) {
           hideTranslateButton();
           return;
         }
-
-        // متن انتخاب‌شده را ذخیره می‌کنیم (برای موبایل خیلی مهم است)
         currentSelectedText = selectedText;
 
         if (!translateBtn) {
           translateBtn = document.getElementById("float-translate-btn");
           if (!translateBtn) return;
 
-          // کلیک معمولی (دسکتاپ)
           translateBtn.addEventListener("click", function (e) {
             e.stopImmediatePropagation();
             if (currentSelectedText) {
@@ -792,7 +523,6 @@
             hideTranslateButton();
           });
 
-          // ضربه لمسی (iOS + Android) – مشکل قبلی دقیقاً اینجا بود
           translateBtn.addEventListener("touchend", function (e) {
             e.preventDefault();
             e.stopImmediatePropagation();
@@ -806,7 +536,6 @@
 
         const range = selection.getRangeAt(0);
         const rect = range.getBoundingClientRect();
-
         const btnSize = 48;
         let left = rect.right + 12;
         let top = rect.top - btnSize - 12;
@@ -820,39 +549,34 @@
 
         if (hideTimeout) clearTimeout(hideTimeout);
         hideTimeout = setTimeout(() => {
-          if (window.getSelection().toString().trim() === "") hideTranslateButton();
+          if (window.getSelection().toString().trim() === "")
+            hideTranslateButton();
         }, 8000);
       }
 
       function hideTranslateButton() {
         if (translateBtn) translateBtn.style.display = "none";
-        currentSelectedText = "";               // پاک کردن متن ذخیره‌شده
-        if (hideTimeout) {
-          clearTimeout(hideTimeout);
-          hideTimeout = null;
-        }
+        currentSelectedText = "";
+        if (hideTimeout) clearTimeout(hideTimeout);
       }
 
-      // فعال‌سازی در همه جا
       document.addEventListener("mouseup", showTranslateButton);
       document.addEventListener("touchend", showTranslateButton);
-      
       document.addEventListener("selectionchange", () => {
-        if (window.getSelection().toString().trim() === "") hideTranslateButton();
+        if (window.getSelection().toString().trim() === "")
+          hideTranslateButton();
       });
-
       document.addEventListener("mousedown", (e) => {
-        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+        if (translateBtn && !translateBtn.contains(e.target))
+          hideTranslateButton();
       });
       document.addEventListener("touchstart", (e) => {
-        if (translateBtn && !translateBtn.contains(e.target)) hideTranslateButton();
+        if (translateBtn && !translateBtn.contains(e.target))
+          hideTranslateButton();
       });
 
-      // مخفی کردن هنگام حرکت نقشه
       map.on("zoomstart", hideTranslateButton);
       map.on("movestart", hideTranslateButton);
-
-
     </script>
   </body>
 </html>

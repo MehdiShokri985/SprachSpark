@@ -1,0 +1,783 @@
+[
+    {
+      "id": 1,
+      "german": "und",
+      "persian": "و",
+      "type": "coordinating (هماهنگ‌کننده)",
+      "level": "A1",
+      "explanation": "ساده‌ترین کانکتور برای اتصال کلمات، عبارات یا جملات مستقل مشابه. ترتیب فعل را تغییر نمی‌دهد و فعل در موقعیت معمولی می‌ماند.",
+      "examples": [
+        { "sentence": "Ich lerne Deutsch und trinke gerne Tee.", "translation": "من آلمانی یاد می‌گیرم و چای را دوست دارم بنوشم." },
+        { "sentence": "Er ist müde und geht ins Bett.", "translation": "او خسته است و به رختخواب می‌رود." }
+      ]
+    },
+    {
+      "id": 2,
+      "german": "oder",
+      "persian": "یا",
+      "type": "coordinating (هماهنگ‌کننده)",
+      "level": "A1",
+      "explanation": "برای نشان دادن انتخاب یا گزینه جایگزین بین دو چیز یا جمله. ترتیب فعل تغییر نمی‌کند.",
+      "examples": [
+        { "sentence": "Möchtest du Tee oder Kaffee?", "translation": "چای می‌خواهی یا قهوه؟" },
+        { "sentence": "Wir gehen ins Kino oder bleiben zu Hause.", "translation": "ما به سینما می‌رویم یا در خانه می‌مانیم." }
+      ]
+    },
+    {
+      "id": 3,
+      "german": "aber",
+      "persian": "اما",
+      "type": "coordinating (هماهنگ‌کننده)",
+      "level": "A1",
+      "explanation": "برای بیان تضاد یا مخالفت ملایم. رایج‌ترین کانکتور «اما». ترتیب فعل تغییر نمی‌کند.",
+      "examples": [
+        { "sentence": "Das Essen ist lecker, aber teuer.", "translation": "غذا خوشمزه است، اما گران است." },
+        { "sentence": "Ich wollte kommen, aber ich hatte keine Zeit.", "translation": "می‌خواستم بیایم، اما وقت نداشتم." }
+      ]
+    },
+    {
+      "id": 4,
+      "german": "denn",
+      "persian": "زیرا / چون",
+      "type": "coordinating (هماهنگ‌کننده)",
+      "level": "A2",
+      "explanation": "برای توضیح دلیل بین دو جمله مستقل. ترتیب فعل تغییر نمی‌کند و نمی‌تواند جمله را شروع کند.",
+      "examples": [
+        { "sentence": "Ich gehe nicht aus, denn ich bin krank.", "translation": "بیرون نمی‌روم، زیرا بیمارم." },
+        { "sentence": "Sie lernt viel, denn sie will die Prüfung bestehen.", "translation": "او زیاد درس می‌خواند، چون می‌خواهد امتحان را پاس کند." }
+      ]
+    },
+    {
+      "id": 5,
+      "german": "sondern",
+      "persian": "بلکه",
+      "type": "coordinating (هماهنگ‌کننده)",
+      "level": "A2",
+      "explanation": "برای تصحیح بعد از منفی (نه ... بلکه). معمولاً بعد از nicht یا kein می‌آید. ترتیب فعل تغییر نمی‌کند.",
+      "examples": [
+        { "sentence": "Ich trinke keinen Kaffee, sondern Tee.", "translation": "قهوه نمی‌نوشم، بلکه چای." },
+        { "sentence": "Er ist nicht dumm, sondern nur müde.", "translation": "او احمق نیست، بلکه فقط خسته است." }
+      ]
+    },
+    {
+      "id": 6,
+      "german": "weil",
+      "persian": "چون / زیرا",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "A2",
+      "explanation": "پرکاربردترین کانکتور برای بیان علت. جمله را وابسته می‌کند و فعل را به آخر جمله می‌برد.",
+      "examples": [
+        { "sentence": "Ich bleibe zu Hause, weil es regnet.", "translation": "در خانه می‌مانم، چون باران می‌بارد." },
+        { "sentence": "Sie ist glücklich, weil sie Urlaub hat.", "translation": "او خوشحال است، زیرا مرخصی دارد." }
+      ]
+    },
+    {
+      "id": 7,
+      "german": "dass",
+      "persian": "که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "A2",
+      "explanation": "برای معرفی محتوای جمله یا نقل قول غیرمستقیم. فعل را به آخر می‌برد.",
+      "examples": [
+        { "sentence": "Ich weiß, dass du kommst.", "translation": "می‌دانم که تو می‌آیی." },
+        { "sentence": "Er sagt, dass er müde ist.", "translation": "او می‌گوید که خسته است." }
+      ]
+    },
+    {
+      "id": 8,
+      "german": "wenn",
+      "persian": "اگر / وقتی که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "A2",
+      "explanation": "برای شرط یا زمان در حال و آینده. فعل به آخر جمله می‌رود. برای گذشته معمولاً «als» استفاده می‌شود.",
+      "examples": [
+        { "sentence": "Wenn es regnet, bleibe ich zu Hause.", "translation": "اگر باران ببارد، در خانه می‌مانم." },
+        { "sentence": "Ich rufe dich an, wenn ich ankomme.", "translation": "اگر/وقتی رسیدم، به تو زنگ می‌زنم." }
+      ]
+    },
+    {
+      "id": 9,
+      "german": "als",
+      "persian": "وقتی که (گذشته)",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "A2",
+      "explanation": "برای بیان زمان در گذشته (وقتی که). فعل به آخر می‌رود و برای وقایع یک‌بار مصرف استفاده می‌شود.",
+      "examples": [
+        { "sentence": "Als ich Kind war, wohnte ich in Teheran.", "translation": "وقتی کودک بودم، در تهران زندگی می‌کردم." },
+        { "sentence": "Als er ankam, begann es zu regnen.", "translation": "وقتی او رسید، باران شروع به باریدن کرد." }
+      ]
+    },
+    {
+      "id": 10,
+      "german": "wie",
+      "persian": "مانند / همانطور که / چطور",
+      "type": "subordinating / comparative",
+      "level": "A2/B1",
+      "explanation": "برای مقایسه (like/as) یا نحوه (how). در جملات مقایسه‌ای فعل معمولاً به آخر نمی‌رود، اما در برخی موارد وابسته است.",
+      "examples": [
+        { "sentence": "Er singt wie ein Profi.", "translation": "او مثل یک حرفه‌ای آواز می‌خواند." },
+        { "sentence": "Ich mache es so, wie du gesagt hast.", "translation": "من آن را همانطور انجام می‌دهم که تو گفتی." }
+      ]
+    },
+    {
+      "id": 11,
+      "german": "deshalb",
+      "persian": "به همین دلیل / بنابراین",
+      "type": "conjunctival adverb (قید کانکتوری)",
+      "level": "B1",
+      "explanation": "برای بیان نتیجه یا نتیجه‌گیری. بعد از کاما می‌آید و فعل را به موقعیت دوم می‌برد (Verbzweit).",
+      "examples": [
+        { "sentence": "Es regnet, deshalb bleibe ich zu Hause.", "translation": "باران می‌بارد، به همین دلیل در خانه می‌مانم." },
+        { "sentence": "Ich habe viel gelernt, deshalb habe ich die Prüfung bestanden.", "translation": "خیلی درس خواندم، بنابراین امتحان را پاس کردم." }
+      ]
+    },
+    {
+      "id": 12,
+      "german": "deswegen",
+      "persian": "به همین دلیل / از این رو",
+      "type": "conjunctival adverb (قید کانکتوری)",
+      "level": "B1",
+      "explanation": "مشابه deshalb، برای نتیجه. فعل بعد از آن در موقعیت دوم قرار می‌گیرد.",
+      "examples": [
+        { "sentence": "Er ist krank, deswegen kommt er nicht.", "translation": "او بیمار است، به همین دلیل نمی‌آید." },
+        { "sentence": "Ich habe kein Geld, deswegen kaufe ich nichts.", "translation": "پول ندارم، از این رو چیزی نمی‌خرم." }
+      ]
+    },
+    {
+      "id": 13,
+      "german": "darum",
+      "persian": "به همین خاطر / بنابراین",
+      "type": "conjunctival adverb (قید کانکتوری)",
+      "level": "B1",
+      "explanation": "برای نتیجه، کمی محاوره‌ای‌تر. فعل را به موقعیت دوم می‌برد.",
+      "examples": [
+        { "sentence": "Es ist spät, darum gehe ich jetzt.", "translation": "دیر شده، به همین خاطر حالا می‌روم." },
+        { "sentence": "Sie hat viel gearbeitet, darum ist sie müde.", "translation": "او زیاد کار کرده، بنابراین خسته است." }
+      ]
+    },
+    {
+      "id": 14,
+      "german": "daher",
+      "persian": "از این رو / بنابراین",
+      "type": "conjunctival adverb (قید کانکتوری)",
+      "level": "B1",
+      "explanation": "برای نتیجه‌گیری، کمی رسمی‌تر. فعل بعد از آن در موقعیت دوم است.",
+      "examples": [
+        { "sentence": "Der Film war langweilig, daher bin ich gegangen.", "translation": "فیلم خسته‌کننده بود، از این رو رفتم." },
+        { "sentence": "Es gab viele Probleme, daher haben wir aufgegeben.", "translation": "مشکلات زیادی وجود داشت، بنابراین تسلیم شدیم." }
+      ]
+    },
+    {
+      "id": 15,
+      "german": "trotzdem",
+      "persian": "با این حال / با وجود این",
+      "type": "conjunctival adverb (قید کانکتوری)",
+      "level": "B1",
+      "explanation": "برای بیان تضاد (nevertheless). فعل را به موقعیت دوم می‌برد. قوی‌تر از aber.",
+      "examples": [
+        { "sentence": "Es regnet, trotzdem gehen wir spazieren.", "translation": "باران می‌بارد، با این حال پیاده‌روی می‌کنیم." },
+        { "sentence": "Er ist müde, trotzdem arbeitet er weiter.", "translation": "او خسته است، با وجود این همچنان کار می‌کند." }
+      ]
+    },
+    {
+      "id": 16,
+      "german": "dennoch",
+      "persian": "با این وجود / با این حال",
+      "type": "conjunctival adverb (قید کانکتوری)",
+      "level": "B2",
+      "explanation": "مشابه trotzdem اما کمی رسمی‌تر و ادبی‌تر برای تضاد.",
+      "examples": [
+        { "sentence": "Die Aufgabe war schwer, dennoch hat er sie geschafft.", "translation": "کار سخت بود، با این وجود او آن را انجام داد." },
+        { "sentence": "Es war teuer, dennoch habe ich es gekauft.", "translation": "گران بود، با این حال آن را خریدم." }
+      ]
+    },
+    {
+      "id": 17,
+      "german": "jedoch",
+      "persian": "اما / با این وجود",
+      "type": "coordinating / conjunctival adverb",
+      "level": "B1",
+      "explanation": "نسخه رسمی‌تر aber برای تضاد. اغلب بعد از کاما می‌آید و فعل را به موقعیت دوم می‌برد.",
+      "examples": [
+        { "sentence": "Er ist krank, jedoch geht er zur Arbeit.", "translation": "او بیمار است، با این وجود به سر کار می‌رود." },
+        { "sentence": "Das Buch ist interessant, jedoch etwas lang.", "translation": "کتاب جالب است، اما کمی طولانی." }
+      ]
+    },
+    {
+      "id": 18,
+      "german": "sondern",
+      "persian": "بلکه",
+      "type": "coordinating (هماهنگ‌کننده)",
+      "level": "A2",
+      "explanation": "برای تصحیح بعد از منفی (نه ... بلکه). تکراری در لیست شما.",
+      "examples": [
+        { "sentence": "Nicht ich, sondern du hast gewonnen.", "translation": "نه من، بلکه تو برنده شدی." },
+        { "sentence": "Er arbeitet nicht viel, sondern spielt den ganzen Tag.", "translation": "او زیاد کار نمی‌کند، بلکه تمام روز بازی می‌کند." }
+      ]
+    },
+    {
+      "id": 19,
+      "german": "sonst",
+      "persian": "وگرنه / در غیر این صورت",
+      "type": "conjunctival adverb",
+      "level": "B1",
+      "explanation": "برای هشدار یا شرط منفی (otherwise). فعل را به موقعیت دوم می‌برد.",
+      "examples": [
+        { "sentence": "Beeil dich, sonst kommen wir zu spät.", "translation": "عجله کن، وگرنه دیر می‌رسیم." },
+        { "sentence": "Nimm den Schirm mit, sonst wirst du nass.", "translation": "چتر را با خود ببر، در غیر این صورت خیس می‌شوی." }
+      ]
+    },
+    {
+      "id": 20,
+      "german": "obwohl",
+      "persian": "با اینکه / هرچند",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "برای بیان تضاد (although). فعل را به آخر جمله وابسته می‌برد.",
+      "examples": [
+        { "sentence": "Obwohl es regnet, gehen wir spazieren.", "translation": "با اینکه باران می‌بارد، پیاده‌روی می‌کنیم." },
+        { "sentence": "Obwohl er müde ist, arbeitet er weiter.", "translation": "هرچند خسته است، همچنان کار می‌کند." }
+      ]
+    },
+    {
+      "id": 21,
+      "german": "obgleich",
+      "persian": "هرچند / با وجود اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B2/C1",
+      "explanation": "نسخه رسمی‌تر و ادبی‌تر obwohl. فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Obgleich es schwierig war, haben wir es geschafft.", "translation": "هرچند سخت بود، ما موفق شدیم." },
+        { "sentence": "Obgleich sie krank ist, kommt sie zur Arbeit.", "translation": "با وجود اینکه بیمار است، به سر کار می‌آید." }
+      ]
+    },
+    {
+      "id": 22,
+      "german": "wenngleich",
+      "persian": "هرچند / با وجود اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "C1",
+      "explanation": "نسخه بسیار رسمی و ادبی obwohl. فعل به آخر جمله می‌رود.",
+      "examples": [
+        { "sentence": "Wenngleich es teuer ist, kaufe ich es.", "translation": "هرچند گران است، آن را می‌خرم." },
+        { "sentence": "Wenngleich er wenig Zeit hat, hilft er mir.", "translation": "با وجود اینکه وقت کمی دارد، به من کمک می‌کند." }
+      ]
+    },
+    {
+      "id": 23,
+      "german": "damit",
+      "persian": "تا / به منظور اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "برای بیان هدف (so that). فعل به آخر می‌رود. می‌تواند فاعل متفاوت داشته باشد.",
+      "examples": [
+        { "sentence": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann.", "translation": "آلمانی یاد می‌گیرم تا بتوانم در آلمان کار کنم." },
+        { "sentence": "Sie spart Geld, damit sie ein Auto kaufen kann.", "translation": "او پول پس‌انداز می‌کند تا بتواند ماشین بخرد." }
+      ]
+    },
+    {
+      "id": 24,
+      "german": "um … zu",
+      "persian": "تا / به منظور ... کردن",
+      "type": "infinitive construction (ساختار مصدری)",
+      "level": "B1",
+      "explanation": "برای بیان هدف وقتی فاعل جمله اصلی و وابسته یکی باشد. فعل به صورت مصدر با zu در آخر می‌آید.",
+      "examples": [
+        { "sentence": "Ich lerne Deutsch, um in Deutschland zu arbeiten.", "translation": "آلمانی یاد می‌گیرم تا در آلمان کار کنم." },
+        { "sentence": "Er geht ins Fitnessstudio, um fit zu werden.", "translation": "او به باشگاه ورزشی می‌رود تا تناسب اندام پیدا کند." }
+      ]
+    },
+    {
+      "id": 25,
+      "german": "bevor",
+      "persian": "قبل از اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "A2/B1",
+      "explanation": "برای ترتیب زمانی (قبل از). فعل به آخر جمله می‌رود.",
+      "examples": [
+        { "sentence": "Bevor ich gehe, trinke ich einen Kaffee.", "translation": "قبل از اینکه بروم، یک قهوه می‌نوشم." },
+        { "sentence": "Bevor du anfängst, lies die Anleitung.", "translation": "قبل از اینکه شروع کنی، دستورالعمل را بخوان." }
+      ]
+    },
+    {
+      "id": 26,
+      "german": "ehe",
+      "persian": "قبل از اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "مشابه bevor اما کمی رسمی‌تر یا ادبی‌تر.",
+      "examples": [
+        { "sentence": "Ehe ich ins Bett gehe, putze ich die Zähne.", "translation": "قبل از اینکه بخوابم، دندان‌هایم را مسواک می‌زنم." },
+        { "sentence": "Ehe es zu spät wird, sollten wir gehen.", "translation": "قبل از اینکه دیر شود، باید برویم." }
+      ]
+    },
+    {
+      "id": 27,
+      "german": "nachdem",
+      "persian": "بعد از اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "برای «بعد از». اغلب با Perfekt در جمله وابسته. فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Nachdem ich gegessen habe, gehe ich spazieren.", "translation": "بعد از اینکه غذا خوردم، پیاده‌روی می‌روم." },
+        { "sentence": "Nachdem sie angekommen war, begann die Party.", "translation": "بعد از اینکه او رسید، مهمانی شروع شد." }
+      ]
+    },
+    {
+      "id": 28,
+      "german": "während",
+      "persian": "در حالی که / طی",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "برای همزمان بودن دو عمل یا تضاد. فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Während ich lerne, hört sie Musik.", "translation": "در حالی که من درس می‌خوانم، او موسیقی گوش می‌دهد." },
+        { "sentence": "Während er reich ist, ist sie arm.", "translation": "در حالی که او ثروتمند است، او فقیر است." }
+      ]
+    },
+    {
+      "id": 29,
+      "german": "bis",
+      "persian": "تا / تا زمانی که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "A2",
+      "explanation": "برای حد زمانی (تا وقتی که). فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Ich warte hier, bis du zurückkommst.", "translation": "اینجا صبر می‌کنم تا برگردی." },
+        { "sentence": "Bleib, bis der Film zu Ende ist.", "translation": "بمان تا فیلم تمام شود." }
+      ]
+    },
+    {
+      "id": 30,
+      "german": "seit",
+      "persian": "از وقتی که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "برای شروع یک عمل از گذشته تا حال. فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Seit ich in Berlin wohne, lerne ich besser Deutsch.", "translation": "از وقتی که در برلین زندگی می‌کنم، آلمانی را بهتر یاد می‌گیرم." },
+        { "sentence": "Seit er arbeitet, hat er mehr Geld.", "translation": "از وقتی که کار می‌کند، پول بیشتری دارد." }
+      ]
+    },
+    {
+      "id": 31,
+      "german": "seitdem",
+      "persian": "از آن زمان / از وقتی که",
+      "type": "subordinating / adverb",
+      "level": "B1",
+      "explanation": "مشابه seit اما می‌تواند به عنوان قید هم استفاده شود.",
+      "examples": [
+        { "sentence": "Seitdem ich das Buch gelesen habe, denke ich anders.", "translation": "از وقتی که کتاب را خواندم، متفاوت فکر می‌کنم." },
+        { "sentence": "Er ist krank, seitdem geht er nicht aus.", "translation": "او بیمار است، از آن زمان بیرون نمی‌رود." }
+      ]
+    },
+    {
+      "id": 32,
+      "german": "sobald",
+      "persian": "به محض اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B2",
+      "explanation": "برای لحظه دقیق شروع یک عمل. فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Sobald ich ankomme, rufe ich dich an.", "translation": "به محض اینکه برسم، به تو زنگ می‌زنم." },
+        { "sentence": "Sobald der Regen aufhört, gehen wir raus.", "translation": "به محض اینکه باران بند بیاید، بیرون می‌رویم." }
+      ]
+    },
+    {
+      "id": 33,
+      "german": "sobald wie",
+      "persian": "به محض اینکه (نسخه کمتر رایج)",
+      "type": "subordinating",
+      "level": "B2",
+      "explanation": "ترکیب کمتر رایج sobald + wie برای تأکید بر سرعت.",
+      "examples": [
+        { "sentence": "Sobald wie möglich, melde dich.", "translation": "به محض امکان، به من خبر بده." },
+        { "sentence": "Sobald wie du kannst, komm vorbei.", "translation": "به محض اینکه بتوانی، سر بزن." }
+      ]
+    },
+    {
+      "id": 34,
+      "german": "solange",
+      "persian": "تا زمانی که / مادامی که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B2",
+      "explanation": "برای مدت زمان (as long as). فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Solange du hier bist, helfe ich dir.", "translation": "تا زمانی که اینجا هستی، به تو کمک می‌کنم." },
+        { "sentence": "Solange es nicht regnet, spielen wir draußen.", "translation": "تا زمانی که باران نبارد، بیرون بازی می‌کنیم." }
+      ]
+    },
+    {
+      "id": 35,
+      "german": "sobald dass",
+      "persian": "به محض اینکه (ترکیب نادر)",
+      "type": "subordinating",
+      "level": "B2/C1",
+      "explanation": "ترکیب نادر و غیراستاندارد؛ معمولاً از sobald یا sodass جداگانه استفاده می‌شود.",
+      "examples": [
+        { "sentence": "Sobald dass ich fertig bin, rufe ich an.", "translation": "به محض اینکه آماده شوم، زنگ می‌زنم." },
+        { "sentence": "Sobald dass der Kurs beginnt, lernen wir viel.", "translation": "به محض اینکه دوره شروع شود، زیاد یاد می‌گیریم." }
+      ]
+    },
+    {
+      "id": 36,
+      "german": "ob",
+      "persian": "آیا / اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "برای سؤال غیرمستقیم (whether). فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Ich weiß nicht, ob er kommt.", "translation": "نمی‌دانم آیا او می‌آید یا نه." },
+        { "sentence": "Frag ihn, ob er Zeit hat.", "translation": "از او بپرس آیا وقت دارد." }
+      ]
+    },
+    {
+      "id": 37,
+      "german": "falls",
+      "persian": "در صورت اینکه / اگر",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "برای شرط احتمالی (in case). فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Falls es regnet, nehme ich den Schirm mit.", "translation": "اگر باران ببارد، چتر را با خودم می‌برم." },
+        { "sentence": "Falls du Hilfe brauchst, ruf mich an.", "translation": "در صورت اینکه کمک بخواهی، به من زنگ بزن." }
+      ]
+    },
+    {
+      "id": 38,
+      "german": "sofern",
+      "persian": "به شرطی که / در صورتی که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B2",
+      "explanation": "برای شرط (provided that). فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Sofern du Zeit hast, komm vorbei.", "translation": "به شرطی که وقت داری، سر بزن." },
+        { "sentence": "Ich helfe dir, sofern ich kann.", "translation": "به تو کمک می‌کنم، در صورتی که بتوانم." }
+      ]
+    },
+    {
+      "id": 39,
+      "german": "so dass",
+      "persian": "به طوری که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B2",
+      "explanation": "برای بیان نتیجه (so that). فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Er lernte viel, so dass er die Prüfung bestand.", "translation": "او زیاد درس خواند، به طوری که امتحان را پاس کرد." },
+        { "sentence": "Sie sprach langsam, so dass alle verstanden.", "translation": "او آهسته صحبت کرد، به طوری که همه فهمیدند." }
+      ]
+    },
+    {
+      "id": 40,
+      "german": "sodass",
+      "persian": "به طوری که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B2",
+      "explanation": "نسخه نوشته‌شده یک‌کلمه‌ای so dass. فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Es war laut, sodass niemand schlafen konnte.", "translation": "صدا بلند بود، به طوری که هیچ‌کس نتوانست بخوابد." },
+        { "sentence": "Er war krank, sodass er nicht kommen konnte.", "translation": "او بیمار بود، به طوری که نتوانست بیاید." }
+      ]
+    },
+    {
+      "id": 41,
+      "german": "je … desto",
+      "persian": "هرچه ... آنقدر",
+      "type": "correlative (دو قسمتی)",
+      "level": "B2/C1",
+      "explanation": "برای بیان تناسب (the ... the ...). هر دو بخش جمله را تحت تأثیر قرار می‌دهد.",
+      "examples": [
+        { "sentence": "Je mehr ich lerne, desto besser wird mein Deutsch.", "translation": "هرچه بیشتر درس بخوانم، آلمانی‌ام بهتر می‌شود." },
+        { "sentence": "Je früher du kommst, desto mehr Zeit haben wir.", "translation": "هرچه زودتر بیایی، وقت بیشتری داریم." }
+      ]
+    },
+    {
+      "id": 42,
+      "german": "je … umso",
+      "persian": "هرچه ... آنقدر",
+      "type": "correlative (دو قسمتی)",
+      "level": "B2/C1",
+      "explanation": "نسخه جایگزین je … desto با umso (کمی رسمی‌تر).",
+      "examples": [
+        { "sentence": "Je schneller du arbeitest, umso früher bist du fertig.", "translation": "هرچه سریع‌تر کار کنی، زودتر تمام می‌کنی." },
+        { "sentence": "Je teurer das Auto, umso besser die Qualität.", "translation": "هرچه ماشین گران‌تر، کیفیت بهتر." }
+      ]
+    },
+    {
+      "id": 43,
+      "german": "da",
+      "persian": "چون / از آنجا که",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B1",
+      "explanation": "برای دلیل واضح یا شناخته‌شده، رسمی‌تر از weil. فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Da es schon spät ist, gehe ich jetzt.", "translation": "از آنجا که دیر شده، حالا می‌روم." },
+        { "sentence": "Da er krank war, blieb er zu Hause.", "translation": "چون بیمار بود، در خانه ماند." }
+      ]
+    },
+    {
+      "id": 44,
+      "german": "zumal",
+      "persian": "به خصوص اینکه / خصوصاً چون",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "C1",
+      "explanation": "برای تأکید بر دلیل اضافی (especially since). فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Ich gehe nicht, zumal es regnet.", "translation": "نمی‌روم، به خصوص اینکه باران هم می‌بارد." },
+        { "sentence": "Er hat abgelehnt, zumal er keine Zeit hatte.", "translation": "او رد کرد، خصوصاً چون وقت نداشت." }
+      ]
+    },
+    {
+      "id": 45,
+      "german": "nämlich",
+      "persian": "یعنی / چون",
+      "type": "conjunctival adverb",
+      "level": "B1",
+      "explanation": "برای توضیح یا دلیل اضافی (namely / because). فعل را به موقعیت دوم می‌برد.",
+      "examples": [
+        { "sentence": "Ich kann nicht kommen, nämlich ich bin krank.", "translation": "نمی‌توانم بیایم، یعنی بیمارم." },
+        { "sentence": "Er hat gewonnen, nämlich er hat viel trainiert.", "translation": "او برنده شد، چون خیلی تمرین کرده بود." }
+      ]
+    },
+    {
+      "id": 46,
+      "german": "nämlich dass",
+      "persian": "یعنی اینکه",
+      "type": "subordinating",
+      "level": "B2",
+      "explanation": "ترکیب برای توضیح دقیق‌تر محتوا.",
+      "examples": [
+        { "sentence": "Das Problem ist, nämlich dass wir kein Geld haben.", "translation": "مشکل این است، یعنی اینکه پول نداریم." },
+        { "sentence": "Er sagte, nämlich dass er nicht kommen kann.", "translation": "او گفت، یعنی اینکه نمی‌تواند بیاید." }
+      ]
+    },
+    {
+      "id": 47,
+      "german": "indem",
+      "persian": "با ... کردن / از طریق اینکه",
+      "type": "subordinating (وابسته‌کننده)",
+      "level": "B2",
+      "explanation": "برای بیان وسیله یا نحوه انجام کار (by + gerund). فعل به آخر می‌رود.",
+      "examples": [
+        { "sentence": "Er lernt Deutsch, indem er Filme schaut.", "translation": "او آلمانی یاد می‌گیرد، با تماشای فیلم." },
+        { "sentence": "Sie hilft mir, indem sie mir erklärt.", "translation": "او به من کمک می‌کند، از طریق اینکه توضیح می‌دهد." }
+      ]
+    },
+    {
+      "id": 48,
+      "german": "insofern",
+      "persian": "از این نظر / تا این حد",
+      "type": "conjunctival adverb / subordinating",
+      "level": "C1",
+      "explanation": "برای محدودیت یا توضیح (insofar as).",
+      "examples": [
+        { "sentence": "Insofern hast du recht.", "translation": "از این نظر حق با توست." },
+        { "sentence": "Insofern als es möglich ist, helfe ich.", "translation": "تا این حد که ممکن است، کمک می‌کنم." }
+      ]
+    },
+    {
+      "id": 49,
+      "german": "insoweit",
+      "persian": "تا این حد / از این جهت",
+      "type": "conjunctival adverb",
+      "level": "C1",
+      "explanation": "مشابه insofern برای محدودیت.",
+      "examples": [
+        { "sentence": "Insoweit bin ich einverstanden.", "translation": "تا این حد موافقم." },
+        { "sentence": "Insoweit es geht, machen wir es.", "translation": "تا این حد که ممکن است، انجام می‌دهیم." }
+      ]
+    },
+    {
+      "id": 50,
+      "german": "woraufhin",
+      "persian": "پس از آن / در نتیجه آن",
+      "type": "conjunctival adverb",
+      "level": "C1",
+      "explanation": "برای توالی زمانی یا نتیجه (whereupon).",
+      "examples": [
+        { "sentence": "Ich fragte ihn, woraufhin er antwortete.", "translation": "از او پرسیدم، پس از آن او پاسخ داد." },
+        { "sentence": "Er bekam das Geschenk, woraufhin er sich bedankte.", "translation": "هدیه را گرفت، در نتیجه آن تشکر کرد." }
+      ]
+    },
+    {
+      "id": 51,
+      "german": "weshalb",
+      "persian": "به چه دلیل / چرا",
+      "type": "subordinating / interrogative",
+      "level": "B2",
+      "explanation": "برای پرسیدن یا بیان دلیل (why / for which reason).",
+      "examples": [
+        { "sentence": "Ich weiß nicht, weshalb er nicht kommt.", "translation": "نمی‌دانم به چه دلیل او نمی‌آید." },
+        { "sentence": "Weshalb hast du das gemacht?", "translation": "به چه دلیل این کار را کردی؟" }
+      ]
+    },
+    {
+      "id": 52,
+      "german": "weswegen",
+      "persian": "به چه دلیل / چرا",
+      "type": "subordinating / interrogative",
+      "level": "B2",
+      "explanation": "مشابه weshalb برای دلیل.",
+      "examples": [
+        { "sentence": "Weswegen bist du traurig?", "translation": "به چه دلیل غمگینی؟" },
+        { "sentence": "Das ist der Grund, weswegen ich gehe.", "translation": "این دلیل است که چرا می‌روم." }
+      ]
+    },
+    {
+      "id": 53,
+      "german": "infolgedessen",
+      "persian": "در نتیجه / به دنبال آن",
+      "type": "conjunctival adverb",
+      "level": "C1",
+      "explanation": "برای نتیجه‌گیری رسمی (consequently).",
+      "examples": [
+        { "sentence": "Es gab einen Unfall, infolgedessen war die Straße gesperrt.", "translation": "تصادف رخ داد، در نتیجه خیابان بسته بود." },
+        { "sentence": "Er hat viel gearbeitet, infolgedessen ist er erfolgreich.", "translation": "او زیاد کار کرده، به دنبال آن موفق است." }
+      ]
+    },
+    {
+      "id": 54,
+      "german": "folglich",
+      "persian": "بنابراین / در نتیجه",
+      "type": "conjunctival adverb",
+      "level": "B2/C1",
+      "explanation": "برای نتیجه‌گیری منطقی (therefore).",
+      "examples": [
+        { "sentence": "Er hat nicht gelernt, folglich hat er die Prüfung nicht bestanden.", "translation": "او درس نخوانده، بنابراین امتحان را پاس نکرده." },
+        { "sentence": "Es war kalt, folglich habe ich eine Jacke angezogen.", "translation": "هوا سرد بود، در نتیجه یک کت پوشیدم." }
+      ]
+    },
+    {
+      "id": 55,
+      "german": "demnach",
+      "persian": "بنابراین / طبق آن",
+      "type": "conjunctival adverb",
+      "level": "C1",
+      "explanation": "برای نتیجه یا استنتاج (accordingly).",
+      "examples": [
+        { "sentence": "Die Daten sind klar, demnach müssen wir handeln.", "translation": "داده‌ها واضح هستند، بنابراین باید اقدام کنیم." },
+        { "sentence": "Er hat zugestimmt, demnach machen wir weiter.", "translation": "او موافقت کرده، طبق آن ادامه می‌دهیم." }
+      ]
+    },
+    {
+      "id": 56,
+      "german": "nichtsdestotrotz",
+      "persian": "با این حال / با وجود همه اینها",
+      "type": "conjunctival adverb",
+      "level": "C1",
+      "explanation": "برای تضاد قوی (nonetheless). کمی طولانی و رسمی.",
+      "examples": [
+        { "sentence": "Es war schwierig, nichtsdestotrotz haben wir es geschafft.", "translation": "سخت بود، با این حال موفق شدیم." },
+        { "sentence": "Das Wetter war schlecht, nichtsdestotrotz sind wir gegangen.", "translation": "هوا بد بود، با وجود همه اینها رفتیم." }
+      ]
+    },
+    {
+      "id": 57,
+      "german": "gleichwohl",
+      "persian": "با این وجود / با همه اینها",
+      "type": "conjunctival adverb",
+      "level": "C1",
+      "explanation": "برای تضاد، بسیار رسمی و ادبی.",
+      "examples": [
+        { "sentence": "Es gab Probleme, gleichwohl war das Ergebnis gut.", "translation": "مشکلاتی وجود داشت، با این وجود نتیجه خوب بود." },
+        { "sentence": "Er ist alt, gleichwohl ist er sehr aktiv.", "translation": "او پیر است، با همه اینها خیلی فعال است." }
+      ]
+    },
+    {
+      "id": 58,
+      "german": "hingegen",
+      "persian": "در مقابل / اما",
+      "type": "conjunctival adverb",
+      "level": "B2",
+      "explanation": "برای تضاد یا مقایسه (whereas / on the other hand).",
+      "examples": [
+        { "sentence": "Er mag Kaffee, sie hingegen trinkt Tee.", "translation": "او قهوه دوست دارد، در مقابل او چای می‌نوشد." },
+        { "sentence": "Das eine ist teuer, das andere hingegen günstig.", "translation": "یکی گران است، دیگری اما ارزان." }
+      ]
+    },
+    {
+      "id": 59,
+      "german": "dagegen",
+      "persian": "در مقابل / اما",
+      "type": "conjunctival adverb",
+      "level": "B2",
+      "explanation": "برای مخالفت یا مقایسه.",
+      "examples": [
+        { "sentence": "Ich bin dafür, er dagegen ist dagegen.", "translation": "من موافقم، او در مقابل مخالف است." },
+        { "sentence": "Das eine Team gewann, das andere dagegen verlor.", "translation": "یک تیم برنده شد، تیم دیگر اما باخت." }
+      ]
+    },
+    {
+      "id": 60,
+      "german": "indessen",
+      "persian": "در این میان / با این حال",
+      "type": "conjunctival adverb",
+      "level": "C1",
+      "explanation": "برای همزمان یا تضاد ملایم.",
+      "examples": [
+        { "sentence": "Ich arbeite, indessen ruht er sich aus.", "translation": "من کار می‌کنم، در این میان او استراحت می‌کند." },
+        { "sentence": "Das Problem ist groß, indessen gibt es Hoffnung.", "translation": "مشکل بزرگ است، با این حال امیدی وجود دارد." }
+      ]
+    },
+    {
+      "id": 61,
+      "german": "allerdings",
+      "persian": "هرچند / البته / با این حال",
+      "type": "conjunctival adverb",
+      "level": "B2",
+      "explanation": "برای پذیرش با محدودیت یا تضاد ملایم (however / admittedly).",
+      "examples": [
+        { "sentence": "Das ist gut, allerdings etwas teuer.", "translation": "این خوب است، هرچند کمی گران." },
+        { "sentence": "Ich helfe dir, allerdings nur heute.", "translation": "به تو کمک می‌کنم، البته فقط امروز." }
+      ]
+    },
+    {
+      "id": 62,
+      "german": "vielmehr",
+      "persian": "بلکه / بیشتر",
+      "type": "conjunctival adverb",
+      "level": "B2",
+      "explanation": "برای تصحیح یا تأکید بیشتر (rather / instead).",
+      "examples": [
+        { "sentence": "Er ist nicht dumm, vielmehr sehr klug.", "translation": "او احمق نیست، بلکه خیلی باهوش است." },
+        { "sentence": "Nicht nur schön, vielmehr auch nützlich.", "translation": "نه تنها زیبا، بلکه مفید هم هست." }
+      ]
+    },
+    {
+      "id": 63,
+      "german": "außerdem",
+      "persian": "علاوه بر این",
+      "type": "conjunctival adverb",
+      "level": "B1",
+      "explanation": "برای افزودن اطلاعات اضافی (besides / moreover).",
+      "examples": [
+        { "sentence": "Es ist schön, außerdem günstig.", "translation": "زیبا است، علاوه بر این ارزان هم هست." },
+        { "sentence": "Ich lerne Deutsch, außerdem lerne ich Spanisch.", "translation": "آلمانی یاد می‌گیرم، علاوه بر این اسپانیایی هم یاد می‌گیرم." }
+      ]
+    },
+    {
+      "id": 64,
+      "german": "zudem",
+      "persian": "علاوه بر این / به علاوه",
+      "type": "conjunctival adverb",
+      "level": "B2",
+      "explanation": "مشابه außerdem اما کمی رسمی‌تر.",
+      "examples": [
+        { "sentence": "Das Auto ist schnell, zudem sparsam.", "translation": "ماشین سریع است، به علاوه کم‌مصرف هم هست." },
+        { "sentence": "Er ist talentiert, zudem fleißig.", "translation": "او بااستعداد است، علاوه بر این勤奋 هم هست." }
+      ]
+    },
+    {
+      "id": 65,
+      "german": "außerdem dass",
+      "persian": "علاوه بر اینکه",
+      "type": "subordinating",
+      "level": "B2",
+      "explanation": "برای افزودن دلیل یا اطلاعات اضافی.",
+      "examples": [
+        { "sentence": "Ich mag ihn, außerdem dass er hilfsbereit ist.", "translation": "او را دوست دارم، علاوه بر اینکه کمک‌کننده هم هست." },
+        { "sentence": "Das ist teuer, außerdem dass es nicht gut ist.", "translation": "این گران است، علاوه بر اینکه خوب هم نیست." }
+      ]
+    }
+
+]

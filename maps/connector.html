@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Connector Map</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #1e40af;
+        --primary-dark: #1e3a8a;
+        --gray-100: #f8fafc;
+        --gray-200: #e2e8f0;
+        --gray-600: #64748b;
+        --gray-800: #1e293b;
+        --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+        --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+        --radius-md: 12px;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        font-family: "Vazirmatn", "Inter", system-ui, sans-serif;
+      }
+      #map {
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .leaflet-popup-content-wrapper,
+      .leaflet-popup-tip {
+        background: white;
+        border: none !important;
+      }
+
+      .leaflet-popup-content {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: none !important;
+        line-height: 1.5;
+        max-height: 78vh !important;
+        overflow-y: auto !important;
+      }
+
+      .popup {
+        direction: ltr;
+        text-align: left;
+        padding: 0.5rem;
+        min-width: 280px;
+        max-width: 420px;
+        font-size: 0.94rem;
+        line-height: 1.55;
+      }
+
+      /* ==================== استایل مارکر جدید ==================== */
+      .custom-connector-marker {
+        background: white;
+        color: #1e40af;
+        font-size: 11.5px;
+        font-weight: 600;
+        padding: 4px 8px;
+        border: 1.5px solid #a3a8ea;
+        border-radius: 8px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.2;
+        min-width: 68px;
+        text-align: center;
+      }
+
+      .marker-id {
+        font-size: 17px;
+        font-weight: 700;
+        color: #1e40af;
+      }
+
+      .marker-fa {
+        font-size: 14px;
+        color: #334155;
+        margin-top: 1px;
+        direction: rtl;
+        font-family: monospace !important;
+      }
+
+      .titleid {
+        text-align: right;
+      }
+
+      /* بقیه استایل‌های قبلی بدون تغییر */
+      .header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.2rem;
+        border-bottom: 1px solid var(--gray-200);
+        direction: rtl;
+      }
+      .city-name {
+        font-size: 1.12rem;
+        color: var(--gray-800);
+        font-weight: 600;
+        font-family: monospace !important;
+      }
+      .number {
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--primary);
+        background: var(--gray-100);
+        padding: 0.25rem 0.7rem;
+        border-radius: 999px;
+      }
+
+      .connector {
+        font-size: 1.3rem;
+        color: #5200c6;
+        direction: ltr;
+        text-shadow: 0 2px 4px rgba(84, 0, 198, 0.4);
+      }
+      .person {
+        font-size: 1rem;
+        color: #585759;
+        text-align: right;
+        font-family: monospace !important;
+      }
+      .grammar-section {
+        margin: 0.1rem 0;
+        padding: 5px 10px;
+        background: var(--gray-100);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--gray-200);
+      }
+      .grammar-title {
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: #0788b1;
+      }
+      .example {
+        font-size: 0.75rem;
+        color: #334155;
+        background: white;
+        padding: 0px 3px;
+        border-radius: 8px;
+        direction: ltr;
+        text-align: left;
+      }
+
+      ::-webkit-scrollbar {
+        width: 2px !important;
+        height: 2px !important;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #84e0fa !important;
+        border-radius: 2px;
+      }
+      * {
+        scrollbar-width: thin;
+        scrollbar-color: #84e0fa transparent;
+      }
+
+      /* ================ دکمه شناور ترجمه (جدید) ================ */
+      #float-translate-btn {
+        position: fixed;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background: var(--primary);
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        box-shadow: var(--shadow-md);
+        z-index: 100000;
+        cursor: pointer;
+        font-size: 24px;
+        transition: all 0.2s ease;
+        user-select: none;
+        padding: 3px 1px 0px 1px;
+      }
+      #float-translate-btn:hover {
+        transform: scale(1.1);
+        background: var(--primary-dark);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- دکمه شناور ترجمه -->
+    <div id="float-translate-btn" title="ترجمه با گوگل">🌐</div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      const CONNECTORS_PER_CITY = 1;
+      let allCities = [];
+      let sortedItems = [];
+      let precomputedPositions = [];
+      let currentMarkers = new Map();
+      let pathPolyline = null;
+      let fullPathPoints = [];
+
+      var map = L.map("map", {
+        zoomControl: true,
+        attributionControl: true,
+        preferCanvas: true,
+      }).setView([32.5, 53.5], 5);
+
+      L.tileLayer("https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}", {
+        maxZoom: 20,
+        subdomains: ["mt0", "mt1", "mt2", "mt3"],
+        attribution: "© Google Maps",
+      }).addTo(map);
+
+      // آیکون جدید: شماره + ترجمه فارسی
+      function getCustomIcon(item) {
+        return L.divIcon({
+          className: "custom-connector-marker",
+          html: `
+            <div class="marker-id">${String(item.id)}</div>
+            <div class="marker-fa">${item.persian}</div>
+          `,
+          iconSize: [null, null],
+          iconAnchor: [39, 26],
+          popupAnchor: [0, -28],
+        });
+      }
+
+      function updatePath() {
+        if (pathPolyline) {
+          pathPolyline.setLatLngs(fullPathPoints);
+        } else if (fullPathPoints.length > 1) {
+          pathPolyline = L.polyline(fullPathPoints, {
+            color: "#6c5d8f",
+            weight: 1.5,
+            opacity: 0.65,
+            lineJoin: "round",
+            lineCap: "round",
+          }).addTo(map);
+        }
+      }
+
+      function createTranslateLink(text) {
+        if (!text || text === "—") return "#";
+        return `https://www.verben.de/suche/?w=${encodeURIComponent(text.trim())}`;
+      }
+
+      function createPopupHTML(item, cityName) {
+        return `
+          <div class="popup">
+            <div class="header-row">
+              <div class="city-name">${cityName}</div>
+              <div class="number">${item.id}</div>
+            </div>
+
+            <div class="verb-section" style="margin: 12px 0 8px;">
+             
+              <div class="connector">
+                <a href="${createTranslateLink(item.german)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.german}</a>
+              </div>
+              <div class="person">${item.persian}</div>
+            
+              <div style="font-size:0.8rem; color:#1e40af; margin-top:2px;">${item.level}</div>
+            </div>
+
+            <div class="grammar-section">
+              <div class="grammar-title">Erläuterung</div>
+              <div style="font-size:0.88rem; line-height:1.5; color:#334155;direction: rtl;text-align: right;font-family: monospace !important;">
+                ${item.explanation}
+              </div>
+            </div>
+
+            ${
+              item.examples && item.examples.length
+                ? `
+            <div class="grammar-section">
+              <div class="grammar-title">Beispiele</div>
+              <div style="display:flex;flex-direction:column;gap:12px;">
+                ${item.examples
+                  .map(
+                    (ex) => `
+                  <div style="background:white; padding:8px 10px; border-radius:8px; border:1px solid #e2e8f0;">
+                    <div class="example" style="direction:ltr; margin-bottom:6px;">
+                      <a href="${createTranslateLink(ex.sentence)}" target="_blank" style="color:inherit;text-decoration:none;">${ex.sentence}</a>
+                    </div>
+                    <div style="font-size:0.82rem; color:#475569; direction:rtl;text-align: right;">${ex.translation}</div>
+                  </div>`
+                  )
+                  .join("")}
+              </div>
+            </div>`
+                : ""
+            }
+          </div>`;
+      }
+
+      // نمایش همه مارکرها از ابتدا
+      function showAllMarkers() {
+        fullPathPoints = [];
+
+        sortedItems.forEach((item, globalIdx) => {
+          const pos = precomputedPositions[globalIdx];
+          if (!pos) return;
+
+          const cityName =
+            allCities[Math.floor(globalIdx / CONNECTORS_PER_CITY)]?.name ||
+            "نامشخص";
+
+          const marker = L.marker(pos, {
+            icon: getCustomIcon(item),
+          }).addTo(map);
+
+          marker.globalIndex = globalIdx;
+          marker.bindPopup(createPopupHTML(item, cityName), {
+            maxWidth: 420,
+            minWidth: 280,
+            autoPan: true,
+            autoPanPaddingTopLeft: [20, 100],
+            className: "custom-popup",
+          });
+
+          currentMarkers.set(globalIdx, marker);
+          fullPathPoints.push(pos);
+        });
+
+        updatePath();
+      }
+
+      // بارگذاری داده‌ها
+      fetch("../json/cities.json")
+        .then((res) => res.json())
+        .then((cities) => {
+          allCities = cities;
+          return fetch("../json/connector.json").then((r) => r.json());
+        })
+        .then((data) => {
+          sortedItems = data.sort((a, b) => parseInt(a.id) - parseInt(b.id));
+
+          // محاسبه موقعیت‌ها
+          sortedItems.forEach((item, i) => {
+            const cityIdx = Math.floor(i / CONNECTORS_PER_CITY);
+            if (cityIdx >= allCities.length) return;
+            const city = allCities[cityIdx];
+            const lat =
+              city.lat +
+              Math.sin(i * 1.234567) * 0.04 +
+              Math.cos(i * 2.345678) * 0.03;
+            const lng =
+              city.lng +
+              Math.sin(i * 0.987654) * 0.04 +
+              Math.cos(i * 3.456789) * 0.03;
+            precomputedPositions.push([lat, lng]);
+          });
+
+          // نمایش همه مارکرها
+          showAllMarkers();
+
+          // زوم اولیه مناسب
+          if (fullPathPoints.length > 0) {
+            map.fitBounds(fullPathPoints, { padding: [50, 50] });
+          }
+        })
+        .catch((err) => {
+          console.error(err);
+          alert("خطا در بارگذاری فایل‌های JSON");
+        });
+
+      /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
+      let translateBtn = null;
+      let hideTimeout = null;
+      let currentSelectedText = "";
+
+      function showTranslateButton() {
+        const selection = window.getSelection();
+        const selectedText = selection.toString().trim();
+
+        if (selectedText.length === 0) {
+          hideTranslateButton();
+          return;
+        }
+
+        currentSelectedText = selectedText;
+
+        if (!translateBtn) {
+          translateBtn = document.getElementById("float-translate-btn");
+          if (!translateBtn) return;
+
+          translateBtn.addEventListener("click", function (e) {
+            e.stopImmediatePropagation();
+            if (currentSelectedText) {
+              const url = `https://translate.google.com/?sl=auto&tl=fa&text=${encodeURIComponent(currentSelectedText)}&op=translate`;
+              window.open(url, "_blank");
+            }
+            hideTranslateButton();
+          });
+
+          translateBtn.addEventListener("touchend", function (e) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            if (currentSelectedText) {
+              const url = `https://translate.google.com/?sl=auto&tl=fa&text=${encodeURIComponent(currentSelectedText)}&op=translate`;
+              window.open(url, "_blank");
+            }
+            hideTranslateButton();
+          });
+        }
+
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+
+        const btnSize = 48;
+        let left = rect.right + 12;
+        let top = rect.top - btnSize - 12;
+
+        if (left + btnSize > window.innerWidth) left = rect.left - btnSize - 12;
+        if (top < 10) top = rect.bottom + 12;
+
+        translateBtn.style.left = `${left}px`;
+        translateBtn.style.top = `${top}px`;
+        translateBtn.style.display = "flex";
+
+        if (hideTimeout) clearTimeout(hideTimeout);
+        hideTimeout = setTimeout(() => {
+          if (window.getSelection().toString().trim() === "")
+            hideTranslateButton();
+        }, 8000);
+      }
+
+      function hideTranslateButton() {
+        if (translateBtn) translateBtn.style.display = "none";
+        currentSelectedText = "";
+        if (hideTimeout) {
+          clearTimeout(hideTimeout);
+          hideTimeout = null;
+        }
+      }
+
+      document.addEventListener("mouseup", showTranslateButton);
+      document.addEventListener("touchend", showTranslateButton);
+
+      document.addEventListener("selectionchange", () => {
+        if (window.getSelection().toString().trim() === "")
+          hideTranslateButton();
+      });
+
+      document.addEventListener("mousedown", (e) => {
+        if (translateBtn && !translateBtn.contains(e.target))
+          hideTranslateButton();
+      });
+      document.addEventListener("touchstart", (e) => {
+        if (translateBtn && !translateBtn.contains(e.target))
+          hideTranslateButton();
+      });
+
+      map.on("zoomstart", hideTranslateButton);
+      map.on("movestart", hideTranslateButton);
+    </script>
+  </body>
+</html>

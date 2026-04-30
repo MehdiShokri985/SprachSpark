@@ -1,0 +1,650 @@
+[
+  {
+    "id": 1,
+    "german": "die Wohnungsbesichtigung",
+    "persian": "بازدید از آپارتمان / بازدید مسکن",
+    "examples": [
+      { "sentence": "Heute zeigen wir euch, wie man eine Wohnungsbesichtigung macht.", "translation": "امروز به شما نشان می‌دهیم که چگونه بازدید از آپارتمان انجام می‌شود." }
+    ]
+  },
+  {
+    "id": 2,
+    "german": "die Wohnung",
+    "persian": "آپارتمان / مسکن",
+    "examples": [
+      { "sentence": "Die Wohnung ist 35 m² groß.", "translation": "آپارتمان ۳۵ متر مربع مساحت دارد." }
+    ]
+  },
+  {
+    "id": 3,
+    "german": "der Makler",
+    "persian": "دلال املاک / مشاور املاک / ماکلر",
+    "examples": [
+      { "sentence": "Der Makler zeigt uns die Wohnung.", "translation": "دلال املاک آپارتمان را به ما نشان می‌دهد." }
+    ]
+  },
+  {
+    "id": 4,
+    "german": "sich umschauen",
+    "persian": "گشتن / اطراف را نگاه کردن / بازدید کردن",
+    "examples": [
+      { "sentence": "Sie können sich gerne frei umschauen.", "translation": "می‌توانید آزادانه اطراف را نگاه کنید." }
+    ]
+  },
+  {
+    "id": 5,
+    "german": "die Einzimmerwohnung",
+    "persian": "آپارتمان یک خوابه / استودیو (یک اتاقه)",
+    "examples": [
+      { "sentence": "Es handelt sich um eine Einzimmerwohnung.", "translation": "این یک آپارتمان یک خوابه است." }
+    ]
+  },
+  {
+    "id": 6,
+    "german": "das Zimmer",
+    "persian": "اتاق",
+    "examples": [
+      { "sentence": "Die Wohnung hat ein kleines Schlafzimmer und diese Küche.", "translation": "آپارتمان یک اتاق خواب کوچک و این آشپزخانه را دارد." }
+    ]
+  },
+  {
+    "id": 7,
+    "german": "das Schlafzimmer",
+    "persian": "اتاق خواب",
+    "examples": [
+      { "sentence": "Ein kleines Schlafzimmer und dazu diese Küche.", "translation": "یک اتاق خواب کوچک به علاوه این آشپزخانه." }
+    ]
+  },
+  {
+    "id": 8,
+    "german": "die Küche",
+    "persian": "آشپزخانه",
+    "examples": [
+      { "sentence": "Diese Wohnung wird mit Küche vermietet.", "translation": "این آپارتمان با آشپزخانه اجاره داده می‌شود." }
+    ]
+  },
+  {
+    "id": 9,
+    "german": "das Bad",
+    "persian": "حمام / سرویس بهداشتی",
+    "examples": [
+      { "sentence": "Die Wohnung hat ein Bad.", "translation": "آپارتمان حمام دارد." }
+    ]
+  },
+  {
+    "id": 10,
+    "german": "der Quadratmeter (m²)",
+    "persian": "متر مربع",
+    "examples": [
+      { "sentence": "Insgesamt 35 m².", "translation": "در مجموع ۳۵ متر مربع." }
+    ]
+  },
+  {
+    "id": 11,
+    "german": "bezugsbereit",
+    "persian": "آماده تحویل / قابل سکونت فوری",
+    "examples": [
+      { "sentence": "Die Wohnung ist bezugsbereit jederzeit.", "translation": "آپارتمان هر لحظه آماده تحویل است." }
+    ]
+  },
+  {
+    "id": 12,
+    "german": "vermieten",
+    "persian": "اجاره دادن",
+    "examples": [
+      { "sentence": "Diese Wohnung wird mit Küche vermietet.", "translation": "این آپارتمان با آشپزخانه اجاره داده می‌شود." }
+    ]
+  },
+  {
+    "id": 13,
+    "german": "die WG (Wohngemeinschaft)",
+    "persian": "دور همی / خانه مشترک (WG)",
+    "examples": [
+      { "sentence": "Kann man hier eine WG starten?", "translation": "آیا می‌توان اینجا یک WG راه انداخت؟" }
+    ]
+  },
+  {
+    "id": 14,
+    "german": "WG-geeignet",
+    "persian": "مناسب برای WG / مناسب زندگی گروهی",
+    "examples": [
+      { "sentence": "Ist die Wohnung WG geeignet?", "translation": "آیا آپارتمان برای WG مناسب است؟" }
+    ]
+  },
+  {
+    "id": 15,
+    "german": "die Bewerbung",
+    "persian": "درخواست / اپلای برای اجاره",
+    "examples": [
+      { "sentence": "Sollen wir uns für diese Wohnung bewerben?", "translation": "آیا باید برای این آپارتمان درخواست بدهیم؟" }
+    ]
+  },
+  {
+    "id": 16,
+    "german": "der Bewerber / die Bewerberin",
+    "persian": "متقاضی / درخواست‌دهنده",
+    "examples": [
+      { "sentence": "Haben Sie viele Bewerberinnen?", "translation": "آیا متقاضیان زیادی دارید؟" }
+    ]
+  },
+  {
+    "id": 17,
+    "german": "sich bewerben",
+    "persian": "درخواست دادن / اپلای کردن",
+    "examples": [
+      { "sentence": "Wenn Sie sich bewerben möchten...", "translation": "اگر می‌خواهید درخواست دهید..." }
+    ]
+  },
+  {
+    "id": 18,
+    "german": "die Bewerbungsmappe",
+    "persian": "پوشه درخواست / مدارک درخواست اجاره",
+    "examples": [
+      { "sentence": "Eine vollständige Bewerbungsmappe.", "translation": "یک پوشه درخواست کامل." }
+    ]
+  },
+  {
+    "id": 19,
+    "german": "das Anschreiben",
+    "persian": "نامه پوششی / نامه درخواست",
+    "examples": [
+      { "sentence": "Ein Anschreiben ist optional.", "translation": "نامه پوششی اختیاری است." }
+    ]
+  },
+  {
+    "id": 20,
+    "german": "die nächste Gruppe",
+    "persian": "گروه بعدی",
+    "examples": [
+      { "sentence": "So, die nächste Gruppe bitte.", "translation": "خب، گروه بعدی لطفاً." }
+    ]
+  },
+  {
+    "id": 21,
+    "german": "sich frei umschauen",
+    "persian": "آزادانه گشتن و نگاه کردن",
+    "examples": [
+      { "sentence": "Sie können sich dann gerne frei umschauen.", "translation": "می‌توانید آزادانه بگردید و نگاه کنید." }
+    ]
+  },
+  {
+    "id": 22,
+    "german": "Fragen stellen",
+    "persian": "سؤال پرسیدن",
+    "examples": [
+      { "sentence": "und Fragen stellen.", "translation": "و سؤال بپرسید." }
+    ]
+  },
+  {
+    "id": 23,
+    "german": "die Kaltmiete",
+    "persian": "اجاره خالص (بدون هزینه‌های جانبی)",
+    "examples": [
+      { "sentence": "Die Kaltmiete beträgt 1100 €.", "translation": "اجاره خالص ۱۱۰۰ یورو است." }
+    ]
+  },
+  {
+    "id": 24,
+    "german": "die Warmmiete",
+    "persian": "اجاره کامل (با هزینه‌های جانبی)",
+    "examples": [
+      { "sentence": "Insgesamt 1300 € Warmmiete.", "translation": "در مجموع ۱۳۰۰ یورو اجاره کامل." }
+    ]
+  },
+  {
+    "id": 25,
+    "german": "die Nebenkosten",
+    "persian": "هزینه‌های جانبی (آب، برق، گاز، گرمایش و غیره)",
+    "examples": [
+      { "sentence": "Dazu kommen die Nebenkosten.", "translation": "به این مبلغ هزینه‌های جانبی اضافه می‌شود." }
+    ]
+  },
+  {
+    "id": 26,
+    "german": "teuer",
+    "persian": "گران",
+    "examples": [
+      { "sentence": "Ganz schön teuer.", "translation": "واقعاً گران است." }
+    ]
+  },
+  {
+    "id": 27,
+    "german": "die Kaution",
+    "persian": "ودیعه / سپرده اجاره",
+    "examples": [
+      { "sentence": "Man muss eine Kaution bezahlen, meistens bis zu drei Kaltmieten.", "translation": "باید ودیعه پرداخت کنید، معمولاً تا سه برابر اجاره خالص." }
+    ]
+  },
+  {
+    "id": 28,
+    "german": "die Mindestmietdauer",
+    "persian": "حداقل مدت اجاره",
+    "examples": [
+      { "sentence": "Gibt es eine Mindestmietdauer?", "translation": "آیا حداقل مدت اجاره وجود دارد؟" }
+    ]
+  },
+  {
+    "id": 29,
+    "german": "die Miete erhöhen",
+    "persian": "افزایش اجاره",
+    "examples": [
+      { "sentence": "Je schneller Sie ausziehen, desto schneller können wir die Miete erhöhen.", "translation": "هرچه سریع‌تر تخلیه کنید، زودتر می‌توانیم اجاره را افزایش دهیم." }
+    ]
+  },
+  {
+    "id": 30,
+    "german": "vermieten (mit/ohne Küche)",
+    "persian": "اجاره دادن (با یا بدون آشپزخانه)",
+    "examples": [
+      { "sentence": "In Deutschland werden die meisten Wohnungen ohne Küche vermietet.", "translation": "در آلمان اکثر آپارتمان‌ها بدون آشپزخانه اجاره داده می‌شوند." },
+      { "sentence": "Diese Wohnung wird mit Küche vermietet.", "translation": "این آپارتمان با آشپزخانه اجاره داده می‌شود." }
+    ]
+  },
+  {
+    "id": 31,
+    "german": "die Schufa-Auskunft",
+    "persian": "گواهی شوفا (گزارش اعتبار مالی)",
+    "examples": [
+      { "sentence": "Eine Schufa-Auskunft darf nicht älter als 3 Monate sein.", "translation": "گواهی شوفا نباید بیشتر از ۳ ماه قدیمی باشد." }
+    ]
+  },
+  {
+    "id": 32,
+    "german": "die Mietschuldenfreiheitsbescheinigung",
+    "persian": "گواهی عدم بدهی اجاره (تأیید پرداخت به‌موقع اجاره قبلی)",
+    "examples": [
+      { "sentence": "Sie brauchen eine Mietschuldenfreiheitsbescheinigung vom vorherigen Vermieter.", "translation": "شما به گواهی عدم بدهی اجاره از مالک قبلی نیاز دارید." }
+    ]
+  },
+  {
+    "id": 33,
+    "german": "der Ausweis / der Pass",
+    "persian": "کارت شناسایی / پاسپورت",
+    "examples": [
+      { "sentence": "Eine Kopie von Ihrem Ausweis oder Pass muss dabei sein.", "translation": "یک کپی از کارت شناسایی یا پاسپورت شما باید همراه مدارک باشد." }
+    ]
+  },
+  {
+    "id": 34,
+    "german": "die Gehaltsabrechnung",
+    "persian": "فیش حقوقی / حکم حقوق",
+    "examples": [
+      { "sentence": "Die Gehaltsabrechnungen der letzten drei bis sechs Monate.", "translation": "فیش‌های حقوقی سه تا شش ماه اخیر." }
+    ]
+  },
+  {
+    "id": 35,
+    "german": "die Gehaltsnachweise",
+    "persian": "مدارک درآمد / اثبات درآمد",
+    "examples": [
+      { "sentence": "Gehaltsnachweise zusammen mit einem Arbeitsvertrag.", "translation": "مدارک درآمد همراه با قرارداد کاری." }
+    ]
+  },
+  {
+    "id": 36,
+    "german": "der Arbeitsvertrag",
+    "persian": "قرارداد کاری",
+    "examples": [
+      { "sentence": "Ein unbefristeter Arbeitsvertrag ist sehr hilfreich.", "translation": "قرارداد کاری نامحدود بسیار کمک‌کننده است." }
+    ]
+  },
+  {
+    "id": 37,
+    "german": "unbefristet",
+    "persian": "نامحدود / دائمی (قرارداد کاری)",
+    "examples": [
+      { "sentence": "Ein unbefristeter Arbeitsvertrag.", "translation": "قرارداد کاری دائمی." }
+    ]
+  },
+  {
+    "id": 38,
+    "german": "die Kontoauszüge",
+    "persian": "صورت‌حساب بانکی / گردش حساب",
+    "examples": [
+      { "sentence": "Kontoauszüge, die zeigen, dass Sie pünktlich Miete bezahlt haben.", "translation": "صورت‌حساب‌های بانکی که نشان می‌دهد همیشه اجاره را به‌موقع پرداخت کرده‌اید." }
+    ]
+  },
+  {
+    "id": 39,
+    "german": "die Bürgschaft",
+    "persian": "ضمانت‌نامه / تعهد پرداخت (معمولاً توسط والدین)",
+    "examples": [
+      { "sentence": "Als Student brauchen Sie eine Bürgschaft.", "translation": "به عنوان دانشجو به ضمانت‌نامه نیاز دارید." }
+    ]
+  },
+  {
+    "id": 40,
+    "german": "optional",
+    "persian": "اختیاری",
+    "examples": [
+      { "sentence": "Ein Anschreiben ist optional, kann aber helfen.", "translation": "نامه پوششی اختیاری است، اما می‌تواند کمک کند." }
+    ]
+  },
+  {
+    "id": 41,
+    "german": "die Bewerbungsunterlagen",
+    "persian": "مدارک درخواست اجاره / مدارک اپلای مسکن",
+    "examples": [
+      { "sentence": "Bitte schicken Sie Ihre vollständigen Bewerbungsunterlagen per E-Mail.", "translation": "لطفاً مدارک کامل درخواست خود را از طریق ایمیل ارسال کنید." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "german": "der Vormieter",
+    "persian": "مستاجر قبلی",
+    "examples": [
+      { "sentence": "Die Mietschuldenfreiheitsbescheinigung bekommen Sie vom Vormieter.", "translation": "گواهی عدم بدهی اجاره را از مستاجر قبلی دریافت می‌کنید." }
+    ]
+  },
+  {
+    "id": 43,
+    "german": "die Küche bleibt drin",
+    "persian": "آشپزخانه داخل آپارتمان می‌ماند",
+    "examples": [
+      { "sentence": "Die Küche bleibt hier drin.", "translation": "آشپزخانه اینجا می‌ماند." }
+    ]
+  },
+  {
+    "id": 44,
+    "german": "mit Küche vermietet",
+    "persian": "با آشپزخانه اجاره داده می‌شود",
+    "examples": [
+      { "sentence": "Diese Wohnung wird mit Küche vermietet.", "translation": "این آپارتمان با آشپزخانه اجاره داده می‌شود." }
+    ]
+  },
+  {
+    "id": 45,
+    "german": "die Küche austauschen",
+    "persian": "تعویض آشپزخانه",
+    "examples": [
+      { "sentence": "Kann man die Küche austauschen?", "translation": "آیا می‌توان آشپزخانه را تعویض کرد؟" }
+    ]
+  },
+  {
+    "id": 46,
+    "german": "die Küche übernehmen",
+    "persian": "آشپزخانه را از قبلی تحویل گرفتن",
+    "examples": [
+      { "sentence": "Man kann die Küche vom Vormieter übernehmen.", "translation": "می‌توان آشپزخانه را از مستاجر قبلی تحویل گرفت." }
+    ]
+  },
+  {
+    "id": 47,
+    "german": "Haustiere erlaubt",
+    "persian": "حیوانات خانگی مجاز",
+    "examples": [
+      { "sentence": "Sind Haustiere erlaubt?", "translation": "آیا حیوانات خانگی مجاز هستند؟" }
+    ]
+  },
+  {
+    "id": 48,
+    "german": "beim Auszug muss gestrichen werden",
+    "persian": "در زمان تخلیه باید رنگ‌آمیزی شود",
+    "examples": [
+      { "sentence": "Beim Auszug muss gestrichen werden.", "translation": "هنگام تخلیه باید آپارتمان رنگ شود." }
+    ]
+  },
+  {
+    "id": 49,
+    "german": "der Mietvertrag",
+    "persian": "قرارداد اجاره",
+    "examples": [
+      { "sentence": "Lesen Sie bitte den Mietvertrag genau durch.", "translation": "لطفاً قرارداد اجاره را با دقت بخوانید." }
+    ]
+  },
+  {
+    "id": 50,
+    "german": "sich melden",
+    "persian": "تماس گرفتن / اطلاع دادن",
+    "examples": [
+      { "sentence": "Wir melden uns dann.", "translation": "ما سپس با شما تماس می‌گیریم." }
+    ]
+  },
+  {
+    "id": 51,
+    "german": "die vollständige Bewerbungsmappe per E-Mail als PDF",
+    "persian": "ارسال پوشه کامل مدارک درخواست به صورت PDF از طریق ایمیل",
+    "examples": [
+      { "sentence": "Schicken Sie die vollständige Bewerbungsmappe per E-Mail als PDF.", "translation": "پوشه کامل مدارک درخواست را به صورت PDF از طریق ایمیل ارسال کنید." }
+    ]
+  },
+  {
+    "id": 52,
+    "german": "neu in Deutschland / gerade zugezogen",
+    "persian": "جدیداً به آلمان آمده / تازه وارد آلمان شده",
+    "examples": [
+      { "sentence": "Ich bin erst gerade aus London nach Berlin gezogen.", "translation": "من تازه از لندن به برلین نقل مکان کرده‌ام." }
+    ]
+  },
+  {
+    "id": 53,
+    "german": "Alternativen anbieten",
+    "persian": "پیشنهاد گزینه‌های جایگزین",
+    "examples": [
+      { "sentence": "Dann können Sie Alternativen anbieten, wie Kontoauszüge oder eine Bürgschaft.", "translation": "در این صورت می‌توانید گزینه‌های جایگزین مانند گردش حساب یا ضمانت‌نامه ارائه دهید." }
+    ]
+  },  
+  {
+    "id": 54,
+    "german": "der Makler",
+    "persian": "دلال املاک / مشاور املاک",
+    "examples": [
+      { "sentence": "Mein Name ist Andrej Monet von der Immobilienagentur Haifisch.", "translation": "نام من آندره مونت از آژانس املاک هایفیش است." }
+    ]
+  },
+  {
+    "id": 55,
+    "german": "der Student / die Studentin",
+    "persian": "دانشجو (مذکر / مؤنث)",
+    "examples": [
+      { "sentence": "Wie ist das, wenn man Student ist?", "translation": "اگر دانشجو باشم چطور است؟" }
+    ]
+  },
+  {
+    "id": 56,
+    "german": "der Artist und Entrepreneur",
+    "persian": "هنرمند و کارآفرین",
+    "examples": [
+      { "sentence": "Ich bin Artist und Entrepreneur, kreativ unterwegs.", "translation": "من هنرمند و کارآفرین هستم و در زمینه خلاقیت فعالیت می‌کنم." }
+    ]
+  },
+  {
+    "id": 57,
+    "german": "der Fotograf",
+    "persian": "عکاس",
+    "examples": [
+      { "sentence": "Ich fotografiere.", "translation": "من عکاسی می‌کنم." }
+    ]
+  },
+  
+  {
+    "id": 58,
+    "german": "Guten Tag zusammen.",
+    "persian": "روز بخیر به همه.",
+    "examples": [
+      { "sentence": "Guten Tag zusammen. Mein Name ist Andrej Monet.", "translation": "روز بخیر به همه. نام من آندره مونت است." }
+    ]
+  },
+  {
+    "id": 59,
+    "german": "Die ersten fünf bis sieben Personen können mitkommen.",
+    "persian": "پنج تا هفت نفر اول می‌توانند همراه بیایند.",
+    "examples": [
+      { "sentence": "Die ersten fünf bis sieben Personen können jetzt mitkommen in die Wohnung.", "translation": "پنج تا هفت نفر اول حالا می‌توانند به داخل آپارتمان بیایند." }
+    ]
+  },
+  {
+    "id": 60,
+    "german": "Die anderen müssen bitte draußen warten.",
+    "persian": "بقیه لطفاً بیرون منتظر بمانند.",
+    "examples": [
+      { "sentence": "Die anderen müssten bitte draußen warten.", "translation": "بقیه لطفاً بیرون منتظر بمانند." }
+    ]
+  },
+  {
+    "id": 61,
+    "german": "Ganz schön teuer.",
+    "persian": "واقعاً گران است.",
+    "examples": [
+      { "sentence": "Ganz schön teuer.", "translation": "واقعاً گران است." }
+    ]
+  },
+  {
+    "id": 62,
+    "german": "Sie können sich dann gerne frei umschauen und Fragen stellen.",
+    "persian": "می‌توانید آزادانه بگردید و سؤال بپرسید.",
+    "examples": [
+      { "sentence": "Sie können sich dann gerne frei umschauen und Fragen stellen.", "translation": "می‌توانید آزادانه اطراف را نگاه کنید و سؤال بپرسید." }
+    ]
+  },
+  {
+    "id": 63,
+    "german": "Haben wir eine Wahl?",
+    "persian": "آیا گزینه‌ای داریم؟ / چاره‌ای داریم؟",
+    "examples": [
+      { "sentence": "Sollen wir uns für diese winzige Wohnung wirklich bewerben? Haben wir eine Wahl?", "translation": "آیا واقعاً باید برای این آپارتمان خیلی کوچک درخواست دهیم؟ چاره‌ای داریم؟" }
+    ]
+  },
+  {
+    "id": 64,
+    "german": "Was brauchen Sie denn für die Bewerbung?",
+    "persian": "برای درخواست چه مدارکی نیاز دارید؟",
+    "examples": [
+      { "sentence": "Was brauchen Sie denn für die Bewerbung?", "translation": "برای درخواست چه چیزهایی نیاز دارید؟" }
+    ]
+  },
+  {
+    "id": 65,
+    "german": "Sollen wir uns wirklich bewerben?",
+    "persian": "آیا واقعاً باید درخواست دهیم؟",
+    "examples": [
+      { "sentence": "Sollen wir uns für diese winzige Wohnung wirklich bewerben?", "translation": "آیا واقعاً باید برای این آپارتمان کوچک درخواست دهیم؟" }
+    ]
+  },
+  {
+    "id": 66,
+    "german": "Ist die Wohnung WG geeignet?",
+    "persian": "آیا این آپارتمان برای زندگی گروهی (WG) مناسب است؟",
+    "examples": [
+      { "sentence": "Ist die Wohnung WG geeignet?", "translation": "آیا آپارتمان برای WG مناسب است؟" }
+    ]
+  },
+  {
+    "id": 67,
+    "german": "Sind Haustiere erlaubt?",
+    "persian": "آیا حیوانات خانگی مجاز هستند؟",
+    "examples": [
+      { "sentence": "Entschuldigung, ich habe eine Frage. Sind Haustiere erlaubt?", "translation": "ببخشید، یک سؤال دارم. آیا حیوانات خانگی مجاز هستند؟" }
+    ]
+  },
+  {
+    "id": 68,
+    "german": "Kleine Haustiere sind gar kein Problem.",
+    "persian": "حیوانات خانگی کوچک هیچ مشکلی ندارند.",
+    "examples": [
+      { "sentence": "Kleine Haustiere sind gar kein Problem.", "translation": "حیوانات کوچک هیچ مشکلی ندارند." }
+    ]
+  },
+  {
+    "id": 69,
+    "german": "Für Hunde müssten Sie um Erlaubnis fragen.",
+    "persian": "برای سگ باید اجازه بگیرید.",
+    "examples": [
+      { "sentence": "Für ihre Hunde müssten sie um Erlaubnis fragen.", "translation": "برای سگ‌هایتان باید اجازه بگیرید." }
+    ]
+  },
+  {
+    "id": 70,
+    "german": "Diese Wohnung wird mit Küche vermietet.",
+    "persian": "این آپارتمان با آشپزخانه اجاره داده می‌شود.",
+    "examples": [
+      { "sentence": "Diese Wohnung wird mit Küche vermietet.", "translation": "این آپارتمان با آشپزخانه اجاره داده می‌شود." }
+    ]
+  },
+  {
+    "id": 71,
+    "german": "Die Küche bleibt hier drin.",
+    "persian": "آشپزخانه اینجا باقی می‌ماند.",
+    "examples": [
+      { "sentence": "Die Küche bleibt hier drin.", "translation": "آشپزخانه اینجا می‌ماند." }
+    ]
+  },
+  {
+    "id": 72,
+    "german": "Kann man die nicht austauschen?",
+    "persian": "آیا نمی‌توان آن را تعویض کرد؟",
+    "examples": [
+      { "sentence": "Kann man die nicht austauschen?", "translation": "آیا نمی‌توان آشپزخانه را تعویض کرد؟" }
+    ]
+  },
+  {
+    "id": 73,
+    "german": "Haben Sie viele Bewerberinnen?",
+    "persian": "آیا متقاضیان زیادی دارید؟",
+    "examples": [
+      { "sentence": "Haben Sie viele Bewerberinnen?", "translation": "آیا متقاضیان زن زیادی دارید؟" }
+    ]
+  },
+  {
+    "id": 74,
+    "german": "Ab wann können wir einziehen?",
+    "persian": "از چه تاریخی می‌توانیم وارد شویم؟",
+    "examples": [
+      { "sentence": "Ab wann können wir denn einziehen?", "translation": "از چه تاریخی می‌توانیم وارد آپارتمان شویم؟" }
+    ]
+  },
+  {
+    "id": 75,
+    "german": "Je schneller Sie wieder ausziehen, desto schneller können wir die Miete erhöhen.",
+    "persian": "هرچه سریع‌تر تخلیه کنید، زودتر می‌توانیم اجاره را افزایش دهیم.",
+    "examples": [
+      { "sentence": "Je schneller sie wieder ausziehen, desto schneller können wir hier wieder die Miete erhöhen.", "translation": "هرچه سریع‌تر بیرون بروید، زودتر می‌توانیم اجاره را اینجا افزایش دهیم." }
+    ]
+  },
+  {
+    "id": 76,
+    "german": "Beim Auszug muss gestrichen werden.",
+    "persian": "در زمان تخلیه باید رنگ‌آمیزی شود.",
+    "examples": [
+      { "sentence": "Beim Auszug muss gestrichen werden.", "translation": "هنگام خروج از خانه باید رنگ شود." }
+    ]
+  },
+  {
+    "id": 77,
+    "german": "Lesen Sie bitte den Mietvertrag.",
+    "persian": "لطفاً قرارداد اجاره را بخوانید.",
+    "examples": [
+      { "sentence": "Lesen Sie bitte einfach den Mietvertrag.", "translation": "لطفاً قرارداد اجاره را بخوانید." }
+    ]
+  },
+  {
+    "id": 78,
+    "german": "Wir haben unsere Bewerbungsunterlagen schon mitgebracht.",
+    "persian": "ما مدارک درخواستمان را قبلاً همراه آورده‌ایم.",
+    "examples": [
+      { "sentence": "Wir haben unsere Bewerbungsunterlagen schon mitgebracht.", "translation": "ما مدارک درخواستمان را از قبل همراه آورده‌ایم." }
+    ]
+  },
+  {
+    "id": 79,
+    "german": "Viel Erfolg.",
+    "persian": "موفق باشید.",
+    "examples": [
+      { "sentence": "Viel Erfolg.", "translation": "موفق باشید." }
+    ]
+  },
+  {
+    "id": 80,
+    "german": "War sehr nett bei Ihnen.",
+    "persian": "خیلی خوشحال شدیم از دیدن شما / خیلی مودبانه بود.",
+    "examples": [
+      { "sentence": "War sehr nett bei Ihnen.", "translation": "خیلی مودب و خوب بود با شما." }
+    ]
+  }
+
+
+
+
+
+]

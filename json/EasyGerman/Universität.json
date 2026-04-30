@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "german": "Studium im Alter",
+    "persian": "تحصیل در سن بالا / تحصیل در سنین کهنسالی",
+    "examples": [
+      { "sentence": "Ein Studium im Alter ist eine schöne Sache.", "translation": "تحصیل در سن بالا کار خیلی زیبایی است." }
+    ]
+  },
+  {
+    "id": 2,
+    "german": "erster Studientag",
+    "persian": "اولین روز تحصیل / اولین روز دانشجویی",
+    "examples": [
+      { "sentence": "Wir begleiten Janusch auf seinem ersten Studientag.", "translation": "ما امروز جانوش را در اولین روز دانشجویی‌اش همراهی می‌کنیم." }
+    ]
+  },
+  {
+    "id": 3,
+    "german": "Anfängerkurs",
+    "persian": "دوره مبتدی / کلاس مقدماتی",
+    "examples": [
+      { "sentence": "Wir sind jetzt im Anfängerkurs.", "translation": "ما الان در کلاس مبتدی هستیم." }
+    ]
+  },
+  {
+    "id": 4,
+    "german": "duzen oder siezen",
+    "persian": "با «تو» خطاب کردن یا با «شما» خطاب کردن",
+    "examples": [
+      { "sentence": "Die große Frage heute ist: Du oder Sie?", "translation": "سؤال بزرگ امروز این است: تو یا شما؟" }
+    ]
+  },
+  {
+    "id": 5,
+    "german": "Lehrende ansprechen",
+    "persian": "خطاب کردن مدرسان / نحوه صدا زدن اساتید",
+    "examples": [
+      { "sentence": "Wie spricht man die Lehrenden oder die Professorinnen an?", "translation": "چگونه مدرسان یا استادان زن را خطاب می‌کنیم؟" }
+    ]
+  },
+  {
+    "id": 6,
+    "german": "grüne Zone / blaue Zone",
+    "persian": "منطقه سبز / منطقه آبی (در کتابخانه)",
+    "examples": [
+      { "sentence": "Wir haben grüne Zonen für die Studenten, die an einem Projekt arbeiten, und blaue Zonen, wo man sich konzentrieren kann.", "translation": "ما منطقه سبز برای دانشجویانی که روی پروژه کار می‌کنند و منطقه آبی برای تمرکز داریم." }
+    ]
+  },
+  {
+    "id": 7,
+    "german": "Bücher ausleihen",
+    "persian": "کتاب امانت گرفتن",
+    "examples": [
+      { "sentence": "In einer Uni-Bibliothek kann man Bücher kostenlos ausleihen.", "translation": "در کتابخانه دانشگاه می‌توان کتاب‌ها را رایگان امانت گرفت." }
+    ]
+  },
+  {
+    "id": 8,
+    "german": "Gebühren zahlen",
+    "persian": "جریمه پرداخت کردن (برای کتاب دیرکرد)",
+    "examples": [
+      { "sentence": "Wenn man Bücher zu spät zurückgibt, muss man Gebühren zahlen.", "translation": "اگر کتاب‌ها را دیر برگردانید، باید جریمه بپردازید." }
+    ]
+  },
+  {
+    "id": 9,
+    "german": "Kunstgalerie auf dem Campus",
+    "persian": "گالری هنری در محوطه دانشگاه",
+    "examples": [
+      { "sentence": "Auf eurem Campus gibt es eine Kunstgalerie.", "translation": "در محوطه دانشگاه شما یک گالری هنری وجود دارد." }
+    ]
+  },
+  {
+    "id": 10,
+    "german": "interaktive Übungen",
+    "persian": "تمرین‌های تعاملی",
+    "examples": [
+      { "sentence": "Ihr könnt zu unseren Videos interaktive Übungen machen.", "translation": "شما می‌توانید برای ویدیوهای ما تمرین‌های تعاملی انجام دهید." }
+    ]
+  },
+  {
+    "id": 11,
+    "german": "Los geht’s",
+    "persian": "بزن بریم / شروع کنیم",
+    "examples": [
+      { "sentence": "Los geht’s.", "translation": "بزن بریم." }
+    ]
+  },
+  {
+    "id": 12,
+    "german": "Du oder Sie?",
+    "persian": "تو یا شما؟",
+    "examples": [
+      { "sentence": "Das wird heute das Thema: Du oder Sie?", "translation": "موضوع امروز این است: تو یا شما؟" }
+    ]
+  },
+  {
+    "id": 13,
+    "german": "Nicht duzen, immer siezen bei Politikern",
+    "persian": "با سیاستمداران «تو» نگو، همیشه «شما» بگو",
+    "examples": [
+      { "sentence": "Nicht duzen, immer siezen bei Politikern.", "translation": "با سیاستمداران «تو» نگو، همیشه با «شما» خطاب کن." }
+    ]
+  },
+  {
+    "id": 14,
+    "german": "Auch in Neuseeland",
+    "persian": "حتی در نیوزیلند هم همین‌طور است",
+    "examples": [
+      { "sentence": "Auch in Neuseeland.", "translation": "حتی در نیوزیلند هم همین‌طور است." }
+    ]
+  },
+  {
+    "id": 15,
+    "german": "Da bekommst du was Süßes",
+    "persian": "برای این یکی یه چیزی شیرین می‌گیری",
+    "examples": [
+      { "sentence": "Aber da du bekommst was Süßes.", "translation": "ولی برای این یکی یه چیزی شیرین می‌گیری." }
+    ]
+  },
+  {
+    "id": 16,
+    "german": "Der Trick ist, dass du dir die Fehler merkst",
+    "persian": "ترفند این است که اشتباهاتت را به خاطر بسپاری",
+    "examples": [
+      { "sentence": "Der Trick ist, Janusch, dass du dir die Fehler merkst, sonst schmecken sie im Test nicht so süß.", "translation": "ترفند این است که اشتباهاتت را به خاطر بسپاری، وگرنه در امتحان به این شیرینی مزه نمی‌دهند." }
+    ]
+  },
+  {
+    "id": 17,
+    "german": "Nicht dutzen, immer sitzen bei Politikern",
+    "persian": "با سیاستمداران «تو» نزن، همیشه «بنشین» (اشتباه شنیداری)",
+    "examples": [
+      { "sentence": "Nicht dutzen, immer sitzen bei Politikern.", "translation": "با سیاستمداران «تو» نزن، همیشه «بنشین»." }
+    ]
+  },
+  {
+    "id": 18,
+    "german": "Man lässt sich inspirieren",
+    "persian": "انسان الهام می‌گیرد / برای الهام گرفتن می‌آید",
+    "examples": [
+      { "sentence": "Man kommt vorbei, man lässt sich inspirieren.", "translation": "آدم می‌آید، الهام می‌گیرد." }
+    ]
+  },
+  {
+    "id": 19,
+    "german": "Als Student – wo ist mein Doktortitel?",
+    "persian": "به عنوان دانشجو – عنوان دکترای من کجاست؟",
+    "examples": [
+      { "sentence": "Als Student wo ist mein Doktortitel?", "translation": "به عنوان دانشجو، عنوان دکترای من کجاست؟" }
+    ]
+  },
+  {
+    "id": 20,
+    "german": "Das Singen war eine der größten Überraschungen meines Lebens",
+    "persian": "آواز خواندن یکی از بزرگ‌ترین surprises زندگی من بود",
+    "examples": [
+      { "sentence": "Das Singen war eine der größten Überraschungen meines Lebens.", "translation": "آواز خواندن یکی از بزرگ‌ترین تعجب‌های زندگی من بود." }
+    ]
+  },
+  {
+    "id": 21,
+    "german": "Ich nehme ein Souvenir mit nach Hause",
+    "persian": "یک سوغاتی با خودم به خانه می‌برم",
+    "examples": [
+      { "sentence": "Ich nehme ein Souvenir mit nach Hause.", "translation": "یک سوغاتی با خودم به خانه می‌برم." }
+    ]
+  },
+  {
+    "id": 22,
+    "german": "Schmeckt sehr lecker und sehr sättigend",
+    "persian": "خیلی خوشمزه و سیرکننده است",
+    "examples": [
+      { "sentence": "Schmeckt sehr lecker und sehr sättigend.", "translation": "خیلی خوشمزه و سیرکننده است." }
+    ]
+  },
+  {
+    "id": 23,
+    "german": "Käse, Butter, Schmacko Fatz",
+    "persian": "پنیر، کره، مزه‌ی عالی (اصطلاح عامیانه)",
+    "examples": [
+      { "sentence": "Käse, Butter, Schmacko Fatz.", "translation": "پنیر، کره، مزه‌ی عالی!" }
+    ]
+  },
+  {
+    "id": 24,
+    "german": "Was geht ab?",
+    "persian": "چه خبر؟ / چی تو چته؟ (خیلی غیررسمی)",
+    "examples": [
+      { "sentence": "Was geht ab?", "translation": "چی تو چته؟ / چه خبره؟" }
+    ]
+  },
+  {
+    "id": 25,
+    "german": "Ich habe mich selber eingeladen",
+    "persian": "خودم خودم را دعوت کردم",
+    "examples": [
+      { "sentence": "Ich habe mich selber eingeladen.", "translation": "خودم خودم را دعوت کردم." }
+    ]
+  },
+  {
+    "id": 26,
+    "german": "Herzliche Willkommen an unserer Universität",
+    "persian": "خوش آمدید به دانشگاه ما",
+    "examples": [
+      { "sentence": "Herzliche Willkommen an unserer Universität.", "translation": "از صمیم قلب خوش آمدید به دانشگاه ما." }
+    ]
+  },
+  {
+    "id": 27,
+    "german": "Jetzt bist du auch offiziell willkommen hier an der Uni",
+    "persian": "حالا تو هم به طور رسمی در دانشگاه خوش آمدی",
+    "examples": [
+      { "sentence": "Jetzt bist du auch offiziell willkommen hier an der Uni.", "translation": "حالا تو هم به طور رسمی در این دانشگاه خوش آمدی." }
+    ]
+  },
+  {
+    "id": 28,
+    "german": "Kunstexperte",
+    "persian": "کارشناس هنر (به صورت طنز)",
+    "examples": [
+      { "sentence": "Kunstexperte Janusch.", "translation": "کارشناس هنر جانوش." }
+    ]
+  },
+  {
+    "id": 29,
+    "german": "seit 40 Jahren und einem Tag",
+    "persian": "از ۴۰ سال و یک روز پیش",
+    "examples": [
+      { "sentence": "Ich studiere Deutsch schon seit 40 Jahren und heute studiere ich Deutsch seit 40 Jahren und einem Tag.", "translation": "من already ۴۰ سال است آلمانی یاد می‌گیرم و امروز ۴۰ سال و یک روز است که آلمانی یاد می‌گیرم." }
+    ]
+  },
+  {
+    "id": 30,
+    "german": "Wow, mein Kuchen ist sehr süß",
+    "persian": "وای، کیک من خیلی شیرینه",
+    "examples": [
+      { "sentence": "Wow, mein Kuchen ist sehr süß.", "translation": "وای، کیکم خیلی شیرینه." }
+    ]
+  },
+  {
+    "id": 31,
+    "german": "Klaust du etwa ... Kuchen?",
+    "persian": "مگه داری کیک ... رو می‌دزدی؟",
+    "examples": [
+      { "sentence": "Klaust du etwa Elisabeth Kuchen?", "translation": "مگه داری کیک الیزابت رو می‌دزدی؟" }
+    ]
+  },
+  {
+    "id": 32,
+    "german": "Lernplattform",
+    "persian": "پلتفرم آموزشی",
+    "examples": [
+      { "sentence": "Dann bekommt ihr Zugang zu unserer Lernplattform.", "translation": "بعد دسترسی به پلتفرم آموزشی ما را خواهید داشت." }
+    ]
+  },
+  {
+    "id": 33,
+    "german": "Lernpfade",
+    "persian": "مسیرهای یادگیری",
+    "examples": [
+      { "sentence": "Es gibt Lernpfade, wo ihr alle Videos und Übungen in der richtigen Reihenfolge durcharbeiten könnt.", "translation": "مسیرهای یادگیری وجود دارد که می‌توانید تمام ویدیوها و تمرین‌ها را به ترتیب درست کار کنید." }
+    ]
+  },
+  {
+    "id": 34,
+    "german": "Deutsch vertiefen",
+    "persian": "عمیق‌تر کردن زبان آلمانی / تقویت بیشتر آلمانی",
+    "examples": [
+      { "sentence": "Ihr könnt euer Deutsch vertiefen.", "translation": "می‌توانید زبان آلمانی خود را عمیق‌تر کنید." }
+    ]
+  },
+  {
+    "id": 35,
+    "german": "Schritt für Schritt Deutsch verbessern",
+    "persian": "گام به گام زبان آلمانی را بهبود بخشیدن",
+    "examples": [
+      { "sentence": "Schritt für Schritt euer Deutsch verbessern.", "translation": "گام به گام زبان آلمانی‌تان را بهتر کنید." }
+    ]
+  },
+  {
+    "id": 36,
+    "german": "südpazifische Flaggen",
+    "persian": "پرچم‌های جنوب اقیانوس آرام",
+    "examples": [
+      { "sentence": "Wir können die südpazifischen Flaggen hier sehen.", "translation": "ما می‌توانیم پرچم‌های جنوب اقیانوس آرام را اینجا ببینیم." }
+    ]
+  },
+  {
+    "id": 37,
+    "german": "kulturelle Vielfalt",
+    "persian": "تنوع فرهنگی",
+    "examples": [
+      { "sentence": "Sie stehen für kulturelle Vielfalt.", "translation": "آن‌ها نماد تنوع فرهنگی هستند." }
+    ]
+  },
+  {
+    "id": 38,
+    "german": "feierlicher Raum",
+    "persian": "فضای رسمی و باشکوه",
+    "examples": [
+      { "sentence": "Jetzt sind wir in einem sehr feierlichen Raum.", "translation": "حالا ما در یک فضای بسیار رسمی و باشکوه هستیم." }
+    ]
+  },
+  {
+    "id": 39,
+    "german": "überfällige Bücher",
+    "persian": "کتاب‌های دیرکرد / کتاب‌های با تأخیر",
+    "examples": [
+      { "sentence": "Gebühren für überfällige Bücher zahlen.", "translation": "پرداخت جریمه برای کتاب‌های دیرکرد." }
+    ]
+  },
+  {
+    "id": 40,
+    "german": "Empfangskomitee",
+    "persian": "کمیته استقبال",
+    "examples": [
+      { "sentence": "Wenn man im Empfangskomitee ist.", "translation": "وقتی در کمیته استقبال هستی." }
+    ]
+  }
+
+
+
+]

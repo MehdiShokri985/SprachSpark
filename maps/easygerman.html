@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <title>Connector Map</title>
+    <title>Easy German</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -260,16 +260,12 @@
         }
       }
 
-      function createTranslateLink1(text) {
-        if (!text || text === "—") return "#";
-        return `https://www.verben.de/suche/?w=${encodeURIComponent(text.trim())}`;
-      }
+
 
         function createTranslateLink(text) {
         if (!text || text === "—") return "#";
         return `https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(text.trim())}&op=translate`;
       }
-
       function createPopupHTML(item, cityName) {
         return `
           <div class="popup">
@@ -281,19 +277,14 @@
             <div class="verb-section" style="margin: 12px 0 8px;">
              
               <div class="connector">
-                <a href="${createTranslateLink1(item.german)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.german}</a>
+                <a href="${createTranslateLink(item.german)}" target="_blank" style="color:#5200c6; text-decoration:none;">${item.german}</a>
               </div>
               <div class="person">${item.persian}</div>
             
-              <div style="font-size:0.8rem; color:#1e40af; margin-top:2px;">${item.level}</div>
+             
             </div>
 
-            <div class="grammar-section">
-              <div class="grammar-title">Erläuterung</div>
-              <div style="font-size:0.88rem; line-height:1.5; color:#334155;direction: rtl;text-align: right;font-family: monospace !important;">
-                ${item.explanation}
-              </div>
-            </div>
+          
 
             ${
               item.examples && item.examples.length
@@ -356,7 +347,7 @@
         .then((res) => res.json())
         .then((cities) => {
           allCities = cities;
-          return fetch("../json/connector.json").then((r) => r.json());
+          return fetch("../json/EasyGerman/Wohnungsbesichtigung.json").then((r) => r.json());
         })
         .then((data) => {
           sortedItems = data.sort((a, b) => parseInt(a.id) - parseInt(b.id));

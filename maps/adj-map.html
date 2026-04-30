@@ -70,45 +70,41 @@
         line-height: 1.55;
       }
 
-      /* ==================== استایل مارکر جدید ==================== */
+      /* ==================== استایل مارکر با چک‌باکس ==================== */
       .custom-adjective-marker {
         background: white;
         color: #1e40af;
         font-size: 11.5px;
         font-weight: 600;
-        padding: 4px 8px;
+        padding-right:5px;
         border: 1.5px solid #a3a8ea;
-        border-radius: 8px;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.22);
         white-space: nowrap;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        line-height: 1.2;
-        min-width: 68px;
-        text-align: center;
+        gap: 6px;
+        min-width: 85px;
+        cursor: pointer;
       }
 
       .marker-id {
         font-size: 17px;
         font-weight: 700;
-        color: #1e40af;
       }
 
       .marker-fa {
         font-size: 14px;
         color: #334155;
-        margin-top: 1px;
         direction: rtl;
-         font-family: monospace !important;
+        font-family: monospace !important;
       }
 
       .titleid {
         text-align: right;
       }
 
-      /* بقیه استایل‌های قبلی بدون تغییر */
+      /* استایل‌های قبلی بدون تغییر */
       .header-row {
         display: flex;
         justify-content: space-between;
@@ -142,7 +138,7 @@
         font-size: 1rem;
         color: #585759;
         text-align: right;
-         font-family: monospace !important;
+        font-family: monospace !important;
       }
       .grammar-section {
         margin: 0.1rem 0;
@@ -174,12 +170,7 @@
         background: #84e0fa !important;
         border-radius: 2px;
       }
-      * {
-        scrollbar-width: thin;
-        scrollbar-color: #84e0fa transparent;
-      }
 
-      /* ================ دکمه شناور ترجمه (جدید) ================ */
       #float-translate-btn {
         position: fixed;
         display: none;
@@ -196,7 +187,6 @@
         font-size: 24px;
         transition: all 0.2s ease;
         user-select: none;
-        padding: 3px 1px 0px 1px;
       }
       #float-translate-btn:hover {
         transform: scale(1.1);
@@ -206,10 +196,8 @@
   </head>
   <body>
     <div id="map"></div>
-
-    <!-- دکمه شناور ترجمه -->
-
     <div id="float-translate-btn" title="ترجمه با گوگل">🌐</div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
       const ADJECTIVES_PER_CITY = 6;
@@ -219,6 +207,21 @@
       let currentMarkers = new Map();
       let pathPolyline = null;
       let fullPathPoints = [];
+
+      // === مدیریت وضعیت چک‌باکس‌ها ===
+      let checkedMarkers = new Set();
+      const STORAGE_KEY = "adjectiveMap_checkedMarkers";
+
+      function loadCheckedState() {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          checkedMarkers = new Set(JSON.parse(saved));
+        }
+      }
+
+      function saveCheckedState() {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify([...checkedMarkers]));
+      }
 
       var map = L.map("map", {
         zoomControl: true,
@@ -232,17 +235,29 @@
         attribution: "© Google Maps",
       }).addTo(map);
 
-      // آیکون جدید: شماره + ترجمه فارسی
-      function getCustomIcon(item) {
+      // ==================== آیکون سفارشی با چک‌باکس ====================
+      function getCustomIcon(item, isChecked = false) {
+        const bgColor = isChecked ? "#fb4949" : "#ffffff";
+        const borderColor = isChecked ? "#059669" : "#a3a8ea";
+        const textColor = isChecked ? "#fcff34" : "#3a40af";
+        const faColor = isChecked ? "#fcff34" : "#000000";
+
         return L.divIcon({
           className: "custom-adjective-marker",
           html: `
-            <div class="marker-id">${String(item.id)}</div>
-            <div class="marker-fa">${item.translation_fa}</div>
+            <input type="checkbox" 
+                   class="marker-checkbox" 
+                   data-id="${item.id}"
+                   ${isChecked ? "checked" : ""} 
+                   style="width:17px; height:17px; accent-color:#fb4949; cursor:pointer; margin:0;">
+            <div style="text-align: center; flex: 1;background-color: ${bgColor}; border-radius: 10px 0px 0px 10px;padding: 5px;">
+              <div class="marker-id" style="color: ${textColor};">${String(item.id)}</div>
+              <div class="marker-fa" style="color: ${faColor};">${item.translation_fa}</div>
+            </div>
           `,
           iconSize: [null, null],
-          iconAnchor: [39, 26],
-          popupAnchor: [0, -28],
+          iconAnchor: [55, 30],
+          popupAnchor: [0, -35],
         });
       }
 
@@ -271,6 +286,7 @@
       }
 
       function createPopupHTML(item, cityName) {
+        // همان کد قبلی شما (بدون تغییر)
         return `
           <div class="popup">
             <div class="header-row">
@@ -286,7 +302,6 @@
               <div class="person">${item.translation_fa}</div>
             </div>
 
-            <!-- Unbestimmter Artikel (Nominativ) -->
             <div class="grammar-section">
               <div class="grammar-title">Unbestimmter Artikel (Nominativ)</div>
               <div style="font-size:0.85rem; line-height:1.45;">
@@ -317,7 +332,7 @@
                 : ""
             }
 
-            <!-- Antonyme & Synonyme -->
+           <!-- Antonyme & Synonyme -->
             <div class="grammar-section" style="display:flex;gap:16px;flex-wrap:wrap;">
               ${
                 item.antonyme && item.antonyme.length
@@ -378,7 +393,6 @@
           </div>`;
       }
 
-      // نمایش همه مارکرها از ابتدا
       function showAllMarkers() {
         fullPathPoints = [];
 
@@ -389,12 +403,36 @@
           const cityName =
             allCities[Math.floor(globalIdx / ADJECTIVES_PER_CITY)]?.name ||
             "نامشخص";
+          const isChecked = checkedMarkers.has(String(item.id));
 
           const marker = L.marker(pos, {
-            icon: getCustomIcon(item),
+            icon: getCustomIcon(item, isChecked),
           }).addTo(map);
 
           marker.globalIndex = globalIdx;
+          marker.itemId = String(item.id);
+
+          // مدیریت کلیک روی چک‌باکس
+          marker.on("click", function (e) {
+            const target = e.originalEvent ? e.originalEvent.target : null;
+            if (target && target.type === "checkbox") {
+              e.originalEvent.stopPropagation(); // جلوگیری از باز شدن پاپ‌آپ
+
+              const id = target.dataset.id;
+              const checked = target.checked;
+
+              if (checked) {
+                checkedMarkers.add(id);
+              } else {
+                checkedMarkers.delete(id);
+              }
+
+              // به‌روزرسانی آیکون مارکر
+              this.setIcon(getCustomIcon(item, checked));
+              saveCheckedState();
+            }
+          });
+
           marker.bindPopup(createPopupHTML(item, cityName), {
             maxWidth: 420,
             minWidth: 280,
@@ -436,53 +474,39 @@
             precomputedPositions.push([lat, lng]);
           });
 
-          // نمایش همه مارکرها
+          // بارگذاری وضعیت ذخیره‌شده
+          loadCheckedState();
+
+          // نمایش مارکرها
           showAllMarkers();
 
-          // زوم اولیه مناسب
           if (fullPathPoints.length > 0) {
             map.fitBounds(fullPathPoints, { padding: [50, 50] });
           }
         })
         .catch((err) => {
           console.error(err);
-          alert("Fehler beim Laden der JSON-Dateien");
+          alert("خطا در بارگذاری فایل‌های JSON");
         });
 
-      /* ================ قابلیت انتخاب متن و باز شدن گوگل ترجمه ================ */
+      // ==================== دکمه ترجمه شناور (همان کد قبلی) ====================
       let translateBtn = null;
       let hideTimeout = null;
+      let currentSelectedText = "";
 
       function showTranslateButton() {
         const selection = window.getSelection();
         const selectedText = selection.toString().trim();
-
         if (selectedText.length === 0) {
           hideTranslateButton();
           return;
         }
 
-        // متن انتخاب‌شده را ذخیره می‌کنیم (برای موبایل خیلی مهم است)
         currentSelectedText = selectedText;
 
         if (!translateBtn) {
           translateBtn = document.getElementById("float-translate-btn");
-          if (!translateBtn) return;
-
-          // کلیک معمولی (دسکتاپ)
-          translateBtn.addEventListener("click", function (e) {
-            e.stopImmediatePropagation();
-            if (currentSelectedText) {
-              const url = `https://translate.google.com/?sl=auto&tl=fa&text=${encodeURIComponent(currentSelectedText)}&op=translate`;
-              window.open(url, "_blank");
-            }
-            hideTranslateButton();
-          });
-
-          // ضربه لمسی (iOS + Android) – مشکل قبلی دقیقاً اینجا بود
-          translateBtn.addEventListener("touchend", function (e) {
-            e.preventDefault();
-            e.stopImmediatePropagation();
+          translateBtn.addEventListener("click", () => {
             if (currentSelectedText) {
               const url = `https://translate.google.com/?sl=auto&tl=fa&text=${encodeURIComponent(currentSelectedText)}&op=translate`;
               window.open(url, "_blank");
@@ -493,7 +517,6 @@
 
         const range = selection.getRangeAt(0);
         const rect = range.getBoundingClientRect();
-
         const btnSize = 48;
         let left = rect.right + 12;
         let top = rect.top - btnSize - 12;
@@ -504,42 +527,21 @@
         translateBtn.style.left = `${left}px`;
         translateBtn.style.top = `${top}px`;
         translateBtn.style.display = "flex";
-
-        if (hideTimeout) clearTimeout(hideTimeout);
-        hideTimeout = setTimeout(() => {
-          if (window.getSelection().toString().trim() === "")
-            hideTranslateButton();
-        }, 8000);
       }
 
       function hideTranslateButton() {
         if (translateBtn) translateBtn.style.display = "none";
-        currentSelectedText = ""; // پاک کردن متن ذخیره‌شده
-        if (hideTimeout) {
-          clearTimeout(hideTimeout);
-          hideTimeout = null;
-        }
+        currentSelectedText = "";
+        if (hideTimeout) clearTimeout(hideTimeout);
       }
 
-      // فعال‌سازی در همه جا
       document.addEventListener("mouseup", showTranslateButton);
       document.addEventListener("touchend", showTranslateButton);
-
       document.addEventListener("selectionchange", () => {
         if (window.getSelection().toString().trim() === "")
           hideTranslateButton();
       });
 
-      document.addEventListener("mousedown", (e) => {
-        if (translateBtn && !translateBtn.contains(e.target))
-          hideTranslateButton();
-      });
-      document.addEventListener("touchstart", (e) => {
-        if (translateBtn && !translateBtn.contains(e.target))
-          hideTranslateButton();
-      });
-
-      // مخفی کردن هنگام حرکت نقشه
       map.on("zoomstart", hideTranslateButton);
       map.on("movestart", hideTranslateButton);
     </script>

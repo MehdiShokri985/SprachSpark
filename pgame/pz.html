@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آجر آلمانی - صفت‌ها</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+     <link rel="icon" type="image/x-icon" href="../images/adj.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap");
+
+      body { 
+        font-family: "Vazirmatn", system-ui, sans-serif; 
+      }
+
+      .game-container {
+        background: #1f2937;
+        padding: 16px;
+        border-radius: 16px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+      }
+
+      .success-row {
+        background: #166526b8;
+        border: 1px solid #4ade80;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: white;
+        cursor: pointer;
+      }
+
+      .bottom-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(78px, 1fr));
+        gap: 10px;
+        margin-bottom: 15px;
+      }
+
+      .bottom-cell {
+        background: #334155;
+        border-radius: 12px;
+        padding: 14px 8px;
+        text-align: center;
+        font-weight: 600;
+        color: #e0f2fe;
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-size: 0.93rem;
+        user-select: none;
+      }
+
+      .bottom-cell:active {
+        transform: scale(0.92);
+        background: #3b82f6;
+      }
+
+      .falling-piece {
+        position: absolute;
+        background: linear-gradient(135deg, #7c3aed, #c026d3);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 1.65rem;
+        border-radius: 18px;
+        box-shadow: 0 20px 30px -8px rgb(0 0 0 / 0.6);
+        z-index: 50;
+        cursor: grab;
+        padding: 14px 28px;
+        white-space: nowrap;
+      }
+
+      /* Modal Styles */
+      .modal-content {
+        background: linear-gradient(145deg, #1f2937, #111827);
+        border: 1px solid #4b5563;
+      }
+
+      .detail-item {
+        background: #1f293780;
+        border-radius: 12px;
+        padding: 12px 16px;
+        transition: all 0.2s;
+      }
+
+      .detail-item:hover {
+        background: #374151;
+        transform: translateY(-1px);
+      }
+
+      .translate-link {
+        color: #67e8f9;
+        transition: all 0.2s;
+      }
+
+      .translate-link:hover {
+        color: #22d3ee;
+        text-decoration: underline;
+      }
+
+      /* اسکرول عمودی نازک و رنگی برای مودال */
+#detail-modal .modal-content::-webkit-scrollbar {
+  width: 6px; /* خیلی نازک */
+}
+
+#detail-modal .modal-content::-webkit-scrollbar-track {
+  background: #1f2937;
+  border-radius: 20px;
+}
+
+#detail-modal .modal-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #22d3ee, #a855f7);
+  border-radius: 20px;
+}
+
+#detail-modal .modal-content::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #67e8f9, #c084fc);
+}
+
+/* برای فایرفاکس */
+#detail-modal .modal-content {
+  scrollbar-width: thin;
+  scrollbar-color: #a855f7 #1f2937;
+}
+    </style>
+  </head>
+  <body class="bg-gray-950 text-white min-h-screen pb-8">
+    <div class="max-w-7xl mx-auto p-4">
+      <!-- Header -->
+      <div class="flex justify-between items-center mb-6 flex-wrap gap-4">
+        <div class="flex items-center gap-6 text-sm">
+          <div>
+            <span class="text-emerald-400">L</span> 
+            <span id="level" class="font-bold text-2xl">1</span>
+          </div>
+          <div>
+            <span class="text-sky-400">T</span> 
+            <span id="progress" class="font-bold text-2xl">0/20</span>
+          </div>
+          <div>
+            <span class="text-amber-400">F</span> 
+            <span id="mistakes" class="font-bold text-2xl text-red-600">0/5</span>
+          </div>
+        </div>
+
+        <button onclick="resetFullGame()" class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-2xl transition">
+          <i class="fas fa-redo text-red-500"></i>
+          <span class="text-sm">شروع مجدد</span>
+        </button>
+      </div>
+
+      <div class="flex gap-6 flex-col lg:flex-row">
+        <div class="flex-1">
+          <div id="falling-container" class="relative h-36 md:h-20 mb-6 flex justify-center"></div>
+          <div id="game-container" class="game-container">
+            <div id="bottom-container"></div>
+            <div id="success-container" class="flex flex-col gap-3 mt-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal بهبود یافته -->
+    <div id="detail-modal" class="hidden fixed inset-0 bg-black/95 flex items-center justify-center z-50 p-4">
+      <div class="modal-content rounded-3xl max-w-2xl w-full max-h-[92vh] overflow-auto">
+        <div class="p-6 sticky top-0 bg-gray-900 border-b border-gray-700 flex items-center justify-between">
+          <div>
+            <div id="modal-german" class="text-5xl font-bold text-white"></div>
+            <div id="modal-persian" class="text-xl text-emerald-400 mt-1"></div>
+          </div>
+          <button onclick="closeModal()" class="text-4xl text-gray-400 hover:text-white transition">×</button>
+        </div>
+
+        <div class="p-6 space-y-6" id="modal-details">
+          <!-- محتوا توسط جاوااسکریپت پر می‌شود -->
+        </div>
+
+        <div class="p-6 border-t border-gray-700">
+          <button onclick="closeModal()" class="w-full py-4 bg-gray-700 hover:bg-gray-600 rounded-2xl text-lg font-medium transition">
+            بازگشت
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let adjectives = [];
+      let currentLevel = 1;
+      let completedInLevel = 0;
+      let mistakes = 0;
+      let currentAdjective = null;
+      let currentBottomSet = [];
+      let usedAdjectives = new Set();
+      let adjectiveIndex = 0;
+
+      const STORAGE_KEY = "germanAdjectivesProgress";
+
+      async function loadAdjectives() {
+        try {
+          const res = await fetch("adjective.json");
+          adjectives = await res.json();
+        } catch (e) {
+          console.error("فایل adjective.json پیدا نشد");
+        }
+      }
+
+      function saveProgress() {
+        const progress = { currentLevel, completedInLevel, mistakes, usedAdjectives: Array.from(usedAdjectives), adjectiveIndex };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+      }
+
+      function loadProgress() {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          const data = JSON.parse(saved);
+          currentLevel = data.currentLevel || 1;
+          completedInLevel = data.completedInLevel || 0;
+          mistakes = data.mistakes || 0;
+          usedAdjectives = new Set(data.usedAdjectives || []);
+          adjectiveIndex = data.adjectiveIndex || 0;
+        }
+      }
+
+      function updateUI() {
+        document.getElementById("level").textContent = currentLevel;
+        document.getElementById("progress").textContent = `${completedInLevel}/20`;
+        document.getElementById("mistakes").textContent = `${mistakes}/5`;
+      }
+
+      function getNextAdjective() {
+        if (adjectives.length === 0) return null;
+        let index = adjectiveIndex % adjectives.length;
+        let adj = adjectives[index];
+
+        let attempts = 0;
+        while (usedAdjectives.has(adj.adjective) && attempts < adjectives.length) {
+          index = (index + 1) % adjectives.length;
+          adj = adjectives[index];
+          attempts++;
+        }
+
+        adjectiveIndex = (index + 1) % adjectives.length;
+        return adj;
+      }
+
+      function createTranslateLink(text) {
+        const encoded = encodeURIComponent(text);
+        return `https://translate.google.com/?sl=de&tl=fa&text=${encoded}&op=translate`;
+      }
+
+      function renderModalDetails(adj) {
+        const container = document.getElementById("modal-details");
+        let html = "";
+
+        // آرتیکل‌های معین
+        if (adj.bestimmter_artikel?.nominativ) {
+          html += `<div class="detail-item"><h3 class="text-sky-400 font-semibold mb-3">با آرتیکل معین (Nominativ)</h3>`;
+          const nom = adj.bestimmter_artikel.nominativ;
+          html += `<div class="grid grid-cols-2 gap-3 text-sm">`;
+          if (nom.maskulin) html += `<a href="${createTranslateLink(nom.maskulin)}" target="_blank" class="translate-link">🟦 ${nom.maskulin}</a>`;
+          if (nom.feminin) html += `<a href="${createTranslateLink(nom.feminin)}" target="_blank" class="translate-link">🟥 ${nom.feminin}</a>`;
+          if (nom.neutral) html += `<a href="${createTranslateLink(nom.neutral)}" target="_blank" class="translate-link">🟨 ${nom.neutral}</a>`;
+          if (nom.plural) html += `<a href="${createTranslateLink(nom.plural)}" target="_blank" class="translate-link col-span-2">👥 ${nom.plural}</a>`;
+          html += `</div></div>`;
+        }
+
+        // آرتیکل‌های نامعین
+        if (adj.unbestimmter_artikel?.nominativ) {
+          html += `<div class="detail-item"><h3 class="text-violet-400 font-semibold mb-3">با آرتیکل نامعین (Nominativ)</h3>`;
+          const un = adj.unbestimmter_artikel.nominativ;
+          html += `<div class="grid grid-cols-2 gap-3 text-sm">`;
+          if (un.maskulin) html += `<a href="${createTranslateLink(un.maskulin)}" target="_blank" class="translate-link">🟦 ${un.maskulin}</a>`;
+          if (un.feminin) html += `<a href="${createTranslateLink(un.feminin)}" target="_blank" class="translate-link">🟥 ${un.feminin}</a>`;
+          if (un.neutral) html += `<a href="${createTranslateLink(un.neutral)}" target="_blank" class="translate-link">🟨 ${un.neutral}</a>`;
+          if (un.plural) html += `<a href="${createTranslateLink(un.plural)}" target="_blank" class="translate-link col-span-2">👥 ${un.plural}</a>`;
+          html += `</div></div>`;
+        }
+
+        // Akkusativ مثال‌ها
+        if (adj.akkusativ?.examples?.length) {
+          html += `<div class="detail-item"><h3 class="text-amber-400 font-semibold mb-3">مثال Akkusativ</h3><ul class="space-y-2 text-sm text-left ltr">`;
+          adj.akkusativ.examples.forEach(ex => {
+            html += `<li><a href="${createTranslateLink(ex)}" target="_blank" class="translate-link">→ ${ex}</a></li>`;
+          });
+          html += `</ul></div>`;
+        }
+
+        // مقایسه‌ای و عالی
+        if (adj.komparativ) {
+          html += `<div class="detail-item"><h3 class="text-pink-400 font-semibold">مقایسه‌ای (Komparativ)</h3><a href="${createTranslateLink(adj.komparativ)}" target="_blank" class="translate-link text-lg">${adj.komparativ}</a></div>`;
+        }
+
+        if (adj.superlativ) {
+          html += `<div class="detail-item"><h3 class="text-pink-400 font-semibold mb-2">عالی (Superlativ)</h3>`;
+          if (adj.superlativ.praedikativ) html += `<p><span class="text-gray-400">Predikativ:</span> <a href="${createTranslateLink(adj.superlativ.praedikativ)}" target="_blank" class="translate-link">${adj.superlativ.praedikativ}</a></p>`;
+          if (adj.superlativ.attributiv) html += `<p><span class="text-gray-400">Attributiv:</span> <a href="${createTranslateLink(adj.superlativ.attributiv)}" target="_blank" class="translate-link">${adj.superlativ.attributiv}</a></p>`;
+          html += `</div>`;
+        }
+
+        // مترادف و متضاد
+        if (adj.synonyme?.length) {
+          html += `<div class="detail-item"><h3 class="text-emerald-400 font-semibold mb-2">مترادف‌ها</h3><div class="flex flex-wrap gap-2">`;
+          adj.synonyme.forEach(s => {
+            html += `<a href="${createTranslateLink(s)}" target="_blank" class="translate-link bg-emerald-900/50 px-3 py-1 rounded-xl text-sm">${s}</a>`;
+          });
+          html += `</div></div>`;
+        }
+
+        if (adj.antonyme?.length) {
+          html += `<div class="detail-item"><h3 class="text-red-400 font-semibold mb-2">متضادها</h3><div class="flex flex-wrap gap-2">`;
+          adj.antonyme.forEach(a => {
+            html += `<a href="${createTranslateLink(a)}" target="_blank" class="translate-link bg-red-900/50 px-3 py-1 rounded-xl text-sm">${a}</a>`;
+          });
+          html += `</div></div>`;
+        }
+
+        // مثال‌ها
+        if (adj.examples?.length) {
+          html += `<div class="detail-item"><h3 class="text-white font-semibold mb-3">جمله‌های مثال</h3><ul class="space-y-3 text-[15px]">`;
+          adj.examples.forEach(ex => {
+            html += `<li class="border-r-2 border-gray-600 pr-3"><a href="${createTranslateLink(ex)}" target="_blank" class="translate-link">${ex}</a></li>`;
+          });
+          html += `</ul></div>`;
+        }
+
+        container.innerHTML = html;
+      }
+
+      function showDetails(german) {
+        const adj = adjectives.find(a => a.adjective === german);
+        if (!adj) return;
+
+        document.getElementById("modal-german").textContent = adj.adjective;
+        document.getElementById("modal-persian").textContent = adj.translation_fa;
+
+        renderModalDetails(adj);
+        document.getElementById("detail-modal").classList.remove("hidden");
+      }
+
+      function closeModal() {
+        document.getElementById("detail-modal").classList.add("hidden");
+      }
+
+      // بقیه توابع بدون تغییر (spawnNewFallingPiece, renderNewBottomRow, successDrop و ...)
+      function spawnNewFallingPiece() {
+        currentAdjective = getNextAdjective();
+        if (!currentAdjective) return;
+
+        const container = document.getElementById("falling-container");
+        container.innerHTML = `
+          <div id="falling-piece" class="falling-piece">
+            ${currentAdjective.adjective}
+          </div>
+        `;
+      }
+
+      function renderNewBottomRow() {
+        if (!currentAdjective) return;
+        const bottomContainer = document.getElementById("bottom-container");
+        bottomContainer.innerHTML = "";
+
+        const bottomDiv = document.createElement("div");
+        bottomDiv.className = "bottom-row";
+
+        let others = adjectives
+          .filter(item => item.adjective !== currentAdjective.adjective)
+          .sort(() => Math.random() - 0.5)
+          .slice(0, 7);
+
+        currentBottomSet = [currentAdjective, ...others].sort(() => Math.random() - 0.5);
+
+        currentBottomSet.forEach((item) => {
+          const cell = document.createElement("div");
+          cell.className = "bottom-cell";
+          cell.textContent = item.translation_fa;
+          cell.dataset.german = item.adjective;
+
+          cell.addEventListener("click", () => {
+            if (currentAdjective && item.adjective === currentAdjective.adjective) {
+              successDrop(item.adjective, item.translation_fa);
+            } else {
+              wrongDrop();
+            }
+          });
+
+          bottomDiv.appendChild(cell);
+        });
+
+        bottomContainer.appendChild(bottomDiv);
+      }
+
+      function successDrop(german, persian) {
+        usedAdjectives.add(german);
+        const successContainer = document.getElementById("success-container");
+        const successRow = document.createElement("div");
+        successRow.className = "success-row";
+        successRow.innerHTML = `<span>${german}</span><span style="color:#a5f3fc; font-size:1.4rem;">→</span><span>${persian}</span>`;
+        successRow.onclick = () => showDetails(german);
+        successContainer.appendChild(successRow);
+
+        completedInLevel++;
+        updateUI();
+        saveProgress();
+
+        if (completedInLevel >= 20) {
+          setTimeout(() => {
+            alert(`🎉 مرحله ${currentLevel} با موفقیت تمام شد!`);
+            currentLevel++;
+            completedInLevel = 0;
+            startNewRound();
+          }, 700);
+        } else {
+          setTimeout(() => {
+            document.getElementById("bottom-container").innerHTML = "";
+            spawnNewFallingPiece();
+            renderNewBottomRow();
+          }, 500);
+        }
+      }
+
+      function wrongDrop() {
+        mistakes++;
+        updateUI();
+        saveProgress();
+
+        const piece = document.getElementById("falling-piece");
+        if (piece) {
+          piece.style.transition = "all 0.3s";
+          piece.style.transform = "translateX(30px)";
+          setTimeout(() => piece.style.transform = "translateX(-30px)", 100);
+          setTimeout(() => piece.style.transform = "translateX(0)", 400);
+        }
+
+        if (mistakes >= 5) {
+          alert("۵ خطا! بازی از اول شروع شد.");
+          resetFullGame();
+        } else {
+          setTimeout(() => {
+            document.getElementById("bottom-container").innerHTML = "";
+            spawnNewFallingPiece();
+            renderNewBottomRow();
+          }, 400);
+        }
+      }
+
+      function startNewRound() {
+        document.getElementById("success-container").innerHTML = "";
+        document.getElementById("bottom-container").innerHTML = "";
+        spawnNewFallingPiece();
+        renderNewBottomRow();
+        updateUI();
+        saveProgress();
+      }
+
+      function resetFullGame() {
+        if (confirm("آیا مطمئن هستید که می‌خواهید تمام پیشرفت خود را پاک کنید؟")) {
+          localStorage.removeItem(STORAGE_KEY);
+          currentLevel = 1;
+          completedInLevel = 0;
+          mistakes = 0;
+          usedAdjectives.clear();
+          adjectiveIndex = 0;
+          startNewRound();
+        }
+      }
+
+      window.onload = async () => {
+        await loadAdjectives();
+        if (adjectives.length === 0) {
+          alert("فایل adjective.json را در پوشه قرار دهید!");
+          return;
+        }
+        loadProgress();
+        updateUI();
+        startNewRound();
+      };
+    </script>
+  </body>
+</html>

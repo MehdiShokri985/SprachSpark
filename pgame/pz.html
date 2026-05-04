@@ -139,7 +139,7 @@
     <div class="max-w-7xl mx-auto p-4">
       <!-- Header -->
       <div class="flex justify-between items-center mb-6 flex-wrap gap-4">
-        <div class="flex items-center gap-6 text-sm">
+        <div class="flex items-center gap-6 text-xs">
           <div>
             <span class="text-emerald-400">L</span> 
             <span id="level" class="font-bold text-2xl">1</span>
@@ -156,7 +156,7 @@
 
         <button onclick="resetFullGame()" class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-2xl transition">
           <i class="fas fa-redo text-red-500"></i>
-          <span class="text-sm">شروع مجدد</span>
+          <span class="text-xs">شروع مجدد</span>
         </button>
       </div>
 
@@ -173,24 +173,24 @@
 
     <!-- Modal بهبود یافته -->
     <div id="detail-modal" class="hidden fixed inset-0 bg-black/95 flex items-center justify-center z-50 p-4">
-      <div class="modal-content rounded-3xl max-w-2xl w-full max-h-[92vh] overflow-auto">
+      <div class="modal-content rounded-3xl max-w-md w-full max-h-[92vh] overflow-auto">
         <div class="p-6 sticky top-0 bg-gray-900 border-b border-gray-700 flex items-center justify-between">
           <div>
-            <div id="modal-german" class="text-5xl font-bold text-white"></div>
-            <div id="modal-persian" class="text-xl text-emerald-400 mt-1"></div>
+            <div id="modal-german" class="text-2xl font-bold text-white"></div>
+            <div id="modal-persian" class="text-l text-emerald-400 mt-1"></div>
           </div>
           <button onclick="closeModal()" class="text-4xl text-gray-400 hover:text-white transition">×</button>
         </div>
 
-        <div class="p-6 space-y-6" id="modal-details">
+        <div class="p-6 space-y-2" id="modal-details">
           <!-- محتوا توسط جاوااسکریپت پر می‌شود -->
         </div>
 
-        <div class="p-6 border-t border-gray-700">
+        <!-- <div class="p-6 border-t border-gray-700">
           <button onclick="closeModal()" class="w-full py-4 bg-gray-700 hover:bg-gray-600 rounded-2xl text-lg font-medium transition">
             بازگشت
           </button>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -267,7 +267,7 @@
         if (adj.bestimmter_artikel?.nominativ) {
           html += `<div class="detail-item"><h3 class="text-sky-400 font-semibold mb-3">با آرتیکل معین (Nominativ)</h3>`;
           const nom = adj.bestimmter_artikel.nominativ;
-          html += `<div class="grid grid-cols-2 gap-3 text-sm">`;
+          html += `<div class="grid grid-cols-2 gap-3 text-xs">`;
           if (nom.maskulin) html += `<a href="${createTranslateLink(nom.maskulin)}" target="_blank" class="translate-link">🟦 ${nom.maskulin}</a>`;
           if (nom.feminin) html += `<a href="${createTranslateLink(nom.feminin)}" target="_blank" class="translate-link">🟥 ${nom.feminin}</a>`;
           if (nom.neutral) html += `<a href="${createTranslateLink(nom.neutral)}" target="_blank" class="translate-link">🟨 ${nom.neutral}</a>`;
@@ -279,7 +279,7 @@
         if (adj.unbestimmter_artikel?.nominativ) {
           html += `<div class="detail-item"><h3 class="text-violet-400 font-semibold mb-3">با آرتیکل نامعین (Nominativ)</h3>`;
           const un = adj.unbestimmter_artikel.nominativ;
-          html += `<div class="grid grid-cols-2 gap-3 text-sm">`;
+          html += `<div class="grid grid-cols-2 gap-3 text-xs">`;
           if (un.maskulin) html += `<a href="${createTranslateLink(un.maskulin)}" target="_blank" class="translate-link">🟦 ${un.maskulin}</a>`;
           if (un.feminin) html += `<a href="${createTranslateLink(un.feminin)}" target="_blank" class="translate-link">🟥 ${un.feminin}</a>`;
           if (un.neutral) html += `<a href="${createTranslateLink(un.neutral)}" target="_blank" class="translate-link">🟨 ${un.neutral}</a>`;
@@ -289,9 +289,9 @@
 
         // Akkusativ مثال‌ها
         if (adj.akkusativ?.examples?.length) {
-          html += `<div class="detail-item"><h3 class="text-amber-400 font-semibold mb-3">مثال Akkusativ</h3><ul class="space-y-2 text-sm text-left ltr">`;
+          html += `<div class="detail-item"><h3 class="text-amber-400 font-semibold mb-3">مثال Akkusativ</h3><ul class="space-y-2 text-xs text-left ltr">`;
           adj.akkusativ.examples.forEach(ex => {
-            html += `<li><a href="${createTranslateLink(ex)}" target="_blank" class="translate-link">→ ${ex}</a></li>`;
+            html += `<li style="direction:ltr"><a href="${createTranslateLink(ex)}" target="_blank" class="translate-link">→ ${ex}</a></li>`;
           });
           html += `</ul></div>`;
         }
@@ -303,8 +303,8 @@
 
         if (adj.superlativ) {
           html += `<div class="detail-item"><h3 class="text-pink-400 font-semibold mb-2">عالی (Superlativ)</h3>`;
-          if (adj.superlativ.praedikativ) html += `<p><span class="text-gray-400">Predikativ:</span> <a href="${createTranslateLink(adj.superlativ.praedikativ)}" target="_blank" class="translate-link">${adj.superlativ.praedikativ}</a></p>`;
-          if (adj.superlativ.attributiv) html += `<p><span class="text-gray-400">Attributiv:</span> <a href="${createTranslateLink(adj.superlativ.attributiv)}" target="_blank" class="translate-link">${adj.superlativ.attributiv}</a></p>`;
+          if (adj.superlativ.praedikativ) html += `<p><span class="text-gray-400 text-xs">Predikativ:</span> <a href="${createTranslateLink(adj.superlativ.praedikativ)}" target="_blank" class="translate-link text-xs">${adj.superlativ.praedikativ}</a></p>`;
+          if (adj.superlativ.attributiv) html += `<p><span class="text-gray-400 text-xs">Attributiv:</span> <a href="${createTranslateLink(adj.superlativ.attributiv)}" target="_blank" class="translate-link text-xs">${adj.superlativ.attributiv}</a></p>`;
           html += `</div>`;
         }
 
@@ -312,7 +312,7 @@
         if (adj.synonyme?.length) {
           html += `<div class="detail-item"><h3 class="text-emerald-400 font-semibold mb-2">مترادف‌ها</h3><div class="flex flex-wrap gap-2">`;
           adj.synonyme.forEach(s => {
-            html += `<a href="${createTranslateLink(s)}" target="_blank" class="translate-link bg-emerald-900/50 px-3 py-1 rounded-xl text-sm">${s}</a>`;
+            html += `<a href="${createTranslateLink(s)}" target="_blank" class="translate-link bg-emerald-900/50 px-3 py-1 rounded-xl text-xs">${s}</a>`;
           });
           html += `</div></div>`;
         }
@@ -320,16 +320,16 @@
         if (adj.antonyme?.length) {
           html += `<div class="detail-item"><h3 class="text-red-400 font-semibold mb-2">متضادها</h3><div class="flex flex-wrap gap-2">`;
           adj.antonyme.forEach(a => {
-            html += `<a href="${createTranslateLink(a)}" target="_blank" class="translate-link bg-red-900/50 px-3 py-1 rounded-xl text-sm">${a}</a>`;
+            html += `<a href="${createTranslateLink(a)}" target="_blank" class="translate-link bg-red-900/50 px-3 py-1 rounded-xl text-xs">${a}</a>`;
           });
           html += `</div></div>`;
         }
 
         // مثال‌ها
         if (adj.examples?.length) {
-          html += `<div class="detail-item"><h3 class="text-white font-semibold mb-3">جمله‌های مثال</h3><ul class="space-y-3 text-[15px]">`;
+          html += `<div class="detail-item"><h3 class="text-white font-semibold mb-3">جمله‌های مثال</h3><ul class="space-y-3 text-[12px] text-left">`;
           adj.examples.forEach(ex => {
-            html += `<li class="border-r-2 border-gray-600 pr-3"><a href="${createTranslateLink(ex)}" target="_blank" class="translate-link">${ex}</a></li>`;
+            html += `<li class="border-r-2 border-gray-600 pr-3" style="direction:ltr"><a href="${createTranslateLink(ex)}" target="_blank" class="translate-link">${ex}</a></li>`;
           });
           html += `</ul></div>`;
         }

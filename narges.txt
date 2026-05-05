@@ -37,6 +37,7 @@ krank
 gesund
 voll
 leer
+--
 offen
 geschlossen
 frei

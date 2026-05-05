@@ -63,7 +63,6 @@
                 </div>
                 <span>Session: <span id="sessionNumber">1</span></span>
                 <span>Mode: <span id="gameMode" class="font-semibold">Auto</span></span>
-                <span class="text-gray-500">Keys: 1-4, Enter, Esc</span>
             </div>
         </div>
     </div>
@@ -255,37 +254,6 @@
                 document.getElementById('resetBtn').addEventListener('click', () => this.resetProgress());
                 document.getElementById('modalCloseBtn').addEventListener('click', () => this.closeModal());
                 document.getElementById('levelSelect').addEventListener('change', (e) => this.changeLevel(e.target.value));
-                
-                // Keyboard shortcuts
-                document.addEventListener('keydown', (e) => {
-                    if (this.isAnswering) return;
-                    
-                    switch(e.key) {
-                        case 'Enter':
-                            if (this.gameState.totalQuestions === 0) {
-                                this.startGame();
-                            } else if (!this.isAnswering) {
-                                this.nextQuestion();
-                            }
-                            break;
-                        case 'Escape':
-                            const modal = document.getElementById('resultModal');
-                            if (!modal.classList.contains('hidden')) {
-                                this.closeModal();
-                            }
-                            break;
-                        case '1':
-                        case '2':
-                        case '3':
-                        case '4':
-                            const buttons = document.querySelectorAll('#answerOptions button');
-                            const index = parseInt(e.key) - 1;
-                            if (buttons[index] && !this.isAnswering) {
-                                buttons[index].click();
-                            }
-                            break;
-                    }
-                });
             }
 
             startGame() {
@@ -435,12 +403,6 @@
                 const questionType = document.getElementById('questionType');
                 const answerOptions = document.getElementById('answerOptions');
                 
-                // Validate elements exist before manipulation
-                if (!wordDisplay || !sentenceDisplay || !questionType || !answerOptions) {
-                    console.error('Required DOM elements not found');
-                    return;
-                }
-                
                 // Reset displays
                 wordDisplay.className = 'falling-word text-4xl font-bold text-indigo-800 mb-4';
                 sentenceDisplay.classList.add('hidden');
@@ -571,20 +533,13 @@
                 options.sort(() => Math.random() - 0.5);
                 
                 // Create option buttons
-                options.forEach((option, index) => {
+                options.forEach(option => {
                     const button = document.createElement('button');
-                    button.className = 'bg-white border-2 border-gray-300 rounded-lg p-4 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2';
+                    button.className = 'bg-white border-2 border-gray-300 rounded-lg p-4 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow-md';
                     button.textContent = option;
-                    button.setAttribute('data-option', index + 1);
                     button.addEventListener('click', () => this.checkAnswer(option, correctAnswer));
                     answerOptions.appendChild(button);
                 });
-                
-                // Focus first option for accessibility
-                setTimeout(() => {
-                    const firstButton = document.querySelector('#answerOptions button');
-                    if (firstButton) firstButton.focus();
-                }, 100);
             }
 
             // IMPROVED LEARNING SPEED (+0.1/-0.1)
@@ -654,13 +609,11 @@
                     modalTitle.textContent = 'Correct!';
                     modalTitle.className = 'text-2xl font-bold mb-2 text-green-600';
                     modalMessage.textContent = 'Great job! Keep it up!';
-                    this.playSound('correct');
                 } else {
                     modalIcon.textContent = '❌';
                     modalTitle.textContent = 'Wrong';
                     modalTitle.className = 'text-2xl font-bold mb-2 text-red-600';
                     modalMessage.textContent = `The correct answer was: ${correctAnswer}`;
-                    this.playSound('wrong');
                 }
                 
                 // Show word details
@@ -677,11 +630,6 @@
                 
                 modal.classList.remove('hidden');
                 modal.classList.add('flex');
-                
-                // Focus close button for accessibility
-                setTimeout(() => {
-                    document.getElementById('modalCloseBtn').focus();
-                }, 100);
             }
 
             closeModal() {
@@ -787,36 +735,8 @@
                 }
             }
 
-            playSound(type) {
-                // Create simple audio feedback using Web Audio API
-                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-                const oscillator = audioContext.createOscillator();
-                const gainNode = audioContext.createGain();
-                
-                oscillator.connect(gainNode);
-                gainNode.connect(audioContext.destination);
-                
-                if (type === 'correct') {
-                    oscillator.frequency.value = 800;
-                    gainNode.gain.value = 0.1;
-                } else {
-                    oscillator.frequency.value = 300;
-                    gainNode.gain.value = 0.1;
-                }
-                
-                oscillator.start();
-                oscillator.stop(audioContext.currentTime + 0.1);
-            }
-
             showError(message) {
-                const toast = document.createElement('div');
-                toast.className = 'fixed top-4 right-4 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 animate-pulse';
-                toast.textContent = message;
-                document.body.appendChild(toast);
-                
-                setTimeout(() => {
-                    toast.remove();
-                }, 3000);
+                alert(message);
             }
         }
 

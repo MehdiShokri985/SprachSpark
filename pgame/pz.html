@@ -777,15 +777,35 @@
           document.getElementById("modalDetails").innerHTML = `<div class="text-center py-6 text-gray-600">You can continue practicing or change level from the menu.</div>`;
           modal.classList.remove("hidden");
           modal.classList.add("flex");
+
+           // اطمینان از کار کردن دکمه Continue
+          const closeBtn = document.getElementById("modalCloseBtn");
+          closeBtn.textContent = "Continue";
         }
 
+
+        // closeModal() {
+        //   const modal = document.getElementById("resultModal");
+        //   modal.classList.add("hidden");
+        //   modal.classList.remove("flex");
+        //   this.isAnswering = false;
+        //   this.nextQuestion();
+        // }
+
         closeModal() {
-          const modal = document.getElementById("resultModal");
-          modal.classList.add("hidden");
-          modal.classList.remove("flex");
-          this.isAnswering = false;
-          this.nextQuestion();
-        }
+            const modal = document.getElementById("resultModal");
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+            
+            this.isAnswering = false;
+
+            // اگر سطح کامل شده باشد، به جای nextQuestion، حالت شروع را نمایش بده
+            if (document.getElementById("modalTitle").textContent === "Level Complete!") {
+              this.resetSession();
+            } else {
+              this.nextQuestion();
+            }
+          }
 
         changeLevel(newLevel) {
           this.gameState.currentLevel = newLevel;

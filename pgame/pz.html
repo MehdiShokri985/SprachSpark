@@ -37,7 +37,7 @@
           <div class="flex gap-4 text-sm">
             <div class="bg-green-100 px-2 py-0.5 rounded-full text-xs">
               <span class="text-green-800 font-semibold"
-                >Correct: <span id="correctCount">0</span></span
+                >Richtig: <span id="correctCount">0</span></span
               >
             </div>
             <div
@@ -45,12 +45,12 @@
               class="bg-red-100 px-2 py-0.5 rounded-full text-xs cursor-pointer hover:bg-red-200 active:bg-red-300 transition-colors"
             >
               <span class="text-red-800 font-semibold"
-                >Wrong: <span id="wrongCount">0</span></span
+                >Falsch: <span id="wrongCount">0</span></span
               >
             </div>
             <div class="bg-blue-100 px-2 py-0.5 rounded-full text-xs">
               <span class="text-blue-800 font-semibold"
-                >Score: <span id="score">0</span></span
+                >Punkte: <span id="score">0</span></span
               >
             </div>
           </div>
@@ -63,10 +63,10 @@
       <div class="bg-white rounded-lg shadow p-4">
         <div class="flex justify-between items-center mb-2">
           <span class="text-sm font-medium text-gray-700"
-            >Level Mastery Progress</span
+            >Mastery-Fortschritt</span
           >
           <span class="text-sm text-gray-600"
-            ><span id="masteryProgress">0</span>% Complete</span
+            ><span id="masteryProgress">0</span>% Abschließen</span
           >
         </div>
         <div class="w-full bg-gray-200 rounded-full h-3">
@@ -78,7 +78,7 @@
         </div>
         <div class="flex justify-between mt-3 text-xs text-gray-600">
           <div class="flex items-center gap-2">
-            <span>Level:</span>
+            <span>Niveau:</span>
             <select
               id="levelSelect"
               class="bg-white border border-gray-300 rounded px-2 py-1 text-xs font-semibold"
@@ -107,7 +107,7 @@
               id="fallingWord"
               class="falling-word text-4xl font-bold text-indigo-800 mb-4"
             >
-              Click "Start Game" to begin
+             Klicke auf „ Spiel starten“, um zu beginnen.
             </div>
             <div
               id="sentenceDisplay"
@@ -127,19 +127,19 @@
             id="startBtn"
             class="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-lg"
           >
-            Start Game
+            Spiel starten
           </button>
           <button
             id="nextBtn"
             class="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg hidden"
           >
-            Next Question
+            Nächste Frage
           </button>
           <button
             id="resetBtn"
             class="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-gray-600 hover:to-gray-700 transition-all transform hover:scale-105 shadow-lg"
           >
-            Reset Progress
+            Fortschritt zurücksetzen
           </button>
         </div>
       </div>
@@ -173,64 +173,25 @@
     </div>
 
     <!-- Mistakes List Modal -->
-    <div
-      id="mistakesModal"
-      class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50"
-    >
-      <div
-        class="bg-white rounded-2xl shadow-2xl p-6 max-w-lg mx-4 w-full max-h-[85vh] overflow-auto"
-      >
-        <h2 class="text-xl font-bold mb-4 text-red-600">
-         Fehler
-        </h2>
-        <div
-          id="mistakesList"
-          class="space-y-4 max-h-[60vh] overflow-auto"
-        ></div>
-
-        <div class="flex gap-3 mt-6 sticky bottom-0 bg-white pt-4 border-t">
-          <!-- <button
-            id="practiceMistakesBtn"
-            class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white py-3 rounded-lg font-semibold"
-          >
-            فقط این اشتباهات را تمرین کنم
-          </button> -->
-          <button
-            id="closeMistakesBtn"
-            class="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-3 rounded-lg font-semibold"
-          >
-            بستن
-          </button>
+    <div id="mistakesModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
+      <div class="bg-slate-50 rounded-3xl shadow-2xl p-5 max-w-sm mx-4 w-full max-h-[82vh] overflow-hidden flex flex-col border border-slate-200">
+        <h2 class="text-lg font-bold mb-4 text-amber-600 flex items-center gap-2">⚠️ Fehler</h2>
+        <div id="mistakesList" class="space-y-3 max-h-[58vh] overflow-auto pr-2 text-[14.5px] custom-scroll"></div>
+        <div class="mt-5 pt-4 border-t border-slate-200">
+          <button id="closeMistakesBtn" class="w-full bg-slate-700 hover:bg-slate-800 text-white py-3 rounded-2xl font-medium text-sm transition-all active:scale-95">Schließen</button>
         </div>
       </div>
     </div>
 
     <!-- Confidence Modal -->
-    <div
-      id="confidenceModal"
-      class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50"
-    >
-      <div
-        class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all"
-      >
+    <div id="confidenceModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
+      <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all">
         <div class="text-center">
           <div class="text-6xl mb-4">🤔</div>
-          <h2 class="text-2xl font-bold mb-6 text-gray-800">
-            Are you sure about your answer?
-          </h2>
+          <h2 class="text-2xl font-bold mb-6 text-gray-800">Are you sure about your answer?</h2>
           <div class="flex gap-4 justify-center">
-            <button
-              id="sureBtn"
-              class="bg-green-500 hover:bg-green-600 text-white px-10 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg"
-            >
-              Sure
-            </button>
-            <button
-              id="maybeBtn"
-              class="bg-orange-500 hover:bg-orange-600 text-white px-10 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg"
-            >
-              Maybe
-            </button>
+            <button id="sureBtn" class="bg-green-500 hover:bg-green-600 text-white px-10 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">Sure</button>
+            <button id="maybeBtn" class="bg-orange-500 hover:bg-orange-600 text-white px-10 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">Maybe</button>
           </div>
         </div>
       </div>
@@ -272,9 +233,7 @@
           try {
             const savedWords = localStorage.getItem("words");
             const savedState = localStorage.getItem("gameState");
-            const savedMistakes = localStorage.getItem(
-              `mistakes_${this.gameState.currentLevel || "A1"}`,
-            );
+            const savedMistakes = localStorage.getItem(`mistakes_${this.gameState.currentLevel || "A1"}`);
 
             if (savedWords && savedState) {
               this.words = JSON.parse(savedWords);
@@ -285,36 +244,27 @@
 
               this.words = this.words.map((word) => {
                 const normalizedWord = { ...word };
-                if (
-                  normalizedWord.strength === undefined ||
-                  normalizedWord.strength === null
-                )
-                  normalizedWord.strength = 0.3;
+                if (normalizedWord.strength === undefined || normalizedWord.strength === null) normalizedWord.strength = 0.3;
                 normalizedWord.dueIn = normalizedWord.dueIn || 0;
                 normalizedWord.seenCount = normalizedWord.seenCount || 0;
                 normalizedWord.mistakeCount = normalizedWord.mistakeCount || 0;
-                normalizedWord.correctStreak =
-                  normalizedWord.correctStreak || 0;
+                normalizedWord.correctStreak = normalizedWord.correctStreak || 0;
                 normalizedWord.sureCount = normalizedWord.sureCount || 0;
 
-                normalizedWord.sentences = (normalizedWord.sentences || []).map(
-                  (s) => ({
-                    ...s,
-                    strength: typeof s.strength === "number" ? s.strength : 0.3,
-                    dueIn: s.dueIn ?? 0,
-                    mistakeCount: s.mistakeCount ?? 0,
-                    seenCount: s.seenCount ?? 0,
-                    correctStreak: s.correctStreak ?? 0,
-                    sureCount: s.sureCount ?? 0,
-                  }),
-                );
+                normalizedWord.sentences = (normalizedWord.sentences || []).map((s) => ({
+                  ...s,
+                  strength: typeof s.strength === "number" ? s.strength : 0.3,
+                  dueIn: s.dueIn ?? 0,
+                  mistakeCount: s.mistakeCount ?? 0,
+                  seenCount: s.seenCount ?? 0,
+                  correctStreak: s.correctStreak ?? 0,
+                  sureCount: s.sureCount ?? 0,
+                }));
                 return normalizedWord;
               });
             }
 
-            this.currentLevelMistakes = savedMistakes
-              ? JSON.parse(savedMistakes)
-              : [];
+            this.currentLevelMistakes = savedMistakes ? JSON.parse(savedMistakes) : [];
             this.saveData();
           } catch (error) {
             console.error("Error loading data:", error);
@@ -325,48 +275,20 @@
         saveData() {
           localStorage.setItem("gameState", JSON.stringify(this.gameState));
           localStorage.setItem("words", JSON.stringify(this.words));
-          localStorage.setItem(
-            `mistakes_${this.gameState.currentLevel}`,
-            JSON.stringify(this.currentLevelMistakes),
-          );
+          localStorage.setItem(`mistakes_${this.gameState.currentLevel}`, JSON.stringify(this.currentLevelMistakes));
         }
 
         setupEventListeners() {
-          document
-            .getElementById("startBtn")
-            .addEventListener("click", () => this.startGame());
-          document
-            .getElementById("nextBtn")
-            .addEventListener("click", () => this.nextQuestion());
-          document
-            .getElementById("resetBtn")
-            .addEventListener("click", () => this.resetProgress());
-          document
-            .getElementById("modalCloseBtn")
-            .addEventListener("click", () => this.closeModal());
-          document
-            .getElementById("levelSelect")
-            .addEventListener("change", (e) =>
-              this.changeLevel(e.target.value),
-            );
-          document
-            .getElementById("sureBtn")
-            .addEventListener("click", () => this.handleConfidence("sure"));
-          document
-            .getElementById("maybeBtn")
-            .addEventListener("click", () => this.handleConfidence("maybe"));
+          document.getElementById("startBtn").addEventListener("click", () => this.startGame());
+          document.getElementById("nextBtn").addEventListener("click", () => this.nextQuestion());
+          document.getElementById("resetBtn").addEventListener("click", () => this.resetProgress());
+          document.getElementById("modalCloseBtn").addEventListener("click", () => this.closeModal());
+          document.getElementById("levelSelect").addEventListener("change", (e) => this.changeLevel(e.target.value));
+          document.getElementById("sureBtn").addEventListener("click", () => this.handleConfidence("sure"));
+          document.getElementById("maybeBtn").addEventListener("click", () => this.handleConfidence("maybe"));
+          document.getElementById("closeMistakesBtn").addEventListener("click", () => this.closeMistakesModal());
 
-        //   document
-        //     .getElementById("practiceMistakesBtn")
-        //     .addEventListener("click", () => this.practiceMistakesOnly());
-          document
-            .getElementById("closeMistakesBtn")
-            .addEventListener("click", () => this.closeMistakesModal());
-
-          // کلیک روی Wrong Counter
-          document
-            .getElementById("wrongCounter")
-            .addEventListener("click", () => this.showMistakesModal());
+          document.getElementById("wrongCounter").addEventListener("click", () => this.showMistakesModal());
 
           document.addEventListener("keydown", (e) => {
             if (this.isAnswering) return;
@@ -377,17 +299,14 @@
                 break;
               case "Escape":
                 document.querySelectorAll(".modal-overlay").forEach((m) => {
-                  if (!m.classList.contains("hidden"))
-                    m.classList.add("hidden");
+                  if (!m.classList.contains("hidden")) m.classList.add("hidden");
                 });
                 break;
               case "1":
               case "2":
               case "3":
               case "4":
-                const buttons = document.querySelectorAll(
-                  "#answerOptions button",
-                );
+                const buttons = document.querySelectorAll("#answerOptions button");
                 const index = parseInt(e.key) - 1;
                 if (buttons[index]) buttons[index].click();
                 break;
@@ -397,62 +316,38 @@
 
         startGame() {
           this.gameState.totalQuestions = 0;
-          // correctAnswers و wrongAnswers دیگر ریست نمی‌شوند تا شمارنده‌ها حفظ شوند
           this.gameState.sessionNumber++;
-
           document.getElementById("startBtn").classList.add("hidden");
           document.getElementById("nextBtn").classList.remove("hidden");
           this.nextQuestion();
         }
 
         selectNextWord() {
-          const levelWords = this.words.filter(
-            (word) => (word.level || "A1") === this.gameState.currentLevel,
-          );
-          const activeWords = levelWords.filter(
-            (word) => (word.sureCount || 0) < 2,
-          );
+          const levelWords = this.words.filter((word) => (word.level || "A1") === this.gameState.currentLevel);
+          const activeWords = levelWords.filter((word) => (word.sureCount || 0) < 2);
           if (activeWords.length === 0) return null;
 
           const dueWords = activeWords.filter((word) => word.dueIn <= 0);
           const candidateWords = dueWords.length > 0 ? dueWords : activeWords;
 
-          let availableWords = candidateWords.filter(
-            (word) => word.id !== this.gameState.lastWordId,
-          );
+          let availableWords = candidateWords.filter((word) => word.id !== this.gameState.lastWordId);
           if (availableWords.length === 0) availableWords = candidateWords;
 
-          const newWords = availableWords.filter(
-            (word) => word.seenCount === 0,
-          );
-          const reviewWords = availableWords.filter(
-            (word) => word.seenCount > 0,
-          );
+          const newWords = availableWords.filter((word) => word.seenCount === 0);
+          const reviewWords = availableWords.filter((word) => word.seenCount > 0);
 
           const questionPosition = this.gameState.totalQuestions % 4;
-          let selectedPool =
-            questionPosition === 0 && newWords.length > 0
-              ? newWords
-              : reviewWords.length > 0
-                ? reviewWords
-                : newWords;
+          let selectedPool = questionPosition === 0 && newWords.length > 0 ? newWords : reviewWords.length > 0 ? reviewWords : newWords;
 
           selectedPool.sort((a, b) => {
             if (a.strength !== b.strength) return a.strength - b.strength;
-            if (a.mistakeCount !== b.mistakeCount)
-              return b.mistakeCount - a.mistakeCount;
+            if (a.mistakeCount !== b.mistakeCount) return b.mistakeCount - a.mistakeCount;
             return a.seenCount - b.seenCount;
           });
 
           let selected = selectedPool[0];
-          if (
-            selected &&
-            selected.id === this.gameState.lastWordId &&
-            selectedPool.length > 1
-          ) {
-            selected =
-              selectedPool.find((w) => w.id !== this.gameState.lastWordId) ||
-              selected;
+          if (selected && selected.id === this.gameState.lastWordId && selectedPool.length > 1) {
+            selected = selectedPool.find((w) => w.id !== this.gameState.lastWordId) || selected;
           }
           return selected;
         }
@@ -481,10 +376,7 @@
             else mode = "word_with_sentence";
           }
 
-          if (
-            (mode === "word_with_sentence" || mode === "sentence_only") &&
-            (!word.sentences || word.sentences.length === 0)
-          ) {
+          if ((mode === "word_with_sentence" || mode === "sentence_only") && (!word.sentences || word.sentences.length === 0)) {
             mode = "de_to_fa";
           }
 
@@ -493,16 +385,9 @@
 
           const result = {
             de_to_fa: () => ({ type: "de_to_fa", showWord: true }),
-            word_with_sentence: () => ({
-              type: "word_with_sentence",
-              showSentence: true,
-            }),
+            word_with_sentence: () => ({ type: "word_with_sentence", showSentence: true }),
             fa_to_de: () => ({ type: "fa_to_de", showWord: true }),
-            sentence_only: () => ({
-              type: "sentence_only",
-              showSentence: true,
-              isSentence: true,
-            }),
+            sentence_only: () => ({ type: "sentence_only", showSentence: true, isSentence: true }),
           }[mode]();
 
           return result;
@@ -515,28 +400,17 @@
             return;
           }
 
-          this.currentQuestionType = this.determineQuestionType(
-            this.currentWord,
-          );
+          this.currentQuestionType = this.determineQuestionType(this.currentWord);
           this.currentSentence = null;
 
           this.currentWord.seenCount = (this.currentWord.seenCount || 0) + 1;
           this.gameState.lastWordId = this.currentWord.id;
 
-          if (
-            this.currentQuestionType.showSentence &&
-            this.currentWord.sentences?.length > 0
-          ) {
-            const available = this.currentWord.sentences.filter(
-              (s) => s.dueIn <= 0,
-            );
-            const pool =
-              available.length > 0 ? available : this.currentWord.sentences;
-            this.currentSentence =
-              pool[Math.floor(Math.random() * pool.length)];
-            if (this.currentSentence)
-              this.currentSentence.seenCount =
-                (this.currentSentence.seenCount || 0) + 1;
+          if (this.currentQuestionType.showSentence && this.currentWord.sentences?.length > 0) {
+            const available = this.currentWord.sentences.filter((s) => s.dueIn <= 0);
+            const pool = available.length > 0 ? available : this.currentWord.sentences;
+            this.currentSentence = pool[Math.floor(Math.random() * pool.length)];
+            if (this.currentSentence) this.currentSentence.seenCount = (this.currentSentence.seenCount || 0) + 1;
           }
 
           this.renderQuestion();
@@ -550,38 +424,31 @@
           const questionType = document.getElementById("questionType");
           const answerOptions = document.getElementById("answerOptions");
 
-          if (
-            !wordDisplay ||
-            !sentenceDisplay ||
-            !questionType ||
-            !answerOptions
-          )
-            return;
+          if (!wordDisplay || !sentenceDisplay || !questionType || !answerOptions) return;
 
-          wordDisplay.className =
-            "falling-word text-4xl font-bold text-indigo-800 mb-4";
+          wordDisplay.className = "falling-word text-4xl font-bold text-indigo-800 mb-4";
           sentenceDisplay.classList.add("hidden");
           questionType.textContent = "";
 
           switch (this.currentQuestionType.type) {
             case "de_to_fa":
               wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.currentWord.word}</a>`;
-              questionType.textContent = "Translate to Persian";
+              questionType.textContent = "Auf Persisch übersetzen";
               break;
             case "word_with_sentence":
               sentenceDisplay.textContent = `"${this.currentSentence.fa}"`;
               sentenceDisplay.classList.remove("hidden");
-              questionType.textContent = "Find the adjective";
+              questionType.textContent = "Finde das Adjektiv";
               wordDisplay.textContent = "?";
               break;
             case "fa_to_de":
               wordDisplay.textContent = this.currentWord.meaning;
-              questionType.textContent = "Translate to German";
+              questionType.textContent = "Ins Deutsche übersetzen";
               break;
             case "sentence_only":
               sentenceDisplay.textContent = `"${this.currentSentence.de}"`;
               sentenceDisplay.classList.remove("hidden");
-              questionType.textContent = "What does this sentence mean?";
+              questionType.textContent = "Was bedeutet dieser Satz?";
               wordDisplay.textContent = "?";
               break;
           }
@@ -615,13 +482,9 @@
 
           options.forEach((option) => {
             const button = document.createElement("button");
-            button.className =
-              "bg-white border-2 border-gray-300 rounded-lg p-4 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2";
+            button.className = "bg-white border-2 border-gray-300 rounded-lg p-4 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2";
 
-            if (
-              this.currentQuestionType.type === "fa_to_de" ||
-              this.currentQuestionType.type === "word_with_sentence"
-            ) {
+            if (this.currentQuestionType.type === "fa_to_de" || this.currentQuestionType.type === "word_with_sentence") {
               button.innerHTML = `<div class="flex justify-between items-center">
                             <span>${option}</span>
                             <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(option)}" target="_blank" class="text-indigo-600 hover:text-indigo-800 text-sm ml-2" onclick="event.stopPropagation()">🌐</a>
@@ -630,9 +493,7 @@
               button.textContent = option;
             }
 
-            button.addEventListener("click", () =>
-              this.checkAnswer(option, correctAnswer),
-            );
+            button.addEventListener("click", () => this.checkAnswer(option, correctAnswer));
             answerOptions.appendChild(button);
           });
         }
@@ -643,18 +504,11 @@
           let candidates = [];
 
           if (type === "de_to_fa")
-            candidates = this.words
-              .filter((w) => w.meaning !== correctAnswer)
-              .map((w) => w.meaning);
+            candidates = this.words.filter((w) => w.meaning !== correctAnswer).map((w) => w.meaning);
           else if (type === "fa_to_de" || type === "word_with_sentence")
-            candidates = this.words
-              .filter((w) => w.word !== correctAnswer)
-              .map((w) => w.word);
+            candidates = this.words.filter((w) => w.word !== correctAnswer).map((w) => w.word);
           else if (type === "sentence_only")
-            candidates = this.words
-              .flatMap((w) => w.sentences || [])
-              .filter((s) => s.fa !== correctAnswer)
-              .map((s) => s.fa);
+            candidates = this.words.flatMap((w) => w.sentences || []).filter((s) => s.fa !== correctAnswer).map((s) => s.fa);
 
           candidates.sort(() => Math.random() - 0.5);
 
@@ -662,68 +516,22 @@
             if (distractors.size >= count) break;
             const correctLen = String(correctAnswer).length;
             const itemLen = String(item).length;
-            if (
-              Math.abs(correctLen - itemLen) <= 3 ||
-              (correctAnswer &&
-                item &&
-                String(correctAnswer)[0].toLowerCase() ===
-                  String(item)[0].toLowerCase())
-            ) {
+            if (Math.abs(correctLen - itemLen) <= 3 || 
+                (correctAnswer && item && String(correctAnswer)[0].toLowerCase() === String(item)[0].toLowerCase())) {
               distractors.add(item);
             }
           }
 
           while (distractors.size < count && candidates.length > 0) {
-            distractors.add(
-              candidates[Math.floor(Math.random() * candidates.length)],
-            );
+            distractors.add(candidates[Math.floor(Math.random() * candidates.length)]);
           }
 
           if (distractors.size < count) {
             const fallbacks = {
-              de_to_fa: [
-                "کوچک",
-                "زیبا",
-                "سریع",
-                "قدیمی",
-                "جدید",
-                "خوب",
-                "بد",
-                "بزرگ",
-                "گرم",
-                "سرد",
-              ],
-              fa_to_de: [
-                "klein",
-                "schön",
-                "schnell",
-                "alt",
-                "neu",
-                "gut",
-                "schlecht",
-                "groß",
-                "lang",
-                "kurz",
-              ],
-              word_with_sentence: [
-                "klein",
-                "schön",
-                "schnell",
-                "alt",
-                "neu",
-                "gut",
-                "groß",
-                "lang",
-                "kurz",
-                "teuer",
-              ],
-              sentence_only: [
-                "این جمله تست است.",
-                "خانه کوچک است.",
-                "من خوشحال هستم.",
-                "او سریع می‌دود.",
-                "کتاب جالب است.",
-              ],
+              de_to_fa: ["کوچک", "زیبا", "سریع", "قدیمی", "جدید", "خوب", "بد", "بزرگ", "گرم", "سرد"],
+              fa_to_de: ["klein", "schön", "schnell", "alt", "neu", "gut", "schlecht", "groß", "lang", "kurz"],
+              word_with_sentence: ["klein", "schön", "schnell", "alt", "neu", "gut", "groß", "lang", "kurz", "teuer"],
+              sentence_only: ["این جمله تست است.", "خانه کوچک است.", "من خوشحال هستم.", "او سریع می‌دود.", "کتاب جالب است."],
             };
             const list = fallbacks[type] || fallbacks["fa_to_de"];
             for (let fb of list) {
@@ -745,14 +553,8 @@
 
           if (isCorrect) {
             this.gameState.correctAnswers++;
-            const scoreMap = {
-              de_to_fa: 10,
-              word_with_sentence: 15,
-              fa_to_de: 20,
-              sentence_only: 25,
-            };
-            this.gameState.score +=
-              scoreMap[this.currentQuestionType.type] || 10;
+            const scoreMap = { de_to_fa: 10, word_with_sentence: 15, fa_to_de: 20, sentence_only: 25 };
+            this.gameState.score += scoreMap[this.currentQuestionType.type] || 10;
           } else {
             this.gameState.wrongAnswers++;
           }
@@ -778,10 +580,7 @@
           modal.classList.remove("flex");
 
           const isCorrect = this.pendingIsCorrect;
-          const isSentence =
-            this.currentQuestionType &&
-            this.currentQuestionType.isSentence &&
-            this.currentSentence;
+          const isSentence = this.currentQuestionType && this.currentQuestionType.isSentence && this.currentSentence;
           const target = isSentence ? this.currentSentence : this.currentWord;
 
           if (isCorrect) {
@@ -823,30 +622,23 @@
           if (isCorrect) {
             document.getElementById("modalIcon").textContent = "✅";
             document.getElementById("modalTitle").textContent = "Correct!";
-            document.getElementById("modalTitle").className =
-              "text-2xl font-bold mb-2 text-green-600";
-            document.getElementById("modalMessage").textContent =
-              "Great job! Keep it up!";
+            document.getElementById("modalTitle").className = "text-2xl font-bold mb-2 text-green-600";
+            document.getElementById("modalMessage").textContent = "Great job! Keep it up!";
             this.playSound("correct");
           } else {
             document.getElementById("modalIcon").textContent = "❌";
             document.getElementById("modalTitle").textContent = "Wrong";
-            document.getElementById("modalTitle").className =
-              "text-2xl font-bold mb-2 text-red-600";
-            document.getElementById("modalMessage").textContent =
-              `The correct answer was: ${correctAnswer}`;
+            document.getElementById("modalTitle").className = "text-2xl font-bold mb-2 text-red-600";
+            document.getElementById("modalMessage").textContent = `The correct answer was: ${correctAnswer}`;
             this.playSound("wrong");
 
             this.currentLevelMistakes.unshift({
               word: this.currentWord.word,
               meaning: this.currentWord.meaning,
-              sentences: this.currentWord.sentences
-                ? [...this.currentWord.sentences]
-                : [],
+              sentences: this.currentWord.sentences ? [...this.currentWord.sentences] : [],
             });
 
-            if (this.currentLevelMistakes.length > 20)
-              this.currentLevelMistakes.pop();
+            if (this.currentLevelMistakes.length > 20) this.currentLevelMistakes.pop();
             this.saveData();
           }
 
@@ -859,10 +651,7 @@
                     <div class="mb-3"><strong>Meaning:</strong> ${this.currentWord.meaning}</div>
                 `;
 
-          if (
-            this.currentWord.sentences &&
-            this.currentWord.sentences.length > 0
-          ) {
+          if (this.currentWord.sentences && this.currentWord.sentences.length > 0) {
             content += `<div class="mt-4"><strong>Example Sentences:</strong></div>`;
             this.currentWord.sentences.slice(0, 3).forEach((s) => {
               content += `
@@ -888,26 +677,15 @@
 
           if (!wordDisplay || !sentenceDisplay || !questionType) return;
 
-          wordDisplay.className =
-            "falling-word text-4xl font-bold text-indigo-800 mb-4";
+          wordDisplay.className = "falling-word text-4xl font-bold text-indigo-800 mb-4";
           sentenceDisplay.classList.remove("hidden");
           questionType.textContent = "Original sentence";
 
-          if (
-            (this.currentQuestionType.isSentence ||
-              this.currentQuestionType.type === "word_with_sentence") &&
-            this.currentSentence
-          ) {
+          if ((this.currentQuestionType.isSentence || this.currentQuestionType.type === "word_with_sentence") && this.currentSentence) {
             sentenceDisplay.textContent = `"${this.currentSentence.de}"`;
             wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.currentWord.word}</a> ✓`;
-          } else if (
-            this.currentWord.sentences &&
-            this.currentWord.sentences.length > 0
-          ) {
-            const rs =
-              this.currentWord.sentences[
-                Math.floor(Math.random() * this.currentWord.sentences.length)
-              ];
+          } else if (this.currentWord.sentences && this.currentWord.sentences.length > 0) {
+            const rs = this.currentWord.sentences[Math.floor(Math.random() * this.currentWord.sentences.length)];
             sentenceDisplay.innerHTML = `
                         <div class="text-lg text-gray-800">
                             <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(rs.de)}" target="_blank" class="hover:underline">${rs.de}</a>
@@ -952,19 +730,19 @@
 
               item.sentences.forEach((s) => {
                 html += `
-                    <div class="mb-4 last:mb-0 bg-white rounded-lg p-4 border border-red-100">
-                        <div class="text-gray-800 leading-relaxed">
-                            <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" 
-                               target="_blank" 
-                               class="hover:underline font-medium">
-                                ${s.de}
-                            </a>
-                        </div>
-                        <div class="text-gray-600 mt-2 text-[15px] leading-relaxed">
-                            "${s.fa}"
-                        </div>
-                    </div>
-                `;
+  <div class="mb-3 last:mb-0 bg-white rounded-xl p-4 border border-gray-200 shadow-sm">
+    <div class="text-gray-800 leading-relaxed">
+        <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" 
+           target="_blank" 
+           class="hover:underline font-medium text-gray-900">
+            ${s.de}
+        </a>
+    </div>
+    <div class="text-emerald-700 mt-2 text-[15px] leading-relaxed font-medium">
+        "${s.fa}"
+    </div>
+</div>
+       `;
               });
 
               html += `</div>`;
@@ -979,29 +757,20 @@
           modal.classList.remove("hidden");
           modal.classList.add("flex");
         }
+
         closeMistakesModal() {
           const modal = document.getElementById("mistakesModal");
           modal.classList.add("hidden");
           modal.classList.remove("flex");
         }
 
-        practiceMistakesOnly() {
-          this.closeMistakesModal();
-          alert(
-            "✅ حالت تمرین فقط روی اشتباهات فعال شد.\n\nدر جلسات بعدی فقط کلماتی که اشتباه کردید نمایش داده خواهند شد.",
-          );
-        }
-
         showLevelComplete() {
           const modal = document.getElementById("resultModal");
           document.getElementById("modalIcon").textContent = "🎉";
           document.getElementById("modalTitle").textContent = "Level Complete!";
-          document.getElementById("modalTitle").className =
-            "text-2xl font-bold mb-2 text-green-600";
-          document.getElementById("modalMessage").textContent =
-            `You have mastered all active words in ${this.gameState.currentLevel}!`;
-          document.getElementById("modalDetails").innerHTML =
-            `<div class="text-center py-6 text-gray-600">You can continue practicing or change level from the menu.</div>`;
+          document.getElementById("modalTitle").className = "text-2xl font-bold mb-2 text-green-600";
+          document.getElementById("modalMessage").textContent = `You have mastered all active words in ${this.gameState.currentLevel}!`;
+          document.getElementById("modalDetails").innerHTML = `<div class="text-center py-6 text-gray-600">You can continue practicing or change level from the menu.</div>`;
 
           modal.classList.remove("hidden");
           modal.classList.add("flex");
@@ -1028,8 +797,7 @@
           this.gameState.wrongAnswers = 0;
           document.getElementById("startBtn").classList.remove("hidden");
           document.getElementById("nextBtn").classList.add("hidden");
-          document.getElementById("fallingWord").textContent =
-            'Click "Start Game" to begin';
+          document.getElementById("fallingWord").textContent = 'Click "Start Game" to begin';
           document.getElementById("sentenceDisplay").classList.add("hidden");
           document.getElementById("answerOptions").innerHTML = "";
         }
@@ -1042,35 +810,32 @@
         }
 
         updateUI() {
-          const levelWords = this.words.filter(
-            (w) => (w.level || "A1") === this.gameState.currentLevel,
-          );
-          const mastered = levelWords.filter((w) => (w.sureCount || 0) >= 2);
-          const percentage = levelWords.length
-            ? Math.round((mastered.length / levelWords.length) * 100)
+          const levelWords = this.words.filter((w) => (w.level || "A1") === this.gameState.currentLevel);
+          
+          // === تغییر اصلی: محاسبه پیشرفت بر اساس ۲ sure به ازای هر کلمه ===
+          let totalSureNeeded = levelWords.length * 2;
+          let totalSureAchieved = levelWords.reduce((sum, word) => sum + Math.min(2, (word.sureCount || 0)), 0);
+
+          const percentage = totalSureNeeded > 0 
+            ? Math.round((totalSureAchieved / totalSureNeeded) * 100) 
             : 0;
 
-          document.getElementById("correctCount").textContent =
-            this.gameState.correctAnswers;
-          document.getElementById("wrongCount").textContent =
-            this.gameState.wrongAnswers;
+          document.getElementById("correctCount").textContent = this.gameState.correctAnswers;
+          document.getElementById("wrongCount").textContent = this.gameState.wrongAnswers;
           document.getElementById("score").textContent = this.gameState.score;
           document.getElementById("masteryProgress").textContent = percentage;
           document.getElementById("progressBar").style.width = `${percentage}%`;
-          document.getElementById("levelSelect").value =
-            this.gameState.currentLevel;
+          document.getElementById("levelSelect").value = this.gameState.currentLevel;
 
           document.getElementById("levelStats").innerHTML = `
-                    Words: <strong>${levelWords.length}</strong> | 
-                    Correct: <strong>${this.gameState.correctAnswers}</strong> | 
-                    Wrong: <strong>${this.gameState.wrongAnswers}</strong>
+                    Wörter: <strong>${levelWords.length}</strong> | 
+                    Richtig: <strong>${this.gameState.correctAnswers}</strong> | 
+                    Falsch: <strong>${this.gameState.wrongAnswers}</strong>
                 `;
         }
 
         playSound(type) {
-          const audioContext = new (
-            window.AudioContext || window.webkitAudioContext
-          )();
+          const audioContext = new (window.AudioContext || window.webkitAudioContext)();
           const oscillator = audioContext.createOscillator();
           const gainNode = audioContext.createGain();
           oscillator.connect(gainNode);
@@ -1085,18 +850,14 @@
 
         showError(message) {
           const toast = document.createElement("div");
-          toast.className =
-            "fixed top-4 right-4 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 animate-pulse";
+          toast.className = "fixed top-4 right-4 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 animate-pulse";
           toast.textContent = message;
           document.body.appendChild(toast);
           setTimeout(() => toast.remove(), 3000);
         }
       }
 
-      document.addEventListener(
-        "DOMContentLoaded",
-        () => new AdaptiveLearningGame(),
-      );
+      document.addEventListener("DOMContentLoaded", () => new AdaptiveLearningGame());
     </script>
   </body>
 </html>

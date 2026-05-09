@@ -3,55 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>German Adjectives Learning Game</title>
+    <title>German Adjectives</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       @keyframes fall {
-        from {
-          transform: translateY(-100px);
-          opacity: 0;
-        }
-        to {
-          transform: translateY(0);
-          opacity: 1;
-        }
+        from { transform: translateY(-100px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
       }
-      .falling-word {
-        animation: fall 2s ease-out;
-      }
-      .modal-overlay {
-        backdrop-filter: blur(4px);
-      }
+      .falling-word { animation: fall 2s ease-out; }
+      .modal-overlay { backdrop-filter: blur(4px); }
     </style>
   </head>
-  <body
-    class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen font-sans"
-  >
+  <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen font-sans">
     <!-- Header -->
     <header class="bg-white shadow-lg">
       <div class="container mx-auto px-4 py-4">
         <div class="flex justify-between items-center">
-          <h1 class="text-2xl font-bold text-indigo-800">
-            German Adjectives Learning
-          </h1>
+          <h1 class="text-2xl font-bold text-indigo-800">German Adjektive Lernen</h1>
           <div class="flex gap-4 text-sm">
             <div class="bg-green-100 px-2 py-0.5 rounded-full text-xs">
-              <span class="text-green-800 font-semibold"
-                >Richtig: <span id="correctCount">0</span></span
-              >
+              <span class="text-green-800 font-semibold">Richtig: <span id="correctCount">0</span></span>
             </div>
-            <div
-              id="wrongCounter"
-              class="bg-red-100 px-2 py-0.5 rounded-full text-xs cursor-pointer hover:bg-red-200 active:bg-red-300 transition-colors"
-            >
-              <span class="text-red-800 font-semibold"
-                >Falsch: <span id="wrongCount">0</span></span
-              >
+            <div id="wrongCounter" class="bg-red-100 px-2 py-0.5 rounded-full text-xs cursor-pointer hover:bg-red-200 active:bg-red-300 transition-colors">
+              <span class="text-red-800 font-semibold">Falsch: <span id="wrongCount">0</span></span>
             </div>
             <div class="bg-blue-100 px-2 py-0.5 rounded-full text-xs">
-              <span class="text-blue-800 font-semibold"
-                >Punkte: <span id="score">0</span></span
-              >
+              <span class="text-blue-800 font-semibold">Punkte: <span id="score">0</span></span>
             </div>
           </div>
         </div>
@@ -62,27 +39,16 @@
     <div class="container mx-auto px-4 py-4">
       <div class="bg-white rounded-lg shadow p-4">
         <div class="flex justify-between items-center mb-2">
-          <span class="text-sm font-medium text-gray-700"
-            >Mastery-Fortschritt</span
-          >
-          <span class="text-sm text-gray-600"
-            ><span id="masteryProgress">0</span>% Abschließen</span
-          >
+          <span class="text-sm font-medium text-gray-700">Mastery-Fortschritt</span>
+          <span class="text-sm text-gray-600"><span id="masteryProgress">0</span>% Abschließen</span>
         </div>
         <div class="w-full bg-gray-200 rounded-full h-3">
-          <div
-            id="progressBar"
-            class="bg-gradient-to-r from-indigo-500 to-purple-600 h-3 rounded-full transition-all duration-300"
-            style="width: 0%"
-          ></div>
+          <div id="progressBar" class="bg-gradient-to-r from-indigo-500 to-purple-600 h-3 rounded-full transition-all duration-300" style="width: 0%"></div>
         </div>
         <div class="flex justify-between mt-3 text-xs text-gray-600">
           <div class="flex items-center gap-2">
             <span>Niveau:</span>
-            <select
-              id="levelSelect"
-              class="bg-white border border-gray-300 rounded px-2 py-1 text-xs font-semibold"
-            >
+            <select id="levelSelect" class="bg-white border border-gray-300 rounded px-2 py-1 text-xs font-semibold">
               <option value="A1">A1</option>
               <option value="A2">A2</option>
               <option value="B1">B1</option>
@@ -99,80 +65,91 @@
     <!-- Game Area -->
     <main class="container mx-auto px-4 py-8">
       <div class="max-w-4xl mx-auto">
-        <div
-          class="bg-white rounded-2xl shadow-xl p-8 mb-8 min-h-[200px] flex items-center justify-center"
-        >
+        <div class="bg-white rounded-2xl shadow-xl p-6 mb-3 min-h-[150px] flex items-center justify-center">
           <div id="wordDisplay" class="text-center">
-            <div
-              id="fallingWord"
-              class="falling-word text-4xl font-bold text-indigo-800 mb-4"
-            >
-             Klicke auf „ Spiel starten“, um zu beginnen.
+            <div id="fallingWord" class="falling-word text-4xl font-bold text-indigo-800 mb-4">
+              Klicke auf „Spiel starten“, um zu beginnen.
             </div>
-            <div
-              id="sentenceDisplay"
-              class="text-lg text-gray-600 mt-4 hidden"
-            ></div>
+            <div id="sentenceDisplay" class="text-lg text-gray-600 mt-4 hidden"></div>
             <div id="questionType" class="text-sm text-gray-500 mt-2"></div>
           </div>
         </div>
 
-        <div
-          id="answerOptions"
-          class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"
-        ></div>
+        <!-- Normal Mode Answers -->
+        <div id="answerOptions" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"></div>
+
+        <!-- Hard Mode Input -->
+        <div id="hardInputContainer" class="hidden mb-6">
+          <div class="max-w-md mx-auto">
+            <div class="flex gap-2 mb-1">
+              <button onclick="game.setAutoCompleteMode(1)" id="ac1" class="flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all">Nach 1. Buchstabe</button>
+              <button onclick="game.setAutoCompleteMode(2)" id="ac2" class="flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all">Nach 2. Buchstabe</button>
+              <button onclick="game.setAutoCompleteMode(0)" id="ac0" class="flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all">Nur vollständig</button>
+            </div>
+            
+            <div class="flex gap-3">
+              <input 
+                id="hardInput" 
+                type="text" 
+                class="flex-1 border-2 border-indigo-300 focus:border-indigo-600 rounded-xl px-5 py-3 text-xl focus:outline-none"
+                placeholder="Deutsches Adjektiv eingeben..."
+                autocomplete="off"
+              />
+              <button id="submitBtn" onclick="game.submitHardAnswer()" 
+                      class="hidden bg-indigo-600 hover:bg-indigo-700 text-white px-6 rounded-xl font-medium transition-all">
+                Prüfen
+              </button>
+            </div>
+            
+            <div id="autocompleteList" class="mt-2 bg-white rounded-xl shadow-lg border border-gray-200 max-h-60 overflow-auto hidden"></div>
+          </div>
+        </div>
 
         <div class="flex justify-center gap-4">
-          <button
-            id="startBtn"
-            class="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-lg"
-          >
+          <button id="startBtn" class="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-lg">
             Spiel starten
           </button>
-          <button
-            id="nextBtn"
-            class="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg hidden"
-          >
+          <button id="nextBtn" class="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg hidden">
             Nächste Frage
           </button>
-          <button
-            id="resetBtn"
-            class="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-gray-600 hover:to-gray-700 transition-all transform hover:scale-105 shadow-lg"
-          >
+          <button id="resetBtn" class="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-gray-600 hover:to-gray-700 transition-all transform hover:scale-105 shadow-lg">
             Fortschritt zurücksetzen
           </button>
         </div>
       </div>
     </main>
 
-    <!-- Result Modal -->
-    <div
-      id="resultModal"
-      class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50"
-    >
-      <div
-        class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all"
-      >
-        <div class="text-center">
-          <div id="modalIcon" class="text-6xl mb-4"></div>
-          <h2 id="modalTitle" class="text-2xl font-bold mb-2"></h2>
-          <p id="modalMessage" class="text-gray-600 mb-6"></p>
-          <div
-            id="modalDetails"
-            class="bg-gray-50 rounded-lg p-4 mb-6 text-left"
-          ></div>
-
-          <button
-            id="modalCloseBtn"
-            class="mt-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-indigo-600 hover:to-purple-700 transition-all"
-          >
-            Continue
+    <!-- Mode Selection Modal -->
+    <div id="modeModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay flex items-center justify-center z-50">
+      <div class="bg-white rounded-3xl shadow-2xl p-8 max-w-md w-full mx-4">
+        <h2 class="text-2xl font-bold text-center mb-6 text-indigo-800">Wähle Spielmodus</h2>
+        <div class="space-y-4">
+          <button onclick="game.selectMode('normal')" class="w-full p-6 border-2 border-gray-200 hover:border-indigo-500 rounded-2xl text-left transition-all group">
+            <div class="font-semibold text-lg group-hover:text-indigo-600">Normal Mode</div>
+            <div class="text-gray-600 text-sm">4 Auswahlmöglichkeiten (Multiple Choice)</div>
+          </button>
+          <button onclick="game.selectMode('hard')" class="w-full p-6 border-2 border-gray-200 hover:border-indigo-500 rounded-2xl text-left transition-all group">
+            <div class="font-semibold text-lg group-hover:text-indigo-600">Hard Mode (Typing)</div>
+            <div class="text-gray-600 text-sm">Wort selbst eintippen + Autocomplete</div>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- Mistakes List Modal -->
+    <!-- Result Modal -->
+    <div id="resultModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
+      <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all">
+        <div class="text-center">
+          <div id="modalIcon" class="text-6xl mb-4"></div>
+          <h2 id="modalTitle" class="text-2xl font-bold mb-2"></h2>
+          <p id="modalMessage" class="text-gray-600 mb-6"></p>
+          <div id="modalDetails" class="bg-gray-50 rounded-lg p-4 mb-6 text-left"></div>
+          <button id="modalCloseBtn" class="mt-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-indigo-600 hover:to-purple-700 transition-all">Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mistakes Modal -->
     <div id="mistakesModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
       <div class="bg-slate-50 rounded-3xl shadow-2xl p-5 max-w-sm mx-4 w-full max-h-[82vh] overflow-hidden flex flex-col border border-slate-200">
         <h2 class="text-lg font-bold mb-4 text-amber-600 flex items-center gap-2">⚠️ Fehler</h2>
@@ -210,6 +187,7 @@
             lastWordId: null,
             progress: 0,
             sessionNumber: 1,
+            gameMode: "normal"
           };
           this.currentWord = null;
           this.currentQuestionType = null;
@@ -219,6 +197,7 @@
           this.pendingIsCorrect = false;
           this.pendingCorrectAnswer = null;
           this.currentLevelMistakes = [];
+          this.autoCompleteMode = 1;
 
           this.init();
         }
@@ -227,6 +206,7 @@
           await this.loadData();
           this.setupEventListeners();
           this.updateUI();
+          document.getElementById("modeModal").classList.remove("hidden");
         }
 
         async loadData() {
@@ -287,8 +267,13 @@
           document.getElementById("sureBtn").addEventListener("click", () => this.handleConfidence("sure"));
           document.getElementById("maybeBtn").addEventListener("click", () => this.handleConfidence("maybe"));
           document.getElementById("closeMistakesBtn").addEventListener("click", () => this.closeMistakesModal());
-
           document.getElementById("wrongCounter").addEventListener("click", () => this.showMistakesModal());
+
+          const hardInput = document.getElementById("hardInput");
+          hardInput.addEventListener("input", () => this.handleInput());
+          hardInput.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") this.submitHardAnswer();
+          });
 
           document.addEventListener("keydown", (e) => {
             if (this.isAnswering) return;
@@ -298,20 +283,32 @@
                 else this.nextQuestion();
                 break;
               case "Escape":
-                document.querySelectorAll(".modal-overlay").forEach((m) => {
+                document.querySelectorAll(".modal-overlay").forEach(m => {
                   if (!m.classList.contains("hidden")) m.classList.add("hidden");
                 });
                 break;
-              case "1":
-              case "2":
-              case "3":
-              case "4":
-                const buttons = document.querySelectorAll("#answerOptions button");
-                const index = parseInt(e.key) - 1;
-                if (buttons[index]) buttons[index].click();
-                break;
             }
           });
+        }
+
+        selectMode(mode) {
+          this.gameState.gameMode = mode;
+          document.getElementById("modeModal").classList.add("hidden");
+        }
+
+        setAutoCompleteMode(mode) {
+          this.autoCompleteMode = mode;
+
+          // به‌روزرسانی استایل دکمه‌ها
+          document.querySelectorAll('#hardInputContainer button[id^="ac"]').forEach(btn => {
+            btn.classList.toggle('border-indigo-600', parseInt(btn.id.replace('ac','')) === mode);
+          });
+
+          // نمایش/مخفی کردن دکمه Prüfen فقط در حالت 0
+          const submitBtn = document.getElementById("submitBtn");
+          if (submitBtn) {
+            submitBtn.classList.toggle("hidden", mode !== 0);
+          }
         }
 
         startGame() {
@@ -322,6 +319,7 @@
           this.nextQuestion();
         }
 
+        // ==================== بقیه متدها بدون تغییر ====================
         selectNextWord() {
           const levelWords = this.words.filter((word) => (word.level || "A1") === this.gameState.currentLevel);
           const activeWords = levelWords.filter((word) => (word.sureCount || 0) < 2);
@@ -358,9 +356,7 @@
 
           if (this.lastFaToDeIndex > 4) {
             this.lastFaToDeIndex = 0;
-            return !word.sentences || word.sentences.length === 0
-              ? { type: "de_to_fa", showWord: true }
-              : { type: "fa_to_de", showWord: true };
+            return !word.sentences || word.sentences.length === 0 ? { type: "de_to_fa", showWord: true } : { type: "fa_to_de", showWord: true };
           }
 
           let mode;
@@ -393,66 +389,137 @@
           return result;
         }
 
-        nextQuestion() {
-          this.currentWord = this.selectNextWord();
-          if (!this.currentWord) {
-            this.showLevelComplete();
-            return;
-          }
-
-          this.currentQuestionType = this.determineQuestionType(this.currentWord);
-          this.currentSentence = null;
-
-          this.currentWord.seenCount = (this.currentWord.seenCount || 0) + 1;
-          this.gameState.lastWordId = this.currentWord.id;
-
-          if (this.currentQuestionType.showSentence && this.currentWord.sentences?.length > 0) {
-            const available = this.currentWord.sentences.filter((s) => s.dueIn <= 0);
-            const pool = available.length > 0 ? available : this.currentWord.sentences;
-            this.currentSentence = pool[Math.floor(Math.random() * pool.length)];
-            if (this.currentSentence) this.currentSentence.seenCount = (this.currentSentence.seenCount || 0) + 1;
-          }
-
-          this.renderQuestion();
-          this.updateUI();
-          this.saveData();
-        }
-
         renderQuestion() {
           const wordDisplay = document.getElementById("fallingWord");
           const sentenceDisplay = document.getElementById("sentenceDisplay");
           const questionType = document.getElementById("questionType");
           const answerOptions = document.getElementById("answerOptions");
+          const hardContainer = document.getElementById("hardInputContainer");
 
-          if (!wordDisplay || !sentenceDisplay || !questionType || !answerOptions) return;
+          answerOptions.innerHTML = "";
+          hardContainer.classList.add("hidden");
+          document.getElementById("hardInput").value = "";
+          document.getElementById("autocompleteList").classList.add("hidden");
+
+          if (this.gameState.gameMode === "hard") {
+            hardContainer.classList.remove("hidden");
+            this.renderHardQuestion();
+          } else {
+            wordDisplay.className = "falling-word text-4xl font-bold text-indigo-800 mb-4";
+            sentenceDisplay.classList.add("hidden");
+            questionType.textContent = "";
+
+            switch (this.currentQuestionType.type) {
+              case "de_to_fa":
+                wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.currentWord.word}</a>`;
+                questionType.textContent = "Auf Persisch übersetzen";
+                break;
+              case "word_with_sentence":
+                sentenceDisplay.textContent = `"${this.currentSentence.fa}"`;
+                sentenceDisplay.classList.remove("hidden");
+                questionType.textContent = "Finde das Adjektiv";
+                wordDisplay.textContent = "?";
+                break;
+              case "fa_to_de":
+                wordDisplay.textContent = this.currentWord.meaning;
+                questionType.textContent = "Ins Deutsche übersetzen";
+                break;
+              case "sentence_only":
+                sentenceDisplay.textContent = `"${this.currentSentence.de}"`;
+                sentenceDisplay.classList.remove("hidden");
+                questionType.textContent = "Was bedeutet dieser Satz?";
+                wordDisplay.textContent = "?";
+                break;
+            }
+            this.generateAnswerOptions();
+          }
+        }
+
+        renderHardQuestion() {
+          const wordDisplay = document.getElementById("fallingWord");
+          const sentenceDisplay = document.getElementById("sentenceDisplay");
+          const questionType = document.getElementById("questionType");
 
           wordDisplay.className = "falling-word text-4xl font-bold text-indigo-800 mb-4";
           sentenceDisplay.classList.add("hidden");
           questionType.textContent = "";
 
-          switch (this.currentQuestionType.type) {
-            case "de_to_fa":
-              wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.currentWord.word}</a>`;
-              questionType.textContent = "Auf Persisch übersetzen";
-              break;
-            case "word_with_sentence":
-              sentenceDisplay.textContent = `"${this.currentSentence.fa}"`;
-              sentenceDisplay.classList.remove("hidden");
-              questionType.textContent = "Finde das Adjektiv";
-              wordDisplay.textContent = "?";
-              break;
-            case "fa_to_de":
-              wordDisplay.textContent = this.currentWord.meaning;
-              questionType.textContent = "Ins Deutsche übersetzen";
-              break;
-            case "sentence_only":
-              sentenceDisplay.textContent = `"${this.currentSentence.de}"`;
-              sentenceDisplay.classList.remove("hidden");
-              questionType.textContent = "Was bedeutet dieser Satz?";
-              wordDisplay.textContent = "?";
-              break;
+          if (this.currentQuestionType.type === "word_with_sentence" || this.currentQuestionType.type === "sentence_only") {
+            sentenceDisplay.textContent = `"${this.currentSentence.fa}"`;
+            sentenceDisplay.classList.remove("hidden");
+            questionType.textContent = "Schreibe das passende Adjektiv";
+            wordDisplay.textContent = "?";
+          } else {
+            wordDisplay.textContent = this.currentWord.meaning;
+            questionType.textContent = "Ins Deutsche übersetzen (eintippen)";
           }
-          this.generateAnswerOptions();
+
+          this.setAutoCompleteMode(1);
+        }
+
+        handleInput() {
+          const input = document.getElementById("hardInput").value.trim();
+          const list = document.getElementById("autocompleteList");
+          list.innerHTML = "";
+
+          if (!input || this.autoCompleteMode === 0) {
+            list.classList.add("hidden");
+            return;
+          }
+
+          const minLength = this.autoCompleteMode;
+          if (input.length < minLength) {
+            list.classList.add("hidden");
+            return;
+          }
+
+          const candidates = this.words
+            .filter(w => w.word.toLowerCase().startsWith(input.toLowerCase()))
+            .slice(0, 8);
+
+          if (candidates.length === 0) {
+            list.classList.add("hidden");
+            return;
+          }
+
+          candidates.forEach(word => {
+            const div = document.createElement("div");
+            div.className = "px-5 py-3 hover:bg-indigo-50 cursor-pointer border-b last:border-0";
+            div.textContent = word.word;
+            div.onclick = () => {
+              document.getElementById("hardInput").value = word.word;
+              list.classList.add("hidden");
+              this.submitHardAnswer();
+            };
+            list.appendChild(div);
+          });
+
+          list.classList.remove("hidden");
+        }
+
+        submitHardAnswer() {
+          if (this.isAnswering) return;
+          const selected = document.getElementById("hardInput").value.trim();
+          if (!selected) return;
+
+          this.isAnswering = true;
+          const correctAnswer = this.currentWord.word;
+          const isCorrect = selected.toLowerCase() === correctAnswer.toLowerCase();
+
+          this.pendingIsCorrect = isCorrect;
+          this.pendingCorrectAnswer = correctAnswer;
+
+          if (isCorrect) {
+            this.gameState.correctAnswers++;
+            this.gameState.score += 30;
+          } else {
+            this.gameState.wrongAnswers++;
+          }
+
+          this.gameState.totalQuestions++;
+          this.saveData();
+          this.showConfidenceModal();
+          this.updateUI();
         }
 
         generateAnswerOptions() {
@@ -461,18 +528,10 @@
 
           let correctAnswer;
           switch (this.currentQuestionType.type) {
-            case "de_to_fa":
-              correctAnswer = this.currentWord.meaning;
-              break;
-            case "word_with_sentence":
-              correctAnswer = this.currentWord.word;
-              break;
-            case "fa_to_de":
-              correctAnswer = this.currentWord.word;
-              break;
-            case "sentence_only":
-              correctAnswer = this.currentSentence.fa;
-              break;
+            case "de_to_fa": correctAnswer = this.currentWord.meaning; break;
+            case "word_with_sentence": correctAnswer = this.currentWord.word; break;
+            case "fa_to_de": correctAnswer = this.currentWord.word; break;
+            case "sentence_only": correctAnswer = this.currentSentence.fa; break;
           }
 
           let options = [correctAnswer];
@@ -485,10 +544,7 @@
             button.className = "bg-white border-2 border-gray-300 rounded-lg p-4 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2";
 
             if (this.currentQuestionType.type === "fa_to_de" || this.currentQuestionType.type === "word_with_sentence") {
-              button.innerHTML = `<div class="flex justify-between items-center">
-                            <span>${option}</span>
-                            <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(option)}" target="_blank" class="text-indigo-600 hover:text-indigo-800 text-sm ml-2" onclick="event.stopPropagation()">🌐</a>
-                        </div>`;
+              button.innerHTML = `<div class="flex justify-between items-center"><span>${option}</span><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(option)}" target="_blank" class="text-indigo-600 hover:text-indigo-800 text-sm ml-2" onclick="event.stopPropagation()">🌐</a></div>`;
             } else {
               button.textContent = option;
             }
@@ -545,9 +601,7 @@
         checkAnswer(selectedAnswer, correctAnswer) {
           if (this.isAnswering) return;
           this.isAnswering = true;
-
           const isCorrect = selectedAnswer === correctAnswer;
-
           this.pendingIsCorrect = isCorrect;
           this.pendingCorrectAnswer = correctAnswer;
 
@@ -561,7 +615,6 @@
 
           this.gameState.totalQuestions++;
           this.gameState.lastWordId = this.currentWord.id;
-
           this.saveData();
           this.showConfidenceModal();
           this.updateUI();
@@ -637,34 +690,17 @@
               meaning: this.currentWord.meaning,
               sentences: this.currentWord.sentences ? [...this.currentWord.sentences] : [],
             });
-
             if (this.currentLevelMistakes.length > 20) this.currentLevelMistakes.pop();
             this.saveData();
           }
 
-          let content = `
-                    <div class="mb-4">
-                        <strong>Word:</strong> 
-                        <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" 
-                           target="_blank" class="text-indigo-600 hover:underline">${this.currentWord.word}</a>
-                    </div>
-                    <div class="mb-3"><strong>Meaning:</strong> ${this.currentWord.meaning}</div>
-                `;
-
+          let content = `<div class="mb-4"><strong>Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-600 hover:underline">${this.currentWord.word}</a></div><div class="mb-3"><strong>Meaning:</strong> ${this.currentWord.meaning}</div>`;
           if (this.currentWord.sentences && this.currentWord.sentences.length > 0) {
             content += `<div class="mt-4"><strong>Example Sentences:</strong></div>`;
             this.currentWord.sentences.slice(0, 3).forEach((s) => {
-              content += `
-                            <div class="mt-3 pt-3 border-t border-gray-200">
-                                <div class="text-sm text-gray-700">
-                                    <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a>
-                                </div>
-                                <div class="text-sm text-gray-600 mt-1">"${s.fa}"</div>
-                            </div>
-                        `;
+              content += `<div class="mt-3 pt-3 border-t border-gray-200"><div class="text-sm text-gray-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1">"${s.fa}"</div></div>`;
             });
           }
-
           document.getElementById("modalDetails").innerHTML = content;
           modal.classList.remove("hidden");
           modal.classList.add("flex");
@@ -675,8 +711,6 @@
           const sentenceDisplay = document.getElementById("sentenceDisplay");
           const questionType = document.getElementById("questionType");
 
-          if (!wordDisplay || !sentenceDisplay || !questionType) return;
-
           wordDisplay.className = "falling-word text-4xl font-bold text-indigo-800 mb-4";
           sentenceDisplay.classList.remove("hidden");
           questionType.textContent = "Original sentence";
@@ -686,12 +720,7 @@
             wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.currentWord.word}</a> ✓`;
           } else if (this.currentWord.sentences && this.currentWord.sentences.length > 0) {
             const rs = this.currentWord.sentences[Math.floor(Math.random() * this.currentWord.sentences.length)];
-            sentenceDisplay.innerHTML = `
-                        <div class="text-lg text-gray-800">
-                            <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(rs.de)}" target="_blank" class="hover:underline">${rs.de}</a>
-                        </div>
-                        <div class="text-sm text-gray-600 mt-2">"${rs.fa}"</div>
-                    `;
+            sentenceDisplay.innerHTML = `<div class="text-lg text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(rs.de)}" target="_blank" class="hover:underline">${rs.de}</a></div><div class="text-sm text-gray-600 mt-2">"${rs.fa}"</div>`;
             wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.currentWord.word}</a> ✓`;
           }
         }
@@ -711,45 +740,20 @@
           this.currentLevelMistakes.forEach((item) => {
             let html = `
             <div class="border border-red-200 rounded-xl p-5 bg-red-50 hover:bg-red-100 transition-colors">
-                <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.word)}" 
-                   target="_blank" 
-                   class="text-red-700 font-bold hover:underline text-xl block">
-                    ${item.word}
-                </a>
-                <div class="text-gray-700 mt-1 text-lg">${item.meaning}</div>
-        `;
+                <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.word)}" target="_blank" class="text-red-700 font-bold hover:underline text-xl block">${item.word}</a>
+                <div class="text-gray-700 mt-1 text-lg">${item.meaning}</div>`;
 
             if (item.sentences && item.sentences.length > 0) {
-              html += `
-                <div class="mt-4">
-                    <div class="text-sm font-semibold text-red-600 mb-2 flex items-center gap-2">
-                        <span>Examples:</span>
-                        <span class="px-2 py-0.5 bg-red-200 text-red-700 text-xs rounded-full">${item.sentences.length}</span>
-                    </div>
-            `;
-
+              html += `<div class="mt-4"><div class="text-sm font-semibold text-red-600 mb-2">Examples:</div>`;
               item.sentences.forEach((s) => {
                 html += `
-  <div class="mb-3 last:mb-0 bg-white rounded-xl p-4 border border-gray-200 shadow-sm">
-    <div class="text-gray-800 leading-relaxed">
-        <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" 
-           target="_blank" 
-           class="hover:underline font-medium text-gray-900">
-            ${s.de}
-        </a>
-    </div>
-    <div class="text-emerald-700 mt-2 text-[15px] leading-relaxed font-medium">
-        "${s.fa}"
-    </div>
-</div>
-       `;
+                <div class="mb-3 bg-white rounded-xl p-4 border border-gray-200">
+                  <div class="text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div>
+                  <div class="text-emerald-700 mt-1">"${s.fa}"</div>
+                </div>`;
               });
-
               html += `</div>`;
-            } else {
-              html += `<div class="text-xs text-gray-500 mt-3">بدون مثال ثبت شده</div>`;
             }
-
             html += `</div>`;
             listContainer.innerHTML += html;
           });
@@ -771,7 +775,6 @@
           document.getElementById("modalTitle").className = "text-2xl font-bold mb-2 text-green-600";
           document.getElementById("modalMessage").textContent = `You have mastered all active words in ${this.gameState.currentLevel}!`;
           document.getElementById("modalDetails").innerHTML = `<div class="text-center py-6 text-gray-600">You can continue practicing or change level from the menu.</div>`;
-
           modal.classList.remove("hidden");
           modal.classList.add("flex");
         }
@@ -800,6 +803,7 @@
           document.getElementById("fallingWord").textContent = 'Click "Start Game" to begin';
           document.getElementById("sentenceDisplay").classList.add("hidden");
           document.getElementById("answerOptions").innerHTML = "";
+          document.getElementById("hardInputContainer").classList.add("hidden");
         }
 
         resetProgress() {
@@ -811,14 +815,10 @@
 
         updateUI() {
           const levelWords = this.words.filter((w) => (w.level || "A1") === this.gameState.currentLevel);
-          
-          // === تغییر اصلی: محاسبه پیشرفت بر اساس ۲ sure به ازای هر کلمه ===
           let totalSureNeeded = levelWords.length * 2;
           let totalSureAchieved = levelWords.reduce((sum, word) => sum + Math.min(2, (word.sureCount || 0)), 0);
 
-          const percentage = totalSureNeeded > 0 
-            ? Math.round((totalSureAchieved / totalSureNeeded) * 100) 
-            : 0;
+          const percentage = totalSureNeeded > 0 ? Math.round((totalSureAchieved / totalSureNeeded) * 100) : 0;
 
           document.getElementById("correctCount").textContent = this.gameState.correctAnswers;
           document.getElementById("wrongCount").textContent = this.gameState.wrongAnswers;
@@ -827,11 +827,7 @@
           document.getElementById("progressBar").style.width = `${percentage}%`;
           document.getElementById("levelSelect").value = this.gameState.currentLevel;
 
-          document.getElementById("levelStats").innerHTML = `
-                    Wörter: <strong>${levelWords.length}</strong> | 
-                    Richtig: <strong>${this.gameState.correctAnswers}</strong> | 
-                    Falsch: <strong>${this.gameState.wrongAnswers}</strong>
-                `;
+          document.getElementById("levelStats").innerHTML = `Wörter: <strong>${levelWords.length}</strong> | Richtig: <strong>${this.gameState.correctAnswers}</strong> | Falsch: <strong>${this.gameState.wrongAnswers}</strong>`;
         }
 
         playSound(type) {
@@ -840,10 +836,8 @@
           const gainNode = audioContext.createGain();
           oscillator.connect(gainNode);
           gainNode.connect(audioContext.destination);
-
           oscillator.frequency.value = type === "correct" ? 800 : 300;
           gainNode.gain.value = 0.1;
-
           oscillator.start();
           oscillator.stop(audioContext.currentTime + 0.1);
         }
@@ -855,9 +849,37 @@
           document.body.appendChild(toast);
           setTimeout(() => toast.remove(), 3000);
         }
+
+        nextQuestion() {
+          this.currentWord = this.selectNextWord();
+          if (!this.currentWord) {
+            this.showLevelComplete();
+            return;
+          }
+
+          this.currentQuestionType = this.determineQuestionType(this.currentWord);
+          this.currentSentence = null;
+
+          this.currentWord.seenCount = (this.currentWord.seenCount || 0) + 1;
+          this.gameState.lastWordId = this.currentWord.id;
+
+          if (this.currentQuestionType.showSentence && this.currentWord.sentences?.length > 0) {
+            const available = this.currentWord.sentences.filter((s) => s.dueIn <= 0);
+            const pool = available.length > 0 ? available : this.currentWord.sentences;
+            this.currentSentence = pool[Math.floor(Math.random() * pool.length)];
+            if (this.currentSentence) this.currentSentence.seenCount = (this.currentSentence.seenCount || 0) + 1;
+          }
+
+          this.renderQuestion();
+          this.updateUI();
+          this.saveData();
+        }
       }
 
-      document.addEventListener("DOMContentLoaded", () => new AdaptiveLearningGame());
+      let game;
+      document.addEventListener("DOMContentLoaded", () => {
+        game = new AdaptiveLearningGame();
+      });
     </script>
   </body>
 </html>

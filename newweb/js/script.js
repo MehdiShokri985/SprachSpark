@@ -740,7 +740,7 @@
           // Counters (correctAnswers, wrongAnswers, score) must persist per combination
           document.getElementById("startBtn").classList.remove("hidden");
           document.getElementById("nextBtn").classList.add("hidden");
-          document.getElementById("fallingWord").textContent = 'Click "Start Game" to begin';
+          document.getElementById("fallingWord").textContent = 'Klicke auf „Spiel starten“, um zu beginnen. ';
           document.getElementById("sentenceDisplay").classList.add("hidden");
           document.getElementById("answerOptions").innerHTML = "";
           document.getElementById("hardInputContainer").classList.add("hidden");

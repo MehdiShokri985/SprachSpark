@@ -611,20 +611,15 @@
             document.getElementById("modalMessage").textContent = `The correct answer was: ${correctAnswer}`;
             this.playSound("wrong");
 
-            // Add to isolated mistakes list (prevent duplicates)
+            // Add to isolated mistakes list
             console.log(`📝 Adding mistake to ${this.getCurrentKey()} mistakes list`);
-            const existingMistake = currentState.mistakes.find(m => m.word === this.currentWord.word);
-            if (!existingMistake) {
-              currentState.mistakes.unshift({
-                word: this.currentWord.word,
-                meaning: this.currentWord.meaning,
-                sentences: this.currentWord.sentences ? [...this.currentWord.sentences] : [],
-              });
-              if (currentState.mistakes.length > 20) currentState.mistakes.pop();
-              console.log(`📝 Mistakes list length now: ${currentState.mistakes.length}`);
-            } else {
-              console.log(`📝 Word "${this.currentWord.word}" already in mistakes list, skipping`);
-            }
+            currentState.mistakes.unshift({
+              word: this.currentWord.word,
+              meaning: this.currentWord.meaning,
+              sentences: this.currentWord.sentences ? [...this.currentWord.sentences] : [],
+            });
+            if (currentState.mistakes.length > 20) currentState.mistakes.pop();
+            console.log(`📝 Mistakes list length now: ${currentState.mistakes.length}`);
             this.saveData();
           }
 

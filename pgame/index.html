@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutsch Lernen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="min-h-screen">
+    
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar fixed top-0 w-full z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-9 h-9 logo-icon rounded-lg flex items-center justify-center shadow-sm">
+                        <i class="fas fa-language text-white text-sm"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-semibold text-gray-900">Deutsch Lernen</h1>
+                        <p class="text-xs text-gray-500">Smart German Learning</p>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-7">
+                    <a href="#apps" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Apps</a>
+                    <a href="#future" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Zukunft</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Über</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-gray-600" id="mobileMenuBtn">
+                    <i class="fas fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu fixed top-0 right-0 w-64 h-full bg-white shadow-lg md:hidden" id="mobileMenu">
+            <div class="p-6">
+                <button class="absolute top-6 right-6 text-gray-600" id="closeMobileMenu">
+                    <i class="fas fa-times text-lg"></i>
+                </button>
+                <div class="mt-12 space-y-4">
+                    <a href="#apps" class="block text-gray-600 hover:text-gray-900 transition-colors font-medium">Apps</a>
+                    <a href="#future" class="block text-gray-600 hover:text-gray-900 transition-colors font-medium">Zukunft</a>
+                    <a href="#about" class="block text-gray-600 hover:text-gray-900 transition-colors font-medium">Über</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="pt-20 pb-12 px-4 soft-gradient">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center animate-fadeInUp">
+                <div class="inline-flex items-center bg-indigo-50 rounded-full px-3 py-1.5 text-sm text-indigo-700 font-medium mb-5">
+                    <i class="fas fa-sparkles mr-2 text-xs"></i>
+                    Deine Reise zum Deutsch-Experten
+                </div>
+                <h1 class="text-4xl md:text-5xl font-light text-gray-900 mb-5 leading-tight">
+                    Lerne Deutsch<br>
+                    <span class="text-accent font-semibold">Smarter & Schneller</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-7 max-w-2xl mx-auto leading-relaxed">
+                    Entdecke moderne Lern-Apps, die dich motivieren und zum Erfolg führen.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
+                    <a href="#apps" class="inline-flex items-center accent-gradient text-white px-7 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-300 transform hover:scale-102">
+                        <i class="fas fa-play mr-2 text-sm"></i>
+                        Jetzt Starten
+                    </a>
+                    <a href="#about" class="inline-flex items-center bg-white text-gray-700 px-7 py-3 rounded-lg font-medium border border-gray-200 hover:border-gray-300 transition-all duration-300">
+                        <i class="fas fa-info-circle mr-2 text-sm"></i>
+                        Mehr Erfahren
+                    </a>
+                </div>
+                
+                <!-- Simple visual element -->
+                <div class="mt-10 flex justify-center">
+                    <div class="flex items-center space-x-1.5 text-gray-400">
+                        <div class="w-1.5 h-1.5 bg-indigo-400 rounded-full"></div>
+                        <div class="w-1.5 h-1.5 bg-purple-400 rounded-full"></div>
+                        <div class="w-1.5 h-1.5 bg-pink-400 rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Learning Apps Section -->
+    <section id="apps" class="py-12 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-light text-gray-900 mb-3">
+                    Deine <span class="text-accent font-medium">Lern-Apps</span>
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Spezialisierte Apps für unterschiedliche Lernziele.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- German Connectors Card -->
+                <div class="card-hover bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+                    <div class="w-12 h-12 icon-blue rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-link text-white text-lg"></i>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-900">German Connectors</h3>
+                        <span class="ml-2 badge-green text-xs font-medium px-1.5 py-0.5 rounded-full">Aktiv</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+                        Meistere deutsche Konnektoren und Konjunktionen für flüssiges Sprechen.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center text-xs text-gray-500">
+                            <i class="fas fa-layer-group mr-1.5"></i>
+                            <span>A1-C2 Niveaus</span>
+                        </div>
+                        <a href="conn/c.html" class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm transition-colors">
+                            Starten <i class="fas fa-arrow-right ml-1.5 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- German Adjektive Card -->
+                <div class="card-hover bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+                    <div class="w-12 h-12 icon-purple rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-palette text-white text-lg"></i>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-900">German Adjektive</h3>
+                        <span class="ml-2 badge-green text-xs font-medium px-1.5 py-0.5 rounded-full">Aktiv</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+                        Erweitere deinen Wortschatz mit Adjektiven, Deklination und Steigerung.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center text-xs text-gray-500">
+                            <i class="fas fa-layer-group mr-1.5"></i>
+                            <span>A1-C2 Niveaus</span>
+                        </div>
+                        <a href="adj/pz.html" class="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium text-sm transition-colors">
+                            Starten <i class="fas fa-arrow-right ml-1.5 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- German Personalpronomen Card -->
+                <div class="card-hover bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+                    <div class="w-12 h-12 icon-teal rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-user text-white text-lg"></i>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-900">German personalpronomen</h3>
+                        <span class="ml-2 badge-green text-xs font-medium px-1.5 py-0.5 rounded-full">Aktiv</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+                        Lerne deutsche Personalpronomen für alle Fälle: Nominativ, Akkusativ, Dativ, Genitiv.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center text-xs text-gray-500">
+                            <i class="fas fa-layer-group mr-1.5"></i>
+                            <span>A1-C2 Niveaus</span>
+                        </div>
+                        <a href="Personalpronomen/personalpronomen.html" class="inline-flex items-center text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors">
+                            Starten <i class="fas fa-arrow-right ml-1.5 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Future Expansion Section -->
+    <section id="future" class="py-12 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-light text-gray-900 mb-3">
+                    Zukünftige <span class="text-accent font-medium">Module</span>
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Unsere Plattform wächst ständig.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="card-hover bg-white rounded-lg border border-gray-100 p-5 text-center shadow-sm">
+                    <div class="w-12 h-12 icon-orange rounded-lg flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-book text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-medium text-gray-900 mb-1 text-sm">Verben</h4>
+                    <p class="text-xs text-gray-500 mb-2">Konjugation</p>
+                    <span class="inline-flex items-center badge-orange text-xs font-medium px-2 py-0.5 rounded-full">
+                        <i class="fas fa-clock mr-1 text-xs"></i> Coming Soon
+                    </span>
+                </div>
+                
+                <div class="card-hover bg-white rounded-lg border border-gray-100 p-5 text-center shadow-sm">
+                    <div class="w-12 h-12 icon-green rounded-lg flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-headphones text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-medium text-gray-900 mb-1 text-sm">Hören</h4>
+                    <p class="text-xs text-gray-500 mb-2">Hörverständnis</p>
+                    <span class="inline-flex items-center badge-green text-xs font-medium px-2 py-0.5 rounded-full">
+                        <i class="fas fa-clock mr-1 text-xs"></i> Geplant
+                    </span>
+                </div>
+                
+                <div class="card-hover bg-white rounded-lg border border-gray-100 p-5 text-center shadow-sm">
+                    <div class="w-12 h-12 icon-teal rounded-lg flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-comments text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-medium text-gray-900 mb-1 text-sm">Sprechen</h4>
+                    <p class="text-xs text-gray-500 mb-2">Aussprache</p>
+                    <span class="inline-flex items-center badge-blue text-xs font-medium px-2 py-0.5 rounded-full">
+                        <i class="fas fa-clock mr-1 text-xs"></i> Forschung
+                    </span>
+                </div>
+                
+                <div class="card-hover bg-white rounded-lg border border-gray-100 p-5 text-center shadow-sm">
+                    <div class="w-12 h-12 icon-indigo rounded-lg flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-pen text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-medium text-gray-900 mb-1 text-sm">Schreiben</h4>
+                    <p class="text-xs text-gray-500 mb-2">Texte verfassen</p>
+                    <span class="inline-flex items-center badge-purple text-xs font-medium px-2 py-0.5 rounded-full">
+                        <i class="fas fa-clock mr-1 text-xs"></i> Konzept
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-12 px-4 soft-gradient">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-4xl font-light text-gray-900 mb-4">
+                    Über <span class="text-accent font-medium">Deutsch Lernen</span>
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed mb-6">
+                    Moderne Sprachlernplattform für ambitionierte Deutschlerner.
+                </p>
+                
+                <!-- Simple stats -->
+                <div class="grid grid-cols-3 gap-6 max-w-md mx-auto">
+                    <div class="text-center">
+                        <div class="text-xl font-bold stat-indigo mb-1">2+</div>
+                        <div class="text-xs text-gray-600">Lern-Apps</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-xl font-bold stat-purple mb-1">1000+</div>
+                        <div class="text-xs text-gray-600">Vokabeln</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-xl font-bold stat-pink mb-1">A1-C2</div>
+                        <div class="text-xs text-gray-600">Niveaus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 py-6 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-2 mb-3 md:mb-0">
+                    <div class="w-7 h-7 logo-icon rounded-md flex items-center justify-center">
+                        <i class="fas fa-language text-white text-xs"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-base font-semibold text-gray-900">Deutsch Lernen</h3>
+                        <p class="text-xs text-gray-500">Smart German Learning</p>
+                    </div>
+                </div>
+                <div class="text-center text-gray-600 text-xs">
+                    <p>&copy; 2024 Made with ❤️ for German learners worldwide</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>

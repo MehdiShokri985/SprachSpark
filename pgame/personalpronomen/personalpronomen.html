@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>German Adjectives</title>
+    <title>German Personalpronomen</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       @keyframes fall {
@@ -32,7 +32,7 @@
       <div class="container mx-auto px-4 py-4">
         <div class="flex justify-between items-center">
           <h1 class="text-2xl font-bold text-indigo-800">
-            German Adjektive Lernen
+            German Personalpronomen Lernen
           </h1>
           <div class="flex gap-4 text-sm">
             <div class="bg-green-100 px-2 py-0.5 rounded-full text-xs">
@@ -107,13 +107,14 @@
               id="fallingWord"
               class="falling-word text-3xl font-bold text-indigo-800 mb-4"
             >
-              Klicke auf „ Spiel starten“, um zu beginnen.
+              Klicke auf " Spiel starten", um zu beginnen.
             </div>
             <div
               id="sentenceDisplay"
               class="text-lg text-gray-600 mt-4 hidden"
             ></div>
             <div id="questionType" class="text-sm text-gray-500 mt-2"></div>
+            <div id="caseDisplay" class="text-sm text-purple-600 mt-2 font-medium"></div>
           </div>
         </div>
 
@@ -125,7 +126,7 @@
 
         <!-- Hard Mode Input -->
         <div id="hardInputContainer" class="hidden mb-6">
-          <div class="max-w-md mx-auto">
+          <div class="bg-white rounded-xl shadow-lg p-4 border border-gray-200">
             <div class="flex gap-2 mb-1">
               <button
                 onclick="game.setAutoCompleteMode(1)"
@@ -155,7 +156,7 @@
                 id="hardInput"
                 type="text"
                 class="flex-1 border-2 border-indigo-300 focus:border-indigo-600 rounded-xl px-5 py-3 text-xl focus:outline-none"
-                placeholder="Deutsches Adjektiv eingeben..."
+                placeholder="Deutsches Personalpronomen eingeben..."
                 autocomplete="off"
               />
               <button
@@ -174,7 +175,8 @@
           </div>
         </div>
 
-        <div class="flex justify-center gap-4">
+        <!-- Control Buttons -->
+        <div class="flex gap-3 justify-center">
           <button
             id="startBtn"
             class="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-lg"
@@ -244,7 +246,7 @@
         <div class="text-center">
           <div id="modalIcon" class="text-6xl mb-4"></div>
           <h2 id="modalTitle" class="text-2xl font-bold mb-2"></h2>
-          <p id="modalMessage" class="text-gray-600 mb-6"></p>
+          <p id="modalMessage" class="text-gray-600 mb-4"></p>
           <div
             id="modalDetails"
             class="bg-gray-50 rounded-lg p-4 mb-6 text-left"
@@ -323,15 +325,18 @@
         constructor() {
           this.words = [];
           this.gameState = {
+            currentIndex: 0,
             score: 0,
             totalQuestions: 0,
-            correctAnswers: 0,
             currentLevel: "A1",
+            sessionSize: 20,
+            newWordsCount: 0,
+            reviewWordsCount: 0,
             lastWordId: null,
+            mode: null,
             progress: 0,
             sessionNumber: 1,
-            gameMode: "normal",
-            // Scoped wrong answers, correct answers, mistakes, and progress by level and mode
+            totalSessions: 1,
             wrongAnswersByLevelAndMode: {},
             correctAnswersByLevelAndMode: {},
             mistakesByLevelAndMode: {},
@@ -342,14 +347,11 @@
           this.currentQuestionType = null;
           this.currentSentence = null;
           this.isAnswering = false;
-          this.lastFaToDeIndex = 0;
-          this.pendingIsCorrect = false;
+          this.pendingIsCorrect = null;
           this.pendingCorrectAnswer = null;
-          // Remove global currentLevelMistakes - will use scoped version
+          this.questionCounter = 0;
+          this.lastFaToDeIndex = 0;
           this.autoCompleteMode = 1;
-
-          // Initialize scoped wrong answers and mistakes tracking
-          this.initWrongAnswersTracking();
 
           this.init();
         }
@@ -360,23 +362,21 @@
           this.updateUI();
           document.getElementById("modeModal").classList.remove("hidden");
 
-          // Run verification to ensure isolation is working
           setTimeout(() => this.verifyWrongAnswerIsolation(), 1000);
         }
 
         async loadData() {
           try {
-            const savedWords = localStorage.getItem("words");
-            const savedState = localStorage.getItem("gameState");
+            const savedWords = localStorage.getItem("personalpronomen_words");
+            const savedState = localStorage.getItem("personalpronomen_gameState");
             const savedMistakes = localStorage.getItem(
-              `mistakes_${this.gameState.currentLevel || "A1"}_${this.gameState.gameMode || "normal"}`,
+              `personalpronomen_mistakes_${this.gameState.currentLevel || "A1"}_${this.gameState.gameMode || "normal"}`,
             );
 
             if (savedWords && savedState) {
               this.words = JSON.parse(savedWords);
               this.gameState = JSON.parse(savedState);
               this.initAllTracking();
-              // Migrate old global wrongAnswers to scoped system if needed
               if (
                 this.gameState.wrongAnswers !== undefined &&
                 !this.gameState.wrongAnswersByLevelAndMode
@@ -388,7 +388,6 @@
                 delete this.gameState.wrongAnswers; // Remove old global system
               }
 
-              // Migrate old global correctAnswers to scoped system if needed
               if (
                 this.gameState.correctAnswers !== undefined &&
                 !this.gameState.correctAnswersByLevelAndMode
@@ -400,24 +399,10 @@
                 delete this.gameState.correctAnswers; // Remove old global system
               }
 
-              // Migrate old global progress to scoped system if needed
-              if (
-                this.gameState.progress !== undefined &&
-                !this.gameState.progressByLevelAndMode
-              ) {
-                this.gameState.progressByLevelAndMode = {
-                  [`${this.gameState.currentLevel}_${this.gameState.gameMode}`]:
-                    this.gameState.progress,
-                };
-                delete this.gameState.progress; // Remove old global system
-              }
-
-              // Migrate old global currentLevelMistakes to scoped system if needed
               if (!this.gameState.mistakesByLevelAndMode) {
                 this.gameState.mistakesByLevelAndMode = {};
               }
 
-              // Ensure all gameState properties are properly initialized
               this.gameState.wrongAnswersByLevelAndMode =
                 this.gameState.wrongAnswersByLevelAndMode || {};
               this.gameState.correctAnswersByLevelAndMode =
@@ -432,7 +417,7 @@
               this.gameState.totalQuestions =
                 this.gameState.totalQuestions || 0;
             } else {
-              const wordsResponse = await fetch("p.json");
+              const wordsResponse = await fetch("personalpronomen.json");
               this.words = await wordsResponse.json();
 
               this.words = this.words.map((word) => {
@@ -462,9 +447,27 @@
                 );
                 return normalizedWord;
               });
-            }
 
-            // Load mistakes for current level and mode (scoped)
+              this.gameState = {
+                currentIndex: 0,
+                score: 0,
+                totalQuestions: 0,
+                currentLevel: "A1",
+                sessionSize: 20,
+                newWordsCount: 0,
+                reviewWordsCount: 0,
+                lastWordId: null,
+                mode: null,
+                progress: 0,
+                sessionNumber: 1,
+                totalSessions: 1,
+                wrongAnswersByLevelAndMode: {},
+                correctAnswersByLevelAndMode: {},
+                mistakesByLevelAndMode: {},
+                progressByLevelAndMode: {},
+                sureCountByLevelAndMode: {},
+              };
+            }
             this.loadMistakesForCurrentLevelAndMode();
             this.initWrongAnswersTracking();
             this.saveData();
@@ -475,10 +478,9 @@
         }
 
         saveData() {
-          localStorage.setItem("gameState", JSON.stringify(this.gameState));
-          localStorage.setItem("words", JSON.stringify(this.words));
-          // Save both wrong count and mistakes list for current level+mode
-          const storageKey = `mistakes_${this.gameState.currentLevel}_${this.gameState.gameMode}`;
+          localStorage.setItem("personalpronomen_gameState", JSON.stringify(this.gameState));
+          localStorage.setItem("personalpronomen_words", JSON.stringify(this.words));
+          const storageKey = `personalpronomen_mistakes_${this.gameState.currentLevel}_${this.gameState.gameMode}`;
           const key = this.getCurrentLevelAndModeKey();
           const currentMistakes =
             this.gameState.mistakesByLevelAndMode[key] || [];
@@ -519,20 +521,28 @@
           const hardInput = document.getElementById("hardInput");
           hardInput.addEventListener("input", () => this.handleInput());
           hardInput.addEventListener("keydown", (e) => {
-            if (e.key === "Enter") this.submitHardAnswer();
+            if (e.key === "Enter") {
+              e.preventDefault();
+              this.submitHardAnswer();
+            }
           });
 
           document.addEventListener("keydown", (e) => {
             if (this.isAnswering) return;
             switch (e.key) {
-              case "Enter":
-                if (this.gameState.totalQuestions === 0) this.startGame();
-                else this.nextQuestion();
+              case "1":
+              case "2":
+              case "3":
+              case "4":
+                const buttons = document.querySelectorAll("#answerOptions button");
+                const index = parseInt(e.key) - 1;
+                if (buttons[index]) {
+                  buttons[index].click();
+                }
                 break;
               case "Escape":
                 document.querySelectorAll(".modal-overlay").forEach((m) => {
-                  if (!m.classList.contains("hidden"))
-                    m.classList.add("hidden");
+                  if (!m.classList.contains("hidden")) m.classList.add("hidden");
                 });
                 break;
             }
@@ -542,15 +552,14 @@
         selectMode(mode) {
           this.gameState.gameMode = mode;
           document.getElementById("modeModal").classList.add("hidden");
-          this.initAllTracking(); // ← اضافه شود
+          this.initAllTracking();
           this.loadMistakesForCurrentLevelAndMode();
-          this.updateUI(); // ← اضافه شود
+          this.updateUI();
         }
 
         setAutoCompleteMode(mode) {
           this.autoCompleteMode = mode;
 
-          // به‌روزرسانی استایل دکمه‌ها
           document
             .querySelectorAll('#hardInputContainer button[id^="ac"]')
             .forEach((btn) => {
@@ -560,31 +569,80 @@
               );
             });
 
-          // نمایش/مخفی کردن دکمه Prüfen فقط در حالت 0
           const submitBtn = document.getElementById("submitBtn");
-          if (submitBtn) {
-            submitBtn.classList.toggle("hidden", mode !== 0);
+          if (mode === 0) {
+            submitBtn.classList.remove("hidden");
+          } else {
+            submitBtn.classList.add("hidden");
           }
         }
 
         startGame() {
-          this.gameState.totalQuestions = 0;
-          this.gameState.sessionNumber++;
-          // Ensure scoped wrongAnswers and correctAnswers are properly initialized
-          this.initWrongAnswersTracking();
-          this.gameState.correctAnswers = this.gameState.correctAnswers || 0;
+          this.gameState.mode = this.gameState.gameMode || "normal";
           document.getElementById("startBtn").classList.add("hidden");
           document.getElementById("nextBtn").classList.remove("hidden");
+
+          if (this.gameState.gameMode === "hard") {
+            document.getElementById("hardInputContainer").classList.remove("hidden");
+          } else {
+            document.getElementById("hardInputContainer").classList.add("hidden");
+          }
+
+          this.resetSession();
           this.nextQuestion();
         }
 
-        // ==================== بقیه متدها بدون تغییر ====================
+        resetSession() {
+          this.gameState.sessionSize = 20;
+          this.gameState.newWordsCount = 0;
+          this.gameState.reviewWordsCount = 0;
+          this.gameState.currentIndex = 0;
+        }
+
+        nextQuestion() {
+          if (this.gameState.currentIndex >= this.gameState.sessionSize) {
+            this.showSessionComplete();
+            return;
+          }
+
+          this.currentWord = this.selectNextWord();
+          if (!this.currentWord) {
+            this.showLevelComplete();
+            return;
+          }
+
+          this.currentQuestionType = this.determineQuestionType(
+            this.currentWord,
+          );
+          this.currentSentence = null;
+
+          this.currentWord.seenCount = (this.currentWord.seenCount || 0) + 1;
+          this.gameState.currentIndex++;
+
+          if (
+            this.currentQuestionType.showSentence &&
+            this.currentWord.sentences?.length > 0
+          ) {
+            const available = this.currentWord.sentences.filter(
+              (s) => s.dueIn <= 0,
+            );
+            const pool =
+              available.length > 0 ? available : this.currentWord.sentences;
+            this.currentSentence =
+              pool[Math.floor(Math.random() * pool.length)];
+            if (this.currentSentence)
+              this.currentSentence.seenCount =
+                (this.currentSentence.seenCount || 0) + 1;
+          }
+
+          this.renderQuestion();
+        }
+
         selectNextWord() {
           const levelWords = this.words.filter(
             (word) => (word.level || "A1") === this.gameState.currentLevel,
           );
 
-          // WORD REMOVAL RULE: Remove words with sureCount >= 2 from active pool
           const activeWords = levelWords.filter(
             (word) => this.getSureCount(word.id) < 2,
           );
@@ -592,7 +650,9 @@
           if (activeWords.length === 0) return null;
 
           const dueWords = activeWords.filter((word) => word.dueIn <= 0);
-          const candidateWords = dueWords.length > 0 ? dueWords : activeWords;
+          const candidateWords =
+            dueWords.length > 0 ? dueWords : activeWords;
+
           let availableWords = candidateWords.filter(
             (word) => word.id !== this.gameState.lastWordId,
           );
@@ -633,11 +693,11 @@
           return selected;
         }
 
-          determineQuestionType(word) {
+        determineQuestionType(word) {
           const s = word.strength;
           this.questionCounter = (this.questionCounter || 0) + 1;
 
-          if (this.lastFaToDeIndex > 4) {
+          if (this.questionCounter === 1) {
             this.lastFaToDeIndex = 0;
             return !word.sentences || word.sentences.length === 0
               ? { type: "de_to_fa", showWord: true }
@@ -645,15 +705,18 @@
           }
 
           let mode;
-          const rand = Math.random();
-          if (s < 0.4) mode = rand < 0.6 ? "de_to_fa" : "word_with_sentence";
-          else if (s < 0.7) {
-            if (rand < 0.4) mode = "de_to_fa";
-            else if (rand < 0.8) mode = "word_with_sentence";
-            else mode = "fa_to_de";
+          if (s < 0.4) {
+            mode = "de_to_fa";
+          } else if (s < 0.7) {
+            if (this.questionCounter % 2 === 0) {
+              mode = "de_to_fa";
+            } else {
+              mode = "word_with_sentence";
+            }
           } else {
-            if (rand < 0.4) mode = "fa_to_de";
-            else if (rand < 0.8) mode = "sentence_only";
+            const cycle = this.questionCounter % 3;
+            if (cycle === 0) mode = "fa_to_de";
+            else if (cycle === 1) mode = "sentence_only";
             else mode = "word_with_sentence";
           }
 
@@ -664,8 +727,10 @@
             mode = "de_to_fa";
           }
 
-          if (mode === "fa_to_de") this.lastFaToDeIndex = 0;
-          else this.lastFaToDeIndex++;
+          this.lastFaToDeIndex = (this.lastFaToDeIndex + 1) % 4;
+          if (mode === "fa_to_de" && this.lastFaToDeIndex < 3) {
+            mode = "de_to_fa";
+          }
 
           const result = {
             de_to_fa: () => ({ type: "de_to_fa", showWord: true }),
@@ -684,45 +749,50 @@
           return result;
         }
 
-      renderQuestion() {
+        renderQuestion() {
           const wordDisplay = document.getElementById("fallingWord");
           const sentenceDisplay = document.getElementById("sentenceDisplay");
           const questionType = document.getElementById("questionType");
-          const answerOptions = document.getElementById("answerOptions");
+          const caseDisplay = document.getElementById("caseDisplay");
 
           if (
             !wordDisplay ||
             !sentenceDisplay ||
             !questionType ||
-            !answerOptions
+            !caseDisplay
           )
             return;
 
           wordDisplay.className =
-            "falling-word text-4xl font-bold text-indigo-800 mb-4";
+            "falling-word text-3xl font-bold text-indigo-800 mb-4";
           sentenceDisplay.classList.add("hidden");
           questionType.textContent = "";
+          caseDisplay.textContent = "";
 
           switch (this.currentQuestionType.type) {
             case "de_to_fa":
               wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.currentWord.word}</a>`;
               questionType.textContent = "Auf Persisch übersetzen";
+              caseDisplay.textContent = `Fall: ${this.currentWord.case || 'N/A'}`;
               break;
             case "word_with_sentence":
               sentenceDisplay.textContent = `"${this.currentSentence.fa}"`;
               sentenceDisplay.classList.remove("hidden");
-              questionType.textContent = "Finde das Adjektiv";
+              questionType.textContent = "Finde das Personalpronomen";
               wordDisplay.textContent = "?";
+              caseDisplay.textContent = `Fall: ${this.currentWord.case || 'N/A'}`;
               break;
             case "fa_to_de":
               wordDisplay.textContent = this.currentWord.meaning;
               questionType.textContent = "Ins Deutsche übersetzen";
+              caseDisplay.textContent = `Fall: ${this.currentWord.case || 'N/A'}`;
               break;
             case "sentence_only":
               sentenceDisplay.textContent = `"${this.currentSentence.de}"`;
               sentenceDisplay.classList.remove("hidden");
               questionType.textContent = "Was bedeutet dieser Satz?";
               wordDisplay.textContent = "?";
+              caseDisplay.textContent = `Fall: ${this.currentWord.case || 'N/A'}`;
               break;
           }
           this.generateAnswerOptions();
@@ -732,40 +802,35 @@
           const wordDisplay = document.getElementById("fallingWord");
           const sentenceDisplay = document.getElementById("sentenceDisplay");
           const questionType = document.getElementById("questionType");
+          const caseDisplay = document.getElementById("caseDisplay");
 
           wordDisplay.className =
-            "falling-word text-4xl font-bold text-indigo-800 mb-4";
+            "falling-word text-3xl font-bold text-indigo-800 mb-4";
           sentenceDisplay.classList.add("hidden");
           questionType.textContent = "";
+          caseDisplay.textContent = "";
 
           if (
-            this.currentQuestionType.type === "word_with_sentence" ||
-            this.currentQuestionType.type === "sentence_only"
+            (this.currentQuestionType.type === "word_with_sentence" ||
+              this.currentQuestionType.type === "sentence_only") &&
+            this.currentSentence
           ) {
             sentenceDisplay.textContent = `"${this.currentSentence.fa}"`;
             sentenceDisplay.classList.remove("hidden");
-            questionType.textContent = "Schreibe das passende Adjektiv";
-            wordDisplay.textContent = "?";
+            questionType.textContent = "Schreibe das passende Personalpronomen";
+            caseDisplay.textContent = `Fall: ${this.currentWord.case || 'N/A'}`;
           } else {
             wordDisplay.textContent = this.currentWord.meaning;
-            questionType.textContent = "Ins Deutsche übersetzen (eintippen)";
+            questionType.textContent = "Schreibe das Personalpronomen";
+            caseDisplay.textContent = `Fall: ${this.currentWord.case || 'N/A'}`;
           }
-
-          this.setAutoCompleteMode(1);
         }
 
         handleInput() {
           const input = document.getElementById("hardInput").value.trim();
           const list = document.getElementById("autocompleteList");
-          list.innerHTML = "";
 
-          if (!input || this.autoCompleteMode === 0) {
-            list.classList.add("hidden");
-            return;
-          }
-
-          const minLength = this.autoCompleteMode;
-          if (input.length < minLength) {
+          if (input.length < this.autoCompleteMode) {
             list.classList.add("hidden");
             return;
           }
@@ -779,6 +844,7 @@
             return;
           }
 
+          list.innerHTML = "";
           candidates.forEach((word) => {
             const div = document.createElement("div");
             div.className =
@@ -787,19 +853,14 @@
             div.onclick = () => {
               document.getElementById("hardInput").value = word.word;
               list.classList.add("hidden");
-              this.submitHardAnswer();
+              game.submitHardAnswer();
             };
             list.appendChild(div);
           });
-
           list.classList.remove("hidden");
         }
 
-        submitHardAnswer() {
-          if (this.isAnswering) return;
-          const selected = document.getElementById("hardInput").value.trim();
-          if (!selected) return;
-
+        checkAnswer(selected) {
           this.isAnswering = true;
           const correctAnswer = this.currentWord.word;
           const isCorrect =
@@ -816,9 +877,38 @@
           }
 
           this.gameState.totalQuestions++;
-          this.saveData();
           this.showConfidenceModal();
-          this.updateUI();
+        }
+
+        submitHardAnswer() {
+          const selected = document.getElementById("hardInput").value.trim();
+          if (!selected) return;
+
+          this.isAnswering = true;
+          const correctAnswer = this.currentWord.word;
+          const isCorrect =
+            selected.toLowerCase() === correctAnswer.toLowerCase();
+
+          this.pendingIsCorrect = isCorrect;
+          this.pendingCorrectAnswer = correctAnswer;
+
+          if (isCorrect) {
+            this.incrementCorrectAnswers();
+            const scoreMap = {
+              de_to_fa: 10,
+              word_with_sentence: 15,
+              fa_to_de: 20,
+              sentence_only: 25,
+            };
+            this.gameState.score +=
+              scoreMap[this.currentQuestionType.type] || 10;
+          } else {
+            // this.incrementWrongAnswers();
+            // this.incrementWrongAnswersOnlyIfNew();
+          }
+
+          this.gameState.totalQuestions++;
+          this.showConfidenceModal();
         }
 
         generateAnswerOptions() {
@@ -842,8 +932,13 @@
           }
 
           let options = [correctAnswer];
-          const distractors = this.generateDistractors(correctAnswer, 3);
-          options = options.concat(distractors);
+          const distractors = this.generateDistractors(
+            correctAnswer,
+            this.currentQuestionType.type,
+            3,
+          );
+          options.push(...distractors);
+
           options.sort(() => Math.random() - 0.5);
 
           options.forEach((option) => {
@@ -861,15 +956,13 @@
             }
 
             button.addEventListener("click", () =>
-              this.checkAnswer(option, correctAnswer),
+              game.checkAnswer(option, correctAnswer),
             );
             answerOptions.appendChild(button);
           });
         }
 
-        generateDistractors(correctAnswer, count) {
-          let distractors = new Set();
-          const type = this.currentQuestionType.type;
+        generateDistractors(correctAnswer, type, count) {
           let candidates = [];
 
           if (type === "de_to_fa")
@@ -888,10 +981,10 @@
 
           candidates.sort(() => Math.random() - 0.5);
 
-          for (let item of candidates) {
-            if (distractors.size >= count) break;
+          const distractors = new Set();
+          while (distractors.size < count && candidates.length > 0) {
             const correctLen = String(correctAnswer).length;
-            const itemLen = String(item).length;
+            const itemLen = String(candidates[Math.floor(Math.random() * candidates.length)]).length;
             if (
               Math.abs(correctLen - itemLen) <= 3 ||
               (correctAnswer &&
@@ -957,58 +1050,27 @@
             };
             const list = fallbacks[type] || fallbacks["fa_to_de"];
             for (let fb of list) {
-              if (fb !== correctAnswer) distractors.add(fb);
+              if (!distractors.has(fb)) distractors.add(fb);
               if (distractors.size >= count) break;
             }
           }
-          return Array.from(distractors).slice(0, count);
-        }
 
-        checkAnswer(selectedAnswer, correctAnswer) {
-          if (this.isAnswering) return;
-          this.isAnswering = true;
-          const isCorrect = selectedAnswer === correctAnswer;
-          this.pendingIsCorrect = isCorrect;
-          this.pendingCorrectAnswer = correctAnswer;
-
-          if (isCorrect) {
-            this.incrementCorrectAnswers();
-            const scoreMap = {
-              de_to_fa: 10,
-              word_with_sentence: 15,
-              fa_to_de: 20,
-              sentence_only: 25,
-            };
-            this.gameState.score +=
-              scoreMap[this.currentQuestionType.type] || 10;
-          } else {
-            // this.incrementWrongAnswers();
-            // this.incrementWrongAnswersOnlyIfNew();
-          }
-
-          this.gameState.totalQuestions++;
-          this.gameState.lastWordId = this.currentWord.id;
-          this.saveData();
-          this.showConfidenceModal();
-          this.updateUI();
+          return Array.from(distractors);
         }
 
         showConfidenceModal() {
           const modal = document.getElementById("confidenceModal");
           modal.classList.remove("hidden");
           modal.classList.add("flex");
-          setTimeout(() => document.getElementById("sureBtn").focus(), 100);
         }
 
         handleConfidence(confidence) {
           const modal = document.getElementById("confidenceModal");
-          modal.classList.add("hidden");
           modal.classList.remove("flex");
 
           const isCorrect = this.pendingIsCorrect;
           const target = this.currentWord;
 
-          // قوانین sureCount
           let delta = 0;
           if (confidence === "sure") {
             delta = isCorrect ? +1 : -1;
@@ -1019,9 +1081,7 @@
           const currentSure = this.getSureCount(target.id);
           this.setSureCount(target.id, currentSure + delta);
 
-          // ==================== فقط یک بار شمارش ====================
           if (isCorrect) {
-            // this.incrementCorrectAnswers();   ← حذف شد (قبلاً در checkAnswer فراخوانی شده)
             this.gameState.score += 20;
             target.strength = Math.min(
               1,
@@ -1034,7 +1094,6 @@
             target.correctStreak = (target.correctStreak || 0) + 1;
             target.mistakeCount = 0;
           } else {
-            // this.incrementWrongAnswers();     ← حذف شد (قبلاً در checkAnswer فراخوانی شده)
             target.strength = Math.max(0.001, (target.strength || 0) - 0.15);
             target.dueIn = 1;
             target.mistakeCount = (target.mistakeCount || 0) + 1;
@@ -1046,20 +1105,11 @@
 
           if (this.getSureCount(target.id) >= 2) this.updateUI();
         }
-        // CRITICAL FIX: Check and remove word if sureCount >= 2
-        checkAndRemoveWord(target) {
-          if (target.sureCount >= 2 && target === this.currentWord) {
-            console.log(
-              `[WORD REMOVAL] Word "${target.word}" removed (sureCount=${target.sureCount}) from level ${this.gameState.currentLevel}`,
-            );
-            return true; // Word was removed from active pool
-          }
-          return false; // Word not removed
-        }
 
         showResult(isCorrect, correctAnswer) {
           const modal = document.getElementById("resultModal");
-          this.displayOriginalSentence();
+          modal.classList.remove("hidden");
+          modal.classList.add("flex");
 
           if (isCorrect) {
             document.getElementById("modalIcon").textContent = "✅";
@@ -1071,14 +1121,13 @@
             this.playSound("correct");
           } else {
             document.getElementById("modalIcon").textContent = "❌";
-            document.getElementById("modalTitle").textContent = "Wrong";
+            document.getElementById("modalTitle").textContent = "Wrong!";
             document.getElementById("modalTitle").className =
               "text-2xl font-bold mb-2 text-red-600";
             document.getElementById("modalMessage").textContent =
               `The correct answer was: ${correctAnswer}`;
             this.playSound("wrong");
 
-            // === رفع مشکل تکراری شدن ===
             const currentMistakes = this.getCurrentMistakes();
             const wordAlreadyExists = currentMistakes.some(
               (item) => item.word === this.currentWord.word,
@@ -1088,15 +1137,14 @@
               currentMistakes.unshift({
                 word: this.currentWord.word,
                 meaning: this.currentWord.meaning,
+                case: this.currentWord.case,
                 sentences: this.currentWord.sentences
                   ? [...this.currentWord.sentences]
                   : [],
               });
 
-              // حداکثر 20 مورد نگه داریم
               if (currentMistakes.length > 20) currentMistakes.pop();
             } else {
-              // اگر قبلاً وجود داشت، آن را به اول لیست منتقل کنیم (به‌روزترین باشد)
               const existingIndex = currentMistakes.findIndex(
                 (item) => item.word === this.currentWord.word,
               );
@@ -1109,7 +1157,7 @@
             this.saveData();
           }
 
-          let content = `<div class="mb-4"><strong>Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.currentWord.word)}" target="_blank" class="text-indigo-600 hover:underline">${this.currentWord.word}</a></div><div class="mb-3"><strong>Meaning:</strong> ${this.currentWord.meaning}</div>`;
+          let content = "";
           if (
             this.currentWord.sentences &&
             this.currentWord.sentences.length > 0
@@ -1119,9 +1167,10 @@
               content += `<div class="mt-3 pt-3 border-t border-gray-200"><div class="text-sm text-gray-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1">"${s.fa}"</div></div>`;
             });
           }
+
+          content += `<div class="mt-4 pt-3 border-t border-gray-200"><strong>Grammatical Case:</strong> <span class="text-purple-600 font-medium">${this.currentWord.case || 'N/A'}</span></div>`;
+
           document.getElementById("modalDetails").innerHTML = content;
-          modal.classList.remove("hidden");
-          modal.classList.add("flex");
         }
 
         displayOriginalSentence() {
@@ -1130,7 +1179,7 @@
           const questionType = document.getElementById("questionType");
 
           wordDisplay.className =
-            "falling-word text-4xl font-bold text-indigo-800 mb-4";
+            "falling-word text-3xl font-bold text-indigo-800 mb-4";
           sentenceDisplay.classList.remove("hidden");
           questionType.textContent = "Original sentence";
 
@@ -1174,6 +1223,10 @@
                 <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.word)}" target="_blank" class="text-red-700 font-bold hover:underline text-xl block">${item.word}</a>
                 <div class="text-gray-700 mt-1 text-lg">${item.meaning}</div>`;
 
+            if (item.case) {
+              html += `<div class="text-purple-600 text-sm font-medium mt-1">Fall: ${item.case}</div>`;
+            }
+
             if (item.sentences && item.sentences.length > 0) {
               html += `<div class="mt-4"><div class="text-sm font-semibold text-red-600 mb-2">Examples:</div>`;
               item.sentences.forEach((s) => {
@@ -1185,6 +1238,7 @@
               });
               html += `</div>`;
             }
+
             html += `</div>`;
             listContainer.innerHTML += html;
           });
@@ -1193,10 +1247,20 @@
           modal.classList.add("flex");
         }
 
-        closeMistakesModal() {
-          const modal = document.getElementById("mistakesModal");
-          modal.classList.add("hidden");
-          modal.classList.remove("flex");
+        showSessionComplete() {
+          const modal = document.getElementById("resultModal");
+          document.getElementById("modalIcon").textContent = "🎉";
+          document.getElementById("modalTitle").textContent = "Session Complete!";
+          document.getElementById("modalTitle").className =
+            "text-2xl font-bold mb-2 text-green-600";
+          document.getElementById("modalMessage").textContent =
+            `You've completed ${this.gameState.sessionSize} questions!`;
+          document.getElementById("modalDetails").innerHTML = `<div class="text-center py-6 text-gray-600">Accuracy: ${Math.round((this.getScopedCorrectAnswersCount() / (this.getScopedCorrectAnswersCount() + this.getScopedWrongAnswersCount())) * 100)}%</div>`;
+          modal.classList.remove("hidden");
+          modal.classList.add("flex");
+
+          const closeBtn = document.getElementById("modalCloseBtn");
+          closeBtn.textContent = "Continue";
         }
 
         showLevelComplete() {
@@ -1208,22 +1272,13 @@
           document.getElementById("modalMessage").textContent =
             `You have mastered all active words in ${this.gameState.currentLevel}!`;
           document.getElementById("modalDetails").innerHTML =
-            `<div class="text-center py-6 text-gray-600">You can continue practicing or change level from the menu.</div>`;
+            `<div class="text-center py-6 text-gray-600">You can continue practicing or change level from menu.</div>`;
           modal.classList.remove("hidden");
           modal.classList.add("flex");
 
-          // اطمینان از کار کردن دکمه Continue
           const closeBtn = document.getElementById("modalCloseBtn");
           closeBtn.textContent = "Continue";
         }
-
-        // closeModal() {
-        //   const modal = document.getElementById("resultModal");
-        //   modal.classList.add("hidden");
-        //   modal.classList.remove("flex");
-        //   this.isAnswering = false;
-        //   this.nextQuestion();
-        // }
 
         closeModal() {
           const modal = document.getElementById("resultModal");
@@ -1232,7 +1287,6 @@
 
           this.isAnswering = false;
 
-          // اگر سطح کامل شده باشد، به جای nextQuestion، حالت شروع را نمایش بده
           if (
             document.getElementById("modalTitle").textContent ===
             "Level Complete!"
@@ -1245,17 +1299,13 @@
 
         changeLevel(newLevel) {
           this.gameState.currentLevel = newLevel;
-          this.resetSession();
-          this.initAllTracking(); // ← اضافه شود
+          this.initAllTracking();
           this.updateUI();
           this.saveData();
           this.loadMistakesForCurrentLevelAndMode();
         }
 
         resetSession() {
-          this.gameState.totalQuestions = 0;
-          this.gameState.correctAnswers = 0;
-          // Don't reset scoped wrongAnswers and correctAnswers here - they should persist across level changes
           document.getElementById("startBtn").classList.remove("hidden");
           document.getElementById("nextBtn").classList.add("hidden");
           document.getElementById("fallingWord").textContent =
@@ -1263,6 +1313,7 @@
           document.getElementById("sentenceDisplay").classList.add("hidden");
           document.getElementById("answerOptions").innerHTML = "";
           document.getElementById("hardInputContainer").classList.add("hidden");
+          document.getElementById("caseDisplay").textContent = "";
         }
 
         resetProgress() {
@@ -1278,18 +1329,13 @@
             this.gameState.wrongAnswersByLevelAndMode[key] = 0;
             this.gameState.correctAnswersByLevelAndMode[key] = 0;
             this.gameState.mistakesByLevelAndMode[key] = [];
-            this.gameState.sureCountByLevelAndMode[key] = {}; // ← ریست sureCount
+            this.gameState.sureCountByLevelAndMode[key] = {};
 
             this.saveData();
             this.updateUI();
             this.showError(`Fortschritt für ${key} wurde zurückgesetzt`);
           }
         }
-
-        /**
-         * به‌روزرسانی کامل و پیشرفته UI
-         * شامل Progress Bar، آمار scoped، و نمایش اطلاعات دقیق
-         */
 
         updateUI() {
           const levelWords = this.words.filter(
@@ -1304,19 +1350,17 @@
           const scopedCorrectCount = this.getScopedCorrectAnswersCount();
           const scopedWrongCount = this.getScopedWrongAnswersCount();
 
-          // به‌روزرسانی شمارنده‌ها
           document.getElementById("correctCount").textContent =
             scopedCorrectCount;
-          document.getElementById("wrongCount").textContent = scopedWrongCount;
+          document.getElementById("wrongCount").textContent =
+            scopedWrongCount;
           document.getElementById("score").textContent =
             this.gameState.score || 0;
 
-          // Progress Bar
           const progressBar = document.getElementById("progressBar");
           document.getElementById("masteryProgress").textContent = percentage;
           progressBar.style.width = `${percentage}%`;
 
-          // تغییر رنگ Progress Bar
           if (percentage >= 90) {
             progressBar.style.background =
               "linear-gradient(to right, #10b981, #34d399)";
@@ -1331,7 +1375,6 @@
           document.getElementById("levelSelect").value =
             this.gameState.currentLevel;
 
-          // آمار کامل
           document.getElementById("levelStats").innerHTML = `
     Wörter: <strong>${totalWords}</strong> |
     Aktiv: <strong class="text-emerald-700">${activeWords}</strong> |
@@ -1341,7 +1384,6 @@
   `;
         }
 
-        // Calculate removed words count for current level (words with sureCount >= 2)
         getRemovedWordsCount() {
           const levelWords = this.words.filter(
             (w) => (w.level || "A1") === this.gameState.currentLevel,
@@ -1361,10 +1403,25 @@
           const gainNode = audioContext.createGain();
           oscillator.connect(gainNode);
           gainNode.connect(audioContext.destination);
-          oscillator.frequency.value = type === "correct" ? 800 : 300;
-          gainNode.gain.value = 0.1;
-          oscillator.start();
-          oscillator.stop(audioContext.currentTime + 0.1);
+
+          if (type === "correct") {
+            oscillator.frequency.value = 523.25; // C5
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(
+              0.01,
+              audioContext.currentTime + 0.1,
+            );
+          } else {
+            oscillator.frequency.value = 261.63; // C4
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(
+              0.01,
+              audioContext.currentTime + 0.3,
+            );
+          }
+
+          oscillator.start(audioContext.currentTime);
+          oscillator.stop(audioContext.currentTime + 0.3);
         }
 
         initAllTracking() {
@@ -1386,7 +1443,7 @@
         }
 
         initWrongAnswersTracking() {
-          this.initAllTracking(); // حالا همه چیز را پوشش می‌دهد
+          this.initAllTracking();
         }
 
         getCurrentLevelAndModeKey() {
@@ -1426,9 +1483,6 @@
         }
 
         getScopedWrongAnswersCount() {
-          // حالا مستقیماً طول لیست اشتباهات را برمی‌گرداند
-          // const currentMistakes = this.getCurrentMistakes();
-          // return currentMistakes.length;
           return this.getCurrentMistakes().length;
         }
 
@@ -1438,11 +1492,10 @@
         }
 
         loadMistakesForCurrentLevelAndMode() {
-          const storageKey = `mistakes_${this.gameState.currentLevel}_${this.gameState.gameMode}`;
+          const storageKey = `personalpronomen_mistakes_${this.gameState.currentLevel}_${this.gameState.gameMode}`;
           const savedMistakes = localStorage.getItem(storageKey);
           const key = this.getCurrentLevelAndModeKey();
 
-          // Load into scoped storage, not global array
           this.gameState.mistakesByLevelAndMode[key] = savedMistakes
             ? JSON.parse(savedMistakes)
             : [];
@@ -1451,11 +1504,6 @@
         getScopedProgress() {
           const key = this.getCurrentLevelAndModeKey();
           return this.gameState.progressByLevelAndMode[key] || 0;
-        }
-
-        updateScopedProgress(newProgress) {
-          const key = this.getCurrentLevelAndModeKey();
-          this.gameState.progressByLevelAndMode[key] = newProgress;
         }
 
         getCurrentMistakes() {
@@ -1472,43 +1520,6 @@
           setTimeout(() => toast.remove(), 3000);
         }
 
-        nextQuestion() {
-          this.currentWord = this.selectNextWord();
-          if (!this.currentWord) {
-            this.showLevelComplete();
-            return;
-          }
-
-          this.currentQuestionType = this.determineQuestionType(
-            this.currentWord,
-          );
-          this.currentSentence = null;
-
-          this.currentWord.seenCount = (this.currentWord.seenCount || 0) + 1;
-          this.gameState.lastWordId = this.currentWord.id;
-
-          if (
-            this.currentQuestionType.showSentence &&
-            this.currentWord.sentences?.length > 0
-          ) {
-            const available = this.currentWord.sentences.filter(
-              (s) => s.dueIn <= 0,
-            );
-            const pool =
-              available.length > 0 ? available : this.currentWord.sentences;
-            this.currentSentence =
-              pool[Math.floor(Math.random() * pool.length)];
-            if (this.currentSentence)
-              this.currentSentence.seenCount =
-                (this.currentSentence.seenCount || 0) + 1;
-          }
-
-          this.renderQuestion();
-          this.updateUI();
-          this.saveData();
-        }
-
-        // Verification method for testing all Level+Mode combinations
         verifyWrongAnswerIsolation() {
           console.log(
             "[VERIFICATION] Testing complete state isolation across all Niveau+Level combinations...",
@@ -1518,30 +1529,10 @@
           const modes = ["normal", "hard"];
           const testResults = {};
 
-          // Initialize all combinations with unique arrays if they don't exist
           levels.forEach((level) => {
             modes.forEach((mode) => {
               const key = `${level}_${mode}`;
-              if (!this.gameState.wrongAnswersByLevelAndMode[key]) {
-                this.gameState.wrongAnswersByLevelAndMode[key] = 0;
-              }
-              if (!this.gameState.correctAnswersByLevelAndMode[key]) {
-                this.gameState.correctAnswersByLevelAndMode[key] = 0; // Unique count for each combination
-              }
-              if (!this.gameState.mistakesByLevelAndMode[key]) {
-                this.gameState.mistakesByLevelAndMode[key] = []; // Unique array for each combination
-              }
-              if (!this.gameState.progressByLevelAndMode[key]) {
-                this.gameState.progressByLevelAndMode[key] = 0; // Unique progress for each combination
-              }
-            });
-          });
-
-          // Test each combination
-          levels.forEach((level) => {
-            modes.forEach((mode) => {
-              const key = `${level}_${mode}`;
-              const storageKey = `mistakes_${level}_${mode}`;
+              const storageKey = `personalpronomen_mistakes_${level}_${mode}`;
               const mistakes = localStorage.getItem(storageKey);
               const wrongCount =
                 this.gameState.wrongAnswersByLevelAndMode[key] || 0;
@@ -1551,7 +1542,6 @@
               const mistakesList =
                 this.gameState.mistakesByLevelAndMode[key] || [];
 
-              // Test sureCount isolation for this level
               const levelWords = this.words.filter(
                 (w) => (w.level || "A1") === level,
               );
@@ -1586,11 +1576,9 @@
             });
           });
 
-          // Check for cross-contamination
           let contaminationFound = false;
           const combinations = Object.keys(testResults);
 
-          // Check storage key uniqueness
           for (let i = 0; i < combinations.length; i++) {
             for (let j = i + 1; j < combinations.length; j++) {
               const combo1 = combinations[i];
@@ -1608,7 +1596,6 @@
             }
           }
 
-          // Check memory reference uniqueness (no shared arrays)
           const memoryReferences = new Set();
           combinations.forEach((combo) => {
             const ref = this.gameState.mistakesByLevelAndMode[combo];
@@ -1622,10 +1609,6 @@
             }
           });
 
-          // Verify sureCount isolation - words should have independent sureCount per level
-          console.log(
-            "[VERIFICATION] Testing sureCount isolation across levels...",
-          );
           levels.forEach((level) => {
             const levelWords = this.words.filter(
               (w) => (w.level || "A1") === level,
@@ -1646,13 +1629,9 @@
             );
           }
 
-          // Test reset isolation
           this.verifyResetIsolation();
-
-          return testResults;
         }
 
-        // Verification method for testing reset isolation
         verifyResetIsolation() {
           console.log(
             "[VERIFICATION] Testing reset isolation across all Level+Mode combinations...",
@@ -1661,10 +1640,8 @@
           const levels = ["A1", "A2", "B1", "B2", "C1", "C2"];
           const modes = ["normal", "hard"];
 
-          // Test reset isolation without affecting actual game state
           let resetIsolationPassed = true;
 
-          // Create isolated test objects to simulate gameState
           const testGameState = {
             wrongAnswersByLevelAndMode: {},
             correctAnswersByLevelAndMode: {},
@@ -1672,7 +1649,6 @@
             mistakesByLevelAndMode: {},
           };
 
-          // Initialize test state with sample data
           levels.forEach((level) => {
             modes.forEach((mode) => {
               const key = `${level}_${mode}`;
@@ -1683,27 +1659,22 @@
             });
           });
 
-          // Test reset for each combination
           levels.forEach((level) => {
             modes.forEach((mode) => {
               const key = `${level}_${mode}`;
 
-              // Simulate reset for this combination only
               testGameState.wrongAnswersByLevelAndMode[key] = 0;
               testGameState.correctAnswersByLevelAndMode[key] = 0;
               testGameState.progressByLevelAndMode[key] = 0;
               testGameState.mistakesByLevelAndMode[key] = [];
 
-              // Check if only this combination was reset
               levels.forEach((testLevel) => {
                 modes.forEach((testMode) => {
                   const testKey = `${testLevel}_${testMode}`;
                   if (testKey === key) {
-                    // This should be reset
                     if (
                       testGameState.wrongAnswersByLevelAndMode[testKey] !== 0 ||
-                      testGameState.correctAnswersByLevelAndMode[testKey] !==
-                        0 ||
+                      testGameState.correctAnswersByLevelAndMode[testKey] !== 0 ||
                       testGameState.progressByLevelAndMode[testKey] !== 0 ||
                       testGameState.mistakesByLevelAndMode[testKey].length !== 0
                     ) {
@@ -1713,11 +1684,9 @@
                       resetIsolationPassed = false;
                     }
                   } else {
-                    // This should NOT be reset
                     if (
                       testGameState.wrongAnswersByLevelAndMode[testKey] !== 5 ||
-                      testGameState.correctAnswersByLevelAndMode[testKey] !==
-                        3 ||
+                      testGameState.correctAnswersByLevelAndMode[testKey] !== 3 ||
                       testGameState.progressByLevelAndMode[testKey] !== 50 ||
                       testGameState.mistakesByLevelAndMode[testKey].length !== 1
                     ) {
@@ -1730,7 +1699,6 @@
                 });
               });
 
-              // Restore test state for next test
               testGameState.wrongAnswersByLevelAndMode[key] = 5;
               testGameState.correctAnswersByLevelAndMode[key] = 3;
               testGameState.progressByLevelAndMode[key] = 50;

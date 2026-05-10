@@ -49,11 +49,11 @@
 
         async loadData() {
           try {
-            const savedWords = localStorage.getItem("words");
+            const savedWords = localStorage.getItem("konnektoren_words");
             if (savedWords) {
               this.words = JSON.parse(savedWords);
             } else {
-              const wordsResponse = await fetch("json/p.json");
+              const wordsResponse = await fetch("json/konnektoren.json");
               this.words = await wordsResponse.json();
 
               this.words = this.words.map((word) => {
@@ -95,7 +95,7 @@
           ];
 
           combinations.forEach(key => {
-            const savedState = localStorage.getItem(`state_${key}`);
+            const savedState = localStorage.getItem(`konnektoren_state_${key}`);
             if (savedState) {
               this.allStates[key] = JSON.parse(savedState);
             }
@@ -104,12 +104,12 @@
 
         saveData() {
           // Save words data
-          localStorage.setItem("words", JSON.stringify(this.words));
+          localStorage.setItem("konnektoren_words", JSON.stringify(this.words));
           
           // Save current combination state
           const key = this.getCurrentKey();
           const currentState = this.getCurrentState();
-          localStorage.setItem(`state_${key}`, JSON.stringify(currentState));
+          localStorage.setItem(`konnektoren_state_${key}`, JSON.stringify(currentState));
           
           // Debug tracing
           console.log(`💾 Saved state for ${key}:`, {
@@ -290,7 +290,7 @@
               case "word_with_sentence":
                 sentenceDisplay.textContent = `"${this.currentSentence.fa}"`;
                 sentenceDisplay.classList.remove("hidden");
-                questionType.textContent = "Finde das Adjektiv";
+                questionType.textContent = "Finde das konnektoren";
                 wordDisplay.textContent = "?";
                 break;
               case "fa_to_de":
@@ -327,7 +327,7 @@
           if (this.currentQuestionType.type === "word_with_sentence" || this.currentQuestionType.type === "sentence_only") {
             sentenceDisplay.textContent = `"${this.currentSentence.fa}"`;
             sentenceDisplay.classList.remove("hidden");
-            questionType.textContent = "Schreibe das passende Adjektiv";
+            questionType.textContent = "Schreibe das passende konnektoren";
             wordDisplay.textContent = "?";
           } else {
             wordDisplay.textContent = this.currentWord.meaning;
@@ -397,7 +397,7 @@
           console.log(`🔍 DEBUG submitHardAnswer - ${this.getCurrentKey()}:`, {
             activeNiveau: this.currentNiveau,
             activeMode: this.currentMode,
-            storageKey: `state_${this.getCurrentKey()}`,
+            storageKey: `konnektoren_state_${this.getCurrentKey()}`,
             wrongCountRef: currentState.wrongAnswers,
             correctCountRef: currentState.correctAnswers,
             scoreRef: currentState.score,
@@ -508,7 +508,7 @@
           console.log(`🔍 DEBUG checkAnswer - ${this.getCurrentKey()}:`, {
             activeNiveau: this.currentNiveau,
             activeMode: this.currentMode,
-            storageKey: `state_${this.getCurrentKey()}`,
+            storageKey: `konnektoren_state_${this.getCurrentKey()}`,
             wrongCountRef: currentState.wrongAnswers,
             correctCountRef: currentState.correctAnswers,
             scoreRef: currentState.score,
@@ -592,7 +592,7 @@
           console.log(`🔍 DEBUG showResult - ${this.getCurrentKey()}:`, {
             activeNiveau: this.currentNiveau,
             activeMode: this.currentMode,
-            storageKey: `state_${this.getCurrentKey()}`,
+            storageKey: `konnektoren_state_${this.getCurrentKey()}`,
             mistakesListRef: currentState.mistakes,
             mistakesLength: currentState.mistakes.length,
             stateMemoryRef: currentState
@@ -670,7 +670,7 @@
           console.log(`🔍 DEBUG showMistakesModal - ${this.getCurrentKey()}:`, {
             activeNiveau: this.currentNiveau,
             activeMode: this.currentMode,
-            storageKey: `state_${this.getCurrentKey()}`,
+            storageKey: `konnektoren_state_${this.getCurrentKey()}`,
             mistakesListRef: currentState.mistakes,
             mistakesLength: currentState.mistakes.length,
             stateMemoryRef: currentState
@@ -770,7 +770,7 @@
         resetProgress() {
           if (confirm("Are you sure you want to reset all progress for current combination?")) {
             const key = this.getCurrentKey();
-            localStorage.removeItem(`state_${key}`);
+            localStorage.removeItem(`konnektoren_state_${key}`);
             delete this.allStates[key];
             
             // Reset word progress data for current niveau to fix progressBar
@@ -817,7 +817,7 @@
           console.log(`🔍 DEBUG updateUI - ${this.getCurrentKey()}:`, {
             activeNiveau: this.currentNiveau,
             activeMode: this.currentMode,
-            storageKey: `state_${this.getCurrentKey()}`,
+            storageKey: `konnektoren_state_${this.getCurrentKey()}`,
             wrongCountRef: currentState.wrongAnswers,
             correctCountRef: currentState.correctAnswers,
             scoreRef: currentState.score,

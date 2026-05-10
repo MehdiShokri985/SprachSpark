@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>German Adjectives</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes fall {
+        from { transform: translateY(-100px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+      .falling-word { animation: fall 2s ease-out; }
+      .modal-overlay { backdrop-filter: blur(4px); }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-lg">
+      <div class="container mx-auto px-4 py-4">
+        <div class="flex justify-between items-center">
+          <h1 class="text-2xl font-bold text-indigo-800">German Adjektive</h1>
+          <div class="flex gap-4 text-sm">
+            <div class="bg-green-100 px-2 py-0.5 rounded-full text-xs">
+              <span class="text-green-800 font-semibold">Richtig: <span id="correctCount">0</span></span>
+            </div>
+            <div id="wrongCounter" class="bg-red-100 px-2 py-0.5 rounded-full text-xs cursor-pointer hover:bg-red-200 active:bg-red-300 transition-colors">
+              <span class="text-red-800 font-semibold">Falsch: <span id="wrongCount">0</span></span>
+            </div>
+            <div class="bg-blue-100 px-2 py-0.5 rounded-full text-xs">
+              <span class="text-blue-800 font-semibold">Punkte: <span id="score">0</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Progress Bar -->
+    <div class="container mx-auto px-4 py-4">
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-sm font-medium text-gray-700">Mastery-Fortschritt</span>
+          <span class="text-sm text-gray-600"><span id="masteryProgress">0</span>% Abschließen</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-3">
+          <div id="progressBar" class="bg-gradient-to-r from-indigo-500 to-purple-600 h-3 rounded-full transition-all duration-300" style="width: 0%"></div>
+        </div>
+        <div class="flex justify-between mt-3 text-xs text-gray-600">
+          <div class="flex items-center gap-4">
+            <div class="flex items-center gap-2">
+              <span>Niveau:</span>
+              <select id="levelSelect" class="bg-white border border-gray-300 rounded px-2 py-1 text-xs font-semibold">
+                <option value="A1">A1</option>
+                <option value="A2">A2</option>
+                <option value="B1">B1</option>
+                <option value="B2">B2</option>
+                <option value="C1">C1</option>
+                <option value="C2">C2</option>
+              </select>
+            </div>
+            <div class="flex items-center gap-2">
+              <span>Modus:</span>
+              <select id="modeSelect" class="bg-white border border-gray-300 rounded px-2 py-1 text-xs font-semibold">
+                <option value="normal">Normal</option>
+                <option value="hard">Hard</option>
+              </select>
+            </div>
+          </div>
+          <span id="levelStats" class="font-medium"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Area -->
+    <main class="container mx-auto px-4 py-8">
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-2xl shadow-xl p-6 mb-3 min-h-[150px] flex items-center justify-center">
+          <div id="wordDisplay" class="text-center">
+            <div id="fallingWord" class="falling-word text-4xl font-bold text-indigo-800 mb-4">
+              Klicke auf „Spiel starten“, um zu beginnen.
+            </div>
+            <div id="sentenceDisplay" class="text-lg text-gray-600 mt-4 hidden"></div>
+            <div id="questionType" class="text-sm text-gray-500 mt-2"></div>
+          </div>
+        </div>
+
+        <!-- Normal Mode Answers -->
+        <div id="answerOptions" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"></div>
+
+        <!-- Hard Mode Input -->
+        <div id="hardInputContainer" class="hidden mb-6">
+          <div class="max-w-md mx-auto">
+            <div class="flex gap-2 mb-1">
+              <button onclick="game.setAutoCompleteMode(1)" id="ac1" class="flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all">Nach 1. Buchstabe</button>
+              <button onclick="game.setAutoCompleteMode(2)" id="ac2" class="flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all">Nach 2. Buchstabe</button>
+              <button onclick="game.setAutoCompleteMode(0)" id="ac0" class="flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all">Nur vollständig</button>
+            </div>
+            
+            <div class="flex gap-3">
+              <input 
+                id="hardInput" 
+                type="text" 
+                class="flex-1 border-2 border-indigo-300 focus:border-indigo-600 rounded-xl px-5 py-3 text-xl focus:outline-none"
+                placeholder="Deutsches Adjektiv eingeben..."
+                autocomplete="off"
+              />
+              <button id="submitBtn" onclick="game.submitHardAnswer()" 
+                      class="hidden bg-indigo-600 hover:bg-indigo-700 text-white px-6 rounded-xl font-medium transition-all">
+                Prüfen
+              </button>
+            </div>
+            
+            <div id="autocompleteList" class="mt-2 bg-white rounded-xl shadow-lg border border-gray-200 max-h-60 overflow-auto hidden"></div>
+          </div>
+        </div>
+
+        <div class="flex justify-center gap-4">
+          <button id="startBtn" class="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-lg">
+            Spiel starten
+          </button>
+          <button id="nextBtn" class="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg hidden">
+            Nächste Frage
+          </button>
+          <button id="resetBtn" class="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-gray-600 hover:to-gray-700 transition-all transform hover:scale-105 shadow-lg">
+            Fortschritt zurücksetzen
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Mode Selection Modal -->
+    <div id="modeModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay flex items-center justify-center z-50">
+      <div class="bg-white rounded-3xl shadow-2xl p-8 max-w-md w-full mx-4">
+        <h2 class="text-2xl font-bold text-center mb-6 text-indigo-800">Wähle Spielmodus</h2>
+        <div class="space-y-4">
+          <button onclick="game.selectMode('normal')" class="w-full p-6 border-2 border-gray-200 hover:border-indigo-500 rounded-2xl text-left transition-all group">
+            <div class="font-semibold text-lg group-hover:text-indigo-600">Normal Mode</div>
+            <div class="text-gray-600 text-sm">4 Auswahlmöglichkeiten (Multiple Choice)</div>
+          </button>
+          <button onclick="game.selectMode('hard')" class="w-full p-6 border-2 border-gray-200 hover:border-indigo-500 rounded-2xl text-left transition-all group">
+            <div class="font-semibold text-lg group-hover:text-indigo-600">Hard Mode (Typing)</div>
+            <div class="text-gray-600 text-sm">Wort selbst eintippen + Autocomplete</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Result Modal -->
+    <div id="resultModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
+      <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all">
+        <div class="text-center">
+          <div id="modalIcon" class="text-6xl mb-4"></div>
+          <h2 id="modalTitle" class="text-2xl font-bold mb-2"></h2>
+          <p id="modalMessage" class="text-gray-600 mb-6"></p>
+          <div id="modalDetails" class="bg-gray-50 rounded-lg p-4 mb-6 text-left"></div>
+          <button id="modalCloseBtn" class="mt-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-indigo-600 hover:to-purple-700 transition-all">Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mistakes Modal -->
+    <div id="mistakesModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
+      <div class="bg-slate-50 rounded-3xl shadow-2xl p-5 max-w-sm mx-4 w-full max-h-[82vh] overflow-hidden flex flex-col border border-slate-200">
+        <h2 class="text-lg font-bold mb-4 text-amber-600 flex items-center gap-2">⚠️ Fehler</h2>
+        <div id="mistakesList" class="space-y-3 max-h-[58vh] overflow-auto pr-2 text-[14.5px] custom-scroll"></div>
+        <div class="mt-5 pt-4 border-t border-slate-200">
+          <button id="closeMistakesBtn" class="w-full bg-slate-700 hover:bg-slate-800 text-white py-3 rounded-2xl font-medium text-sm transition-all active:scale-95">Schließen</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Confidence Modal -->
+    <div id="confidenceModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
+      <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all">
+        <div class="text-center">
+          <div class="text-6xl mb-4">🤔</div>
+          <h2 class="text-2xl font-bold mb-6 text-gray-800">Are you sure about your answer?</h2>
+          <div class="flex gap-4 justify-center">
+            <button id="sureBtn" class="bg-green-500 hover:bg-green-600 text-white px-10 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">Sure</button>
+            <button id="maybeBtn" class="bg-orange-500 hover:bg-orange-600 text-white px-10 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">Maybe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/adjektive.js"></script>
+  </body>
+</html>

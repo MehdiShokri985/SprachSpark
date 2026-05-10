@@ -32,7 +32,7 @@
       <div class="container mx-auto px-4 py-4">
         <div class="flex justify-between items-center">
           <h1 class="text-2xl font-bold text-indigo-800">
-            German Connectors Learning
+            German Adjektive Lernen
           </h1>
           <div class="flex gap-4 text-sm">
             <div class="bg-green-100 px-2 py-0.5 rounded-full text-xs">
@@ -366,17 +366,10 @@
 
         async loadData() {
           try {
-<<<<<<< HEAD
             const savedWords = localStorage.getItem("words");
             const savedState = localStorage.getItem("gameState");
             const savedMistakes = localStorage.getItem(
               `mistakes_${this.gameState.currentLevel || "A1"}_${this.gameState.gameMode || "normal"}`,
-=======
-            const savedWords = localStorage.getItem("conn_words");
-            const savedState = localStorage.getItem("conn_gameState");
-            const savedMistakes = localStorage.getItem(
-              `conn_mistakes_${this.gameState.currentLevel || "A1"}_${this.gameState.gameMode || "normal"}`,
->>>>>>> 1ff8fbb1afe860cc931257c6219be01e377e936d
             );
 
             if (savedWords && savedState) {
@@ -439,7 +432,7 @@
               this.gameState.totalQuestions =
                 this.gameState.totalQuestions || 0;
             } else {
-              const wordsResponse = await fetch("c.json");
+              const wordsResponse = await fetch("p.json");
               this.words = await wordsResponse.json();
 
               this.words = this.words.map((word) => {
@@ -482,17 +475,10 @@
         }
 
         saveData() {
-<<<<<<< HEAD
           localStorage.setItem("gameState", JSON.stringify(this.gameState));
           localStorage.setItem("words", JSON.stringify(this.words));
           // Save both wrong count and mistakes list for current level+mode
           const storageKey = `mistakes_${this.gameState.currentLevel}_${this.gameState.gameMode}`;
-=======
-          localStorage.setItem("conn_gameState", JSON.stringify(this.gameState));
-          localStorage.setItem("conn_words", JSON.stringify(this.words));
-          // Save both wrong count and mistakes list for current level+mode
-          const storageKey = `conn_mistakes_${this.gameState.currentLevel}_${this.gameState.gameMode}`;
->>>>>>> 1ff8fbb1afe860cc931257c6219be01e377e936d
           const key = this.getCurrentLevelAndModeKey();
           const currentMistakes =
             this.gameState.mistakesByLevelAndMode[key] || [];
@@ -1273,11 +1259,7 @@
           document.getElementById("startBtn").classList.remove("hidden");
           document.getElementById("nextBtn").classList.add("hidden");
           document.getElementById("fallingWord").textContent =
-<<<<<<< HEAD
-            'Click "Start Game" to begin';
-=======
             'Klicke auf „ Spiel starten“, um zu beginnen.';
->>>>>>> 1ff8fbb1afe860cc931257c6219be01e377e936d
           document.getElementById("sentenceDisplay").classList.add("hidden");
           document.getElementById("answerOptions").innerHTML = "";
           document.getElementById("hardInputContainer").classList.add("hidden");
@@ -1456,11 +1438,7 @@
         }
 
         loadMistakesForCurrentLevelAndMode() {
-<<<<<<< HEAD
           const storageKey = `mistakes_${this.gameState.currentLevel}_${this.gameState.gameMode}`;
-=======
-          const storageKey = `conn_mistakes_${this.gameState.currentLevel}_${this.gameState.gameMode}`;
->>>>>>> 1ff8fbb1afe860cc931257c6219be01e377e936d
           const savedMistakes = localStorage.getItem(storageKey);
           const key = this.getCurrentLevelAndModeKey();
 
@@ -1563,11 +1541,7 @@
           levels.forEach((level) => {
             modes.forEach((mode) => {
               const key = `${level}_${mode}`;
-<<<<<<< HEAD
               const storageKey = `mistakes_${level}_${mode}`;
-=======
-              const storageKey = `conn_mistakes_${level}_${mode}`;
->>>>>>> 1ff8fbb1afe860cc931257c6219be01e377e936d
               const mistakes = localStorage.getItem(storageKey);
               const wrongCount =
                 this.gameState.wrongAnswersByLevelAndMode[key] || 0;

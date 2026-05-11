@@ -161,6 +161,7 @@
           this.currentMode = mode;
           document.getElementById("modeModal").classList.add("hidden");
           this.updateUI();
+          this.setAutoCompleteMode(1);
         }
 
         setAutoCompleteMode(mode) {
@@ -336,7 +337,7 @@
 
           // Display sure count
           questionType.textContent += ` (Sure: ${sureCount}/2)`;
-          this.setAutoCompleteMode(1);
+          // this.setAutoCompleteMode(1);
         }
 
         handleInput() {

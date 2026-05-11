@@ -161,6 +161,7 @@
           this.currentMode = mode;
           document.getElementById("modeModal").classList.add("hidden");
           this.updateUI();
+          this.setAutoCompleteMode(1);
         }
 
         setAutoCompleteMode(mode) {

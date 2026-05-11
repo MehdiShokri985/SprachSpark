@@ -161,8 +161,6 @@
     "dueIn": 0,
     "seenCount": 0
   },
-<<<<<<<< HEAD:newweb/json/p.json
-========
   {
     "id": "7",
     "level": "A1",
@@ -884,7 +882,6 @@
     "dueIn": 0,
     "seenCount": 0
   },
->>>>>>>> 1ff8fbb1afe860cc931257c6219be01e377e936d:pgame/adj/p.json
 
   {
     "id": "68",

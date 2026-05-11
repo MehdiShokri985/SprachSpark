@@ -1386,7 +1386,2247 @@
     "mistakeCount": 0,
     "dueIn": 0,
     "seenCount": 0
+  },
+  {
+    "id": "68",
+    "level": "A2",
+    "word": "nett",
+    "meaning": "مهربان",
+    "antonyms": ["böse"],
+    "synonyms": ["freundlich", "lieb"],
+    "sentences": [
+      { "de": "Sie ist eine nette Frau.", "fa": "او یک زن مهربان است." },
+      { "de": "Das war sehr nett von dir.", "fa": "این خیلی مهربانانه از طرف تو بود." },
+      { "de": "Er ist netter als sein Bruder.", "fa": "او مهربان‌تر از برادرش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "69",
+    "level": "A2",
+    "word": "böse",
+    "meaning": "بد / عصبانی",
+    "antonyms": ["nett"],
+    "synonyms": ["gemein", "ärgerlich"],
+    "sentences": [
+      { "de": "Der Hund ist böse.", "fa": "سگ بد است." },
+      { "de": "Warum bist du böse auf mich?", "fa": "چرا روی من عصبانی هستی؟" },
+      { "de": "Das ist die böseste Geschichte.", "fa": "این بدترین داستان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "70",
+    "level": "A2",
+    "word": "fröhlich",
+    "meaning": "شاد",
+    "antonyms": ["traurig"],
+    "synonyms": ["glücklich", "heiter"],
+    "sentences": [
+      { "de": "Die Kinder sind fröhlich.", "fa": "کودکان شاد هستند." },
+      { "de": "Sie singt ein fröhliches Lied.", "fa": "او یک آهنگ شاد می‌خواند." },
+      { "de": "Heute bin ich fröhlicher als gestern.", "fa": "امروز شادتر از دیروز هستم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "71",
+    "level": "A2",
+    "word": "lustig",
+    "meaning": "بامزه / خنده‌دار",
+    "antonyms": ["langweilig"],
+    "synonyms": ["komisch", "spaßig"],
+    "sentences": [
+      { "de": "Der Film war sehr lustig.", "fa": "فیلم خیلی بامزه بود." },
+      { "de": "Er erzählt lustige Geschichten.", "fa": "او داستان‌های بامزه تعریف می‌کند." },
+      { "de": "Das ist die lustigste Party.", "fa": "این بامزه‌ترین مهمانی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "72",
+    "level": "A2",
+    "word": "ernst",
+    "meaning": "جدی",
+    "antonyms": ["lustig"],
+    "synonyms": ["streng", "bedeutend"],
+    "sentences": [
+      { "de": "Das ist ein ernstes Problem.", "fa": "این یک مشکل جدی است." },
+      { "de": "Er schaut immer ernst aus.", "fa": "او همیشه جدی به نظر می‌رسد." },
+      { "de": "Das ist ernster als du denkst.", "fa": "این جدی‌تر از آن است که فکر می‌کنی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "73",
+    "level": "A2",
+    "word": "pünktlich",
+    "meaning": "دقیق / سر وقت",
+    "antonyms": ["unpünktlich"],
+    "synonyms": ["rechtzeitig"],
+    "sentences": [
+      { "de": "Der Zug ist pünktlich.", "fa": "قطار سر وقت است." },
+      { "de": "Sei bitte pünktlich.", "fa": "لطفاً سر وقت باش." },
+      { "de": "Sie ist die pünktlichste Schülerin.", "fa": "او دقیق‌ترین دانش‌آموز است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "74",
+    "level": "A2",
+    "word": "unpünktlich",
+    "meaning": "نامنظم / دیر",
+    "antonyms": ["pünktlich"],
+    "synonyms": ["spät", "unzuverlässig"],
+    "sentences": [
+      { "de": "Er ist immer unpünktlich.", "fa": "او همیشه دیر می‌آید." },
+      { "de": "Der Bus war unpünktlich.", "fa": "اتوبوس نامنظم بود." },
+      { "de": "Das ist unpünktlicher als letzte Woche.", "fa": "این نامنظم‌تر از هفته گذشته است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "75",
+    "level": "A2",
+    "word": "fleißig",
+    "meaning": "زحمتکش /勤奋",
+    "antonyms": ["faul"],
+    "synonyms": ["arbeitsam"],
+    "sentences": [
+      { "de": "Sie ist eine fleißige Studentin.", "fa": "او دانشجوی زحمتکشی است." },
+      { "de": "Er arbeitet sehr fleißig.", "fa": "او خیلی勤奋 کار می‌کند." },
+      { "de": "Das ist die fleißigste Klasse.", "fa": "این勤奋‌ترین کلاس است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "76",
+    "level": "A2",
+    "word": "faul",
+    "meaning": "تنبل",
+    "antonyms": ["fleißig"],
+    "synonyms": ["träge"],
+    "sentences": [
+      { "de": "Der Junge ist faul.", "fa": "پسر تنبل است." },
+      { "de": "Ich war heute zu faul.", "fa": "امروز خیلی تنبل بودم." },
+      { "de": "Das ist der faulste Hund.", "fa": "این تنبل‌ترین سگ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "77",
+    "level": "A2",
+    "word": "reich",
+    "meaning": "ثروتمند",
+    "antonyms": ["arm"],
+    "synonyms": ["wohlhabend"],
+    "sentences": [
+      { "de": "Er ist ein reicher Mann.", "fa": "او مرد ثروتمندی است." },
+      { "de": "Die Familie ist sehr reich.", "fa": "خانواده خیلی ثروتمند است." },
+      { "de": "Das ist das reichste Land.", "fa": "این ثروتمندترین کشور است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "78",
+    "level": "A2",
+    "word": "arm",
+    "meaning": "فقیر",
+    "antonyms": ["reich"],
+    "synonyms": ["bedürftig"],
+    "sentences": [
+      { "de": "Die Familie ist arm.", "fa": "خانواده فقیر است." },
+      { "de": "Er hilft armen Leuten.", "fa": "او به افراد فقیر کمک می‌کند." },
+      { "de": "Das ist das ärmste Dorf.", "fa": "این فقیرترین روستا است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "79",
+    "level": "A2",
+    "word": "klug",
+    "meaning": "باهوش",
+    "antonyms": ["dumm"],
+    "synonyms": ["intelligent", "clever"],
+    "sentences": [
+      { "de": "Das Mädchen ist klug.", "fa": "دختر باهوش است." },
+      { "de": "Er gibt kluge Antworten.", "fa": "او پاسخ‌های باهوشانه می‌دهد." },
+      { "de": "Sie ist klüger als ihr Bruder.", "fa": "او باهوش‌تر از برادرش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "80",
+    "level": "A2",
+    "word": "dumm",
+    "meaning": "احمق",
+    "antonyms": ["klug"],
+    "synonyms": ["blöd"],
+    "sentences": [
+      { "de": "Das war eine dumme Idee.", "fa": "این ایده احمقانه‌ای بود." },
+      { "de": "Warum bist du so dumm?", "fa": "چرا اینقدر احمقی؟" },
+      { "de": "Das ist die dümmste Frage.", "fa": "این احمقانه‌ترین سوال است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "81",
+    "level": "A2",
+    "word": "ehrlich",
+    "meaning": "صادق",
+    "antonyms": ["unehrlich"],
+    "synonyms": ["wahrhaftig"],
+    "sentences": [
+      { "de": "Er ist ein ehrlicher Mensch.", "fa": "او انسان صادقی است." },
+      { "de": "Sag mir die ehrliche Wahrheit.", "fa": "حقیقت صادقانه را به من بگو." },
+      { "de": "Sie ist ehrlicher als die anderen.", "fa": "او صادق‌تر از بقیه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "82",
+    "level": "A2",
+    "word": "unehrlich",
+    "meaning": "غیرصادق",
+    "antonyms": ["ehrlich"],
+    "synonyms": ["lügnerisch"],
+    "sentences": [
+      { "de": "Das war unehrlich.", "fa": "این غیرصادقانه بود." },
+      { "de": "Er ist manchmal unehrlich.", "fa": "او گاهی غیرصادق است." },
+      { "de": "Das ist unehrlicher als vorher.", "fa": "این غیرصادقانه‌تر از قبل است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "83",
+    "level": "A2",
+    "word": "höflich",
+    "meaning": "مودب",
+    "antonyms": ["unhöflich"],
+    "synonyms": ["freundlich"],
+    "sentences": [
+      { "de": "Der Kellner ist höflich.", "fa": "گارسون مودب است." },
+      { "de": "Bitte sei höflich zu ihr.", "fa": "لطفاً با او مودب باش." },
+      { "de": "Das war die höflichste Antwort.", "fa": "این مودبانه‌ترین پاسخ بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "84",
+    "level": "A2",
+    "word": "unhöflich",
+    "meaning": "بی‌ادب",
+    "antonyms": ["höflich"],
+    "synonyms": ["grob"],
+    "sentences": [
+      { "de": "Er war sehr unhöflich.", "fa": "او خیلی بی‌ادب بود." },
+      { "de": "Das ist unhöflich.", "fa": "این بی‌ادبانه است." },
+      { "de": "Das war unhöflicher als gestern.", "fa": "این بی‌ادبانه‌تر از دیروز بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "85",
+    "level": "A2",
+    "word": "bequem",
+    "meaning": "راحت",
+    "antonyms": ["unbequem"],
+    "synonyms": ["komfortabel"],
+    "sentences": [
+      { "de": "Der Stuhl ist bequem.", "fa": "صندلی راحت است." },
+      { "de": "Ich trage bequeme Schuhe.", "fa": "من کفش راحت می‌پوشم." },
+      { "de": "Das ist das bequemste Bett.", "fa": "این راحت‌ترین تخت است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "86",
+    "level": "A2",
+    "word": "unbequem",
+    "meaning": "ناراحت",
+    "antonyms": ["bequem"],
+    "synonyms": ["unangenehm"],
+    "sentences": [
+      { "de": "Der Sitz ist unbequem.", "fa": "صندلی ناراحت است." },
+      { "de": "Die Hose ist unbequem.", "fa": "شلوار ناراحت است." },
+      { "de": "Das ist unbequemer als der andere.", "fa": "این ناراحت‌تر از دیگری است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "87",
+    "level": "A2",
+    "word": "gemütlich",
+    "meaning": "دنج / راحت",
+    "antonyms": ["ungemütlich"],
+    "synonyms": ["behaglich"],
+    "sentences": [
+      { "de": "Das Zimmer ist gemütlich.", "fa": "اتاق دنج است." },
+      { "de": "Wir haben einen gemütlichen Abend.", "fa": "ما یک عصر دنج داشتیم." },
+      { "de": "Das ist die gemütlichste Ecke.", "fa": "این دنج‌ترین گوشه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "88",
+    "level": "A2",
+    "word": "ungemütlich",
+    "meaning": "غیر دنج / ناراحت",
+    "antonyms": ["gemütlich"],
+    "synonyms": ["unbehaglich"],
+    "sentences": [
+      { "de": "Das Wetter ist ungemütlich.", "fa": "هوا غیر دنج است." },
+      { "de": "Der Raum fühlt sich ungemütlich an.", "fa": "اتاق احساس ناراحتی می‌دهد." },
+      { "de": "Das ist ungemütlicher als draußen.", "fa": "این ناراحت‌تر از بیرون است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "89",
+    "level": "A2",
+    "word": "bekannt",
+    "meaning": "معروف / شناخته شده",
+    "antonyms": ["unbekannt"],
+    "synonyms": ["berühmt"],
+    "sentences": [
+      { "de": "Das ist ein bekannter Sänger.", "fa": "او خواننده معروفی است." },
+      { "de": "Die Stadt ist bekannt für ihren Wein.", "fa": "شهر به خاطر شرابش معروف است." },
+      { "de": "Er ist bekannter als sein Kollege.", "fa": "او معروف‌تر از همکارش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  
+  {
+    "id": "90",
+    "level": "A2",
+    "word": "unbekannt",
+    "meaning": "ناشناخته",
+    "antonyms": ["bekannt"],
+    "synonyms": ["fremd"],
+    "sentences": [
+      { "de": "Die Stadt ist mir unbekannt.", "fa": "این شهر برای من ناشناخته است." },
+      { "de": "Das ist ein unbekannter Autor.", "fa": "این نویسنده ناشناخته‌ای است." },
+      { "de": "Der Weg war unbekannter als gedacht.", "fa": "راه ناشناخته‌تر از آنچه فکر می‌کردم بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "91",
+    "level": "A2",
+    "word": "lebendig",
+    "meaning": "زنده",
+    "antonyms": ["tot"],
+    "synonyms": ["lebhaft"],
+    "sentences": [
+      { "de": "Die Tiere sind lebendig.", "fa": "حیوانات زنده هستند." },
+      { "de": "Sie erzählt lebendige Geschichten.", "fa": "او داستان‌های زنده‌ای تعریف می‌کند." },
+      { "de": "Die Stadt ist lebendiger als das Dorf.", "fa": "شهر زنده‌تر از روستا است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "92",
+    "level": "A2",
+    "word": "tot",
+    "meaning": "مرده",
+    "antonyms": ["lebendig"],
+    "synonyms": ["verstorben"],
+    "sentences": [
+      { "de": "Der Vogel ist tot.", "fa": "پرنده مرده است." },
+      { "de": "Die Batterie ist tot.", "fa": "باتری مرده (تمام شده) است." },
+      { "de": "Das ist die toteste Straße der Stadt.", "fa": "این مرده‌ترین خیابان شهر است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "93",
+    "level": "A2",
+    "word": "lecker",
+    "meaning": "خوشمزه",
+    "antonyms": ["eklig"],
+    "synonyms": ["köstlich"],
+    "sentences": [
+      { "de": "Der Kuchen ist lecker.", "fa": "کیک خوشمزه است." },
+      { "de": "Das Essen schmeckt lecker.", "fa": "غذا خوشمزه به نظر می‌رسد." },
+      { "de": "Das ist das leckerste Eis hier.", "fa": "این خوشمزه‌ترین بستنی اینجا است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "94",
+    "level": "A2",
+    "word": "bitter",
+    "meaning": "تلخ",
+    "antonyms": ["süß"],
+    "synonyms": ["herb"],
+    "sentences": [
+      { "de": "Die Schokolade ist bitter.", "fa": "شکلات تلخ است." },
+      { "de": "Das Medikament schmeckt bitter.", "fa": "دارو تلخ مزه است." },
+      { "de": "Das ist der bitterste Kaffee, den ich kenne.", "fa": "این تلخ‌ترین قهوه‌ای است که می‌شناسم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "95",
+    "level": "A2",
+    "word": "süß",
+    "meaning": "شیرین",
+    "antonyms": ["sauer", "bitter"],
+    "synonyms": ["zuckrig"],
+    "sentences": [
+      { "de": "Die Früchte sind süß.", "fa": "میوه‌ها شیرین هستند." },
+      { "de": "Sie hat ein süßes Lächeln.", "fa": "او لبخند شیرینی دارد." },
+      { "de": "Das ist das süßeste Geschenk.", "fa": "این شیرین‌ترین هدیه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "96",
+    "level": "A2",
+    "word": "sauer",
+    "meaning": "ترش",
+    "antonyms": ["süß"],
+    "synonyms": ["säuerlich"],
+    "sentences": [
+      { "de": "Die Zitrone ist sauer.", "fa": "لیمو ترش است." },
+      { "de": "Das Brot schmeckt sauer.", "fa": "نان ترش مزه است." },
+      { "de": "Das ist der sauerste Apfel im Korb.", "fa": "این ترش‌ترین سیب سبد است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "97",
+    "level": "A2",
+    "word": "frisch",
+    "meaning": "تازه",
+    "antonyms": ["alt"],
+    "synonyms": ["neu"],
+    "sentences": [
+      { "de": "Das Brot ist frisch.", "fa": "نان تازه است." },
+      { "de": "Ich brauche frische Luft.", "fa": "به هوای تازه نیاز دارم." },
+      { "de": "Die Blumen sind frischer als gestern.", "fa": "گل‌ها تازه‌تر از دیروز هستند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "98",
+    "level": "A2",
+    "word": "altmodisch",
+    "meaning": "قدیمی‌مدل / قدیمی",
+    "antonyms": ["modern"],
+    "synonyms": ["veraltet"],
+    "sentences": [
+      { "de": "Das Kleid ist altmodisch.", "fa": "لباس قدیمی‌مدل است." },
+      { "de": "Seine Ideen sind altmodisch.", "fa": "ایده‌های او قدیمی هستند." },
+      { "de": "Das ist die altmodischste Lampe.", "fa": "این قدیمی‌ترین لامپ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "99",
+    "level": "A2",
+    "word": "modern",
+    "meaning": "مدرن",
+    "antonyms": ["altmodisch"],
+    "synonyms": ["zeitgemäß"],
+    "sentences": [
+      { "de": "Das Haus ist modern.", "fa": "خانه مدرن است." },
+      { "de": "Sie trägt moderne Kleidung.", "fa": "او لباس مدرن می‌پوشد." },
+      { "de": "Das ist das modernste Auto hier.", "fa": "این مدرن‌ترین ماشین اینجا است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "100",
+    "level": "A2",
+    "word": "sportlich",
+    "meaning": "ورزشی",
+    "antonyms": ["unsportlich"],
+    "synonyms": ["athletisch"],
+    "sentences": [
+      { "de": "Er ist sehr sportlich.", "fa": "او خیلی ورزشی است." },
+      { "de": "Sie trägt sportliche Schuhe.", "fa": "او کفش‌های ورزشی می‌پوشد." },
+      { "de": "Das ist die sportlichste Person in der Gruppe.", "fa": "این ورزشی‌ترین فرد در گروه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "101",
+    "level": "A2",
+    "word": "unsportlich",
+    "meaning": "غیرورزشی",
+    "antonyms": ["sportlich"],
+    "synonyms": ["unsportlich"],
+    "sentences": [
+      { "de": "Ich bin eher unsportlich.", "fa": "من بیشتر غیرورزشی هستم." },
+      { "de": "Das Auto sieht unsportlich aus.", "fa": "ماشین غیرورزشی به نظر می‌رسد." },
+      { "de": "Das war die unsportlichste Aktion.", "fa": "این غیرورزشی‌ترین عمل بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "102",
+    "level": "A2",
+    "word": "optimistisch",
+    "meaning": "خوش‌بین",
+    "antonyms": ["pessimistisch"],
+    "synonyms": ["positiv"],
+    "sentences": [
+      { "de": "Sie ist immer optimistisch.", "fa": "او همیشه خوش‌بین است." },
+      { "de": "Ich bin optimistisch für die Zukunft.", "fa": "برای آینده خوش‌بین هستم." },
+      { "de": "Das ist die optimistischste Antwort.", "fa": "این خوش‌بینانه‌ترین پاسخ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "103",
+    "level": "A2",
+    "word": "pessimistisch",
+    "meaning": "بدبین",
+    "antonyms": ["optimistisch"],
+    "synonyms": ["negativ"],
+    "sentences": [
+      { "de": "Er ist sehr pessimistisch.", "fa": "او خیلی بدبین است." },
+      { "de": "Die Stimmung ist pessimistisch.", "fa": "جو بدبینانه است." },
+      { "de": "Das ist die pessimistischste Meinung.", "fa": "این بدبینانه‌ترین نظر است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "104",
+    "level": "A2",
+    "word": "neugierig",
+    "meaning": "کنجکاو",
+    "antonyms": ["gleichgültig"],
+    "synonyms": ["wissensdurstig"],
+    "sentences": [
+      { "de": "Das Kind ist neugierig.", "fa": "کودک کنجکاو است." },
+      { "de": "Ich bin neugierig auf die Antwort.", "fa": "کنجکاو جواب هستم." },
+      { "de": "Sie ist neugieriger als ihr Bruder.", "fa": "او کنجکاوتر از برادرش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "105",
+    "level": "A2",
+    "word": "gleichgültig",
+    "meaning": "بی‌تفاوت",
+    "antonyms": ["neugierig", "interessiert"],
+    "synonyms": ["egal"],
+    "sentences": [
+      { "de": "Es ist mir gleichgültig.", "fa": "برای من بی‌تفاوت است." },
+      { "de": "Er bleibt gleichgültig.", "fa": "او بی‌تفاوت می‌ماند." },
+      { "de": "Das ist die gleichgültigste Reaktion.", "fa": "این بی‌تفاوت‌ترین واکنش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "106",
+    "level": "A2",
+    "word": "geduldig",
+    "meaning": "صبور",
+    "antonyms": ["ungeduldig"],
+    "synonyms": ["ruhig"],
+    "sentences": [
+      { "de": "Die Lehrerin ist geduldig.", "fa": "معلم صبور است." },
+      { "de": "Warte geduldig.", "fa": "صبورانه صبر کن." },
+      { "de": "Er ist geduldiger als ich.", "fa": "او صبورتر از من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "107",
+    "level": "A2",
+    "word": "ungeduldig",
+    "meaning": "بی‌تاب / нетерпеливый",
+    "antonyms": ["geduldig"],
+    "synonyms": ["nervös"],
+    "sentences": [
+      { "de": "Der Junge ist ungeduldig.", "fa": "پسر بی‌تاب است." },
+      { "de": "Sie wartet ungeduldig.", "fa": "او بی‌تابانه منتظر است." },
+      { "de": "Das ist die ungeduldigste Person.", "fa": "این بی‌تاب‌ترین فرد است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "108",
+    "level": "A2",
+    "word": "mutig",
+    "meaning": "شجاع",
+    "antonyms": ["ängstlich"],
+    "synonyms": ["tapfer"],
+    "sentences": [
+      { "de": "Der Ritter ist mutig.", "fa": "شوالیه شجاع است." },
+      { "de": "Sie hat mutig geantwortet.", "fa": "او شجاعانه جواب داد." },
+      { "de": "Das war die mutigste Entscheidung.", "fa": "این شجاعانه‌ترین تصمیم بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "109",
+    "level": "A2",
+    "word": "ängstlich",
+    "meaning": "ترسو، مضطرب",
+    "antonyms": ["mutig", "entspannt"],
+    "synonyms": ["ängstvoll", "nervös"],
+    "sentences": [
+      { "de": "Das Kind ist sehr ängstlich.", "fa": "این کودک خیلی ترسو است." },
+      { "de": "Sie ist ängstlicher als ihr Bruder.", "fa": "او مضطرب‌تر از برادرش است." },
+      { "de": "Das ist die ängstlichste Katze im Haus.", "fa": "این ترسوترین گربه در خانه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "110",
+    "level": "A2",
+    "word": "vorsichtig",
+    "meaning": "محتاط، با احتیاط",
+    "antonyms": ["unvorsichtig"],
+    "synonyms": ["behutsam"],
+    "sentences": [
+      { "de": "Fahre vorsichtig!", "fa": "با احتیاط رانندگی کن!" },
+      { "de": "Er ist vorsichtiger als früher.", "fa": "او محتاط‌تر از قبل است." },
+      { "de": "Das ist die vorsichtigste Methode.", "fa": "این محتاط‌ترین روش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "111",
+    "level": "A2",
+    "word": "unvorsichtig",
+    "meaning": "بی‌احتیاط",
+    "antonyms": ["vorsichtig"],
+    "synonyms": ["leichtsinnig"],
+    "sentences": [
+      { "de": "Das war unvorsichtig.", "fa": "این بی‌احتیاط بود." },
+      { "de": "Sie handelt unvorsichtiger als er.", "fa": "او بی‌احتیاط‌تر از او عمل می‌کند." },
+      { "de": "Das ist die unvorsichtigste Entscheidung.", "fa": "این بی‌احتیاط‌ترین تصمیم است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "112",
+    "level": "A2",
+    "word": "ordentlich",
+    "meaning": "مرتب، منظم",
+    "antonyms": ["unordentlich"],
+    "synonyms": ["sauber", "gepflegt"],
+    "sentences": [
+      { "de": "Das Zimmer ist ordentlich.", "fa": "اتاق مرتب است." },
+      { "de": "Sie ist ordentlicher als ich.", "fa": "او منظم‌تر از من است." },
+      { "de": "Das ist die ordentlichste Wohnung.", "fa": "این مرتب‌ترین آپارتمان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "113",
+    "level": "A2",
+    "word": "unordentlich",
+    "meaning": "نامرتب، به‌هم‌ریخته",
+    "antonyms": ["ordentlich"],
+    "synonyms": ["chaotisch"],
+    "sentences": [
+      { "de": "Sein Schreibtisch ist unordentlich.", "fa": "میزش نامرتب است." },
+      { "de": "Es wird immer unordentlicher.", "fa": "همیشه نامرتب‌تر می‌شود." },
+      { "de": "Das ist die unordentlichste Ecke.", "fa": "این به‌هم‌ریخته‌ترین گوشه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "114",
+    "level": "A2",
+    "word": "zufrieden",
+    "meaning": "راضی، خشنود",
+    "antonyms": ["unzufrieden"],
+    "synonyms": ["glücklich"],
+    "sentences": [
+      { "de": "Ich bin zufrieden.", "fa": "من راضی‌ام." },
+      { "de": "Sie ist zufriedener mit dem Ergebnis.", "fa": "او از نتیجه راضی‌تر است." },
+      { "de": "Das ist die zufriedenste Person hier.", "fa": "این راضی‌ترین فرد اینجا است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "115",
+    "level": "A2",
+    "word": "unzufrieden",
+    "meaning": "ناراضی",
+    "antonyms": ["zufrieden"],
+    "synonyms": ["unhappy"],
+    "sentences": [
+      { "de": "Der Kunde ist unzufrieden.", "fa": "مشتری ناراضی است." },
+      { "de": "Er ist unzufriedener als gestern.", "fa": "او ناراضی‌تر از دیروز است." },
+      { "de": "Das ist die unzufriedenste Gruppe.", "fa": "این ناراضی‌ترین گروه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "116",
+    "level": "A2",
+    "word": "entspannt",
+    "meaning": "آرام، ریلکس",
+    "antonyms": ["gestresst", "angespannt"],
+    "synonyms": ["ruhig"],
+    "sentences": [
+      { "de": "Ich fühle mich entspannt.", "fa": "احساس آرامش می‌کنم." },
+      { "de": "Sie ist entspannter am Wochenende.", "fa": "او آخر هفته آرام‌تر است." },
+      { "de": "Das ist die entspannteste Atmosphäre.", "fa": "این آرام‌ترین فضا است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "117",
+    "level": "A2",
+    "word": "gestresst",
+    "meaning": "استرس‌زده، مضطرب",
+    "antonyms": ["entspannt"],
+    "synonyms": ["angespannt"],
+    "sentences": [
+      { "de": "Er ist gestresst von der Arbeit.", "fa": "او از کار استرس‌زده است." },
+      { "de": "Sie ist gestresster als ich.", "fa": "او استرس‌زده‌تر از من است." },
+      { "de": "Das ist der gestressteste Tag.", "fa": "این استرس‌زده‌ترین روز است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "118",
+    "level": "A2",
+    "word": "bunt",
+    "meaning": "رنگی، پررنگ",
+    "antonyms": ["einfarbig"],
+    "synonyms": ["farbenfroh"],
+    "sentences": [
+      { "de": "Die Blumen sind bunt.", "fa": "گل‌ها رنگی هستند." },
+      { "de": "Das Bild ist bunter als das andere.", "fa": "این تصویر رنگی‌تر از آن یکی است." },
+      { "de": "Das ist das bunteste T-Shirt.", "fa": "این رنگارنگ‌ترین تی‌شرت است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "119",
+    "level": "A2",
+    "word": "schwarz",
+    "meaning": "سیاه",
+    "antonyms": ["weiß"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Auto ist schwarz.", "fa": "ماشین سیاه است." },
+      { "de": "Der Himmel wird schwarz.", "fa": "آسمان سیاه می‌شود." },
+      { "de": "Das ist der schwärzeste Stoff.", "fa": "این سیاه‌ترین پارچه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "120",
+    "level": "A2",
+    "word": "weiß",
+    "meaning": "سفید",
+    "antonyms": ["schwarz"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Hemd ist weiß.", "fa": "پیراهن سفید است." },
+      { "de": "Die Wand ist weißer geworden.", "fa": "دیوار سفیدتر شده است." },
+      { "de": "Das ist das weißeste Papier.", "fa": "این سفیدترین کاغذ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "121",
+    "level": "A2",
+    "word": "rund",
+    "meaning": "گرد",
+    "antonyms": ["eckig"],
+    "synonyms": ["kreisförmig"],
+    "sentences": [
+      { "de": "Der Ball ist rund.", "fa": "توپ گرد است." },
+      { "de": "Der Tisch ist runder als der andere.", "fa": "این میز گردتر از آن یکی است." },
+      { "de": "Das ist der rundeste Kreis.", "fa": "این گردترین دایره است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "122",
+    "level": "A2",
+    "word": "eckig",
+    "meaning": "گوشه‌دار، مربعی",
+    "antonyms": ["rund"],
+    "synonyms": ["kantig"],
+    "sentences": [
+      { "de": "Der Tisch ist eckig.", "fa": "میز گوشه‌دار است." },
+      { "de": "Das Gebäude ist eckiger.", "fa": "این ساختمان گوشه‌دارتر است." },
+      { "de": "Das ist das eckigste Regal.", "fa": "این گوشه‌دارترین قفسه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "123",
+    "level": "A2",
+    "word": "breit",
+    "meaning": "پهن، عریض",
+    "antonyms": ["eng", "schmal"],
+    "synonyms": ["weit"],
+    "sentences": [
+      { "de": "Die Straße ist breit.", "fa": "خیابان پهن است." },
+      { "de": "Der Fluss wird breiter.", "fa": "رودخانه پهن‌تر می‌شود." },
+      { "de": "Das ist das breiteste Bett.", "fa": "این پهن‌ترین تخت است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "124",
+    "level": "A2",
+    "word": "eng",
+    "meaning": "تنگ، باریک",
+    "antonyms": ["breit"],
+    "synonyms": ["schmal"],
+    "sentences": [
+      { "de": "Die Hose ist eng.", "fa": "شلوار تنگ است." },
+      { "de": "Der Weg ist enger geworden.", "fa": "راه باریک‌تر شده است." },
+      { "de": "Das ist die engste Straße.", "fa": "این تنگ‌ترین خیابان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "125",
+    "level": "A2",
+    "word": "flach",
+    "meaning": "تخت، صاف",
+    "antonyms": ["tief"],
+    "synonyms": ["eben"],
+    "sentences": [
+      { "de": "Das Land ist flach.", "fa": "سرزمین تخت است." },
+      { "de": "Der Teller ist flacher.", "fa": "بشقاب تخت‌تر است." },
+      { "de": "Das ist das flachste Dach.", "fa": "این تخت‌ترین سقف است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "126",
+    "level": "A2",
+    "word": "tief",
+    "meaning": "عمیق",
+    "antonyms": ["flach", "flach"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Der See ist tief.", "fa": "دریاچه عمیق است." },
+      { "de": "Der Teller ist tiefer als der andere.", "fa": "این بشقاب عمیق‌تر از آن یکی است." },
+      { "de": "Das ist das tiefste Loch.", "fa": "این عمیق‌ترین چاله است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "127",
+    "level": "A2",
+    "word": "hoch",
+    "meaning": "بلند",
+    "antonyms": ["niedrig"],
+    "synonyms": ["groß"],
+    "sentences": [
+      { "de": "Der Berg ist hoch.", "fa": "کوه بلند است." },
+      { "de": "Das Gebäude ist höher als das andere.", "fa": "این ساختمان بلندتر از آن یکی است." },
+      { "de": "Das ist das höchste Haus in der Stadt.", "fa": "این بلندترین خانه در شهر است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "128",
+    "level": "A2",
+    "word": "niedrig",
+    "meaning": "پایین، کوتاه",
+    "antonyms": ["hoch"],
+    "synonyms": ["flach"],
+    "sentences": [
+      { "de": "Der Tisch ist niedrig.", "fa": "میز پایین است." },
+      { "de": "Das Regal ist niedriger als das andere.", "fa": "قفسه پایین‌تر از دیگری است." },
+      { "de": "Das ist das niedrigste Gebäude in der Straße.", "fa": "این پایین‌ترین ساختمان در خیابان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "129",
+    "level": "A2",
+    "word": "gerade",
+    "meaning": "راست، مستقیم",
+    "antonyms": ["krumm"],
+    "synonyms": ["geradlinig"],
+    "sentences": [
+      { "de": "Die Straße ist gerade.", "fa": "خیابان مستقیم است." },
+      { "de": "Der Stock ist gerader als der andere.", "fa": "چوب مستقیم‌تر از دیگری است." },
+      { "de": "Das ist die geradeste Linie.", "fa": "این مستقیم‌ترین خط است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "130",
+    "level": "A2",
+    "word": "krumm",
+    "meaning": "کج، خمیده",
+    "antonyms": ["gerade"],
+    "synonyms": ["gebogen"],
+    "sentences": [
+      { "de": "Der Ast ist krumm.", "fa": "شاخه کج است." },
+      { "de": "Der Weg ist krummer als erwartet.", "fa": "مسیر کج‌تر از انتظار است." },
+      { "de": "Das ist der krummste Nagel.", "fa": "این کج‌ترین میخ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "131",
+    "level": "A2",
+    "word": "glatt",
+    "meaning": "صاف، гладкий",
+    "antonyms": ["rau"],
+    "synonyms": ["eben"],
+    "sentences": [
+      { "de": "Die Oberfläche ist glatt.", "fa": "سطح صاف است." },
+      { "de": "Das Papier ist glatter als das andere.", "fa": "کاغذ صاف‌تر از دیگری است." },
+      { "de": "Das ist die glatteste Straße.", "fa": "این صاف‌ترین خیابان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "132",
+    "level": "A2",
+    "word": "rau",
+    "meaning": "زبر، خشن",
+    "antonyms": ["glatt"],
+    "synonyms": ["uneben"],
+    "sentences": [
+      { "de": "Die Wand ist rau.", "fa": "دیوار زبر است." },
+      { "de": "Das Holz ist rauer als erwartet.", "fa": "چوب خشن‌تر از انتظار است." },
+      { "de": "Das ist die raueste Oberfläche.", "fa": "این خشن‌ترین سطح است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "133",
+    "level": "A2",
+    "word": "spitz",
+    "meaning": "تیز، نوک‌تیز",
+    "antonyms": ["stumpf"],
+    "synonyms": ["scharf"],
+    "sentences": [
+      { "de": "Der Bleistift ist spitz.", "fa": "مداد تیز است." },
+      { "de": "Das Messer ist spitzer als das alte.", "fa": "چاقو تیزتر از قدیمی است." },
+      { "de": "Das ist das spitzeste Ende.", "fa": "این تیزترین سر است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "134",
+    "level": "A2",
+    "word": "stumpf",
+    "meaning": "کند، туп",
+    "antonyms": ["spitz", "scharf"],
+    "synonyms": ["abgerundet"],
+    "sentences": [
+      { "de": "Das Messer ist stumpf.", "fa": "چاقو کند است." },
+      { "de": "Die Schere ist stumpfer als die andere.", "fa": "قیچی کندتر از دیگری است." },
+      { "de": "Das ist das stumpfste Werkzeug.", "fa": "این کندترین ابزار است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "135",
+    "level": "A2",
+    "word": "fest",
+    "meaning": "سفت، محکم",
+    "antonyms": ["locker"],
+    "synonyms": ["hart"],
+    "sentences": [
+      { "de": "Der Knoten ist fest.", "fa": "گره محکم است." },
+      { "de": "Der Boden ist fester als der Sand.", "fa": "زمین سفت‌تر از شن است." },
+      { "de": "Das ist die festeste Schraube.", "fa": "این محکم‌ترین پیچ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "136",
+    "level": "A2",
+    "word": "locker",
+    "meaning": "شل، loose",
+    "antonyms": ["fest"],
+    "synonyms": ["lose"],
+    "sentences": [
+      { "de": "Die Schraube ist locker.", "fa": "پیچ شل است." },
+      { "de": "Das Seil ist lockerer als gestern.", "fa": "طناب شل‌تر از دیروز است." },
+      { "de": "Das ist die lockerste Verbindung.", "fa": "این شل‌ترین اتصال است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "137",
+    "level": "A2",
+    "word": "riesig",
+    "meaning": "عظیم، غول‌پیکر",
+    "antonyms": ["winzig"],
+    "synonyms": ["sehr groß"],
+    "sentences": [
+      { "de": "Das Haus ist riesig.", "fa": "خانه عظیم است." },
+      { "de": "Der Baum ist riesiger als der andere.", "fa": "درخت غول‌پیکرتر از دیگری است." },
+      { "de": "Das ist das riesigste Schiff.", "fa": "این عظیم‌ترین کشتی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "138",
+    "level": "A2",
+    "word": "winzig",
+    "meaning": "کوچک، ریز",
+    "antonyms": ["riesig"],
+    "synonyms": ["sehr klein"],
+    "sentences": [
+      { "de": "Die Maus ist winzig.", "fa": "موش خیلی کوچک است." },
+      { "de": "Das Insekt ist winziger als erwartet.", "fa": "حشره ریزتر از انتظار است." },
+      { "de": "Das ist das winzigste Teil.", "fa": "این ریزترین قطعه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "139",
+    "level": "A2",
+    "word": "riesengroß",
+    "meaning": "بزرگ مثل غول، عظیم‌الجثه",
+    "antonyms": ["winzigklein"],
+    "synonyms": ["riesig"],
+    "sentences": [
+      { "de": "Der Elefant ist riesengroß.", "fa": "فیل بزرگ مثل غول است." },
+      { "de": "Der Berg ist riesengroßer als der Hügel.", "fa": "کوه عظیم‌تر از تپه است." },
+      { "de": "Das ist das riesengroßte Gebäude.", "fa": "این عظیم‌ترین ساختمان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "140",
+    "level": "A2",
+    "word": "winzigklein",
+    "meaning": "بسیار کوچک، ریز و کوچک",
+    "antonyms": ["riesengroß"],
+    "synonyms": ["winzig"],
+    "sentences": [
+      { "de": "Das Baby ist winzigklein.", "fa": "نوزاد بسیار کوچک است." },
+      { "de": "Die Blume ist winzigkleiner als die andere.", "fa": "گل خیلی کوچک‌تر از دیگری است." },
+      { "de": "Das ist das winzigkleinste Tier.", "fa": "این کوچک‌ترین حیوان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "141",
+    "level": "B1",
+    "word": "sympathisch",
+    "meaning": "دوست‌داشتنی، симпатичный",
+    "antonyms": ["unsympathisch"],
+    "synonyms": ["liebenswürdig", "nett"],
+    "sentences": [
+      { "de": "Mein neuer Kollege ist sehr sympathisch.", "fa": "همکار جدید من خیلی دوست‌داشتنی است." },
+      { "de": "Sie hat eine sympathische Art zu sprechen.", "fa": "او نحوه صحبت دوست‌داشتنی‌ای دارد." },
+      { "de": "Von allen Freunden ist er der sympathischste.", "fa": "از بین همه دوستان، او دوست‌داشتنی‌ترین است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "142",
+    "level": "B1",
+    "word": "unsympathisch",
+    "meaning": "ناخوشایند، غیر دوست‌داشتنی",
+    "antonyms": ["sympathisch"],
+    "synonyms": ["unangenehm"],
+    "sentences": [
+      { "de": "Der Chef wirkt manchmal unsympathisch.", "fa": "رئیس گاهی اوقات ناخوشایند به نظر می‌رسد." },
+      { "de": "Ich finde diesen Mann ziemlich unsympathisch.", "fa": "من این مرد را خیلی غیر دوست‌داشتنی می‌دانم." },
+      { "de": "Das war die unsympathischste Antwort.", "fa": "این ناخوشایندترین جواب بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "143",
+    "level": "B1",
+    "word": "hilfsbereit",
+    "meaning": "کمک‌کننده، آماده کمک",
+    "antonyms": ["unhilfsbereit"],
+    "synonyms": ["hilfswillig", "unterstützend"],
+    "sentences": [
+      { "de": "Meine Nachbarn sind immer hilfsbereit.", "fa": "همسایه‌های من همیشه آماده کمک هستند." },
+      { "de": "Sie ist eine sehr hilfsbereite Person.", "fa": "او فرد خیلی کمک‌کننده‌ای است." },
+      { "de": "Das war die hilfsbereiteste Reaktion.", "fa": "این کمک‌کننده‌ترین واکنش بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "144",
+    "level": "B1",
+    "word": "geizig",
+    "meaning": "خسیس",
+    "antonyms": ["großzügig"],
+    "synonyms": ["sparsam", "knickerig"],
+    "sentences": [
+      { "de": "Er ist sehr geizig mit seinem Geld.", "fa": "او با پولش خیلی خسیس است." },
+      { "de": "Mein Onkel war immer geizig.", "fa": "عمویم همیشه خسیس بود." },
+      { "de": "Das ist die geizigste Entscheidung.", "fa": "این خسیس‌ترین تصمیم است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "145",
+    "level": "B1",
+    "word": "großzügig",
+    "meaning": "بخشنده،慷慨",
+    "antonyms": ["geizig"],
+    "synonyms": ["freigiebig"],
+    "sentences": [
+      { "de": "Meine Tante ist sehr großzügig.", "fa": "عمه‌ام خیلی بخشنده است." },
+      { "de": "Er hat großzügig geholfen.", "fa": "او بخشنده کمک کرد." },
+      { "de": "Das war das großzügigste Geschenk.", "fa": "این بخشنده‌ترین هدیه بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "146",
+    "level": "B1",
+    "word": "stolz",
+    "meaning": "مغرور، افتخارکننده",
+    "antonyms": ["bescheiden"],
+    "synonyms": ["hochmütig"],
+    "sentences": [
+      { "de": "Sie ist stolz auf ihre Arbeit.", "fa": "او به کارش افتخار می‌کند." },
+      { "de": "Er wirkt manchmal zu stolz.", "fa": "او گاهی اوقات خیلی مغرور به نظر می‌رسد." },
+      { "de": "Das ist der stolzeste Moment.", "fa": "این مغرورانه‌ترین لحظه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "147",
+    "level": "B1",
+    "word": "bescheiden",
+    "meaning": "متواضع، скромный",
+    "antonyms": ["stolz"],
+    "synonyms": ["demütig"],
+    "sentences": [
+      { "de": "Er lebt sehr bescheiden.", "fa": "او خیلی متواضع زندگی می‌کند." },
+      { "de": "Sie gibt immer bescheidene Antworten.", "fa": "او همیشه جواب‌های متواضعانه می‌دهد." },
+      { "de": "Das war die bescheidenste Feier.", "fa": "این متواضع‌ترین جشن بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "148",
+    "level": "B1",
+    "word": "eifersüchtig",
+    "meaning": "حسود، jealous",
+    "antonyms": [],
+    "synonyms": ["neidisch"],
+    "sentences": [
+      { "de": "Er ist eifersüchtig auf seinen Bruder.", "fa": "او به برادرش حسودی می‌کند." },
+      { "de": "Sie wird schnell eifersüchtig.", "fa": "او سریع حسود می‌شود." },
+      { "de": "Das war die eifersüchtigste Reaktion.", "fa": "این حسودانه‌ترین واکنش بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "149",
+    "level": "B1",
+    "word": "neidisch",
+    "meaning": "حسود",
+    "antonyms": [],
+    "synonyms": ["eifersüchtig"],
+    "sentences": [
+      { "de": "Ich bin nicht neidisch auf ihren Erfolg.", "fa": "من به موفقیت او حسودی نمی‌کنم." },
+      { "de": "Warum bist du so neidisch?", "fa": "چرا اینقدر حسودی؟" },
+      { "de": "Das ist die neidischste Bemerkung.", "fa": "این حسودانه‌ترین نظر بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "150",
+    "level": "B1",
+    "word": "dankbar",
+    "meaning": "سپاسگزار",
+    "antonyms": ["undankbar"],
+    "synonyms": ["erkenntlich"],
+    "sentences": [
+      { "de": "Ich bin dir sehr dankbar.", "fa": "من خیلی از تو سپاسگزارم." },
+      { "de": "Sie war dankbar für die Hilfe.", "fa": "او برای کمک سپاسگزار بود." },
+      { "de": "Das war der dankbarste Moment.", "fa": "این سپاسگزارانه‌ترین لحظه بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "151",
+    "level": "B1",
+    "word": "undankbar",
+    "meaning": "ناسپاس",
+    "antonyms": ["dankbar"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er ist oft undankbar.", "fa": "او اغلب ناسپاس است." },
+      { "de": "Das war eine undankbare Aufgabe.", "fa": "این کار ناسپاسانه‌ای بود." },
+      { "de": "Das ist die undankbarste Haltung.", "fa": "این ناسپاسانه‌ترین态度 است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  
+  {
+    "id": "152",
+    "level": "B1",
+    "word": "verärgert",
+    "meaning": "عصبانی / ناراحت",
+    "antonyms": ["zufrieden", "glücklich"],
+    "synonyms": ["genervt", "ärgerlich"],
+    "sentences": [
+      { "de": "Sie ist verärgert über den Fehler.", "fa": "او از اشتباه عصبانی است." },
+      { "de": "Er war verärgert, weil der Zug Verspätung hatte.", "fa": "او عصبانی بود چون قطار تأخیر داشت." },
+      { "de": "Die verärgerteste Kundin hat sich beschwert.", "fa": "عصبانی‌ترین مشتری شکایت کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "153",
+    "level": "B1",
+    "word": "wütend",
+    "meaning": "خشمگین",
+    "antonyms": ["ruhig", "zufrieden"],
+    "synonyms": ["zornig", "wutentbrannt"],
+    "sentences": [
+      { "de": "Er ist wütend auf seinen Freund.", "fa": "او از دوستش خشمگین است." },
+      { "de": "Warum bist du so wütend geworden?", "fa": "چرا اینقدر خشمگین شدی؟" },
+      { "de": "Die wütendste Reaktion kam von der Mutter.", "fa": "خشمگین‌ترین واکنش از مادر آمد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "154",
+    "level": "B1",
+    "word": "überrascht",
+    "meaning": "متعجب",
+    "antonyms": ["unbeeindruckt"],
+    "synonyms": ["verblüfft"],
+    "sentences": [
+      { "de": "Ich bin überrascht von dem Geschenk.", "fa": "من از هدیه متعجبم." },
+      { "de": "Sie war sehr überrascht über die gute Note.", "fa": "او خیلی از نمره خوب متعجب بود." },
+      { "de": "Das war die überraschendste Neuigkeit des Tages.", "fa": "این متعجب‌کننده‌ترین خبر روز بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "155",
+    "level": "B1",
+    "word": "erstaunt",
+    "meaning": "شگفت‌زده",
+    "antonyms": ["gleichgültig"],
+    "synonyms": ["verwundert", "überrascht"],
+    "sentences": [
+      { "de": "Die Kinder sind erstaunt über den Zauberer.", "fa": "کودکان از شعبده‌باز شگفت‌زده هستند." },
+      { "de": "Er schaute erstaunt auf das Bild.", "fa": "او با شگفتی به عکس نگاه کرد." },
+      { "de": "Das ist eine der erstauntesten Geschichten, die ich kenne.", "fa": "این یکی از شگفت‌انگیزترین داستان‌هایی است که می‌دانم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "156",
+    "level": "B1",
+    "word": "beruhigt",
+    "meaning": "آرام / آرام‌شده",
+    "antonyms": ["aufgeregt", "nervös"],
+    "synonyms": ["entspannt", "gelassen"],
+    "sentences": [
+      { "de": "Nach dem Gespräch bin ich beruhigt.", "fa": "بعد از گفتگو آرام شدم." },
+      { "de": "Die Mutter war beruhigt, als sie die Nachricht hörte.", "fa": "مادر وقتی خبر را شنید آرام شد." },
+      { "de": "Das ist die beruhigendste Information für alle.", "fa": "این آرام‌بخش‌ترین اطلاعات برای همه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "157",
+    "level": "B1",
+    "word": "aufgeregt",
+    "meaning": "هیجان‌زده",
+    "antonyms": ["entspannt", "ruhig"],
+    "synonyms": ["erregt", "nervös"],
+    "sentences": [
+      { "de": "Die Kinder sind aufgeregt vor der Reise.", "fa": "کودکان قبل از سفر هیجان‌زده هستند." },
+      { "de": "Sie war zu aufgeregt, um zu schlafen.", "fa": "او خیلی هیجان‌زده بود که نتوانست بخوابد." },
+      { "de": "Das war der aufregendste Moment des Abends.", "fa": "این هیجان‌انگیزترین لحظه شب بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "158",
+    "level": "B1",
+    "word": "nervös",
+    "meaning": "عصبی",
+    "antonyms": ["ruhig", "entspannt"],
+    "synonyms": ["unruhig", "angespannt"],
+    "sentences": [
+      { "de": "Vor der Prüfung bin ich immer nervös.", "fa": "قبل از امتحان همیشه عصبی می‌شوم." },
+      { "de": "Er wurde nervös, als er warten musste.", "fa": "وقتی باید منتظر می‌ماند عصبی شد." },
+      { "de": "Das ist die nervöseste Situation, die ich erlebt habe.", "fa": "این عصبی‌ترین موقعیتی است که تجربه کرده‌ام." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "159",
+    "level": "B1",
+    "word": "entspannt",
+    "meaning": "آرام / ریلکس",
+    "antonyms": ["nervös", "angespannt"],
+    "synonyms": ["ruhig", "gelassen"],
+    "sentences": [
+      { "de": "Am Wochenende bin ich total entspannt.", "fa": "آخر هفته کاملاً آرام هستم." },
+      { "de": "Sie saß entspannt auf dem Sofa.", "fa": "او آرام روی کاناپه نشسته بود." },
+      { "de": "Das war der entspannteste Urlaub meines Lebens.", "fa": "این آرام‌ترین تعطیلات زندگی‌ام بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "160",
+    "level": "B1",
+    "word": "zuverlässig",
+    "meaning": "قابل اعتماد",
+    "antonyms": ["unzuverlässig"],
+    "synonyms": ["verlässlich", "vertrauenswürdig"],
+    "sentences": [
+      { "de": "Mein bester Freund ist sehr zuverlässig.", "fa": "بهترین دوستم خیلی قابل اعتماد است." },
+      { "de": "Sie ist eine zuverlässige Mitarbeiterin.", "fa": "او یک کارمند قابل اعتماد است." },
+      { "de": "Das ist das zuverlässigste Auto in dieser Preisklasse.", "fa": "این قابل اعتمادترین ماشین در این رده قیمتی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
   }
+,
+
+  {
+    "id": "161",
+    "level": "B1",
+    "word": "unzuverlässig",
+    "meaning": "غیر قابل اعتماد",
+    "antonyms": ["zuverlässig"],
+    "synonyms": ["unpünktlich", "unverlässlich"],
+    "sentences": [
+      { "de": "Er ist sehr unzuverlässig und kommt immer zu spät.", "fa": "او خیلی غیر قابل اعتماد است و همیشه دیر می‌رسد." },
+      { "de": "Das Auto ist unzuverlässiger als das alte Modell.", "fa": "این ماشین غیر قابل اعتمادتر از مدل قدیمی است." },
+      { "de": "Das ist die unzuverlässigste Firma in der Stadt.", "fa": "این غیر قابل اعتمادترین شرکت در شهر است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "162",
+    "level": "B1",
+    "word": "verantwortungsvoll",
+    "meaning": "مسئول",
+    "antonyms": ["verantwortungslos"],
+    "synonyms": ["verantwortlich", "gewissenhaft"],
+    "sentences": [
+      { "de": "Sie ist eine verantwortungsvolle Mitarbeiterin.", "fa": "او یک کارمند مسئول است." },
+      { "de": "Kinder werden mit dem Alter verantwortungsvoller.", "fa": "کودکان با افزایش سن مسئول‌تر می‌شوند." },
+      { "de": "Das war die verantwortungsvollste Entscheidung des Jahres.", "fa": "این مسئولانه‌ترین تصمیم سال بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "163",
+    "level": "B1",
+    "word": "verantwortungslos",
+    "meaning": "بی‌مسئولیت",
+    "antonyms": ["verantwortungsvoll"],
+    "synonyms": ["leichtsinnig", "unverantwortlich"],
+    "sentences": [
+      { "de": "Es war verantwortungslos, so schnell zu fahren.", "fa": "راندن با این سرعت بی‌مسئولیت بود." },
+      { "de": "Er handelt verantwortungsloser als früher.", "fa": "او بی‌مسئولیت‌تر از قبل عمل می‌کند." },
+      { "de": "Das ist die verantwortungsloseste Tat, die ich gesehen habe.", "fa": "این بی‌مسئولیت‌ترین کاری است که دیده‌ام." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "164",
+    "level": "B1",
+    "word": "kreativ",
+    "meaning": "خلاق",
+    "antonyms": ["unkreativ"],
+    "synonyms": ["einfallsreich", "originell"],
+    "sentences": [
+      { "de": "Sie hat eine kreative Lösung gefunden.", "fa": "او یک راه‌حل خلاق پیدا کرده است." },
+      { "de": "Kinder sind oft kreativer als Erwachsene.", "fa": "کودکان اغلب خلاق‌تر از بزرگسالان هستند." },
+      { "de": "Das war die kreativste Werbung des Jahres.", "fa": "این خلاقانه‌ترین تبلیغات سال بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "165",
+    "level": "B1",
+    "word": "fantasievoll",
+    "meaning": "پر از تخیل",
+    "antonyms": ["fantasielos"],
+    "synonyms": ["einfallsreich", "kreativ"],
+    "sentences": [
+      { "de": "Er schreibt sehr fantasievolle Geschichten.", "fa": "او داستان‌های خیلی پر از تخیل می‌نویسد." },
+      { "de": "Die Ideen wurden immer fantasievoller.", "fa": "ایده‌ها همیشه پر تخیل‌تر می‌شدند." },
+      { "de": "Das ist die fantasievollste Zeichnung in der Ausstellung.", "fa": "این پر تخیل‌ترین نقاشی در نمایشگاه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "166",
+    "level": "B1",
+    "word": "praktisch",
+    "meaning": "عملی",
+    "antonyms": ["unpraktisch"],
+    "synonyms": ["nützlich", "zweckmäßig"],
+    "sentences": [
+      { "de": "Diese Tasche ist sehr praktisch.", "fa": "این کیف خیلی عملی است." },
+      { "de": "Die neue Methode ist praktischer als die alte.", "fa": "روش جدید عملی‌تر از روش قدیمی است." },
+      { "de": "Das ist die praktischste Lösung für das Problem.", "fa": "این عملی‌ترین راه‌حل برای مشکل است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "167",
+    "level": "B1",
+    "word": "unpraktisch",
+    "meaning": "غیر عملی",
+    "antonyms": ["praktisch"],
+    "synonyms": ["umständlich", "unhandlich"],
+    "sentences": [
+      { "de": "Der Plan ist schön, aber unpraktisch.", "fa": "این برنامه زیبا است اما غیر عملی." },
+      { "de": "Das neue Gerät ist unpraktischer als erwartet.", "fa": "دستگاه جدید غیر عملی‌تر از آنچه انتظار می‌رفت است." },
+      { "de": "Das war die unpraktischste Idee des Teams.", "fa": "این غیر عملی‌ترین ایده تیم بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "168",
+    "level": "B1",
+    "word": "sparsam",
+    "meaning": "صرفه‌جو",
+    "antonyms": ["verschwenderisch"],
+    "synonyms": ["wirtschaftlich", "genügsam"],
+    "sentences": [
+      { "de": "Meine Großmutter war immer sehr sparsam.", "fa": "مادربزرگ من همیشه خیلی صرفه‌جو بود." },
+      { "de": "Er lebt sparsamer seit dem Studium.", "fa": "او از زمان تحصیل صرفه‌جوتر زندگی می‌کند." },
+      { "de": "Das ist die sparsamste Möglichkeit zu reisen.", "fa": "این صرفه‌جویانه‌ترین راه سفر است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "169",
+    "level": "B1",
+    "word": "verschwenderisch",
+    "meaning": "ولخرج",
+    "antonyms": ["sparsam"],
+    "synonyms": ["luxuriös", "verschwendungssüchtig"],
+    "sentences": [
+      { "de": "Er führt einen verschwenderischen Lebensstil.", "fa": "او سبک زندگی ولخرجی دارد." },
+      { "de": "Sie gibt das Geld verschwenderischer als früher.", "fa": "او پول را ولخرجانه‌تر از قبل خرج می‌کند." },
+      { "de": "Das war die verschwenderischste Party des Jahres.", "fa": "این ولخرجانه‌ترین مهمانی سال بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+
+  {
+    "id": "169",
+    "level": "B1",
+    "word": "tolerant",
+    "meaning": "تحمل‌پذیر /宽容",
+    "antonyms": ["intolerant"],
+    "synonyms": ["aufgeschlossen", "duldsam"],
+    "sentences": [
+      { "de": "Er ist sehr tolerant gegenüber anderen Meinungen.", "fa": "او نسبت به نظرات دیگران بسیار تحمل‌پذیر است." },
+      { "de": "In dieser Stadt leben die Menschen tolerant zusammen.", "fa": "در این شهر مردم با تحمل با هم زندگی می‌کنند." },
+      { "de": "Sie ist toleranter als ihr Bruder.", "fa": "او تحمل‌پذیرتر از برادرش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "170",
+    "level": "B1",
+    "word": "intolerant",
+    "meaning": "غیر تحمل‌پذیر / intolerant",
+    "antonyms": ["tolerant"],
+    "synonyms": ["engstirnig"],
+    "sentences": [
+      { "de": "Intolerante Menschen akzeptieren keine anderen Kulturen.", "fa": "افراد غیر تحمل‌پذیر فرهنگ‌های دیگر را قبول نمی‌کنند." },
+      { "de": "Er war intolerant gegenüber Kritik.", "fa": "او نسبت به انتقاد غیر تحمل‌پذیر بود." },
+      { "de": "Die intoleranteste Haltung hilft niemandem.", "fa": "غیر تحمل‌پذیرترین نگرش به هیچ‌کس کمک نمی‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "171",
+    "level": "B1",
+    "word": "offen",
+    "meaning": "باز / صریح",
+    "antonyms": ["verschlossen"],
+    "synonyms": ["ehrlich", "aufrichtig"],
+    "sentences": [
+      { "de": "Sie ist ein sehr offener Mensch.", "fa": "او انسان بسیار باز و صریحی است." },
+      { "de": "Lass uns offen über das Problem sprechen.", "fa": "بیا درباره مشکل به طور صریح صحبت کنیم." },
+      { "de": "Er ist offener als früher.", "fa": "او بازتر از قبل شده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "172",
+    "level": "B1",
+    "word": "verschlossen",
+    "meaning": "بسته / منزوی",
+    "antonyms": ["offen"],
+    "synonyms": ["zurückhaltend"],
+    "sentences": [
+      { "de": "Er ist sehr verschlossen und redet wenig.", "fa": "او خیلی بسته و کم‌حرف است." },
+      { "de": "Verschlossene Menschen teilen ihre Gefühle nicht.", "fa": "افراد منزوی احساساتشان را به اشتراک نمی‌گذارند." },
+      { "de": "Sie wurde in letzter Zeit noch verschlossener.", "fa": "او در آخرین زمان حتی بسته‌تر شده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "173",
+    "level": "B1",
+    "word": "extrovertiert",
+    "meaning": "برون‌گرا",
+    "antonyms": ["introvertiert"],
+    "synonyms": ["gesellig"],
+    "sentences": [
+      { "de": "Extrovertierte Menschen lieben Partys.", "fa": "افراد برون‌گرا عاشق مهمانی هستند." },
+      { "de": "Sie ist extrovertierter als ich.", "fa": "او برون‌گراتر از من است." },
+      { "de": "Extrovertierte Kollegen motivieren das Team.", "fa": "همکاران برون‌گرا تیم را انگیزه می‌دهند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "174",
+    "level": "B1",
+    "word": "introvertiert",
+    "meaning": "درون‌گرا",
+    "antonyms": ["extrovertiert"],
+    "synonyms": ["ruhig", "nachdenklich"],
+    "sentences": [
+      { "de": "Introvertierte Menschen brauchen Zeit allein.", "fa": "افراد درون‌گرا به زمان تنها بودن نیاز دارند." },
+      { "de": "Er ist eher introvertiert und liest gerne.", "fa": "او بیشتر درون‌گرا است و دوست دارد کتاب بخواند." },
+      { "de": "Die introvertierteste Person in der Gruppe war sehr still.", "fa": "درون‌گراترین فرد در گروه خیلی ساکت بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "175",
+    "level": "B1",
+    "word": "selbstbewusst",
+    "meaning": "با اعتماد به نفس",
+    "antonyms": ["unsicher"],
+    "synonyms": ["sicher", "selbstsicher"],
+    "sentences": [
+      { "de": "Sie wirkt sehr selbstbewusst auf der Bühne.", "fa": "او روی صحنه خیلی با اعتماد به نفس به نظر می‌رسد." },
+      { "de": "Selbstbewusste Menschen erreichen ihre Ziele schneller.", "fa": "افراد با اعتماد به نفس اهدافشان را سریع‌تر به دست می‌آورند." },
+      { "de": "Er ist selbstbewusster geworden.", "fa": "او با اعتماد به نفس‌تر شده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "176",
+    "level": "B1",
+    "word": "unsicher",
+    "meaning": "نا مطمئن / بی‌اعتماد به نفس",
+    "antonyms": ["selbstbewusst"],
+    "synonyms": ["zweifelnd"],
+    "sentences": [
+      { "de": "Unsichere Schüler stellen keine Fragen.", "fa": "دانش‌آموزان نا مطمئن سوال نمی‌پرسند." },
+      { "de": "Er fühlt sich unsicher in großen Gruppen.", "fa": "او در گروه‌های بزرگ احساس نا اطمینانی می‌کند." },
+      { "de": "Sie ist unsicherer als ihre Schwester.", "fa": "او نا مطمئن‌تر از خواهرش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "177",
+    "level": "B1",
+    "word": "erfolgreich",
+    "meaning": "موفق",
+    "antonyms": ["erfolglos"],
+    "synonyms": ["gelungen"],
+    "sentences": [
+      { "de": "Er ist ein erfolgreicher Geschäftsmann.", "fa": "او یک تاجر موفق است." },
+      { "de": "Die erfolgreichste Methode war einfach.", "fa": "موفق‌ترین روش خیلی ساده بود." },
+      { "de": "Sie arbeitet hart und wird erfolgreicher.", "fa": "او سخت کار می‌کند و موفق‌تر خواهد شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "178",
+    "level": "B1",
+    "word": "erfolglos",
+    "meaning": "ناموفق",
+    "antonyms": ["erfolgreich"],
+    "synonyms": ["vergeblich"],
+    "sentences": [
+      { "de": "Der Versuch war leider erfolglos.", "fa": "تلاش متأسفانه ناموفق بود." },
+      { "de": "Erfolglose Projekte lehren uns viel.", "fa": "پروژه‌های ناموفق چیزهای زیادی به ما یاد می‌دهند." },
+      { "de": "Sie fühlte sich nach dem erfolglosesten Tag sehr müde.", "fa": "او بعد از ناموفق‌ترین روز خیلی خسته بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "179",
+    "level": "B1",
+    "word": "beliebt",
+    "meaning": "محبوب",
+    "antonyms": ["unbeliebt"],
+    "synonyms": ["beliebt bei allen"],
+    "sentences": [
+      { "de": "Der Lehrer ist bei den Schülern sehr beliebt.", "fa": "معلم نزد دانش‌آموزان خیلی محبوب است." },
+      { "de": "Dieses Buch ist das beliebteste in der Klasse.", "fa": "این کتاب محبوب‌ترین کتاب در کلاس است." },
+      { "de": "Sie wird immer beliebter.", "fa": "او همیشه محبوب‌تر می‌شود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },  
+  {
+    "id": "170",
+    "level": "B1",
+    "word": "unbeliebt",
+    "meaning": "نامحبوب",
+    "antonyms": ["beliebt"],
+    "synonyms": ["unpopulär"],
+    "sentences": [
+      { "de": "Der neue Lehrer ist bei den Schülern unbeliebt.", "fa": "معلم جدید نزد دانش‌آموزان نامحبوب است." },
+      { "de": "Diese Entscheidung ist unbeliebter als die vorige.", "fa": "این تصمیم نامحبوب‌تر از تصمیم قبلی است." },
+      { "de": "Das ist die unbeliebteste Regel in der Firma.", "fa": "این نامحبوب‌ترین قانون در شرکت است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "171",
+    "level": "B1",
+    "word": "typisch",
+    "meaning": "معمول",
+    "antonyms": ["untypisch"],
+    "synonyms": ["charakteristisch"],
+    "sentences": [
+      { "de": "Das ist typisch für ihn, immer zu spät zu kommen.", "fa": "این برای او معمول است که همیشه دیر برسد." },
+      { "de": "Das Wetter ist typischer im Sommer als im Frühling.", "fa": "این آب و هوا در تابستان معمول‌تر از بهار است." },
+      { "de": "Das ist das typischste Beispiel für deutsche Pünktlichkeit.", "fa": "این معمول‌ترین مثال برای وقت‌شناسی آلمانی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "172",
+    "level": "B1",
+    "word": "untypisch",
+    "meaning": "غیرمعمول",
+    "antonyms": ["typisch"],
+    "synonyms": ["atypisch"],
+    "sentences": [
+      { "de": "Es ist untypisch für sie, so früh aufzuwachen.", "fa": "برای او غیرمعمول است که اینقدر زود بیدار شود." },
+      { "de": "Dieses Verhalten ist untypischer als sonst.", "fa": "این رفتار غیرمعمول‌تر از همیشه است." },
+      { "de": "Das ist die untypischste Reaktion, die ich erwartet habe.", "fa": "این غیرمعمول‌ترین واکنشی است که انتظار داشتم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "173",
+    "level": "B1",
+    "word": "normal",
+    "meaning": "عادی",
+    "antonyms": ["unnormal", "anormal"],
+    "synonyms": ["gewöhnlich"],
+    "sentences": [
+      { "de": "Es ist normal, dass Kinder Fragen stellen.", "fa": "عادی است که کودکان سؤال بپرسند." },
+      { "de": "Das Leben hier ist normaler als in der Großstadt.", "fa": "زندگی اینجا عادی‌تر از شهر بزرگ است." },
+      { "de": "Das ist die normalste Situation in einer Familie.", "fa": "این عادی‌ترین وضعیت در یک خانواده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "174",
+    "level": "B1",
+    "word": "ungewöhnlich",
+    "meaning": "غیرعادی",
+    "antonyms": ["gewöhnlich"],
+    "synonyms": ["außergewöhnlich"],
+    "sentences": [
+      { "de": "Das ist eine ungewöhnlich gute Idee.", "fa": "این یک ایده غیرعادی خوب است." },
+      { "de": "Das Ereignis war ungewöhnlicher als erwartet.", "fa": "این رویداد غیرعادی‌تر از انتظار بود." },
+      { "de": "Das ist die ungewöhnlichste Geschichte, die ich je gehört habe.", "fa": "این غیرعادی‌ترین داستانی است که تا به حال شنیده‌ام." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "175",
+    "level": "B1",
+    "word": "selten",
+    "meaning": "نادر",
+    "antonyms": ["häufig"],
+    "synonyms": ["rar"],
+    "sentences": [
+      { "de": "Solche Fehler sind selten in guten Texten.", "fa": "چنین اشتباهاتی در متون خوب نادر هستند." },
+      { "de": "Diese Blumen blühen seltener als andere.", "fa": "این گل‌ها کمتر از بقیه شکوفه می‌کنند." },
+      { "de": "Das ist das seltenste Tier im Zoo.", "fa": "این نادرترین حیوان در باغ وحش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "176",
+    "level": "B1",
+    "word": "häufig",
+    "meaning": "مکرر",
+    "antonyms": ["selten"],
+    "synonyms": ["oft"],
+    "sentences": [
+      { "de": "Regen ist hier häufig im Herbst.", "fa": "باران اینجا در پاییز مکرر است." },
+      { "de": "Fehler sind häufiger bei Anfängern.", "fa": "اشتباهات در میان مبتدیان مکررتر هستند." },
+      { "de": "Das ist die häufigste Frage der Touristen.", "fa": "این مکررترین سؤال گردشگران است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "177",
+    "level": "B1",
+    "word": "üblich",
+    "meaning": "رایج",
+    "antonyms": ["unüblich"],
+    "synonyms": ["gewöhnlich"],
+    "sentences": [
+      { "de": "Es ist üblich, vor dem Essen zu danken.", "fa": "رایج است که قبل از غذا تشکر کنیم." },
+      { "de": "Diese Methode ist üblicher in großen Firmen.", "fa": "این روش در شرکت‌های بزرگ رایج‌تر است." },
+      { "de": "Das ist die üblichste Begrüßung in Deutschland.", "fa": "این رایج‌ترین سلام و احوالپرسی در آلمان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "178",
+    "level": "B1",
+    "word": "unüblich",
+    "meaning": "غیررایج",
+    "antonyms": ["üblich"],
+    "synonyms": ["ungewöhnlich"],
+    "sentences": [
+      { "de": "Es ist unüblich, so spät anzurufen.", "fa": "غیررایج است که اینقدر دیر تماس بگیریم." },
+      { "de": "Diese Farbe ist unüblicher für Autos.", "fa": "این رنگ برای ماشین‌ها غیررایج‌تر است." },
+      { "de": "Das ist die unüblichste Tradition, die ich kenne.", "fa": "این غیررایج‌ترین سنتی است که می‌شناسم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "179",
+    "level": "B1",
+    "word": "gefährlich",
+    "meaning": "خطرناک",
+    "antonyms": ["ungefährlich"],
+    "synonyms": ["riskant"],
+    "sentences": [
+      { "de": "Das ist eine gefährliche Straße bei Nacht.", "fa": "این خیابان در شب خطرناک است." },
+      { "de": "Das Spiel ist gefährlicher als es aussieht.", "fa": "این بازی خطرناک‌تر از آن چیزی است که به نظر می‌رسد." },
+      { "de": "Das ist die gefährlichste Situation im Verkehr.", "fa": "این خطرناک‌ترین وضعیت در ترافیک است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "180",
+    "level": "B1",
+    "word": "ungefährlich",
+    "meaning": "بی‌خطر",
+    "antonyms": ["gefährlich"],
+    "synonyms": ["harmlos"],
+    "sentences": [
+      { "de": "Das Medikament ist für Kinder ungefährlich.", "fa": "این دارو برای کودکان بی‌خطر است." },
+      { "de": "Die neue Route ist ungefährlicher als die alte.", "fa": "این مسیر جدید بی‌خطرتر از مسیر قدیمی است." },
+      { "de": "Das ist die ungefährlichste Sportart für Anfänger.", "fa": "این بی‌خطرترین ورزش برای مبتدیان است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+
+
+
 
 
 ]

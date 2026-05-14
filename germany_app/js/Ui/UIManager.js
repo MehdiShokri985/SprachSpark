@@ -51,7 +51,7 @@ export class UIManager {
 
     // آمار سطح
     document.getElementById("levelStats").innerHTML =
-      `Wörter: <strong>${levelWords.length}</strong> | Richtig: <strong>${currentState.correctAnswers}</strong> | Falsch: <strong>${currentState.wrongAnswers}</strong>`;
+      `Wörter: <strong>${levelWords.length}</strong> | Richtig: <strong class="text-green-500">${currentState.correctAnswers}</strong> | Falsch: <strong class="text-red-500">${currentState.wrongAnswers}</strong>`;
   }
 
   /**
@@ -181,7 +181,7 @@ export class UIManager {
     options.forEach((option) => {
       const button = document.createElement("button");
       button.className =
-        "bg-white border-2 border-gray-300 rounded-lg p-4 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2";
+        "bg-white border-1 border-gray-300 rounded-lg p-4 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2";
 
       if (
         this.game.currentQuestionType.type === "fa_to_de" ||
@@ -351,7 +351,7 @@ export class UIManager {
     const currentState = this.game.getCurrentState();
 
     if (currentState.mistakes.length === 0) {
-      listContainer.innerHTML = `<p class="text-gray-500 text-center py-8">هنوز اشتباهی ثبت نشده است.</p>`;
+      listContainer.innerHTML = `<p class="text-gray-500 text-center py-8">Bisher wurden keine Fehler registriert.</p>`;
       modal.classList.remove("hidden");
       modal.classList.add("flex");
       return;

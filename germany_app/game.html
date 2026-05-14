@@ -203,7 +203,7 @@
   </div>
 
   <!-- Confidence Modal -->
-  <div id="confidenceModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
+  <!-- <div id="confidenceModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
     <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4">
       <div class="text-center">
         <div class="text-6xl mb-4">🤔</div>
@@ -214,7 +214,41 @@
         </div>
       </div>
     </div>
+  </div> -->
+
+  <div id="confidenceModal" class="fixed inset-0 bg-black/70 backdrop-blur-sm modal-overlay hidden items-center justify-center z-50 animate-fadeIn">
+  <div class="relative bg-white/85 backdrop-blur-xl rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.35)] p-10 max-w-md mx-4 border border-white/30 overflow-hidden">
+
+    <!-- Glow Effects -->
+    <div class="absolute -top-10 -left-10 w-32 h-32 bg-emerald-300 rounded-full blur-3xl opacity-20"></div>
+    <div class="absolute -bottom-10 -right-10 w-32 h-32 bg-violet-300 rounded-full blur-3xl opacity-20"></div>
+
+    <div class="relative text-center">
+      
+      <div class="text-7xl mb-5 drop-shadow-lg animate-bounce">
+        😎
+      </div>
+
+      <h2 class="text-3xl font-extrabold mb-8 text-gray-800 tracking-tight">
+        Bist du sicher?
+      </h2>
+
+      <div class="flex gap-5 justify-center">
+        
+        <button id="sureBtn"
+          class="bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 hover:scale-105 hover:shadow-[0_10px_35px_rgba(16,185,129,0.45)] text-white px-10 py-3 rounded-2xl font-bold transition-all duration-300">
+          Ja, sicher
+        </button>
+
+        <button id="maybeBtn"
+          class="bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 hover:scale-105 hover:shadow-[0_10px_35px_rgba(168,85,247,0.45)] text-white px-10 py-3 rounded-2xl font-bold transition-all duration-300">
+          Nicht sicher
+        </button>
+
+      </div>
+    </div>
   </div>
+</div>
 
   <script type="module" src="js/main.js"></script>
 </body>

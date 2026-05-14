@@ -1,0 +1,515 @@
+[
+  {
+    "id": "1",
+    "level": "A1",
+    "word": "ich",
+    "case": "Nominativ",
+    "meaning": "من",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich bin glücklich.", "fa": "من خوشحال هستم." },
+      { "de": "Ich lerne Deutsch jeden Tag.", "fa": "من هر روز آلمانی یاد می‌گیرم." },
+      { "de": "Ich möchte morgen nach Berlin fahren.", "fa": "من دوست دارم فردا به برلین بروم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A1",
+    "word": "du",
+    "case": "Nominativ",
+    "meaning": "تو (غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Du bist mein Freund.", "fa": "تو دوست من هستی." },
+      { "de": "Du kommst aus Iran.", "fa": "تو از ایران هستی." },
+      { "de": "Du solltest mehr Sport machen.", "fa": "تو باید بیشتر ورزش کنی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A1",
+    "word": "er",
+    "case": "Nominativ",
+    "meaning": "او (مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er ist Lehrer.", "fa": "او معلم است." },
+      { "de": "Er spielt Fußball sehr gut.", "fa": "او خیلی خوب فوتبال بازی می‌کند." },
+      { "de": "Er wird nächstes Jahr nach Deutschland gehen.", "fa": "او سال آینده به آلمان خواهد رفت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A1",
+    "word": "sie",
+    "case": "Nominativ",
+    "meaning": "او (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie ist schön.", "fa": "او زیبا است." },
+      { "de": "Sie arbeitet in einem Büro.", "fa": "او در یک دفتر کار می‌کند." },
+      { "de": "Sie hat gestern ein Buch gelesen.", "fa": "او دیروز یک کتاب خواند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "5",
+    "level": "A1",
+    "word": "es",
+    "case": "Nominativ",
+    "meaning": "آن (خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Es ist ein Buch.", "fa": "آن یک کتاب است." },
+      { "de": "Es regnet heute.", "fa": "امروز باران می‌بارد." },
+      { "de": "Es wird schwierig sein, das zu schaffen.", "fa": "انجام آن سخت خواهد بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A1",
+    "word": "wir",
+    "case": "Nominativ",
+    "meaning": "ما",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir sind Freunde.", "fa": "ما دوست هستیم." },
+      { "de": "Wir lernen zusammen Deutsch.", "fa": "ما با هم آلمانی یاد می‌گیریم." },
+      { "de": "Wir planen eine Reise nach Europa.", "fa": "ما در حال برنامه‌ریزی سفر به اروپا هستیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A1",
+    "word": "ihr",
+    "case": "Nominativ",
+    "meaning": "شما (جمع غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihr seid nett.", "fa": "شما مهربان هستید." },
+      { "de": "Ihr kommt aus verschiedenen Ländern.", "fa": "شما از کشورهای مختلف هستید." },
+      { "de": "Ihr solltet pünktlich sein.", "fa": "شما باید به موقع باشید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "8",
+    "level": "A1",
+    "word": "sie",
+    "case": "Nominativ",
+    "meaning": "آنها",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie sind Studenten.", "fa": "آنها دانشجو هستند." },
+      { "de": "Sie wohnen in Berlin.", "fa": "آنها در برلین زندگی می‌کنند." },
+      { "de": "Sie haben das Problem schon gelöst.", "fa": "آنها مشکل را قبلاً حل کرده‌اند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "9",
+    "level": "A1",
+    "word": "Sie",
+    "case": "Nominativ",
+    "meaning": "شما (رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie sind sehr freundlich.", "fa": "شما خیلی دوستانه هستید." },
+      { "de": "Sie arbeiten bei Siemens.", "fa": "شما در زیمنس کار می‌کنید." },
+      { "de": "Sie haben einen Termin um 14 Uhr.", "fa": "شما قرار ملاقات ساعت ۱۴ دارید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "A1",
+    "word": "mich",
+    "case": "Akkusativ",
+    "meaning": "مرا (مفعول مستقیم)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er sieht mich.", "fa": "او مرا می‌بیند." },
+      { "de": "Kannst du mich bitte anrufen?", "fa": "می‌توانی لطفاً مرا زنگ بزنی؟" },
+      { "de": "Sie hat mich gestern besucht.", "fa": "او دیروز به دیدن من آمد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "A1",
+    "word": "dich",
+    "case": "Akkusativ",
+    "meaning": "تورا (مفعول مستقیم، غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich liebe dich.", "fa": "من تو را دوست دارم." },
+      { "de": "Ich habe dich gestern gesehen.", "fa": "من تو را دیروز دیدم." },
+      { "de": "Darf ich dich morgen treffen?", "fa": "می‌توانم فردا تو را ببینم؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "A1",
+    "word": "ihn",
+    "case": "Akkusativ",
+    "meaning": "او را (مذکر، مفعول مستقیم)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich kenne ihn.", "fa": "من او را می‌شناسم." },
+      { "de": "Sie hat ihn angerufen.", "fa": "او او را زنگ زد." },
+      { "de": "Wir treffen ihn um 8 Uhr.", "fa": "ما او را ساعت ۸ ملاقات می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "A1",
+    "word": "sie",
+    "case": "Akkusativ",
+    "meaning": "او را (مونث، مفعول مستقیم)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich sehe sie.", "fa": "من او را می‌بینم." },
+      { "de": "Er hilft sie nicht.", "fa": "او به او کمک نمی‌کند." },
+      { "de": "Wir besuchen sie nächste Woche.", "fa": "ما هفته آینده او را ملاقات می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "A1",
+    "word": "es",
+    "case": "Akkusativ",
+    "meaning": "آن را (مفعول مستقیم)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe es gefunden.", "fa": "من آن را پیدا کردم." },
+      { "de": "Kannst du es mir geben?", "fa": "می‌توانی آن را به من بدهی؟" },
+      { "de": "Wir brauchen es dringend.", "fa": "ما به آن فوراً نیاز داریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "15",
+    "level": "A1",
+    "word": "uns",
+    "case": "Akkusativ",
+    "meaning": "ما را",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er sieht uns.", "fa": "او ما را می‌بیند." },
+      { "de": "Sie hat uns eingeladen.", "fa": "او ما را دعوت کرده است." },
+      { "de": "Der Lehrer lobt uns oft.", "fa": "معلم اغلب ما را تحسین می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "16",
+    "level": "A1",
+    "word": "euch",
+    "case": "Akkusativ",
+    "meaning": "شما را (جمع غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich sehe euch.", "fa": "من شما را می‌بینم." },
+      { "de": "Sie besucht euch morgen.", "fa": "او فردا شما را ملاقات می‌کند." },
+      { "de": "Wir laden euch zur Party ein.", "fa": "ما شما را به مهمانی دعوت می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "17",
+    "level": "A1",
+    "word": "sie",
+    "case": "Akkusativ",
+    "meaning": "آنها را",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich kenne sie.", "fa": "من آنها را می‌شناسم." },
+      { "de": "Er hat sie gesehen.", "fa": "او آنها را دیده است." },
+      { "de": "Wir helfen sie nicht.", "fa": "ما به آنها کمک نمی‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "18",
+    "level": "A1",
+    "word": "Sie",
+    "case": "Akkusativ",
+    "meaning": "شما را (رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich verstehe Sie.", "fa": "من شما را درک می‌کنم." },
+      { "de": "Darf ich Sie fragen?", "fa": "می‌توانم از شما بپرسم؟" },
+      { "de": "Wir erwarten Sie um 10 Uhr.", "fa": "ما شما را ساعت ۱۰ منتظر هستیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "19",
+    "level": "A1",
+    "word": "mir",
+    "case": "Dativ",
+    "meaning": "به من",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Gib mir das Buch.", "fa": "کتاب را به من بده." },
+      { "de": "Er hilft mir immer.", "fa": "او همیشه به من کمک می‌کند." },
+      { "de": "Das gefällt mir sehr gut.", "fa": "این خیلی به من خوش می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "20",
+    "level": "A1",
+    "word": "dir",
+    "case": "Dativ",
+    "meaning": "به تو (غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe dir Geld.", "fa": "من به تو پول می‌دهم." },
+      { "de": "Das Buch gehört dir.", "fa": "این کتاب مال تو است." },
+      { "de": "Ich schreibe dir eine E-Mail.", "fa": "من به تو ایمیل می‌نویسم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "21",
+    "level": "A1",
+    "word": "ihm",
+    "case": "Dativ",
+    "meaning": "به او (مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich helfe ihm.", "fa": "من به او کمک می‌کنم." },
+      { "de": "Sie schenkt ihm ein Geschenk.", "fa": "او به او هدیه می‌دهد." },
+      { "de": "Das Auto gehört ihm.", "fa": "ماشین مال او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "22",
+    "level": "A1",
+    "word": "ihr",
+    "case": "Dativ",
+    "meaning": "به او (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe ihr das Geschenk.", "fa": "من هدیه را به او می‌دهم." },
+      { "de": "Er schreibt ihr einen Brief.", "fa": "او نامه‌ای به او می‌نویسد." },
+      { "de": "Das gefällt ihr nicht.", "fa": "این به او خوش نمی‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "23",
+    "level": "A1",
+    "word": "ihm",
+    "case": "Dativ",
+    "meaning": "به آن (خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich vertraue ihm.", "fa": "من به آن اعتماد دارم." },
+      { "de": "Das Kind ähnelt ihm.", "fa": "کودک شبیه به آن است." },
+      { "de": "Wir geben ihm einen Namen.", "fa": "ما به آن یک نام می‌دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "24",
+    "level": "A1",
+    "word": "uns",
+    "case": "Dativ",
+    "meaning": "به ما",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er gibt uns Geld.", "fa": "او به ما پول می‌دهد." },
+      { "de": "Das gefällt uns.", "fa": "این به ما خوش می‌آید." },
+      { "de": "Sie hilft uns bei der Aufgabe.", "fa": "او در انجام وظیفه به ما کمک می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "25",
+    "level": "A1",
+    "word": "euch",
+    "case": "Dativ",
+    "meaning": "به شما (جمع غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich helfe euch.", "fa": "من به شما کمک می‌کنم." },
+      { "de": "Das Buch ist für euch.", "fa": "این کتاب برای شما است." },
+      { "de": "Er erklärt euch die Grammatik.", "fa": "او دستور زبان را برای شما توضیح می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "26",
+    "level": "A1",
+    "word": "ihnen",
+    "case": "Dativ",
+    "meaning": "به آنها",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe ihnen das Geld.", "fa": "من پول را به آنها می‌دهم." },
+      { "de": "Sie hilft ihnen.", "fa": "او به آنها کمک می‌کند." },
+      { "de": "Wir schicken ihnen eine Nachricht.", "fa": "ما به آنها پیام می‌فرستیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "27",
+    "level": "A1",
+    "word": "Ihnen",
+    "case": "Dativ",
+    "meaning": "به شما (رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich helfe Ihnen gerne.", "fa": "من با کمال میل به شما کمک می‌کنم." },
+      { "de": "Das gefällt Ihnen bestimmt.", "fa": "این حتماً به شما خوش می‌آید." },
+      { "de": "Wir danken Ihnen für Ihre Hilfe.", "fa": "ما از شما برای کمکتان سپاسگزاریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+]

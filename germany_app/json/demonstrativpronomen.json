@@ -1,0 +1,288 @@
+[
+  {
+    "id": "1",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "dieser",
+    "meaning": "این (مذکر)",
+    "antonyms": ["jener"],
+    "synonyms": ["der"],
+    "sentences": [
+      { "de": "Dieser Mann ist mein Lehrer.", "fa": "این مرد معلم من است." },
+      { "de": "Dieser Apfel ist rot und groß.", "fa": "این سیب قرمز و بزرگ است." },
+      { "de": "Dieser Film war sehr interessant.", "fa": "این فیلم خیلی جالب بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "diese",
+    "meaning": "این (مونث / جمع)",
+    "antonyms": ["jene"],
+    "synonyms": ["die"],
+    "sentences": [
+      { "de": "Diese Frau ist meine Schwester.", "fa": "این زن خواهر من است." },
+      { "de": "Diese Blume ist sehr schön.", "fa": "این گل خیلی زیبا است." },
+      { "de": "Diese Bücher sind neu.", "fa": "این کتاب‌ها جدید هستند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "dieses",
+    "meaning": "این (خنثی)",
+    "antonyms": ["jenes"],
+    "synonyms": ["das"],
+    "sentences": [
+      { "de": "Dieses Kind spielt im Garten.", "fa": "این کودک در باغ بازی می‌کند." },
+      { "de": "Dieses Haus ist sehr alt.", "fa": "این خانه خیلی قدیمی است." },
+      { "de": "Dieses Auto fährt schnell.", "fa": "این ماشین سریع حرکت می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "jener",
+    "meaning": "آن (مذکر)",
+    "antonyms": ["dieser"],
+    "synonyms": ["der"],
+    "sentences": [
+      { "de": "Jener Mann dort ist mein Onkel.", "fa": "آن مرد آنجا عموی من است." },
+      { "de": "Jener Berg ist sehr hoch.", "fa": "آن کوه خیلی بلند است." },
+      { "de": "Jener Hund gehört meinem Nachbarn.", "fa": "آن سگ متعلق به همسایه من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "5",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "jene",
+    "meaning": "آن (مونث / جمع)",
+    "antonyms": ["diese"],
+    "synonyms": ["die"],
+    "sentences": [
+      { "de": "Jene Frau ist unsere Lehrerin.", "fa": "آن زن معلم ماست." },
+      { "de": "Jene Stadt ist sehr groß.", "fa": "آن شهر خیلی بزرگ است." },
+      { "de": "Jene Bücher sind alt.", "fa": "آن کتاب‌ها قدیمی هستند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "jenes",
+    "meaning": "آن (خنثی)",
+    "antonyms": ["dieses"],
+    "synonyms": ["das"],
+    "sentences": [
+      { "de": "Jenes Kind ist sehr ruhig.", "fa": "آن کودک خیلی آرام است." },
+      { "de": "Jenes Problem ist kompliziert.", "fa": "آن مشکل پیچیده است." },
+      { "de": "Jenes Haus gehört meiner Tante.", "fa": "آن خانه متعلق به عمه من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "der",
+    "meaning": "مرد / آن (مذکر معین)",
+    "antonyms": [],
+    "synonyms": ["dieser", "jener"],
+    "sentences": [
+      { "de": "Der Mann arbeitet hier.", "fa": "مرد اینجا کار می‌کند." },
+      { "de": "Der Tisch ist rund.", "fa": "میز گرد است." },
+      { "de": "Der Himmel ist blau.", "fa": "آسمان آبی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "8",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "die",
+    "meaning": "زن / آن (مونث معین / جمع)",
+    "antonyms": [],
+    "synonyms": ["diese", "jene"],
+    "sentences": [
+      { "de": "Die Frau liest ein Buch.", "fa": "زن کتاب می‌خواند." },
+      { "de": "Die Blumen sind schön.", "fa": "گل‌ها زیبا هستند." },
+      { "de": "Die Katze schläft.", "fa": "گربه خوابیده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "9",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "das",
+    "meaning": "آن (خنثی معین)",
+    "antonyms": [],
+    "synonyms": ["dieses", "jenes"],
+    "sentences": [
+      { "de": "Das Kind spielt Fußball.", "fa": "کودک فوتبال بازی می‌کند." },
+      { "de": "Das Haus ist weiß.", "fa": "خانه سفید است." },
+      { "de": "Das Auto ist neu.", "fa": "ماشین جدید است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "dieser",
+    "meaning": "این (مذکر)",
+    "antonyms": [],
+    "synonyms": ["der da"],
+    "sentences": [
+      { "de": "Dieser Mann ist mein Lehrer.", "fa": "این مرد معلم من است." },
+      { "de": "Dieser Tisch ist größer als der andere.", "fa": "این میز بزرگ‌تر از میز دیگر است." },
+      { "de": "Dieser Film war sehr spannend.", "fa": "این فیلم خیلی هیجان‌انگیز بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "diese",
+    "meaning": "این (مؤنث)",
+    "antonyms": [],
+    "synonyms": ["die da"],
+    "sentences": [
+      { "de": "Diese Frau arbeitet in der Bank.", "fa": "این زن در بانک کار می‌کند." },
+      { "de": "Diese Blume ist sehr schön.", "fa": "این گل خیلی زیبا است." },
+      { "de": "Diese Idee gefällt mir gut.", "fa": "این ایده خیلی به من خوش می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "dieses",
+    "meaning": "این (خنثی)",
+    "antonyms": [],
+    "synonyms": ["das da"],
+    "sentences": [
+      { "de": "Dieses Buch ist interessant.", "fa": "این کتاب جالب است." },
+      { "de": "Dieses Haus ist neu.", "fa": "این خانه جدید است." },
+      { "de": "Dieses Problem ist einfach.", "fa": "این مشکل ساده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "jener",
+    "meaning": "آن (مذکر)",
+    "antonyms": [],
+    "synonyms": ["der dort"],
+    "sentences": [
+      { "de": "Jener Mann dort ist mein Nachbar.", "fa": "آن مرد آنجا همسایه من است." },
+      { "de": "Jener Berg ist sehr hoch.", "fa": "آن کوه خیلی بلند است." },
+      { "de": "Jener Wagen gehört meinem Freund.", "fa": "آن ماشین متعلق به دوست من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "jene",
+    "meaning": "آن (مؤنث)",
+    "antonyms": [],
+    "synonyms": ["die dort"],
+    "sentences": [
+      { "de": "Jene Frau ist meine Tante.", "fa": "آن زن عمه/خاله من است." },
+      { "de": "Jene Stadt liegt weit weg.", "fa": "آن شهر خیلی دور است." },
+      { "de": "Jene Lösung ist besser.", "fa": "آن راه‌حل بهتر است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "15",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "jenes",
+    "meaning": "آن (خنثی)",
+    "antonyms": [],
+    "synonyms": ["das dort"],
+    "sentences": [
+      { "de": "Jenes Kind spielt im Garten.", "fa": "آن کودک در باغ بازی می‌کند." },
+      { "de": "Jenes Auto ist sehr alt.", "fa": "آن ماشین خیلی قدیمی است." },
+      { "de": "Jenes Haus gehört meiner Familie.", "fa": "آن خانه متعلق به خانواده من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+
+]

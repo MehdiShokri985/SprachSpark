@@ -55,6 +55,16 @@ export class UIManager {
   }
 
   /**
+   * Generate type label HTML if type exists
+   */
+  getTypeLabelHTML() {
+    if (this.game.currentWord && this.game.currentWord.type) {
+      return `<span class="absolute top-0 left-0 text-xs px-2 py-1 bg-indigo-100 text-indigo-700 rounded-md font-medium">${this.game.currentWord.type}</span>`;
+    }
+    return "";
+  }
+
+  /**
    * نمایش سوال
    * Render current question
    */
@@ -75,7 +85,7 @@ export class UIManager {
       this.renderHardQuestion();
     } else {
       wordDisplay.className =
-        "falling-word text-4xl font-bold text-indigo-800 mb-4";
+        "falling-word text-4xl font-bold text-indigo-800 mb-4 relative";
       sentenceDisplay.classList.add("hidden");
       questionType.textContent = "";
 
@@ -85,27 +95,28 @@ export class UIManager {
         ? this.game.currentSentence
         : this.game.currentWord;
       const sureCount = target.sureCount || 0;
-
+      const typeLabel = this.getTypeLabelHTML();
+console.log(this.game.currentWord);
       switch (this.game.currentQuestionType.type) {
         case "de_to_fa":
-          wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.game.currentWord.word}</a>`;
+          wordDisplay.innerHTML = `${typeLabel}<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.game.currentWord.word}</a>`;
           questionType.textContent = "Auf Persisch übersetzen";
           break;
         case "word_with_sentence":
           sentenceDisplay.textContent = `"${this.game.currentSentence.fa}"`;
           sentenceDisplay.classList.remove("hidden");
           questionType.textContent = "Finde das Adjektiv";
-          wordDisplay.textContent = "?";
+          wordDisplay.innerHTML = `${typeLabel}?`;
           break;
         case "fa_to_de":
-          wordDisplay.textContent = this.game.currentWord.meaning;
+          wordDisplay.innerHTML = `${typeLabel}${this.game.currentWord.meaning}`;
           questionType.textContent = "Ins Deutsche übersetzen";
           break;
         case "sentence_only":
           sentenceDisplay.textContent = `"${this.game.currentSentence.de}"`;
           sentenceDisplay.classList.remove("hidden");
           questionType.textContent = "Was bedeutet dieser Satz?";
-          wordDisplay.textContent = "?";
+          wordDisplay.innerHTML = `${typeLabel}?`;
           break;
       }
 
@@ -290,7 +301,7 @@ export class UIManager {
       this.game.saveData();
     }
 
-    let content = `<div class="mb-4"><strong>Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-600 hover:underline">${this.game.currentWord.word}</a></div><div class="mb-1"><strong>Meaning:</strong> ${this.game.currentWord.meaning}</div>`;
+    let content = `<div class="mb-4"><strong>Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 text-lg font-bold hover:underline">${this.game.currentWord.word}</a></div><div class="mb-1"><strong>Meaning:</strong> ${this.game.currentWord.meaning}</div>`;
 
     if (
       this.game.currentWord.sentences &&

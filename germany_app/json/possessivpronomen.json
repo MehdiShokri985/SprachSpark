@@ -1,0 +1,1869 @@
+[
+  {
+    "id": "1",
+    "level": "A1",
+    "type": "Possessiv-Nominativ",
+    "word": "mein",
+    "meaning": "مال من",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das ist mein Buch.", "fa": "این کتاب من است." },
+      { "de": "Mein Auto ist rot.", "fa": "ماشین من قرمز است." },
+      { "de": "Mein Freund kommt heute.", "fa": "دوست من امروز می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A1",
+    "type": "Possessiv-Nominativ",
+    "word": "dein",
+    "meaning": "مال تو (غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ist das dein Handy?", "fa": "این گوشی تو است؟" },
+      { "de": "Dein Haus ist sehr schön.", "fa": "خانه تو خیلی زیبا است." },
+      { "de": "Dein Bruder ist groß.", "fa": "برادر تو قدبلند است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A1",
+    "type": "Possessiv-Nominativ",
+    "word": "sein",
+    "meaning": "مال او (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sein Name ist Max.", "fa": "اسم او ماکس است." },
+      { "de": "Sein Hund spielt im Garten.", "fa": "سگ او در باغ بازی می‌کند." },
+      { "de": "Sein Auto ist schnell.", "fa": "ماشین او سریع است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A1",
+    "type": "Possessiv-Nominativ",
+    "word": "ihr",
+    "meaning": "مال او (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihr Buch liegt auf dem Tisch.", "fa": "کتاب او (دختر) روی میز است." },
+      { "de": "Ihre Katze ist süß.", "fa": "گربه او (دختر) ناز است." },
+      { "de": "Ihr Kleid ist blau.", "fa": "لباس او (دختر) آبی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "5",
+    "level": "A1",
+    "type": "Possessiv-Nominativ",
+    "word": "unser",
+    "meaning": "مال ما",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Unser Lehrer ist nett.", "fa": "معلم ما مهربان است." },
+      { "de": "Unser Haus ist groß.", "fa": "خانه ما بزرگ است." },
+      { "de": "Unser Auto steht vor der Tür.", "fa": "ماشین ما جلوی در است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A1",
+    "type": "Possessiv-Nominativ",
+    "word": "euer",
+    "meaning": "مال شما (غیررسمی جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Euer Zimmer ist aufgeräumt.", "fa": "اتاق شما (جمع غیررسمی) تمیز است." },
+      { "de": "Euer Hund bellt laut.", "fa": "سگ شما (جمع غیررسمی) بلند پارس می‌کند." },
+      { "de": "Euer Vater arbeitet viel.", "fa": "پدر شما (جمع غیررسمی) خیلی کار می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A1",
+    "type": "Possessiv-Nominativ",
+    "word": "ihr",
+    "meaning": "مال آنها",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihr Haus ist in Berlin.", "fa": "خانه آنها در برلین است." },
+      { "de": "Ihre Kinder spielen Fußball.", "fa": "بچه‌های آنها فوتبال بازی می‌کنند." },
+      { "de": "Ihr Lehrer kommt aus Österreich.", "fa": "معلم آنها اهل اتریش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "8",
+    "level": "A1",
+    "type": "Possessiv-Nominativ",
+    "word": "Ihr",
+    "meaning": "مال شما (رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihr Name ist Frau Müller, oder?", "fa": "اسم شما خانم مولر است، مگر نه؟" },
+      { "de": "Ihr Büro ist im ersten Stock.", "fa": "دفتر شما در طبقه اول است." },
+      { "de": "Ihr Ticket liegt auf dem Tisch.", "fa": "بلیط شما روی میز است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  
+  {
+    "id": "9",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "meiner",
+    "meaning": "مال من (مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Meiner ist größer als deiner.", "fa": "مال من بزرگ‌تر از مال تو است." },
+      { "de": "Meiner Bruder kommt heute.", "fa": "برادر من امروز می‌آید." },
+      { "de": "Dieser Apfel ist meiner.", "fa": "این سیب مال من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "meine",
+    "meaning": "مال من (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Meine ist neu und schön.", "fa": "مال من جدید و زیبا است." },
+      { "de": "Meine Schwester wohnt in Berlin.", "fa": "خواهر من در برلین زندگی می‌کند." },
+      { "de": "Welche Tasche ist meine?", "fa": "کدام کیف مال من است؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "meins",
+    "meaning": "مال من (خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Meins ist teurer als deins.", "fa": "مال من گران‌تر از مال تو است." },
+      { "de": "Das Buch hier ist meins.", "fa": "این کتاب اینجا مال من است." },
+      { "de": "Meins funktioniert nicht gut.", "fa": "مال من خوب کار نمی‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "deiner",
+    "meaning": "مال تو (مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Deiner ist schneller als meiner.", "fa": "مال تو سریع‌تر از مال من است." },
+      { "de": "Deiner Freund wartet draußen.", "fa": "دوست تو بیرون منتظر است." },
+      { "de": "Ist dieser Stift deiner?", "fa": "آیا این خودکار مال تو است؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "deine",
+    "meaning": "مال تو (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Deine ist sehr praktisch.", "fa": "مال تو خیلی کاربردی است." },
+      { "de": "Deine Mutter kocht gut.", "fa": "مادر تو خوب آشپزی می‌کند." },
+      { "de": "Welche Jacke ist deine?", "fa": "کدام کت مال تو است؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "deins",
+    "meaning": "مال تو (خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Deins ist kleiner als meins.", "fa": "مال تو کوچکتر از مال من است." },
+      { "de": "Das Handy dort ist deins.", "fa": "آن گوشی آنجا مال تو است." },
+      { "de": "Deins gefällt mir besser.", "fa": "مال تو بیشتر به من می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "15",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "seiner",
+    "meaning": "مال او (مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Seiner ist kaputt.", "fa": "مال او خراب است." },
+      { "de": "Seiner Vater arbeitet viel.", "fa": "پدر او خیلی کار می‌کند." },
+      { "de": "Dieser Ball ist seiner.", "fa": "این توپ مال او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "16",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "seine",
+    "meaning": "مال او (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Seine ist alt aber schön.", "fa": "مال او قدیمی اما زیبا است." },
+      { "de": "Seine Schwester studiert Medizin.", "fa": "خواهر او پزشکی می‌خواند." },
+      { "de": "Die Idee ist seine.", "fa": "ایده مال او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "17",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "seins",
+    "meaning": "مال او (خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Seins liegt auf dem Tisch.", "fa": "مال او روی میز است." },
+      { "de": "Das Auto ist seins.", "fa": "ماشین مال او است." },
+      { "de": "Seins ist moderner als deins.", "fa": "مال او مدرن‌تر از مال تو است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "18",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "ihrer",
+    "meaning": "مال او (مونث) / مال آنها (مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihrer ist sehr teuer.", "fa": "مال او خیلی گران است." },
+      { "de": "Ihrer Mann ist Lehrer.", "fa": "شوهر او معلم است." },
+      { "de": "Dieser Computer ist ihrer.", "fa": "این کامپیوتر مال او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "19",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "ihre",
+    "meaning": "مال او (مونث) / مال آنها (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihre ist immer pünktlich.", "fa": "مال او همیشه به موقع است." },
+      { "de": "Ihre Freundin kommt morgen.", "fa": "دوست دختر او فردا می‌آید." },
+      { "de": "Die Wohnung ist ihre.", "fa": "آپارتمان مال او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "20",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "ihrs",
+    "meaning": "مال او (خنثی) / مال آنها (خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihrs steht vor dem Haus.", "fa": "مال او جلوی خانه است." },
+      { "de": "Das Fahrrad ist ihrs.", "fa": "دوچرخه مال او است." },
+      { "de": "Ihrs funktioniert perfekt.", "fa": "مال او عالی کار می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "21",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "unserer",
+    "meaning": "مال ما (مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Unserer ist der beste.", "fa": "مال ما بهترین است." },
+      { "de": "Unserer Lehrer erklärt gut.", "fa": "معلم ما خوب توضیح می‌دهد." },
+      { "de": "Dieser Platz ist unserer.", "fa": "این مکان مال ما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "22",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "unsere",
+    "meaning": "مال ما (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Unsere ist größer als eure.", "fa": "مال ما بزرگ‌تر از مال شما است." },
+      { "de": "Unsere Stadt ist schön.", "fa": "شهر ما زیبا است." },
+      { "de": "Die Katze ist unsere.", "fa": "گربه مال ما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "23",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "unsers",
+    "meaning": "مال ما (خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Unsers liegt im Garten.", "fa": "مال ما در باغ است." },
+      { "de": "Das Haus ist unsers.", "fa": "خانه مال ما است." },
+      { "de": "Unsers ist neu gekauft.", "fa": "مال ما تازه خریداری شده." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "24",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "eurer",
+    "meaning": "مال شما (غیررسمی، مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Eurer ist sehr modern.", "fa": "مال شما خیلی مدرن است." },
+      { "de": "Eurer Hund spielt draußen.", "fa": "سگ شما بیرون بازی می‌کند." },
+      { "de": "Dieser Garten ist eurer.", "fa": "این باغ مال شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "25",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "eure",
+    "meaning": "مال شما (غیررسمی، مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Eure ist immer sauber.", "fa": "مال شما همیشه تمیز است." },
+      { "de": "Eure Mutter backt Kuchen.", "fa": "مادر شما کیک می‌پزد." },
+      { "de": "Die Idee war eure.", "fa": "ایده مال شما بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "26",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "euers",
+    "meaning": "مال شما (غیررسمی، خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Euers steht im Hof.", "fa": "مال شما در حیاط است." },
+      { "de": "Das Auto ist euers.", "fa": "ماشین مال شما است." },
+      { "de": "Euers gefällt uns gut.", "fa": "مال شما به ما خوب می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "27",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "ihrer",
+    "meaning": "مال آنها (مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihrer ist kaputt gegangen.", "fa": "مال آنها خراب شد." },
+      { "de": "Ihrer Lehrer ist streng.", "fa": "معلم آنها سخت‌گیر است." },
+      { "de": "Dieser Tisch ist ihrer.", "fa": "این میز مال آنها است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "28",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "ihre",
+    "meaning": "مال آنها (مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihre ist neu renoviert.", "fa": "مال آنها تازه بازسازی شده." },
+      { "de": "Ihre Kinder spielen im Park.", "fa": "بچه‌های آنها در پارک بازی می‌کنند." },
+      { "de": "Die Verantwortung ist ihre.", "fa": "مسئولیت مال آنها است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "29",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "ihrs",
+    "meaning": "مال آنها (خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihrs liegt im Keller.", "fa": "مال آنها در زیرزمین است." },
+      { "de": "Das Haus dort ist ihrs.", "fa": "خانه آنجا مال آنها است." },
+      { "de": "Ihrs ist das größte.", "fa": "مال آنها بزرگ‌ترین است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "30",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "Ihrer",
+    "meaning": "مال شما (رسمی، مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihrer ist sehr elegant.", "fa": "مال شما خیلی شیک است." },
+      { "de": "Ihrer Kollege hilft mir.", "fa": "همکار شما به من کمک می‌کند." },
+      { "de": "Dieser Platz ist Ihrer.", "fa": "این مکان مال شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "31",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "Ihre",
+    "meaning": "مال شما (رسمی، مونث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihre ist immer freundlich.", "fa": "مال شما همیشه مهربان است." },
+      { "de": "Ihre Sekretärin ruft an.", "fa": "منشی شما تماس می‌گیرد." },
+      { "de": "Die Entscheidung ist Ihre.", "fa": "تصمیم مال شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "32",
+    "level": "A2",
+    "type": "Possessiv-Nominativ",
+    "word": "Ihrs",
+    "meaning": "مال شما (رسمی، خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ihrs funktioniert einwandfrei.", "fa": "مال شما بدون نقص کار می‌کند." },
+      { "de": "Das Büro ist Ihrs.", "fa": "دفتر مال شما است." },
+      { "de": "Ihrs gefällt mir sehr.", "fa": "مال شما خیلی به من می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "33",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "meinen",
+    "meaning": "مال من (مفعول مستقیم مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich sehe meinen Freund.", "fa": "من دوستِ من را می‌بینم." },
+      { "de": "Sie nimmt meinen neuen Koffer.", "fa": "او چمدان جدید من را برمی‌دارد." },
+      { "de": "Kannst du meinen Bruder anrufen?", "fa": "می‌توانی برادر من را تماس بگیری؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "34",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "deine",
+    "meaning": "مال تو (مفعول مستقیم مؤنث/جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich mag deine Schwester sehr.", "fa": "من خواهر تو را خیلی دوست دارم." },
+      { "de": "Er kauft deine Blumen.", "fa": "او گل‌های تو را می‌خرد." },
+      { "de": "Hast du deine Hausaufgaben gemacht?", "fa": "آیا تکالیف تو را انجام دادی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "35",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "deins",
+    "meaning": "مال تو (مفعول مستقیم خنثی - ضمیر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das ist deins, nicht meins.", "fa": "این مال تو است، نه مال من." },
+      { "de": "Ich habe deins gefunden.", "fa": "مال تو را پیدا کردم." },
+      { "de": "Nimm deins mit!", "fa": "مال خودت را با خودت ببر!" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "36",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "seinen",
+    "meaning": "مال او (مفعول مستقیم مذکر - او مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie liebt seinen Hund.", "fa": "او سگ او را دوست دارد." },
+      { "de": "Ich sehe seinen Vater oft.", "fa": "من پدر او را اغلب می‌بینم." },
+      { "de": "Er verkauft seinen alten Wagen.", "fa": "او ماشین قدیمی‌اش را می‌فروشد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "37",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "seine",
+    "meaning": "مال او (مفعول مستقیم مؤنث/جمع - او مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir besuchen seine Mutter.", "fa": "ما مادر او را ملاقات می‌کنیم." },
+      { "de": "Sie hat seine Bücher gelesen.", "fa": "او کتاب‌های او را خوانده است." },
+      { "de": "Kaufst du seine Tickets?", "fa": "بلیت‌های او را می‌خری؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "38",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "seins",
+    "meaning": "مال او (مفعول مستقیم خنثی - ضمیر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Buch ist seins.", "fa": "کتاب مال او است." },
+      { "de": "Ich nehme seins nicht.", "fa": "مال او را برنمی‌دارم." },
+      { "de": "Ist das wirklich seins?", "fa": "آیا این واقعاً مال او است؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "39",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "ihren",
+    "meaning": "مال او/آنها (مفعول مستقیم مذکر - او مؤنث/آنها)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich kenne ihren Chef.", "fa": "من رئیس او/آنها را می‌شناسم." },
+      { "de": "Er sieht ihren Garten.", "fa": "او باغ او/آنها را می‌بیند." },
+      { "de": "Sie hat ihren Bruder angerufen.", "fa": "او برادرش را تماس گرفته است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "40",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "ihre",
+    "meaning": "مال او/آنها (مفعول مستقیم مؤنث/جمع - او مؤنث/آنها)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir treffen ihre Freunde.", "fa": "ما دوستان او/آنها را ملاقات می‌کنیم." },
+      { "de": "Er liest ihre E-Mail.", "fa": "او ایمیل او را می‌خواند." },
+      { "de": "Hast du ihre Nummer?", "fa": "شماره او/آنها را داری؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "41",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "ihrs",
+    "meaning": "مال او/آنها (مفعول مستقیم خنثی - ضمیر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Haus ist ihrs.", "fa": "خانه مال او/آنها است." },
+      { "de": "Ich habe ihrs gesehen.", "fa": "مال او/آنها را دیده‌ام." },
+      { "de": "Ist das ihrs oder deins?", "fa": "این مال او است یا مال تو؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "42",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "unseren",
+    "meaning": "مال ما (مفعول مستقیم مذکر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie besuchen unseren Lehrer.", "fa": "آنها معلم ما را ملاقات می‌کنند." },
+      { "de": "Ich repariere unseren Computer.", "fa": "من کامپیوتر ما را تعمیر می‌کنم." },
+      { "de": "Wir lieben unseren Park.", "fa": "ما پارک خودمان را دوست داریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "43",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "unsere",
+    "meaning": "مال ما (مفعول مستقیم مؤنث/جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er kennt unsere Stadt.", "fa": "او شهر ما را می‌شناسد." },
+      { "de": "Sie hat unsere Ideen gehört.", "fa": "او ایده‌های ما را شنیده است." },
+      { "de": "Kauft ihr unsere Tickets?", "fa": "بلیت‌های ما را می‌خرید؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "44",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "unsers",
+    "meaning": "مال ما (مفعول مستقیم خنثی - ضمیر)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Auto ist unsers.", "fa": "ماشین مال ما است." },
+      { "de": "Nimm unsers nicht!", "fa": "مال ما را برندار!" },
+      { "de": "Ist das wirklich unsers?", "fa": "آیا این واقعاً مال ما است؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "45",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "euren",
+    "meaning": "مال شما (مفعول مستقیم مذکر - جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich sehe euren Hund.", "fa": "من سگ شما را می‌بینم." },
+      { "de": "Sie kennt euren Bruder.", "fa": "او برادر شما را می‌شناسد." },
+      { "de": "Wir besuchen euren Garten.", "fa": "ما باغ شما را ملاقات می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "46",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "eure",
+    "meaning": "مال شما (مفعول مستقیم مؤنث/جمع - جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er nimmt eure Sachen.", "fa": "او وسایل شما را برمی‌دارد." },
+      { "de": "Habt ihr eure Eltern angerufen?", "fa": "آیا والدین خود را تماس گرفتید؟" },
+      { "de": "Ich mag eure Ideen.", "fa": "من ایده‌های شما را دوست دارم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "47",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "euers",
+    "meaning": "مال شما (مفعول مستقیم خنثی - ضمیر جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das ist euers.", "fa": "این مال شما است." },
+      { "de": "Ich habe euers genommen.", "fa": "مال شما را برداشته‌ام." },
+      { "de": "Ist das euers oder ihrs?", "fa": "این مال شما است یا مال آنها؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "48",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "Ihren",
+    "meaning": "مال شما (مفعول مستقیم مذکر - رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich respektiere Ihren Vorschlag.", "fa": "من پیشنهاد شما را احترام می‌گذارم." },
+      { "de": "Sie kennt Ihren Mann.", "fa": "او شوهر شما را می‌شناسد." },
+      { "de": "Kann ich Ihren Ausweis sehen?", "fa": "می‌توانم کارت شناسایی شما را ببینم؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "49",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "Ihre",
+    "meaning": "مال شما (مفعول مستقیم مؤنث/جمع - رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir schätzen Ihre Meinung.", "fa": "ما نظر شما را ارزشمند می‌دانیم." },
+      { "de": "Er hat Ihre E-Mails gelesen.", "fa": "او ایمیل‌های شما را خوانده است." },
+      { "de": "Haben Sie Ihre Tickets?", "fa": "بلیت‌های شما را دارید؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "50",
+    "level": "A2",
+    "type": "Possessiv-Akkusativ",
+    "word": "Ihrs",
+    "meaning": "مال شما (مفعول مستقیم خنثی - ضمیر رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das ist Ihrs.", "fa": "این مال شما است." },
+      { "de": "Ich bringe Ihrs zurück.", "fa": "مال شما را برمی‌گردانم." },
+      { "de": "Gehört das wirklich Ihrs?", "fa": "آیا این واقعاً مال شما است؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "51",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "meinem",
+    "meaning": "مال من (مذکر/خنثی - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe meinem Freund ein Buch.", "fa": "من به دوستِ من یک کتاب می‌دهم." },
+      { "de": "Sie hilft meinem Bruder bei den Hausaufgaben.", "fa": "او به برادر من در تکالیف کمک می‌کند." },
+      { "de": "Das Geschenk ist für meinem Vater bestimmt.", "fa": "هدیه برای پدر من در نظر گرفته شده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "52",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "meiner",
+    "meaning": "مال من (مؤنث - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich schenke meiner Schwester Blumen.", "fa": "من به خواهرِ من گل هدیه می‌دهم." },
+      { "de": "Er antwortet meiner Mutter nicht.", "fa": "او به مادر من جواب نمی‌دهد." },
+      { "de": "Das Problem gehört zu meiner Tante.", "fa": "این مشکل مربوط به عمه/خاله من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "53",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "meinen",
+    "meaning": "مال من (جمع - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich vertraue meinen Freunden vollkommen.", "fa": "من کاملاً به دوستانم اعتماد دارم." },
+      { "de": "Sie dankt meinen Eltern für die Einladung.", "fa": "او به والدین من برای دعوت تشکر می‌کند." },
+      { "de": "Das Auto gehört meinen Geschwistern.", "fa": "ماشین متعلق به خواهر و برادرهای من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "54",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "deinem",
+    "meaning": "مال تو (مذکر/خنثی - داتیو، غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich leihe deinem Bruder mein Fahrrad.", "fa": "من دوچرخه‌ام را به برادر تو قرض می‌دهم." },
+      { "de": "Sie schreibt deinem Vater einen Brief.", "fa": "او به پدر تو نامه می‌نویسد." },
+      { "de": "Das gehört deinem Onkel, oder?", "fa": "این مال عمو/دایی تو است، مگر نه؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "55",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "deiner",
+    "meaning": "مال تو (مؤنث - داتیو، غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich helfe deiner Schwester gerne.", "fa": "من با کمال میل به خواهر تو کمک می‌کنم." },
+      { "de": "Er gibt deiner Mutter das Paket.", "fa": "او بسته را به مادر تو می‌دهد." },
+      { "de": "Das ist das Haus deiner Großmutter.", "fa": "این خانه مادربزرگ تو است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "56",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "deinen",
+    "meaning": "مال تو (جمع - داتیو، غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich vertraue deinen Freunden nicht.", "fa": "من به دوستان تو اعتماد ندارم." },
+      { "de": "Sie dankt deinen Eltern herzlich.", "fa": "او صمیمانه از والدین تو تشکر می‌کند." },
+      { "de": "Das Auto ist für deinen Geschwistern.", "fa": "این ماشین برای خواهر و برادرهای تو است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "57",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "seinem",
+    "meaning": "مال او (مذکر/خنثی - داتیو، سوم شخص)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie gibt seinem Lehrer ein Geschenk.", "fa": "او به معلم او هدیه می‌دهد." },
+      { "de": "Ich helfe seinem Bruder bei der Arbeit.", "fa": "من به برادر او در کار کمک می‌کنم." },
+      { "de": "Das Buch gehört seinem Vater.", "fa": "کتاب متعلق به پدر او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "58",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "seiner",
+    "meaning": "مال او (مؤنث - داتیو، سوم شخص)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er schreibt seiner Freundin einen Brief.", "fa": "او به دوست‌دخترش نامه می‌نویسد." },
+      { "de": "Ich antworte seiner Mutter sofort.", "fa": "من فوراً به مادر او جواب می‌دهم." },
+      { "de": "Das ist das Auto seiner Schwester.", "fa": "این ماشین خواهر او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "59",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "seinen",
+    "meaning": "مال او (جمع - داتیو، سوم شخص)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie hilft seinen Freunden beim Umzug.", "fa": "او به دوستان او در اسباب‌کشی کمک می‌کند." },
+      { "de": "Ich danke seinen Eltern für die Hilfe.", "fa": "من از والدین او برای کمک تشکر می‌کنم." },
+      { "de": "Das gehört seinen Geschwistern.", "fa": "این متعلق به خواهر و برادرهای او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "60",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "ihrem",
+    "meaning": "مال او (مذکر/خنثی - داتیو، سوم شخص مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe ihrem Mann das Paket.", "fa": "من بسته را به شوهر او می‌دهم." },
+      { "de": "Er hilft ihrem Bruder bei Mathe.", "fa": "او به برادر او در ریاضی کمک می‌کند." },
+      { "de": "Das Geschenk ist für ihrem Vater.", "fa": "هدیه برای پدر او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "61",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "ihrer",
+    "meaning": "مال او (مؤنث - داتیو، سوم شخص مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er schreibt ihrer Schwester eine Karte.", "fa": "او به خواهر او کارت پستال می‌نویسد." },
+      { "de": "Sie dankt ihrer Mutter für alles.", "fa": "او از مادرش برای همه چیز تشکر می‌کند." },
+      { "de": "Das Haus gehört ihrer Tante.", "fa": "خانه متعلق به عمه/خاله او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "62",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "ihren",
+    "meaning": "مال او (جمع - داتیو، سوم شخص مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich vertraue ihren Freunden nicht ganz.", "fa": "من کاملاً به دوستان او اعتماد ندارم." },
+      { "de": "Er hilft ihren Eltern im Garten.", "fa": "او به والدین او در باغ کمک می‌کند." },
+      { "de": "Das Auto ist für ihren Geschwistern.", "fa": "ماشین برای خواهر و برادرهای او است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "63",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "unserem",
+    "meaning": "مال ما (مذکر/خنثی - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie gibt unserem Lehrer das Buch zurück.", "fa": "او کتاب را به معلم ما برمی‌گرداند." },
+      { "de": "Ich helfe unserem Nachbarn.", "fa": "من به همسایه ما کمک می‌کنم." },
+      { "de": "Das gehört unserem Vater.", "fa": "این مال پدر ما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "64",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "unserer",
+    "meaning": "مال ما (مؤنث - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er schreibt unserer Lehrerin eine E-Mail.", "fa": "او به معلم زن ما ایمیل می‌نویسد." },
+      { "de": "Sie dankt unserer Mutter.", "fa": "او از مادر ما تشکر می‌کند." },
+      { "de": "Das Haus ist für unserer Großmutter.", "fa": "خانه برای مادربزرگ ما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "65",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "unseren",
+    "meaning": "مال ما (جمع - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich vertraue unseren Freunden.", "fa": "من به دوستان ما اعتماد دارم." },
+      { "de": "Sie hilft unseren Eltern.", "fa": "او به والدین ما کمک می‌کند." },
+      { "de": "Das Auto gehört unseren Geschwistern.", "fa": "ماشین متعلق به خواهر و برادرهای ما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "66",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "eurem",
+    "meaning": "مال شما (مذکر/خنثی - داتیو، غیررسمی جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe eurem Bruder das Ticket.", "fa": "من بلیت را به برادر شما می‌دهم." },
+      { "de": "Sie hilft eurem Vater.", "fa": "او به پدر شما کمک می‌کند." },
+      { "de": "Das Geschenk ist für eurem Onkel.", "fa": "هدیه برای عمو/دایی شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "67",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "eurer",
+    "meaning": "مال شما (مؤنث - داتیو، غیررسمی جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er schreibt eurer Schwester.", "fa": "او به خواهر شما می‌نویسد." },
+      { "de": "Ich danke eurer Mutter.", "fa": "من از مادر شما تشکر می‌کنم." },
+      { "de": "Das gehört eurer Tante.", "fa": "این مال عمه/خاله شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "68",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "euren",
+    "meaning": "مال شما (جمع - داتیو، غیررسمی جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir helfen euren Freunden.", "fa": "ما به دوستان شما کمک می‌کنیم." },
+      { "de": "Sie dankt euren Eltern.", "fa": "او از والدین شما تشکر می‌کند." },
+      { "de": "Das Auto ist für euren Geschwistern.", "fa": "ماشین برای خواهر و برادرهای شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "69",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "ihrem",
+    "meaning": "مال آنها (مذکر/خنثی - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe ihrem Chef Bescheid.", "fa": "من به رئیس آنها اطلاع می‌دهم." },
+      { "de": "Sie hilft ihrem Nachbarn.", "fa": "او به همسایه آنها کمک می‌کند." },
+      { "de": "Das Paket ist für ihrem Vater.", "fa": "بسته برای پدر آنها است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "70",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "ihrer",
+    "meaning": "مال آنها (مؤنث - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er schreibt ihrer Lehrerin.", "fa": "او به معلم زن آنها نامه می‌نویسد." },
+      { "de": "Ich danke ihrer Mutter.", "fa": "من از مادر آنها تشکر می‌کنم." },
+      { "de": "Das Haus gehört ihrer Großmutter.", "fa": "خانه متعلق به مادربزرگ آنها است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "71",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "ihren",
+    "meaning": "مال آنها (جمع - داتیو)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir helfen ihren Freunden.", "fa": "ما به دوستان آنها کمک می‌کنیم." },
+      { "de": "Sie dankt ihren Eltern.", "fa": "او از والدین آنها تشکر می‌کند." },
+      { "de": "Das gehört ihren Geschwistern.", "fa": "این متعلق به خواهر و برادرهای آنها است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "72",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "Ihrem",
+    "meaning": "مال شما (مذکر/خنثی - داتیو، رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe Ihrem Kollegen die Information.", "fa": "من اطلاعات را به همکار شما می‌دهم." },
+      { "de": "Sie hilft Ihrem Mann gerne.", "fa": "او با کمال میل به همسر شما کمک می‌کند." },
+      { "de": "Das Paket ist für Ihrem Vater.", "fa": "بسته برای پدر شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "73",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "Ihrer",
+    "meaning": "مال شما (مؤنث - داتیو، رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich schreibe Ihrer Frau eine E-Mail.", "fa": "من به همسر شما ایمیل می‌نویسم." },
+      { "de": "Er dankt Ihrer Mutter.", "fa": "او از مادر شما تشکر می‌کند." },
+      { "de": "Das ist das Auto Ihrer Schwester.", "fa": "این ماشین خواهر شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "74",
+    "level": "B1",
+    "type": "Possessiv-Dativ",
+    "word": "Ihren",
+    "meaning": "مال شما (جمع - داتیو، رسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir helfen Ihren Freunden.", "fa": "ما به دوستان شما کمک می‌کنیم." },
+      { "de": "Sie dankt Ihren Eltern herzlich.", "fa": "او صمیمانه از والدین شما تشکر می‌کند." },
+      { "de": "Das gehört Ihren Geschwistern.", "fa": "این متعلق به خواهر و برادرهای شما است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "75",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "meines",
+    "meaning": "مال من (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wegen meines Fehlers musste ich alles wiederholen.", "fa": "به خاطر اشتباه من باید همه چیز را دوباره تکرار کنم." },
+      { "de": "Das Ergebnis meines Experiments war überraschend.", "fa": "نتیجه آزمایش من تعجب‌آور بود." },
+      { "de": "Trotz meines Versuchs hat es nicht funktioniert.", "fa": "با وجود تلاش من کار نکرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "76",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "meiner",
+    "meaning": "مال من (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Farbe meiner Tasche gefällt mir nicht mehr.", "fa": "رنگ کیف من دیگر خوشم نمی‌آید." },
+      { "de": "Wegen meiner Krankheit konnte ich nicht kommen.", "fa": "به خاطر بیماری من نتوانستم بیایم." },
+      { "de": "Erinnerst du dich an meiner Schwester Haus?", "fa": "یادت هست خانه خواهر من؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "77",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "meiner",
+    "meaning": "مال من (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Auto meiner Freundin ist kaputt.", "fa": "ماشین دوست دختر من خراب است." },
+      { "de": "Trotz meiner Idee wurde das Projekt abgelehnt.", "fa": "با وجود ایده من پروژه رد شد." },
+      { "de": "Die Qualität meiner Arbeit wurde gelobt.", "fa": "کیفیت کار من تحسین شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "78",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "deines",
+    "meaning": "مال تو (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das ist das Ergebnis deines Plans.", "fa": "این نتیجه برنامه تو است." },
+      { "de": "Wegen deines Fehlers haben wir Zeit verloren.", "fa": "به خاطر اشتباه تو زمان از دست دادیم." },
+      { "de": "Ich habe von deines Bruders Erfolg gehört.", "fa": "از موفقیت برادر تو شنیدم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "79",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "deiner",
+    "meaning": "مال تو (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Meinung deiner Lehrerin ist wichtig.", "fa": "نظر معلم زن تو مهم است." },
+      { "de": "Trotz deiner Hilfe war es schwierig.", "fa": "با وجود کمک تو سخت بود." },
+      { "de": "Das Haus deiner Mutter ist sehr schön.", "fa": "خانه مادر تو خیلی قشنگ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "80",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "deiner",
+    "meaning": "مال تو (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich erinnere mich an deiner Schwester Geburtstag.", "fa": "یاد تولد خواهر تو هستم." },
+      { "de": "Die Farbe deiner Jacke passt gut.", "fa": "رنگ کت تو خوب می‌آید." },
+      { "de": "Wegen deiner Entscheidung müssen wir warten.", "fa": "به خاطر تصمیم تو باید صبر کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "81",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "seines",
+    "meaning": "مال او (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Buch seines Vaters liegt auf dem Tisch.", "fa": "کتاب پدر او روی میز است." },
+      { "de": "Wegen seines Alters darf er nicht mehr fahren.", "fa": "به خاطر سن او دیگر نمی‌تواند رانندگی کند." },
+      { "de": "Der Erfolg seines Teams war beeindruckend.", "fa": "موفقیت تیم او چشمگیر بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "82",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "seiner",
+    "meaning": "مال او (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Tasche seiner Frau ist neu.", "fa": "کیف همسر او نو است." },
+      { "de": "Trotz seiner Mutter Rat hat er es gemacht.", "fa": "با وجود نصیحت مادر او این کار را کرد." },
+      { "de": "Ich habe von seiner Schwester Geschichte gehört.", "fa": "از داستان خواهر او شنیدم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "83",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "seiner",
+    "meaning": "مال او (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Idee seiner Freundin war kreativ.", "fa": "ایده دوست دختر او خلاقانه بود." },
+      { "de": "Wegen seiner Lehrerin hat er bessere Noten.", "fa": "به خاطر معلم زن او نمرات بهتری گرفته." },
+      { "de": "Das Auto seiner Kollegin ist rot.", "fa": "ماشین همکار زن او قرمز است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "84",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "ihres",
+    "meaning": "مال او (مؤنث - مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Haus ihres Vaters ist groß.", "fa": "خانه پدر او بزرگ است." },
+      { "de": "Wegen ihres Erfolgs wurde sie befördert.", "fa": "به خاطر موفقیت او ترفیع گرفت." },
+      { "de": "Die Qualität ihres Projekts war hoch.", "fa": "کیفیت پروژه او بالا بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "85",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "ihrer",
+    "meaning": "مال او (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Meinung ihrer Mutter ist wichtig.", "fa": "نظر مادر او مهم است." },
+      { "de": "Trotz ihrer Schwester Hilfe war es schwer.", "fa": "با وجود کمک خواهر او سخت بود." },
+      { "de": "Das Zimmer ihrer Freundin ist sauber.", "fa": "اتاق دوست دختر او تمیز است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "86",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "ihrer",
+    "meaning": "مال او (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich kenne ihrer Kollegin Namen nicht.", "fa": "نام همکار زن او را نمی‌دانم." },
+      { "de": "Die Farbe ihrer Jacke ist schön.", "fa": "رنگ کت او قشنگ است." },
+      { "de": "Wegen ihrer Tante konnte sie nicht kommen.", "fa": "به خاطر خاله او نتوانست بیاید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "87",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "unseres",
+    "meaning": "مال ما (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Auto unseres Nachbarn ist neu.", "fa": "ماشین همسایه ما نو است." },
+      { "de": "Wegen unseres Fehlers mussten wir warten.", "fa": "به خاطر اشتباه ما باید صبر می‌کردیم." },
+      { "de": "Der Garten unseres Hauses ist klein.", "fa": "باغ خانه ما کوچک است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "88",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "unserer",
+    "meaning": "مال ما (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Idee unserer Lehrerin war gut.", "fa": "ایده معلم زن ما خوب بود." },
+      { "de": "Trotz unserer Mutter Rat haben wir es versucht.", "fa": "با وجود نصیحت مادر ما امتحان کردیم." },
+      { "de": "Die Arbeit unserer Gruppe war erfolgreich.", "fa": "کار گروه ما موفق بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "89",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "unserer",
+    "meaning": "مال ما (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Zimmer unserer Schwester ist aufgeräumt.", "fa": "اتاق خواهر ما مرتب است." },
+      { "de": "Wegen unserer Tante Besuch sind wir zu Hause.", "fa": "به خاطر بازدید خاله ما در خانه هستیم." },
+      { "de": "Die Farbe unserer neuen Tasche gefällt mir.", "fa": "رنگ کیف جدید ما خوشم می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "90",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "eures",
+    "meaning": "مال شما (مذکر/خنثی - غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das ist das Problem eures Teams.", "fa": "این مشکل تیم شما است." },
+      { "de": "Wegen eures Fehlers wurde das Projekt verschoben.", "fa": "به خاطر اشتباه شما پروژه به تعویق افتاد." },
+      { "de": "Der Hund eures Nachbarn bellt laut.", "fa": "سگ همسایه شما بلند پارس می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "91",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "eurer",
+    "meaning": "مال شما (مؤنث - غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Meinung eurer Lehrerin zählt.", "fa": "نظر معلم زن شما مهم است." },
+      { "de": "Trotz eurer Hilfe war es nicht genug.", "fa": "با وجود کمک شما کافی نبود." },
+      { "de": "Das Haus eurer Eltern ist groß.", "fa": "خانه والدین شما بزرگ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "92",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "eurer",
+    "meaning": "مال شما (مؤنث - غیررسمی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich war bei eurer Schwester Party.", "fa": "در مهمانی خواهر شما بودم." },
+      { "de": "Die Qualität eurer Arbeit ist gut.", "fa": "کیفیت کار شما خوب است." },
+      { "de": "Wegen eurer Entscheidung müssen wir umplanen.", "fa": "به خاطر تصمیم شما باید برنامه‌ریزی مجدد کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "93",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "ihres",
+    "meaning": "مال آنها (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das Auto ihres Freundes ist schnell.", "fa": "ماشین دوست آنها سریع است." },
+      { "de": "Wegen ihres Plans hat alles geklappt.", "fa": "به خاطر برنامه آنها همه چیز درست شد." },
+      { "de": "Der Garten ihres Hauses ist schön.", "fa": "باغ خانه آنها قشنگ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "94",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "ihrer",
+    "meaning": "مال آنها (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Kinder ihrer Schwester spielen draußen.", "fa": "بچه‌های خواهر آنها بیرون بازی می‌کنند." },
+      { "de": "Trotz ihrer Mutter Hilfe war es schwer.", "fa": "با وجود کمک مادر آنها سخت بود." },
+      { "de": "Die Tasche ihrer Kollegin ist teuer.", "fa": "کیف همکار زن آنها گران است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "95",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "ihrer",
+    "meaning": "مال آنها (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe ihrer Tante Adresse vergessen.", "fa": "آدرس خاله آنها را فراموش کردم." },
+      { "de": "Die Idee ihrer Gruppe war innovativ.", "fa": "ایده گروه آنها نوآورانه بود." },
+      { "de": "Wegen ihrer Entscheidung feiern wir.", "fa": "به خاطر تصمیم آنها جشن می‌گیریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "96",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "Ihres",
+    "meaning": "مال شما (رسمی - مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Das ist der Bericht Ihres Unternehmens.", "fa": "این گزارش شرکت شما است." },
+      { "de": "Wegen Ihres Vorschlags haben wir das Problem gelöst.", "fa": "به خاطر پیشنهاد شما مشکل را حل کردیم." },
+      { "de": "Die Qualität Ihres Produkts ist ausgezeichnet.", "fa": "کیفیت محصول شما عالی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "97",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "Ihrer",
+    "meaning": "مال شما (رسمی - مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Sekretärin Ihrer Frau hat angerufen.", "fa": "منشی همسر شما تماس گرفت." },
+      { "de": "Trotz Ihrer Hilfe konnten wir es nicht schaffen.", "fa": "با وجود کمک شما نتوانستیم موفق شویم." },
+      { "de": "Das Büro Ihrer Kollegin ist im dritten Stock.", "fa": "دفتر همکار زن شما در طبقه سوم است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "98",
+    "level": "B1",
+    "type": "Possessiv-Genitiv",
+    "word": "Ihrer",
+    "meaning": "مال شما (رسمی - مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich danke Ihrer Mitarbeiterin für die Unterstützung.", "fa": "از сотрудница شما برای حمایت تشکر می‌کنم." },
+      { "de": "Die Idee Ihrer Partnerin war sehr hilfreich.", "fa": "ایده شریک زن شما خیلی کمک‌کننده بود." },
+      { "de": "Wegen Ihrer Entscheidung ist das Meeting verschoben.", "fa": "به خاطر تصمیم شما جلسه به تعویق افتاد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+
+
+
+
+]

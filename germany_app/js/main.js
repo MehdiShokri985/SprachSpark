@@ -34,7 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const titles = {
       adjektive: "German Adjectives",
       konnektoren: "German Konnektoren",
-      personalpronomen: "German Personalpronomen"
+      personalpronomen: "German Personalpronomen",
+      possessivpronomen: "German Possessivpronomen",
+      präpositionen: "German Präpositionen",
+      demonstrativpronomen: "German Demonstrativpronomen",
     };
 
     document.getElementById("pageTitle").textContent = titles[dataset] || "German Learning";

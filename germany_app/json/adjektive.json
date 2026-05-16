@@ -1517,13 +1517,13 @@
     "id": "75",
     "level": "A2",
     "word": "fleißig",
-    "meaning": "زحمتکش /勤奋",
+    "meaning": "زحمتکش",
     "antonyms": ["faul"],
     "synonyms": ["arbeitsam"],
     "sentences": [
       { "de": "Sie ist eine fleißige Studentin.", "fa": "او دانشجوی زحمتکشی است." },
-      { "de": "Er arbeitet sehr fleißig.", "fa": "او خیلی勤奋 کار می‌کند." },
-      { "de": "Das ist die fleißigste Klasse.", "fa": "این勤奋‌ترین کلاس است." }
+      { "de": "Er arbeitet sehr fleißig.", "fa": "او خیلی سخت کار می‌کند." },
+      { "de": "Das ist die fleißigste Klasse.", "fa": "این سخت کوش ترین کلاس است." }
     ],
     "strength": 0.2,
     "correctStreak": 0,
@@ -2706,7 +2706,7 @@
     "id": "141",
     "level": "B1",
     "word": "sympathisch",
-    "meaning": "دوست‌داشتنی، симпатичный",
+    "meaning": "دوست‌داشتنی",
     "antonyms": ["unsympathisch"],
     "synonyms": ["liebenswürdig", "nett"],
     "sentences": [

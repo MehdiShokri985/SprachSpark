@@ -52,7 +52,145 @@ export class UIManager {
     // آمار سطح
     document.getElementById("levelStats").innerHTML =
       `Wörter: <strong>${levelWords.length}</strong> | Richtig: <strong class="text-green-500">${currentState.correctAnswers}</strong> | Falsch: <strong class="text-red-500">${currentState.wrongAnswers}</strong>`;
+    // رندر مربع‌های پیشرفت کلمات
+    //########################################################################################
+    //########################################################################################
+    //########################################################################################
+    this.renderWordProgressSquares(levelWords);
+ 
+    }
+
+     /**
+   * رندر مربع‌های پیشرفت کلمات
+   * Render word progress squares
+   */
+  // renderWordProgressSquares(levelWords) {
+  //   const container = document.getElementById("wordProgressSquares");
+  //   container.innerHTML = "";
+
+    // ایجاد آرایه با ایندکس‌ها برای تصادفی‌سازی
+  //      * تولید و ذخیره ترتیب تصادفی مربع‌ها در localStorage
+  //  * Generate and store random square order in localStorage
+  //  */
+  generateRandomSquareOrder(levelWords) {
+    const indices = levelWords.map((_, index) => index);
+    // تصادفی‌سازی ترتیب بصری
+    for (let i = indices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [indices[i], indices[j]] = [indices[j], indices[i]];
+    }
+
+    
+    // ذخیره در localStorage
+    const storageKey = `langgame_squareOrder_${this.game.dataSetName}_${this.game.currentNiveau}_${this.game.currentMode}`;
+    localStorage.setItem(storageKey, JSON.stringify(indices));
+
+    return indices;
   }
+
+  /**
+   * دریافت ترتیب ذخیره شده مربع‌ها از localStorage
+   * Get stored square order from localStorage
+   */
+  getStoredSquareOrder(levelWords) {
+    const storageKey = `langgame_squareOrder_${this.game.dataSetName}_${this.game.currentNiveau}_${this.game.currentMode}`;
+    const stored = localStorage.getItem(storageKey);
+
+    if (stored) {
+      const indices = JSON.parse(stored);
+      // بررسی اعتبار: اگر تعداد کلمات تغییر کرده باشد، ترتیب جدید تولید کن
+      if (indices.length === levelWords.length) {
+        return indices;
+      }
+    }
+
+    // اگر ترتیب ذخیره شده وجود ندارد یا نامعتبر است، ترتیب جدید تولید کن
+    return this.generateRandomSquareOrder(levelWords);
+  }
+
+  /**
+   * رندر مربع‌های پیشرفت کلمات
+   * Render word progress squares
+   */
+  renderWordProgressSquares(levelWords) {
+    const container = document.getElementById("wordProgressSquares");
+    container.innerHTML = "";
+
+    // دریافت ترتیب ذخیره شده (یا تولید جدید اگر وجود ندارد)
+    const indices = this.getStoredSquareOrder(levelWords);
+
+
+
+
+
+
+
+    indices.forEach((originalIndex) => {
+      const word = levelWords[originalIndex];
+      const sureCount = word.sureCount || 0;
+
+      const square = document.createElement("div");
+      square.className = "w-3 h-3 cursor-pointer transition-all hover:scale-125";
+      square.style.borderRadius = "2px";
+
+      // تعیین رنگ بر اساس sureCount
+      if (sureCount === 0) {
+        square.style.backgroundColor = "#9ca3af"; // gray
+      } else if (sureCount === 1) {
+        square.style.backgroundColor = "#86efac"; // light green
+      } else if (sureCount === 2) {
+        square.style.backgroundColor = "#22c55e"; // dark green
+      } else if (sureCount === -1) {
+        square.style.backgroundColor = "#fca5a5"; // light red
+      } else if (sureCount === -2) {
+        square.style.backgroundColor = "#ef4444"; // stronger red
+      } else if (sureCount < -2) {
+        // سایر مقادیر منفی - قرمز تیره‌تر
+        const intensity = Math.min(Math.abs(sureCount) - 1, 3);
+        const redValue = Math.max(100, 220 - intensity * 30);
+        square.style.backgroundColor = `rgb(${redValue}, 50, 50)`;
+      }
+
+      // کلیک روی مربع
+      square.addEventListener("click", () => {
+        this.openWordDetailsModal(word);
+      });
+
+      container.appendChild(square);
+    });
+  }
+
+  /**
+   * باز کردن مودال جزئیات کلمه با مخفی کردن آیکون، عنوان و پیام
+   * Open word details modal with icon, title, and message hidden
+   */
+  openWordDetailsModal(word) {
+    const modal = document.getElementById("resultModal");
+
+    // مخفی کردن فقط آیکون، عنوان و پیام
+    document.getElementById("modalIcon").classList.add("hidden");
+    document.getElementById("modalTitle").classList.add("hidden");
+    document.getElementById("modalMessage").classList.add("hidden");
+
+    // نمایش جزئیات کلمه
+    let content = `<div class="mb-4"><strong>Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(word.word)}" target="_blank" class="text-indigo-800 text-lg font-bold hover:underline">${word.word}</a></div><div class="mb-1"><strong>Meaning:</strong> ${word.meaning}</div>`;
+    content += `<div class="mb-1"><strong>Sure Count:</strong> ${word.sureCount || 0}</div>`;
+
+    if (word.sentences && word.sentences.length > 0) {
+      content += `<div class="mt-4"><strong>Example Sentences:</strong></div>`;
+      word.sentences.slice(0, 3).forEach((s) => {
+        content += `<div class="mt-3 pt-3 border-t border-gray-200"><div class="text-sm text-blue-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1 text-right rtl" dir="rtl">"${s.fa}"</div></div>`;
+      });
+    }
+
+    document.getElementById("modalDetails").innerHTML = content;
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+  }
+
+  //#########################################################################################
+  //#########################################################################################
+  //#########################################################################################
 
   /**
    * Generate type label HTML if type exists
@@ -443,9 +581,19 @@ console.log(this.game.currentWord);
   }
 
   closeModal() {
+
+
     const modal = document.getElementById("resultModal");
     modal.classList.add("hidden");
     modal.classList.remove("flex");
+
+        // بازگردانی عناصر مخفی شده
+    document.getElementById("modalIcon").classList.remove("hidden");
+    document.getElementById("modalTitle").classList.remove("hidden");
+    document.getElementById("modalMessage").classList.remove("hidden");
+
+
+
     this.game.isAnswering = false;
 
     if (

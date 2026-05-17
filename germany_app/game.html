@@ -109,7 +109,7 @@
           <div id="fallingWord" class="falling-word text-2xl font-bold text-indigo-800 mb-4">
             Klicke auf „Spiel starten“, um zu beginnen.
           </div>
-          <div id="sentenceDisplay" class="text-lg text-gray-600 mt-4 hidden"></div>
+          <div id="sentenceDisplay" dir="rtl" class="text-lg text-gray-600 mt-4 hidden"></div>
           <div id="questionType" class="text-sm text-gray-500 mt-2"></div>
         </div>
       </div>
@@ -179,12 +179,12 @@
 
   <!-- Result Modal -->
   <div id="resultModal" class="fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50">
-    <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all">
+    <div class="bg-white rounded-2xl shadow-2xl p-4 max-w-md mx-4 transform transition-all">
       <div class="text-center">
         <div id="modalIcon" class="text-6xl mb-4"></div>
         <h2 id="modalTitle" class="text-2xl font-bold mb-2"></h2>
-        <p id="modalMessage" class="text-gray-600 mb-6"></p>
-        <div id="modalDetails" class="bg-gray-50 rounded-lg p-4 mb-6 text-left text-sm"></div>
+        <p id="modalMessage" class="text-gray-600 mb-2"></p>
+        <div id="modalDetails" class="bg-gray-50 rounded-lg p-2 mb-2 text-left text-sm"></div>
         <button id="modalCloseBtn" class="mt-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-indigo-600 hover:to-purple-700 transition-all">
           Weiter
         </button>
@@ -215,7 +215,7 @@
 
     <div class="relative text-center">
       
-      <div class="text-7xl mb-5 drop-shadow-lg animate-bounce">
+      <div class="text-5xl mb-5 drop-shadow-lg animate-bounce">
         😎
       </div>
 

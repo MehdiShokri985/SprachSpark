@@ -6,6 +6,7 @@
 export class UIManager {
   constructor(game) {
     this.game = game; // مرجع به instance اصلی بازی
+     this.modalSource = null; // Track where the modal was opened from
   }
 
   /**
@@ -166,6 +167,7 @@ export class UIManager {
    */
   openWordDetailsModal(word) {
     const modal = document.getElementById("resultModal");
+     this.modalSource = 'progressSquare';
 
     // مخفی کردن فقط آیکون، عنوان و پیام
     document.getElementById("modalIcon").classList.add("hidden");
@@ -179,7 +181,7 @@ export class UIManager {
     if (word.sentences && word.sentences.length > 0) {
       content += `<div class="mt-4"><strong>Example Sentences:</strong></div>`;
       word.sentences.slice(0, 3).forEach((s) => {
-        content += `<div class="mt-3 pt-3 border-t border-gray-200"><div class="text-sm text-blue-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1 text-right rtl" dir="rtl">"${s.fa}"</div></div>`;
+        content += `<div class="pt-1 border-t border-gray-200"><div class="text-sm text-blue-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1 text-right rtl" dir="rtl">"${s.fa}"</div></div>`;
       });
     }
 
@@ -403,11 +405,12 @@ console.log(this.game.currentWord);
    */
   showResult(isCorrect, correctAnswer) {
     const modal = document.getElementById("resultModal");
+    this.modalSource = 'answerFlow';
     this.displayOriginalSentence();
     const currentState = this.game.getCurrentState();
 
     if (isCorrect) {
-      document.getElementById("modalIcon").textContent = "✅";
+      document.getElementById("modalIcon").textContent = "";
       document.getElementById("modalTitle").textContent = "Correct!";
       document.getElementById("modalTitle").className =
         "text-2xl font-bold mb-2 text-green-600";
@@ -415,7 +418,7 @@ console.log(this.game.currentWord);
         "Great job! Keep it up!";
       this.playSound("correct");
     } else {
-      document.getElementById("modalIcon").textContent = "❌";
+      document.getElementById("modalIcon").textContent = "";
       document.getElementById("modalTitle").textContent = "Wrong";
       document.getElementById("modalTitle").className =
         "text-2xl font-bold mb-2 text-red-600";
@@ -447,7 +450,7 @@ console.log(this.game.currentWord);
     ) {
       content += `<div class="mt-4"><strong>Example Sentences:</strong></div>`;
       this.game.currentWord.sentences.slice(0, 3).forEach((s) => {
-        content += `<div class="mt-3 pt-3 border-t border-gray-200"><div class="text-sm text-blue-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1 text-right rtl" dir="rtl">"${s.fa}"</div></div>`;
+        content += `<div class="pt-1 border-t border-gray-200"><div class="text-sm text-blue-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1 text-right rtl" dir="rtl">"${s.fa}"</div></div>`;
       });
     }
 
@@ -597,11 +600,14 @@ console.log(this.game.currentWord);
     this.game.isAnswering = false;
 
     if (
+      this.modalSource === 'answerFlow' &&
       this.game.currentWord &&
       !document.getElementById("nextBtn").classList.contains("hidden")
     ) {
       this.game.nextQuestion();
     }
+
+     this.modalSource = null;
   }
 
   handleInput() {

@@ -38,6 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
       possessivpronomen: "German Possessivpronomen",
       präpositionen: "German Präpositionen",
       demonstrativpronomen: "German Demonstrativpronomen",
+      tempora: "German Tempora",
+      reflexivverben: "German Reflexivverben",
+      kollokationen: "German Kollokationen",
+      slang: "German Slang",
     };
 
     document.getElementById("pageTitle").textContent = titles[dataset] || "German Learning";

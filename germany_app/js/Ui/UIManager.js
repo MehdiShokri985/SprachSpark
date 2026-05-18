@@ -7,6 +7,7 @@ export class UIManager {
   constructor(game) {
     this.game = game; // مرجع به instance اصلی بازی
      this.modalSource = null; // Track where the modal was opened from
+    this.setupWordDetailsPopup();
   }
 
   /**
@@ -166,28 +167,150 @@ export class UIManager {
    * Open word details modal with icon, title, and message hidden
    */
   openWordDetailsModal(word) {
-    const modal = document.getElementById("resultModal");
-     this.modalSource = 'progressSquare';
+    const popup = document.getElementById("wordDetailsPopup");
+    const content = document.getElementById("wordDetailsContent");
 
-    // مخفی کردن فقط آیکون، عنوان و پیام
-    document.getElementById("modalIcon").classList.add("hidden");
-    document.getElementById("modalTitle").classList.add("hidden");
-    document.getElementById("modalMessage").classList.add("hidden");
+    // Dynamic field rendering
+    let html = "";
 
-    // نمایش جزئیات کلمه
-    let content = `<div class="mb-4"><strong>Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(word.word)}" target="_blank" class="text-indigo-800 text-lg font-bold hover:underline">${word.word}</a></div><div class="mb-1"><strong>Meaning:</strong> ${word.meaning}</div>`;
-    content += `<div class="mb-1"><strong>Sure Count:</strong> ${word.sureCount || 0}</div>`;
-
-    if (word.sentences && word.sentences.length > 0) {
-      content += `<div class="mt-4"><strong>Example Sentences:</strong></div>`;
-      word.sentences.slice(0, 3).forEach((s) => {
-        content += `<div class="pt-1 border-t border-gray-200"><div class="text-sm text-blue-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1 text-right rtl" dir="rtl">"${s.fa}"</div></div>`;
-      });
+    // Word
+    if (word.word) {
+      html += `<div class="mb-3 pb-3 border-b border-gray-200">
+        <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Word</div>
+        <div class="text-lg font-bold text-indigo-800">
+          <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(word.word)}" target="_blank" class="hover:underline">${word.word}</a>
+        </div>
+      </div>`;
     }
 
-    document.getElementById("modalDetails").innerHTML = content;
-    modal.classList.remove("hidden");
-    modal.classList.add("flex");
+    // Meaning
+    if (word.meaning) {
+      html += `<div class="mb-3 pb-3 border-b border-gray-200">
+        <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Meaning</div>
+        <div class="text-gray-700">${word.meaning}</div>
+      </div>`;
+    }
+
+    // Type
+    // if (word.type) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Type</div>
+    //     <div class="text-gray-700">${word.type}</div>
+    //   </div>`;
+    // }
+
+    // Level
+    // if (word.level) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Level</div>
+    //     <div class="text-gray-700">${word.level}</div>
+    //   </div>`;
+    // }
+
+    // Sure Count
+    // if (word.sureCount !== undefined) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Sure Count</div>
+    //     <div class="text-gray-700 font-semibold">${word.sureCount}</div>
+    //   </div>`;
+    // }
+
+    // Strength
+    // if (word.strength !== undefined) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Strength</div>
+    //     <div class="text-gray-700">${(word.strength * 100).toFixed(1)}%</div>
+    //   </div>`;
+    // }
+
+    // Due In
+    // if (word.dueIn !== undefined) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Due In</div>
+    //     <div class="text-gray-700">${word.dueIn} questions</div>
+    //   </div>`;
+    // }
+
+    // Seen Count
+    // if (word.seenCount !== undefined) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Seen Count</div>
+    //     <div class="text-gray-700">${word.seenCount}</div>
+    //   </div>`;
+    // }
+
+    // Mistake Count
+    // if (word.mistakeCount !== undefined) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Mistake Count</div>
+    //     <div class="text-gray-700">${word.mistakeCount}</div>
+    //   </div>`;
+    // }
+
+    // Correct Streak
+    // if (word.correctStreak !== undefined) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Correct Streak</div>
+    //     <div class="text-gray-700">${word.correctStreak}</div>
+    //   </div>`;
+    // }
+
+    // ID
+    // if (word.id) {
+    //   html += `<div class="mb-3 pb-3 border-b border-gray-200">
+    //     <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">ID</div>
+    //     <div class="text-gray-700 text-xs">${word.id}</div>
+    //   </div>`;
+    // }
+
+    // Sentences
+    if (word.sentences && word.sentences.length > 0) {
+      html += `<div class="mt-4">
+        <div class="text-xs text-gray-500 uppercase tracking-wide mb-2">Example Sentences</div>`;
+      word.sentences.slice(0, 5).forEach((s, index) => {
+        html += `<div class="mb-3 p-3 bg-gray-50 rounded-lg">
+          <div class="text-xs text-gray-400 mb-1">Sentence ${index + 1}</div>`;
+        if (s.de) {
+          html += `<div class="text-sm text-blue-700 mb-1">
+            <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a>
+          </div>`;
+        }
+        if (s.fa) {
+          html += `<div class="text-sm text-gray-600 text-right rtl" dir="rtl">"${s.fa}"</div>`;
+        }
+        if (s.strength !== undefined) {
+          html += `<div class="text-xs text-gray-400 mt-1">Strength: ${(s.strength * 100).toFixed(1)}%</div>`;
+        }
+        if (s.sureCount !== undefined) {
+          html += `<div class="text-xs text-gray-400">Sure: ${s.sureCount}</div>`;
+        }
+        html += `</div>`;
+      });
+      html += `</div>`;
+    }
+
+    content.innerHTML = html;
+    popup.classList.remove("hidden");
+    popup.classList.add("flex");
+  }
+
+  /**
+   * بستن پاپآپ جزئیات کلمه
+   * Close word details popup
+   */
+  closeWordDetailsPopup() {
+    const popup = document.getElementById("wordDetailsPopup");
+    popup.classList.add("hidden");
+    popup.classList.remove("flex");
+  }
+
+  setupWordDetailsPopup() {
+    const popup = document.getElementById("wordDetailsPopup");
+    popup.addEventListener("click", (e) => {
+      if (e.target === popup) {
+        this.closeWordDetailsPopup();
+      }
+    });
   }
 
   //#########################################################################################
@@ -455,8 +578,13 @@ console.log(this.game.currentWord);
     }
 
     document.getElementById("modalDetails").innerHTML = content;
+
+    // Hide question view and show inline result view
+    document.getElementById("panel").classList.add("hidden");
+    document.getElementById("answerOptions").classList.add("hidden");
+    document.getElementById("hardInputContainer").classList.add("hidden");
+
     modal.classList.remove("hidden");
-    modal.classList.add("flex");
   }
 
   /**
@@ -540,25 +668,6 @@ console.log(this.game.currentWord);
     modal.classList.remove("flex");
   }
 
-  showConfidenceModal() {
-    const modal = document.getElementById("confidenceModal");
-    modal.classList.remove("hidden");
-    modal.classList.add("flex");
-    setTimeout(() => document.getElementById("sureBtn").focus(), 100);
-  }
-
-  // handleConfidence(confidence) {
-  //   // فقط مودال را ببند
-  //   const modal = document.getElementById("confidenceModal");
-  //   if (modal) {
-  //     modal.classList.add("hidden");
-  //     modal.classList.remove("flex");
-  //   }
-
-  //   // منطق را به بازی بده
-  //   this.game.handleConfidence(confidence);
-  // }
-
   resetSession() {
     document.getElementById("startBtn").classList.remove("hidden");
     document.getElementById("nextBtn").classList.add("hidden");
@@ -571,6 +680,7 @@ console.log(this.game.currentWord);
 
   showLevelComplete() {
     const modal = document.getElementById("resultModal");
+    this.modalSource = 'levelComplete';
     document.getElementById("modalIcon").textContent = "🎉";
     document.getElementById("modalTitle").textContent = "Level Complete!";
     document.getElementById("modalTitle").className =
@@ -579,8 +689,13 @@ console.log(this.game.currentWord);
       `You have mastered all active words in ${this.game.currentNiveau}!`;
     document.getElementById("modalDetails").innerHTML =
       `<div class="text-center py-6 text-gray-600">You can continue practicing or change level from the menu.</div>`;
+
+    // Hide question view and show inline result view
+    document.getElementById("panel").classList.add("hidden");
+    document.getElementById("answerOptions").classList.add("hidden");
+    document.getElementById("hardInputContainer").classList.add("hidden");
+
     modal.classList.remove("hidden");
-    modal.classList.add("flex");
   }
 
   closeModal() {
@@ -588,14 +703,15 @@ console.log(this.game.currentWord);
 
     const modal = document.getElementById("resultModal");
     modal.classList.add("hidden");
-    modal.classList.remove("flex");
 
-        // بازگردانی عناصر مخفی شده
+    // Restore question view
+    document.getElementById("panel").classList.remove("hidden");
+    document.getElementById("answerOptions").classList.remove("hidden");
+
+    // Restore hidden elements
     document.getElementById("modalIcon").classList.remove("hidden");
     document.getElementById("modalTitle").classList.remove("hidden");
     document.getElementById("modalMessage").classList.remove("hidden");
-
-
 
     this.game.isAnswering = false;
 

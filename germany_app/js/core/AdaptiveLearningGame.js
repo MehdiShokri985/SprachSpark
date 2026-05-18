@@ -118,9 +118,6 @@ export class AdaptiveLearningGame {
     document
       .getElementById("resetBtn")
       .addEventListener("click", () => this.resetProgress());
-    document
-      .getElementById("modalCloseBtn")
-      .addEventListener("click", () => this.closeModal());
 
     // انتخاب سطح و حالت
     document
@@ -145,6 +142,11 @@ export class AdaptiveLearningGame {
     document
       .getElementById("wrongCounter")
       .addEventListener("click", () => this.showMistakesModal());
+
+    // پاپآپ جزئیات کلمه
+    document
+      .getElementById("closeWordDetailsBtn")
+      .addEventListener("click", () => this.closeWordDetailsPopup());
 
     // ورودی حالت سخت
     const hardInput = document.getElementById("hardInput");
@@ -297,7 +299,7 @@ export class AdaptiveLearningGame {
 
     currentState.totalQuestions++;
     this.saveData();
-    this.showConfidenceModal();
+    this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();
   }
 
@@ -338,39 +340,15 @@ export class AdaptiveLearningGame {
     currentState.lastWordId = this.currentWord.id;
 
     this.saveData();
-    this.showConfidenceModal();
+    this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();
   }
 
-  /**
-   * نمایش مودال اطمینان
-   * Show confidence modal
-   */
-  showConfidenceModal() {
-    this.uiManager.showConfidenceModal();
-  }
-
-  /**
-   * پردازش سطح اطمینان کاربر
-   * Handle user confidence
-   */
-  /**
-   * پردازش سطح اطمینان کاربر
-   * Handle user confidence
-   */
-  /**
-   * پردازش سطح اطمینان کاربر
-   * Handle user confidence
-   */
   /**
    * پردازش سطح اطمینان کاربر
    * Handle user confidence
    */
   handleConfidence(confidence) {
-    const modal = document.getElementById("confidenceModal");
-    modal.classList.add("hidden");
-    modal.classList.remove("flex");
-
     const isCorrect = this.pendingIsCorrect;
     const isSentence =
       this.currentQuestionType &&
@@ -409,20 +387,10 @@ export class AdaptiveLearningGame {
     }
 
     this.saveData();
-    this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
+    this.closeModal();
     this.updateUI();
   }
 
-  /**
-   * بستن مودال اطمینان
-   */
-  closeConfidenceModal() {
-    const modal = document.getElementById("confidenceModal");
-    if (modal) {
-      modal.classList.add("hidden");
-      modal.classList.remove("flex");
-    }
-  }
   /**
    * نمایش نتیجه پاسخ
    * Show result modal
@@ -453,6 +421,14 @@ export class AdaptiveLearningGame {
    */
   closeMistakesModal() {
     this.uiManager.closeMistakesModal();
+  }
+
+  /**
+   * بستن پاپآپ جزئیات کلمه
+   * Close word details popup
+   */
+  closeWordDetailsPopup() {
+    this.uiManager.closeWordDetailsPopup();
   }
 
   /**

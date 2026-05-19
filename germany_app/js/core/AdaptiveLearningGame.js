@@ -46,6 +46,14 @@ export class AdaptiveLearningGame {
     this.pendingCorrectAnswer = null;
     this.autoCompleteMode = 1;
 
+    // Question timing (ms since epoch)
+    this.questionStartTime = null;
+    this.lastResponseDurationMs = null;
+    this.FAST_ANSWER_THRESHOLD_MS = 5000;
+
+    // Game-start eligibility state
+    this.isGameStartEligible = false;
+
     this.init();
   }
 
@@ -56,8 +64,12 @@ export class AdaptiveLearningGame {
   async init() {
     try {
       // بارگذاری داده‌ها
-    //   this.words = await this.dataManager.loadWords(this.jsonPath);
-       this.words = await this.dataManager.loadWords(this.jsonPath, this.currentNiveau, this.currentMode);
+      //   this.words = await this.dataManager.loadWords(this.jsonPath);
+      this.words = await this.dataManager.loadWords(
+        this.jsonPath,
+        this.currentNiveau,
+        this.currentMode,
+      );
 
       // ایجاد نمونه‌های منطق و رابط کاربری
       this.gameLogic = new GameLogic(this.words);
@@ -68,6 +80,9 @@ export class AdaptiveLearningGame {
 
       // نمایش مودال انتخاب حالت
       document.getElementById("modeModal").classList.remove("hidden");
+
+      // Enable panel click after page refresh initialization
+      this.isGameStartEligible = true;
     } catch (error) {
       console.error("Error initializing game:", error);
       this.showError("Failed to load game data");
@@ -99,7 +114,11 @@ export class AdaptiveLearningGame {
    */
   saveData() {
     // this.dataManager.saveWords(this.words);
-     this.dataManager.saveWords(this.words, this.currentNiveau, this.currentMode);
+    this.dataManager.saveWords(
+      this.words,
+      this.currentNiveau,
+      this.currentMode,
+    );
     this.stateManager.saveState(this.currentNiveau, this.currentMode);
   }
 
@@ -108,16 +127,16 @@ export class AdaptiveLearningGame {
    * Setup all event listeners
    */
   setupEventListeners() {
-    // دکمه‌های اصلی
+    // Panel click to start game
     document
-      .getElementById("startBtn")
-      .addEventListener("click", () => this.startGame());
-    document
-      .getElementById("nextBtn")
-      .addEventListener("click", () => this.nextQuestion());
-    document
-      .getElementById("resetBtn")
-      .addEventListener("click", () => this.resetProgress());
+      .getElementById("panel")
+      .addEventListener("click", () => this.handlePanelClick());
+
+    // Reset button
+    document.getElementById("resetBtn").addEventListener("click", (e) => {
+      e.stopPropagation();
+      this.resetProgress();
+    });
 
     // انتخاب سطح و حالت
     document
@@ -134,6 +153,9 @@ export class AdaptiveLearningGame {
     document
       .getElementById("maybeBtn")
       .addEventListener("click", () => this.handleConfidence("maybe"));
+    document
+      .getElementById("easyBtn")
+      .addEventListener("click", () => this.handleEasyMastery());
 
     // مودال اشتباهات
     document
@@ -162,7 +184,6 @@ export class AdaptiveLearningGame {
       switch (e.key) {
         case "Enter":
           if (currentState.totalQuestions === 0) this.startGame();
-          else this.nextQuestion();
           break;
         case "Escape":
           document.querySelectorAll(".modal-overlay").forEach((m) => {
@@ -215,10 +236,19 @@ export class AdaptiveLearningGame {
     currentState.totalQuestions = 0;
     currentState.sessionNumber++;
 
-    document.getElementById("startBtn").classList.add("hidden");
-    document.getElementById("nextBtn").classList.remove("hidden");
+    // Disable panel click after game starts
+    this.isGameStartEligible = false;
 
     this.nextQuestion();
+  }
+
+  /**
+   * Handle panel click - start game only when eligible
+   */
+  handlePanelClick() {
+    if (this.isGameStartEligible) {
+      this.startGame();
+    }
   }
 
   /**
@@ -298,6 +328,7 @@ export class AdaptiveLearningGame {
     }
 
     currentState.totalQuestions++;
+    this.recordAnswerTiming();
     this.saveData();
     this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();
@@ -309,11 +340,10 @@ export class AdaptiveLearningGame {
    */
   checkAnswer(selectedAnswer, correctAnswer) {
     if (this.isAnswering) return;
-    if (!this.currentWord){
-        this.showLevelComplete();
-        return;
+    if (!this.currentWord) {
+      this.showLevelComplete();
+      return;
     }
-  
 
     this.isAnswering = true;
     const isCorrect = selectedAnswer === correctAnswer;
@@ -339,8 +369,44 @@ export class AdaptiveLearningGame {
     currentState.totalQuestions++;
     currentState.lastWordId = this.currentWord.id;
 
+    this.recordAnswerTiming();
     this.saveData();
     this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
+    this.updateUI();
+  }
+
+  /**
+   * Record elapsed time from question render to answer submission.
+   */
+  recordAnswerTiming() {
+    if (this.questionStartTime != null) {
+      this.lastResponseDurationMs = Date.now() - this.questionStartTime;
+    } else {
+      this.lastResponseDurationMs = null;
+    }
+  }
+
+  /**
+   * Whether the fast-answer mastery override is available for this result.
+   */
+  isFastAnswerEligible() {
+    return (
+      this.pendingIsCorrect === true &&
+      this.lastResponseDurationMs != null &&
+      this.lastResponseDurationMs < this.FAST_ANSWER_THRESHOLD_MS
+    );
+  }
+
+  /**
+   * Instant mastery: remove current word from repetition cycle (sureCount >= 2).
+   */
+  handleEasyMastery() {
+    if (!this.currentWord || !this.isFastAnswerEligible()) return;
+
+    this.currentWord.sureCount = 2;
+
+    this.saveData();
+    this.closeModal();
     this.updateUI();
   }
 
@@ -451,10 +517,13 @@ export class AdaptiveLearningGame {
    * تغییر حالت بازی
    * Change game mode
    */
-//   changeMode(newMode) {
-async changeMode(newMode) {
+  //   changeMode(newMode) {
+  async changeMode(newMode) {
     this.currentMode = newMode;
-     await this.reloadWordsForCurrentCombination();
+    await this.reloadWordsForCurrentCombination();
+
+    // Hide resultModal if visible and reset UI to initial panel state
+    this.forceResetUIState();
     this.resetSession();
     this.updateUI();
     this.saveData();
@@ -465,10 +534,12 @@ async changeMode(newMode) {
    * تغییر سطح
    * Change level
    */
-//   changeLevel(newLevel) {
+  //   changeLevel(newLevel) {
   async changeLevel(newLevel) {
     this.currentNiveau = newLevel;
     await this.reloadWordsForCurrentCombination();
+    // Hide resultModal if visible and reset UI to initial panel state
+    this.forceResetUIState();
     this.resetSession();
     this.updateUI();
     this.saveData();
@@ -483,13 +554,52 @@ async changeMode(newMode) {
     this.uiManager.resetSession();
   }
 
-    /**
+  /**
+   * Force reset UI to initial panel state (used for mode/level changes)
+   * Hides resultModal, restores panel visibility, enables panel click
+   */
+  forceResetUIState() {
+    // Hide resultModal if visible
+    const modal = document.getElementById("resultModal");
+    if (modal && !modal.classList.contains("hidden")) {
+      modal.classList.add("hidden");
+    }
+
+    // Restore panel visibility
+    const panel = document.getElementById("panel");
+    if (panel) {
+      panel.classList.remove("hidden");
+    }
+
+    // Restore answer options visibility
+    const answerOptions = document.getElementById("answerOptions");
+    if (answerOptions) {
+      answerOptions.classList.remove("hidden");
+    }
+
+    // Reset answering state
+    this.isAnswering = false;
+    this.questionStartTime = null;
+    this.lastResponseDurationMs = null;
+    if (this.uiManager) {
+      this.uiManager.hideEasyMasteryButton();
+    }
+
+    // Enable panel click for new mode/level
+    this.isGameStartEligible = true;
+  }
+
+  /**
    * بارگذاری مجدد کلمات برای ترکیب فعلی
    * Reload words for current combination
    */
   async reloadWordsForCurrentCombination() {
     try {
-      this.words = await this.dataManager.loadWords(this.jsonPath, this.currentNiveau, this.currentMode);
+      this.words = await this.dataManager.loadWords(
+        this.jsonPath,
+        this.currentNiveau,
+        this.currentMode,
+      );
       this.gameLogic = new GameLogic(this.words);
     } catch (error) {
       console.error("Error reloading words:", error);
@@ -536,6 +646,9 @@ async changeMode(newMode) {
       this.updateUI();
       this.saveData();
 
+      // Enable panel click after reset
+      this.isGameStartEligible = true;
+
       console.log(`🗑️ Reset progress for ${this.getCurrentKey()}`);
     }
   }
@@ -581,7 +694,7 @@ async changeMode(newMode) {
     const currentState = this.getCurrentState();
 
     this.currentWord.seenCount = (this.currentWord.seenCount || 0) + 1;
-    
+
     currentState.lastWordId = this.currentWord.id;
 
     // انتخاب جمله اگر لازم باشد
@@ -600,10 +713,11 @@ async changeMode(newMode) {
       }
     }
 
+    this.questionStartTime = Date.now();
+    this.lastResponseDurationMs = null;
+
     this.renderQuestion();
     this.updateUI();
     this.saveData();
   }
 }
- 
-

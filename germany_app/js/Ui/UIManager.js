@@ -3,10 +3,19 @@
  * User Interface Manager - Handles all DOM interactions
  */
 
+import { WordProgressSquares } from "./WordProgressSquares.js";
+
+
 export class UIManager {
   constructor(game) {
     this.game = game; // مرجع به instance اصلی بازی
-     this.modalSource = null; // Track where the modal was opened from
+    this.modalSource = null; // Track where the modal was opened from
+
+        this.wordProgressSquares = new WordProgressSquares(game, (word) =>
+      this.openWordDetailsModal(word),
+    );
+
+
     this.setupWordDetailsPopup();
   }
 
@@ -59,107 +68,16 @@ export class UIManager {
     //########################################################################################
     //########################################################################################
     this.renderWordProgressSquares(levelWords);
- 
-    }
-
-     /**
-   * رندر مربع‌های پیشرفت کلمات
-   * Render word progress squares
-   */
-  // renderWordProgressSquares(levelWords) {
-  //   const container = document.getElementById("wordProgressSquares");
-  //   container.innerHTML = "";
-
-    // ایجاد آرایه با ایندکس‌ها برای تصادفی‌سازی
-  //      * تولید و ذخیره ترتیب تصادفی مربع‌ها در localStorage
-  //  * Generate and store random square order in localStorage
-  //  */
-  generateRandomSquareOrder(levelWords) {
-    const indices = levelWords.map((_, index) => index);
-    // تصادفی‌سازی ترتیب بصری
-    for (let i = indices.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [indices[i], indices[j]] = [indices[j], indices[i]];
-    }
-
-    
-    // ذخیره در localStorage
-    const storageKey = `langgame_squareOrder_${this.game.dataSetName}_${this.game.currentNiveau}_${this.game.currentMode}`;
-    localStorage.setItem(storageKey, JSON.stringify(indices));
-
-    return indices;
   }
 
   /**
-   * دریافت ترتیب ذخیره شده مربع‌ها از localStorage
-   * Get stored square order from localStorage
-   */
-  getStoredSquareOrder(levelWords) {
-    const storageKey = `langgame_squareOrder_${this.game.dataSetName}_${this.game.currentNiveau}_${this.game.currentMode}`;
-    const stored = localStorage.getItem(storageKey);
-
-    if (stored) {
-      const indices = JSON.parse(stored);
-      // بررسی اعتبار: اگر تعداد کلمات تغییر کرده باشد، ترتیب جدید تولید کن
-      if (indices.length === levelWords.length) {
-        return indices;
-      }
-    }
-
-    // اگر ترتیب ذخیره شده وجود ندارد یا نامعتبر است، ترتیب جدید تولید کن
-    return this.generateRandomSquareOrder(levelWords);
-  }
-
+ 
   /**
    * رندر مربع‌های پیشرفت کلمات
    * Render word progress squares
    */
   renderWordProgressSquares(levelWords) {
-    const container = document.getElementById("wordProgressSquares");
-    container.innerHTML = "";
-
-    // دریافت ترتیب ذخیره شده (یا تولید جدید اگر وجود ندارد)
-    const indices = this.getStoredSquareOrder(levelWords);
-
-
-
-
-
-
-
-    indices.forEach((originalIndex) => {
-      const word = levelWords[originalIndex];
-      const sureCount = word.sureCount || 0;
-
-      const square = document.createElement("div");
-      square.className = "w-3 h-3 cursor-pointer transition-all hover:scale-125";
-      square.style.borderRadius = "2px";
-
-      // تعیین رنگ بر اساس sureCount
-      if (sureCount === 0) {
-        square.style.backgroundColor = "#9ca3af"; // gray
-      } else if (sureCount === 1) {
-        square.style.backgroundColor = "#86efac"; // light green
-      } else if (sureCount === 2) {
-        square.style.backgroundColor = "#22c55e"; // dark green
-      } else if (sureCount === -1) {
-        square.style.backgroundColor = "#fca5a5"; // light red
-      } else if (sureCount === -2) {
-        square.style.backgroundColor = "#ef4444"; // stronger red
-      } else if (sureCount < -2) {
-        // سایر مقادیر منفی - قرمز تیره‌تر
-        const intensity = Math.min(Math.abs(sureCount) - 1, 3);
-        const redValue = Math.max(100, 220 - intensity * 30);
-        square.style.backgroundColor = `rgb(${redValue}, 50, 50)`;
-      }
-
-      // کلیک روی مربع
-      square.addEventListener("click", () => {
-        this.openWordDetailsModal(word);
-      });
-
-      container.appendChild(square);
-    });
+   this.wordProgressSquares.render(levelWords);
   }
 
   /**
@@ -268,8 +186,7 @@ export class UIManager {
       html += `<div class="mt-4">
         <div class="text-xs text-gray-500 uppercase tracking-wide mb-2">Example Sentences</div>`;
       word.sentences.slice(0, 5).forEach((s, index) => {
-        html += `<div class="mb-3 p-3 bg-gray-50 rounded-lg">
-          <div class="text-xs text-gray-400 mb-1">Sentence ${index + 1}</div>`;
+        html += `<div class="mb-3 p-3 bg-gray-50 rounded-lg">`;
         if (s.de) {
           html += `<div class="text-sm text-blue-700 mb-1">
             <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a>
@@ -278,12 +195,7 @@ export class UIManager {
         if (s.fa) {
           html += `<div class="text-sm text-gray-600 text-right rtl" dir="rtl">"${s.fa}"</div>`;
         }
-        if (s.strength !== undefined) {
-          html += `<div class="text-xs text-gray-400 mt-1">Strength: ${(s.strength * 100).toFixed(1)}%</div>`;
-        }
-        if (s.sureCount !== undefined) {
-          html += `<div class="text-xs text-gray-400">Sure: ${s.sureCount}</div>`;
-        }
+
         html += `</div>`;
       });
       html += `</div>`;
@@ -311,6 +223,23 @@ export class UIManager {
         this.closeWordDetailsPopup();
       }
     });
+  }
+
+  /**
+   * Show or hide the fast-answer "خیلی راحت" button (no layout gap when hidden).
+   */
+  updateEasyMasteryButton() {
+    const easyBtn = document.getElementById("easyBtn");
+    if (!easyBtn) return;
+
+    const show =
+      this.modalSource === "answerFlow" && this.game.isFastAnswerEligible();
+    easyBtn.classList.toggle("hidden", !show);
+  }
+
+  hideEasyMasteryButton() {
+    const easyBtn = document.getElementById("easyBtn");
+    if (easyBtn) easyBtn.classList.add("hidden");
   }
 
   //#########################################################################################
@@ -348,7 +277,7 @@ export class UIManager {
       this.renderHardQuestion();
     } else {
       wordDisplay.className =
-        "falling-word text-4xl font-bold text-indigo-800 mb-4 relative";
+        "falling-word font-bold text-indigo-800 relative";
       sentenceDisplay.classList.add("hidden");
       questionType.textContent = "";
 
@@ -359,7 +288,7 @@ export class UIManager {
         : this.game.currentWord;
       const sureCount = target.sureCount || 0;
       const typeLabel = this.getTypeLabelHTML();
-console.log(this.game.currentWord);
+      console.log(this.game.currentWord);
       switch (this.game.currentQuestionType.type) {
         case "de_to_fa":
           wordDisplay.innerHTML = `${typeLabel}<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.game.currentWord.word}</a>`;
@@ -397,7 +326,7 @@ console.log(this.game.currentWord);
     const questionType = document.getElementById("questionType");
 
     wordDisplay.className =
-      "falling-word text-4xl font-bold text-indigo-800 mb-4";
+      "falling-word font-bold text-indigo-800";
     sentenceDisplay.classList.add("hidden");
     questionType.textContent = "";
 
@@ -455,7 +384,7 @@ console.log(this.game.currentWord);
     options.forEach((option) => {
       const button = document.createElement("button");
       button.className =
-        "bg-white border-1 border-gray-300 rounded-lg p-4 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2";
+        "game-answer-btn bg-white border-1 border-gray-300 rounded-lg text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2";
 
       if (
         this.game.currentQuestionType.type === "fa_to_de" ||
@@ -528,7 +457,7 @@ console.log(this.game.currentWord);
    */
   showResult(isCorrect, correctAnswer) {
     const modal = document.getElementById("resultModal");
-    this.modalSource = 'answerFlow';
+    this.modalSource = "answerFlow";
     this.displayOriginalSentence();
     const currentState = this.game.getCurrentState();
 
@@ -537,16 +466,16 @@ console.log(this.game.currentWord);
       document.getElementById("modalTitle").textContent = "Correct!";
       document.getElementById("modalTitle").className =
         "text-2xl font-bold mb-2 text-green-600";
-      document.getElementById("modalMessage").textContent =
-        "Great job! Keep it up!";
+      // document.getElementById("modalMessage").textContent =
+      //   "Great job! Keep it up!";
       this.playSound("correct");
     } else {
       document.getElementById("modalIcon").textContent = "";
       document.getElementById("modalTitle").textContent = "Wrong";
       document.getElementById("modalTitle").className =
         "text-2xl font-bold mb-2 text-red-600";
-      document.getElementById("modalMessage").textContent =
-        `The correct answer was: ${correctAnswer}`;
+      // document.getElementById("modalMessage").textContent =
+      //   `The correct answer was: ${correctAnswer}`;
       this.playSound("wrong");
 
       const existingMistake = currentState.mistakes.find(
@@ -565,15 +494,15 @@ console.log(this.game.currentWord);
       this.game.saveData();
     }
 
-    let content = `<div class="mb-4"><strong>Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 text-lg font-bold hover:underline">${this.game.currentWord.word}</a></div><div class="mb-1"><strong>Meaning:</strong> ${this.game.currentWord.meaning}</div>`;
+    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label">Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="md-word-link hover:underline">${this.game.currentWord.word}</a></div><div class="md-pair-end" dir="rtl">${this.game.currentWord.meaning}</div></div>`;
 
     if (
       this.game.currentWord.sentences &&
       this.game.currentWord.sentences.length > 0
     ) {
-      content += `<div class="mt-4"><strong>Example Sentences:</strong></div>`;
+      content += `<div class="md-section-label"><strong>Example Sentences:</strong></div>`;
       this.game.currentWord.sentences.slice(0, 3).forEach((s) => {
-        content += `<div class="pt-1 border-t border-gray-200"><div class="text-sm text-blue-700"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div><div class="text-sm text-gray-600 mt-1 text-right rtl" dir="rtl">"${s.fa}"</div></div>`;
+        content += `<div class="md-pair-row md-example-row"><div class="md-pair-start"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="md-example-de hover:underline">${s.de}</a></div><div class="md-pair-end" dir="rtl">"${s.fa}"</div></div>`;
       });
     }
 
@@ -584,6 +513,7 @@ console.log(this.game.currentWord);
     document.getElementById("answerOptions").classList.add("hidden");
     document.getElementById("hardInputContainer").classList.add("hidden");
 
+    this.updateEasyMasteryButton();
     modal.classList.remove("hidden");
   }
 
@@ -596,7 +526,7 @@ console.log(this.game.currentWord);
     const questionType = document.getElementById("questionType");
 
     wordDisplay.className =
-      "falling-word text-4xl font-bold text-indigo-800 mb-4";
+      "falling-word font-bold text-indigo-800";
     sentenceDisplay.classList.remove("hidden");
     questionType.textContent = "Original sentence";
 
@@ -615,7 +545,7 @@ console.log(this.game.currentWord);
         this.game.currentWord.sentences[
           Math.floor(Math.random() * this.game.currentWord.sentences.length)
         ];
-      sentenceDisplay.innerHTML = `<div class="text-lg text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(rs.de)}" target="_blank" class="hover:underline">${rs.de}</a></div><div class="text-sm text-gray-600 mt-2">"${rs.fa}"</div>`;
+      sentenceDisplay.innerHTML = `<div class="text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(rs.de)}" target="_blank" class="hover:underline break-words">${rs.de}</a></div><div class="text-gray-600 mt-1 sm:mt-2" dir="rtl">"${rs.fa}"</div>`;
       wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.game.currentWord.word}</a> ✓`;
     }
   }
@@ -669,10 +599,8 @@ console.log(this.game.currentWord);
   }
 
   resetSession() {
-    document.getElementById("startBtn").classList.remove("hidden");
-    document.getElementById("nextBtn").classList.add("hidden");
     document.getElementById("fallingWord").textContent =
-      "Klicke auf „Spiel starten“, um zu beginnen.";
+      "Klicke hier, um zu beginnen.";
     document.getElementById("sentenceDisplay").classList.add("hidden");
     document.getElementById("answerOptions").innerHTML = "";
     document.getElementById("hardInputContainer").classList.add("hidden");
@@ -680,13 +608,14 @@ console.log(this.game.currentWord);
 
   showLevelComplete() {
     const modal = document.getElementById("resultModal");
-    this.modalSource = 'levelComplete';
+    this.modalSource = "levelComplete";
+    this.hideEasyMasteryButton();
     document.getElementById("modalIcon").textContent = "🎉";
     document.getElementById("modalTitle").textContent = "Level Complete!";
     document.getElementById("modalTitle").className =
       "text-2xl font-bold mb-2 text-green-600";
-    document.getElementById("modalMessage").textContent =
-      `You have mastered all active words in ${this.game.currentNiveau}!`;
+    // document.getElementById("modalMessage").textContent =
+    //   `You have mastered all active words in ${this.game.currentNiveau}!`;
     document.getElementById("modalDetails").innerHTML =
       `<div class="text-center py-6 text-gray-600">You can continue practicing or change level from the menu.</div>`;
 
@@ -699,7 +628,7 @@ console.log(this.game.currentWord);
   }
 
   closeModal() {
-
+    this.hideEasyMasteryButton();
 
     const modal = document.getElementById("resultModal");
     modal.classList.add("hidden");
@@ -711,19 +640,15 @@ console.log(this.game.currentWord);
     // Restore hidden elements
     document.getElementById("modalIcon").classList.remove("hidden");
     document.getElementById("modalTitle").classList.remove("hidden");
-    document.getElementById("modalMessage").classList.remove("hidden");
+    // document.getElementById("modalMessage").classList.remove("hidden");
 
     this.game.isAnswering = false;
 
-    if (
-      this.modalSource === 'answerFlow' &&
-      this.game.currentWord &&
-      !document.getElementById("nextBtn").classList.contains("hidden")
-    ) {
+    if (this.modalSource === "answerFlow" && this.game.currentWord) {
       this.game.nextQuestion();
     }
 
-     this.modalSource = null;
+    this.modalSource = null;
   }
 
   handleInput() {

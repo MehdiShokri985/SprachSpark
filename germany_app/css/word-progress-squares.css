@@ -1,0 +1,287 @@
+/* Word progress squares — calm chaos → order emotional layer */
+
+.wps-root {
+  width: 100%;
+  margin-bottom: 0.75rem;
+  padding: 0.55rem 0.65rem 0.5rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(
+    165deg,
+    rgba(255, 255, 255, 0.72) 0%,
+    rgba(241, 245, 255, 0.55) 48%,
+    rgba(236, 253, 245, 0.35) 100%
+  );
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+.wps-chaotic-area {
+  position: relative;
+  width: 100%;
+  min-height: 3.5rem;
+  margin-bottom: 0.4rem;
+  padding: 0.45rem 0.35rem 0.35rem;
+  border-radius: 0.55rem;
+  background:linear-gradient(180deg, rgb(0 5 11) 0%, rgb(0 62 125 / 96%) 100%);
+  border: 1px dashed rgba(148, 163, 184, 0.35);
+  box-shadow: inset 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.wps-chaotic-area:empty {
+  display: none;
+  min-height: 0;
+  margin-bottom: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.wps-organized-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.55rem 0.4rem 0.35rem;
+  border-radius: 0.55rem;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 253, 245, 0.45) 0%,
+    rgba(240, 253, 250, 0.25) 100%
+  );
+  border: 1px solid rgba(74, 222, 128, 0.18);
+}
+
+.wps-organized-area:empty {
+  display: none;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.wps-organized-area:not(:empty) {
+  margin-top: 0.15rem;
+}
+
+/* Shared square base */
+.wps-square {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 3px;
+  cursor: pointer;
+  flex-shrink: 0;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.65s ease;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.06);
+}
+
+.wps-square:hover {
+  filter: brightness(1.14);
+  z-index: 4;
+}
+
+.wps-square--chaotic {
+  position: absolute;
+  margin: 0;
+  animation:
+    wps-drift-organic var(--wps-drift-dur, 20s) ease-in-out infinite,
+    wps-pulse var(--wps-pulse-dur, 4.2s) ease-in-out infinite;
+  animation-delay: var(--wps-anim-delay, 0s), var(--wps-pulse-delay, 0s);
+}
+
+.wps-square--organized {
+  position: relative;
+  animation: wps-rest-pulse var(--wps-pulse-dur, 8.5s) ease-in-out infinite;
+  animation-delay: var(--wps-pulse-delay, 0s);
+}
+
+.wps-square--organized:hover {
+  filter: brightness(1.1);
+}
+
+/* Organic drift — bounded breathing path */
+@keyframes wps-drift-organic {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  33% {
+    transform: translate3d(var(--wps-dx-a, 7px), var(--wps-dy-a, 5px), 0);
+  }
+  66% {
+    transform: translate3d(var(--wps-dx-b, -6px), var(--wps-dy-b, 8px), 0);
+  }
+}
+
+@keyframes wps-pulse {
+  0%,
+  100% {
+    opacity: var(--wps-op-min, 0.42);
+    filter: brightness(var(--wps-br-min, 0.88));
+  }
+  50% {
+    opacity: var(--wps-op-max, 0.9);
+    filter: brightness(var(--wps-br-max, 1.12));
+  }
+}
+
+@keyframes wps-rest-pulse {
+  0%,
+  100% {
+    opacity: var(--wps-op-min, 0.66);
+    filter: brightness(var(--wps-br-min, 0.94));
+  }
+  50% {
+    opacity: var(--wps-op-max, 0.96);
+    filter: brightness(var(--wps-br-max, 1.08));
+  }
+}
+
+/* Mastery travel */
+.wps-square--traveling {
+  position: fixed !important;
+  margin: 0 !important;
+  left: 0;
+  top: 0;
+  animation: none !important;
+  pointer-events: none;
+  z-index: 300;
+  transition:
+    transform 1.05s cubic-bezier(0.25, 0.82, 0.32, 1),
+    opacity 0.35s ease,
+    box-shadow 1.05s ease;
+  box-shadow: 0 0 0 rgba(74, 222, 128, 0);
+}
+
+.wps-square--traveling.wps-square--traveling-active {
+  box-shadow: 0 2px 12px rgba(74, 222, 128, 0.24);
+}
+
+.wps-transition-placeholder {
+  visibility: hidden;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+/* Visual states */
+.wps-state-neutral {
+  --wps-drift-dur: 20s;
+  --wps-pulse-dur: 4s;
+  --wps-op-min: 0.36;
+  --wps-op-max: 0.84;
+  --wps-br-min: 0.86;
+  --wps-br-max: 1.1;
+}
+
+.wps-state-learning {
+  --wps-drift-dur: 26s;
+  --wps-pulse-dur: 5.2s;
+  --wps-op-min: 0.54;
+  --wps-op-max: 0.94;
+  --wps-br-min: 0.93;
+  --wps-br-max: 1.14;
+}
+
+.wps-state-warning {
+  --wps-drift-dur: 16s;
+  --wps-pulse-dur: 3s;
+  --wps-op-min: 0.48;
+  --wps-op-max: 0.95;
+  --wps-br-min: 0.9;
+  --wps-br-max: 1.15;
+}
+
+.wps-state-tense-2 {
+  --wps-drift-dur: 13s;
+  --wps-pulse-dur: 2.5s;
+  --wps-op-min: 0.52;
+  --wps-op-max: 0.97;
+  --wps-br-min: 0.92;
+  --wps-br-max: 1.17;
+}
+
+.wps-state-tense-deep {
+  --wps-drift-dur: 11s;
+  --wps-pulse-dur: 2.1s;
+  --wps-op-min: 0.56;
+  --wps-op-max: 1;
+  --wps-br-min: 0.94;
+  --wps-br-max: 1.18;
+}
+
+.wps-state-mastered {
+  --wps-drift-dur: 34s;
+  --wps-pulse-dur: 9.5s;
+  --wps-op-min: 0.7;
+  --wps-op-max: 0.97;
+  --wps-br-min: 0.96;
+  --wps-br-max: 1.06;
+}
+
+/* Responsive scaling — squares stay inside bounds */
+.wps-root {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.wps-chaotic-area {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .wps-root {
+    padding: 0.4rem 0.45rem 0.35rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .wps-chaotic-area {
+    min-height: 2.75rem;
+    padding: 0.35rem 0.25rem 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .wps-organized-area {
+    gap: 0.35rem;
+    padding: 0.4rem 0.3rem 0.3rem;
+  }
+
+  .wps-square {
+    width: 0.65rem;
+    height: 0.65rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .wps-organized-area {
+    gap: 0.28rem;
+  }
+
+  .wps-square {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wps-root {
+    background: rgba(248, 250, 252, 0.9);
+  }
+
+  .wps-square--chaotic,
+  .wps-square--organized,
+  .wps-square--traveling {
+    animation: none !important;
+    transition: none !important;
+    opacity: 0.88;
+  }
+
+  .wps-square:hover {
+    filter: none;
+  }
+}

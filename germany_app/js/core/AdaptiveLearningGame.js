@@ -154,6 +154,9 @@ export class AdaptiveLearningGame {
       .getElementById("maybeBtn")
       .addEventListener("click", () => this.handleConfidence("maybe"));
     document
+      .getElementById("practiceAgainBtn")
+      ?.addEventListener("click", () => this.resetProgress());
+    document
       .getElementById("easyBtn")
       .addEventListener("click", () => this.handleEasyMastery());
 
@@ -583,6 +586,7 @@ export class AdaptiveLearningGame {
     this.lastResponseDurationMs = null;
     if (this.uiManager) {
       this.uiManager.hideEasyMasteryButton();
+      this.uiManager.setResultModalActions("answer");
     }
 
     // Enable panel click for new mode/level
@@ -642,6 +646,7 @@ export class AdaptiveLearningGame {
         }
       });
 
+      this.forceResetUIState();
       this.resetSession();
       this.updateUI();
       this.saveData();

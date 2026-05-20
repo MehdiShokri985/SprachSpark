@@ -242,6 +242,25 @@ export class UIManager {
     if (easyBtn) easyBtn.classList.add("hidden");
   }
 
+  /**
+   * Toggle result modal actions: confidence buttons vs level-complete replay.
+   */
+  setResultModalActions(mode) {
+    const sureBtn = document.getElementById("sureBtn");
+    const maybeBtn = document.getElementById("maybeBtn");
+    const practiceAgainBtn = document.getElementById("practiceAgainBtn");
+    const isLevelComplete = mode === "levelComplete";
+
+    if (sureBtn) sureBtn.classList.toggle("hidden", isLevelComplete);
+    if (maybeBtn) maybeBtn.classList.toggle("hidden", isLevelComplete);
+    if (practiceAgainBtn) {
+      practiceAgainBtn.classList.toggle("hidden", !isLevelComplete);
+    }
+    if (isLevelComplete) {
+      this.hideEasyMasteryButton();
+    }
+  }
+
   //#########################################################################################
   //#########################################################################################
   //#########################################################################################
@@ -500,7 +519,7 @@ export class UIManager {
       this.game.currentWord.sentences &&
       this.game.currentWord.sentences.length > 0
     ) {
-      content += `<div class="md-section-label"><strong>Example Sentences:</strong></div>`;
+      // content += `<div class="md-section-label"><strong>Example Sentences:</strong></div>`;
       this.game.currentWord.sentences.slice(0, 3).forEach((s) => {
         content += `<div class="md-pair-row md-example-row"><div class="md-pair-start"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="md-example-de hover:underline">${s.de}</a></div><div class="md-pair-end" dir="rtl">"${s.fa}"</div></div>`;
       });
@@ -513,6 +532,7 @@ export class UIManager {
     document.getElementById("answerOptions").classList.add("hidden");
     document.getElementById("hardInputContainer").classList.add("hidden");
 
+    this.setResultModalActions("answer");
     this.updateEasyMasteryButton();
     modal.classList.remove("hidden");
   }
@@ -609,7 +629,7 @@ export class UIManager {
   showLevelComplete() {
     const modal = document.getElementById("resultModal");
     this.modalSource = "levelComplete";
-    this.hideEasyMasteryButton();
+    this.setResultModalActions("levelComplete");
     document.getElementById("modalIcon").textContent = "🎉";
     document.getElementById("modalTitle").textContent = "Level Complete!";
     document.getElementById("modalTitle").className =
@@ -629,6 +649,7 @@ export class UIManager {
 
   closeModal() {
     this.hideEasyMasteryButton();
+    this.setResultModalActions("answer");
 
     const modal = document.getElementById("resultModal");
     modal.classList.add("hidden");

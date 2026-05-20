@@ -75,7 +75,7 @@
 
     <!-- Progress Bar -->
     <div class="container mx-auto px-4 py-2">
-      <div class="game-progress-card bg-white rounded-lg shadow p-4">
+      <div class="game-progress-card bg-white rounded-lg shadow">
         <div class="flex justify-between items-center mb-2">
           <span class="text-sm font-medium text-gray-700"
             >Mastery-Fortschritt</span
@@ -94,36 +94,46 @@
 
         <div class="mt-3 text-xs text-gray-600">
           <!-- Row 1: Niveau + Modus -->
-          <div class="flex flex-wrap items-center gap-x-5 gap-y-3 mb-3">
-            <div class="flex items-center gap-2">
-              <span class="font-medium text-gray-700 whitespace-nowrap"
-                >Niveau:</span
-              >
-              <select
-                id="levelSelect"
-                class="bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none focus:border-indigo-500"
-              >
-                <option value="A1">A1</option>
-                <option value="A2">A2</option>
-                <option value="B1">B1</option>
-                <option value="B2">B2</option>
-                <option value="C1">C1</option>
-                <option value="C2">C2</option>
-              </select>
+          <div class="flex flex-wrap items-center justify-between gap-x-5 gap-y-3 mb-3">
+            <div class="flex flex-wrap items-center gap-x-5 gap-y-3">
+              <div class="flex items-center gap-2">
+                <span class="font-medium text-gray-700 whitespace-nowrap"
+                  >Niveau:</span
+                >
+                <select
+                  id="levelSelect"
+                  class="bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none focus:border-indigo-500"
+                >
+                  <option value="A1">A1</option>
+                  <option value="A2">A2</option>
+                  <option value="B1">B1</option>
+                  <option value="B2">B2</option>
+                  <option value="C1">C1</option>
+                  <option value="C2">C2</option>
+                </select>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <span class="font-medium text-gray-700 whitespace-nowrap"
+                  >Modus:</span
+                >
+                <select
+                  id="modeSelect"
+                  class="bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none focus:border-indigo-500"
+                >
+                  <option value="normal">Normal</option>
+                  <option value="hard">Hard</option>
+                </select>
+              </div>
             </div>
 
-            <div class="flex items-center gap-2">
-              <span class="font-medium text-gray-700 whitespace-nowrap"
-                >Modus:</span
-              >
-              <select
-                id="modeSelect"
-                class="bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none focus:border-indigo-500"
-              >
-                <option value="normal">Normal</option>
-                <option value="hard">Hard</option>
-              </select>
-            </div>
+            <button
+              id="resetBtn"
+              class="shrink-0 text-gray-400 hover:text-gray-600 hover:bg-gray-100 p-2 rounded-lg transition-all text-sm font-medium"
+              title="Fortschritt zurücksetzen"
+            >
+              ↺
+            </button>
           </div>
 
           <!-- Row 2: Statistics -->
@@ -141,17 +151,10 @@
     <main class="container mx-auto px-3 sm:px-4 pb-4">
       <div class="max-w-4xl mx-auto min-w-0 w-full">
         <!-- Word Progress Squares -->
-         <div id="wordProgressSquares" class="mb-3"></div>
+         <div id="wordProgressSquares" class="mb-1.5"></div>
         <div id="panel"
-          class="game-panel bg-white rounded-2xl shadow p-4 sm:p-6 mb-3 flex items-center justify-center relative"
+          class="game-panel bg-white rounded-2xl shadow mb-3 flex items-center justify-center"
         >
-          <button
-            id="resetBtn"
-            class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 hover:bg-gray-100 p-2 rounded-lg transition-all text-sm font-medium"
-            title="Fortschritt zurücksetzen"
-          >
-            ↺
-          </button>
           <div id="wordDisplay" class="text-center w-full min-w-0 px-1">
             <div
               id="fallingWord"
@@ -162,7 +165,7 @@
             <div
               id="sentenceDisplay"
               dir="rtl"
-              class="text-gray-600 mt-2 sm:mt-3 hidden"
+              class="text-gray-600 mt-2 hidden"
             ></div>
             <div id="questionType" class="text-sm text-gray-500 mt-2"></div>
           </div>
@@ -176,22 +179,27 @@
 
 
               <!-- Result View (Inline) -->
-      <div id="resultModal" class="hidden bg-white rounded-2xl shadow p-2 sm:p-3 mb-3 w-full min-w-0 max-w-full">
+      <div id="resultModal" class="hidden bg-white rounded-2xl shadow p-2 sm:p-3  w-full min-w-0 max-w-full">
         <div class="text-center min-w-0">
           <div id="modalIcon" class="leading-none"></div>
           <h2 id="modalTitle" class="font-bold"></h2>
           <div id="modalDetails" class="bg-gray-50 rounded-lg px-2.5 py-1.5 mb-1.5 text-left text-sm leading-snug max-w-full overflow-hidden"></div>
-          <div class="game-result-actions flex flex-wrap justify-center mt-1 w-full">
-            <button id="sureBtn"
-              class="game-result-btn bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 hover:scale-105 hover:shadow-[0_10px_35px_rgba(16,185,129,0.45)] text-white rounded-2xl font-bold transition-all duration-300">
+          <div class="game-result-actions flex flex-wrap justify-center mt-0.5 w-full">
+            <button id="sureBtn" class="game-result-btn game-result-btn--sure">
               Ja, sicher
             </button>
-            <button id="maybeBtn"
-              class="game-result-btn bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 hover:scale-105 hover:shadow-[0_10px_35px_rgba(168,85,247,0.45)] text-white rounded-2xl font-bold transition-all duration-300">
+            <button id="maybeBtn" class="game-result-btn game-result-btn--maybe">
               Nicht sicher
             </button>
+            <button
+              id="practiceAgainBtn"
+              type="button"
+              class="hidden game-result-btn game-result-btn--practice w-full max-w-[11rem]"
+            >
+              Noch einmal üben
+            </button>
             <button id="easyBtn" type="button"
-              class="game-result-btn hidden bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 hover:scale-105 hover:shadow-[0_10px_35px_rgba(245,158,11,0.45)] text-white rounded-2xl font-bold transition-all duration-300">
+              class="game-result-btn game-result-btn--easy hidden">
              Ganz einfach
             </button>
           </div>

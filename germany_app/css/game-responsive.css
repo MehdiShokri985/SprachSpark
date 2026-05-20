@@ -8,9 +8,9 @@
   --game-word-size: clamp(1.25rem, 4vw + 0.45rem, 2.25rem);
   --game-sentence-size: clamp(0.875rem, 1.8vw + 0.4rem, 1.125rem);
   --game-modal-title: clamp(1.125rem, 3vw + 0.5rem, 1.5rem);
-  --game-result-btn-x: clamp(0.65rem, 3.5vw, 2.5rem);
-  --game-result-btn-y: clamp(0.4rem, 1.5vh, 0.55rem);
-  --game-result-btn-text: clamp(0.75rem, 2.2vw + 0.35rem, 0.9375rem);
+  --game-result-btn-x: clamp(0.45rem, 2vw, 0.85rem);
+  --game-result-btn-y: clamp(0.26rem, 1vh, 0.38rem);
+  --game-result-btn-text: clamp(0.6875rem, 1.7vw + 0.28rem, 0.8125rem);
 }
 
 html {
@@ -52,7 +52,7 @@ body.game-page .container {
 
 /* ----- Progress card ----- */
 .game-progress-card {
-  padding: clamp(0.65rem, 2.5vw, 1rem);
+  padding: clamp(0.65rem, 2.5vw, 0rem);
 }
 
 .game-level-stats {
@@ -73,7 +73,7 @@ body.game-page .container {
 }
 
 #wordDisplay .falling-word.relative {
-  padding-top: 1.35rem;
+  padding-top: 0rem;
 }
 
 #modalDetails a,
@@ -93,7 +93,7 @@ body.game-page .container {
 
 #sentenceDisplay {
   font-size: var(--game-sentence-size);
-  line-height: 1.45;
+  line-height: 1;
   overflow-wrap: anywhere;
   word-break: break-word;
 }
@@ -108,8 +108,8 @@ body.game-page .container {
 }
 
 .game-answer-btn {
-  min-height: 2.85rem;
-  padding: clamp(0.55rem, 2vw, 1rem);
+  min-height: 2rem;
+  padding: clamp(0.55rem, 2vw, 0.3rem);
   font-size: clamp(0.78rem, 2vw + 0.35rem, 1rem);
   line-height: 1.35;
   overflow-wrap: anywhere;
@@ -147,31 +147,96 @@ body.game-page .container {
 }
 
 .game-result-actions {
-  gap: clamp(0.35rem, 2vw, 0.75rem);
+  gap: clamp(0.28rem, 1.5vw, 0.5rem);
   width: 100%;
   max-width: 100%;
 }
 
 .game-result-btn {
-  flex: 1 1 auto;
-  min-width: min(100%, 6.75rem);
+  flex: 0 1 auto;
+  min-width: min(100%, 5.25rem);
   max-width: 100%;
+  min-height: 2rem;
   padding: var(--game-result-btn-y) var(--game-result-btn-x);
   font-size: var(--game-result-btn-text);
-  line-height: 1.25;
-  white-space: normal;
+  line-height: 1.2;
+  font-weight: 600;
+  white-space: nowrap;
   text-align: center;
+  border-radius: 0.625rem;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+}
+
+.game-result-btn:hover {
+  transform: translateY(-1px);
+}
+
+.game-result-btn--sure {
+  background: #ecfdf5;
+  color: #047857;
+  border-color: rgba(16, 185, 129, 0.24);
+}
+
+.game-result-btn--sure:hover {
+  background: #d1fae5;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.12);
+}
+
+.game-result-btn--maybe {
+  background: #fffbeb;
+  color: #b45309;
+  border-color: rgba(245, 158, 11, 0.22);
+}
+
+.game-result-btn--maybe:hover {
+  background: #fef3c7;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.1);
+}
+
+.game-result-btn--easy {
+  background: #f5f3ff;
+  color: #6d28d9;
+  border-color: rgba(139, 92, 246, 0.22);
+}
+
+.game-result-btn--easy:hover {
+  background: #ede9fe;
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.12);
+}
+
+.game-result-btn--practice {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-color: rgba(59, 130, 246, 0.22);
+}
+
+.game-result-btn--practice:hover {
+  background: #dbeafe;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
 }
 
 @media (max-width: 400px) {
   .game-result-actions {
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .game-result-btn {
-    width: 100%;
-    min-width: 0;
+    flex: 1 1 calc(50% - 0.2rem);
+    min-width: calc(50% - 0.2rem);
+    max-width: calc(50% - 0.2rem);
+  }
+
+  .game-result-btn--practice {
+    flex: 1 1 100%;
+    min-width: 100%;
+    max-width: 12rem;
   }
 }
 
@@ -199,6 +264,8 @@ body.game-page .container {
   flex: 1 1 auto;
   min-width: 0;
   text-align: left;
+  color:#1d4ed8;
+  font-weight: bold;
 }
 
 #modalDetails .md-pair-end {

@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
       reflexivverben: "German Reflexivverben",
       kollokationen: "German Kollokationen",
       slang: "German Slang",
+      verben: "German Verbs",
     };
 
     document.getElementById("pageTitle").textContent = titles[dataset] || "German Learning";

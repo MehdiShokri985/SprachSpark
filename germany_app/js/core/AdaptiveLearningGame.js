@@ -159,6 +159,9 @@ export class AdaptiveLearningGame {
     document
       .getElementById("easyBtn")
       .addEventListener("click", () => this.handleEasyMastery());
+    document
+      .getElementById("continueBtn")
+      ?.addEventListener("click", () => this.closeModal());
 
     // مودال اشتباهات
     document
@@ -238,6 +241,8 @@ export class AdaptiveLearningGame {
     const currentState = this.getCurrentState();
     currentState.totalQuestions = 0;
     currentState.sessionNumber++;
+
+    this.gameLogic.initSessionOrder(this.currentNiveau);
 
     // Disable panel click after game starts
     this.isGameStartEligible = false;
@@ -409,8 +414,8 @@ export class AdaptiveLearningGame {
     this.currentWord.sureCount = 2;
 
     this.saveData();
-    this.closeModal();
     this.updateUI();
+    this.uiManager.showResultContinueButton();
   }
 
   /**
@@ -456,8 +461,8 @@ export class AdaptiveLearningGame {
     }
 
     this.saveData();
-    this.closeModal();
     this.updateUI();
+    this.uiManager.showResultContinueButton();
   }
 
   /**
@@ -586,7 +591,8 @@ export class AdaptiveLearningGame {
     this.lastResponseDurationMs = null;
     if (this.uiManager) {
       this.uiManager.hideEasyMasteryButton();
-      this.uiManager.setResultModalActions("answer");
+      this.uiManager.setWordProgressSquaresVisible(false);
+      this.uiManager.resetResultModalButtons();
     }
 
     // Enable panel click for new mode/level

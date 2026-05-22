@@ -6,6 +6,40 @@
 export class GameLogic {
   constructor(words) {
     this.words = words;
+    /** @type {string[]|null} shuffled word ids for current session */
+    this._sessionOrder = null;
+  }
+
+  /**
+   * Shuffle question order once per game session (not by id sort).
+   */
+  initSessionOrder(currentNiveau) {
+    const levelWords = this.words.filter(
+      (w) => (w.level || "A1") === currentNiveau,
+    );
+    const ids = levelWords
+      .filter((w) => (w.sureCount || 0) < 2)
+      .map((w) => w.id);
+    this._sessionOrder = this._shuffleArray(ids);
+  }
+
+  _shuffleArray(items) {
+    const order = [...items];
+    for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+    }
+    return order;
+  }
+
+  _sessionRank(wordId) {
+    if (!this._sessionOrder) return 0;
+    const index = this._sessionOrder.indexOf(wordId);
+    return index < 0 ? this._sessionOrder.length : index;
+  }
+
+  _orderPoolBySession(pool) {
+    pool.sort((a, b) => this._sessionRank(a.id) - this._sessionRank(b.id));
   }
 
   selectNextWord(currentNiveau, currentState) {
@@ -23,14 +57,14 @@ export class GameLogic {
     const reviewWords = availableWords.filter(w => w.seenCount > 0);
 
     const questionPosition = currentState.totalQuestions % 4;
-    let selectedPool = (questionPosition === 0 && newWords.length > 0) ? newWords : (reviewWords.length > 0 ? reviewWords : newWords);
+    let selectedPool =
+      questionPosition === 0 && newWords.length > 0
+        ? newWords
+        : reviewWords.length > 0
+          ? reviewWords
+          : newWords;
 
-    
-    selectedPool.sort((a, b) => {
-      if (a.strength !== b.strength) return a.strength - b.strength;
-      if (a.mistakeCount !== b.mistakeCount) return b.mistakeCount - a.mistakeCount;
-      return a.seenCount - b.seenCount;
-    });
+    this._orderPoolBySession(selectedPool);
 
     let selected = selectedPool[0];
     if (selected && selected.id === currentState.lastWordId && selectedPool.length > 1) {

@@ -151,7 +151,7 @@
     <main class="container mx-auto px-3 sm:px-4 pb-4">
       <div class="max-w-4xl mx-auto min-w-0 w-full">
         <!-- Word Progress Squares -->
-         <div id="wordProgressSquares" class="mb-1.5"></div>
+         <div id="wordProgressSquares" class="mb-1.5 hidden"></div>
         <div id="panel"
           class="game-panel bg-white rounded-2xl shadow mb-3 flex items-center justify-center"
         >
@@ -170,6 +170,13 @@
             <div id="questionType" class="text-sm text-gray-500 mt-2"></div>
           </div>
         </div>
+
+        <div
+          id="autocompleteList"
+          class="hidden flex flex-wrap gap-1.5 justify-center items-center mb-2 w-full min-w-0"
+          role="listbox"
+          aria-label="Wortvorschläge"
+        ></div>
 
         <!-- Normal Mode Answers -->
         <div
@@ -201,6 +208,13 @@
             <button id="easyBtn" type="button"
               class="game-result-btn game-result-btn--easy hidden">
              Ganz einfach
+            </button>
+            <button
+              id="continueBtn"
+              type="button"
+              class="hidden game-result-btn game-result-btn--practice w-full max-w-[11rem]"
+            >
+              Continue
             </button>
           </div>
         </div>
@@ -250,11 +264,6 @@
                 Prüfen
               </button>
             </div>
-
-            <div
-              id="autocompleteList"
-              class="mt-2 bg-white rounded-xl shadow border border-gray-200 max-h-60 overflow-auto hidden"
-            ></div>
           </div>
         </div>
 

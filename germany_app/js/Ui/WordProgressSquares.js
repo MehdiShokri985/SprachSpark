@@ -6,15 +6,30 @@
 const SQUARE_PX = 12;
 const GAP_PX = 11;
 const MIN_CENTER_DIST = SQUARE_PX + GAP_PX;
-const SHAPE_POOL_LARGE = [
-  "mandala",
-  "flower",
-  "infinity",
-  "star",
-  "hex",
-  "wing",
-  "constellation",
-  "spiral",
+
+/** Final-shape catalog — ids map to samplers in _normalizedShapePoints */
+const SHAPE_POOL_TINY = ["dot", "line"];
+const SHAPE_POOL_SMALL = [
+  "triangle",
+  "orbit",
+  "curve",
+  "diamond",
+  "vee",
+  "arc",
+  "bow",
+  "cross",
+  "crescent",
+  "wave",
+  "zigzag",
+  "petal4",
+  "loop",
+  "kite",
+  "pinwheel",
+  "rose3",
+  "cardioid",
+  "astroid",
+  "hourglass",
+  "trident",
 ];
 const SHAPE_POOL_MEDIUM = [
   "flower",
@@ -25,8 +40,83 @@ const SHAPE_POOL_MEDIUM = [
   "infinity",
   "wave",
   "diamond",
+  "spiral",
+  "constellation",
+  "mandala",
+  "wing",
+  "clover",
+  "gear",
+  "snowflake",
+  "butterfly",
+  "fish",
+  "bird",
+  "comet",
+  "galaxy",
+  "burst",
+  "crown",
+  "lightning",
+  "scribble",
+  "phyllotaxis",
+  "lissajous",
+  "epicycloid",
+  "hypotrochoid",
+  "superellipse",
+  "lemniscate",
+  "rose5",
+  "rose7",
+  "doubleRing",
+  "helix",
+  "cascade",
+  "cloud",
+  "flame",
+  "shield",
+  "nova",
+  "petal6",
+  "pentagon",
+  "octagon",
+  "horseshoe",
+  "omega",
+  "bridge",
+  "ripple",
+  "stagger",
 ];
-const SHAPE_POOL_SMALL = ["triangle", "orbit", "curve", "diamond"];
+const SHAPE_POOL_LARGE = [
+  ...new Set([
+    ...SHAPE_POOL_MEDIUM,
+    "doubleHelix",
+    "fractalBranch",
+    "radialBloom",
+    "asymmetricWing",
+    "creature",
+    "constellation2",
+    "orbit3d",
+    "waveField",
+    "starburst",
+    "lotus",
+    "sunwheel",
+    "dragonPath",
+    "abstractGlyph",
+    "tessellation",
+    "voronoiRing",
+    "fibonacciArc",
+    "lunarPhase",
+    "eclipse",
+    "meteorShower",
+    "nebula",
+    "coral",
+    "fern",
+    "crystal",
+    "prism",
+    "molecule",
+    "circuit",
+    "glyphSpiral",
+    "woven",
+    "braid",
+    "harp",
+    "echo",
+    "pulseRing",
+  ]),
+];
 
 export class WordProgressSquares {
   constructor(game, onSquareClick) {
@@ -40,6 +130,49 @@ export class WordProgressSquares {
     /** @type {Map<string, { leftPx: number, topPx: number, maxDriftPx: number }>} */
     this._chaoticLayout = new Map();
     this._layoutSessionSeed = null;
+    /** @type {number|null} last resolved container width for relayout */
+    this._lastLayoutAreaWidth = null;
+  }
+
+  /**
+   * True width of the progress strip (works while root is display:none).
+   */
+  _resolveAreaWidth(root) {
+    const chaotic = this._chaoticEl;
+    if (chaotic) {
+      const cw = chaotic.clientWidth || chaotic.offsetWidth;
+      if (cw > 0) return cw;
+    }
+    if (root) {
+      const rw = root.clientWidth || root.offsetWidth;
+      if (rw > 0) return rw;
+      const parent = root.parentElement;
+      if (parent) {
+        const pw = parent.clientWidth || parent.offsetWidth;
+        if (pw > 0) {
+          const styles = getComputedStyle(parent);
+          const padX =
+            (parseFloat(styles.paddingLeft) || 0) +
+            (parseFloat(styles.paddingRight) || 0);
+          return Math.max(100, pw - padX);
+        }
+      }
+    }
+    return 300;
+  }
+
+  _invalidateLayoutIfWidthChanged(areaW) {
+    if (
+      this._lastLayoutAreaWidth != null &&
+      Math.abs(areaW - this._lastLayoutAreaWidth) > 28
+    ) {
+      this._chaoticLayout.clear();
+    }
+    this._lastLayoutAreaWidth = areaW;
+  }
+
+  _isShapeBlockedEntry(p) {
+    return String(p.id ?? "").startsWith("__shape_");
   }
 
   _storageKey(suffix) {
@@ -100,12 +233,250 @@ export class WordProgressSquares {
   }
 
   _shapePoolForCount(count) {
-    if (count <= 1) return ["dot"];
-    if (count === 2) return ["line"];
-    if (count === 3) return ["triangle", "orbit"];
+    if (count <= 1) return SHAPE_POOL_TINY;
+    if (count === 2) return ["line", "vee", "arc", "bow"];
+    if (count === 3) return ["triangle", "orbit", "vee", "trident", "petal4"];
     if (count <= 6) return SHAPE_POOL_SMALL;
     if (count <= 14) return SHAPE_POOL_MEDIUM;
     return SHAPE_POOL_LARGE;
+  }
+
+  _halton(index, base) {
+    let f = 1;
+    let r = 0;
+    let i = index;
+    while (i > 0) {
+      f /= base;
+      r += f * (i % base);
+      i = Math.floor(i / base);
+    }
+    return r;
+  }
+
+  _zoneCounts(placed, areaW, areaH, cols, rows, margin, countShapeBlocked = false) {
+    const counts = Array(cols * rows).fill(0);
+    const cellW = (areaW - margin * 2) / cols;
+    const cellH = (areaH - margin * 2) / rows;
+    for (const p of placed) {
+      if (!countShapeBlocked && this._isShapeBlockedEntry(p)) continue;
+      const cx = p.leftPx + SQUARE_PX / 2 - margin;
+      const cy = p.topPx + SQUARE_PX / 2 - margin;
+      const col = Math.min(
+        cols - 1,
+        Math.max(0, Math.floor(cx / Math.max(cellW, 1))),
+      );
+      const row = Math.min(
+        rows - 1,
+        Math.max(0, Math.floor(cy / Math.max(cellH, 1))),
+      );
+      counts[row * cols + col]++;
+    }
+    return { counts, cellW, cellH };
+  }
+
+  _minCenterDist(leftPx, topPx, placed) {
+    const cx = leftPx + SQUARE_PX / 2;
+    const cy = topPx + SQUARE_PX / 2;
+    let minD = Infinity;
+    for (const p of placed) {
+      minD = Math.min(
+        minD,
+        this._dist(cx, cy, p.leftPx + SQUARE_PX / 2, p.topPx + SQUARE_PX / 2),
+      );
+    }
+    return minD;
+  }
+
+  /**
+   * Spread candidates across the full container (Halton + zone centers + anchors).
+   */
+  _horizontalBandCount(areaW, totalSlots) {
+    const margin = 6;
+    const spanL = Math.max(MIN_CENTER_DIST, areaW - margin * 2 - SQUARE_PX);
+    const byWidth = Math.max(2, Math.floor(spanL / MIN_CENTER_DIST));
+    return Math.max(2, Math.min(totalSlots, byWidth));
+  }
+
+  _columnTargetX(areaW, slotIndex, totalSlots, margin = 6) {
+    const maxL = Math.max(margin, areaW - SQUARE_PX - margin);
+    const spanL = maxL - margin;
+    const hCols = this._horizontalBandCount(areaW, totalSlots);
+    const col = slotIndex % hCols;
+    const bandW = spanL / hCols;
+    const jitter =
+      (this._seededUnit(slotIndex * 997 + totalSlots, 77) - 0.5) *
+      Math.min(bandW * 0.55, MIN_CENTER_DIST * 0.9);
+    return margin + (col + 0.5) * bandW + jitter - SQUARE_PX / 2;
+  }
+
+  _horizontalBalanceBonus(leftPx, areaW, placed, margin = 6) {
+    const midX = margin + (areaW - margin * 2 - SQUARE_PX) / 2;
+    let left = 0;
+    let right = 0;
+    for (const p of placed) {
+      if (this._isShapeBlockedEntry(p)) continue;
+      const cx = p.leftPx + SQUARE_PX / 2;
+      if (cx < midX) left++;
+      else right++;
+    }
+    const cx = leftPx + SQUARE_PX / 2;
+    const onLeft = cx < midX;
+    const needLeft = right - left;
+    if (needLeft > 0 && onLeft) {
+      return Math.min(needLeft, 5) * MIN_CENTER_DIST * 0.55;
+    }
+    if (needLeft < 0 && !onLeft) {
+      return Math.min(-needLeft, 5) * MIN_CENTER_DIST * 0.55;
+    }
+    return 0;
+  }
+
+  _generateSpreadCandidates(areaW, areaH, seed, slotIndex, totalSlots) {
+    const margin = 6;
+    const maxL = Math.max(margin, areaW - SQUARE_PX - margin);
+    const maxT = Math.max(margin, areaH - SQUARE_PX - margin);
+    const spanL = maxL - margin;
+    const spanT = maxT - margin;
+    const out = [];
+    const base = seed + slotIndex * 131 + totalSlots * 17;
+
+    const hCols = this._horizontalBandCount(areaW, totalSlots);
+    const targetX = this._columnTargetX(areaW, slotIndex, totalSlots, margin);
+    const rowBands = Math.max(2, Math.floor(areaH / (MIN_CENTER_DIST * 1.45)));
+    for (let r = 0; r < rowBands; r++) {
+      const u = (r + 0.5) / rowBands;
+      const ty = margin + u * spanT;
+      out.push({ leftPx: targetX, topPx: ty, _columnTarget: true });
+      const altCol = (slotIndex + 1 + r) % hCols;
+      const altX =
+        margin +
+        (altCol + 0.5) * (spanL / hCols) -
+        SQUARE_PX / 2 +
+        (this._seededUnit(base, 90 + r) - 0.5) * MIN_CENTER_DIST * 0.5;
+      out.push({ leftPx: altX, topPx: ty, _columnTarget: true });
+    }
+
+    const anchors = [
+      [0.1, 0.12],
+      [0.9, 0.12],
+      [0.1, 0.88],
+      [0.9, 0.88],
+      [0.5, 0.1],
+      [0.5, 0.9],
+      [0.1, 0.5],
+      [0.9, 0.5],
+      [0.5, 0.5],
+      [0.28, 0.28],
+      [0.72, 0.28],
+      [0.28, 0.72],
+      [0.72, 0.72],
+    ];
+    anchors.forEach(([ax, ay], i) => {
+      const jx = (this._seededUnit(base, 40 + i) - 0.5) * 0.08;
+      const jy = (this._seededUnit(base, 60 + i) - 0.5) * 0.08;
+      out.push({
+        leftPx: margin + (ax + jx) * spanL,
+        topPx: margin + (ay + jy) * spanT,
+      });
+    });
+
+    const cols = Math.max(3, Math.floor(areaW / (MIN_CENTER_DIST * 1.65)));
+    const rows = Math.max(2, Math.floor(areaH / (MIN_CENTER_DIST * 1.45)));
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const t = (c + 0.5) / cols;
+        const u = (r + 0.5) / rows;
+        const jx = (this._seededUnit(base, r * cols + c) - 0.5) * 0.72;
+        const jy = (this._seededUnit(base, r * cols + c + 200) - 0.5) * 0.72;
+        out.push({
+          leftPx: margin + (t + jx / cols) * spanL,
+          topPx: margin + (u + jy / rows) * spanT,
+        });
+      }
+    }
+
+    for (let i = 0; i < 96; i++) {
+      const h1 = this._halton(base + i * 3 + 1, 2);
+      const h2 = this._halton(base + i * 5 + 2, 3);
+      out.push({
+        leftPx: margin + h1 * spanL,
+        topPx: margin + h2 * spanT,
+      });
+    }
+
+    return out;
+  }
+
+  /**
+   * Farthest-point pick among spread candidates — fills container evenly.
+   */
+  _findBalancedOpenPosition(placed, areaW, areaH, seed, slotIndex, totalSlots) {
+    const margin = 6;
+    const cols = Math.max(3, Math.floor(areaW / (MIN_CENTER_DIST * 1.65)));
+    const rows = Math.max(2, Math.floor(areaH / (MIN_CENTER_DIST * 1.45)));
+    const { counts, cellW, cellH } = this._zoneCounts(
+      placed,
+      areaW,
+      areaH,
+      cols,
+      rows,
+      margin,
+      false,
+    );
+    const minZone = Math.min(...counts, 0);
+    const targetCenterX =
+      this._columnTargetX(areaW, slotIndex, totalSlots, margin) + SQUARE_PX / 2;
+    const maxL = Math.max(margin, areaW - SQUARE_PX - margin);
+
+    const candidates = this._generateSpreadCandidates(
+      areaW,
+      areaH,
+      seed,
+      slotIndex,
+      totalSlots,
+    );
+
+    let best = null;
+    let bestScore = -Infinity;
+
+    for (const cand of candidates) {
+      const leftPx = Math.max(
+        margin,
+        Math.min(maxL, cand.leftPx),
+      );
+      const topPx = Math.max(
+        margin,
+        Math.min(areaH - SQUARE_PX - margin, cand.topPx),
+      );
+      if (this._collides(leftPx, topPx, placed)) continue;
+
+      const cx = leftPx + SQUARE_PX / 2 - margin;
+      const cy = topPx + SQUARE_PX / 2 - margin;
+      const col = Math.min(
+        cols - 1,
+        Math.max(0, Math.floor(cx / Math.max(cellW, 1))),
+      );
+      const row = Math.min(
+        rows - 1,
+        Math.max(0, Math.floor(cy / Math.max(cellH, 1))),
+      );
+      const zoneCount = counts[row * cols + col];
+      const zoneBonus = (minZone - zoneCount + 1) * MIN_CENTER_DIST * 0.55;
+      const spread = this._minCenterDist(leftPx, topPx, placed);
+      const balanceBonus = this._horizontalBalanceBonus(leftPx, areaW, placed, margin);
+      const distToTarget = Math.abs(leftPx + SQUARE_PX / 2 - targetCenterX);
+      const columnBonus =
+        Math.max(0, MIN_CENTER_DIST * 2.2 - distToTarget) *
+        (cand._columnTarget ? 1.15 : 0.85);
+      const score = spread + zoneBonus + balanceBonus + columnBonus;
+
+      if (score > bestScore) {
+        bestScore = score;
+        best = { leftPx, topPx };
+      }
+    }
+
+    return best;
   }
 
   _pickRandomShape(count) {
@@ -140,10 +511,10 @@ export class WordProgressSquares {
 
   _areaHeightForLayout(activeCount, totalCount) {
     const narrow = this._isNarrow();
-    const base = narrow ? 24 : 32;
-    const cap = narrow ? 88 : 120;
-    const step = narrow ? 5 : 7;
-    const floor = narrow ? 36 : 46;
+    const base = narrow ? 28 : 36;
+    const cap = narrow ? 100 : 148;
+    const step = narrow ? 6 : 8;
+    const floor = narrow ? 40 : 52;
     const shapeSpan =
       totalCount <= 1
         ? 22
@@ -402,44 +773,621 @@ export class WordProgressSquares {
     return pts.slice(0, count);
   }
 
+  _shapeSeed(comboKey, salt = 0) {
+    return this._hashSeed(`${comboKey}:${salt}`);
+  }
+
+  _sampleRose(count, petals, comboKey = "") {
+    const k = petals + (comboKey ? this._seededUnit(this._shapeSeed(comboKey, 1), 0) * 0.35 : 0);
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.18 + 0.64 * Math.abs(Math.cos((k * theta) / 2));
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+  }
+
+  _sampleRegularPolygon(count, sides) {
+    const verts = [];
+    for (let i = 0; i < sides; i++) {
+      const a = (i / sides) * Math.PI * 2 - Math.PI / 2;
+      verts.push({ nx: Math.cos(a) * 0.82, ny: Math.sin(a) * 0.82 });
+    }
+    return this._distributeOnPath(count, verts);
+  }
+
+  _sampleSuperellipse(count, n, comboKey = "") {
+    const exp = n + (comboKey ? this._seededUnit(this._shapeSeed(comboKey, 2), 0) * 0.8 : 0);
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const c = Math.abs(Math.cos(theta)) ** (2 / exp);
+      const s = Math.abs(Math.sin(theta)) ** (2 / exp);
+      const r = 0.82 / Math.max(c + s, 0.08);
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+  }
+
+  _sampleLissajous(count, comboKey) {
+    const seed = this._shapeSeed(comboKey, 3);
+    const a = 2 + Math.floor(this._seededUnit(seed, 0) * 4);
+    const b = 2 + Math.floor(this._seededUnit(seed, 1) * 4);
+    const delta = this._seededUnit(seed, 2) * Math.PI;
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2;
+      return {
+        nx: 0.82 * Math.sin(a * theta + delta),
+        ny: 0.82 * Math.sin(b * theta),
+      };
+    }, false);
+  }
+
+  _sampleEpicycloid(count, comboKey, variant = 0) {
+    const seed = this._shapeSeed(comboKey, 4 + variant);
+    const R = 0.55 + this._seededUnit(seed, 0) * 0.2;
+    const r = 0.15 + this._seededUnit(seed, 1) * 0.25;
+    const d = r * (0.8 + this._seededUnit(seed, 2) * 0.6);
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 * (2 + Math.floor(this._seededUnit(seed, 3) * 2));
+      const k = (R + r) / r;
+      return {
+        nx: (R + r) * Math.cos(theta) - d * Math.cos(k * theta),
+        ny: (R + r) * Math.sin(theta) - d * Math.sin(k * theta),
+      };
+    });
+  }
+
+  _sampleHypotrochoid(count, comboKey) {
+    const seed = this._shapeSeed(comboKey, 8);
+    const R = 0.7;
+    const r = 0.22 + this._seededUnit(seed, 0) * 0.18;
+    const d = r * (1.2 + this._seededUnit(seed, 1));
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 * 3;
+      const k = (R - r) / r;
+      return {
+        nx: (R - r) * Math.cos(theta) + d * Math.cos(k * theta),
+        ny: (R - r) * Math.sin(theta) - d * Math.sin(k * theta),
+      };
+    });
+  }
+
+  _sampleGear(count, comboKey) {
+    const teeth = 6 + Math.floor(this._seededUnit(this._shapeSeed(comboKey, 5), 0) * 6);
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.42 + 0.38 * (0.55 + 0.45 * Math.cos(teeth * theta));
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+  }
+
+  _sampleZigzag(count) {
+    const pts = [];
+    const segs = Math.max(2, Math.ceil(count / 2));
+    for (let i = 0; i < count; i++) {
+      const t = i / Math.max(1, count - 1);
+      const seg = Math.floor(t * segs);
+      const ny = seg % 2 === 0 ? -0.55 : 0.55;
+      pts.push({ nx: -0.85 + t * 1.7, ny });
+    }
+    return pts;
+  }
+
+  _sampleVee(count) {
+    return this._distributeOnPath(count, [
+      { nx: -0.75, ny: 0.55 },
+      { nx: 0, ny: -0.82 },
+      { nx: 0.75, ny: 0.55 },
+    ]);
+  }
+
+  _sampleArc(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = Math.PI + t * Math.PI;
+      return { nx: 0.82 * Math.cos(theta), ny: 0.82 * Math.sin(theta) * 0.7 };
+    }, false);
+  }
+
+  _sampleBow(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI;
+      return { nx: -0.82 + t * 1.64, ny: 0.65 * Math.sin(theta) };
+    }, false);
+  }
+
+  _sampleCross(count) {
+    const arm = [
+      { nx: 0, ny: -0.82 },
+      { nx: 0, ny: 0.82 },
+      { nx: -0.82, ny: 0 },
+      { nx: 0.82, ny: 0 },
+    ];
+    return this._distributeOnPath(count, arm);
+  }
+
+  _sampleCrescent(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.72 + 0.12 * Math.cos(theta);
+      return { nx: r * Math.cos(theta) * 0.9, ny: r * Math.sin(theta) };
+    });
+  }
+
+  _sampleButterfly(count, comboKey) {
+    const seed = this._shapeSeed(comboKey, 6);
+    const skew = 0.85 + this._seededUnit(seed, 0) * 0.2;
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = Math.exp(Math.cos(theta)) - 2 * Math.cos(4 * theta);
+      const scale = 0.22 / Math.max(Math.abs(r), 0.35);
+      return { nx: scale * r * Math.sin(theta), ny: scale * r * Math.cos(theta) * skew };
+    });
+  }
+
+  _sampleFish(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.35 + 0.45 * Math.abs(Math.sin(theta)) + 0.12 * Math.cos(2 * theta);
+      return { nx: r * Math.cos(theta) * 1.1, ny: r * Math.sin(theta) * 0.75 };
+    });
+  }
+
+  _sampleBird(count, comboKey) {
+    const flip = this._seededUnit(this._shapeSeed(comboKey, 7), 0) > 0.5 ? 1 : -1;
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r =
+        0.5 +
+        0.32 * Math.cos(theta) +
+        0.18 * Math.sin(2 * theta) * flip;
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) * 0.85 };
+    });
+  }
+
+  _sampleComet(count) {
+    const head = Math.max(1, Math.round(count * 0.2));
+    const pts = [];
+    for (let i = 0; i < head; i++) {
+      const a = (i / head) * Math.PI * 2;
+      pts.push({ nx: 0.35 * Math.cos(a), ny: 0.35 * Math.sin(a) });
+    }
+    const tail = count - head;
+    for (let i = 0; i < tail; i++) {
+      const t = tail <= 1 ? 0.5 : i / (tail - 1);
+      pts.push({ nx: -0.85 + t * 0.55, ny: (t - 0.5) * 0.35 });
+    }
+    return pts.slice(0, count);
+  }
+
+  _sampleGalaxy(count, comboKey) {
+    const arms = 2 + Math.floor(this._seededUnit(this._shapeSeed(comboKey, 9), 0) * 3);
+    const pts = [];
+    for (let i = 0; i < count; i++) {
+      const t = (i + 0.5) / count;
+      const angle = t * Math.PI * 4 * arms - Math.PI / 2;
+      const r = 0.1 + 0.78 * Math.pow(t, 0.55);
+      pts.push({ nx: r * Math.cos(angle), ny: r * Math.sin(angle) * 0.88 });
+    }
+    return pts;
+  }
+
+  _sampleBurst(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.25 + 0.6 * Math.abs(Math.sin((count <= 8 ? 4 : 6) * theta));
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+  }
+
+  _sampleLightning(count) {
+    const verts = [
+      { nx: -0.2, ny: -0.82 },
+      { nx: 0.35, ny: -0.15 },
+      { nx: -0.05, ny: -0.1 },
+      { nx: 0.45, ny: 0.82 },
+      { nx: -0.35, ny: 0.1 },
+      { nx: 0.05, ny: 0.05 },
+    ];
+    return this._distributeOnPath(count, verts);
+  }
+
+  _sampleScribble(count, comboKey) {
+    const seed = this._shapeSeed(comboKey, 10);
+    const freq = 3 + Math.floor(this._seededUnit(seed, 0) * 5);
+    const amp = 0.15 + this._seededUnit(seed, 1) * 0.12;
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.62 + amp * Math.sin(freq * theta + this._seededUnit(seed, 2) * 6);
+      const wobble = amp * 0.6 * Math.cos(freq * 2 * theta);
+      return {
+        nx: r * Math.cos(theta) + wobble,
+        ny: r * Math.sin(theta) * (0.9 + this._seededUnit(seed, 3) * 0.15),
+      };
+    });
+  }
+
+  _samplePhyllotaxis(count, comboKey) {
+    const golden = Math.PI * (3 - Math.sqrt(5));
+    const phase = this._seededUnit(this._shapeSeed(comboKey, 11), 0) * Math.PI * 2;
+    const pts = [];
+    for (let i = 0; i < count; i++) {
+      const t = (i + 0.5) / count;
+      const r = 0.12 + 0.8 * Math.sqrt(t);
+      const angle = phase + i * golden;
+      pts.push({ nx: r * Math.cos(angle), ny: r * Math.sin(angle) });
+    }
+    return pts;
+  }
+
+  _sampleDoubleRing(count) {
+    const outer = Math.ceil(count * 0.55);
+    const inner = count - outer;
+    const outerPts = this._sampleArcCurve(outer, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      return { nx: 0.82 * Math.cos(theta), ny: 0.82 * Math.sin(theta) };
+    });
+    const innerPts = this._sampleArcCurve(Math.max(0, inner), (t) => {
+      const theta = t * Math.PI * 2;
+      const r = 0.38;
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+    return [...outerPts, ...innerPts];
+  }
+
+  _sampleHelix2d(count) {
+    const pts = [];
+    for (let i = 0; i < count; i++) {
+      const t = (i + 0.5) / count;
+      const angle = t * Math.PI * 6 - Math.PI / 2;
+      pts.push({
+        nx: 0.78 * Math.cos(angle) * (0.55 + 0.45 * t),
+        ny: (t - 0.5) * 1.5,
+      });
+    }
+    return pts;
+  }
+
+  _sampleCascade(count) {
+    const cols = Math.max(2, Math.ceil(Math.sqrt(count)));
+    const pts = [];
+    for (let i = 0; i < count; i++) {
+      const col = i % cols;
+      const row = Math.floor(i / cols);
+      const nx = -0.82 + (col / Math.max(1, cols - 1)) * 1.64;
+      const ny = -0.7 + (row / Math.max(1, Math.ceil(count / cols) - 1)) * 1.4;
+      pts.push({ nx, ny });
+    }
+    return pts;
+  }
+
+  _sampleCloud(count, comboKey) {
+    const lobes = 4 + Math.floor(this._seededUnit(this._shapeSeed(comboKey, 12), 0) * 4);
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.48 + 0.34 * Math.cos(lobes * theta);
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) * 0.82 };
+    });
+  }
+
+  _sampleFlame(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.35 + 0.5 * Math.abs(Math.sin(theta)) * (1 - 0.35 * Math.cos(theta));
+      return { nx: r * Math.cos(theta) * 0.75, ny: -Math.abs(r * Math.sin(theta)) };
+    });
+  }
+
+  _sampleCreature(count, comboKey) {
+    const seed = this._shapeSeed(comboKey, 13);
+    const body = Math.ceil(count * 0.55);
+    const pts = this._sampleArcCurve(body, (t) => {
+      const theta = t * Math.PI * 2;
+      const r = 0.42 + 0.12 * Math.sin(3 * theta);
+      return { nx: r * Math.cos(theta) - 0.1, ny: r * Math.sin(theta) * 0.7 };
+    });
+    const extra = count - body;
+    for (let i = 0; i < extra; i++) {
+      const side = i % 2 === 0 ? -1 : 1;
+      const t = (i + 1) / (extra + 1);
+      pts.push({
+        nx: side * (0.55 + t * 0.3),
+        ny: -0.35 + t * 0.7 + this._seededUnit(seed, i) * 0.15,
+      });
+    }
+    return pts.slice(0, count);
+  }
+
+  _sampleStaggeredGrid(count) {
+    const cols = Math.max(2, Math.ceil(Math.sqrt(count * 1.4)));
+    const rows = Math.ceil(count / cols);
+    const pts = [];
+    for (let i = 0; i < count; i++) {
+      const col = i % cols;
+      const row = Math.floor(i / cols);
+      const nx = -0.82 + (col / Math.max(1, cols - 1)) * 1.64;
+      const ny = -0.78 + (row / Math.max(1, rows - 1)) * 1.56;
+      const shift = row % 2 === 0 ? 0 : 0.08;
+      pts.push({ nx: nx + shift, ny });
+    }
+    return pts;
+  }
+
+  _sampleRadialBloom(count, comboKey) {
+    const rays = 5 + Math.floor(this._seededUnit(this._shapeSeed(comboKey, 14), 0) * 8);
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.2 + 0.65 * Math.abs(Math.sin((rays * theta) / 2));
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+  }
+
+  _sampleAbstractGlyph(count, comboKey) {
+    const seed = this._shapeSeed(comboKey, 15);
+    const a = 2 + Math.floor(this._seededUnit(seed, 0) * 3);
+    const b = 3 + Math.floor(this._seededUnit(seed, 1) * 4);
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r =
+        0.4 +
+        0.35 * Math.abs(Math.sin(a * theta)) +
+        0.12 * Math.cos(b * theta + this._seededUnit(seed, 2) * 4);
+      const asym = 0.88 + this._seededUnit(seed, 3) * 0.2;
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) * asym };
+    });
+  }
+
+  _sampleCardioid(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2;
+      const r = 0.5 * (1 - Math.cos(theta));
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+  }
+
+  _sampleAstroid(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2;
+      const r = 0.82 * Math.pow(Math.abs(Math.cos(theta)), 0.66);
+      const s = 0.82 * Math.pow(Math.abs(Math.sin(theta)), 0.66);
+      return { nx: r * Math.sign(Math.cos(theta)), ny: s * Math.sign(Math.sin(theta)) };
+    });
+  }
+
+  _sampleLemniscate(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2;
+      const scale = 0.82 / (1 + Math.sin(theta) ** 2);
+      return {
+        nx: scale * Math.cos(theta),
+        ny: scale * Math.sin(theta) * Math.cos(theta),
+      };
+    });
+  }
+
+  _sampleClover(count) {
+    return this._sampleRose(count, 4, "");
+  }
+
+  _sampleSnowflake(count) {
+    return this._sampleRose(count, 6, "");
+  }
+
+  _sampleNova(count, comboKey) {
+    const spikes = 8 + Math.floor(this._seededUnit(this._shapeSeed(comboKey, 16), 0) * 10);
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      const r = 0.15 + 0.7 * Math.pow(Math.abs(Math.cos((spikes * theta) / 2)), 0.65);
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+  }
+
+  _samplePetal(count, petals) {
+    return this._sampleRose(count, petals, "");
+  }
+
+  _sampleLoop(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2;
+      const r = 0.55 + 0.25 * Math.cos(2 * theta);
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) * 0.75 };
+    });
+  }
+
+  _sampleKite(count) {
+    return this._distributeOnPath(count, [
+      { nx: 0, ny: -0.82 },
+      { nx: 0.55, ny: 0 },
+      { nx: 0, ny: 0.82 },
+      { nx: -0.55, ny: 0 },
+    ]);
+  }
+
+  _samplePinwheel(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 * 2 - Math.PI / 2;
+      const r = 0.2 + 0.62 * (t % 0.5 < 0.25 ? 1 : 0.55);
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+    });
+  }
+
+  _sampleHourglass(count) {
+    return this._distributeOnPath(count, [
+      { nx: -0.72, ny: -0.72 },
+      { nx: 0.72, ny: -0.72 },
+      { nx: 0, ny: 0 },
+      { nx: -0.72, ny: 0.72 },
+      { nx: 0.72, ny: 0.72 },
+    ]);
+  }
+
+  _sampleTrident(count) {
+    return this._distributeOnPath(count, [
+      { nx: 0, ny: -0.82 },
+      { nx: -0.55, ny: 0.82 },
+      { nx: 0.55, ny: 0.82 },
+    ]);
+  }
+
+  _sampleBridge(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI;
+      return { nx: -0.82 + t * 1.64, ny: -0.55 * Math.sin(theta) };
+    }, false);
+  }
+
+  _sampleRipple(count) {
+    const rings = Math.min(4, Math.max(2, Math.round(Math.sqrt(count))));
+    const pts = [];
+    let left = count;
+    for (let ring = 1; ring <= rings; ring++) {
+      const onRing = ring === rings ? left : Math.max(1, Math.round(count / (rings * 1.2)));
+      left -= onRing;
+      const r = (ring / rings) * 0.78;
+      for (let i = 0; i < onRing; i++) {
+        const angle = (i / onRing) * Math.PI * 2 - Math.PI / 2;
+        pts.push({ nx: r * Math.cos(angle), ny: r * Math.sin(angle) });
+      }
+    }
+    return pts.slice(0, count);
+  }
+
+  _sampleCircleFallback(count) {
+    return this._sampleArcCurve(count, (t) => {
+      const theta = t * Math.PI * 2 - Math.PI / 2;
+      return { nx: 0.82 * Math.cos(theta), ny: 0.82 * Math.sin(theta) };
+    });
+  }
+
   _normalizedShapePoints(shape, count, comboKey = "") {
     if (count <= 0) return [];
-    if (count === 1) return [{ nx: 0, ny: 0 }];
-    if (shape === "line" || count === 2) {
+    if (count === 1 || shape === "dot") return [{ nx: 0, ny: 0 }];
+    if (shape === "line" || (count === 2 && shape !== "vee")) {
       return [
         { nx: -0.55, ny: 0 },
         { nx: 0.55, ny: 0 },
       ].slice(0, count);
     }
-    if (shape === "curve") return this._sampleCurve(count);
-    if (shape === "orbit") return this._sampleOrbit(count);
-    if (shape === "flower") return this._sampleFlower(count);
-    if (shape === "mandala") return this._sampleMandala(count, comboKey);
-    if (shape === "hex") return this._sampleHex(count);
-    if (shape === "infinity") return this._sampleInfinity(count);
-    if (shape === "wing") return this._sampleWing(count);
-    if (shape === "triangle") {
-      return this._distributeOnPath(count, [
-        { nx: 0, ny: -0.82 },
-        { nx: 0.78, ny: 0.62 },
-        { nx: -0.78, ny: 0.62 },
-      ]);
-    }
-    if (shape === "wave") return this._sampleWave(count);
-    if (shape === "spiral") return this._sampleSpiral(count);
-    if (shape === "constellation") return this._sampleConstellation(count, comboKey);
-    if (shape === "heart") return this._sampleHeart(count);
-    if (shape === "star") return this._sampleStarPath(count);
-    if (shape === "diamond") {
-      return this._sampleArcCurve(count, (t) => {
-        const theta = t * Math.PI * 2 - Math.PI / 2;
-        const r = 0.78 / (Math.abs(Math.cos(theta)) + Math.abs(Math.sin(theta)));
-        return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
-      });
-    }
+
+    const samplers = {
+      curve: () => this._sampleCurve(count),
+      orbit: () => this._sampleOrbit(count),
+      flower: () => this._sampleFlower(count),
+      mandala: () => this._sampleMandala(count, comboKey),
+      hex: () => this._sampleHex(count),
+      infinity: () => this._sampleInfinity(count),
+      wing: () => this._sampleWing(count),
+      triangle: () =>
+        this._distributeOnPath(count, [
+          { nx: 0, ny: -0.82 },
+          { nx: 0.78, ny: 0.62 },
+          { nx: -0.78, ny: 0.62 },
+        ]),
+      wave: () => this._sampleWave(count),
+      spiral: () => this._sampleSpiral(count),
+      constellation: () => this._sampleConstellation(count, comboKey),
+      constellation2: () => this._sampleConstellation(count, comboKey + "2"),
+      heart: () => this._sampleHeart(count),
+      star: () => this._sampleStarPath(count),
+      diamond: () =>
+        this._sampleArcCurve(count, (t) => {
+          const theta = t * Math.PI * 2 - Math.PI / 2;
+          const r = 0.78 / (Math.abs(Math.cos(theta)) + Math.abs(Math.sin(theta)));
+          return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
+        }),
+      vee: () => this._sampleVee(count),
+      arc: () => this._sampleArc(count),
+      bow: () => this._sampleBow(count),
+      cross: () => this._sampleCross(count),
+      crescent: () => this._sampleCrescent(count),
+      zigzag: () => this._sampleZigzag(count),
+      petal4: () => this._samplePetal(count, 4),
+      petal6: () => this._samplePetal(count, 6),
+      loop: () => this._sampleLoop(count),
+      kite: () => this._sampleKite(count),
+      pinwheel: () => this._samplePinwheel(count),
+      rose3: () => this._sampleRose(count, 3, comboKey),
+      rose5: () => this._sampleRose(count, 5, comboKey),
+      rose7: () => this._sampleRose(count, 7, comboKey),
+      cardioid: () => this._sampleCardioid(count),
+      astroid: () => this._sampleAstroid(count),
+      hourglass: () => this._sampleHourglass(count),
+      trident: () => this._sampleTrident(count),
+      clover: () => this._sampleClover(count),
+      gear: () => this._sampleGear(count, comboKey),
+      snowflake: () => this._sampleSnowflake(count),
+      butterfly: () => this._sampleButterfly(count, comboKey),
+      fish: () => this._sampleFish(count),
+      bird: () => this._sampleBird(count, comboKey),
+      comet: () => this._sampleComet(count),
+      galaxy: () => this._sampleGalaxy(count, comboKey),
+      burst: () => this._sampleBurst(count),
+      lightning: () => this._sampleLightning(count),
+      scribble: () => this._sampleScribble(count, comboKey),
+      phyllotaxis: () => this._samplePhyllotaxis(count, comboKey),
+      lissajous: () => this._sampleLissajous(count, comboKey),
+      epicycloid: () => this._sampleEpicycloid(count, comboKey, 0),
+      hypotrochoid: () => this._sampleHypotrochoid(count, comboKey),
+      superellipse: () => this._sampleSuperellipse(count, 2.2, comboKey),
+      lemniscate: () => this._sampleLemniscate(count),
+      doubleRing: () => this._sampleDoubleRing(count),
+      helix: () => this._sampleHelix2d(count),
+      cascade: () => this._sampleCascade(count),
+      cloud: () => this._sampleCloud(count, comboKey),
+      flame: () => this._sampleFlame(count),
+      nova: () => this._sampleNova(count, comboKey),
+      pentagon: () => this._sampleRegularPolygon(count, 5),
+      octagon: () => this._sampleRegularPolygon(count, 8),
+      horseshoe: () => this._sampleArc(count),
+      omega: () => this._sampleArcCurve(count, (t) => {
+        const theta = t * Math.PI * 2;
+        const r = 0.55 + 0.25 * Math.cos(theta);
+        return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) - 0.2 };
+      }),
+      bridge: () => this._sampleBridge(count),
+      ripple: () => this._sampleRipple(count),
+      stagger: () => this._sampleStaggeredGrid(count),
+      doubleHelix: () => this._sampleHelix2d(count),
+      fractalBranch: () => this._sampleLightning(count),
+      radialBloom: () => this._sampleRadialBloom(count, comboKey),
+      asymmetricWing: () => this._sampleBird(count, comboKey),
+      creature: () => this._sampleCreature(count, comboKey),
+      orbit3d: () => this._sampleOrbit(count),
+      waveField: () => this._sampleWave(count),
+      starburst: () => this._sampleBurst(count),
+      lotus: () => this._sampleFlower(count),
+      sunwheel: () => this._sampleGear(count, comboKey),
+      dragonPath: () => this._sampleZigzag(count),
+      abstractGlyph: () => this._sampleAbstractGlyph(count, comboKey),
+      tessellation: () => this._sampleStaggeredGrid(count),
+      voronoiRing: () => this._sampleRipple(count),
+      fibonacciArc: () => this._samplePhyllotaxis(count, comboKey),
+      lunarPhase: () => this._sampleCrescent(count),
+      eclipse: () => this._sampleDoubleRing(count),
+      meteorShower: () => this._sampleComet(count),
+      nebula: () => this._sampleCloud(count, comboKey),
+      coral: () => this._sampleScribble(count, comboKey + "coral"),
+      fern: () => this._sampleCascade(count),
+      crystal: () => this._sampleDiamondLike(count),
+      prism: () => this._sampleRegularPolygon(count, 6),
+      molecule: () => this._sampleOrbit(count),
+      circuit: () => this._sampleZigzag(count),
+      glyphSpiral: () => this._sampleSpiral(count),
+      woven: () => this._sampleLissajous(count, comboKey + "woven"),
+      braid: () => this._sampleHelix2d(count),
+      harp: () => this._sampleWave(count),
+      echo: () => this._sampleRipple(count),
+      pulseRing: () => this._sampleDoubleRing(count),
+      crown: () => this._sampleBurst(count),
+      shield: () => this._sampleKite(count),
+    };
+
+    if (samplers[shape]) return samplers[shape]();
+    return this._sampleCircleFallback(count);
+  }
+
+  _sampleDiamondLike(count) {
     return this._sampleArcCurve(count, (t) => {
       const theta = t * Math.PI * 2 - Math.PI / 2;
-      return { nx: 0.82 * Math.cos(theta), ny: 0.82 * Math.sin(theta) };
+      const r = 0.78 / (Math.abs(Math.cos(theta)) + Math.abs(Math.sin(theta)));
+      return { nx: r * Math.cos(theta), ny: r * Math.sin(theta) };
     });
   }
 
@@ -467,7 +1415,7 @@ export class WordProgressSquares {
     }
     const bw = Math.max(maxX - minX, 0.01);
     const bh = Math.max(maxY - minY, 0.01);
-    const scale = Math.min(usableW / bw, usableH / bh) * 0.92;
+    const scale = Math.min(usableW / bw, usableH / bh) * 0.96;
     const midNx = (minX + maxX) / 2;
     const midNy = (minY + maxY) / 2;
     const margin = 4;
@@ -510,15 +1458,27 @@ export class WordProgressSquares {
     return false;
   }
 
-  _gridFallback(index, count, areaW, areaH) {
-    const cols = Math.max(1, Math.floor((areaW - 16) / MIN_CENTER_DIST));
-    const col = index % cols;
-    const row = Math.floor(index / cols);
-    const leftPx = 8 + col * MIN_CENTER_DIST + (index % 3) * 2;
-    const topPx = 8 + row * MIN_CENTER_DIST + (index % 2) * 2;
+  _gridFallback(index, count, areaW, areaH, slotIndex = index) {
+    const margin = 6;
+    const maxL = areaW - SQUARE_PX - margin;
+    const maxT = areaH - SQUARE_PX - margin;
+    const hCols = this._horizontalBandCount(areaW, count);
+    const col = slotIndex % hCols;
+    const row = Math.floor(slotIndex / hCols);
+    const rows = Math.max(1, Math.ceil(count / hCols));
+    const bandW = (maxL - margin) / hCols;
+    const bandH = (maxT - margin) / rows;
+    const jitterX = ((index * 5) % 7) - 3;
+    const jitterY = ((index * 3) % 5) - 2;
     return {
-      leftPx: Math.min(leftPx, areaW - SQUARE_PX - 4),
-      topPx: Math.min(topPx, areaH - SQUARE_PX - 4),
+      leftPx: Math.min(
+        maxL,
+        Math.max(margin, margin + (col + 0.5) * bandW - bandW / 2 + jitterX),
+      ),
+      topPx: Math.min(
+        maxT,
+        Math.max(margin, margin + (row + 0.5) * bandH - bandH / 2 + jitterY),
+      ),
     };
   }
 
@@ -537,23 +1497,6 @@ export class WordProgressSquares {
     if (!Number.isFinite(minDist)) return 11;
     const safe = (minDist - SQUARE_PX) / 2 - 2;
     return Math.max(4, Math.min(12, safe));
-  }
-
-  _findOpenPosition(placed, areaW, areaH, seed) {
-    const margin = 6;
-    const maxL = Math.max(margin, areaW - SQUARE_PX - margin);
-    const maxT = Math.max(margin, areaH - SQUARE_PX - margin);
-
-    for (let attempt = 0; attempt < 120; attempt++) {
-      const leftPx =
-        margin + this._seededUnit(seed, attempt * 2 + 1) * (maxL - margin);
-      const topPx =
-        margin + this._seededUnit(seed, attempt * 2 + 2) * (maxT - margin);
-      if (!this._collides(leftPx, topPx, placed)) {
-        return { leftPx, topPx };
-      }
-    }
-    return null;
   }
 
   _syncChaoticLayout(
@@ -582,9 +1525,9 @@ export class WordProgressSquares {
       if (!activeIds.has(id)) this._chaoticLayout.delete(id);
     }
 
-    const measured =
-      this._chaoticEl?.clientWidth || this._getRoot()?.clientWidth || 0;
-    const areaW = Math.max(100, measured || 300);
+    const root = this._getRoot();
+    const areaW = this._resolveAreaWidth(root);
+    this._invalidateLayoutIfWidthChanged(areaW);
 
     const placed = blocked.map((p, i) => ({
       id: `__shape_${i}`,
@@ -596,25 +1539,44 @@ export class WordProgressSquares {
       placed.push({ id, leftPx: pos.leftPx, topPx: pos.topPx });
     }
 
-    const shuffled = [...activeWords].sort((a, b) => {
-      const sa = this._hashSeed(`${sessionSeed}-${a.id ?? a.word}`);
-      const sb = this._hashSeed(`${sessionSeed}-${b.id ?? b.word}`);
-      return sa - sb;
-    });
+    const hCols = this._horizontalBandCount(areaW, activeWords.length);
+    const shuffled = [...activeWords]
+      .map((word, i) => ({ word, i }))
+      .sort((a, b) => {
+        const colA = a.i % hCols;
+        const colB = b.i % hCols;
+        if (colA !== colB) return colA - colB;
+        const sa = this._hashSeed(`${sessionSeed}-${a.word.id ?? a.word.word}`);
+        const sb = this._hashSeed(`${sessionSeed}-${b.word.id ?? b.word.word}`);
+        return sa - sb;
+      })
+      .map((entry) => entry.word);
+
+    const totalActive = activeWords.length;
+    let slotIndex = 0;
 
     for (const word of shuffled) {
       const id = String(word.id ?? word.word);
       if (this._chaoticLayout.has(id)) continue;
 
       const seed = this._hashSeed(`${sessionSeed}-${id}`);
-      let spot = this._findOpenPosition(placed, areaW, areaH, seed);
+      let spot = this._findBalancedOpenPosition(
+        placed,
+        areaW,
+        areaH,
+        seed,
+        slotIndex,
+        totalActive,
+      );
+      slotIndex++;
 
       if (!spot) {
         spot = this._gridFallback(
           placed.length,
-          activeWords.length,
+          totalActive,
           areaW,
           areaH,
+          slotIndex,
         );
         let nudge = 0;
         while (this._collides(spot.leftPx, spot.topPx, placed) && nudge < 24) {
@@ -956,9 +1918,8 @@ export class WordProgressSquares {
       mastered.length === 0;
     const forceNewLayout = comboChanged || progressReset;
 
-    const measured =
-      this._chaoticEl?.clientWidth || root.clientWidth || 0;
-    const areaW = Math.max(100, measured || 300);
+    const areaW = this._resolveAreaWidth(root);
+    this._invalidateLayoutIfWidthChanged(areaW);
 
     let areaH = this._areaHeightForLayout(active.length, allSorted.length);
     let shapePositions = this._computeShapeLayout(

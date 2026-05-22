@@ -242,6 +242,11 @@ export class UIManager {
     if (easyBtn) easyBtn.classList.add("hidden");
   }
 
+  setWordProgressSquaresVisible(visible) {
+    const el = document.getElementById("wordProgressSquares");
+    if (el) el.classList.toggle("hidden", !visible);
+  }
+
   /**
    * Toggle result modal actions: confidence buttons vs level-complete replay.
    */
@@ -249,15 +254,36 @@ export class UIManager {
     const sureBtn = document.getElementById("sureBtn");
     const maybeBtn = document.getElementById("maybeBtn");
     const practiceAgainBtn = document.getElementById("practiceAgainBtn");
+    const continueBtn = document.getElementById("continueBtn");
     const isLevelComplete = mode === "levelComplete";
+    const isContinue = mode === "continue";
 
-    if (sureBtn) sureBtn.classList.toggle("hidden", isLevelComplete);
-    if (maybeBtn) maybeBtn.classList.toggle("hidden", isLevelComplete);
+    if (sureBtn) sureBtn.classList.toggle("hidden", isLevelComplete || isContinue);
+    if (maybeBtn) maybeBtn.classList.toggle("hidden", isLevelComplete || isContinue);
     if (practiceAgainBtn) {
       practiceAgainBtn.classList.toggle("hidden", !isLevelComplete);
     }
-    if (isLevelComplete) {
+    if (continueBtn) {
+      continueBtn.classList.toggle("hidden", !isContinue);
+    }
+    if (isLevelComplete || isContinue) {
       this.hideEasyMasteryButton();
+    }
+  }
+
+  /**
+   * After confidence / easy: hide rating buttons, show Continue.
+   */
+  showResultContinueButton() {
+    this.setResultModalActions("continue");
+  }
+
+  resetResultModalButtons() {
+    this.setResultModalActions(
+      this.modalSource === "levelComplete" ? "levelComplete" : "answer",
+    );
+    if (this.modalSource === "answerFlow") {
+      this.updateEasyMasteryButton();
     }
   }
 
@@ -531,9 +557,10 @@ export class UIManager {
     document.getElementById("panel").classList.add("hidden");
     document.getElementById("answerOptions").classList.add("hidden");
     document.getElementById("hardInputContainer").classList.add("hidden");
+    document.getElementById("autocompleteList").classList.add("hidden");
 
-    this.setResultModalActions("answer");
-    this.updateEasyMasteryButton();
+    this.resetResultModalButtons();
+    this.setWordProgressSquaresVisible(true);
     modal.classList.remove("hidden");
   }
 
@@ -630,6 +657,7 @@ export class UIManager {
     const modal = document.getElementById("resultModal");
     this.modalSource = "levelComplete";
     this.setResultModalActions("levelComplete");
+    this.setWordProgressSquaresVisible(true);
     document.getElementById("modalIcon").textContent = "🎉";
     document.getElementById("modalTitle").textContent = "Level Complete!";
     document.getElementById("modalTitle").className =
@@ -643,13 +671,15 @@ export class UIManager {
     document.getElementById("panel").classList.add("hidden");
     document.getElementById("answerOptions").classList.add("hidden");
     document.getElementById("hardInputContainer").classList.add("hidden");
+    document.getElementById("autocompleteList").classList.add("hidden");
 
     modal.classList.remove("hidden");
   }
 
   closeModal() {
     this.hideEasyMasteryButton();
-    this.setResultModalActions("answer");
+    this.resetResultModalButtons();
+    this.setWordProgressSquaresVisible(false);
 
     const modal = document.getElementById("resultModal");
     modal.classList.add("hidden");
@@ -698,16 +728,17 @@ export class UIManager {
     }
 
     candidates.forEach((word) => {
-      const div = document.createElement("div");
-      div.className =
-        "px-5 py-3 hover:bg-indigo-50 cursor-pointer border-b last:border-0";
-      div.textContent = word.word;
-      div.onclick = () => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "game-autocomplete-chip";
+      btn.textContent = word.word;
+      btn.setAttribute("role", "option");
+      btn.onclick = () => {
         document.getElementById("hardInput").value = word.word;
         list.classList.add("hidden");
         this.game.submitHardAnswer();
       };
-      list.appendChild(div);
+      list.appendChild(btn);
     });
 
     list.classList.remove("hidden");

@@ -323,6 +323,45 @@ body.game-page .container {
   font-size: clamp(0.65rem, 1.8vw + 0.25rem, 0.75rem);
 }
 
+/* ----- Hard mode autocomplete chips (under question) ----- */
+#autocompleteList {
+  min-height: 0;
+  max-width: 100%;
+  line-height: 1.2;
+}
+
+#autocompleteList .game-autocomplete-chip {
+  flex: 0 1 auto;
+  max-width: 100%;
+  min-height: 1.625rem;
+  padding: 0.18rem 0.5rem;
+  font-size: clamp(0.68rem, 1.6vw + 0.22rem, 0.78rem);
+  font-weight: 500;
+  line-height: 1.25;
+  color: #3730a3;
+  background: #eef2ff;
+  border: 1px solid rgba(99, 102, 241, 0.28);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.12s ease;
+}
+
+#autocompleteList .game-autocomplete-chip:hover {
+  background: #e0e7ff;
+  border-color: rgba(79, 70, 229, 0.45);
+  transform: translateY(-1px);
+}
+
+#autocompleteList .game-autocomplete-chip:active {
+  transform: translateY(0);
+}
+
 /* ----- Modals (overlay) ----- */
 .game-overlay-modal {
   padding: max(0.5rem, env(safe-area-inset-top, 0))

@@ -214,7 +214,7 @@ export class VerbConjugationPractice {
         tryAnswer();
       }
     });
-    input.focus();
+    // input.focus();
   }
 
   checkAnswer(raw) {

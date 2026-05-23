@@ -222,7 +222,7 @@ export class AdaptiveLearningGame {
       .querySelectorAll('#hardInputContainer button[id^="ac"]')
       .forEach((btn) => {
         btn.classList.toggle(
-          "border-indigo-600",
+          "theme-ac-btn--active",
           parseInt(btn.id.replace("ac", "")) === mode,
         );
       });

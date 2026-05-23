@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/word-progress-squares.css" />
     <link rel="stylesheet" href="css/game-responsive.css" />
     <link rel="stylesheet" href="css/module-themes.css" />
+    <link rel="stylesheet" href="css/verb-conjugation.css" />
     <link rel="stylesheet" href="css/game-theme.css" />
        
     <style>
@@ -211,13 +212,25 @@
               class="game-result-btn game-result-btn--easy hidden">
              Ganz einfach
             </button>
-            <button
-              id="continueBtn"
-              type="button"
-              class="hidden game-result-btn game-result-btn--practice w-full max-w-[11rem]"
+            <div
+              id="resultModalContinueGroup"
+              class="hidden game-result-continue-group flex flex-wrap justify-center items-center gap-2 w-full"
             >
-              Continue
-            </button>
+              <button
+                id="continueBtn"
+                type="button"
+                class="game-result-btn game-result-btn--practice max-w-[11rem]"
+              >
+                Continue
+              </button>
+              <button
+                id="practiceVerbFormsBtn"
+                type="button"
+                class="game-result-btn game-result-btn--verb-practice max-w-[14rem]"
+              >
+                Practice Verb Forms
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -341,6 +354,50 @@
     </div>
 
       <!-- Word Details Popup (Isolated) -->
+    <!-- Verb conjugation practice -->
+    <div
+      id="verbConjugationModal"
+      class="game-overlay-modal fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-[60] p-3"
+    >
+      <div
+        class="game-overlay-panel verb-conjugation-panel bg-white rounded-2xl shadow-2xl p-4 sm:p-6 max-w-lg w-full mx-auto overflow-hidden flex flex-col border"
+      >
+        <div class="flex justify-between items-start gap-2 mb-3 shrink-0">
+          <div class="min-w-0">
+            <h2 class="theme-modal-title text-lg sm:text-xl font-bold">
+              Practice Verb Forms
+            </h2>
+            <p
+              id="verbPracticeSubtitle"
+              class="text-sm text-gray-600 mt-0.5 truncate"
+            ></p>
+          </div>
+          <button
+            id="closeVerbConjugationBtn"
+            type="button"
+            class="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none shrink-0"
+            title="Schließen"
+            aria-label="Schließen"
+          >
+            &times;
+          </button>
+        </div>
+        <div
+          id="verbConjugationContent"
+          class="verb-conjugation-content flex-1 overflow-y-auto pr-1 custom-scroll min-h-0"
+        ></div>
+        <div class="verb-practice-footer mt-3 pt-3 border-t border-gray-100 shrink-0">
+          <button
+            id="verbPracticeContinueBtn"
+            type="button"
+            class="w-full game-result-btn game-result-btn--practice py-2.5"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+
   <div id="wordDetailsPopup" class="game-overlay-modal fixed inset-0 bg-black/40 backdrop-blur-sm hidden items-center justify-center z-50 p-3">
     <div class="game-overlay-panel bg-white rounded-2xl shadow-2xl p-4 sm:p-6 max-w-md mx-auto w-full overflow-hidden flex flex-col border border-white/30">
       <div class="flex justify-between items-center mb-4">
@@ -350,6 +407,6 @@
       <div id="wordDetailsContent" class="flex-1 overflow-auto pr-2 text-sm custom-scroll"></div>
     </div>
   </div>
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/verbs-main.js"></script>
   </body>
 </html>

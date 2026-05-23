@@ -3,6 +3,7 @@
  */
 
 import { AdaptiveLearningGame } from "./core/AdaptiveLearningGame.js";
+import { applyModuleTheme } from "./theme/applyModuleTheme.js";
 
 let game;
 
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   try {
+    applyModuleTheme(dataset);
     game = new AdaptiveLearningGame(dataset, jsonPath);
     
     window.game = game;        // برای دسترسی از HTML

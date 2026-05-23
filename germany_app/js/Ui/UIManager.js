@@ -95,8 +95,8 @@ export class UIManager {
     if (word.word) {
       html += `<div class="mb-3 pb-3 border-b border-gray-200">
         <div class="text-xs text-gray-500 uppercase tracking-wide mb-1">Word</div>
-        <div class="text-lg font-bold text-indigo-800">
-          <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(word.word)}" target="_blank" class="hover:underline">${word.word}</a>
+        <div class="text-lg font-bold">
+          <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(word.word)}" target="_blank" class="theme-word-link hover:underline">${word.word}</a>
         </div>
       </div>`;
     }
@@ -296,7 +296,7 @@ export class UIManager {
    */
   getTypeLabelHTML() {
     if (this.game.currentWord && this.game.currentWord.type) {
-      return `<span class="absolute top-0 left-0 text-xs px-2 py-1 bg-indigo-100 text-indigo-700 rounded-md font-medium">${this.game.currentWord.type}</span>`;
+      return `<span class="theme-type-label absolute top-0 left-0 text-xs px-2 py-1 rounded-md font-medium">${this.game.currentWord.type}</span>`;
     }
     return "";
   }
@@ -321,8 +321,7 @@ export class UIManager {
       hardContainer.classList.remove("hidden");
       this.renderHardQuestion();
     } else {
-      wordDisplay.className =
-        "falling-word font-bold text-indigo-800 relative";
+      wordDisplay.className = "falling-word font-bold relative";
       sentenceDisplay.classList.add("hidden");
       questionType.textContent = "";
 
@@ -336,7 +335,7 @@ export class UIManager {
       console.log(this.game.currentWord);
       switch (this.game.currentQuestionType.type) {
         case "de_to_fa":
-          wordDisplay.innerHTML = `${typeLabel}<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.game.currentWord.word}</a>`;
+          wordDisplay.innerHTML = `${typeLabel}<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a>`;
           questionType.textContent = "Auf Persisch übersetzen";
           break;
         case "word_with_sentence":
@@ -370,8 +369,7 @@ export class UIManager {
     const sentenceDisplay = document.getElementById("sentenceDisplay");
     const questionType = document.getElementById("questionType");
 
-    wordDisplay.className =
-      "falling-word font-bold text-indigo-800";
+    wordDisplay.className = "falling-word font-bold";
     sentenceDisplay.classList.add("hidden");
     questionType.textContent = "";
 
@@ -429,13 +427,13 @@ export class UIManager {
     options.forEach((option) => {
       const button = document.createElement("button");
       button.className =
-        "game-answer-btn bg-white border-1 border-gray-300 rounded-lg text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all transform hover:scale-105 shadow focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2";
+        "game-answer-btn bg-white border-1 border-gray-300 rounded-lg text-center transition-all transform hover:scale-105 shadow focus:outline-none focus:ring-2 focus:ring-offset-2";
 
       if (
         this.game.currentQuestionType.type === "fa_to_de" ||
         this.game.currentQuestionType.type === "word_with_sentence"
       ) {
-        button.innerHTML = `<div class="flex justify-between items-center"><span>${option}</span><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(option)}" target="_blank" class="text-indigo-600 hover:text-indigo-800 text-sm ml-2" onclick="event.stopPropagation()">🌐</a></div>`;
+        button.innerHTML = `<div class="flex justify-between items-center"><span>${option}</span><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(option)}" target="_blank" class="theme-translate-link text-sm ml-2" onclick="event.stopPropagation()">🌐</a></div>`;
       } else {
         button.textContent = option;
       }
@@ -572,8 +570,7 @@ export class UIManager {
     const sentenceDisplay = document.getElementById("sentenceDisplay");
     const questionType = document.getElementById("questionType");
 
-    wordDisplay.className =
-      "falling-word font-bold text-indigo-800";
+    wordDisplay.className = "falling-word font-bold";
     sentenceDisplay.classList.remove("hidden");
     questionType.textContent = "Original sentence";
 
@@ -583,7 +580,7 @@ export class UIManager {
       this.game.currentSentence
     ) {
       sentenceDisplay.textContent = `"${this.game.currentSentence.de}"`;
-      wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.game.currentWord.word}</a> ✓`;
+      wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a> ✓`;
     } else if (
       this.game.currentWord.sentences &&
       this.game.currentWord.sentences.length > 0
@@ -593,7 +590,7 @@ export class UIManager {
           Math.floor(Math.random() * this.game.currentWord.sentences.length)
         ];
       sentenceDisplay.innerHTML = `<div class="text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(rs.de)}" target="_blank" class="hover:underline break-words">${rs.de}</a></div><div class="text-gray-600 mt-1 sm:mt-2" dir="rtl">"${rs.fa}"</div>`;
-      wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="text-indigo-800 hover:text-indigo-600 ">${this.game.currentWord.word}</a> ✓`;
+      wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a> ✓`;
     }
   }
 

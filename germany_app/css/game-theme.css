@@ -207,10 +207,10 @@ body.module-themed .verb-form-input {
   border-color: var(--theme-border);
 }
 
-body.module-themed .verb-form-input:focus {
+/* body.module-themed .verb-form-input:focus {
   border-color: var(--theme-border-focus);
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--theme-accent) 18%, transparent);
-}
+} */
 
 body.module-themed #wordDetailsPopup h2 {
   color: var(--theme-text);

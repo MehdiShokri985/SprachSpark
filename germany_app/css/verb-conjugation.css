@@ -75,18 +75,21 @@ a.verb-practice-de:hover {
   min-width: 0;
   max-width: 100%;
   padding: 0.35rem 0.5rem;
-  font-size: inherit;
+  font-size: 1rem;
+  line-height: 1.4;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   border: 1px solid var(--theme-border, #c7d2fe);
   border-radius: 0.5rem;
   background: #fff;
   color: var(--theme-text, #1e3a8a);
 }
 
-/* .verb-form-input:focus {
+.verb-form-input:focus {
   outline: none;
   border-color: var(--theme-border-focus, #6366f1);
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--theme-accent, #6366f1) 20%, transparent);
-} */
+}
 
 .verb-form-input.verb-form-input--correct {
   border-color: #10b981;

@@ -207,6 +207,16 @@ export class VerbConjugationPractice {
     if (!input) return;
 
     const tryAnswer = () => this.checkAnswer(input.value);
+    const openCombo = (event) => {
+      if (typeof input.showPicker === "function") {
+        event.preventDefault();
+        input.focus();
+        input.showPicker();
+      }
+    };
+
+    input.addEventListener("pointerdown", openCombo);
+    input.addEventListener("click", openCombo);
     input.addEventListener("change", tryAnswer);
     input.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
@@ -214,7 +224,7 @@ export class VerbConjugationPractice {
         tryAnswer();
       }
     });
-    // input.focus();
+    input.focus();
   }
 
   checkAnswer(raw) {

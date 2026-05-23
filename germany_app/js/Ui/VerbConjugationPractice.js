@@ -208,14 +208,27 @@ export class VerbConjugationPractice {
 
     const tryAnswer = () => this.checkAnswer(input.value);
     const openCombo = (event) => {
-      if (typeof input.showPicker === "function") {
-        event.preventDefault();
+      try {
+        if (typeof input.showPicker === "function") {
+          // call showPicker directly on a user click; avoid preventDefault/focus that may break gesture
+          input.showPicker();
+          return;
+        }
+      } catch (err) {
+        // Some browsers throw if showPicker isn't allowed; ignore and fall back
+      }
+
+      // Fallback: focus the input and place caret at end so keyboard/autocomplete appears
+      try {
         input.focus();
-        input.showPicker();
+        const len = input.value?.length || 0;
+        input.setSelectionRange(len, len);
+      } catch (e) {
+        /* ignore */
       }
     };
 
-    input.addEventListener("pointerdown", openCombo);
+    // Use only click to avoid duplicate, non-gesture calls on pointer events
     input.addEventListener("click", openCombo);
     input.addEventListener("change", tryAnswer);
     input.addEventListener("keydown", (e) => {

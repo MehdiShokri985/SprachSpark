@@ -573,6 +573,13 @@ export class AdaptiveLearningGame {
       modal.classList.add("hidden");
     }
 
+    const verbConjugationModal = document.getElementById(
+      "verbConjugationModal",
+    );
+    if (verbConjugationModal) {
+      verbConjugationModal.classList.add("hidden");
+    }
+
     // Restore panel visibility
     const panel = document.getElementById("panel");
     if (panel) {

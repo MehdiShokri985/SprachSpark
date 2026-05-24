@@ -36,10 +36,6 @@ export class VerbConjugationPractice {
       this.game.finishVerbPractice(),
     );
     this.closeBtn?.addEventListener("click", () => this.close());
-
-    this.modal?.addEventListener("click", (e) => {
-      if (e.target === this.modal) this.close();
-    });
   }
 
   open(verb) {
@@ -56,15 +52,23 @@ export class VerbConjugationPractice {
       ? `${verb.word} — ${verb.meaning || ""}`
       : "";
 
+    this.game.uiManager?.setWordProgressSquaresVisible(false);
+    document.getElementById("panel")?.classList.add("hidden");
+    document.getElementById("resultModal")?.classList.add("hidden");
+
     this.modal.classList.remove("hidden");
-    this.modal.classList.add("flex");
     this.render();
   }
 
-  close() {
+  close(restoreResultView = true) {
     this.modal?.classList.add("hidden");
-    this.modal?.classList.remove("flex");
     this.content.innerHTML = "";
+
+    if (restoreResultView) {
+      document.getElementById("resultModal")?.classList.remove("hidden");
+      this.game.uiManager?.setWordProgressSquaresVisible(true);
+      document.getElementById("panel")?.classList.add("hidden");
+    }
   }
 
   getRemainingForms() {
@@ -86,6 +90,13 @@ export class VerbConjugationPractice {
 
   render() {
     if (!this.content || !this.verb) return;
+
+    // Invariant: while verbConjugationModal is active, competing panels must be hidden.
+    // Re-enforced on every render so async or external state changes cannot leak through.
+    if (this.modal && !this.modal.classList.contains("hidden")) {
+      this.game.uiManager?.setWordProgressSquaresVisible(false);
+      document.getElementById("resultModal")?.classList.add("hidden");
+    }
 
     let html = "";
 

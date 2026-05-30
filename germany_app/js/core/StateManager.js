@@ -38,7 +38,8 @@ export class StateManager {
       lastWordId: null,
       progress: 0,
       sessionNumber: 1,
-      mistakes: []
+      mistakes: [],
+       correctAnswersList: []
     };
   }
 

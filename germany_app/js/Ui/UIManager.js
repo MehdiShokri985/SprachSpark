@@ -52,7 +52,8 @@ export class UIManager {
       currentState.correctAnswers;
     document.getElementById("wrongCount").textContent =
       currentState.wrongAnswers;
-    document.getElementById("score").textContent = currentState.score;
+    const scoreEl = document.getElementById("score");
+    if (scoreEl) scoreEl.textContent = currentState.score;
     document.getElementById("masteryProgress").textContent = percentage;
     document.getElementById("progressBar").style.width = `${percentage}%`;
 
@@ -509,9 +510,20 @@ export class UIManager {
       document.getElementById("modalTitle").textContent = "Correct!";
       document.getElementById("modalTitle").className =
         "text-2xl font-bold mb-2 text-green-600";
-      // document.getElementById("modalMessage").textContent =
-      //   "Great job! Keep it up!";
       this.playSound("correct");
+
+      const existingCorrect = currentState.correctAnswersList.find(
+        (m) => m.word === this.game.currentWord.word,
+      );
+      if (!existingCorrect) {
+        currentState.correctAnswersList.unshift({
+          word: this.game.currentWord.word,
+          meaning: this.game.currentWord.meaning,
+          sentences: this.game.currentWord.sentences
+            ? [...this.game.currentWord.sentences]
+            : [],
+        });
+      }
     } else {
       document.getElementById("modalIcon").textContent = "";
       document.getElementById("modalTitle").textContent = "Wrong";
@@ -638,6 +650,52 @@ export class UIManager {
 
   closeMistakesModal() {
     const modal = document.getElementById("mistakesModal");
+    modal.classList.add("hidden");
+    modal.classList.remove("flex");
+  }
+
+  showCorrectAnswersModal() {
+    const modal = document.getElementById("correctAnswersModal");
+    const listContainer = document.getElementById("correctAnswersList");
+    listContainer.innerHTML = "";
+
+    const currentState = this.game.getCurrentState();
+    currentState.correctAnswersList = currentState.correctAnswersList || [];
+
+    if (currentState.correctAnswersList.length === 0) {
+      listContainer.innerHTML = `<p class="text-gray-500 text-center py-8">Noch keine richtigen Antworten.</p>`;
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+      return;
+    }
+
+    currentState.correctAnswersList.forEach((item) => {
+      let html = `
+      <div class="border border-green-200 rounded-xl p-5 bg-green-50 hover:bg-green-100 transition-colors">
+          <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.word)}" target="_blank" class="text-green-600 font-bold hover:underline text-xl block">${item.word}</a>
+          <div class="text-gray-400 mt-1 text-md text-right dir-rtl" dir="rtl">${item.meaning}</div>`;
+
+      if (item.sentences && item.sentences.length > 0) {
+        html += `<div class="mt-4"><div class="text-sm font-semibold text-green-500 mb-2">Examples:</div>`;
+        item.sentences.forEach((s) => {
+          html += `
+          <div class="mb-3 bg-white rounded-xl p-4 border border-gray-200">
+            <div class="text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div>
+            <div class="text-emerald-700 mt-1 text-right dir-rtl" dir="rtl">"${s.fa}"</div>
+          </div>`;
+        });
+        html += `</div>`;
+      }
+      html += `</div>`;
+      listContainer.innerHTML += html;
+    });
+
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+  }
+
+  closeCorrectAnswersModal() {
+    const modal = document.getElementById("correctAnswersModal");
     modal.classList.add("hidden");
     modal.classList.remove("flex");
   }

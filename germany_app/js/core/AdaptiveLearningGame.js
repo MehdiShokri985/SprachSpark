@@ -167,9 +167,21 @@ export class AdaptiveLearningGame {
     document
       .getElementById("closeMistakesBtn")
       .addEventListener("click", () => this.closeMistakesModal());
+    const closeCorrectBtn = document.getElementById("closeCorrectAnswersBtn");
+    if (closeCorrectBtn) {
+      closeCorrectBtn.addEventListener("click", () =>
+        this.closeCorrectAnswersModal(),
+      );
+    }
     document
       .getElementById("wrongCounter")
       .addEventListener("click", () => this.showMistakesModal());
+    const correctCounter = document.getElementById("correctCounter");
+    if (correctCounter) {
+      correctCounter.addEventListener("click", () =>
+        this.showCorrectAnswersModal(),
+      );
+    }
 
     // پاپآپ جزئیات کلمه
     document
@@ -495,6 +507,14 @@ export class AdaptiveLearningGame {
    */
   closeMistakesModal() {
     this.uiManager.closeMistakesModal();
+  }
+
+  showCorrectAnswersModal() {
+    this.uiManager.showCorrectAnswersModal();
+  }
+
+  closeCorrectAnswersModal() {
+    this.uiManager.closeCorrectAnswersModal();
   }
 
   /**

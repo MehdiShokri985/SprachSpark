@@ -33,6 +33,32 @@
                 background-color: #64748b;
                 border-radius: 20px;
             }
+
+            .accordion-body {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.35s ease;
+            }
+            .accordion-chevron-wrap {
+                width: 28px;
+                height: 28px;
+                border-radius: 8px;
+                transition: background-color 0.2s ease;
+            }
+            .accordion-header:hover .accordion-chevron-wrap {
+                background-color: rgba(0,0,0,0.04);
+            }
+            .accordion-chevron {
+                opacity: 0.5;
+                transition: transform 0.35s ease, opacity 0.2s ease;
+            }
+            .accordion-header:hover .accordion-chevron {
+                opacity: 0.85;
+            }
+            /* .accordion-item.is-open .accordion-chevron {
+                transform: rotate(180deg);
+                opacity: 0.85;
+            } */
         </style>
     </head>
     <body

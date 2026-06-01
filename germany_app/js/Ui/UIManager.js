@@ -4,6 +4,7 @@
  */
 
 import { WordProgressSquares } from "./WordProgressSquares.js";
+import { getTensePersonEntries, VERB_TENSE_LABELS, VERB_TENSE_KEYS } from "../core/verbUtils.js";
 
 
 export class UIManager {
@@ -17,6 +18,7 @@ export class UIManager {
 
 
     this.setupWordDetailsPopup();
+    this.setupAccordionListeners();
   }
 
   /**
@@ -224,6 +226,25 @@ export class UIManager {
         this.closeWordDetailsPopup();
       }
     });
+  }
+
+  setupAccordionListeners() {
+    const handleClick = (e) => {
+      const header = e.target.closest(".accordion-header");
+      if (!header) return;
+      const item = header.closest(".accordion-item");
+      if (!item) return;
+      const body = item.querySelector(".accordion-body");
+      if (!body) return;
+      const isOpen = item.classList.toggle("is-open");
+      body.style.maxHeight = isOpen ? `${body.scrollHeight}px` : "0";
+    };
+    document
+      .getElementById("correctAnswersList")
+      ?.addEventListener("click", handleClick);
+    document
+      .getElementById("mistakesList")
+      ?.addEventListener("click", handleClick);
   }
 
   /**
@@ -522,6 +543,10 @@ export class UIManager {
           sentences: this.game.currentWord.sentences
             ? [...this.game.currentWord.sentences]
             : [],
+          prasens: this.game.currentWord.prasens,
+          perfekt: this.game.currentWord.perfekt,
+          prateritum: this.game.currentWord.prateritum,
+          futur: this.game.currentWord.futur,
         });
       }
     } else {
@@ -543,6 +568,10 @@ export class UIManager {
           sentences: this.game.currentWord.sentences
             ? [...this.game.currentWord.sentences]
             : [],
+          prasens: this.game.currentWord.prasens,
+          perfekt: this.game.currentWord.perfekt,
+          prateritum: this.game.currentWord.prateritum,
+          futur: this.game.currentWord.futur,
         });
         if (currentState.mistakes.length > 20) currentState.mistakes.pop();
       }
@@ -607,6 +636,81 @@ export class UIManager {
   }
 
   /**
+   * Render tense table HTML for a verb item
+   */
+  renderTensesHTML(item) {
+    let html = "";
+    for (const tenseKey of VERB_TENSE_KEYS) {
+      const entries = getTensePersonEntries(item, tenseKey);
+      if (entries.length === 0) continue;
+      const label = VERB_TENSE_LABELS[tenseKey];
+      html += `<div class="mb-4 last:mb-0">
+        <div class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">${label}</div>
+        <div class="bg-white rounded-lg overflow-hidden border border-gray-200">
+          <table class="w-full text-sm">
+            <tbody>`;
+      entries.forEach(({ person, form,fa }) => {
+        html += `<tr class="border-b border-gray-100 last:border-0">
+          <td class="py-1.5 px-3">
+            <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(person+' '+form)}" target="_blank" class="text-gray-500  font-medium hover:underline inline-block">${person+' '+form}</a>
+          
+          </td>
+
+        </tr>`;
+      });
+      html += `</tbody></table></div></div>`;
+    }
+    return html;
+  }
+
+  /**
+   * Render a single accordion card for correct/mistake list items
+   */
+  renderAccordionCard(item, colors) {
+    const { border, bg, hover, text, textMuted, borderInner, chevron } = colors;
+    const hasTenses = VERB_TENSE_KEYS.some(
+      (key) => Array.isArray(item[key]) && item[key].length > 0,
+    );
+
+    let html = `
+    <div class="accordion-item border ${border} rounded-xl ${bg} overflow-hidden transition-colors">
+      <div class="accordion-header p-5 cursor-pointer select-none hover:${hover} transition-colors flex items-start justify-between gap-3" role="button" tabindex="0">
+        <div class="flex-1 min-w-0">
+          <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.word)}" target="_blank" class="${text} font-bold hover:underline text-xl block" onclick="event.stopPropagation()">${item.word}</a>
+          <div class="${textMuted} mt-1 text-md text-right dir-rtl" dir="rtl">${item.meaning}</div>
+        </div>
+        <span class="accordion-chevron-wrap mt-1.5 shrink-0 flex items-center justify-center">
+          <svg class="accordion-chevron ${chevron}" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6.5 9L11 13.5L15.5 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-body max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+        <div class="px-5 pb-5">
+          <div class="border-t ${borderInner} pt-4 space-y-4">`;
+
+    if (hasTenses) {
+      html += this.renderTensesHTML(item);
+    }
+
+    if (item.sentences && item.sentences.length > 0) {
+      const labelColor = text;
+      html += `<div><div class="text-sm font-semibold ${labelColor} mb-2">Examples:</div>`;
+      item.sentences.forEach((s) => {
+        html += `
+          <div class="mb-3 bg-white rounded-xl p-4 border border-gray-200">
+            <div class="text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div>
+            <div class="text-emerald-700 mt-1 text-right dir-rtl" dir="rtl">"${s.fa}"</div>
+          </div>`;
+      });
+      html += `</div>`;
+    }
+
+    html += `</div></div></div></div>`;
+    return html;
+  }
+
+  /**
    * نمایش لیست اشتباهات
    */
   showMistakesModal() {
@@ -623,25 +727,18 @@ export class UIManager {
       return;
     }
 
-    currentState.mistakes.forEach((item) => {
-      let html = `
-      <div class="border border-red-200 rounded-xl p-5 bg-red-50 hover:bg-red-100 transition-colors">
-          <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.word)}" target="_blank" class="text-red-500 font-bold hover:underline text-xl block">${item.word}</a>
-          <div class="text-gray-400 mt-1 text-md text-right dir-rtl" dir="rtl">${item.meaning}</div>`;
+    const colors = {
+      border: "border-red-200",
+      bg: "bg-red-50",
+      hover: "bg-red-100",
+      text: "text-red-500",
+      textMuted: "text-gray-400",
+      borderInner: "border-red-200",
+      chevron: "text-red-400",
+    };
 
-      if (item.sentences && item.sentences.length > 0) {
-        html += `<div class="mt-4"><div class="text-sm font-semibold text-red-400 mb-2">Examples:</div>`;
-        item.sentences.forEach((s) => {
-          html += `
-          <div class="mb-3 bg-white rounded-xl p-4 border border-gray-200">
-            <div class="text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div>
-            <div class="text-emerald-700 mt-1 text-right dir-rtl" dir="rtl">"${s.fa}"</div>
-          </div>`;
-        });
-        html += `</div>`;
-      }
-      html += `</div>`;
-      listContainer.innerHTML += html;
+    currentState.mistakes.forEach((item) => {
+      listContainer.innerHTML += this.renderAccordionCard(item, colors);
     });
 
     modal.classList.remove("hidden");
@@ -669,25 +766,18 @@ export class UIManager {
       return;
     }
 
-    currentState.correctAnswersList.forEach((item) => {
-      let html = `
-      <div class="border border-green-200 rounded-xl p-5 bg-green-50 hover:bg-green-100 transition-colors">
-          <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(item.word)}" target="_blank" class="text-green-600 font-bold hover:underline text-xl block">${item.word}</a>
-          <div class="text-gray-400 mt-1 text-md text-right dir-rtl" dir="rtl">${item.meaning}</div>`;
+    const colors = {
+      border: "border-green-200",
+      bg: "bg-green-50",
+      hover: "bg-green-100",
+      text: "text-green-600",
+      textMuted: "text-gray-400",
+      borderInner: "border-green-200",
+      chevron: "text-green-600",
+    };
 
-      if (item.sentences && item.sentences.length > 0) {
-        html += `<div class="mt-4"><div class="text-sm font-semibold text-green-500 mb-2">Examples:</div>`;
-        item.sentences.forEach((s) => {
-          html += `
-          <div class="mb-3 bg-white rounded-xl p-4 border border-gray-200">
-            <div class="text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="hover:underline">${s.de}</a></div>
-            <div class="text-emerald-700 mt-1 text-right dir-rtl" dir="rtl">"${s.fa}"</div>
-          </div>`;
-        });
-        html += `</div>`;
-      }
-      html += `</div>`;
-      listContainer.innerHTML += html;
+    currentState.correctAnswersList.forEach((item) => {
+      listContainer.innerHTML += this.renderAccordionCard(item, colors);
     });
 
     modal.classList.remove("hidden");

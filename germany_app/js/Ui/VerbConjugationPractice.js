@@ -9,8 +9,6 @@ import {
   getTensePersonEntries,
   getTenseExamples,
   makeVerbSlotId,
-  getAllVerbFormSlots,
-  shuffleArray,
   normalizeForm,
 } from "../core/verbUtils.js";
 
@@ -22,8 +20,8 @@ export class VerbConjugationPractice {
     this.usedSlotIds = new Set();
     this.tenseIndex = 0;
     this.personIndex = 0;
-    /** @type {'person'|'done'} */
-    this.phase = "person";
+    /** @type {'select'|'person'|'done'} */
+    this.phase = "select";
     this.completedTenses = [];
 
     this.modal = document.getElementById("verbConjugationModal");
@@ -43,9 +41,9 @@ export class VerbConjugationPractice {
 
     this.verb = verb;
     this.usedSlotIds = new Set();
-    this.tenseIndex = 0;
+    this.tenseIndex = -1;
     this.personIndex = 0;
-    this.phase = "person";
+    this.phase = "select";
     this.completedTenses = [];
 
     this.subtitle.textContent = verb.word
@@ -69,12 +67,6 @@ export class VerbConjugationPractice {
       this.game.uiManager?.setWordProgressSquaresVisible(true);
       document.getElementById("panel")?.classList.add("hidden");
     }
-  }
-
-  getRemainingForms() {
-    return getAllVerbFormSlots(this.verb)
-      .filter((slot) => !this.usedSlotIds.has(slot.id))
-      .map((slot) => slot.form);
   }
 
   getCurrentTenseKey() {
@@ -109,6 +101,13 @@ export class VerbConjugationPractice {
       return;
     }
 
+    if (this.phase === "select") {
+      html += this.renderTenseSelectionCards();
+      this.content.innerHTML = html;
+      this.attachSelectionHandlers();
+      return;
+    }
+
     const tenseKey = this.getCurrentTenseKey();
     if (!tenseKey) {
       this.phase = "done";
@@ -122,6 +121,55 @@ export class VerbConjugationPractice {
 
     this.content.innerHTML = html;
     this.attachActiveInput();
+  }
+
+  renderTenseSelectionCards() {
+    const cards = [
+      { key: "prasens", label: "Präsens", bg: "bg-blue-50", border: "border-blue-300", btn: "bg-blue-600 hover:bg-blue-700 focus:ring-blue-400", accent: "text-blue-700", shadow: "shadow-blue-100" },
+      { key: "perfekt", label: "Perfekt", bg: "bg-emerald-50", border: "border-emerald-300", btn: "bg-emerald-600 hover:bg-emerald-700 focus:ring-emerald-400", accent: "text-emerald-700", shadow: "shadow-emerald-100" },
+      { key: "prateritum", label: "Präteritum", bg: "bg-amber-50", border: "border-amber-300", btn: "bg-amber-600 hover:bg-amber-700 focus:ring-amber-400", accent: "text-amber-700", shadow: "shadow-amber-100" },
+      { key: "futur", label: "Futur", bg: "bg-violet-50", border: "border-violet-300", btn: "bg-violet-600 hover:bg-violet-700 focus:ring-violet-400", accent: "text-violet-700", shadow: "shadow-violet-100" },
+    ];
+
+    const available = cards.filter(
+      (c) => !this.completedTenses.some((b) => b.label === c.label)
+    );
+
+    if (available.length === 0) return "";
+
+    let html = '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-2">';
+
+    available.forEach((card) => {
+      html += `
+        <div class="${card.bg} ${card.border} border-2 rounded-xl p-4 flex flex-col items-center gap-3 shadow-sm transition-shadow hover:shadow-md ${card.shadow}">
+          <h3 class="text-lg font-bold ${card.accent} tracking-tight">${card.label}</h3>
+          <button type="button" data-tense="${card.key}" class="verb-practice-select-btn ${card.btn} text-white font-semibold px-5 py-2 rounded-lg text-sm transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 active:scale-95 w-full max-w-[10rem]">
+            Complete
+          </button>
+        </div>`;
+    });
+
+    html += "</div>";
+    return html;
+  }
+
+  attachSelectionHandlers() {
+    const buttons = this.content.querySelectorAll(".verb-practice-select-btn");
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const tenseKey = btn.dataset.tense;
+        const idx = VERB_TENSE_KEYS.indexOf(tenseKey);
+        if (idx !== -1) this.startTensePractice(idx);
+      });
+    });
+  }
+
+  startTensePractice(idx) {
+    this.tenseIndex = idx;
+    this.personIndex = 0;
+    this.phase = "person";
+    this.render();
   }
 
   renderTenseBlock(block, completed) {
@@ -158,20 +206,9 @@ export class VerbConjugationPractice {
 
     if (this.personIndex < VERB_PERSONS.length) {
       const person = VERB_PERSONS[this.personIndex];
-      const entry = this.getCurrentPersonEntry();
-      const listId = `verb-datalist-${tenseKey}-${this.personIndex}`;
       html += `<div class="verb-practice-row verb-practice-row--active" data-active="1">
         <span class="verb-person-label">${person}</span>
-        <input
-          type="text"
-          class="verb-form-input"
-          id="verbActiveInput"
-          list="${listId}"
-          autocomplete="off"
-          placeholder="Form wählen oder eingeben…"
-          aria-label="${person}"
-        />
-        <datalist id="${listId}">${this.renderDatalistOptions()}</datalist>
+        <button type="button" class="verb-complete-btn" id="verbActiveInput">Complete</button>
       </div>`;
     }
 
@@ -199,13 +236,6 @@ export class VerbConjugationPractice {
     return html;
   }
 
-  renderDatalistOptions() {
-    const options = shuffleArray(this.getRemainingForms());
-    return options
-      .map((f) => `<option value="${this.escapeAttr(f)}"></option>`)
-      .join("");
-  }
-
   getSolvedRowForPerson(tenseKey, person) {
     const entries = getTensePersonEntries(this.verb, tenseKey);
     const e = entries.find((x) => x.person === person);
@@ -214,41 +244,14 @@ export class VerbConjugationPractice {
   }
 
   attachActiveInput() {
-    const input = document.getElementById("verbActiveInput");
-    if (!input) return;
+    const btn = document.getElementById("verbActiveInput");
+    if (!btn) return;
 
-    const tryAnswer = () => this.checkAnswer(input.value);
-    const openCombo = (event) => {
-      try {
-        if (typeof input.showPicker === "function") {
-          // call showPicker directly on a user click; avoid preventDefault/focus that may break gesture
-          input.showPicker();
-          return;
-        }
-      } catch (err) {
-        // Some browsers throw if showPicker isn't allowed; ignore and fall back
-      }
-
-      // Fallback: focus the input and place caret at end so keyboard/autocomplete appears
-      try {
-        input.focus();
-        const len = input.value?.length || 0;
-        input.setSelectionRange(len, len);
-      } catch (e) {
-        /* ignore */
-      }
-    };
-
-    // Use only click to avoid duplicate, non-gesture calls on pointer events
-    input.addEventListener("click", openCombo);
-    input.addEventListener("change", tryAnswer);
-    input.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        tryAnswer();
-      }
+    btn.addEventListener("click", () => {
+      const entry = this.getCurrentPersonEntry();
+      if (!entry) return;
+      this.checkAnswer(entry.form);
     });
-    input.focus();
   }
 
   checkAnswer(raw) {
@@ -282,13 +285,13 @@ export class VerbConjugationPractice {
       examples: getTenseExamples(this.verb, tenseKey),
     });
 
-    this.tenseIndex++;
+    this.tenseIndex = -1;
     this.personIndex = 0;
 
-    if (this.tenseIndex >= VERB_TENSE_KEYS.length) {
+    if (this.completedTenses.length >= VERB_TENSE_KEYS.length) {
       this.phase = "done";
     } else {
-      this.phase = "person";
+      this.phase = "select";
     }
 
     this.render();

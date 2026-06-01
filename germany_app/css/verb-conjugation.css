@@ -96,6 +96,29 @@ a.verb-practice-de:hover {
   background: #ecfdf5;
 }
 
+.verb-complete-btn {
+  flex: 0 0 auto;
+  padding: 0.10rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.4;
+  border: 1px solid var(--theme-border, #c7d2fe);
+  border-radius: 0.5rem;
+  background: var(--theme-accent, #6366f1);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+.verb-complete-btn:hover {
+  background: var(--theme-accent-deep, #4f46e5);
+  box-shadow: 0 1px 6px rgba(99, 102, 241, 0.3);
+}
+
+.verb-complete-btn:active {
+  transform: scale(0.97);
+}
+
 .verb-practice-examples {
   margin-top: 0.5rem;
   padding-top: 0.45rem;

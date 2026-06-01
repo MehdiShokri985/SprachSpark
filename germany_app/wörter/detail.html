@@ -119,7 +119,7 @@
       grid-template-columns: 60px 1fr 1fr;
       padding: 0.25rem 0.625rem;
       align-items: center;
-      gap: 0.4rem;
+      gap: 4rem;
     }
 
     .vocab-row + .vocab-row {
@@ -342,28 +342,31 @@
               title="Translate on Google Translate"
             >${escapeHtml(w.german)}</a>
           </div>
+            <div class="vocab-cell pronunciation">${escapeHtml(w.pronunciation)}</div>
           <div class="vocab-cell persian">${escapeHtml(w.persian)}</div>
-          <div class="vocab-cell pronunciation">${escapeHtml(w.pronunciation)}</div>
+        
         </div>
       `).join('');
 
       container.innerHTML = `
         <div class="detail-layout">
-          <div class="vocab-column">
-            <div class="vocab-table">
-              <div class="vocab-row vocab-header">
-                <div class="vocab-cell">DE</div>
-                <div class="vocab-cell">FA</div>
-                <div class="vocab-cell">Pronunciation</div>
-              </div>
-              ${rows}
-            </div>
-          </div>
-          <div class="image-column">
+                    <div class="image-column">
             <div class="image-frame">
               <img src="images/${id}.jpg" alt="Vocabulary set ${id}">
             </div>
           </div>
+          <div class="vocab-column">
+            <div class="vocab-table">
+              <div class="vocab-row vocab-header">
+                <div class="vocab-cell">DE</div>
+                 <div class="vocab-cell">Pronunciation</div>
+                <div class="vocab-cell">FA</div>
+               
+              </div>
+              ${rows}
+            </div>
+          </div>
+
         </div>
       `;
     }

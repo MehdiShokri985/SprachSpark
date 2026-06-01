@@ -225,3 +225,7 @@ body.module-themed .game-result-btn--verb-practice-active {
   );
   border-color: color-mix(in srgb, var(--theme-accent-deep) 35%, transparent);
 }
+
+ body.accordion-header:hover .accordion-chevron {
+                opacity: 0.85;
+            }

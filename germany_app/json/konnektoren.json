@@ -4,6 +4,7 @@
     "level": "A1",
     "word": "und",
     "meaning": "و",
+    "pronunciation": "اُند",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -27,6 +28,7 @@
     "level": "A1",
     "word": "oder",
     "meaning": "یا",
+    "pronunciation": "اُدِر",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -50,6 +52,7 @@
     "level": "A1",
     "word": "aber",
     "meaning": "اما",
+    "pronunciation": "آبِر",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -73,6 +76,7 @@
     "level": "A2",
     "word": "denn",
     "meaning": "زیرا / چون",
+    "pronunciation": "دِن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -96,6 +100,7 @@
     "level": "A2",
     "word": "sondern",
     "meaning": "بلکه",
+    "pronunciation": "زوندِرن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -119,6 +124,7 @@
     "level": "A2",
     "word": "weil",
     "meaning": "چون / زیرا",
+    "pronunciation": "وایل",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -142,6 +148,7 @@
     "level": "A2",
     "word": "dass",
     "meaning": "که",
+    "pronunciation": "داس",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -165,6 +172,7 @@
     "level": "A2",
     "word": "wenn",
     "meaning": "اگر / وقتی که",
+    "pronunciation": "وِن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -188,6 +196,7 @@
     "level": "A2",
     "word": "als",
     "meaning": "وقتی که (گذشته)",
+    "pronunciation": "آلز",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -211,6 +220,7 @@
     "level": "A2/B1",
     "word": "wie",
     "meaning": "مانند / همانطور که / چطور",
+    "pronunciation": "وی",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -234,6 +244,7 @@
     "level": "B1",
     "word": "deshalb",
     "meaning": "به همین دلیل / بنابراین",
+    "pronunciation": "دِزهَلب",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -257,6 +268,7 @@
     "level": "B1",
     "word": "deswegen",
     "meaning": "به همین دلیل / از این رو",
+    "pronunciation": "دِزوِگِن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -280,6 +292,7 @@
     "level": "B1",
     "word": "darum",
     "meaning": "به همین خاطر / بنابراین",
+    "pronunciation": "داروم",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -303,6 +316,7 @@
     "level": "B1",
     "word": "daher",
     "meaning": "از این رو / بنابراین",
+    "pronunciation": "داهِر",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -326,6 +340,7 @@
     "level": "B1",
     "word": "trotzdem",
     "meaning": "با این حال / با وجود این",
+    "pronunciation": "تروتزِدِم",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -349,6 +364,7 @@
     "level": "B2",
     "word": "dennoch",
     "meaning": "با این وجود / با این حال",
+    "pronunciation": "دِنُخ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -372,6 +388,7 @@
     "level": "B1",
     "word": "jedoch",
     "meaning": "اما / با این وجود",
+    "pronunciation": "یِدوخ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -395,6 +412,7 @@
     "level": "A2",
     "word": "sondern",
     "meaning": "بلکه",
+    "pronunciation": "زوندِرن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -418,6 +436,7 @@
     "level": "B1",
     "word": "sonst",
     "meaning": "وگرنه / در غیر این صورت",
+    "pronunciation": "زونست",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -441,6 +460,7 @@
     "level": "B1",
     "word": "obwohl",
     "meaning": "با اینکه / هرچند",
+    "pronunciation": "اُبوُل",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -464,6 +484,7 @@
     "level": "B2/C1",
     "word": "obgleich",
     "meaning": "هرچند / با وجود اینکه",
+    "pronunciation": "اُبگلایخ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -487,6 +508,7 @@
     "level": "C1",
     "word": "wenngleich",
     "meaning": "هرچند / با وجود اینکه",
+    "pronunciation": "وِن‌گلایخ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -510,6 +532,7 @@
     "level": "B1",
     "word": "damit",
     "meaning": "تا / به منظور اینکه",
+    "pronunciation": "دامیت",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -533,6 +556,7 @@
     "level": "B1",
     "word": "um … zu",
     "meaning": "تا / به منظور ... کردن",
+    "pronunciation": "اوم ... تسو",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -556,6 +580,7 @@
     "level": "A2/B1",
     "word": "bevor",
     "meaning": "قبل از اینکه",
+    "pronunciation": "بِفور",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -579,6 +604,7 @@
     "level": "B1",
     "word": "ehe",
     "meaning": "قبل از اینکه",
+    "pronunciation": "اِهِ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -602,6 +628,7 @@
     "level": "B1",
     "word": "nachdem",
     "meaning": "بعد از اینکه",
+    "pronunciation": "ناخدِم",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -625,6 +652,7 @@
     "level": "B1",
     "word": "während",
     "meaning": "در حالی که / طی",
+    "pronunciation": "وِرِند",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -648,6 +676,7 @@
     "level": "A2",
     "word": "bis",
     "meaning": "تا / تا زمانی که",
+    "pronunciation": "بیس",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -671,6 +700,7 @@
     "level": "B1",
     "word": "seit",
     "meaning": "از وقتی که",
+    "pronunciation": "زایت",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -694,6 +724,7 @@
     "level": "B1",
     "word": "seitdem",
     "meaning": "از آن زمان / از وقتی که",
+    "pronunciation": "زایتدِم",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -717,6 +748,7 @@
     "level": "B2",
     "word": "sobald",
     "meaning": "به محض اینکه",
+    "pronunciation": "زوبالت",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -740,6 +772,7 @@
     "level": "B2",
     "word": "sobald wie",
     "meaning": "به محض اینکه (نسخه کمتر رایج)",
+    "pronunciation": "زوبالت وی",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -763,6 +796,7 @@
     "level": "B2",
     "word": "solange",
     "meaning": "تا زمانی که / مادامی که",
+    "pronunciation": "زولانگِ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -786,6 +820,7 @@
     "level": "B2/C1",
     "word": "sobald dass",
     "meaning": "به محض اینکه (ترکیب نادر)",
+    "pronunciation": "زوبالت داس",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -809,6 +844,7 @@
     "level": "B1",
     "word": "ob",
     "meaning": "آیا / اینکه",
+    "pronunciation": "اُب",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -832,6 +868,7 @@
     "level": "B1",
     "word": "falls",
     "meaning": "در صورت اینکه / اگر",
+    "pronunciation": "فالز",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -855,6 +892,7 @@
     "level": "B2",
     "word": "sofern",
     "meaning": "به شرطی که / در صورتی که",
+    "pronunciation": "زوفِرن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -878,6 +916,7 @@
     "level": "B2",
     "word": "so dass",
     "meaning": "به طوری که",
+    "pronunciation": "زو داس",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -901,6 +940,7 @@
     "level": "B2",
     "word": "sodass",
     "meaning": "به طوری که",
+    "pronunciation": "زوداس",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -924,6 +964,7 @@
     "level": "B2/C1",
     "word": "je … desto",
     "meaning": "هرچه ... آنقدر",
+    "pronunciation": "یِ ... دِستو",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -947,6 +988,7 @@
     "level": "B2/C1",
     "word": "je … umso",
     "meaning": "هرچه ... آنقدر",
+    "pronunciation": "یِ ... اومزو",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -970,6 +1012,7 @@
     "level": "B1",
     "word": "da",
     "meaning": "چون / از آنجا که",
+    "pronunciation": "دا",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -993,6 +1036,7 @@
     "level": "C1",
     "word": "zumal",
     "meaning": "به خصوص اینکه / خصوصاً چون",
+    "pronunciation": "تسومال",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1016,6 +1060,7 @@
     "level": "B1",
     "word": "nämlich",
     "meaning": "یعنی / چون",
+    "pronunciation": "نِملیخ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1039,6 +1084,7 @@
     "level": "B2",
     "word": "nämlich dass",
     "meaning": "یعنی اینکه",
+    "pronunciation": "نِملیخ داس",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1062,6 +1108,7 @@
     "level": "B2",
     "word": "indem",
     "meaning": "با ... کردن / از طریق اینکه",
+    "pronunciation": "ایندِم",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1085,6 +1132,7 @@
     "level": "C1",
     "word": "insofern",
     "meaning": "از این نظر / تا این حد",
+    "pronunciation": "این‌زوفِرن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1108,6 +1156,7 @@
     "level": "C1",
     "word": "insoweit",
     "meaning": "تا این حد / از این جهت",
+    "pronunciation": "این‌زووایت",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1131,6 +1180,7 @@
     "level": "C1",
     "word": "woraufhin",
     "meaning": "پس از آن / در نتیجه آن",
+    "pronunciation": "ووراوف‌هین",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1154,6 +1204,7 @@
     "level": "B2",
     "word": "weshalb",
     "meaning": "به چه دلیل / چرا",
+    "pronunciation": "وِشالپ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1177,6 +1228,7 @@
     "level": "B2",
     "word": "weswegen",
     "meaning": "به چه دلیل / چرا",
+    "pronunciation": "وِزوِگِن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1195,11 +1247,12 @@
     "dueIn": 0,
     "seenCount": 0
   },
-    {
+  {
     "id": "53",
     "level": "C1",
     "word": "infolgedessen",
     "meaning": "در نتیجه / به دنبال آن",
+    "pronunciation": "اینفولگِدِسِن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1223,6 +1276,7 @@
     "level": "B2/C1",
     "word": "folglich",
     "meaning": "بنابراین / در نتیجه",
+    "pronunciation": "فولگلیخ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1246,6 +1300,7 @@
     "level": "C1",
     "word": "demnach",
     "meaning": "بنابراین / طبق آن",
+    "pronunciation": "دِمناخ",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1269,6 +1324,7 @@
     "level": "C1",
     "word": "nichtsdestotrotz",
     "meaning": "با این حال / با وجود همه اینها",
+    "pronunciation": "نیختس‌دِستو‌تروتس",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1292,6 +1348,7 @@
     "level": "C1",
     "word": "gleichwohl",
     "meaning": "با این وجود / با همه اینها",
+    "pronunciation": "گلایخ‌وُل",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1315,6 +1372,7 @@
     "level": "B2",
     "word": "hingegen",
     "meaning": "در مقابل / اما",
+    "pronunciation": "هین‌گِگِن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1338,6 +1396,7 @@
     "level": "B2",
     "word": "dagegen",
     "meaning": "در مقابل / اما",
+    "pronunciation": "داگِگِن",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1347,7 +1406,7 @@
       },
       {
         "de": "Er ist talentiert, dagegen fleißig.",
-        "fa": "او بااستعداد است، در مقابل勤奋 هم هست."
+        "fa": "او با استعداد است، اما در عین حال سخت کوش هم هست."
       }
     ],
     "strength": 0.2,
@@ -1361,6 +1420,7 @@
     "level": "B2",
     "word": "außerdem dass",
     "meaning": "علاوه بر اینکه",
+    "pronunciation": "آوسِردِم داس",
     "antonyms": [],
     "synonyms": [],
     "sentences": [
@@ -1379,5 +1439,4 @@
     "dueIn": 0,
     "seenCount": 0
   }
-
 ]

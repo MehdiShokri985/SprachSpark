@@ -1,6 +1,9 @@
 /**
  * Themed game UI — uses --theme-* from module-themes.css
  */
+body{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
 
 body.module-themed {
   background: linear-gradient(
@@ -117,6 +120,7 @@ body.module-themed #modalDetails .md-pair-start {
 
 body.module-themed #modalDetails .md-word-link {
   color: var(--theme-link);
+  font-size:large;
 }
 
 body.module-themed #modalDetails .md-example-de {
@@ -163,14 +167,14 @@ body.module-themed #hardInputContainer .theme-ac-btn--active {
   border-color: var(--theme-accent);
 }
 
-body.module-themed .wps-root {
+/* body.module-themed .wps-root {
   background: linear-gradient(
     165deg,
     rgba(255, 255, 255, 0.85) 0%,
     color-mix(in srgb, var(--theme-surface-soft) 75%, white) 48%,
     rgba(255, 255, 255, 0.9) 100%
   );
-}
+} */
 
 body.module-themed .verb-conjugation-panel {
   border-color: var(--theme-border);
@@ -217,12 +221,12 @@ body.module-themed #wordDetailsPopup h2 {
 }
 
 body.module-themed .game-result-btn--verb-practice-active {
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     var(--theme-accent-deep) 0%,
     var(--theme-accent) 55%,
     var(--theme-accent-secondary) 100%
-  );
+  ); */
   border-color: color-mix(in srgb, var(--theme-accent-deep) 35%, transparent);
 }
 

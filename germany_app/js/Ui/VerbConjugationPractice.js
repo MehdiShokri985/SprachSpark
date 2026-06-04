@@ -46,8 +46,11 @@ export class VerbConjugationPractice {
     this.phase = "select";
     this.completedTenses = [];
 
-    this.subtitle.textContent = verb.word
-      ? `${verb.word} — ${verb.meaning || ""}`
+    const pronPart = verb.pronunciation
+      ? ` <span class="pronunciation">(${verb.pronunciation})</span>`
+      : "";
+    this.subtitle.innerHTML = verb.word
+      ? `${verb.word}${pronPart} — ${verb.meaning || ""}`
       : "";
 
     this.game.uiManager?.setWordProgressSquaresVisible(false);

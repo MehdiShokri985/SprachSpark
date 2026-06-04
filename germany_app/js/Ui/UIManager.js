@@ -357,7 +357,11 @@ export class UIManager {
       console.log(this.game.currentWord);
       switch (this.game.currentQuestionType.type) {
         case "de_to_fa":
-          wordDisplay.innerHTML = `${typeLabel}<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a>`;
+          const pronDe = this.game.currentWord.pronunciation || "";
+          const pronHtmlDe = pronDe
+            ? `<br><span class="pronunciation">(${pronDe})</span>`
+            : "";
+          wordDisplay.innerHTML = `${typeLabel}<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a>${pronHtmlDe}`;
           questionType.textContent = "Auf Persisch übersetzen";
           break;
         case "word_with_sentence":
@@ -455,7 +459,12 @@ export class UIManager {
         this.game.currentQuestionType.type === "fa_to_de" ||
         this.game.currentQuestionType.type === "word_with_sentence"
       ) {
-        button.innerHTML = `<div class="flex justify-between items-center"><span>${option}</span><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(option)}" target="_blank" class="theme-translate-link text-sm ml-2" onclick="event.stopPropagation()">🌐</a></div>`;
+        const verbForOption = this.game.words.find((w) => w.word === option);
+        const pron = verbForOption?.pronunciation || "";
+        const pronHtml = pron
+          ? ` <span class="pronunciation">(${pron})</span>`
+          : "";
+        button.innerHTML = `<div class="flex justify-between items-center"><span>${option}${pronHtml}</span><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(option)}" target="_blank" class="theme-translate-link text-sm ml-2" onclick="event.stopPropagation()">🌐</a></div>`;
       } else {
         button.textContent = option;
       }
@@ -533,6 +542,7 @@ export class UIManager {
         "text-2xl font-bold mb-2 text-green-600";
       this.playSound("correct");
 
+      currentState.correctAnswersList = currentState.correctAnswersList || [];
       const existingCorrect = currentState.correctAnswersList.find(
         (m) => m.word === this.game.currentWord.word,
       );
@@ -578,7 +588,11 @@ export class UIManager {
       this.game.saveData();
     }
 
-    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label">Word:</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="md-word-link hover:underline">${this.game.currentWord.word}</a></div><div class="md-pair-end" dir="rtl">${this.game.currentWord.meaning}</div></div>`;
+    const pron = this.game.currentWord.pronunciation || "";
+    const pronHtml = pron
+      ? ` <span class="pronunciation">(${pron})</span>`
+      : "";
+    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label">-</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="md-word-link hover:underline">${this.game.currentWord.word}</a>${pronHtml}</div><div class="md-pair-end" dir="rtl">${this.game.currentWord.meaning}</div></div>`;
 
     if (
       this.game.currentWord.sentences &&
@@ -621,7 +635,11 @@ export class UIManager {
       this.game.currentSentence
     ) {
       sentenceDisplay.textContent = `"${this.game.currentSentence.de}"`;
-      wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a> ✓`;
+      const pronOrig = this.game.currentWord.pronunciation || "";
+      const pronHtmlOrig = pronOrig
+        ? `<br><span class="pronunciation">(${pronOrig})</span>`
+        : "";
+      wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a>${pronHtmlOrig} ✓`;
     } else if (
       this.game.currentWord.sentences &&
       this.game.currentWord.sentences.length > 0
@@ -631,7 +649,11 @@ export class UIManager {
           Math.floor(Math.random() * this.game.currentWord.sentences.length)
         ];
       sentenceDisplay.innerHTML = `<div class="text-gray-800"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(rs.de)}" target="_blank" class="hover:underline break-words">${rs.de}</a></div><div class="text-gray-600 mt-1 sm:mt-2" dir="rtl">"${rs.fa}"</div>`;
-      wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a> ✓`;
+      const pronOrig2 = this.game.currentWord.pronunciation || "";
+      const pronHtmlOrig2 = pronOrig2
+        ? `<br><span class="pronunciation">(${pronOrig2})</span>`
+        : "";
+      wordDisplay.innerHTML = `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a>${pronHtmlOrig2} ✓`;
     }
   }
 

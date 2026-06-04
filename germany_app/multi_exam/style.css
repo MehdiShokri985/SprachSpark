@@ -87,6 +87,8 @@ select , options {
   padding-left:10px;
 }
 
+
+
 header {
   text-align: center;
   margin-bottom: var(--space-8);
@@ -98,6 +100,7 @@ header h1 {
   color: var(--primary);
   font-weight: 700;
   letter-spacing: -0.025em;
+  font-size: 3rem;
 }
 
 header p {

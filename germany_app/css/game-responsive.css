@@ -7,7 +7,7 @@
   --game-pad-block: clamp(0.45rem, 2vh, 0.85rem);
   --game-word-size: clamp(1.25rem, 4vw + 0.45rem, 2.25rem);
   --game-sentence-size: clamp(0.875rem, 1.8vw + 0.4rem, 1.125rem);
-  --game-modal-title: clamp(1.125rem, 3vw + 0.5rem, 1.5rem);
+  /* --game-modal-title: clamp(1.125rem, 3vw + 0.5rem, 1.5rem); */
   --game-result-btn-x: clamp(0.45rem, 2vw, 0.85rem);
   --game-result-btn-y: clamp(0.26rem, 1vh, 0.38rem);
   --game-result-btn-text: clamp(0.6875rem, 1.7vw + 0.28rem, 0.8125rem);
@@ -298,7 +298,7 @@ body.game-page .container {
 
 #modalDetails .md-example-row .md-pair-end {
   font-size: 0.8125rem;
-  color: #047857;
+  color: #480d70;
 }
 
 @media (max-width: 480px) {

@@ -1,293 +1,154 @@
 /**
- * Per-module palettes — soft accents matching index.html cards.
+ * Per-module theme palettes — each body.theme-{id} block
+ * overrides the CSS variables used by game-theme.css.
+ *
+ * Only text colors change per theme; backgrounds, borders,
+ * buttons, surfaces, and accents remain static from the base block.
  */
 
+
 body.module-themed {
-  --theme-accent: #4f46e5;
+  --theme-accent: #3730a3;
   --theme-accent-deep: #4338ca;
-  --theme-accent-secondary: #6d28d9;
+  --theme-accent-secondary: #4c54ad;
   --theme-surface-soft: #eef2ff;
   --theme-surface-muted: #e0e7ff;
-  --theme-text: #3730a3;
-  --theme-text-hover: #4f46e5;
-  --theme-page-bg-start: #eff6ff;
-  --theme-page-bg-end: #ede9fe;
-  --theme-score-bg: #e0e7ff;
+  --theme-text: #1e3a8a;
+  --theme-text-hover: #3730a3;
+  --theme-page-bg-start: #eef2ff;
+  --theme-page-bg-end: #c7d2f5;
+  --theme-score-bg: #eef2ff;
   --theme-score-text: #3730a3;
-  --theme-progress-track: #e0e7ff;
-  --theme-border: #c7d2fe;
-  --theme-border-focus: #818cf8;
-  --theme-chip-bg: #eef2ff;
-  --theme-chip-text: #4338ca;
-  --theme-btn-bg: #4f46e5;
+  --theme-progress-track: #c7d2fe;
+  --theme-border: #e0e7ff;
+  --theme-border-focus: #3730a3;
+  --theme-chip-bg: #e0e7ff;
+  --theme-chip-text: #3730a3;
+  --theme-btn-bg: #3730a3;
   --theme-btn-bg-hover: #4338ca;
-  --theme-link: #4f46e5;
+  --theme-link: #3730a3;
   --theme-link-hover: #4338ca;
-  --theme-modal-link: #4338ca;
+  --theme-modal-link: #3730a3;
 }
 
+/* --- konnektoren (indigo) --- */
 body.theme-konnektoren {
-  --theme-accent: #4f46e5;
-  --theme-accent-deep: #4338ca;
-  --theme-accent-secondary: #6d28d9;
-  --theme-surface-soft: #eef2ff;
-  --theme-surface-muted: #e0e7ff;
-  --theme-text: #3730a3;
+  --theme-text: #312e81;
   --theme-text-hover: #4f46e5;
-  --theme-page-bg-start: #eff6ff;
-  --theme-page-bg-end: #ede9fe;
-  --theme-score-bg: #e0e7ff;
-  --theme-score-text: #3730a3;
-  --theme-progress-track: #e0e7ff;
-  --theme-border: #c7d2fe;
-  --theme-border-focus: #818cf8;
-  --theme-chip-bg: #eef2ff;
-  --theme-chip-text: #4338ca;
-  --theme-btn-bg: #4f46e5;
-  --theme-btn-bg-hover: #4338ca;
+  --theme-score-text: #4f46e5;
+  --theme-chip-text: #4f46e5;
   --theme-link: #4f46e5;
-  --theme-link-hover: #4338ca;
-  --theme-modal-link: #4338ca;
+  --theme-link-hover: #312e81;
+  --theme-modal-link: #4f46e5;
 }
 
+/* --- adjektive (teal) --- */
 body.theme-adjektive {
-  --theme-accent: #0d9488;
-  --theme-accent-deep: #0f766e;
-  --theme-accent-secondary: #047857;
-  --theme-surface-soft: #f0fdfa;
-  --theme-surface-muted: #ccfbf1;
-  --theme-text: #115e59;
+  --theme-text: #02da80;
   --theme-text-hover: #0d9488;
-  --theme-page-bg-start: #f0fdfa;
-  --theme-page-bg-end: #ecfdf5;
-  --theme-score-bg: #ccfbf1;
-  --theme-score-text: #115e59;
-  --theme-progress-track: #ccfbf1;
-  --theme-border: #99f6e4;
-  --theme-border-focus: #2dd4bf;
-  --theme-chip-bg: #f0fdfa;
-  --theme-chip-text: #0f766e;
-  --theme-btn-bg: #0d9488;
-  --theme-btn-bg-hover: #0f766e;
-  --theme-link: #0d9488;
-  --theme-link-hover: #0f766e;
-  --theme-modal-link: #0f766e;
+  --theme-score-text: #0d9488;
+  --theme-chip-text: #0d9488;
+  --theme-link: #558842;
+  --theme-link-hover: #7987de;
+  --theme-modal-link: #0d9488;
 }
 
+/* --- personalpronomen (sky) --- */
 body.theme-personalpronomen {
-  --theme-accent: #0284c7;
-  --theme-accent-deep: #0369a1;
-  --theme-accent-secondary: #1d4ed8;
-  --theme-surface-soft: #e0f2fe;
-  --theme-surface-muted: #bae6fd;
-  --theme-text: #075985;
+  --theme-text: #0c6e4d;
   --theme-text-hover: #0284c7;
-  --theme-page-bg-start: #f0f9ff;
-  --theme-page-bg-end: #e0f2fe;
-  --theme-score-bg: #bae6fd;
-  --theme-score-text: #075985;
-  --theme-progress-track: #bae6fd;
-  --theme-border: #7dd3fc;
-  --theme-border-focus: #38bdf8;
-  --theme-chip-bg: #e0f2fe;
-  --theme-chip-text: #0369a1;
-  --theme-btn-bg: #0284c7;
-  --theme-btn-bg-hover: #0369a1;
+  --theme-score-text: #0284c7;
+  --theme-chip-text: #0284c7;
   --theme-link: #0284c7;
-  --theme-link-hover: #0369a1;
-  --theme-modal-link: #0369a1;
+  --theme-link-hover: #0c4a6e;
+  --theme-modal-link: #0284c7;
 }
 
+/* --- possessivpronomen (amber) --- */
 body.theme-possessivpronomen {
-  --theme-accent: #d97706;
-  --theme-accent-deep: #b45309;
-  --theme-accent-secondary: #c2410c;
-  --theme-surface-soft: #fffbeb;
-  --theme-surface-muted: #fde68a;
-  --theme-text: #92400e;
+  --theme-text: #78350f;
   --theme-text-hover: #d97706;
-  --theme-page-bg-start: #fffbeb;
-  --theme-page-bg-end: #ffedd5;
-  --theme-score-bg: #fde68a;
-  --theme-score-text: #92400e;
-  --theme-progress-track: #fde68a;
-  --theme-border: #fcd34d;
-  --theme-border-focus: #fbbf24;
-  --theme-chip-bg: #fffbeb;
-  --theme-chip-text: #b45309;
-  --theme-btn-bg: #d97706;
-  --theme-btn-bg-hover: #b45309;
+  --theme-score-text: #d97706;
+  --theme-chip-text: #d97706;
   --theme-link: #d97706;
-  --theme-link-hover: #b45309;
-  --theme-modal-link: #b45309;
+  --theme-link-hover: #78350f;
+  --theme-modal-link: #d97706;
 }
 
+/* --- präpositionen (violet) --- */
 body.theme-präpositionen {
-  --theme-accent: #7c3aed;
-  --theme-accent-deep: #6d28d9;
-  --theme-accent-secondary: #7e22ce;
-  --theme-surface-soft: #f5f3ff;
-  --theme-surface-muted: #ede9fe;
-  --theme-text: #5b21b6;
+  --theme-text: #4c1d95;
   --theme-text-hover: #7c3aed;
-  --theme-page-bg-start: #f5f3ff;
-  --theme-page-bg-end: #ede9fe;
-  --theme-score-bg: #ede9fe;
-  --theme-score-text: #5b21b6;
-  --theme-progress-track: #ede9fe;
-  --theme-border: #ddd6fe;
-  --theme-border-focus: #a78bfa;
-  --theme-chip-bg: #f5f3ff;
-  --theme-chip-text: #6d28d9;
-  --theme-btn-bg: #7c3aed;
-  --theme-btn-bg-hover: #6d28d9;
+  --theme-score-text: #7c3aed;
+  --theme-chip-text: #7c3aed;
   --theme-link: #7c3aed;
-  --theme-link-hover: #6d28d9;
-  --theme-modal-link: #6d28d9;
+  --theme-link-hover: #4c1d95;
+  --theme-modal-link: #7c3aed;
 }
 
+/* --- demonstrativpronomen (rose) --- */
 body.theme-demonstrativpronomen {
-  --theme-accent: #e11d48;
-  --theme-accent-deep: #be123c;
-  --theme-accent-secondary: #b91c1c;
-  --theme-surface-soft: #fff1f2;
-  --theme-surface-muted: #fecdd3;
-  --theme-text: #9f1239;
+  --theme-text: #881337;
   --theme-text-hover: #e11d48;
-  --theme-page-bg-start: #fff1f2;
-  --theme-page-bg-end: #ffe4e6;
-  --theme-score-bg: #fecdd3;
-  --theme-score-text: #9f1239;
-  --theme-progress-track: #fecdd3;
-  --theme-border: #fda4af;
-  --theme-border-focus: #fb7185;
-  --theme-chip-bg: #fff1f2;
-  --theme-chip-text: #be123c;
-  --theme-btn-bg: #e11d48;
-  --theme-btn-bg-hover: #be123c;
+  --theme-score-text: #e11d48;
+  --theme-chip-text: #e11d48;
   --theme-link: #e11d48;
-  --theme-link-hover: #be123c;
-  --theme-modal-link: #be123c;
+  --theme-link-hover: #881337;
+  --theme-modal-link: #e11d48;
 }
 
+/* --- tempora (slate) --- */
 body.theme-tempora {
-  --theme-accent: #475569;
-  --theme-accent-deep: #334155;
-  --theme-accent-secondary: #1e293b;
-  --theme-surface-soft: #f1f5f9;
-  --theme-surface-muted: #e2e8f0;
-  --theme-text: #334155;
+  --theme-text: #1e293b;
   --theme-text-hover: #475569;
-  --theme-page-bg-start: #f8fafc;
-  --theme-page-bg-end: #f1f5f9;
-  --theme-score-bg: #e2e8f0;
-  --theme-score-text: #334155;
-  --theme-progress-track: #e2e8f0;
-  --theme-border: #cbd5e1;
-  --theme-border-focus: #94a3b8;
-  --theme-chip-bg: #f1f5f9;
+  --theme-score-text: #475569;
   --theme-chip-text: #475569;
-  --theme-btn-bg: #475569;
-  --theme-btn-bg-hover: #334155;
   --theme-link: #475569;
-  --theme-link-hover: #334155;
-  --theme-modal-link: #334155;
+  --theme-link-hover: #1e293b;
+  --theme-modal-link: #475569;
 }
 
+/* --- reflexivverben (cyan) --- */
 body.theme-reflexivverben {
-  --theme-accent: #0891b2;
-  --theme-accent-deep: #0e7490;
-  --theme-accent-secondary: #0f766e;
-  --theme-surface-soft: #ecfeff;
-  --theme-surface-muted: #cffafe;
-  --theme-text: #155e75;
+  --theme-text: #164e63;
   --theme-text-hover: #0891b2;
-  --theme-page-bg-start: #ecfeff;
-  --theme-page-bg-end: #f0fdfa;
-  --theme-score-bg: #cffafe;
-  --theme-score-text: #155e75;
-  --theme-progress-track: #cffafe;
-  --theme-border: #a5f3fc;
-  --theme-border-focus: #22d3ee;
-  --theme-chip-bg: #ecfeff;
-  --theme-chip-text: #0e7490;
-  --theme-btn-bg: #0891b2;
-  --theme-btn-bg-hover: #0e7490;
+  --theme-score-text: #0891b2;
+  --theme-chip-text: #0891b2;
   --theme-link: #0891b2;
-  --theme-link-hover: #0e7490;
-  --theme-modal-link: #0e7490;
+  --theme-link-hover: #164e63;
+  --theme-modal-link: #0891b2;
 }
 
+/* --- kollokationen (yellow) --- */
 body.theme-kollokationen {
-  --theme-accent: #ca8a04;
-  --theme-accent-deep: #a16207;
-  --theme-accent-secondary: #b45309;
-  --theme-surface-soft: #fefce8;
-  --theme-surface-muted: #fef9c3;
-  --theme-text: #854d0e;
+  --theme-text: #713f12;
   --theme-text-hover: #ca8a04;
-  --theme-page-bg-start: #fefce8;
-  --theme-page-bg-end: #fef9c3;
-  --theme-score-bg: #fef9c3;
-  --theme-score-text: #854d0e;
-  --theme-progress-track: #fef9c3;
-  --theme-border: #fde047;
-  --theme-border-focus: #facc15;
-  --theme-chip-bg: #fefce8;
-  --theme-chip-text: #a16207;
-  --theme-btn-bg: #ca8a04;
-  --theme-btn-bg-hover: #a16207;
+  --theme-score-text: #ca8a04;
+  --theme-chip-text: #ca8a04;
   --theme-link: #ca8a04;
-  --theme-link-hover: #a16207;
-  --theme-modal-link: #a16207;
+  --theme-link-hover: #713f12;
+  --theme-modal-link: #ca8a04;
 }
 
+/* --- slang (fuchsia) --- */
 body.theme-slang {
-  --theme-accent: #c026d3;
-  --theme-accent-deep: #a21caf;
-  --theme-accent-secondary: #7e22ce;
-  --theme-surface-soft: #fdf4ff;
-  --theme-surface-muted: #f5d0fe;
-  --theme-text: #86198f;
+  --theme-text: #701a75;
   --theme-text-hover: #c026d3;
-  --theme-page-bg-start: #fdf4ff;
-  --theme-page-bg-end: #fae8ff;
-  --theme-score-bg: #f5d0fe;
-  --theme-score-text: #86198f;
-  --theme-progress-track: #f5d0fe;
-  --theme-border: #e9d5ff;
-  --theme-border-focus: #e879f9;
-  --theme-chip-bg: #fdf4ff;
-  --theme-chip-text: #a21caf;
-  --theme-btn-bg: #c026d3;
-  --theme-btn-bg-hover: #a21caf;
+  --theme-score-text: #c026d3;
+  --theme-chip-text: #c026d3;
   --theme-link: #c026d3;
-  --theme-link-hover: #a21caf;
-  --theme-modal-link: #a21caf;
+  --theme-link-hover: #701a75;
+  --theme-modal-link: #c026d3;
 }
 
+/* --- verben (emerald) --- */
 body.theme-verben {
-  --theme-accent: #047857;
-  --theme-accent-deep: #065f46;
-  --theme-accent-secondary: #166534;
-  --theme-surface-soft: #ecfdf5;
-  --theme-surface-muted: #d1fae5;
-  --theme-text: #14532d;
-  --theme-text-hover: #047857;
-  --theme-page-bg-start: #ecfdf5;
-  --theme-page-bg-end: #dcfce7;
-  --theme-score-bg: #d1fae5;
-  --theme-score-text: #14532d;
-  --theme-progress-track: #d1fae5;
-  --theme-border: #a7f3d0;
-  --theme-border-focus: #34d399;
-  --theme-chip-bg: #ecfdf5;
-  --theme-chip-text: #065f46;
-  --theme-btn-bg: #047857;
-  --theme-btn-bg-hover: #065f46;
-  --theme-link: #047857;
-  --theme-link-hover: #065f46;
-  --theme-modal-link: #065f46;
+  --theme-text: #288d66;
+  --theme-text-hover: #059669;
+  --theme-score-text: #059669;
+  --theme-chip-text: #059669;
+  --theme-link: #36286b;
+  --theme-link-hover: #064e3b;
+  --theme-modal-link: #059669;
 }
-
 

@@ -1,10 +1,10 @@
 import json
 
 # مسیر فایل ورودی
-input_file = "json/json-verb-A1.json"
+input_file = "json/json-verb-A2.json"
 
 # مسیر فایل خروجی
-output_file = "verbs_list.json"
+output_file = "verbs_listA2.json"
 
 result = []
 

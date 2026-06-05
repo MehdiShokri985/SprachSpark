@@ -120,7 +120,7 @@ body.module-themed #modalDetails .md-pair-start {
 
 body.module-themed #modalDetails .md-word-link {
   color: var(--theme-link);
-  font-size:large;
+  /* font-size:large; */
 }
 
 body.module-themed #modalDetails .md-example-de {

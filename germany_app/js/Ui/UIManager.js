@@ -592,7 +592,9 @@ export class UIManager {
     const pronHtml = pron
       ? ` <span class="pronunciation">(${pron})</span>`
       : "";
-    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label">-</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="md-word-link hover:underline">${this.game.currentWord.word}</a>${pronHtml}</div><div class="md-pair-end" dir="rtl">${this.game.currentWord.meaning}</div></div>`;
+    const w = this.game.currentWord;
+    const displayText = `${w.word} - ${w.perfekt[3].form} - ${w.prateritum[0].form}`;
+    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label">-</strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(w.word)}" target="_blank" class="md-word-link hover:underline">${displayText}</a>   ${pronHtml}</div><div class="md-pair-end" dir="rtl">${w.meaning}</div></div>`;
 
     if (
       this.game.currentWord.sentences &&

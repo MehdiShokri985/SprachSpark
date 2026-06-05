@@ -362,22 +362,22 @@ export class UIManager {
             ? `<br><span class="pronunciation">(${pronDe})</span>`
             : "";
           wordDisplay.innerHTML = `${typeLabel}<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a>${pronHtmlDe}`;
-          questionType.textContent = "Auf Persisch übersetzen";
+          // questionType.textContent = "Auf Persisch übersetzen";
           break;
         case "word_with_sentence":
           sentenceDisplay.textContent = `"${this.game.currentSentence.fa}"`;
           sentenceDisplay.classList.remove("hidden");
-          questionType.textContent = "Finde das Adjektiv";
+          // questionType.textContent = "Finde das Adjektiv";
           wordDisplay.innerHTML = `${typeLabel}?`;
           break;
         case "fa_to_de":
           wordDisplay.innerHTML = `${typeLabel}${this.game.currentWord.meaning}`;
-          questionType.textContent = "Ins Deutsche übersetzen";
+          // questionType.textContent = "Ins Deutsche übersetzen";
           break;
         case "sentence_only":
           sentenceDisplay.textContent = `"${this.game.currentSentence.de}"`;
           sentenceDisplay.classList.remove("hidden");
-          questionType.textContent = "Was bedeutet dieser Satz?";
+          // questionType.textContent = "Was bedeutet dieser Satz?";
           wordDisplay.innerHTML = `${typeLabel}?`;
           break;
       }

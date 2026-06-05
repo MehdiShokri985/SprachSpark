@@ -412,11 +412,11 @@ export class UIManager {
     ) {
       sentenceDisplay.textContent = `"${this.game.currentSentence.fa}"`;
       sentenceDisplay.classList.remove("hidden");
-      questionType.textContent = "Schreibe das passende Adjektiv";
+      // questionType.textContent = "Schreibe das passende Adjektiv";
       wordDisplay.textContent = "?";
     } else {
       wordDisplay.textContent = this.game.currentWord.meaning;
-      questionType.textContent = "Ins Deutsche übersetzen (eintippen)";
+      // questionType.textContent = "Ins Deutsche übersetzen (eintippen)";
     }
 
     questionType.textContent += ` (Sure: ${sureCount}/2)`;

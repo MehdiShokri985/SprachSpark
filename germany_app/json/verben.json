@@ -22513,7 +22513,1351 @@
     "mistakeCount": 0,
     "dueIn": 0,
     "seenCount": 0
+  },
+  {
+    "id": "301",
+    "level": "A2",
+    "type": "verb",
+    "word": "leihen",
+    "pronunciation": "لایِن",
+    "meaning": "قرض دادن / امانت دادن",
+    "antonyms": [],
+    "synonyms": ["ausleihen", "verleihen"],
+    "prasens": [
+      { "person": "Ich", "form": "leihe", "fa": "من قرض می‌دهم." },
+      { "person": "du", "form": "leihst", "fa": "تو قرض می‌دهی." },
+      { "person": "er/sie/es", "form": "leiht", "fa": "او/آن قرض می‌دهد." },
+      { "person": "wir", "form": "leihen", "fa": "ما قرض می‌دهیم." },
+      { "person": "ihr", "form": "leiht", "fa": "شماها قرض می‌دهید." },
+      { "person": "sie/Sie", "form": "leihen", "fa": "آنها قرض می‌دهند." },
+      {
+        "sentences": [
+          { "de": "Ich leihe dir mein Buch.", "fa": "من کتابم را به تو امانت می‌دهم." },
+          { "de": "Leihst du mir dein Auto?", "fa": "آیا ماشینت را به من قرض می‌دهی؟" },
+          { "de": "Sie leiht ihrem Freund Geld.", "fa": "او به دوستش پول قرض می‌دهد." },
+          { "de": "Wir leihen uns oft DVDs.", "fa": "ما اغلب فیلم DVD قرض می‌گیریم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe geliehen", "fa": "من قرض داده‌ام." },
+      { "person": "du", "form": "hast geliehen", "fa": "تو قرض داده‌ای." },
+      { "person": "er/sie/es", "form": "hat geliehen", "fa": "او/آن قرض داده است." },
+      { "person": "wir", "form": "haben geliehen", "fa": "ما قرض داده‌ایم." },
+      { "person": "ihr", "form": "habt geliehen", "fa": "شماها قرض داده‌اید." },
+      { "person": "sie/Sie", "form": "haben geliehen", "fa": "آنها قرض داده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe ihm mein Fahrrad geliehen.", "fa": "من دوچرخه‌ام را به او قرض داده‌ام." },
+          { "de": "Sie hat ihrer Schwester das Kleid geliehen.", "fa": "او لباسش را به خواهرش امانت داده است." },
+          { "de": "Hast du schon Geld geliehen?", "fa": "آیا قبلاً پول قرض داده‌ای؟" },
+          { "de": "Wir haben uns ein Zelt geliehen.", "fa": "ما یک چادر قرض گرفته‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "lieh", "fa": "من قرض دادم." },
+      { "person": "du", "form": "liehst", "fa": "تو قرض دادی." },
+      { "person": "er/sie/es", "form": "lieh", "fa": "او/آن قرض داد." },
+      { "person": "wir", "form": "liehen", "fa": "ما قرض دادیم." },
+      { "person": "ihr", "form": "lieht", "fa": "شماها قرض دادید." },
+      { "person": "sie/Sie", "form": "liehen", "fa": "آنها قرض دادند." },
+      {
+        "sentences": [
+          { "de": "Gestern lieh ich meinem Kollegen den Stift.", "fa": "دیروز خودکارم را به همکارم قرض دادم." },
+          { "de": "Sie lieh ihm das Buch für eine Woche.", "fa": "او کتاب را برای یک هفته به او امانت داد." },
+          { "de": "Wir liehen uns ein Auto für den Urlaub.", "fa": "ما برای تعطیلات یک ماشین قرض گرفتیم." },
+          { "de": "Er lieh seiner Freundin Geld.", "fa": "او به دوست دخترش پول قرض داد." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde leihen", "fa": "من قرض خواهم داد." },
+      { "person": "du", "form": "wirst leihen", "fa": "تو قرض خواهی داد." },
+      { "person": "er/sie/es", "form": "wird leihen", "fa": "او/آن قرض خواهد داد." },
+      { "person": "wir", "form": "werden leihen", "fa": "ما قرض خواهیم داد." },
+      { "person": "ihr", "form": "werdet leihen", "fa": "شماها قرض خواهید داد." },
+      { "person": "sie/Sie", "form": "werden leihen", "fa": "آنها قرض خواهند داد." },
+      {
+        "sentences": [
+          { "de": "Nächste Woche werde ich dir mein Notebook leihen.", "fa": "هفته آینده لپ‌تاپم را به تو قرض خواهم داد." },
+          { "de": "Wirst du mir dein Handy leihen?", "fa": "آیا گوشی‌ات را به من قرض خواهی داد؟" },
+          { "de": "Sie werden uns das Haus leihen.", "fa": "آنها خانه‌شان را به ما امانت خواهند داد." },
+          { "de": "Wir werden in Zukunft mehr Bücher leihen.", "fa": "ما در آینده کتاب‌های بیشتری قرض خواهیم گرفت." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "302",
+    "level": "A2",
+    "type": "verb",
+    "word": "lernen",
+    "pronunciation": "لِرنِن",
+    "meaning": "یاد گرفتن / درس خواندن",
+    "antonyms": [],
+    "synonyms": ["studieren", "erlernen"],
+    "prasens": [
+      { "person": "Ich", "form": "lerne", "fa": "من یاد می‌گیرم." },
+      { "person": "du", "form": "lernst", "fa": "تو یاد می‌گیری." },
+      { "person": "er/sie/es", "form": "lernt", "fa": "او/آن یاد می‌گیرد." },
+      { "person": "wir", "form": "lernen", "fa": "ما یاد می‌گیریم." },
+      { "person": "ihr", "form": "lernt", "fa": "شماها یاد می‌گیرید." },
+      { "person": "sie/Sie", "form": "lernen", "fa": "آنها یاد می‌گیرند." },
+      {
+        "sentences": [
+          { "de": "Ich lerne Deutsch.", "fa": "من آلمانی یاد می‌گیرم." },
+          { "de": "Lernst du für die Prüfung?", "fa": "برای امتحان درس می‌خوانی؟" },
+          { "de": "Sie lernt jeden Tag Vokabeln.", "fa": "او هر روز واژگان یاد می‌گیرد." },
+          { "de": "Wir lernen zusammen Grammatik.", "fa": "ما با هم دستور زبان یاد می‌گیریم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gelernt", "fa": "من یاد گرفته‌ام." },
+      { "person": "du", "form": "hast gelernt", "fa": "تو یاد گرفته‌ای." },
+      { "person": "er/sie/es", "form": "hat gelernt", "fa": "او/آن یاد گرفته است." },
+      { "person": "wir", "form": "haben gelernt", "fa": "ما یاد گرفته‌ایم." },
+      { "person": "ihr", "form": "habt gelernt", "fa": "شماها یاد گرفته‌اید." },
+      { "person": "sie/Sie", "form": "haben gelernt", "fa": "آنها یاد گرفته‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe viel über Geschichte gelernt.", "fa": "من خیلی درباره تاریخ یاد گرفته‌ام." },
+          { "de": "Sie hat schon Spanisch gelernt.", "fa": "او قبلاً اسپانیایی یاد گرفته است." },
+          { "de": "Hast du heute Vokabeln gelernt?", "fa": "آیا امروز واژگان یاد گرفته‌ای؟" },
+          { "de": "Wir haben zusammen gekocht gelernt.", "fa": "ما با هم آشپزی یاد گرفته‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "lernte", "fa": "من یاد می‌گرفتم." },
+      { "person": "du", "form": "lerntest", "fa": "تو یاد می‌گرفتی." },
+      { "person": "er/sie/es", "form": "lernte", "fa": "او/آن یاد می‌گرفت." },
+      { "person": "wir", "form": "lernten", "fa": "ما یاد می‌گرفتیم." },
+      { "person": "ihr", "form": "lerntet", "fa": "شماها یاد می‌گرفتید." },
+      { "person": "sie/Sie", "form": "lernten", "fa": "آنها یاد می‌گرفتند." },
+      {
+        "sentences": [
+          { "de": "Früher lernte ich Klavier.", "fa": "قبلاً پیانو یاد می‌گرفتم." },
+          { "de": "Sie lernten fleißig für die Schule.", "fa": "آنها با جدیت برای مدرسه درس می‌خواندند." },
+          { "de": "Wir lernten die neue Sprache schnell.", "fa": "ما زبان جدید را سریع یاد گرفتیم." },
+          { "de": "Er lernte jeden Abend.", "fa": "او هر شب درس می‌خواند." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde lernen", "fa": "من یاد خواهم گرفت." },
+      { "person": "du", "form": "wirst lernen", "fa": "تو یاد خواهی گرفت." },
+      { "person": "er/sie/es", "form": "wird lernen", "fa": "او/آن یاد خواهد گرفت." },
+      { "person": "wir", "form": "werden lernen", "fa": "ما یاد خواهیم گرفت." },
+      { "person": "ihr", "form": "werdet lernen", "fa": "شماها یاد خواهید گرفت." },
+      { "person": "sie/Sie", "form": "werden lernen", "fa": "آنها یاد خواهند گرفت." },
+      {
+        "sentences": [
+          { "de": "Nächstes Jahr werde ich Italienisch lernen.", "fa": "سال آینده ایتالیایی یاد خواهم گرفت." },
+          { "de": "Wirst du Auto fahren lernen?", "fa": "آیا رانندگی یاد خواهی گرفت؟" },
+          { "de": "Sie werden viel über Kultur lernen.", "fa": "آنها خیلی درباره فرهنگ یاد خواهند گرفت." },
+          { "de": "Wir werden zusammen tanzen lernen.", "fa": "ما با هم رقص یاد خواهیم گرفت." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "303",
+    "level": "A2",
+    "type": "verb",
+    "word": "lesen",
+    "pronunciation": "لِزِن",
+    "meaning": "خواندن",
+    "antonyms": [],
+    "synonyms": ["durchlesen", "vorlesen"],
+    "prasens": [
+      { "person": "Ich", "form": "lese", "fa": "من می‌خوانم." },
+      { "person": "du", "form": "liest", "fa": "تو می‌خوانی." },
+      { "person": "er/sie/es", "form": "liest", "fa": "او/آن می‌خواند." },
+      { "person": "wir", "form": "lesen", "fa": "ما می‌خوانیم." },
+      { "person": "ihr", "form": "lest", "fa": "شماها می‌خوانید." },
+      { "person": "sie/Sie", "form": "lesen", "fa": "آنها می‌خوانند." },
+      {
+        "sentences": [
+          { "de": "Ich lese ein Buch.", "fa": "من یک کتاب می‌خوانم." },
+          { "de": "Liest du die Zeitung?", "fa": "روزنامه می‌خوانی؟" },
+          { "de": "Sie liest gern Romane.", "fa": "او رمان دوست دارد بخواند." },
+          { "de": "Wir lesen zusammen Geschichten.", "fa": "ما با هم داستان می‌خوانیم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gelesen", "fa": "من خوانده‌ام." },
+      { "person": "du", "form": "hast gelesen", "fa": "تو خوانده‌ای." },
+      { "person": "er/sie/es", "form": "hat gelesen", "fa": "او/آن خوانده است." },
+      { "person": "wir", "form": "haben gelesen", "fa": "ما خوانده‌ایم." },
+      { "person": "ihr", "form": "habt gelesen", "fa": "شماها خوانده‌اید." },
+      { "person": "sie/Sie", "form": "haben gelesen", "fa": "آنها خوانده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe den Artikel schon gelesen.", "fa": "من مقاله را قبلاً خوانده‌ام." },
+          { "de": "Sie hat das Buch in zwei Tagen gelesen.", "fa": "او کتاب را در دو روز خوانده است." },
+          { "de": "Hast du die E-Mail gelesen?", "fa": "ایمیل را خوانده‌ای؟" },
+          { "de": "Wir haben viele Bücher gelesen.", "fa": "ما کتاب‌های زیادی خوانده‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "las", "fa": "من می‌خواندم." },
+      { "person": "du", "form": "last", "fa": "تو می‌خواندی." },
+      { "person": "er/sie/es", "form": "las", "fa": "او/آن می‌خواند." },
+      { "person": "wir", "form": "lasen", "fa": "ما می‌خواندیم." },
+      { "person": "ihr", "form": "last", "fa": "شماها می‌خواندید." },
+      { "person": "sie/Sie", "form": "lasen", "fa": "آنها می‌خواندند." },
+      {
+        "sentences": [
+          { "de": "Gestern las ich einen interessanten Artikel.", "fa": "دیروز یک مقاله جالب خواندم." },
+          { "de": "Sie lasen das Buch laut vor.", "fa": "آنها کتاب را با صدای بلند خواندند." },
+          { "de": "Wir lasen viele Comics als Kinder.", "fa": "ما در کودکی کمیک‌های زیادی می‌خواندیم." },
+          { "de": "Er las die ganze Nacht.", "fa": "او تمام شب خواند." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde lesen", "fa": "من خواهم خواند." },
+      { "person": "du", "form": "wirst lesen", "fa": "تو خواهی خواند." },
+      { "person": "er/sie/es", "form": "wird lesen", "fa": "او/آن خواهد خواند." },
+      { "person": "wir", "form": "werden lesen", "fa": "ما خواهیم خواند." },
+      { "person": "ihr", "form": "werdet lesen", "fa": "شماها خواهید خواند." },
+      { "person": "sie/Sie", "form": "werden lesen", "fa": "آنها خواهند خواند." },
+      {
+        "sentences": [
+          { "de": "Morgen werde ich den Bericht lesen.", "fa": "فردا گزارش را خواهم خواند." },
+          { "de": "Wirst du das neue Buch lesen?", "fa": "کتاب جدید را خواهی خواند؟" },
+          { "de": "Sie werden viele Texte lesen.", "fa": "آنها متن‌های زیادی خواهند خواند." },
+          { "de": "Wir werden in den Ferien viel lesen.", "fa": "ما در تعطیلات زیاد کتاب خواهیم خواند." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "304",
+    "level": "A2",
+    "type": "verb",
+    "word": "lieben",
+    "pronunciation": "لی‌بِن",
+    "meaning": "دوست داشتن / عاشق بودن",
+    "antonyms": ["hassen"],
+    "synonyms": ["mögen", "verliebt sein"],
+    "prasens": [
+      { "person": "Ich", "form": "liebe", "fa": "من دوست دارم." },
+      { "person": "du", "form": "liebst", "fa": "تو دوست داری." },
+      { "person": "er/sie/es", "form": "liebt", "fa": "او/آن دوست دارد." },
+      { "person": "wir", "form": "lieben", "fa": "ما دوست داریم." },
+      { "person": "ihr", "form": "liebt", "fa": "شماها دوست دارید." },
+      { "person": "sie/Sie", "form": "lieben", "fa": "آنها دوست دارند." },
+      {
+        "sentences": [
+          { "de": "Ich liebe Schokolade.", "fa": "من شکلات دوست دارم." },
+          { "de": "Liebst du mich?", "fa": "مرا دوست داری؟" },
+          { "de": "Sie liebt ihren Hund sehr.", "fa": "او سگش را خیلی دوست دارد." },
+          { "de": "Wir lieben Musik.", "fa": "ما موسیقی دوست داریم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe geliebt", "fa": "من دوست داشته‌ام." },
+      { "person": "du", "form": "hast geliebt", "fa": "تو دوست داشته‌ای." },
+      { "person": "er/sie/es", "form": "hat geliebt", "fa": "او/آن دوست داشته است." },
+      { "person": "wir", "form": "haben geliebt", "fa": "ما دوست داشته‌ایم." },
+      { "person": "ihr", "form": "habt geliebt", "fa": "شماها دوست داشته‌اید." },
+      { "person": "sie/Sie", "form": "haben geliebt", "fa": "آنها دوست داشته‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe meine Familie immer geliebt.", "fa": "من همیشه خانواده‌ام را دوست داشته‌ام." },
+          { "de": "Sie hat ihren ersten Freund sehr geliebt.", "fa": "او دوست پسر اولش را خیلی دوست داشته است." },
+          { "de": "Habt ihr das Land geliebt?", "fa": "کشور را دوست داشته‌اید؟" },
+          { "de": "Wir haben diese Stadt geliebt.", "fa": "ما این شهر را دوست داشته‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "liebte", "fa": "من دوست داشتم." },
+      { "person": "du", "form": "liebtest", "fa": "تو دوست داشتی." },
+      { "person": "er/sie/es", "form": "liebte", "fa": "او/آن دوست داشت." },
+      { "person": "wir", "form": "liebten", "fa": "ما دوست داشتیم." },
+      { "person": "ihr", "form": "liebtet", "fa": "شماها دوست داشتید." },
+      { "person": "sie/Sie", "form": "liebten", "fa": "آنها دوست داشتند." },
+      {
+        "sentences": [
+          { "de": "Als Kind liebte ich Tiere.", "fa": "در کودکی حیوانات را دوست داشتم." },
+          { "de": "Sie liebten das Meer.", "fa": "آنها دریا را دوست داشتند." },
+          { "de": "Wir liebten die alten Filme.", "fa": "ما فیلم‌های قدیمی را دوست داشتیم." },
+          { "de": "Er liebte seine Großmutter sehr.", "fa": "او مادربزرگش را خیلی دوست داشت." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde lieben", "fa": "من دوست خواهم داشت." },
+      { "person": "du", "form": "wirst lieben", "fa": "تو دوست خواهی داشت." },
+      { "person": "er/sie/es", "form": "wird lieben", "fa": "او/آن دوست خواهد داشت." },
+      { "person": "wir", "form": "werden lieben", "fa": "ما دوست خواهیم داشت." },
+      { "person": "ihr", "form": "werdet lieben", "fa": "شماها دوست خواهید داشت." },
+      { "person": "sie/Sie", "form": "werden lieben", "fa": "آنها دوست خواهند داشت." },
+      {
+        "sentences": [
+          { "de": "Ich werde dich immer lieben.", "fa": "من همیشه تو را دوست خواهم داشت." },
+          { "de": "Sie werden ihre Heimat lieben.", "fa": "آنها وطن‌شان را دوست خواهند داشت." },
+          { "de": "Wirst du die neue Stadt lieben?", "fa": "شهر جدید را دوست خواهی داشت؟" },
+          { "de": "Wir werden diese Tradition lieben.", "fa": "ما این سنت را دوست خواهیم داشت." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "305",
+    "level": "A2",
+    "type": "verb",
+    "word": "liefern",
+    "pronunciation": "لی‌فِرن",
+    "meaning": "تحویل دادن / تأمین کردن",
+    "antonyms": [],
+    "synonyms": ["zustellen", "bringen"],
+    "prasens": [
+      { "person": "Ich", "form": "liefere", "fa": "من تحویل می‌دهم." },
+      { "person": "du", "form": "lieferst", "fa": "تو تحویل می‌دهی." },
+      { "person": "er/sie/es", "form": "liefert", "fa": "او/آن تحویل می‌دهد." },
+      { "person": "wir", "form": "liefern", "fa": "ما تحویل می‌دهیم." },
+      { "person": "ihr", "form": "liefert", "fa": "شماها تحویل می‌دهید." },
+      { "person": "sie/Sie", "form": "liefern", "fa": "آنها تحویل می‌دهند." },
+      {
+        "sentences": [
+          { "de": "Die Firma liefert die Ware morgen.", "fa": "شرکت فردا کالا را تحویل می‌دهد." },
+          { "de": "Lieferst du das Paket?", "fa": "بسته را تحویل می‌دهی؟" },
+          { "de": "Wir liefern frisches Obst.", "fa": "ما میوه تازه تأمین می‌کنیم." },
+          { "de": "Sie liefert immer pünktlich.", "fa": "او همیشه به موقع تحویل می‌دهد." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe geliefert", "fa": "من تحویل داده‌ام." },
+      { "person": "du", "form": "hast geliefert", "fa": "تو تحویل داده‌ای." },
+      { "person": "er/sie/es", "form": "hat geliefert", "fa": "او/آن تحویل داده است." },
+      { "person": "wir", "form": "haben geliefert", "fa": "ما تحویل داده‌ایم." },
+      { "person": "ihr", "form": "habt geliefert", "fa": "شماها تحویل داده‌اید." },
+      { "person": "sie/Sie", "form": "haben geliefert", "fa": "آنها تحویل داده‌اند." },
+      {
+        "sentences": [
+          { "de": "Der Lieferant hat die Möbel geliefert.", "fa": "تأمین‌کننده مبلمان را تحویل داده است." },
+          { "de": "Sie haben die Bestellung gestern geliefert.", "fa": "آنها سفارش را دیروز تحویل داده‌اند." },
+          { "de": "Ich habe schon alle Dokumente geliefert.", "fa": "من همه مدارک را قبلاً تحویل داده‌ام." },
+          { "de": "Wir haben pünktlich geliefert.", "fa": "ما به موقع تحویل داده‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "lieferte", "fa": "من تحویل می‌دادم." },
+      { "person": "du", "form": "liefertest", "fa": "تو تحویل می‌دادی." },
+      { "person": "er/sie/es", "form": "lieferte", "fa": "او/آن تحویل می‌داد." },
+      { "person": "wir", "form": "lieferten", "fa": "ما تحویل می‌دادیم." },
+      { "person": "ihr", "form": "liefertet", "fa": "شماها تحویل می‌دادید." },
+      { "person": "sie/Sie", "form": "lieferten", "fa": "آنها تحویل می‌دادند." },
+      {
+        "sentences": [
+          { "de": "Die Firma lieferte die Produkte letzte Woche.", "fa": "شرکت محصولات را هفته گذشته تحویل داد." },
+          { "de": "Er lieferte die Pizza sehr schnell.", "fa": "او پیتزا را خیلی سریع تحویل داد." },
+          { "de": "Wir lieferten die Ware an den Kunden.", "fa": "ما کالا را به مشتری تحویل دادیم." },
+          { "de": "Sie lieferten immer gute Qualität.", "fa": "آنها همیشه کیفیت خوبی تأمین می‌کردند." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde liefern", "fa": "من تحویل خواهم داد." },
+      { "person": "du", "form": "wirst liefern", "fa": "تو تحویل خواهی داد." },
+      { "person": "er/sie/es", "form": "wird liefern", "fa": "او/آن تحویل خواهد داد." },
+      { "person": "wir", "form": "werden liefern", "fa": "ما تحویل خواهیم داد." },
+      { "person": "ihr", "form": "werdet liefern", "fa": "شماها تحویل خواهید داد." },
+      { "person": "sie/Sie", "form": "werden liefern", "fa": "آنها تحویل خواهند داد." },
+      {
+        "sentences": [
+          { "de": "Morgen werde ich die Bestellung liefern.", "fa": "فردا سفارش را تحویل خواهم داد." },
+          { "de": "Sie werden die neuen Modelle liefern.", "fa": "آنها مدل‌های جدید را تحویل خواهند داد." },
+          { "de": "Wirst du die Unterlagen liefern?", "fa": "مدارک را تحویل خواهی داد؟" },
+          { "de": "Wir werden schnell liefern.", "fa": "ما سریع تحویل خواهیم داد." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "306",
+    "level": "A2",
+    "type": "verb",
+    "word": "liegen",
+    "pronunciation": "لی‌گِن",
+    "meaning": "دراز کشیدن / قرار داشتن",
+    "antonyms": [],
+    "synonyms": ["sich befinden", "ruhen"],
+    "prasens": [
+      { "person": "Ich", "form": "liege", "fa": "من دراز کشیده‌ام." },
+      { "person": "du", "form": "liegst", "fa": "تو دراز کشیده‌ای." },
+      { "person": "er/sie/es", "form": "liegt", "fa": "او/آن قرار دارد." },
+      { "person": "wir", "form": "liegen", "fa": "ما دراز کشیده‌ایم." },
+      { "person": "ihr", "form": "liegt", "fa": "شماها دراز کشیده‌اید." },
+      { "person": "sie/Sie", "form": "liegen", "fa": "آنها قرار دارند." },
+      {
+        "sentences": [
+          { "de": "Ich liege im Bett.", "fa": "من در تخت دراز کشیده‌ام." },
+          { "de": "Das Buch liegt auf dem Tisch.", "fa": "کتاب روی میز قرار دارد." },
+          { "de": "Die Stadt liegt am Fluss.", "fa": "شهر کنار رودخانه قرار دارد." },
+          { "de": "Wir liegen am Strand.", "fa": "ما روی ساحل دراز کشیده‌ایم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gelegen", "fa": "من دراز کشیده‌ام." },
+      { "person": "du", "form": "hast gelegen", "fa": "تو دراز کشیده‌ای." },
+      { "person": "er/sie/es", "form": "hat gelegen", "fa": "او/آن قرار داشته است." },
+      { "person": "wir", "form": "haben gelegen", "fa": "ما دراز کشیده‌ایم." },
+      { "person": "ihr", "form": "habt gelegen", "fa": "شماها دراز کشیده‌اید." },
+      { "person": "sie/Sie", "form": "haben gelegen", "fa": "آنها قرار داشته‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe den ganzen Tag im Bett gelegen.", "fa": "تمام روز در تخت دراز کشیده‌ام." },
+          { "de": "Das Dokument hat auf dem Schreibtisch gelegen.", "fa": "سند روی میز کار قرار داشته است." },
+          { "de": "Sie haben am See gelegen.", "fa": "آنها کنار دریاچه دراز کشیده بودند." },
+          { "de": "Wir haben lange im Gras gelegen.", "fa": "ما مدت طولانی روی چمن دراز کشیده‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "lag", "fa": "من دراز کشیده بودم." },
+      { "person": "du", "form": "lagst", "fa": "تو دراز کشیده بودی." },
+      { "person": "er/sie/es", "form": "lag", "fa": "او/آن قرار داشت." },
+      { "person": "wir", "form": "lagen", "fa": "ما دراز کشیده بودیم." },
+      { "person": "ihr", "form": "lagt", "fa": "شماها دراز کشیده بودید." },
+      { "person": "sie/Sie", "form": "lagen", "fa": "آنها قرار داشتند." },
+      {
+        "sentences": [
+          { "de": "Gestern lag ich krank im Bett.", "fa": "دیروز بیمار در تخت دراز کشیده بودم." },
+          { "de": "Die Schlüssel lagen auf dem Tisch.", "fa": "کلیدها روی میز بودند." },
+          { "de": "Wir lagen stundenlang am Pool.", "fa": "ما ساعت‌ها کنار استخر دراز کشیده بودیم." },
+          { "de": "Die Probleme lagen woanders.", "fa": "مشکلات جای دیگری بودند." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde liegen", "fa": "من دراز خواهم کشید." },
+      { "person": "du", "form": "wirst liegen", "fa": "تو دراز خواهی کشید." },
+      { "person": "er/sie/es", "form": "wird liegen", "fa": "او/آن قرار خواهد داشت." },
+      { "person": "wir", "form": "werden liegen", "fa": "ما دراز خواهیم کشید." },
+      { "person": "ihr", "form": "werdet liegen", "fa": "شماها دراز خواهید کشید." },
+      { "person": "sie/Sie", "form": "werden liegen", "fa": "آنها قرار خواهند داشت." },
+      {
+        "sentences": [
+          { "de": "Morgen werde ich den ganzen Tag liegen.", "fa": "فردا تمام روز دراز خواهم کشید." },
+          { "de": "Das Hotel wird direkt am Meer liegen.", "fa": "هتل مستقیماً کنار دریا قرار خواهد داشت." },
+          { "de": "Wir werden im Urlaub viel liegen.", "fa": "ما در تعطیلات زیاد دراز خواهیم کشید." },
+          { "de": "Die Akten werden auf deinem Schreibtisch liegen.", "fa": "پرونده‌ها روی میز تو قرار خواهند داشت." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "307",
+    "level": "A2",
+    "type": "verb",
+    "word": "lügen",
+    "pronunciation": "لوگِن",
+    "meaning": "دروغ گفتن",
+    "antonyms": ["die Wahrheit sagen"],
+    "synonyms": ["schwindeln"],
+    "prasens": [
+      { "person": "Ich", "form": "lüge", "fa": "من دروغ می‌گویم." },
+      { "person": "du", "form": "lügst", "fa": "تو دروغ می‌گویی." },
+      { "person": "er/sie/es", "form": "lügt", "fa": "او/آن دروغ می‌گوید." },
+      { "person": "wir", "form": "lügen", "fa": "ما دروغ می‌گوییم." },
+      { "person": "ihr", "form": "lügt", "fa": "شماها دروغ می‌گویید." },
+      { "person": "sie/Sie", "form": "lügen", "fa": "آنها دروغ می‌گویند." },
+      {
+        "sentences": [
+          { "de": "Ich lüge nicht.", "fa": "من دروغ نمی‌گویم." },
+          { "de": "Warum lügst du?", "fa": "چرا دروغ می‌گویی؟" },
+          { "de": "Er lügt oft.", "fa": "او اغلب دروغ می‌گوید." },
+          { "de": "Wir lügen nie.", "fa": "ما هرگز دروغ نمی‌گوییم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gelogen", "fa": "من دروغ گفته‌ام." },
+      { "person": "du", "form": "hast gelogen", "fa": "تو دروغ گفته‌ای." },
+      { "person": "er/sie/es", "form": "hat gelogen", "fa": "او/آن دروغ گفته است." },
+      { "person": "wir", "form": "haben gelogen", "fa": "ما دروغ گفته‌ایم." },
+      { "person": "ihr", "form": "habt gelogen", "fa": "شماها دروغ گفته‌اید." },
+      { "person": "sie/Sie", "form": "haben gelogen", "fa": "آنها دروغ گفته‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe nie gelogen.", "fa": "من هرگز دروغ نگفته‌ام." },
+          { "de": "Sie hat über ihr Alter gelogen.", "fa": "او درباره سنش دروغ گفته است." },
+          { "de": "Hast du gelogen?", "fa": "دروغ گفته‌ای؟" },
+          { "de": "Wir haben aus Höflichkeit gelogen.", "fa": "ما از روی ادب دروغ گفته‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "log", "fa": "من دروغ گفتم." },
+      { "person": "du", "form": "logst", "fa": "تو دروغ گفتی." },
+      { "person": "er/sie/es", "form": "log", "fa": "او/آن دروغ گفت." },
+      { "person": "wir", "form": "logen", "fa": "ما دروغ گفتیم." },
+      { "person": "ihr", "form": "logt", "fa": "شماها دروغ گفتید." },
+      { "person": "sie/Sie", "form": "logen", "fa": "آنها دروغ گفتند." },
+      {
+        "sentences": [
+          { "de": "Er log seinem Chef.", "fa": "او به رئیسش دروغ گفت." },
+          { "de": "Sie logen über den Unfall.", "fa": "آنها درباره تصادف دروغ گفتند." },
+          { "de": "Wir logen nicht.", "fa": "ما دروغ نگفتیم." },
+          { "de": "Das Kind log oft.", "fa": "کودک اغلب دروغ می‌گفت." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde lügen", "fa": "من دروغ خواهم گفت." },
+      { "person": "du", "form": "wirst lügen", "fa": "تو دروغ خواهی گفت." },
+      { "person": "er/sie/es", "form": "wird lügen", "fa": "او/آن دروغ خواهد گفت." },
+      { "person": "wir", "form": "werden lügen", "fa": "ما دروغ خواهیم گفت." },
+      { "person": "ihr", "form": "werdet lügen", "fa": "شماها دروغ خواهید گفت." },
+      { "person": "sie/Sie", "form": "werden lügen", "fa": "آنها دروغ خواهند گفت." },
+      {
+        "sentences": [
+          { "de": "Ich werde nicht lügen.", "fa": "من دروغ نخواهم گفت." },
+          { "de": "Wirst du jemals lügen?", "fa": "آیا هرگز دروغ خواهی گفت؟" },
+          { "de": "Sie werden die Wahrheit sagen, nicht lügen.", "fa": "آنها حقیقت را خواهند گفت، نه دروغ." },
+          { "de": "Wir werden in dieser Situation nicht lügen.", "fa": "ما در این موقعیت دروغ نخواهیم گفت." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "308",
+    "level": "A2",
+    "type": "verb",
+    "word": "machen",
+    "pronunciation": "ماخِن",
+    "meaning": "کردن / ساختن",
+    "antonyms": [],
+    "synonyms": ["tun", "herstellen"],
+    "prasens": [
+      { "person": "Ich", "form": "mache", "fa": "من می‌کنم." },
+      { "person": "du", "form": "machst", "fa": "تو می‌کنی." },
+      { "person": "er/sie/es", "form": "macht", "fa": "او/آن می‌کند." },
+      { "person": "wir", "form": "machen", "fa": "ما می‌کنیم." },
+      { "person": "ihr", "form": "macht", "fa": "شماها می‌کنید." },
+      { "person": "sie/Sie", "form": "machen", "fa": "آنها می‌کنند." },
+      {
+        "sentences": [
+          { "de": "Ich mache Hausaufgaben.", "fa": "من تکالیفم را انجام می‌دهم." },
+          { "de": "Was machst du?", "fa": "چه کار می‌کنی؟" },
+          { "de": "Sie macht Sport.", "fa": "او ورزش می‌کند." },
+          { "de": "Wir machen einen Ausflug.", "fa": "ما به گردش می‌رویم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gemacht", "fa": "من کرده‌ام." },
+      { "person": "du", "form": "hast gemacht", "fa": "تو کرده‌ای." },
+      { "person": "er/sie/es", "form": "hat gemacht", "fa": "او/آن کرده است." },
+      { "person": "wir", "form": "haben gemacht", "fa": "ما کرده‌ایم." },
+      { "person": "ihr", "form": "habt gemacht", "fa": "شماها کرده‌اید." },
+      { "person": "sie/Sie", "form": "haben gemacht", "fa": "آنها کرده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe die Arbeit gemacht.", "fa": "کار را انجام داده‌ام." },
+          { "de": "Sie hat einen Kuchen gemacht.", "fa": "او کیک درست کرده است." },
+          { "de": "Was hast du gestern gemacht?", "fa": "دیروز چه کار کردی؟" },
+          { "de": "Wir haben Fotos gemacht.", "fa": "ما عکس گرفته‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "machte", "fa": "من می‌کردم." },
+      { "person": "du", "form": "machtest", "fa": "تو می‌کردی." },
+      { "person": "er/sie/es", "form": "machte", "fa": "او/آن می‌کرد." },
+      { "person": "wir", "form": "machten", "fa": "ما می‌کردیم." },
+      { "person": "ihr", "form": "machtet", "fa": "شماها می‌کردید." },
+      { "person": "sie/Sie", "form": "machten", "fa": "آنها می‌کردند." },
+      {
+        "sentences": [
+          { "de": "Gestern machte ich einen Spaziergang.", "fa": "دیروز پیاده‌روی کردم." },
+          { "de": "Sie machten eine Party.", "fa": "آنها مهمونی گرفتند." },
+          { "de": "Wir machten die Hausaufgaben zusammen.", "fa": "ما تکالیف را با هم انجام دادیم." },
+          { "de": "Er machte einen Fehler.", "fa": "او اشتباه کرد." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde machen", "fa": "من خواهم کرد." },
+      { "person": "du", "form": "wirst machen", "fa": "تو خواهی کرد." },
+      { "person": "er/sie/es", "form": "wird machen", "fa": "او/آن خواهد کرد." },
+      { "person": "wir", "form": "werden machen", "fa": "ما خواهیم کرد." },
+      { "person": "ihr", "form": "werdet machen", "fa": "شماها خواهید کرد." },
+      { "person": "sie/Sie", "form": "werden machen", "fa": "آنها خواهند کرد." },
+      {
+        "sentences": [
+          { "de": "Morgen werde ich das machen.", "fa": "فردا این کار را خواهم کرد." },
+          { "de": "Sie werden eine Reise machen.", "fa": "آنها سفر خواهند کرد." },
+          { "de": "Wirst du den Test machen?", "fa": "آزمون را خواهی داد؟" },
+          { "de": "Wir werden einen Film machen.", "fa": "ما فیلم خواهیم ساخت." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "309",
+    "level": "A2",
+    "type": "verb",
+    "word": "malen",
+    "pronunciation": "مالِن",
+    "meaning": "نقاشی کردن",
+    "antonyms": [],
+    "synonyms": ["zeichnen"],
+    "prasens": [
+      { "person": "Ich", "form": "male", "fa": "من نقاشی می‌کنم." },
+      { "person": "du", "form": "malst", "fa": "تو نقاشی می‌کنی." },
+      { "person": "er/sie/es", "form": "malt", "fa": "او/آن نقاشی می‌کند." },
+      { "person": "wir", "form": "malen", "fa": "ما نقاشی می‌کنیم." },
+      { "person": "ihr", "form": "malt", "fa": "شماها نقاشی می‌کنید." },
+      { "person": "sie/Sie", "form": "malen", "fa": "آنها نقاشی می‌کنند." },
+      {
+        "sentences": [
+          { "de": "Ich male ein Bild.", "fa": "من یک نقاشی می‌کشم." },
+          { "de": "Malst du gern?", "fa": "نقاشی کردن را دوست داری؟" },
+          { "de": "Sie malt wunderschön.", "fa": "او خیلی زیبا نقاشی می‌کند." },
+          { "de": "Wir malen mit Wasserfarben.", "fa": "ما با آبرنگ نقاشی می‌کنیم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gemalt", "fa": "من نقاشی کرده‌ام." },
+      { "person": "du", "form": "hast gemalt", "fa": "تو نقاشی کرده‌ای." },
+      { "person": "er/sie/es", "form": "hat gemalt", "fa": "او/آن نقاشی کرده است." },
+      { "person": "wir", "form": "haben gemalt", "fa": "ما نقاشی کرده‌ایم." },
+      { "person": "ihr", "form": "habt gemalt", "fa": "شماها نقاشی کرده‌اید." },
+      { "person": "sie/Sie", "form": "haben gemalt", "fa": "آنها نقاشی کرده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe ein Porträt gemalt.", "fa": "یک پرتره نقاشی کرده‌ام." },
+          { "de": "Sie hat das Haus gemalt.", "fa": "او خانه را نقاشی کرده است." },
+          { "de": "Hast du schon mal gemalt?", "fa": "تا حالا نقاشی کرده‌ای؟" },
+          { "de": "Wir haben zusammen gemalt.", "fa": "ما با هم نقاشی کرده‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "malte", "fa": "من نقاشی می‌کردم." },
+      { "person": "du", "form": "maltest", "fa": "تو نقاشی می‌کردی." },
+      { "person": "er/sie/es", "form": "malte", "fa": "او/آن نقاشی می‌کرد." },
+      { "person": "wir", "form": "malten", "fa": "ما نقاشی می‌کردیم." },
+      { "person": "ihr", "form": "maltet", "fa": "شماها نقاشی می‌کردید." },
+      { "person": "sie/Sie", "form": "malten", "fa": "آنها نقاشی می‌کردند." },
+      {
+        "sentences": [
+          { "de": "Als Kind malte ich oft.", "fa": "در کودکی اغلب نقاشی می‌کردم." },
+          { "de": "Sie malten die Wände neu.", "fa": "آنها دیوارها را دوباره رنگ کردند." },
+          { "de": "Wir malten ein Bild für die Ausstellung.", "fa": "ما برای نمایشگاه نقاشی کشیدیم." },
+          { "de": "Er malte ein schönes Landschaftsbild.", "fa": "او یک منظره زیبا کشید." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde malen", "fa": "من نقاشی خواهم کرد." },
+      { "person": "du", "form": "wirst malen", "fa": "تو نقاشی خواهی کرد." },
+      { "person": "er/sie/es", "form": "wird malen", "fa": "او/آن نقاشی خواهد کرد." },
+      { "person": "wir", "form": "werden malen", "fa": "ما نقاشی خواهیم کرد." },
+      { "person": "ihr", "form": "werdet malen", "fa": "شماها نقاشی خواهید کرد." },
+      { "person": "sie/Sie", "form": "werden malen", "fa": "آنها نقاشی خواهند کرد." },
+      {
+        "sentences": [
+          { "de": "Am Wochenende werde ich malen.", "fa": "آخر هفته نقاشی خواهم کرد." },
+          { "de": "Sie werden ein großes Bild malen.", "fa": "آنها یک نقاشی بزرگ خواهند کشید." },
+          { "de": "Wirst du das Porträt malen?", "fa": "پرتره را نقاشی خواهی کرد؟" },
+          { "de": "Wir werden mit Acrylfarben malen.", "fa": "ما با رنگ اکریلیک نقاشی خواهیم کرد." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "310",
+    "level": "A2",
+    "type": "verb",
+    "word": "meinen",
+    "pronunciation": "مای‌نِن",
+    "meaning": "فکر کردن / منظورش بودن",
+    "antonyms": [],
+    "synonyms": ["denken", "glauben"],
+    "prasens": [
+      { "person": "Ich", "form": "meine", "fa": "من فکر می‌کنم." },
+      { "person": "du", "form": "meinst", "fa": "تو فکر می‌کنی." },
+      { "person": "er/sie/es", "form": "meint", "fa": "او/آن فکر می‌کند." },
+      { "person": "wir", "form": "meinen", "fa": "ما فکر می‌کنیم." },
+      { "person": "ihr", "form": "meint", "fa": "شماها فکر می‌کنید." },
+      { "person": "sie/Sie", "form": "meinen", "fa": "آنها فکر می‌کنند." },
+      {
+        "sentences": [
+          { "de": "Ich meine das ernst.", "fa": "جدی می‌گویم." },
+          { "de": "Meinst du das wirklich?", "fa": "واقعاً این را می‌گویی؟" },
+          { "de": "Sie meint, es ist gut.", "fa": "او فکر می‌کند خوب است." },
+          { "de": "Wir meinen dasselbe.", "fa": "ما همان را فکر می‌کنیم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gemeint", "fa": "من فکر کرده‌ام." },
+      { "person": "du", "form": "hast gemeint", "fa": "تو فکر کرده‌ای." },
+      { "person": "er/sie/es", "form": "hat gemeint", "fa": "او/آن فکر کرده است." },
+      { "person": "wir", "form": "haben gemeint", "fa": "ما فکر کرده‌ایم." },
+      { "person": "ihr", "form": "habt gemeint", "fa": "شماها فکر کرده‌اید." },
+      { "person": "sie/Sie", "form": "haben gemeint", "fa": "آنها فکر کرده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe es nicht so gemeint.", "fa": "منظورم این نبود." },
+          { "de": "Sie hat etwas anderes gemeint.", "fa": "او چیز دیگری منظورش بود." },
+          { "de": "Was hast du damit gemeint?", "fa": "منظورت از این چه بود؟" },
+          { "de": "Wir haben es gut gemeint.", "fa": "ما نیت خوبی داشتیم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "meinte", "fa": "من فکر می‌کردم." },
+      { "person": "du", "form": "meintest", "fa": "تو فکر می‌کردی." },
+      { "person": "er/sie/es", "form": "meinte", "fa": "او/آن فکر می‌کرد." },
+      { "person": "wir", "form": "meinten", "fa": "ما فکر می‌کردیم." },
+      { "person": "ihr", "form": "meintet", "fa": "شماها فکر می‌کردید." },
+      { "person": "sie/Sie", "form": "meinten", "fa": "آنها فکر می‌کردند." },
+      {
+        "sentences": [
+          { "de": "Früher meinte ich anders.", "fa": "قبلاً طور دیگری فکر می‌کردم." },
+          { "de": "Sie meinten, es sei einfach.", "fa": "آنها فکر می‌کردند ساده است." },
+          { "de": "Wir meinten es gut.", "fa": "ما نیت خوبی داشتیم." },
+          { "de": "Er meinte das Gegenteil.", "fa": "او نظر مخالف داشت." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde meinen", "fa": "من فکر خواهم کرد." },
+      { "person": "du", "form": "wirst meinen", "fa": "تو فکر خواهی کرد." },
+      { "person": "er/sie/es", "form": "wird meinen", "fa": "او/آن فکر خواهد کرد." },
+      { "person": "wir", "form": "werden meinen", "fa": "ما فکر خواهیم کرد." },
+      { "person": "ihr", "form": "werdet meinen", "fa": "شماها فکر خواهید کرد." },
+      { "person": "sie/Sie", "form": "werden meinen", "fa": "آنها فکر خواهند کرد." },
+      {
+        "sentences": [
+          { "de": "Ich werde meine Meinung sagen.", "fa": "نظر خودم را خواهم گفت." },
+          { "de": "Sie werden das Gleiche meinen.", "fa": "آنها همان را فکر خواهند کرد." },
+          { "de": "Wirst du das ernst meinen?", "fa": "جدی می‌گویی؟" },
+          { "de": "Wir werden später anders meinen.", "fa": "بعداً نظرمان عوض خواهد شد." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "311",
+    "level": "A2",
+    "type": "verb",
+    "word": "merken",
+    "pronunciation": "مِرکِن",
+    "meaning": "توجه کردن / متوجه شدن",
+    "antonyms": [],
+    "synonyms": ["bemerken", "feststellen"],
+    "prasens": [
+      { "person": "Ich", "form": "merke", "fa": "من متوجه می‌شوم." },
+      { "person": "du", "form": "merkst", "fa": "تو متوجه می‌شوی." },
+      { "person": "er/sie/es", "form": "merkt", "fa": "او/آن متوجه می‌شود." },
+      { "person": "wir", "form": "merken", "fa": "ما متوجه می‌شویم." },
+      { "person": "ihr", "form": "merkt", "fa": "شماها متوجه می‌شوید." },
+      { "person": "sie/Sie", "form": "merken", "fa": "آنها متوجه می‌شوند." },
+      {
+        "sentences": [
+          { "de": "Ich merke mir das.", "fa": "این را به خاطر می‌سپارم." },
+          { "de": "Merkst du den Unterschied?", "fa": "تفاوت را متوجه می‌شوی؟" },
+          { "de": "Sie merkt alles.", "fa": "او همه چیز را متوجه می‌شود." },
+          { "de": "Wir merken die Veränderung.", "fa": "ما تغییر را متوجه می‌شویم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gemerkt", "fa": "من متوجه شده‌ام." },
+      { "person": "du", "form": "hast gemerkt", "fa": "تو متوجه شده‌ای." },
+      { "person": "er/sie/es", "form": "hat gemerkt", "fa": "او/آن متوجه شده است." },
+      { "person": "wir", "form": "haben gemerkt", "fa": "ما متوجه شده‌ایم." },
+      { "person": "ihr", "form": "habt gemerkt", "fa": "شماها متوجه شده‌اید." },
+      { "person": "sie/Sie", "form": "haben gemerkt", "fa": "آنها متوجه شده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe den Fehler gemerkt.", "fa": "اشتباه را متوجه شده‌ام." },
+          { "de": "Sie hat sofort gemerkt, dass etwas nicht stimmt.", "fa": "او فوراً متوجه شد که چیزی درست نیست." },
+          { "de": "Hast du das gemerkt?", "fa": "این را متوجه شدی؟" },
+          { "de": "Wir haben die Veränderung gemerkt.", "fa": "ما تغییر را متوجه شده‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "merkte", "fa": "من متوجه می‌شدم." },
+      { "person": "du", "form": "merktest", "fa": "تو متوجه می‌شدی." },
+      { "person": "er/sie/es", "form": "merkte", "fa": "او/آن متوجه می‌شد." },
+      { "person": "wir", "form": "merkten", "fa": "ما متوجه می‌شدیم." },
+      { "person": "ihr", "form": "merktet", "fa": "شماها متوجه می‌شدید." },
+      { "person": "sie/Sie", "form": "merkten", "fa": "آنها متوجه می‌شدند." },
+      {
+        "sentences": [
+          { "de": "Ich merkte den Geruch sofort.", "fa": "بو را فوراً متوجه شدم." },
+          { "de": "Sie merkten nichts.", "fa": "آنها هیچ چیز متوجه نشدند." },
+          { "de": "Wir merkten die Kälte.", "fa": "ما سرما را احساس کردیم." },
+          { "de": "Er merkte den Unterschied nicht.", "fa": "او تفاوت را متوجه نشد." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde merken", "fa": "من متوجه خواهم شد." },
+      { "person": "du", "form": "wirst merken", "fa": "تو متوجه خواهی شد." },
+      { "person": "er/sie/es", "form": "wird merken", "fa": "او/آن متوجه خواهد شد." },
+      { "person": "wir", "form": "werden merken", "fa": "ما متوجه خواهیم شد." },
+      { "person": "ihr", "form": "werdet merken", "fa": "شماها متوجه خواهید شد." },
+      { "person": "sie/Sie", "form": "werden merken", "fa": "آنها متوجه خواهند شد." },
+      {
+        "sentences": [
+          { "de": "Ich werde es mir merken.", "fa": "این را به خاطر خواهم سپرد." },
+          { "de": "Sie werden den Unterschied merken.", "fa": "آنها تفاوت را متوجه خواهند شد." },
+          { "de": "Wirst du das merken?", "fa": "این را متوجه خواهی شد؟" },
+          { "de": "Wir werden bald merken, ob es funktioniert.", "fa": "به زودی متوجه خواهیم شد که آیا کار می‌کند." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "312",
+    "level": "A2",
+    "type": "verb",
+    "word": "mieten",
+    "pronunciation": "میتِن",
+    "meaning": "اجاره کردن",
+    "antonyms": ["vermieten"],
+    "synonyms": ["anmieten"],
+    "prasens": [
+      { "person": "Ich", "form": "miete", "fa": "من اجاره می‌کنم." },
+      { "person": "du", "form": "mietest", "fa": "تو اجاره می‌کنی." },
+      { "person": "er/sie/es", "form": "mietet", "fa": "او/آن اجاره می‌کند." },
+      { "person": "wir", "form": "mieten", "fa": "ما اجاره می‌کنیم." },
+      { "person": "ihr", "form": "mietet", "fa": "شماها اجاره می‌کنید." },
+      { "person": "sie/Sie", "form": "mieten", "fa": "آنها اجاره می‌کنند." },
+      {
+        "sentences": [
+          { "de": "Ich miete eine Wohnung.", "fa": "من آپارتمان اجاره می‌کنم." },
+          { "de": "Mietest du ein Auto?", "fa": "ماشین اجاره می‌کنی؟" },
+          { "de": "Sie mietet ein Zimmer.", "fa": "او یک اتاق اجاره می‌کند." },
+          { "de": "Wir mieten ein Haus.", "fa": "ما خانه اجاره می‌کنیم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gemietet", "fa": "من اجاره کرده‌ام." },
+      { "person": "du", "form": "hast gemietet", "fa": "تو اجاره کرده‌ای." },
+      { "person": "er/sie/es", "form": "hat gemietet", "fa": "او/آن اجاره کرده است." },
+      { "person": "wir", "form": "haben gemietet", "fa": "ما اجاره کرده‌ایم." },
+      { "person": "ihr", "form": "habt gemietet", "fa": "شماها اجاره کرده‌اید." },
+      { "person": "sie/Sie", "form": "haben gemietet", "fa": "آنها اجاره کرده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe die Wohnung für ein Jahr gemietet.", "fa": "آپارتمان را برای یک سال اجاره کرده‌ام." },
+          { "de": "Sie hat ein Auto gemietet.", "fa": "او ماشین اجاره کرده است." },
+          { "de": "Habt ihr ein Ferienhaus gemietet?", "fa": "خانه تعطیلات اجاره کرده‌اید؟" },
+          { "de": "Wir haben schon gemietet.", "fa": "ما قبلاً اجاره کرده‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "mietete", "fa": "من اجاره می‌کردم." },
+      { "person": "du", "form": "mietetest", "fa": "تو اجاره می‌کردی." },
+      { "person": "er/sie/es", "form": "mietete", "fa": "او/آن اجاره می‌کرد." },
+      { "person": "wir", "form": "mieteten", "fa": "ما اجاره می‌کردیم." },
+      { "person": "ihr", "form": "mietetet", "fa": "شماها اجاره می‌کردید." },
+      { "person": "sie/Sie", "form": "mieteten", "fa": "آنها اجاره می‌کردند." },
+      {
+        "sentences": [
+          { "de": "Letztes Jahr mietete ich ein Zimmer.", "fa": "سال گذشته یک اتاق اجاره کردم." },
+          { "de": "Sie mieteten eine große Wohnung.", "fa": "آنها آپارتمان بزرگی اجاره کردند." },
+          { "de": "Wir mieteten ein Boot.", "fa": "ما قایق اجاره کردیم." },
+          { "de": "Er mietete das Auto für eine Woche.", "fa": "او ماشین را برای یک هفته اجاره کرد." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde mieten", "fa": "من اجاره خواهم کرد." },
+      { "person": "du", "form": "wirst mieten", "fa": "تو اجاره خواهی کرد." },
+      { "person": "er/sie/es", "form": "wird mieten", "fa": "او/آن اجاره خواهد کرد." },
+      { "person": "wir", "form": "werden mieten", "fa": "ما اجاره خواهیم کرد." },
+      { "person": "ihr", "form": "werdet mieten", "fa": "شماها اجاره خواهید کرد." },
+      { "person": "sie/Sie", "form": "werden mieten", "fa": "آنها اجاره خواهند کرد." },
+      {
+        "sentences": [
+          { "de": "Nächsten Monat werde ich eine Wohnung mieten.", "fa": "ماه آینده آپارتمان اجاره خواهم کرد." },
+          { "de": "Wirst du ein Auto mieten?", "fa": "ماشین اجاره خواهی کرد؟" },
+          { "de": "Sie werden ein Büro mieten.", "fa": "آنها دفتر اجاره خواهند کرد." },
+          { "de": "Wir werden ein Ferienhaus mieten.", "fa": "ما خانه تعطیلات اجاره خواهیم کرد." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "313",
+    "level": "A2",
+    "type": "verb",
+    "word": "möchten",
+    "pronunciation": "مُخْتِن",
+    "meaning": "خواستن (مودبانه)",
+    "antonyms": [],
+    "synonyms": ["wollen"],
+    "prasens": [
+      { "person": "Ich", "form": "möchte", "fa": "من می‌خواهم." },
+      { "person": "du", "form": "möchtest", "fa": "تو می‌خواهی." },
+      { "person": "er/sie/es", "form": "möchte", "fa": "او/آن می‌خواهد." },
+      { "person": "wir", "form": "möchten", "fa": "ما می‌خواهیم." },
+      { "person": "ihr", "form": "möchtet", "fa": "شماها می‌خواهید." },
+      { "person": "sie/Sie", "form": "möchten", "fa": "آنها می‌خواهند." },
+      {
+        "sentences": [
+          { "de": "Ich möchte ein Eis.", "fa": "من بستنی می‌خواهم." },
+          { "de": "Möchtest du Kaffee?", "fa": "قهوه می‌خواهی؟" },
+          { "de": "Sie möchte nach Hause gehen.", "fa": "او می‌خواهد به خانه برود." },
+          { "de": "Wir möchten bezahlen.", "fa": "ما می‌خواهیم پرداخت کنیم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gemocht", "fa": "من خواسته‌ام." },
+      { "person": "du", "form": "hast gemocht", "fa": "تو خواسته‌ای." },
+      { "person": "er/sie/es", "form": "hat gemocht", "fa": "او/آن خواسته است." },
+      { "person": "wir", "form": "haben gemocht", "fa": "ما خواسته‌ایم." },
+      { "person": "ihr", "form": "habt gemocht", "fa": "شماها خواسته‌اید." },
+      { "person": "sie/Sie", "form": "haben gemocht", "fa": "آنها خواسته‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe das immer gemocht.", "fa": "من همیشه این را دوست داشته‌ام." },
+          { "de": "Sie hat früher Schokolade gemocht.", "fa": "او قبلاً شکلات دوست داشته است." },
+          { "de": "Habt ihr das gemocht?", "fa": "این را دوست داشته‌اید؟" },
+          { "de": "Wir haben den Film gemocht.", "fa": "فیلم را دوست داشته‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "mochte", "fa": "من دوست داشتم." },
+      { "person": "du", "form": "mochtest", "fa": "تو دوست داشتی." },
+      { "person": "er/sie/es", "form": "mochte", "fa": "او/آن دوست داشت." },
+      { "person": "wir", "form": "mochten", "fa": "ما دوست داشتیم." },
+      { "person": "ihr", "form": "mochtet", "fa": "شماها دوست داشتید." },
+      { "person": "sie/Sie", "form": "mochten", "fa": "آنها دوست داشتند." },
+      {
+        "sentences": [
+          { "de": "Früher mochte ich keine Suppe.", "fa": "قبلاً سوپ دوست نداشتم." },
+          { "de": "Sie mochten das Konzert.", "fa": "آنها کنسرت را دوست داشتند." },
+          { "de": "Wir mochten das Essen.", "fa": "ما غذا را دوست داشتیم." },
+          { "de": "Er mochte den Lehrer.", "fa": "او معلم را دوست داشت." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde mögen", "fa": "من دوست خواهم داشت." },
+      { "person": "du", "form": "wirst mögen", "fa": "تو دوست خواهی داشت." },
+      { "person": "er/sie/es", "form": "wird mögen", "fa": "او/آن دوست خواهد داشت." },
+      { "person": "wir", "form": "werden mögen", "fa": "ما دوست خواهیم داشت." },
+      { "person": "ihr", "form": "werdet mögen", "fa": "شماها دوست خواهید داشت." },
+      { "person": "sie/Sie", "form": "werden mögen", "fa": "آنها دوست خواهند داشت." },
+      {
+        "sentences": [
+          { "de": "Ich werde das mögen.", "fa": "این را دوست خواهم داشت." },
+          { "de": "Sie werden die neue Wohnung mögen.", "fa": "آنها آپارتمان جدید را دوست خواهند داشت." },
+          { "de": "Wirst du das mögen?", "fa": "این را دوست خواهی داشت؟" },
+          { "de": "Wir werden das Essen mögen.", "fa": "ما غذا را دوست خواهیم داشت." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "314",
+    "level": "A2",
+    "type": "verb",
+    "word": "mögen",
+    "pronunciation": "مُگِن",
+    "meaning": "دوست داشتن",
+    "antonyms": ["nicht mögen"],
+    "synonyms": ["lieben", "gern haben"],
+    "prasens": [
+      { "person": "Ich", "form": "mag", "fa": "من دوست دارم." },
+      { "person": "du", "form": "magst", "fa": "تو دوست داری." },
+      { "person": "er/sie/es", "form": "mag", "fa": "او/آن دوست دارد." },
+      { "person": "wir", "form": "mögen", "fa": "ما دوست داریم." },
+      { "person": "ihr", "form": "mögt", "fa": "شماها دوست دارید." },
+      { "person": "sie/Sie", "form": "mögen", "fa": "آنها دوست دارند." },
+      {
+        "sentences": [
+          { "de": "Ich mag Apfelkuchen.", "fa": "من کیک سیب دوست دارم." },
+          { "de": "Magst du Musik?", "fa": "موسیقی دوست داری؟" },
+          { "de": "Sie mag Tiere.", "fa": "او حیوانات را دوست دارد." },
+          { "de": "Wir mögen Reisen.", "fa": "ما سفر دوست داریم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gemocht", "fa": "من دوست داشته‌ام." },
+      { "person": "du", "form": "hast gemocht", "fa": "تو دوست داشته‌ای." },
+      { "person": "er/sie/es", "form": "hat gemocht", "fa": "او/آن دوست داشته است." },
+      { "person": "wir", "form": "haben gemocht", "fa": "ما دوست داشته‌ایم." },
+      { "person": "ihr", "form": "habt gemocht", "fa": "شماها دوست داشته‌اید." },
+      { "person": "sie/Sie", "form": "haben gemocht", "fa": "آنها دوست داشته‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe das immer gemocht.", "fa": "من همیشه این را دوست داشته‌ام." },
+          { "de": "Sie hat das Buch sehr gemocht.", "fa": "او کتاب را خیلی دوست داشته است." },
+          { "de": "Habt ihr den Film gemocht?", "fa": "فیلم را دوست داشته‌اید؟" },
+          { "de": "Wir haben die Stadt gemocht.", "fa": "شهر را دوست داشته‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "mochte", "fa": "من دوست داشتم." },
+      { "person": "du", "form": "mochtest", "fa": "تو دوست داشتی." },
+      { "person": "er/sie/es", "form": "mochte", "fa": "او/آن دوست داشت." },
+      { "person": "wir", "form": "mochten", "fa": "ما دوست داشتیم." },
+      { "person": "ihr", "form": "mochtet", "fa": "شماها دوست داشتید." },
+      { "person": "sie/Sie", "form": "mochten", "fa": "آنها دوست داشتند." },
+      {
+        "sentences": [
+          { "de": "Früher mochte ich Spinat nicht.", "fa": "قبلاً اسفناج دوست نداشتم." },
+          { "de": "Sie mochten das Wetter.", "fa": "آنها هوا را دوست داشتند." },
+          { "de": "Wir mochten die Lehrerin.", "fa": "ما معلم زن را دوست داشتیم." },
+          { "de": "Er mochte Fußball.", "fa": "او فوتبال دوست داشت." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde mögen", "fa": "من دوست خواهم داشت." },
+      { "person": "du", "form": "wirst mögen", "fa": "تو دوست خواهی داشت." },
+      { "person": "er/sie/es", "form": "wird mögen", "fa": "او/آن دوست خواهد داشت." },
+      { "person": "wir", "form": "werden mögen", "fa": "ما دوست خواهیم داشت." },
+      { "person": "ihr", "form": "werdet mögen", "fa": "شماها دوست خواهید داشت." },
+      { "person": "sie/Sie", "form": "werden mögen", "fa": "آنها دوست خواهند داشت." },
+      {
+        "sentences": [
+          { "de": "Ich werde das neue Essen mögen.", "fa": "غذای جدید را دوست خواهم داشت." },
+          { "de": "Sie werden die Musik mögen.", "fa": "آنها موسیقی را دوست خواهند داشت." },
+          { "de": "Wirst du den Film mögen?", "fa": "فیلم را دوست خواهی داشت؟" },
+          { "de": "Wir werden das Projekt mögen.", "fa": "ما پروژه را دوست خواهیم داشت." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "315",
+    "level": "A2",
+    "type": "verb",
+    "word": "müssen",
+    "pronunciation": "موسِن",
+    "meaning": "باید / مجبور بودن",
+    "antonyms": [],
+    "synonyms": ["sollen"],
+    "prasens": [
+      { "person": "Ich", "form": "muss", "fa": "من باید." },
+      { "person": "du", "form": "musst", "fa": "تو باید." },
+      { "person": "er/sie/es", "form": "muss", "fa": "او/آن باید." },
+      { "person": "wir", "form": "müssen", "fa": "ما باید." },
+      { "person": "ihr", "form": "müsst", "fa": "شماها باید." },
+      { "person": "sie/Sie", "form": "müssen", "fa": "آنها باید." },
+      {
+        "sentences": [
+          { "de": "Ich muss gehen.", "fa": "من باید بروم." },
+          { "de": "Musst du arbeiten?", "fa": "باید کار کنی؟" },
+          { "de": "Sie muss lernen.", "fa": "او باید درس بخواند." },
+          { "de": "Wir müssen einkaufen.", "fa": "ما باید خرید کنیم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe gemusst", "fa": "من مجبور بوده‌ام." },
+      { "person": "du", "form": "hast gemusst", "fa": "تو مجبور بوده‌ای." },
+      { "person": "er/sie/es", "form": "hat gemusst", "fa": "او/آن مجبور بوده است." },
+      { "person": "wir", "form": "haben gemusst", "fa": "ما مجبور بوده‌ایم." },
+      { "person": "ihr", "form": "habt gemusst", "fa": "شماها مجبور بوده‌اید." },
+      { "person": "sie/Sie", "form": "haben gemusst", "fa": "آنها مجبور بوده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe gestern zur Arbeit gehen müssen.", "fa": "دیروز مجبور بودم به سر کار بروم." },
+          { "de": "Sie hat das machen müssen.", "fa": "او مجبور بوده این کار را بکند." },
+          { "de": "Habt ihr warten müssen?", "fa": "مجبور بوده‌اید صبر کنید؟" },
+          { "de": "Wir haben viel lernen müssen.", "fa": "ما مجبور بوده‌ایم زیاد درس بخوانیم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "musste", "fa": "من مجبور بودم." },
+      { "person": "du", "form": "musstest", "fa": "تو مجبور بودی." },
+      { "person": "er/sie/es", "form": "musste", "fa": "او/آن مجبور بود." },
+      { "person": "wir", "form": "mussten", "fa": "ما مجبور بودیم." },
+      { "person": "ihr", "form": "musstet", "fa": "شماها مجبور بودید." },
+      { "person": "sie/Sie", "form": "mussten", "fa": "آنها مجبور بودند." },
+      {
+        "sentences": [
+          { "de": "Ich musste früher aufstehen.", "fa": "مجبور بودم زودتر بیدار شوم." },
+          { "de": "Sie mussten den Zug nehmen.", "fa": "آنها مجبور بودند قطار سوار شوند." },
+          { "de": "Wir mussten warten.", "fa": "ما مجبور بودیم صبر کنیم." },
+          { "de": "Er musste die Prüfung wiederholen.", "fa": "او مجبور بود امتحان را تکرار کند." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde müssen", "fa": "من باید خواهم داشت." },
+      { "person": "du", "form": "wirst müssen", "fa": "تو باید خواهی داشت." },
+      { "person": "er/sie/es", "form": "wird müssen", "fa": "او/آن باید خواهد داشت." },
+      { "person": "wir", "form": "werden müssen", "fa": "ما باید خواهیم داشت." },
+      { "person": "ihr", "form": "werdet müssen", "fa": "شماها باید خواهید داشت." },
+      { "person": "sie/Sie", "form": "werden müssen", "fa": "آنها باید خواهند داشت." },
+      {
+        "sentences": [
+          { "de": "Morgen werde ich früh aufstehen müssen.", "fa": "فردا باید زود بیدار شوم." },
+          { "de": "Sie werden viel arbeiten müssen.", "fa": "آنها باید زیاد کار کنند." },
+          { "de": "Wirst du das machen müssen?", "fa": "باید این کار را بکنی؟" },
+          { "de": "Wir werden umziehen müssen.", "fa": "ما باید جابجا شویم." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "316",
+    "level": "A2",
+    "type": "verb",
+    "word": "nehmen",
+    "pronunciation": "نِمِن",
+    "meaning": "گرفتن",
+    "antonyms": ["geben"],
+    "synonyms": ["nehmen", "mitnehmen"],
+    "prasens": [
+      { "person": "Ich", "form": "nehme", "fa": "من می‌گیرم." },
+      { "person": "du", "form": "nimmst", "fa": "تو می‌گیری." },
+      { "person": "er/sie/es", "form": "nimmt", "fa": "او/آن می‌گیرد." },
+      { "person": "wir", "form": "nehmen", "fa": "ما می‌گیریم." },
+      { "person": "ihr", "form": "nehmt", "fa": "شماها می‌گیرید." },
+      { "person": "sie/Sie", "form": "nehmen", "fa": "آنها می‌گیرند." },
+      {
+        "sentences": [
+          { "de": "Ich nehme den Bus.", "fa": "اتوبوس سوار می‌شوم." },
+          { "de": "Nimmst du Zucker?", "fa": "شکر می‌گیری؟" },
+          { "de": "Sie nimmt den Schlüssel.", "fa": "او کلید را برمی‌دارد." },
+          { "de": "Wir nehmen ein Taxi.", "fa": "ما تاکسی می‌گیریم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe genommen", "fa": "من گرفته‌ام." },
+      { "person": "du", "form": "hast genommen", "fa": "تو گرفته‌ای." },
+      { "person": "er/sie/es", "form": "hat genommen", "fa": "او/آن گرفته است." },
+      { "person": "wir", "form": "haben genommen", "fa": "ما گرفته‌ایم." },
+      { "person": "ihr", "form": "habt genommen", "fa": "شماها گرفته‌اید." },
+      { "person": "sie/Sie", "form": "haben genommen", "fa": "آنها گرفته‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe den Zug genommen.", "fa": "قطار سوار شده‌ام." },
+          { "de": "Sie hat Medizin genommen.", "fa": "او دارو خورده است." },
+          { "de": "Hast du den Brief genommen?", "fa": "نامه را برداشته‌ای؟" },
+          { "de": "Wir haben gute Noten genommen.", "fa": "نمرات خوبی گرفته‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "nahm", "fa": "من گرفتم." },
+      { "person": "du", "form": "nahmst", "fa": "تو گرفتی." },
+      { "person": "er/sie/es", "form": "nahm", "fa": "او/آن گرفت." },
+      { "person": "wir", "form": "nahmen", "fa": "ما گرفتیم." },
+      { "person": "ihr", "form": "nahmt", "fa": "شماها گرفتید." },
+      { "person": "sie/Sie", "form": "nahmen", "fa": "آنها گرفتند." },
+      {
+        "sentences": [
+          { "de": "Gestern nahm ich den Zug.", "fa": "دیروز قطار گرفتم." },
+          { "de": "Sie nahmen das Angebot an.", "fa": "آنها پیشنهاد را قبول کردند." },
+          { "de": "Wir nahmen ein gutes Hotel.", "fa": "ما هتل خوبی انتخاب کردیم." },
+          { "de": "Er nahm das Buch vom Tisch.", "fa": "او کتاب را از روی میز برداشت." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde nehmen", "fa": "من خواهم گرفت." },
+      { "person": "du", "form": "wirst nehmen", "fa": "تو خواهی گرفت." },
+      { "person": "er/sie/es", "form": "wird nehmen", "fa": "او/آن خواهد گرفت." },
+      { "person": "wir", "form": "werden nehmen", "fa": "ما خواهیم گرفت." },
+      { "person": "ihr", "form": "werdet nehmen", "fa": "شماها خواهید گرفت." },
+      { "person": "sie/Sie", "form": "werden nehmen", "fa": "آنها خواهند گرفت." },
+      {
+        "sentences": [
+          { "de": "Ich werde den nächsten Bus nehmen.", "fa": "اتوبوس بعدی را خواهم گرفت." },
+          { "de": "Sie werden den Job nehmen.", "fa": "آنها شغل را قبول خواهند کرد." },
+          { "de": "Wirst du die Einladung nehmen?", "fa": "دعوت را قبول خواهی کرد؟" },
+          { "de": "Wir werden ein anderes nehmen.", "fa": "ما یکی دیگر را انتخاب خواهیم کرد." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "317",
+    "level": "A2",
+    "type": "verb",
+    "word": "nennen",
+    "pronunciation": "نِنِن",
+    "meaning": "نامیدن / گفتن",
+    "antonyms": [],
+    "synonyms": ["bezeichnen"],
+    "prasens": [
+      { "person": "Ich", "form": "nenne", "fa": "من می‌نامم." },
+      { "person": "du", "form": "nennst", "fa": "تو می‌نامی." },
+      { "person": "er/sie/es", "form": "nennt", "fa": "او/آن می‌نامد." },
+      { "person": "wir", "form": "nennen", "fa": "ما می‌نامیم." },
+      { "person": "ihr", "form": "nennt", "fa": "شماها می‌نامید." },
+      { "person": "sie/Sie", "form": "nennen", "fa": "آنها می‌نامند." },
+      {
+        "sentences": [
+          { "de": "Ich nenne ihn Max.", "fa": "او را ماکس صدا می‌کنم." },
+          { "de": "Wie nennst du das?", "fa": "این را چه می‌نامی؟" },
+          { "de": "Sie nennt ihren Hund Bello.", "fa": "سگش را بلو صدا می‌کند." },
+          { "de": "Wir nennen es ein Problem.", "fa": "ما آن را مشکل می‌نامیم." }
+        ]
+      }
+    ],
+    "perfekt": [
+      { "person": "Ich", "form": "habe genannt", "fa": "من نامیده‌ام." },
+      { "person": "du", "form": "hast genannt", "fa": "تو نامیده‌ای." },
+      { "person": "er/sie/es", "form": "hat genannt", "fa": "او/آن نامیده است." },
+      { "person": "wir", "form": "haben genannt", "fa": "ما نامیده‌ایم." },
+      { "person": "ihr", "form": "habt genannt", "fa": "شماها نامیده‌اید." },
+      { "person": "sie/Sie", "form": "haben genannt", "fa": "آنها نامیده‌اند." },
+      {
+        "sentences": [
+          { "de": "Ich habe ihn meinen Freund genannt.", "fa": "او را دوست خودم نامیده‌ام." },
+          { "de": "Sie hat das Projekt erfolgreich genannt.", "fa": "آن پروژه را موفق نامیده است." },
+          { "de": "Wie hast du das genannt?", "fa": "این را چه نامیدی؟" },
+          { "de": "Wir haben es ein Abenteuer genannt.", "fa": "ما آن را ماجراجویی نامیده‌ایم." }
+        ]
+      }
+    ],
+    "prateritum": [
+      { "person": "Ich", "form": "nannte", "fa": "من می‌نامیدم." },
+      { "person": "du", "form": "nanntest", "fa": "تو می‌نامیدی." },
+      { "person": "er/sie/es", "form": "nannte", "fa": "او/آن می‌نامید." },
+      { "person": "wir", "form": "nannten", "fa": "ما می‌نامیدیم." },
+      { "person": "ihr", "form": "nanntet", "fa": "شماها می‌نامیدید." },
+      { "person": "sie/Sie", "form": "nannten", "fa": "آنها می‌نامیدند." },
+      {
+        "sentences": [
+          { "de": "Früher nannte man das anders.", "fa": "قبلاً آن را طور دیگری می‌نامیدند." },
+          { "de": "Sie nannten ihn den König.", "fa": "او را شاه می‌نامیدند." },
+          { "de": "Wir nannten den Ort unser Zuhause.", "fa": "آن مکان را خانه خودمان می‌نامیدیم." },
+          { "de": "Er nannte seinen Plan genial.", "fa": "طرحش را نابغه‌وار نامید." }
+        ]
+      }
+    ],
+    "futur": [
+      { "person": "Ich", "form": "werde nennen", "fa": "من خواهم نامید." },
+      { "person": "du", "form": "wirst nennen", "fa": "تو خواهی نامید." },
+      { "person": "er/sie/es", "form": "wird nennen", "fa": "او/آن خواهد نامید." },
+      { "person": "wir", "form": "werden nennen", "fa": "ما خواهیم نامید." },
+      { "person": "ihr", "form": "werdet nennen", "fa": "شماها خواهید نامید." },
+      { "person": "sie/Sie", "form": "werden nennen", "fa": "آنها خواهند نامید." },
+      {
+        "sentences": [
+          { "de": "Ich werde es ein Wunder nennen.", "fa": "آن را معجزه خواهم نامید." },
+          { "de": "Sie werden die neue Straße nach ihm nennen.", "fa": "خیابان جدید را به نام او خواهند نامید." },
+          { "de": "Wirst du das so nennen?", "fa": "این را اینطور خواهی نامید؟" },
+          { "de": "Wir werden es unser Lieblingsrestaurant nennen.", "fa": "ما آن را رستوران مورد علاقه‌مان خواهیم نامید." }
+        ]
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
   }
+
 
 
 

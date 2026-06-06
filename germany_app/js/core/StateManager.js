@@ -11,19 +11,18 @@ export class StateManager {
     this.allStates = {};
   }
 
-  getStateKey(niveau, mode) {
-    return `${this.dataSetName}_${niveau}_${mode}`;
-
+  getStateKey(niveau, mode, caseFilter = "all") {
+    return `${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
-  getFullStorageKey(niveau, mode) {
-    return `${CONFIG.STORAGE_PREFIX}state_${this.getStateKey(niveau, mode)}`;
+  getFullStorageKey(niveau, mode, caseFilter = "all") {
+    return `${CONFIG.STORAGE_PREFIX}state_${this.getStateKey(niveau, mode, caseFilter)}`;
   }
 
-  getCurrentState(niveau, mode) {
-    const key = this.getStateKey(niveau, mode);
+  getCurrentState(niveau, mode, caseFilter = "all") {
+    const key = this.getStateKey(niveau, mode, caseFilter);
     if (!this.allStates[key]) {
-      const saved = localStorage.getItem(this.getFullStorageKey(niveau, mode));
+      const saved = localStorage.getItem(this.getFullStorageKey(niveau, mode, caseFilter));
       this.allStates[key] = saved ? JSON.parse(saved) : this.createNewState();
     }
     return this.allStates[key];
@@ -43,17 +42,17 @@ export class StateManager {
     };
   }
 
-  saveState(niveau, mode) {
-    const key = this.getStateKey(niveau, mode);
+  saveState(niveau, mode, caseFilter = "all") {
+    const key = this.getStateKey(niveau, mode, caseFilter);
     const state = this.allStates[key];
     if (state) {
-      localStorage.setItem(this.getFullStorageKey(niveau, mode), JSON.stringify(state));
+      localStorage.setItem(this.getFullStorageKey(niveau, mode, caseFilter), JSON.stringify(state));
     }
   }
 
-  resetProgress(niveau, mode) {
-    const key = this.getStateKey(niveau, mode);
-    localStorage.removeItem(this.getFullStorageKey(niveau, mode));
+  resetProgress(niveau, mode, caseFilter = "all") {
+    const key = this.getStateKey(niveau, mode, caseFilter);
+    localStorage.removeItem(this.getFullStorageKey(niveau, mode, caseFilter));
     delete this.allStates[key];
   }
 }

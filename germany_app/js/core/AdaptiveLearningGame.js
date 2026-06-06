@@ -37,6 +37,7 @@ export class AdaptiveLearningGame {
     this.words = [];
     this.currentNiveau = "A1";
     this.currentMode = "normal";
+    this.currentCase = "all";
     this.currentWord = null;
     this.currentQuestionType = null;
     this.currentSentence = null;
@@ -64,12 +65,14 @@ export class AdaptiveLearningGame {
   async init() {
     try {
       // بارگذاری داده‌ها
-      //   this.words = await this.dataManager.loadWords(this.jsonPath);
       this.words = await this.dataManager.loadWords(
         this.jsonPath,
         this.currentNiveau,
         this.currentMode,
+        this.currentCase,
       );
+
+      this.populateCaseSelect(this.words);
 
       // ایجاد نمونه‌های منطق و رابط کاربری
       this.gameLogic = new GameLogic(this.words);
@@ -89,12 +92,27 @@ export class AdaptiveLearningGame {
     }
   }
 
+  populateCaseSelect(words) {
+    const caseSet = new Set();
+    words.forEach(w => {
+      if (w.caseverb) {
+        w.caseverb.forEach(cv => caseSet.add(cv.case));
+      }
+    });
+    const cases = ["all", ...Array.from(caseSet).sort()];
+    const select = document.getElementById("caseSelect");
+    if (select) {
+      select.innerHTML = cases.map(c => `<option value="${c}">${c}</option>`).join("");
+      select.value = this.currentCase;
+    }
+  }
+
   /**
    * دریافت کلید ترکیب فعلی
    * Get current combination key
    */
   getCurrentKey() {
-    return `${this.currentNiveau}_${this.currentMode}`;
+    return `${this.currentNiveau}_${this.currentMode}_${this.currentCase}`;
   }
 
   /**
@@ -105,6 +123,7 @@ export class AdaptiveLearningGame {
     return this.stateManager.getCurrentState(
       this.currentNiveau,
       this.currentMode,
+      this.currentCase,
     );
   }
 
@@ -113,13 +132,13 @@ export class AdaptiveLearningGame {
    * Save all data
    */
   saveData() {
-    // this.dataManager.saveWords(this.words);
     this.dataManager.saveWords(
       this.words,
       this.currentNiveau,
       this.currentMode,
+      this.currentCase,
     );
-    this.stateManager.saveState(this.currentNiveau, this.currentMode);
+    this.stateManager.saveState(this.currentNiveau, this.currentMode, this.currentCase);
   }
 
   /**
@@ -138,13 +157,16 @@ export class AdaptiveLearningGame {
       this.resetProgress();
     });
 
-    // انتخاب سطح و حالت
+    // انتخاب سطح و حالت و حالت دستوری
     document
       .getElementById("levelSelect")
       .addEventListener("change", (e) => this.changeLevel(e.target.value));
     document
       .getElementById("modeSelect")
       .addEventListener("change", (e) => this.changeMode(e.target.value));
+    document
+      .getElementById("caseSelect")
+      ?.addEventListener("change", (e) => this.changeCase(e.target.value));
 
     // دکمه‌های اطمینان
     document
@@ -559,6 +581,22 @@ export class AdaptiveLearningGame {
   }
 
   /**
+   * تغییر حالت دستوری
+   * Change case filter
+   */
+  async changeCase(newCase) {
+    this.currentCase = newCase;
+    const sel = document.getElementById("caseSelect");
+    if (sel) sel.value = newCase;
+    await this.reloadWordsForCurrentCombination();
+    this.forceResetUIState();
+    this.resetSession();
+    this.updateUI();
+    this.saveData();
+    console.log(`🔄 Changed to ${this.getCurrentKey()}`);
+  }
+
+  /**
    * تغییر سطح
    * Change level
    */
@@ -636,6 +674,7 @@ export class AdaptiveLearningGame {
         this.jsonPath,
         this.currentNiveau,
         this.currentMode,
+        this.currentCase,
       );
       this.gameLogic = new GameLogic(this.words);
     } catch (error) {
@@ -653,7 +692,7 @@ export class AdaptiveLearningGame {
         "Are you sure you want to reset all progress for current combination?",
       )
     ) {
-      this.stateManager.resetProgress(this.currentNiveau, this.currentMode);
+      this.stateManager.resetProgress(this.currentNiveau, this.currentMode, this.currentCase);
 
       // ریست پیشرفت کلمات سطح فعلی
       const levelWords = this.words.filter(

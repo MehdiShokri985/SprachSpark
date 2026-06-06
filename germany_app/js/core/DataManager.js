@@ -11,19 +11,17 @@ export class DataManager {
     // this.storageKeyWords = `${CONFIG.STORAGE_PREFIX}words_${dataSetName}`;
   }
 
-   getStorageKeyWords(niveau, mode) {
-    return `${CONFIG.STORAGE_PREFIX}words_${this.dataSetName}_${niveau}_${mode}`;
+   getStorageKeyWords(niveau, mode, caseFilter = "all") {
+    return `${CONFIG.STORAGE_PREFIX}words_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
   /**
    * بارگذاری کلمات از localStorage یا فایل JSON
    * Load words from localStorage or JSON file
    */
-//   async loadWords(jsonPath) {
-  async loadWords(jsonPath, niveau, mode) {
+  async loadWords(jsonPath, niveau, mode, caseFilter = "all") {
     try {
-    //   const savedWords = localStorage.getItem(this.storageKeyWords);
-    const savedWords = localStorage.getItem(this.getStorageKeyWords(niveau, mode));
+    const savedWords = localStorage.getItem(this.getStorageKeyWords(niveau, mode, caseFilter));
       if (savedWords) {
         return JSON.parse(savedWords);
       }
@@ -55,8 +53,11 @@ export class DataManager {
         return normalized;
       });
 
-    //   this.saveWords(words);
-    this.saveWords(words, niveau, mode);
+      if (caseFilter !== "all") {
+        words = words.filter(w => w.caseverb && w.caseverb.some(cv => cv.case === caseFilter));
+      }
+
+    this.saveWords(words, niveau, mode, caseFilter);
       return words;
     } catch (error) {
       console.error("Error loading words:", error);
@@ -64,9 +65,7 @@ export class DataManager {
     }
   }
 
-//   saveWords(words) {
-//     localStorage.setItem(this.storageKeyWords, JSON.stringify(words));
- saveWords(words, niveau, mode) {
-    localStorage.setItem(this.getStorageKeyWords(niveau, mode), JSON.stringify(words));
+ saveWords(words, niveau, mode, caseFilter = "all") {
+    localStorage.setItem(this.getStorageKeyWords(niveau, mode, caseFilter), JSON.stringify(words));
   }
 }

@@ -1,10 +1,10 @@
 import json
 
 # مسیر فایل ورودی
-input_file = "json/json-verb-A2.json"
+input_file = "/germany_app/json/präpositionen.json"
 
 # مسیر فایل خروجی
-output_file = "verbs_listA2.json"
+output_file = "präpositionen_list.json"
 
 result = []
 

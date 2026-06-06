@@ -13,8 +13,10 @@ export class VerbLearningGame extends AdaptiveLearningGame {
         this.jsonPath,
         this.currentNiveau,
         this.currentMode,
+        this.currentCase,
       );
 
+      this.populateCaseSelect(this.words);
       this.gameLogic = new VerbGameLogic(this.words);
       this.uiManager = new VerbUIManager(this);
 
@@ -62,6 +64,7 @@ export class VerbLearningGame extends AdaptiveLearningGame {
         this.jsonPath,
         this.currentNiveau,
         this.currentMode,
+        this.currentCase,
       );
       this.gameLogic = new VerbGameLogic(this.words);
     } catch (error) {

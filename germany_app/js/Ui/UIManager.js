@@ -539,7 +539,7 @@ export class UIManager {
       document.getElementById("modalIcon").textContent = "";
       document.getElementById("modalTitle").textContent = "Correct!";
       document.getElementById("modalTitle").className =
-        "text-2xl font-bold mb-2 text-green-600";
+        "text-2xl  mb-2 text-green-600";
       this.playSound("correct");
 
       currentState.correctAnswersList = currentState.correctAnswersList || [];
@@ -563,7 +563,7 @@ export class UIManager {
       document.getElementById("modalIcon").textContent = "";
       document.getElementById("modalTitle").textContent = "Wrong";
       document.getElementById("modalTitle").className =
-        "text-2xl font-bold mb-2 text-red-600";
+        "text-2xl mb-2 text-red-600";
       // document.getElementById("modalMessage").textContent =
       //   `The correct answer was: ${correctAnswer}`;
       this.playSound("wrong");
@@ -593,8 +593,28 @@ export class UIManager {
       ? ` <span class="pronunciation">(${pron})</span>`
       : "";
     const w = this.game.currentWord;
-    const displayText = `${w.word} -- ${w.prasens[0].form} -- ${w.perfekt[3].form} -- ${w.prateritum[0].form}`;
-    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label"> . </strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(w.word)}" target="_blank" class="md-word-link hover:underline">${displayText}</a>   ${pronHtml}</div><div class="md-pair-end" dir="rtl">${w.meaning}</div></div>`;
+    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label"> . </strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(w.word)}" target="_blank" class="md-word-link hover:underline" style="font-size:1.15rem">${w.word}</a> ${pronHtml}</div><div class="md-pair-end" dir="rtl">${w.meaning}</div></div>`;
+    if (w.prasens && w.prasens.length > 0) {
+      content += `<div class="md-pair-row" style="font-size:0.85rem;color:#4f6f0c;background-color: #f9fff2"><span style="font-weight:400">. ${w.prasens[0].form} / ${w.perfekt?.[3]?.form || '?'} / ${w.prateritum?.[0]?.form || '?'}</span></div>`;
+    }
+
+    if (w.caseverb && w.caseverb.length > 0) {
+      const caseColors = {
+        "Intransitiv": '#6b7280',
+        "Akk": '#2563eb',
+        "Dativ": '#0d9488',
+        'Dativ für Person': '#0f766e',
+        gen: '#7c3aed',
+        nom: '#d97706'
+      };
+      w.caseverb.forEach((cv) => {
+        const color = caseColors[cv.case] || '#6b7280';
+        content += `<div style="margin-top:0.2rem"><span style="font-size:0.7rem;font-weight:700;color:${color};text-transform:uppercase;letter-spacing:0.04em">${cv.case}</span></div>`;
+        cv.examples.forEach((ex) => {
+          content += `<div class="md-pair-row" style="margin-top:0.05rem"><div class="md-pair-start" style="color:#1f2937;font-weight:500"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(ex.german)}" target="_blank" class="hover:underline" style="color:inherit">${ex.german}</a></div><div class="md-pair-end" dir="rtl" style="font-size:0.8rem;color:#6b7280">${ex.persian}</div></div>`;
+        });
+      });
+    }
 
     if (
       this.game.currentWord.sentences &&
@@ -604,6 +624,14 @@ export class UIManager {
       this.game.currentWord.sentences.slice(0, 3).forEach((s) => {
         content += `<div class="md-pair-row md-example-row"><div class="md-pair-start"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}" target="_blank" class="md-example-de hover:underline">${s.de}</a></div><div class="md-pair-end" dir="rtl">"${s.fa}"</div></div>`;
       });
+    }
+
+    const synTags = w.synonyms?.length > 0 ? w.synonyms.map(s => `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s)}&op=translate" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.1rem 0.5rem;font-size:0.75rem;font-weight:500;color:#065f46;background:#d1fae5;border-radius:999px;text-decoration:none;transition:background 0.15s" onmouseover="this.style.background='#a7f3d0'" onmouseout="this.style.background='#d1fae5'">${s}</a>`).join('') : '';
+    const antTags = w.antonyms?.length > 0 ? w.antonyms.map(a => `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(a)}&op=translate" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.1rem 0.5rem;font-size:0.75rem;font-weight:500;color:#991b1b;background:#fee2e2;border-radius:999px;text-decoration:none;transition:background 0.15s" onmouseover="this.style.background='#fecaca'" onmouseout="this.style.background='#fee2e2'">${a}</a>`).join('') : '';
+    const synCol = synTags ? `<div style="flex:1 1 160px;min-width:0"><div style="font-size:0.7rem;font-weight:600;color:#6b7280;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.15rem">Synonyms</div><div style="display:flex;flex-wrap:wrap;gap:0.3rem">${synTags}</div></div>` : '';
+    const antCol = antTags ? `<div style="flex:1 1 160px;min-width:0"><div style="font-size:0.7rem;font-weight:600;color:#6b7280;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.15rem">Antonyms</div><div style="display:flex;flex-wrap:wrap;gap:0.3rem">${antTags}</div></div>` : '';
+    if (synCol || antCol) {
+      content += `<div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.3rem">${synCol}${antCol}</div>`;
     }
 
     document.getElementById("modalDetails").innerHTML = content;
@@ -830,7 +858,7 @@ export class UIManager {
     document.getElementById("modalIcon").textContent = "🎉";
     document.getElementById("modalTitle").textContent = "Level Complete!";
     document.getElementById("modalTitle").className =
-      "text-2xl font-bold mb-2 text-green-600";
+      "text-2xl mb-2 text-green-600";
     // document.getElementById("modalMessage").textContent =
     //   `You have mastered all active words in ${this.game.currentNiveau}!`;
     document.getElementById("modalDetails").innerHTML =

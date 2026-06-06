@@ -1,0 +1,1325 @@
+[
+  {
+    "word": "wohnen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich wohne hier.", "persian": "من اینجا زندگی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "bezahlen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich bezahle es.", "persian": "من آن را پرداخت می‌کنم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich bezahle dir das Essen.", "persian": "من غذای تو را پرداخت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "zahlen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich zahle es.", "persian": "من آن را پرداخت می‌کنم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich zahle dir die Rechnung.", "persian": "من صورت‌حساب را برای تو پرداخت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "abfahren",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Der Zug fährt ab.", "persian": "قطار حرکت می‌کند." } ] }
+    ]
+  },
+  {
+    "word": "abgeben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich gebe es ab.", "persian": "من آن را تحویل می‌دهم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich gebe dir das Formular ab.", "persian": "من فرم را به تو تحویل می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "abholen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich hole dich ab.", "persian": "من تو را از جایی برمی‌دارم." } ] }
+    ]
+  },
+  {
+    "word": "anfangen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich fange es an.", "persian": "من آن را شروع می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "anklicken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Klick mich an.", "persian": "روی من کلیک کن." } ] }
+    ]
+  },
+  {
+    "word": "ankommen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich komme an.", "persian": "من می‌رسم." } ] }
+    ]
+  },
+  {
+    "word": "ankreuzen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Kreuz es an.", "persian": "آن را علامت بزن." } ] }
+    ]
+  },
+  {
+    "word": "anmachen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Mach es an.", "persian": "آن را روشن کن." } ] }
+    ]
+  },
+  {
+    "word": "anmelden",
+    "caseverb": [
+      { "case": "akk (reflexiv)", "examples": [ { "german": "Ich melde mich an.", "persian": "من ثبت‌نام می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "anrufen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich rufe dich an.", "persian": "من به تو زنگ می‌زنم." } ] }
+    ]
+  },
+  {
+    "word": "antworten",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Ich antworte dir.", "persian": "من به تو جواب می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "anziehen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich ziehe es an.", "persian": "من آن را می‌پوشم." } ] },
+      { "case": "reflexiv", "examples": [ { "german": "Ich ziehe mich an.", "persian": "من لباس می‌پوشم." } ] }
+    ]
+  },
+  {
+    "word": "arbeiten",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich arbeite.", "persian": "من کار می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "aufhören",
+    "caseverb": [
+      { "case": "mit + Dativ", "examples": [ { "german": "Ich höre damit auf.", "persian": "من از آن دست می‌کشم." } ] }
+    ]
+  },
+  {
+    "word": "aufstehen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich stehe auf.", "persian": "من از خواب بلند می‌شوم." } ] }
+    ]
+  },
+  {
+    "word": "ausfüllen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Füll es aus.", "persian": "آن را پر کن." } ] }
+    ]
+  },
+  {
+    "word": "ausmachen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Mach es aus.", "persian": "آن را خاموش کن." } ] }
+    ]
+  },
+  {
+    "word": "aussehen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Es sieht gut aus.", "persian": "خوب به نظر می‌رسد." } ] }
+    ]
+  },
+  {
+    "word": "aussteigen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich steige aus.", "persian": "من پیاده می‌شوم." } ] }
+    ]
+  },
+  {
+    "word": "ausziehen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich ziehe es aus.", "persian": "من آن را درمی‌آورم." } ] },
+      { "case": "reflexiv", "examples": [ { "german": "Ich ziehe mich aus.", "persian": "من لباس‌هایم را درمی‌آورم." } ] }
+    ]
+  },
+  {
+    "word": "baden",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich bade.", "persian": "من حمام می‌کنم." } ] },
+      { "case": "akk (reflexiv)", "examples": [ { "german": "Ich bade mich.", "persian": "من خودم را حمام می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "bedeuten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Es bedeutet mir viel.", "persian": "برای من خیلی مهم است." } ] }
+    ]
+  },
+  {
+    "word": "beginnen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich beginne es.", "persian": "من آن را شروع می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "bekommen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich bekomme es.", "persian": "من آن را دریافت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "benutzen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich benutze es.", "persian": "من از آن استفاده می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "besichtigen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich besichtige es.", "persian": "من از آن بازدید می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "bestellen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich bestelle es.", "persian": "من آن را سفارش می‌دهم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich bestelle dir ein Taxi.", "persian": "من برای تو تاکسی سفارش می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "besuchen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich besuche dich.", "persian": "من به دیدن تو می‌آیم." } ] }
+    ]
+  },
+  {
+    "word": "bitten",
+    "caseverb": [
+      { "case": "akk (um + Akk)", "examples": [ { "german": "Ich bitte dich um Hilfe.", "persian": "من از تو درخواست کمک می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "bleiben",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich bleibe hier.", "persian": "من اینجا می‌مانم." } ] }
+    ]
+  },
+  {
+    "word": "brauchen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich brauche dich.", "persian": "من به تو نیاز دارم." } ] }
+    ]
+  },
+  {
+    "word": "bringen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich bringe es.", "persian": "من آن را می‌آورم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich bringe dir das Buch.", "persian": "من کتاب را برای تو می‌آورم." } ] }
+    ]
+  },
+  {
+    "word": "buchstabieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Buchstabiere es.", "persian": "آن را حروف‌نویسی کن." } ] }
+    ]
+  },
+  {
+    "word": "danken",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Ich danke dir.", "persian": "از تو ممنونم." } ] }
+    ]
+  },
+  {
+    "word": "dauern",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Es dauert lange.", "persian": "طول می‌کشد." } ] }
+    ]
+  },
+  {
+    "word": "drucken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich drucke es.", "persian": "من آن را چاپ می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "drücken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Drück mich.", "persian": "من را فشار بده." } ] }
+    ]
+  },
+  {
+    "word": "dürfen",
+    "caseverb": [
+      { "case": "akk (Modalverb)", "examples": [ { "german": "Ich darf es machen.", "persian": "من اجازه دارم آن را انجام دهم." } ] }
+    ]
+  },
+  {
+    "word": "duschen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich dusche.", "persian": "من دوش می‌گیرم." } ] },
+      { "case": "akk (reflexiv)", "examples": [ { "german": "Ich dusche mich.", "persian": "من خودم را دوش می‌گیرم." } ] }
+    ]
+  },
+  {
+    "word": "einkaufen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich kaufe es ein.", "persian": "من آن را خرید می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "einladen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich lade dich ein.", "persian": "من تو را دعوت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "einsteigen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich steige ein.", "persian": "من سوار می‌شوم." } ] }
+    ]
+  },
+  {
+    "word": "empfehlen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich empfehle es.", "persian": "من آن را توصیه می‌کنم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich empfehle dir den Film.", "persian": "من این فیلم را به تو توصیه می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "enden",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Es endet.", "persian": "تمام می‌شود." } ] }
+    ]
+  },
+  {
+    "word": "entschuldigen",
+    "caseverb": [
+      { "case": "akk (reflexiv)", "examples": [ { "german": "Ich entschuldige mich bei dir.", "persian": "من از تو عذرخواهی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "erklären",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich erkläre es.", "persian": "من آن را توضیح می‌دهم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich erkläre dir die Regel.", "persian": "من قانون را برای تو توضیح می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "erlauben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich erlaube es.", "persian": "من اجازه می‌دهم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich erlaube dir das.", "persian": "من به تو اجازه آن را می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "erzählen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich erzähle es.", "persian": "من آن را تعریف می‌کنم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich erzähle dir die Geschichte.", "persian": "من داستان را برای تو تعریف می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "essen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich esse es.", "persian": "من آن را می‌خورم." } ] }
+    ]
+  },
+  {
+    "word": "fahren",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich fahre.", "persian": "من رانندگی می‌کنم." } ] },
+      { "case": "akk", "examples": [ { "german": "Ich fahre das Auto.", "persian": "من ماشین را رانندگی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "feiern",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich feiere es.", "persian": "من آن را جشن می‌گیرم." } ] }
+    ]
+  },
+  {
+    "word": "fehlen",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Du fehlst mir.", "persian": "دل من برای تو تنگ شده." } ] }
+    ]
+  },
+  {
+    "word": "fernsehen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich sehe fern.", "persian": "من تلویزیون تماشا می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "finden",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich finde dich.", "persian": "من تو را پیدا می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "fliegen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich fliege.", "persian": "من پرواز می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "abfliegen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Das Flugzeug fliegt ab.", "persian": "هواپیما پرواز می‌کند." } ] }
+    ]
+  },
+  {
+    "word": "fragen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich frage dich.", "persian": "من از تو می‌پرسم." } ] }
+    ]
+  },
+  {
+    "word": "freuen",
+    "caseverb": [
+      { "case": "reflexiv + auf/über + Akk", "examples": [ { "german": "Ich freue mich auf dich.", "persian": "من منتظر دیدن تو هستم." } ] }
+    ]
+  },
+  {
+    "word": "frühstücken",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich frühstücke.", "persian": "من صبحانه می‌خورم." } ] }
+    ]
+  },
+  {
+    "word": "geben",
+    "caseverb": [
+      { "case": "akk + dat", "examples": [ { "german": "Ich gebe es dir.", "persian": "من آن را به تو می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "gefallen",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Es gefällt mir.", "persian": "آن به من خوش می‌آید." } ] }
+    ]
+  },
+  {
+    "word": "gehen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich gehe.", "persian": "من می‌روم." } ] }
+    ]
+  },
+  {
+    "word": "gehören",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Es gehört mir.", "persian": "آن مال من است." } ] }
+    ]
+  },
+  {
+    "word": "sterben",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Er stirbt.", "persian": "او می‌میرد." } ] }
+    ]
+  },
+  {
+    "word": "gewinnen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich gewinne es.", "persian": "من آن را برنده می‌شوم." } ] }
+    ]
+  },
+  {
+    "word": "glauben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich glaube es.", "persian": "من آن را باور دارم." } ] },
+      { "case": "dat", "examples": [ { "german": "Ich glaube dir.", "persian": "من به تو اعتماد دارم." } ] }
+    ]
+  },
+  {
+    "word": "gratulieren",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Ich gratuliere dir.", "persian": "به تو تبریک می‌گویم." } ] }
+    ]
+  },
+  {
+    "word": "grillen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich grille es.", "persian": "من آن را کباب می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "haben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich habe es.", "persian": "من آن را دارم." } ] }
+    ]
+  },
+  {
+    "word": "halten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich halte es.", "persian": "من آن را نگه می‌دارم." } ] }
+    ]
+  },
+  {
+    "word": "heiraten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich heirate dich.", "persian": "من با تو ازدواج می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "heißen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich heiße Anna.", "persian": "اسم من آنا است." } ] }
+    ]
+  },
+  {
+    "word": "helfen",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Ich helfe dir.", "persian": "من به تو کمک می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "holen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich hole dich.", "persian": "من تو را می‌آورم." } ] }
+    ]
+  },
+  {
+    "word": "hören",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich höre dich.", "persian": "من تو را می‌شنوم." } ] }
+    ]
+  },
+  {
+    "word": "kaufen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich kaufe es.", "persian": "من آن را می‌خرم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich kaufe dir ein Geschenk.", "persian": "من برای تو هدیه می‌خرم." } ] }
+    ]
+  },
+  {
+    "word": "kennen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich kenne dich.", "persian": "من تو را می‌شناسم." } ] }
+    ]
+  },
+  {
+    "word": "kennenlernen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich lerne dich kennen.", "persian": "من با تو آشنا می‌شوم." } ] }
+    ]
+  },
+  {
+    "word": "kochen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich koche es.", "persian": "من آن را می‌پزم." } ] }
+    ]
+  },
+  {
+    "word": "kommen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich komme.", "persian": "من می‌آیم." } ] }
+    ]
+  },
+  {
+    "word": "können",
+    "caseverb": [
+      { "case": "akk (Modalverb)", "examples": [ { "german": "Ich kann es.", "persian": "من می‌توانم آن را انجام دهم." } ] }
+    ]
+  },
+  {
+    "word": "kosten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Es kostet mich viel.", "persian": "برای من گران است." } ] }
+    ]
+  },
+  {
+    "word": "kriegen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich kriege es.", "persian": "من آن را می‌گیرم." } ] }
+    ]
+  },
+  {
+    "word": "sich kümmern",
+    "caseverb": [
+      { "case": "reflexiv + um + Akk", "examples": [ { "german": "Ich kümmere mich um dich.", "persian": "من از تو مراقبت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "lachen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich lache.", "persian": "من می‌خندم." } ] },
+      { "case": "über + Akk", "examples": [ { "german": "Ich lache über dich.", "persian": "من به تو می‌خندم." } ] }
+    ]
+  },
+  {
+    "word": "laufen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich laufe.", "persian": "من می‌دوم." } ] }
+    ]
+  },
+  {
+    "word": "leben",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich lebe.", "persian": "من زندگی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "legen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich lege es hin.", "persian": "من آن را می‌گذارم." } ] }
+    ]
+  },
+  {
+    "word": "lernen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich lerne es.", "persian": "من آن را یاد می‌گیرم." } ] }
+    ]
+  },
+  {
+    "word": "lesen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich lese es.", "persian": "من آن را می‌خوانم." } ] }
+    ]
+  },
+  {
+    "word": "lieben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich liebe dich.", "persian": "من تو را دوست دارم." } ] }
+    ]
+  },
+  {
+    "word": "liegen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Es liegt da.", "persian": "آن آنجا قرار دارد." } ] }
+    ]
+  },
+  {
+    "word": "machen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich mache es.", "persian": "من آن را انجام می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "mieten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich miete es.", "persian": "من آن را اجاره می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "mitbringen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich bringe es mit.", "persian": "من آن را با خودم می‌آورم." } ] }
+    ]
+  },
+  {
+    "word": "mitkommen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Komm mit!", "persian": "با من بیا!" } ] }
+    ]
+  },
+  {
+    "word": "mitnehmen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich nehme dich mit.", "persian": "من تو را با خودم می‌برم." } ] }
+    ]
+  },
+  {
+    "word": "möchten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich möchte es.", "persian": "من آن را می‌خواهم." } ] }
+    ]
+  },
+  {
+    "word": "mögen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich mag dich.", "persian": "من تو را دوست دارم." } ] }
+    ]
+  },
+  {
+    "word": "müssen",
+    "caseverb": [
+      { "case": "akk (Modalverb)", "examples": [ { "german": "Ich muss es machen.", "persian": "من باید آن را انجام دهم." } ] }
+    ]
+  },
+  {
+    "word": "nehmen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich nehme es.", "persian": "من آن را می‌گیرم." } ] }
+    ]
+  },
+  {
+    "word": "öffnen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich öffne es.", "persian": "من آن را باز می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "Rad fahren",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich fahre Rad.", "persian": "من دوچرخه‌سواری می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "rauchen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich rauche es.", "persian": "من آن را می‌کشم." } ] }
+    ]
+  },
+  {
+    "word": "regnen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Es regnet.", "persian": "باران می‌بارد." } ] }
+    ]
+  },
+  {
+    "word": "reisen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich reise.", "persian": "من سفر می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "reparieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich repariere es.", "persian": "من آن را تعمیر می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "riechen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Es riecht gut.", "persian": "بوی خوبی می‌دهد." } ] },
+      { "case": "akk", "examples": [ { "german": "Ich rieche es.", "persian": "من آن را بو می‌کشم." } ] }
+    ]
+  },
+  {
+    "word": "scheinen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Es scheint.", "persian": "به نظر می‌رسد." } ] }
+    ]
+  },
+  {
+    "word": "schicken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich schicke es.", "persian": "من آن را می‌فرستم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich schicke dir eine Nachricht.", "persian": "من پیام را برای تو می‌فرستم." } ] }
+    ]
+  },
+  {
+    "word": "schlafen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich schlafe.", "persian": "من می‌خوابم." } ] }
+    ]
+  },
+  {
+    "word": "schließen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich schließe es.", "persian": "من آن را می‌بندم." } ] }
+    ]
+  },
+  {
+    "word": "schmecken",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Es schmeckt mir.", "persian": "مزه‌اش به من می‌آید." } ] }
+    ]
+  },
+  {
+    "word": "sagen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich sage es.", "persian": "من آن را می‌گویم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich sage dir die Wahrheit.", "persian": "من حقیقت را به تو می‌گویم." } ] }
+    ]
+  },
+  {
+    "word": "schreiben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich schreibe es.", "persian": "من آن را می‌نویسم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich schreibe dir einen Brief.", "persian": "من نامه‌ای برای تو می‌نویسم." } ] }
+    ]
+  },
+  {
+    "word": "schwimmen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich schwimme.", "persian": "من شنا می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "sehen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich sehe dich.", "persian": "من تو را می‌بینم." } ] }
+    ]
+  },
+  {
+    "word": "sein",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich bin müde.", "persian": "من خسته‌ام." } ] }
+    ]
+  },
+  {
+    "word": "sitzen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich sitze.", "persian": "من نشسته‌ام." } ] }
+    ]
+  },
+  {
+    "word": "sollen",
+    "caseverb": [
+      { "case": "akk (Modalverb)", "examples": [ { "german": "Ich soll es machen.", "persian": "من باید آن را انجام دهم." } ] }
+    ]
+  },
+  {
+    "word": "spielen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich spiele es.", "persian": "من آن را بازی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "sprechen",
+    "caseverb": [
+      { "case": "mit + Dativ", "examples": [ { "german": "Ich spreche mit dir.", "persian": "من با تو صحبت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "stehen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich stehe.", "persian": "من ایستاده‌ام." } ] }
+    ]
+  },
+  {
+    "word": "tanzen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich tanze.", "persian": "من می‌رقصم." } ] }
+    ]
+  },
+  {
+    "word": "telefonieren",
+    "caseverb": [
+      { "case": "mit + Dativ", "examples": [ { "german": "Ich telefoniere mit dir.", "persian": "من با تو تلفن می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "treffen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich treffe dich.", "persian": "من تو را ملاقات می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "trinken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich trinke es.", "persian": "من آن را می‌نوشم." } ] }
+    ]
+  },
+  {
+    "word": "tun",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich tue es.", "persian": "من آن را انجام می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "übernachten",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich übernachte hier.", "persian": "من اینجا شب را می‌گذرانم." } ] }
+    ]
+  },
+  {
+    "word": "überweisen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich überweise es.", "persian": "من آن را واریز می‌کنم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich überweise dir Geld.", "persian": "من پول را برای تو واریز می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "unterschreiben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich unterschreibe es.", "persian": "من آن را امضا می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "verdienen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich verdiene es.", "persian": "من آن را کسب می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "verkaufen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich verkaufe es.", "persian": "من آن را می‌فروشم." } ] }
+    ]
+  },
+  {
+    "word": "vermieten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich vermiete es.", "persian": "من آن را اجاره می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "verstehen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich verstehe dich.", "persian": "من تو را می‌فهمم." } ] }
+    ]
+  },
+  {
+    "word": "vorstellen",
+    "caseverb": [
+      { "case": "akk (reflexiv)", "examples": [ { "german": "Ich stelle mich vor.", "persian": "من خودم را معرفی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "wandern",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich wandere.", "persian": "من پیاده‌روی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "warten",
+    "caseverb": [
+      { "case": "auf + Akk", "examples": [ { "german": "Ich warte auf dich.", "persian": "من منتظر تو هستم." } ] }
+    ]
+  },
+  {
+    "word": "waschen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich wasche es.", "persian": "من آن را می‌شویم." } ] },
+      { "case": "reflexiv", "examples": [ { "german": "Ich wasche mich.", "persian": "من خودم را می‌شویم." } ] }
+    ]
+  },
+  {
+    "word": "weh tun",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Es tut mir weh.", "persian": "درد می‌کند." } ] }
+    ]
+  },
+  {
+    "word": "wiederholen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich wiederhole es.", "persian": "من آن را تکرار می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "wissen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich weiß es.", "persian": "من آن را می‌دانم." } ] }
+    ]
+  },
+  {
+    "word": "wollen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich will es.", "persian": "من آن را می‌خواهم." } ] }
+    ]
+  },
+  {
+    "word": "markieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Markiere es.", "persian": "آن را علامت‌گذاری کن." } ] }
+    ]
+  },
+  {
+    "word": "abschließen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich schließe es ab.", "persian": "من آن را قفل می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "anbieten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich biete es an.", "persian": "من آن را پیشنهاد می‌دهم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich biete dir Hilfe an.", "persian": "من به تو کمک پیشنهاد می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "ändern",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich ändere es.", "persian": "من آن را تغییر می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "aufmachen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Mach es auf.", "persian": "آن را باز کن." } ] }
+    ]
+  },
+  {
+    "word": "aufpassen",
+    "caseverb": [
+      { "case": "auf + Akk", "examples": [ { "german": "Pass auf dich auf!", "persian": "مواظب خودت باش!" } ] }
+    ]
+  },
+  {
+    "word": "aufräumen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich räume es auf.", "persian": "من آن را تمیز می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "ausgeben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich gebe es aus.", "persian": "من آن را خرج می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "ausgehen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich gehe aus.", "persian": "من بیرون می‌روم." } ] }
+    ]
+  },
+  {
+    "word": "auspacken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich packe es aus.", "persian": "من آن را باز می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "ausruhen",
+    "caseverb": [
+      { "case": "reflexiv", "examples": [ { "german": "Ich ruhe mich aus.", "persian": "من استراحت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "aussprechen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich spreche es aus.", "persian": "من آن را تلفظ می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "austragen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich trage es aus.", "persian": "من آن را تحویل می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "backen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich backe es.", "persian": "من آن را می‌پزم." } ] }
+    ]
+  },
+  {
+    "word": "basteln",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich bastle es.", "persian": "من آن را درست می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "bauen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich baue es.", "persian": "من آن را می‌سازم." } ] }
+    ]
+  },
+  {
+    "word": "beantworten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich beantworte die Frage.", "persian": "من به سؤال جواب می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "bedanken",
+    "caseverb": [
+      { "case": "reflexiv + bei + Dativ", "examples": [ { "german": "Ich bedanke mich bei dir.", "persian": "من از تو تشکر می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "beeilen",
+    "caseverb": [
+      { "case": "reflexiv", "examples": [ { "german": "Ich beeile mich.", "persian": "من عجله می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "beenden",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich beende es.", "persian": "من آن را تمام می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "beraten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich berate dich.", "persian": "من به تو مشاوره می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "berichten",
+    "caseverb": [
+      { "case": "über + Akk", "examples": [ { "german": "Ich berichte darüber.", "persian": "من در مورد آن گزارش می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "beschreiben",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich beschreibe es.", "persian": "من آن را توصیف می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "beschweren",
+    "caseverb": [
+      { "case": "reflexiv + über + Akk", "examples": [ { "german": "Ich beschwere mich.", "persian": "من شکایت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "bestätigen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich bestätige es.", "persian": "من آن را تأیید می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "bestehen",
+    "caseverb": [
+      { "case": "auf + Dativ", "examples": [ { "german": "Ich bestehe darauf.", "persian": "من بر آن اصرار دارم." } ] }
+    ]
+  },
+  {
+    "word": "bewerben",
+    "caseverb": [
+      { "case": "reflexiv + um + Akk", "examples": [ { "german": "Ich bewerbe mich um die Stelle.", "persian": "من برای شغل درخواست می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "braten",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich brate es.", "persian": "من آن را سرخ می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "buchen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich buche es.", "persian": "من آن را رزرو می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "chatten",
+    "caseverb": [
+      { "case": "mit + Dativ", "examples": [ { "german": "Ich chatte mit dir.", "persian": "من با تو چت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "denken",
+    "caseverb": [
+      { "case": "an + Akk", "examples": [ { "german": "Ich denke an dich.", "persian": "من به تو فکر می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "diskutieren",
+    "caseverb": [
+      { "case": "über + Akk", "examples": [ { "german": "Ich diskutiere darüber.", "persian": "من در مورد آن بحث می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "einpacken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich packe es ein.", "persian": "من آن را بسته‌بندی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "eintragen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich trage es ein.", "persian": "من آن را ثبت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "einziehen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich ziehe ein.", "persian": "من搬 می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "erinnern",
+    "caseverb": [
+      { "case": "reflexiv + an + Akk", "examples": [ { "german": "Ich erinnere mich an dich.", "persian": "من تو را به یاد می‌آورم." } ] }
+    ]
+  },
+  {
+    "word": "erreichen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich erreiche dich.", "persian": "من به تو می‌رسم." } ] }
+    ]
+  },
+  {
+    "word": "fallen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich falle.", "persian": "من می‌افتم." } ] }
+    ]
+  },
+  {
+    "word": "fotografieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich fotografiere dich.", "persian": "من از تو عکس می‌گیرم." } ] }
+    ]
+  },
+  {
+    "word": "fühlen",
+    "caseverb": [
+      { "case": "akk (reflexiv)", "examples": [ { "german": "Ich fühle mich gut.", "persian": "من حال خوبی دارم." } ] }
+    ]
+  },
+  {
+    "word": "hängen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Es hängt da.", "persian": "آن آنجا آویزان است." } ] }
+    ]
+  },
+  {
+    "word": "herstellen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich stelle es her.", "persian": "من آن را تولید می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "herunterladen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich lade es herunter.", "persian": "من آن را دانلود می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "hoffen",
+    "caseverb": [
+      { "case": "auf + Akk", "examples": [ { "german": "Ich hoffe auf dich.", "persian": "من به تو امید دارم." } ] }
+    ]
+  },
+  {
+    "word": "informieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich informiere dich.", "persian": "من تو را مطلع می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "interessieren",
+    "caseverb": [
+      { "case": "reflexiv + für + Akk", "examples": [ { "german": "Ich interessiere mich für dich.", "persian": "من به تو علاقه‌مندم." } ] }
+    ]
+  },
+  {
+    "word": "kontrollieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich kontrolliere es.", "persian": "من آن را بررسی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "kündigen",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Ich kündige dir.", "persian": "من به تو اخطار می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "lassen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich lasse es.", "persian": "من آن را رها می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "leidtun",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Es tut mir leid.", "persian": "متأسفم." } ] }
+    ]
+  },
+  {
+    "word": "leihen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich leihe es.", "persian": "من آن را قرض می‌دهم." } ] },
+      { "case": "Dativ für Person", "examples": [ { "german": "Ich leihe dir das Buch.", "persian": "من کتاب را به تو قرض می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "liefern",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich liefere es.", "persian": "من آن را تحویل می‌دهم." } ] }
+    ]
+  },
+  {
+    "word": "lügen",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich lüge nicht.", "persian": "من دروغ نمی‌گویم." } ] }
+    ]
+  },
+  {
+    "word": "malen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich male es.", "persian": "من آن را نقاشی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "meinen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich meine es.", "persian": "من منظورش را دارم." } ] }
+    ]
+  },
+  {
+    "word": "merken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich merke es.", "persian": "من آن را متوجه می‌شوم." } ] }
+    ]
+  },
+  {
+    "word": "nennen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich nenne es.", "persian": "من آن را نام می‌برم." } ] }
+    ]
+  },
+  {
+    "word": "notieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich notiere es.", "persian": "من آن را یادداشت می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "organisieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich organisiere es.", "persian": "من آن را سازماندهی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "packen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich packe es.", "persian": "من آن را بسته‌بندی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "parken",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich parke das Auto.", "persian": "من ماشین را پارک می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "passen",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Es passt mir.", "persian": "به من می‌آید." } ] }
+    ]
+  },
+  {
+    "word": "passieren",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Was ist passiert?", "persian": "چه اتفاقی افتاد؟" } ] },
+      { "case": "dat", "examples": [ { "german": "Es ist mir etwas passiert.", "persian": "برای من اتفاقی افتاده." } ] }
+    ]
+  },
+  {
+    "word": "planen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich plane es.", "persian": "من آن را برنامه‌ریزی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "probieren",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich probiere es.", "persian": "من آن را امتحان می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "prüfen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich prüfe es.", "persian": "من آن را بررسی می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "putzen",
+    "caseverb": [
+      { "case": "akk", "examples": [ { "german": "Ich putze es.", "persian": "من آن را تمیز می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "raten",
+    "caseverb": [
+      { "case": "dat", "examples": [ { "german": "Ich rate dir.", "persian": "من به تو پیشنهاد می‌دهم." } ] },
+      { "case": "akk", "examples": [ { "german": "Ich rate es.", "persian": "من آن را حدس می‌زنم." } ] }
+    ]
+  },
+  {
+    "word": "rechnen",
+    "caseverb": [
+      { "case": "mit + Dativ", "examples": [ { "german": "Ich rechne mit dir.", "persian": "من روی تو حساب می‌کنم." } ] }
+    ]
+  },
+  {
+    "word": "Recht haben",
+    "caseverb": [
+      { "case": "none", "examples": [ { "german": "Ich habe Recht.", "persian": "من حق دارم." } ] }
+    ]
+  }
+]

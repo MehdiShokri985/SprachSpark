@@ -1,9 +1,9 @@
 import json
 
 # مسیر فایل JSON ورودی
-input_file = "json-All-tense-verb-A2.json"
+input_file = "germany_app/json/präpositionen.json"
 # مسیر فایل JSON خروجی
-output_file = "output.json"
+output_file = "präpositionen_list.json"
 
 # خواندن فایل JSON ورودی
 with open(input_file, "r", encoding="utf-8") as f:
@@ -13,7 +13,7 @@ with open(input_file, "r", encoding="utf-8") as f:
 new_data = []
 for item in data:
     new_item = {
-        " ": item.get("Präsens"),
+        "word": item.get("word"),
    
     }
     new_data.append(new_item)
